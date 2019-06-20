@@ -1,0 +1,90 @@
+---
+description: Antes do Audience Manager poder habilitar a otimização de público-alvo para editores, você deve garantir que todos os pré-requisitos descritos neste artigo sejam atendidos. Entre em contato com o Atendimento ao cliente após verificar todos os pré-requisitos.
+seo-description: Antes do Audience Manager poder habilitar a otimização de público-alvo para editores, você deve garantir que todos os pré-requisitos descritos neste artigo sejam atendidos. Entre em contato com o Atendimento ao cliente após verificar todos os pré-requisitos.
+seo-title: Importação de arquivos de dados DFP para o Audience Manager
+solution: Audience Manager
+title: Importação de arquivos de dados DFP para o Audience Manager
+uuid: c 685 f 34 f -3 e 50-4 c 4 b -99 fa-d 8 bbafe 0 b 268
+translation-type: tm+mt
+source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+
+---
+
+
+# Importação de arquivos de dados DFP para o Audience Manager{#import-dfp-data-files-into-audience-manager}
+
+Antes do Audience Manager poder habilitar a otimização de público-alvo para editores, você deve garantir que todos os pré-requisitos descritos neste artigo sejam atendidos. Entre em contato com o Atendimento ao cliente após verificar todos os pré-requisitos.
+
+## Prerequisites for DFP Log Ingestion {#prereqs-dfp-ingestion}
+
+Note that the process described in this section must be completed *before* you move on to the prerequisites for log ingestion enablement.
+
+In order to use DFP ( [!DNL DoubleClick For Publishers]) log files in [!DNL Audience Manager], you must first set our [Audience Manager Unique User ID (UUID)](../../../reference/ids-in-aam.md) in the ad tag call. By doing this, our ID is included in the DFP logs and we can match IDs between DFP and [!DNL Audience Manager]. Use [!DNL Audience Manager] [!UICONTROL DIL] code or the [!UICONTROL Audience Management Module] to set the [!DNL Audience Manager] UUID in a first party cookie.
+
+Here is how to set the [!DNL Audience Manager] ID in the ad tag call, as explained in our documentation:
+
+* [Por meio da tag do Google Publisher (GPT)](../../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
+* [Por meio de um Destino do cookie](../../../integration/gpt-aam-destination/gpt-aam-modify-api.md)
+
+You need to set the [!DNL Audience Manager] ID yourself, and can work with [!DNL Audience Manager] consulting to check if everything works. You have set the [!DNL Audience Manager] ID correctly if:
+
+* `'aamid'` é a chave usada como identificador.
+* The User ID value is correctly formatted as the [!DNL Audience Manager] UUID, as described in our [Index of IDs in Audience Manager](../../../reference/ids-in-aam.md).
+* You have included the [!DNL Audience Manager] UUID in a defined field in your DFP logs (e.g. CustomTargeting).
+
+## Prerequisites for Log Ingestion Enablement {#prereqs-ingestion-enablement}
+
+<table id="table_C980A9F9B0FB4157B4908A64768B1571"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> Etapa </th> 
+   <th colname="col2" class="entry"> Detalhes </th> 
+   <th colname="col3" class="entry"> Proprietário </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p>Etapa 1 </p> </td> 
+   <td colname="col2"> <p>Confirm that the required steps to set the <span class="keyword"> Audience Manager</span> UUID (outlined above) have been completed prior to moving to Step 2 </p> </td> 
+   <td colname="col3"> <p><span class="keyword"> Atendimento ao</span> cliente ou consultoria do Audience Manager </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Etapa 2 </p> </td> 
+   <td colname="col2"> <p>Seu administrador DFP cria: </p> <p> 
+     <ol id="ol_FCFA9B11CFF948A488DF9CB298FC04C4"> 
+      <li id="li_BC946EDCC3324578AEB64EDDA55B5ACA">A service account for ingesting DFP logs into <span class="keyword"> Audience Manager</span>. </li> 
+      <li id="li_6B2FC7D73A3246419E55C004E17ACA25">Novas credenciais. <p>Observação: Isso pode exigir um endereço de email exclusivo específico para este projeto e será usado ao fornecer acesso ao Bucket do Google Storage. </p> </li> 
+      <li id="li_95444B9FD1B34659A9634814B262A681">Uma chave privada (credencial baseada em JSON) </li> 
+     </ol> </p> </td> 
+   <td colname="col3"> <p>Seu administrador DFP </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Etapa 3 </p> </td> 
+   <td colname="col2"> <p>Seu Administrador DFP concede acesso à API à conta do serviço. Esta etapa permite o acesso aos metadados para delinear dimensões (itens de linha, pedidos, criações). <p>Observação: Use o acesso de email da conta de serviço configurado na etapa 2 para conceder permissão para acessar a API. </p> </p> </td> 
+   <td colname="col3"> <p>Seu administrador DFP </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Etapa 4 </p> </td> 
+   <td colname="col2"> <p>Seu Administrador DFP estabelece acesso ao Bucket do Google Storage. Lembre-se: </p> <p> 
+     <ul id="ul_3E8DCC73454243D998BD9024D0966A4E"> 
+      <li id="li_3691DBD28006412288458175F75873C6">Isso pode ser feito por meio de um grupo do Google. </li> 
+      <li id="li_4774806B263245CEAAAB89BD2AA7F23F">Associe o endereço de email exclusivo atribuído à conta do serviço ao bucket de armazenamento. </li> 
+     </ul> </p> </td> 
+   <td colname="col3"> <p>Seu administrador DFP </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Etapa 5 </p> </td> 
+   <td colname="col2"> <p>Seu Administrador DFP fornece a DFP Network ID. Isso nos permite passar a ID da rede ao fazer chamadas para a API. </p> </td> 
+   <td colname="col3"> <p>Seu administrador DFP </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Etapa 6 </p> </td> 
+   <td colname="col2"> <p>Compile os pré-requisitos em um email para o AAM Customer Care (aamsupport@adobe.com) para desativar o processo de ingestão de log. Rascunho o email usando o modelo na próxima seção. </p> </td> 
+   <td colname="col3"> <p>You, or <span class="keyword"> Audience Manager</span> Consulting on your behalf </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## E-Mail Template {#email-template}
+
+Para finalizar a ativação de ingestão de log, envie-nos um email para aamsupport@adobe.com. Please use the [attached e-mail template](assets/enable_dfp_ingestion.txt).
