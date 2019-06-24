@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Perguntas frequentes sobre ingestão de dados do cliente
 uuid: 491 e 9 ec 1-4731-46 a 8-86 e 7-d 8 c 613 e 6 cedc
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: dd5c3d28097251c58e1fb095aaf4076883d1c1a1
 
 ---
 
@@ -194,7 +194,6 @@ Os casos de uso a seguir demonstram como esses tipos de arquivos afetam os perfi
 Para obter mais informações sobre tipos de arquivos completos e incrementais, consulte:
 
 * [Requisitos de nome e tamanho de arquivo do Amazon S 3 para dados de entrada…](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
-* [Requisitos de nome de FTP e tamanho de arquivo para arquivos de dados de entrada…](../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
 
 <br> 
 
@@ -209,7 +208,7 @@ During processing, [!DNL Audience Manager] simply skips that record and moves on
 Os carimbos de data e hora são usados para registro e manutenção de registros. Eles são exigidos pela sintaxe usada para um nome de arquivo de entrada devidamente formatado. Consulte:
 
 * [Requisitos de nome Amazon S3 para arquivos de dados de entrada](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
-* [Requisitos de nome de FTP e tamanho de arquivo para arquivos de dados de entrada…](../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
+
 
 <br> 
 
@@ -231,7 +230,7 @@ Sim, consulte o:
 
 * [Compactação de arquivo para arquivos de transferência de dados de entrada](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
 * [Requisitos de nome Amazon S3 para arquivos de dados de entrada](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
-* [Requisitos de nome de FTP para arquivos de dados de entrada](../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
+
 
 <br> 
 
