@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Características da pasta sobre
 uuid: e 561 ce 8 f -6 c 90-44 a 7-b 034-685533 f 29030
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: c229bf71da5b07277811219cbf2794c3ca7bc89d
 
 ---
 
@@ -62,6 +62,6 @@ Learn how to assign [!UICONTROL RBAC] permissions in our [administration documen
 | Item | Descrição |
 |---|---|
 | Tipo de característica | [!UICONTROL Onboarded traits] e [!UICONTROL algorithmic traits] contribuir com, no máximo, 1 realização da frequência de uma [!UICONTROL folder trait]. |
-| Movimentação de características entre pastas | Moving a trait from a folder to another will disqualify that trait from the first folder trait and qualify it for the second [!UICONTROL folder trait]. Isso significa que, se você excluir ou mover uma característica da pasta, os usuários na população de características serão dessegmentados dos segmentos usando a característica de pastas como uma expressão de segmento. |
+| Movimentação de características entre pastas | Moving a trait from a folder to another will disqualify that trait from the first folder trait and qualify it for the second [!UICONTROL folder trait]. Isso significa que, se você excluir ou mover uma característica da pasta, os usuários na população de características serão dessegmentados dos segmentos usando a característica de pastas como uma expressão de segmento. <br> Ao mapear segmentos do Adobe Analytics ou conjuntos de relatórios para a organização da Experience Cloud, o Audience Manager cria automaticamente novos segmentos correspondentes, correspondentes e somente leitura. Não é possível editar ou alterar o local de armazenamento dessas características do Audience Manager. No entanto, qualquer alteração realizada nos segmentos do Adobe Analytics mapeados ou nos conjuntos de relatórios reflete no Audience Manager. |
 | Variáveis do sistema | [!UICONTROL Folder traits] não pode ser observado em chamadas de evento usando o `d_sid` parâmetro. |
 | Relatórios | [!UICONTROL Folder traits] são características autosegregadas e não aparecem **[!UICONTROL Overlap Reports]**. |
