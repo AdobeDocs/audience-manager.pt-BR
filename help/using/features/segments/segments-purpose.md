@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Finalidade, composição e regras dos segmentos
 uuid: 886 d 4 abe-b 1 b 6-4983-b 4 fb-b 552 d 54 d 51 ba
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: c229bf71da5b07277811219cbf2794c3ca7bc89d
 
 ---
 
@@ -26,6 +26,10 @@ A *`segment`* (or an *`audience`*) is a set of users who share common attributes
 ## Composição do segmento
 
 Um segmento do Audience Manager é uma regra do lado do servidor que consiste em grupos individuais ou grupos de características. As características são compostos de elementos de dados chamados pares de chave-valor. Juntamente com as regras definidas no nível do segmento, esses pares de valores chave contêm os critérios que qualificam os visitantes para características de características e segmentos.
+
+## Considerações sobre o mapeamento de segmentos do Adobe Analytics
+
+Ao mapear segmentos do Adobe Analytics ou conjuntos de relatórios para a organização da Experience Cloud, o Audience Manager cria automaticamente novos segmentos correspondentes, correspondentes e somente leitura. Não é possível editar nem alterar o local de armazenamento desses segmentos no Audience Manager. No entanto, qualquer alteração realizada nos segmentos do Adobe Analytics mapeados ou nos conjuntos de relatórios reflete no Audience Manager.
 
 >[!TIP]
 >
