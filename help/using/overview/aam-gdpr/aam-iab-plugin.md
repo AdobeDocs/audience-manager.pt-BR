@@ -5,7 +5,7 @@ seo-title: Plug-in do Audience Manager para a Estrutura de consentimento do IAB
 solution: Audience Manager
 title: Plug-in do Audience Manager para a Estrutura de consentimento do IAB
 translation-type: tm+mt
-source-git-commit: 16c0dd83c18e720045995ac1851b4c91f3346183
+source-git-commit: 0e32fcaee617e7f18ce4223ffacc39708fb32786
 
 ---
 
@@ -132,7 +132,7 @@ O caso de uso é descrito na imagem e nas etapas abaixo. Inicie à esquerda da i
 
 ## Activation partners that support IAB TCF {#aam-activation-partners}
 
-O plug-in do Audience Manager para IAB TCF permite que você encaminhe a string de consentimento IAB para parceiros de ativação respeitando as opções de privacidade dos usuários. For information on which activation partners support IAB TCF (accurate as of March 21st, 2019), refer to our **[Partner Excel sheet](/help/using/overview/aam-gdpr/assets/AAM-Partners-March2019.xlsx)**.
+O plug-in do Audience Manager para IAB TCF permite que você encaminhe a string de consentimento IAB para parceiros de ativação respeitando as opções de privacidade dos usuários. For information on which activation partners support IAB TCF (accurate as of July 7th, 2019), refer to our **[Partner Excel sheet](/help/using/overview/aam-gdpr/assets/AAM-Partners-July2019.xlsx)**.
 
 ## Test your IAB implementation {#test-iab-implementation}
 
