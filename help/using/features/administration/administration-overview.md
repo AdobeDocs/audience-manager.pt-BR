@@ -8,7 +8,7 @@ title: API de
 topic: API DIL
 uuid: 498 e 0316-cf 1 b -43 e 9-88 ba -338 ee 0 daf 225
 translation-type: tm+mt
-source-git-commit: 9801bf6a1a4c2c2e7cc2aa8ab32cb81094368554
+source-git-commit: 5d66c44a9072129de9da69918e9eeda2e18ccb22
 
 ---
 
@@ -84,11 +84,11 @@ Ler abaixo para obter uma descrição do que cada permissão de caractere curing
 
 **Características**
 
-* `MAP_ALL_TRAITS_TO_MODELS` - precisa esclarecer?
-* `EDIT_ALL_TRAITS` - Os usuários podem editar todas as características pertencentes à empresa (PID)
-* `VIEW_ALL_TRAITS` - Os usuários podem exibir todas as características pertencentes à empresa (PID)
+* `MAP_ALL_TRAITS_TO_MODELS` - Os usuários podem selecionar características como a linha de base para modelos.
+* `EDIT_ALL_TRAITS` - Os usuários podem editar todas as características pertencentes à sua empresa (PID).
+* `VIEW_ALL_TRAITS` - Os usuários podem exibir todas as características pertencentes à sua empresa (PID).
 * `DELETE_ALL_TRAITS` - Os usuários podem excluir todas as características pertencentes à sua empresa (PID).
-* `CREATE_ALL_ALGO_TRAITS` - precisa esclarecer
+* `CREATE_ALL_ALGO_TRAITS` - Os usuários podem criar características algorítmicas.
 * `MAP_ALL_TO_SEGMENTS` - Os usuários podem adicionar qualquer uma das características pertencentes à empresa a segmentos.
 * `CREATE_ALL_TRAITS` - Os usuários podem criar características.
 
@@ -128,7 +128,7 @@ Ler abaixo para obter uma descrição do que cada permissão de caractere curing
 * `DELETE_ALL_SEGMENTS` - Os usuários podem excluir todos os segmentos configurados na conta da empresa.
 * `MAP_ALL_TO_DESTINATIONS` - Os usuários podem mapear qualquer segmento que pertence à empresa para destinos.
 * `EDIT_ALL_SEGMENTS` - Os usuários podem editar todos os segmentos configurados na conta da empresa.
-* `MAP_ALL_SEGMENTS_TO_MODELS` - precisa esclarecer?
+* `MAP_ALL_SEGMENTS_TO_MODELS` - Os usuários podem selecionar segmentos como a linha de base para modelos.
 * `VIEW_ALL_SEGMENTS` - Os usuários podem exibir todos os segmentos configurados na conta da empresa.
 
 **Sinais**
