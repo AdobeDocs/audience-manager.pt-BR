@@ -52,7 +52,7 @@ Recomendamos o seguinte:
 * Work with your data provider to format the daily inbound data file according to [!DNL Adobe] specifications.
 * Transfer a test data file to [!DNL Adobe] for format verification.
 * Work with your [!DNL Adobe] consultant to produce a taxonomy suitable for interpreting the contents of the data file.
-* In the staging/development environment, confirm that the ID sync is configured to properly pick up the data provider&#39;s visitor ID and transfer it to the [!DNL Audience Manager] servers in realtime.
+* In the staging/development environment, confirm that the ID sync is configured to properly pick up the data provider's visitor ID and transfer it to the [!DNL Audience Manager] servers in realtime.
 * Implantar sincronização DIL/ID com produção. A sincronização de ID já será configurada como um módulo no código DIL pelo seu consultor da Adobe.
 * Transfer production data files to [!DNL Audience Manager]. Considerando as dependências em mapeamentos de sincronização de ID, pode fazer sentido começar a transferir dados até uma semana após a implantação do código de produção, embora você possa começar a transferir os arquivos de dados assim que o código entra na produção.
 
@@ -134,7 +134,7 @@ Consider the following use cases in which the data provider is not configured to
 
 **Quanto tempo leva antes dos dados de um arquivo carregado estarem disponíveis para definição de metas?**
 
-Os dados estão disponíveis para definição de metas após 48 horas. Além disso, não interprete o email &quot;carregado bem-sucedido&quot; como uma declaração que os dados estão disponíveis. This only means that [!DNL Audience Manager] has picked up the file and completed the first step of processing.
+Os dados estão disponíveis para definição de metas após 48 horas. Além disso, não interprete o email "carregado bem-sucedido" como uma declaração que os dados estão disponíveis. This only means that [!DNL Audience Manager] has picked up the file and completed the first step of processing.
 
 <br> 
 
