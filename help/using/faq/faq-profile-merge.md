@@ -32,7 +32,7 @@ Um gráfico de dispositivos é um conjunto de mapeamentos de ID que define grupo
 
 **O que é um gráfico de dispositivos externo?**
 
-An external device graph is any device graph in [!DNL Audience Manager] that has not been created exclusively from your own cross-device data sources. For example, when you create a [Profile Merge Rule](../features/profile-merge-rules/merge-rules-start.md) and choose the [!UICONTROL Co-op Device Graph] or third-party device graph options, you&#39;re working with an external device graph. See [Device Options](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
+An external device graph is any device graph in [!DNL Audience Manager] that has not been created exclusively from your own cross-device data sources. For example, when you create a [Profile Merge Rule](../features/profile-merge-rules/merge-rules-start.md) and choose the [!UICONTROL Co-op Device Graph] or third-party device graph options, you're working with an external device graph. See [Device Options](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
 
 <br> 
 
@@ -88,7 +88,7 @@ The devices [!DNL Audience Manager] merges and reads are the same devices that a
 
 <br> 
 
-**Quais dispositivos**podem ser qualificados para um segmento usando um[!UICONTROL Profile Merge Rule]gráfico de dispositivos?**
+**Quais dispositivos **podem ser qualificados para um segmento usando um[!UICONTROL Profile Merge Rule]gráfico de dispositivos?**
 
 To qualify for a segment, devices must have been seen by Audience Manager on our [edge data servers](../reference/system-components/components-edge.md) after the segment was created. Além disso, os servidores de borda:
 
@@ -192,7 +192,7 @@ Sim. Reports return data at the [!UICONTROL Profile Merge Rule] level. Os dados 
 
 <br> 
 
-**É possível ver o número de dispositivos qualificados para um segmento específico em*tempo real*com[!UICONTROL Profile Merge Rules]o uso de um gráfico de dispositivos?**
+**É possível ver o número de dispositivos qualificados para um segmento específico em *tempo real*com[!UICONTROL Profile Merge Rules]o uso de um gráfico de dispositivos?**
 
 Sim. A métrica de população em tempo real captura as qualificações de segmento para o dispositivo atual (o dispositivo visto em tempo real) usando os perfis de todos os dispositivos vinculados por um gráfico de dispositivos.
 
