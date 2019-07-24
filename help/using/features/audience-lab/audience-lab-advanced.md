@@ -77,4 +77,4 @@ Use este recurso para impedir que parte do público-alvo seja incluída no teste
 
    ![](assets/test-segment-holdout-selected.png)
 
-1. Go through the rest of the steps in the **[!UICONTROL Create Test Group]** workflow and select **[!UICONTROL Finalize Group]** when you&#39;re satisfied with your selection. Agora, você tem um grupo de teste com parte do público-alvo negado ao teste.
+1. Go through the rest of the steps in the **[!UICONTROL Create Test Group]** workflow and select **[!UICONTROL Finalize Group]** when you're satisfied with your selection. Agora, você tem um grupo de teste com parte do público-alvo negado ao teste.
