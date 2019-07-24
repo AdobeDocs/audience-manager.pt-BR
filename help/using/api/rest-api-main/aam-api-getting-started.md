@@ -41,7 +41,7 @@ We recommend you create a separate, technical user account for working with the 
 * Identify what service is calling the [!DNL API] (e.g., calls from your apps that use our [!DNL API]s or from other tools that make [!DNL API] requests).
 * Provide uninterrupted access to the [!DNL API]s. An account tied to a specific person may be deleted when they leave your company. This will prevent you from working with the available [!DNL API] code. Uma conta genérica que não está vinculada a um determinado funcionário ajuda você a evitar esse problema.
 
-As an example or use case for this type of account, let&#39;s say you want to change a lot of segments at once with the [Bulk Management Tools](../../reference/bulk-management-tools/bulk-management-intro.md). Well, to do this, your user account needs [!DNL API] access. Rather than add permissions to a specific user, create a non-specific, [!DNL API] user account that has the appropriate credentials, key, and secret to make [!DNL API] calls. This is also useful if you develop your own applications that use the Audience Manager [!DNL API]s.
+As an example or use case for this type of account, let's say you want to change a lot of segments at once with the [Bulk Management Tools](../../reference/bulk-management-tools/bulk-management-intro.md). Well, to do this, your user account needs [!DNL API] access. Rather than add permissions to a specific user, create a non-specific, [!DNL API] user account that has the appropriate credentials, key, and secret to make [!DNL API] calls. This is also useful if you develop your own applications that use the Audience Manager [!DNL API]s.
 
 Work with your Audience Manager consultant to set up a generic, [!DNL API]-only user account.
 
@@ -63,7 +63,7 @@ Password authentication secure access our [!DNL REST API]. The steps below outli
 
 Entre em contato com o gerenciador de Soluções do parceiro. They will provide you with an [!DNL API] client ID and secret. The ID and secret authenticate you to the [!DNL API].
 
-Note: If you&#39;d like to receive a refresh token, specify that when you request [!DNL API] access.
+Note: If you'd like to receive a refresh token, specify that when you request [!DNL API] access.
 
 ### Etapa 2: Solicitar o token
 
@@ -166,7 +166,7 @@ You can use these optional parameters with [!DNL API] methods that return *all* 
 | Pagesize | Define o número de resultados da resposta retornados pela solicitação (10 é padrão). |
 | Sortby | Sorts and returns results according to the specified [!DNL JSON] property. |
 | decrescente | Os resultados e retornos resultam em ordem decrescente. Crescente é padrão. |
-| pesquisa | Retorna os resultados com base na sequência especificada que você deseja usar como um parâmetro de pesquisa. Por exemplo, digamos que você queira encontrar resultados para todos os modelos com a palavra &quot;Teste&quot; em qualquer um dos campos de valor desse item. Your sample request could look like this:   `GET https://api.demdex.com/v1/models/?search=Test`.  Você pode pesquisar qualquer valor retornado por um método &quot;get all&quot;. |
+| pesquisa | Retorna os resultados com base na sequência especificada que você deseja usar como um parâmetro de pesquisa. Por exemplo, digamos que você queira encontrar resultados para todos os modelos com a palavra "Teste" em qualquer um dos campos de valor desse item. Your sample request could look like this:   `GET https://api.demdex.com/v1/models/?search=Test`.  Você pode pesquisar qualquer valor retornado por um método "get all". |
 | Folderid | Retorna todas as IDs para características dentro da pasta especificada. Não disponível para todos os métodos. |
 | permissões | Retorna uma lista de segmentos com base na permissão especificada. LIDO é padrão. As permissões incluem:<ul><li>`READ` : Retorne e visualize informações sobre um segmento.</li><li>`WRITE` : Use `PUT` para atualizar um segmento.</li><li>`CREATE` : Use `POST` para criar um segmento.</li><li>`DELETE` : Excluir um segmento. Requer acesso a características subjacentes, se houver. Por exemplo, você precisará de direitos para excluir as características que pertencem a um segmento, se desejar removê-lo.</li></ul><br>Especifique várias permissões com pares de valor chave separados. For example, to return a list of segments with  `READ`  and  `WRITE`  permissions only, pass in  `"permissions":"READ"`, `"permissions":"WRITE"` . |
 | Includepermissions | (Booliano) Defina como verdadeiro para retornar suas permissões para o segmento. O padrão é falso. |
