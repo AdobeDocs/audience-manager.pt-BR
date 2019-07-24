@@ -25,7 +25,7 @@ t_bulk_requests.xml
 >
 >The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. Essa ferramenta é fornecida para conveniência e apenas como cortesia. For bulk changes, we recommend that you work with the [Audience Manager APIs](../../api/rest-api-main/aam-api-getting-started.md) instead. [As permissões de grupo RBAC](../../features/administration/administration-overview.md) atribuídas na [!DNL Audience Manager] interface do usuário são respeitadas [!UICONTROL Bulk Management Tools].
 
-The [!UICONTROL Request] worksheet does not have its own set of column headers and you don&#39;t need to copy IDs to any of the columns. Em vez disso, retorna dados com base no botão de ação clicado na barra de ferramentas. Além disso, um recurso de relatório opcional retorna uma contagem de frequência para acionamentos de pixel e a contagem de usuários únicos por vários intervalos de tempo fixos.
+The [!UICONTROL Request] worksheet does not have its own set of column headers and you don't need to copy IDs to any of the columns. Em vez disso, retorna dados com base no botão de ação clicado na barra de ferramentas. Além disso, um recurso de relatório opcional retorna uma contagem de frequência para acionamentos de pixel e a contagem de usuários únicos por vários intervalos de tempo fixos.
 
 To make bulk requests, open the [!UICONTROL Bulk Management Tools] worksheet and:
 
