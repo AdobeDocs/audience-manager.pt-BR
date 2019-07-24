@@ -35,7 +35,7 @@ Os clientes não têm acesso direto a esses sistemas. No entanto, os clientes tr
 
 ## Snowflake {#snowflake}
 
-[Floco de neve](https://www.snowflake.net/) é um banco de dados em nuvem massivo. Ele fornece dados a muitos dos gráficos do painel e suas caixas de texto relacionadas que exibem a % de alteração de cada item no gráfico. If you use [!DNL Audience Manager] and look at the dashboard reports, you&#39;re interacting with data provided by [!UICONTROL Snowflake].
+[Floco de neve](https://www.snowflake.net/) é um banco de dados em nuvem massivo. Ele fornece dados a muitos dos gráficos do painel e suas caixas de texto relacionadas que exibem a % de alteração de cada item no gráfico. If you use [!DNL Audience Manager] and look at the dashboard reports, you're interacting with data provided by [!UICONTROL Snowflake].
 
 
 
