@@ -42,7 +42,7 @@ Os recursos incluem:
 * **Descrição:** Diga aos compradores sobre o conteúdo do feed de dados.
 * **Características:** O número de características em cada feed de dados. Você pode ocultar isso de compradores com um feed de dados privados.
 * **Únicos de Últimos 30 dias:** O número de usuários únicos vistos nos últimos 30 dias. Você pode ocultar isso de compradores com um feed de dados privados.
-* **Taxas totais do mês passado:** Os compradores de dados assinados devem você. O período de relatório termina no dia 10 de cada mês. As contas atrasadas são sinalizadas com o ícone triângulo/ponto de exclamação. You can [deactivate a subscriber&#39;s data feed](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#deactivate-data-feed) if they misuse your data or if their account is overdue.
+* **Taxas totais do mês passado:** Os compradores de dados assinados devem você. O período de relatório termina no dia 10 de cada mês. As contas atrasadas são sinalizadas com o ícone triângulo/ponto de exclamação. You can [deactivate a subscriber's data feed](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#deactivate-data-feed) if they misuse your data or if their account is overdue.
 * **Status:** Mostra se um feed é ativo, inativo, privado ou público.
 * **Assinantes:** Mostra quantos compradores estão usando um feed de dados. Clique no número desta coluna para visualizar o nome da empresa, assinaturas, cobrança e status de assinatura de um comprador.
 * **Solicitações:** O número de solicitações de acesso para um feed de dados.
