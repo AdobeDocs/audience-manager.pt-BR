@@ -27,7 +27,7 @@ c_api_overview.xml
 When working with the instance-level [!UICONTROL DIL] APIs:
 
 * O acesso requer um nome de parceiro e ID de namespace de contêiner (NSID). Entre em contato com o gerente da conta do Audience Manager para obter essas informações.
-* Replace any sample *italicized* text in the API documentation with value, ID, or other variable as required by the method you&#39;re working with.
+* Replace any sample *italicized* text in the API documentation with value, ID, or other variable as required by the method you're working with.
 
 <!-- 
 
@@ -658,7 +658,7 @@ dil-use-cors-only.xml
 
 >[!IMPORTANT]
 >
->* We recommend that you set `useCORSOnly: true` only when you&#39;re sure that your site visitors have browsers that support this feature.
+>* We recommend that you set `useCORSOnly: true` only when you're sure that your site visitors have browsers that support this feature.
 >* When `useCORSOnly: true`, [!UICONTROL DIL] will not make ID calls from Internet Explorer version 9 or older.
 >
 
