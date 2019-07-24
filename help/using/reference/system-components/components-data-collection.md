@@ -58,7 +58,7 @@ As a customer, you engage with the [!UICONTROL DCS] indirectly through our data 
 
 **[!UICONTROL Profile Cache Servers (PCS)]**
 
-The [!UICONTROL PCS] is a large database (basically, a huge server-side cookie). It stores data received for active users from server-to-server transfers and the [!UICONTROL DCS]. [!UICONTROL PCS] são compostos por IDs de dispositivo, IDs de perfil autenticado e características associadas. When the [!UICONTROL DCS] receives a real time call, it checks the [!UICONTROL PCS] for other traits a user may belong to or qualify for. And, if a trait is added to a segment at a later time, those trait IDs are added to the [!UICONTROL PCS] and users can qualify for that segment automatically, without a visit to a particular site or app. The [!UICONTROL PCS] helps deepen [!DNL Audience Manager]&#39;s understanding of your users because it can match and segment users in real time or behind the scenes with new and historic trait data. Esse comportamento oferece uma imagem mais completa e precisa dos usuários do que somente as qualificações em tempo real.
+The [!UICONTROL PCS] is a large database (basically, a huge server-side cookie). It stores data received for active users from server-to-server transfers and the [!UICONTROL DCS]. [!UICONTROL PCS] são compostos por IDs de dispositivo, IDs de perfil autenticado e características associadas. When the [!UICONTROL DCS] receives a real time call, it checks the [!UICONTROL PCS] for other traits a user may belong to or qualify for. And, if a trait is added to a segment at a later time, those trait IDs are added to the [!UICONTROL PCS] and users can qualify for that segment automatically, without a visit to a particular site or app. The [!UICONTROL PCS] helps deepen [!DNL Audience Manager]'s understanding of your users because it can match and segment users in real time or behind the scenes with new and historic trait data. Esse comportamento oferece uma imagem mais completa e precisa dos usuários do que somente as qualificações em tempo real.
 
 There are no UI controls that lets our customers work directly with the [!UICONTROL PCS]. Customer access to the [!UICONTROL PCS] is indirect, through its role as a data store and data transfers. [!UICONTROL PCS] As execuções no Apache Cassandra.
 
@@ -75,7 +75,7 @@ Removed /dpm calls from the bulleted list. /dpm calls have been deprecated.
 
  -->
 
-The [!UICONTROL PCS] flushes traits if they&#39;re inactive for 17-days. Contudo, essas características não são perdidas. Eles são armazenados no Hadoop. If the user is seen again at another time, then Hadoop pushes all of their traits back to the [!UICONTROL PCS], typically within a 24-hour period.
+The [!UICONTROL PCS] flushes traits if they're inactive for 17-days. Contudo, essas características não são perdidas. Eles são armazenados no Hadoop. If the user is seen again at another time, then Hadoop pushes all of their traits back to the [!UICONTROL PCS], typically within a 24-hour period.
 
 **Outros[!UICONTROL DCS/PCS]processos: Opção de não participação de privacidade**
 
