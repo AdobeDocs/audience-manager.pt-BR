@@ -25,7 +25,7 @@ Familiarize-se com os termos principais usados relacionados ao RGPD. Destacamos 
 
 <br> 
 
-**Controlador de dados:** O RGPD define &quot;Controlador&quot; como &quot;the… legal person… which alone or in others with other determines the purpose and means of the processing data. » Clientes do Audience Manager são Controladores de dados. Os clientes controlam como os dados são gerenciados no Audience Manager.
+**Controlador de dados:** O RGPD define "Controlador" como "the… legal person… which alone or in others with other determines the purpose and means of the processing data. » Clientes do Audience Manager são Controladores de dados. Os clientes controlam como os dados são gerenciados no Audience Manager.
 
 <br> 
 
@@ -37,7 +37,7 @@ Familiarize-se com os termos principais usados relacionados ao RGPD. Destacamos 
 
 <br> 
 
-**Consentimento:** O consentimento significa &quot;qualquer informação livremente fornecida, específica, informada e sem ambiguidade dos desejos do Assunto dos dados pelos quais ele ou ela, por uma declaração ou ação afirmativa clara, significa que concorda com o processamento de dados pessoais relacionados a ele&quot;. O consentimento é responsabilidade do Controlador de dados, não da Adobe por meio do Audience Manager.
+**Consentimento:** O consentimento significa "qualquer informação livremente fornecida, específica, informada e sem ambiguidade dos desejos do Assunto dos dados pelos quais ele ou ela, por uma declaração ou ação afirmativa clara, significa que concorda com o processamento de dados pessoais relacionados a ele". O consentimento é responsabilidade do Controlador de dados, não da Adobe por meio do Audience Manager.
 
 <br> 
 
@@ -45,7 +45,7 @@ Familiarize-se com os termos principais usados relacionados ao RGPD. Destacamos 
 
 <br> 
 
-**Excluir:** O RGPD descreve o &quot;Right to be forgotten&quot; ou &quot;Right to Erasure&quot;. » Os Dados de dados têm o direito de exigir que os Controladores de dados apaguem seus dados pessoais. Os Controladores de dados trabalham com seus Processadores, incluindo a Adobe, para suportar solicitações de solicitações de dados de Dados.
+**Excluir:** O RGPD descreve o "Right to be forgotten" ou "Right to Erasure". » Os Dados de dados têm o direito de exigir que os Controladores de dados apaguem seus dados pessoais. Os Controladores de dados trabalham com seus Processadores, incluindo a Adobe, para suportar solicitações de solicitações de dados de Dados.
 
 <br> 
 
