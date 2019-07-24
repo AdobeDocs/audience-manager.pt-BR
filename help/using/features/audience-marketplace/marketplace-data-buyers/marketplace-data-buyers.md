@@ -35,7 +35,7 @@ The [!UICONTROL Marketplace] is an [!DNL Audience Manager] feature for data buye
 
 ![](assets/buyer_marketplace.png)
 
-[!UICONTROL Marketplace] A lista contém informações que você pode classificar e pesquisar para encontrar o feed de dados que é adequado para você. Items in the [!UICONTROL Marketplace] buyer&#39;s list include:
+[!UICONTROL Marketplace] A lista contém informações que você pode classificar e pesquisar para encontrar o feed de dados que é adequado para você. Items in the [!UICONTROL Marketplace] buyer's list include:
 
 * **[!UICONTROL Search]:** Encontre feeds de dados por nome ou descrição de texto.
 * **[!UICONTROL Name]:** Nome do feed de dados.
@@ -50,7 +50,7 @@ The [!UICONTROL Marketplace] is an [!DNL Audience Manager] feature for data buye
 
 ## Feeds de dados privados {#private-data-feeds}
 
-In the [!UICONTROL Marketplace] list, sometimes the provider&#39;s name and trait data are marked as private. This indicates a [private data feed](../../../features/audience-marketplace/marketplace-private-feeds.md). Um feed de dados privados permite que os vendedores limite o acesso do comprador aos seus dados. Os vendedores podem tornar os feeds privados quando oferecem ofertas especiais, descontos ou quando a privacidade e o controle de acesso são importantes para eles. Como comprador, você deve enviar uma solicitação de assinatura para o vendedor se quiser acesso a um feed privado. See [Subscribe to a Private Data Feed](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed) for details.
+In the [!UICONTROL Marketplace] list, sometimes the provider's name and trait data are marked as private. This indicates a [private data feed](../../../features/audience-marketplace/marketplace-private-feeds.md). Um feed de dados privados permite que os vendedores limite o acesso do comprador aos seus dados. Os vendedores podem tornar os feeds privados quando oferecem ofertas especiais, descontos ou quando a privacidade e o controle de acesso são importantes para eles. Como comprador, você deve enviar uma solicitação de assinatura para o vendedor se quiser acesso a um feed privado. See [Subscribe to a Private Data Feed](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed) for details.
 
 >[!MORE_ LIKE_ THIS]
 >
