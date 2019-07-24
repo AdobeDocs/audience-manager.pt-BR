@@ -133,7 +133,7 @@ By default, `DIL.getSearchReferrer` recognizes searches from these search engine
 
 **Descrição**
 
-O código a seguir demonstra como obter o referenciador de pesquisa para qualquer mecanismo de pesquisa compatível. In this case, let&#39;s assume a user searched on the term &quot;homes&quot; from [!DNL Google] Canada ( `www.google.ca`). Esse código ajudará você a capturar esses termos de pesquisa e a enviá-los ao Audience Manager.
+O código a seguir demonstra como obter o referenciador de pesquisa para qualquer mecanismo de pesquisa compatível. In this case, let's assume a user searched on the term "homes" from [!DNL Google] Canada ( `www.google.ca`). Esse código ajudará você a capturar esses termos de pesquisa e a enviá-los ao Audience Manager.
 
 **Código básico**
 
@@ -145,7 +145,7 @@ var search_referrer = DIL.tools.getSearchReferrer();
 
 **Amostra de código do mecanismo de pesquisa listada**
 
-In this case, let&#39;s assume that a user searched for the term &quot;homes&quot; from [!DNL Google] Canada ( `www.google.ca`). Note how the code prefixes the required `c_` parameter to search engine ( `c_se`) and search term ( `c_st`). `c_` é um [prefixo](../features/traits/trait-variable-prefixes.md) obrigatório que identifica essas variáveis definidas pelo cliente no Audience Manager.
+In this case, let's assume that a user searched for the term "homes" from [!DNL Google] Canada ( `www.google.ca`). Note how the code prefixes the required `c_` parameter to search engine ( `c_se`) and search term ( `c_st`). `c_` é um [prefixo](../features/traits/trait-variable-prefixes.md) obrigatório que identifica essas variáveis definidas pelo cliente no Audience Manager.
 
 <pre class="java"><code>var adobe_ dil = DIL. create ({parceiro: "<i>nome do parceiro</i>"}); 
 var search_ referrer = DIL. tools. getsearchreferrer (); 
@@ -160,7 +160,7 @@ if (search_ referrer &amp; &amp; search_ referrer. valid) {
 
 **Exemplo de código de mecanismo de pesquisa não listado**
 
-In this case, let&#39;s assume that a user searched for the term &quot;homes&quot; from `dogpile.com`. Because [!DNL Dogpile] is not supported by default, you can configure DIL to recognize this search engine and return the search terms to Audience Manager. Seu código pode ser semelhante ao seguinte:
+In this case, let's assume that a user searched for the term "homes" from `dogpile.com`. Because [!DNL Dogpile] is not supported by default, you can configure DIL to recognize this search engine and return the search terms to Audience Manager. Seu código pode ser semelhante ao seguinte:
 
 <pre class="java"><code>var adobe_ dil = DIL. create ({parceiro: "<i>nome do parceiro</i>"}); 
 var search_ referrer = DIL. tools. getsearchreferrer (document. referrer, { 
