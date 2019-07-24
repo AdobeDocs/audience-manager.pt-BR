@@ -91,7 +91,7 @@ Depende de. O custo é baseado em usuários únicos. Se uma campanha resultar em
 
 <br> 
 
-**O Audience Manager exibe[!UICONTROL Addressable Audiences]métricas e taxas de correspondência somente para[!UICONTROL Server-to-Server]destinos. Can you explain why we don&#39;t see these figures for Cookie and URL destinations?**
+**O Audience Manager exibe[!UICONTROL Addressable Audiences]métricas e taxas de correspondência somente para[!UICONTROL Server-to-Server]destinos. Can you explain why we don't see these figures for Cookie and URL destinations?**
 
 Ele se resume às sincronizações de ID. For [!UICONTROL Server-to-Server] destinations, we transfer data offline (either real-time or batch) and we need to send the ID that the destination partner understands, so they can map it back to the browser. O número endereçável do segmento é um subconjunto da população do segmento total.
 
