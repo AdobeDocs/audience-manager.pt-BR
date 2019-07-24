@@ -17,7 +17,7 @@ Quando o Audience Manager envia informações de segmento para um parceiro de da
 
 ## Manual method {#manual-method}
 
-Como parceiro de dados, você provavelmente é usado para obter metadados de público-alvo de seus clientes por meio de processos manuais. This could include files attached to emails or from customers adding that data through a [!DNL UI] you&#39;ve built and maintained for this purpose. Esses processos funcionam, mas geralmente são pesados, demorados e podem exigir trabalho manual de entrada de dados. Esses métodos geralmente são usados para ajudar a fazer uma integração rápida e rápida, mas não fornecem a melhor experiência do cliente a longo prazo. As an alternative, you can use the [!DNL Audience Manager] [!DNL API] to get segment metadata automatically.
+Como parceiro de dados, você provavelmente é usado para obter metadados de público-alvo de seus clientes por meio de processos manuais. This could include files attached to emails or from customers adding that data through a [!DNL UI] you've built and maintained for this purpose. Esses processos funcionam, mas geralmente são pesados, demorados e podem exigir trabalho manual de entrada de dados. Esses métodos geralmente são usados para ajudar a fazer uma integração rápida e rápida, mas não fornecem a melhor experiência do cliente a longo prazo. As an alternative, you can use the [!DNL Audience Manager] [!DNL API] to get segment metadata automatically.
 
 ## Automated method {#automated-method}
 
@@ -25,7 +25,7 @@ Como parceiro de dados, você provavelmente é usado para obter metadados de pú
 
 ### Etapa 1: Revisar as apis do Audience Manager
 
-The [Getting Started with REST APIs](../../api/rest-api-main/aam-api-getting-started.md) section contains information about general requirements, authentication, available methods, etc. This is a good place to begin if you haven&#39;t worked with the [!DNL Audience Manager] [!DNL API] before.
+The [Getting Started with REST APIs](../../api/rest-api-main/aam-api-getting-started.md) section contains information about general requirements, authentication, available methods, etc. This is a good place to begin if you haven't worked with the [!DNL Audience Manager] [!DNL API] before.
 
 ### Etapa 2: Solicitar credenciais de acesso do oauth 2
 
