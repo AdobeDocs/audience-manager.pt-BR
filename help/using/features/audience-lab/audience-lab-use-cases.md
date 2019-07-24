@@ -40,7 +40,7 @@ Nesse caso de uso, você está comparando modelos diferentes. You can either use
 1. Examine os resultados:
 
    * The [Audience Lab reporting view](../../features/audience-lab/audience-lab-reporting-view.md) will show the number of conversions each model is driving. Para campanhas com base em conversão, o segmento de teste que impulsiona mais conversões significa o modelo que está melhor desempenho.
-   * Como você possui os segmentos de controle, também é possível avaliar como o modelo foi comparado a &quot;definição padrão&quot;. Você não está apenas testando um modelo em comparação a outro, mas testando a pergunta de &quot;este modelo faz melhor do que as práticas normais?&quot;
+   * Como você possui os segmentos de controle, também é possível avaliar como o modelo foi comparado a "definição padrão". Você não está apenas testando um modelo em comparação a outro, mas testando a pergunta de "este modelo faz melhor do que as práticas normais?"
 
 ## Testing Creatives Across Destinations {#testing-creatives}
 
@@ -55,4 +55,4 @@ Use [!UICONTROL Audience Lab] to measure the number of conversions a creative is
 1. Especifique uma data de início e uma data final para o teste.
 1. Configure o segmento e o anúncio nos destinos.
 1. The [Audience Lab reporting view](../../features/audience-lab/audience-lab-reporting-view.md) will show the number of conversions the creative is driving across the destinations.
-1. Como você criou um segmento de controle, também pode avaliar como o anúncio ocorreu contra conversões naturalmente ocorrendo. Você está testando a pergunta: &quot; Este anúncio gerou uma taxa de conversão maior do que as práticas normais? &quot;
+1. Como você criou um segmento de controle, também pode avaliar como o anúncio ocorreu contra conversões naturalmente ocorrendo. Você está testando a pergunta: " Este anúncio gerou uma taxa de conversão maior do que as práticas normais? "
