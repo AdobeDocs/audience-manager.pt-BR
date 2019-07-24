@@ -131,7 +131,7 @@ All dates and date ranges are set in the [!DNL UTC] time zone. See [Time Zones i
 
 The [!UICONTROL Addressable Audience] and [!UICONTROL Destination] metrics return a count of unique users for the selected time interval. Por exemplo, um visitante é contado apenas uma vez, mesmo que eles cheguem ao site várias vezes. A primeira visita é uma visita única e é gravada. As visitas subsequentes retornas visitas e não são contadas, pois não são exclusivas.
 
-Os intervalos de datas contêm dados para o intervalo de tempo selecionado ou mais recente. E os dados de cada intervalo de relatório com o passar do tempo passam. For example, let&#39;s assume you see 2 visitors after choosing the [!UICONTROL Last 30 Days] option. Nos relatórios, estes visitantes:
+Os intervalos de datas contêm dados para o intervalo de tempo selecionado ou mais recente. E os dados de cada intervalo de relatório com o passar do tempo passam. For example, let's assume you see 2 visitors after choosing the [!UICONTROL Last 30 Days] option. Nos relatórios, estes visitantes:
 
 * *Será incluído* nos resultados retornados pelos intervalos de tempo mais longos (60 dias, 90 dias e duração).
 * *Não será* incluído nos intervalos mais curtos que antecedem a [!UICONTROL Last 30 Day] opção (Atual, 7 dias e 14 dias).
@@ -234,7 +234,7 @@ Essa métrica retorna dados sobre atividades coletadas em todos os clientes do A
 
 ## Comparing Customer and Segment Addressable Audiences{#comparing-metrics}
 
-You shouldn&#39;t compare the [!UICONTROL Customer Addressable Audience] and [!UICONTROL Segment Addressable Audience] metrics to determine if one is more significant than the other. Essas são métricas diferentes, diferentes e independentes. Conforme descrito nas definições acima, cada um deles é derivado de diferentes conjuntos de dados. Com isso, você deve evitar obter quaisquer conclusões se uma métrica for maior que a outra. Tudo que você pode dizer ao compará-los é que:
+You shouldn't compare the [!UICONTROL Customer Addressable Audience] and [!UICONTROL Segment Addressable Audience] metrics to determine if one is more significant than the other. Essas são métricas diferentes, diferentes e independentes. Conforme descrito nas definições acima, cada um deles é derivado de diferentes conjuntos de dados. Com isso, você deve evitar obter quaisquer conclusões se uma métrica for maior que a outra. Tudo que você pode dizer ao compará-los é que:
 
 * [!UICONTROL Customer Addressable Audiences] se baseia em experiências características *para seus próprios dados primários*. Essa métrica fornece uma visão ampla e abrangente da integração com um parceiro de dados.
 
