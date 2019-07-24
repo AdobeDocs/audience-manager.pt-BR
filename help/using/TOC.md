@@ -149,7 +149,7 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
          + [Alcance único do usuário](reporting/audience-optimization-reports/aor-advertisers/unique-user-reach.md)
          + [Características de conversão relatadas](reporting/audience-optimization-reports/aor-advertisers/reported-conversion-traits.md)
          + [Conversão entre canais](reporting/audience-optimization-reports/aor-advertisers/cross-channel-conversion-reporting.md)
-      + Otimização de público-alvo para editores {#audience-optimization-publishers}
+      + Otimização do Audience para editores {#audience-optimization-publishers}
          + [Visão geral do público-alvo para editores](reporting/audience-optimization-reports/aor-publishers/aor-publishers.md)
          + [Importação de arquivos de dados DFP para o Audience Manager](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
          + [Relatório de desempenho do segmento](reporting/audience-optimization-reports/aor-publishers/publisher-segment-performance.md)
