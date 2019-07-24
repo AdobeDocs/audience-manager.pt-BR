@@ -14,7 +14,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Customer Data Feeds {#customer-data-feeds}
 
-Basic information about [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) files and instructions on how to get started. Start here if you&#39;re interested in receiving [!UICONTROL CDF] files or just want more information.
+Basic information about [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) files and instructions on how to get started. Start here if you're interested in receiving [!UICONTROL CDF] files or just want more information.
 
 ## File Contents and Purpose {#file-contents-purpose}
 
@@ -33,7 +33,7 @@ There is no self-service process to start [!UICONTROL CDF] file delivery. Contac
 * Set up your [!DNL Amazon S3] storage bucket.
 * Provide read-only [!DNL S3] authentication credentials to your file storage bucket. Você não poderá visualizar ou acessar diretórios e arquivos que pertencem a outros clientes.
 
-File notifications and [!UICONTROL CDF] files will appear in your [!DNL S3] bucket when they&#39;re ready for download. You&#39;re responsible for monitoring and downloading files from your assigned [!DNL S3] directory. See [Customer Data Feed File Processing Notifications](#cdf-file-processing-notifications).
+File notifications and [!UICONTROL CDF] files will appear in your [!DNL S3] bucket when they're ready for download. You're responsible for monitoring and downloading files from your assigned [!DNL S3] directory. See [Customer Data Feed File Processing Notifications](#cdf-file-processing-notifications).
 
 ## Próximas etapas {#next-steps}
 
@@ -372,7 +372,7 @@ The following table provides additional details about your [!UICONTROL CDF] file
 
 | Local do carimbo de data e hora | Descrição |
 |--- |--- |
-| Nome do arquivo | The timestamp in your CDF file name marks the time when [!DNL Audience Manager] started preparing your file for delivery. Esse carimbo de data e hora é definido no fuso horário UTC. It uses the `hour=` parameter, with time formatted as a 2-digit hour in 24-hour notation. Esse tempo pode ser diferente do tempo registrado no conteúdo do arquivo. Breakao trabalhar com arquivos CDF, você observará que o bucket S 3 está vazio para uma hora específica. Um compartimento vazio significa que um dos seguintes meios pode significar:<ul><li>Não há dados para essa hora em particular. </li><li> Nossos servidores estão sob cargas pesadas e não podem processar arquivos de uma hora específica. Quando o servidor é capturado, coloca os arquivos que deveriam ter passado em um compartimento de tempo anterior para um bucket com um valor de tempo posterior. For example, you&#39;ll see this when a file that should have been in the hour 17 bucket appear in the hour 18 bucket (with `hour=18` in the file name). Nesse caso, o servidor provavelmente começou a processar seu arquivo na hora 17, mas não pôde preenchê-lo dentro desse intervalo de tempo. Em vez disso, o arquivo é enviado para o próximo intervalo de tempo por hora.</li></ul><br>**Importante**: Não use o carimbo de data e hora do nome de arquivo para agrupar eventos por tempo. If you need to group by time, use the `EventTime` timestamp in the file contents. |
+| Nome do arquivo | The timestamp in your CDF file name marks the time when [!DNL Audience Manager] started preparing your file for delivery. Esse carimbo de data e hora é definido no fuso horário UTC. It uses the `hour=` parameter, with time formatted as a 2-digit hour in 24-hour notation. Esse tempo pode ser diferente do tempo registrado no conteúdo do arquivo. Breakao trabalhar com arquivos CDF, você observará que o bucket S 3 está vazio para uma hora específica. Um compartimento vazio significa que um dos seguintes meios pode significar:<ul><li>Não há dados para essa hora em particular. </li><li> Nossos servidores estão sob cargas pesadas e não podem processar arquivos de uma hora específica. Quando o servidor é capturado, coloca os arquivos que deveriam ter passado em um compartimento de tempo anterior para um bucket com um valor de tempo posterior. For example, you'll see this when a file that should have been in the hour 17 bucket appear in the hour 18 bucket (with `hour=18` in the file name). Nesse caso, o servidor provavelmente começou a processar seu arquivo na hora 17, mas não pôde preenchê-lo dentro desse intervalo de tempo. Em vez disso, o arquivo é enviado para o próximo intervalo de tempo por hora.</li></ul><br>**Importante**: Não use o carimbo de data e hora do nome de arquivo para agrupar eventos por tempo. If you need to group by time, use the `EventTime` timestamp in the file contents. |
 | Conteúdo do arquivo | O carimbo de data e hora no conteúdo do arquivo CDF marca o momento em que os servidores de coleta de dados começaram a processar o arquivo. Esse carimbo de data e hora é definido no fuso horário UTC. It uses the `EventTime` field, with time formatted as *`yyyy-mm-dd hh:mm:ss`*. This time is close to the actual time of the event on the page, but it can be different than the hour indicator in the file name. <br> **Dica**: Diferentemente do `hour=` carimbo de data e hora no nome do arquivo, você pode usar `EventTime` para agrupar dados por tempo. |
 
 >[!MORE_ LIKE_ THIS]
