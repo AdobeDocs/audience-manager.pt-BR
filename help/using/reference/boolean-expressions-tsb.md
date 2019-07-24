@@ -31,7 +31,7 @@ Lógica booleana é uma ramificação de algebra que usa algumas expressões bá
 
 >[!NOTE]
 >
->[!UICONTROL NOT] O operador usa uma condição implícita &quot;e&quot; e é gravado como [!UICONTROL AND NOT].
+>[!UICONTROL NOT] O operador usa uma condição implícita "e" e é gravado como [!UICONTROL AND NOT].
 
 **Como usar expressões booleanas em características e no construtor de segmentos**
 
@@ -66,7 +66,7 @@ Você cria regras de qualificação de características e segmentos com express�
 
 **[!UICONTROL AND]Exemplo de caso de uso**
 
-[!UICONTROL AND] O operador é útil quando você tiver enumerado os requisitos de adesão de característica facilmente. Por exemplo, digamos que você precise criar um público de &quot;caros compradores de câmera&quot;. » Com um modelo de pixel, é necessário criar e colocar pixels para câmeras e um valor de preço numérico na sua página. By contrast, with traits you can apply Boolean operators to handle both conditions (cameras [!UICONTROL AND] price). O resultado é uma coleção de dados eficiente com menos chamadas HTTP, que, por sua vez, ajuda a preservar a experiência do usuário em seu site.
+[!UICONTROL AND] O operador é útil quando você tiver enumerado os requisitos de adesão de característica facilmente. Por exemplo, digamos que você precise criar um público de "caros compradores de câmera". » Com um modelo de pixel, é necessário criar e colocar pixels para câmeras e um valor de preço numérico na sua página. By contrast, with traits you can apply Boolean operators to handle both conditions (cameras [!UICONTROL AND] price). O resultado é uma coleção de dados eficiente com menos chamadas HTTP, que, por sua vez, ajuda a preservar a experiência do usuário em seu site.
 
 **[!UICONTROL OR]Exemplo de caso de uso**
 
