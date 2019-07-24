@@ -13,7 +13,7 @@ source-git-commit: f9a12cf38833cf243edf4bc4c4f4e91f83ee0ca2
 
 # Derived Signals {#derived-signals}
 
-A [!UICONTROL derived signal] qualifies site visitors for additional traits based on a trait they&#39;ve already seen. Em outras palavras, a qualificação de característica adicional pode ser derivada de uma característica exibida atualmente mesmo que um usuário nunca tenha visto a nova característica antes.
+A [!UICONTROL derived signal] qualifies site visitors for additional traits based on a trait they've already seen. Em outras palavras, a qualificação de característica adicional pode ser derivada de uma característica exibida atualmente mesmo que um usuário nunca tenha visto a nova característica antes.
 
 <!-- c_tb_derived_signal.xml -->
 
