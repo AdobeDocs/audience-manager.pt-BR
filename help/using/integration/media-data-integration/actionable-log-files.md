@@ -30,7 +30,7 @@ To get started with [!UICONTROL Actionable Log Files], and to use our [Audience 
 
 If you are already importing [!UICONTROL DCM] log data into [!DNL Audience Manager], ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to enable [!UICONTROL Actionable Log Files] for you.
 
->[!NOTE] {importance = &quot;high&quot;}
+>[!NOTE] {importance = "high"}
 >
 >[!UICONTROL Actionable Log Files] funcionam somente com [!DNL Google DCM] arquivos de log.
 
@@ -42,7 +42,7 @@ Ainda é necessário configurar características baseadas em regras para captura
 
 For an average-sized [!DNL DCM] log file of 2 million lines, any traits created from actionable signals are realized within approximately one hour after we process the logs.
 
->[!IMPORTANT] {importance = &quot;high&quot;}
+>[!IMPORTANT] {importance = "high"}
 >
 >We recommend implementing [!UICONTROL Actionable Log Files] *instead of*  [Pixel Calls](../../integration/media-data-integration/impression-data-pixels.md). Desincentivamos o uso de ambas as opções, pois isso resulta em um aumento nas contagens de frequência para características.
 
@@ -120,11 +120,11 @@ The signals described in the table are captured in [!DNL Audience Manager] like 
 https://sample.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_event=conv&d_conversion=24122&d_conversionType=2&d_bu=3983524&d_campaign=7321391&d_adsrc=11111&d_creative=123456
 ```
 
->[!NOTE] {importance = &quot;high&quot;}
+>[!NOTE] {importance = "high"}
 >
 >The event timestamp provided in the [!DNL DCM] logs will be honored and passed to the [!UICONTROL Data Collection Servers].
 >
->* If a timestamp isn&#39;t available for a data row in the [!DNL DCM] log file, we use the time of the `HTTP` call as the event timestamp.
+>* If a timestamp isn't available for a data row in the [!DNL DCM] log file, we use the time of the `HTTP` call as the event timestamp.
 >* If the data row in the [!DNL DCM] log file contains a malformed timestamp, we ignore the entire row.
 
 
@@ -136,11 +136,11 @@ One benefit of implementing [!UICONTROL Actionable Log Files] is the option to a
 
 Redirecione os usuários que viram o anúncio 123, mas não clicaram ou convertem e mostraram a creative 456. Fazer isso:
 
-1. Crie uma característica para capturar usuários que viram a criação. Let&#39;s say you name the trait [!DNL Creative Trait 123]. Use a regra de características:
+1. Crie uma característica para capturar usuários que viram a criação. Let's say you name the trait [!DNL Creative Trait 123]. Use a regra de características:
 
    `d_creative == 123 AND d_event == imp`
 
-1. Crie uma característica para capturar usuários que clicam ou convertem. Let&#39;s say you name this one [!DNL Click and Converter]. Use a regra de características:
+1. Crie uma característica para capturar usuários que clicam ou convertem. Let's say you name this one [!DNL Click and Converter]. Use a regra de características:
 
    `d_event == click OR d_event=conv`
 
