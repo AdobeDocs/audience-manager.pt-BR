@@ -28,7 +28,7 @@ Criar características com base em insights existentes relacionados ao público-
 
 Use [!UICONTROL Data Explorer] to optimize your audience building in multiple ways:
 
-* **Concentre-se em públicos-alvo de alto valor**. Monitore as mudanças de tendência na pesquisa e no comportamento de navegação nas suas páginas e crie traços específicos para seu comportamento. Elimine a necessidade de criar &quot;apenas caso&quot; características e foco em sinais relevantes.
+* **Concentre-se em públicos-alvo de alto valor**. Monitore as mudanças de tendência na pesquisa e no comportamento de navegação nas suas páginas e crie traços específicos para seu comportamento. Elimine a necessidade de criar "apenas caso" características e foco em sinais relevantes.
 * **Evite perda de dados**. Preenchimento retroativo de características com experiências históricas para que você não perca os segmentos do público porque você não criou características antes de receber os sinais.
 * **Melhore o fluxo de trabalho**. Detecte sinais de tendência e os transforme rapidamente em traços acionáveis.
 
