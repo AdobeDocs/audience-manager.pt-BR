@@ -72,10 +72,10 @@ Para assinar um feed de dados privados:
 
 1. Click the data feed name in the [!UICONTROL Marketplace].
 1. Clique em **[!UICONTROL Request Access]**. Isso abre a caixa de diálogo de solicitação.
-1. In the request dialog box, write the provider a note expressing your interest in their data feed and click **[!UICONTROL Send]**. O vendedor analisará sua mensagem e aprovará ou rejeitará sua solicitação. While waiting for approval, &quot;Requested&quot; appears in the [!UICONTROL Marketplace] list for that data feed.
+1. In the request dialog box, write the provider a note expressing your interest in their data feed and click **[!UICONTROL Send]**. O vendedor analisará sua mensagem e aprovará ou rejeitará sua solicitação. While waiting for approval, "Requested" appears in the [!UICONTROL Marketplace] list for that data feed.
 
-   * **[!UICONTROL Request approved]**: O status na [!UICONTROL Marketplace] lista muda para &quot;Acesso concedido&quot; e você receberá uma notificação automatizada. Nesse ponto, você pode assinar o feed. See [Subscribe to a Public Data Feed](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed) for instructions.
-   * **[!UICONTROL Request denied]**: O texto &quot;Solicitado&quot; é removido da [!UICONTROL Marketplace] lista para o feed. Você pode tentar assinar novamente ou escolher um feed diferente.
+   * **[!UICONTROL Request approved]**: O status na [!UICONTROL Marketplace] lista muda para "Acesso concedido" e você receberá uma notificação automatizada. Nesse ponto, você pode assinar o feed. See [Subscribe to a Public Data Feed](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed) for instructions.
+   * **[!UICONTROL Request denied]**: O texto "Solicitado" é removido da [!UICONTROL Marketplace] lista para o feed. Você pode tentar assinar novamente ou escolher um feed diferente.
 
 >[!MORE_ LIKE_ THIS]
 >
@@ -85,7 +85,7 @@ Para assinar um feed de dados privados:
 
 ## Data Feed Discounts for Buyers {#buyer-discount}
 
-In [!UICONTROL Audience Marketplace], providers can offer buyers a discount on the published price of a [!DNL CPM] or flat rate data feed. However, discount amounts aren&#39;t visible to buyers in the [!DNL Marketplace] feed list. Porém, você também pode pedir um desconto ao assinar um feed de dados privados ou ao solicitar mais informações sobre um feed específico.
+In [!UICONTROL Audience Marketplace], providers can offer buyers a discount on the published price of a [!DNL CPM] or flat rate data feed. However, discount amounts aren't visible to buyers in the [!DNL Marketplace] feed list. Porém, você também pode pedir um desconto ao assinar um feed de dados privados ou ao solicitar mais informações sobre um feed específico.
 
 ## Request a Discount {#request-discount}
 
@@ -195,7 +195,7 @@ When a data provider deactivates one of your data feeds, [!DNL Audience Manager]
 
 * **Linha de assunto:** A assinatura do *nome do feed de dados aqui* está cancelada.
 
-* **Anexos:** O e-mail inclui um anexo intitulado &quot;.&quot; `list-of-affected-entities-by-feed-revocation.csv`. Essa é uma forma de indicar que o anexo lista todas as características incluídas no feed cancelado. Como comprador de dados, você deve revisar este anexo. It will help you find and remove deactivated traits from your segments and [algorithmic models](../../../features/algorithmic-models/understanding-models.md).
+* **Anexos:** O e-mail inclui um anexo intitulado "." `list-of-affected-entities-by-feed-revocation.csv`. Essa é uma forma de indicar que o anexo lista todas as características incluídas no feed cancelado. Como comprador de dados, você deve revisar este anexo. It will help you find and remove deactivated traits from your segments and [algorithmic models](../../../features/algorithmic-models/understanding-models.md).
 
 ## Deactivated Trait List {#deactivation-trait-list}
 
@@ -269,7 +269,7 @@ When you click the name of a data plan in the [!UICONTROL Marketplace], [!DNL Au
 Esta página fornece as seguintes informações:
 
 1. **Informações básicas sobre o plano**. Isso inclui informações sobre o feed, como:
-   * Nome do feed de dados. Por exemplo, como mostrado acima, o nome deste feed é &quot;Amostra de feed de dados&quot;.
+   * Nome do feed de dados. Por exemplo, como mostrado acima, o nome deste feed é "Amostra de feed de dados".
    * O nome do provedor de dados;
    * ID do feed de dados;
    * Descrição;
