@@ -97,7 +97,7 @@ Para ler o relatório, ele ajuda a dividir os resultados em quatro seções com 
 
 ## How to Read Your Unmapped Segment Results {#read-unmapped-segment}
 
-Looking at unmapped segments in a [!UICONTROL Segment Performance] report is a great way to find new segments you haven&#39;t considered for targeting. Na verdade, alguns desses segmentos podem ignorar seus segmentos mapeados.
+Looking at unmapped segments in a [!UICONTROL Segment Performance] report is a great way to find new segments you haven't considered for targeting. Na verdade, alguns desses segmentos podem ignorar seus segmentos mapeados.
 
 Para ler este relatório, ele ajuda a dividir os resultados em quatro seções com linhas imaginárias (em vermelho) e categorias mostradas no relatório de amostra abaixo.
 
