@@ -15,7 +15,7 @@ source-git-commit: c79c2311c3ea76ce2450dc1b84a7a22b60a6edb7
 
 Uma abordagem para enviar dados de mídia ao Audience Manager usa macros do servidor de publicidade para enviar atributos de campanha para o Audience Manager.
 
-Essa metodologia é geralmente chamada de &quot;pixelando a criação&quot;. Those data points are dynamically inserted into the [!DNL Audience Manager] pixel code by the third-party ad server macros, which are used to map and report all impressions and clicks based on the key reporting attributes of the campaign. Os dados agregados fornecem uma visão unificada do desempenho da campanha, ajuda a identificar caminhos de conversão personalizados e ajuda os clientes a melhorar a sequência de eventos do servidor de anúncios que levam a conversões.
+Essa metodologia é geralmente chamada de "pixelando a criação". Those data points are dynamically inserted into the [!DNL Audience Manager] pixel code by the third-party ad server macros, which are used to map and report all impressions and clicks based on the key reporting attributes of the campaign. Os dados agregados fornecem uma visão unificada do desempenho da campanha, ajuda a identificar caminhos de conversão personalizados e ajuda os clientes a melhorar a sequência de eventos do servidor de anúncios que levam a conversões.
 
 ## Sintaxe de chamada de evento
 
