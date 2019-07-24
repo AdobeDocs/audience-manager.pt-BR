@@ -112,7 +112,7 @@ Para concluir esta seção:
 1. Click **[!UICONTROL Configuration]** to expose the controls
 1. Nomeie o cookie. Evite abreviações e caracteres especiais.
 1. Escolha uma opção de formato de dados. Essas opções permitem escolher os delimitadores e separadores para os pares de valores chave que enviam dados de segmento para um destino. As opções de formato incluem:
-   * **Chave única:** Permite definir a chave em um par de valor chave. You&#39;ll set the value after you select a segment in the [!UICONTROL Segment Mappings] section below.
+   * **Chave única:** Permite definir a chave em um par de valor chave. You'll set the value after you select a segment in the [!UICONTROL Segment Mappings] section below.
    * **Várias chaves:** Permite definir a chave e o valor para um par de valor chave. Você criará o par de valor chave depois de selecionar um segmento na seção Mapeamentos de segmento abaixo.
 See [Standard and Serial Key-Value Pairs](../../features/destinations/key-value-pairs.md) for more information about these data elements.
 1. Clique em **[!UICONTROL Save]**.
