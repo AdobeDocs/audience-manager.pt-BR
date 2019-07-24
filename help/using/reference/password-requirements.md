@@ -68,7 +68,7 @@ For information about resetting your password, see [Edit Your Account Settings](
 
 **Localidade da conta**
 
-As contas são bloqueadas após o logon com 5 falha nas tentativas. Contact your company&#39;s [!DNL Audience Manager] administrator or a Partner Services representatives to unlock your account.
+As contas são bloqueadas após o logon com 5 falha nas tentativas. Contact your company's [!DNL Audience Manager] administrator or a Partner Services representatives to unlock your account.
 
 **Senha perdida/esquecida**
 
