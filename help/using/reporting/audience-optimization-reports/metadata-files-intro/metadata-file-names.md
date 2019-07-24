@@ -41,7 +41,7 @@ No nome do arquivo de metadados, o ID filho é um identificador que classifica o
 1. Site
 1. Advertiser (if using integration codes in a [data source](../../../features/manage-datasources.md#details))
 1. Ordem de inserção (IO)
-1. Vertical (ou seja, um setor específico ou uma categoria de negócios como &quot;computadores,&quot; automóveis &quot;automóveis&quot;, etc.)
+1. Vertical (ou seja, um setor específico ou uma categoria de negócios como "computadores," automóveis "automóveis", etc.)
 1. Táticas
 1. Unidade de negócios ou marca
 
