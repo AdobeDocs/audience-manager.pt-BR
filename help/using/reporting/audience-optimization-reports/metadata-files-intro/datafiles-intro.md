@@ -48,7 +48,7 @@ A sintaxe a seguir define a estrutura do conteúdo em um arquivo de dados bem fo
 No conteúdo do arquivo:
 
 * Os rótulos de cabeçalho devem aparecer na ordem mostrada na tabela abaixo. As impressões e cliques usam os mesmos rótulos. Os arquivos de conversão contêm cabeçalhos adicionais.
-* If you don&#39;t have data for a particular column, populate that field with a `NULL` object or `-1`.
+* If you don't have data for a particular column, populate that field with a `NULL` object or `-1`.
 
 * Files *must* end with a version number. A versão atual é 1.1.
 * Separe cabeçalhos de arquivo e conteúdo com o caractere ASCII de não impressão 001. Se não puder usar ASCII 001, separe os cabeçalhos e os dados com um delimitador de tabulação. As these are non-printing characters, the syntax example above shows a pipe `"|"` for display purposes only.
