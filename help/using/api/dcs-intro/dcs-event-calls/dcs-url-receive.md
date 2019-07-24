@@ -49,7 +49,7 @@ The table below lists and defines the more common parameters you may see in a re
 |--- |--- |
 | `c` | A URL that has been set as a [URL destination](../../../features/destinations/manage-destinations.md#configure-url-destination). |
 | `cn` | The name or ID set in the cookie name field of a [cookie destination](../../../features/destinations/manage-destinations.md#create-cookie-destination). |
-| `cv` | Os valores enviados para o destino definido pelo &quot;cn&quot;: parâmetro &quot;destinatno nome&quot;. |
+| `cv` | Os valores enviados para o destino definido pelo "cn": parâmetro "destinatno nome". |
 | `dcs_region` | The [server-to-server DCS calls](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md). |
 | `dests` | Esse objeto contém informações para todos os destinos de URL configurados na interface do usuário. A lista desse objeto é dinâmica com base nas ações do usuário. |
 | `dmn` | Esse é o domínio especificado no campo Domínio do cookie para um destino de cookie. See [Optional Settings for Cookie Destinations](../../../features/destinations/manage-destinations.md#optional-settings-cookies).  For  Server to Server integrations we recommend using a domain like `aam-api.com`. |
@@ -57,7 +57,7 @@ The table below lists and defines the more common parameters you may see in a re
 | `stuff` | Esse objeto contém informações para todos os destinos de cookies. A lista desse objeto é dinâmica com base nas ações do usuário. |
 | `tid` | ID de transação, que é uma ID única de 12 caracteres usada para depuração. Cada chamada /event ao DCS recebe uma tid que você pode referenciar em pesquisas de suporte para obter uma resposta melhor e mais rápida. |
 | `ttl` | O valor de tempo para live do cookie em dias. |
-| `u` e `uuid` | ID de usuário exclusiva atribuída pelo Audience Manager. This is required if you&#39;re making [server-to-server DCS calls](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md). |
+| `u` e `uuid` | ID de usuário exclusiva atribuída pelo Audience Manager. This is required if you're making [server-to-server DCS calls](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md). |
 | `y` | Destination type,  iFrame (`iframe`) or image (`img`). |
 
 >[!MORE_ LIKE_ THIS]
