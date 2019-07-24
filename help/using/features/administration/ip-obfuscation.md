@@ -41,7 +41,7 @@ Siga as etapas abaixo para configurar a ofuscação de endereço IP.
 1. Log in to Audience Manager with an administrator account and go to **Administration &gt; Privacy**.
 2. Escolha o tipo de ofuscação de IP que deseja usar.
    1. **Ofuscar todos os endereços IP:** selecione esta opção para que o Audience Manager ofuscate o último octeto de todos os endereços IP do visitante, independentemente da região de origem.
-   2. **Ofuscar endereços IP de países específicos:** selecione esta opção para que o Audience Manager ofuscate o último octeto dos endereços IP do visitante para países específicos. Use the **List of Countries** or the corresponding **Search** field to find the countries to enable IP obfuscation for, and click the + icon to add them to the **Selected for Obfuscation** list. Once you&#39;ve added all the required countries to the **Selected for Obfuscation** list, click **Save**.
+   2. **Ofuscar endereços IP de países específicos:** selecione esta opção para que o Audience Manager ofuscate o último octeto dos endereços IP do visitante para países específicos. Use the **List of Countries** or the corresponding **Search** field to find the countries to enable IP obfuscation for, and click the + icon to add them to the **Selected for Obfuscation** list. Once you've added all the required countries to the **Selected for Obfuscation** list, click **Save**.
 
 ![](assets/ip-obfuscation.png)
 
@@ -49,7 +49,7 @@ Siga as etapas abaixo para configurar a ofuscação de endereço IP.
 
 To disable IP address obfuscation globally, go to **Administration &gt; Privacy**, select **Do not obfuscate IP addresses**, and click **Save**.
 
-To disable IP address obfuscation for specific countries, find the countries in the **Selected for Obfuscation** list, then click their corresponding **X** icon. Click **Save** when you&#39;re done.
+To disable IP address obfuscation for specific countries, find the countries in the **Selected for Obfuscation** list, then click their corresponding **X** icon. Click **Save** when you're done.
 
 ## Conceitos relacionados {#related-concepts}
 
