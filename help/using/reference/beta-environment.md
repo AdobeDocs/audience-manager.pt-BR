@@ -53,7 +53,7 @@ Added re: AAM-30826.
 
    `curl -v https://dcs-beta.demdex.net/event`
 
-1. Verifique se a solicitação foi veiculada pelo DCS beta procurando por &quot;caixa de proteção&quot; no cabeçalho de resposta do DCS.
+1. Verifique se a solicitação foi veiculada pelo DCS beta procurando por "caixa de proteção" no cabeçalho de resposta do DCS.
 
    Por exemplo:
 
