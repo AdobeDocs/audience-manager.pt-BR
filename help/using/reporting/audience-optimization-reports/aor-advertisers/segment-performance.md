@@ -54,7 +54,7 @@ Os rótulos no exemplo e a tabela a seguir podem ajudar você a entender o desem
 
 ## How to Read Your Unmapped Segment Results {#read-unmapped-segment-results}
 
-Looking at unmapped segments in a [!UICONTROL Segment Performance] report is a great way to find new segments you haven&#39;t considered for targeting. Na verdade, alguns desses segmentos podem ignorar seus segmentos mapeados. Isso ocorre porque um segmento não mapeado deve atender a um conjunto de critérios de qualificação a ser incluído neste relatório. Para ser incluído neste relatório, um segmento não mapeado deve:
+Looking at unmapped segments in a [!UICONTROL Segment Performance] report is a great way to find new segments you haven't considered for targeting. Na verdade, alguns desses segmentos podem ignorar seus segmentos mapeados. Isso ocorre porque um segmento não mapeado deve atender a um conjunto de critérios de qualificação a ser incluído neste relatório. Para ser incluído neste relatório, um segmento não mapeado deve:
 
 * Ter conversões maiores que a média de todos os seus segmentos mapeados.
 * Esteja nos primeiros 100 segmentos não mapeados por taxa de conversão.
