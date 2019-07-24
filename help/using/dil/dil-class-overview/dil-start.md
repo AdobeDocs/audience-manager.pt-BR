@@ -28,6 +28,6 @@ c_class_start.xml
 When working with the class-level [!UICONTROL DIL] APIs:
 
 * O acesso requer um nome de parceiro e ID de namespace de contêiner (NSID). Entre em contato com o gerente da conta do Audience Manager para obter essas informações.
-* Replace any sample *italicized* text in the API documentation with value, ID, or other variable as required by the method you&#39;re working with.
+* Replace any sample *italicized* text in the API documentation with value, ID, or other variable as required by the method you're working with.
 * [!UICONTROL DIL] grava dados codificados em um cookie de destino. For example, spaces are encoded as `%20` and semicolons as `%3B`.
 
