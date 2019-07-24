@@ -33,7 +33,7 @@ Podem ocorrer erros nos relatórios que geram dados de sobreposição. Um erro �
 * Não deve ter sido incluído em um relatório, mas foi adicionado.
 * Deveria ter sido incluído em um relatório, mas foi omitido.
 
-It&#39;s important to note that our tests and models show that the error rate *decreases* in an inverse proportion to the number of records in your data set. Os conjuntos de dados que possuem muitos registros geram menos erros que os conjuntos com um pequeno número de registros. Vejamos essa asserção de forma mais quantitativa. Como mostrado na tabela a seguir, para um número definido de registros, 95% dos resultados do relatório estarão abaixo de uma taxa de erros específica.
+It's important to note that our tests and models show that the error rate *decreases* in an inverse proportion to the number of records in your data set. Os conjuntos de dados que possuem muitos registros geram menos erros que os conjuntos com um pequeno número de registros. Vejamos essa asserção de forma mais quantitativa. Como mostrado na tabela a seguir, para um número definido de registros, 95% dos resultados do relatório estarão abaixo de uma taxa de erros específica.
 
 | Número de registros | Taxa de erro |
 |--- |--- |
