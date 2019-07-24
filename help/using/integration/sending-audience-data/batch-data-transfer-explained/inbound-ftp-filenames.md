@@ -31,7 +31,7 @@ Descreve os campos, sintaxe, convenções de nomenclatura e tamanhos de arquivo 
 
 For other accepted file name formats, see [Custom Partner Integrations](/help/using/integration/sending-audience-data/custom-partner-integrations.md).
 
->[!NOTE] {importance = &quot;high&quot;}
+>[!NOTE] {importance = "high"}
 >
 >[!DNL Audience Manager] somente processos e [!DNL ASCII] arquivos [!DNL UTF-8] codificados.
 
