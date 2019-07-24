@@ -29,7 +29,7 @@ r_dil_get_dexqsvars.xml
 |---|---|---|
 | `variableName` | String   | O nome da variável para a qual você deseja obter um valor. |
 | `partner` | String   | O nome do parceiro a ser pesquisado. |
-| `containerNSID` | Número inteiro | The [!DNL NSID] of the container you&#39;re searching for. Defaults is `0`. |
+| `containerNSID` | Número inteiro | The [!DNL NSID] of the container you're searching for. Defaults is `0`. |
 
 **Resposta**
 
