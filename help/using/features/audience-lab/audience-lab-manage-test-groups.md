@@ -27,7 +27,7 @@ This procedure walks you through the steps needed to create, edit, or delete a t
    >
    >[Os traços](../../features/traits/about-folder-traits.md) da pasta **não são suportados**[!UICONTROL Audience Lab]. Setting the [Event Type](../../features/traits/create-onboarded-rule-based-traits.md) of a folder trait to **conversion** will not generate any data in [!UICONTROL Audience Lab] for that specific folder trait.
 
-* For companies using [Role-Based Access Control](../../features/administration/administration-overview.md): Assign the [!UICONTROL Audience Lab] [wildcard permission](../../features/administration/administration-overview.md#wild-card-permissions) to **[!UICONTROL User Groups]** to provide access. Essa permissão permite que o usuário crie e visualize os resultados de um teste. A user will only be able to use segments from a data source they have **read** and **map to destination** privileges for. The user will only be able to use conversion traits from a data source for which they have **&quot;read&quot;** permissions. Um usuário só poderá ver os destinos aos quais eles têm acesso. So, before adding the [!DNL Audience Lab] wildcard permission to a group, make sure the group has:
+* For companies using [Role-Based Access Control](../../features/administration/administration-overview.md): Assign the [!UICONTROL Audience Lab] [wildcard permission](../../features/administration/administration-overview.md#wild-card-permissions) to **[!UICONTROL User Groups]** to provide access. Essa permissão permite que o usuário crie e visualize os resultados de um teste. A user will only be able to use segments from a data source they have **read** and **map to destination** privileges for. The user will only be able to use conversion traits from a data source for which they have **"read"** permissions. Um usuário só poderá ver os destinos aos quais eles têm acesso. So, before adding the [!DNL Audience Lab] wildcard permission to a group, make sure the group has:
    * acesso para ler características de conversão relevantes;
    * acesso a ler e mapear segmentos relevantes para testes;
    * acesso a destinos relevantes.
@@ -52,7 +52,7 @@ To create a new [!UICONTROL Segment Test Group]:
 
    * Selecione um segmento de controle se desejar que uma determinada parte do segmento seja usada como um grupo de controle. Os grupos de controle permitem que você veja o impacto dos segmentos de teste criados em comparação com um benchmark.
    * You can select a test segment as control segment in the drop-down list, or you can choose **[!UICONTROL None]** for no control.
-   * Click **[!UICONTROL Next]** when you&#39;re done.
+   * Click **[!UICONTROL Next]** when you're done.
 
 1. **[!UICONTROL Select Conversion Traits]**
 
@@ -90,7 +90,7 @@ In [!UICONTROL Audience Lab], you are only able to edit draft test groups. In th
 
 1. Navigate to the [!UICONTROL Audience Lab] main view.
 1. Search for your draft test groups and select the **[!UICONTROL Edit]** control in the test group card.
-1. Resume the [Create Segment Test Group](../../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) wizard and select **[!UICONTROL Finalize Group]** when you&#39;re done.
+1. Resume the [Create Segment Test Group](../../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) wizard and select **[!UICONTROL Finalize Group]** when you're done.
 
 ## Delete Segment Test Groups {#delete-test-groups}
 
