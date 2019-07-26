@@ -81,7 +81,7 @@ Isso normalmente ocorre quando:
 
 **Com quais versões[!DNL Analytics]do trabalho[!UICONTROL DIL]?**
 
-You must use [!DNL Analytics] version 20.2 (or higher) and the [!DNL Adobe AppMeasurement AS] library version 3.5.2 (or higher) to work with [!UICONTROL DIL]. If you don&#39;t know your [!DNL Analytics] or [!DNL AppMeasurement] version, check the [!DNL Analytics] call that gets made from the page. Informações da versão mostradas abaixo:
+You must use [!DNL Analytics] version 20.2 (or higher) and the [!DNL Adobe AppMeasurement AS] library version 3.5.2 (or higher) to work with [!UICONTROL DIL]. If you don't know your [!DNL Analytics] or [!DNL AppMeasurement] version, check the [!DNL Analytics] call that gets made from the page. Informações da versão mostradas abaixo:
 
 This customer uses [!DNL Analytics] version 24.4:
 
@@ -121,7 +121,7 @@ Sim. [!UICONTROL DIL] pode coletar alguns [!DNL Google Analytics] elementos (GA)
 
 **É possível obter dados brutos e[!DNL Audience Manager]como é granular?**
 
-Yes, [!DNL Audience Manager] can provide you with data collected for users we&#39;ve seen on your inventory. Isso inclui:
+Yes, [!DNL Audience Manager] can provide you with data collected for users we've seen on your inventory. Isso inclui:
 
 * The unique user ID (UUID) assigned by [!DNL Audience Manager]
 * IDs de características e segmentos
@@ -131,7 +131,7 @@ Yes, [!DNL Audience Manager] can provide you with data collected for users we&#3
 
 <br> 
 
-**Quero coletar dados em um site e direcionar usuários por DFP em um site diferente. Do I need to deploy code on the other property if I don&#39;t want to collect data from that location?**
+**Quero coletar dados em um site e direcionar usuários por DFP em um site diferente. Do I need to deploy code on the other property if I don't want to collect data from that location?**
 
 Não. Se a coleta de dados no segundo site não for um requisito, você não precisa implantar o DIL lá. Desde que você tenha acesso ao inventário no segundo site via DFP, poderá usar a coleção de dados do site inicial e de destino por DFP.
 
