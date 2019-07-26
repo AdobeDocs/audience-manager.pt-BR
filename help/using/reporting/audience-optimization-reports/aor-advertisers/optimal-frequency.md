@@ -19,7 +19,7 @@ O volume de conversão normalmente diminui com grupos de frequência de impress�
 
 No entanto, a conversão geral % aumenta com cada grupo de frequência de impressão. Mais conversões são geradas com cada grupo, portanto a soma das conversões (o numerador) se aproxima do número total de conversões possíveis (o denominador) e, portanto, o % aumenta.
 
-Como mostrado no relatório de amostra, a interseção dos dois gráficos de linha fornece um guia para a frequência de impressão &quot;ideal&quot;, isto é, o número ideal de impressões que precisam ser fornecidas antes que o cliente comece a ver a diminuição de devoluções.
+Como mostrado no relatório de amostra, a interseção dos dois gráficos de linha fornece um guia para a frequência de impressão "ideal", isto é, o número ideal de impressões que precisam ser fornecidas antes que o cliente comece a ver a diminuição de devoluções.
 
 ## Relatório de exemplo
 
