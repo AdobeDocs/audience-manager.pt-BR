@@ -104,7 +104,7 @@ As alterações em massa exigem autenticação. Quando uma ação é selecionada
 Para configurar a autenticação de API, você deve:
 
 * Copie e salve a chave secreta em um arquivo de texto (.txt).
-* Nomeie o arquivo de texto com a ID do cliente da API. Por exemplo, se a ID do cliente for &quot;Usuário em massa&quot;, salve a chave em um arquivo chamado &quot;Bulk-User. txt&quot;.
+* Nomeie o arquivo de texto com a ID do cliente da API. Por exemplo, se a ID do cliente for "Usuário em massa", salve a chave em um arquivo chamado "Bulk-User. txt".
 * Salve a chave e a planilha secreta juntas na mesma pasta.
 
 Ao fazer alterações em massa, você ainda precisará inserir um nome de usuário, senha, ID do cliente e domínio, mas a autenticação da API é automática.
