@@ -19,7 +19,7 @@ Um feed de dados privados é uma opção que permite aos provedores limitar o ac
 
 ## Private Data Feeds for Providers {#private-data-feeds-providers}
 
-Como provedor, os feeds de dados podem ser públicos ou privados. Um feed de dados privados permite limitar o acesso do comprador aos seus dados, incluindo o nome do vendedor de dados. Você pode criar um feed de dados privados para oferecer transações especiais, descontos ou quando a privacidade e o controle de acesso são importantes. Com um feed de dados privados, você pode analisar e aprovar solicitações de comprador. Depois de aprovar uma solicitação, o feed é semelhante a um feed de dados público ao comprador. You can view and manage all your feeds in **[!UICONTROL Audience Marketplace > My Shared Data]**. Como mostrado abaixo, esse tipo de feed é marcado como &quot;Privado&quot; na coluna de status.
+Como provedor, os feeds de dados podem ser públicos ou privados. Um feed de dados privados permite limitar o acesso do comprador aos seus dados, incluindo o nome do vendedor de dados. Você pode criar um feed de dados privados para oferecer transações especiais, descontos ou quando a privacidade e o controle de acesso são importantes. Com um feed de dados privados, você pode analisar e aprovar solicitações de comprador. Depois de aprovar uma solicitação, o feed é semelhante a um feed de dados público ao comprador. You can view and manage all your feeds in **[!UICONTROL Audience Marketplace > My Shared Data]**. Como mostrado abaixo, esse tipo de feed é marcado como "Privado" na coluna de status.
 
 ![](assets/my_shared_data.png)
 
