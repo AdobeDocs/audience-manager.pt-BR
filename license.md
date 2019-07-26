@@ -18,7 +18,7 @@ TERMOS E CONDIÇÕES PARA USO, REPRODUÇÃO E DISTRIBUIÇÃO
    «Licença» significa os termos e condições para uso, reprodução e
 distribuição, conforme definido pelas Seções 1 a 9 deste documento.
 
-   &quot; Licenciador &quot;significa o proprietário ou entidade de copyright autorizado pelo proprietário do copyright que está concedendo a Licença.
+   " Licenciador "significa o proprietário ou entidade de copyright autorizado pelo proprietário do copyright que está concedendo a Licença.
 
    «Entidade jurídica» significa a união da entidade agindo e de todas
 as outras entidades que controlam, são controladas ou estão sob controle comum
@@ -26,10 +26,10 @@ com essa entidade. Para fins dessa definição,
 «control» significa (i) a potência, direta ou indireta, para causar a direção ou o gerenciamento dessa entidade, seja por contrato ou
 de outra forma, ou (ii) a propriedade de cinquenta porcentagem (50%) ou mais de compartilhamentos restantes ou (iii) apropriação benéfica dessa entidade.
 
-   &quot; Você &quot; (ou&quot; Your &quot;) significa uma pessoa
+   " Você " (ou" Your ") significa uma pessoa
 física ou jurídica responsável por permissões concedidas por esta licença.
 
-   O formulário &quot;Origem&quot; deve significar o formulário preferido para fazer modificações, incluindo o código-fonte do software, a fonte da documentação
+   O formulário "Origem" deve significar o formulário preferido para fazer modificações, incluindo o código-fonte do software, a fonte da documentação
 e os arquivos de configuração.
 
    O formulário «Objeto» significa que qualquer formulário resultante da transformação mecânica
@@ -37,19 +37,19 @@ ou da tradução de um formulário de Origem, incluindo, mas
 não limitado a código de objeto compilado, a documentação gerada e
 as conversões a outros tipos de mídia.
 
-   &quot; Trabalho &quot;significa o trabalho de autoria, seja no formulário Fonte ou
+   " Trabalho "significa o trabalho de autoria, seja no formulário Fonte ou
 Objeto, disponibilizado sob a Licença, conforme indicado por um
 aviso de copyright incluído ou anexado ao trabalho
 (um exemplo é fornecido no Apêndice abaixo).
 
-   &quot; Trabalhos derivados &quot;significa qualquer trabalho, seja no formulário Fonte ou Objeto,
+   " Trabalhos derivados "significa qualquer trabalho, seja no formulário Fonte ou Objeto,
 baseado em (ou derivado de) o trabalho e para o qual as revisões editoriais, anotações, implementações ou outras modificações
 representam, como um todo, um trabalho original da criação. Para fins
 desta Licença, os trabalhos derivados não incluirão trabalhos que permaneçam
 separáveis ou simplesmente vinculam (ou vinculem por nome) às interfaces de,
 Trabalhar e Derivados derivados dessa licença.
 
-   &quot; Contribuição &quot;significa qualquer trabalho de autoria, incluindo
+   " Contribuição "significa qualquer trabalho de autoria, incluindo
 a versão original do Trabalho e quaisquer modificações ou adições
 a esse Trabalho ou Derivados derivados, que são enviadas intencionalmente
 para o Licenciador para inclusão no trabalho pelo proprietário
@@ -60,9 +60,9 @@ comunicação em listas de correspondência eletrônica, sistemas de controle de
 sistemas de rastreamento de problemas gerenciados por, ou em nome de, o
 Licenciador para fins de discussão e aprimoramento do trabalho, mas
 excluindo a comunicação que está marcada ou designada de outra forma
-em escrita pelo proprietário de copyright como &quot;Não é uma contribuição&quot;.
+em escrita pelo proprietário de copyright como "Não é uma contribuição".
 
-   &quot; Colaborador &quot;significa o Licenciador e qualquer entidade
+   " Colaborador "significa o Licenciador e qualquer entidade
 individual ou Entidade jurídica em nome de quem uma contribuição foi recebida pelo licenciador e
 subsequentemente incorporada no trabalho.
 
@@ -98,7 +98,7 @@ de destaque informando que Você alterou os arquivos; e
    (c) Você deve reter, na forma Fonte de qualquer trabalho derivado que você distribuir, todos os avisos de copyright, patente, marca registrada e atribuição da forma de Origem do trabalho,
 excluindo os avisos que não pertencem a nenhuma parte do Trabalho derivado; e
 
-   (d) Se o Trabalho incluir um arquivo de texto &quot;AVISO&quot; como parte de sua
+   (d) Se o Trabalho incluir um arquivo de texto "AVISO" como parte de sua
 distribuição, qualquer pressuposto derivado que você distribuir deverá
 incluir uma cópia legível dos avisos de atribuição contidos
 nesse arquivo NOTICE, excluindo os avisos que não
@@ -133,7 +133,7 @@ exceto conforme necessário para uso razoável e habitual na descrição da orig
 
 7. Isenção de responsabilidade de garantia. A menos que seja exigido pela legislação aplicável ou
 acordado em escrever, o Licenciador fornece o Trabalho (e cada
-Colaborador fornece suas Contribuições) em uma &quot;BASE é&quot;,
+Colaborador fornece suas Contribuições) em uma "BASE é",
 SEM GARANTIAS OU CONDIÇÕES DE QUALQUER TIPO, expressa ou
 implícita, incluindo, sem limitações, quaisquer garantias ou condições
 de TÍTULO, NÃO-INFRAÇÃO, COMERCIALIZAÇÃO ou FITNESS para a Finalidade PARTICULAR. Você é o único responsável por determinar a adequação de usar ou redistribuir o trabalho e assumir quaisquer riscos associados ao seu exercício de permissões nesta licença.
@@ -162,12 +162,12 @@ FIM DE TERMOS E CONDIÇÕES
 APÊNDICE: Como aplicar a Licença do Apache ao seu trabalho.
 
     Para aplicar a Licença do Apache ao seu trabalho, anexe o aviso assimilação,
-    com os campos entre colchetes &quot; {}&quot;
-    substituídos por suas próprias informações de identificação. (Don&#39;t include
+    com os campos entre colchetes " {}"
+    substituídos por suas próprias informações de identificação. (Don't include
     the brackets!)  The text should be enclosed in the appropriate
     comment syntax for the file format. We also recommend that a
     file or class name and description of purpose be included on the
-    same &quot;printed page&quot; as the copyright notice for easier
+    same "printed page" as the copyright notice for easier
     identification within third-party archives.
 
 Copyright 2018 Adobe Systems, Inc
@@ -179,6 +179,6 @@ Você pode obter uma cópia da Licença em
     https://www.apache.org/licenses/LICENSE-2.0
 
 A menos que seja exigido pela legislação aplicável ou acordado por escrito, o software
-distribuído sob a Licença é distribuído em uma &quot;BASE IS&quot;,
+distribuído sob a Licença é distribuído em uma "BASE IS",
 SEM GARANTIAS DE QUALQUER TIPO, expressa ou implícita.
 Consulte a Licença para obter as permissões e limitações específicas de idiomas na licença.
