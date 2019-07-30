@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Introdução ao gerenciamento em massa
 uuid: 4 bc 6 ae 0 a -315 c -4 ce 7-a 68 e-cc 0 c 6 c 6 aa 2 f 1
 translation-type: tm+mt
-source-git-commit: f6fd1b99467a35b3f2c978c4b2e28d562eaa3c52
+source-git-commit: 215054718e9248bd44ba99baeb2a10236701d98e
 
 ---
 
@@ -30,13 +30,17 @@ c_bulk_start.xml
 
 This feature uses a Microsoft Excel spreadsheet with macros that make secure, authenticated calls to the [!DNL Audience Manager] APIs. A API fornece os métodos e serviços que permitem fazer alterações em massa. Você não precisa saber como codificar ou trabalhar com nossas apis para usá-lo. A planilha contém cabeçalhos de coluna e guias que executam funções de alteração em massa específicas. Para fazer alterações em massa, tudo o que você fizer é adicionar os cabeçalhos predefinidos a planilhas específicas, fornecer as informações que deseja modificar em massa e clicar em um botão de ação. A planilha e as apis fazem o resto do trabalho para você.
 
+## Download {#download}
+
+Download the latest worksheet **[here](assets/BAAAM_August_2018.xlsm)**.
+
 ## Pré-requisitos {#prereqs}
 
 To use the [!DNL Bulk Management Tools], you need the following:
 
 * Your [!DNL Audience Manager] user name and password. Como cliente, você já deve ter essas credenciais.
 * Uma ID de cliente de API e uma chave secreta. Seu gerente de contas pode fornecer essas informações.
-* The [!UICONTROL Bulk Management Tools] worksheet. **[Baixe a planilha](assets/BAAAM_August_2018.xlsm)** para obter a versão mais recente.
+* The [!UICONTROL Bulk Management Tools] worksheet. [Baixe a planilha](/help/using/reference/bulk-management-tools/bulk-management-intro.md#download) para obter a versão mais recente.
 
 * Microsoft Excel running on [!DNL Windows] or in a [!DNL Microsoft Windows] virtual machine running on [!DNL macOS X]. You must use 32-bit Excel for the [!UICONTROL Bulk Management Tools] to work.
 
