@@ -4,10 +4,10 @@ seo-description: Os compradores de dados do Audience Marketplace aceitam relatar
 seo-title: Cobrança para compradores de feed de dados
 solution: Audience Manager
 title: Cobrança para compradores de feed de dados
-topic: API DIL
+keywords: Relatório de nível de segmento, nível de segmento, nível de segmento
 uuid: d 7236667-282 b -4160-9909-579721 af 4016
 translation-type: tm+mt
-source-git-commit: f42267d3acf2570fc87d50c4c4e65826902d9e55
+source-git-commit: a02ef4cfa987c05e3db173f8e6e9a635d1ecd1fd
 
 ---
 
