@@ -7,16 +7,18 @@ title: Cobrança para compradores de feed de dados
 keywords: Relatório de nível de segmento, nível de segmento, nível de segmento
 uuid: d 7236667-282 b -4160-9909-579721 af 4016
 translation-type: tm+mt
-source-git-commit: a02ef4cfa987c05e3db173f8e6e9a635d1ecd1fd
+source-git-commit: fde8dd10e2693427c4330739fa013deb48be35be
 
 ---
 
 
-# Billing for Data Feed Buyers {#billing-for-data-feed-buyers}
+# Cobrança para compradores de feed de dados {#billing-for-data-feed-buyers}
 
-Audience Marketplace data buyers agree to report all ad impressions served using traits contained in the data feed priced on a cost per thousand ad impressions ([!DNL CPM]) basis. [!DNL CPM] o uso ocorre no dia 5 º dia de cada mês do calendário e inclui dados do mês anterior. Assinantes de taxa fixa não precisam relatar o uso.
+Os compradores de dados do Audience Marketplace concordaram em relatar todas as impressões de anúncios veiculadas usando características contidas no feed de dados com base em um custo por mil impressões de anúncios ([!DNL CPM]). [!DNL CPM] o uso ocorre no dia 5 º dia de cada mês do calendário e inclui dados do mês anterior. Assinantes de taxa fixa não precisam relatar o uso.
 
-## How to Report CPM Usage {#report-cpm-usage}
+<br> 
+
+## Como relatar o uso de CPM {#report-cpm-usage}
 
 <!-- t_marketplace_report_cpm_usage.xml -->
 
@@ -24,72 +26,80 @@ Audience Marketplace data buyers agree to report all ad impressions served using
 
 [!UICONTROL Audience Marketplace] oferece duas formas de relatar [!DNL CPM] o uso:
 
-* **Relatório de nível de segmento**: este é o método de relatório [!DNL CPM] de uso recomendado. When you report [!DNL CPM] usage at segment level, the data feed-level reporting section is automatically filled in with the corresponding usage amounts, based on the algorithms described in [Cost Attribution for CPM Data Feeds](#cost-attribution).
+* **Relatório de nível de segmento**: este é o método de relatório [!DNL CPM] de uso recomendado. Ao relatar o uso [!DNL CPM] no nível do segmento, a seção de relatório de nível de feed de dados é preenchida automaticamente com as quantidades de uso correspondentes, com base nos algoritmos descritos na [Atribuição de custo para Feeds de dados CPM](#cost-attribution).
 * **Relatório de nível de feed de dados**: este método exige que você reporte individualmente o [!DNL CPM] uso para cada feed de dados, com base nos algoritmos descritos na [Atribuição de custo para Feeds de dados CPM](#cost-attribution). No entanto, esse método é mais tedioso e propensa a erro do que o relatório de nível de segmento.
 
-## Report CPM Usage at Segment Level {#segment-level-report}
+<br> 
 
-The [!UICONTROL Segment Usage] tab allows you to report segment-level usage, while displaying the segments grouped by the destinations they are mapped to.
+## Uso de CPM de relatório no nível do segmento {#segment-level-report}
 
-After reporting [!DNL CPM] usage at segment level, [!UICONTROL Audience Marketplace] automatically assigns the corresponding data feeds the correct usage, based on the [Cost Attribution for CPM Data Feeds](#cost-attribution).
+A [!UICONTROL Segment Usage] guia permite relatar o uso no nível do segmento, ao exibir os segmentos agrupados pelos destinos aos quais estão mapeados.
 
-To report [!DNL CPM] usage at segment level:
+Após o [!DNL CPM] uso do relatório no nível do segmento, [!UICONTROL Audience Marketplace] atribui automaticamente os dados correspondentes, com base na Atribuição [de custo para feeds de dados CPM](#cost-attribution).
 
-1. Go to **[!UICONTROL Audience Marketplace > Payables]**.
-2. Select the **[!UICONTROL Segment Usage]** tab.
-3. Preencha o uso para seus segmentos. You can use the [!UICONTROL Search] box to filter the segments if you only need to report usage for some of them.
+Para reportar [!DNL CPM] o uso no nível do segmento:
+
+1. Ir **[!UICONTROL Audience Marketplace > Payables]** para.
+2. Selecione a **[!UICONTROL Segment Usage]** guia.
+3. Preencha o uso para seus segmentos. Você pode usar a [!UICONTROL Search] caixa para filtrar os segmentos, caso só precise relatar o uso para alguns deles.
 4. Clique em **[!UICONTROL Edit Segments Usage]**.
-5. Enter the [!DNL CPM] usage amount in the [!UICONTROL Usage] column.
-6. Click **[!UICONTROL Save]** when you're done and review the confirmation dialog.
+5. Insira o [!DNL CPM] valor de uso na [!UICONTROL Usage] coluna.
+6. Clique **[!UICONTROL Save]** em quando terminar e revisar a caixa de diálogo de confirmação.
    ![confirm-segment-use](assets/confirm-segment-usage.png)
 7. Clique em **[!UICONTROL Confirm]**.
 
-## Report CPM Usage at Data Feed Level {#feed-level-report}
+## Uso do CPM de relatório em nível de feed de dados {#feed-level-report}
 
-Data feed-level reporting is a more tedious and prone to error process, since you must individually calculate [!DNL CPM] usage for each data feed. We recommend that you [Report CPM Usage at Segment Level](#segment-level-report) instead.
+O relatório de nível de feed de dados é mais tedioso e propensa a processar o processo, já que você deve calcular individualmente [!DNL CPM] o uso para cada feed de dados. Recomendamos [que você relate o uso de CPM em nível de segmento](#segment-level-report) em vez disso.
 
-To report [!DNL CPM] usage at segment level:
+Para reportar [!DNL CPM] o uso no nível do segmento:
 
-1. Go to **[!UICONTROL Audience Marketplace > Payables]**.
-2. Select the **[!UICONTROL Feed Usage]** tab.
-3. Use the [!UICONTROL Search] box to filter the data feeds and identify the ones that you need to report usage for.
+1. Ir **[!UICONTROL Audience Marketplace > Payables]** para.
+2. Selecione a **[!UICONTROL Feed Usage]** guia.
+3. Use [!UICONTROL Search] a caixa para filtrar os feeds de dados e identificar aquelas de que você precisa para informar o uso.
 4. Clique em **[!UICONTROL Edit Feeds Usage]**.
-5. Calculate the [!DNL CPM] usage for each data feed based on the [Cost Attribution for CPM Data Feeds](#cost-attribution), and enter it in the [!UICONTROL Usage] column.
-6. Click **[!UICONTROL Save]** when you're done and review the confirmation dialog.
+5. Calcule o [!DNL CPM] uso para cada feed de dados com base na [Atribuição de custo para Feeds](#cost-attribution)de dados CPM e insira-o na [!UICONTROL Usage] coluna.
+6. Clique **[!UICONTROL Save]** em quando terminar e revisar a caixa de diálogo de confirmação.
 
    ![confirm-feed-use](assets/confirm-feed-usage.png)
 
 7. Clique em **[!UICONTROL Confirm]**.
 
+<br> 
+
 ## Relatório em massa
 
-To reduce errors and overhead while reporting [!DNL CPM] usage, you can use the bulk reporting option to download a [!DNL CSV] file containing the data feeds and segments, fill in the usage, and upload it back to [!DNL Audience Manager]. Você pode usar o relatório em massa para relatar o feed e o uso do segmento.
+Para reduzir erros e sobreposições ao [!DNL CPM] relatar o uso, você pode usar a opção de relatório em massa para baixar um [!DNL CSV] arquivo contendo os feeds de dados e os segmentos, preencher o uso e fazer o upload dele novamente [!DNL Audience Manager]. Você pode usar o relatório em massa para relatar o feed e o uso do segmento.
 
-To update [!DNL CPM] usage in bulk:
+Para atualizar [!DNL CPM] o uso em massa:
 
-1. Go to **[!UICONTROL Audience Marketplace > Payables]**.
-1. Select the **[!UICONTROL Feed Usage]** or **[!UICONTROL Segment Usage]** tab, depending on the type of reporting that you want to update.
-1. Click **[!UICONTROL Edit Feeds Usage]** or **[!UICONTROL Edit Segments Usage]**.
-1. Click **[!UICONTROL download the current usage]** to make sure you use a valid CSV file.
+1. Ir **[!UICONTROL Audience Marketplace > Payables]** para.
+1. Selecione a **[!UICONTROL Feed Usage]** guia ou **[!UICONTROL Segment Usage]** a guia, dependendo do tipo de relatório a ser atualizado.
+1. Clique **[!UICONTROL Edit Feeds Usage]** ou **[!UICONTROL Edit Segments Usage]**.
+1. Clique **[!UICONTROL download the current usage]** em para certificar-se de usar um arquivo CSV válido.
 1. Abra o arquivo no computador e preencha o relatório de uso.
-1. Click **[!UICONTROL Choose a CSV file]** to upload the updated usage report.
+1. Clique **[!UICONTROL Choose a CSV file]** em para carregar o relatório de uso atualizado.
 
    ![usage-report-csv](assets/usage-report-csv.png)
 
 1. [!DNL Audience Manager] valida o arquivo assim que o carrega e solicita que ele detecte todos os erros no arquivo.
+
+<br> 
 
 ### Erros de validação de relatório em massa
 
 | Mensagem de erro | Descrição | Correção |
 | ------------- | -------------| -----|
 | Entrada inválida | [!DNL Audience Manager] detectou uma alteração no esquema [!DNL CSV] do arquivo, como colunas ausentes ou alterações nos títulos das colunas. | Evite alterar a estrutura da tabela. |
-| Não encontrada | For [!UICONTROL Segment Level Reporting], [!DNL Audience Manager] could not identify the [!UICONTROL Segment ID] and [!UICONTROL Destination ID] combination. For [!UICONTROL Feed Level Reporting], [!DNL Audience Manager] could not identify the [!UICONTROL Data Provider Name], [!UICONTROL Feed Name], and [!UICONTROL Use Case] combination. | For [!UICONTROL Segment Level Reporting], check the validity of the [!UICONTROL Segment ID] and [!UICONTROL Destination ID] combination. For [!UICONTROL Feed Level Reporting], check the validity of the [!UICONTROL Data Provider Name], [!UICONTROL Feed Name], and [!UICONTROL Use Case] combination. |
+| Não encontrada | Para [!UICONTROL Segment Level Reporting], [!DNL Audience Manager] não foi possível identificar a [!UICONTROL Segment ID] e [!UICONTROL Destination ID] combinação. Para [!UICONTROL Feed Level Reporting], [!DNL Audience Manager] não pôde identificar o [!UICONTROL Data Provider Name], [!UICONTROL Feed Name]e [!UICONTROL Use Case] combinar. | Para [!UICONTROL Segment Level Reporting], verifique a validade da [!UICONTROL Segment ID] e [!UICONTROL Destination ID] combinação. Para [!UICONTROL Feed Level Reporting], verifique a validade do [!UICONTROL Data Provider Name], [!UICONTROL Feed Name]e [!UICONTROL Use Case] combinação. |
 | Registros duplicados encontrados | [!DNL Audience Manager] registros duplicados detectados com valores de impressão diferentes. | Revise o relatório e certifique-se de não relatar valores de uso diferentes para o mesmo feed de dados ou segmento. |
-| Valores não suportados | [!DNL Audience Manager] valores não numéricos na [!DNL Audience Manager] coluna. | Review the report and make sure you only enter numerical values in the [!DNL Audience Manager] column. |
-| Cabeçalhos para campos obrigatórios ausentes | [!DNL Audience Manager] cabeçalhos de tabela ausentes para campos obrigatórios. For [!UICONTROL Segment Level Reporting], the mandatory fields are: [!UICONTROL Segment ID], [!UICONTROL Destination ID]. For [!UICONTROL Feed Level Reporting], the mandatory fields are: [!UICONTROL Data Provider Name], [!UICONTROL Data Feed Name],  [!UICONTROL Use Case] | Revise o relatório e verifique se os cabeçalhos da tabela não foram adulterados. |
+| Valores não suportados | [!DNL Audience Manager] valores não numéricos na [!DNL Audience Manager] coluna. | Revise o relatório e certifique-se de inserir apenas valores numéricos na [!DNL Audience Manager] coluna. |
+| Cabeçalhos para campos obrigatórios ausentes | [!DNL Audience Manager] cabeçalhos de tabela ausentes para campos obrigatórios. Para [!UICONTROL Segment Level Reporting], os campos obrigatórios são: [!UICONTROL Segment ID][!UICONTROL Destination ID]. Para [!UICONTROL Feed Level Reporting], os campos obrigatórios são: [!UICONTROL Data Provider Name][!UICONTROL Data Feed Name], [!UICONTROL Use Case] | Revise o relatório e verifique se os cabeçalhos da tabela não foram adulterados. |
 
 >[!NOTE]
->Removing rows from the [!DNL CSV] usage report does not have any effect on the existing usage report. [!DNL Audience Manager] processa apenas os campos incluídos no relatório.
+>A remoção de linhas do relatório [!DNL CSV] de uso não afeta o relatório de uso existente. [!DNL Audience Manager] processa apenas os campos incluídos no relatório.
+
+<br> 
 
 ## [!DNL CPM] Práticas recomendadas para relatórios
 
@@ -104,7 +114,7 @@ To update [!DNL CPM] usage in bulk:
   <tr> 
    <td colname="col1"> <p><b>Sempre relatar o número total de impressões</b> </p> </td> 
    <td colname="col2"> <p>Para totais de impressão CPM: </p>
-   <p> Relate o número total de impressões, sem usar decimais. O Audience Manager calcula automaticamente o CPM com base no número total de relatórios.</p><p>Se precisar relatar as impressões de 1,234,567, informe exatamente como isso. Não é necessário dividir o número total de impressões em 1,000 para calcular o CPM.</p><p>As características usadas para otimizar o conteúdo da Web ou do aplicativo (Otimização de conteúdo) usando ferramentas como o Adobe Target ou um destino do Analytics não contribuem para os totais de Uso para planos de CPM. Normalmente, os provedores de dados são compensados pela Otimização de conteúdo usando planos de taxa simples.</p><p>See <a href="#cost-attribution">Cost Attribution for CPM Data Feeds</a> for more information. </p> </td>
+   <p> Relate o número total de impressões, sem usar decimais. O Audience Manager calcula automaticamente o CPM com base no número total de relatórios.</p><p>Se precisar relatar as impressões de 1,234,567, informe exatamente como isso. Não é necessário dividir o número total de impressões em 1,000 para calcular o CPM.</p><p>As características usadas para otimizar o conteúdo da Web ou do aplicativo (Otimização de conteúdo) usando ferramentas como o Adobe Target ou um destino do Analytics não contribuem para os totais de Uso para planos de CPM. Normalmente, os provedores de dados são compensados pela Otimização de conteúdo usando planos de taxa simples.</p><p>Consulte <a href="#cost-attribution">Atribuição de custo para feeds de dados CPM</a> para obter mais informações. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><b>Pressionar o intervalo de relatório mensal</b> </p> </td> 
@@ -113,35 +123,39 @@ To update [!DNL CPM] usage in bulk:
  </tbody> 
 </table>
 
-## Cost Attribution for CPM Data Feeds {#cost-attribution}
+<br> 
 
-In [!UICONTROL Audience Marketplace] you must self-report impression amounts each month, for each of your segments. We recommend reporting [!DNL CPM] usage at segment level, so that cost attribution is done automatically.
+## Atribuição de custo para feeds de dados CPM {#cost-attribution}
+
+Em [!UICONTROL Audience Marketplace] você, você deve reportar valores de impressão a cada mês, para cada segmento. Recomendamos o [!DNL CPM] uso de relatórios no nível do segmento, para que a atribuição de custo seja feita automaticamente.
 
 <!-- marketplace_cpm_billing.xml -->
 
-### Billing Summary {#billing-summary}
+### Resumo de faturamento {#billing-summary}
 
-You must submit [!DNL CPM] data feed impression amounts between the 1st and the 5th days of each calendar month. To do this correctly, we recommend that you [Report CPM Usage at Segment Level](#segment-level-report).
+É necessário enviar [!DNL CPM] quantidades de impressão do feed de dados entre o primeiro e o 5 º dias de cada mês do calendário. Para fazer isso corretamente, recomendamos [que você relate o uso de CPM em nível de segmento](#segment-level-report).
 
 >[!TIP]
->When you report [!DNL CPM] usage at segment level, the data feed-level reporting section is automatically filled in with the corresponding usage amounts.
+>Ao relatar [!DNL CPM] o uso no nível do segmento, a seção de relatório de nível de feed de dados é preenchida automaticamente com as quantidades de uso correspondentes.
 
-Should you need to [!UICONTROL Report CPM Usage at Data Feed Level], you must individually compile all impressions delivered for each feed in the previous calendar month, and report them according to the billing allocation described in this article.
+Se necessário, você deve compilar [!UICONTROL Report CPM Usage at Data Feed Level]individualmente todas as impressões entregues para cada feed no mês anterior do calendário e relatá-las de acordo com a alocação de faturamento descrita neste artigo.
 
-After you report [!DNL CPM] number for the previous calendar month, [!DNL Adobe] will do the following:
+Após o [!DNL CPM] número do relatório anterior, [!DNL Adobe] faça o seguinte:
 
-* Create an invoice and bill you based on the [!DNL CPM] rate for each subscribed data feed.
-* Pay data providers (sellers) fees owed based on your reported [!DNL CPM] use.
+* Crie uma fatura e faça uma cobrança com base na [!DNL CPM] taxa de cada feed de dados assinado.
+* Pague os encargos de provedores de dados (vendedores) devidos com base no [!DNL CPM] uso informado.
 
 >[!IMPORTANT]
 >
 >Como comprador, todos os totais de impressão relatados devem ser verdadeiros e precisos. Se você não relatar os totais de impressão até o dia 5 º de cada mês, deverá incluir totais para o mês não relatado no mês seguinte.
 
-## Assign Impressions at Feed Level Based on Trait Qualification Rules {#assign-impressions}
+<br> 
 
-The [!UICONTROL Activation] use case lets you use traits in the corresponding data feed to create segments in [Segment Builder](../../../features/segments/segment-builder.md#topic_E166819D26B94A868376BA54E10E4B74) and map those segments to a destination. The Boolean operators [!UICONTROL AND], [!UICONTROL OR], and [!UICONTROL NOT] let you set the conditions for trait and segment qualification.
+## Atribuir impressões no nível do feed com base nas regras de qualificação de características {#assign-impressions}
 
-When you [Report CPM Usage at Data Feed Level](#feed-level-report), you must allocate impressions proportionally for each data feed, according to the [!DNL Boolean] operators used in the trait qualification rules. A tabela a seguir lista como alocar apropriadamente impressões por regra booleana ou tipo de característica.
+O caso [!UICONTROL Activation] de uso permite usar características no feed de dados correspondente para criar segmentos no [Construtor de segmentos](../../../features/segments/segment-builder.md#topic_E166819D26B94A868376BA54E10E4B74) e mapear esses segmentos para um destino. Os operadores [!UICONTROL AND]booleanos, [!UICONTROL OR]e [!UICONTROL NOT] permitem que você defina as condições para a qualificação de características e segmentos.
+
+Ao [reportar o Uso de CPM de relatório em Nível de feed de dados](#feed-level-report), você deve alocar impressões proporcionalmente para cada feed de dados, de acordo com [!DNL Boolean] os operadores usados nas regras de qualificação de característica. A tabela a seguir lista como alocar apropriadamente impressões por regra booleana ou tipo de característica.
 
 >[!TIP]
 >[Relate o uso de CPM no nível do segmento](#segment-level-report) para fazer com que o relatório de nível de feed de dados faça o mesmo automaticamente pelo Audience Manager.
@@ -156,7 +170,7 @@ When you [Report CPM Usage at Data Feed Level](#feed-level-report), you must all
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> AND</span> </p> </td> 
-   <td colname="col2"> <p>Apply 100% of the delivered impression totals to all the provider traits in a rules-based segment that uses a Boolean <span class="wintitle"> AND</span> condition. </p> </td> 
+   <td colname="col2"> <p>Aplique 100% dos totais de impressão entregues a todas as características do provedor em um segmento baseado em regras que use uma condição <span class="wintitle"> E</span> booleana. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> OU</span> </p> </td> 
@@ -164,7 +178,7 @@ When you [Report CPM Usage at Data Feed Level](#feed-level-report), you must all
   </tr>
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> NÃO</span> </p> </td> 
-   <td colname="col2"> <p>Apply 100% of the delivered impression totals to all the provider traits in a rules-based segment that uses a Boolean <span class="wintitle"> NOT</span> condition. </p> </td> 
+   <td colname="col2"> <p>Aplique 100% dos totais de impressão entregues a todas as características do provedor em um segmento baseado em regras que use uma condição <span class="wintitle"> Não</span> booleana. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Segmentos algorítmicos </p> </td> 
@@ -173,41 +187,71 @@ When you [Report CPM Usage at Data Feed Level](#feed-level-report), you must all
  </tbody>
 </table>
 
-## Billing Examples {#billing-examples}
+<br> 
 
-The examples below are meant to illustrate how [!DNL CPM] usage allocation is done at data feed level.
+## Exemplos de faturamento {#billing-examples}
 
->[!MPORTANT]
->We recommend that you [Report CPM Usage at Segment Level](#segment-level-report) instead, to have this process done automatically.
+Os exemplos abaixo destinam-se a ilustrar como [!DNL CPM] a alocação de uso é feita no nível do feed de dados.
+
+>[!IMPORTANT]
+>Recomendamos que você [relate o uso de CPM em nível de segmento](#segment-level-report) para fazer com que esse processo seja feito automaticamente.
 
 Considere o seguinte cenário:
 
 ![faturamento-exemplos](assets/billing-examples.png)
 
+<br> 
+
 ### Caso 1: Segmentos com regras de qualificação E
 
-Esse segmento contém 3 características de provedores de dados separados. Since segment qualification is based on an [!UICONTROL AND] condition, visitors have to realize the traits from all three feeds to qualify for the segment.
+Esse segmento contém 3 características de provedores de dados separados. Como a qualificação de segmentos é baseada em [!UICONTROL AND] uma condição, os visitantes precisam perceber as características dos três feeds para se qualificarem para o segmento.
 
 ![](assets/billing-segment-and.png)
 
-With an [!UICONTROL AND] condition, you must assign 100% of the impressions received during the month to all three data providers. In the [!UICONTROL Audience Marketplace > Payables] section, you credit each provider with 1,000,000 impressions.
+Com uma [!UICONTROL AND] condição, você deve atribuir 100% das impressões recebidas durante o mês para os três provedores de dados. Na [!UICONTROL Audience Marketplace > Payables] seção, você dá crédito a cada provedor com 1,000,000 impressões.
 
-This example applies to segments that use [!DNL Boolean] [!UICONTROL NOT] operators or for segments that contain algorithmic traits.
+Este exemplo aplica-se a segmentos que usam [!DNL Boolean][!UICONTROL NOT] operadores ou para segmentos que contenham características algorítmicas.
+
+<br> 
 
 ### Caso 2: Segmentos com regras de qualificação OU
 
-Esse segmento contém 3 características de provedores de dados separados. Since segment qualification is based on an [!UICONTROL OR] condition, visitors have to realize at least one of the three traits to qualify for the segment.
+Esse segmento contém 3 características de provedores de dados separados. Como a qualificação de segmentos é baseada em [!UICONTROL OR] uma condição, os visitantes precisam perceber pelo menos um dos três traços para se qualificarem para o segmento.
 
-We cannot tell which trait is responsible for an impression because qualification is based on an [!UICONTROL OR] condition. As a result, in the [!UICONTROL Audience Marketplace > Payables] section you credit each provider with a weighted allocation of the total impressions, based on trait population.
+Não é possível saber qual característica é responsável por uma impressão porque a qualificação é baseada em [!UICONTROL OR] uma condição. Como resultado, na [!UICONTROL Audience Marketplace > Payables] seção você dá crédito a cada provedor com uma alocação ponderada do total de impressões, com base na população de características.
 
 ![faturamento de faturamento ou](assets/billing-segment-or.png)
 
->[!MORE_ LIKE_ THIS]
->
->* [Faturamento e alocação de impressão para feeds de dados de taxa simples](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
+### Caso 3: Segmentos com casos de uso de modelagem e ativação
 
+Este exemplo descreve a atribuição com base em dois casos de uso do Feed de dados - Modelagem e Ativação. No exemplo, estamos observando dois provedores de dados com as seguintes informações:
 
-## Billing and Impression Allocation for Flat Fee Data Feeds {#billing-flat-fee}
+![feed de dados](assets/feed-use-cases.png)
+
+Na tabela mais abaixo, o Segmento X contém duas características, T 1 e T 2, com a regra de segmento T 1 OU T 2, em que:
+
+* T 1 é uma característica do Feed de dados A;
+* T 2 é uma característica algorítmica com características de terceiros do Feed de dados A e do Feed de dados B.
+
+O segmento é mapeado para um destino e as impressões 1,000,000 são inseridas para esse segmento em um mês, usando Relatórios [de nível de segmento](#segment-level-report).
+
+Destas impressões 1,000,000:
+
+* T 1 torna 40% da população do segmento, o que equivale a 400,000 impressões para o Feed A.
+* T 2 torna 60% da população do segmento, o que equivale a 600,000 impressões para Feed A e Feed B.
+
+Em um nível de feed de dados, a forma como as impressões são alocadas é:
+
+* O Feed de dados A recebe impressões 600,000 de características T 2 (modeladas em características do Feed de dados A e Feed de dados B, portanto, ambas recebem impressões) e impress00,000 impressas de características T 1 (que é uma característica do Feed de dados A), totalizando 1,000,00impressimpressões.
+* O Feed de dados B recebe impressões 600,000 de características T 2 (consulte explicação acima) e 0 impressões de características T 1.
+
+O detalhamento geral por feed de dados e casos de uso é o seguinte:
+
+![divisão do feed](assets/feed-breakdown.png)
+
+<br> 
+
+## Faturamento e alocação de impressão para feeds de dados de taxa simples {#billing-flat-fee}
 
 Um feed de dados de taxa fixa recebe um valor fixo a cada mês, independentemente do início da assinatura ou de quantas impressões você usa. As taxas não são raticadas para uso ou intervalos de mês parciais. Assim como com o faturamento de CPM, a Adobe gerará uma fatura e sua taxa de taxa fixa e fixa para os feeds de dados assinados.
 
