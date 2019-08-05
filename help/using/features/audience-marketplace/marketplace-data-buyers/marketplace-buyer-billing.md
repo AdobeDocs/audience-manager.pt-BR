@@ -7,7 +7,7 @@ title: Cobrança para compradores de feed de dados
 keywords: Relatório de nível de segmento, nível de segmento, nível de segmento
 uuid: d 7236667-282 b -4160-9909-579721 af 4016
 translation-type: tm+mt
-source-git-commit: fde8dd10e2693427c4330739fa013deb48be35be
+source-git-commit: 3107d34b1338e042320d837d2efbbc19c900e904
 
 ---
 
@@ -47,6 +47,8 @@ Para reportar [!DNL CPM] o uso no nível do segmento:
 6. Clique **[!UICONTROL Save]** em quando terminar e revisar a caixa de diálogo de confirmação.
    ![confirm-segment-use](assets/confirm-segment-usage.png)
 7. Clique em **[!UICONTROL Confirm]**.
+
+<br> 
 
 ## Uso do CPM de relatório em nível de feed de dados {#feed-level-report}
 
@@ -221,6 +223,8 @@ Esse segmento contém 3 características de provedores de dados separados. Como 
 Não é possível saber qual característica é responsável por uma impressão porque a qualificação é baseada em [!UICONTROL OR] uma condição. Como resultado, na [!UICONTROL Audience Marketplace > Payables] seção você dá crédito a cada provedor com uma alocação ponderada do total de impressões, com base na população de características.
 
 ![faturamento de faturamento ou](assets/billing-segment-or.png)
+
+<br> 
 
 ### Caso 3: Segmentos com casos de uso de modelagem e ativação
 
