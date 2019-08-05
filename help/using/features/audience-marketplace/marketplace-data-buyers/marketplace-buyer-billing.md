@@ -7,7 +7,7 @@ title: Cobrança para compradores de feed de dados
 keywords: Relatório de nível de segmento, nível de segmento, nível de segmento
 uuid: d 7236667-282 b -4160-9909-579721 af 4016
 translation-type: tm+mt
-source-git-commit: 3107d34b1338e042320d837d2efbbc19c900e904
+source-git-commit: dab5b255f966e63d51cc4d236d37bb0cb4eb960c
 
 ---
 
@@ -251,7 +251,7 @@ Em um nível de feed de dados, a forma como as impressões são alocadas é:
 
 O detalhamento geral por feed de dados e casos de uso é o seguinte:
 
-![divisão do feed](assets/feed-breakdown.png)
+![divisão do feed](assets/feed-breakdown-alt.png)
 
 <br> 
 
