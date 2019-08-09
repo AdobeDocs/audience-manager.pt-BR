@@ -6,14 +6,14 @@ solution: Audience Manager
 title: Construtor de segmentos
 uuid: 5 ca 924 a 5-2 b 29-4802-ab 02-e 292 d 77 a 0 aae
 translation-type: tm+mt
-source-git-commit: b346dbe500f1e662c7b121a18c6cc0704ef3cfac
+source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 
 ---
 
 
 # Construtor de segmentos {#segment-builder}
 
-Describes the required and optional steps that create a segment in [!UICONTROL Segment Builder].
+Descreve as etapas obrigatórias e opcionais que criam um segmento.[!UICONTROL Segment Builder]
 
 ## Criar um segmento {#create-segment}
 
@@ -21,30 +21,30 @@ Describes the required and optional steps that create a segment in [!UICONTROL S
 
 <!-- t_create_segment.xml -->
 
-[!UICONTROL Segment Builder] consiste em 3 seções separadas: [!UICONTROL Basic Information], [!UICONTROL Traits]e [!UICONTROL Destinations Mapping]. To create a segment, complete the required fields in the [!UICONTROL Basic Information] and [!UICONTROL Traits] sections. [!UICONTROL Destinations Mapping] são opcionais. Consulte as instruções abaixo para obter ajuda adicional.
+[!UICONTROL Segment Builder] consiste em 3 seções separadas: [!UICONTROL Basic Information], [!UICONTROL Traits]e [!UICONTROL Destinations Mapping]. Para criar um segmento, preencha os campos obrigatórios nas seções [!UICONTROL Basic Information] e [!UICONTROL Traits] seções. [!UICONTROL Destinations Mapping] são opcionais. Consulte as instruções abaixo para obter ajuda adicional.
 
-1. In the [Basic Information](../../features/segments/segment-builder.md#segment-builder-controls-basics) section:
+1. Na seção [Informações](../../features/segments/segment-builder.md#segment-builder-controls-basics) básicas:
    * Nomeie o segmento. O tamanho máximo de um nome de segmento é de 255 caracteres.
    * Defina o status do segmento (ativo é padrão).
    * Escolha uma fonte de dados.
    * Selecione uma regra de mesclagem de perfil a ser usada para a qualificação de segmentos.
    * Atribua o segmento a uma pasta de armazenamento.
-1. In the [Traits](../../features/segments/segment-builder.md#segment-builder-controls-traits) section:
-   * Search for the trait you want to add to a segment and click **[!UICONTROL Add Trait]**. Adicione outra característica para criar um grupo de características.
-   * Bring up the Advanced Search modal by clicking **[!UICONTROL Browse All Traits]**. Pesquise por características por nome, ID, descrição ou fonte de dados. Clique em uma pasta ao pesquisar para limitar os resultados a essa pasta e suas subpastas. Também é possível filtrar características por tipo de característica.
-   * Get live [trait recommendations](trait-recommendations.md) as you build your segment.
+1. Na seção [Características](../../features/segments/segment-builder.md#segment-builder-controls-traits) :
+   * Pesquise pela característica que deseja adicionar a um segmento e clique **[!UICONTROL Add Trait]** em. Adicione outra característica para criar um grupo de características.
+   * Abra o modal Pesquisa avançada clicando **[!UICONTROL Browse All Traits]** em. Pesquise por características por nome, ID, descrição ou fonte de dados. Clique em uma pasta ao pesquisar para limitar os resultados a essa pasta e suas subpastas. Também é possível filtrar características por tipo de característica.
+   * Obtenha recomendações [de características ao vivo](trait-recommendations.md) à medida que você cria seu segmento.
    * Clique e arraste características para criar grupos separados.
-   * Hover between groups to set relationships with Boolean [!UICONTROL AND], [!UICONTROL OR], [!UICONTROL AND NOT] values.
-   * Hover over the clock icon to add [recency and frequency](../../features/segments/recency-and-frequency.md) rules to the trait.
-   * Exiba dados de preenchimento de segmentos à medida que você adiciona ou remove características. Click **[!UICONTROL Calculate Estimates]** to see (or refresh) the estimated population numbers. Read more about [segment population data](../../features/segments/segment-builder-data.md#segment-populations) in the Segment Builder.
+   * Passe o mouse entre grupos para definir relacionamentos com booleano [!UICONTROL AND], [!UICONTROL OR][!UICONTROL AND NOT] valores.
+   * Passe o mouse sobre o ícone de relógio para adicionar [regras de recenticidade e frequência](../../features/segments/recency-and-frequency.md) à característica.
+   * Exiba dados de preenchimento de segmentos à medida que você adiciona ou remove características. Clique **[!UICONTROL Calculate Estimates]** para ver (ou atualizar) os números de população estimados. Leia mais sobre [os dados de preenchimento de segmentos](../../features/segments/segment-builder-data.md#segment-populations) no Construtor de segmentos.
    * Click **[!UICONTROL Save]** when done.
 1. *(Opcional)* Mapeie um segmento para um destino na [seção Mapeamento](../../features/segments/segment-builder.md#segment-builder-controls-destinations) de destino:
-   * Search for the destination and click **[!UICONTROL Add Destination]**. Observe que o destino já deve existir antes que você possa adicioná-lo a um segmento.
+   * Procure pelo destino e clique **[!UICONTROL Add Destination]** em. Observe que o destino já deve existir antes que você possa adicioná-lo a um segmento.
    * Click **[!UICONTROL Save]** when done.
 
-## Segment Builder Controls: Basic Information Section {#segment-builder-controls-basics}
+## Controles do Construtor de segmento: Seção de informações básicas {#segment-builder-controls-basics}
 
-In [!UICONTROL Segment Builder], [!UICONTROL the Basic Information] settings let you create new, or edit existing traits. Para criar um novo segmento, forneça um nome, uma fonte de dados e selecione uma pasta de armazenamento. Todos os outros campos são opcionais. Move on to the [!UICONTROL Traits] section when done.
+Em [!UICONTROL Segment Builder], [!UICONTROL the Basic Information] as configurações permitem criar novos ou editar já existentes. Para criar um novo segmento, forneça um nome, uma fonte de dados e selecione uma pasta de armazenamento. Todos os outros campos são opcionais. Passe para a [!UICONTROL Traits] seção quando terminar.
 
 <!-- r_segment_basic_info_section.xml -->
 
@@ -87,9 +87,9 @@ In [!UICONTROL Segment Builder], [!UICONTROL the Basic Information] settings let
  </tbody> 
 </table>
 
-## Segment Builder Controls: Traits Section {#segment-builder-controls-traits}
+## Controles do Construtor de segmento: Seção de características {#segment-builder-controls-traits}
 
-In [!UICONTROL Segment Builder], the [!UICONTROL Traits] section lets you manage traits in a segment, create trait groups, and set qualification criteria. To add a trait to a segment, type the trait name in the search field and click [!UICONTROL Add Trait]. Save the trait (if finished) or move on to [!UICONTROL Destinations Mapping].
+Em [!UICONTROL Segment Builder], a [!UICONTROL Traits] seção permite gerenciar características em um segmento, criar grupos de características e definir critérios de qualificação. Para adicionar uma característica a um segmento, digite o nome de características no campo de pesquisa e clique [!UICONTROL Add Trait]em. Salve a característica (se concluída) ou prossiga [!UICONTROL Destinations Mapping]para.
 
 <!-- r_segment_traits_section.xml -->
 
@@ -100,29 +100,29 @@ In [!UICONTROL Segment Builder], the [!UICONTROL Traits] section lets you manage
 | Exibição básica | Esta seção fornece controles visuais que permitem: <ul><li>Crie novos e gerenciar segmentos existentes.</li><li>Remova características de um segmento.</li><li>Adiciona até 50 características (máximo) a um segmento.</li><li>Arraste e solte características para criar novos grupos.</li><li>Exibir características e grupos de características em um segmento.</li><li>Defina critérios de qualificação com expressões Booleanas, operadores de comparação e configurações de recenticidade/frequência.</li></ul> |
 | Exibição de código | Abre um ambiente de desenvolvimento que permite criar e gerenciar características, grupos e requisitos de qualificação com código em vez da interface visual. A exibição de código é útil se os segmentos: <ul><li>Contém mais de 50 características em um segmento individual. Observação: Os segmentos são limitados a 5000 características (máximo).</li><li>Contiver muitos grupos de características.</li><li>Tenha requisitos de qualificação complexos.</li></ul> |
 | Pesquisar | Ajuda a encontrar características a serem adicionadas a um segmento. |
-| Recomendações   | Obtenha recomendações ao vivo para características similares a serem adicionadas à regra de segmento. Read more in [Trait Recommendations](trait-recommendations.md). |
+| Recomendações   | Obtenha recomendações ao vivo para características similares a serem adicionadas à regra de segmento. Leia mais em [Recomendações de características](trait-recommendations.md). |
 | Dados de tamanho do segmento real e estimado | See [Trait and Segment Population Data in Segment Builder](segment-builder-data.md). |
 
-## Remove Traits from a Segment {#remove-traits}
+## Remover características de um segmento {#remove-traits}
 
 Gerenciar as características em seus segmentos é uma parte importante da manutenção de segmentos viáveis. Siga estas etapas se precisar remover características de um segmento.
 
 Para remover características de um segmento:
 
-1. Go to **Audience Data &gt; Segments**. Role pela lista ou use o recurso de pesquisa para encontrar o segmento com o qual deseja trabalhar.
+1. Acesse Dados **de público-alvo &gt; Segmentos**. Role pela lista ou use o recurso de pesquisa para encontrar o segmento com o qual deseja trabalhar.
 2. Clique no nome do segmento para abrir a tela de detalhes do segmento.
-3. Click **Edit** to open Segment Builder and then click **Traits** to open the traits panel.
+3. Clique **em Editar** para abrir o Construtor de segmentos e clique **em Características** para abrir o painel Características.
 4. Passe o mouse sobre a característica que deseja excluir e clique no X. Essa ação remove imediatamente a característica do seu segmento.
 
-## Segment Builder Controls: Destinations Mappings Section {#segment-builder-controls-destinations}
+## Controles do Construtor de segmento: Seção de mapeamentos de destinos {#segment-builder-controls-destinations}
 
-In [!UICONTROL Segment Builder], the optional [!UICONTROL Destinations Mapping] section lets you send segment data to a third-party [!DNL cookie], [!DNL URL], or server-to-server destination. To add a destination, search (or browse) for a destination, provide destination specific information, and click **[!UICONTROL Add Destination]**.
+Em [!UICONTROL Segment Builder], a seção opcional [!UICONTROL Destinations Mapping] permite enviar dados de segmento para um destino de terceiros [!DNL cookie], [!DNL URL]ou de servidor para servidor. Para adicionar um destino, pesquise (ou procure) um destino, forneça informações específicas de destino e clique **[!UICONTROL Add Destination]** em.
 
 <!-- r_segment_destinations_map.xml -->
 
 ### Pré-requisitos
 
-Complete the required fields in the [!UICONTROL Basic Information] and [!UICONTROL Traits] sections. Além disso, o destino já deve existir.
+Preencha os campos obrigatórios nas seções [!UICONTROL Basic Information] e [!UICONTROL Traits] seções. Além disso, o destino já deve existir.
 
 ### Ferramentas de pesquisa de mapeamentos de destino
 
@@ -131,11 +131,11 @@ Complete the required fields in the [!UICONTROL Basic Information] and [!UICONTR
 | Tipo de pesquisa | Descrição |
 |---|---|
 | **Pesquisar por nome de destino** | Permite pesquisar por um destino específico por nome. Para pesquisar, comece a digitar. O campo será preenchido automaticamente com base nos seus termos de pesquisa. Click **[!UICONTROL Add Destination]** when done. |
-| **Procurar todos os destinos** | Browse a list of *all* destinations available to you. Selecione e adicione destinos ao seu segmento na lista pop-up. |
+| **Procurar todos os destinos** | Navegue por uma lista de *todos* os destinos disponíveis para você. Selecione e adicione destinos ao seu segmento na lista pop-up. |
 
-## Fields in the Destination Mappings Pop-up Windows {#fields-in-dest-mappings}
+## Campos nos pop-up pop-up de Mapeamentos de destino {#fields-in-dest-mappings}
 
-In [!UICONTROL Segment Builder], the [!UICONTROL Add Destination] dialog appears after you select a destination. Essa janela exibe informações estáticas sobre o destino e os campos que variam dependendo do tipo de destino. Forneça as informações necessárias nos campos vazios para configurar um mapeamento de destino.
+No [!UICONTROL Segment Builder], a [!UICONTROL Add Destination] caixa de diálogo aparece depois de selecionar um destino. Essa janela exibe informações estáticas sobre o destino e os campos que variam dependendo do tipo de destino. Forneça as informações necessárias nos campos vazios para configurar um mapeamento de destino.
 
 >[!NOTE]
 >
@@ -145,24 +145,24 @@ In [!UICONTROL Segment Builder], the [!UICONTROL Add Destination] dialog appears
 
 ### Campos de destino do cookie
 
-In the [!UICONTROL Destination Mapping] fields, specify the key-value pairs used to send data to the destination. Insira a chave no primeiro campo e os valores no segundo. O destino do seu cookie pop-up pode ser semelhante a isto:
+Nos [!UICONTROL Destination Mapping] campos, especifique os pares de valores chave usados para enviar dados para o destino. Insira a chave no primeiro campo e os valores no segundo. O destino do seu cookie pop-up pode ser semelhante a isto:
 
 ![](assets/cookie_modal.PNG)
 
 ### Campos de destino de URL
 
-In the [!UICONTROL URL] and [!UICONTROL Secure URL] fields, specify the complete standard or secure address used to send data to the destination.
+Nos campos [!UICONTROL URL] e [!UICONTROL Secure URL] campos, especifique o endereço padrão ou seguro completo usado para enviar dados para o destino.
 
 ![](assets/url_modal.PNG)
 
 ### Campos de destino de servidor a servidor
 
-In the [!UICONTROL Destination Value] field specify the value (part of a key-value pair) used to send data to the destination.
+No [!UICONTROL Destination Value] campo, especifique o valor (parte de um par de valor chave) usado para enviar dados para o destino.
 
 ![](assets/s2s_modal.PNG)
 
 >[!MORE_ LIKE_ THIS]
 >
->* [Criar um destino do cookie](../../features/destinations/manage-destinations.md#create-cookie-destination)
->* [Criar um destino de URL](../../features/destinations/manage-destinations.md#configure-url-destination)
+>* [Criar um destino do cookie](../../features/destinations/create-cookie-destination.md)
+>* [Criar um destino de URL](../../features/destinations/create-url-destination.md)
 
