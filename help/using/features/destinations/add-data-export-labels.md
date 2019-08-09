@@ -5,7 +5,7 @@ seo-title: Adicionar controles de exportação de dados para um destino
 solution: Audience Manager
 title: Adicionar controles de exportação de dados para um destino
 translation-type: tm+mt
-source-git-commit: 6e2b5842ad3ca52f7ed0fb72231deb6fa614b70b
+source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 6e2b5842ad3ca52f7ed0fb72231deb6fa614b70b
 Para adicionar rótulos de exportação a um destino:
 
 1. Clique em **[!UICONTROL Audience Data]**:
-   * Para novos destinos: Clique **[!UICONTROL Create New Destination]** em. Preencha a [!UICONTROL Basic Information] seção antes de selecionar um rótulo de exportação de dados. Consulte [Criar um destino de cookie](../../features/destinations/manage-destinations.md#create-cookie-destination) ou [Criar um destino de URL](../../features/destinations/manage-destinations.md#configure-url-destination) para obter informações.
+   * Para novos destinos: Clique **[!UICONTROL Create New Destination]** em. Preencha a [!UICONTROL Basic Information] seção antes de selecionar um rótulo de exportação de dados. Consulte [Criar um destino de cookie](../../features/destinations/create-cookie-destination.md) ou [Criar um destino de URL](../../features/destinations/create-url-destination.md) para obter informações.
    * Para destinos existentes: Use [!DNL Search] a caixa para localizar o destino ou clique na lista e clique no nome de destino para abri-lo.
 1. Selecione um [!DNL Data Export Label]. Deixe as caixas de seleção em branco se não quiser definir quaisquer restrições de exportação. Os rótulos de exportação incluem as seguintes opções:
    * **[!UICONTROL This destination may enable a combination with personally identifiable information (PII)]**
