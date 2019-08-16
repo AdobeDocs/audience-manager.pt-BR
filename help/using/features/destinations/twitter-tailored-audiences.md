@@ -5,7 +5,7 @@ seo-title: Configurar públicos-alvo adaptados do Twitter como destino baseado e
 solution: Audience Manager
 title: Configurar públicos-alvo adaptados do Twitter como destino baseado em dispositivo autoatendimento
 translation-type: tm+mt
-source-git-commit: 96717384ebb82056f330312b0f99fb97086a2e05
+source-git-commit: 0ca286bd391c9c3a5298508ecc5a42ec61a64044
 
 ---
 
