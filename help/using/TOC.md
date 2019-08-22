@@ -4,7 +4,7 @@ audience: usuário final
 user-guide-title: Guia do usuário do Audience Manager
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 96717384ebb82056f330312b0f99fb97086a2e05
+source-git-commit: 97e8e4282fdb729a367cdfbfce0a9af10651edfd
 
 ---
 
@@ -78,20 +78,29 @@ source-git-commit: 96717384ebb82056f330312b0f99fb97086a2e05
    + [Sinais derivados](features/derived-signals.md)
    + Destinos{#destinations}
       + [Visão geral dos destinos](features/destinations/destinations.md)
-      + [Página inicial de destinos](/help/using/features/destinations/destinations-home.md)
+      + [Página inicial de destinos](features/destinations/destinations-home.md)
       + Destinos da Adobe Experience Cloud{#experience-cloud-destinations}
-         + [Configurar um destino do Analytics](/help/using/features/destinations/create-analytics-destination.md)
-      + Destinos baseados em pessoas {#pbd}
+         + [Configurar um destino do Analytics](features/destinations/create-analytics-destination.md)
+      + Destinos baseados em pessoas {#people-based-destinations}
+         + [Visão geral e casos de uso](features/destinations/people-based-destinations-overview.md)
+         + [Pré-requisitos e considerações](features/destinations/people-based-destinations-prerequisites.md)
+         + Guia de implementação {#pbd-implementation}
+            + [Visão geral da implementação](features/destinations/people-based-destinations-workflow.md)
+            + [Fluxo de trabalho A - Personalização com base em todas as atividades online combinadas com dados offline](features/destinations/people-based-destinations-workflow-combined.md)
+            + [Fluxo de trabalho B - Personalização com base em dados somente offline](features/destinations/people-based-destinations-workflow-offline.md)
+            + [Fluxo de trabalho C - Personalização baseada em atividade autenticada combinada com dados offline](features/destinations/people-based-destinations-workflow-authenticated.md)
+         + [Autenticação com plataformas baseadas em pessoas](features/destinations/people-based-destinations-authentication.md)
+         + [Públicos-alvo compartilháveis](/help/using/features/destinations/people-based-destinations-reporting.md)
       + Destinos baseados em dispositivo (servidor a servidor) {#device-based}
-         + [Adicionar novos destinos baseados em dispositivo](/help/using/features/destinations/add-device-based-destinations.md)
-         + [Adicionar ou editar segmentos para destinos de servidor a servidor](/help/using/features/destinations/add-edit-segments.md)
-         + [Configurar públicos-alvo adaptados do Twitter como destino baseado em dispositivo autoatendimento](/help/using/features/destinations/twitter-tailored-audiences.md)
+         + [Adicionar novos destinos baseados em dispositivo](features/destinations/add-device-based-destinations.md)
+         + [Adicionar ou editar segmentos para destinos de servidor a servidor](features/destinations/add-edit-segments.md)
+         + [Configurar públicos-alvo adaptados do Twitter como destino baseado em dispositivo autoatendimento](features/destinations/twitter-tailored-audiences.md)
       + Destinos personalizados {#custom-destinations}
-         + [Configurar um destino de URL](/help/using/features/destinations/create-url-destination.md)
-         + [Configurar um destino do cookie](/help/using/features/destinations/create-cookie-destination.md)
-         + [Configurações opcionais para destinos de cookies](/help/using/features/destinations/cookie-destination-options.md)
+         + [Configurar um destino de URL](features/destinations/create-url-destination.md)
+         + [Configurar um destino do cookie](features/destinations/create-cookie-destination.md)
+         + [Configurações opcionais para destinos de cookies](features/destinations/cookie-destination-options.md)
       + Referência de destinos {#destinations-reference}
-         + [Construtor de destinos](/help/using/features/destinations/destination-builder.md)
+         + [Construtor de destinos](features/destinations/destination-builder.md)
          + [código get_ aamcookie](features/destinations/get-aam-cookie-code.md)
          + [Macros de destino definidas](features/destinations/destination-macros.md)
          + [Pares de valores-chave padrão e padrão](features/destinations/key-value-pairs.md)
@@ -362,6 +371,7 @@ source-git-commit: 96717384ebb82056f330312b0f99fb97086a2e05
    + [Perguntas frequentes sobre coleção de dados e integração do produto](faq/faq-data-collection.md)
    + [Perguntas frequentes sobre ingestão de dados do cliente](faq/faq-inbound-data-ingestion.md)
    + [Perguntas frequentes sobre privacidade e retenção de dados](faq/faq-privacy.md)
+   + [Perguntas frequentes sobre destinos de pessoas](faq/faq-people-based-destinations.md)
    + [Perguntas frequentes sobre recursos e funções do produto](faq/faq-features.md)
    + [Regras de mesclagem de perfil e perguntas frequentes sobre o gráfico de dispositivos](faq/faq-profile-merge.md)
    + [Perguntas frequentes sobre segmentação](faq/faq-targeting.md)
