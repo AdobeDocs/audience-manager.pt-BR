@@ -5,7 +5,7 @@ seo-title: Configurar públicos-alvo adaptados do Twitter como destino baseado e
 solution: Audience Manager
 title: Configurar públicos-alvo adaptados do Twitter como destino baseado em dispositivo autoatendimento
 translation-type: tm+mt
-source-git-commit: 0ca286bd391c9c3a5298508ecc5a42ec61a64044
+source-git-commit: bdc626ef11aacbf1fcbf138748b56acc24ec7b13
 
 ---
 
@@ -21,8 +21,6 @@ Antes de configurar o [!DNL Twitter Tailored Audiences] destino, verifique os se
 1. Sua [!DNL Twitter Ads] conta deve ser qualificada para publicidade. As novas [!DNL Twitter Ads] contas não são elegíveis para publicidade nas primeiras 2 semanas após a criação.
 2. Sua conta de usuário do Twitter de acesso autorizado no Audience Manager deve ter a permissão do Gerenciador de público [-alvo](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) do parceiro habilitada.
 3. Se [você estiver atualizando sua integração existente do Twitter para a administração de autoatendimento](#update-existing-twitter-integrations), sua conta de usuário do Twitter deve ter a [permissão Gerente](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) de publicidade ativada.
-
-
 
 ## Adicionar um novo [!DNL Twitter Tailored Audiences] destino {#add-new-twitter-destination}
 
@@ -65,9 +63,18 @@ Para melhorar a experiência do usuário e simplificar o processo de configuraç
 Siga as etapas abaixo para migrar seu destino existente [!DNL Twitter Tailored Audiences] para o modelo de autoatendimento.
 
 1. Faça logon em sua conta do Audience Manager e vá **[!DNL Administration > Integrated Accounts]** para.
-2. Clique em **[!DNL Add Account]**.
-3. Selecione [!DNL Twitter Tailored Audiences] e clique **[!DNL Confirm]** para ser redirecionado para a página de autenticação. ![plataformas integradas](assets/dbd-integrated-platforms.png)
-4. Após ter sido autenticado com sua conta do Twitter, você será redirecionado para o Audience Manager onde você deverá visualizar suas contas de anunciante associadas. Selecione a conta do anunciante que deseja usar e clique **[!DNL Confirm]** em.
+1. Clique em **[!DNL Add Account]**.
+1. Selecione [!DNL Twitter Tailored Audiences] e clique **[!DNL Confirm]** para ser redirecionado para a página de autenticação. ![plataformas integradas](assets/dbd-integrated-platforms.png)
+1. Após ter sido autenticado com a [!DNL Twitter] sua conta, você será redirecionado para o Audience Manager onde você deverá visualizar suas contas de anunciante associadas. Selecione a conta do anunciante que deseja usar e clique **[!DNL Confirm]** em.
+1. Vá **[!UICONTROL Audience Data]** para &gt; **[!UICONTROL Destinations]** e clique no destino do Twitter que você precisa configurar.
+1. Clique em **[!UICONTROL Edit]**. Na **[!UICONTROL Basic Information]** seção, clique no menu **[!UICONTROL Integrated Account]** suspenso e selecione a [!DNL Twitter] conta com a qual você está autenticada na Etapa 4.
+1. **[!UICONTROL Save]** o destino.
+
+## Validando a migração para a administração de autoatendimento {#migration-validation}
+
+A migração completa de integrações existentes [!DNL Twitter] para administração de autoatendimento pode levar até 7 dias. Quando a migração for concluída, o Audience Manager mostrará uma notificação na interface do usuário.
+
+Você também verá um novo grupo de públicos-alvo na [!DNL Twitter] sua conta, com seus nomes prefixos [! DNL [Adobe DMP Audience]]. Aguarde até 7 dias para que a população do público-alvo seja totalmente preenchida. Após a conclusão da migração, você deve usar esses novos públicos em vez dos antigos.
 
 ## Considerações sobre mapeamento de segmento {#segment-mapping-considerations}
 
@@ -76,7 +83,7 @@ Ao mapear segmentos de público-alvo para o Twitter, certifique-se de cumprir os
 * Forneça nomes de mapeamento de segmento legíveis. Recomendamos usar o mesmo nome que você usou para os segmentos do Audience Manager.
 * Não use vírgulas em nomes de mapeamento de segmento e segmento.
 
-**Exemplo**
+### Exemplo
 
 * Corrigir o segmento ou o nome do mapeamento: " US and European Shoppers ";
 * Segmento incorreto ou nome do mapeamento: " US, Europeu 5 h 0 rs rs ".
