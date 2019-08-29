@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Sintaxe e exemplos de nome de arquivo de dados de saída
 uuid: effdcaf 6-c 37 c -45 f 3-9 d 2 f-a 938 a 9 da 47 a 6
 translation-type: tm+mt
-source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
+source-git-commit: e6f1a3b86658a882ebe927cefe55be6ddd40b906
 
 ---
 
@@ -93,7 +93,7 @@ A tabela define os elementos em um nome de arquivo de dados de saída.
 
 ### Cenário 1
 
-Arquivos enviados para um [!DNL Amazon S3] local, com *`PID-ALIAS="XYZCustomer"`* e com [!DNL Google Advertiser IDs] o conteúdo do arquivo.
+Arquivos enviados para um [!DNL Amazon S3] local, com *`PID_ALIAS="XYZCustomer"`* e com [!DNL Google Advertiser IDs] o conteúdo do arquivo.
 
 Por exemplo, arquivos incrementais:
 
@@ -112,7 +112,7 @@ Por exemplo, arquivos completos:
 
 ### Cenário 2
 
-Arquivos enviados para [!DNL FTP] o local, sem *`PID-ALIAS`* e com [!DNL Apple Advertiser IDs] o conteúdo do arquivo:
+Arquivos enviados para [!DNL FTP] o local, sem *`PID_ALIAS`* e com [!DNL Apple Advertiser IDs] o conteúdo do arquivo:
 
 Por exemplo, arquivos incrementais:
 
@@ -128,7 +128,7 @@ Por exemplo, arquivos completos:
  <li> <code> ftp_1234_20915_full_1486140843000001.sync.gz </code> </li> 
 </ul>
 
-**Cenário 3**: Arquivos enviados para [!DNL FTP] o local, com *`PID-ALIAS="XYZCustomer"`* e com ID de usuário de terceiros no conteúdo do arquivo ( *`Vendor ID=45454`*):
+**Cenário 3**: Arquivos enviados para [!DNL FTP] o local, com *`PID_ALIAS="XYZCustomer"`* e com ID de usuário de terceiros no conteúdo do arquivo ( *`Vendor ID=45454`*):
 
 Por exemplo, arquivos incrementais:
 
