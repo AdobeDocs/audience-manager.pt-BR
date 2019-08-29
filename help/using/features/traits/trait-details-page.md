@@ -6,49 +6,54 @@ solution: Audience Manager
 title: Página de detalhes da característica
 uuid: 23301376-c 1 cc -4778-b 8 c 4-9831 f 6739 db 9
 translation-type: tm+mt
-source-git-commit: f42267d3acf2570fc87d50c4c4e65826902d9e55
+source-git-commit: aadcafe10d452a0abc02a430485a373c6c80cdc5
 
 ---
 
 
-# Trait Details Page {#trait-details-page}
+# Página de detalhes da característica {#trait-details-page}
 
-A página de detalhes de uma característica individual fornece visão geral de informações como nome de característica, ID, métricas de desempenho, expressões que definem a característica, os segmentos aos quais pertence e o log de auditoria de características. To vew these details, go to [!UICONTROL Audience Data > Traits] and click the name of the trait you want to work with.
+A página de detalhes de uma característica individual fornece visão geral de informações como nome de característica, ID, métricas de desempenho, expressões que definem a característica, os segmentos aos quais pertence e o log de auditoria de características. Para veicular esses detalhes, vá [!UICONTROL Audience Data > Traits] para e clique no nome da característica com a qual deseja trabalhar.
 
 ## Informações básicas {#basics}
 
-The [!UICONTROL Basic Information] section shows details about required and optional fields you completed when building the trait. Isso inclui coisas como o tipo de característica, a ID característica, a descrição, a fonte de dados e outros metadados. Esses detalhes variam dependendo do tipo de característica (pasta, onboard ou baseado em regras).
+A [!UICONTROL Basic Information] seção mostra detalhes sobre campos obrigatórios e opcionais que você concluiu ao criar a característica. Isso inclui coisas como o tipo de característica, a ID característica, a descrição, a fonte de dados e outros metadados. Esses detalhes variam dependendo do tipo de característica (pasta, onboard ou baseado em regras).
 
 ![](assets/basicInfo.png)
 
-## Trait Graph {#trait-graph}
+## Gráfico de características {#trait-graph}
 
 [!UICONTROL Trait Graph] Fornece métricas de desempenho para a característica selecionada. Posicione o cursor sobre uma linha de tendência para ver dados adicionais para a característica selecionada.
 
-[!UICONTROL Unique Trait Realizations] representa uma contagem de usuários únicos que adicionaram essa característica ao perfil em relação ao intervalo de tempo especificado. The [!UICONTROL Total Trait Population] indicates the number of unique users currently qualified for this trait.
+[!UICONTROL Unique Trait Realizations] representa uma contagem de usuários únicos que adicionaram essa característica ao perfil em relação ao intervalo de tempo especificado. O [!UICONTROL Total Trait Population] número indica o número de usuários únicos qualificados atualmente para essa característica.
 
 * Para características baseadas em regras, a qualificação de características ocorre em tempo real, já que os usuários se qualificam para uma característica no navegador.
-* For onboarded traits, trait qualification happens after an inbound file is processed, i.e. the inbound file is [fed into Audience Manager](../../faq/faq-inbound-data-ingestion.md) and that is when the trait qualification happens.
+* Para características onboard, a qualificação de características ocorre depois que um arquivo de entrada é processado, isto é, o arquivo de entrada é [alimentado no Audience Manager](../../faq/faq-inbound-data-ingestion.md) e é quando a qualificação de características ocorre.
 * **Análise de característica exclusiva**: Uma contagem de usuários únicos que adicionaram essa característica ao perfil em relação ao intervalo de tempo especificado.
 * **População de característica total**: O número de usuários únicos qualificados atualmente para este trait.
 
-![](assets/traitGraph.png)
+   ![gráfico de características](assets/trait-summary.png)
 
-## Trait Expression {#trait-expression}
+* **Detalhamento do tipo de identidade**: As três primeiras entradas mostram as três principais fontes de dados entre dispositivos com a contagem de população mais alta qualificada para a característica, em ordem decrescente. A quarta entrada mostra a soma de todos os outros [!DNL DPUUIDs] ([!DNL CRM IDs]) que qualificados para a característica, a partir das fontes de dados entre dispositivos que não estão nas três principais. Esse relatório será exibido apenas se você selecionar a ID entre dispositivos no menu [!UICONTROL Show Results By] suspenso no lado superior direito da página. A opção suspensa padrão é [!UICONTROL Device ID], onde este relatório não é exibido.
 
-[!UICONTROL Trait Expression] A seção mostra os critérios que os usuários precisam atender para se qualificarem para a característica. These rules are set when you [create or edit a trait](../../features/traits/about-trait-builder.md).
+   ![gráfico de características](assets/trait-identity.png)
+
+
+## Expressão de característica {#trait-expression}
+
+[!UICONTROL Trait Expression] A seção mostra os critérios que os usuários precisam atender para se qualificarem para a característica. Essas regras são definidas quando você [cria ou edita uma característica](../../features/traits/about-trait-builder.md).
 
 ![](assets/traitExpression.png)
 
-## Trait Segments {#trait-segments}
+## Segmentos de características {#trait-segments}
 
 [!UICONTROL Segments with this Trait] A seção lista todos os segmentos aos quais a característica selecionada pertence. Você pode clicar em um nome de segmento para ver detalhes sobre esse segmento.
 
 ![](assets/traitSegments.png)
 
-## Trait Audit/History Log {#trait-audit-history}
+## Auditoria de características/Registro histórico {#trait-audit-history}
 
-For rule-based and onboarded traits, the [!UICONTROL Trait Expression Change History] shows you the last 10 changes made to trait expression rules and who made them. If your trait has more than 10 changes, click **[!UICONTROL Export to CSV]** to download the entire audit log. O log de auditoria não está disponível para as características de pastas ou algoritmos.
+Para características integradas e baseadas em regras, [!UICONTROL Trait Expression Change History] mostra as últimas 10 alterações feitas nas regras de expressão característica e que as efetuaram. Se sua característica tiver mais de 10 alterações, clique em **[!UICONTROL Export to CSV]** para baixar todo o log de auditoria. O log de auditoria não está disponível para as características de pastas ou algoritmos.
 
 >[!NOTE]
 >
