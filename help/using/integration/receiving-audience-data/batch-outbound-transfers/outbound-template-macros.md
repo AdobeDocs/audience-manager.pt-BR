@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Macros de modelo de saída
 uuid: dec 082 d 3-306 b -4 ff 5-afb 2-418 bd 543 d 8 d 0
 translation-type: tm+mt
-source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
+source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
 
 ---
 
@@ -15,9 +15,9 @@ source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
 
 Lista as macros que você pode usar para criar modelos de saída. Isso inclui macros de nome de arquivo, macros de cabeçalho e macros de conteúdo.
 
-## File Name and File Header Macros {#file-name-header-macros}
+## Macros de nome de arquivo e cabeçalho do arquivo {#file-name-header-macros}
 
-A tabela lista e descreve as macros que você pode usar no nome do arquivo e para definir campos de cabeçalho. For code samples, see [Outbound Macro Examples](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
+A tabela lista e descreve as macros que você pode usar no nome do arquivo e para definir campos de cabeçalho. Para amostras de código, consulte [Exemplos macro de saída](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
 
 <table id="table_C353AF028E0A4944A8727FD01C94FDB6"> 
  <thead> 
@@ -44,8 +44,17 @@ A tabela lista e descreve as macros que você pode usar no nome do arquivo e par
    <td colname="col2"> <p>ID de pedido/destino. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> PIDALIAS </code> </p> </td> 
+   <td colname="col1"> <p> <code> PID_ ALIAS </code> </p> </td> 
    <td colname="col2"> <p>Um alias para uma ID de pedido/destino. </p> <p>O alias é definido na interface do usuário do administrador. </p> </td> 
+  </tr>
+  <tr> 
+   <td colname="col1"> <p> <code> SPLITNUM </code> </p> </td> 
+   <td colname="col2"> <p>Indica a divisão de arquivos de saída em várias partes. Substitua a seção SPLITNUM no nome do arquivo pelo número da peça precedido por zeros, garantindo no mínimo três caracteres para a seção SPLITNUM.</p>
+   <p>A macro SPLITNUM não precisa ser cercada por &lt; &gt; caracteres.</p><p>Exemplo: <code>&lt; SYNC_ TYPE &gt;_ &lt; ORDER_ ID &gt;_ &lt; DPID &gt;_ &lt; SYNC_ MODE &gt;_ &lt; TIMESTAMP &gt; SPLITNUM. csv</code>
+<p>s 3_ 123456_ 9999_ full_ 1566906141001. csv</p> 
+<p>s 3_ 123456_ 9999_ full_ 1566906141002. csv</p> 
+<p>s 3_ 123456_ 9999_ full_ 1566906141003. csv</p> 
+<p>Os três últimos dígitos (001,002,003) nos exemplos acima são os identificadores SPLITNUM.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SYNC_ MODE </code> </p> </td> 
@@ -70,14 +79,15 @@ A tabela lista e descreve as macros que você pode usar no nome do arquivo e par
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TIMESTAMP </code> </p> </td> 
-   <td colname="col2"> <p>Um carimbo de data e hora de 10 dígitos, UTC, Unix. </p> <p>It can also be formatted as <code> &lt;TIMESTAMP; format="YYYYMMDDhhmmss"&gt; </code> following Java date/timestamp formatting rules. </p> </td> 
-  </tr> 
- </tbody> 
+   <td colname="col2"> <p>Um carimbo de data e hora de 10 dígitos, UTC, Unix. </p> <p>Também pode ser formatado como <code> &lt; TIMESTAMP; format = "aaaammddhhmmss" &gt; </code> seguindo as regras de formatação de data/hora do Java. </p> </td> 
+  </tr>
+
+</tbody> 
 </table>
 
-## Content Macros {#content-macros}
+## Macros de conteúdo {#content-macros}
 
-Macros usadas para formatar o conteúdo de um arquivo de dados. For code samples, see [Outbound Macro Examples](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
+Macros usadas para formatar o conteúdo de um arquivo de dados. Para amostras de código, consulte [Exemplos macro de saída](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
 
 <table id="table_5C6F9678CFF34C5EB67BA1DEA0479F1D"> 
  <thead> 
@@ -105,7 +115,7 @@ Macros usadas para formatar o conteúdo de um arquivo de dados. For code samples
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DPUUIDS </code> </p> </td> 
-   <td colname="col2"> <p>A saída dessa macro mapeia a ID do provedor de dados (DPID) para IDs de usuário exclusivas relacionadas (DPUUID). Essa macro deve ter uma string de formatação para controlar sua saída. A saída de amostra seria semelhante ao seguinte: </p> <p> <code> " dpids = dpid 1, dpid 2,… dpid n | maxmappings = n | format = json " </code> </p> <p>The <code> maxMappings </code> setting determines how many mappings you want the macro to return. When <code> maxMappings=0 </code>, this macro returns all the mappings for each specified DPID. Os dados são classificados por carimbo de data e hora (mais recente primeiro) e retorna resultados com o maior carimbo de data e hora. </p> </td> 
+   <td colname="col2"> <p>A saída dessa macro mapeia a ID do provedor de dados (DPID) para IDs de usuário exclusivas relacionadas (DPUUID). Essa macro deve ter uma string de formatação para controlar sua saída. A saída de amostra seria semelhante ao seguinte: </p> <p> <code> " dpids = dpid 1, dpid 2,… dpid n | maxmappings = n | format = json " </code> </p> <p>A configuração <code> maxmaappings </code> determina quantos mapeamentos você deseja que a macro retorne. Quando <code> maxmappings = 0 </code>, essa macro retorna todos os mapeamentos para cada DPID especificado. Os dados são classificados por carimbo de data e hora (mais recente primeiro) e retorna resultados com o maior carimbo de data e hora. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> if (SEGMENT_ LIST &amp; &amp; REMOVED_ SEGMENT_ LIST) endif </code> </p> </td> 
@@ -133,7 +143,7 @@ Macros usadas para formatar o conteúdo de um arquivo de dados. For code samples
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OUTPUT_ ATTRIBUTE_ VALUE </code> </p> </td> 
-   <td colname="col2"> <p>Returns <code> 1 </code> as a static, hardcoded value. </p> </td> 
+   <td colname="col2"> <p>Retorna <code> 1 </code> como um valor estático e codificado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> PID </code> </p> </td> 
@@ -157,11 +167,11 @@ Macros usadas para formatar o conteúdo de um arquivo de dados. For code samples
      <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code> type </code>: Retorna <code> 5 </code>, um valor estático e codificado que identifica dados como dados de segmento. </li> 
      <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code> alias </code>: Obsoleto. Não use. </li> 
      <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code> Lastupdatetime </code>: Um carimbo de data e hora Unix que indica a última vez que um segmento foi realizado. </li> 
-    </ul> <p>Coloque essas variáveis entre chaves após a macro. For example, this code separates results with a pipe "|" character: <code> &lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator=","&gt; </code> </p> </td> 
+    </ul> <p>Coloque essas variáveis entre chaves após a macro. Por exemplo, esse código separa os resultados com uma barra vertical|" caractere: <code> &lt; SEGMENT_ LIST: {seg|&lt; seg. type &gt;, &lt; seg. sid &gt;}; separator = "," &gt; </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SET_ ATTRIBUTES </code> </p> </td> 
-   <td colname="col2"> <p>Returns <code> 1 </code>, as a static, hardcoded value. </p> </td> 
+   <td colname="col2"> <p>Retorna <code> 1 </code>como um valor estático e codificado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SYNC_ MODE </code> </p> </td> 
@@ -195,7 +205,7 @@ Macros usadas para formatar o conteúdo de um arquivo de dados. For code samples
       </ul> </li> 
      <li id="li_1DDE25334CF9479A8C4738F3CB3C40AA"> <code> Traitid </code>: ID de característica. </li> 
      <li id="li_DCB89F2A40BB43C98EE3C84B5B3CDD33"> <code> Lastrealized </code>: A última vez que a característica foi realizada. Carimbo de data e hora Unix. </li> 
-    </ul> <p>Coloque essas variáveis entre chaves após a macro. For example, this code separates the results with a pipe "|" character: <code> &lt;TRAIT_LIST:{trait|&lt;trait.Id&gt;,&lt;trait.lastRealized&gt;};separator="," </code> </p> </td> 
+    </ul> <p>Coloque essas variáveis entre chaves após a macro. Por exemplo, esse código separa os resultados com uma barra vertical|" caractere: <code> &lt; TRAIT_ LIST: {trait|&lt; trait. Id &gt;, &lt; trait. lastrealized &gt;}; separator = "," </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> UUID </code> </p> </td> 
