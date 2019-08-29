@@ -5,7 +5,7 @@ seo-title: Fluxo de trabalho A - Personalização com base em todas as atividade
 solution: Audience Manager
 title: Fluxo de trabalho A - Personalização com base em todas as atividades online combinadas com dados offline
 translation-type: tm+mt
-source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
+source-git-commit: f3f47db944d9f771cbd55058f6652188cda0e147
 
 ---
 
