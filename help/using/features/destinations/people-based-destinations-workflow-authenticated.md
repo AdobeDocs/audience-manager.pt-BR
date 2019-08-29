@@ -5,7 +5,7 @@ seo-title: Fluxo de trabalho C - Personalização baseada em atividade autentica
 solution: Audience Manager
 title: Fluxo de trabalho C - Personalização baseada em atividade autenticada combinada com dados offline
 translation-type: tm+mt
-source-git-commit: a40d0be8ece674c1870e6f27003bfbe9d55d7316
+source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
 
 ---
 
@@ -49,16 +49,16 @@ Para qualificar usuários autenticados para características baseadas em regras,
 
 Considere que você criou as duas fontes de dados a seguir.
 
-| Dados ID de origem | Dados conteúdo de origem |
-|-|-|
-| 999999 | Existente Dpuuids (IDs CRM)|
-| 987654 | Hash endereços de email|
+| ID da fonte de dados | Conteúdo da fonte de dados |
+|---|---|
+| 999999 | Dpuuids existentes (IDs de CRM) |
+| 987654 | Endereços de email com hash |
 
 Em seguida, você deseja qualificar as IDs do CRM abaixo para a característica na tabela.
 
-| DPUUID (ID do CRM)| Email endereço | Endereço de email com hash | Característica|
-|-|-|-|-|
-|68079982765673198504052656074456196039|`johndoe@example.com`| 55 e 79200 c 1635 b 37 ad 31 a 378 c 39 fec 320 f 110 625093 a 19 bc 32 fff 15041149 | localização = US|
+| DPUUID (ID de CRM) | Endereço de email | Endereço de email com hash | Características |
+|---|---|---|---|
+| 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 | location = US |
 
 A ID declarada deve seguir esta sintaxe:
 
