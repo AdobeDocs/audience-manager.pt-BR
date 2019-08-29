@@ -5,7 +5,7 @@ seo-title: Configurar públicos-alvo adaptados do Twitter como destino baseado e
 solution: Audience Manager
 title: Configurar públicos-alvo adaptados do Twitter como destino baseado em dispositivo autoatendimento
 translation-type: tm+mt
-source-git-commit: bdc626ef11aacbf1fcbf138748b56acc24ec7b13
+source-git-commit: 2ca6ed86922af2dbdfd268551f101e58c8356579
 
 ---
 
@@ -74,7 +74,7 @@ Siga as etapas abaixo para migrar seu destino existente [!DNL Twitter Tailored A
 
 A migração completa de integrações existentes [!DNL Twitter] para administração de autoatendimento pode levar até 7 dias. Quando a migração for concluída, o Audience Manager mostrará uma notificação na interface do usuário.
 
-Você também verá um novo grupo de públicos-alvo na [!DNL Twitter] sua conta, com seus nomes prefixos [! DNL [Adobe DMP Audience]]. Aguarde até 7 dias para que a população do público-alvo seja totalmente preenchida. Após a conclusão da migração, você deve usar esses novos públicos em vez dos antigos.
+Você também verá um novo grupo de públicos-alvo na [!DNL Twitter] sua conta, com os nomes prefixos por [[!DNL Adobe DMP Audience]]. Aguarde até 7 dias para que a população do público-alvo seja totalmente preenchida. Após a conclusão da migração, você deve usar esses novos públicos em vez dos antigos.
 
 ## Considerações sobre mapeamento de segmento {#segment-mapping-considerations}
 
