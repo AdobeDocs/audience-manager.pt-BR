@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Página de detalhes da característica
 uuid: 23301376-c 1 cc -4778-b 8 c 4-9831 f 6739 db 9
 translation-type: tm+mt
-source-git-commit: aadcafe10d452a0abc02a430485a373c6c80cdc5
+source-git-commit: 3130882116d39e94b446679999144f1eb55edc77
 
 ---
 
@@ -29,15 +29,16 @@ A [!UICONTROL Basic Information] seção mostra detalhes sobre campos obrigatór
 
 * Para características baseadas em regras, a qualificação de características ocorre em tempo real, já que os usuários se qualificam para uma característica no navegador.
 * Para características onboard, a qualificação de características ocorre depois que um arquivo de entrada é processado, isto é, o arquivo de entrada é [alimentado no Audience Manager](../../faq/faq-inbound-data-ingestion.md) e é quando a qualificação de características ocorre.
-* **Análise de característica exclusiva**: Uma contagem de usuários únicos que adicionaram essa característica ao perfil em relação ao intervalo de tempo especificado.
-* **População de característica total**: O número de usuários únicos qualificados atualmente para este trait.
+* **[!UICONTROL Unique Trait Realizations]**: Uma contagem de usuários únicos que adicionaram essa característica ao perfil em relação ao intervalo de tempo especificado.
+* **[!UICONTROL Total Trait Population]**: O número de usuários únicos qualificados atualmente para este trait.
 
    ![gráfico de características](assets/trait-summary.png)
 
-* **Detalhamento do tipo de identidade**: As três primeiras entradas mostram as três principais fontes de dados entre dispositivos com a contagem de população mais alta qualificada para a característica, em ordem decrescente. A quarta entrada mostra a soma de todos os outros [!DNL DPUUIDs] ([!DNL CRM IDs]) que qualificados para a característica, a partir das fontes de dados entre dispositivos que não estão nas três principais. Esse relatório será exibido apenas se você selecionar a ID entre dispositivos no menu [!UICONTROL Show Results By] suspenso no lado superior direito da página. A opção suspensa padrão é [!UICONTROL Device ID], onde este relatório não é exibido.
+* **[!UICONTROL Identity Type Breakdown]**: As três primeiras entradas mostram as três principais fontes de dados entre dispositivos com a contagem de população mais alta qualificada para a característica, em ordem decrescente. A quarta entrada mostra a soma de todos os outros [!DNL DPUUIDs] ([!DNL CRM IDs]) que qualificados para a característica, a partir das fontes de dados entre dispositivos que não estão nas três principais. Esse relatório será exibido apenas se você selecionar a ID entre dispositivos no menu [!UICONTROL Show Results By] suspenso no lado superior direito da página. A opção suspensa padrão é [!UICONTROL Device ID], onde este relatório não é exibido.
 
    ![gráfico de características](assets/trait-identity.png)
-
+   > [!NOTE]
+   > O Audience Manager somente exibe o [!UICONTROL Identity Type Breakdown] relatório se houver IDs de dispositivo cruzadas qualificadas para a característica.
 
 ## Expressão de característica {#trait-expression}
 
