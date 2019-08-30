@@ -5,7 +5,7 @@ seo-title: Fluxo de trabalho A - Personalização com base em todas as atividade
 solution: Audience Manager
 title: Fluxo de trabalho A - Personalização com base em todas as atividades online combinadas com dados offline
 translation-type: tm+mt
-source-git-commit: 3fd24d4006ccbb14dad5cad10a66749a1cb97f47
+source-git-commit: fdb17c46dd66794cfb744b77e8e5c8be9fd65dd5
 
 ---
 
@@ -55,7 +55,7 @@ Nesse caso, é necessário criar uma nova fonte de dados entre dispositivos que 
 Considere que você deseja corresponder [suas dpuuids](../../reference/ids-in-aam.md) existentes aos endereços de email com hash da tabela abaixo (coluna direita) e armazenar os endereços de email com hash na nova fonte de dados criada na [Etapa 1 - Configurar configurações de fonte de dados](people-based-destinations-workflow-combined.md#configure-data-source-settings).
 
 | DPUUID (ID de CRM) | Endereço de email | Endereço de email com hash |
-| --- | --- | --- |
+| -------------------------------------- | --------------------- | ---------------------------------------------------------------- |
 | 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 |
 | 67412682083411995725538770443620307584 | `janedoe@email.com` | 16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a |
 | 89159024796760343733111707646026765593 | `name@mydomain.com` | feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6 |
@@ -65,7 +65,7 @@ Você pode vincular até 10 endereços de email com hash a uma única [DPUUID](.
 Em nosso exemplo, agora você teria duas fontes de dados.
 
 | ID da fonte de dados | Conteúdo da fonte de dados |
-| --- | --- |
+| -------------- | -------------------------- |
 | 999999 | Dpuuids existentes (IDs de CRM) |
 | 987654 | Endereços de email com hash |
 
