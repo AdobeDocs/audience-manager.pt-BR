@@ -5,7 +5,7 @@ seo-title: Fluxo de trabalho C - Personalização baseada em atividade autentica
 solution: Audience Manager
 title: Fluxo de trabalho C - Personalização baseada em atividade autenticada combinada com dados offline
 translation-type: tm+mt
-source-git-commit: fdb17c46dd66794cfb744b77e8e5c8be9fd65dd5
+source-git-commit: d0e343e3fbaf527e9b630dc2dbc851d8f8f4c0b2
 
 ---
 
@@ -18,9 +18,13 @@ Esta página inclui orientação passo a passo sobre como combinar dados offline
 
 Dependendo de suas [dpuuids](../../reference/ids-in-aam.md) serem em minúsculas, os endereços de email com hash talvez precisem configurar a fonte de dados que armazenará os endereços de email com hash.
 
+ 
+
 **Cenário 1: suas[dpuuids](../../reference/ids-in-aam.md)são endereços de email com hash em minúsculas.**
 
 Nesse caso, pule para [a Etapa 5 - Configurar autenticação de plataforma baseada em pessoas](#configure-authentication).
+
+ 
 
 **Cenário 2: suas[dpuuids](../../reference/ids-in-aam.md)não são minúsculas e endereços de email com hash.**
 
@@ -54,15 +58,21 @@ Considere que você criou as duas fontes de dados a seguir.
 | 999999 | Dpuuids existentes (IDs de CRM) |
 | 987654 | Endereços de email com hash |
 
+ 
+
 Em seguida, você deseja qualificar as IDs do CRM abaixo para a característica na tabela.
 
 | DPUUID (ID de CRM) | Endereço de email | Endereço de email com hash | Características |
 | -------------------------------------- | --------------------- | ---------------------------------------------------------------- | ------------- |
 | 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 | location = US |
 
+ 
+
 A ID declarada deve seguir esta sintaxe:
 
 `https://yourDomain.demdex.net/event?d_cid_ic=myHashedEmailDataSourceID%01myHashedEmail&d_cid_ic=myCrmDataSourceID%01myCRMID&key=value`
+
+ 
 
 No exemplo acima, a chamada de ID declarada deve ser semelhante a:
 
