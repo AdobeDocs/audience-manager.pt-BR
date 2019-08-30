@@ -5,7 +5,7 @@ seo-title: Fluxo de trabalho A - Personalização com base em todas as atividade
 solution: Audience Manager
 title: Fluxo de trabalho A - Personalização com base em todas as atividades online combinadas com dados offline
 translation-type: tm+mt
-source-git-commit: fdb17c46dd66794cfb744b77e8e5c8be9fd65dd5
+source-git-commit: d0e343e3fbaf527e9b630dc2dbc851d8f8f4c0b2
 
 ---
 
@@ -18,6 +18,8 @@ Esta página inclui orientação passo a passo sobre como combinar dados offline
 
 Dependendo de suas [dpuuids](../../reference/ids-in-aam.md) serem em minúsculas, os endereços de email com hash talvez precisem configurar a fonte de dados que armazenará os endereços de email com hash.
 
+ 
+
 **Cenário 1: suas[dpuuids](../../reference/ids-in-aam.md)são endereços de email com hash em minúsculas.**
 
 Nesse caso, é necessário rotular a fonte de dados correspondente como tal:
@@ -26,6 +28,8 @@ Nesse caso, é necessário rotular a fonte de dados correspondente como tal:
 1. Encontre a fonte de dados que contém suas [dpuuids](../../reference/ids-in-aam.md)e clique nela.
 1. Verifique se a opção [!UICONTROL Cannot be tied to personally identifiable information] está desmarcada.
 1. Salve as configurações de fonte de dados.
+
+ 
 
 **Cenário 2: suas[dpuuids](../../reference/ids-in-aam.md)não são minúsculas e endereços de email com hash.**
 
@@ -60,6 +64,8 @@ Considere que você deseja corresponder [suas dpuuids](../../reference/ids-in-aa
 | 67412682083411995725538770443620307584 | `janedoe@email.com` | 16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a |
 | 89159024796760343733111707646026765593 | `name@mydomain.com` | feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6 |
 
+ 
+
 Você pode vincular até 10 endereços de email com hash a uma única [DPUUID](../../reference/ids-in-aam.md). Para fazer isso, separe os endereços de email com hash de uma vírgula, dentro do arquivo de sincronização.
 
 Em nosso exemplo, agora você teria duas fontes de dados.
@@ -69,6 +75,8 @@ Em nosso exemplo, agora você teria duas fontes de dados.
 | 999999 | Dpuuids existentes (IDs de CRM) |
 | 987654 | Endereços de email com hash |
 
+ 
+
 O [arquivo](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) de sincronização de ID teria o seguinte conteúdo:
 
 ```
@@ -77,9 +85,13 @@ O [arquivo](../../integration/sending-audience-data/batch-data-transfer-explaine
 89159024796760343733111707646026765593<TAB>feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6
 ```
 
+ 
+
 O arquivo de sincronização [de ID](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) deve seguir esta estrutura de nomenclatura:
 
 `c2c_id_<DPUUID_DATA_SOURCE_ID>_<HASHED_EMAIL_DATA_SOURCE_ID>_TIMESTAMP.sync`
+
+ 
 
 No exemplo acima, o nome do arquivo seria:`c2c_id_999999_987654_1560431657.sync`
 
