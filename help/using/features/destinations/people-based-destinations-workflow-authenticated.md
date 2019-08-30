@@ -5,7 +5,7 @@ seo-title: Fluxo de trabalho C - Personalização baseada em atividade autentica
 solution: Audience Manager
 title: Fluxo de trabalho C - Personalização baseada em atividade autenticada combinada com dados offline
 translation-type: tm+mt
-source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
+source-git-commit: fdb17c46dd66794cfb744b77e8e5c8be9fd65dd5
 
 ---
 
@@ -50,14 +50,14 @@ Para qualificar usuários autenticados para características baseadas em regras,
 Considere que você criou as duas fontes de dados a seguir.
 
 | ID da fonte de dados | Conteúdo da fonte de dados |
-|---|---|
+| -------------- | -------------------------- |
 | 999999 | Dpuuids existentes (IDs de CRM) |
 | 987654 | Endereços de email com hash |
 
 Em seguida, você deseja qualificar as IDs do CRM abaixo para a característica na tabela.
 
 | DPUUID (ID de CRM) | Endereço de email | Endereço de email com hash | Características |
-|---|---|---|---|
+| -------------------------------------- | --------------------- | ---------------------------------------------------------------- | ------------- |
 | 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 | location = US |
 
 A ID declarada deve seguir esta sintaxe:
