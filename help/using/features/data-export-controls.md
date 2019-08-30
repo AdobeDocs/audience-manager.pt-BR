@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Controles da exportação de dados
 uuid: de 7 f 3608-c 0 cb -4049-973 a -8 be 54525 c 600
 translation-type: tm+mt
-source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
+source-git-commit: 22657113512e136296be5c4bcb8e092e65f45c06
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 Com base nas classificações aplicadas a uma fonte de dados e destino, os controles de exportação são interrompidos:
 
 * Adicionar uma característica a um segmento quando a característica pertencer a uma fonte de dados que tenha um controle de exportação de dados incompatível com uma etiqueta de exportação de dados em um ou mais destinos aos quais o segmento está mapeado.
-Por exemplo, digamos que um segmento seja mapeado para um destino com **[o UICONTROL de exportação de rótulo! Esse destino pode permitir uma combinação com informações de identificação pessoal (PII)]**. Os controles de exportação impediam que você adicione uma característica a esse segmento se a fonte de dados que a característica pertence tiver um controle de exportação de dados que diz **[UICONTROL! Não pode ser vinculado a informações de identificação pessoal (PII)]**.
+Por exemplo, digamos que um segmento seja mapeado para um destino com o rótulo **[!DNL This destination may enable a combination with personally identifiable information (PII)]** de exportação. Os controles de exportação impediam que você adicione uma característica a esse segmento se a fonte de dados que a característica pertence tiver um controle de exportação de dados que diz **[!DNL Cannot be tied to personally identifiable information (PII)]**.
 * Enviar dados para um destino de destino tem uma etiqueta de exportação de dados bloqueada por um controle de exportação de dados em qualquer um dos seguintes:
    * A fonte de dados de uma característica incluída;
    * A fonte de dados de uma característica usada em um segmento incluído;
@@ -44,7 +44,7 @@ Além disso, pelo menos uma etiqueta de exportação deve corresponder a um cont
 
 >[!IMPORTANT]
 >
->[Você não pode bloquear a exportação de um segmento colocando um controle de exportação de dados na fonte de dados do segmento, deve definir o controle em qualquer um dos seguintes:
+>Você não pode bloquear a exportação de um segmento colocando um controle de exportação de dados na fonte de dados do segmento, deve configurar o controle em:
 > * As fontes de dados das características usadas no segmento;
 > * A regra de mesclagem de perfil gerada pelo segmento;
 > * Qualquer uma das fontes de dados que a regra de mesclagem do perfil do segmento usa.
