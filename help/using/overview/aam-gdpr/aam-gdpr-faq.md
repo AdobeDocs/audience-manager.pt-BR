@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Perguntas frequentes sobre o RGPD
 uuid: e 52 cad 27-6 a 44-45 ee -8524-6080 adb 86 cc 8
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 98914987331ce31bc8d3e67647d5b8273b287d4c
 
 ---
 
@@ -15,11 +15,11 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 Este material contém algumas das perguntas mais comuns feitas pelos clientes e parceiros relacionados ao Regulamento geral de proteção de dados (RGPD) europeu e como o Adobe Audience Manager, como um Processador de Dados, aborda vários requisitos do RGPD.
 
-Neste artigo, nós endereçamos perguntas sobre a disponibilidade do RGPD no Audience Manager. Make sure you also read the [Experience Cloud GDPR FAQ.](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/gdpr-faq.md)
+Neste artigo, nós endereçamos perguntas sobre a disponibilidade do RGPD no Audience Manager. Certifique-se de ler as Perguntas frequentes [do Experience Cloud RGML.](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/gdpr-faq.md)
 
 O RGPD entrou em vigor em 25 de maio de 25 18 com objetivos principais de fornecer aos indivíduos na UE (Data Subjects) mais controle sobre seus dados pessoais, ao mesmo tempo em que simplifica o ambiente regulamentar das empresas internacionais, melhorando melhor o regulamento na UE. Como parte da disponibilidade do RGPD da Adobe, a equipe do Adobe Audience Manager tem serviços e processos aprimorados, conforme necessário, para suportar o acesso e excluir solicitações dos Dados de dados, seus consumidores.
 
-## GDPR Glossary {#gdpr-glossay}
+## Glossário do RGPD {#gdpr-glossay}
 
 Familiarize-se com os termos principais usados relacionados ao RGPD. Destacamos alguns dos termos mais usados abaixo.
 
@@ -53,7 +53,7 @@ Familiarize-se com os termos principais usados relacionados ao RGPD. Destacamos 
 
 <br> 
 
-**Identificadores do Audience Manager (IDs):** O Adobe Audience Manager armazena vários tipos de IDs. The [GDPR in Audience Manager](../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids) page provides a summary of these IDs, their corresponding data sources, and brief descriptions. Ao fornecer solicitações para a Adobe, consulte essas IDs para excluir ou acessar solicitações de seus itens de dados.
+**Identificadores do Audience Manager (IDs):** O Adobe Audience Manager armazena vários tipos de IDs. A [página RGPD na](../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids) página do Audience Manager fornece um resumo dessas IDs, suas fontes de dados correspondentes e descrições breves. Ao fornecer solicitações para a Adobe, consulte essas IDs para excluir ou acessar solicitações de seus itens de dados.
 
 <br> 
 
@@ -65,39 +65,39 @@ Familiarize-se com os termos principais usados relacionados ao RGPD. Destacamos 
 
 <br> 
 
-## Managing Individual GDPR Rights {#manage-ind-gdpr-rights}
+## Gerenciamento de direitos individuais do RGPD {#manage-ind-gdpr-rights}
 
 **Gerenciar aceitação/Obter consentimento**
 
 O RGPD não é alterado quando os Controladores de dados precisam de consentimento, ele muda para obter o consentimento. Nas instâncias em que o consentimento é necessário para determinadas atividades de marketing, o consentimento do consumidor precisa estar ativo (por exemplo, nenhuma caixa pré-marcada ou silêncio como aprovação), separada e ofertas de serviços podem não ser condicionais no Assunto de dados que oferece consentimento. Pode haver até mesmo instâncias em que certos consentes precisam ser atualizados para poderem continuar a usar os dados adiante.
 
-Como seu processador de dados, a Adobe não é capaz de fornecer conselhos legais na obtenção de consentimento. Consulte a equipe jurídica para obter orientação. We recommend that you work with a consent management solution providers such as [Evidon](https://theblog.adobe.com/evidon-builds-gdpr-universal-consent-integration-with-launch-by-adobe/) or [TrustArc](https://theblog.adobe.com/trustarc-builds-consent-integration-launch-adobe/) to provide better recommendations on this. A Adobe estabeleceu parceria com vários desses provedores para auxiliar na integração com o Adobe Launch.
+Como seu processador de dados, a Adobe não é capaz de fornecer conselhos legais na obtenção de consentimento. Consulte a equipe jurídica para obter orientação. Recomendamos que você trabalhe com fornecedores de soluções de gerenciamento de consentimento, como [Evidon](https://theblog.adobe.com/evidon-builds-gdpr-universal-consent-integration-with-launch-by-adobe/) ou [trustarc](https://theblog.adobe.com/trustarc-builds-consent-integration-launch-adobe/) , para fornecer melhores recomendações sobre isso. A Adobe estabeleceu parceria com vários desses provedores para auxiliar na integração com o Adobe Launch.
 
-Os clientes do Audience Manager podem armazenar o consentimento do usuário para vários casos de uso, como publicidade ou personalização como características no Audience Manager. Construir segmentos com esses traços incluirá somente usuários que fornecem o respectivo consentimento para cada um desses casos de uso. Observe que o uso dessa abordagem não interrompe a coleta de dados, mas afetará somente o uso de dados quando você envia segmentos para ativação. When users withdraw their consent, you can remove these traits from user profile using the Audience Manager [inbound batch process](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) or Audience Manager opt-out process as detailed below.
+Os clientes do Audience Manager podem armazenar o consentimento do usuário para vários casos de uso, como publicidade ou personalização como características no Audience Manager. Construir segmentos com esses traços incluirá somente usuários que fornecem o respectivo consentimento para cada um desses casos de uso. Observe que o uso dessa abordagem não interrompe a coleta de dados, mas afetará somente o uso de dados quando você envia segmentos para ativação. Quando os usuários retirar seu consentimento, você pode remover essas características do perfil do usuário usando o processo de lote [de entrada do Audience Manager](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) ou o processo de não participação do Audience Manager, conforme detalhado abaixo.
 
 <br> 
 
 **Gerenciamento de recusa/Remoção de consentimento**
 
-Opt out can be managed for the Adobe Experience Cloud via the [Your Privacy Choices](https://www.adobe.com/privacy/opt-out.html#customeruse) page. Os recursos de 1 cliques permitem que seus usuários finais controlem e excluam a coleta de dados pelas soluções de publicidade da Adobe Experience Cloud (incluindo o Audience Manager). Specifically, see the [business customer section](https://www.adobe.com/privacy/opt-out.html#customeruse) of the Privacy Choices page. For Browsers that do not support third-party cookies, see [Declared ID targeting](../../features/declared-ids.md#declared-id-targeting). For mobile devices, please retrieve the relevant Audience Manager identifiers and call the Audience Manager opt-out APIs as mentioned in the [Declared ID Opt-Out examples](../../features/declared-ids.md#opt-out-examples). Following that, you can cease all data collection for those users with the opt out APIs from Mobile SDK - see [Android devices](https://marketing.adobe.com/resources/help/en_US/mobile/android/privacy.html) and [iOS devices](https://marketing.adobe.com/resources/help/en_US/mobile/ios/privacy.html). You can find additional details for opt-out in the [Audience Manager Opt-Out Documentation](../../overview/data-security-and-privacy/opt-out-management.md).
+A recusa pode ser gerenciada para a Adobe Experience Cloud por meio da [sua página de Opções](https://www.adobe.com/privacy/opt-out.html#customeruse) de privacidade. Os recursos de 1 cliques permitem que seus usuários finais controlem e excluam a coleta de dados pelas soluções de publicidade da Adobe Experience Cloud (incluindo o Audience Manager). Especificamente, consulte a seção do cliente [comercial](https://www.adobe.com/privacy/opt-out.html#customeruse) da página Opções de privacidade. Para navegadores que não suportam cookies de terceiros, consulte [Definição de metas declaradas de ID](../../features/declared-ids.md#declared-id-targeting). Para dispositivos móveis, recupere os identificadores relevantes do Audience Manager e chame as apis de não participação do Audience Manager conforme mencionado nos exemplos de opção [de não participação ID declarada](../../features/declared-ids.md#opt-out-examples). Depois disso, você pode encerrar toda a coleta de dados para esses usuários com as apis de recusa do SDK móvel - consulte [dispositivos Android](https://marketing.adobe.com/resources/help/en_US/mobile/android/privacy.html) e [dispositivos iOS](https://marketing.adobe.com/resources/help/en_US/mobile/ios/privacy.html). Você pode encontrar detalhes adicionais para recusar a opção de recusa na Documentação de cancelamento do [Audience Manager](../../overview/data-security-and-privacy/opt-out-management.md).
 
 <br> 
 
 **Envio de acesso RGPD do Audience Manager e exclusão de solicitações para a Adobe**
 
-You can submit Individual GDPR requests for Access and Delete either through the [GDPR Client Services UI](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/using-gdpr-ui.md) or by calling the [GDPR API](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-id-onboarding.md). Any [Audience Manager identifiers](../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids), can be submitted in the requests along with their respective namespace IDs (data source IDs). Se você enviar identificadores entre dispositivos, como IDs CRM, o Audience Manager tomará uma ação no perfil autenticado, bem como as ids de dispositivo vinculadas a ele. Recomenda-se que os clientes usem a ID de usuário exclusiva do Audience Manager (AAM UUID) sempre que possível.
+Você pode enviar solicitações individuais do RGPD para Acesso e Excluir por meio da [interface do usuário do RGPD](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) ou chamando a API [](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-id-onboarding.md)do RGPD. Quaisquer [identificadores do Audience Manager](../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids)podem ser enviados nas solicitações juntamente com suas respectivas IDs de namespace (IDs de fonte de dados). Se você enviar identificadores entre dispositivos, como IDs CRM, o Audience Manager tomará uma ação no perfil autenticado, bem como as ids de dispositivo vinculadas a ele. Recomenda-se que os clientes usem a ID de usuário exclusiva do Audience Manager (AAM UUID) sempre que possível.
 
 <br> 
 
 **Gerenciando solicitações de acesso**
 
-Antes de May 5 de maio de 25 18, o Audience Manager ofereceria suporte para acessar características, IDs do cliente e segmentos associados a uma ID exclusiva no Audience Manager, manualmente. A partir de 25 de maio de 25 18, oferecemos suporte a essas solicitações da maneira descrita acima com diversas melhorias de produtos e serviços. Além das características, IDs do cliente, segmentos, uma resposta à solicitação de Acesso inclui um resumo do número total de características e segmentos, tipo de característica, descrições de características e segmentos juntamente com os respectivos nomes de fonte de dados. A resposta de Acesso também inclui dados de terceiros e de terceiros acessíveis ao Controlador de dados juntamente com os dados primários. See more in [Data Access Requests](../../overview/aam-gdpr/aam-gdpr-details.md#access-data).
+Antes de May 5 de maio de 25 18, o Audience Manager ofereceria suporte para acessar características, IDs do cliente e segmentos associados a uma ID exclusiva no Audience Manager, manualmente. A partir de 25 de maio de 25 18, oferecemos suporte a essas solicitações da maneira descrita acima com diversas melhorias de produtos e serviços. Além das características, IDs do cliente, segmentos, uma resposta à solicitação de Acesso inclui um resumo do número total de características e segmentos, tipo de característica, descrições de características e segmentos juntamente com os respectivos nomes de fonte de dados. A resposta de Acesso também inclui dados de terceiros e de terceiros acessíveis ao Controlador de dados juntamente com os dados primários. Veja mais em [Solicitações de acesso a dados](../../overview/aam-gdpr/aam-gdpr-details.md#access-data).
 
 <br> 
 
 **Gerenciamento de solicitações para exclusão**
 
-Antes de 25 de maio de 25 18, o Audience Manager suportava a exclusão manual de características, IDs do cliente e segmentos associados a uma ID exclusiva no Audience Manager. Após a entrada em vigor do RGPD, oferecemos suporte a essas solicitações conforme descrito acima com várias melhorias de produto e serviço. Além da operação de exclusão, os respectivos identificadores do Audience Manager para o Assunto de dados não serão mais coletados e os respectivos mapeamentos de ID serão removidos. See more in [Data Deletion Requests](../../overview/aam-gdpr/aam-gdpr-details.md#delete-data).
+Antes de 25 de maio de 25 18, o Audience Manager suportava a exclusão manual de características, IDs do cliente e segmentos associados a uma ID exclusiva no Audience Manager. Após a entrada em vigor do RGPD, oferecemos suporte a essas solicitações conforme descrito acima com várias melhorias de produto e serviço. Além da operação de exclusão, os respectivos identificadores do Audience Manager para o Assunto de dados não serão mais coletados e os respectivos mapeamentos de ID serão removidos. Veja mais em [Solicitações de exclusão de dados](../../overview/aam-gdpr/aam-gdpr-details.md#delete-data).
 
 <br> 
 
@@ -109,19 +109,19 @@ Os Provedores de dados de segundo parte também são, em geral, Controladores de
 
 **Fornecedores de dados de terceiros e gerenciamento de consentimento**
 
-Os provedores de dados também são Controladores de dados e seu processo de obter consentimento e gerenciar solicitações de acesso/exclusão/correção. Adobe is proactively requesting that Data Providers update their company profile information within [Adobe Audience Finder](https://www.adobe-audience-finder.com/) with additional information on user data collection. As informações serão provenientes dos Provedores de dados e o objetivo será ter a ferramenta atualizada em Q 2 2018. No entanto, cabe a cada cliente do Audience Manager determinar que o Provedor de dados de terceiros obteve o consentimento necessário para o caso de uso do cliente. A Adobe não efetua nenhuma representação sobre o escopo ou a validade do consentimento obtido ou relatado por um Provedor de dados de terceiros para um determinado caso de uso.
+Os provedores de dados também são Controladores de dados e seu processo de obter consentimento e gerenciar solicitações de acesso/exclusão/correção. A Adobe está solicitando proativamente que os Provedores de dados atualizem suas informações de perfil da empresa no [Adobe Audience Finder](https://www.adobe-audience-finder.com/) com informações adicionais sobre a coleta de dados do usuário. As informações serão provenientes dos Provedores de dados e o objetivo será ter a ferramenta atualizada em Q 2 2018. No entanto, cabe a cada cliente do Audience Manager determinar que o Provedor de dados de terceiros obteve o consentimento necessário para o caso de uso do cliente. A Adobe não efetua nenhuma representação sobre o escopo ou a validade do consentimento obtido ou relatado por um Provedor de dados de terceiros para um determinado caso de uso.
 
 <br> 
 
 **Impacto de Excluir solicitações para ativação de público-alvo**
 
-O Audience Manager notifica os parceiros de ativação sobre solicitações de exclusão enviando informações de dessegmentação para os Indivíduos que solicitam a exclusão de determinados dados. No entanto, alguns parceiros de ativação: 1) não é possível oferecer suporte para dessegmentar (ou remover segmento) solicitações da Adobe e/ou 2) não conseguir receber atualizações com uma frequência inferior a 30 dias. Nesses casos, os clientes do Audience Manager não podem enviar solicitações de exclusão para parceiros de ativação de forma automatizada pelo Audience Manager. The [GDPR Partner Unsegment documentation](../../overview/aam-gdpr/aam-gdpr-partners.md) provides information about unsegment capabilities and frequency of data exchange for all activation partners.
+O Audience Manager notifica os parceiros de ativação sobre solicitações de exclusão enviando informações de dessegmentação para os Indivíduos que solicitam a exclusão de determinados dados. No entanto, alguns parceiros de ativação: 1) não é possível oferecer suporte para dessegmentar (ou remover segmento) solicitações da Adobe e/ou 2) não conseguir receber atualizações com uma frequência inferior a 30 dias. Nesses casos, os clientes do Audience Manager não podem enviar solicitações de exclusão para parceiros de ativação de forma automatizada pelo Audience Manager. A documentação do Dessegmento [do RGPD](../../overview/aam-gdpr/aam-gdpr-partners.md) fornece informações sobre os recursos descontinuados e a frequência do intercâmbio de dados para todos os parceiros de ativação.
 
 <br> 
 
 **Retenção de dados no Audience Manager**
 
-A aplicação de políticas apropriadas, seguras e oportunas de retenção de dados aos seus dados é uma parte importante do cumprimento com o RGPD. Os clientes do Audience Manager têm a capacidade de definir períodos de retenção personalizados em características e segmentos ao definir o TTL necessário (tempo para ao vivo). We have reduced the retention period for [!UICONTROL Customer Data Feeds] ( [!UICONTROL CDF]) and [!UICONTROL Batch Outbound] orders to 8 days. Também aplicar um período de retenção para perfis de CRM e mapeamentos de ID inativos. Please find the more details about retention periods in our [Data Retention FAQ](../../faq/faq-privacy.md).
+A aplicação de políticas apropriadas, seguras e oportunas de retenção de dados aos seus dados é uma parte importante do cumprimento com o RGPD. Os clientes do Audience Manager têm a capacidade de definir períodos de retenção personalizados em características e segmentos ao definir o TTL necessário (tempo para ao vivo). Reduzimos o período de retenção para [!UICONTROL Customer Data Feeds] ( [!UICONTROL CDF]) e [!UICONTROL Batch Outbound] pedidos para 8 dias. Também aplicar um período de retenção para perfis de CRM e mapeamentos de ID inativos. Encontre mais detalhes sobre os períodos de retenção em nossas Perguntas frequentes sobre retenção [de dados](../../faq/faq-privacy.md).
 
 <br> 
 
@@ -133,11 +133,11 @@ Visto que o Audience Manager não é a fonte dos dados, há uma função limitad
 
 **Transferências de dados entre bordas**
 
-O RGPD não proíbe a transferência de dados fora da Europa. Isso requer que as proteções de privacidade nos dados europeus continuem sempre que os dados forem transferidos. Visit the [Adobe Privacy Center](https://www.adobe.com/privacy/eudatatransfers.html) to learn more.
+O RGPD não proíbe a transferência de dados fora da Europa. Isso requer que as proteções de privacidade nos dados europeus continuem sempre que os dados forem transferidos. Visite o [Centro de privacidade da Adobe](https://www.adobe.com/privacy/eudatatransfers.html) para saber mais.
 
 <br> 
 
-## GDPR Readiness Guidance for Audience Manager Customers (Data Controllers) {#gdpr-readiness-guidance}
+## Orientação de manutenção do RGPD para clientes do Audience Manager (Controladores de dados) {#gdpr-readiness-guidance}
 
 Recomendamos ser pró-ativos nas áreas de governança de dados e execução organizacional. Isso garante que seus dados do consumidor sejam organizados para processos relacionados a acesso ou exclusão de solicitações, suas equipes serão habilitadas e habilitadas para gerenciar essas solicitações, e seus consumidores (Dados de dados) terão uma experiência positiva e diferenciada com a sua marca.
 
@@ -151,10 +151,10 @@ Observe que, como seu processador de dados, a Adobe não pode fornecer conselhos
 * IDs de dispositivo móvel IDFA/GAID são usadas para vários casos de uso no Audience Manager. Se estiver usando o Adobe Mobile SDK, certifique-se de enviar a Experience Cloud ID (MID) juntamente com IDFA/GAID para verificar se as respostas do RGPD estão completas.
 * Com a definição de dados pessoais tornando-se mais expansiva, os endereços IP podem ser considerados dados pessoais na sua região. Interativamente se envolva com o Adobe Consulting para ofuscar o último octeto.
 * Determine uma política de validação/autenticação e processo para confirmar a identidade de um Assunto de dados quando eles fazem uma solicitação RGPD.
-* Consider using [Data Export Controls](../../features/data-export-controls.md) to block audience activation to technologies that house personal data. Por exemplo, segmentos com dados de terceiros não devem ser sincronizados para provedores de serviços de email. Set a [!UICONTROL Data Export Control] to ensure that no one in your organization can accidentally activate this data.
-* Begin utilizing [Role Based Access Controls](../../features/administration/administration-overview.md) to ensure the right teams have access to intended data.
-* Consider appropriate [retention periods](../../faq/faq-privacy.md#data-retention-faq) for the data.
-* Review identity linkage and privacy policies and legal requirements to see when and where it is appropriate to tie identity sets together; use appropriately via Audience Manager’s [Profile Merge Rules](../../features/profile-merge-rules/merge-rules-overview.md).
+* Considere usar [os Controles de exportação de dados](../../features/data-export-controls.md) para bloquear a ativação de público-alvo para tecnologias que abrigam dados pessoais. Por exemplo, segmentos com dados de terceiros não devem ser sincronizados para provedores de serviços de email. Defina a [!UICONTROL Data Export Control] para garantir que ninguém na sua organização possa ativar acidentalmente esses dados.
+* Comece a utilizar [controles de acesso com base em funções](../../features/administration/administration-overview.md) para garantir que as equipes certas tenham acesso aos dados pretendidos.
+* Considere os períodos [de retenção apropriados](../../faq/faq-privacy.md#data-retention-faq) para os dados.
+* Analise as políticas de ligação de identidade e de privacidade e os requisitos legais para ver quando e onde é apropriado vincular conjuntos de identidades; usar adequadamente pelas Regras de mesclagem [de perfil do Audience Manager](../../features/profile-merge-rules/merge-rules-overview.md).
 
 <br> 
 
