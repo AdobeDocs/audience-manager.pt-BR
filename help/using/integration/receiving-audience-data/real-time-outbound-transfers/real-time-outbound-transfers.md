@@ -6,14 +6,14 @@ solution: Audience Manager
 title: Transferências de dados de saída em tempo real
 uuid: 1895 e 818-7 ab 8-4569-a 920-4 b 0 a 4 c 8 b 83 d 2
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 425315a0a6aa739a90e34deb270ac21df9b88d31
 
 ---
 
 
-# Real-Time Outbound Data Transfers {#real-time-outbound-data-transfers}
+# Transferências de dados de saída em tempo real {#real-time-outbound-data-transfers}
 
-The outbound real-time data transfer process returns user data as a series of [!DNL JSON] objects passed in with a `POST` method.
+O processo de transferência de dados em tempo real externo retorna os dados do usuário como uma série [!DNL JSON] de objetos passados com um `POST` método.
 
 <!-- c_outbound_json.xml -->
 
@@ -21,9 +21,9 @@ The outbound real-time data transfer process returns user data as a series of [!
 
 Para usar este método, recomendamos que seu parceiro de dados:
 
-* Accepts data in [!DNL JSON] format.
-* Provides a URL that can be used by the `POST` call to return data.
-* Accepts secure `HTTPS` data transfers. [!DNL Audience Manager] não enviará este arquivo com `HTTP` o protocolo inseguro.
+* Aceita dados no [!DNL JSON] formato.
+* Fornece um URL que pode ser usado pela `POST` chamada para retornar dados.
+* Aceita transferências de `HTTPS` dados seguras. [!DNL Audience Manager] não enviará este arquivo com `HTTP` o protocolo inseguro.
 
 ## Frequência
 
@@ -31,11 +31,11 @@ Esse método de transferência de dados pode enviar dados em tempo próximo à m
 
 ## Respostas obrigatórias
 
-By default, the recipient server must return the `200 OK` code to indicate successful receipt. Outros códigos serão interpretados como falhas. Essa resposta é esperada dentro de 3000 milissegundos. In response to a failure, [!DNL Audience Manager] will make 1 retry attempt only.
+Por padrão, o servidor do destinatário deve retornar `200 OK` o código para indicar o recibo bem-sucedido. Outros códigos serão interpretados como falhas. Essa resposta é esperada dentro de 3000 milissegundos. Em resposta a uma falha, [!DNL Audience Manager] fará uma tentativa de tentativa 1.
 
 ## Parâmetros
 
-The following table defines the elements in the returned [!DNL JSON] data file.
+A tabela a seguir define os elementos no arquivo [!DNL JSON] de dados retornado.
 
 <table id="table_68475F9D01ED4A44B5909234114AEDE2"> 
  <thead> 
@@ -56,8 +56,8 @@ The following table defines the elements in the returned [!DNL JSON] data file.
    <td colname="col2"> <p>Número inteiro </p> </td> 
    <td colname="col3"> <p>Uma ID que indica se o arquivo contém IDs do Android ou iOS. Usa os seguintes valores de ID: </p> 
     <ul id="ul_159306B0CF304DE0B9A9836D41263E70"> 
-     <li id="li_46F9F4F9DDC34AB683AE2DF0317FBCAC">Android IDs (GAID): <code> 20914</code> </li> 
-     <li id="li_57DEB2A7B9024A94A0E302EEA967AB0B">iOS IDs (IDFA): <code> 20915</code> </li> 
+     <li id="li_46F9F4F9DDC34AB683AE2DF0317FBCAC">IDs do Android (GAID): <code> 20914</code> </li> 
+     <li id="li_57DEB2A7B9024A94A0E302EEA967AB0B">IDs do iOS (IDFA): <code> 20915</code> </li> 
     </ul> </td> 
   </tr> 
   <tr valign="top"> 
@@ -73,7 +73,7 @@ The following table defines the elements in the returned [!DNL JSON] data file.
   <tr valign="top"> 
    <td colname="col1"><code><i>User_ count</i></code> </td> 
    <td colname="col2"> <p>Número inteiro </p> </td> 
-   <td colname="col3"> <p>Total number of users in the <code> POST</code> request. </p> </td> 
+   <td colname="col3"> <p>O número total de usuários na solicitação <code> POST</code> . </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Usuários</i></code> </td> 
@@ -83,7 +83,7 @@ The following table defines the elements in the returned [!DNL JSON] data file.
   <tr valign="top"> 
    <td colname="col1"><code><i>AAM_ UUID</i></code> </td> 
    <td colname="col2"> <p>String   </p> </td> 
-   <td colname="col3"> <p>The <span class="keyword"> Audience Manager</span> UUID. </p> </td> 
+   <td colname="col3"> <p>O UUID <span class="keyword"> do Audience Manager</span> . </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Datapartner_ UUID</i></code> </td> 
@@ -93,7 +93,7 @@ The following table defines the elements in the returned [!DNL JSON] data file.
   <tr valign="top"> 
    <td colname="col1"><code><i>AAM_ Regions</i></code> </td> 
    <td colname="col2"> Matriz </td> 
-   <td colname="col3"> The <span class="keyword"> Audience Manager</span> region ID where we've seen this device. For instance, if the device had some activity in Paris (Europe), the region ID would be <code> 6</code>. Consulte <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">IDs da região do DCS, locais e nomes de host</a>. </td> 
+   <td colname="col3"> A ID da região <span class="keyword"> do Audience Manager</span> , onde já vimos este dispositivo. Por exemplo, se o dispositivo tinha alguma atividade em Paris (Europa), a ID da região seria <code> 6</code>. Consulte <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">IDs da região do DCS, locais e nomes de host</a>. </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segmentos</i></code> </td> 
@@ -115,21 +115,21 @@ The following table defines the elements in the returned [!DNL JSON] data file.
     </ul> <p>Os usuários não são segmentados quando são: </p> 
     <ul id="ul_E17B080D8DF14D548E1142A9201C1C14"> 
      <li id="li_8352B919A87242E68716FB9EC0443407">Removido de um segmento com base na regra de segmento. </li> 
-     <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Removed from a segment based on the segment's <a href="../../../features/traits/segment-ttl-explained.md"> time-to-live interval</a>. </li> 
+     <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Removido de um segmento com base no intervalo <a href="../../../features/traits/segment-ttl-explained.md"> de tempo para live do segmento</a>. </li> 
      <li id="li_F48D1052BA2B45108225641292CC748D">Movido para um estado inativo se eles não tiverem sido vistos nos últimos 120 dias. </li> 
-    </ul> <p>All partner IDs that are synced to an <span class="keyword"> Audience Manager</span> ID will receive the <code> "Status":"0"</code> flag when a user is unsegmented. </p> </td> 
+    </ul> <p>Todas as IDs de parceiro sincronizadas com uma <span class="keyword"> ID do Audience Manager</span> receberão o <code> "Status": Sinalizador "0"</code> quando um usuário não está segmentado. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Datetime</i></code> </td> 
    <td colname="col2"> <p>Datetime </p> </td> 
-   <td colname="col3"> <p>Tempo que um visitante do site qualificou para a característica. </p> </td> 
+   <td colname="col3"> <p>A hora da qualificação de segmento mais recente.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Segurança
 
-You can secure your real-time outbound data transfer process by [signing HTTP requests](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) using private keys or by having [!DNL Audience Manager] authenticate through the [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md) protocol.
+Você pode proteger o processo de transferência de dados de saída em tempo real [assinando solicitações](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) HTTP usando chaves privadas ou fazendo [!DNL Audience Manager] autenticação por meio do [protocolo oauth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md) .
 
 ## Amostra de código
 
