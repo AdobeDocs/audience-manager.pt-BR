@@ -5,7 +5,7 @@ seo-title: Configurar públicos-alvo adaptados do Twitter como destino baseado e
 solution: Audience Manager
 title: Configurar públicos-alvo adaptados do Twitter como destino baseado em dispositivo autoatendimento
 translation-type: tm+mt
-source-git-commit: a16734f652f3c398f12660671103f5478cfdd89e
+source-git-commit: cd770afc39221687f4eb47cc358d8d57a51b9fb5
 
 ---
 
@@ -21,7 +21,7 @@ Antes de configurar o [!DNL Twitter Tailored Audiences] destino, verifique os se
 1. Sua [!DNL Twitter Ads] conta deve ser qualificada para publicidade. As novas [!DNL Twitter Ads] contas não são elegíveis para publicidade nas primeiras 2 semanas após a criação.
 1. Sua conta de usuário do Twitter de acesso autorizado no Audience Manager deve ter a permissão do Gerenciador de público [-alvo](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) do parceiro habilitada.
 1. Se [você estiver atualizando sua integração existente do Twitter para a administração de autoatendimento](#update-existing-twitter-integrations), sua conta de usuário do Twitter deve ter a [permissão Gerente](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) de publicidade ativada.
-2. Ao criar o primeiro [!DNL Twitter Tailored Audiences] destino na instância do Audience Manager, entre em contato com o Adobe Consulting ou o Atendimento ao cliente para ativar a [!DNL Twitter] sincronização de ID (ID da fonte de dados = 1123) para a sua conta. Isso é necessário para a sincronização correta entre o Audience Manager e [!DNL Twitter].
+1. Ao criar o primeiro [!DNL Twitter Tailored Audiences] destino na instância do Audience Manager, entre em contato com o Adobe Consulting ou o Atendimento ao cliente para ativar a [!DNL Twitter] sincronização de ID (ID da fonte de dados = 1123) para a sua conta. Isso é necessário para a sincronização correta entre o Audience Manager e [!DNL Twitter].
 
 ## Adicionar um novo [!DNL Twitter Tailored Audiences] destino {#add-new-twitter-destination}
 
