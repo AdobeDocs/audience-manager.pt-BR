@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Arquivo de registro acionável
 uuid: 4 c 47615 f-ed 47-41 ba -8694-1 d 7 de 4 f 55 d 62
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: dbc96973ed2214d171fe32b7e1314d40c22c2d79
 
 ---
 
@@ -22,35 +22,35 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ## Propósito {#purpose}
 
-[!UICONTROL Actionable Log Files] simplificar a forma como capturar impressões, cliques e conversões de servidores de anúncios. Use this information for user segmentation without having to manually pixel media to send campaign attributes to [!DNL Audience Manager].
+[!UICONTROL Actionable Log Files] simplificar a forma como capturar impressões, cliques e conversões de servidores de anúncios. Use essas informações para segmentação do usuário sem precisar de mídia pixels manualmente para enviar atributos de campanha.[!DNL Audience Manager]
 
 ## Introdução {#getting-started}
 
-To get started with [!UICONTROL Actionable Log Files], and to use our [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md), you need to import DCM log data into [!DNL Audience Manager]. See [Import DCM Data Files Into Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *and* contact your [!DNL Audience Manager] consultant.
+Para começar [!UICONTROL Actionable Log Files]e usar nossos Relatórios [de otimização de público-alvo](../../reporting/audience-optimization-reports/audience-optimization-reports.md), você precisa importar dados de log do DCM [!DNL Audience Manager]para. Consulte [Importar arquivos de dados DCM para o Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *e* entre em contato com seu [!DNL Audience Manager] consultor.
 
-If you are already importing [!UICONTROL DCM] log data into [!DNL Audience Manager], ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to enable [!UICONTROL Actionable Log Files] for you.
+Se você já estiver importando [!UICONTROL DCM] dados de log para, [!DNL Audience Manager]peça ao [!DNL Audience Manager] seu consultor ou [ao Atendimento ao cliente](https://helpx.adobe.com/contact/enterprise-support.ec.html) para ativá- [!UICONTROL Actionable Log Files] lo.
 
 >[!NOTE] {importance = "high"}
 >
 >[!UICONTROL Actionable Log Files] funcionam somente com [!DNL Google DCM] arquivos de log.
 
-## Working with Actionable Log Files {#working-with-actionable-log-files}
+## Trabalhar com arquivos de registro acionáveis {#working-with-actionable-log-files}
 
-With [!UICONTROL Actionable Log Files], the information from [!DNL DCM] logs is captured in [!DNL Audience Manager] the same way that you would capture data from real-time website interactions. [!DNL Audience Manager] se conecta com seu [!DNL Google Cloud] armazenamento, analisa as informações de [!DNL DCM] logs e envia os dados de log como sinais acionáveis para nossos [servidores de coleta de dados](../../reference/system-components/components-data-collection.md#dcs-pcs).
+Com [!UICONTROL Actionable Log Files], as informações de [!DNL DCM] registros são capturadas da [!DNL Audience Manager] mesma forma que capturaria dados de interações de site em tempo real. [!DNL Audience Manager] se conecta com seu [!DNL Google Cloud] armazenamento, analisa as informações de [!DNL DCM] logs e envia os dados de log como sinais acionáveis para nossos [servidores de coleta de dados](../../reference/system-components/components-data-collection.md#dcs-pcs).
 
-Ainda é necessário configurar características baseadas em regras para capturar os sinais acionáveis. See how to set up rule-based traits either in the [Audience Manager UI](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) or using our [Bulk Management Tools](../../reference/bulk-management-tools/bulk-create.md). Scroll down to the [Actionable Signals](../../integration/media-data-integration/actionable-log-files.md#actionable-signals) section for a list of all the keys you can use in rule-based traits.
+Ainda é necessário configurar características baseadas em regras para capturar os sinais acionáveis. Consulte como configurar características baseadas em regras na interface do [usuário do Audience Manager](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) ou usando nossas [Ferramentas de gerenciamento em massa](../../reference/bulk-management-tools/bulk-create.md). Role para baixo até [a](../../integration/media-data-integration/actionable-log-files.md#actionable-signals) seção Sinais acionáveis para obter uma lista de todas as teclas que você pode usar em traços baseados em regras.
 
-For an average-sized [!DNL DCM] log file of 2 million lines, any traits created from actionable signals are realized within approximately one hour after we process the logs.
+Para um arquivo [!DNL DCM] de log de tamanho médio de 2 milhões de linhas, quaisquer características criadas de sinais acionáveis são observadas aproximadamente uma hora depois de processar os logs.
 
 >[!IMPORTANT] {importance = "high"}
 >
->We recommend implementing [!UICONTROL Actionable Log Files] *instead of*  [Pixel Calls](../../integration/media-data-integration/impression-data-pixels.md). Desincentivamos o uso de ambas as opções, pois isso resulta em um aumento nas contagens de frequência para características.
+>Recomendamos implementar [!UICONTROL Actionable Log Files]*em vez de Chamadas* [de pixel](../../integration/media-data-integration/impression-data-pixels.md). Desincentivamos o uso de ambas as opções, pois isso resulta em um aumento nas contagens de frequência para características.
 
-## Actionable Signals {#actionable-signals}
+## Sinais acionáveis {#actionable-signals}
 
-Signals are the [smallest data units](../../reference/signal-trait-segment.md) in [!DNL Audience Manager]. [!UICONTROL Actionable Log Files] permite capturar anunciantes, unidades de negócios, criação e valores de campanha em eventos de impressão, eventos de clique e eventos de conversão como sinais de [!DNL DCM] logs.
+Os sinais são as [menores unidades de dados](../../reference/signal-trait-segment.md) em [!DNL Audience Manager]. [!UICONTROL Actionable Log Files] permite capturar anunciantes, unidades de negócios, criação e valores de campanha em eventos de impressão, eventos de clique e eventos de conversão como sinais de [!DNL DCM] logs.
 
-Lembre-se, para usar essas informações para criação e segmentação de público-alvo, de configurar as características baseadas em regras. The table lists the actionable signals from [!DNL DCM] log files:
+Lembre-se, para usar essas informações para criação e segmentação de público-alvo, de configurar as características baseadas em regras. A tabela lista os sinais acionáveis dos arquivos [!DNL DCM] de registro:
 
 <table id="table_A5A2A10D471C4C9D8DCD88F9C017040C"> 
  <thead> 
@@ -73,7 +73,7 @@ Lembre-se, para usar essas informações para criação e segmentação de públ
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_ conversion</code> </p> </td> 
-   <td colname="col2"> <p>Disponível apenas para eventos de conversão. </p> <p>Representa a ID numérica da atividade de conversão no DCM. Este campo mapeia para a ID de atividade do DCM. </p> <p> <p>Dica: Você pode capturar atividades de conversão múltiplas ou específicas do DCM. Create traits using <code> d_conversion = activity ID</code> for each conversion activity from DCM. </p> </p> </td> 
+   <td colname="col2"> <p>Disponível apenas para eventos de conversão. </p> <p>Representa a ID numérica da atividade de conversão no DCM. Este campo mapeia para a ID de atividade do DCM. </p> <p> <p>Dica: Você pode capturar atividades de conversão múltiplas ou específicas do DCM. Crie características usando <code> d_ conversion = activity ID</code> para cada atividade de conversão do DCM. </p> </p> </td> 
    <td colname="col3"> <p> <code> 24122</code> </p> </td> 
   </tr> 
   <tr> 
@@ -88,7 +88,7 @@ Lembre-se, para usar essas informações para criação e segmentação de públ
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_ adsrc</code> </p> </td> 
-   <td colname="col2"> <p>ID do anunciante. Este campo mapeia para a ID do grupo de anunciante a partir do DCM. </p> </td> 
+   <td colname="col2"> <p>ID do anunciante.</p> <p>Um código de integração para a fonte de dados do anunciante. Observe que isso não está relacionado às fontes de dados do Audience Manager.</p> <p>Este campo mapeia para a ID do grupo de anunciante a partir do DCM. </p> </td> 
    <td colname="col3"> <p> <code> 134243</code> </p> </td> 
   </tr> 
   <tr> 
@@ -108,13 +108,13 @@ Lembre-se, para usar essas informações para criação e segmentação de públ
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_ src</code> </p> </td> 
-   <td colname="col2"> <p>A ID da fonte de dados usada para capturar dados do DCM. See <a href="../../features/manage-datasources.md#create-data-source"> How to Create a Data Source</a>. </p> </td> 
+   <td colname="col2"> <p>A ID da fonte de dados usada para capturar dados do DCM. Consulte <a href="../../features/manage-datasources.md#create-data-source"> Como criar uma fonte de dados</a>. </p> </td> 
    <td colname="col3"> <p> <code> 743</code> </p> </td> 
   </tr>
  </tbody>
 </table>
 
-The signals described in the table are captured in [!DNL Audience Manager] like a real-time `HTTP` call. The example call below contains information on a conversion event from [!DNL DCM]. Calls do not necessarily have to include *all* the signals in the example call.
+Os sinais descritos na tabela são capturados [!DNL Audience Manager] em uma `HTTP` chamada de tempo real. A chamada de exemplo abaixo contém informações sobre um evento de conversão. [!DNL DCM] As chamadas não precisam necessariamente incluir *todos* os sinais na chamada de exemplo.
 
 ```
 https://sample.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_event=conv&d_conversion=24122&d_conversionType=2&d_bu=3983524&d_campaign=7321391&d_adsrc=11111&d_creative=123456
@@ -122,45 +122,45 @@ https://sample.demdex.net?d_src=743&d_uuid=0795526165288603295014370250589427213
 
 >[!NOTE] {importance = "high"}
 >
->The event timestamp provided in the [!DNL DCM] logs will be honored and passed to the [!UICONTROL Data Collection Servers].
+>O carimbo de data e hora do evento fornecido nos [!DNL DCM] registros será respeitado e enviado para o [!UICONTROL Data Collection Servers].
 >
->* If a timestamp isn't available for a data row in the [!DNL DCM] log file, we use the time of the `HTTP` call as the event timestamp.
->* If the data row in the [!DNL DCM] log file contains a malformed timestamp, we ignore the entire row.
+>* Se um carimbo de data e hora não estiver disponível para uma linha de dados no arquivo [!DNL DCM] de log, usaremos a hora da `HTTP` chamada como o carimbo de data e hora do evento.
+>* Se a linha de dados no arquivo [!DNL DCM] de log contiver um carimbo de data e hora malformado, ignoramos a linha inteira.
 
 
 ## Casos de uso {#use-cases}
 
-One benefit of implementing [!UICONTROL Actionable Log Files] is the option to apply [recency and frequency](../../features/segments/recency-and-frequency.md) controls to any [rule-based traits](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) that contain actionable signals. Isso permite, por exemplo, que você capitfique o número de vezes que um usuário recebe um anúncio específico em uma campanha de mídia. Outros casos de uso incluem:
+Uma vantagem da implementação [!UICONTROL Actionable Log Files] é a opção de aplicar controles [de recenticidade e frequência](../../features/segments/recency-and-frequency.md) a qualquer [característica](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) baseada em regras que contenha sinais acionáveis. Isso permite, por exemplo, que você capitfique o número de vezes que um usuário recebe um anúncio específico em uma campanha de mídia. Outros casos de uso incluem:
 
 ### Usuários do redirecionamento
 
 Redirecione os usuários que viram o anúncio 123, mas não clicaram ou convertem e mostraram a creative 456. Fazer isso:
 
-1. Crie uma característica para capturar usuários que viram a criação. Let's say you name the trait [!DNL Creative Trait 123]. Use a regra de características:
+1. Crie uma característica para capturar usuários que viram a criação. Considere que você nomeia a característica [!DNL Creative Trait 123]. Use a regra de características:
 
    `d_creative == 123 AND d_event == imp`
 
-1. Crie uma característica para capturar usuários que clicam ou convertem. Let's say you name this one [!DNL Click and Converter]. Use a regra de características:
+1. Crie uma característica para capturar usuários que clicam ou convertem. Digamos que você nomeie este [!DNL Click and Converter]. Use a regra de características:
 
    `d_event == click OR d_event=conv`
 
-1. Crie um segmento para preencher com usuários que viram o anúncio 123, mas não clicaram ou convertem. Name it [!DNL Retarget Users] and use the segment rule:
+1. Crie um segmento para preencher com usuários que viram o anúncio 123, mas não clicaram ou convertem. Nomeie-o [!DNL Retarget Users] e use a regra de segmento:
 
    `Creative Trait 123 AND NOT Click and Converter`
 
-1. Map the segment [!DNL Retarget Users] to a destination and target users in the destination with creative 456.
+1. Mapeie o segmento [!DNL Retarget Users] para um destino e para os usuários direcionados no destino com o anúncio 456.
 
 ### Usar atividade do DCM Floodlight nos Relatórios de otimização de público-alvo ou no Audience Lab
 
-[As tags Floodlight](https://support.google.com/dcm/partner/answer/4293719?hl=en) permitem que os anunciantes rastreiem conversões de usuários. With [!UICONTROL Actionable Log Files], you can track the [!DNL DCM] conversions in the [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md) or in [Audience Lab](../../features/audience-lab/audience-lab.md):
+[As tags Floodlight](https://support.google.com/dcm/partner/answer/4293719?hl=en) permitem que os anunciantes rastreiem conversões de usuários. Com [!UICONTROL Actionable Log Files], você pode rastrear [!DNL DCM] as conversões nos Relatórios [de otimização de público-alvo](../../reporting/audience-optimization-reports/audience-optimization-reports.md) ou no [Audience Lab](../../features/audience-lab/audience-lab.md):
 
 1. Crie uma característica e use a seguinte regra de característica para capturar uma conversão nos logs do servidor de anúncios:
 
    `d_event == conv AND d_conversion == 123`
 
-   When creating the trait in the Audience Manager [!UICONTROL UI], select [!UICONTROL Conversion] as the [!UICONTROL Event Type].
+   Ao criar a característica no Audience Manager [!UICONTROL UI], selecione [!UICONTROL Conversion] como o [!UICONTROL Event Type].
 
-2. Once you have created the trait, the conversion will begin to be reported against in the [!UICONTROL Audience Optimization Reports] and in [!UICONTROL Audience Lab].
+2. Depois de criar a característica, a conversão começará a ser relatada no [!UICONTROL Audience Optimization Reports] e [!UICONTROL Audience Lab]no.
 
 >[!MORE_ LIKE_ THIS]
 >
