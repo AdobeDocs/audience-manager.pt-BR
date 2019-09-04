@@ -1,19 +1,19 @@
 ---
 description: O Audience Manager proporciona serviços líderes do setor para o gerenciamento online de dados. Nossos produtos e serviços proporcionam aos anunciantes e editores as ferramentas necessárias para controlar e aproveitar seus ativos de dados com o objetivo de ajudar a aumentar o sucesso das vendas.
-seo-description: O Audience Manager proporciona serviços líderes do setor para o gerenciamento online de dados. Nossos produtos e serviços proporcionam aos anunciantes e editores as ferramentas necessárias para controlar e aproveitar seus ativos de dados com o objetivo de ajudar a aumentar o sucesso das vendas.
-seo-title: Documentação do produto do Audience Manager
+seo-description: Documentação técnica e ajuda própria para o Audience Manager (AAM). O AAM fornece serviços líderes do setor para o gerenciamento online de dados de público-alvo, além de fornecer aos anunciantes e editores as ferramentas necessárias para controlar e aproveitar seus ativos de dados para ajudar a aumentar o sucesso das vendas.
+seo-title: Documentação técnica do produto Adobe Audience Manager
 solution: Audience Manager
 title: Documentação do produto do Audience Manager
 uuid: 48267 e 3 b -70 e 6-42 ae -99 b 1-884 f 4 d 0916 be
 translation-type: tm+mt
-source-git-commit: aa58d1aa69a7d5e112d6b24fa8250bf56ccb370a
+source-git-commit: 5ea8e5d7997f192bc41bb9f9e4caa4a86b852a12
 
 ---
 
 
 # Documentação do produto do Audience Manager {#audience-manager-product-documentation}
 
-O Audience Manager proporciona serviços líderes do setor para o gerenciamento online de dados. Nossos produtos e serviços proporcionam aos anunciantes e editores as ferramentas necessárias para controlar e aproveitar seus ativos de dados com o objetivo de ajudar a aumentar o sucesso das vendas.
+Este guia técnico de documentação fornece assistência própria para o Audience Manager - um serviço líder do setor para o gerenciamento online de dados de público-alvo. Nossos produtos e serviços proporcionam aos anunciantes e editores as ferramentas necessárias para controlar e aproveitar seus ativos de dados com o objetivo de ajudar a aumentar o sucesso das vendas.
 
 <table id="table_5E612F746A704FE095B809A013EE977F" class="simpletable"> 
  <tbody> 
