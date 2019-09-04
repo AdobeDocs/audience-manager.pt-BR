@@ -6,14 +6,14 @@ solution: Audience Manager
 title: Captura de dados de cliques da campanha por meio de chamadas de pixel
 uuid: 7 c 3797 f 7-9674-493 d -972 b -38 be 0584 fede
 translation-type: tm+mt
-source-git-commit: c79c2311c3ea76ce2450dc1b84a7a22b60a6edb7
+source-git-commit: dbc96973ed2214d171fe32b7e1314d40c22c2d79
 
 ---
 
 
 # Capturing Campaign Click Data via Pixel Calls {#capturing-campaign-click-data-via-pixel-calls}
 
-O rastreamento de cliques permite a medição do envolvimento do visitante em toda a campanha, pois registra a atividade baseada em cliques para anúncios de terceiros. Similar to impressions collection, an event call is sent to the Audience Manager data collection servers ([!UICONTROL DCS]) for processing. O visitante é então redirecionado para o endereço da Web pretendido.
+O rastreamento de cliques permite a medição do envolvimento do visitante em toda a campanha, pois registra a atividade baseada em cliques para anúncios de terceiros. Semelhante à coleção de impressões, uma chamada de evento é enviada para os servidores de coleta de dados do Audience Manager ([!UICONTROL DCS]) para processamento. O visitante é então redirecionado para o endereço da Web pretendido.
 
 ## Requisitos
 
@@ -32,15 +32,15 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
 
 ## Resposta
 
-The response redirects the browser to the [!DNL URL] specified in the `d_rd` parameter. A string de resposta pode incluir valores gerados por qualquer uma das macros compatíveis relacionadas abaixo.
+A resposta redireciona o navegador para o [!DNL URL] especificado no `d_rd` parâmetro. A string de resposta pode incluir valores gerados por qualquer uma das macros compatíveis relacionadas abaixo.
 
-Based on the above example, the browser is redirected to the following [!DNL URL]:
+Com base no exemplo acima, o navegador é redirecionado [!DNL URL]para o seguinte:
 
 [!DNL `https://adobe.com/callback?creative=123`]
 
 ## Macros suportadas
 
-Os eventos de cliques oferecem suporte para macros relacionadas na tabela a seguir. Uma macro é uma pequena unidade de código autocontido que é ativada quando a tag de publicidade é carregada para o rastreamento de campanha e usuário. The macros will be passed along with the destination [!DNL URL], as long as they are marked with the following format: `%macro%`. Algumas teclas não possuem macros e aceitam um valor de ID codificado. Keys that accept hard coded values are required if you want to analyze data in the [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
+Os eventos de cliques oferecem suporte para macros relacionadas na tabela a seguir. Uma macro é uma pequena unidade de código autocontido que é ativada quando a tag de publicidade é carregada para o rastreamento de campanha e usuário. As macros serão passadas com o destino [!DNL URL], desde que marcadas com o seguinte formato: `%macro%`. Algumas teclas não possuem macros e aceitam um valor de ID codificado. As teclas que aceitam valores codificados em código fixo são necessárias para analisar dados nos Relatórios de otimização [de público-alvo](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
 
 <table id="table_6EB65C3B7D0E49C59AA6C932549E33FC"> 
  <thead> 
@@ -59,17 +59,17 @@ Os eventos de cliques oferecem suporte para macros relacionadas na tabela a segu
   <tr> 
    <td colname="col1"> <p> <code> d_ adsrc</code> </p> </td> 
    <td colname="col02"> <p>Sem macro. </p> <p>Aceita um valor de ID codificado. </p> </td> 
-   <td colname="col2"> <p> <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> ID de fonte</a> de dados ou código de integração do seu anunciante. </p> <p> Required for <span class="wintitle"> Audience Optimization</span> reports. </p> </td> 
+   <td colname="col2"> <p>ID do anunciante.</p> <p>Um código de integração para a fonte de dados do anunciante. Observe que isso não está relacionado às fontes de dados do Audience Manager.</p> <p> Necessário para <span class="wintitle"> relatórios de Otimização</span> de público-alvo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_ bu</code> </p> </td> 
    <td colname="col02"> <p> <code> % d_ bu %</code> </p> </td> 
-   <td colname="col2"> <p>ID numérica para a unidade de negócios. </p> <p> Required for <span class="wintitle"> Audience Optimization</span> reports. </p> </td> 
+   <td colname="col2"> <p>ID numérica para a unidade de negócios. </p> <p> Necessário para <span class="wintitle"> relatórios de Otimização</span> de público-alvo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_ campaign</code> </p> </td> 
    <td colname="col02"> <p> <code> % d_ campaign %</code> </p> </td> 
-   <td colname="col2"> <p>ID de campanha numérica do servidor de publicidade. </p> <p> Required for <span class="wintitle"> Audience Optimization</span> reports. </p> </td> 
+   <td colname="col2"> <p>ID de campanha numérica do servidor de publicidade. </p> <p> Necessário para <span class="wintitle"> relatórios de Otimização</span> de público-alvo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_ creative</code> </p> </td> 
@@ -79,12 +79,12 @@ Os eventos de cliques oferecem suporte para macros relacionadas na tabela a segu
   <tr> 
    <td colname="col1"> <p> <code> d_ dpid</code> </p> </td> 
    <td colname="col02"> <p> <code> % d_ id %</code> </p> </td> 
-   <td colname="col2"> <p>ID do provedor de dados. </p> <p>Often used with <code> d_dpuuid</code> to link a data provider ID to a user ID. </p> <p>Opcional. </p> </td> 
+   <td colname="col2"> <p>ID do provedor de dados. </p> <p>Geralmente usado com <code> d_ dpuuid</code> para vincular uma ID do provedor de dados a uma ID de usuário. </p> <p>Opcional. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_ dpuuid</code> </p> </td> 
    <td colname="col02"> <p> <code> % d_ dpuuid %</code> </p> </td> 
-   <td colname="col2"> <p>ID de usuário exclusiva fornecida pelo provedor de dados. </p> <p>Often used with <code> d_dpid</code> to link a user ID to a data provider ID. </p> </td> 
+   <td colname="col2"> <p>ID de usuário exclusiva fornecida pelo provedor de dados. </p> <p>Geralmente usado com <code> d_ dpid</code> para vincular uma ID de usuário a uma ID do provedor de dados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
@@ -99,7 +99,7 @@ Os eventos de cliques oferecem suporte para macros relacionadas na tabela a segu
   <tr> 
    <td colname="col1"> <p> <code> d_ region</code> </p> </td> 
    <td colname="col02"> <p> <code> % d_ region %</code> </p> </td> 
-   <td colname="col2"> <p>A ID de região numérica do cluster do DCS que serviços uma solicitação. For more information about the DCS, see <a href="../../reference/system-components/components-data-collection.md"> Data Collection Components</a>. </p> <p>Opcional. </p> </td> 
+   <td colname="col2"> <p>A ID de região numérica do cluster do DCS que serviços uma solicitação. Para obter mais informações sobre o DCS, consulte <a href="../../reference/system-components/components-data-collection.md"> Componentes da coleção de dados</a>. </p> <p>Opcional. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> r_ rand</code> </p> </td> 
@@ -156,7 +156,7 @@ d_adgroup%25%26d_placement%3D%25placement%25%26src%3D%25d_src%25
 
 ## Resposta
 
-Based on the above example, the browser is redirected to the following [!DNL URL]:
+Com base no exemplo acima, o navegador é redirecionado [!DNL URL]para o seguinte:
 
 [!DNL `https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`]
 
