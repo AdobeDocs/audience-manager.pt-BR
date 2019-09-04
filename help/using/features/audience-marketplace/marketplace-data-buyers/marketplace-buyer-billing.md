@@ -7,7 +7,7 @@ title: Cobrança para compradores de feed de dados
 keywords: Relatório de nível de segmento, nível de segmento, nível de segmento
 uuid: d 7236667-282 b -4160-9909-579721 af 4016
 translation-type: tm+mt
-source-git-commit: dab5b255f966e63d51cc4d236d37bb0cb4eb960c
+source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
 
 ---
 
@@ -40,15 +40,17 @@ Após o [!DNL CPM] uso do relatório no nível do segmento, [!UICONTROL Audience
 Para reportar [!DNL CPM] o uso no nível do segmento:
 
 1. Ir **[!UICONTROL Audience Marketplace > Payables]** para.
-2. Selecione a **[!UICONTROL Segment Usage]** guia.
-3. Preencha o uso para seus segmentos. Você pode usar a [!UICONTROL Search] caixa para filtrar os segmentos, caso só precise relatar o uso para alguns deles.
-4. Clique em **[!UICONTROL Edit Segments Usage]**.
-5. Insira o [!DNL CPM] valor de uso na [!UICONTROL Usage] coluna.
-6. Clique **[!UICONTROL Save]** em quando terminar e revisar a caixa de diálogo de confirmação.
-   ![confirm-segment-use](assets/confirm-segment-usage.png)
-7. Clique em **[!UICONTROL Confirm]**.
+1. Selecione a **[!UICONTROL Segment Usage]** guia.
+1. Preencha o uso para seus segmentos. Você pode usar a [!UICONTROL Search] caixa para filtrar os segmentos, caso só precise relatar o uso para alguns deles.
+1. Clique em **[!UICONTROL Edit Segments Usage]**.
+1. Insira o [!DNL CPM] valor de uso na [!UICONTROL Usage] coluna.
+1. Clique **[!UICONTROL Save]** em quando terminar e revisar a caixa de diálogo de confirmação.
 
-<br> 
+   ![confirm-segment-use](assets/confirm-segment-usage.png)
+
+1. Clique em **[!UICONTROL Confirm]**.
+
+ 
 
 ## Uso do CPM de relatório em nível de feed de dados {#feed-level-report}
 
@@ -57,15 +59,15 @@ O relatório de nível de feed de dados é mais tedioso e propensa a processar o
 Para reportar [!DNL CPM] o uso no nível do segmento:
 
 1. Ir **[!UICONTROL Audience Marketplace > Payables]** para.
-2. Selecione a **[!UICONTROL Feed Usage]** guia.
-3. Use [!UICONTROL Search] a caixa para filtrar os feeds de dados e identificar aquelas de que você precisa para informar o uso.
-4. Clique em **[!UICONTROL Edit Feeds Usage]**.
-5. Calcule o [!DNL CPM] uso para cada feed de dados com base na [Atribuição de custo para Feeds](#cost-attribution)de dados CPM e insira-o na [!UICONTROL Usage] coluna.
-6. Clique **[!UICONTROL Save]** em quando terminar e revisar a caixa de diálogo de confirmação.
+1. Selecione a **[!UICONTROL Feed Usage]** guia.
+1. Use [!UICONTROL Search] a caixa para filtrar os feeds de dados e identificar aquelas de que você precisa para informar o uso.
+1. Clique em **[!UICONTROL Edit Feeds Usage]**.
+1. Calcule o [!DNL CPM] uso para cada feed de dados com base na [Atribuição de custo para Feeds](#cost-attribution)de dados CPM e insira-o na [!UICONTROL Usage] coluna.
+1. Clique **[!UICONTROL Save]** em quando terminar e revisar a caixa de diálogo de confirmação.
 
    ![confirm-feed-use](assets/confirm-feed-usage.png)
 
-7. Clique em **[!UICONTROL Confirm]**.
+1. Clique em **[!UICONTROL Confirm]**.
 
 <br> 
 
@@ -155,7 +157,7 @@ Após o [!DNL CPM] número do relatório anterior, [!DNL Adobe] faça o seguinte
 
 ## Atribuir impressões no nível do feed com base nas regras de qualificação de características {#assign-impressions}
 
-O caso [!UICONTROL Activation] de uso permite usar características no feed de dados correspondente para criar segmentos no [Construtor de segmentos](../../../features/segments/segment-builder.md#topic_E166819D26B94A868376BA54E10E4B74) e mapear esses segmentos para um destino. Os operadores [!UICONTROL AND]booleanos, [!UICONTROL OR]e [!UICONTROL NOT] permitem que você defina as condições para a qualificação de características e segmentos.
+O caso [!UICONTROL Activation] de uso permite usar características no feed de dados correspondente para criar segmentos no [Construtor de segmentos](../../../features/segments/segment-builder.md) e mapear esses segmentos para um destino. Os operadores [!UICONTROL AND]booleanos, [!UICONTROL OR]e [!UICONTROL NOT] permitem que você defina as condições para a qualificação de características e segmentos.
 
 Ao [reportar o Uso de CPM de relatório em Nível de feed de dados](#feed-level-report), você deve alocar impressões proporcionalmente para cada feed de dados, de acordo com [!DNL Boolean] os operadores usados nas regras de qualificação de característica. A tabela a seguir lista como alocar apropriadamente impressões por regra booleana ou tipo de característica.
 
