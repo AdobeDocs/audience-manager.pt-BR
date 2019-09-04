@@ -4,12 +4,12 @@ seo-description: A pesquisa por sinais usados e não usados recebidos por perío
 seo-title: Pesquisa de sinais
 title: Pesquisa de sinais
 translation-type: tm+mt
-source-git-commit: 16c0dd83c18e720045995ac1851b4c91f3346183
+source-git-commit: a0e585b85a4e8ab180766298579dc39f93b7ff29
 
 ---
 
 
-# Signals Search Overview {#signals-search}
+# Visão geral de pesquisa de sinais {#signals-search}
 
 A pesquisa por sinais usados e não usados recebidos por períodos de tempo específicos. Para pesquisar sinais, vá para Dados de público-alvo &gt; Sinais &gt; Pesquisar.
 
