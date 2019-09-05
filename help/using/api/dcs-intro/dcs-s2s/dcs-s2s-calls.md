@@ -4,7 +4,7 @@ solution: Audience Manager
 title: Efetuar chamadas de API do servidor para servidor DCS
 uuid: bdfe 3430-e 27 f -4 a 5 c -88 d 9-ae 164 d 28 f 601
 translation-type: tm+mt
-source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
+source-git-commit: bc2a9364b771436fe0191f9d69a8c291563f9229
 
 ---
 
@@ -21,7 +21,9 @@ As chamadas exigem o nome de host do servidor DCS regional e da ID do usuário. 
 
 Uma solicitação básica de servidor para servidor que envia dados para o [!UICONTROL DCS] uso a sintaxe mostrada abaixo.
 
-<pre><code>" Host:<i>domínio alias</i>. demdex. net "https://DCS<i>host name.demdex.net/event?d_rtbd=json&amp;d_jsonv=1&amp;d_uuid=user</i><i>ID</i>.</code></pre>
+```js
+"Host:domain_alias.demdex.net" "https://DCS_host_name.demdex.net/event?d_rtbd=json&d_jsonv=1&d_uuid=userID
+```
 
 Uma chamada de amostra é semelhante ao exemplo a seguir.
 
