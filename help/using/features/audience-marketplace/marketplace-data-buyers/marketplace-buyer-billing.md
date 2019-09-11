@@ -7,7 +7,7 @@ title: Cobrança para compradores de feed de dados
 keywords: Relatório de nível de segmento, nível de segmento, nível de segmento
 uuid: d 7236667-282 b -4160-9909-579721 af 4016
 translation-type: tm+mt
-source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
+source-git-commit: a8320894c0efcf46bd3236494e1aa7b1eded24d1
 
 ---
 
@@ -50,6 +50,10 @@ Para reportar [!DNL CPM] o uso no nível do segmento:
 
 1. Clique em **[!UICONTROL Confirm]**.
 
+Consulte também nossa demonstração em vídeo de como você pode relatar o uso no nível do segmento:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25522/?captions=por_br)
+
  
 
 ## Uso do CPM de relatório em nível de feed de dados {#feed-level-report}
@@ -59,15 +63,15 @@ O relatório de nível de feed de dados é mais tedioso e propensa a processar o
 Para reportar [!DNL CPM] o uso no nível do segmento:
 
 1. Ir **[!UICONTROL Audience Marketplace > Payables]** para.
-1. Selecione a **[!UICONTROL Feed Usage]** guia.
-1. Use [!UICONTROL Search] a caixa para filtrar os feeds de dados e identificar aquelas de que você precisa para informar o uso.
-1. Clique em **[!UICONTROL Edit Feeds Usage]**.
-1. Calcule o [!DNL CPM] uso para cada feed de dados com base na [Atribuição de custo para Feeds](#cost-attribution)de dados CPM e insira-o na [!UICONTROL Usage] coluna.
-1. Clique **[!UICONTROL Save]** em quando terminar e revisar a caixa de diálogo de confirmação.
+2. Selecione a **[!UICONTROL Feed Usage]** guia.
+3. Use [!UICONTROL Search] a caixa para filtrar os feeds de dados e identificar aquelas de que você precisa para informar o uso.
+4. Clique em **[!UICONTROL Edit Feeds Usage]**.
+5. Calcule o [!DNL CPM] uso para cada feed de dados com base na [Atribuição de custo para Feeds](#cost-attribution)de dados CPM e insira-o na [!UICONTROL Usage] coluna.
+6. Clique **[!UICONTROL Save]** em quando terminar e revisar a caixa de diálogo de confirmação.
 
    ![confirm-feed-use](assets/confirm-feed-usage.png)
 
-1. Clique em **[!UICONTROL Confirm]**.
+7. Clique em **[!UICONTROL Confirm]**.
 
 <br> 
 
