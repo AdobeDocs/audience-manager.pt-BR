@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Página de detalhes da característica
 uuid: 23301376-c 1 cc -4778-b 8 c 4-9831 f 6739 db 9
 translation-type: tm+mt
-source-git-commit: 3130882116d39e94b446679999144f1eb55edc77
+source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
 
 ---
 
@@ -39,6 +39,8 @@ A [!UICONTROL Basic Information] seção mostra detalhes sobre campos obrigatór
    ![gráfico de características](assets/trait-identity.png)
    > [!NOTE]
    > O Audience Manager somente exibe o [!UICONTROL Identity Type Breakdown] relatório se houver IDs de dispositivo cruzadas qualificadas para a característica.
+
+   >[!VIDEO](https://video.tv.adobe.com/v/27977/?captions=por_br)
 
 ## Expressão de característica {#trait-expression}
 
