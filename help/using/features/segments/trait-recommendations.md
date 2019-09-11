@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Recomendações de característica
 uuid: null
 translation-type: tm+mt
-source-git-commit: e369038fbc83e28d10da24060699488faf783511
+source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
 
 ---
 
@@ -14,6 +14,12 @@ source-git-commit: e369038fbc83e28d10da24060699488faf783511
 # Recomendações de característica
 
 Obtenha recomendações de características ao vivo à medida que você cria seus segmentos.
+
+## Demonstração de vídeo
+
+Comece assistindo o vídeo de Características de características, em seguida, leia para obter mais informações.
+
+>[!VIDEO](https://video.tv.adobe.com/v/26228/?captions=por_br)
 
 ## Visão geral
 
@@ -27,31 +33,31 @@ With [!UICONTROL Trait Recommendations], when you build or edit a segment in [Se
 * O Audience Manager mostra características originais e características de terceiros dos feeds de dados inscritos atualmente como características recomendadas.
 * O Audience Manager mostra um máximo de cinquenta características semelhantes ao da regra de segmento.
 * Você pode filtrar as fontes de dados a partir das quais não deseja visualizar nenhuma recomendação.
-* When calculating similarities, Audience Manager considers [UUIDs](../../reference/ids-in-aam.md) that qualified for the trait during the last 30 days.
+* Ao calcular similaridades, o Audience Manager considera [uuids](../../reference/ids-in-aam.md) que qualificados para a característica nos últimos 30 dias.
 * Se você vir a mensagem de erro "Nenhuma característica similar encontrada. As características podem ser muito novas. ", isso significa que não havia nenhuma atividade para essa característica nos últimos 30 dias, ou o Audience Manager ainda não atualizou as recomendações para essa característica. Tente novamente em 24 horas.
 
 ## Casos de uso
 
-With [!UICONTROL Trait Recommendations], you can improve your workflows, depending on how you use Audience Manager:
+Com [!UICONTROL Trait Recommendations], você pode melhorar seus fluxos de trabalho, dependendo de como usar o Audience Manager:
 
 * Como comerciante, você pode encontrar rapidamente públicos-alvo interessados em produtos complementares com a ajuda de características semelhantes, para que você possa aumentar seu alcance.
-* If you use Audience Manager as a publisher, with [!UICONTROL Trait Recommendations], you can understand audience behavior and build better segments for ad sales or user acquisition.
+* Se você usar o Audience Manager como editor, com [!UICONTROL Trait Recommendations], você poderá entender o comportamento do público-alvo e criar segmentos melhores para vendas de anúncios ou aquisição do usuário.
 
 ## Diferenças entre as recomendações de característica e os modelos algorítmicos
 
 ### Modelos algorítmicos
 
-[!UICONTROL Algorithmic Models] localizar não apenas as características mais influentes, mas também pontuar os usuários com base nessas características e atribuir a cada usuário uma pontuação individual. Em seguida, crie características algorítmicas para direcionar seus usuários. With accuracy and reach controls in the [!UICONTROL Trait Builder], you can specify which users amongst all those who have the influential traits you want to target.
+[!UICONTROL Algorithmic Models] localizar não apenas as características mais influentes, mas também pontuar os usuários com base nessas características e atribuir a cada usuário uma pontuação individual. Em seguida, crie características algorítmicas para direcionar seus usuários. Com controles de precisão e alcance no [!UICONTROL Trait Builder], você pode especificar quais usuários entre todos os que têm as características influentes que deseja direcionar.
 
-[!UICONTROL Algorithmic Models] permite que você selecione usuários em diferentes níveis de precisão e teste em [!UICONTROL Audience Lab] que grupo de usuários é convertido melhor. See the detailed use case in [Compare Models in Audience Lab](../../features/audience-lab/audience-lab-use-cases.md#compare-models).
+[!UICONTROL Algorithmic Models] permite que você selecione usuários em diferentes níveis de precisão e teste em [!UICONTROL Audience Lab] que grupo de usuários é convertido melhor. Consulte o caso de uso detalhado em [Comparar modelos no Audience Lab](../../features/audience-lab/audience-lab-use-cases.md#compare-models).
 
-In [!UICONTROL Algorithmic Models], the model runs every 8 days and refreshes the users qualified for algorithmic traits.
+No [!UICONTROL Algorithmic Models], o modelo é executado a cada 8 dias e atualiza os usuários qualificados para as características algorítmicas.
 
 ### Recomendações de característica
 
 [!UICONTROL Trait Recommendations] é uma maneira rápida de obter insights em outras características semelhantes àqueles usados em um segmento.
 
-You should use [!UICONTROL Trait Recommendations] when:
+Você deve usar [!UICONTROL Trait Recommendations] quando:
 
 * Você precisa de insights rápidos ao criar um segmento;
 * Você está usando os segmentos para campanhas curtas ou quando deseja suprimir rapidamente o público-alvo que converte;
@@ -59,29 +65,29 @@ You should use [!UICONTROL Trait Recommendations] when:
 
 ## Fluxo de trabalho
 
-When building or editing a segment in [Segment Builder](segment-builder.md), you can explore traits similar to the traits in the segment rule. O fluxo de trabalho do Construtor de segmento é muito semelhante para segmentos novos e existentes:
+Ao criar ou editar um segmento no Construtor [de segmentos](segment-builder.md), você pode explorar características semelhantes às características na regra do segmento. O fluxo de trabalho do Construtor de segmento é muito semelhante para segmentos novos e existentes:
 
 ### Novos segmentos
 
-1. In **Audience Data &gt; Segments**, select **Add New**.
-1. In the **Traits** drop-down box, add at least one trait to the segment rule.
-1. Agora é possível ver características recomendadas que são semelhantes às características adicionadas à regra do segmento. Role para baixo para ver todas as características recomendadas.
-1. (Optional) To exclude recommended traits from certain data sources, click the **X** symbol for the data sources you want to exclude.
+1. Em **Dados de público-alvo &gt; Segmentos**, selecione **Adicionar novo**.
+2. Na caixa suspensa **Características** , adicione pelo menos uma característica à regra do segmento.
+3. Agora é possível ver características recomendadas que são semelhantes às características adicionadas à regra do segmento. Role para baixo para ver todas as características recomendadas.
+4. (Opcional) Para excluir características recomendadas de determinadas fontes de dados, clique no **símbolo X** para as fontes de dados que deseja excluir.
    > [!NOTE]
    > 
-   >As fontes de dados excluídas são mostradas logo acima da lista de características recomendadas. Press **X** in the grey box to remove the exclusions and see results from the respective data sources again.
-1. To add recommended traits to the segment rule, click the **+** symbol.
+   >As fontes de dados excluídas são mostradas logo acima da lista de características recomendadas. Pressione **X** na caixa cinza para remover as exclusões e ver os resultados das fontes de dados respectivas novamente.
+5. Para adicionar características recomendadas à regra de segmento, clique no **símbolo +** .
 
 ### Segmentos existentes
 
-1. Go to **[!UICONTROL Audience Data]&gt;[!UICONTROL Segments]**, select the segment you want to edit and press ![Edit](assets/edit-button.png).
-1. Scroll down to the [!UICONTROL Traits] drop-down box.
+1. Vá **[!UICONTROL Audience Data]para &gt;[!UICONTROL Segments]**, selecione o segmento que deseja editar e pressione ![Editar](assets/edit-button.png).
+1. Role para baixo até a [!UICONTROL Traits] caixa suspensa.
 1. Você pode ver características recomendadas, que são semelhantes às características já presentes na regra do segmento. Role para baixo para ver todas as características recomendadas.
-1. (Optional) To exclude recommended traits from certain data sources, click the **X** symbol for the data sources you want to exclude.
+1. (Opcional) Para excluir características recomendadas de determinadas fontes de dados, clique no **símbolo X** para as fontes de dados que deseja excluir.
    > [!NOTE]
    > 
-   >As fontes de dados excluídas são mostradas logo acima da lista de características recomendadas. Press **X** in the grey box to remove the exclusions and see results from the respective data sources again.
-1. To add recommended traits to the segment rule, click the **+** symbol.
+   >As fontes de dados excluídas são mostradas logo acima da lista de características recomendadas. Pressione **X** na caixa cinza para remover as exclusões e ver os resultados das fontes de dados respectivas novamente.
+1. Para adicionar características recomendadas à regra de segmento, clique no **símbolo +** .
 
 Ao criar ou editar um segmento e adicionar uma característica à regra de segmento, você verá um máximo de cinquenta características recomendadas, semelhante àquela adicionada. Se a regra de segmento contiver mais de uma característica, o Audience Manager usa um método redondo para mostrar a melhor correspondência para cada característica, e então a segunda melhor correspondência para cada característica, e assim por diante, para as maiores cinquenta características por população, na regra do segmento.
 
@@ -99,7 +105,7 @@ Para obter recomendações para uma característica específica, clique nas cara
 
 ![](assets/three-base-traits-numbered.png)
 
-Clicar em um traço abre uma janela pop-up, como mostrado na imagem abaixo. If the recommended traits are not part of the segment, you can add them to the segment by pressing **+**.
+Clicar em um traço abre uma janela pop-up, como mostrado na imagem abaixo. Se os traços recomendados não fizerem parte do segmento, você pode adicioná-los ao segmento pressionando **+**.
 
 ![](assets/add_to_segments.png)
 
@@ -113,11 +119,11 @@ Clicar em um traço abre uma janela pop-up, como mostrado na imagem abaixo. If t
 
 ## Como funciona
 
-To produce trait recommendations, Audience Manager computes the [Jaccard similarity](https://en.wikipedia.org/wiki/Jaccard_index) between the target trait and every other trait that your account has access to, including third-party data. O Audience Manager exibe até cinquenta características que têm a maior similaridade.
+Para produzir recomendações de características, o Audience Manager calcula a semelhança [do Jaccard](https://en.wikipedia.org/wiki/Jaccard_index) entre a característica de destino e cada outra característica à qual sua conta tem acesso, incluindo dados de terceiros. O Audience Manager exibe até cinquenta características que têm a maior similaridade.
 
 ## Pontuação de semelhança característica
 
-Audience Manager calculate the [!UICONTROL Trait Similarity Score] between two traits by computing the intersection and union in terms of the number of [!UICONTROL UUID]s and then divide the two. Para duas características A e B, o cálculo é semelhante a:
+O Audience Manager calcula a [!UICONTROL Trait Similarity Score] entre duas características ao calcular a interseção e a união em termos do número de [!UICONTROL UUID]s e dividir os dois. Para duas características A e B, o cálculo é semelhante a:
 
 ![](assets/jaccard_similarity.png)
 
@@ -125,15 +131,15 @@ Consulte também os dois exemplos abaixo.
 
 ### Exemplo 1 - Pontuação de semelhança de característica baixa
 
-Given two traits A and B, let's say each of the traits has a population of 1,000,000 [!UICONTROL UUID]s, 25,000 [!UICONTROL UUID]s of which qualify for both traits.
-Using the formula above, this will result in: 25,000 / 1,975,000 = 0.012. This is a low [!UICONTROL Trait Similarity Score], the two traits are very dissimilar.
+Considerando duas características A e B, considere que cada uma das características tem uma população de 1,000,000 [!UICONTROL UUID]s, 25,000 [!UICONTROL UUID]s das quais se qualificam para ambas as características.
+Usando a fórmula acima, isso resultará em: 25,000/1,975,000 = 0.012. Isso é baixo [!UICONTROL Trait Similarity Score], as duas características são muito diferentes.
 
 ![](assets/Trait-Recommendations-Low-overlap.png)
 
 ### Exemplo 2 - Pontuação de semelhança característica
 
-If the same traits A and B had 400,000 [!UICONTRL UUID]s that qualify for both traits, the [!UICONTROL Trait Similarity Score] is much higher:
-400,000 / 1,600,000 = 0.25
+Se as mesmas características A e B possuírem 400,000 [!UICONTRL uuids]que se qualificam para ambas as características, o [!UICONTROL Trait Similarity Score] é muito maior:
+400,000/1,600,000 = 0.25
 
 ![](assets/Trait-Recommendations-High-overlap.png)
 
@@ -150,9 +156,9 @@ Use a tabela abaixo como um guia aproximado para similaridade característica. E
 
 ## Controle de acesso com base em funções (RBAC)
 
-For companies using [!UICONTROL Role-Based Access Controls] ([!UICONTROL RBAC]), you need to have permission to create and edit segments in order to see recommended traits. And, the recommended traits you see are only the ones from data sources that you have access to via [!UICONTROL RBAC]. Read more about [!UICONTROL RBAC] controls [here](../administration/administration-overview.md).
+Para empresas que usam [!UICONTROL Role-Based Access Controls] ([!UICONTROL RBAC]), é necessário ter permissão para criar e editar segmentos para ver os traços recomendados. E, as características recomendadas que você vê são apenas aquelas das fontes de dados a que você tem acesso. [!UICONTROL RBAC] Leia mais sobre [!UICONTROL RBAC] controles [aqui](../administration/administration-overview.md).
 
 ## Limitações
 
-* Atualmente, o Audience Manager não mostra características de pastas como características recomendadas. Read more about folder traits [here](../traits/manage-folder-traits.md).
-* When displaying Trait Recommendations, Audience Manager does not take into account [!DNL Boolean] operators ([!DNL AND], [!DNL OR], [!DNL NOT]) in segment rules.
+* Atualmente, o Audience Manager não mostra características de pastas como características recomendadas. Leia mais sobre as características de pastas [aqui](../traits/manage-folder-traits.md).
+* Ao exibir o Recommendations Recommendations, o Audience Manager não leva em conta [!DNL Boolean] operadores ([!DNL AND][!DNL OR], [!DNL NOT]) nas regras do segmento.
