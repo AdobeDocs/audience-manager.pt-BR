@@ -1,39 +1,39 @@
 ---
-description: Formate o conteúdo do seu arquivo de metadados de Otimização do público-alvo de acordo com essas especificações.
-seo-description: Formate o conteúdo do seu arquivo de metadados de Otimização do público-alvo de acordo com essas especificações.
+description: Formate o conteúdo do arquivo de metadados de Otimização de público-alvo de acordo com essas especificações.
+seo-description: Formate o conteúdo do arquivo de metadados de Otimização de público-alvo de acordo com essas especificações.
 seo-title: Formato de conteúdo para arquivos de metadados
 solution: Audience Manager
 title: Formato de conteúdo para arquivos de metadados
-uuid: 9 ba 44738-3 e 17-40 c 7-9 e 8 c -5 abd 8361 e 16 d
+uuid: 9ba44738-3e17-40c7-9e8c-5abd8361e16d
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Content Format for Metadata Files{#content-format-for-metadata-files}
+# Formato de conteúdo para arquivos de metadados{#content-format-for-metadata-files}
 
-Formate o conteúdo do seu arquivo de metadados de Otimização do público-alvo de acordo com essas especificações.
+Formate o conteúdo do arquivo de metadados de Otimização de público-alvo de acordo com essas especificações.
 
 ## Sintaxe {#syntax}
 
-A sintaxe a seguir define a estrutura de conteúdo bem formado em um arquivo de metadados. Note, *italics* indicates a variable placeholder.
+A sintaxe a seguir define a estrutura do conteúdo bem formado em um arquivo de metadados. Note, *italics* indicates a variable placeholder.
 
-**Sintaxe:***ID do conteúdo* | *name* | *-1*
+**** Sintaxe:  ID ** de conteúdo| *nome* | *-1*
 
 <!--In the contents syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file name](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md). These 2 variables seem similar, but they represent different things. In the file name, the parent ID corresponds to a category like "campaign" (ID 1), "placement" (ID 3), or "tactic" (ID 9), etc. In the file body:-->
 
-The third column **-1** is technically the Parent ID, which is a legacy field. The value should always be set as **-1**.
+A terceira coluna **-1** é tecnicamente a ID pai, que é um campo herdado. O valor deve ser sempre definido como **-1**.
 
 >[!NOTE]
 >
->Observe que é necessário um arquivo de metadados por dimensão, para que vários arquivos de metadados sejam esperados no compartimento. The dimensions are listed in the article [Naming Conventions for Metadata File](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension).
+>Observe que um arquivo de metadados por dimensão é necessário, portanto, vários arquivos de metadados são esperados no bucket. As dimensões são listadas no artigo Convenções de [nomenclatura para o arquivo](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension)de metadados.
 
-**Entradas de arquivo separadas com ^ a (control-A ou ASCII 001)**
+**Entradas de arquivo separadas com ^a (controle-A ou ASCII 001)**
 
-Use `^a` (control-A or ASCII 001) to separate content in your metadata files. Como esses caracteres não são imprimíveis, o exemplo de sintaxe acima mostra uma barra vertical|" apenas para fins de exibição.
+Use `^a` (controle A ou ASCII 001) para separar o conteúdo dos arquivos de metadados. Como são caracteres não imprimíveis, o exemplo de sintaxe acima mostra um pipe "|" somente para fins de exibição.
 
-If needed, you may download the example file - [20181105_0_1](assets/20181105_0_1.zip). Descompacte-o e edite-o no seu editor de escolha e ajuste de acordo com seu conteúdo de metadados reais, já que ele já contém o delimitador necessário.
+Se necessário, você pode baixar o arquivo de exemplo - [20181105_0_1](assets/20181105_0_1.zip). Descompacte-o e edite-o no editor de sua escolha e ajuste-o de acordo com o conteúdo real dos metadados, pois já contém o delimitador necessário.
 
 >[!IMPORTANT]
 >
@@ -41,11 +41,11 @@ If needed, you may download the example file - [20181105_0_1](assets/20181105_0_
 
 ## Exemplos {#examples}
 
-Vejamos como estruturar o conteúdo em um arquivo de metadados. Parte dessa estrutura depende da dimensão. The dimensions are listed in the article [Naming Conventions for Metadata File](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension).
+Vejamos como você estruturaria o conteúdo em um arquivo de metadados. Parte dessa estrutura depende da dimensão. As dimensões são listadas no artigo Convenções de [nomenclatura para o arquivo](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension)de metadados.
 
 **Campaign**
 
-Neste exemplo, o título do arquivo é 20180921_ 0_ 1, e as três colunas no arquivo são: ID da campanha, nome e ID pai.
+Neste exemplo, o título do arquivo é 20180921_0_1 e as três colunas do arquivo são: ID da campanha, Nome e ID pai.
 
 <!--Let's say you want to populate the creative drop down menu with creative names from a particular campaign. In this case, your metadata file name would include ID 1 (campaign) and ID 2 (creative). Following the content syntax, your metadata file would contain the creative ID, creative name, and actual campaign ID.-->
 
@@ -60,7 +60,7 @@ Neste exemplo, o título do arquivo é 20180921_ 0_ 1, e as três colunas no arq
 
 **Creative**
 
-Neste exemplo, o título do arquivo é 20180827_ 0_ 2, e as três colunas no arquivo são: ID de criação, nome e ID pai.
+Neste exemplo, o título do arquivo é 20180827_0_2 e as três colunas do arquivo são: ID criativa, nome e ID pai.
 
 ```
 //File Title
@@ -73,7 +73,7 @@ Neste exemplo, o título do arquivo é 20180827_ 0_ 2, e as três colunas no arq
 
 **Site**
 
-Neste exemplo, o título do arquivo é 20180921_ 0_ 5, e as três colunas no arquivo são: ID do site, nome e ID pai.
+Neste exemplo, o título do arquivo é 20180921_0_5 e as três colunas do arquivo são: ID do site, nome e ID pai.
 
 ```
 //File Title
