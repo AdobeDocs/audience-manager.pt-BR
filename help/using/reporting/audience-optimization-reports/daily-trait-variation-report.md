@@ -1,59 +1,59 @@
 ---
-description: Este relatório retorna uma lista de características que foram observadas pelo menos 10,000 vezes nos 30 dias antes das datas selecionadas e têm um desvio padrão maior ou igual a 1.7 em ambas as direções ao mesmo intervalo de tempo. O relatório ajuda a avaliar como o número de impressões de usuários únicos em uma característica flutua ao longo do tempo.
-seo-description: Este relatório retorna uma lista de características que foram observadas pelo menos 10,000 vezes nos 30 dias antes das datas selecionadas e têm um desvio padrão maior ou igual a 1.7 em ambas as direções ao mesmo intervalo de tempo. O relatório ajuda a avaliar como o número de impressões de usuários únicos em uma característica flutua ao longo do tempo.
+description: Este relatório retorna uma lista de características que foram realizadas pelo menos 10.000 vezes nos 30 dias anteriores às datas selecionadas e têm um desvio padrão maior ou igual a 1,7 em ambas as direções ao longo do mesmo intervalo de tempo. O relatório ajuda a avaliar como o número de impressões de usuários únicos em uma característica flutuam ao longo do tempo.
+seo-description: Este relatório retorna uma lista de características que foram realizadas pelo menos 10.000 vezes nos 30 dias anteriores às datas selecionadas e têm um desvio padrão maior ou igual a 1,7 em ambas as direções ao longo do mesmo intervalo de tempo. O relatório ajuda a avaliar como o número de impressões de usuários únicos em uma característica flutuam ao longo do tempo.
 seo-title: Relatório de variação de característica diária
 solution: Audience Manager
 title: Relatório de variação de característica diária
-uuid: 4 e 82 bb 17-d 447-4 ed 1-a 4 fc-e 15 b 0 f 1 b 47 f 0
+uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
 translation-type: tm+mt
 source-git-commit: 8f2ec880cbbe2f516ebc240a712337dc09c4e7f7
 
 ---
 
 
-# Daily Trait Variation Report {#daily-trait-variation-report}
+# Relatório de variação de característica diária {#daily-trait-variation-report}
 
-Este relatório retorna uma lista de características que foram observadas pelo menos 10,000 vezes nos 30 dias antes das datas selecionadas e têm um desvio padrão maior ou igual a 1.7 em ambas as direções ao mesmo intervalo de tempo. O relatório ajuda a avaliar como o número de impressões de usuários únicos em uma característica flutua ao longo do tempo.
+Este relatório retorna uma lista de características que foram realizadas pelo menos 10.000 vezes nos 30 dias anteriores às datas selecionadas e têm um desvio padrão maior ou igual a 1,7 em ambas as direções ao longo do mesmo intervalo de tempo. O relatório ajuda a avaliar como o número de impressões de usuários únicos em uma característica flutuam ao longo do tempo.
 
 >[!NOTE]
 >
->O relatório Variação de característica diária no Audience Manager acessa os princípios RBAC. You can only see traits from data sources that you have access to based on the [RBAC User Group](/help/using/features/administration/administration-overview.md) that you belong to.
+>O relatório de Variação de característica diária no Audience Manager segue os princípios do RBAC. Você só pode ver características de fontes de dados às quais você tem acesso com base no Grupo [de usuários](/help/using/features/administration/administration-overview.md) RBAC ao qual você pertence.
 
-O desvio padrão mede a quantidade de variação ou dispersão da média (ou valor médio/esperado). Um desvio padrão baixo indica que os pontos de dados tendem a ficar muito próximos da média. Um desvio padrão alto indica que os pontos de dados são distribuídos em um grande intervalo de valores.
+O desvio padrão mede a quantidade de variação ou dispersão em relação à média (ou valor médio/esperado). Um desvio padrão baixo indica que os pontos de dados tendem a estar muito próximos da média. Um desvio padrão alto indica que os pontos de dados estão distribuídos por uma grande variedade de valores.
 
 ![](assets/daily_trait_variation.png)
 
-Use the [!UICONTROL Date] list to select one or more dates for your report. Um gráfico de barras codificado por cores é exibido na parte inferior da lista que fornece um representante visual do intervalo de desvio padrão para todas as características em todas as datas selecionadas. A linha vertical preta indica a média.
+Use a [!UICONTROL Date] lista para selecionar uma ou mais datas para seu relatório. Um gráfico de barras codificado por cores é exibido na parte inferior da lista, que fornece um representante visual do intervalo de desvio padrão para todas as características em todas as datas selecionadas. A linha vertical preta indica a média.
 
-The middle column contains a list of traits, identified by [!UICONTROL Trait ID] and [!UICONTROL Trait Name]. Clique em qualquer característica para acessar uma caixa de diálogo pop-up que permite a seleção das seguintes opções:
+A coluna central contém uma lista de características, identificadas por [!UICONTROL Trait ID] e [!UICONTROL Trait Name]. Clique em qualquer característica para acessar uma caixa de diálogo pop-up que permite selecionar entre as seguintes opções:
 
-* **Manter apenas:** Remove todas as outras características do relatório e exibe dados somente desse trait.
-* **Excluir:** Remove essa característica do relatório e exibe dados de todos os outros traços. É possível excluir várias características.
-* **Exibir dados:** Permite exibir dados para essa linha. Também é possível baixar todas as linhas como um arquivo de texto.
+* **** Manter somente: Remove todas as outras características do relatório e exibe dados somente para essa característica.
+* **** Excluir: Remove essa característica do relatório e exibe dados de todas as outras características. É possível excluir várias características.
+* **** Exibir dados: Permite exibir dados para essa linha. Também é possível baixar todas as linhas como um arquivo de texto.
 
-The [!UICONTROL Standard Deviation] column displays color-coded bar charts that display the standard deviation for each trait over the selected interval. As barras vermelhas indicam características com um desvio padrão negativo (pontos de dados tendem a estar abaixo da média). As barras verdes indicam características com um desvio padrão positivo (pontos de dados tendem a estar acima da média). Passe o mouse sobre qualquer barra para exibir uma caixa de diálogo pop-up com mais informações e opções para manter ou excluir essas características e exibir mais informações.
+A [!UICONTROL Standard Deviation] coluna exibe gráficos de barras codificados por cores que exibem o desvio padrão para cada característica durante o intervalo selecionado. As barras vermelhas indicam características com um desvio padrão negativo (os pontos de dados tendem a estar abaixo da média). As barras verdes indicam características com um desvio padrão positivo (os pontos de dados tendem a estar acima da média). Passe o mouse sobre qualquer barra para exibir uma caixa de diálogo pop-up com mais informações e opções para manter ou excluir essa característica e exibir mais informações.
 
-Os ícones são exibidos na parte inferior do relatório que permite exportar dados em vários formatos, reverter quaisquer alterações que você tenha feito ao relatório (como excluir características), ativar ou desativar as atualizações automáticas e atualizar os dados do relatório. See [Report Icons and Tools Explained](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained).
+Os ícones são exibidos na parte inferior do relatório que permitem exportar dados em vários formatos, reverter quaisquer alterações que você tenha feito no relatório (como excluir características), ativar ou desativar atualizações automáticas e atualizar os dados do relatório. Consulte Ícones [de relatório e ferramentas explicadas](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained).
 
 ## Casos de uso {#use-cases}
 
-**Exemplo n º 1**: esse relatório pode ser muito útil em situações nas quais você tem características com um nível de sazonalidade alto. Por exemplo, digamos que sua loja online esteja testando promoções sazonais de vários tipos e preços. You have the following traits defined in [!DNL Audience Manager]:
+**Exemplo nº 1**: este relatório pode ser muito útil em situações em que você tem características com alto nível de sazonalidade. Por exemplo, digamos que sua loja online está testando promoções sazonais de vários tipos e preços. Você tem as seguintes características definidas em [!DNL Audience Manager]:
 
 * `productPage == "December Promotion"`
 * `price > "500"`
 
-Say you run the [!UICONTROL Daily Trait Variation] report on the 20th of December and you notice a solid positive deviation on the above mentioned traits in the past 30 days. Isso pode sugerir que os visitantes buscem pelos produtos mencionados na promoção sazonal. Para aproveitar essa tendência, você pode investir mais esforços em anúncios de definição de metas para a categoria de produtos específica em visitantes interessados neles.
+Diga que você dirige o [!UICONTROL Daily Trait Variation] relatório no dia 20 de dezembro e percebe um desvio positivo sólido nas características acima mencionadas nos últimos 30 dias. Isso pode sugerir que seus visitantes estejam procurando os produtos mencionados em sua promoção sazonal. Para tirar proveito dessa tendência, você pode investir mais esforços na definição de metas de criações para aquela categoria específica de produto em visitantes que estejam interessados neles.
 
-**Exemplo n º 2**: este relatório pode ajudar a identificar anomalias de definição de metas relacionadas a problemas de marcação ou configurações de características. Imagine que você definiu a seguinte característica com base nas categorias de sua loja online:
+**Exemplo nº 2**: este relatório pode ajudá-lo a identificar anomalias de definição de metas relacionadas a problemas de marcação ou configurações incorretas de características. Imagine que você definiu o seguinte traço com base nas categorias da sua loja online:
 
 * `productPage == "smartphones"`
 
-Devido a uma reconfiguração de sua loja, você divide a página smartphones em várias páginas, com base em nomes de marcas. However, you forget to update the traits defined in [!DNL Audience Manager].
+Devido a uma reconfiguração da sua loja, você está dividindo a página de smartphones em várias páginas, com base nos nomes das marcas. No entanto, você se esquece de atualizar as características definidas em [!DNL Audience Manager].
 
-One month later, you run the [!UICONTROL Daily Trait Variation] report and notice a large negative deviation on the `productPage == "smartphones"` trait, although your visitor number has increased, according to your site analytics. Based on this information, you realize that you haven't updated the traits in [!DNL Audience Manager] for your new product pages, so you know that you need to create the following traits:
+Um mês depois, você executa o [!UICONTROL Daily Trait Variation] relatório e nota um grande desvio negativo na `productPage == "smartphones"` característica, embora seu número de visitantes tenha aumentado, de acordo com as análises do site. Com base nessas informações, você percebe que não atualizou as características [!DNL Audience Manager] para suas novas páginas de produtos, portanto, você sabe que precisa criar as seguintes características:
 
-* Productpage = = "samsung"
-* Productpage = = "maçã"
-* Productpage = = "huawei"
+* productPage == "samsung"
+* productPage == "apple"
+* productPage == "huawei"
 
-Depois disso, você verá o público-alvo qualificado para as características recém-criadas.
+Depois de fazer isso, você verá seu público-alvo se qualificando para as características recém-criadas.
