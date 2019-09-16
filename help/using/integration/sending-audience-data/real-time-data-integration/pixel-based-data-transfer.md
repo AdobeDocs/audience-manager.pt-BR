@@ -1,37 +1,37 @@
 ---
-description: Os pixels simples (que podem ser usados para qualificar usuários para características) executam transferências de dados em tempo real. A interface do Audience Manager permite que os clientes criem qualquer número de pixels com base em autoatendimento. As strings de pixel consistem em IDs simples ou pares de valores chave.
-seo-description: Os pixels simples (que podem ser usados para qualificar usuários para características) executam transferências de dados em tempo real. A interface do Audience Manager permite que os clientes criem qualquer número de pixels com base em autoatendimento. As strings de pixel consistem em IDs simples ou pares de valores chave.
-seo-title: Transferências de dados baseadas em pixel
+description: Os pixels simples (que podem ser usados para qualificar usuários para características) executam transferências de dados em tempo real. A interface do Audience Manager permite que os clientes criem qualquer número de pixels em uma base de autoatendimento. As strings de pixels consistem em IDs simples ou pares de valores chave.
+seo-description: Os pixels simples (que podem ser usados para qualificar usuários para características) executam transferências de dados em tempo real. A interface do Audience Manager permite que os clientes criem qualquer número de pixels em uma base de autoatendimento. As strings de pixels consistem em IDs simples ou pares de valores chave.
+seo-title: Transferências de dados baseadas em pixels
 solution: Audience Manager
-title: Transferências de dados baseadas em pixel
-uuid: 8773 bfc 0-6 b 8 d -4 a 6 a-a 8 b 7-e 043744486 ab
+title: Transferências de dados baseadas em pixels
+uuid: 8773bfc0-6b8d-4a6a-a8b7-e04374486ab
 translation-type: tm+mt
 source-git-commit: 3fb90da3be8f50fe670c1193600f5e3a027be52c
 
 ---
 
 
-# Pixel-based Data Transfers {#pixel-based-data-transfers}
+# Transferências de dados baseadas em pixels {#pixel-based-data-transfers}
 
-Os pixels simples (que podem ser usados para qualificar usuários para características) executam transferências de dados em tempo real. A interface do Audience Manager permite que os clientes criem qualquer número de pixels com base em autoatendimento. As strings de pixel consistem em IDs simples ou pares de valores chave.
+Os pixels simples (que podem ser usados para qualificar usuários para características) executam transferências de dados em tempo real. A interface do Audience Manager permite que os clientes criem qualquer número de pixels em uma base de autoatendimento. As strings de pixels consistem em IDs simples ou pares de valores chave.
 
 <!-- c_rt_inbound_pixel_transfers.xml -->
 
-Para ativar transferências de dados de entrada, o fornecedor e o cliente seriam:
+Para permitir transferências de dados de entrada, o fornecedor e o cliente:
 
-1. Determine quais características você deseja que o fornecedor ou parceiro acione.
-1. Obtenha o pixel da característica. In the traits list screen, hover over the **[!UICONTROL Actions]** column and click the **[!UICONTROL Get trait URL]** symbol for the desired trait.
-1. Provide the [!DNL URL] to the vendor or partner.
+1. Determine quais características deseja que o fornecedor ou parceiro seja acionado.
+1. Obtenha o pixel para o traço. Na tela da lista de características, passe o mouse sobre a **[!UICONTROL Actions]** coluna e clique no **[!UICONTROL Get trait URL]** símbolo da característica desejada.
+1. Forneça o relatório [!DNL URL] ao fornecedor ou parceiro.
 
 ## Exemplos
 
-This basic event call sends trait ID 1234 to [!DNL Audience Manager].
+Esta chamada de evento básica envia a ID de característica 1234 para [!DNL Audience Manager].
 
 ```
 https://something.demdex.net/event?d_sid=1234
 ```
 
-You can serialize trait IDs in an event call to help reduce `HTTP` traffic from the page. Anexe IDs de característica adicionais à sequência de caracteres de URL, como mostrado no exemplo a seguir:
+Você pode serializar IDs de características em uma chamada de evento para ajudar a reduzir o `HTTP` tráfego da página. Anexar IDs de característica adicionais à string do URL, como mostrado no exemplo a seguir:
 
 ```
 https://something.demdex.net/event?d_sid=1234,5678,9876,5432
