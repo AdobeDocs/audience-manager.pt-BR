@@ -1,19 +1,19 @@
 ---
-description: Os componentes de coleção de dados incluem os servidores de coleta de dados, a API DIL, transferências de dados de servidor a servidor e arquivos de log.
-seo-description: Os componentes de coleção de dados incluem os servidores de coleta de dados, a API DIL, transferências de dados de servidor a servidor e arquivos de log.
+description: Os componentes da coleta de dados incluem os Servidores de coleta de dados, a API DIL, as transferências de dados de servidor para servidor e os arquivos de registro.
+seo-description: Os componentes da coleta de dados incluem os Servidores de coleta de dados, a API DIL, as transferências de dados de servidor para servidor e os arquivos de registro.
 seo-title: Componentes da coleção de dados
 solution: Audience Manager
 title: Componentes da coleção de dados
-uuid: 51 bb 1719-5 ff 2-4 bc 7-8 eb 1-98795 e 05 d 08 f
+uuid: 51bb1719-5ff2-4bc7-8eb1-98795e05d08f
 translation-type: tm+mt
-source-git-commit: 0b9da38fd8b999637bdf6c3fe6af8aa2426eb6ae
+source-git-commit: 5730b94d7f72cdc406c2be6c063edf65886044e3
 
 ---
 
 
-# Data Collection Components{#data-collection-components}
+# Componentes da coleção de dados{#data-collection-components}
 
-Os componentes de coleção de dados incluem os servidores de coleta de dados, a API DIL, transferências de dados de servidor a servidor e arquivos de log.
+Os componentes da coleta de dados incluem os Servidores de coleta de dados, a API DIL, as transferências de dados de servidor para servidor e os arquivos de registro.
 
 <!-- 
 
@@ -21,52 +21,52 @@ c_compcollect.xml
 
  -->
 
-O Audience Manager contém os seguintes componentes da coleção de dados:
+O Audience Manager contém os seguintes componentes de coleta de dados:
 
-* [Servidores de coleta de dados (DCS) e servidores de cache de perfil (PCS)](../../reference/system-components/components-data-collection.md#dcs-pcs)
+* [Servidores de coleta de dados (DCS) e PCS (Profile Cache Servers)](../../reference/system-components/components-data-collection.md#dcs-pcs)
 * [Biblioteca da integração de dados (DIL)](../../reference/system-components/components-data-collection.md#dil)
 * [Servidor de entrada para servidor](../../reference/system-components/components-data-collection.md#inbound-outbound-server)
 * [Arquivos de registro](../../reference/system-components/components-data-collection.md#log-files)
 
-## Data Collection Servers (DCS) and Profile Cache Servers (PCS) {#dcs-pcs}
+## Servidores de coleta de dados (DCS) e PCS (Profile Cache Servers) {#dcs-pcs}
 
-O DCS e o PCS trabalham em conjunto e oferecem serviços relacionados à realização de características, à segmentação de público-alvo e ao armazenamento de dados.
+O DCS e o PCS trabalham em conjunto e fornecem separadamente serviços relacionados à realização de características, segmentação de público-alvo e armazenamento de dados.
 
 **[!UICONTROL Data Collection Servers (DCS)]Função**
 
-In [!DNL Audience Manager], the DCS:
+Em [!DNL Audience Manager], o DCS:
 
-* Recebe e avalia os dados características de uma chamada de evento. Isso inclui informações usadas para segmentação em tempo real e dados passados em intervalos programados por transferências de servidor para servidor.
-* Segments users based on their realized traits and the qualification rules you create with [Segment Builder](../../features/segments/segment-builder.md#topic_E166819D26B94A868376BA54E10E4B74).
-* Cria e gerencia IDs de dispositivo e IDs de perfil autenticado. Isso inclui identificadores como IDs do provedor de dados, IDs do usuário, IDs declaradas, códigos de integração etc.
-* Verifica o PCS para características adicionais que um usuário já tenha percebido antes de uma chamada de evento em tempo real. Isso permite que o DCS qualifique os usuários com base em dados em tempo real e dados históricos.
-* Grava arquivos de log e envia os arquivos para sistemas de análise para armazenamento e processamento.
+* Recebe e avalia dados de características de uma chamada de evento. Isso inclui informações usadas para segmentação em tempo real e dados passados em intervalos programados por transferências de servidor para servidor.
+* Segmenta os usuários com base em suas características realizadas e nas regras de qualificação criadas com o Construtor [de segmentos](../../features/segments/segment-builder.md).
+* Cria e gerencia IDs de dispositivo e IDs de perfil autenticadas. Isso inclui identificadores como IDs do provedor de dados, IDs do usuário, IDs declaradas, códigos de integração etc.
+* Verifica se o PCS possui características adicionais que um usuário já percebeu antes de uma chamada de evento em tempo real. Isso permite que o DCS qualifice usuários com base em dados em tempo real e dados históricos.
+* Grava arquivos de registro e os envia para sistemas de análise para armazenamento e processamento.
 
-**[!UICONTROL DCS]Gerencia demanda por meio[!UICONTROL Global Server Load Balancing (GSLB)]**
+**[!UICONTROL DCS]Gerencia a demanda por meio de[!UICONTROL Global Server Load Balancing (GSLB)]**
 
-The [!UICONTROL DCS] is a geographically distributed and load-balanced system. This means [!DNL Audience Manager] can direct requests to and from a regional data center based on the geographic location of a site visitor. This strategy helps improve response times because a [!UICONTROL DCS] response goes directly to a data center that contains information about that visitor. [!UICONTROL GSLB] torna nosso sistema eficiente, pois os dados relevantes são armazenados em cache em servidores mais próximos do usuário.
+The [!UICONTROL DCS] is a geographically distributed and load-balanced system. Isso significa que [!DNL Audience Manager] pode direcionar solicitações para e de um data center regional com base na localização geográfica de um visitante do site. Essa estratégia ajuda a melhorar os tempos de resposta, pois uma [!UICONTROL DCS] resposta vai diretamente para um data center que contém informações sobre esse visitante. [!UICONTROL GSLB] torna nosso sistema eficiente porque os dados relevantes são armazenados em cache nos servidores mais próximos do usuário.
 
 >[!IMPORTANT]
 >
->The [!UICONTROL DCS] only detects web traffic originating from devices that use IPv4.
+>O [!UICONTROL DCS] detecta apenas o tráfego da Web originário de dispositivos que usam IPv4.
 
-Em uma chamada de evento, a localização geográfica é capturada em um par de valores chave retornado em um corpo maior de dados JSON. This key-value pair is the `"dcs_region": region ID` parameter.
+Em uma chamada de evento, a localização geográfica é capturada em um par de valor chave retornado em um corpo maior de dados JSON. Esse par de chave-valor é o `"dcs_region": region ID` parâmetro.
 
 ![](assets/dcs-map.png)
 
-As a customer, you engage with the [!UICONTROL DCS] indirectly through our data collection code. You can also work directly with the [!UICONTROL DCS] through a set of APIs. See [Data Collection Server (DCS) API Methods and Code](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md).
+Como cliente, você se envolve [!UICONTROL DCS] indiretamente com o nosso código de coleta de dados. Você também pode trabalhar diretamente com o [!UICONTROL DCS] por meio de um conjunto de APIs. Consulte Métodos e código [da API do Servidor de coleta de](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)dados (DCS).
 
 **[!UICONTROL Profile Cache Servers (PCS)]**
 
-The [!UICONTROL PCS] is a large database (basically, a huge server-side cookie). It stores data received for active users from server-to-server transfers and the [!UICONTROL DCS]. [!UICONTROL PCS] são compostos por IDs de dispositivo, IDs de perfil autenticado e características associadas. When the [!UICONTROL DCS] receives a real time call, it checks the [!UICONTROL PCS] for other traits a user may belong to or qualify for. And, if a trait is added to a segment at a later time, those trait IDs are added to the [!UICONTROL PCS] and users can qualify for that segment automatically, without a visit to a particular site or app. The [!UICONTROL PCS] helps deepen [!DNL Audience Manager]'s understanding of your users because it can match and segment users in real time or behind the scenes with new and historic trait data. Esse comportamento oferece uma imagem mais completa e precisa dos usuários do que somente as qualificações em tempo real.
+O [!UICONTROL PCS] é um banco de dados grande (basicamente, um cookie enorme do lado do servidor). Ele armazena dados recebidos para usuários ativos de transferências de servidor para servidor e do [!UICONTROL DCS]. [!UICONTROL PCS] os dados consistem em IDs de dispositivo, IDs de perfil autenticadas e suas características associadas. Quando o usuário [!UICONTROL DCS] recebe uma chamada em tempo real, ele verifica se há outras características [!UICONTROL PCS] às quais um usuário pode pertencer ou se qualificar. E, se uma característica for adicionada a um segmento posteriormente, essas IDs de características serão adicionadas ao segmento [!UICONTROL PCS] e os usuários poderão se qualificar para esse segmento automaticamente, sem uma visita a um site ou aplicativo específico. O [!UICONTROL PCS] ajuda a aprofundar [!DNL Audience Manager]a compreensão dos usuários, pois pode combinar e segmentar usuários em tempo real ou em segundo plano com dados de características novos e históricos. Esse comportamento oferece uma visão mais completa e precisa dos usuários do que apenas das qualificações em tempo real.
 
-There are no UI controls that lets our customers work directly with the [!UICONTROL PCS]. Customer access to the [!UICONTROL PCS] is indirect, through its role as a data store and data transfers. [!UICONTROL PCS] As execuções no Apache Cassandra.
+Não há controles de interface que permitam que nossos clientes trabalhem diretamente com o [!UICONTROL PCS]. O acesso do cliente ao [!UICONTROL PCS] é indireto, por meio de sua função de armazenamento de dados e transferência de dados. A [!UICONTROL PCS] corrida é no Apache Cassandra.
 
-**Remoção de IDs inativas do[!UICONTROL PCS]**
+**Expurgando IDs inativas do[!UICONTROL PCS]**
 
-As indicated previously, the [!UICONTROL PCS] stores trait IDs for active users. An active user is any user who has been seen by the [edge data servers](../../reference/system-components/components-edge.md) from any domain during the last 14-days. These calls to the [!UICONTROL PCS] keep a user in an active state:
+Conforme indicado anteriormente, o [!UICONTROL PCS] armazena IDs de características para usuários ativos. Um usuário ativo é qualquer usuário que tenha sido visto pelos servidores [de dados de](../../reference/system-components/components-edge.md) borda de qualquer domínio durante os últimos 14 dias. Essas chamadas para [!UICONTROL PCS] manter um usuário em um estado ativo:
 
-* [!DNL /event] calls
+* [!DNL /event] chamadas
 * [!DNL /ibs] chamadas (sincronizações de ID)
 
 <!-- 
@@ -75,25 +75,25 @@ Removed /dpm calls from the bulleted list. /dpm calls have been deprecated.
 
  -->
 
-The [!UICONTROL PCS] flushes traits if they're inactive for 17-days. Contudo, essas características não são perdidas. Eles são armazenados no Hadoop. If the user is seen again at another time, then Hadoop pushes all of their traits back to the [!UICONTROL PCS], typically within a 24-hour period.
+Os traços de [!UICONTROL PCS] descarga se estiverem inativos por 17 dias. No entanto, essas características não se perdem. Eles estão armazenados no Hadoop. Se o usuário for visto novamente em outro momento, então o Hadoop empurra todas as suas características de volta para o [!UICONTROL PCS], normalmente em um período de 24 horas.
 
-**Outros[!UICONTROL DCS/PCS]processos: Opção de não participação de privacidade**
+**Outros[!UICONTROL DCS/PCS]processos: Recusa de privacidade**
 
-Esses sistemas de servidor tratam de privacidade e solicitações de não participação do usuário. As informações do cookie do usuário não são coletadas no arquivo de log se um usuário não tiver optado pela coleta de dados. For more information about our privacy policies see the [Adobe Privacy Center](https://www.adobe.com/privacy/advertising-services.html).
+Esses sistemas de servidor lidam com solicitações de privacidade e cancelamento de usuário. As informações do cookie do usuário não são coletadas no arquivo de log se um usuário tiver optado por não participar da coleta de dados. Para obter mais informações sobre nossas políticas de privacidade, consulte o Centro [de privacidade da](https://www.adobe.com/privacy/advertising-services.html)Adobe.
 
 ## Biblioteca da integração de dados (DIL) {#dil}
 
-[!UICONTROL DIL] é o código colocado na página para coleção de dados. See the [DIL API](../../dil/dil-overview.md) for more information about available services and methods.
+[!UICONTROL DIL] é o código que você coloca na página para a coleta de dados. Consulte a API [](../../dil/dil-overview.md) DIL para obter mais informações sobre os serviços e métodos disponíveis.
 
-## Inbound Server-to-Server {#inbound-outbound-server}
+## Servidor de entrada para servidor {#inbound-outbound-server}
 
-Esses são sistemas que recebem dados enviados por várias integrações entre servidor e servidor com nossos clientes. See the documentation on [sending audience data](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md) for more information.
+Esses são sistemas que recebem dados enviados por várias integrações de servidor para servidor com nossos clientes. Consulte a documentação sobre como [enviar dados](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md) do público-alvo para obter mais informações.
 
-## Log Files {#log-files}
+## Arquivos de registro {#log-files}
 
-The [!UICONTROL PCS] creates and writes data to the log files. Eles são enviados para outros sistemas de banco de dados para processamento, relatório e armazenamento.
+O [!UICONTROL PCS] cria e grava dados nos arquivos de log. Eles são enviados para outros sistemas de banco de dados para processamento, relatório e armazenamento.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
 >* [Centro de privacidade da Adobe](https://www.adobe.com/privacy.html)
 
