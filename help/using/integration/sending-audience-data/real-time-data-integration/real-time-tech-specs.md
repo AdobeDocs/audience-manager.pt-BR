@@ -1,21 +1,21 @@
 ---
-description: Os provedores de conteúdo de terceiros podem esperar trocar dados com o Audience Manager de acordo com essas especificações técnicas. Uma integração em tempo real (síncrono) transfere dados em tempo quase real enquanto um usuário visita ou executa ações em seu site. Equipes técnicas, de engenharia ou de desenvolvimento devem usar esse material para ajudar a configurar transferências de dados em tempo real com o Audience Manager.
-seo-description: Os provedores de conteúdo de terceiros podem esperar trocar dados com o Audience Manager de acordo com essas especificações técnicas. Uma integração em tempo real (síncrono) transfere dados em tempo quase real enquanto um usuário visita ou executa ações em seu site. Equipes técnicas, de engenharia ou de desenvolvimento devem usar esse material para ajudar a configurar transferências de dados em tempo real com o Audience Manager.
-seo-title: Especificações técnicas das transferências de entrada e de dados em tempo real
+description: Provedores de conteúdo de terceiros podem esperar trocar dados com o Audience Manager de acordo com essas especificações técnicas. Uma integração em tempo real (síncrona) transfere dados em tempo quase real à medida que um usuário visita ou realiza ações em seu site. As equipes técnicas, de engenharia ou de desenvolvimento devem usar esse material para ajudar a configurar transferências de dados em tempo real com o Audience Manager.
+seo-description: Provedores de conteúdo de terceiros podem esperar trocar dados com o Audience Manager de acordo com essas especificações técnicas. Uma integração em tempo real (síncrona) transfere dados em tempo quase real à medida que um usuário visita ou realiza ações em seu site. As equipes técnicas, de engenharia ou de desenvolvimento devem usar esse material para ajudar a configurar transferências de dados em tempo real com o Audience Manager.
+seo-title: Especificações técnicas para transferências de dados em tempo real e de entrada
 solution: Audience Manager
-title: Especificações técnicas das transferências de entrada e de dados em tempo real
-uuid: 722 aaf 40-c 60 f -451 c -99 ce-aa 773 f 7 f 301 d
+title: Especificações técnicas para transferências de dados em tempo real e de entrada
+uuid: 722aaf40-c60f-451c-99ce-aa773f7f301d
 translation-type: tm+mt
 source-git-commit: f39c8fbb8f301c3068cd6fab47def9f8e3308cad
 
 ---
 
 
-# Technical Specifications for Inbound, Real-Time Data Transfers{#technical-specifications-for-inbound-real-time-data-transfers}
+# Especificações técnicas para transferências de dados em tempo real e de entrada{#technical-specifications-for-inbound-real-time-data-transfers}
 
-Os provedores de conteúdo de terceiros podem esperar trocar dados com o Audience Manager de acordo com essas especificações técnicas. Uma integração em tempo real (síncrono) transfere dados em tempo quase real enquanto um usuário visita ou executa ações em seu site. Equipes técnicas, de engenharia ou de desenvolvimento devem usar esse material para ajudar a configurar transferências de dados em tempo real com o Audience Manager.
+Provedores de conteúdo de terceiros podem esperar trocar dados com o Audience Manager de acordo com essas especificações técnicas. Uma integração em tempo real (síncrona) transfere dados em tempo quase real à medida que um usuário visita ou realiza ações em seu site. As equipes técnicas, de engenharia ou de desenvolvimento devem usar esse material para ajudar a configurar transferências de dados em tempo real com o Audience Manager.
 
 <!-- c_rt_realtime_intro.xml -->
 
-* [Transferências de dados baseadas em pixel](/help/using/integration/sending-audience-data/real-time-data-integration/pixel-based-data-transfer.md)
+* [Transferências de dados baseadas em pixels](/help/using/integration/sending-audience-data/real-time-data-integration/pixel-based-data-transfer.md)
 * [Ingestão de dados de entrada em tempo real](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-data-transfer.md)
