@@ -1,10 +1,10 @@
 ---
-description: Descreve os pares de valores de plataforma em nível de plataforma comuns que podem ser usados para direcionar usuários com variáveis relacionadas ao dispositivo em todas as propriedades na conta do Audience Manager.
-seo-description: Descreve os pares de valores de plataforma em nível de plataforma comuns que podem ser usados para direcionar usuários com variáveis relacionadas ao dispositivo em todas as propriedades na conta do Audience Manager.
-seo-title: Direcionamento de dispositivo com chaves de nível de plataforma
+description: Descreve os pares de valores principais comuns de nível de plataforma que podem ser usados para direcionar usuários com variáveis relacionadas a dispositivos em todas as propriedades na conta do Audience Manager.
+seo-description: Descreve os pares de valores principais comuns de nível de plataforma que podem ser usados para direcionar usuários com variáveis relacionadas a dispositivos em todas as propriedades na conta do Audience Manager.
+seo-title: Direcionamento de dispositivos com chaves de nível de plataforma
 solution: Audience Manager
-title: Direcionamento de dispositivo com chaves de nível de plataforma
-uuid: bc 048 cc 5-3 df 1-49 bc-ac 78-0 ea 5 d 7 edd 9 cc
+title: Direcionamento de dispositivos com chaves de nível de plataforma
+uuid: bc048cc5-3df1-49bc-ac78-0ea5d7edd9cc
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
@@ -13,17 +13,17 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Device Targeting With Platform-level Keys {#device-targeting-with-platform-level-keys}
 
-Descreve os pares de valores de plataforma em nível de plataforma comuns que podem ser usados para direcionar usuários com variáveis relacionadas ao dispositivo em todas as propriedades na conta do Audience Manager.
+Descreve os pares de valores principais comuns de nível de plataforma que podem ser usados para direcionar usuários com variáveis relacionadas a dispositivos em todas as propriedades na conta do Audience Manager.
 
-## Purpose of Platform-level Variables {#platform-variables}
+## Objetivo das variáveis de nível de plataforma {#platform-variables}
 
 <!-- c_tb_device_targeting.xml -->
 
-Platform-level variables let you take data passed in from a particular site and make it available for targeting across all the properties in your [!DNL Audience Manager] account. These variables are formed by [key-value pairs](../../reference/key-value-pairs-explained.md) with the key prefixed by `d_` as shown below.
+As variáveis de nível de plataforma permitem que você capture os dados enviados de um site específico e os disponibilize para definição de metas em todas as propriedades da sua [!DNL Audience Manager] conta. Essas variáveis são formadas por pares [de valor](../../reference/key-value-pairs-explained.md) chave com o prefixo key `d_` , conforme mostrado abaixo.
 
-## Platform-level Keys Defined by User Agent {#keys-user-agent}
+## Chaves de nível de plataforma definidas pelo agente do usuário {#keys-user-agent}
 
-[!UICONTROL Data Collection Servers] A extração dos valores para essas chaves do cabeçalho do agente [do usuário](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) em `HTTP` solicitações. The values represent device-level information from the [!UICONTROL Device Atlas] database. Os sinais na tabela abaixo estão disponíveis, como extraído do exemplo do agente do usuário. [Baixe uma lista das chaves](assets/device_keys.csv)mais comuns, de acordo com [!UICONTROL Device Atlas] as medidas.
+A [!UICONTROL Data Collection Servers] extrai os valores dessas chaves do cabeçalho [do agente do](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) usuário em `HTTP` solicitações. Os valores representam informações no nível do dispositivo do [!UICONTROL Device Atlas] banco de dados. Os sinais na tabela abaixo estão disponíveis, como extraídos do exemplo do agente do usuário. [Baixe uma lista das teclas](assets/device_keys.csv)mais comuns, de acordo com [!UICONTROL Device Atlas] as medidas.
 
 | [!DNL Signal] | [!DNL Type] | [!DNL Example] |
 |---|---|---|
@@ -41,9 +41,9 @@ Platform-level variables let you take data passed in from a particular site and 
 
 >[!NOTE]
 >
->Even if one or more signals cannot be retrieved from the user agent header, the other signals will still be passed to the [!UICONTROL Data Collection Servers].
+>Mesmo que um ou mais sinais não possam ser recuperados do cabeçalho do agente do usuário, os outros sinais ainda serão transmitidos para o [!UICONTROL Data Collection Servers].
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
->* [Requisitos de prefixo para variáveis principais](../../features/traits/trait-variable-prefixes.md)
+>* [Requisitos de prefixo para variáveis-chave](../../features/traits/trait-variable-prefixes.md)
 
