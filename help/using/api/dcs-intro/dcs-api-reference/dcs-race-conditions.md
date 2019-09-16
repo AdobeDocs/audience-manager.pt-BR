@@ -1,32 +1,32 @@
 ---
-description: Descreve como evitar condições de raça e manipulação de erros do DCS.
-seo-description: Descreve como evitar condições de raça e manipulação de erros do DCS.
-seo-title: Condições de raça e manipulação de erros
+description: Descreve como evitar condições de raça e tratamento de erros do DCS.
+seo-description: Descreve como evitar condições de raça e tratamento de erros do DCS.
+seo-title: Condições de raça e tratamento de erros
 solution: Audience Manager
-title: Condições de raça e manipulação de erros
-uuid: b 0 aac 960-6732-4 e 96-87 a 5-40 ba 2755 e 02 d
+title: Condições de raça e tratamento de erros
+uuid: b0aac960-6732-4e96-87a5-40ba2755e02d
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Race Conditions and Error Handling {#race-conditions-and-error-handling}
+# Condições de raça e tratamento de erros {#race-conditions-and-error-handling}
 
-Describes how to prevent race conditions and [!UICONTROL DCS] error handling.
+Descreve como evitar condições de raça e tratamento de [!UICONTROL DCS] erros.
 
-## Preventing Race Conditions {#prevent-race-conditions}
+## Prevenção de condições de raça {#prevent-race-conditions}
 
-A race condition can occur if you send multiple calls simultaneously (or in rapid succession) to the [!UICONTROL DCS] before it finishes responding to the initial queries and writing data to the user’s cookie. Uma condição de raça é indesejada, pois pode corromper ou substituir incorretamente os dados do cookie. Como prática recomendada, considere os seguintes métodos para ajudar a evitar esse problema:
+Uma condição de corrida pode ocorrer se você enviar várias chamadas simultaneamente (ou em rápida sucessão) para o usuário antes de terminar de responder às consultas iniciais e gravar dados no cookie do usuário. [!UICONTROL DCS] Uma condição de raça é indesejável porque pode corromper ou substituir incorretamente os dados do cookie. Como prática recomendada, considere os seguintes métodos para ajudar a evitar esse problema:
 
-* Don't make simultaneous calls, or calls in rapid succession, to the [!UICONTROL DCS] from the same user.
-* Aguarde cada resposta para retornar antes de fazer chamadas subsequentes.
+* Não faça chamadas simultâneas, ou chamadas em rápida sucessão, para o usuário [!UICONTROL DCS] do mesmo usuário.
+* Aguarde que cada resposta volte antes de realizar chamadas subsequentes.
 
-## Error Handling {#error-handling}
+## Tratamento de erros {#error-handling}
 
-O tratamento de erros é limitado para consultas inválidas ou incorretas. An invalid request returns an `HTTP 200 OK` response and no data. Also, the [!UICONTROL DCS] stops processing a request, discards trait data, and returns an `HTTP 200 OK` response when a user:
+A manipulação de erros é limitada para consultas inválidas ou mal formadas. Uma solicitação inválida retorna uma `HTTP 200 OK` resposta e nenhum dado. Além disso, o usuário [!UICONTROL DCS] para de processar uma solicitação, descarta dados de características e retorna uma `HTTP 200 OK` resposta quando:
 
-* Recusa o rastreamento no Audience Manager ou no nível do parceiro.
+* Opta por não ser rastreado no Audience Manager ou no nível do parceiro.
 * Vem de uma região geográfica inválida/não selecionada.
 * Desativa os cookies do navegador (todos ou de terceiros).
 
