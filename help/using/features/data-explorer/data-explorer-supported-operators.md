@@ -1,22 +1,22 @@
 ---
-description: Use operadores lógicos para agrupar pares de valores chave e de preenchimento retroativo.
-seo-description: Use operadores lógicos para agrupar pares de valores chave e de preenchimento retroativo.
-seo-title: Operadores lógicos compatíveis
-title: Operadores lógicos compatíveis
-uuid: 645 fcb 6 f -50 ac -49 bc -8 df 9-c 699 c 749 cf 8 f
+description: Use operadores lógicos para agrupar pares de valores chave e características de preenchimento retroativo.
+seo-description: Use operadores lógicos para agrupar pares de valores chave e características de preenchimento retroativo.
+seo-title: Operadores lógicos suportados
+title: Operadores lógicos suportados
+uuid: 645fcb6f-50ac-49bc-8df9-c699c749cf8f
 translation-type: tm+mt
 source-git-commit: 1f26460d746a93ddc36c375360fcfbd9feb06fbb
 
 ---
 
 
-# Supported Logical Operators {#supported-logical-operators}
+# Operadores lógicos suportados {#supported-logical-operators}
 
-Use operadores lógicos para agrupar pares de valores chave e de preenchimento retroativo.
+Use operadores lógicos para agrupar pares de valores chave e características de preenchimento retroativo.
 
-## Supported Operators for Signal Search {#supported-operators-search}
+## Operadores suportados para pesquisa de sinal {#supported-operators-search}
 
-Use os seguintes operadores lógicos suportados para pesquisar pares de valor chave:
+Use os seguintes operadores lógicos suportados para procurar pares de valores chave:
 
 ### Operadores de comparação
 
@@ -30,12 +30,12 @@ Use os seguintes operadores lógicos suportados para pesquisar pares de valor ch
 
 ### Operadores nomeados
 
-| Operador | Evaluates to [!DNL True] When |
+| Operador | Avalia para [!DNL True] Quando |
 |---|---|
-| **[!UICONTROL Contains]** | The value in a key-value pair *contains* characters specified by this operator. |
-| **[!UICONTROL Startswith]** | The value in a key-value pair *starts with* characters specified by this operator. |
-| **[!UICONTROL Endswith]** | The value in a key-value pair *ends with* the characters specified by this operator. |
+| **[!UICONTROL Contains]** | O valor em um par de valor chave *contém* caracteres especificados por esse operador. |
+| **[!UICONTROL Startswith]** | O valor em um par de valor chave *começa com* caracteres especificados por esse operador. |
+| **[!UICONTROL Endswith]** | O valor em um par de valor chave *termina com* os caracteres especificados por esse operador. |
 
-## Supported Operators for Trait Backfilling and Estimation {#supported-operators-backfilling}
+## Operadores suportados para preenchimento retroativo e estimativa de características {#supported-operators-backfilling}
 
-You can backfill traits that include expressions containing any of the operators supported by [!UICONTROL Signal Search]. In addition to these operators, trait backfilling and estimation also support the [!UICONTROL AND], [!UICONTROL OR], and [!UICONTROL AND NOT] logical operators, used to combine key-value pairs within the backfilled trait expressions.
+É possível preencher retroativamente características que incluem expressões contendo qualquer um dos operadores suportados por [!UICONTROL Signal Search]. Além desses operadores, o preenchimento retroativo e a estimativa de características também suportam os operadores [!UICONTROL AND], [!UICONTROL OR]e [!UICONTROL AND NOT] lógicos, usados para combinar pares de valores chave nas expressões traços preenchidos retroativamente.
