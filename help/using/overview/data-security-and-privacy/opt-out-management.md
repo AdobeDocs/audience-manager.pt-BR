@@ -1,23 +1,23 @@
 ---
-description: A Adobe cumpre com todos os padrões do setor em relação ao gerenciamento de não participação. Leia para obter informações completas sobre os tipos de opção de não participação compatíveis com o Audience Manager.
-seo-description: A Adobe cumpre com todos os padrões do setor em relação ao gerenciamento de não participação. Leia para obter informações completas sobre os tipos de opção de não participação compatíveis com o Audience Manager.
+description: A Adobe cumpre todos os padrões do setor em relação ao gerenciamento de opções. Leia para obter informações completas sobre os tipos de opção de não participação suportados pelo Audience Manager.
+seo-description: A Adobe cumpre todos os padrões do setor em relação ao gerenciamento de opções. Leia para obter informações completas sobre os tipos de opção de não participação suportados pelo Audience Manager.
 seo-title: Gerenciamento de não participação
 solution: Audience Manager
 title: Gerenciamento de não participação
-uuid: 61 b 43 e 0 e-bfe 3-497 e-ade 2-6 a 942 a 98407 e
+uuid: 61b43e0e-bfe3-497e-ade2-6a942a98407e
 translation-type: tm+mt
 source-git-commit: 50a6627568bd472dae1cfbdf5c6c824622766df1
 
 ---
 
 
-# Opt-out Management{#opt-out-management}
+# Gerenciamento de não participação{#opt-out-management}
 
-A Adobe cumpre com todos os padrões do setor em relação ao gerenciamento de não participação. Leia para obter informações completas sobre os tipos de opção de não participação compatíveis com o Audience Manager.
+A Adobe cumpre todos os padrões do setor em relação ao gerenciamento de opções. Leia para obter informações completas sobre os tipos de opção de não participação suportados pelo Audience Manager.
 
-## Global Opt-Out {#global-opt-out}
+## Recusa global {#global-opt-out}
 
-A opção de recusa global representa uma opção de não participação no Audience Manager e outras soluções da Adobe Experience Cloud para todas as marcas. A tabela abaixo lista os métodos usados para recusar global:
+A opção de não participação global representa uma opção de não participação no Audience Manager e em outras soluções da Adobe Experience Cloud para todas as marcas. A tabela abaixo lista os métodos usados para opção de não participação global:
 
 <table id="table_F1027B9633E948DCBB11C141B381682A"> 
  <thead> 
@@ -29,15 +29,15 @@ A opção de recusa global representa uma opção de não participação no Audi
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Adobe Experience Cloud </p> </td> 
-   <td colname="col2"> <p>The <a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external"> Your Privacy Choices page </a> provides 1-click features that let your end users control and opt-out of data collection by the Adobe Experience Cloud advertising solutions (including Audience Manager). Specifically, see the <a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external"> business customer section </a> of the Privacy Choices page. </p> </td> 
+   <td colname="col2"> <p>A página <a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external"> Suas escolhas de privacidade </a> fornece recursos de 1 clique que permitem que os usuários finais controlem e excluam a coleta de dados pelas soluções de publicidade da Adobe Experience Cloud (incluindo o Audience Manager). Especificamente, consulte a seção Cliente <a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external"> comercial </a> da página Opções de privacidade. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Chamadas de API diretas para o Audience Manager </p> </td> 
-   <td colname="col2"> <p>You can opt-out from data collection by all Audience Manager brands by making a call to the DCS API below and include the <a href="../../reference/ids-in-aam.md"> Audience Manager User ID </a>: </p> <p> <code> curl -i "https://www.demdex.net/demoptout.jpg" —cookie "demdex = 12345678901234567890123456789012345678; dextp = 12; DST = 12 " </code> </p> <p>As a result, we will set <code>demdex=NOTARGET</code> and <code>dextp=NOTARGET</code> cookies for the submitted Audience Manager User ID. </p> </td> 
+   <td colname="col2"> <p>Você pode optar por não participar da coleta de dados por todas as marcas do Audience Manager, fazendo uma chamada para a API DCS abaixo e incluindo a ID de usuário do <a href="../../reference/ids-in-aam.md"> Audience Manager </a>: </p> <p> <code> curl -i "https://www.demdex.net/demoptout.jpg" —cookie "demdex=12345678901234567890123456789012345678;dextp=12;Dextp ST=12" </code> </p> <p>Como resultado, definiremos os cookies <code>demdex=NOTARGET</code> e <code>dextp=NOTARGET</code> para a ID de usuário do Audience Manager enviada. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dispositivos móveis </p> </td> 
-   <td colname="col2"> <p>Consulte as configurações de exclusão e privacidade para: </p> <p> 
+   <td colname="col2"> <p>Consulte as configurações de não participação e privacidade para: </p> <p> 
      <ul id="ul_78042D6D302F4119A2439BF71F228288"> 
       <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/privacy.html" format="https" scope="external"> Dispositivos Android </a> </li> 
       <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/privacy.html" format="https" scope="external"> Dispositivos iOS </a> </li> 
@@ -46,33 +46,33 @@ A opção de recusa global representa uma opção de não participação no Audi
  </tbody> 
 </table>
 
-Os usuários finais também podem recusar a coleta de dados global visitando os sites de nossos parceiros de padrões do setor.
+Seus usuários finais também podem optar por não participar da coleta global de dados visitando os sites de nossos parceiros de padrões do setor.
 
 * [A Digital Advertising Alliance (DAA)](https://optout.aboutads.info/?c=2#!/);
-* [Iniciativa de publicidade de rede (NAI)](https://optout.networkadvertising.org/?c=1#!/).
+* [Network Advertising Initiative (NAI)](https://optout.networkadvertising.org/?c=1#!/).
 
-Seguindo as solicitações de não participação descritas acima:
+Seguindo as solicitações de opção de não participação descritas acima:
 
-* O Audience Manager interromperá toda a coleta de dados, a segmentação ou a ativação para frente.
+* O Audience Manager irá parar toda a coleta, segmentação ou ativação de dados em diante.
 * Os dados históricos são removidos do perfil do usuário após 120 dias.
 
-## Partner Level Opt-Out {#partner-opt-out}
+## Recusar nível de parceiro {#partner-opt-out}
 
-A opção de recusa no nível do parceiro permite recusar a coleta de dados por parceiros específicos do Audience Manager. The partner-level opt-out works with [Declared ID](../../features/declared-ids.md) calls and Device ID calls, as described in the sections below.
+A opção de não participação em nível de parceiro permite a não participação na coleta de dados por parceiros específicos do Audience Manager. A opção de não participação em nível de parceiro funciona com chamadas de ID [](../../features/declared-ids.md) declarada e chamadas de ID de dispositivo, conforme descrito nas seções abaixo.
 
-### Opção de recusa de nível de parceiro com chamadas de ID declarada
+### Recusar nível de parceiro com chamadas de ID declaradas
 
-Seguindo uma opção de não participação no nível de parceiro com uma chamada de ID declarada:
+Seguindo uma opção de não participação em nível de parceiro com uma chamada de ID declarada:
 
-* The last device ID ([Audience Manager Unique User ID](../../reference/ids-in-aam.md)) linked to the [CRM ID](../../reference/ids-in-aam.md) is opted out of data collection.
-* O Audience Manager interromperá toda a coleta de dados, a segmentação ou a ativação para a última ID do dispositivo vinculada à ID do CRM.
+* A última ID de dispositivo (ID[de usuário exclusiva do](../../reference/ids-in-aam.md)Audience Manager) vinculada à ID [do](../../reference/ids-in-aam.md) CRM é excluída da coleta de dados.
+* O Audience Manager irá parar toda a coleta, segmentação ou ativação de dados para a última ID de dispositivo vinculada à ID do CRM.
 * Nenhum dado histórico é excluído.
 
 <br/>
 
-**Chamadas de não participação**
+**Chamadas de cancelamento**
 
-When Audience Manager receives a partner-level opt-out request, the JSON returned by the DCS contains the [error code 171](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes), with the message [!UICONTROL "Encountered opt out tag"], instead of the Audience Manager user ID.
+Quando o Audience Manager recebe uma solicitação de recusa de nível de parceiro, o JSON retornado pelo DCS contém o código de [erro 171](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes), com a mensagem [!UICONTROL "Encountered opt out tag"], em vez da ID de usuário do Audience Manager.
 
 <!-- 
 
@@ -94,31 +94,31 @@ When Audience Manager receives a partner-level opt-out request, the JSON returne
 
 **Exemplos**
 
-You can make a declared ID opt-out request with the `d_cid` and `d_cid_ic` key-value pairs. The legacy parameters like `d_dpid` and `d_dpuuid` still work, but are considered deprecated. Consulte [CID substitui DPID e DPUUID](../../reference/cid.md). In the examples, *italics* indicates a variable placeholder.
+Você pode fazer uma solicitação de recusa de ID declarada com os pares de valor-chave `d_cid` e `d_cid_ic` e IDs declaradas. Os parâmetros herdados como `d_dpid` e `d_dpuuid` ainda funcionam, mas são considerados obsoletos. Consulte [CID substitui DPID e DPUUID](../../reference/cid.md). In the examples, *italics* indicates a variable placeholder.
 
-**Opções com CID e CID_ IC**
+**Opções com CID e CID_IC**
 
-For a description and syntax, see [URL Variables and Syntax for Declared IDs](../../features/declared-ids.md#variables-and-syntax).
+Para obter uma descrição e sintaxe, consulte Variáveis e sintaxe [URL para IDs](../../features/declared-ids.md#variables-and-syntax)declaradas.
 
-| Opção de não participação | Amostra de código |
+| Opção de não participação usando | Amostra de código |
 |--- |--- |
-| Uma ID do provedor de dados e uma ID de usuário. | `https://domain name/demoptout.jpg?d_cid=123%01987...` |
-| Um código de integração e uma ID de usuário. | `https://domain name/demoptout?d_cid_ic=456%01321...` |
-| Vários pares d_ cid e d_ cid_ ic-value pares. | `https://domain name/demoptout?d_cid=123%01987&d_cid_ic=456%01321...` |
+| Uma ID de provedor de dados e ID de usuário. | `https://domain name/demoptout.jpg?d_cid=123%01987...` |
+| Um código de integração e ID de usuário. | `https://domain name/demoptout?d_cid_ic=456%01321...` |
+| Vários pares de valores chave d_cid e d_cid_ic. | `https://domain name/demoptout?d_cid=123%01987&d_cid_ic=456%01321...` |
 
-### Opção de recusa de nível de parceiro com chamadas de ID do dispositivo
+### Recusar nível de parceiro com chamadas de ID de dispositivo
 
-You can opt-out from data collection on a given device ID for a brand by making the following calls to the [DCS API](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md):
+Você pode optar por não participar da coleta de dados em uma determinada ID de dispositivo para uma marca, fazendo as seguintes chamadas para a API [do](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)DCS:
 
-| Opção de não participação | Amostra de código |
+| Opção de não participação usando | Amostra de código |
 |--- |--- |
-| An Audience Manager Unique User ID (`uuid`). | `http://yourcompany.demdex.net/demoptout.jpg?d_uuid=123` |
-| An Experience Cloud ID (`mid`) | `http://yourcompany.demdex.net/demoptout.jpg?d_mid=123&d_orgid=IMSoRGid` |
+| Uma ID de usuário exclusiva (`uuid`) do Audience Manager. | `http://yourcompany.demdex.net/demoptout.jpg?d_uuid=123` |
+| Uma Experience Cloud ID (`mid`) | `http://yourcompany.demdex.net/demoptout.jpg?d_mid=123&d_orgid=IMSoRGid` |
 
-Read more about `uuid`, `mid` and `imsOrgId` in the [Index of IDs in Audience Manager](/help/using/reference/ids-in-aam.md).
+Leia mais sobre `uuid`, `mid` e `imsOrgId` no [Índice de IDs no Audience Manager](/help/using/reference/ids-in-aam.md).
 
-Seguindo uma opção de não participação no nível de parceiro com uma chamada de ID de dispositivo:
+Seguindo uma opção de não participação em nível de parceiro com uma chamada de ID de dispositivo:
 
-* A ID do dispositivo não é a coleta de dados.
-* O Audience Manager interromperá toda a coleta de dados, a segmentação ou a ativação para o parceiro, avançando para a ID do dispositivo.
+* A ID do dispositivo é excluída da coleta de dados.
+* O Audience Manager encerrará toda a coleta, segmentação ou ativação de dados, para o parceiro, a partir da ID do dispositivo.
 * Nenhum dado histórico é excluído.
