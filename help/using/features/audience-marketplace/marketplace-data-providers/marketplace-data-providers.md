@@ -1,35 +1,35 @@
 ---
-description: Visão geral e fluxo de trabalho para provedores de dados que desejam vender dados no Audience Manager.
+description: Visão geral e fluxo de trabalho para provedores de dados que desejam vender dados do Audience Manager.
 keywords: Análises do Google
-seo-description: Visão geral e fluxo de trabalho para provedores de dados que desejam vender dados no Audience Manager.
-seo-title: Audience Marketplace for Data Providers
+seo-description: Visão geral e fluxo de trabalho para provedores de dados que desejam vender dados do Audience Manager.
+seo-title: Audience Marketplace para Provedores de Dados
 solution: Audience Manager
-title: Audience Marketplace for Data Providers
+title: Audience Marketplace para Provedores de Dados
 topic: API DIL
-uuid: 80 e 60 d 33-63 e 7-496 c -82 c 5-205 ecf 0 ec 03 a
+uuid: 80e60d33-63e7-496c-82c5-205ecf0ec03a
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Audience Marketplace for Data Providers {#audience-marketplace-for-data-providers}
+# Audience Marketplace para Provedores de Dados {#audience-marketplace-for-data-providers}
 
-Overview and workflow for data providers who want to sell data from within [!DNL Audience Manager].
+Visão geral e fluxo de trabalho para provedores de dados que desejam vender dados de dentro [!DNL Audience Manager].
 
 <!-- c_marketplace_provider.xml -->
 
 >[!NOTE]
 >
->[Permissões com base em funções](../../../reporting/reports-dashboard.md) controlam o acesso aos [!UICONTROL Audience Marketplace] recursos.
+>[Permissões](../../../reporting/reports-dashboard.md) baseadas em funções controlam o acesso aos [!UICONTROL Audience Marketplace] recursos.
 >
 >* Os administradores podem criar feeds de dados, gerenciar assinantes e assinar feeds de dados.
->* Os usuários podem pesquisar e exibir apenas feeds.
+>* Os usuários podem pesquisar e exibir somente feeds.
 
 
-## My Shared Data: About {#my-shared-data-about}
+## Meus dados compartilhados: About {#my-shared-data-about}
 
-[!UICONTROL My Shared Data] é [!UICONTROL Audience Marketplace] um recurso para provedores de dados (vendedores). As a provider, it lets you bundle traits into data feeds and sell them for a flat fee or [!DNL CPM] rate to buyers from within [!DNL Audience Manager]. Quando ativados, os compradores podem assinar um feed com alguns cliques do mouse. Além disso, ferramentas de relatório simples acompanham a receita e gerenciam assinantes. Finally, with [!UICONTROL Audience Marketplace], [!DNL Adobe] takes care of invoice, billing, and fee payments for you. Esses recursos permitem que você se concentre na criação de feeds de dados eficientes e lucrativos que os compradores desejam.
+[!UICONTROL My Shared Data] é um [!UICONTROL Audience Marketplace] recurso para provedores de dados (vendedores). Como um provedor, ele permite agrupar características em feeds de dados e vendê-los por uma taxa ou [!DNL CPM] taxa simples para compradores de dentro [!DNL Audience Manager]. Quando ativado, os compradores podem assinar um feed com alguns cliques do mouse. Além disso, ferramentas de relatório simples rastreiam a receita e gerenciam os assinantes. Por fim, com [!UICONTROL Audience Marketplace], [!DNL Adobe] cuida de faturamento, faturamento e pagamentos de taxas para você. Esses recursos permitem que você se concentre na criação de feeds de dados eficientes e lucrativos que os compradores desejam.
 
 ![](assets/seller_marketplace.png)
 
@@ -37,21 +37,21 @@ Overview and workflow for data providers who want to sell data from within [!DNL
 
 Os recursos incluem:
 
-* **Pesquisa:** Os campos de pesquisa ajudam a encontrar feeds de dados por nome ou descrições de texto.
-* **Nome:** O nome do feed de dados. Você pode ocultar isso de compradores com um feed de dados privado e sem marca.
-* **Descrição:** Diga aos compradores sobre o conteúdo do feed de dados.
-* **Características:** O número de características em cada feed de dados. Você pode ocultar isso de compradores com um feed de dados privados.
-* **Únicos de Últimos 30 dias:** O número de usuários únicos vistos nos últimos 30 dias. Você pode ocultar isso de compradores com um feed de dados privados.
-* **Taxas totais do mês passado:** Os compradores de dados assinados devem você. O período de relatório termina no dia 10 de cada mês. As contas atrasadas são sinalizadas com o ícone triângulo/ponto de exclamação. You can [deactivate a subscriber's data feed](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#deactivate-data-feed) if they misuse your data or if their account is overdue.
-* **Status:** Mostra se um feed é ativo, inativo, privado ou público.
-* **Assinantes:** Mostra quantos compradores estão usando um feed de dados. Clique no número desta coluna para visualizar o nome da empresa, assinaturas, cobrança e status de assinatura de um comprador.
-* **Solicitações:** O número de solicitações de acesso para um feed de dados.
+* **** Pesquisar: Campos de pesquisa ajudam a localizar feeds de dados por nome ou descrições de texto.
+* **** Nome: O nome do feed de dados. Você pode ocultar isso de compradores com um feed de dados privado e sem marca.
+* **** Descrição: Informe os compradores sobre o conteúdo de seu feed de dados.
+* **** Características: O número de características em cada feed de dados. Você pode ocultar isso de compradores com um feed de dados privado.
+* **** Últimos 30 Dias Únicos: O número de usuários únicos vistos nos últimos 30 dias. Você pode ocultar isso de compradores com um feed de dados privado.
+* **** Total de Taxas do Mês Passado: A quantidade de dados subscritos que os compradores devem a você. O período do relatório termina no dia 10 de cada mês. As contas atrasadas são sinalizadas com o ícone de triângulo/ponto de exclamação. Você pode [desativar o feed](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#deactivate-data-feed) de dados de um assinante se ele usar indevidamente seus dados ou se a conta deles estiver atrasada.
+* **** Status:  Mostra se um feed está ativo, inativo, privado ou público.
+* **** Assinantes: Mostra quantos compradores estão usando um feed de dados. Clique no número nesta coluna para ver o nome da empresa do comprador, as assinaturas, o faturamento e o status da assinatura.
+* **** Solicitações: O número de solicitações de acesso para um feed de dados.
 
 ## Feeds de dados privados {#private-data-feeds}
 
-In [!UICONTROL My Shared Data], sometimes a feed status is marked as private. Isso indica um feed de dados privados. Um feed de dados privados permite que os vendedores limite o acesso do comprador aos dados e até mesmo o nome do feed de dados. Os vendedores podem tornar os feeds privados quando oferecem ofertas especiais, descontos ou quando a privacidade e o controle de acesso são importantes. Com feeds de dados privados, os provedores analisam e aprovam todas as solicitações de acesso do comprador. For more information, see [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md). To create a public or private data feed, see [Create a Public or Private Data Feed](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed).
+Em [!UICONTROL My Shared Data], às vezes um status de feed é marcado como privado. Isso indica um feed de dados privados. Um feed de dados privados permite que os vendedores limitem o acesso do comprador aos seus dados e até mesmo o nome do feed de dados. Os vendedores podem tornar os feeds privados quando oferecem negócios especiais, descontos ou quando privacidade e controle de acesso são importantes. Com feeds de dados privados, os provedores analisam e aprovam todas as solicitações de acesso do comprador. For more information, see [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md). Para criar um feed de dados público ou privado, consulte [Criar um feed](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed)de dados público ou privado.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
 >* [Descontos para provedores de dados](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts)
 
