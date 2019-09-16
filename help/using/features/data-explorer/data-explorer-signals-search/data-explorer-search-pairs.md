@@ -1,52 +1,52 @@
 ---
-description: Pesquise por um ou vários sinais, com base em seus respectivos pares de valor chave.
-seo-description: Pesquise por um ou vários sinais, com base em seus respectivos pares de valor chave.
-seo-title: Sinais de pesquisa por pares de valores chave
-title: Sinais de pesquisa por pares de valores chave
-uuid: 2 a 38 d 0 d 4-4 a 2 e -4 ca 5-b 9 ec-af 9 d 4963 d 876
+description: Procure um ou vários sinais, com base em seus respectivos pares de valores chave.
+seo-description: Procure um ou vários sinais, com base em seus respectivos pares de valores chave.
+seo-title: Pesquisar Sinais por Pares de Valor-Chave
+title: Pesquisar Sinais por Pares de Valor-Chave
+uuid: 2a38d0d4-4a2e-4ca5-b9ec-af9d4963d876
 translation-type: tm+mt
 source-git-commit: 1f26460d746a93ddc36c375360fcfbd9feb06fbb
 
 ---
 
 
-# Search Signals by Key-Value Pairs {#search-signals-by-key-value-pairs}
+# Pesquisar Sinais por Pares de Valor-Chave {#search-signals-by-key-value-pairs}
 
-Pesquise por um ou vários sinais, com base em seus respectivos pares de valor chave.
-To search for more than one signal, click the ![Add](assets/icon_add.png) button. Insira os pares de valores chave que deseja pesquisar e use os seguintes filtros para limitar os resultados.
+Procure um ou vários sinais, com base em seus respectivos pares de valores chave.
+Para procurar mais de um sinal, clique no botão ![Adicionar](assets/icon_add.png) . Insira os pares de valores chave que você deseja pesquisar e use os seguintes filtros para restringir seus resultados.
 
-* **Status do sinal**: procurar sinais incluídos em características, sinais não usados ou ambos.
-* **Exibir registros para**: selecione o intervalo de tempo no qual pesquisar os sinais recebidos.
-* **Contagens mínimas**: exibir apenas sinais com a contagem mínima especificada especificada no intervalo selecionado.
+* **Estado** do sinal: procurar sinais incluídos em características, sinais não utilizados ou ambos.
+* **Exibir registros para**: selecione o intervalo de tempo no qual procurar sinais recebidos.
+* **Contagens** mínimas: exibir somente sinais com a contagem total mínima especificada no intervalo selecionado.
 
 >[!IMPORTANT]
 >
->Para uma experiência de usuário simplificada, os resultados de pesquisa par de valores chave são baseados na amostragem de dados. See [Data Sampling and Error Rates](/help/using/reporting/report-sampling.md) for details on how [!DNL Audience Manager] uses data sampling and why slight result variations may appear when comparing key-value search to general searches.
+>Para uma experiência de usuário simplificada, os resultados de pesquisa de pares de valores chave são baseados na amostragem de dados. Consulte Amostragem de [dados e Taxas](/help/using/reporting/report-sampling.md) de erro para obter detalhes sobre como [!DNL Audience Manager] usa a amostragem de dados e por que pequenas variações de resultado podem aparecer ao comparar a pesquisa de valor chave com pesquisas gerais.
 
-When searching for signals using multiple key-value pairs, [!DNL Audience Manager] links the pairs using the logical **AND** operator. Por exemplo, digamos que você esteja realizando uma pesquisa com os seguintes pares chave-valor:
+Ao procurar sinais usando vários pares de valores chave, [!DNL Audience Manager] vincula os pares usando o operador lógico **AND** . Por exemplo, digamos que você esteja realizando uma pesquisa com os seguintes pares de valor chave:
 
 * [!DNL c_creative == "12345"]
 * [!DNL c_product == "smartphone"]
 * [!DNL c_location == "europe"]
 
-This search will return only results that qualify for all three filters on the same call: `c_creative == "12345"` `AND` `c_product == "smartphone"` `AND` `c_location == "europe"`.
+Essa pesquisa retornará somente os resultados que se qualificam para os três filtros na mesma chamada: `c_creative == "12345"``AND` `c_product == "smartphone"``AND``c_location == "europe"`.
 
 ![](assets/signals-search.png)
 
-## Case Insensitivity and Search Auto-Completion {#case-insensitivity}
+## Insensibilidade a maiúsculas e minúsculas e autocompletar a pesquisa {#case-insensitivity}
 
-Os campos de pesquisa de chave e valor não distinguem letras maiúsculas de minúsculas. O campo de pesquisa principal inclui sugestões concluídas automaticamente.
+Os campos de pesquisa de chave e valor não distinguem maiúsculas de minúsculas. O campo de pesquisa principal inclui sugestões completadas automaticamente.
 
 ![](assets/signal-search-suggestions.png)
 
-Let's say [!DNL Audience Manager] received the following signals:
+Digamos que [!DNL Audience Manager] recebam os seguintes sinais:
 
 * `productCategory == smartphone`
 * `newProduct == iPhone`
 * `PRODUCT == phone`
 * `product == PHONE`
 
-When you enter `product` in the key search field, you receive auto-completed suggestions for `productCategory`, `newProduct`, `PRODUCT`, and `product`.
+Ao digitar `product` no campo de pesquisa principal, você recebe sugestões completadas automaticamente para `productCategory`, `newProduct`, `PRODUCT`e `product`.
 
-Similarly, when you search for `product == phone`, [!UICONTROL Data Explorer] returns results for both `PRODUCT == phone` and `product == PHONE`.
-As ações de característica retroativa não distinguem maiúsculas de minúsculas. A trait containing the signal with the key-value pair `PRODUCT == SMARTPHONE` also qualifies the signal with the key-value pair `product == smartphone`.
+Da mesma forma, quando você pesquisa por `product == phone`, [!UICONTROL Data Explorer] retorna os resultados tanto `PRODUCT == phone` quanto `product == PHONE`.
+Realizações de características preenchidas retroativamente não distinguem maiúsculas de minúsculas. Uma característica que contém o sinal com o par de valor chave também qualifica o sinal com o par de valor chave `PRODUCT == SMARTPHONE` `product == smartphone`.
