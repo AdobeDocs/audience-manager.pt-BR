@@ -1,10 +1,10 @@
 ---
 description: O Audience Manager proporciona serviços líderes do setor para o gerenciamento online de dados. Nossos produtos e serviços proporcionam aos anunciantes e editores as ferramentas necessárias para controlar e aproveitar seus ativos de dados com o objetivo de ajudar a aumentar o sucesso das vendas.
-seo-description: Documentação técnica e ajuda própria para o Audience Manager (AAM). O AAM fornece serviços líderes do setor para o gerenciamento online de dados de público-alvo, além de fornecer aos anunciantes e editores as ferramentas necessárias para controlar e aproveitar seus ativos de dados para ajudar a aumentar o sucesso das vendas.
+seo-description: Documentação técnica e autoajuda para o Audience Manager (AAM). O AAM fornece serviços líderes do setor para o gerenciamento de dados de público-alvo online e fornece aos anunciantes e editores digitais as ferramentas necessárias para controlar e aproveitar seus ativos de dados para ajudar a impulsionar o sucesso das vendas.
 seo-title: Documentação técnica do produto Adobe Audience Manager
 solution: Audience Manager
 title: Documentação do produto do Audience Manager
-uuid: 48267 e 3 b -70 e 6-42 ae -99 b 1-884 f 4 d 0916 be
+uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 translation-type: tm+mt
 source-git-commit: 5ea8e5d7997f192bc41bb9f9e4caa4a86b852a12
 
@@ -13,7 +13,7 @@ source-git-commit: 5ea8e5d7997f192bc41bb9f9e4caa4a86b852a12
 
 # Documentação do produto do Audience Manager {#audience-manager-product-documentation}
 
-Este guia técnico de documentação fornece assistência própria para o Audience Manager - um serviço líder do setor para o gerenciamento online de dados de público-alvo. Nossos produtos e serviços proporcionam aos anunciantes e editores as ferramentas necessárias para controlar e aproveitar seus ativos de dados com o objetivo de ajudar a aumentar o sucesso das vendas.
+Este guia de documentação técnica fornece autoajuda para o Audience Manager - um serviço líder do setor para gerenciamento de dados de público-alvo online. Nossos produtos e serviços proporcionam aos anunciantes e editores as ferramentas necessárias para controlar e aproveitar seus ativos de dados com o objetivo de ajudar a aumentar o sucesso das vendas.
 
 <table id="table_5E612F746A704FE095B809A013EE977F" class="simpletable"> 
  <tbody> 
@@ -21,10 +21,10 @@ Este guia técnico de documentação fornece assistência própria para o Audien
    <td colname="col1"> <p> <b>Itens novos e em destaque</b> </p> <p>Leia sobre os recursos mais recentes do Audience Manager:</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
      <li><a href="features/destinations/people-based-destinations-overview.md">Destinos baseados em pessoas</a> </li>
-     <li><a href="features/destinations/twitter-tailored-audiences.md">Configurar públicos-alvo adaptados do Twitter como destino baseado em dispositivo autoatendimento</a> </li>
+     <li><a href="features/destinations/twitter-tailored-audiences.md">Configurar públicos-alvo personalizados do Twitter como um destino baseado em dispositivo de autoatendimento</a> </li>
      <li><a href="features/destinations/destinations-home.md">Página inicial de destinos</a> </li>
      <li><a href="features/administration/ip-obfuscation.md">Ofuscação de endereço IP</a> </li>
-     </ul> </p> <p>Consulte também, Updates <a href="docs-updates/docs-2019.md"> 019 Atualizações de documentação</a>. </p> 
+     </ul> </p> <p>Consulte também, Atualizações <a href="docs-updates/docs-2019.md"> da documentação de</a>2019. </p> 
      <p>Se você for novo no Audience Manager, consulte nosso <a href="reference/aam-glossary.md"> Glossário</a> e <a href= "reference/ids-in-aam.md">Índice de IDs.</a></p></td>
    <td colname="col2"> <p> <b>Notas de versão</b> </p> <p> 
      <ul id="ul_713F3E9DF0F84FE5981AC63D05948864"> 
