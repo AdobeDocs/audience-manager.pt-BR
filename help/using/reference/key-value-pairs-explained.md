@@ -1,20 +1,20 @@
 ---
-description: Define e descreve pares de valor chave padrão e serializado.
+description: Define e descreve pares de valores chave padrão e serializados.
 keywords: código de integração
-seo-description: Define e descreve pares de valor chave padrão e serializado.
-seo-title: Pares de valores chave explicados
+seo-description: Define e descreve pares de valores chave padrão e serializados.
+seo-title: Explicação dos pares de valor-chave
 solution: Audience Manager
-title: Pares de valores chave explicados
-uuid: f 1435742-81 ca -4964-8370-accf 2 f 1 c 47 a 5
+title: Explicação dos pares de valor-chave
+uuid: f1435742-81ca-4964-8370-accf2f1c47a5
 translation-type: tm+mt
 source-git-commit: cb3819192c523f9c20e9a15ca5d43ef36c49e900
 
 ---
 
 
-# Key-Value Pairs Explained{#key-value-pairs-explained}
+# Explicação dos pares de valor-chave{#key-value-pairs-explained}
 
-Define e descreve pares de valor chave padrão e serializado.
+Define e descreve pares de valores chave padrão e serializados.
 
 <!-- 
 
@@ -22,33 +22,33 @@ c_key_value_explained.xml
 
  -->
 
-Um par de valor chave consiste em dois elementos de dados relacionados: Uma chave, que é uma constante que define o conjunto de dados (por exemplo, sexo, cor, preço) e um valor, que é uma variável que pertence ao conjunto (por exemplo, masculino/feminino, verde, 100). Completamente formado, um par de valor chave seria parecido com:
+Um par de valores chave consiste em dois elementos de dados relacionados: Uma tecla, que é uma constante que define o conjunto de dados (por exemplo, gênero, cor, preço) e um valor, que é uma variável que pertence ao conjunto (por exemplo, macho/fêmea, verde, 100). Totalmente formado, um par de valores chave poderia ser parecido com estes:
 
 * `gender = male`
 * `color = green`
 * `price > 100`
 
-## Standard and Serialized Key-Value Pairs {#standard-serialized-pairs}
+## Pares padrão e serializados de valor chave {#standard-serialized-pairs}
 
-Destinations accept key-value data in *`standard`* or *`serialized`* format. A formatação padrão organiza os dados em pares de valor chave separados. Cada chave é declarada explicitamente, mesmo quando usada novamente para definir um valor diferente. Por outro lado, a formatação serializada permite vários valores em um conjunto definido por uma única chave. Além disso, em um par serializado, um indicador especial é usado para separar os valores dentro do conjunto de valores chave. Por fim, os valores de chave padrão e serializados podem conter valores únicos ou múltiplos. A tabela a seguir fornece exemplos de formatos padrão e de valor de chave de série.
+Os destinos aceitam dados de valor chave no *`standard`* formato ou *`serialized`* . A formatação padrão organiza os dados em pares de valores chave separados. Cada chave é declarada explicitamente, mesmo quando usada novamente para definir um valor diferente. Por outro lado, a formatação serializada condensa vários valores em um conjunto definido por uma única tecla. Além disso, em um par serializado, um indicador especial é usado para separar os valores dentro do conjunto de valores chave. Finalmente, os valores-chave padrão e serializados podem conter valores únicos ou múltiplos. A tabela a seguir fornece exemplos de formatos padrão e de valores de chave serial.
 
-| Formatação | Chave única | Pares de valores chave |
+| Formatação | Chave única | Pares de valor-chave |
 |---|---|---|
 | **Padrão** | `x=1&x=2` | `x=1&x=2&y=3&y=4` |
 | **Serializado** | `x=1;2` | `x=1;2&y=3;4` |
 
 
 
-## Keys, Delimiters, and Separators {#keys-delimiters-separators}
+## Teclas, delimitadores e separadores {#keys-delimiters-separators}
 
-When working with serialized data, you must specify the characters that separate values *within* and *between* the key-value pairs. Os elementos em pares de valor chave são definidos da seguinte maneira:
+Ao trabalhar com dados serializados, você deve especificar os caracteres que separam valores *dentro* e *entre* os pares de valores chave. Os elementos em pares de valor chave são definidos da seguinte forma:
 
-* **Chave:** Um identificador exclusivo no par de valor chave.
-* **Delimitador de valor:** Separa pares de valores chave individuais.
-* **Separador de valor chave:** Separa uma chave dos valores dentro de um par de valor chave.
-* **Separador de série:** Separa valores individuais em pares de valor chave serializado.
+* **** Chave: Um identificador exclusivo no par de chave-valor.
+* **** Delimitador de valores: Separa pares de valores chave individuais.
+* **** Separador de valor-chave: Separa uma chave dos valores em um par de valores chave.
+* **** Separador de série: Separa valores individuais em pares de valores chave serializados.
 
-## Standard and Serialized Key-Value Elements {#standard-serialized-key-value-elements}
+## Elementos de valor-chave padrão e serializados {#standard-serialized-key-value-elements}
 
 <table id="table_62B0498441034A719C9DB57276777D40"> 
  <thead> 
@@ -56,35 +56,35 @@ When working with serialized data, you must specify the characters that separate
    <th colname="col1" class="entry"> Tipo </th> 
    <th colname="col2" class="entry"> Exemplo </th> 
    <th colname="col3" class="entry"> Chave </th> 
-   <th colname="col4" class="entry"> Separador de valores chave </th> 
-   <th colname="col5" class="entry"> Delimitador de valor chave </th> 
-   <th colname="col6" class="entry"> Separador de série </th> 
+   <th colname="col4" class="entry"> Separador de valor-chave </th> 
+   <th colname="col5" class="entry"> Delimitador de valor-chave </th> 
+   <th colname="col6" class="entry"> Separador serial </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <b>Chave única</b> <p>(padrão) </p> </td> 
-   <td colname="col2"> <code> x = 1 &amp; x = 2 </code> </td> 
+   <td colname="col1"> <b>Tecla única</b> <p>(padrão) </p> </td> 
+   <td colname="col2"> <code> x=1&amp;x=2 </code> </td> 
    <td colname="col3"> x </td> 
    <td colname="col4" morerows="3"> = </td> 
    <td colname="col5" morerows="1"> &amp; </td> 
    <td colname="col6" morerows="1"> n/a </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>Pares de valores chave</b> <p>(padrão) </p> </td> 
-   <td colname="col2"> <code> x = 1 &amp; x = 2 &amp; y = 3 &amp; y = 4 </code> </td> 
+   <td colname="col1"> <b>Pares de valor-chave</b> <p>(padrão) </p> </td> 
+   <td colname="col2"> <code> x=1&amp;x=2&amp;y=3&amp;y=4 </code> </td> 
    <td colname="col3"> x, y </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>Chave única</b> <p>(serial) </p> </td> 
-   <td colname="col2"> <code> x = 1; 2; 3 </code> </td> 
+   <td colname="col1"> <b>Tecla única</b> <p>(serial) </p> </td> 
+   <td colname="col2"> <code> x=1;2;3 </code> </td> 
    <td colname="col3"> x </td> 
    <td colname="col5"> n/a </td> 
    <td colname="col6" morerows="1"> ; </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>Pares de valores chave</b> (serial) </td> 
-   <td colname="col2"> <code> x = 1; 2 &amp; y = 3; 4 </code> </td> 
+   <td colname="col1"> <b>Pares</b> de valor-chave (serial) </td> 
+   <td colname="col2"> <code> x=1;2&amp;y=3;4 </code> </td> 
    <td colname="col3"> x, y </td> 
    <td colname="col5"> &amp; </td> 
   </tr> 
