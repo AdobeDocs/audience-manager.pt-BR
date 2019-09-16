@@ -1,25 +1,25 @@
 ---
-description: Métodos de gerenciamento de domínio que permitem criar e gerenciar os domínios aos quais você deseja enviar dados (apenas para destinos de cookies).
-seo-description: Métodos de gerenciamento de domínio que permitem criar e gerenciar os domínios aos quais você deseja enviar dados (apenas para destinos de cookies).
-seo-title: Métodos de API de gerenciamento de domínio
+description: Métodos de gerenciamento de domínio que permitem criar e gerenciar os domínios para os quais deseja enviar dados (somente para destinos de cookie).
+seo-description: Métodos de gerenciamento de domínio que permitem criar e gerenciar os domínios para os quais deseja enviar dados (somente para destinos de cookie).
+seo-title: Métodos da API de gerenciamento de domínio
 solution: Audience Manager
-title: Métodos de API de gerenciamento de domínio
-uuid: f 2 f 08 bc 5-ea 42-4171-9 a 43-0 b 20976 f 0 cb 0
+title: Métodos da API de gerenciamento de domínio
+uuid: f2f08bc5-ea42-4171-9a43-0b20976f0cb0
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Domain Management API Methods {#domain-management-api-methods}
+# Métodos da API de gerenciamento de domínio {#domain-management-api-methods}
 
-Métodos de gerenciamento de domínio que permitem criar e gerenciar os domínios aos quais você deseja enviar dados (apenas para destinos de cookies).
+Métodos de gerenciamento de domínio que permitem criar e gerenciar os domínios para os quais deseja enviar dados (somente para destinos de cookie).
 
 <!-- c_partner_site.xml -->
 
 ## Create a New Domain {#create-new-domain}
 
-A `POST` method that lets you create a new domain for (cookie destinations only).
+Um `POST` método que permite criar um novo domínio para (somente destinos de cookie).
 
 <!-- r_post_new_partner_site.xml -->
 
@@ -37,7 +37,7 @@ A `POST` method that lets you create a new domain for (cookie destinations only)
 
 ### Resposta
 
-A successful response returns `201 created` and the partner site, including its unique ID.
+Uma resposta bem-sucedida retorna `201 created` e o site parceiro, incluindo sua ID exclusiva.
 
 ```
 {
@@ -47,9 +47,9 @@ A successful response returns `201 created` and the partner site, including its 
 }
 ```
 
-## Delete a Domain {#delete-domain}
+## Excluir um domínio {#delete-domain}
 
-`DELETE` Um método que permite remover um domínio (apenas para destinos de cookies).
+Um `DELETE` método que permite remover um domínio (somente para destinos de cookie).
 
 <!-- r_delete_partner_site.xml -->
 
@@ -59,11 +59,11 @@ A successful response returns `201 created` and the partner site, including its 
 
 ### Resposta
 
-A successful response returns `204 no content`. Returns `404 not found` if the partner site cannot be found.
+Uma resposta bem-sucedida retorna `204 no content`. Retorna `404 not found` se o site parceiro não puder ser encontrado.
 
-## Return Properties for a Domain {#return-props-domain}
+## Propriedades de retorno para um domínio {#return-props-domain}
 
-A `GET` method that returns details about the specified domain (for cookie destinations only).
+Um `GET` método que retorna detalhes sobre o domínio especificado (somente para destinos de cookie).
 
 <!-- r_get_partner_site.xml -->
 
@@ -73,7 +73,7 @@ A `GET` method that returns details about the specified domain (for cookie desti
 
 ### Resposta
 
-A successful response returns `200 OK` and data as shown in the sample below. Returns `404 Not found` if the site ID or partner is not found.
+Uma resposta bem-sucedida retorna `200 OK` e dados, como mostrado na amostra abaixo. Retorna `404 Not found` se a ID do site ou o parceiro não for encontrado.
 
 ```
 {
@@ -83,9 +83,9 @@ A successful response returns `200 OK` and data as shown in the sample below. Re
 }
 ```
 
-## Return Properties for all Domains {#return-props-all-domains}
+## Propriedades de retorno para todos os domínios {#return-props-all-domains}
 
-`GET` Um método que retorna informações sobre todos os domínios (apenas para destinos de cookies).
+Um `GET` método que retorna informações sobre todos os domínios (somente para destinos de cookies).
 
 <!-- r_get_partner_sites.xml -->
 
@@ -95,7 +95,7 @@ A successful response returns `200 OK` and data as shown in the sample below. Re
 
 ### Parâmetros de consulta opcionais
 
-You can use these optional parameters with [!DNL API] methods that return *all* properties for an object. Set these options in the request string when passing that query in to the [!DNL API]. See [Optional Parameters](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+Você pode usar esses parâmetros opcionais com [!DNL API] métodos que retornam *todas* as propriedades de um objeto. Defina essas opções na string de solicitação ao passar essa consulta para o [!DNL API]. Consulte Parâmetros [](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters)opcionais.
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -107,30 +107,30 @@ You can use these optional parameters with [!DNL API] methods that return *all* 
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"><code> page</code> </td> 
-   <td colname="col2"> Retorna os resultados por número de página. A numeração é iniciada em 0. </td> 
+   <td colname="col2"> Retorna os resultados por número de página. A numeração começa em 0. </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"><code> Pagesize</code> </td> 
-   <td colname="col2"> Define o número de resultados da resposta retornados pela solicitação (10 é padrão). </td>
+   <td colname="col1"><code> pageSize</code> </td> 
+   <td colname="col2"> Define o número de resultados de resposta retornados pela solicitação (10 é padrão). </td>
   </tr>
   <tr valign="top"> 
-   <td colname="col1"><code> Sortby</code> </td> 
-   <td colname="col2"> Classifica e retorna resultados de acordo com a propriedade JSON especificada. </td>
+   <td colname="col1"><code> sortBy</code> </td> 
+   <td colname="col2"> Classifica e retorna os resultados de acordo com a propriedade JSON especificada. </td>
   </tr>
   <tr valign="top"> 
-   <td colname="col1"><code> decrescente</code> </td>
-   <td colname="col2"> Os resultados e retornos resultam em ordem decrescente. Crescente é padrão. </td>
+   <td colname="col1"><code> descendente</code> </td>
+   <td colname="col2"> Classifica e retorna os resultados em ordem decrescente. Crescente é padrão. </td>
   </tr>
   <tr valign="top">
-   <td colname="col1"><code> search</code> </td>
-   <td colname="col2">Retorna os resultados com base na sequência especificada que você deseja usar como um parâmetro de pesquisa. Por exemplo, digamos que você queira encontrar resultados para todos os modelos com a palavra "Teste" em qualquer um dos campos de valor desse item. A solicitação de amostra seria semelhante a: <p><code> ' GET '' https://api.demdex.com/v1/models/?search=Test '</code>. </p> <p>Você pode pesquisar qualquer valor retornado por um método "get all". </p> </td>
+   <td colname="col1"><code> pesquisa</code> </td>
+   <td colname="col2">Retorna os resultados com base na string especificada que você deseja usar como parâmetro de pesquisa. Por exemplo, digamos que você queira encontrar resultados para todos os modelos que têm a palavra "Teste" em qualquer um dos campos de valor desse item. Sua solicitação de amostra pode ser semelhante a: <p><code> `GET' `https://api.demdex.com/v1/models/?search=Test`</code>. </p> <p>Você pode pesquisar qualquer valor retornado por um método "obter tudo". </p> </td>
   </tr> 
  </tbody> 
 </table>
 
 ### Resposta
 
-A successful response returns `200 OK` and data in an array as shown in the sample below. Returns `404 Not found` if the site ID or partner is not found.
+Uma resposta bem-sucedida retorna `200 OK` e dados em uma matriz, como mostrado na amostra abaixo. Retorna `404 Not found` se a ID do site ou o parceiro não for encontrado.
 
 ```
 [
