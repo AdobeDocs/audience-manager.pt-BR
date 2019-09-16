@@ -1,39 +1,39 @@
 ---
-description: O relatório de Sobreposição de segmento para a unidade de publicidade é exibido como um gráfico de calor que destaca sobreposições alto e baixo entre os segmentos de Unidades de anúncios e do Audience Manager.
-seo-description: O relatório de Sobreposição de segmento para a unidade de publicidade é exibido como um gráfico de calor que destaca sobreposições alto e baixo entre os segmentos de Unidades de anúncios e do Audience Manager.
-seo-title: Segmento da sobreposição da unidade de publicidade
+description: O relatório Segmento para sobreposição de unidade de publicidade é exibido como um gráfico de calor que destaca sobreposições elevadas e baixas entre os segmentos de Unidades de publicidade e do Audience Manager.
+seo-description: O relatório Segmento para sobreposição de unidade de publicidade é exibido como um gráfico de calor que destaca sobreposições elevadas e baixas entre os segmentos de Unidades de publicidade e do Audience Manager.
+seo-title: Segmentar para sobreposição de unidade de publicidade
 solution: Audience Manager
-title: Segmento da sobreposição da unidade de publicidade
-uuid: aaa 20163-58 aa -42 c 9-8 f 72-a 1 dfb 0 d 20 e 57
+title: Segmentar para sobreposição de unidade de publicidade
+uuid: aaa20163-58aa-42c9-8f72-a1dfb0d20e57
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Segment to Ad Unit Overlap{#segment-to-ad-unit-overlap}
+# Segmentar para sobreposição de unidade de publicidade{#segment-to-ad-unit-overlap}
 
-O relatório de Sobreposição de segmento para a unidade de publicidade é exibido como um gráfico de calor que destaca sobreposições alto e baixo entre os segmentos de Unidades de anúncios e do Audience Manager.
+O relatório Segmento para sobreposição de unidade de publicidade é exibido como um gráfico de calor que destaca sobreposições elevadas e baixas entre os segmentos de Unidades de publicidade e do Audience Manager.
 
 ## Caso de uso {#use-cases}
 
-With the [!UICONTROL Segment to Ad Unit Overlap] report, you can understand which audiences visit your web properties. The report displays the overlap between members of your [!DNL Audience Manager] segments and the number of visitors to your web properties. Uma sobreposição maior significa que muitos membros de um segmento visitam sua propriedade da Web.
+Com o [!UICONTROL Segment to Ad Unit Overlap] relatório, você pode entender quais públicos visitam suas propriedades da Web. O relatório exibe a sobreposição entre os membros dos seus [!DNL Audience Manager] segmentos e o número de visitantes das propriedades da Web. Uma sobreposição maior significa que muitos membros de um segmento visitam sua propriedade da Web.
 
-## Using the Segment to Ad Unit Overlap Report {#using-the-report}
+## Usando o relatório Segmento para sobreposição de unidade de publicidade {#using-the-report}
 
-Use the **[!UICONTROL Top N Ad Units]** and **[!UICONTROL Top N Segments]** controls to select your desired number of ad units and segments for the overlap. Você pode selecionar um número máximo de 100 itens para cada um.
+Use os controles **[!UICONTROL Top N Ad Units]** e **[!UICONTROL Top N Segments]** para selecionar o número desejado de unidades de anúncios e segmentos para a sobreposição. Você pode selecionar um número máximo de 100 itens para cada um.
 
-Use the **Day Range** and **Date Through** controls to adjust your look-back range. Observe que os períodos de retrospectiva de 7 dias e 30 dias estão disponíveis apenas para datas de domingo.
+Use os controles Intervalo **de** dias e Intervalo de **datas até** para ajustar o intervalo de retrospectiva. Observe que os períodos de retrospectiva de 7 e 30 dias só estão disponíveis para datas de domingo.
 
-Use the **[!UICONTROL Segment Name]** and the **[!UICONTROL Ad Unit]** boxes to filter any of segments and ad units.
+Use as caixas **[!UICONTROL Segment Name]** e **[!UICONTROL Ad Unit]** para filtrar qualquer um dos segmentos e unidades de anúncios.
 
 >[!IMPORTANT]
 >
->When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Ad Unit IDs], as described in Step 3 of [Import DFP Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). By doing this, you assure that the report details the web property as [!UICONTROL Ad Unit] instead of the [!UICONTROL Ad Unit ID].
+>Ao ativar [!UICONTROL Audience Optimization for Publishers], você deve incluir metadados descritivos para [!UICONTROL Ad Unit IDs], conforme descrito na Etapa 3 de [Importar arquivos de dados DFP para o Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ao fazer isso, você garante que o relatório detalhe a propriedade da Web como [!UICONTROL Ad Unit] não como [!UICONTROL Ad Unit ID].
 
-## Interpreting the Results {#interpreting-results}
+## Interpretação dos resultados {#interpreting-results}
 
-Your [!UICONTROL Segment to Ad Unit Overlap] report could look similar to the one below. Passe o mouse sobre qualquer célula para obter mais informações sobre essa sobreposição específica. Consulte descrições para as informações adicionais na tabela abaixo do relatório de amostra.
+O seu [!UICONTROL Segment to Ad Unit Overlap] relatório pode ser semelhante ao que se segue. Passe o mouse sobre qualquer célula para obter mais informações sobre essa sobreposição específica. Consulte descrições para obter as informações adicionais na tabela abaixo do relatório de amostra.
 
 ![](assets/publisher_segment_ad_unit_overlap.png)
 
@@ -46,24 +46,24 @@ Your [!UICONTROL Segment to Ad Unit Overlap] report could look similar to the on
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Unidade de publicidade </span> </p> </td> 
-   <td colname="col2"> <p>O nome do item de inventário. Por exemplo, pode ser um dos seus sites ou um artigo em seu site. </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Unidade de anúncio </span> </p> </td> 
+   <td colname="col2"> <p>O nome do item de inventário. Por exemplo, este pode ser um de seus sites ou um artigo em seu site. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Contagem de únicos de únicos em tempo real</span> </p> </td> 
-   <td colname="col2"> <p>The number of unique visitors seen in real-time for the specified time range and who were qualified for the segment at the moment they were seen by <span class="keyword"> Audience Manager</span>. </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Contagem de Únicos em Tempo Real do Segmento</span> </p> </td> 
+   <td colname="col2"> <p>O número de visitantes únicos vistos em tempo real para o intervalo de tempo especificado e que eram qualificados para o segmento no momento em que eram vistos pelo <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Contagem de Únicos de Unidade de Publicidade</span> </p> </td> 
-   <td colname="col2"> <p>O número de visitantes para esta unidade de anúncio específica. Essas informações são extraídas dos logs DFP. </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Contagem exclusiva da unidade de publicidade</span> </p> </td> 
+   <td colname="col2"> <p>O número de visitantes desta unidade de publicidade específica. Essas informações são extraídas dos registros DFP. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Contagem de únicos de sobreposição</span> </p> </td> 
-   <td colname="col2"> <p>Os membros do segmento que foram expostos ao item de unidade de anúncio. </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Contagem exclusiva de sobreposição</span> </p> </td> 
+   <td colname="col2"> <p>Os membros do seu segmento que foram expostos ao item da unidade de anúncio. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Porcentagem de sobreposição</span> </p> </td> 
-   <td colname="col2"> <p>A sobreposição entre a unidade de anúncio e as populações de segmentos. This is the <span class="wintitle"> Overlap Uniques Count</span>, expressed as a percentage of the <span class="wintitle"> Segment Real Time Uniques</span>. </p> </td> 
+   <td colname="col2"> <p>A sobreposição entre a unidade de anúncio e as populações de segmentos. Esta é a Contagem <span class="wintitle"> de Únicos de Sobreposição, expressa como uma porcentagem dos Únicos</span>em Tempo Real do <span class="wintitle"></span>Segmento. </p> </td> 
   </tr> 
  </tbody> 
 </table>
