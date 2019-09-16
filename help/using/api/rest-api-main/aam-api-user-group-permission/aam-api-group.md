@@ -1,25 +1,25 @@
 ---
-description: Métodos de API rest para gerenciar grupos, incluindo criar, atualizar, listar, excluir grupos.
-seo-description: Métodos de API rest para gerenciar grupos, incluindo criar, atualizar, listar, excluir grupos.
-seo-title: Métodos de API de gerenciamento de grupos
+description: Restaure métodos de API para gerenciar grupos, incluindo criação, atualização, listagem, exclusão de grupos.
+seo-description: Restaure métodos de API para gerenciar grupos, incluindo criação, atualização, listagem, exclusão de grupos.
+seo-title: Métodos da API de gerenciamento de grupos
 solution: Audience Manager
-title: Métodos de API de gerenciamento de grupos
-uuid: fe 042 eb 5-ea 12-42 fe-be 98-d 721 f 987 a 914
+title: Métodos da API de gerenciamento de grupos
+uuid: fe042eb5-ea12-42fe-be98-d721f987a914
 translation-type: tm+mt
 source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
 ---
 
 
-# Group Management API Methods {#group-management-api-methods}
+# Métodos da API de gerenciamento de grupos {#group-management-api-methods}
 
-Rest [!DNL API] methods to manage groups, including creating, updating, listing, deleting groups.
+Restaure [!DNL API] métodos para gerenciar grupos, incluindo criação, atualização, listagem, exclusão de grupos.
 
 <!-- c_rest_api_user_man_group.xml -->
 
 ## Criar um grupo {#create-group}
 
-`POST` Um método para criar um novo grupo de usuários.
+Um `POST` método para criar um novo grupo de usuários.
 
 <!-- r_rest_api_group_create.xml -->
 
@@ -27,7 +27,7 @@ Rest [!DNL API] methods to manage groups, including creating, updating, listing,
 
 `POST /api/v1/groups/`
 
-### Exemplo de corpo da solicitação
+### Corpo de solicitação de amostra
 
 ```
  {
@@ -50,9 +50,9 @@ Rest [!DNL API] methods to manage groups, including creating, updating, listing,
   }
 ```
 
-## Update a Group {#update-group}
+## Atualizar um grupo {#update-group}
 
-`PUT` Um método para atualizar um grupo de usuários.
+Um `PUT` método para atualizar um grupo de usuários.
 
 <!--
 r_rest_api_group_update.xml
@@ -62,7 +62,7 @@ r_rest_api_group_update.xml
 
 `PUT /api/v1/groups/`*`<groupId>`*
 
-### Exemplo de corpo da solicitação
+### Corpo de solicitação de amostra
 
 ```
  {
@@ -85,9 +85,9 @@ r_rest_api_group_update.xml
   }
 ```
 
-## List Groups {#list-groups}
+## Grupos de lista {#list-groups}
 
-A `GET` method to list user groups.
+Um `GET` método para listar grupos de usuários.
 
 <!--
 r_rest_api_group_list.xml
@@ -115,7 +115,7 @@ r_rest_api_group_list.xml
 
 ## Excluir um grupo {#delete-groups}
 
-`DELETE` Um método para excluir um grupo de usuários e remover todos os membros desse grupo.
+Um `DELETE` método para excluir um grupo de usuários e remover todos os membros desse grupo.
 
 <!-- r_rest_api_group_delete.xml -->
 
@@ -123,11 +123,11 @@ r_rest_api_group_list.xml
 
 `DELETE /api/v1/groups/`*`<groupId>`*
 
-Returns `204 No Content` if successful. In case of conflict returns `409 Conflict`.
+Retorna `204 No Content` se bem-sucedido. Em caso de retornos em conflito `409 Conflict`.
 
-## Delete Groups in Bulk {#delete-groups-bulk}
+## Excluir grupos em massa {#delete-groups-bulk}
 
-`DELETE` Um método para excluir vários grupos em massa e remover todos os membros desse grupo.
+Um `DELETE` método para excluir vários grupos em massa e remover todos os membros desse grupo.
 
 <!-- r_rest_api_group_delete_bulk.xml -->
 
@@ -135,11 +135,11 @@ Returns `204 No Content` if successful. In case of conflict returns `409 Conflic
 
 `DELETE /api/v1/groups/bulk-delete`
 
-Returns `204 No Content` if successful. In case of conflict returns `409 Conflict`.
+Retorna `204 No Content` se bem-sucedido. Em caso de retornos em conflito `409 Conflict`.
 
-## List All Permissions for a Group {#list-permissions-group}
+## Listar todas as permissões de um grupo {#list-permissions-group}
 
-A `GET` method to list the permission objects on a group.
+Um `GET` método para listar os objetos de permissão em um grupo.
 
 <!-- r_rest_api_perm_list_group.xml -->
 
@@ -169,11 +169,11 @@ A `GET` method to list the permission objects on a group.
 ]
 ```
 
-Returns `400 Bad Request` if the group is inaccessible.
+Retorna `400 Bad Request` se o grupo estiver inacessível.
 
 ## Set Permissions for a Group {#set-permissions-group}
 
-A `PUT` method to update group permissions. Esse método substitui as permissões antigas com as novas permissões.
+Um `PUT` método para atualizar permissões de grupo. Este método substitui as permissões antigas pelas novas permissões.
 
 <!-- r_rest_api_perm_set.xml -->
 
@@ -204,6 +204,6 @@ A `PUT` method to update group permissions. Esse método substitui as permissõe
 ]
 ```
 
-A resposta de amostra representa a lista atualizada de objetos de permissão.
+A amostra de resposta representa a lista atualizada de objetos de permissão.
 
-Returns `200 OK` if successful. Returns `400` if any given permission is invalid. Can also return `403` if the object is not accessible by the logged-in user.
+Retorna `200 OK` se bem-sucedido. Retorna `400` se qualquer permissão for inválida. Também pode retornar `403` se o objeto não for acessível pelo usuário conectado.
