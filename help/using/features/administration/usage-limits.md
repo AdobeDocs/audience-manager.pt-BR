@@ -1,44 +1,44 @@
 ---
-description: O Audience Manager define um limite máximo sobre o número de características, segmentos, destinos e modelos algorítmicos que podem ser criados para uma conta. Os limites se aplicam a esses itens, criados na interface do usuário ou de forma programática por meio de métodos de API. Os limites de uso ajudam a proteger o Audience Manager de processos automatizados que podem tentar comprometer nossas apis ou interface do usuário.
-seo-description: O Audience Manager define um limite máximo sobre o número de características, segmentos, destinos e modelos algorítmicos que podem ser criados para uma conta. Os limites se aplicam a esses itens, criados na interface do usuário ou de forma programática por meio de métodos de API. Os limites de uso ajudam a proteger o Audience Manager de processos automatizados que podem tentar comprometer nossas apis ou interface do usuário.
+description: O Audience Manager define um limite máximo para o número de características, segmentos, destinos e modelos algorítmicos que você pode criar para uma conta. Os limites se aplicam a esses itens, sejam criados na interface do usuário ou por meio de métodos de API de forma programática. Os limites de uso ajudam a proteger o Audience Manager de processos automatizados que podem tentar comprometer nossas APIs ou interface de usuário.
+seo-description: O Audience Manager define um limite máximo para o número de características, segmentos, destinos e modelos algorítmicos que você pode criar para uma conta. Os limites se aplicam a esses itens, sejam criados na interface do usuário ou por meio de métodos de API de forma programática. Os limites de uso ajudam a proteger o Audience Manager de processos automatizados que podem tentar comprometer nossas APIs ou interface de usuário.
 seo-title: Limites de uso
 solution: Audience Manager
 title: Limites de uso
-keywords: Mapeamento de ID, mapeamentos de ID, mapeamentos de cookie
-uuid: 50 ca 4647-0 b 5 c -409 c -89 fa -4 fa 1799 b 3222
+keywords: Mapeamento de ID, mapeamentos de ID, mapeamentos de cookies
+uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 translation-type: tm+mt
 source-git-commit: d893998e9e59dbce64195a167e267c6f7ed16f90
 
 ---
 
 
-# Limites de uso {#usage-limits}
+#  Limites de uso {#usage-limits}
 
-O Audience Manager define um limite máximo sobre o número de características, segmentos, destinos e modelos algorítmicos que podem ser criados para uma conta. Os limites se aplicam a esses itens criados na interface do usuário ou por meio de [!DNL API] métodos de forma programática. Os limites de uso ajudam a proteger o Audience Manager de processos automatizados que podem tentar comprometer a interface [!DNL API]de sua s ou usuário.
+O Audience Manager define um limite máximo para o número de características, segmentos, destinos e modelos algorítmicos que você pode criar para uma conta. Os limites se aplicam a esses itens, sejam criados na interface do usuário ou por meio de [!DNL API] métodos programaticamente. Os limites de uso ajudam a proteger o Audience Manager de processos automatizados que podem tentar comprometer nossa interface [!DNL API]de usuário ou interface de usuário.
 
 ## Limites de mapeamento de ID {#id-mapping-limits}
 
-A tabela abaixo lista os limites [de mapeamento](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) de ID para IDs de dispositivo. Uma vez que uma ID atinge qualquer um dos limites abaixo, o Audience Manager adiciona novos mapeamentos de ID com base em uma [!DNL FIFO] lógica (primeira, primeira, primeira), removendo o mapeamento de ID armazenado mais antigo e adicionando a nova. Consulte [Índice de IDs](../../reference/ids-in-aam.md) no Audience Manager para obter detalhes sobre as IDs compatíveis com o Audience Manager.
+A tabela abaixo lista os limites de mapeamento [de](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) ID para IDs de dispositivo. Quando uma ID atinge qualquer um dos limites abaixo, o Audience Manager adiciona novos mapeamentos de ID com base em uma lógica [!DNL FIFO] (primeira entrada, primeira saída), removendo o mapeamento de ID armazenado mais antigo e adiciona o novo. Consulte [Índice de IDs](../../reference/ids-in-aam.md) no Audience Manager para obter detalhes sobre as IDs suportadas pelo Audience Manager.
 
 | Mapeamento de ID | Limite máximo |
 |-----------|-------------- |
-| ID de publicidade do dispositivo (DAID) na ID entre dispositivos (ID de CRM) | 100 IDs de publicidade de dispositivo (daid) em 1 ID de dispositivo cruzado (ID de CRM) |
-| ID de dispositivo cruzado (ID de CRM) para o ID de publicidade do dispositivo (DAID) | 10 IDs de dispositivo cruzado (IDs CRM) para 1 ID de publicidade do dispositivo (DAID) |
-| ID de cookie/navegador à ID de cookie/navegador | 1000 cookies/IDs de navegador para 1 cookie/ID do navegador |
+| ID de anúncio de dispositivo (DAID) para ID entre dispositivos (ID CRM) | 100 Device Advertising IDs (DAIDs) para 1 ID entre dispositivos (CRM ID) |
+| ID entre dispositivos (ID CRM) para ID de publicidade do dispositivo (DAID) | 10 IDs entre dispositivos (CRM IDs) para 1 ID de anúncio de dispositivo (DAID) |
+| ID do cookie/navegador para a ID do cookie/navegador | IDs de cookie/navegador 1000 para 1 ID de cookie/navegador |
 
 ## Limites de item {#item-limits}
 
-As tabelas listam os limites atuais por tipo de item. Não é possível criar novas características, segmentos, destinos ou [!UICONTROL Algorithmic Models] se você atingir um limite específico para um desses itens. Se você atingir um limite, deverá excluir um item mais antigo antes de poder criar uma nova.
+As tabelas listam os limites atuais por tipo de item. Não é possível criar novas características, segmentos, destinos ou [!UICONTROL Algorithmic Models] se você atingir um limite específico para um desses itens. Se você atingir um limite, deverá excluir um item mais antigo antes de criar um novo.
 
-### Limites de característica
+### Limites da característica
 
 | Tipo de característica | Limite máximo |
 | -------------------------- | ------------------------------------- |
-| Total de características | 100,000 |
-| Qualificações totais de característica | 150,000. Para obter mais informações sobre a qualificação de características, consulte Limite de qualificação de características em [Referência de qualificações de características](/help/using/features/traits/trait-qualification-reference.md#trait-qualification-limit). |
-| Algorítmica | 50 |
-| Baseado em regras | 100,000 |
-| Onboarded | 100,000 |
+| Características totais | 100,000 |
+| Total de Qualificações de Características | 150,000. Para obter mais informações sobre qualificação de características, consulte Limite de qualificação de características na Referência [de](/help/using/features/traits/trait-qualification-reference.md#trait-qualification-limit)qualificações de características. |
+| Algorítmico | 50 |
+| Baseada em regras | 100,000 |
+| Onboard | 100,000 |
 | Características da pasta | 2,000 |
 
 ### Limites do segmento
@@ -47,7 +47,7 @@ As tabelas listam os limites atuais por tipo de item. Não é possível criar no
 | -------------- | ------------- |
 | Total de segmentos | 20,000 |
 
-### Limites de destino
+### Limites de Destino
 
 | Tipo de destino | Limite máximo |
 | ------------------ | ------------- |
@@ -57,27 +57,27 @@ As tabelas listam os limites atuais por tipo de item. Não é possível criar no
 | S2S | 100 |
 | Adobe Analytics | 10 |
 
-### Limites de modelo algorítmico
+### Limites do modelo algorítmico
 
 | Item | Limite máximo |
 | -------- | ----- |
 | Modelos algorítmicos ativos | 20. Audience Manager only counts *active* algorithmic models against the limit. |
-| O algoritmo tem o tamanho máximo do público-alvo | 25,000,000.  Observe que esse limite não pode ser aumentado. Você pode reduzir os tamanhos do público-alvo selecionando menos fontes de dados para o modelo ou selecionando uma janela de retrospectiva mais curta. |
-| Número máximo de características excluídas para um modelo | . 00. Consulte [Exclusão de característica na modelagem algorítmica](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
+| Tamanho máximo do público-alvo dos Modelos algorítmicos | 25,000,000.  Observe que esse limite não pode ser aumentado. Você pode diminuir os tamanhos do público selecionando menos fontes de dados para o modelo ou selecionando uma janela de retrospectiva mais curta. |
+| Número máximo de características excluídas para um modelo | 500. Consulte Exclusão de [características na modelagem](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md)algorítmica. |
 
 ### Limites da pasta
 
 | Item | Limite máximo |
 | ------------- | ------------------ |
-| Pastas de características | 2,000.  A estrutura de pastas pode ter um nível máximo de 5 níveis. |
+| Pastas de características | 2,000.  Sua estrutura de pastas pode ter no máximo 5 níveis de profundidade. |
 
-### Limites derivados derivados
+### Limites de Sinais Derivados
 
 | Item | Limite máximo |
 | --------------- | ------------- |
 | Sinais derivados | 50.000. |
 
-### Limite das contas de usuário da empresa
+### Limite de contas de usuário da empresa
 
 | Item | Limite máximo |
 | ----------- | ------------- |
@@ -85,10 +85,10 @@ As tabelas listam os limites atuais por tipo de item. Não é possível criar no
 
 ## Uso do monitor {#monitor-usage}
 
-Você pode ver o uso e os limites da sua conta acessando **[!UICONTROL Administration > Limits]**. O acesso requer permissões de administrador.
+Você pode ver o uso e os limites de sua conta indo para **[!UICONTROL Administration > Limits]**. O acesso requer permissões de administrador.
 
-![limites de uso de imagem](assets/usage-limits.png)
+![uso limita imagem](assets/usage-limits.png)
 
 ## Aumentar limites de item {#increase-item-limits}
 
-Os limites padrão listados aqui devem fornecer capacidade suficiente para suas necessidades de negócios. Se a sua organização atingir consistentemente esses limites, entre em contato com seu representante de contas para discutir um aumento.
+Os limites padrão listados aqui devem fornecer capacidade suficiente para suas necessidades comerciais. Se sua organização atingir esses limites de forma consistente, entre em contato com seu representante de conta para discutir um aumento.
