@@ -1,40 +1,40 @@
 ---
-description: O processo de ingestão de dados em tempo real usa uma série de solicitações HTTP de um navegador do usuário para passar dados para o Audience Manager.
-seo-description: O processo de ingestão de dados em tempo real usa uma série de solicitações HTTP de um navegador do usuário para passar dados para o Audience Manager.
+description: O processo de ingestão de dados de entrada em tempo real usa uma série de solicitações HTTP do navegador de um usuário para passar os dados para o Audience Manager.
+seo-description: O processo de ingestão de dados de entrada em tempo real usa uma série de solicitações HTTP do navegador de um usuário para passar os dados para o Audience Manager.
 seo-title: Ingestão de dados de entrada em tempo real
 solution: Audience Manager
 title: Ingestão de dados de entrada em tempo real
-uuid: 43 cb 0 ebc -6 c 36-4391-bbfb -6 b 203 d 63 c 69 a
+uuid: 43cb0ebc-6c36-4391-bfb-6b203d63c69a
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Real-Time Inbound Data Ingestion {#real-time-inbound-data-ingestion}
+# Ingestão de dados de entrada em tempo real {#real-time-inbound-data-ingestion}
 
-The real-time inbound data ingestion process uses a series of `HTTP` requests from a user's browser to pass in data to Audience Manager.
+O processo de ingestão de dados de entrada em tempo real usa uma série de `HTTP` solicitações do navegador de um usuário para passar os dados para o Audience Manager.
 
 <!-- c_rt_inbound_real_time.xml -->
 
-Os dados de entrada devem ser formatados como pares de valores chave chamados sinais. Typically, each signal is mapped to a segment created or managed through the user interface or [!DNL API].
+Os dados de entrada devem ser formatados como pares de valores chave chamados sinais. Normalmente, cada sinal é mapeado para um segmento criado ou gerenciado pela interface do usuário ou [!DNL API].
 
-## URL String Parameters and Syntax {#url-string-syntax}
+## Parâmetros e sintaxe da string de URL {#url-string-syntax}
 
-The [!DNL URL] for an inbound data transfer should contain the variables described below. Remember to [create traits](../../../features/traits/create-onboarded-rule-based-traits.md) and a [folder structure](../../../features/traits/trait-storage.md#create-trait-storage-folder) in the [!DNL Audience Manager] UI before setting up real-time data transfers.
+O [!DNL URL] para uma transferência de dados de entrada deve conter as variáveis descritas abaixo. Lembre-se de [criar características](../../../features/traits/create-onboarded-rule-based-traits.md) e uma estrutura [de](../../../features/traits/trait-storage.md#create-trait-storage-folder) [!DNL Audience Manager] pasta na interface do usuário antes de configurar transferências de dados em tempo real.
 
 >[!NOTE]
 >
->Substitua o conteúdo itálico por valores de parâmetro reais.
+>Substitua o conteúdo em itálico por valores de parâmetro reais.
 
 | Parâmetro | Descrição |
 |---|---|
 | `<KEY>` | Um identificador exclusivo em um par de valor chave (por exemplo, gênero, cor, preço). |
-| `<VAL>` | Uma variável que pertence ao conjunto de dados definido pela chave (por exemplo, sexo = masculino, color = green, price = 100) |
+| `<VAL>` | Uma variável que pertence ao conjunto de dados definido pela chave (por exemplo, gênero=masculino, cor=verde, preço=100) |
 
-### Sintaxe do URL
+### Sintaxe de URL
 
-During a real-time inbound data ingestion process, a properly formatted [!DNL URL] string uses the following syntax:
+Durante um processo de ingestão de dados de entrada em tempo real, uma sequência de [!DNL URL] caracteres formatada corretamente usa a seguinte sintaxe:
 
 ```
 https://client.demdex.net/event?KEY1=VALA&KEY2=VALB&KEY3=VALC
