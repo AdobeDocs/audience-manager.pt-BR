@@ -1,29 +1,29 @@
 ---
 description: O painel Características é um espaço de trabalho centralizado para gerenciar características.
 seo-description: O painel Características é um espaço de trabalho centralizado para gerenciar características.
-seo-title: Painel de características
+seo-title: Painel Características
 solution: Audience Manager
-title: Painel de características
-uuid: 31 b 8 f 958-f 67 d -4 af 2-8 d 78-e 37 e 2 dfe 810 d
+title: Painel Características
+uuid: 31b8f958-f67d-4af2-8d78-e37e2dfe810d
 translation-type: tm+mt
 source-git-commit: 8a616bcf9583abfb2a94ec2a0cabcaf97ea2aeeb
 
 ---
 
 
-# Traits Dashboard {#traits-dashboard}
+# Painel Características {#traits-dashboard}
 
-The [!UICONTROL Traits] dashboard is a centralized workspace for managing traits.
+O [!UICONTROL Traits] painel é um espaço de trabalho centralizado para gerenciar características.
 
 ![](assets/traits-dashboard.png)
 
 <!-- c_tb_dashboard.xml -->
 
-The [!UICONTROL Traits] dashboard contains features and tools that help you:
+O [!UICONTROL Traits] painel contém recursos e ferramentas que ajudam a:
 
-1. Consulte todas as características e detalhes relacionados em uma tabela com colunas que você pode classificar.
-1. Review and work with [Active Audience Traits and Data Source Synced Traits](../../features/traits/client-activity-synced-audience-traits.md).
+1. Veja todas as suas características e detalhes relacionados em uma tabela com colunas que você pode classificar.
+1. Revise e trabalhe com Características do público-alvo [ativo e Características sincronizadas da fonte de dados](../../features/traits/client-activity-synced-audience-traits.md).
 1. Crie, edite e exclua características.
-1. Exiba e gerencie pastas de armazenamento de características.
-1. Pesquise por características por nome, ID, descrição ou fonte de dados. Clique em uma pasta ao pesquisar para limitar os resultados a essa pasta e suas subpastas.
-1. Filtrar características por tipo de característica (onboard, baseados em regras, algoritmos, traços de pastas).
+1. Exibir e gerenciar pastas de armazenamento de características.
+1. Procure características por nome, ID, descrição ou fonte de dados. Clique em uma pasta enquanto pesquisa para limitar os resultados a essa pasta e suas subpastas.
+1. Filtre as características por tipo de característica (integrado, baseado em regras, algorítmico, características de pastas).
