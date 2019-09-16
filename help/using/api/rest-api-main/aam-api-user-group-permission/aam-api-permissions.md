@@ -1,25 +1,25 @@
 ---
-description: Métodos de API rest para gerenciar permissões para objetos e grupos.
-seo-description: Métodos de API rest para gerenciar permissões para objetos e grupos.
-seo-title: Métodos de API de gerenciamento de permissões
+description: Restaure métodos de API para gerenciar permissões para objetos e grupos.
+seo-description: Restaure métodos de API para gerenciar permissões para objetos e grupos.
+seo-title: Métodos da API de gerenciamento de permissões
 solution: Audience Manager
-title: Métodos de API de gerenciamento de permissões
-uuid: 111 d 0 f 92-d 92 c -4 d 4 b-b 0 d 6-10 dd 3 fa 4fa 6 ad
+title: Métodos da API de gerenciamento de permissões
+uuid: 111d0f92-d92c-4d4b-b0d6-10dd3fa466ad
 translation-type: tm+mt
 source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
 ---
 
 
-# Permissions Management API Methods {#permissions-management-api-methods}
+# Métodos da API de gerenciamento de permissões {#permissions-management-api-methods}
 
-Rest [!DNL API] methods to manage permissions for objects and groups.
+Restaure [!DNL API] métodos para gerenciar permissões para objetos e grupos.
 
 <!-- c_rest_api_perm_man.xml -->
 
-## List Available Object Types {#list-object-types}
+## Listar tipos de objetos disponíveis {#list-object-types}
 
-A `GET` method to list available object types on which role-based access controls can be set.
+Um `GET` método para listar tipos de objetos disponíveis nos quais controles de acesso baseados em funções podem ser definidos.
 
 <!-- r_rest_api_perm_list.xml -->
 
@@ -33,9 +33,9 @@ A `GET` method to list available object types on which role-based access control
 [ "SEGMENT", "TRAIT", "DESTINATION", "DERIVED_SIGNALS", "TAGS" ]
 ```
 
-## List Available Permissions for an Object Type {#list-permissions-object-type}
+## Listar permissões disponíveis para um tipo de objeto {#list-permissions-object-type}
 
-A `GET` method to list available permissions for an object type.
+Um `GET` método para listar as permissões disponíveis para um tipo de objeto.
 
 <!-- r_rest_api_perm_list_perms.xml -->
 
@@ -54,4 +54,4 @@ A `GET` method to list available permissions for an object type.
 
 >[!NOTE]
 >
->Os tipos de objeto TAGS e DERIVADOS derivados não têm permissões regulares para serem usados. Os controles nesses tipos de objeto são alterados somente pelas permissões Todas ou Nada curinga.
+>Os tipos de objetos TAGS e SINAIS DERIVADOS não têm permissões regulares para usar. Os controles nesses tipos de objetos são alterados somente pelas Permissões de Todos ou Nenhum Curinga.
