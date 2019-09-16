@@ -1,20 +1,20 @@
 ---
-description: Perguntas e problemas comuns sobre produtos e funções.
-keywords: cookies do Manager Manager
-seo-description: Perguntas e problemas comuns sobre produtos e funções.
+description: Perguntas e problemas comuns relacionados a produtos e funções.
+keywords: cookies do Audience Manager
+seo-description: Perguntas e problemas comuns relacionados a produtos e funções.
 seo-title: Perguntas frequentes sobre recursos e funções do produto
 solution: Audience Manager
 title: Perguntas frequentes sobre recursos e funções do produto
-uuid: da 5 f 5089-24 a 8-4455-88 a 6-eb 62 d 83939 d 2
+uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Product Features and Functions FAQ{#product-features-and-functions-faq}
+# Perguntas frequentes sobre recursos e funções do produto{#product-features-and-functions-faq}
 
-Perguntas e problemas comuns sobre produtos e funções.
+Perguntas e problemas comuns relacionados a produtos e funções.
 
 <br> 
 
@@ -24,59 +24,59 @@ faq_features_functions.xml
 
  -->
 
-**Qual é minha ID de organização e como encontrá-la?**
+**O que é minha ID da organização e como a encontro?**
 
-The *`Organization ID`* is a unique ID that identifies your organization to [!DNL Audience Manager] and the [!DNL Adobe Experience Cloud]. It consists of a case-sensitive, 24-character alphanumeric string followed by [!UICONTROL @AdobeOrg].
+A ID *`Organization ID`* é exclusiva para identificar a organização [!DNL Audience Manager] e o [!DNL Adobe Experience Cloud]. Consiste em uma sequência de 24 caracteres alfanuméricos, que diferencia maiúsculas de minúsculas, seguida por [!UICONTROL @AdobeOrg].
 
-For example, an *`Organization ID`* looks like this: `1FD6776A524453CC0A490D44@AdobeOrg`.
+Por exemplo, um *`Organization ID`* tem a seguinte aparência: `1FD6776A524453CC0A490D44@AdobeOrg`.
 
-The *`Organization ID`* is used by Audience Manager's [DIL](../dil/dil-overview.md) API, the [Experience Cloud ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/), and other [!DNL Experience Cloud] solutions. Users with Administrator permissions can find the *`Organization ID`* on the [!DNL Adobe Admin Console]. See the [Administration - User Management FAQ](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html).
+O *`Organization ID`* é usado pela API [DIL](../dil/dil-overview.md) do Audience Manager, o serviço [da](https://marketing.adobe.com/resources/help/en_US/mcvid/)Experience Cloud ID e outras [!DNL Experience Cloud] soluções. Os usuários com permissões de Administrador podem encontrar o *`Organization ID`* na [!DNL Adobe Admin Console]. Consulte as Perguntas frequentes sobre [Administração - Gerenciamento de usuários](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html).
 
 <br> 
 
-**Posso criar características ou destinos em massa?**
+**É possível criar características ou destinos em massa?**
 
-Sim. See [Bulk Management Tools](../reference/bulk-management-tools/bulk-management-intro.md).
+Sim. Consulte Ferramentas [de gerenciamento em](../reference/bulk-management-tools/bulk-management-intro.md)massa.
 
 >[!NOTE]
 >
->The [!UICONTROL Bulk Management Tools] tools *are not* supported by [!DNL Audience Manager]. Elas são fornecidas para conveniência e como cortesia apenas. For bulk changes, we recommend you work with the [Audience Manager APIs](../api/api.md) instead.
+>As [!UICONTROL Bulk Management Tools] ferramentas não *são* suportadas por [!DNL Audience Manager]. Eles são fornecidos para conveniência e apenas como cortesia. Para alterações em massa, recomendamos que você trabalhe com as APIs [do](../api/api.md) Audience Manager.
 
 <br> 
 
-**[!DNL Audience Manager]Pode reduzir a necessidade de tags ou pixels de terceiros e melhorar o tempo de carregamento de página?**
+**É possível[!DNL Audience Manager]reduzir a necessidade de tags ou pixels de terceiros e melhorar o tempo de carregamento da página?**
 
-If [!DNL Audience Manager] is integrated with your third-party data partner, you can replace their pixels and tags with a server-to-server ID call to [!DNL Audience Manager]. In this case, [!DNL Audience Manager] would fire a single ID call the first time we see a user and synchronize that information with your third-party partner. Isso elimina a necessidade de fazer vários pixels de cada página. A redução das chamadas de pixel pode melhorar o tempo de carregamento de página.
+Se [!DNL Audience Manager] estiver integrado ao seu parceiro de dados de terceiros, você poderá substituir os pixels e tags deles por uma chamada de ID de servidor para servidor [!DNL Audience Manager]. Nesse caso, [!DNL Audience Manager] acionaria uma única chamada de ID na primeira vez que um usuário fosse exibido e sincronizaria essas informações com seu parceiro de terceiros. Isso elimina a necessidade de fazer chamadas de vários pixels de cada página. A redução de chamadas de pixel pode melhorar o tempo de carregamento da página.
 
 <br> 
 
-**Assinei um feed de dados. Where is that data stored?**
+**Assinei um feed de dados. Onde estão armazenados esses dados?**
 
-Your data feed and all the traits contained in the feed appear as subfolders and traits in [!DNL Audience Manager]. Go to **[!UICONTROL Audience Data > Traits]** and expand the [!UICONTROL 3rd-Party Data] folder to view your traits or create segments and models with this data.
+Seu feed de dados e todas as características contidas no feed aparecem como subpastas e características no [!DNL Audience Manager]. Vá até **[!UICONTROL Audience Data > Traits]** e expanda a [!UICONTROL 3rd-Party Data] pasta para exibir suas características ou criar segmentos e modelos com esses dados.
 
 <br> 
 
 **O que é[!UICONTROL Tag Insertion Manager (TIM)]?**
 
-Audience Manager used [!UICONTROL Tag Insertion Manager] (TIM) to create and manage [!UICONTROL data collection code (DIL)]. This feature is obsolete and has been replaced first by [!UICONTROL Dynamic Tag Manager (DTM)], and later by [!DNL Adobe Launch]. For more information, see [Adobe Launch](https://docs.adobelaunch.com/) and [Dynamic Tag Management](https://marketing.adobe.com/resources/help/en_US/dtm/).
+O Audience Manager usou [!UICONTROL Tag Insertion Manager] (TIM) para criar e gerenciar [!UICONTROL data collection code (DIL)]. This feature is obsolete and has been replaced first by [!UICONTROL Dynamic Tag Manager (DTM)], and later by [!DNL Adobe Launch]. Para obter mais informações, consulte [Adobe Launch](https://docs.adobelaunch.com/) e Gerenciamento [](https://marketing.adobe.com/resources/help/en_US/dtm/)dinâmico de tags.
 
 <br> 
 
-**Quais são as diferenças entre Modelos algorítmicos e Recomendações de características? When should I use each of them?**
+**Quais são as diferenças entre os Modelos algorítmicos e as Recomendações de características? Quando devo usar cada um deles?**
 
 **Modelos algorítmicos**
 
-Os Modelos algoritmicos encontram as características mais influentes, mas também pontuam os usuários com base nessas características e atribui cada usuário uma pontuação individual. Em seguida, crie características algorítmicas para direcionar seus usuários. Com controles de precisão e alcance no Construtor de traços, você pode especificar quais usuários entre todos os que têm as características influentes que deseja direcionar.
+Os Modelos algorítmicos não só encontram as características mais influentes, como também pontuam os usuários com base nessas características e atribuem a cada usuário uma pontuação individual. Em seguida, você cria características algorítmicas para direcionar seus usuários. Com os controles de precisão e alcance no Construtor de características, você pode especificar quais usuários entre todos aqueles que têm as características influentes que deseja direcionar.
 
-Os modelos algorítmicos permitem selecionar usuários em diferentes níveis de precisão e teste no Audience Lab que grupo de usuários converte melhor. See the detailed use case in [Compare Models in Audience Lab](../features/audience-lab/audience-lab-use-cases.md#compare-models).
+Os Modelos algorítmicos permitem selecionar usuários em diferentes níveis de precisão e testar no Audience Lab qual grupo de usuários converte melhor. Consulte o caso de uso detalhado em [Comparar modelos no Audience Lab](../features/audience-lab/audience-lab-use-cases.md#compare-models).
 
-Em Modelos algorítmicos, o modelo é executado a cada 8 dias e atualiza os usuários qualificados para as características algorítmicas.
+Em Modelos Algorítmicos, o modelo é executado a cada 8 dias e atualiza os usuários qualificados para características algorítmicas.
 
 **Recomendações de característica**
 
-As Recomendações de características são uma forma rápida de obter insights em outras características semelhantes àqueles usados em um segmento.
+As Recomendações de características são uma forma rápida de obter insights sobre outras características semelhantes àquelas que você está usando em um segmento.
 
-Você deve usar o Recommendations Recommendations quando:
+Você deve usar as Recomendações de características quando:
 
 * Você precisa de insights rápidos ao criar um segmento;
 * Você está usando os segmentos para campanhas curtas ou quando deseja suprimir rapidamente o público-alvo que converte;
@@ -86,4 +86,4 @@ Você deve usar o Recommendations Recommendations quando:
 
 **Há alguma diferença entre os segmentos do Adobe Analytics e do Audience Manager?**
 
-Yes, please read [Understanding Segments in Analytics and Audience Manager](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/aam-analytics-segments.html) for an in-depth description of the differences.
+Sim, leia [Entendendo segmentos no Analytics e no Audience Manager](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/aam-analytics-segments.html) para obter uma descrição detalhada das diferenças.
