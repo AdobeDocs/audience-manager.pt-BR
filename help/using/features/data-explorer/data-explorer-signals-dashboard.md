@@ -1,37 +1,37 @@
 ---
-description: Obtenha uma visão geral dos sinais não usados recebidos pelo Audience Manager nos últimos 7 dias e identifique novas características. Os sinais não usados chegam ao Audience Manager a partir de suas propriedades online, mas não são usados em nenhum de seus traços existentes. Para exibir o Painel Sinais, vá para Dados do público-alvo > Sinais. O Painel Sinais mostra insights acionáveis com base nos sinais não usados mais ativos.
-seo-description: Obtenha uma visão geral dos sinais não usados recebidos pelo Audience Manager nos últimos 7 dias e identifique novas características. Os sinais não usados chegam ao Audience Manager a partir de suas propriedades online, mas não são usados em nenhum de seus traços existentes. Para exibir o Painel Sinais, vá para Dados do público-alvo > Sinais. O Painel Sinais mostra insights acionáveis com base nos sinais não usados mais ativos.
-seo-title: Painel Sinais
-title: Painel Sinais
-uuid: 26 f 39507-097 f -427 d-bf 5 b-ab 6 d 035 c 1 dd 2
+description: Obtenha uma visão geral dos sinais não utilizados recebidos pelo Audience Manager nos últimos 7 dias e identifique novas características potenciais. Os sinais não utilizados chegam ao Audience Manager a partir de suas propriedades online, mas não são usados em nenhuma de suas características existentes. Para exibir o Painel de sinais, vá até Dados de público-alvo > Sinais. O Painel de Sinais mostra insights acionáveis com base nos sinais mais ativos não utilizados.
+seo-description: Obtenha uma visão geral dos sinais não utilizados recebidos pelo Audience Manager nos últimos 7 dias e identifique novas características potenciais. Os sinais não utilizados chegam ao Audience Manager a partir de suas propriedades online, mas não são usados em nenhuma de suas características existentes. Para exibir o Painel de sinais, vá até Dados de público-alvo > Sinais. O Painel de Sinais mostra insights acionáveis com base nos sinais mais ativos não utilizados.
+seo-title: Painel de Sinais
+title: Painel de Sinais
+uuid: 26f39507-097f-427d-bf5b-ab6d035c1dd2
 translation-type: tm+mt
 source-git-commit: 12216ab5105fce80b4b47c31ee6be144ddfe8df9
 
 ---
 
 
-# Signals Dashboard {#signals-dashboard}
+# Painel de Sinais {#signals-dashboard}
 
-Obtenha uma visão geral dos sinais não usados recebidos pelo Audience Manager nos últimos 7 dias e identifique novas características. Os sinais não usados chegam ao Audience Manager a partir de suas propriedades online, mas não são usados em nenhum de seus traços existentes. To view the [!UICONTROL Signals Dashboard], go to [!UICONTROL Audience Data] &gt; [!UICONTROL Signals]. The [!UICONTROL Signals Dashboard] shows you actionable insights based on your most active unused signals.
+Obtenha uma visão geral dos sinais não utilizados recebidos pelo Audience Manager nos últimos 7 dias e identifique novas características potenciais. Os sinais não utilizados chegam ao Audience Manager a partir de suas propriedades online, mas não são usados em nenhuma de suas características existentes. Para exibir o [!UICONTROL Signals Dashboard], vá para [!UICONTROL Audience Data] &gt; [!UICONTROL Signals]. O [!UICONTROL Signals Dashboard] mostra insights acionáveis com base nos sinais mais ativos não utilizados.
 
 >[!IMPORTANT]
 >
->The **[!UICONTROL Top Unused Signals]** and **[!UICONTROL New Unused Signals]** sections only display records with more than **100 occurrences/hour**. Signals below that threshold are included in [!UICONTROL Signals Search].
+>As seções **[!UICONTROL Top Unused Signals]** e **[!UICONTROL New Unused Signals]** só exibem registros com mais de **100 ocorrências/hora**. Os sinais abaixo desse limite estão incluídos em [!UICONTROL Signals Search].
 
-## Top Unused Signals {#top-unused-signals}
+## Sinais principais não utilizados {#top-unused-signals}
 
-This section shows you the top 50 unused signals (both new and old) sent to [!DNL Audience Manager] in the past 7 days, based on their total count. Depending on the data [!DNL Audience Manager] receives, this table can include some or all of the entries in the **New Unused Signals** table.
+Esta seção mostra os 50 principais sinais não utilizados (novos e antigos) enviados [!DNL Audience Manager] nos últimos 7 dias, com base na contagem total. Dependendo dos dados [!DNL Audience Manager] recebidos, essa tabela pode incluir algumas ou todas as entradas na tabela **Novos sinais** não usados.
 
 ![](assets/signals-top-unused.png)
 
-## New Unused Signals {#new-unused-signals}
+## Novos Sinais Não Utilizados {#new-unused-signals}
 
-Esta seção mostra os 50 novos sinais não usados recebidos nos últimos 7 dias.
+Esta seção mostra os 50 primeiros sinais não utilizados recebidos nos últimos 7 dias.
 
 ![](assets/signals-new-unused.png)
 
 ## Pesquisas salvas {#saved-searches}
 
-[!DNL Audience Manager] mostra todas as pesquisas [salvas](../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md) no [!UICONTROL Dashboard] e as recarrega toda vez que você carrega o [!UICONTROL Dashboard]arquivo.
+[!DNL Audience Manager] mostra todas as suas pesquisas [](../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md) salvas no [!UICONTROL Dashboard] e as carrega novamente cada vez que você carrega o [!UICONTROL Dashboard].
 
-Pesquisas salvas exibem os primeiros 50 resultados para os critérios correspondentes.
+Pesquisas salvas exibem os 50 principais resultados para os critérios correspondentes.
