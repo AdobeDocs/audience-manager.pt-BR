@@ -1,31 +1,31 @@
 ---
-description: Descreve os requisitos de tamanho do segmento e tempo de criação exigidos pelo processo de atualização do relatório Sobreposição.
-seo-description: Descreve os requisitos de tamanho do segmento e tempo de criação exigidos pelo processo de atualização do relatório Sobreposição.
-seo-title: Sobrepor agendamento de relatórios e Tamanho mínimo do segmento
+description: Descreve os requisitos de tamanho e tempo de criação do segmento exigidos pelo processo de atualização do relatório de sobreposição.
+seo-description: Descreve os requisitos de tamanho e tempo de criação do segmento exigidos pelo processo de atualização do relatório de sobreposição.
+seo-title: Agendamento de atualização de relatórios de sobreposição e tamanho mínimo de segmento
 solution: Audience Manager
-title: Sobrepor agendamento de relatórios e Tamanho mínimo do segmento
-uuid: 35 c 1 cb 39-e 28 d -4 d 20-88 c 9-5 ff 4 fe 154 e 9 e
+title: Agendamento de atualização de relatórios de sobreposição e tamanho mínimo de segmento
+uuid: 35c1cb39-e28d-4d20-88c9-5ff4fe154e9e
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Overlap Reports: Update Schedule and Minimum Segment Size{#overlap-reports-update-schedule-and-minimum-segment-size}
+# Relatórios de sobreposição: Atualizar agendamento e tamanho mínimo do segmento{#overlap-reports-update-schedule-and-minimum-segment-size}
 
-Descreve os requisitos de tamanho do segmento e tempo de criação exigidos pelo processo de atualização do relatório Sobreposição.
+Descreve os requisitos de tamanho e tempo de criação do segmento exigidos pelo processo de atualização do relatório de sobreposição.
 
-## Update Schedule and Requirements {#update-schedule}
+## Atualizar Programação e Requisitos {#update-schedule}
 
-[!UICONTROL Overlap] atualizam semanalmente no domingo. O pré-processamento do relatório começa no sábado. Isso afeta a forma como os segmentos novos ou existentes aparecem em um relatório de sobreposição na segunda-feira. Para ser incluído em um relatório de sobreposição:
+[!UICONTROL Overlap] os relatórios são atualizados semanalmente no domingo. O pré-processamento do relatório começa no sábado. Isso afeta a forma como segmentos novos ou existentes aparecem em um relatório de sobreposição na segunda-feira. A ser incluído em um relatório de sobreposição:
 
-* Um segmento deve conter no mínimo 70,000 usuários em tempo real total nos últimos 14 dias. Read more about [Minimum Unique Visitor Requirements for Traits and Segments](../../reporting/report-sampling.md#data-sampling-ratio).
-* Um segmento deve ter sido criado antes de 12 AM quinta-feira UTC (2 dias completos antes do início do processo de atualização do relatório de sobreposição semanal).
-* Your company must be a Full [!DNL Audience Manager] customer. Please contact your [!DNL Audience Manager] consultant or Customer Care to find out more.
+* Um segmento deve conter no mínimo 70.000 usuários em tempo real nos últimos 14 dias. Leia mais sobre os requisitos [mínimos de visitante único para características e segmentos](../../reporting/report-sampling.md#data-sampling-ratio).
+* Um segmento deve ter sido criado antes das 12h de quinta-feira UTC (2 dias completos antes do início do processo de atualização do relatório de sobreposição semanal).
+* Sua empresa deve ser um [!DNL Audience Manager] cliente completo. Entre em contato com seu [!DNL Audience Manager] consultor ou com o Atendimento ao cliente para saber mais.
 
-## Segment Size and/or Creation Time Affects Reporting {#segment-size}
+## Tamanho do segmento e/ou Tempo de criação afeta relatórios {#segment-size}
 
-If you do not see a segment in one of the [!UICONTROL Overlap] reports, it may be because the segment does not meet these minimum requirements.
+Se você não vir um segmento em um dos [!UICONTROL Overlap] relatórios, pode ser porque o segmento não atende a esses requisitos mínimos.
 
 <table id="table_BE2937C1FA314BBDBD1D026321D6E6B1"> 
  <thead> 
@@ -37,16 +37,16 @@ If you do not see a segment in one of the [!UICONTROL Overlap] reports, it may b
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Tamanho do segmento muito pequeno</b> </p> </td> 
-   <td colname="col2"> <p>Vamos supor que você crie um segmento antes de 12 AM quinta-feira, mas contém menos de 70,000 usuários totais em tempo real. This segment won't appear in an <span class="wintitle"> Overlap Report</span> until it meets the user threshold requirements. Observe também que o segmento deve atender à contagem necessária do usuário, ou ao período de limite de quinta-feira. If it does not meet the weekly deadline, the segment will appear in the <span class="wintitle"> Overlap Reports</span> for the week after the upcoming Sunday data run. </p> </td> 
+   <td colname="col2"> <p>Digamos que você crie um segmento antes das 12:00 na quinta-feira UTC, mas que contenha menos de 70.000 usuários em tempo real. Esse segmento não aparecerá em um Relatório <span class="wintitle"> de</span> sobreposição até atender aos requisitos de limite do usuário. Observe também que o segmento deve atender à contagem de usuários necessária com base no período de corte de quinta-feira ou antes dele. Se ele não atender ao prazo semanal, o segmento aparecerá nos Relatórios <span class="wintitle"></span> de sobreposição da semana seguinte à próxima execução dos dados de domingo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Segmento criado muito tarde</b> </p> </td> 
-   <td colname="col2"> <p>Vamos supor que você crie um segmento na sexta-feira e ele contenha mais de 70,000 usuários em tempo real. This segment won't appear in the <span class="wintitle"> Overlap Reports</span> for the next week because it was created less than 2 days prior to the report update period. However, the segment will appear in an <span class="wintitle"> Overlap Report</span> after the next weekly update. </p> </td> 
+   <td colname="col2"> <p>Digamos que você crie um segmento na sexta-feira e ele contenha mais de 70.000 usuários em tempo real. Esse segmento não aparecerá nos Relatórios <span class="wintitle"></span> de sobreposição da semana seguinte porque foi criado menos de 2 dias antes do período de atualização do relatório. No entanto, o segmento aparecerá em um Relatório <span class="wintitle"></span> de sobreposição após a próxima atualização semanal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
 >* [Relatório de sobreposição de característica por característica](../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report)
 >* [Relatório de sobreposição de segmento por característica](../../reporting/dynamic-reports/segment-trait-overlap-report.md)
