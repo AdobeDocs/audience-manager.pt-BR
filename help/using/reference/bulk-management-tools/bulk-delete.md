@@ -4,14 +4,14 @@ seo-description: A exclusão em massa permite remover vários segmentos, caracte
 seo-title: Exclusão em massa
 solution: Audience Manager
 title: Exclusão em massa
-uuid: 679 cde 46-09 fb -45 c 6-b 84 d -47 e 00 e 0 e 7 c 0 a
+uuid: 679cde46-09fb-45c6-b84d-47e00e0e7c0a
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Bulk Delete{#bulk-delete}
+# Exclusão em massa{#bulk-delete}
 
 A exclusão em massa permite remover vários segmentos, características, pastas, sinais derivados e destinos com uma única operação. Siga estas instruções para fazer uma solicitação de exclusão em massa.
 
@@ -23,23 +23,24 @@ A exclusão em massa permite remover vários segmentos, características, pastas
 
 >[!NOTE]
 >
->The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. Essa ferramenta é fornecida para conveniência e apenas como cortesia. For bulk changes, we recommend that you work with the [Audience Manager APIs](../../api/rest-api-main/aam-api-getting-started.md) instead. [As permissões de grupo RBAC](../../features/administration/administration-overview.md) atribuídas na [!DNL Audience Manager] interface do usuário são respeitadas [!UICONTROL Bulk Management Tools].
+>Os [!UICONTROL Bulk Management Tools] não *são suportados por* [!DNL Audience Manager]. Esta ferramenta é fornecida apenas para conveniência e cortesia. Para alterações em massa, recomendamos que você trabalhe com as APIs [do](../../api/rest-api-main/aam-api-getting-started.md) Audience Manager. [As permissões](../../features/administration/administration-overview.md) de grupo RBAC atribuídas na [!DNL Audience Manager] interface do usuário são respeitadas na [!UICONTROL Bulk Management Tools].
 
 >[!NOTE]
 >
->Uma exclusão em massa para mapeamentos de destino falhará se houver segmentos mapeados para o destino. Remova seus segmentos desse destino na interface do usuário antes de tentar excluir destinos em massa. Além disso, as pastas de características e segmentos devem estar vazias antes de excluí-las.
+>Uma exclusão em massa para mapeamentos de destino falhará se você tiver segmentos mapeados para o destino. Remova seus segmentos desse destino na interface do usuário antes de tentar excluir destinos em massa. Além disso, as pastas de características e segmentos devem estar vazias para que você possa excluí-las.
 
-To delete multiple items, open the [!UICONTROL Bulk Management Tools] worksheet and:
+Para excluir vários itens, abra a [!UICONTROL Bulk Management Tools] planilha e:
 
-1. Click the **[!UICONTROL Headers]** tab and copy the create headers for the item you want to add.
+1. Clique na **[!UICONTROL Headers]** guia e copie os cabeçalhos de criação para o item que deseja adicionar.
 2. Click the **[!UICONTROL Delete]** tab.
 3. Cole os cabeçalhos de exclusão na primeira linha da planilha de atualização.
 4. Cole ou digite as IDs dos objetos que deseja excluir na coluna abaixo do cabeçalho.
-5. Provide the required [log on information](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) and click **[!UICONTROL Submit]**.
+5. Forneça as informações [necessárias para o](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) logon e clique em **[!UICONTROL Submit]**.
 
-   The worksheet creates a [!UICONTROL Results] column. [!UICONTROL Results] A coluna retorna uma mensagem que indica se o item foi excluído ou uma mensagem de erro.
-Antes de digitar os dados, sua planilha de atualização em massa deve ser semelhante ao seguinte:
+   A planilha cria uma [!UICONTROL Results] coluna. A [!UICONTROL Results] coluna retorna uma mensagem que indica se o item foi excluído ou uma mensagem de erro.
+Antes de inserir dados, a planilha de atualização em massa deve ser semelhante ao seguinte:
 
 ![](assets/delete.png)
 
-If your bulk update returns an error or fails, see [Troubleshooting for Bulk Management Tools](../../reference/bulk-management-tools/bulk-troubleshooting.md).
+
+Se sua atualização em massa retornar um erro ou falhar, consulte [Solução de problemas para ferramentas](../../reference/bulk-management-tools/bulk-troubleshooting.md)de gerenciamento em massa.
