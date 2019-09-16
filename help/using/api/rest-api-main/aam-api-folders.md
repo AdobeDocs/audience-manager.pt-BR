@@ -1,24 +1,24 @@
 ---
-description: Métodos que permitem trabalhar de forma programática com pastas de características e segmentos. Pastas são diretórios que mantêm e organizam características e segmentos em grupos lógicos.
-seo-description: Métodos que permitem trabalhar de forma programática com pastas de características e segmentos. Pastas são diretórios que mantêm e organizam características e segmentos em grupos lógicos.
-seo-title: Métodos da API de pastas
+description: Métodos que permitem trabalhar programaticamente com pastas de características e segmentos. Pastas são diretórios que mantêm e organizam características e segmentos em grupos lógicos.
+seo-description: Métodos que permitem trabalhar programaticamente com pastas de características e segmentos. Pastas são diretórios que mantêm e organizam características e segmentos em grupos lógicos.
+seo-title: ' Métodos da API de pasta'
 solution: Audience Manager
-title: Métodos da API de pastas
-uuid: ebb 6290 e -98 c 0-472 e-ba 04-eb 5 dac 036425
+title: ' Métodos da API de pasta'
+uuid: ebb6290e-98c0-472e-ba04-eb5dell036425
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Folder API Methods {#folder-api-methods}
+# Métodos da API de pasta {#folder-api-methods}
 
-Métodos que permitem trabalhar de forma programática com pastas de características e segmentos. Pastas são diretórios que mantêm e organizam características e segmentos em grupos lógicos.
+Métodos que permitem trabalhar programaticamente com pastas de características e segmentos. Pastas são diretórios que mantêm e organizam características e segmentos em grupos lógicos.
 
 <!-- api-folders.xml -->
 
 >[!IMPORTANT]
 >
->The folder [!DNL API] methods have been rewritten with [!DNL Swagger] and migrated. Consulte:  &gt;
+>Os [!DNL API] métodos de pasta foram regravados [!DNL Swagger] e migrados. Consulte:  &gt;
 >* [Documentos da API do Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
->* [Migração de código API do Audience Manager](../../api/api-swagger-migration.md)
+>* [Migração de código da API do Audience Manager](../../api/api-swagger-migration.md)
