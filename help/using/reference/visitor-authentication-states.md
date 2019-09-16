@@ -1,24 +1,24 @@
 ---
-description: O status de autenticação do visitante no Audience Manager determina se as novas informações de característica são gravadas no perfil autenticado do visitante ou no perfil do dispositivo, onde os dados foram coletados. O Audience Manager trata os status de autenticação da ID de visitante DESCONHECIDO e LOGGED_ OUT em chamadas de evento da mesma forma.
+description: O status de autenticação do visitante no Audience Manager determina se as novas informações de característica são gravadas no perfil autenticado do visitante ou no perfil do dispositivo, de onde os dados foram coletados. O Audience Manager lida com os status de autenticação da ID de visitante UNKNOWN e LOGGED_OUT em chamadas de evento da mesma maneira.
 keywords: dpm.demdex.net
-seo-description: O status de autenticação do visitante no Audience Manager determina se as novas informações de característica são gravadas no perfil autenticado do visitante ou no perfil do dispositivo, onde os dados foram coletados. O Audience Manager trata os status de autenticação da ID de visitante DESCONHECIDO e LOGGED_ OUT em chamadas de evento da mesma forma.
+seo-description: O status de autenticação do visitante no Audience Manager determina se as novas informações de característica são gravadas no perfil autenticado do visitante ou no perfil do dispositivo, de onde os dados foram coletados. O Audience Manager lida com os status de autenticação da ID de visitante UNKNOWN e LOGGED_OUT em chamadas de evento da mesma maneira.
 seo-title: Estados de autenticação do visitante no Audience Manager
 solution: Audience Manager
 title: Estados de autenticação do visitante no Audience Manager
-uuid: d 748 c 0 c 3-5833-4 fb 9-ab 3 e -793 f 5 f 252 e 47
+uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Visitor Authentication States in Audience Manager{#visitor-authentication-states-in-audience-manager}
+# Estados de autenticação do visitante no Audience Manager{#visitor-authentication-states-in-audience-manager}
 
-O status de autenticação do visitante no Audience Manager determina se as novas informações de característica são gravadas no perfil autenticado do visitante ou no perfil do dispositivo, onde os dados foram coletados. O Audience Manager trata os status de autenticação da ID de visitante DESCONHECIDO e LOGGED_ OUT em chamadas de evento da mesma forma.
+O status de autenticação do visitante no Audience Manager determina se as novas informações de característica são gravadas no perfil autenticado do visitante ou no perfil do dispositivo, de onde os dados foram coletados. O Audience Manager lida com os status de autenticação da ID de visitante UNKNOWN e LOGGED_OUT em chamadas de evento da mesma maneira.
 
-Beginning with [!DNL Experience Cloud] ID service v1.5+, the `setCustomerID` method includes the optional `AuthState` object. `AuthState` identifica os visitantes de acordo com o [status de autenticação](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html). [!DNL Audience Manager] trata as características percebidas de forma diferente, dependendo do status de autenticação passado na chamada e da [Regra](../features/profile-merge-rules/merge-rules-dashboard.md) de mesclagem de perfil usada para segmentação.
+A partir do serviço [!DNL Experience Cloud] de ID v1.5+, o `setCustomerID` método inclui o `AuthState` objeto opcional. `AuthState` identifica os visitantes de acordo com seu status [de](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html)autenticação. [!DNL Audience Manager] lida com as características realizadas de forma diferente, dependendo do status de autenticação transmitido na chamada e da Regra [de mesclagem de](../features/profile-merge-rules/merge-rules-dashboard.md) perfil usada para segmentação.
 
-## Authentication Status: UNKNOWN {#auth-status-unknown}
+## Status da autenticação: DESCONHECIDO {#auth-status-unknown}
 
 <table id="table_E1EA51533FAE4BBFB338D6F6116BC1F9"> 
  <thead> 
@@ -31,11 +31,11 @@ Beginning with [!DNL Experience Cloud] ID service v1.5+, the `setCustomerID` met
  <tbody> 
   <tr> 
    <td colname="col1" morerows="1"> <p> <code> 0 </code> </p> </td> 
-   <td colname="col2"> <p>Sim, se a opção de mesclagem de opção autenticada = "Perfis autenticados finais". </p> </td> 
-   <td colname="col3" morerows="1"> <p>Não, os dados características são adicionados ao perfil do dispositivo. </p> </td> 
+   <td colname="col2"> <p>Sim, se a Regra de mesclagem de opções autenticadas = "Últimos perfis autenticados". </p> </td> 
+   <td colname="col3" morerows="1"> <p>Não, os dados de características são adicionados ao perfil do dispositivo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Não, se a opção Mesclar opção de mesclagem = "Perfis autenticados atuais" ou "Não houver perfil autenticado". </p> </td> 
+   <td colname="col2"> <p>Não, se a Regra de mesclagem de opções autenticadas = "Perfis autenticados atuais" ou "Sem perfil autenticado". </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -44,7 +44,7 @@ Chamada de amostra (o valor da solicitação correspondente ao status de autenti
 
 `https://sample_customer.demdex.net/event?d_cid=123%01sample_id%010&d_sid=123456`
 
-## Authentication Status: AUTHENTICATED {#auth-status-authenticated}
+## Status da autenticação: AUTENTICADO {#auth-status-authenticated}
 
 <table id="table_956ABF96024744308F7773E1F96482B7"> 
  <thead> 
@@ -57,11 +57,11 @@ Chamada de amostra (o valor da solicitação correspondente ao status de autenti
  <tbody> 
   <tr> 
    <td colname="col1" morerows="1"> <p> <code> 1 </code> </p> </td> 
-   <td colname="col2"> <p>Sim, se a opção Mesclar opção de mesclagem = "Perfis autenticados atuais" ou "Perfis autenticados finais" for usada. </p> </td> 
-   <td colname="col3" morerows="1"> <p>Sim, os dados características são adicionados ao perfil autenticado. </p> </td> 
+   <td colname="col2"> <p>Sim, se a Regra de mesclagem de opções autenticadas = "Perfis atuais autenticados" ou "Perfis autenticados pela última vez". </p> </td> 
+   <td colname="col3" morerows="1"> <p>Sim, os dados de características são adicionados ao perfil autenticado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Não, se a opção de mesclagem de opção autenticada = "Sem perfil autenticado". </p> </td> 
+   <td colname="col2"> <p>Não, se a Regra de mesclagem de opções autenticadas = "Nenhum perfil autenticado". </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,7 +70,7 @@ Chamada de amostra (o valor da solicitação correspondente ao status de autenti
 
 `https://sample_customer.demdex.net/event?d_cid=123%01sample_id%011&d_sid=123456`
 
-## Authentication Status: LOGGED_OUT {#auth-status-logged-out}
+## Status da autenticação: LOGGED_OUT {#auth-status-logged-out}
 
 <table id="table_783F0CBB0431482AA49F41468FA65B19"> 
  <thead> 
@@ -83,11 +83,11 @@ Chamada de amostra (o valor da solicitação correspondente ao status de autenti
  <tbody> 
   <tr> 
    <td colname="col1" morerows="1"> <p> <code>2</code> </p> </td> 
-   <td colname="col2"> Sim, se a opção de mesclagem de opção autenticada = "Perfis autenticados últimos" </td> 
-   <td colname="col3" morerows="1"> <p>Não, os dados características são gravados no perfil do dispositivo. </p> </td> 
+   <td colname="col2"> Sim, se a regra de mesclagem de opções autenticadas = "Perfis autenticados pela última vez" </td> 
+   <td colname="col3" morerows="1"> <p>Não, os dados de características são gravados no perfil do dispositivo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> Não, se a opção Mesclar opção de mesclagem = "Perfis autenticados atuais" ou "Nenhum perfil autenticado" </td> 
+   <td colname="col2"> Não, se a regra de mesclagem de opções autenticadas = "Perfis atuais autenticados" ou "Sem perfil autenticado" </td> 
   </tr> 
  </tbody> 
 </table>
@@ -98,9 +98,9 @@ Chamada de amostra (o valor da solicitação correspondente ao status de autenti
 
 >[!NOTE]
 >
->[!DNL Audience Manager] realiza uma sincronização de ID entre [CID e UUID](../reference/ids-in-aam.md) nos três casos.
+>[!DNL Audience Manager] executa uma sincronização de ID entre [CID e UUID](../reference/ids-in-aam.md) em todos os três casos.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
 >* [Estados de autenticação e IDs do cliente](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html)
 
