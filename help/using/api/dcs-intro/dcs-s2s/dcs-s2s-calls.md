@@ -1,25 +1,25 @@
 ---
-seo-title: Efetuar chamadas de API do servidor para servidor DCS
+seo-title: Como fazer chamadas de API DCS servidor a servidor
 solution: Audience Manager
-title: Efetuar chamadas de API do servidor para servidor DCS
-uuid: bdfe 3430-e 27 f -4 a 5 c -88 d 9-ae 164 d 28 f 601
+title: Como fazer chamadas de API DCS servidor a servidor
+uuid: bdfe3430-e27f-4a5c-88d9-ae164d28f601
 translation-type: tm+mt
 source-git-commit: bc2a9364b771436fe0191f9d69a8c291563f9229
 
 ---
 
 
-# Efetuar chamadas de API do servidor para servidor DCS {#making-server-to-server-dcs-api-calls}
+# Como fazer chamadas de API DCS servidor a servidor {#making-server-to-server-dcs-api-calls}
 
-As chamadas exigem o nome de host do servidor DCS regional e da ID do usuário. Se você não tiver as IDs de usuário e região necessárias, consulte [Obter IDs de usuário e Regiões de uma Resposta](/help/using/api/dcs-intro/dcs-s2s/dcs-aam-ids.md) DCS e/ou [Experience Cloud](/help/using/api/dcs-intro/dcs-s2s/dcs-mcid-ids.md). Depois de ter IDs de usuário e região, você pode fazer chamadas de servidor para servidor para o DCS. Consulte esta seção para sintaxe e exemplos.
+As chamadas exigem o nome do host do servidor DCS regional e a ID do usuário. Se você não tiver as IDs de usuário e região necessárias, consulte [Obter IDs de usuário e regiões de uma resposta](/help/using/api/dcs-intro/dcs-s2s/dcs-aam-ids.md) DCS e/ou [Experience Cloud](/help/using/api/dcs-intro/dcs-s2s/dcs-mcid-ids.md). Depois que você tiver IDs de usuário e região, poderá fazer chamadas de servidor para servidor para o DCS. Consulte esta seção para obter a sintaxe e exemplos.
 
 >[!NOTE]
 >
->In the code and examples, *italics* represents a variable placeholder. Substitua um valor real para o espaço reservado quando você chamar as chamadas [!UICONTROL DCS]do servidor para o servidor.
+>In the code and examples, *italics* represents a variable placeholder. Substitua um valor real do espaço reservado quando você chama o servidor para o [!UICONTROL DCS].
 
 ## Sintaxe de chamada e exemplo {#call-syntax-example}
 
-Uma solicitação básica de servidor para servidor que envia dados para o [!UICONTROL DCS] uso a sintaxe mostrada abaixo.
+Uma solicitação básica de servidor para servidor que envia dados para o [!UICONTROL DCS] usuário usa a sintaxe mostrada abaixo.
 
 ```js
 "Host:domain_alias.demdex.net" "https://DCS_host_name.demdex.net/event?d_rtbd=json&d_jsonv=1&d_uuid=userID
@@ -42,41 +42,41 @@ Uma chamada de amostra é semelhante ao exemplo a seguir.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><code><i>domínio alias</i>. demdex. net</code> </p> </td> 
-   <td colname="col2"> <p>Essa parte da chamada contém: </p> <p> 
+   <td colname="col1"> <p><code> alias <i>do</i>domínio.demdex.net</code> </p> </td> 
+   <td colname="col2"> <p>Esta parte da chamada contém: </p> <p> 
      <ul id="ul_3EDA9C7BA6794D06BCB07A75A9BD2372"> 
-      <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Seu alias de domínio atribuído pelo <span class="keyword"> Audience Manager</span> (por exemplo <i><code> , my_ domain. demdex. net</code></i>). </li> 
-      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">O domínio de destino, que é sempre <i><code> demdex. net</code></i>. Consulte <a href="../../../reference/demdex-calls.md">Compreender as chamadas para o domínio Demdex</a>. </li> 
+      <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Seu alias de domínio atribuído pelo <span class="keyword"> Audience Manager</span> (por exemplo, <i><code> my_domain.demdex.net</code></i>). </li> 
+      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">O domínio de destino, que é sempre <i><code> demdex.net</code></i>. Consulte <a href="../../../reference/demdex-calls.md">Compreender as chamadas para o domínio Demdex</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code><i>Nome de host DCS</i>. demdex. net</code> </p> </td> 
-   <td colname="col2"> <p>O parâmetro host do cabeçalho http, que mostra o nome do servidor <span class="wintitle"> DCS</span> regional. O nome do host está vinculado a uma ID de região, por isso é necessário fazer isso antes de fazer esses tipos de chamadas. Consulte <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">IDs da região do DCS, locais e nomes de host</a>. </p> </td> 
+   <td colname="col1"> <p><code> Nome <i>do host</i>DCS.demdex.net</code> </p> </td> 
+   <td colname="col2"> <p>O parâmetro host do cabeçalho http que mostra o nome do servidor DCS <span class="wintitle"></span> regional. O nome do host está vinculado a uma ID de região, por isso é necessário fazer isso antes de realizar esses tipos de chamadas. Consulte <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">IDs da região do DCS, locais e nomes de host</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> /event?</code> </p> </td> 
    <td colname="col2"> <p>Esta parte da chamada: </p> <p> 
      <ul id="ul_6332444A305A4F12A7CBE471CA508516"> 
       <li id="li_1C5C111B2B0E4621B3FC0C20D6516041">Identifica a chamada como uma chamada de evento. </li> 
-      <li id="li_DBCE9B1C70604A629ECD7AC0A9052198">Define o início da sequência de caracteres de URL que contém os dados que você deseja enviar para o DCS. </li> 
+      <li id="li_DBCE9B1C70604A629ECD7AC0A9052198">Define o início da string de URL que contém os dados que você deseja enviar para o DCS. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code>d_ uuid = <i>ID de usuário do Audience Manager</i></code> </p> </td> 
-   <td colname="col2"> <p>Essa é a única chave de ID de usuário que contém o valor da ID de usuário <span class="keyword"> do Audience Manager</span> em um par de valor chave. </p> <p>Use <code><i>d_ uuid</i></code> se estiver passando a <span class="keyword"> ID</span> de usuário do Audience Manager. </p> </td>
+   <td colname="col1"> <p><code>d_uuid= ID de usuário do <i>Audience Manager</i></code> </p> </td> 
+   <td colname="col2"> <p>Essa é a chave de ID de usuário exclusiva que mantém o valor de ID de usuário do <span class="keyword"> Audience Manager</span> em um par de valor chave. </p> <p>Use <code><i>d_uuid</i></code> se estiver transmitindo a ID de usuário do <span class="keyword"> Audience Manager</span> . </p> </td>
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code>d_ mid =<i>ID de usuário da Experience Cloud</i></code> </p> </td> 
-   <td colname="col2"> <p>Essa é a única chave de ID de usuário que contém o valor da ID de usuário <span class="keyword"> da Experience Cloud</span> em um par de valor chave. Consulte <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#get-user-ids-from-service-cookie"> também Obter a ID de usuário do cookie de serviço de ID</a>. </p> <p>Use <i><code> d_ mid</code></i> se estiver passando uma <span class="keyword"> Experience Cloud</span> ID capturada do serviço <span class="keyword"> da Experience Cloud</span> ID. </p> </td> 
+   <td colname="col1"> <p><code>d_mid=ID de usuário da<i>Experience Cloud</i></code> </p> </td> 
+   <td colname="col2"> <p>Essa é a chave de ID de usuário exclusiva que mantém o valor de ID de usuário da <span class="keyword"> Experience Cloud</span> em um par de valores chave. Consulte também <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#get-user-ids-from-service-cookie"> Obter a ID do usuário do cookie</a>do serviço de ID. </p> <p>Use <i><code> d_mid</code></i> se estiver transmitindo uma <span class="keyword"> Experience Cloud</span> ID capturada do serviço da <span class="keyword"> Experience Cloud</span> ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 
      <ul id="ul_36E2C1A0538D4D2C94DFC1335720A524"> 
-      <li id="li_8902EED431CE4F0189A94868FA52DB1F"><code> d_ dst = 1</code> </li> 
-      <li id="li_4B6B29499D444E31808DE0A9AA0442D0"><code> d_ rtbd = json</code> </li> 
-      <li id="li_3430CD0438604B83BE6437E6EC480816"><code>d_ cb =<i>callback</i></code> </li> 
+      <li id="li_8902EED431CE4F0189A94868FA52DB1F"><code> d_dst=1</code> </li> 
+      <li id="li_4B6B29499D444E31808DE0A9AA0442D0"><code> d_rtbd=json</code> </li> 
+      <li id="li_3430CD0438604B83BE6437E6EC480816"><code>d_cb=<i>callback</i></code> </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>Parâmetros de resposta opcionais. </p> <p> Nenhum desses dados é necessário para enviar dados para <span class="wintitle"> o DCS</span>. No entanto, se você quiser que <span class="wintitle"> o DCS</span> retorne uma resposta, deverá incluir <i><code> d_ rtbd = json</code></i> em sua solicitação. </p> </td> 
+   <td colname="col2"> <p>Parâmetros de resposta opcionais. </p> <p> Nenhum deles é necessário para enviar dados para o <span class="wintitle"> DCS</span>. No entanto, se você quiser que o <span class="wintitle"> DCS</span> retorne uma resposta, é necessário incluir <i><code> d_rtbd=json</code></i> na solicitação. </p> </td> 
   </tr> 
  </tbody> 
 </table>
