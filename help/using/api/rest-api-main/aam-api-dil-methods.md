@@ -1,29 +1,29 @@
 ---
 description: Métodos que permitem trabalhar programaticamente com a Biblioteca de integração de dados (DIL).
 seo-description: Métodos que permitem trabalhar programaticamente com a Biblioteca de integração de dados (DIL).
-seo-title: Métodos de API da biblioteca de integração de dados
+seo-title: Métodos da API da biblioteca de integração de dados
 solution: Audience Manager
-title: Métodos de API da biblioteca de integração de dados
-uuid: 507 e 7 afd -3 ae 7-44 de -98 b 0-589 d 699 c 453 b
+title: Métodos da API da biblioteca de integração de dados
+uuid: 507e7afd-3ae7-44de-98b0-589d699c453b
 translation-type: tm+mt
 source-git-commit: 5e08861f8bfe88559b089fae00bd14e576f2d0ac
 
 ---
 
 
-# Data Integration Library API Methods {#data-integration-library-api-methods}
+# Métodos da API da biblioteca de integração de dados {#data-integration-library-api-methods}
 
-Methods that let you work programmatically with the [!UICONTROL Data Integration Library] ([!UICONTROL DIL].
+Métodos que permitem trabalhar programaticamente com o [!UICONTROL Data Integration Library] ([!UICONTROL DIL].
 
 >[!IMPORTANT]
 >
->A API da Biblioteca de integração de dados foi substituída. This API used to generate DIL, which you can now self-download here: [DIL download](https://github.com/Adobe-Marketing-Cloud/dil/releases).
+>A API da Biblioteca de integração de dados foi substituída. Essa API foi usada para gerar DIL, que agora você pode baixar automaticamente aqui: Download [DIL](https://github.com/Adobe-Marketing-Cloud/dil/releases).
 
 <!-- c_data_integr_library_api.xml -->
 
-## Return Versions for DIL {#return-version-dil}
+## Versões de retorno para DIL {#return-version-dil}
 
-`GET` Um método que retorna uma lista de versões classificadas da mais antiga ao mais recente.
+Um `GET` método que retorna uma lista de versões ordenadas do mais antigo para o mais recente.
 
 <!-- r_api_return_versions_dil.xml -->
 
@@ -33,15 +33,15 @@ Methods that let you work programmatically with the [!UICONTROL Data Integration
 
 ### Resposta
 
-A successful request returns response code `["4.0", "4.1"]` as shown below.
+Uma solicitação bem-sucedida retorna o código de resposta `["4.0", "4.1"]` como mostrado abaixo.
 
 ```
 ["4.0", "4.1"]
 ```
 
-## Return JSON Schema for Version {#return-json-schema-version}
+## Retornar esquema JSON para a versão {#return-json-schema-version}
 
-`GET` Um método que retorna [!DNL JSON] o esquema da [!UICONTROL DIL] versão. Supports using alias [!UICONTROL LATEST] for version to get the latest version of [!UICONTROL DIL].
+Um `GET` método que retorna o [!DNL JSON] esquema para a [!UICONTROL DIL] versão. Suporta o uso de alias [!UICONTROL LATEST] para versão para obter a versão mais recente do [!UICONTROL DIL].
 
 <!-- r_api_return_json_schema_for_version.xml -->
 
@@ -51,7 +51,7 @@ A successful request returns response code `["4.0", "4.1"]` as shown below.
 
 ### Resposta
 
-A successful request returns response code `["4.0", "4.1"]` and data as shown below.
+Uma solicitação bem-sucedida retorna o código de resposta `["4.0", "4.1"]` e os dados, conforme mostrado abaixo.
 
 ```
 { 
@@ -375,9 +375,9 @@ A successful request returns response code `["4.0", "4.1"]` and data as shown be
 } 
 ```
 
-## Generate DIL {#generate-dil}
+## Gerar DIL {#generate-dil}
 
-A `GET` method that generates [!UICONTROL DIL] based on passed in request body using the specified version of [!UICONTROL DIL]. If the alias `LATEST` is used for version in the URL, the latest version of [!UICONTROL DIL] is generated.
+Um `GET` método que gera com [!UICONTROL DIL] base no corpo da solicitação passado usando a versão especificada de [!UICONTROL DIL]. Se o alias `LATEST` for usado para a versão no URL, a versão mais recente do [!UICONTROL DIL] será gerada.
 
 <!-- r_api_generate_dil.xml -->
 
@@ -461,4 +461,4 @@ A `GET` method that generates [!UICONTROL DIL] based on passed in request body u
 
 ### Resposta
 
-A successful update returns response code `201 created` along with the [!UICONTROL DIL] [!DNL JavaScript] code.
+Uma atualização bem-sucedida retorna o código de resposta `201 created` junto com o [!UICONTROL DIL] [!DNL JavaScript] código.
