@@ -1,19 +1,19 @@
 ---
-description: As planilhas criar e atualizar aceitam um cabeçalho traitrule que permite aplicar várias regras em uma única operação. Siga estas instruções para realizar solicitações de regras em massa.
-seo-description: As planilhas criar e atualizar aceitam um cabeçalho traitrule que permite aplicar várias regras em uma única operação. Siga estas instruções para realizar solicitações de regras em massa.
+description: As planilhas de criação e atualização aceitam um cabeçalho traitRule que permite aplicar várias regras em uma única operação. Siga estas instruções para fazer solicitações de regras em massa.
+seo-description: As planilhas de criação e atualização aceitam um cabeçalho traitRule que permite aplicar várias regras em uma única operação. Siga estas instruções para fazer solicitações de regras em massa.
 seo-title: Criar ou atualizar regras de características e regras de segmento
 solution: Audience Manager
 title: Criar ou atualizar regras de características e regras de segmento
-uuid: bdd 5 f 8 f 1-bb 83-4844-b 681-654 e 45 ace 3 e 1
+uuid: bdd5f8f1-bb83-4844-b681-654e45ace3e1
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Create or Update Trait Rules and Segment Rules{#create-or-update-trait-rules-and-segment-rules}
+# Criar ou atualizar regras de características e regras de segmento{#create-or-update-trait-rules-and-segment-rules}
 
-As planilhas criar e atualizar aceitam um cabeçalho traitrule que permite aplicar várias regras em uma única operação. Siga estas instruções para realizar solicitações de regras em massa.
+As planilhas de criação e atualização aceitam um cabeçalho traitRule que permite aplicar várias regras em uma única operação. Siga estas instruções para fazer solicitações de regras em massa.
 
 <!-- 
 
@@ -23,38 +23,38 @@ As planilhas criar e atualizar aceitam um cabeçalho traitrule que permite aplic
 
 >[!NOTE]
 >
->The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. Essa ferramenta é fornecida para conveniência e apenas como cortesia. For bulk changes, we recommend that you work with the [Audience Manager APIs](../../api/rest-api-main/aam-api-getting-started.md) instead. [As permissões de grupo RBAC](../../features/administration/administration-overview.md) atribuídas na [!DNL Audience Manager] interface do usuário são respeitadas [!UICONTROL Bulk Management Tools].
+>Os [!UICONTROL Bulk Management Tools] não *são suportados por* [!DNL Audience Manager]. Esta ferramenta é fornecida apenas para conveniência e cortesia. Para alterações em massa, recomendamos que você trabalhe com as APIs [do](../../api/rest-api-main/aam-api-getting-started.md) Audience Manager. [As permissões](../../features/administration/administration-overview.md) de grupo RBAC atribuídas na [!DNL Audience Manager] interface do usuário são respeitadas na [!UICONTROL Bulk Management Tools].
 
-## Working with trait rules {#trait-rules}
+## Trabalhar com regras de características {#trait-rules}
 
-Na planilha, a coluna da regra de característica retorna e aceita regras que consistem em expressões booleanas, operadores de comparação e expressões regulares. You can create rules with trait or segment builder in [!DNL Audience Manager] and copy them to your worksheet. Ou, se você estiver familiarizado com a sintaxe da regra, poderá escrever expressões diretamente nas planilhas.
+Na planilha, a coluna da regra de característica retorna e aceita regras que consistem em expressões booleanas, operadores de comparação e expressões regulares. Você pode criar regras com características ou construtor de segmentos em [!DNL Audience Manager] e copiá-las para a planilha. Ou, se você estiver familiarizado com a sintaxe da regra, poderá gravar expressões diretamente nas planilhas.
 
-## Rule builder example {#rule-builder-example}
+## Exemplo do construtor de regras {#rule-builder-example}
 
-Let's take a look at an example that demonstrates how to use [!UICONTROL Segment Builder] to create a rule you can to the bulk worksheet. No entanto, esse não é um conjunto de instruções passo a passo para essas ferramentas. Em vez disso, começaremos com uma regra simples que já foi criada. For instructions about how to use the rule builders see [Segment Builder](../../features/segments/segment-builder.md) and [Trait Builder](../../features/traits/about-trait-builder.md).
+Vejamos um exemplo que demonstra como usar [!UICONTROL Segment Builder] para criar uma regra que você pode para a planilha em massa. No entanto, este não é um conjunto de instruções passo a passo para essas ferramentas. Em vez disso vamos começar com uma regra simples que já foi criada. Para obter instruções sobre como usar os construtores de regras, consulte Construtor [de](../../features/segments/segment-builder.md) segmentos e Construtor de [características](../../features/traits/about-trait-builder.md).
 
-With the visual rule builder, we've created a segment rule with 3 traits and a Boolean [!UICONTROL AND] operator.
+Com o construtor de regras visuais, criamos uma regra de segmento com 3 características e um [!UICONTROL AND] operador Booliano.
 
 ![](assets/visualrule.png)
 
-Click **[!UICONTROL Code View]** to get the text version of this rule.
+Clique em **[!UICONTROL Code View]** para obter a versão de texto desta regra.
 
 >[!TIP]
 >
->Click **[!UICONTROL Validate Expression]** to check your rule logic. Isso ajudará a impedir que você carregue uma regra inválida.
+>Clique **[!UICONTROL Validate Expression]** para verificar a lógica de sua regra. Isso ajudará a impedir que você carregue uma regra inválida.
 
 ![](assets/coderule.png)
 
-Paste the rule into the [!UICONTROL Bulk Management Tools] worksheet and commit your changes to update segment rules in bulk.
+Cole a regra na [!UICONTROL Bulk Management Tools] planilha e confira as alterações para atualizar as regras de segmento em massa.
 
 ![](assets/segmentrule.png)
 
-## Creating your own rules {#create-rules}
+## Criar suas próprias regras {#create-rules}
 
-You can write your own rules outside of [!UICONTROL Rule Builder]. Antes de começar, leia a documentação que abrange coisas como operadores, expressões e variáveis necessárias. Recomendamos que você analise o seguinte:
+Você pode escrever suas próprias regras fora de [!UICONTROL Rule Builder]. Antes de começar, leia a documentação que abrange coisas como operadores, expressões e variáveis obrigatórias. Recomendamos que você reveja o seguinte:
 
-* [Trabalhar com operadores de comparação no Construtor de características](../../features/traits/trait-comparison-operators.md)
-* [Ordem das operações](../../features/traits/trait-operator-precedence.md)
-* [Requisitos de prefixo para variáveis principais](../../features/traits/trait-variable-prefixes.md)
+* [Trabalhar Com Operadores De Comparação No Construtor De Características](../../features/traits/trait-comparison-operators.md)
+* [Ordem de operação](../../features/traits/trait-operator-precedence.md)
+* [Requisitos de prefixo para variáveis-chave](../../features/traits/trait-variable-prefixes.md)
 * [Expressões de amostra com operadores booleanos e de comparação](../../features/traits/trait-expression-samples.md)
 
