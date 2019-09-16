@@ -1,26 +1,26 @@
 ---
-description: O Construtor de traços avalia as expressões de acordo com a ordem das operações listadas abaixo, de precedência alta para baixa. Os elementos de característica definidos por operadores de alta prioridade são avaliados primeiro, antes de outros operadores de precedência. Esta seção classifica cada operador de acordo com precedência, de alto para baixo.
-seo-description: O Construtor de traços avalia as expressões de acordo com a ordem das operações listadas abaixo, de precedência alta para baixa. Os elementos de característica definidos por operadores de alta prioridade são avaliados primeiro, antes de outros operadores de precedência. Esta seção classifica cada operador de acordo com precedência, de alto para baixo.
-seo-title: Ordem das operações no Construtor de características
+description: O Construtor de características avalia as expressões de acordo com a ordem de operações listada abaixo, de alta a baixa precedência. Os elementos de características definidos por operadores de alta prioridade são avaliados primeiro, antes de outros operadores de precedência. Esta seção classifica cada operador de acordo com a precedência, de alto a baixo.
+seo-description: O Construtor de características avalia as expressões de acordo com a ordem de operações listada abaixo, de alta a baixa precedência. Os elementos de características definidos por operadores de alta prioridade são avaliados primeiro, antes de outros operadores de precedência. Esta seção classifica cada operador de acordo com a precedência, de alto a baixo.
+seo-title: Ordem de operações no Construtor de características
 solution: Audience Manager
-title: Ordem das operações no Construtor de características
-uuid: df 325047-af 62-45 ad -9 ca 1-046 bfcbe 5341
+title: Ordem de operações no Construtor de características
+uuid: df325047-af62-45ad-9ca1-046bfcbe5341
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Order of Operations in Trait Builder {#order-of-operations-in-trait-builder}
+# Ordem de operações no Construtor de características {#order-of-operations-in-trait-builder}
 
-[!UICONTROL Trait Builder] avalia expressões de acordo com a ordem das operações listadas abaixo, de precedência alta para baixa. Os elementos de característica definidos por operadores de alta prioridade são avaliados primeiro, antes de outros operadores de precedência. Esta seção classifica cada operador de acordo com precedência, de alto para baixo.
+[!UICONTROL Trait Builder] avalia expressões de acordo com a ordem de operações listada abaixo, de alta a baixa precedência. Os elementos de características definidos por operadores de alta prioridade são avaliados primeiro, antes de outros operadores de precedência. Esta seção classifica cada operador de acordo com a precedência, de alto a baixo.
 
 <!-- c_tb_operator_precedence.xml -->
 
 <table id="table_F0FA45B652C7464B90D35526817110FF"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Precedência do operador </th> 
+   <th colname="col1" class="entry"> Prioridade do operador </th> 
    <th colname="col2" class="entry"> Símbolo </th> 
    <th colname="col3" class="entry"> Comentários </th> 
   </tr> 
@@ -34,28 +34,28 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
   <tr> 
    <td colname="col1"> Operadores de comparação </td> 
    <td colname="col2"> &lt; &gt; &lt;= &gt;= </td> 
-   <td colname="col3"> Menor que, maior que/igual a/igual a, maior que/igual a são avaliados em seguida. </td> 
+   <td colname="col3"> Menor que, maior que, menor que/igual a, maior que/igual a é avaliado em seguida. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Operadores de igualdade </td> 
+   <td colname="col1"> Operadores da igualdade </td> 
    <td colname="col2"> == != </td> 
-   <td colname="col3"> Igual a, não é igual a serem avaliados após os operadores anteriores. </td> 
+   <td colname="col3"> Igual a, diferente de é avaliado após os operadores anteriores. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="wintitle"> Booleano AND</span> </td> 
-   <td colname="col2"><span class="wintitle"> AND</span> </td> 
+   <td colname="col1">Booleano <span class="wintitle"> E</span> </td> 
+   <td colname="col2"><span class="wintitle"> E</span> </td> 
    <td colname="col3" morerows="1"> n/a </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Boolean <span class="wintitle"> OR</span> </td> 
+   <td colname="col1">Booleano <span class="wintitle"> OR</span> </td> 
    <td colname="col2"><span class="wintitle"> OU</span> </td> 
    <td colname="col3" morerows="1"> n/a </td> 
   </tr> 
  </tbody>
 </table>
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
->* [Trabalhar com Expressões Booleanas (AND, OR, NOT) no traitbuilder](../../reference/boolean-expressions-tsb.md)
->* [Trabalhar com operadores de comparação no traitbuilder](../../features/traits/trait-comparison-operators.md)
+>* [Trabalhar com expressões booleanas (AND, OR, NOT) no TraitBuilder](../../reference/boolean-expressions-tsb.md)
+>* [Trabalhar com operadores de comparação no TraitBuilder](../../features/traits/trait-comparison-operators.md)
 
