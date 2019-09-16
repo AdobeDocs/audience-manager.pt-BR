@@ -4,7 +4,7 @@ seo-description: Uma configuração booleana opcional que determina se DIL envia
 seo-title: isCoopSafe
 solution: Audience Manager
 title: isCoopSafe
-uuid: c 5362 a 38-93 c 0-4 edb-bdcb -106 e 43 f 33 a 92
+uuid: c5362a38-93c0-4edb-bdcb-106e43f33a92
 translation-type: tm+mt
 source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
@@ -19,7 +19,7 @@ Uma configuração booleana opcional que determina se DIL envia (ou não) dados 
 
 To use `isCoopSafe` you must:
 
-* Use [!UICONTROL DIL] v6.11 or higher.
+* Use [!UICONTROL DIL] v6.11 ou superior.
 * Participar do [Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/). Os membros em potencial também devem consultar essa documentação para determinar se `isCoopSafe` responde possíveis dúvidas sobre como os dados são usados para criar o gráfico do dispositivo.
 
 * Trabalhe com seu consultor da [!DNL Adobe] para definir um sinalizador de lista de permissões ou lista de bloqueios na conta do Device Co-op. Não há caminho de autoatendimento para ativar esses sinalizadores.
@@ -63,7 +63,7 @@ As opções booleanas determinam como os dados do cliente são usados ou não pe
 
 **Amostra de código**
 
-Defina isso quando instanciar a DIL.
+Defina isso quando o DIL for instanciado.
 
 ```js
 var dilInstance = DIL.create({ 
@@ -113,11 +113,11 @@ Essas APIs permitem que você substitua o status de `isCoopSafe`. Elas são nece
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> Dilinstance. api. setascoopsafe (); </code> </p> </td> 
+   <td colname="col1"> <p> <code> dilInstance.api.setAsCoopSafe(); </code> </p> </td> 
    <td colname="col2"> <p>Define o parâmetro POST <code>d_coop_safe=1</code> em todas as chamadas de evento subsequentes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> Dilinstance. api. setascoopsafe (); </code> </p> </td> 
+   <td colname="col1"> <p> <code> dilInstance.api.setAsCoopUnsafe(); </code> </p> </td> 
    <td colname="col2"> <p>Define o parâmetro POST <code>d_coop_unsafe=1</code> em todas as chamadas de evento subsequentes. </p> </td> 
   </tr> 
  </tbody> 
