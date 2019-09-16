@@ -1,26 +1,26 @@
 ---
-description: Envie ou atualize arquivos de metadados enviando-os a um diretório especial Amazon S 3 para sua conta do Audience Manager. Consulte esta seção para obter informações sobre caminhos de entrega/diretório, tempo de processamento de arquivos e atualizações.
-seo-description: Envie ou atualize arquivos de metadados enviando-os a um diretório especial Amazon S 3 para sua conta do Audience Manager. Consulte esta seção para obter informações sobre caminhos de entrega/diretório, tempo de processamento de arquivos e atualizações.
+description: Envie ou atualize arquivos de metadados enviando-os para um diretório especial do Amazon S3 para sua conta do Audience Manager. Consulte esta seção para obter informações sobre caminhos de entrega/diretório, tempos de processamento de arquivos e atualizações.
+seo-description: Envie ou atualize arquivos de metadados enviando-os para um diretório especial do Amazon S3 para sua conta do Audience Manager. Consulte esta seção para obter informações sobre caminhos de entrega/diretório, tempos de processamento de arquivos e atualizações.
 seo-title: Métodos de entrega para arquivos de metadados
 solution: Audience Manager
 title: Métodos de entrega para arquivos de metadados
-uuid: 5199 ee 9 b -920 d -423 d -8070-05 a 017 asu 562
+uuid: 5199e9b-920d-423d-8070-05a017ecd562
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Delivery Methods for Metadata Files{#delivery-methods-for-metadata-files}
+# Métodos de entrega para arquivos de metadados{#delivery-methods-for-metadata-files}
 
-Envie ou atualize arquivos de metadados enviando-os a um diretório especial Amazon S 3 para sua conta do Audience Manager. Consulte esta seção para obter informações sobre caminhos de entrega/diretório, tempo de processamento de arquivos e atualizações.
+Envie ou atualize arquivos de metadados enviando-os para um diretório especial do Amazon S3 para sua conta do Audience Manager. Consulte esta seção para obter informações sobre caminhos de entrega/diretório, tempos de processamento de arquivos e atualizações.
 
-## Delivery Path Syntax and Examples {#syntax}
+## Sintaxe do caminho de entrega e exemplos {#syntax}
 
-Os dados são armazenados em namespaces separados para cada cliente em um diretório Amazon S 3. O caminho do arquivo segue a sintaxe mostrada abaixo. Note, *italics* indicates a variable placeholder. Brackets `[ ]` indicate optional parameters. Os outros elementos são constantes e não são alterados.
+Os dados são armazenados em namespace separado para cada cliente em um diretório Amazon S3. O caminho do arquivo segue a sintaxe mostrada abaixo. Note, *italics* indicates a variable placeholder. Colchetes `[ ]` indicam parâmetros opcionais. Os outros elementos são constantes e não são alterados.
 
 **Sintaxe:**
-<pre><code>…/log_ ingestion/pid =<i>AAM ID</i>/dpid = <i>d_ src</i>/[meta | status]/ <i>aaaammdd</i>_ <i>parent ID</i>_ <i>filho ID</i></code></pre>
+<pre><code>.../log_ingestion/pid=ID<i>do</i>AAM/dpid= <i>d_src</i>/[meta|status]/ <i>aayymmdd</i>_ ID <i></i>pai_ ID <i>filho</i></code></pre>
 
 A tabela a seguir define cada um desses elementos em um caminho de entrega de arquivo.
 
@@ -33,16 +33,16 @@ A tabela a seguir define cada um desses elementos em um caminho de entrega de ar
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> …/log_ ingestion/</code> </p> </td> 
-   <td colname="col2"> <p>Este é o início do caminho de armazenamento de diretório. Você receberá o caminho completo quando tudo estiver configurado. </p> </td> 
+   <td colname="col1"> <p> <code> .../log_ingestão/</code> </p> </td> 
+   <td colname="col2"> <p>Este é o início do caminho de armazenamento do diretório. Você receberá o caminho completo quando tudo estiver configurado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>pid =<i>AAM ID</i></code> </p> </td> 
-   <td colname="col2"> <p>This key-value pair that contains your <span class="keyword"> Audience Manager</span> customer ID. </p> </td> 
+   <td colname="col1"> <p> <code>pid=ID<i>AAM</i></code> </p> </td> 
+   <td colname="col2"> <p>Esse par de valores chave que contém a ID do cliente do <span class="keyword"> Audience Manager</span> . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>dpid =<i>d_ src</i></code> </p> </td> 
-   <td colname="col2"> <p>Esse par de valor chave contém a ID de fonte de dados transmitida em uma chamada de evento. A ID da fonte de dados é o valor que vincula todo o conteúdo do arquivo aos dados reais aos quais pertence. </p> <p>Por exemplo, digamos que você tenha um anúncio com a ID 123 e o nome "Anunciante A A." Como uma chamada de evento somente passa na ID que você precisa incluir no arquivo de metadados. A campanha e criação pertencem a uma fonte de dados. A ID da fonte de dados é o que os une em conjunto e permite associar com precisão conteúdos de arquivo a uma ID enviada em uma chamada de evento. See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md#how-ids-shape-file-names"> How Event Call IDs Determine File Names, Contents, and Delivery Paths</a>. </p> </td> 
+   <td colname="col1"> <p> <code>dpid=<i>d_src</i></code> </p> </td> 
+   <td colname="col2"> <p>Esse par de valor-chave contém a ID da fonte de dados transmitida em uma chamada de evento. A ID da fonte de dados é o valor que vincula todo o conteúdo do arquivo aos dados reais aos quais ele pertence. </p> <p>Por exemplo, digamos que você tenha um anúncio com a ID 123 e o nome "Advertiser Creative A". Como uma chamada de evento só passa na ID, é necessário incluir "Advertiser Creative A" no arquivo de metadados. A campanha e o anúncio pertencem a uma fonte de dados. A ID da fonte de dados é o que os vincula e permite associar com precisão o conteúdo do arquivo a uma ID enviada em uma chamada de evento. Consulte <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md#how-ids-shape-file-names"> Como as IDs de chamada de evento determinam nomes de arquivo, conteúdo e caminhos</a>de entrega. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -52,26 +52,26 @@ A tabela a seguir define cada um desses elementos em um caminho de entrega de ar
     </ul> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_5907ADF5B20C4FEC94EF5A09BE02F2CD"> 
-      <li id="li_AE70B44FEDCF4A05ADAFF4E49296F67D"> <code> meta</code> é um upload de arquivo/diretório de armazenamento. </li> 
-      <li id="li_2ADEA90E01364E888CAAAB8A65A6383F"> <code> é</code> um caminho para um diretório que contém informações de sucesso ou falha sobre os arquivos processados. After your file is processed, you'll see a <code> .info</code> file with <code> yyyymmdd</code> timestamp title. Os arquivos de status contêm dados em um objeto JSON. See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md"> Status Updates for Metadata Files</a>. </li> 
+      <li id="li_AE70B44FEDCF4A05ADAFF4E49296F67D"> <code> meta</code> é um diretório de upload/armazenamento de arquivos. </li> 
+      <li id="li_2ADEA90E01364E888CAAAB8A65A6383F"> <code> status</code> é um caminho para um diretório que contém informações de sucesso ou falha sobre seus arquivos processados. Depois que o arquivo for processado, você verá um arquivo <code> .info</code> com o título do carimbo de data e hora <code> aaaammdd</code> . Os arquivos de status contêm dados em um objeto JSON. Consulte <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md"> Atualizações de status para arquivos</a>de metadados. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code><i>aaaammdd</i>_<i>parent ID</i>_<i>child ID</i></code> </p> </td> 
-   <td colname="col2"> <p>Esse é o nome do arquivo. See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Naming Conventions for Metadata Files</a>. </p> </td> 
+   <td colname="col1"> <p> <code> ID <i>_</i>filho_<i>aaaammdd</i>_<i>parent</i></code> </p> </td> 
+   <td colname="col2"> <p>Este é o nome do arquivo. Consulte <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Nomear convenções para arquivos</a>de metadados. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Amostra de upload e caminhos de status**
+**Exemplo de caminhos de upload e status**
 
-To upload a metadata file or to [check its status](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md), the file paths will look similar to these:
+Para carregar um arquivo de metadados ou [verificar seu status](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md), os caminhos de arquivo serão semelhantes aos seguintes:
 
-* Upload path: `/log_ingestion/pid=1234/dpid=567/meta/20150827_1_2`
-* Processing status path: `/log_ingestion/pid=1234/dpid=567/status/20150827.info`.
+* Caminho de upload: `/log_ingestion/pid=1234/dpid=567/meta/20150827_1_2`
+* Caminho do status de processamento: `/log_ingestion/pid=1234/dpid=567/status/20150827.info`.
 
-## File Processing Times and Updates {#processing-times}
+## Tempos e atualizações de processamento de arquivo {#processing-times}
 
 Os arquivos de metadados são processados quatro vezes por dia, em intervalos regulares.
 
-Para atualizar os registros de metadados, basta enviar um arquivo que contenha novas informações. Você não precisa enviar atualizações completas todas as vezes.
+Para atualizar seus registros de metadados, basta enviar um arquivo que contenha novas informações. Não é necessário enviar atualizações completas sempre.
