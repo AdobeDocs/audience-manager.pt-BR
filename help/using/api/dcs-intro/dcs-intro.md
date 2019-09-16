@@ -1,26 +1,26 @@
 ---
-title: Métodos e código da API do servidor de coleta de dados (DCS)
-seo-title: DCS (Data Collection Server) e Código do Adobe Audience Manager (AAM)
-description: Código, métodos e técnicas que permitem trabalhar programaticamente com os servidores de coleta de dados do Audience Manager (DCS).
-seo-description: Código, métodos e técnicas que permitem trabalhar programaticamente com os servidores de coleta de dados do Audience Manager (DCS).
+title: ' Métodos e código da API do Data Collection Server (DCS)'
+seo-title: Métodos e código da API do Servidor de coleta de dados (DCS) para Adobe Audience Manager (AAM)
+description: Código, métodos e técnicas que permitem trabalhar programaticamente com os Servidores de Coleta de Dados do Audience Manager (DCS).
+seo-description: Código, métodos e técnicas que permitem trabalhar programaticamente com os Servidores de Coleta de Dados do Audience Manager (DCS).
 translation-type: tm+mt
 source-git-commit: bbb28802ae70d5e547bd87b1be9ae3149671f5d5
 
 ---
 
 
-# Métodos e código da API do servidor de coleta de dados (DCS)
+#  Métodos e código da API do Data Collection Server (DCS)
 
-Código, métodos e técnicas que permitem trabalhar programaticamente com os servidores de coleta de dados do Audience Manager (DCS).
+Código, métodos e técnicas que permitem trabalhar programaticamente com os Servidores de Coleta de Dados do Audience Manager (DCS).
 
-* [Apis de chamada de evento DCS](/help/using/api/dcs-intro/dcs-event-calls/dcs-event-calls.md)
+* [APIs de chamada de evento DCS](/help/using/api/dcs-intro/dcs-event-calls/dcs-event-calls.md)
 
-   Se políticas da empresa ou outros problemas técnicos impedir que você coloque nosso código javascript em suas páginas, você ainda pode trabalhar com o Audience Manager para enviar e devolver dados do DCS com essas apis de chamada de evento.
+   Se as políticas da empresa ou outros problemas técnicos impedirem que você coloque nosso código JavaScript em suas páginas, você ainda poderá trabalhar com o Audience Manager para enviar e retornar dados do DCS com essas APIs de chamada de evento.
 
-* [Apis DCS para transferências de dados do servidor a servidor](/help/using/api/dcs-intro/dcs-s2s/dcs-s2s.md)
+* [APIs DCS para transferências de dados de servidor para servidor](/help/using/api/dcs-intro/dcs-s2s/dcs-s2s.md)
 
-   As apis do servidor para servidor (S 2 S) fornecem códigos e métodos que permitem enviar e receber dados do usuário do DCS e trabalhar com essas informações em seus próprios sistemas ou aplicativos.
+   As APIs de servidor para servidor (S2S) fornecem código e métodos que permitem que você envie e receba dados de usuário do DCS e trabalhe com essas informações em seus próprios sistemas ou aplicativos.
 
-* [Referência de API DCS](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
+* [Referência da API DCS](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
-   Informações, descrições e definições conceituais para código, métodos e processos da API DCS.
+   Informações conceituais, descrições e definições para código, métodos e processos da API DCS.
