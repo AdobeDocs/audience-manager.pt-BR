@@ -1,21 +1,21 @@
 ---
-description: O Audience Manager usa topologias distribuídas e de computação para atender às demandas de nossos sistemas por fontes externas.
-seo-description: O Audience Manager usa topologias distribuídas e de computação para atender às demandas de nossos sistemas por fontes externas.
-seo-title: Como entender o Centro de dados da borda
+description: O Audience Manager usa topologias de computação de borda distribuídas para atender às demandas colocadas em nossos sistemas por fontes externas.
+seo-description: O Audience Manager usa topologias de computação de borda distribuídas para atender às demandas colocadas em nossos sistemas por fontes externas.
+seo-title: Como entender o Edge Data Center
 solution: Audience Manager
-title: Como entender o Centro de dados da borda
-uuid: 4177 e 666-99 f 4-453 d -94 dd -058 c 6182 c 8 d 2
+title: Como entender o Edge Data Center
+uuid: 4177e666-99f4-453d-94dd-058c6182c8d2
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Understanding the Edge Data Center{#understanding-the-edge-data-center}
+# Como entender o Edge Data Center{#understanding-the-edge-data-center}
 
-O Audience Manager usa topologias distribuídas e de computação para atender às demandas de nossos sistemas por fontes externas.
+O Audience Manager usa topologias de computação de borda distribuídas para atender às demandas colocadas em nossos sistemas por fontes externas.
 
-## Edge Data Center Basics {#edge-data-center-basics}
+## Noções básicas do Edge Data Center {#edge-data-center-basics}
 
 <!-- 
 
@@ -23,20 +23,20 @@ c_compedge.xml
 
  -->
 
-A computação de borda fornece desempenho aprimorado em resposta a difusos, sob demanda à Internet, pois a própria «borda» é um limite global. This means [!DNL Audience Manager] dynamically places processing closest to the sources of demand and returns data by the shortest possible path. O cálculo de borda ajuda a manter o desempenho do site, que, por sua vez, preserva a experiência do usuário em seu site. The edge data center is a key gateway for moving data in and out of [!DNL Audience Manager].
+A computação de borda oferece desempenho aprimorado em resposta a demandas difusas de toda a Internet, pois a "borda" em si é um limite global. Isso significa que coloca o processamento [!DNL Audience Manager] dinamicamente mais próximo das fontes de demanda e retorna os dados pelo caminho mais curto possível. A computação de borda ajuda a manter o desempenho do site, o que, por sua vez, preserva a experiência do usuário em seu site. O centro de dados de borda é um gateway chave para mover os dados para dentro e para fora [!DNL Audience Manager].
 
-The [!DNL Audience Manager] edge data center includes:
+O centro de dados de [!DNL Audience Manager] borda inclui:
 
-* **Principais servidores:** Esses são os [!DNL Audience Manager] sistemas principais. Eles atualizam e fornecem dados aos servidores de borda.
+* **** Servidores principais: Estes são os [!DNL Audience Manager] sistemas principais. Eles atualizam e fornecem dados para os servidores de borda.
 
-* **Servidores Edge:** Normalmente, são servidores de aplicativos e/ou Web. They sit at the boundary between [!DNL Audience Manager] and the Internet. Edge servers, such as the [!UICONTROL DCS] or Akamai systems, typically handle data and requests flowing into and out of [!DNL Audience Manager].
+* **** Servidores Edge: Normalmente, são servidores de aplicativos e/ou da Web. Eles ficam na fronteira entre [!DNL Audience Manager] a Internet. Os servidores de borda, como os sistemas [!UICONTROL DCS] ou Akamai, geralmente lidam com dados e solicitações que entram e saem [!DNL Audience Manager].
 
-* **Balanceadores de carga:** Gerencie pedidos de computação/processamento desigual inerentes aos aplicativos da Internet. Esses balanceadores impedem que clusters de servidores sejam sobrecarregados enquanto outros permanecem ociosos.
+* **** Balanceadores de Carga: Gerencie demandas desiguais de computação/processamento inerentes aos aplicativos da Internet. Esses balanceadores impedem que clusters de servidores sejam sobrecarregados enquanto outros permanecem ociosos.
 
-O diagrama a seguir ilustra o ambiente center da borda do Audience Manager.
+O diagrama a seguir ilustra o ambiente do centro de dados de borda do Audience Manager.
 
 ![](assets/edge_data_center.png)
 
-## Geographic Distribution and Load Balancing {#geo-dist-balance}
+## Distribuição geográfica e balanceamento de carga {#geo-dist-balance}
 
-See the [!UICONTROL DCS] section in [Data Collection Components](../../reference/system-components/components-data-collection.md).
+Consulte a [!UICONTROL DCS] seção em Componentes [de coleta de](../../reference/system-components/components-data-collection.md)dados.
