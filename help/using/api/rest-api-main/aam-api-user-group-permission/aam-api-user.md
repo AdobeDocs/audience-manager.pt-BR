@@ -1,25 +1,25 @@
 ---
-description: Métodos de API rest para gerenciar usuários, incluindo criar, atualizar, listar, excluir e retornar objetos do usuário.
-seo-description: Métodos de API rest para gerenciar usuários, incluindo criar, atualizar, listar, excluir e retornar objetos do usuário.
-seo-title: Métodos de API de gerenciamento de usuários
+description: Restaure métodos de API para gerenciar usuários, incluindo criar, atualizar, listar, excluir e retornar objetos de usuário.
+seo-description: Restaure métodos de API para gerenciar usuários, incluindo criar, atualizar, listar, excluir e retornar objetos de usuário.
+seo-title: Métodos da API de gerenciamento de usuários
 solution: Audience Manager
-title: Métodos de API de gerenciamento de usuários
-uuid: 6 e 1 f 2 c 35-bb 9 d -4166-b 7 d 4-d 9 c 5518 a 61 ad
+title: Métodos da API de gerenciamento de usuários
+uuid: 6e1f2c35-bb9d-4166-b7d4-d9c5518a61ad
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# User Management API Methods {#user-management-api-methods}
+# Métodos da API de gerenciamento de usuários {#user-management-api-methods}
 
-Rest [!DNL API] methods to manage users, including creating, updating, listing, deleting, and returning user objects.
+Restaure [!DNL API] métodos para gerenciar usuários, incluindo criar, atualizar, listar, excluir e retornar objetos do usuário.
 
 <!-- c_rest_api_user_man_user.xml -->
 
 ## Create a User {#create-user}
 
-A `POST` method to create a new user.
+Um `POST` método para criar um novo usuário.
 
 <!-- r_rest_api_user_create.xml -->
 
@@ -27,7 +27,7 @@ A `POST` method to create a new user.
 
 `POST /api/v1/users/`
 
-### Exemplo de corpo da solicitação
+### Corpo de solicitação de amostra
 
 ```
 { 
@@ -62,13 +62,13 @@ A `POST` method to create a new user.
 }
 ```
 
-If `isAdmin` is set to true, the user is created as a partner admin. Essa propriedade também permite saber se um usuário é um administrador de parceiro.
+Se `isAdmin` for definido como true, o usuário será criado como um administrador parceiro. Essa propriedade também permite saber se um usuário é um administrador parceiro.
 
-Returns `409 Conflict` if the username is already taken.
+Retorna `409 Conflict` se o nome de usuário já estiver sendo usado.
 
-## Update a User {#update-user}
+## Atualizar um usuário {#update-user}
 
-A `PUT` method to update a user.
+Um `PUT` método para atualizar um usuário.
 
 <!-- r_rest_api_user_update.xml -->
 
@@ -76,7 +76,7 @@ A `PUT` method to update a user.
 
 `PUT /api/v1/users/`*`<userId>`*
 
-### Exemplo de corpo da solicitação
+### Corpo de solicitação de amostra
 
 ```
 { 
@@ -107,23 +107,23 @@ A `PUT` method to update a user.
 }
 ```
 
-Returns `409 Conflict` if the username is already taken.
+Retorna `409 Conflict` se o nome de usuário já estiver sendo usado.
 
-## Update Logged-In User {#update-logged-in-user}
+## Atualizar usuário conectado {#update-logged-in-user}
 
-`PUT` Um método para atualizar o usuário conectado no momento.
+Um `PUT` método para atualizar o usuário conectado no momento.
 
 <!-- r_rest_api_user_update_self.xml -->
 
 >[!NOTE]
 >
->Whereas most [!DNL API] methods are only callable by partner admins, this method is callable by non-admin users.
+>Enquanto a maioria dos [!DNL API] métodos só é chamável por administradores de parceiros, esse método é chamável por usuários não administradores.
 
 ### Solicitação
 
 `PUT /self/update`
 
-### Exemplo de corpo da solicitação
+### Corpo de solicitação de amostra
 
 ```
 {  
@@ -150,49 +150,49 @@ Returns `409 Conflict` if the username is already taken.
 }
 ```
 
-Returns `409 Conflict` if the username is already taken.
+Retorna `409 Conflict` se o nome de usuário já estiver sendo usado.
 
-## Update Logged-In User Password {#update-logged-in-user-pw}
+## Atualizar senha de usuário conectado {#update-logged-in-user-pw}
 
-`PUT` Um método para atualizar o usuário conectado no momento.
+Um `PUT` método para atualizar o usuário conectado no momento.
 
 <!-- r_rest_api_user_password.xml -->
 
 >[!NOTE]
 >
->Whereas most [!DNL API] methods are only callable by partner admins, this method is callable by non-admin users.
+>Enquanto a maioria dos [!DNL API] métodos só é chamável por administradores de parceiros, esse método é chamável por usuários não administradores.
 
 ### Solicitação
 
 `POST /users/self/update-password`
 
-### Exemplo de corpo da solicitação
+### Corpo de solicitação de amostra
 
 ```
 { "oldPassword" : "old password", "newPassword" : "new password" }
 ```
 
-Returns `200 OK` if successful. Returns `400 Bad Request` if something is wrong with either password.
+Retorna `200 OK` se bem-sucedido. Retorna `400 Bad Request` se algo estiver errado com qualquer uma das senhas.
 
-## Reset Logged-In User Password {#reset-logged-in-user-pw}
+## Redefinir senha de usuário conectado {#reset-logged-in-user-pw}
 
-`PUT` Um método para redefinir o usuário conectado no momento. [!UICONTROL Audience Management] envia ao usuário uma senha gerada pelo sistema.
+Um `PUT` método para redefinir o usuário conectado no momento. [!UICONTROL Audience Management] envia ao usuário uma senha gerada pelo sistema.
 
 <!-- r_rest_api_user_password_reset.xml -->
 
 >[!NOTE]
 >
->Whereas most [!DNL API] methods are only callable by partner admins, this method is callable by non-admin users.
+>Enquanto a maioria dos [!DNL API] métodos só é chamável por administradores de parceiros, esse método é chamável por usuários não administradores.
 
 ### Solicitação
 
 `POST /self/reset-password`
 
-Returns `200 OK` if successful.
+Retorna `200 OK` se bem-sucedido.
 
-## Return User Object for a User ID {#return-user-object-for-id}
+## Retornar objeto de usuário para uma ID de usuário {#return-user-object-for-id}
 
-`Get` Um método para retornar o objeto do usuário para uma ID de usuário.
+Um `Get` método para retornar o objeto de usuário para uma ID de usuário.
 
 <!-- r_rest_api_user_get_user_obj.xml -->
 
@@ -218,15 +218,15 @@ Returns `200 OK` if successful.
 }
 ```
 
-## Return User Object for Logged-In User {#return-user-object-for-logged-in-user}
+## Retornar objeto de usuário para usuário conectado {#return-user-object-for-logged-in-user}
 
-`Get` Um método para retornar o objeto do usuário para o usuário conectado no momento.
+Um `Get` método para retornar o objeto de usuário para o usuário conectado no momento.
 
 <!-- r_rest_api_user_get_self.xml -->
 
 >[!NOTE]
 >
->Whereas most [!DNL API] methods are only callable by partner admins, this method is callable by non-admin users.
+>Enquanto a maioria dos [!DNL API] métodos só é chamável por administradores de parceiros, esse método é chamável por usuários não administradores.
 
 ### Solicitação
 
@@ -250,9 +250,9 @@ Returns `200 OK` if successful.
 }
 ```
 
-## List Users {#list-users}
+## Listar usuários {#list-users}
 
-A `GET` method to list users.
+Um `GET` método para listar usuários.
 
 <!-- r_rest_api_user_list.xml -->
 
@@ -260,7 +260,7 @@ A `GET` method to list users.
 
 `GET /api/v1/users/`
 
-Você pode especificar várias IDs de grupo nos parâmetros de consulta:
+É possível especificar várias IDs de grupo nos parâmetros de consulta:
 
 `GET /api/v1/users/?groupId=343&groupdId=12`
 
@@ -286,7 +286,7 @@ Essa consulta retorna uma lista de todos os usuários nos grupos especificados.
 
 ## Delete a User {#delete-users}
 
-A `DELETE` method to delete a user.
+Um `DELETE` método para excluir um usuário.
 
 <!-- r_rest_api_user_delete.xml -->
 
@@ -294,11 +294,11 @@ A `DELETE` method to delete a user.
 
 `DELETE /api/v1/users/`*`<user_id>`*
 
-Returns `204 No Content` if successful. In case of conflict returns `409 Conflict`.
+Retorna `204 No Content` se bem-sucedido. Em caso de retornos em conflito `409 Conflict`.
 
-## Delete Users in Bulk {#delete-users-bulk}
+## Excluir usuários em massa {#delete-users-bulk}
 
-A `POST` method to delete multiple users in bulk.
+Um `POST` método para excluir vários usuários em massa.
 
 <!-- r_rest_api_user_delete_bulk.xml -->
 
@@ -306,7 +306,7 @@ A `POST` method to delete multiple users in bulk.
 
 `POST /api/v1/users/bulk-delete`
 
-### Exemplo de corpo da solicitação
+### Corpo de solicitação de amostra
 
 ```
 {[<user_id_1>, <user_id_2>, ...]}
