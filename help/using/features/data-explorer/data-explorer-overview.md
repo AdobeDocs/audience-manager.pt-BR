@@ -1,43 +1,43 @@
 ---
-description: Use o Explorer de dados para colocar em capitalização públicos-alvo históricos criando características baseadas em sinais usados e não usados e preenchendo-os com dados históricos para evitar a perda potencial de públicos-alvo relevantes.
-seo-description: Use o Explorer de dados para colocar em capitalização públicos-alvo históricos criando características baseadas em sinais usados e não usados e preenchendo-os com dados históricos para evitar a perda potencial de públicos-alvo relevantes.
+description: Use o Data Explorer para capitalizar públicos históricos, criando características baseadas em sinais usados e não utilizados, e preenchendo-os com dados históricos para evitar a perda potencial de públicos relevantes.
+seo-description: Use o Data Explorer para capitalizar públicos históricos, criando características baseadas em sinais usados e não utilizados, e preenchendo-os com dados históricos para evitar a perda potencial de públicos relevantes.
 seo-title: Visão geral, benefícios e casos de uso
 title: Visão geral, benefícios e casos de uso
-uuid: 3 bd 32 d 4 a-ade 3-413 d -837 a -9 edd 14 d 415 a 5
+uuid: 3bd32d4a-ade3-413d-837a-9edd14d415a5
 translation-type: tm+mt
 source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
 
 ---
 
 
-# Data Explorer - Overview, Benefits, and Use Cases {#overview-benefits-and-use-cases}
+# Data Explorer - Visão geral, benefícios e casos de uso {#overview-benefits-and-use-cases}
 
-Use [!UICONTROL Data Explorer] to capitalize on historical audiences by building traits based on used and unused signals, and backfilling them with historical data to avoid potential loss of relevant audiences.
+Use [!UICONTROL Data Explorer] para capitalizar públicos históricos construindo características baseadas em sinais usados e não utilizados e preenchendo-os retroativamente com dados históricos para evitar a potencial perda de públicos relevantes.
 
 ## Visão geral {#overview}
 
-Criar características com base em insights existentes relacionados ao público-alvo é um processo bastante simples, desde que você sempre saiba quem é o público-alvo. Mas com que frequência isso ocorre?
+Criar características com base em insights existentes relacionados ao seu público é um processo bastante simples, desde que você sempre saiba quem é seu público-alvo. Mas com que frequência isso acontece?
 
-[!UICONTROL Data Explorer] simplifica o processo de gerenciamento de características ao oferecer um grau maior de flexibilidade quando se trata de uma curadoria de taxonomia. Two [!UICONTROL Data Explorer] components help you achieve this:
+[!UICONTROL Data Explorer] simplifica o processo de gerenciamento de características e, ao mesmo tempo, oferece um maior grau de flexibilidade na curadoria de taxonomia. Dois [!UICONTROL Data Explorer] componentes ajudam você a alcançar isso:
 
-* [Sinaliza o Painel](../../features/data-explorer/data-explorer-signals-dashboard.md) e [!UICONTROL Signals Search] ajuda a acompanhar os sinais recebidos [!DNL Audience Manager] por que você pode usar novos traços ou adicionar a eles.
+* [Painel](../../features/data-explorer/data-explorer-signals-dashboard.md) de Sinais e [!UICONTROL Signals Search] ajuda você a rastrear os sinais recebidos pelo [!DNL Audience Manager] qual você pode usar para criar novas características ou adicionar às existentes.
 
-* [O Preenchimento retroativo](../../features/data-explorer/data-explorer-trait-backfill.md) de realização de características ajuda você a qualificar públicos-alvo históricos para características recém-criadas, para que você possa incluí-los em esforços de definição de metas futuros.
+* [O preenchimento retroativo](../../features/data-explorer/data-explorer-trait-backfill.md) da definição de características ajuda a qualificar públicos históricos para características recém-criadas, para que você possa incluí-los em esforços de definição de metas futuros.
 
 ## Benefícios {#benefits}
 
-Use [!UICONTROL Data Explorer] to optimize your audience building in multiple ways:
+Use [!UICONTROL Data Explorer] para otimizar sua criação de público-alvo de várias maneiras:
 
-* **Concentre-se em públicos-alvo de alto valor**. Monitore as mudanças de tendência na pesquisa e no comportamento de navegação nas suas páginas e crie traços específicos para seu comportamento. Elimine a necessidade de criar "apenas caso" características e foco em sinais relevantes.
-* **Evite perda de dados**. Preenchimento retroativo de características com experiências históricas para que você não perca os segmentos do público porque você não criou características antes de receber os sinais.
-* **Melhore o fluxo de trabalho**. Detecte sinais de tendência e os transforme rapidamente em traços acionáveis.
+* **Concentre-se em públicos** de alto valor. Monitore as alterações de tendências no comportamento de pesquisa e navegação em suas páginas e crie características específicas para o comportamento. Elimine a necessidade de criar características "justas" e se concentre em sinais relevantes.
+* **Evite perda** de dados. Preencha retroativamente características com realizações históricas para que você não perca os segmentos do público-alvo porque não criou características antes de receber os sinais.
+* **Melhore seu fluxo de trabalho**. Descubra os sinais de tendência e transforme-os rapidamente em características acionáveis.
 
 ## Casos de uso {#use-cases-data-explorer}
 
 ### Exemplo 1
 
-Um revendedor de eletrônicos global tem um alto volume de tráfego de visitantes, mas as taxas de conversão são menores do que o esperado, embora tenham otimizado o conteúdo para várias plataformas. Using the [Signals Dashboard](../../features/data-explorer/data-explorer-signals-dashboard.md), they identify a high volume of unused signals, indicating that visitors are searching for a specific electronics brand not currently in stock. A empresa pode aproveitar esse insight ao atualizar seu estoque e direcionar os visitantes com campanhas personalizadas.
+Um varejista global de eletrônicos tem um grande volume de tráfego de visitantes, mas as taxas de conversão são menores do que o esperado, embora tenham otimizado o conteúdo para várias plataformas. Usando o Painel [de](../../features/data-explorer/data-explorer-signals-dashboard.md)Sinais, eles identificam um grande volume de sinais não utilizados, indicando que os visitantes estão procurando por uma marca eletrônica específica que não está atualmente no estoque. A empresa pode aproveitar esse insight atualizando seu estoque e direcionando os visitantes com campanhas personalizadas.
 
 ### Exemplo 2
 
-Depois que um provedor de serviços de viagem adiciona novos destinos ao seu site de reserva, eles desejam anunciar a públicos-alvo históricos, embora eles não tenham características criadas para eles. They can use Signals Search to identify the unused signals related to the new destinations, include them in new traits and [backfill](../../features/data-explorer/data-explorer-trait-backfill.md) them with historical realizations. Em seguida, crie novos segmentos com as novas características e direcione-os imediatamente com campanhas dedicadas.
+Depois que um provedor de serviços de viagens adiciona novos destinos ao site de reservas, ele quer anunciá-los a públicos históricos, embora não tenham características criadas para eles. Eles podem usar a Pesquisa de Sinais para identificar os sinais não utilizados relacionados aos novos destinos, incluí-los em novas características e [preenchê](../../features/data-explorer/data-explorer-trait-backfill.md) -los retroativamente com as realizações históricas. Em seguida, crie novos segmentos com as novas características e direcione-os imediatamente com campanhas dedicadas.
