@@ -4,33 +4,33 @@ seo-description: Métodos que permitem trabalhar programaticamente com recursos 
 seo-title: Métodos da API de destino
 solution: Audience Manager
 title: Métodos da API de destino
-uuid: 048 bcdb 9-2 b 31-46 f 4-8 b 80-4 ba 25 bf 06640
+uuid: 048bcdb9-2b31-46f4-8b80-4ba25bf06640
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Destination API Methods {#destination-api-methods}
+# Métodos da API de destino {#destination-api-methods}
 
 Métodos que permitem trabalhar programaticamente com recursos de destino.
 
 <!-- c_destinations_api.xml -->
 
-In Audience Manager, a destination is any other system (ad server, [!DNL DSP], ad network, exchange, your own first-party cookie, etc.) que deseja compartilhar dados.
+No Audience Manager, o destino é qualquer outro sistema (servidor de anúncios, rede de anúncios, troca, cookie próprio, etc.) [!DNL DSP] com os quais você deseja compartilhar dados.
 
-## Destination Types: URL and Cookie {#destination-types}
+## Tipos de Destino: URL e cookie {#destination-types}
 
-Lists the variables used by the `destinationType` parameter. Specify `push` or `ADS` to work with a [!UICONTROL URL] or [!UICONTROL cookie destination]. You cannot create [!UICONTROL server-to-server destinations] with the available destination [!DNL API] methods.
+Lista as variáveis usadas pelo `destinationType` parâmetro. Especifique `push` ou `ADS` para trabalhar com um [!UICONTROL URL] ou [!UICONTROL cookie destination]. Não é possível criar [!UICONTROL server-to-server destinations] com os [!DNL API] métodos de destino disponíveis.
 
 <!-- r_destination_types.xml -->
 
-| Tipo de destino da API | Tipo de destino da interface |
+| Tipo de destino da API | Tipo de Destino da IU |
 |---|---|
 | `PUSH` | [!UICONTROL URL] |
 | `ADS` | [!UICONTROL Cookie] |
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
 >* [Como escolher um tipo de destino](../../../features/destinations/destinations.md)
 
