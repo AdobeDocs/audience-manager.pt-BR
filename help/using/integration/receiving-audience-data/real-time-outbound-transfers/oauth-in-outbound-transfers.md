@@ -1,10 +1,10 @@
 ---
-description: Ao publicar segmentos no destino do parceiro por meio de uma integração de servidor a servidor em tempo real, o Audience Manager pode ser configurado para autenticação usando oauth 2.0 ao fazer as solicitações. Isso apresenta a capacidade de emitir solicitações autenticadas do Audience Manager para o terminal.
-seo-description: Ao publicar segmentos no destino do parceiro por meio de uma integração de servidor a servidor em tempo real, o Audience Manager pode ser configurado para autenticação usando oauth 2.0 ao fazer as solicitações. Isso apresenta a capacidade de emitir solicitações autenticadas do Audience Manager para o terminal.
-seo-title: Integração do oauth 2.0 para transferências de saída em tempo real
+description: Ao publicar segmentos no destino do parceiro por meio de uma integração de servidor para servidor em tempo real, o Audience Manager pode ser configurado para autenticação usando o OAuth 2.0 ao fazer as solicitações. Isso apresenta a capacidade de emitir solicitações autenticadas do Audience Manager para o terminal.
+seo-description: Ao publicar segmentos no destino do parceiro por meio de uma integração de servidor para servidor em tempo real, o Audience Manager pode ser configurado para autenticação usando o OAuth 2.0 ao fazer as solicitações. Isso apresenta a capacidade de emitir solicitações autenticadas do Audience Manager para o terminal.
+seo-title: Integração do OAuth 2.0 para transferências de saída em tempo real
 solution: Audience Manager
-title: Integração do oauth 2.0 para transferências de saída em tempo real
-uuid: a 39 e 370 c-b 3 bd -4 b 06-a 1 af -60 a 024 ee 7 ee 4
+title: Integração do OAuth 2.0 para transferências de saída em tempo real
+uuid: a39e370c-b3bd-4b06-a1af-60a024ee7ee4
 translation-type: tm+mt
 source-git-commit: 1cc8afd25331528fd67922183b6550288b9939bc
 
@@ -13,35 +13,35 @@ source-git-commit: 1cc8afd25331528fd67922183b6550288b9939bc
 
 # [!DNL OAuth 2.0] Integração para transferências de saída em tempo real{#oauth-integration-for-real-time-outbound-transfers}
 
-When publishing segments to the partner destination via a realtime server-to-server integration, Audience Manager can be set up to authenticate using [!DNL OAuth 2.0] when making the requests. Isso apresenta a capacidade de emitir solicitações autenticadas do Audience Manager para o terminal.
+Ao publicar segmentos no destino do parceiro por meio de uma integração de servidor para servidor em tempo real, o Audience Manager pode ser configurado para autenticação usando [!DNL OAuth 2.0] ao fazer as solicitações. Isso apresenta a capacidade de emitir solicitações autenticadas do Audience Manager para o terminal.
 
-## Authentication Flow {#auth-flow}
+## Fluxo de autenticação {#auth-flow}
 
-The [!DNL Adobe Audience Manager] [OAuth 2.0](https://tools.ietf.org/html/rfc6749#section-4.4) authentication implementation is based on the Client Credentials grant flow and follows these steps:
+A implementação da autenticação [!DNL Adobe Audience Manager] OAuth 2.0 [](https://tools.ietf.org/html/rfc6749#section-4.4) é baseada no fluxo de concessão de Credenciais do Cliente e segue estas etapas:
 
-1. Você deve fornecer:
-   * The [!DNL OAuth 2.0] endpoint that generates the authentication token.
+1. Você deve nos fornecer:
+   * O [!DNL OAuth 2.0] terminal que gera o token de autenticação.
    * As credenciais usadas para gerar um token.
-1. An [!DNL Audience Manager] consultant sets up the [destination](../../../features/destinations/destinations.md) using the information you provided.
-1. Once a segment is mapped to this destination, our real-time data transfer system, [IRIS](../../../reference/system-components/components-data-action.md#iris), makes a `POST` request to the token endpoint to exchange the credentials for a bearer token.
-1. For each segment publishing request to the partner endpoint, [!UICONTROL IRIS] uses the bearer token to authenticate.
+1. Um [!DNL Audience Manager] consultor configura o [destino](../../../features/destinations/destinations.md) usando as informações fornecidas.
+1. Quando um segmento é mapeado para esse destino, nosso sistema de transferência de dados em tempo real, [IRIS](../../../reference/system-components/components-data-action.md#iris), faz uma `POST` solicitação ao ponto final do token para trocar as credenciais por um token do portador.
+1. Para cada solicitação de publicação de segmento para o terminal do parceiro, [!UICONTROL IRIS] usa o token do portador para autenticar.
 
 ![](assets/oauth2-iris.png)
 
 ## Exigências {#auth-requirements}
 
-As an [!DNL Audience Manager] partner, the following endpoints are needed to receive authenticated requests:
+Como um [!DNL Audience Manager] parceiro, os seguintes pontos finais são necessários para receber solicitações autenticadas:
 
-### Endpoint 1 usado pela íris para obter um token de atendimento
+### Ponto de extremidade 1 usado pelo IRIS para obter um token do portador
 
-Esse terminal aceitará as credenciais fornecidas na etapa 1 e gerará um token de sinal que será usado em solicitações subsequentes.
+Esse terminal aceitará as credenciais fornecidas na etapa 1 e gerará um token de portador que será usado em solicitações subsequentes.
 
-* The endpoint must accept `HTTP POST` requests.
-* The endpoint must accept and look at the [!DNL Authorization] header. The value for this header will be: `Basic <credentials_provided_by_partner>`.
-* The endpoint must look at the [!DNL Content-type] header and validate that its value is `application/x-www-form-urlencoded ; charset=UTF-8`.
-* The body of the request will be `grant_type=client_credentials`.
+* O terminal deve aceitar `HTTP POST` solicitações.
+* O terminal deve aceitar e observar o [!DNL Authorization] cabeçalho. O valor deste cabeçalho será: `Basic <credentials_provided_by_partner>`.
+* O ponto de extremidade deve verificar o [!DNL Content-type] cabeçalho e validar se seu valor é `application/x-www-form-urlencoded ; charset=UTF-8`.
+* O corpo da solicitação será `grant_type=client_credentials`.
 
-### Exemplo de solicitação feita pelo Audience Manager ao endpoint do parceiro para obter um token de portador
+### Exemplo de solicitação feita pelo Audience Manager para o terminal do parceiro para obter um token do portador
 
 ```
 POST /oauth2/token HTTP/1.1
@@ -55,7 +55,7 @@ Accept-Encoding: gzip
 grant_type=client_credentials
 ```
 
-### Exemplo de resposta do endpoint do parceiro
+### Exemplo de resposta do ponto de extremidade do parceiro
 
 ```
 HTTP/1.1 200 OK
@@ -68,13 +68,13 @@ Content-Length: 121
 {"token_type":"Bearer","access_token":"glIbBVohK8d86alDEnllPWi6IpjZvJC6kwBRuuawts6YMkw4tZkt84rEZYU2ZKHCQP3TT7PnzCQPI0yY"}
 ```
 
-### Endpoint 2 usado pela íris para publicar segmentos usando o token do bearer
+### Ponto de extremidade 2 usado pelo IRIS para publicar segmentos usando o token do portador
 
-[!DNL Audience Manager] envia dados para esse endpoint em tempo próximo à medida que usuários se qualificam para segmentos. Além disso, esse método pode enviar lotes de dados offline ou integrados com frequência a cada 24 horas.
+[!DNL Audience Manager] envia dados para esse terminal em tempo quase real, à medida que os usuários se qualificam para segmentos. Além disso, esse método pode enviar lotes de dados offline ou integrados com uma frequência de até 24 horas.
 
-O token do bearer gerado pelo endpoint 1 é usado para emitir solicitações para esse endpoint. The [!DNL Audience Manager] real-time data transfer system, [IRIS](../../../reference/system-components/components-data-action.md#iris), constructs a normal HTTPS request and includes an Authorization header. The value for this header will be: Bearer `<bearer token from step 1>`.
+O token do portador gerado pelo ponto de extremidade 1 é usado para emitir solicitações para esse ponto de extremidade. O sistema de transferência de dados em tempo [!DNL Audience Manager] real, [IRIS](../../../reference/system-components/components-data-action.md#iris), constrói uma solicitação HTTPS normal e inclui um cabeçalho de Autorização. O valor deste cabeçalho será: Portador `<bearer token from step 1>`.
 
-### Exemplo de resposta do endpoint do parceiro
+### Exemplo de resposta do ponto de extremidade do parceiro
 
 ```
 GET /segments/aam HTTP/1.1
@@ -105,14 +105,14 @@ Accept-Encoding: gzip
 
 >[!NOTE]
 >
->Esta solicitação contém uma carga padrão (conteúdo de solicitação).
+>Essa solicitação contém uma carga padrão (conteúdo da solicitação).
 
-## Important Considerations {#considerations}
+## Considerações importantes {#considerations}
 
 ### Tokens são senhas
 
-The credentials presented by the partner and the tokens obtained by [!DNL Audience Manager] when authenticating using the [!DNL OAuth 2.0] flow, are sensitive information and must not be shared with third parties.
+As credenciais apresentadas pelo parceiro e os tokens obtidos ao [!DNL Audience Manager] autenticar usando o fluxo [!DNL OAuth 2.0] , são informações confidenciais e não devem ser compartilhados com terceiros.
 
 ### [!DNL SSL] é obrigatório
 
-[!DNL SSL] deve ser usado para manter um processo de autenticação seguro. All requests, including the ones used to obtain and use the tokens must use `HTTPS` endpoints.
+[!DNL SSL] deve ser usada para manter um processo de autenticação seguro. Todas as solicitações, incluindo as usadas para obter e usar os tokens, devem usar `HTTPS` pontos finais.
