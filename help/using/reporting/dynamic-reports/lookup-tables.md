@@ -1,19 +1,19 @@
 ---
-description: Coloque dados nos arquivos de log de entrega de entrega em tabelas que contêm apenas IDs. Coloque metadados não ID em tabelas de pesquisa separadas para ajudar a reduzir o tamanho do arquivo e o tempo de processamento.
-seo-description: Coloque dados nos arquivos de log de entrega de entrega em tabelas que contêm apenas IDs. Coloque metadados não ID em tabelas de pesquisa separadas para ajudar a reduzir o tamanho do arquivo e o tempo de processamento.
-seo-title: Melhorar tempos de processamento de arquivos de log com tabelas de pesquisa
+description: Coloque os dados nos arquivos de log do relatório Desempenho da entrega em tabelas que contêm somente IDs. Coloque metadados que não sejam ID em tabelas de pesquisa separadas para ajudar a reduzir o tamanho do arquivo e os tempos de processamento.
+seo-description: Coloque os dados nos arquivos de log do relatório Desempenho da entrega em tabelas que contêm somente IDs. Coloque metadados que não sejam ID em tabelas de pesquisa separadas para ajudar a reduzir o tamanho do arquivo e os tempos de processamento.
+seo-title: Melhore os tempos de processamento do arquivo de log com tabelas de pesquisa
 solution: Audience Manager
-title: Melhorar tempos de processamento de arquivos de log com tabelas de pesquisa
-uuid: ffc 77618-474 b -455 e -9 c 91-15 b 32 fc 151 a 5
+title: Melhore os tempos de processamento do arquivo de log com tabelas de pesquisa
+uuid: ffc77618-474b-455e-9c91-15b32fc151a5
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Improve Log File Processing Times with Lookup Tables{#improve-log-file-processing-times-with-lookup-tables}
+# Melhore os tempos de processamento do arquivo de log com tabelas de pesquisa{#improve-log-file-processing-times-with-lookup-tables}
 
-Coloque dados nos arquivos de log de entrega de entrega em tabelas que contêm apenas IDs. Coloque metadados não ID em tabelas de pesquisa separadas para ajudar a reduzir o tamanho do arquivo e o tempo de processamento.
+Coloque os dados nos arquivos de log do relatório Desempenho da entrega em tabelas que contêm somente IDs. Coloque metadados que não sejam ID em tabelas de pesquisa separadas para ajudar a reduzir o tamanho do arquivo e os tempos de processamento.
 
 <!-- 
 
@@ -21,33 +21,33 @@ c_lookup_tables.xml
 
  -->
 
-## Os metadados do arquivo de log aumentam o tamanho e o tempo de processamento do arquivo
+## Metadados de arquivos de log aumentam o tamanho do arquivo e o tempo de processamento
 
-A typical log file used by the [!UICONTROL Delivery Performance] report usually contains thousands of rows and dozens of columns. Ela consiste em IDs numéricas e informações legível por humanos, como nomes para anúncios, anunciantes, pedidos de inserção etc.
+Um arquivo de log comum usado pelo [!UICONTROL Delivery Performance] relatório geralmente contém milhares de linhas e dezenas de colunas. Ele consiste em IDs numéricas e informações legíveis para humanos, como nomes para criativos, anunciantes, pedidos de inserção etc.
 
-This non-ID information is referred to as *`metadata`* (i.e., information about other information) and gets written in each row of the log file.
+Essas informações não ID são chamadas *`metadata`* (ou seja, informações sobre outras informações) e são gravadas em cada linha do arquivo de log.
 
-However, the [!UICONTROL Delivery Performance] report mainly works with the IDs in the log file. Os metadados são úteis, mas repetitivos. Aumenta o tamanho do arquivo e os tempos de ingestão dos dados.
+No entanto, o [!UICONTROL Delivery Performance] relatório funciona principalmente com as IDs no arquivo de log. Os metadados são úteis, mas repetitivos. Isso aumenta o tamanho do arquivo e os tempos de ingestão de dados.
 
-## Reduzir tamanho de arquivo e reduzir tempo de processamento com tabelas de índice
+## Reduza o tamanho do arquivo e o tempo de processamento com tabelas de índice
 
-Para ajudar a melhorar o desempenho, seu arquivo de dados principal deve conter apenas IDs. Coloque metadados em uma tabela de pesquisa (ou índice) separada e vincule esses registros ao arquivo principal com uma variável chave comum a ambos.
+Para ajudar a melhorar o desempenho, o arquivo de dados principal deve conter apenas IDs. Coloque os metadados em uma tabela de pesquisa (ou índice) separada e vincule esses registros ao arquivo principal com uma variável chave comum a ambos.
 
 ## Como as tabelas de pesquisa reduzem o tamanho do arquivo
 
-Considere que você tem um arquivo de dados semelhante ao abaixo.
+Digamos que você tenha um arquivo de dados que se pareça com o que está abaixo.
 
 | ID de usuário | ID do anúncio | Nome do anúncio | ID do pedido | Nome da Ordem | ID do anunciante | Nome do anunciante |
 |---|---|---|---|---|---|---|
-| 1 | 111 | Shoe A | 456 | Tneakers | 27 | Empresa A |
-| 2 | 111 | Shoe A | 456 | Tneakers | 27 | Empresa A |
-| 3 | 111 | Shoe A | 456 | Tneakers | 27 | Empresa A |
-| 4 | 222 | Shoe B | 789 | Hiking | 14 | Empresa B |
-| 5 | 222 | Shoe B | 789 | Hiking | 14 | Empresa B |
+| 1 | 111 | Sapato A | 456 | Tênis | 27 | Empresa A |
+| 2 | 111 | Sapato A | 456 | Tênis | 27 | Empresa A |
+| 3 | 111 | Sapato A | 456 | Tênis | 27 | Empresa A |
+| 4 | 222 | Sapato B | 789 |  Caminho | 14 | Empresa B |
+| 5 | 222 | Sapato B | 789 |  Caminho | 14 | Empresa B |
 
 <br> 
 
-Aqui está o mesmo arquivo de log com os metadados removidos. O arquivo é menor e mais fácil de processar quando é formado por IDs apenas.
+Aqui está o mesmo arquivo de log com os metadados removidos. O arquivo é menor e mais fácil de processar quando consiste apenas em IDs.
 
 | ID de usuário | ID do anúncio | ID do pedido | ID do anunciante |
 |---|---|---|---|
@@ -59,18 +59,18 @@ Aqui está o mesmo arquivo de log com os metadados removidos. O arquivo é menor
 
 <br> 
 
-O arquivo de pesquisa abaixo contém os metadados e pode ser vinculado novamente ao arquivo principal com a ID do anúncio. Observe também o tamanho. Em vez de repetir cada anunciante várias vezes, você precisa apenas de uma referência para cada um.
+O arquivo de pesquisa abaixo contém os metadados e pode ser vinculado de volta ao arquivo principal com a ID do anúncio. Observe o tamanho também. Em vez de repetir cada anunciante várias vezes, você só precisa de uma referência para cada.
 
 | ID do anúncio | Nome do anúncio | Nome da Ordem | Nome do anunciante |
 |---|---|---|---|
-| 111 | Shoe A | Tneakers | Empresa A |
-| 222 | Shoe B | Hiking | Empresa B |
+| 111 | Sapato A | Tênis | Empresa A |
+| 222 | Sapato B |  Caminho | Empresa B |
 
-## As apis podem eliminar a necessidade das tabelas de pesquisa
+## As APIs podem eliminar a necessidade de tabelas de pesquisa
 
-Se o seu sistema de serviço de publicidade tiver uma API, talvez você não precise enviar metadados em um arquivo de pesquisa. Talvez seja possível obter essas informações por meio da API. Nesse caso, os arquivos de registro devem conter apenas IDs. Trabalharemos com você para determinar se os metadados podem ser obtidos por meio de uma API.
+Se seu sistema de serviço de anúncios tiver uma API, talvez você não precise enviar metadados em um arquivo de pesquisa. Talvez possamos obter essas informações por meio da API. Nesse caso, seus arquivos de registro devem conter apenas IDs. Trabalharemos com você para determinar se os metadados podem ser obtidos por meio de uma API.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
 >* [Relatório de entrega e desempenho](../../reporting/dynamic-reports/delivery-performance-report.md)
 
