@@ -1,11 +1,11 @@
 ---
-description: No Audience Manager, um destino é qualquer sistema de terceiros (servidor de anúncios, DSP, rede de anúncios etc.) que deseja compartilhar dados. Construtor de destinos é a ferramenta usada para criar e gerenciar cookies, URL ou destinos de servidor a servidor.
-keywords: código de integração, destino, visão geral de destino, destino, destino, destino, destino, destino, destino, destino, destino, destino, destino, destino
-seo-description: No Audience Manager, um destino é qualquer sistema de terceiros (servidor de anúncios, DSP, rede de anúncios etc.) que deseja compartilhar dados. Construtor de destinos é a ferramenta usada para criar e gerenciar cookies, URL ou destinos de servidor a servidor.
+description: No Audience Manager, um destino é qualquer sistema de terceiros (servidor de anúncios, DSP, rede de anúncios etc.) com os quais você deseja compartilhar dados. O Construtor de destinos é a ferramenta usada para criar e gerenciar cookies, URL ou destinos de servidor para servidor.
+keywords: código de integração, destino, visão geral do destino, destino, destino, destino, destino, destino, destino, destino, destino, destino, destino, destino, destino
+seo-description: No Audience Manager, um destino é qualquer sistema de terceiros (servidor de anúncios, DSP, rede de anúncios etc.) com os quais você deseja compartilhar dados. O Construtor de destinos é a ferramenta usada para criar e gerenciar cookies, URL ou destinos de servidor para servidor.
 seo-title: Destinos
 solution: Audience Manager
 title: Destinos
-uuid: 5 c 7 dbdec-f 73 f -46 fe -9 f 12-7685 e 8 d 7334 f
+uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
 translation-type: tm+mt
 source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
 
@@ -14,36 +14,36 @@ source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
 
 # Visão geral dos destinos {#destinations}
 
-No Audience Manager, um destino é qualquer sistema de terceiros (servidor de anúncios, [!DNL DSP]rede de anúncios, etc.) que deseja compartilhar dados. [!UICONTROL Destination Builder] é a ferramenta usada para criar e gerenciar cookies, [!DNL URL]ou destinos de servidor a servidor.
+No Audience Manager, um destino é qualquer sistema de terceiros (servidor de anúncios, rede de anúncios [!DNL DSP]etc.) com os quais você deseja compartilhar dados. [!UICONTROL Destination Builder] é a ferramenta usada para criar e gerenciar cookies [!DNL URL]ou destinos servidor a servidor.
 
-## Finalidade e vantagens {#purposes}
+## Propósito e vantagens {#purposes}
 
 <!-- c_destinations.xml -->
 
-[!UICONTROL Destinations] e [!UICONTROL Destination Builder] permite criar destinos e enviar informações sobre usuários segmentados ao seu parceiro de dados. Isso ajuda você a:
+[!UICONTROL Destinations] e [!UICONTROL Destination Builder] permite criar destinos e enviar informações sobre usuários segmentados para seu parceiro de dados. Isso ajuda você a:
 
-* **Proteger o valor de dados:** Em vez de enviar todos os dados do usuário para um destino, [!UICONTROL Destination Builder] permita que você compartilhe informações específicas apenas sobre usuários qualificados.
-* **Execute ações em seus dados:** Enviar dados para um parceiro de destino os ajuda a desenvolver e direcionar rapidamente os segmentos de público-alvo qualificados.
-* **Reduzir sobrecarga técnica:** Os usuários corporativos podem configurar destinos com segurança na [!UICONTROL Destination Builder] interface. Isso ajuda a reduzir o tempo necessário para o teste pré-implantação. Com [!UICONTROL Destination Builder], você pode criar, gerenciar e excluir destinos conforme suas necessidades de negócios mudam, tudo sem trabalhar em um longo ciclo de desenvolvimento.
+* **** Proteger o valor dos dados: Em vez de enviar todos os dados do usuário para um destino, [!UICONTROL Destination Builder] permita que você compartilhe informações específicas apenas sobre usuários qualificados.
+* **** Execute ações em seus dados: O envio de dados para um parceiro de destino ajuda a desenvolver e direcionar rapidamente segmentos de público-alvo qualificados.
+* **** Reduza a sobrecarga técnica: Os usuários comerciais podem configurar destinos com segurança na [!UICONTROL Destination Builder] interface. Isso ajuda a reduzir o tempo necessário para testes de pré-implantação. Com [!UICONTROL Destination Builder], você cria, gerencia e exclui destinos à medida que suas necessidades comerciais mudam, tudo isso sem trabalhar em um longo ciclo de desenvolvimento.
 
 ## Considerações técnicas {#technical-considerations}
 
 <!-- destination-delivery-methods.xml -->
 
-A entrega de dados depende de como seu parceiro de dados deseja ou pode receber informações de destino. As restrições técnicas ou de engenharia podem impedir que um destino receba dados por meio [!DNL URL]de processos, cookies ou processos de servidor a servidor. Entre em contato com seu parceiro de terceiros para determinar qual método eles podem usar.
+A entrega de dados depende de como seu parceiro de dados deseja ou pode receber informações de destino. As restrições técnicas ou de engenharia podem impedir que um destino receba dados por meio de processos [!DNL URL], cookies ou servidor a servidor. Trabalhe com um parceiro de terceiros para determinar que método eles podem usar.
 
 ## Considerações comerciais {#business-considerations}
 
-As decisões empresariais para selecionar um método de entrega em outro dependem dos recursos técnicos do seu parceiro de destino e do que você deseja fazer com informações de usuário qualificadas. Por exemplo, as restrições técnicas podem limitar suas opções se um destino não puder receber dados por um método de entrega específico. No entanto, se não houver problemas técnicos, você pode enviar informações com base em como deseja tomar uma ação nesses dados. Por exemplo:
+As decisões de negócios para selecionar um método de entrega em vez de outro dependem dos recursos técnicos do seu parceiro de destino e do que você deseja fazer com informações qualificadas do usuário. Por exemplo, restrições técnicas podem limitar suas opções se um destino não puder receber dados por um método de entrega específico. No entanto, se não houver problemas técnicos, você poderá enviar informações com base em como deseja tomar medidas nesses dados. Por exemplo:
 
-* [!DNL URL]os destinos s e cookies funcionam quase sincronicamente com as ações do usuário em uma página.
-* Métodos de servidor para servidor são bons para criar segmentos profundos do público com o tempo.
+* [!DNL URL]Os destinos com base em cookies e s funcionam quase sincronicamente com as ações do usuário em uma página.
+* Os métodos servidor a servidor são bons para construir segmentos profundos do público ao longo do tempo.
 
-## Tipos de destino e usos típicos {#destination-types}
+## Tipos de destino e usos comuns {#destination-types}
 
 Os exemplos na tabela a seguir podem ajudá-lo a entender quando usar um destino específico e as diferenças entre cada tipo.
 
-| Tipo de destino | Normalmente usada quando | Exemplo | Considerações |
+| Tipo de destino | Normalmente Usado Quando | Exemplo | Considerações |
 |--- |--- |--- |--- |
-| **URL** ou **cookie** | É necessário transferir dados imediatamente para que um destino possa agir em um usuário qualificado imediatamente. | Envio de dados de um site de compra de bilhetes. Use um URL ou destino do cookie para qualificar usuário e redirecionar imediatamente. | <ul><li>Transfere dados apenas sobre novos visitantes. </li><li>Os visitantes devem ser vistos novamente para se qualificarem para o segmento.</li></ul> |
-| **Servidor a servidor** | <ul><li>A transferência imediata de dados não é necessária.</li><li>Coleta de dados para criar um grande conjunto de público-alvo de usuários qualificados.</li></ul> | Coleta de dados ao longo do tempo (horas ou dias) para usá-los em uma campanha definida para ser executada em uma data posterior. | <ul><li>Transfere dados sobre visitantes novos e anteriores do site. </li><li>Os visitantes não precisam ser vistos novamente para se qualificarem para outros segmentos.</li></ul> |
+| **URL** ou **cookie** | É necessário transferir dados imediatamente para que um destino possa agir imediatamente em um usuário qualificado. | Envio de dados de um site de compra de tíquete. Use um URL ou um destino de cookie para qualificar o usuário e redirecionar imediatamente. | <ul><li>Transfere dados somente sobre novos visitantes. </li><li>Os visitantes devem ser vistos novamente para se qualificarem para o segmento.</li></ul> |
+| **Servidor para servidor** | <ul><li>Não é necessária a transferência imediata de dados.</li><li>Coleta de dados para criar um grande pool de usuários qualificados.</li></ul> | Coletando dados ao longo do tempo (horas ou dias) para usá-los em um conjunto de campanhas para execução em uma data posterior. | <ul><li>Transfere dados sobre visitantes do site novos e anteriores. </li><li>Os visitantes não precisam ser vistos novamente para se qualificarem para outros segmentos.</li></ul> |
