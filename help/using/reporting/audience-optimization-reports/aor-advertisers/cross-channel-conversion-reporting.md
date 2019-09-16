@@ -1,10 +1,10 @@
 ---
-description: A opção Conversão entre canais nos relatórios de Otimização de público-alvo permite atribuir conversões offline para impressões online ou cliques.
-seo-description: A opção Conversão entre canais nos relatórios de Otimização de público-alvo permite atribuir conversões offline para impressões online ou cliques.
+description: A opção Conversão entre canais nos relatórios de Otimização de público-alvo permite que você atribua conversões offline a impressões ou cliques online oferecidos.
+seo-description: A opção Conversão entre canais nos relatórios de Otimização de público-alvo permite que você atribua conversões offline a impressões ou cliques online oferecidos.
 seo-title: Conversão entre canais
 solution: Audience Manager
 title: Conversão entre canais
-uuid: 0 fecec 23-e 502-490 b-b 7 dd -47 a 3753 a 3 f 75
+uuid: 0fecec23-e502-490b-b7dd-47a3753a3f75
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
@@ -13,15 +13,15 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Conversão entre canais{#cross-channel-conversion}
 
-A opção Conversão entre canais nos relatórios de Otimização de público-alvo permite atribuir conversões offline para impressões online ou cliques.
+A opção Conversão entre canais nos relatórios de Otimização de público-alvo permite que você atribua conversões offline a impressões ou cliques online oferecidos.
 
-[!UICONTROL Cross Channel Conversion] Os relatórios combinam resultados da plataforma [!DNL DoubleClick Campaign Manager] (DCM) com características [!DNL Audience Manager] de conversão. Isso permite vincular conversões offline a impressões online ou cliques.
+Os [!UICONTROL Cross Channel Conversion] relatórios combinam os resultados da plataforma [!DNL DoubleClick Campaign Manager] (DCM) com as características de [!DNL Audience Manager] conversão. Isso permite vincular conversões offline a impressões ou cliques online.
 
-You can use the [!UICONTROL Cross Channel Conversion] for the [Segment Performance](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) and [Optimal Frequency](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md) reports.
+Você pode usar o [!UICONTROL Cross Channel Conversion] para os relatórios Desempenho [do](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) segmento e Frequência [](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md) ideal.
 
-To view the [!UICONTROL Cross Channel Conversion] reports, select the **[!UICONTROL AAM+DCM]** item in the **[!UICONTROL Platform]** drop-down list.
+Para exibir os [!UICONTROL Cross Channel Conversion] relatórios, selecione o **[!UICONTROL AAM+DCM]** item na lista **[!UICONTROL Platform]** suspensa.
 
-The following table lists important considerations when setting up [!UICONTROL Cross Channel Conversion]:
+A tabela a seguir lista considerações importantes ao configurar [!UICONTROL Cross Channel Conversion]:
 
 <table id="table_62590B4AB7624B619EC9AA8FF89722C9"> 
  <thead> 
@@ -33,27 +33,27 @@ The following table lists important considerations when setting up [!UICONTROL C
  <tbody> 
   <tr> 
    <td colname="col01"> <p>Número mínimo de características de conversão </p> </td> 
-   <td colname="col1"> <p>At least one conversion trait must be assigned to a data source in order for the <span class="wintitle"> Cross Channel Conversion</span> reports to run. See <a href="../../../features/traits/create-onboarded-rule-based-traits.md"> Basic Information for Traits</a> for more information on traits. </p> </td> 
+   <td colname="col1"> <p>Pelo menos uma característica de conversão deve ser atribuída a uma fonte de dados para que os relatórios de conversão <span class="wintitle"></span> entre canais sejam executados. Consulte Informações <a href="../../../features/traits/create-onboarded-rule-based-traits.md"> básicas sobre características</a> para obter mais informações sobre características. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>Número máximo de características de conversão </p> </td> 
-   <td colname="col1"> <p>The reports pull in a <i>maximum</i> of 50 conversion traits from the user. Se você atingir o máximo, os relatórios usarão as primeiras 50 características de conversão com base na ID de característica, em ordem crescente. </p> </td> 
+   <td colname="col1"> <p>Os relatórios extraem no <i>máximo</i> 50 características de conversão do usuário. Se você atingir o máximo, os relatórios usarão as primeiras 50 características de conversão com base na ID de característica, em ordem crescente. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Janela de atribuição </p> </td> 
-   <td> <p> <b><span class="uicontrol"> A janela</span></b> de atribuição AAM + DCM é de 14 dias, o que significa que apenas as características de conversão exibidas nas últimas duas semanas são consideradas. </p> </td> 
+   <td> <p> <b><span class="uicontrol"> A janela de atribuição AAM+DCM</span></b> é de 14 dias, o que significa que somente as características de conversão exibidas nas últimas duas semanas são consideradas. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Metodologia do último toque </p> </td> 
-   <td> <p>O anúncio visto por último pelo usuário antes da conversão é aquele que recebe a conversão. </p> </td> 
+   <td> <p>Metodologia de último toque </p> </td> 
+   <td> <p>O anúncio que o usuário viu por último antes da conversão é aquele que recebeu a conversão. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Cliques versus impressões </p> </td> 
-   <td> <p>Um clique tem precedência sobre uma impressão ao decidir a atribuição se ocorrer ao mesmo tempo. Por exemplo, em uma página em que várias criações são exibidas, a conversão clicada recebe a conversão. </p> </td> 
+   <td> <p>Um clique tem precedência sobre uma impressão ao decidir a atribuição se ela ocorrer ao mesmo tempo. Por exemplo, em uma página onde várias criações são exibidas, a que está sendo clicada recebe a conversão. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Idade dos dados </p> </td> 
-   <td> <p>Os relatórios são sempre calculados para dados disponíveis no dia anterior. </p> </td> 
+   <td> <p>Recência de dados </p> </td> 
+   <td> <p>Os relatórios são sempre calculados para os dados disponíveis no dia anterior. </p> </td> 
   </tr> 
  </tbody> 
 </table>
