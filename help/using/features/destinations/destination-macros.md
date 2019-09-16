@@ -4,24 +4,24 @@ seo-description: Descreve as macros que podem ser adicionadas a um URL de destin
 seo-title: Macros de destino definidas
 solution: Audience Manager
 title: Macros de destino definidas
-uuid: 982 cab 05-8 a 3 f -4 f 96-b 4 d 0-291709712 ad 1
+uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Destination Macros Defined {#destination-macros-defined}
+# Macros de destino definidas {#destination-macros-defined}
 
-Describes the macros you can add to a destination [!DNL URL].
+Descreve as macros que podem ser adicionadas a um destino [!DNL URL].
 
 <!-- destination-macros.xml -->
 
-When creating a [!DNL URL] destination, you can insert the following macros into the [!DNL URL] string. Check with your data/destination partner about proper macro placement within the destination [!DNL URL].
+Ao criar um [!DNL URL] destino, você pode inserir as seguintes macros na [!DNL URL] string. Verifique com seu parceiro de dados/destino se a macro está posicionada corretamente no destino [!DNL URL].
 
 >[!NOTE]
 >
->As macros são opcionais, a menos que seja indicado contrário. *Itálico* indica um marcador de posição variável.
+>As macros são opcionais, salvo indicação em contrário. *Itálico* indica um marcador de posição variável.
 
 <table id="table_2C532EFB9DAE41B08714753EBD7DFB05"> 
  <thead> 
@@ -33,74 +33,74 @@ When creating a [!DNL URL] destination, you can insert the following macros into
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> %alias%</code> </p> </td> 
-   <td colname="col2"> <p>Obrigatório. </p> <p>Define o local do valor do segmento mapeado em um URL de destino. Usually this is the <i>Segment ID</i>, but could also be the integration code. </p> </td> 
+   <td colname="col2"> <p>Obrigatório. </p> <p>Define o local do valor do segmento mapeado em um URL de destino. Geralmente, essa é a ID <i>do</i>segmento, mas também pode ser o código de integração. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> %did%</code> </p> </td> 
-   <td colname="col2"> <p>Inserts the user's <span class="keyword"> Audience Manager</span> ID into the destination URL. </p> </td> 
+   <td colname="col2"> <p>Insere a ID do Audience Manager <span class="keyword"></span> do usuário no URL de destino. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>% dpid_<i>data source id</i>%</code> </p> </td> 
-   <td colname="col2"> <p>The <i>data source id</i> corresponds to the identifier for a data source passed in to the macro. </p> <p>Vejamos como isso funciona em um exemplo simples. In this case, we have an <span class="keyword"> Audience Manager</span> partner with the following IDs and conditions: </p> 
+   <td colname="col1"> <p> <code>%dpid_id<i>da fonte de dados id</i>%</code> </p> </td> 
+   <td colname="col2"> <p>A ID <i>da fonte de</i> dados corresponde ao identificador de uma fonte de dados transmitida para a macro. </p> <p>Vejamos como isto funciona num exemplo simples. Nesse caso, temos um parceiro <span class="keyword"> Audience Manager</span> com as seguintes IDs e condições: </p> 
     <ul id="ul_697508B437EB4090B121AFA5D519AFBE"> 
-     <li id="li_32D9F72A7D1543A892DC7E1529E98A96">Data source ID: <code> 1</code> </li> 
-     <li id="li_099F5B63D2244B5AADA9B26CB6152E6B">An internal customer ID: <code> CustomerABC</code> </li> 
-     <li id="li_0D9FE501C16444DDB388C8E934E5A8C6">Declared ID: The partner wants to pass in these values as the declared ID <code> 1:CustomerABC</code>. </li> 
-    </ul> <p>To do this with the <code>%dpid_<i>data source id</i>%</code>, the <span class="keyword"> Audience Manager</span> partner would format the macro like this: </p> 
+     <li id="li_32D9F72A7D1543A892DC7E1529E98A96">ID da fonte de dados: <code> 1</code> </li> 
+     <li id="li_099F5B63D2244B5AADA9B26CB6152E6B">Uma ID interna do cliente: <code> Cliente ABC</code> </li> 
+     <li id="li_0D9FE501C16444DDB388C8E934E5A8C6">ID declarada: O parceiro deseja transmitir esses valores como a ID declarada <code> 1:CustomerABC</code>. </li> 
+    </ul> <p>Para fazer isso com o <code>%dpid_<i>data source id</i>%</code>, o parceiro do <span class="keyword"> Audience Manager</span> formataria a macro da seguinte maneira: </p> 
     <ul class="simplelist"> 
-     <li> <code> % dpid_ 1%</code> </li> 
-    </ul> <p>The macro will replace <code> 1</code> with <code> CustomerABC</code>. </p> <p> 
+     <li> <code> %dpid_1%</code> </li> 
+    </ul> <p>A macro substituirá <code> 1</code> pelo <code> cliente ABC</code>. </p> <p> 
      <draft-comment>
-       Com base no AAM -22193 https://jira.corp.adobe.com/browse/AAM-22193 
+       Baseado no AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193 
      </draft-comment> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> % http_ proto %</code> </p> </td> 
-   <td colname="col2"> <p>Detecta o protocolo usado na página da Web principal e o insere no URL de destino. Por exemplo: 
+   <td colname="col1"> <p><code> %http_proto%</code> </p> </td> 
+   <td colname="col2"> <p>Detecta o protocolo usado na página da Web pai e o insere no URL de destino. Por exemplo: 
      <br> 
      <ul id="ul_026F56EC46E94D9EB1153557C0F65325"> 
-      <li id="li_B41EF140CC274CB68FE7213DD8B908C0">if the webpage is <b>https</b>://aam_client.com, this macro will be replaced with <b>https</b>://url-destination.com </li> 
-      <li id="li_BDCD6EA69B004A92BA6981952341BD77">if the webpage is <b>http</b>://aam_client.com, this macro will be replaced with <b>http</b>://url-destination.com </li> 
+      <li id="li_B41EF140CC274CB68FE7213DD8B908C0">se a página da Web for <b>https</b>://aam_client.com, esta macro será substituída por <b>https</b>://url-destination.com </li> 
+      <li id="li_BDCD6EA69B004A92BA6981952341BD77">se a página da Web for <b>http</b>://aam_client.com, esta macro será substituída por <b>http</b>://url-destination.com </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> % mcid %</code> </p> </td> 
-   <td colname="col2"> <p>Inserts the <span class="keyword"> Experience Cloud</span> ID into the destination URL. </p> </td> 
+   <td colname="col1"> <p><code> %mcid%</code> </p> </td> 
+   <td colname="col2"> <p>Insere a <span class="keyword"> Experience Cloud</span> ID no URL de destino. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> % region %</code> </p> </td> 
-   <td colname="col2"> <p>Inserts the <span class="wintitle"> Data Collection Server (DCS)</span> region into the destination URL. In order to minimize latency, when the visitor makes an HTTP call to <span class="keyword"> Audience Manager</span>, they are being redirected to the closest <span class="wintitle"> DCS</span> datacenter. Isso é obtido por meio de DNS, que pode detectar o local do visitante e direcioná-lo para o datacenter apropriado. </p> </td> 
+   <td colname="col1"> <p><code> %region%</code> </p> </td> 
+   <td colname="col2"> <p>Insere a região <span class="wintitle"> Data Collection Server (DCS)</span> no URL de destino. Para minimizar a latência, quando o visitante faz uma chamada HTTP para o <span class="keyword"> Audience Manager</span>, ele está sendo redirecionado para o datacenter <span class="wintitle"> DCS</span> mais próximo. Isso é obtido por meio do DNS, que é capaz de detectar a localização do visitante e direcioná-lo para o data center apropriado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> % rnd %</code> </p> </td> 
-   <td colname="col2"> <p>Realiza uma função de bloqueio de cache inserindo um número aleatório no URL de destino. Isso impede que os navegadores servam conteúdo em cache. </p> </td> 
+   <td colname="col1"> <p> <code> %rnd%</code> </p> </td> 
+   <td colname="col2"> <p>Executa uma função de cache busting inserindo um número aleatório no URL de destino. Isso impede que os navegadores disponibilizem conteúdo em cache. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> %timestamp%</code> </p> </td> 
-   <td colname="col2"> <p>Insere um carimbo de data e hora UNIX no URL de destino para impedir que os navegadores servam conteúdo em cache. </p> </td> 
+   <td colname="col2"> <p>Insere um carimbo de data e hora UNIX no URL de destino para impedir que os navegadores disponibilizem conteúdo em cache. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Cache Busting with Destination Macros {#destination-cache-busting}
+## Compuração de cache com macros de destino {#destination-cache-busting}
 
-The `%rnd%` and `%timestamp%` macros insert unique values into a [!DNL URL] string to prevent browser caching.
+As macros `%rnd%` e `%timestamp%` os inserem valores exclusivos em uma [!DNL URL] sequência de caracteres para impedir o armazenamento em cache do navegador.
 
-## Cache Busting with `%rnd%` and `%timestamp%` {#dest-cache-busting}
+## Cache Busting com `%rnd%` e `%timestamp%`{#dest-cache-busting}
 
 <!-- c_dest_cache_busting.xml -->
 
-Conteúdo com cache de navegadores (salvar) frequentemente solicitado na memória. Quando uma página é carregada, o conteúdo salvo é proveniente do cache e não de um servidor remoto. Esse processo ajuda a manter tempos de download eficientes, pois os dados servem localmente e não de outro local. No entanto, como o armazenamento em cache não exige uma chamada de servidor, ele pode distorcer o relatório diminuindo artificialmente o número de solicitações exclusivas.
+O cache dos navegadores (salvar) solicitava com frequência o conteúdo na memória. Quando uma página é carregada, o conteúdo salvo serve do cache em vez de de um servidor remoto. Esse processo ajuda a manter tempos de download eficientes, pois os dados são fornecidos localmente, em vez de em outro local. No entanto, como o armazenamento em cache não requer uma chamada de servidor, ele pode distorcer o relatório ao reduzir artificialmente o número de solicitações exclusivas.
 
-A interrupção do cache impede que os navegadores salvem e reutilizem conteúdo. Essa técnica usa o código que insere um número aleatório ou um carimbo de data e hora em uma string de URL, o que torna a aparência exclusiva do navegador. As a result, each `HTTP` call is counted as a separate request to the server. Forçar uma nova chamada de servidor para cada solicitação ajuda a manter a precisão do relatório e reduzir discrepâncias. [!DNL Audience Manager] fornece duas macros para bloqueio de cache:
+A eliminação de cache impede que os navegadores salvem e reutilizem conteúdo. Essa técnica usa um código que insere um número aleatório ou carimbo de data e hora em uma string de URL, o que faz com que pareça exclusivo para o navegador. Como resultado, cada `HTTP` chamada é contada como uma solicitação separada para o servidor. Forçar uma nova chamada de servidor para cada solicitação ajuda a manter a precisão dos relatórios e a reduzir as discrepâncias. [!DNL Audience Manager] fornece duas macros para o cache busting:
 
 * `%rnd%`: Insere um número aleatório em um URL.
-* `%timestamp%`: Insere a data/hora Unix em um URL.
+* `%timestamp%`: Insere a data/hora do Unix em um URL.
 
-## Comparing `%rnd%` and `%timestamp%` {#compare-rnd-timestamp}
+## Comparação `%rnd%` e `%timestamp%`{#compare-rnd-timestamp}
 
-Both macros prevent caching, but `%rnd%` may be more efficient. For example, with `%timestamp%`, if several users view a page simultaneously they'll get the same date/time value. As a result, the [!DNL URL] is not unique and multiple calls are counted only once. However, `%rnd%` generates a unique numeric value for each call (even when users see the same page simultaneously). This means the [!DNL URL] string contains different values and is counted as unique.
+Ambas as macros impedem o cache, mas `%rnd%` podem ser mais eficientes. Por exemplo, com `%timestamp%`, se vários usuários visualizarem uma página simultaneamente, eles obterão o mesmo valor de data/hora. Como resultado, as chamadas não [!DNL URL] são exclusivas e várias são contadas apenas uma vez. No entanto, `%rnd%` gera um valor numérico exclusivo para cada chamada (mesmo quando os usuários veem a mesma página simultaneamente). Isso significa que a [!DNL URL] string contém valores diferentes e é contada como exclusiva.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
 >* [Macros de destino definidas](../../features/destinations/destination-macros.md#destination-macros-defined)
