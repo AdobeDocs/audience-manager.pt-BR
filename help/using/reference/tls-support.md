@@ -1,10 +1,10 @@
 ---
-description: Transport Layer Security (TLS) é um protocolo criptográfico usado para estabelecer um canal de comunicações seguras entre dois sistemas. É usado para autenticar um ou ambos sistemas, além de proteger a confidencialidade e a integridade das informações que passam entre sistemas. Em maio de 2018, há três versões do protocolo TLS em uso do TLS 1.0, 1.1 e 1.2.
-seo-description: Transport Layer Security (TLS) é um protocolo criptográfico usado para estabelecer um canal de comunicações seguras entre dois sistemas. É usado para autenticar um ou ambos sistemas, além de proteger a confidencialidade e a integridade das informações que passam entre sistemas. Em maio de 2018, há três versões do protocolo TLS em uso do TLS 1.0, 1.1 e 1.2.
+description: O Transport Layer Security (TLS) é um protocolo criptográfico usado para estabelecer um canal de comunicação seguro entre dois sistemas. É utilizado para autenticar um ou ambos os sistemas e proteger a confidencialidade e integridade da informação transmitida entre sistemas. Em maio de 2018, há três versões do protocolo TLS em uso com TLS 1.0, 1.1 e 1.2.
+seo-description: O Transport Layer Security (TLS) é um protocolo criptográfico usado para estabelecer um canal de comunicação seguro entre dois sistemas. É utilizado para autenticar um ou ambos os sistemas e proteger a confidencialidade e integridade da informação transmitida entre sistemas. Em maio de 2018, há três versões do protocolo TLS em uso com TLS 1.0, 1.1 e 1.2.
 seo-title: Descontinuação do TLS 1.0
 solution: Audience Manager
 title: Descontinuação do TLS 1.0
-uuid: 6 a 820 e 63-dd 49-4689-9596-940 aabba 18 ec
+uuid: 6a820e63-dd49-4689-9596-940aabba18ec
 translation-type: tm+mt
 source-git-commit: f54064793aac81e3dd58e3b8966760f74c962880
 
@@ -13,9 +13,9 @@ source-git-commit: f54064793aac81e3dd58e3b8966760f74c962880
 
 # Descontinuação do TLS 1.0{#tls-deprecation}
 
-Transport Layer Security (TLS) é um protocolo criptográfico usado para estabelecer um canal de comunicações seguras entre dois sistemas. É usado para autenticar um ou ambos sistemas, além de proteger a confidencialidade e a integridade das informações que passam entre sistemas. Em maio de 2018, há três versões do protocolo TLS em uso: TLS 1.0, 1.1 e 1.2.
+O Transport Layer Security (TLS) é um protocolo criptográfico usado para estabelecer um canal de comunicação seguro entre dois sistemas. É utilizado para autenticar um ou ambos os sistemas e proteger a confidencialidade e integridade da informação transmitida entre sistemas. Em maio de 2018, há três versões do protocolo TLS em uso: TLS 1.0, 1.1 e 1.2.
 
-In March 2019, [!DNL Adobe] has ended support for the [!DNL TLS 1.0] protocol. Adobe Audience Manager functionality does not work for your end users that use browsers which only support [!DNL TLS 1.0]. In fact, we recommend the use of [!DNL TLS 1.2], which is, at the time of writing, the latest version of the protocol. All modern browsers use [!DNL TLS 1.2]. We have collected for you a list of browsers,versions, and their [!DNL TLS] support. For more information, visit [this Wikipedia link](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers).
+Em março de 2019, [!DNL Adobe] terminou o apoio ao [!DNL TLS 1.0] protocolo. A funcionalidade do Adobe Audience Manager não funciona para seus usuários finais que usam navegadores compatíveis apenas [!DNL TLS 1.0]. Na verdade, recomendamos o uso do protocolo, que é, na hora da redação, a última versão do protocolo. [!DNL TLS 1.2] Todos os navegadores modernos usam [!DNL TLS 1.2]. Coletamos para você uma lista de navegadores, versões e seu [!DNL TLS] suporte. Para obter mais informações, visite [este link](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers)da Wikipedia.
 
 <table id="table_C273E20039074BB7B6CFB1B877A086B8"> 
  <thead> 
@@ -34,10 +34,10 @@ In March 2019, [!DNL Adobe] has ended support for the [!DNL TLS 1.0] protocol. A
    <td colname="col2"> <p>1 - 21 </p> </td> 
    <td colname="col03" morerows="2"> <p> 
      <ul id="ul_73F2C4C645E1411ABB3AD7ABD1013C59"> 
-      <li id="li_EBFC73DCEF3342DDADFF2CBA716DFE93">Windows (7 +) </li> 
-      <li id="li_75D0A27BB3B246AC8456B0A984BD5DBD">OS X (10.9 +) </li> 
-      <li id="li_60C1FA4C61EF4AD68719384CDEFC2CF0">Linux Android (4.1 +) </li> 
-      <li id="li_761665B51622486FA0D6ABBDAA1DCA60">iOS (9.0 +) </li> 
+      <li id="li_EBFC73DCEF3342DDADFF2CBA716DFE93">Windows (7+) </li> 
+      <li id="li_75D0A27BB3B246AC8456B0A984BD5DBD">OS X (10.9+) </li> 
+      <li id="li_60C1FA4C61EF4AD68719384CDEFC2CF0">Linux Android (4.1+) </li> 
+      <li id="li_761665B51622486FA0D6ABBDAA1DCA60">iOS (9.0+) </li> 
       <li id="li_9E19588870DA4EFB963C0C650116DC94">Chrome OS </li> 
      </ul> </p> </td> 
    <td colname="col3"> <p>Sim </p> </td> 
@@ -72,7 +72,7 @@ In March 2019, [!DNL Adobe] has ended support for the [!DNL TLS 1.0] protocol. A
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" morerows="2"> <p>Navegador do sistema operacional Google Android </p> </td> 
+   <td colname="col1" morerows="2"> <p>Google Android OS Browser </p> </td> 
    <td colname="col2"> <p>Android 1.0 - 4.0.4 </p> </td> 
    <td colname="col3" morerows="2"> N/A </td> 
    <td colname="col4"> <p>Sim </p> </td> 
@@ -107,19 +107,19 @@ In March 2019, [!DNL Adobe] has ended support for the [!DNL TLS 1.0] protocol. A
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" morerows="3"> <p>Mozilla Firefox (Firefox for Mobile) </p> </td> 
+   <td colname="col1" morerows="3"> <p>Mozilla Firefox (Firefox para dispositivos móveis) </p> </td> 
    <td colname="col2"> <p>1.0 - ESR 17.0.11 </p> </td> 
    <td colname="col3" morerows="3"> <p> 
      <ul id="ul_617CE841EC7743A08BE004E309A3B0D7"> 
-      <li id="li_1A189B9BE2AD4305AF786FBC41A321AC">Windows (7 +) </li> 
-      <li id="li_E5EF7410AEE948A68F4E3D6D1290B5A4">OS X (10.9 +) </li> 
-      <li id="li_320467E34FC44492877283935553B87A">Linux Android (4.1 +) </li> 
-      <li id="li_6827CD3D51B24B54BDCA0DAE7DD43696">iOS (9.0 +) </li> 
+      <li id="li_1A189B9BE2AD4305AF786FBC41A321AC">Windows (7+) </li> 
+      <li id="li_E5EF7410AEE948A68F4E3D6D1290B5A4">OS X (10.9+) </li> 
+      <li id="li_320467E34FC44492877283935553B87A">Linux Android (4.1+) </li> 
+      <li id="li_6827CD3D51B24B54BDCA0DAE7DD43696">iOS (9.0+) </li> 
       <li id="li_B4C08937A5BD47188A97E03AF2F3689B">Chrome OS </li> 
      </ul> </p> <p>ESR apenas para: 
      <ul id="ul_6AF06AEC2B494912BA480EA8FF54BF80"> 
-      <li id="li_DB30E35051474FBEABE70C69292037DE">Windows (XP SP 2 +) </li> 
-      <li id="li_B412EDEF4FEC4AC9A17C7152BA493768">OS X (10.9 +) </li> 
+      <li id="li_DB30E35051474FBEABE70C69292037DE">Windows (XP SP2+) </li> 
+      <li id="li_B412EDEF4FEC4AC9A17C7152BA493768">OS X (10.9+) </li> 
       <li id="li_C2E18F13BFE24C55A7C14488F115810C"> Linux </li> 
      </ul> </p> </td> 
    <td colname="col4"> <p>Sim </p> </td> 
@@ -199,7 +199,7 @@ In March 2019, [!DNL Adobe] has ended support for the [!DNL TLS 1.0] protocol. A
    <td colname="col3"> <p> 
      <ul id="ul_7DB290171B744FC6A45E999A7F85265D"> 
       <li id="li_B69400528CB64CB2994F4FB8CF3B4A2A">Windows 7, 8 </li> 
-      <li id="li_B759C917E04F4A12826C9ABAE4A7C476">Windows Server 2002, Server 2008, Server 2008 R 2 </li> 
+      <li id="li_B759C917E04F4A12826C9ABAE4A7C476">Windows Server 2002, Server 2008, Server 2008 R2 </li> 
      </ul> </p> </td> 
    <td colname="col4"> <p>Sim </p> </td> 
    <td colname="col5"> <p>Desativado por padrão </p> </td> 
@@ -210,7 +210,7 @@ In March 2019, [!DNL Adobe] has ended support for the [!DNL TLS 1.0] protocol. A
    <td colname="col3"> <p> 
      <ul id="ul_66FB6A2D1ADD447FB58BE9A8550CB34F"> 
       <li id="li_CA93F2471EEE404992792918E46D27A0">Windows 7, 8.1, 10 </li> 
-      <li id="li_97CE6072071748318B9A33ECD7009F8A">Windows Server 2008, Server 2012, Server 2012 R 2, Server 2016, Server 2019 </li> 
+      <li id="li_97CE6072071748318B9A33ECD7009F8A">Windows Server 2008, Server 2012, Server 2012 R2, Server 2016, Server 2019 </li> 
      </ul> </p> </td> 
    <td colname="col4"> <p>Sim </p> </td> 
    <td colname="col5"> <p>Sim </p> </td> 
@@ -302,9 +302,9 @@ In March 2019, [!DNL Adobe] has ended support for the [!DNL TLS 1.0] protocol. A
    <td colname="col2"> <p>1 - 4 </p> </td> 
    <td colname="col3" morerows="7"> <p> 
      <ul id="ul_0B243815FE07488F934B61C1ABF30F38"> 
-      <li id="li_73A74B30C935451FA0870177E7DE91AC">Windows (7 +) </li> 
-      <li id="li_E0CC0A99244443488026F4EA82027EE0">OS X (10.9 +) </li> 
-      <li id="li_F04CA1BD8DAD473CABCD64221883FA56">Linux Android (4.0 +) </li> 
+      <li id="li_73A74B30C935451FA0870177E7DE91AC">Windows (7+) </li> 
+      <li id="li_E0CC0A99244443488026F4EA82027EE0">OS X (10.9+) </li> 
+      <li id="li_F04CA1BD8DAD473CABCD64221883FA56">Linux Android (4.0+) </li> 
      </ul> </p> </td> 
    <td colname="col4"> <p>Não </p> </td> 
    <td colname="col5"> <p>Não </p> </td> 
