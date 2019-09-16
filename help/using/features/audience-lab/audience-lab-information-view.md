@@ -1,36 +1,36 @@
 ---
-description: Esta seção exibe informações gerais sobre o grupo de teste e os segmentos de teste que ele está dividido, os traços de conversão selecionados e destinos mapeados. A seção também fornece controles para duplicar ou excluir o grupo de teste.
-seo-description: Esta seção exibe informações gerais sobre o grupo de teste e os segmentos de teste que ele está dividido, os traços de conversão selecionados e destinos mapeados. A seção também fornece controles para duplicar ou excluir o grupo de teste.
-seo-title: Informações do grupo de teste
+description: Esta seção exibe informações gerais sobre o grupo de teste e os segmentos de teste nos quais ele está dividido, as características de conversão selecionadas e os destinos mapeados. A seção também fornece controles para duplicar ou excluir o grupo de teste.
+seo-description: Esta seção exibe informações gerais sobre o grupo de teste e os segmentos de teste nos quais ele está dividido, as características de conversão selecionadas e os destinos mapeados. A seção também fornece controles para duplicar ou excluir o grupo de teste.
+seo-title: Testar informações do grupo
 solution: Audience Manager
-title: Informações do grupo de teste
+title: Testar informações do grupo
 topic: API DIL
-uuid: a 49 dfdb 3-21 e 1-4 c 3 d-b 957-4 d 445 f 890124
+uuid: a49dfdb3-21e1-4c3d-b957-4d445f890124
 translation-type: tm+mt
 source-git-commit: 668b8ddded63acfa3479860f878cbf84b4f74218
 
 ---
 
 
-# Test Group Information {#test-group-information}
+# Testar informações do grupo {#test-group-information}
 
-Esta seção exibe informações gerais sobre o grupo de teste e os segmentos de teste que ele está dividido, os traços de conversão selecionados e destinos mapeados. A seção também fornece controles para duplicar ou excluir o grupo de teste.
+Esta seção exibe informações gerais sobre o grupo de teste e os segmentos de teste nos quais ele está dividido, as características de conversão selecionadas e os destinos mapeados. A seção também fornece controles para duplicar ou excluir o grupo de teste.
 
-Também é possível ver informações sobre o segmento de linha de base que você usou para o grupo de teste e como os segmentos de teste são divididos.
+Você também pode ver informações sobre o segmento de linha de base usado para o grupo de teste e como os segmentos de teste são divididos.
 
-The **[!UICONTROL Test Segments]** are populated randomly with users from the baseline segment you used for the test group. A visão geral mostra as porcentagens de usuários que você alocou para cada segmento de teste.
+Os **[!UICONTROL Test Segments]** são preenchidos aleatoriamente com usuários do segmento de linha de base usado para o grupo de teste. A visão geral mostra as porcentagens de usuários alocados para cada segmento de teste.
 
-The **[!UICONTROL Conversion Traits]** drive the reporting for the test groups. To designate a trait as a conversion, when creating or editing traits in the [!UICONTROL Trait Builder], select **Conversion** as **[Event Type](../../features/traits/create-onboarded-rule-based-traits.md).**
+A **[!UICONTROL Conversion Traits]** unidade de relatório para os grupos de teste. Para designar uma característica como conversão, ao criar ou editar características no [!UICONTROL Trait Builder], selecione **Conversão** como Tipo **[](../../features/traits/create-onboarded-rule-based-traits.md)de evento.**
 
-The **[!UICONTROL Destinations]** card is collapsible. Pressione as setas para abrir ou fechar destinos individuais e obter as seguintes informações para segmentos de teste, agrupados pelos destinos que estão mapeados para:
+A **[!UICONTROL Destinations]** placa pode ser recolhida. Pressione as setas para abrir ou fechar destinos individuais e obter as seguintes informações para segmentos de teste, agrupados pelos destinos para os quais estão mapeados:
 
-* o número de dispositivos da população total do segmento de base alocada para cada destino.
+* o número de dispositivos da população total do segmento base alocada para cada destino.
 * chave de mapeamento;
-* mapeamento de valor;
-* [!DNL URL] &amp; proteger [!DNL URL][!DNL URL] destinos.
+* valor do mapeamento;
+* [!DNL URL] &amp; seguro [!DNL URL] para [!DNL URL] destinos.
 
 >[!NOTE]
 >
->Lembre-se de que não é possível editar grupos de teste depois de finalizá-los, você só pode pausar, excluir ou duplicá-los.
+>Lembre-se de que não é possível editar grupos de teste depois de finalizá-los, você só pode pausá-los, excluí-los ou duplicá-los.
 
 ![](assets/test-groups-information.PNG)
