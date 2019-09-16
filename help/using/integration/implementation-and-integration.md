@@ -18,5 +18,5 @@ Trabalhar com dados das soluções da Experience Cloud ou outros sistemas extern
 * [Implementação do Audience Manager](implement-audience-manager.md)
 * [Integração de dados de mídia](/help/using/integration/media-data-integration/media-data-integration.md)
 * [Recebendo dados de público-alvo](/help/using/integration/receiving-audience-data/receiving-audience-data-overview.md)
-* [Envio de dados de público-alvo](/help/using/integration/sending-audience-data/send-audience-data.md)
+* [Envio de dados do público-alvo](/help/using/integration/sending-audience-data/send-audience-data.md)
 * [Parceiros de tecnologia do Audience Manager](/help/using/integration/integrating-third-party/audience-manager-technology-partners.md)
