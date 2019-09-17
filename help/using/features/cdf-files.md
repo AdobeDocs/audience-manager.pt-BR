@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Feeds de dados do cliente
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: c206246a4a586d1148c18e0bce734d07963a85f6
 
 ---
 
@@ -90,7 +90,7 @@ Um [!UICONTROL CDF] arquivo inclui alguns ou todos os campos definidos abaixo. P
   <tr> 
    <td colname="col1"> <p><code> Parâmetros da solicitação</code> </p> </td> 
    <td colname="col2"> <p>String   </p> </td> 
-   <td colname="col3"> <p>Uma string que captura todos os parâmetros (variáveis, IDs, pares chave-valor etc.) passado na chamada de evento. </p> <p>Exemplo abreviado: </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D585810,c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a .PrevSessionLength:583</code> </p> </td> 
+   <td colname="col3"> <p>Uma string que captura todos os parâmetros (variáveis, IDs, pares chave-valor, IDs de publicidade do dispositivo etc.) passado na chamada de evento. </p> <p>Exemplo abreviado: </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D585810,c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a .PrevSessionLength:583</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> Tipo de dados do referenciador</code> </p> </td> 
@@ -193,12 +193,13 @@ As seções abaixo listam e definem os elementos no nome do seu [!UICONTROL CDF]
 
 Um nome de [!UICONTROL CDF] arquivo típico contém os elementos listados abaixo. Note, *italics* indicates a variable placeholder:
 
-* **Sintaxe**
+### Sintaxe
 
-<pre><code>
-s3://aam-cdf/<i>seu nome</i>do bucket s3/day=<i>yyyy-mm-dd</i>/hour=<i>hh</i>/<i>AAM_CDF_partner ID_AAM ID</i>_0.gz</code></pre>
+```
+s3://aam-cdf/YOUR-S3-BUCKET-NAME/day=yyyy-mm-dd/hour=hh/AAM-CDF-PARTNER-ID-AAM PROCESS-ID_0.gz
+```
 
-* **Exemplo**
+### Exemplo
 
 ```
 s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
