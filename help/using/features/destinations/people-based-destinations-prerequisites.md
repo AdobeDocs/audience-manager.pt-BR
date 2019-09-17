@@ -5,7 +5,7 @@ seo-title: Pré-requisitos e Considerações para Destinos Baseados em Pessoas
 solution: Audience Manager
 title: Pré-requisitos e considerações
 translation-type: tm+mt
-source-git-commit: a3380b9019cfc22b020aacc313eafc409486b0c5
+source-git-commit: f3fe6abe913d98549ae6c090a2d5f721485308c2
 
 ---
 
@@ -21,7 +21,7 @@ Leia abaixo para obter uma visão geral dos requisitos do cliente que você prec
 
 [!DNL People-Based Destinations] é um recurso premium que aprimora sua experiência com o Audience Manager, permitindo que você ative segmentos de público-alvo primários em ambientes baseados em pessoas, direcionando seu público-alvo com ofertas personalizadas em redes sociais ou por meio de marketing por email.
 
-Entre em contato com seu representante de vendas da Adobe para obter detalhes sobre como se inscrever no [!DNL People-Based Destinations].
+Entre em contato com seu representante da Adobe para aproveitar esse recurso premium.
 
 ## Pré-requisitos específicos do parceiro {#partner-prerequisites}
 
@@ -55,8 +55,8 @@ O hash é uma função unidirecional que embaralha a entrada para produzir um re
 
 Ao atualizar os endereços de email, certifique-se de cumprir os seguintes requisitos:
 
-* Aparar todos os espaços à esquerda e à direita da string de email;exemplo: `johndoe@example.com`, não `<space>johndoe@example.com<space>`;
-* Verifique se a string com hash está toda em minúsculas;exemplo: `55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`, não `55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`;
+* Aparar todos os espaços à esquerda e à direita da string de email; exemplo: `johndoe@example.com`, não `<space>johndoe@example.com<space>`;
+* Verifique se a string com hash está toda em minúsculas; exemplo: `55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`, não `55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`;
 * Não salve a corda.
 
 A Adobe Experience Cloud oferece a opção de hash de IDs de clientes por meio do Serviço da Experience Cloud ID. Consulte Suporte de hash [SHA256 para setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) para obter informações detalhadas sobre como usar ECID para hash de IDs de clientes.
