@@ -5,7 +5,7 @@ seo-title: Adicionar novos destinos baseados em dispositivo
 solution: Audience Manager
 title: Adicionar novos destinos baseados em dispositivo
 translation-type: tm+mt
-source-git-commit: d185a1d418e99abb99c36b28dfb419a1fb3b60f5
+source-git-commit: bdf4a26fb128e4e76507ce6d7bbb19decb13173e
 
 ---
 
@@ -17,6 +17,10 @@ Este artigo explica como configurar novos destinos baseados em dispositivos a pa
 ## Visão geral {#overview}
 
 O processo de adicionar um novo destino baseado em dispositivo consiste em duas etapas principais. Primeiro, é necessário configurar a integração entre o Audience Manager e o parceiro de destino. Depois de fazer isso, você pode criar um novo destino baseado em dispositivo.
+
+## Pré-requisitos {#prerequisites}
+
+Ao criar o primeiro destino baseado em dispositivo com uma plataforma integrada, entre em contato com a Adobe Consulting ou com o Atendimento ao cliente para ativar a sincronização de ID entre o Audience Manager e a plataforma integrada para sua conta. Isso é necessário para a sincronização correta entre o Audience Manager e a plataforma de destino.
 
 >[!IMPORTANT]
 >
