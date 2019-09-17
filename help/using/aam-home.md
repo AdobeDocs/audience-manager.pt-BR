@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Documentação do produto do Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 translation-type: tm+mt
-source-git-commit: 5ea8e5d7997f192bc41bb9f9e4caa4a86b852a12
+source-git-commit: 54163f2d80398b69faf24c735d04e944eced035c
 
 ---
 
@@ -25,7 +25,11 @@ Este guia de documentação técnica fornece autoajuda para o Audience Manager -
      <li><a href="features/destinations/destinations-home.md">Página inicial de destinos</a> </li>
      <li><a href="features/administration/ip-obfuscation.md">Ofuscação de endereço IP</a> </li>
      </ul> </p> <p>Consulte também, Atualizações <a href="docs-updates/docs-2019.md"> da documentação de</a>2019. </p> 
-     <p>Se você for novo no Audience Manager, consulte nosso <a href="reference/aam-glossary.md"> Glossário</a> e <a href= "reference/ids-in-aam.md">Índice de IDs.</a></p></td>
+     <p>Se você for novo no Audience Manager, consulte nosso <a href="reference/aam-glossary.md"> Glossário</a> e <a href= "reference/ids-in-aam.md">Índice de IDs.</a></p>
+     <br>
+     <p> <b>Documentação colaborativa</b> </p>
+     <p>Saudamos as contribuições de todos os nossos leitores para a nossa documentação. Consulte a Visão geral <a href="https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html">do Guia de</a> colaboração para saber como começar a contribuir.</p>
+    </td>
    <td colname="col2"> <p> <b>Notas de versão</b> </p> <p> 
      <ul id="ul_713F3E9DF0F84FE5981AC63D05948864"> 
       <li id="li_09C1CD15823E4AD7856CE40BE848E03F">Consulte as <a href="https://marketing.adobe.com/resources/help/en_US/whatsnew/" format="https" scope="external">Notas de versão da Experience Cloud</a> para obter novos recursos e correções. </li> 
@@ -34,7 +38,8 @@ Este guia de documentação técnica fornece autoajuda para o Audience Manager -
      <ul id="ul_E30EC96BDC624B5591F0470D430B7F41"> 
       <li id="li_F3A5CCFAE0F247CEB41A03CA8E03106B"><a href="https://forums.adobe.com/community/experience-cloud/analytics-cloud/audience-manager" format="https" scope="external"> Fóruns da comunidade do Audience Manager</a> </li> 
       <li id="li_1737D63307024F26B1F967621613A5AC"><a href="https://www.adobe.com/privacy.html" format="http" scope="external"> Centro de privacidade da Adobe</a> </li> 
-      <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> Treinamento e tutoriais da Adobe</a> </li> 
+      <li><a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html" format="http" scope="external"> Tutoriais do Audience Manager</a> </li> 
+      <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> Treinamento e certificações da Adobe</a> </li> 
       <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://marketing.adobe.com/resources/help/en_US/home/index.html" scope="external" format="https"> Página inicial da documentação do produto</a> </li> 
       <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/support/audience-manager.html" format="https" scope="external"> Aprendizagem e suporte do Audience Manager</a> </li> 
      </ul> </p> </td>
