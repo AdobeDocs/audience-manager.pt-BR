@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Arquivos de dados para relatórios de otimização de público-alvo
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 6e504dabacff9be40633d6c91856b57c6e653f71
 
 ---
 
@@ -30,7 +30,7 @@ A sintaxe a seguir define a estrutura de um nome de arquivo de dados bem formado
 Em um nome de arquivo:
 
 * O tipo de evento indica que o arquivo contém impressões, cliques ou conversões. Crie um arquivo separado para cada tipo de evento.
-* Um sublinhado separa o tipo de evento e um carimbo de data e hora de ano e mês.
+* Um sublinhado separa o tipo de evento e um carimbo de data e hora de ano/mês.
 * Antes de carregar, compacte seus arquivos usando gzip e salve-os com a extensão do `.gz` arquivo.
 
 Dadas estas exigências, nomeie seus arquivos de dados com base em seus conteúdos como este:
@@ -48,7 +48,7 @@ A sintaxe a seguir define a estrutura do conteúdo em um arquivo de dados bem fo
 No conteúdo do arquivo:
 
 * Os rótulos do cabeçalho devem aparecer na ordem, conforme mostrado na tabela abaixo. As impressões e cliques usam os mesmos rótulos. Os arquivos de conversão contêm cabeçalhos adicionais.
-* Se você não tiver dados para uma coluna específica, preencha esse campo com um `NULL` objeto ou `-1`.
+* Se você não tiver dados para uma coluna específica, preencha esse campo com uma `-1`.
 
 * Os arquivos *devem* terminar com um número de versão. A versão atual é 1.1.
 * Separe os cabeçalhos e conteúdos dos arquivos com o caractere ASCII 001 não imprimível. Se você não puder usar ASCII 001, separe os cabeçalhos e dados com um delimitador de tabulação. Como esses são caracteres não imprimíveis, o exemplo de sintaxe acima mostra um pipe somente `"|"` para fins de exibição.
