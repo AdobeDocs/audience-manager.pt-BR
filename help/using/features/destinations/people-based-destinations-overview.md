@@ -5,7 +5,7 @@ seo-title: Destinos baseados em pessoas - Visão geral e casos de uso
 solution: Audience Manager
 title: Visão geral e casos de uso
 translation-type: tm+mt
-source-git-commit: f3fe6abe913d98549ae6c090a2d5f721485308c2
+source-git-commit: 62c27a3990c2c39d069c7a6e4ef32e8e8b3f1998
 
 ---
 
@@ -19,7 +19,7 @@ Use [!DNL People-Based Destinations] para enviar segmentos de público-alvo prim
 [!DNL People-Based Destinations] permite aplicar a segmentação em dados online e offline para criar segmentos de público-alvo com base em identificadores com hash, como endereços de email ou números de telefone. Em seguida, você pode enviar esses segmentos para "jardins instalados", como [!DNL Facebook], onde você pode direcionar seu público-alvo independentemente de suas interações online ou estado de autenticação. [!DNL People-Based Destinations] pode ajudá-lo a:
 
 * Direcione públicos offline e online em plataformas como [!DNL Facebook], com base em endereços de email com hash;
-* Complementar os recursos existentes de segmentação de dispositivos e cookies do Audience Manager;
+* Complementar os recursos existentes de definição de metas de dispositivos e cookies do Audience Manager;
 * Eliminar os custos associados às soluções de integração de dados de terceiros;
 * Eliminar os custos associados ao desenvolvimento de fluxos de trabalho personalizados de integração de dados;
 * públicos-alvo em ambientes sem cookies;
@@ -61,7 +61,7 @@ Para ajudá-lo a entender melhor como e quando você deve usar [!DNL People-Base
 
 ### Use Case #1 {#use-case-1}
 
-Um varejista on-line quer atingir clientes existentes por meio de plataformas sociais e mostrar a eles ofertas personalizadas com base em seus pedidos anteriores. Com [!DNL People-Based Destinations], eles podem assimilar endereços de email com hash [!DNL CRM] para o Audience Manager, criar segmentos a partir dos dados offline e enviar esses segmentos para as plataformas sociais nas quais desejam anunciar, otimizando seus gastos com publicidade.
+Um varejista online quer atingir os clientes existentes por meio de plataformas sociais e mostrar a eles ofertas personalizadas com base em seus pedidos anteriores. Com [!DNL People-Based Destinations], eles podem assimilar endereços de email com hash [!DNL CRM] para o Audience Manager, criar segmentos a partir dos dados offline e enviar esses segmentos para as plataformas sociais nas quais desejam anunciar, otimizando seus gastos com publicidade.
 
 ### Use Case #2 {#use-case-2}
 
