@@ -5,7 +5,7 @@ seo-title: Fluxo de trabalho C - personalização baseada na atividade autentica
 solution: Audience Manager
 title: Fluxo de trabalho C - personalização baseada na atividade autenticada combinada com dados offline
 translation-type: tm+mt
-source-git-commit: d0e343e3fbaf527e9b630dc2dbc851d8f8f4c0b2
+source-git-commit: 455c198d7a096a620a2cf7c8b728b67335eadc8d
 
 ---
 
@@ -70,13 +70,13 @@ Em seguida, você deseja qualificar as IDs de CRM abaixo para a característica 
 
 Sua ID declarada deve seguir esta sintaxe:
 
-`https://yourDomain.demdex.net/event?d_cid_ic=myHashedEmailDataSourceID%01myHashedEmail&d_cid_ic=myCrmDataSourceID%01myCRMID&key=value`
+`https://yourDomain.demdex.net/event?d_cid_ic=HashedEmailDataSourceIntegrationCode%01myHashedEmail&d_cid_ic=CRMDataSourceIntegrationCode%01myCRMID&key=value`
 
  
 
 No exemplo acima, a chamada de ID declarada deve ter a seguinte aparência:
 
-`https://yourDomain.demdex.net/event?d_cid_ic=987654%0155e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149&d_cid_ic=999999%0168079982765673198504052656074456196039&location=US`
+`https://yourDomain.demdex.net/event?d_cid_ic=MyHashedEmailDataSource%0155e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149&d_cid_ic=MyCRMDataSource%0168079982765673198504052656074456196039&location=US`
 
 ## Etapa 3 - Criar uma regra de mesclagem de perfil para segmentação {#create-profile-merge-rule-segmentation}
 
