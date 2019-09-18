@@ -1,12 +1,13 @@
 ---
 description: Lista e descreve a sintaxe e os atributos suportados (ou pares de valores chave) que podem ser transmitidos para os Servidores de Coleta de Dados (DCS). Essas informações podem ajudar a formatar as solicitações do DCS e entender os parâmetros retornados por este sistema.
 seo-description: Lista e descreve a sintaxe e os atributos suportados (ou pares de valores chave) que podem ser transmitidos para os Servidores de Coleta de Dados (DCS). Essas informações podem ajudar a formatar as solicitações do DCS e entender os parâmetros retornados por este sistema.
-seo-title: ' Atributos suportados para chamadas de API DCS'
+seo-title: Atributos suportados para chamadas de API DCS
 solution: Audience Manager
-title: ' Atributos suportados para chamadas de API DCS'
+title: Atributos suportados para chamadas de API DCS
+keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d_dst=1, d_dst_filter, d_mid, d_ptfm, d_nsid, d_rs, d_rtbd=json, d_tdpid_ic
 uuid: 0b98ed11-314b-4500-afde-45a04112150
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 6e2cb69cd2f65851b82ed9a28f4a108562ce6ab8
 
 ---
 
