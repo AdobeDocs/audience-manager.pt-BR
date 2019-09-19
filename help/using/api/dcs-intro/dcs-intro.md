@@ -1,5 +1,5 @@
 ---
-title: ' Métodos e código da API do Data Collection Server (DCS)'
+title: Métodos e código da API do Data Collection Server (DCS)
 seo-title: Métodos e código da API do Servidor de coleta de dados (DCS) para Adobe Audience Manager (AAM)
 description: Código, métodos e técnicas que permitem trabalhar programaticamente com os Servidores de Coleta de Dados do Audience Manager (DCS).
 seo-description: Código, métodos e técnicas que permitem trabalhar programaticamente com os Servidores de Coleta de Dados do Audience Manager (DCS).
@@ -9,7 +9,7 @@ source-git-commit: bbb28802ae70d5e547bd87b1be9ae3149671f5d5
 ---
 
 
-#  Métodos e código da API do Data Collection Server (DCS)
+# Métodos e código da API do Data Collection Server (DCS)
 
 Código, métodos e técnicas que permitem trabalhar programaticamente com os Servidores de Coleta de Dados do Audience Manager (DCS).
 
