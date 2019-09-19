@@ -321,11 +321,11 @@ Para solicitações de não participação, consulte nossa documentação sobre 
 
 Ao enviar solicitações de RGPD ao Adobe Audience Manager, você deve incluir um dos identificadores (IDs) listados abaixo. Você pode encontrar mais informações sobre os formatos de ID em nosso [Índice de IDs](../../reference/ids-in-aam.md)do Audience Manager.
 
-###  ID de usuário exclusiva do Adobe Audience Manager
+### ID de usuário exclusiva do Adobe Audience Manager
 
 **ID** do usuário: aam_uuid
 
-**Definição**: ID de usuário exclusiva do Adobe Audience Manager
+**Definição**:ID de usuário exclusiva do Adobe Audience Manager
 
 **ID** do namespace: 0
 
