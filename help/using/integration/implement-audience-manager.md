@@ -144,7 +144,7 @@ Durante a fase de compilação, teste e treinamento, você revisará a estratég
 
 <!-- c_build_test_train.xml -->
 
-Sua estratégia de coleta de dados será submetida a um teste completo [!DNL QA] . As Soluções de Parceiro rastrearão os erros detectados e coordenarão as resoluções de problemas com nossos engenheiros de sistemas. O treinamento do cliente pode começar em paralelo a esses outros esforços.
+Sua estratégia de coleta de dados será submetida a testes completos [!DNL QA] . As Soluções de Parceiro rastrearão os erros detectados e coordenarão as resoluções de problemas com nossos engenheiros de sistemas. O treinamento do cliente pode começar em paralelo a esses outros esforços.
 
 A tabela a seguir descreve as principais atividades que ocorrem durante essa fase:
 
