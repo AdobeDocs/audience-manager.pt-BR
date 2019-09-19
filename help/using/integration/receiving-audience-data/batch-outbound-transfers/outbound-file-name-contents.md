@@ -145,7 +145,7 @@ Por exemplo, arquivos completos:
  <li> <code> ftp_1234_45454_XYZCustomer_full_1486140843200001.sync.gz </code> </li> 
 </ul>
 
-##  Conteúdo do arquivo de dados de saída: Sintaxe e parâmetros {#outbound-contents-syntax}
+## Conteúdo do arquivo de dados de saída: Sintaxe e parâmetros {#outbound-contents-syntax}
 
 Descreve os campos obrigatórios, a sintaxe e as convenções usadas para organizar informações em um arquivo de dados externo. Formate seus dados de acordo com essas especificações.
 
