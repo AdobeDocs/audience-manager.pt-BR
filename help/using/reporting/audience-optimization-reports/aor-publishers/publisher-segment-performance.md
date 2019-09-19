@@ -1,9 +1,9 @@
 ---
 description: O relatório Desempenho do segmento compara segmentos mapeados e não mapeados por impressões e Únicos de segmentos em tempo real. Um segmento mapeado é um segmento criado e enviado para um destino para definição de metas. Um segmento não mapeado é um segmento criado, mas não enviado para um destino para definição de metas. A comparação desses diferentes tipos de segmentos entre e dentro de relatórios ajuda a otimizar campanhas existentes e a encontrar segmentos ignorados que você pode querer enviar para um destino para definição de metas.
 seo-description: O relatório Desempenho do segmento compara segmentos mapeados e não mapeados por impressões e Únicos de segmentos em tempo real. Um segmento mapeado é um segmento criado e enviado para um destino para definição de metas. Um segmento não mapeado é um segmento criado, mas não enviado para um destino para definição de metas. A comparação desses diferentes tipos de segmentos entre e dentro de relatórios ajuda a otimizar campanhas existentes e a encontrar segmentos ignorados que você pode querer enviar para um destino para definição de metas.
-seo-title: Relatório de desempenho do segmento
+seo-title: ' Relatório de desempenho do segmento'
 solution: Audience Manager
-title: Relatório de desempenho do segmento
+title: ' Relatório de desempenho do segmento'
 uuid: c9a1e9ad-4f3f-4334-a3ff-0f241c7303c4
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
@@ -11,7 +11,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Relatório de desempenho do segmento{#segment-performance-report}
+#  Relatório de desempenho do segmento{#segment-performance-report}
 
 O relatório Desempenho do segmento compara segmentos mapeados e não mapeados por impressões e Únicos de segmentos em tempo real.
 
@@ -61,7 +61,7 @@ O seu [!UICONTROL Segment Performance] relatório pode ser semelhante ao que se 
    <td colname="col2"> <p>O nome alfanumérico atribuído a este segmento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> ID do segmento </p> </td> 
+   <td colname="col1"> <p>ID do segmento </p> </td> 
    <td colname="col2"> <p>A ID exclusiva deste segmento. </p> </td> 
   </tr> 
   <tr> 
