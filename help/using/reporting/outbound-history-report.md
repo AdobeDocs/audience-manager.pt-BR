@@ -1,6 +1,6 @@
 ---
-description: Exibir informações de histórico de trabalho em lote de saída para um destino e um período de tempo especificados.
-seo-description: Exibir informações de histórico de trabalho em lote de saída para um destino e um período de tempo especificados.
+description: Exibir informações de histórico de trabalhos em lote de saída para um destino e um período de tempo especificados.
+seo-description: Exibir informações de histórico de trabalhos em lote de saída para um destino e um período de tempo especificados.
 seo-title: Histórico de Arquivos de Saída
 solution: Audience Manager
 title: Histórico de Arquivos de Saída
@@ -13,7 +13,7 @@ source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
 
 # Histórico de Arquivos de Saída {#outbound-file-history}
 
-Exibir informações de histórico de trabalho em lote de saída para um destino e um período de tempo especificados.
+Exibir informações de histórico de trabalhos em lote de saída para um destino e um período de tempo especificados.
 
 <!-- 
 
