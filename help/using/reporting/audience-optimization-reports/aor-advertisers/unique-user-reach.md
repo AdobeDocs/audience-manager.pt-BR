@@ -3,7 +3,7 @@ description: O relatório de Alcance único do usuário retorna dados em um grá
 seo-description: O relatório de Alcance único do usuário retorna dados em um gráfico de bolhas. Cada bolha é dimensionada em proporção direta ao número de usuários únicos para a dimensão selecionada. Uma bolha maior indica maior alcance do que uma bolha menor. O relatório de Alcance único do usuário ajuda a encontrar o anunciante, a marca, a campanha, a criação, a disposição ou o site que oferece o maior alcance contra os usuários direcionados.
 seo-title: Alcance único do usuário
 solution: Audience Manager
-title: Alcance único do usuário
+title: ' Alcance único do usuário'
 uuid: 897245ab-af6e-42a0-b653-96703b65c764
 translation-type: tm+mt
 source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
