@@ -192,7 +192,7 @@ adobe_dil.api.signals({c_zip : '10010'}).submit();
 >* [Requisitos de prefixo para variáveis-chave](https://marketing.adobe.com/resources/help/en_US/aam/r_tb_variable_prefixes.html)
 
 
-## Tráfego DIL no Google Tag Manager (GTM) {#traffic-dil-gtm}
+##  Tráfego DIL no Google Tag Manager (GTM) {#traffic-dil-gtm}
 
 Configure e forneça DIL com uma tag GTM.
 
