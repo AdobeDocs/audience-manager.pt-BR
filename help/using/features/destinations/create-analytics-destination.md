@@ -10,7 +10,7 @@ source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
 ---
 
 
-# Configurar um destino do Analytics
+#  Configurar um destino do Analytics
 
 ## Exigências {#requirements}
 
