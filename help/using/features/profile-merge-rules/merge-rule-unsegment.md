@@ -1,9 +1,9 @@
 ---
 description: A dessegmentação descreve processos que desqualificam e removem perfis de dispositivos dos segmentos. Sua capacidade de remover um perfil de dispositivo de um segmento depende da opção de dispositivo usada para criar uma Regra de mesclagem de perfil.
 seo-description: A dessegmentação descreve processos que desqualificam e removem perfis de dispositivos dos segmentos. Sua capacidade de remover um perfil de dispositivo de um segmento depende da opção de dispositivo usada para criar uma Regra de mesclagem de perfil.
-seo-title: Regras de mesclagem de perfil e processos de dessegmentação de dispositivo
+seo-title: ' Regras de mesclagem de perfil e processos de dessegmentação de dispositivo'
 solution: Audience Manager
-title: Regras de mesclagem de perfil e processos de dessegmentação de dispositivo
+title: ' Regras de mesclagem de perfil e processos de dessegmentação de dispositivo'
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
@@ -42,7 +42,7 @@ Como lembrete, os [!UICONTROL Device Options] estão disponíveis na [!UICONTROL
 
  -->
 
-## Nenhuma opção de dispositivo e cancelamento de segmentação de dispositivo {#no-device-option}
+## Nenhuma opção de dispositivo e dessegmentação de dispositivo {#no-device-option}
 
 [!DNL Audience Manager] pode remover uma ID entre dispositivos de um segmento quando você [!UICONTROL Profile Merge Rule] usa a opção **[!UICONTROL No Device Profile]** + **[!UICONTROL Current Authenticated]** . Nessas condições, a dessegmentação ocorre quando a ID entre dispositivos não se qualifica mais para um segmento porque as atualizações ou alterações no perfil entre dispositivos a desqualificam. Isso acontece quando os critérios de qualificação de segmento são alterados, ou você aplica um operador a uma regra de segmento, ou especifica condições de [!UICONTROL AND NOT] recenticidade e frequência [](../../features/segments/recency-and-frequency.md) que usam as configurações menores que/iguais. Os casos de uso são descritos na documentação Supressão [interdispositivo](../../features/profile-merge-rules/instant-cross-device-suppression.md) instantânea.
 
