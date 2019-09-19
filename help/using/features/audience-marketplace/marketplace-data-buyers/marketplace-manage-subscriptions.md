@@ -168,7 +168,7 @@ Para cancelar a assinatura de um feed de dados:
 1. Clique no nome do feed de dados no [!UICONTROL Marketplace].
 1. Na [!UICONTROL Use Case] seção, localize o plano que deseja usar e mova o **[!UICONTROL Subscription]** controle deslizante para **[!UICONTROL Off]**.
 
-##  Desativação do feed de dados: Porque acontece e como responder {#data-feed-deactivation-reasons}
+## Desativação do feed de dados: Porque acontece e como responder {#data-feed-deactivation-reasons}
 
 Em [!UICONTROL Audience Marketplace]geral, os provedores de dados podem revogar o acesso aos feeds de dados inscritos. Não fique alarmado se isso acontecer com você. Nós te cobrimos. Consulte esta seção para ver os processos e procedimentos relacionados às desativações do feed de dados.
 
