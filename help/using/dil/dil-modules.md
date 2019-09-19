@@ -21,7 +21,7 @@ c_dil_mods.xml
 
  -->
 
-##  siteCatalyst.init {#sitecat-init}
+## siteCatalyst.init {#sitecat-init}
 
 Funciona com [!UICONTROL DIL] para enviar elementos de [!DNL Analytics] tags (variáveis, props, eVars etc.) para o Audience Manager. Retorna dados em uma lista separada por vírgulas. Disponível na versão 2.6.
 
@@ -136,7 +136,7 @@ Para rastrear todos os pontos de [!DNL Analytics] dados monitorados sem a funç�
 DIL.modules.siteCatalyst.init(s, scDil);
 ```
 
-## GA.submitUniversalAnalytics {#ga-submit-universal-analytics}
+##  GA.submitUniversalAnalytics {#ga-submit-universal-analytics}
 
 A `GA.submitUniversalAnalytics();` função envia dados do Google [!DNL Universal Analytics] para o Audience Manager. Esta [!UICONTROL DIL] função foi projetada para funcionar com `analytics.js`, que é a biblioteca de códigos mais recente do Google [!DNL Universal Analytics].
 
@@ -205,7 +205,7 @@ DIL.modules.GA.submitUniversalAnalytics(ga, dilInstance);
 >* [referência dos métodos do objeto ga](https://developers.google.com/analytics/devguides/collection/analyticsjs/ga-object-methods-reference)
 
 
-## GA.init {#ga-init}
+##  GA.init {#ga-init}
 
 A `GA.init()` função envia dados da versão herdada/obsoleta do para [!DNL Google Analytics] o Audience Manager.
 
