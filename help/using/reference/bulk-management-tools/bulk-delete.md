@@ -42,5 +42,4 @@ Antes de inserir dados, a planilha de atualização em massa deve ser semelhante
 
 ![](assets/delete.png)
 
-
 Se sua atualização em massa retornar um erro ou falhar, consulte [Solução de problemas para ferramentas](../../reference/bulk-management-tools/bulk-troubleshooting.md)de gerenciamento em massa.
