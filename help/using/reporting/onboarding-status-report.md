@@ -19,7 +19,7 @@ O Relatório de status onboard verifica as taxas de sucesso e de falha do proces
 >
 >Somente os usuários com privilégios de Administrador podem ver esse relatório na interface do usuário do Audience Manager. Você pode fazer com que usuários não administradores sejam notificados do status dos arquivos de entrada carregados adicionando seus e-mails ao relatório. Consulte [Receber notificações](/help/using/reporting/onboarding-status-report.md#receive-email-notifications)por email.
 
-## Relatório de status onboard: About {#onboarding-status-about}
+##  Relatório de status onboard: About {#onboarding-status-about}
 
 The [!UICONTROL Onboarding Status Report] checks success and failure rates for processing records in your inbound data source files. Este relatório exibe dados em um gráfico de barras interativo e fornece métricas de resumo em forma tabular. Além disso, ele inclui a opção de arquivos de amostra para um intervalo de tempo fixo e exibe os erros mais comuns para cada tipo de erro. Você pode encontrar este relatório em **[!UICONTROL Analytics > Onboarding Status Report]**. Este relatório também está disponível ao criar uma fonte de dados de entrada.
 
