@@ -12,7 +12,7 @@ source-git-commit: 263c55e6bd2c9ad7159306fc889b048d800c59da
 ---
 
 
-# Características da pasta: About {#folder-traits-about}
+#  Características da pasta: About {#folder-traits-about}
 
 [!UICONTROL Folder traits] permite que você agregue automaticamente características que residem na mesma pasta e todas as pastas filhas em um segmento direcionável.
 
