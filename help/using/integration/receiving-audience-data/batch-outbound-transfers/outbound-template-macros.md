@@ -163,7 +163,7 @@ Macros usadas para formatar o conteúdo de um arquivo de dados. Para obter exemp
     <ul id="ul_B111AA0D6C18445598A1444B8B7E9325"> 
      <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code> segmentId </code>: ID do segmento. Obsoleto. Use <code> sid </code>. </li> 
      <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code> csegid </code>: ID do segmento do cliente. Obsoleto. Use <code> sid </code>. </li> 
-     <li id="li_D85F0A5D16AE4DAFB55C17DBB35EA66E"> <code> sid </code>: ID do segmento </li> 
+     <li id="li_D85F0A5D16AE4DAFB55C17DBB35EA66E"> <code> sid </code>:ID do segmento </li> 
      <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code> tipo </code>: Retorna <code> 5 </code>, um valor estático codificado que identifica dados como dados de segmento. </li> 
      <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code> alias </code>: Obsoleto. Não utilizar. </li> 
      <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code> lastUpdateTime </code>: Um carimbo de data e hora Unix que indica a última vez que um segmento foi realizado. </li> 
