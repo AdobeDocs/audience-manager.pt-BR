@@ -97,4 +97,4 @@ Por motivos de segurança, é recomendável girar periodicamente a chave privada
 
 Para destinos de `GET` tipo, a mensagem usada para assinatura será *REQUEST_PATH + QUERY STRING* (por exemplo, */from-aam-s2s?sids=1,2,3*). O IRIS não leva em conta o nome do host ou `HTTP` cabeçalhos - eles podem ser modificados/configurados incorretamente ao longo do caminho ou reportados incorretamente.
 
-Para destinos de `POST` tipo, a mensagem usada para assinatura é o CORPO *DE* SOLICITAÇÃO. Novamente, os cabeçalhos ou outros parâmetros de solicitação são ignorados.
+Para destinos de `POST` tipo, a mensagem usada para assinatura é o CORPO *DE* SOLICITAÇÃO. Novamente, os cabeçalhos ou outros parâmetros de solicitação são ignorados
