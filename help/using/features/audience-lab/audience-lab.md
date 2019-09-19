@@ -12,7 +12,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Audience Lab {#audience-lab}
+#  Audience Lab {#audience-lab}
 
 Crie segmentos de teste mutuamente exclusivos [!UICONTROL Segment Test Groups] para comparar e medir a eficácia de diferentes destinos. Pode separar um grupo de controlo e dividir o seu segmento em percentagens de um todo, a fim de testar a eficácia.
 
