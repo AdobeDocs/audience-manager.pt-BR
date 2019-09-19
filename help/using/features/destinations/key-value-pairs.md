@@ -80,7 +80,7 @@ Com [!UICONTROL Destination Builder] você pode formatar dados de valor chave de
    <td colname="col2"> <p> <code> X = 1 &amp; X = 2 </code> </p> </td> 
    <td colname="col3"> <p>Um conjunto simples de pares de valores chave. O exemplo contém estes elementos: </p> 
     <ul id="ul_28C0CB005B264373926CA5D7418EE845"> 
-     <li id="li_B6D300DBA9064F0BA743BA9B04339511">Chave:X </li> 
+     <li id="li_B6D300DBA9064F0BA743BA9B04339511">Chave: X </li> 
      <li id="li_9A1C98D5C9124FF1B4F032668576C03A">Valores: 1, 2 </li> 
      <li id="li_1D2828328E554176846C94F6140C0CBF">Separador: = </li> 
      <li id="li_0C6A70A0D9534611ACC98A0FD3693587">Delimitador de valor-chave: &amp; </li> 
@@ -102,7 +102,7 @@ Com [!UICONTROL Destination Builder] você pode formatar dados de valor chave de
    <td colname="col2"> <p> <code> X = 1 ; 2 ; 3 </code> </p> </td> 
    <td colname="col3"> <p>Um conjunto de valores chave que passa em vários valores com uma única chave. Como essa chave tem vários valores, ela é conhecida como um par serializado de valores chave. O exemplo contém estes elementos: </p> 
     <ul id="ul_69C4C662B9BD4F77BB940D921B316CCF"> 
-     <li id="li_718BEC527E69417C9F88D3DBD3357A28">Chave:X </li> 
+     <li id="li_718BEC527E69417C9F88D3DBD3357A28">Chave: X </li> 
      <li id="li_659DCBBFB4024AC2B9C4E74D2A86648D">Valores: 1, 2, 3 </li> 
      <li id="li_9A890233C6F84085A7BD5EA4D044E3CC">Separador: = </li> 
      <li id="li_AFC0426EA6044F8BAFD915FCB3808FBA">Separador de série: ponto e vírgula </li> 
