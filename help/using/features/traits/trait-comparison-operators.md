@@ -1,9 +1,9 @@
 ---
 description: Este artigo descreve os operadores de comparação usados pelo Construtor de características.
 seo-description: Este artigo descreve os operadores de comparação usados pelo Construtor de características.
-seo-title: Trabalhar com operadores de comparação no Construtor de características
+seo-title: ' Trabalhar com operadores de comparação no Construtor de características'
 solution: Audience Manager
-title: Trabalhar com operadores de comparação no Construtor de características
+title: ' Trabalhar com operadores de comparação no Construtor de características'
 uuid: 41bec3b3-e5df-4a6f-abb0-80ce4c75f5e7
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
