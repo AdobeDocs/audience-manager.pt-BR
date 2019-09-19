@@ -3,7 +3,7 @@ description: O Audience Manager define um limite máximo para o número de carac
 seo-description: O Audience Manager define um limite máximo para o número de características, segmentos, destinos e modelos algorítmicos que você pode criar para uma conta. Os limites se aplicam a esses itens, sejam criados na interface do usuário ou por meio de métodos de API de forma programática. Os limites de uso ajudam a proteger o Audience Manager de processos automatizados que podem tentar comprometer nossas APIs ou interface de usuário.
 seo-title: Limites de uso
 solution: Audience Manager
-title: Limites de uso
+title: ' Limites de uso'
 keywords: Mapeamento de ID, mapeamentos de ID, mapeamentos de cookies
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 translation-type: tm+mt
@@ -12,7 +12,7 @@ source-git-commit: d893998e9e59dbce64195a167e267c6f7ed16f90
 ---
 
 
-#  Limites de uso {#usage-limits}
+# Limites de uso {#usage-limits}
 
 O Audience Manager define um limite máximo para o número de características, segmentos, destinos e modelos algorítmicos que você pode criar para uma conta. Os limites se aplicam a esses itens, sejam criados na interface do usuário ou por meio de [!DNL API] métodos programaticamente. Os limites de uso ajudam a proteger o Audience Manager de processos automatizados que podem tentar comprometer nossa interface [!DNL API]de usuário ou interface de usuário.
 
@@ -39,7 +39,7 @@ As tabelas listam os limites atuais por tipo de item. Não é possível criar no
 | Algorítmico | 50 |
 | Baseada em regras | 100,000 |
 | Onboard | 100,000 |
-| Características da pasta | 2,000 |
+|  Características da pasta | 2,000 |
 
 ### Limites do segmento
 
