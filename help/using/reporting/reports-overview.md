@@ -33,7 +33,7 @@ Para obter informações que descrevem os intervalos de tempo em que o Audience 
 
 * [Histórico de Arquivos de Saída](/help/using/reporting/outbound-history-report.md)
 
-   Exibir informações de histórico de trabalho em lote de saída para um destino e um período de tempo especificados.
+   Exibir informações de histórico de trabalhos em lote de saída para um destino e um período de tempo especificados.
 
 * [Relatórios de tendências](/help/using/reporting/trend-reports.md)
 
