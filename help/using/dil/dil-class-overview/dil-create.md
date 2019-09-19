@@ -1,9 +1,9 @@
 ---
 description: Cria uma instância DIL específica do parceiro.
 seo-description: Cria uma instância DIL específica do parceiro.
-seo-title: Criar DIL
+seo-title: ' Criar DIL'
 solution: Audience Manager
-title: Criar DIL
+title: ' Criar DIL'
 uuid: 6e054600-703c-4a97-af2a-8207c50013db
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
@@ -13,7 +13,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Método de criação DIL{#dil-create}
 
-## Criar DIL {#dil-create-new}
+##  Criar DIL {#dil-create-new}
 
 Cria uma [!UICONTROL DIL] instância específica do parceiro.
 
