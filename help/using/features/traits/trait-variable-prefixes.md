@@ -1,9 +1,9 @@
 ---
 description: Este artigo descreve os prefixos que você deve anexar às variáveis principais ao criar regras de características.
 seo-description: Este artigo descreve os prefixos que você deve anexar às variáveis principais ao criar regras de características.
-seo-title: Requisitos de prefixo para variáveis-chave
+seo-title: ' Requisitos de prefixo para variáveis-chave'
 solution: Audience Manager
-title: Requisitos de prefixo para variáveis-chave
+title: ' Requisitos de prefixo para variáveis-chave'
 uuid: df2ef9c8-606a-45f9-a836-859f856a7d4b
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
