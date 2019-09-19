@@ -42,8 +42,8 @@ Digamos que você tenha um arquivo de dados que se pareça com o que está abaix
 | 1 | 111 | Sapato A | 456 | Tênis | 27 | Empresa A |
 | 2 | 111 | Sapato A | 456 | Tênis | 27 | Empresa A |
 | 3 | 111 | Sapato A | 456 | Tênis | 27 | Empresa A |
-| 4 | 222 | Sapato B | 789 |  Caminho | 14 | Empresa B |
-| 5 | 222 | Sapato B | 789 |  Caminho | 14 | Empresa B |
+| 4 | 222 | Sapato B | 789 | Caminho | 14 | Empresa B |
+| 5 | 222 | Sapato B | 789 | Caminho | 14 | Empresa B |
 
 <br> 
 
@@ -64,7 +64,7 @@ O arquivo de pesquisa abaixo contém os metadados e pode ser vinculado de volta 
 | ID do anúncio | Nome do anúncio | Nome da Ordem | Nome do anunciante |
 |---|---|---|---|
 | 111 | Sapato A | Tênis | Empresa A |
-| 222 | Sapato B |  Caminho | Empresa B |
+| 222 | Sapato B | Caminho | Empresa B |
 
 ## As APIs podem eliminar a necessidade de tabelas de pesquisa
 
