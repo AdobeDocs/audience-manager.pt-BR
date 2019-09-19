@@ -2,9 +2,9 @@
 description: Informações básicas sobre os arquivos do Feed de dados do cliente (CDF) e instruções sobre como começar. Comece aqui se estiver interessado em receber arquivos CDF ou só quiser mais informações.
 keywords: dados de terceiros;dados de terceiros;de terceiros;dados de terceiros;de terceiros;dados de terceiros;de terceiros
 seo-description: Informações básicas sobre os arquivos do Feed de dados do cliente (CDF) e instruções sobre como começar. Comece aqui se estiver interessado em receber arquivos CDF ou só quiser mais informações.
-seo-title: Feeds de dados do cliente
+seo-title: ' Feeds de dados do cliente'
 solution: Audience Manager
-title: Feeds de dados do cliente
+title: ' Feeds de dados do cliente'
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 translation-type: tm+mt
 source-git-commit: c206246a4a586d1148c18e0bce734d07963a85f6
@@ -151,7 +151,7 @@ Lista e define a estrutura de dados de um [!UICONTROL CDF] arquivo. Isso inclui 
    <td colname="col1"> <p>Sequência de campo </p> </td> 
    <td colname="col2"> <p> <p>Importante: O <span class="keyword"> Audience Manager</span> reserva o direito de adicionar novos campos ao final do arquivo CDF em versões futuras. Isso significa que o design técnico do seu sistema de análise de arquivos não deve assumir um número fixo de colunas (embora possa assumir uma ordem fixa para colunas existentes). </p> </p> <p>Os dados no arquivo CDF são exibidos na ordem mostrada abaixo. </p> <p> 
      <ol id="ol_1FDF4A7F089448ED8A724378C23009C8"> 
-      <li id="li_CB97D90B54EB4F95861583D4A5F660C7"> Hora do evento </li> 
+      <li id="li_CB97D90B54EB4F95861583D4A5F660C7">Hora do evento </li> 
       <li id="li_C44E8CCB1A964B7A941FD772FB8A7608">Dispositivo </li> 
       <li id="li_F8AE0D4CA19D411686A240FE06F56147">ID do container </li> 
       <li id="li_660D17989BE54610A01229C47894E8A9"> Características Realizadas </li> 
