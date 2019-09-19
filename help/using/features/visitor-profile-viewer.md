@@ -12,7 +12,7 @@ source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
 ---
 
 
-#  Visualizador de perfil do visitante {#visitor-profile-viewer}
+# Visualizador de perfil do visitante {#visitor-profile-viewer}
 
 Use o [!UICONTROL Visitor Profile Viewer] para exibir o estado atual de um perfil de usuário para o navegador atual, incluindo suas características e segmentos. Para cada característica, você pode exibir seu [!UICONTROL SID], nome, detalhes sobre como as características do visitante foram realizadas (primeiro ou terceiro), a data de realização e a frequência das realizações. Para cada segmento, você pode exibir seu nome [!UICONTROL SID]e a data de associação do segmento. Você também pode exibir o perfil do visitante para outra ID de perfil do Audience Manager ([!UICONTROL UUID]). O [!UICONTROL Visitor Profile Viewer] é útil para fins de solução de problemas.
 
