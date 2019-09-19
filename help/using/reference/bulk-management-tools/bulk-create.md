@@ -44,5 +44,4 @@ A planilha cria uma [!UICONTROL Results] coluna. A [!UICONTROL Results] coluna r
 
 ![](assets/cretetraits.png)
 
-
 Se sua atualização em massa retornar um erro ou falhar, consulte [Solução de problemas para ferramentas](../../reference/bulk-management-tools/bulk-troubleshooting.md)de gerenciamento em massa.
