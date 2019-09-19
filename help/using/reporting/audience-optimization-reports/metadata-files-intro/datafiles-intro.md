@@ -1,9 +1,9 @@
 ---
 description: Um arquivo de dados contém dados de impressão, clique ou conversão. Quando formatados corretamente, você pode importar esses dados para o Audience Manager e exibi-los nos relatórios de Otimização de público-alvo. Formate seus arquivos de dados de acordo com essas especificações nesta seção.
 seo-description: Um arquivo de dados contém dados de impressão, clique ou conversão. Quando formatados corretamente, você pode importar esses dados para o Audience Manager e exibi-los nos relatórios de Otimização de público-alvo. Formate seus arquivos de dados de acordo com essas especificações nesta seção.
-seo-title: Arquivos de dados para relatórios de otimização de público-alvo
+seo-title: ' Arquivos de dados para relatórios de otimização de público-alvo'
 solution: Audience Manager
-title: Arquivos de dados para relatórios de otimização de público-alvo
+title: ' Arquivos de dados para relatórios de otimização de público-alvo'
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 translation-type: tm+mt
 source-git-commit: 6e504dabacff9be40633d6c91856b57c6e653f71
@@ -11,7 +11,7 @@ source-git-commit: 6e504dabacff9be40633d6c91856b57c6e653f71
 ---
 
 
-# Arquivos de dados para relatórios de otimização de público-alvo{#data-files-for-audience-optimization-reports}
+#  Arquivos de dados para relatórios de otimização de público-alvo{#data-files-for-audience-optimization-reports}
 
 Um arquivo de dados contém dados de impressão, clique ou conversão. Quando formatados corretamente, você pode importar esses dados para o Audience Manager e exibi-los nos relatórios de Otimização de público-alvo. Formate seus arquivos de dados de acordo com essas especificações nesta seção.
 
