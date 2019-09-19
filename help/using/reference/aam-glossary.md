@@ -35,7 +35,7 @@ Consulte Ferramentas [de gerenciamento em](../reference/bulk-management-tools/bu
 
 **CDF**
 
-[!UICONTROL Customer Data Feed]. Um [!UICONTROL CDF] arquivo representa um download em massa dos dados coletados por [!DNL Audience Manager] e permite que você trabalhe com [!DNL Audience Manager] dados fora dos limites impostos pela interface do usuário. Um [!UICONTROL CDF] arquivo contém os mesmos dados que uma chamada de [!DNL Audience Manager] evento ( `/event`) envia para nossos servidores. Isso inclui dados como IDs de usuário, IDs de característica, IDs de segmento e todos os outros parâmetros capturados por uma chamada de evento.
+[!UICONTROL Customer Data Feed]. Um [!UICONTROL CDF] arquivo representa um download em massa dos dados coletados pelo e permite que você trabalhe com [!DNL Audience Manager] [!DNL Audience Manager] dados fora dos limites impostos pela interface do usuário. Um [!UICONTROL CDF] arquivo contém os mesmos dados que uma chamada de [!DNL Audience Manager] evento ( `/event`) envia para nossos servidores. Isso inclui dados como IDs de usuário, IDs de característica, IDs de segmento e todos os outros parâmetros capturados por uma chamada de evento.
 
 See [Customer Data Feeds](../features/cdf-files.md).
 
