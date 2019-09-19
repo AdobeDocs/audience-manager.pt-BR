@@ -113,7 +113,7 @@ In the tables below, *italics* represents a variable placeholder.
   </tr> 
   <tr> 
    <td colname="col1"> <p>198 </p> </td> 
-   <td colname="col2"> <p>Solicitações deste país são bloqueadas pelo parceiro </p> </td> 
+   <td colname="col2"> <p> Solicitações deste país são bloqueadas pelo parceiro </p> </td> 
    <td colname="col3"> <p>Com base no endereço IP, o <span class="wintitle"> DCS</span> bloqueia solicitações de países onde o parceiro limitou deliberadamente o tráfego. </p> </td> 
   </tr> 
   <tr> 
