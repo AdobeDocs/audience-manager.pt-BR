@@ -46,7 +46,7 @@ Sim. Consulte Ferramentas [de gerenciamento em](../reference/bulk-management-too
 
 **É possível[!DNL Audience Manager]reduzir a necessidade de tags ou pixels de terceiros e melhorar o tempo de carregamento da página?**
 
-Se [!DNL Audience Manager] estiver integrado ao seu parceiro de dados de terceiros, você poderá substituir os pixels e tags deles por uma chamada de ID de servidor para servidor [!DNL Audience Manager]. Nesse caso, [!DNL Audience Manager] acionaria uma única chamada de ID na primeira vez que um usuário fosse exibido e sincronizaria essas informações com seu parceiro de terceiros. Isso elimina a necessidade de fazer chamadas de vários pixels de cada página. A redução de chamadas de pixel pode melhorar o tempo de carregamento da página.
+Se [!DNL Audience Manager] estiver integrado ao seu parceiro de dados de terceiros, você poderá substituir os pixels e tags deles por uma chamada de ID de servidor para servidor [!DNL Audience Manager]. Nesse caso, [!DNL Audience Manager] acionaria uma única chamada de ID na primeira vez que um usuário fosse exibido e sincronizaria essas informações com seu parceiro de terceiros. Isso elimina a necessidade de fazer várias chamadas de pixels de cada página. A redução de chamadas de pixel pode melhorar o tempo de carregamento da página.
 
 <br> 
 
