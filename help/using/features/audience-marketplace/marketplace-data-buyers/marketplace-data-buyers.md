@@ -3,7 +3,7 @@ description: Visão geral e fluxo de trabalho para compradores de dados que dese
 seo-description: Visão geral e fluxo de trabalho para compradores de dados que desejam comprar dados de terceiros no Audience Manager
 seo-title: Audience Marketplace para Compradores de Dados
 solution: Audience Manager
-title: Audience Marketplace para Compradores de Dados
+title: ' Audience Marketplace para Compradores de Dados'
 topic: API DIL
 uuid: f505b5f4-4231-4e84-993a-cd64128b540f
 translation-type: tm+mt
@@ -40,7 +40,7 @@ A [!UICONTROL Marketplace] lista contém informações que você pode classifica
 * **[!UICONTROL Search]** : Encontre feeds de dados por nome ou descrição de texto.
 * **[!UICONTROL Name]** : Nome do feed de dados.
 * **[!UICONTROL Description]** : Informações sobre o conteúdo de um feed de dados.
-* **[!UICONTROL Provider]** : Nome do provedor de dados.
+* **[!UICONTROL Provider]** :Nome do provedor de dados.
 * **[!UICONTROL Traits]** : O número de características em um feed de dados.
 * **[!UICONTROL 30 Day Provider Unique Users]** : O número de usuários únicos vistos nos últimos 30 dias.
 * **[!UICONTROL 30 Day Overlapped Uniques]** : O número de usuários em sua conta que se sobrepõem aos usuários na conta do provedor.
