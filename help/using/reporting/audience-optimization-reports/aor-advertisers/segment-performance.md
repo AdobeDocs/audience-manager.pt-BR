@@ -1,9 +1,9 @@
 ---
 description: O relatório Desempenho do segmento compara segmentos mapeados e não mapeados por impressões e taxas de conversão. Um segmento mapeado é um segmento criado e enviado para um destino para definição de metas. Um segmento não mapeado é um segmento criado, mas não enviado para um destino para definição de metas. A comparação desses diferentes tipos de segmentos entre e dentro de relatórios ajuda a otimizar campanhas existentes e a encontrar segmentos ignorados que você pode querer enviar para um destino para definição de metas.
 seo-description: O relatório Desempenho do segmento compara segmentos mapeados e não mapeados por impressões e taxas de conversão. Um segmento mapeado é um segmento criado e enviado para um destino para definição de metas. Um segmento não mapeado é um segmento criado, mas não enviado para um destino para definição de metas. A comparação desses diferentes tipos de segmentos entre e dentro de relatórios ajuda a otimizar campanhas existentes e a encontrar segmentos ignorados que você pode querer enviar para um destino para definição de metas.
-seo-title: Relatório de desempenho do segmento
+seo-title: ' Relatório de desempenho do segmento'
 solution: Audience Manager
-title: Relatório de desempenho do segmento
+title: ' Relatório de desempenho do segmento'
 uuid: 5156a4c7-831d-4a95-a1be-eb516f0d91b7
 translation-type: tm+mt
 source-git-commit: ad4721cd2ff1f4b2b7cb814cbafdef1f59138a26
@@ -11,7 +11,7 @@ source-git-commit: ad4721cd2ff1f4b2b7cb814cbafdef1f59138a26
 ---
 
 
-# Relatório de desempenho do segmento{#segment-performance-report}
+#  Relatório de desempenho do segmento{#segment-performance-report}
 
 O [!UICONTROL Segment Performance] relatório compara segmentos mapeados e não mapeados por impressões e taxas de conversão. Um segmento mapeado é um segmento criado e enviado para um destino para definição de metas. Um segmento não mapeado é um segmento criado, mas não enviado para um destino para definição de metas. A comparação desses diferentes tipos de segmentos entre e dentro de relatórios ajuda a otimizar campanhas existentes e a encontrar segmentos ignorados que você pode querer enviar para um destino para definição de metas.
 
