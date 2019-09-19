@@ -80,7 +80,7 @@ Analisar a sobreposição entre características e segmentos pode ajudar a estim
   </tr> 
   <tr> 
    <td colname="col1"><b>Localizar segmentos ineficientes</b> </td> 
-   <td colname="col2"> <p>Se uma característica faz parte de um grupo <span class="wintitle"> AND</span> em uma definição de segmento, os visitantes únicos que têm essa característica já estão no segmento e não estão disponíveis para adição ao segmento. Você pode usar esse relatório para localizar características relevantes com baixa sobreposição e adicioná-las à definição do segmento, aumentando, assim, o alcance desse pool de público-alvo do segmento. </p> </td> 
+   <td colname="col2"> <p>Se uma característica faz parte de um grupo <span class="wintitle"> AND</span> em uma definição de segmento, os visitantes únicos que têm essa característica já estão no segmento e não estão disponíveis para adição ao segmento. Você pode usar esse relatório para encontrar características relevantes com baixa sobreposição e adicioná-las à definição do segmento, aumentando, assim, o alcance desse pool de público-alvo do segmento. </p> </td> 
   </tr> 
  </tbody> 
 </table>
