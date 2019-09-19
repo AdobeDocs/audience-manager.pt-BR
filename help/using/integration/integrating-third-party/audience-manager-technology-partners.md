@@ -143,7 +143,7 @@ Esta página inclui apenas integrações [](/help/using/features/destinations/ad
 | Supernave/ScaleOut | 03/03/2017 | Sim | Não | Não | Não |
 | Survata | 09/08/2017 | Sim | Não | Não | Sim |
 | Taboola | 03/08/2017 | Não | Sim | Não | Não |
-| Tapad | 03/03/2017 | Não | Não | Não | Sim |
+|  Tapad | 03/03/2017 | Não | Não | Não | Sim |
 | Telaria | 25/04/2019 | Sim | Não | Não | Sim |
 | Sistemas Telológicos | 03/03/2017 | Sim | Não | Não | Não |
 | A carteira comercial | 03/03/2017 | Sim | Sim | Sim | Sim |
