@@ -6,7 +6,7 @@ solution: Audience Manager
 title: OpenX como um destino do Audience Manager
 uuid: 5e86ba73-281c-403b-af06-64a1d427526a
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 78a0a0e461ea3a74d0dbb0370a841db274a6f9be
 
 ---
 
@@ -42,11 +42,11 @@ O Audience Manager envia dados na forma de pares de valores chave. Crie pares de
 
 ### Somente segmentos qualificados são enviados para o OpenX
 
-A quantidade de dados transmitida depende [!DNL OpenX] de quantos segmentos um usuário específico se qualifica. Por exemplo, digamos que você tenha configurado 100 segmentos de Gerenciamento de público-alvo. Se um visitante do site se qualificar para cinco deles, somente esses cinco segmentos serão enviados para [!DNL OpenX] (não todos os 100).
+A quantidade de dados transmitida depende [!DNL OpenX] de quantos segmentos um usuário específico se qualifica. Por exemplo, considere configurar 100 segmentos do Audience Manager. Se um visitante do site se qualificar para cinco deles, somente esses cinco segmentos serão enviados para [!DNL OpenX] (não todos os 100).
 
 ## Criar um destino OpenX {#openx-destination}
 
-Crie um destino de cookie para [!DNL OpenX] o no Gerenciamento de público-alvo.
+Crie um destino de cookie para o [!DNL OpenX] no Audience Manager.
 
 <!-- aam-openx-destination.xml -->
 
