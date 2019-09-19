@@ -12,7 +12,7 @@ source-git-commit: 2e3adc8f0b2fe6efd9ca57f1d763ee4476d2edee
 ---
 
 
-# Visão geral do Send Batch Data to Audience Manager{#send-batch-data-to-audience-manager-overview}
+#  Visão geral do Send Batch Data to Audience Manager{#send-batch-data-to-audience-manager-overview}
 
 Uma visão geral para clientes técnicos e não técnicos que desejam trazer dados de outros sistemas (offline) para o Audience Manager.
 
@@ -30,7 +30,7 @@ Considerações importantes sobre esta etapa:
 
 * **** Posicionamento da ID do cliente: O Audience Manager precisa saber onde sua ID de cliente aparece no seu site (por exemplo, se ela é armazenada em um cookie, em uma variável do Analytics, em um código de página etc.).
 * **[!DNL PII]Excluir**: As IDs de usuário não devem conter informações de identificação pessoal ([!DNL PII]).
-* **** Diferenciação entre maiúsculas e minúsculas e conteúdo: Durante uma sincronização de dados em tempo real, as IDs de usuário capturadas do site pelo Audience Manager devem corresponder às IDs enviadas pelo repositório offline. Por exemplo, se os registros offline contêm informações sobre [!DNL User123], mas seu site renderiza essa ID como [!DNL USER123], o Audience Manager a vê como visitantes diferentes. Como resultado, as informações online para este visitante não podem ser associadas aos registros correspondentes no banco de dados offline. As IDs devem corresponder exatamente.
+* **** Diferenciação entre maiúsculas e minúsculas e conteúdo: Durante uma sincronização de dados em tempo real, as IDs de usuário capturadas do site pelo Audience Manager devem corresponder às IDs enviadas do repositório offline. Por exemplo, se os registros offline contêm informações sobre [!DNL User123], mas seu site renderiza essa ID como [!DNL USER123], o Audience Manager a vê como visitantes diferentes. Como resultado, as informações online para este visitante não podem ser associadas aos registros correspondentes no banco de dados offline. As IDs devem corresponder exatamente.
 
 See [ID Synchronization for Inbound Data Transfers](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md).
 
