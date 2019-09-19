@@ -133,7 +133,7 @@ Sim, [!DNL Audience Manager] pode fornecer dados coletados para usuários que j�
 
 **Quero coletar dados em um site e direcionar usuários por DFP em um site diferente. Preciso implantar o código na outra propriedade se não quiser coletar dados desse local?**
 
-Não. Se a coleta de dados no segundo site não for um requisito, não será necessário implantar o DIL lá. Desde que você tenha acesso ao inventário no segundo site por meio do DFP, é possível usar a coleta de dados do site inicial e da meta por meio do DFP.
+Não. Se a coleta de dados no segundo site não for um requisito, não será necessário implantar o DIL aqui. Desde que você tenha acesso ao inventário no segundo site por meio do DFP, é possível usar a coleta de dados do site inicial e da meta por meio do DFP.
 
 <br> 
 
