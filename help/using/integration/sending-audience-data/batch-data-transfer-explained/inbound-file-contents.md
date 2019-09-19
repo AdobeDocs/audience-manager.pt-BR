@@ -426,7 +426,7 @@ ou
 
 ### Example 12 {#example-12}
 
-Use o prefixo ic para enviar informações de qualificação de características para dispositivos iOS.
+Use o prefixo ic para enviar informações de qualificação de característica para dispositivos iOS.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> 30608,50354,50338,50352,30626
