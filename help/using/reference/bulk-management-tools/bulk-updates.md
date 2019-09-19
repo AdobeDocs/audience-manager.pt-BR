@@ -45,5 +45,4 @@ Essa ação abre a caixa de [!UICONTROL Account Information] diálogo.
 
 ![](assets/update.png)
 
-
 Se sua atualização em massa retornar um erro ou falhar, consulte [Solução de problemas para ferramentas](../../reference/bulk-management-tools/bulk-troubleshooting.md)de gerenciamento em massa.
