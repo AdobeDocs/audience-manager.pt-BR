@@ -1,6 +1,6 @@
 ---
 description: Descreve os campos obrigatórios, a sintaxe e as convenções de nomenclatura usadas para sincronização de ID baseada em arquivo. Nomeie e organize o conteúdo do arquivo de acordo com essas especificações.
-seo-description: Descreve os campos obrigatórios, a sintaxe e as convenções de nomenclatura usadas para sincronização de ID baseada em arquivo. Nomeie e organize o conteúdo do arquivo de acordo com essas especificações.
+seo-description: Descreve os campos obrigatórios, a sintaxe e as convenções de nomenclatura usadas para sincronização de ID com base em arquivo. Nomeie e organize o conteúdo do arquivo de acordo com essas especificações.
 seo-title: Requisitos de nome e conteúdo para arquivos de sincronização de ID
 solution: Audience Manager
 title: Requisitos de nome e conteúdo para arquivos de sincronização de ID
