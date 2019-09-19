@@ -98,7 +98,7 @@ Consulte este documento para obter a lista completa das IDs do Adobe Audience Ma
    <td colname="col3"> <p>IDFA, GAID, Roku ID, Playstation ID </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <b>ID de anúncio de dispositivo - IDFA - dispositivos iOS</b> </p> <p> <b>IDFA</b> IDs são identificadores de dispositivos móveis, fornecidos pelo fabricante do dispositivo. Essas IDs representam dispositivos que executam o sistema operacional iOS. </p> </td> 
+   <td colname="col2"> <p> <b>ID de anúncio de dispositivo - IDFA - dispositivos iOS</b> </p> <p> <b>IDFA</b> IDs são identificadores de dispositivos móveis fornecidos pelo fabricante do dispositivo. Essas IDs representam dispositivos que executam o sistema operacional iOS. </p> </td> 
    <td colname="col3"> <p> O formato consiste estritamente em 32 dígitos hexadecimais <i>maiúsculos</i> , exibidos em cinco grupos e separados por hífens, no formato 8-4-4-4-12, para um total de 36 caracteres. </p> <p><code> AEBE52E7-03EE-455A-B3C4-E5728396239</code> </p> </td> 
   </tr> 
   <tr> 
