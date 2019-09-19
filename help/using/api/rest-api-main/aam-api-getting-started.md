@@ -163,11 +163,11 @@ Você pode usar esses parâmetros opcionais com [!DNL API] métodos que retornam
 | Parâmetro | Descrição |
 |--- |--- |
 | página | Retorna os resultados por número de página. A numeração começa em 0. |
-|  pageSize | Define o número de resultados de resposta retornados pela solicitação (10 é padrão). |
-|  sortBy | Classifica e retorna os resultados de acordo com a [!DNL JSON] propriedade especificada. |
-|  descendente | Classifica e retorna os resultados em ordem decrescente. Crescente é padrão. |
+| pageSize | Define o número de resultados de resposta retornados pela solicitação (10 é padrão). |
+| sortBy | Classifica e retorna os resultados de acordo com a [!DNL JSON] propriedade especificada. |
+| descendente | Classifica e retorna os resultados em ordem decrescente. Crescente é padrão. |
 | pesquisa | Retorna os resultados com base na string especificada que você deseja usar como parâmetro de pesquisa. Por exemplo, digamos que você queira encontrar resultados para todos os modelos que têm a palavra "Teste" em qualquer um dos campos de valor desse item. Sua solicitação de amostra pode ser semelhante a: `GET https://api.demdex.com/v1/models/?search=Test`.  Você pode pesquisar qualquer valor retornado por um método "obter tudo". |
-|  folderId | Retorna todas as IDs para características dentro da pasta especificada. Não disponível para todos os métodos. |
+| folderId | Retorna todas as IDs para características dentro da pasta especificada. Não disponível para todos os métodos. |
 | permissões | Retorna uma lista de segmentos com base na permissão especificada.  LER é o padrão. As permissões incluem:<ul><li>`READ` : Retornar e exibir informações sobre um segmento.</li><li>`WRITE` : Use `PUT` para atualizar um segmento.</li><li>`CREATE` : Use `POST` para criar um segmento.</li><li>`DELETE` : Excluir um segmento. Requer acesso às características subjacentes, se houver. Por exemplo, você precisará de direitos para excluir as características que pertencem a um segmento se desejar removê-lo.</li></ul><br>Especifique várias permissões com pares separados de valores chave. Por exemplo, para retornar uma lista de segmentos somente com `READ` e `WRITE` permissões, passe `"permissions":"READ"`, `"permissions":"WRITE"` . |
 | includePermissions | (Booliano) Defina como true para retornar suas permissões para o segmento. O padrão é falso. |
 
