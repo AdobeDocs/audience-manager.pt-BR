@@ -2,9 +2,9 @@
 description: Adicione o Módulo de gerenciamento de público-alvo ao Adobe Analytics AppMeasurement para encaminhar os dados do Analytics para o Audience Manager, em vez de fazer com que o código da Biblioteca de integração de dados (DIL) do Audience Manager envie um pixel da página.
 keywords: Análises de audiência; Análises; ssf; encaminhamento pelo lado do servidor
 seo-description: Adicione o Módulo de gerenciamento de público-alvo ao Adobe Analytics AppMeasurement para encaminhar os dados do Analytics para o Audience Manager, em vez de fazer com que o código da Biblioteca de integração de dados (DIL) do Audience Manager envie um pixel da página.
-seo-title: ' Implementação do módulo de gerenciamento de público-alvo'
+seo-title: Implementação do módulo de gerenciamento de público-alvo
 solution: Audience Manager
-title: ' Implementação do módulo de gerenciamento de público-alvo'
+title: Implementação do módulo de gerenciamento de público-alvo
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 translation-type: tm+mt
 source-git-commit: 94046c4ed825949451d0dbad37adbe9fba0f9191
@@ -29,7 +29,7 @@ Para implementar o [!UICONTROL Audience Management Module]:
 
 1. Baixe [!UICONTROL AppMeasurement] usando o Gerenciador [de código do](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html) Analytics (requer a versão 1.5 ou posterior).
 1. Atualize seu [!UICONTROL AppMeasurement] código para a versão incluída no arquivo zip baixado.
-1. Copie todo o código `AppMeasurement_Module_AudienceManagement.js` do arquivo zip. Cole-o no `appMeasurement.js` ficheiro logo acima do texto. `"DO NOT ALTER ANYTHING BELOW THIS LINE."`
+1. Copie todo o código do arquivo `AppMeasurement_Module_AudienceManagement.js` zip. Cole-o no `appMeasurement.js` ficheiro logo acima do texto. `"DO NOT ALTER ANYTHING BELOW THIS LINE."`
 1. Adicione o código, `s.loadModule("AudienceManagement");`, logo acima do `AppMeasurement_Module_AudienceManagement.js` código que você acabou de adicionar na etapa anterior.
 1. Atualize e copie o código abaixo e adicione-o à `doPlugins` função em seu `AppMeasurement.js` arquivo.
 
