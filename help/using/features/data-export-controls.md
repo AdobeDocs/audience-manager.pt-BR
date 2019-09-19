@@ -30,7 +30,7 @@ Por exemplo, digamos que um segmento esteja mapeado para um destino com o rótul
    * A fonte de dados de uma característica incluída;
    * A fonte de dados de uma característica usada em um segmento incluído;
    * A regra de mesclagem de perfil aproveitada por um segmento incluído;
-   * Qualquer fonte de dados que uma regra de mesclagem de perfil do segmento incluído usa.
+   * Qualquer uma das fontes de dados que uma regra de mesclagem de perfil do segmento incluído usa.
 
 [!UICONTROL Data Export Controls] estão disponíveis automaticamente para todos os clientes do Audience Manager. No entanto, você precisa de permissões de administrador para adicionar controles de exportação a uma fonte de dados. A adição de rótulos de exportação a um destino requer permissões de administrador *ou* privilégios suficientes para criar ou editar um destino.
 
