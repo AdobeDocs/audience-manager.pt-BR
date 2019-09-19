@@ -2,9 +2,9 @@
 description: Respostas a perguntas comuns sobre a regra de mesclagem de perfis e gráficos de dispositivos.
 keywords: ID da organização
 seo-description: Respostas a perguntas comuns sobre a regra de mesclagem de perfis e gráficos de dispositivos.
-seo-title: Perguntas frequentes sobre Regras de mesclagem de perfil e Gráfico de dispositivos
+seo-title: ' Perguntas frequentes sobre Regras de mesclagem de perfil e Gráfico de dispositivos'
 solution: Audience Manager
-title: Perguntas frequentes sobre Regras de mesclagem de perfil e Gráfico de dispositivos
+title: ' Perguntas frequentes sobre Regras de mesclagem de perfil e Gráfico de dispositivos'
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
@@ -12,7 +12,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Perguntas frequentes sobre Regras de mesclagem de perfil e Gráfico de dispositivos{#profile-merge-rules-and-device-graph-faq}
+#  Perguntas frequentes sobre Regras de mesclagem de perfil e Gráfico de dispositivos{#profile-merge-rules-and-device-graph-faq}
 
 Respostas a perguntas comuns sobre a regra de mesclagem de perfis e gráficos de dispositivos.
 
@@ -169,7 +169,7 @@ A frequência da característica é definida pela soma do número de qualificaç
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Ações</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> O Audience Manager</span> lê e mescla os perfis de dispositivo para o Dispositivo A e o Dispositivo B. A partir disso, vemos o seguinte: </p> <p> 
+   <td colname="col2"> <p> <span class="keyword"> O Audience Manager</span> lê e mescla os perfis de dispositivo para o Dispositivo A e o Dispositivo B. Disso, vemos o seguinte: </p> <p> 
      <ul id="ul_7AB307154C034695B4486E68D55CB084"> 
       <li id="li_5760BEE513C94152AA307AEE10894718">O dispositivo A qualificou-se para a característica 1 três vezes. Tem uma frequência de 3 para a característica 1. </li> 
       <li id="li_E20BC24CCCEC407C820A8032D56BC3F0">O dispositivo B qualificou-se para a característica 1 cinco vezes. Tem uma frequência de 5 para a característica 1. </li> 
