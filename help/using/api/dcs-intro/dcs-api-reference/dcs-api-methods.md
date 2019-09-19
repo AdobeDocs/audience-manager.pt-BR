@@ -1,9 +1,9 @@
 ---
 description: Envie dados para a API DCS usando os métodos GET ou POST.
 seo-description: Envie dados para a API DCS usando os métodos GET ou POST.
-seo-title: Métodos da API DCS
+seo-title: ' Métodos da API DCS'
 solution: Audience Manager
-title: Métodos da API DCS
+title: ' Métodos da API DCS'
 uuid: 6e407458-11d4-4342-a84a-512afa5fc183
 translation-type: tm+mt
 source-git-commit: bdea2609b84d7f80d67452b4c43e11cbef01a368
