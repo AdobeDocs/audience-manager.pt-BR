@@ -42,7 +42,7 @@ Para criar um modelo, vá para a [!UICONTROL Models] seção e clique **[!UICONT
    * *(Opcional)* Forneça uma breve descrição sobre o modelo.
    * Defina o status do modelo como **[!UICONTROL Active]** ou **[!UICONTROL Inactive]**. Os modelos inativos não serão executados e não produzirão dados.
 1. Na seção [Configuração](../../features/algorithmic-models/create-model.md#configuration) :
-   * Clique **[!UICONTROL Browse All Traits]** ou **[!UICONTROL Browse All Segments]** para selecionar uma característica ou segmento para o qual deseja criar um modelo.   Selecione uma característica integrada, uma característica baseada em regras ou um segmento como linha de base. Caso contrário, seus modelos não serão executados.
+   * Clique **[!UICONTROL Browse All Traits]** ou **[!UICONTROL Browse All Segments]** para selecionar uma característica ou segmento para o qual deseja criar um modelo. Selecione uma característica integrada, uma característica baseada em regras ou um segmento como linha de base. Caso contrário, seus modelos não serão executados.
    * Escolha um período de retrospectiva de 30, 60 ou 90 dias. Isso define um intervalo de tempo para o modelo.
    * The [!UICONTROL TraitWeight] algorithm is selected by default.
    * Selecione uma fonte de dados na [!UICONTROL Available Data] lista.
@@ -82,7 +82,7 @@ Preencha os campos obrigatórios na [!UICONTROL Basic Information] seção prime
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Selecionar uma característica ou segmento da linha de base (1)</b> </p> </td> 
-   <td colname="col2"> <p>Clique no botão de característica ou segmento para ver uma lista de todas as suas características ou segmentos. Seu segmento ou característica selecionado se torna a linha de base que os algoritmos do sistema usam para modelagem. </p> <p> <p><b>Observação</b>:  Selecione uma característica integrada, uma característica baseada em regras ou um segmento como linha de base. Caso contrário, seus modelos não serão executados. </p> </p> </td> 
+   <td colname="col2"> <p>Clique no botão de característica ou segmento para ver uma lista de todas as suas características ou segmentos. Seu segmento ou característica selecionado se torna a linha de base que os algoritmos do sistema usam para modelagem. </p> <p> <p><b>Observação</b>:Selecione uma característica integrada, uma característica baseada em regras ou um segmento como linha de base. Caso contrário, seus modelos não serão executados. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Selecionar período de retrospectiva (2)</b> </p> </td> 
