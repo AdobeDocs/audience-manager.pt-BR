@@ -6,7 +6,7 @@ solution: Audience Manager
 title: OAS como destino do Audience Manager
 uuid: 5891a063-5a4b-4ea7-865f-b24e17ca735f
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 78a0a0e461ea3a74d0dbb0370a841db274a6f9be
 
 ---
 
@@ -38,7 +38,7 @@ O Audience Manager pode enviar dados de segmento para um cookie do navegador da 
 
 ### Somente segmentos qualificados são enviados para OAS
 
-A quantidade de dados transmitida depende [!DNL OAS] de quantos segmentos um usuário específico se qualifica. Por exemplo, digamos que você tenha configurado 100 segmentos de Gerenciamento de público-alvo. Se um visitante do site se qualificar para cinco deles, somente esses cinco segmentos serão enviados para o OAS (não todos os 100).
+A quantidade de dados transmitida depende [!DNL OAS] de quantos segmentos um usuário específico se qualifica. Por exemplo, considere configurar 100 segmentos do Audience Manager. Se um visitante do site se qualificar para cinco deles, somente esses cinco segmentos serão enviados para o OAS (não todos os 100).
 
 >[!MORE_LIKE_THIS]
 >
