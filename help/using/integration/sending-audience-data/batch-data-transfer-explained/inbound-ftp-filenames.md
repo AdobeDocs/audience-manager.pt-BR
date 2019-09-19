@@ -126,7 +126,7 @@ Considere as figuras abaixo para o processamento mais rápido/rápido de seus ar
  <tbody> 
   <tr> 
    <td colname="col1"><b>Compactado</b> </td> 
-   <td colname="col2"> <p> 200 a 300 MB </p> </td> 
+   <td colname="col2"> <p>200 a 300 MB </p> </td> 
    <td colname="col3"> <p>3 GB </p> </td> 
   </tr> 
   <tr> 
