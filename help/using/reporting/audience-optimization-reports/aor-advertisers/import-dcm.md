@@ -1,7 +1,7 @@
 ---
 description: Configure um grupo do Google para trazer seus arquivos de dados do DoubleClick Campaign Manager (DCM) para o Audience Manager. O conteúdo desta seção resume o processo de integração e fornece links para recursos do DCM para ajudá-lo a começar.
 seo-description: Configure um grupo do Google para trazer seus arquivos de dados do DoubleClick Campaign Manager (DCM) para o Audience Manager. O conteúdo desta seção resume o processo de integração e fornece links para recursos do DCM para ajudá-lo a começar.
-seo-title: Importar arquivos de dados do DCM para o Audience Manager
+seo-title: ' Importar arquivos de dados do DCM para o Audience Manager'
 solution: Audience Manager
 title: Importar arquivos de dados do DCM para o Audience Manager
 uuid: 3578cfe1-6d30-4a73-ab75-8d272bebcd60
