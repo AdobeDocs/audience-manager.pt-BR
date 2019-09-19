@@ -33,7 +33,7 @@ Para fazer solicitações em massa, abra a [!UICONTROL Bulk Management Tools] pl
 2. Na barra de ferramentas na parte superior da planilha, clique em um botão de solicitação correspondente aos dados com os quais você deseja trabalhar. Você pode solicitar:
 
    * IDs do provedor de dados
-   *  Sinais derivados
+   * Sinais derivados
    * Mapeamentos de destino
    * Características baseadas em regras e a bordo
    * Segmentos
@@ -43,6 +43,5 @@ Para fazer solicitações em massa, abra a [!UICONTROL Bulk Management Tools] pl
 >[!NOTE]
 >
 >Em seus resultados, as colunas `createTime` e `updateTime` os dados retornam em notação exponencial. Os carimbos de data/hora subjacentes são registrados na hora UNIX UTC. Atualmente, a planilha não pode retornar carimbos de data/hora em um formato legível.
-
 
 Se sua atualização em massa retornar um erro ou falhar, consulte [Solução de problemas para ferramentas](../../reference/bulk-management-tools/bulk-troubleshooting.md)de gerenciamento em massa.
