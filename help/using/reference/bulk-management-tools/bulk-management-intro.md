@@ -1,7 +1,7 @@
 ---
-description: As Ferramentas de Gerenciamento em massa permitem que você crie e gerencie vários objetos de uma só vez com uma única operação. Você pode usar as Ferramentas de Gerenciamento em massa para trabalhar com fontes de dados, sinais derivados, destinos, pastas, segmentos e características.
+description: As Ferramentas de Gerenciamento em massa permitem criar e gerenciar vários objetos de uma só vez com uma única operação. Você pode usar as Ferramentas de Gerenciamento em massa para trabalhar com fontes de dados, sinais derivados, destinos, pastas, segmentos e características.
 keywords: baaam;BAAAM
-seo-description: As Ferramentas de Gerenciamento em massa permitem que você crie e gerencie vários objetos de uma só vez com uma única operação. Você pode usar as Ferramentas de Gerenciamento em massa para trabalhar com fontes de dados, sinais derivados, destinos, pastas, segmentos e características.
+seo-description: As Ferramentas de Gerenciamento em massa permitem criar e gerenciar vários objetos de uma só vez com uma única operação. Você pode usar as Ferramentas de Gerenciamento em massa para trabalhar com fontes de dados, sinais derivados, destinos, pastas, segmentos e características.
 seo-title: Introdução ao Gerenciamento em massa
 solution: Audience Manager
 title: Introdução ao Gerenciamento em massa
@@ -14,7 +14,7 @@ source-git-commit: 215054718e9248bd44ba99baeb2a10236701d98e
 
 # Getting Started With Bulk Management{#getting-started-with-bulk-management}
 
-As Ferramentas de Gerenciamento em massa permitem que você crie e gerencie vários objetos de uma só vez com uma única operação. Você pode usar as Ferramentas de Gerenciamento em massa para trabalhar com fontes de dados, sinais derivados, destinos, pastas, segmentos e características.
+As Ferramentas de Gerenciamento em massa permitem criar e gerenciar vários objetos de uma só vez com uma única operação. Você pode usar as Ferramentas de Gerenciamento em massa para trabalhar com fontes de dados, sinais derivados, destinos, pastas, segmentos e características.
 
 <!-- 
 
