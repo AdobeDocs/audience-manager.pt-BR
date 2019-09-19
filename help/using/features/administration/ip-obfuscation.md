@@ -32,7 +32,7 @@ A ofuscação de endereço IP está disponível somente para contas de administr
 
 >[!NOTE]
 >
-> Devido ao grande volume de dados processados pelo Audience Manager, as alterações de ofuscação de IP podem levar até 4 horas para entrar em vigor, a partir do momento em que você atualiza as configurações.
+> Devido ao grande volume de dados processados pelo Audience Manager, as alterações na ofuscação de IP podem levar até 4 horas para entrar em vigor, a partir do momento em que você atualiza as configurações.
 
 ## Configurar ofuscação de endereço IP {#configure-ip-obfuscation}
 
