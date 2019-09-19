@@ -207,7 +207,7 @@ source-git-commit: b00a5570dd1d21474fef2295937fc379565f71ba
 + Código da API e do SDK{#api-and-sdk-code}
    + [Visão geral do código da API e do SDK](api/api.md)
    + [Migração de código da API do Audience Manager](api/api-swagger-migration.md)
-   +  Métodos e código da API do Data Collection Server (DCS){#dcs}
+   + Métodos e código da API do Data Collection Server (DCS){#dcs}
       + [Métodos e código da API DCS](api/dcs-intro/dcs-intro.md)
       + Chamadas de evento DCS{#dcs-event-calls}
          + [APIs de chamada de evento DCS](api/dcs-intro/dcs-event-calls/dcs-event-calls.md)
