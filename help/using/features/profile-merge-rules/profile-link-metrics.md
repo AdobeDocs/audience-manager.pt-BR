@@ -11,7 +11,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Métricas de relatório para regras de mesclagem de perfil {#report-metrics-for-profile-merge-rules}
+#  Métricas de relatório para regras de mesclagem de perfil {#report-metrics-for-profile-merge-rules}
 
 [!UICONTROL Profile Link] as métricas fornecem dados sobre pessoas e dispositivos que se autenticam em seu site. Os dados e gráficos em [!UICONTROL Profile Link] atualização dinamicamente à medida que você cria uma regra de mesclagem ou ao clicar em uma regra existente no [!UICONTROL Profile Merge Rules] painel. Essas métricas podem incluir gráficos de dispositivos de fontes de gráficos de dispositivos [!DNL Adobe Experience Cloud Device Co-op] ou de outros fornecedores.
 
