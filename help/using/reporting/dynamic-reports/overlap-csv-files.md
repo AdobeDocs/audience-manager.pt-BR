@@ -152,7 +152,7 @@ Um arquivo de dados para seu Relatório [de sobreposição](segment-trait-overla
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> trait_id</code> </p> </td> 
-   <td colname="col2"> <p> ID da característica. </p> </td> 
+   <td colname="col2"> <p>ID da característica. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> trait_name</code> </p> </td> 
@@ -168,7 +168,7 @@ Um arquivo de dados para seu Relatório [de sobreposição](segment-trait-overla
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> dataprovider</code> </p> </td> 
-   <td colname="col2"> <p> Nome do provedor de dados. </p> </td> 
+   <td colname="col2"> <p>Nome do provedor de dados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
@@ -243,7 +243,7 @@ Um arquivo de dados para seu Relatório [de sobreposição](trait-trait-overlap-
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> dataprovider</code> </p> </td> 
-   <td colname="col2"> <p> Nome do provedor de dados. </p> </td> 
+   <td colname="col2"> <p>Nome do provedor de dados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
