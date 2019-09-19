@@ -511,7 +511,7 @@ dataLib.api.traits([<i>123, 456, 789</i>]).result(function(json){ //Faça algo, 
 });.submit();
 </code></pre>
 
-## secureDataCollection {#securedatacollection}
+##  secureDataCollection {#securedatacollection}
 
 `secureDataCollection` é um parâmetro booleano que controla como [!UICONTROL DIL] faz chamadas para o [!UICONTROL Data Collection Servers (DCS)] e o Akamai.
 
