@@ -1,7 +1,7 @@
 ---
 description: Métodos que permitem trabalhar programaticamente com características.
 seo-description: Métodos que permitem trabalhar programaticamente com características.
-seo-title: Métodos da API de características
+seo-title: ' Métodos da API de características'
 solution: Audience Manager
 title: Métodos da API de características
 uuid: 7359070c-0d7b-4dd9-8b8b-028e41bb5a4e
