@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Segurança de dados
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 91444ad943fcd020c83e522922d67ef400bf8824
 
 ---
 
@@ -34,23 +34,23 @@ Processos que ajudam a manter nosso sistema e seus dados protegidos.
 * Anualmente: Uma vez por ano, o Audience Manager é submetido a um teste completo de penetração realizado por uma empresa independente. O teste foi projetado para identificar vulnerabilidades de segurança no aplicativo. Os testes incluem varredura para script entre sites, injeções de SQL, manipulação de parâmetros de formulário e outras vulnerabilidades no nível do aplicativo.
 * Trimestral: Uma vez a cada trimestre, as equipes internas verificam vulnerabilidades de segurança. Esses testes incluem verificações de rede em busca de portas abertas e vulnerabilidades de serviço.
 
-**** Segurança de sistemas:  Para ajudar a manter os dados seguros e privados, o Audience Manager:
+**Systems Security:**  To help keep data safe and private, Audience Manager:
 
-* Bloqueia solicitações de endereços IP não autorizados.
+* Blocks requests from unauthorized IP addresses.
 * Protege dados por trás de firewalls, VPNs e com armazenamento da Virtual Private Cloud.
-* Rastreia alterações nos bancos de dados de informações de controle e cliente com registro de auditoria baseado em disparador. Esses registros rastreiam todas as alterações no nível do banco de dados, incluindo a ID do usuário e o endereço IP dos quais as alterações são feitas.
+* Tracks changes in the customer and control-information databases with trigger-based audit logging. These logs track all changes at the database level, including the user ID and IP address from which changes are made.
 
-**** Ativos de segurança:  O Audience Manager tem uma equipe dedicada de operações de rede que monitora firewalls e dispositivos de detecção de intrusão. Somente os principais funcionários têm acesso à nossa tecnologia e aos nossos dados de segurança.
+**Security Assets:**  Audience Manager has a dedicated network operations team that monitors firewalls and intrusion-detection devices. Only key personnel have access to our security technology and data.
 
-**** Treinamento em segurança:  Internamente, nosso compromisso com a segurança se estende aos desenvolvedores que trabalham em nosso produto. A Adobe fornece treinamento formal para desenvolvedores sobre como criar aplicativos e serviços seguros.
+**** Security Training:  Internally, our commitment to security extends to developers who work on our product. Adobe provides formal training to developers on how to build secure applications and services.
 
-**** Acesso seguro:  O Audience Manager requer senhas seguras para fazer logon no sistema. Consulte os requisitos [de](../../reference/password-requirements.md)senha.
+**** Secure Access:  Audience Manager requires strong passwords to log on to the system. See password requirements.[](../../reference/password-requirements.md)
 
-## Privacidade e informações pessoais identificáveis (PII) {#pii}
+## Privacy and Personally Identifiable Information (PII) {#pii}
 
-Processos que ajudam a manter as informações pessoais seguras. Para obter informações adicionais sobre privacidade, consulte o Centro [de privacidade da](https://www.adobe.com/privacy/advertising-services.html)Adobe.
+Processes that help keep personal information safe. For additional privacy information, see the Adobe Privacy Center.[](https://www.adobe.com/privacy/advertising-services.html)
 
-**** Dados de PII:  O Audience Manager proíbe por contrato que clientes e parceiros de dados enviem informações PII para nosso sistema. Além disso, a ID de usuário exclusiva (UUID) não contém nem usa dados PII como parte do algoritmo de geração de ID.
+**** PII Data:  Audience Manager contractually prohibits customers and data partners from sending PII information into our system. Additionally, the Unique User ID (UUID) does not contain or use PII data as part of the ID-generation algorithm.
 
 **** Endereços IP:  O Audience Manager coleta endereços IP. Os endereços IP são usados em processos de processamento de dados e agregação de log. Eles também são necessários para pesquisas geográficas/locais e definição de metas. Além disso, todos os endereços IP nos arquivos de log retidos são ofuscados em 90 dias.
 
@@ -76,4 +76,16 @@ Para adicionar criptografia PGP aos arquivos de dados, consulte Criptografia PGP
 
 ## Proteção de dados por omissão {#escaping-data}
 
-Observe que [!DNL Audience Manager] não escapa aos dados de saída para protegê-los contra possíveis scripts entre sites (XSS), etc. É responsabilidade do cliente escapar aos dados recebidos.
+Note that  does not escape outgoing data to secure it against possible cross-site scripting (XSS), etc. [!DNL Audience Manager] É responsabilidade do cliente escapar aos dados recebidos.
+
+## HTTP Strict-Transport-Security (#hsts)
+
+[!DNL HTTP Strict-Transport-Security (HSTS)] is a web security policy mechanism that helps protect against cookie hijacking and protocol downgrade attacks by not permitting  traffic and transparently upgrading all  traffic to .[!DNL HTTP][!DNL HTTP][!DNL HTTPS]
+
+This policy improves data security between clients and Adobe Edge servers.
+
+### Exemplo {#hsts-example}
+
+When trying to access ,  will automatically upgrade the request to  , in case the browser doesn’t automatically request the  domain.`http://bank.demdex.com`[!DNL HSTS]`https://bank.demdex.com`[!DNL HTTPS]
+
+See HTTP Strict Transport Security - Wikipedia for more information about HSTS.[](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
