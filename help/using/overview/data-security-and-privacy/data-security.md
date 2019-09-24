@@ -1,12 +1,12 @@
 ---
 description: O Audience Manager leva a segurança e privacidade dos dados muito a sério. Trabalhamos para manter nossos sistemas protegidos e proteger seus dados valiosos.
-seo-description: O Audience Manager leva a segurança e privacidade dos dados muito a sério. Trabalhamos para manter nossos sistemas protegidos e proteger seus dados valiosos.
+seo-description: O Audience Manager leva a segurança e privacidade dos dados muito a sério. We work to keep our systems secure and protect your valuable data.
 seo-title: Segurança de dados
 solution: Audience Manager
 title: Segurança de dados
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
 translation-type: tm+mt
-source-git-commit: 91444ad943fcd020c83e522922d67ef400bf8824
+source-git-commit: 9e1abb305c66a4adf6a42a7873144222491692f9
 
 ---
 
@@ -32,15 +32,15 @@ Processos que ajudam a manter nosso sistema e seus dados protegidos.
 **** Validação de Segurança Externa:  O Audience Manager testa a segurança anualmente e trimestralmente.
 
 * Anualmente: Uma vez por ano, o Audience Manager é submetido a um teste completo de penetração realizado por uma empresa independente. O teste foi projetado para identificar vulnerabilidades de segurança no aplicativo. Os testes incluem varredura para script entre sites, injeções de SQL, manipulação de parâmetros de formulário e outras vulnerabilidades no nível do aplicativo.
-* Trimestral: Uma vez a cada trimestre, as equipes internas verificam vulnerabilidades de segurança. Esses testes incluem verificações de rede em busca de portas abertas e vulnerabilidades de serviço.
+* Trimestral: Uma vez a cada trimestre, as equipes internas verificam vulnerabilidades de segurança. These tests include network scans for open ports and service vulnerabilities.
 
-**Systems Security:**  To help keep data safe and private, Audience Manager:
+**** Systems Security:  To help keep data safe and private, Audience Manager:
 
 * Blocks requests from unauthorized IP addresses.
 * Protege dados por trás de firewalls, VPNs e com armazenamento da Virtual Private Cloud.
-* Tracks changes in the customer and control-information databases with trigger-based audit logging. These logs track all changes at the database level, including the user ID and IP address from which changes are made.
+* Tracks changes in the customer and control-information databases with trigger-based audit logging. Esses registros rastreiam todas as alterações no nível do banco de dados, incluindo a ID do usuário e o endereço IP dos quais as alterações são feitas.
 
-**Security Assets:**  Audience Manager has a dedicated network operations team that monitors firewalls and intrusion-detection devices. Only key personnel have access to our security technology and data.
+**** Ativos de segurança:  O Audience Manager tem uma equipe dedicada de operações de rede que monitora firewalls e dispositivos de detecção de intrusão. Only key personnel have access to our security technology and data.
 
 **** Security Training:  Internally, our commitment to security extends to developers who work on our product. Adobe provides formal training to developers on how to build secure applications and services.
 
@@ -48,11 +48,11 @@ Processos que ajudam a manter nosso sistema e seus dados protegidos.
 
 ## Privacy and Personally Identifiable Information (PII) {#pii}
 
-Processes that help keep personal information safe. For additional privacy information, see the Adobe Privacy Center.[](https://www.adobe.com/privacy/advertising-services.html)
+Processes that help keep personal information safe. Para obter informações adicionais sobre privacidade, consulte o Centro [de privacidade da](https://www.adobe.com/privacy/advertising-services.html)Adobe.
 
 **** PII Data:  Audience Manager contractually prohibits customers and data partners from sending PII information into our system. Additionally, the Unique User ID (UUID) does not contain or use PII data as part of the ID-generation algorithm.
 
-**** Endereços IP:  O Audience Manager coleta endereços IP. Os endereços IP são usados em processos de processamento de dados e agregação de log. Eles também são necessários para pesquisas geográficas/locais e definição de metas. Além disso, todos os endereços IP nos arquivos de log retidos são ofuscados em 90 dias.
+**** Endereços IP:  O Audience Manager coleta endereços IP. Os endereços IP são usados em processos de processamento de dados e agregação de log. They are also required for geographic/location look-ups and targeting. Additionally, all IP addresses within retained log files are obfuscated within 90 days.
 
 ## Particionamento de dados {#data-partitioning}
 
@@ -74,15 +74,15 @@ Ambos os métodos são projetados tendo em mente a segurança de nossos dados de
 
 Para adicionar criptografia PGP aos arquivos de dados, consulte Criptografia PGP [de arquivo para tipos](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)de dados de entrada.
 
-## Proteção de dados por omissão {#escaping-data}
+## Protecting Data by Escaping {#escaping-data}
 
-Note that  does not escape outgoing data to secure it against possible cross-site scripting (XSS), etc. [!DNL Audience Manager] É responsabilidade do cliente escapar aos dados recebidos.
+Note that  does not escape outgoing data to secure it against possible cross-site scripting (XSS), etc. [!DNL Audience Manager] It is the responsibility of the client to escape incoming data.
 
-## HTTP Strict-Transport-Security (#hsts)
+## HTTP Strict-Transport-Security {#hsts}
 
-[!DNL HTTP Strict-Transport-Security (HSTS)] is a web security policy mechanism that helps protect against cookie hijacking and protocol downgrade attacks by not permitting  traffic and transparently upgrading all  traffic to .[!DNL HTTP][!DNL HTTP][!DNL HTTPS]
+[!DNL HTTP Strict-Transport-Security (HSTS)] é um mecanismo de política de segurança da Web que ajuda a proteger contra ataques de sequestro de cookies e downgrade de protocolos, não permitindo o [!DNL HTTP] tráfego e atualizando de forma transparente todo o [!DNL HTTP] tráfego para [!DNL HTTPS].
 
-This policy improves data security between clients and Adobe Edge servers.
+Essa política melhora a segurança de dados entre clientes e servidores Adobe Edge.
 
 ### Exemplo {#hsts-example}
 
