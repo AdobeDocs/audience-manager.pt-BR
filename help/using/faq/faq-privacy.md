@@ -6,7 +6,7 @@ solution: Audience Manager
 title: ' Perguntas frequentes sobre privacidade e retenção de dados'
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
 translation-type: tm+mt
-source-git-commit: c785c07a1572e9968e62a1bc753d24780eda64c5
+source-git-commit: 3a4f23bc853a2324a4c91c6e65b14455293a5b1b
 
 ---
 
@@ -17,7 +17,7 @@ Respostas a perguntas ou problemas comuns relacionados à privacidade ou aos dad
 
 <!-- faq_privacy.xml -->
 
-## Perguntas frequentes sobre privacidade {#privacy-faq}
+##  Perguntas frequentes sobre privacidade {#privacy-faq}
 
 >[!TIP]
 >
@@ -52,35 +52,35 @@ A tabela a seguir lista os tempos de retenção para diferentes tipos de dados e
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Servidores de back-end </p> </td> 
-   <td colname="col2"> <p>120 dias. </p> <p> O Audience Manager exclui os dados do usuário de nossos servidores back-end 120 dias após a última visualização de um usuário na plataforma do Audience Manager. Se o <span class="keyword"> Audience Manager</span> registrar a atividade do usuário dentro desse ciclo de 120 dias, nós manteremos esses dados por mais 120 dias. </p> </td> 
+   <td colname="col2"> <p>120-days. </p> <p> O Audience Manager exclui os dados do usuário de nossos servidores back-end 120 dias após a última visualização de um usuário na plataforma do Audience Manager. Se o <span class="keyword"> Audience Manager</span> registrar a atividade do usuário dentro desse ciclo de 120 dias, nós manteremos esses dados por mais 120 dias. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Servidores Edge </p> </td> 
-   <td colname="col2"> <p> 14 dias. </p> <p>O Audience Manager exclui os dados do usuário de nossos servidores de borda 14 dias após a última visualização de um usuário na plataforma Audience Manager. Se o <span class="keyword"> Audience Manager</span> registrar a atividade do usuário dentro desse ciclo de 14 dias, nós manteremos esses dados por mais 14 dias. Se o usuário se tornar ativo novamente após o período de 14 dias, haverá um atraso entre essa primeira nova exibição de página e quando o usuário se tornar acionável. Leva de 6 a 18 horas para obter o perfil completo de volta para o centro da borda após mais de 14 dias de inatividade. </p> </td> 
+   <td colname="col2"> <p> 14-days. </p> <p>O Audience Manager exclui os dados do usuário de nossos servidores de borda 14 dias após a última visualização de um usuário na plataforma Audience Manager. Se o <span class="keyword"> Audience Manager</span> registrar a atividade do usuário dentro desse ciclo de 14 dias, nós manteremos esses dados por mais 14 dias. Se o usuário se tornar ativo novamente após o período de 14 dias, haverá um atraso entre essa primeira nova exibição de página e quando o usuário se tornar acionável. It takes 6-18 hours to get the full profile back out to the edge center after more than 14-days of inactivity. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Registros brutos </p> </td> 
-   <td colname="col2"> <p>180 dias (removidos após 180 dias sem atividade). </p> <p>Registros brutos são dados recebidos por um servidor de borda por meio de chamadas HTTP ou de arquivos integrados enviados para o <span class="keyword"> Audience Manager</span>. </p> </td> 
+   <td colname="col1"> <p>Raw logs </p> </td> 
+   <td colname="col2"> <p>180 dias (removidos após 180 dias sem atividade). </p> <p>Raw logs are data received by an edge server via HTTP calls or from onboarded files sent in to  Audience Manager.<span class="keyword"></span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Logs do servidor de anúncios </p> </td> 
-   <td colname="col2"> <p><b>Relatório</b> </p> <p>Os arquivos de log são mantidos para fins de relatório por até 30 dias. Não persistimos registros sem correspondência (ou seja, registros para os quais não há sincronização de ID entre a ID do servidor de publicidade de um visitante e a ID do <span class="keyword"> Audience Manager</span> ) em nosso armazenamento de backend, e os registros correspondentes armazenados no <span class="keyword"> Amazon S3</span> são mantidos por até 30 dias. </p> <p><b>Arquivo de registro acionável</b> </p> <p>Os registros correspondentes e não correspondentes são retidos por até 30 dias. </p> </td> 
+   <td colname="col1"> <p>Ad Server Logs </p> </td> 
+   <td colname="col2"> <p><b>Relatório</b> </p> <p>Log files are retained for reporting purposes for up to 30 days. We do not persist unmatched logs (i.e. logs for which there is no ID sync between a visitor's ad server ID and  Audience Manager ID) in our backend storage, and matched logs stored in  Amazon S3 are retained for up to 30 days.<span class="keyword"></span><span class="keyword"></span> </p> <p><b>Arquivo de registro acionável</b> </p> <p>Both matched and unmatched logs are retained for up to 30 days. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Perfis de nível CRM (perfis autenticados) </p> </td> 
-   <td colname="col2"> <p>O intervalo TTL (time-to-live) padrão para perfis de nível CRM inativos (IDs do cliente) é de 24 meses. No entanto, você pode usar a interface do usuário do Audience Manager para reduzir ou estender o intervalo TTL para perfis de nível CRM inativos entre um mês e cinco anos. Isso pode ser feito ao criar ou editar uma fonte de dados entre dispositivos.</p> <p>Para obter mais informações, consulte Configurações da fonte de dados em <a href="../features/profile-merge-rules/merge-rules-start.md#settings"> Criar uma fonte de dados entre dispositivos </a>.</p> </td> 
+   <td colname="col1"> <p>CRM-level profiles (authenticated profiles) </p> </td> 
+   <td colname="col2"> <p>The default time-to-live (TTL) interval for inactive CRM-level profiles (Customer IDs) is 24 months. However, you can use the Audience Manager UI to reduce or extend the TTL interval for inactive CRM-level profiles between one month and 5 years. You can accomplish this when creating or editing a Cross-Device data source.</p> <p>For more information, see Data Source Settings in  Create a Cross-Device Data Source .<a href="../features/profile-merge-rules/merge-rules-start.md#settings"></a></p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>IDs de dispositivo móvel </p> </td> 
+   <td colname="col1"> <p>Mobile Device IDs </p> </td> 
    <td colname="col2"> <p>As condições de retenção para IDs de dispositivos móveis (<a href="../reference/ids-in-aam.md"> IDFA, GAID</a>) seguem a cadência descrita nas duas primeiras linhas, servidores back-end e servidores de borda. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Feeds de dados do cliente (CDF) </p> </td> 
-   <td colname="col2"> <p>Um arquivo CDF contém os mesmos dados que uma chamada de evento do <span class="keyword"> Audience Manager</span> (/event) envia para nossos servidores. O período de retenção é de 8 dias. Para obter mais detalhes sobre o CDF, consulte as Perguntas frequentes sobre a Introdução <a href="../features/cdf-files.md"> do</a> CDF e sobre o <a href="../faq/faq-cdf.md"> CDF</a>. </p> </td> 
+   <td colname="col1"> <p>Customer Data Feeds (CDF) </p> </td> 
+   <td colname="col2"> <p>A CDF file contains the same data that an  Audience Manager event call (/event) sends to our servers. <span class="keyword"></span> O período de retenção é de 8 dias. Para obter mais detalhes sobre o CDF, consulte as Perguntas frequentes sobre a Introdução <a href="../features/cdf-files.md"> do</a> CDF e sobre o <a href="../faq/faq-cdf.md"> CDF</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mapeamentos entre IDs sincronizadas </p> </td> 
-   <td colname="col2"> <p>Os mapeamentos entre IDs sincronizadas podem ser mantidos durante a vida útil da ID de usuário exclusiva do <a href="../reference/ids-in-aam.md"> Audience Manager (UUID do AAM)</a>associada. </p> </td> 
+   <td colname="col2"> <p>A duração dos mapeamentos <a href="../features/administration/usage-limits.md#id-mapping-limits"> de</a> ID entre IDs de cookie do Audience Manager (IDs de usuário exclusivas do<a href="../reference/ids-in-aam.md">Audience Manager ou UUIDs</a>do AAM) e IDs de cookie de terceiros é limitada a 120 dias. O tempo de vida do mapeamento de ID é redefinido sempre que o cookie do Audience Manager é visualizado na rede do Audience Manager. A sincronização de mapeamento de ID mais recente será preservada durante a vida útil da ID de usuário exclusiva do <a href="../reference/ids-in-aam.md">Audience Manager (UUID do AAM)</a>associada.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dados de entrada </p> </td> 
