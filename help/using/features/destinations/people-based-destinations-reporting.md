@@ -5,12 +5,15 @@ seo-title: Públicos-alvo compartilháveis
 solution: Audience Manager
 title: Públicos-alvo compartilháveis
 translation-type: tm+mt
-source-git-commit: a40d0be8ece674c1870e6f27003bfbe9d55d7316
+source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 ---
 
 
 # Públicos-alvo compartilháveis {#shareable-audiences}
+
+>[!IMPORTANT]
+>Este artigo contém a documentação do produto destinada a guiá-lo pela configuração e uso deste recurso. Nada aqui contido é aconselhamento jurídico. Consulte o seu próprio advogado para obter orientação jurídica.
 
 [!DNL People-Based Destinations] trazer a noção de [!DNL Shareable Audiences] para o Audience Manager. Essa métrica ajuda você a entender quantos endereços de email com hash o Audience Manager pode compartilhar com a plataforma de destino.
 
@@ -38,7 +41,7 @@ Um cliente do Audience Manager tem uma fonte de dados com 110.000 [DPUUIDs](../.
 * Segmento B com uma contagem de população de 20.000, mapeado para o destino A;
 * Segmento C com uma contagem de população de 50.000, mapeado para o Destino B.
 
-Neste cenário:
+In this scenario:
 
 * Segmento A Público-Alvo Compartilhável = 10.000;
 * Público-alvo compartilhável do segmento B = 20.000;
