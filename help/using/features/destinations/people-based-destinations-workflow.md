@@ -5,12 +5,15 @@ seo-title: Diretrizes de implementação de destinos baseados em pessoas
 solution: Audience Manager
 title: Orientação de implementação
 translation-type: tm+mt
-source-git-commit: 6093def9c5853572c064a4e398d5e328bcb9d181
+source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 ---
 
 
 # Orientação de implementação {#implementation-guidance}
+
+>[!IMPORTANT]
+>Este artigo contém a documentação do produto destinada a guiá-lo pela configuração e uso deste recurso. Nada aqui contido é aconselhamento jurídico. Consulte o seu próprio advogado para obter orientação jurídica.
 
 [!DNL People-Based Destinations] oferece várias estratégias de implementação, dependendo de como os dados do cliente estão estruturados. Este artigo fornece uma visão geral das etapas de implementação que devem ser seguidas [!DNL People-Based Destinations], dependendo do seu cenário.
 
