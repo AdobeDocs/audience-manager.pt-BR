@@ -1,11 +1,11 @@
 ---
-description: 'Use destinos baseados em pessoas para enviar segmentos de público-alvo primários para ambientes baseados em pessoas. Esses ambientes são ecossistemas fechados pertencentes a uma entidade que controla o conteúdo que está sendo exibido dentro dele. Eles incluem plataformas sociais, como o Facebook, e outras plataformas que dependem das contas do cliente para personalizar o conteúdo exibido. '
-seo-description: 'Use destinos baseados em pessoas para enviar segmentos de público-alvo primários para ambientes baseados em pessoas. Esses ambientes são ecossistemas fechados pertencentes a uma entidade que controla o conteúdo que está sendo exibido dentro dele. Eles incluem plataformas sociais, como o Facebook, e outras plataformas que dependem das contas do cliente para personalizar o conteúdo exibido.  '
+description: 'Use people-based destinations to send first-party audience segments to people-based environments. These environments are closed ecosystems belonging to one entity that controls the content that is being displayed within it. They include social platforms such as Facebook, and other platforms that rely on customer accounts to personalize the displayed content. '
+seo-description: 'Use people-based destinations to send first-party audience segments to people-based environments. These environments are closed ecosystems belonging to one entity that controls the content that is being displayed within it. Eles incluem plataformas sociais, como o Facebook, e outras plataformas que dependem das contas do cliente para personalizar o conteúdo exibido.  '
 seo-title: Destinos baseados em pessoas - Visão geral e casos de uso
 solution: Audience Manager
 title: Visão geral e casos de uso
 translation-type: tm+mt
-source-git-commit: 62c27a3990c2c39d069c7a6e4ef32e8e8b3f1998
+source-git-commit: 6093def9c5853572c064a4e398d5e328bcb9d181
 
 ---
 
@@ -16,7 +16,7 @@ Use [!DNL People-Based Destinations] para enviar segmentos de público-alvo prim
 
 ## Visão geral {#overview}
 
-[!DNL People-Based Destinations] permite aplicar a segmentação em dados online e offline para criar segmentos de público-alvo com base em identificadores com hash, como endereços de email ou números de telefone. Em seguida, você pode enviar esses segmentos para "jardins instalados", como [!DNL Facebook], onde você pode direcionar seu público-alvo independentemente de suas interações online ou estado de autenticação. [!DNL People-Based Destinations] pode ajudá-lo a:
+[!DNL People-Based Destinations] permite que você aplique a segmentação em dados online e offline para criar segmentos de público-alvo com base em identificadores [com](people-based-destinations-prerequisites.md#hashing-requirements)hash, como endereços de email ou números de telefone. Em seguida, você pode enviar esses segmentos para "jardins instalados", como [!DNL Facebook], onde você pode direcionar seu público-alvo nas plataformas sociais. [!DNL People-Based Destinations] pode ajudá-lo a:
 
 * Direcione públicos offline e online em plataformas como [!DNL Facebook], com base em endereços de email com hash;
 * Complementar os recursos existentes de definição de metas de dispositivos e cookies do Audience Manager;
@@ -25,7 +25,7 @@ Use [!DNL People-Based Destinations] para enviar segmentos de público-alvo prim
 * públicos-alvo em ambientes sem cookies;
 * Direcione públicos-alvo desduplicando endereços de email correspondentes às IDs do cliente.
 
-Você pode usar [!DNL People-Based Destinations] para segmentar e direcionar clientes de alto valor que podem nunca ter visitado seu site, ou parar de segmentar aqueles que já se converteram offline. Além disso, você pode aproveitar [!DNL Profile Merge Rules] para combinar dados offline primários com dados online primários, incluindo dados de clientes de outras soluções da Adobe Experience Cloud, para otimizar seus esforços de publicidade em redes sociais.
+Você pode usar [!DNL People-Based Destinations] para segmentar e direcionar clientes de alto valor que talvez não tenham visitado seu site, ou parar de direcionar aqueles que já se converteram offline. Além disso, você pode aproveitar [!DNL Profile Merge Rules] para combinar seus dados originais offline com seus dados originais online, incluindo dados de clientes de outras soluções da Adobe Experience Cloud, para otimizar seus esforços de publicidade em redes sociais.
 
 ![pbd-overview](assets/pbd-overview.png)
 
@@ -45,28 +45,28 @@ A maneira mais "tradicional" de direcionar públicos-alvo em canais baseados em 
 
 ![pbd-overview](assets/pbd-diagram.png)
 
-Por meio [!DNL People-Based Destinations], o Audience Manager ajuda você a centralizar todos os dados do cliente, criar segmentos de público-alvo e ativá-los em vários canais baseados em pessoas. Você pode fazer isso tudo na interface do usuário do Audience Manager, evitando o trabalho adicional de carregar dados manualmente para cada plataforma, economizando tempo valioso no processo.
+Por meio [!DNL People-Based Destinations], o Audience Manager ajuda a centralizar os dados do cliente, criar segmentos de público-alvo e ativá-los em vários canais baseados em pessoas. You can do this all from within the Audience Manager UI, avoiding the additional work of manually uploading data to each platform, saving you valuable time in the process.
 
 **Crie e ative segmentos de público-alvo a partir de perfis meramente offline.**
 
-[!DNL People-Based Destinations] resolva o problema que anteriormente, você só podia ativar segmentos de público-alvo com base na atividade do dispositivo. Com [!DNL People-Based Destinations]o, você pode criar segmentos a partir de dados puramente offline [!DNL CRM]e ativá-los em plataformas baseadas em pessoas. Além disso, você pode correlacionar dados offline com dados de dispositivo que já têm no Audience Manager.
+[!DNL People-Based Destinations] solve the issue that previously, you could only activate audience segments based on device activity. With , you can create segments from purely offline data from your own , and activate them in people-based platforms. [!DNL People-Based Destinations][!DNL CRM] Additionally, you can correlate your offline data with device data that you already have in Audience Manager.
 
-**Aproveite o controle de dados e os controles de privacidade do Audience Manager para lidar com os dados do cliente com segurança.**
+**Leverage Audience Manager's data governance and privacy controls to safely handle customer data.**
 
-[!DNL People-Based Destinations] use apenas identificadores com hash, para que os dados do cliente estejam sempre protegidos, do momento em que você os embarca no Audience Manager até o momento em que ele atinge o destino. Isso elimina os riscos de privacidade associados ao upload manual de dados confidenciais do cliente em cada plataforma de ativação.
+[!DNL People-Based Destinations] requires that you only use irreversibly hashed identifiers. This reduces the risk associated with manually uploading customer data into each destination platform.
 
 ## Casos de uso {#use-cases}
 
-Para ajudá-lo a entender melhor como e quando você deve usar [!DNL People-Based Destinations], há dois casos de uso de amostra que os clientes do Audience Manager podem resolver usando esse recurso.
+To help you better understand how and when you should use , here are two sample use cases that Audience Manager customers can solve by using this feature.[!DNL People-Based Destinations]
 
 ### Use Case #1 {#use-case-1}
 
-Um varejista online quer atingir os clientes existentes por meio de plataformas sociais e mostrar a eles ofertas personalizadas com base em seus pedidos anteriores. Com [!DNL People-Based Destinations], eles podem assimilar endereços de email com hash [!DNL CRM] para o Audience Manager, criar segmentos a partir dos dados offline e enviar esses segmentos para as plataformas sociais nas quais desejam anunciar, otimizando seus gastos com publicidade.
+An online retailer wants to reach existing customers through social platforms and show them personalized offers based on their previous orders. With , the online retailer can ingest hashed email addresses from their own  to Audience Manager, build segments from their own offline data, and send these segments to the social platforms they want to advertise on, optimizing their advertising spending.[!DNL People-Based Destinations][!DNL CRM]
 
 ### Use Case #2 {#use-case-2}
 
-Uma companhia aérea tem níveis de clientes diferentes (Bronze, Prata e Ouro) e quer oferecer a cada um dos níveis ofertas personalizadas por meio de plataformas sociais. A empresa usa o Audience Manager para analisar a atividade do cliente no site. No entanto, nem todos os clientes usam o aplicativo móvel da companhia aérea, e alguns deles nunca fizeram logon no site da empresa. Os únicos identificadores que a empresa tem sobre esses clientes são IDs de associação e endereços de email.
+An airline has different customer tiers (Bronze, Silver, and Gold), and wants to provide each of the tiers with personalized offers via social platforms. The company uses Audience Manager to analyze customer activity on the website. However, not all customers use the airline's mobile app, and some of them have not logged in to the company's website. Os únicos identificadores que a empresa tem sobre esses clientes são IDs de associação e endereços de email.
 
-Para direcioná-los pelas mídias sociais e canais semelhantes baseados em pessoas, eles podem integrar os dados do cliente do [!DNL CRM] no Audience Manager, usando os endereços de email com hash como identificadores.
+To target them across social media and similar people-based channels, they can onboard the customer data from their  into Audience Manager, using the hashed email addresses as identifiers.[!DNL CRM]
 
-Em seguida, eles podem combinar os dados offline com as características de atividade online existentes, para criar novos segmentos de público-alvo com os quais eles podem direcionar [!DNL People-Based Destinations].
+Em seguida, eles podem combinar seus dados offline com suas características de atividade online existentes, para criar novos segmentos de público-alvo através dos quais eles podem direcionar [!DNL People-Based Destinations].
