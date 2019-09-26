@@ -5,7 +5,7 @@ seo-title: Configurar públicos-alvo personalizados do Twitter como um destino b
 solution: Audience Manager
 title: Configurar públicos-alvo personalizados do Twitter como um destino baseado em dispositivo de autoatendimento
 translation-type: tm+mt
-source-git-commit: cd770afc39221687f4eb47cc358d8d57a51b9fb5
+source-git-commit: 2bf825e083c81edb8c03cb8dcef99088b1958452
 
 ---
 
@@ -88,6 +88,10 @@ Ao mapear segmentos de público-alvo para o Twitter, certifique-se de atender ao
 
 * Nome correto do segmento ou mapeamento: "Compradores dos EUA e da Europa";
 * Nome de segmento ou mapeamento incorreto: "EUA, Europa 5h0pP3rs".
+
+## Considerações sobre Taxas de Correspondência {#match-rates-considerations}
+
+Ao usar [!UICONTROL Twitter Tailored Audiences], as [!UICONTROL Segment Addressable Audience] métricas e [!UICONTROL Segment Match Rate] da página de destino não exibirão valores. Esse é o comportamento normal, já que a correspondência do público-alvo com as taxas de correspondência para esse destino é feita e hospedada pela [!UICONTROL Twitter]Adobe, não pela Adobe.
 
 >[!IMPORTANT]
 >
