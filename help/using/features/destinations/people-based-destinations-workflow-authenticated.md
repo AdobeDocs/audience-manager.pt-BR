@@ -5,16 +5,19 @@ seo-title: Fluxo de trabalho C - personalização baseada na atividade autentica
 solution: Audience Manager
 title: Fluxo de trabalho C - personalização baseada na atividade autenticada combinada com dados offline
 translation-type: tm+mt
-source-git-commit: a2825f256364668abc4e6760a473713fec8626e3
+source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 ---
 
 
-# Fluxo de trabalho C - personalização baseada na atividade autenticada combinada com dados offline {#workflow-c}
+# Workflow C - Personalization Based on Authenticated Activity Combined with Offline Data {#workflow-c}
+
+>[!IMPORTANT]
+>This article contains product documentation meant to guide you through the setup and usage of this feature. Nada aqui contido é aconselhamento jurídico. Consulte o seu próprio advogado para obter orientação jurídica.
 
 Esta página inclui orientações passo a passo sobre como combinar dados offline [!DNL CRM] com dados comportamentais em tempo real para usuários autenticados criarem segmentos de público-alvo e, em seguida, enviarem esses segmentos de público-alvo para [!DNL People-Based Destinations].
 
-## Etapa 1 - Definir configurações da fonte de dados {#configure-data-source-settings}
+## Step 1 - Configure Data Source Settings {#configure-data-source-settings}
 
 Dependendo de seus [DPUUIDs](../../reference/ids-in-aam.md) serem endereços de email com hash e minúsculas, talvez seja necessário configurar a fonte de dados que armazenará os endereços de email com hash.
 
@@ -80,7 +83,7 @@ No exemplo acima, a chamada de ID declarada deve ter a seguinte aparência:
 
 ## Etapa 3 - Criar uma regra de mesclagem de perfil para segmentação {#create-profile-merge-rule-segmentation}
 
-A próxima etapa é criar uma nova regra de mesclagem que ajudará a criar os segmentos de público-alvo a serem enviados para o seu site [!DNL People-Based Destinations].
+The next step is creating a new merge rule that will help you create the audience segments to send to your .[!DNL People-Based Destinations]
 
 >[!IMPORTANT]
 >
@@ -89,7 +92,7 @@ A próxima etapa é criar uma nova regra de mesclagem que ajudará a criar os se
 1. Faça logon em sua conta do Audience Manager e vá para **[!UICONTROL Audience Data]** -&gt; **[!UICONTROL Profile Merge Rules]**.
 2. Clique em **[!UICONTROL Add New Rule]**.
 3. Insira uma regra de mesclagem de perfil **[!UICONTROL Name]** e **[!UICONTROL Description]**.
-4. Na **[!UICONTROL Profile Merge Rule Setup]** seção, selecione a **[!UICONTROL All Cross-Device Profiles]** regra na **[!UICONTROL Cross-Device Options]** lista.
+4. Na **[!UICONTROL Profile Merge Rule Setup]** seção, selecione a regra **[!UICONTROL Current Authenticated Profiles]** ou **[!UICONTROL Last Authenticated Profiles]** a partir da **[!UICONTROL Cross-Device Options]** lista.
 5. Na **[!UICONTROL Cross-Device Profile Options]** lista, selecione as fontes de dados nas quais deseja executar a segmentação. Essas devem ser as fontes de dados que contêm seus DPUUIDs existentes.
    ![merge-rule-setup](assets/pbd-pmr-combined.png)
 
