@@ -1,23 +1,23 @@
 ---
-description: In Segment Builder, recency and frequency let you segment visitors based on actions that occur or repeat over a set daily interval.
-seo-description: In Segment Builder, recency and frequency let you segment visitors based on actions that occur or repeat over a set daily interval.
+description: No Construtor de segmentos, a recente e a frequência permitem segmentar os visitantes com base em ações que ocorrem ou se repetem em um intervalo diário definido.
+seo-description: No Construtor de segmentos, a recente e a frequência permitem segmentar os visitantes com base em ações que ocorrem ou se repetem em um intervalo diário definido.
 seo-title: Idade e frequência
 solution: Audience Manager
 title: Idade e frequência
 uuid: faadd18a-bf27-4b73-995e-9809f52f5350
 translation-type: tm+mt
-source-git-commit: c7e8b67ccad4479487b471668462937c5be6be34
+source-git-commit: 1cbff10b9e978755e139e7d5b996249de5ebb5bd
 
 ---
 
 
 # Recency and Frequency {#recency-and-frequency}
 
-In [!UICONTROL Segment Builder], recency and frequency let you segment visitors based on actions that occur or repeat over a set daily interval.
+Em [!UICONTROL Segment Builder], a recenticidade e a frequência permitem segmentar os visitantes com base em ações que ocorrem ou se repetem em um intervalo diário definido.
 
 O Audience Manager define [!DNL recency] e [!DNL frequency] como:
 
-* **[!UICONTROL Recency]** : How recently a user viewed or qualified for one (or more) traits.
+* **[!UICONTROL Recency]** : Recentemente, um usuário visualizou ou se qualificou para uma (ou mais) característica.
 * **[!UICONTROL Frequency]** : A taxa na qual um usuário visualizou ou se qualificou para uma (ou mais) características.
 
 [!UICONTROL Recency] e [!UICONTROL Frequency] as configurações ajudam a segmentar os visitantes com base em seu nível de interesse real (ou percebido) em um site, seção ou criação específica. Por exemplo, os usuários que se qualificam para um segmento com requisitos de alta recenticidade/frequência podem estar mais interessados em um site ou produto do que os usuários que visitam com menos frequência ou com menos frequência.
@@ -45,6 +45,10 @@ Analise e entenda esses limites e regras quando quiser aplicar recenticidade e f
   <tr> 
    <td colname="col1"> <p> <b>Valor Mínimo</b> </p> </td> 
    <td colname="col2"> <p>A Idade deve ser maior que 0. </p> </td> 
+  </tr>
+  <tr> 
+   <td colname="col1"> <p> <b>Tipos de características</b> </p> </td> 
+   <td colname="col2"> <p>Você pode aplicar controles de recenticidade somente a características com base em regras e pastas. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Características de terceiros</b> </p> </td> 
@@ -65,48 +69,55 @@ Analise e entenda esses limites e regras quando quiser aplicar recenticidade e f
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Características de terceiros</b> </p> </td> 
-   <td colname="col2"> <p>Não é possível definir regras de frequência em características individuais de terceiros ou grupos de características que contenham características de terceiros. A recenticidade e a frequência se aplicam somente às suas próprias características. </p> </td> 
+   <td colname="col2"> <p>You cannot set frequency rules on individual third-party traits or trait groups that contain third-party traits. Recency and frequency applies to your own traits only. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Requisitos de recenticidade</b> </p> </td> 
-   <td colname="col2"> <p>Você pode configurar os requisitos de frequência <i>sem</i> configurar os requisitos de recenticidade. Basta definir um valor de frequência e deixar o campo de recenticidade em branco. </p> </td> 
+   <td colname="col1"> <p> <b>Tipos de características</b> </p> </td> 
+   <td colname="col2"> <p>You can apply frequency controls to rule-based and folder traits only. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <b>Recency Requirements</b> </p> </td> 
+   <td colname="col2"> <p>You can configure frequency requirements without configuring recency requirements. <i></i> Just set a frequency value and leave the recency field blank. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Profile Merge Rules</b> </p> </td> 
-   <td colname="col2"> <p>Consulte <a href="../../faq/faq-profile-merge.md#trait-freq-device-rules"> Frequência de características, Gráficos de dispositivos externos e Regras</a>de mesclagem de perfis. </p> </td> 
+   <td colname="col2"> <p>See  Trait Frequency, External Device Graphs, and Profile Merge Rules.<a href="../../faq/faq-profile-merge.md#trait-freq-device-rules"></a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Exemplos de recenticidade {#recency-examples}
+## Recency Examples {#recency-examples}
 
-Estes são dois exemplos de como a atualização funciona, dependendo de sua seleção na interface do usuário:
+Here are two examples of how recency works, depending on your selection in the UI:
 
-### Usando um operador menor que ou igual a (&lt;=)
+### Using a less than or equal to operator (&lt;=)
 
-![Menor que igual a](assets/less-than-equal-to.png)
+![Less-than-equal-to](assets/less-than-equal-to.png)
 
-Neste exemplo, você seleciona o operador &lt;=, como mostrado na captura de tela. Isso qualifica o usuário para o segmento se ele se qualificar para qualquer uma das três características pelo menos três vezes nos últimos cinco dias. A linha do tempo abaixo mostra a qualificação do segmento no momento em que o segmento é criado, em 1º de outubro e dez dias depois.
+In this example, you select the &lt;= operator, as shown in the screenshot. This qualifies your user for the segment if they qualify for any of the three traits a minimum of three times within the last five days. A linha do tempo abaixo mostra a qualificação do segmento no momento em que o segmento é criado, em 1º de outubro e dez dias depois.
 
-![Últimos cinco dias](assets/last-5-days.png)
+![Last-five-days](assets/last-5-days.png)
 
-### Using a greater than or equal to operator (=&gt;)
+### Usando um operador maior que ou igual a (=&gt;)
 
-![Greater-than-equal-to](assets/greater-than-equal-to.png)
+![Maior que igual a](assets/greater-than-equal-to.png)
 
-In this example, you select the =&gt; operator, as shown in the screenshot. This qualifies your user for the segment if they qualify for any of the three traits a minimum of three times anytime between their first qualification on the Audience Manager platform and the cut-off time five days ago. The timeline below shows the segment qualification at the time the segment is created, on October 1st, and ten days later.
+Neste exemplo, você seleciona o operador =&gt;, como mostrado na captura de tela. Isso qualifica seu usuário para o segmento se ele se qualificar para qualquer uma das três características pelo menos três vezes a qualquer momento entre sua primeira qualificação na plataforma Audience Manager e o tempo limite cinco dias atrás. A linha do tempo abaixo mostra a qualificação do segmento no momento em que o segmento é criado, em 1º de outubro e dez dias depois.
 
-![Earlier-qualification](assets/earlier-qualification.png)
+![Qualificação anterior](assets/earlier-qualification.png)
 
 
-## Frequency Capping Examples {#frequency-capping}
+## Exemplos de limite de frequência {#frequency-capping}
 
-Frequency-capping expressions include all the users whose number of trait realizations is below a desired value. Here are a few examples:
+As expressões de limite de frequência incluem todos os usuários cujo número de realizações de características está abaixo de um valor desejado. Estes são alguns exemplos de Right e Wrong:
 
-* The expression  includes all users that have realized the trait with the ID "1000" a maximum of five times, including users who have not realized the trait.`frequency([1000T]) <= 5`
-* When you need recency/frequency requirements to be less than a specific number of times or days, join that trait to another with an  operator. `AND` Using the example above, this expression becomes valid when joined with another trait as shown here: .`frequency([1000T]) <= 5 AND isSiteVisitorTrait`
+* Errado - A expressão `frequency([1000T]) <= 5` inclui todos os usuários que perceberam a característica com a ID "1000" no máximo cinco vezes, mas também inclui usuários que não perceberam a característica. Portanto, o Audience Manager não valida essa expressão por motivos de desempenho, pois qualificaria muitos usuários para o segmento.
 
-* Para casos de uso de limite de frequência de publicidade, é possível criar uma regra de segmento semelhante a esta: `(frequency([1000T] <= 2D) >= 5)`. Essa expressão inclui todos os usuários que perceberam a característica com a ID "1000" nos últimos 2 dias pelo menos cinco vezes. Set frequency capping by sending this segment to the ad server with a  set on the segment in the ad server. `NOT` This approach achieves greater performance in  while still serving the same purpose for frequency capping.[!DNL Audience Manager]
+* Direita - Se você quiser incluir todos os usuários que tiverem realizado a característica com a ID "1000" no máximo cinco vezes, adicione outra condição à expressão, para garantir que os usuários tenham se qualificado para a característica pelo menos uma vez:  `frequency([1000T]) >= 1  AND  frequency([1000T]) <= 5`
+
+* Direita - quando você precisa que os requisitos de recenticidade/frequência sejam menores que um número específico de vezes ou dias, associe essa característica a outra com um `AND` operador. Usando o exemplo no primeiro ponto, essa expressão se torna válida quando unida a outra característica, como mostrado aqui: `frequency([1000T]) <= 5 AND isSiteVisitorTrait`.
+
+* Direita - Para casos de uso de limite de frequência de publicidade, é possível criar uma regra de segmento semelhante a esta: `(frequency([1000T] <= 2D) >= 5)`. Essa expressão inclui todos os usuários que perceberam a característica com a ID "1000" nos últimos 2 dias pelo menos cinco vezes. Defina o limite de frequência enviando esse segmento para o servidor de publicidade com um `NOT` conjunto definido no segmento no servidor de publicidade. Essa abordagem atinge um desempenho maior em [!DNL Audience Manager] simultâneo com o mesmo propósito para o limite de frequência.
 
 >[!MORE_LIKE_THIS]
 >
