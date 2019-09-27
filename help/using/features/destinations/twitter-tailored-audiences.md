@@ -5,7 +5,7 @@ seo-title: Configurar públicos-alvo personalizados do Twitter como um destino b
 solution: Audience Manager
 title: Configurar públicos-alvo personalizados do Twitter como um destino baseado em dispositivo de autoatendimento
 translation-type: tm+mt
-source-git-commit: 2bf825e083c81edb8c03cb8dcef99088b1958452
+source-git-commit: c6318921b49603015b4670a361ec85ffa29abb30
 
 ---
 
@@ -42,30 +42,30 @@ Depois de vincular o Audience Manager e seu [!DNL Twitter Tailored Audiences], v
 
 >[!NOTE]
 >
->Não é possível alterar o nome de um destino baseado em dispositivo existente. Forneça um nome que o ajudará a identificar o destino corretamente.
+>Não é possível alterar o nome de um destino baseado em dispositivo existente. Make sure to provide a name that will help you identify the destination correctly.
 
-1. Faça logon em sua conta do Audience Manager, vá para **[!DNL Audience Data > Destinations]** e clique em **[!DNL Create Destination]**.
-2. Na **[!DNL Basic Information]** seção, digite um **[!DNL Name]** e **[!DNL Description]** para seu novo destino e use as configurações abaixo: ![configuração](assets/dbd-new-basic.png)
+1. Log in to your Audience Manager account, go to , and click .**[!DNL Audience Data > Destinations]****[!DNL Create Destination]**
+2. In the **[!DNL Basic Information]** section, enter a **[!DNL Name]** and **[!DNL Description]** for your new destination, and use the settings below: ![setup](assets/dbd-new-basic.png)
 3. Clique em **[!DNL Next]**.
-4. Escolha os Rótulos [de Exportação de](/help/using/features/data-export-controls.md#controls-labels) Dados que deseja definir para este destino.
+4. Choose the [Data Export Labels](/help/using/features/data-export-controls.md#controls-labels) that you want to set for this destination.
 5. Clique em **[!DNL Save]**.
-6. Na **[!DNL Segment Mappings]** seção, selecione os segmentos de público-alvo que você deseja enviar para esse destino.
-7. Salve o destino.
+6. In the  section, select the audience segments that you want to send to this destination.**[!DNL Segment Mappings]**
+7. Save the destination.
 
-## Atualizar Integrações Existentes Do Twitter Para Administração De Autoatendimento {#update-existing-twitter-integrations}
+## Update Existing Twitter Integrations To Self-Service Administration {#update-existing-twitter-integrations}
 
-Para melhorar a experiência do usuário e simplificar o processo de configuração, estamos atualizando a [!DNL Twitter Tailored Audiences] integração para um modelo de autoatendimento, onde você mesmo pode executar a configuração, na interface do usuário do Audience Manager. Esta seção descreve as etapas necessárias para atualizar sua integração existente do Twitter.
+To improve the user experience and streamline the configuration process, we are upgrading the  integration to a self-service model, where you can perform the configuration yourself, from the Audience Manager UI. [!DNL Twitter Tailored Audiences] This section describes the steps you need to take to update your existing Twitter integration.
 
 >[!IMPORTANT]
 >
->As etapas descritas abaixo só se aplicam se você tiver uma integração existente com [!DNL Twitter Tailored Audiences], configurada por um consultor do Audience Manager ou pelo Atendimento ao cliente. O processo completo de atualização do destino para o modelo de autoatendimento pode levar até 5 dias úteis. Enquanto isso, seu destino ainda está ativo e o Audience Manager continua a enviar públicos para ele.
-> Consulte o item número 3 em [Pré-requisitos](#prerequisites) antes de migrar [!DNL Twitter Tailored Audiences] para o modelo de autoatendimento.
+>The steps described below only apply if you have an existing integration with , configured by an Audience Manager consultant or Customer Care. [!DNL Twitter Tailored Audiences] The full upgrade process of your destination to the self-service model may take up to 5 business days. In the meantime, your destination is still active and Audience Manager continues to send audiences to it.
+> See item number 3 in Prerequisites before migrating your  to the self-service model.[](#prerequisites)[!DNL Twitter Tailored Audiences]
 
-Siga as etapas abaixo para migrar seu [!DNL Twitter Tailored Audiences] destino existente para o modelo de autoatendimento.
+Follow the steps below to migrate your existing  destination to the self-service model.[!DNL Twitter Tailored Audiences]
 
 1. Faça logon em sua conta do Audience Manager e vá para **[!DNL Administration > Integrated Accounts]**.
 1. Clique em **[!DNL Add Account]**.
-1. Selecione [!DNL Twitter Tailored Audiences] e clique em **[!DNL Confirm]** para ser redirecionado para a página de autenticação. ![plataformas integradas](assets/dbd-integrated-platforms.png)
+1. Select  and click  to be redirected to the authentication page. [!DNL Twitter Tailored Audiences]**[!DNL Confirm]** ![plataformas integradas](assets/dbd-integrated-platforms.png)
 1. Depois de autenticar com sua [!DNL Twitter] conta, você será redirecionado para o Audience Manager, onde deverá ver suas contas de anunciante associadas. Selecione a conta do anunciante que deseja usar e clique em **[!DNL Confirm]**.
 1. Vá até **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Destinations]** e clique no destino do Twitter que você precisa configurar.
 1. Clique em **[!UICONTROL Edit]**. Na **[!UICONTROL Basic Information]** seção, clique no menu **[!UICONTROL Integrated Account]** suspenso e selecione a [!DNL Twitter] conta na qual você se autenticou na Etapa 4.
@@ -89,10 +89,10 @@ Ao mapear segmentos de público-alvo para o Twitter, certifique-se de atender ao
 * Nome correto do segmento ou mapeamento: "Compradores dos EUA e da Europa";
 * Nome de segmento ou mapeamento incorreto: "EUA, Europa 5h0pP3rs".
 
-## Considerações sobre Taxas de Correspondência {#match-rates-considerations}
-
-Ao usar [!UICONTROL Twitter Tailored Audiences], as [!UICONTROL Segment Addressable Audience] métricas e [!UICONTROL Segment Match Rate] da página de destino não exibirão valores. Esse é o comportamento normal, já que a correspondência do público-alvo com as taxas de correspondência para esse destino é feita e hospedada pela [!UICONTROL Twitter]Adobe, não pela Adobe.
-
 >[!IMPORTANT]
 >
 >Não é possível alterar os nomes de segmentos já mapeados. O Audience Manager usa os nomes dos segmentos para identificar corretamente os segmentos na integração.
+
+## Considerações sobre Taxas de Correspondência {#match-rates-considerations}
+
+Ao usar [!UICONTROL Twitter Tailored Audiences], as [!UICONTROL Segment Addressable Audience] métricas e [!UICONTROL Segment Match Rate] da página de destino não exibirão valores. Esse é o comportamento normal, já que a correspondência do público-alvo com as taxas de correspondência para esse destino é feita e hospedada pela [!UICONTROL Twitter]Adobe, não pela Adobe.
