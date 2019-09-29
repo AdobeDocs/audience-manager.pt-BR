@@ -142,15 +142,15 @@ A tabela abaixo contém descrições para todos os campos retornados na resposta
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> id</code> </p> </td> 
-   <td colname="col2"> <p>A ID do usuário para os dados a seguir. Esta é uma ID fornecida na solicitação de acesso a dados do RGPD ou uma ID vinculada a uma das IDs declaradas fornecidas. Os tipos de ID são descritos na seção Identificadores <a href="../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids"></a> do Audience Manager. </p> </td> 
+   <td colname="col2"> <p>A ID do usuário para os dados a seguir. Esta é uma ID fornecida na solicitação de acesso a dados do RGPD ou uma ID vinculada a uma das IDs declaradas fornecidas. The ID types are described in the <a href="../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids"> Audience Manager Identifiers</a> section. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> namespace</code> </p> </td> 
-   <td colname="col2"> <p>Também conhecido como fonte de dados. Consulte a seção Identificadores <a href="../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids"></a> do Audience Manager. </p> </td> 
+   <td colname="col2"> <p>Também conhecido como fonte de dados. See the <a href="../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids"> Audience Manager Identifiers</a> section. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> id</code> </p> </td> 
-   <td colname="col2"> <p>A ID do namespace/fonte de dados. Consulte <a href="../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids"> Audience Manager Identifiers (IDs)</a> para obter todos os valores aceitos. </p> </td> 
+   <td colname="col2"> <p>A ID do namespace/fonte de dados. See <a href="../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids"> Audience Manager Identifiers (IDs)</a> for all the accepted values. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> código de integração </code> </p> </td> 
@@ -158,35 +158,35 @@ A tabela abaixo contém descrições para todos os campos retornados na resposta
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> nome do provedor de dados</code> </p> </td> 
-   <td colname="col2"> <p>O nome do proprietário da fonte de dados. 
+   <td colname="col2"> <p>The name of the owner of the data source. 
      <ul id="ul_5CEAF23C28154662AFC443D3494107D3"> 
-      <li id="li_EC2DA09F618D4225B655ADF455C0D654">Para dados primários, este é o nome da própria empresa do cliente. </li> 
-      <li id="li_C4A5E1BD2A994109BBCD839DDC4B2E64">Para dados de terceiros, este é o nome da empresa parceira. </li> 
-      <li id="li_1AA1246B7E40443CB18108512FBB8B19">Para dados de terceiros, esse é o nome do parceiro de dados. </li> 
+      <li id="li_EC2DA09F618D4225B655ADF455C0D654">For first party data, this is the customer's own company name. </li> 
+      <li id="li_C4A5E1BD2A994109BBCD839DDC4B2E64">For second party data, this is the name of the partner company. </li> 
+      <li id="li_1AA1246B7E40443CB18108512FBB8B19">For third party data, this is the name of the data partner. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> type </code> </p> </td> 
-   <td colname="col2"> <p>O tipo de ID para a qual você solicitou o acesso de dados do GDPR. Os tipos aceitos são listados na seção Identificadores <a href="../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids"></a> do Audience Manager. </p> </td> 
+   <td colname="col2"> <p>O tipo de ID para a qual você solicitou o acesso de dados do GDPR. Accepted types are listed in the  Audience Manager Identifiers section.<a href="../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids"></a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> avisos</code> </p> </td> 
-   <td colname="col2"> <p>Os avisos retornam informações adicionais relacionadas à solicitação de acesso aos dados. </p> </td> 
+   <td colname="col1"> <p> <code> warnings</code> </p> </td> 
+   <td colname="col2"> <p>Warnings return further information related to the data access request. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> título </code> </p> </td> 
-   <td colname="col2"> <p>Breve informação sobre o aviso. </p> <p>Os dois avisos que você pode receber são: </p> <p> 
+   <td colname="col2"> <p>Brief information about the warning. </p> <p>Os dois avisos que você pode receber são: </p> <p> 
      <ul id="ul_34019A1529594DC7B2566913937EAF0C"> 
-      <li id="li_F0104BE3D5FE4DB7BA54195504E260E9">Dados do dispositivo </li> 
-      <li id="li_8A22D9F9A1454AFDBC4CAF942E80498F">Solicitação incompleta </li> 
+      <li id="li_F0104BE3D5FE4DB7BA54195504E260E9">Device Data </li> 
+      <li id="li_8A22D9F9A1454AFDBC4CAF942E80498F">Incomplete request </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> descrição </code> </p> </td> 
    <td colname="col2"> <p>Uma descrição mais detalhada do aviso recebido: </p> <p> 
      <ul id="ul_78E03ABA52674E07A48835FDD3431FF8"> 
-      <li id="li_6BB6D58660594CA0B1A89804F2FC6274">Dados do dispositivo - contém dados de todos os usuários deste dispositivo </li> 
-      <li id="li_E328D5BF066C4E7E8CCCDCAA5E91CCDC">Solicitação incompleta - A recuperação de dados do Audience Manager não foi concluída. Algumas informações podem estar faltando. </li> 
+      <li id="li_6BB6D58660594CA0B1A89804F2FC6274">Device Data - Contains data from all users of this device </li> 
+      <li id="li_E328D5BF066C4E7E8CCCDCAA5E91CCDC">Incomplete request - Retrieval of Audience Manager data was not completed. Algumas informações podem estar faltando. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -252,39 +252,39 @@ A tabela abaixo contém descrições para todos os campos retornados na resposta
    <td colname="col2"> <p>O nome do proprietário da fonte de dados à qual este segmento pertence. 
      <ul id="ul_D437D149BDBE470489D1DD03CF47841C"> 
       <li id="li_90133644911A49AEB0DB209BCAC8E789">Para dados primários, este é o nome da própria empresa do cliente. </li> 
-      <li id="li_788AAFCDA9914235830F0440DF9982E5">Para dados de terceiros, este é o nome da empresa parceira. </li> 
+      <li id="li_788AAFCDA9914235830F0440DF9982E5">For second party data, this is the name of the partner company. </li> 
       <li id="li_F59FD714746E46BEB27FDF6B7245A7D1">Para dados de terceiros, esse é o nome do parceiro de dados. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> última realização</code> </p> </td> 
-   <td colname="col2"> <p>A hora exata em que o assunto de dados se qualificou pela última vez para este segmento. O formato de data é AAAA-MM-DD. </p> </td> 
+   <td colname="col2"> <p>The exact time that the Data Subject last qualified for this segment. The date format is YYYY-MM-DD. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ative</code> </p> </td> 
-   <td colname="col2"> <p>Indica se a Pessoa de Dados está qualificada para esse segmento no momento. Returns <code><i>true</i></code> or <code><i>false</i></code>. </p> </td> 
+   <td colname="col2"> <p>Indicates whether the Data Subject is currently qualified for this segment. Returns <code><i>true</i></code> or <code><i>false</i></code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> links </code> </p> </td> 
-   <td colname="col2"> <p>ID adicional à qual essa ID foi vinculada. As informações são retornadas em: </p> <p> 
+   <td colname="col2"> <p>Additional ID that this ID has been linked to. Information is returned on: </p> <p> 
      <ul id="ul_679F372A83164CC8B6BFE5A833347B9E"> 
       <li id="li_BCBF4F4C6C4049519BDE9186EE84868A">ID </li> 
       <li id="li_46AC081C993041E6BCE70119FE04BE7F">namespace (fonte de dados) </li> 
-      <li id="li_E9B906C8947E484B94FBCAEB03BDF4E2">ID do namespace </li> 
+      <li id="li_E9B906C8947E484B94FBCAEB03BDF4E2">namespace ID </li> 
       <li id="li_FB2A2F28290B4BA7844A558C01F8D9D4">código de integração </li> 
       <li id="li_2569982810B64F8AABD78F5AC3717971"> nome do provedor de dados </li> 
       <li id="li_2A3C282279064373BF7E4619A63454CF">Tipo de ID </li> 
-     </ul> </p> <p>Todos esses campos estão descritos nas primeiras linhas desta tabela. </p> </td> 
+     </ul> </p> <p>All these fields are described in the first rows of this table. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> datetime de vinculação</code> </p> </td> 
-   <td colname="col2"> <p>A hora exata em que um evento de sincronização de ID fez o link entre IDs. O formato de data é AAAA-MM-DD. </p> </td> 
+   <td colname="col1"> <p> <code> linking datetime</code> </p> </td> 
+   <td colname="col2"> <p>The exact time that an ID sync event made the link between IDs. The date format is YYYY-MM-DD. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> metadados do dispositivo </code> </p> </td> 
-   <td colname="col2"> <p>Informações sobre o dispositivo. Essas informações incluem os campos abaixo. Observe que nem todos os campos são retornados para todos os tipos de dispositivos. </p> <p> 
+   <td colname="col1"> <p> <code> device metadata </code> </p> </td> 
+   <td colname="col2"> <p>Information about the device. This information includes the fields below. Note that not all fields are returned for all device types. </p> <p> 
      <ul id="ul_F0031D50DF074634A428DBC73F958159"> 
-      <li id="li_4E26042A6B8D4397829F30B7BC7A2D6E"> <p>Informações de hardware </p> </li> 
+      <li id="li_4E26042A6B8D4397829F30B7BC7A2D6E"> <p>Hardware information </p> </li> 
       <li id="li_99A049D585A9440EA79F57A3B03181AB"> <p>Fabricante do dispositivo </p> </li> 
       <li id="li_290F92FC3F6449EFBC4E7870B62AFE8B"> <p>O nome de marketing do dispositivo </p> </li> 
       <li id="li_FC37954CE133471398352240A8B0478F"> <p>O modelo do dispositivo </p> </li> 
@@ -321,19 +321,19 @@ Para solicitações de não participação, consulte nossa documentação sobre 
 
 Ao enviar solicitações de RGPD ao Adobe Audience Manager, você deve incluir um dos identificadores (IDs) listados abaixo. Você pode encontrar mais informações sobre os formatos de ID em nosso [Índice de IDs](../../reference/ids-in-aam.md)do Audience Manager.
 
-### ID de usuário exclusiva do Adobe Audience Manager
+###  ID de usuário exclusiva do Adobe Audience Manager
 
 **ID** do usuário: aam_uuid
 
 **Definição**:ID de usuário exclusiva do Adobe Audience Manager
 
-**ID** do namespace: 0
+**Namespace ID**: 0
 
 >[!NOTE]
 >
->Você também pode usar o namespace CORE. Consulte o segundo exemplo de JSON.
+>Você também pode usar o namespace CORE. See the second JSON example.
 
-**Exemplo em JSON**:
+**Example in JSON:**
 
 ```
  "users": [
@@ -385,15 +385,15 @@ Ao enviar solicitações de RGPD ao Adobe Audience Manager, você deve incluir u
 
 **ID** do usuário: mid
 
-**Definição**: Adobe Experience Cloud ID, anteriormente conhecida como ID de visitante ou Marketing Cloud ID
+**Definition**: Adobe Experience Cloud ID, formerly known as Visitor ID or Marketing Cloud ID
 
-**ID** do namespace: 4
+**Namespace ID**: 4
 
 >[!NOTE]
 >
->Você também pode usar o namespace ECID. Consulte o segundo exemplo de JSON.
+>You can also use the ECID namespace. See the second JSON example.
 
-**Exemplo em JSON**:
+**Example in JSON:**
 
 ```
  "users": [
@@ -443,13 +443,13 @@ Ao enviar solicitações de RGPD ao Adobe Audience Manager, você deve incluir u
 
 ### Customer ID
 
-**ID** do usuário: cid
+**User ID: cid**
 
-**Definição**: ID do cliente, como um cookie definido para visitantes anônimos do site ou uma ID CRM de um sistema offline ou nome de usuário com hash
+**Definition: Customer ID, such as a cookie you set for anonymous site visitors or a CRM ID from an offline system or a hashed username**
 
-**ID** do namespace: Específico do cliente. Localize-o na sua instância do Audience Manager.
+**Namespace ID: Customer-specific.** Please find it from your Audience Manager instance.
 
-**Exemplo em JSON**:
+**Example in JSON:**
 
 ```
 "users": [
@@ -479,9 +479,9 @@ Ao enviar solicitações de RGPD ao Adobe Audience Manager, você deve incluir u
   }
 ```
 
-### ID de anúncio móvel
+### Mobile advertising ID
 
-**ID** do usuário: d_cid
+**User ID: d_cid**
 
 **Definição**: IDs de anúncios móveis.
 >[!IMPORTANT]
@@ -490,7 +490,7 @@ Ao enviar solicitações de RGPD ao Adobe Audience Manager, você deve incluir u
 
 **ID de namespace**:
 
-* IDFA: 2015
+* IDFA: 20915
 * GAID: 2014
 
 **Exemplo em JSON**:
@@ -518,7 +518,7 @@ Ao enviar solicitações de RGPD ao Adobe Audience Manager, você deve incluir u
 ]
 ```
 
-### Código de integração
+### Integration code
 
 **ID** do usuário: d_cid_ic
 
