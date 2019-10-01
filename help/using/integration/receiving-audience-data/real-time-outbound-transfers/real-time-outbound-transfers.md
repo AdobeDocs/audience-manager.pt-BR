@@ -11,7 +11,7 @@ source-git-commit: b76e905ec890dbe8270177d142dddb351438b039
 ---
 
 
-# Real-Time Outbound Data Transfers {#real-time-outbound-data-transfers}
+# Transferências de dados de saída em tempo real {#real-time-outbound-data-transfers}
 
 O processo de transferência de dados em tempo real de saída fornece dados do usuário como uma série de mensagens [!DNL JSON] formatadas para uma plataforma de destino.
 
@@ -19,19 +19,19 @@ O processo de transferência de dados em tempo real de saída fornece dados do u
 
 ## Recomendações  
 
-To use this method, the destination platform must meet the following requirements:
+Para usar esse método, a plataforma de destino deve atender aos seguintes requisitos:
 
-* It must provide an endpoint  that can scale to receive a high volume of messages from Audience Manager;[!DNL URL]
-* It must accept data in  format ();[!DNL JSON]`Content-type: application/json`
-* It must accept secure  data transfers. `HTTPS` [!DNL Audience Manager] will not send messages through the unsecure  protocol.`HTTP`
+* Deve fornecer um terminal [!DNL URL] que possa ser dimensionado para receber um grande volume de mensagens do Audience Manager;
+* Deve aceitar os dados no [!DNL JSON] formato (`Content-type: application/json`);
+* Tem de aceitar transferências de `HTTPS` dados seguras. [!DNL Audience Manager] não enviará mensagens através do `HTTP` protocolo inseguro.
 
 ## Frequência
 
-Esse método de transferência de dados pode enviar dados em tempo quase real, à medida que os usuários se qualificam para segmentos. Real-time messages are only delivered while the user is online and actively visible to the Audience Manager Edge network. Como opção, esse método também pode enviar lotes de dados offline ou integrados com a mesma frequência a cada 24 horas.
+Esse método de transferência de dados pode enviar dados em tempo quase real, à medida que os usuários se qualificam para segmentos. As mensagens em tempo real só são entregues enquanto o usuário estiver online e ativamente visível à rede de Borda do Audience Manager. Como opção, esse método também pode enviar lotes de dados offline ou integrados com a mesma frequência a cada 24 horas.
 
 ## Transferências em lote
 
-As transferências em tempo real e em lote são enviadas para o mesmo terminal e usam o mesmo formato de mensagem. When batch transfers are enabled, the destination platform will see a spike in message volume while the batch messages are delivered. Muitas das qualificações de segmento enviadas por mensagens em tempo real serão repetidas nas mensagens em lote. As transferências em lote incluirão apenas as qualificações de segmento (ou inqualificações) que foram alteradas desde que o último lote foi entregue.
+As transferências em tempo real e em lote são enviadas para o mesmo terminal e usam o mesmo formato de mensagem. Quando as transferências em lote estiverem ativadas, a plataforma de destino verá um pico no volume de mensagens enquanto as mensagens em lote forem entregues. Muitas das qualificações de segmento enviadas por mensagens em tempo real serão repetidas nas mensagens em lote. As transferências em lote incluirão apenas as qualificações de segmento (ou inqualificações) que foram alteradas desde que o último lote foi entregue.
 
 ## Limites de taxa
 
@@ -43,7 +43,7 @@ Por padrão, o servidor destinatário deve retornar o `200 OK` código para indi
 
 ## Parâmetros
 
-A tabela a seguir define os elementos no arquivo de [!DNL JSON] dados retornado.
+The following table defines the elements in the returned [!DNL JSON] data file.
 
 <table id="table_68475F9D01ED4A44B5909234114AEDE2"> 
  <thead> 
@@ -62,17 +62,17 @@ A tabela a seguir define os elementos no arquivo de [!DNL JSON] dados retornado.
   <tr valign="top"> 
    <td colname="col1"><code><i>User_DPID</i></code> </td> 
    <td colname="col2"> <p>Número inteiro </p> </td> 
-   <td colname="col3"> <p>Uma ID que indica o tipo de IDs de dispositivo contidas na mensagem, na propriedade User.DataPartner_UUID. </p> 
+   <td colname="col3"> <p>An ID that indicates the type of device IDs contained within the message, in the User.DataPartner_UUID property. </p> 
     <ul id="ul_159306B0CF304DE0B9A9836D41263E70"> 
-     <li id="li_46F9F4F9DDC34AB683AE2DF0317FBCAC">IDs do Android (GAID): <code> 2014</code> </li> 
-     <li id="li_57DEB2A7B9024A94A0E302EEA967AB0B">IDs do iOS (IDFA): <code> 2015</code> </li>
-     <li>IDs da Web/Cookie: varia de acordo com a plataforma de destino</li>
+     <li id="li_46F9F4F9DDC34AB683AE2DF0317FBCAC">Android IDs (GAID): <code> 20914</code> </li> 
+     <li id="li_57DEB2A7B9024A94A0E302EEA967AB0B">iOS IDs (IDFA):  20915<code></code> </li>
+     <li>Web/Cookie IDs: varies by destination platform</li>
     </ul> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Client_ID</i></code> </td> 
    <td colname="col2"> <p>String   </p> </td> 
-   <td colname="col3"> <p>Representa a conta de destino na plataforma de destino. Essa ID é originária da plataforma de destino.</p> </td> 
+   <td colname="col3"> <p>Represents the target account in the destination platform. This ID originates from the destination platform.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>AAM_Destination_ID</i></code> </td> 
@@ -87,12 +87,12 @@ A tabela a seguir define os elementos no arquivo de [!DNL JSON] dados retornado.
   <tr valign="top"> 
    <td colname="col1"><code><i>Usuários</i></code> </td> 
    <td colname="col2"> <p>Matriz </p> </td> 
-   <td colname="col3"> <p>An array of user objects. Por padrão, cada mensagem conterá entre 1 e 10 usuários, para manter o tamanho da mensagem ótimo. </p> </td> 
+   <td colname="col3"> <p>Uma matriz de objetos de usuário. Por padrão, cada mensagem conterá entre 1 e 10 usuários, para manter o tamanho da mensagem ótimo. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_UUID</i></code> </td> 
    <td colname="col2"> <p>String   </p> </td> 
-   <td colname="col3"> <p>O <span class="keyword"> Audience Manager</span> UUID. </p> </td> 
+   <td colname="col3"> <p>The  Audience Manager UUID.<span class="keyword"></span> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.DataPartner_UUID</i></code> </td> 
@@ -100,19 +100,19 @@ A tabela a seguir define os elementos no arquivo de [!DNL JSON] dados retornado.
    <td colname="col3"> <p>UUID da plataforma de destino ou a ID do dispositivo global. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"><code><i>User.AAM_Regions</i></code> </td> 
+   <td colname="col1"><code><i>User.AAM_Region</i></code> </td> 
    <td colname="col2"> Matriz </td> 
-   <td colname="col3"> A ID da região do <span class="keyword"> Audience Manager</span> onde vimos este dispositivo. For instance, if the device had some activity in Paris (Europe), the region ID would be  6. <code></code> Consulte <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">IDs da região do DCS, locais e nomes de host</a>. </td> 
+   <td colname="col3"> A ID da região do <span class="keyword"> Audience Manager</span> onde vimos este dispositivo. Por exemplo, se o dispositivo tivesse alguma atividade em Paris (Europa), a ID da região seria <code> 6</code>. Consulte <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">IDs da região do DCS, locais e nomes de host</a>. </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segmentos</i></code> </td> 
    <td colname="col2"> <p>Matriz </p> </td> 
-   <td colname="col3"> <p>An array of segment objects. For real-time messages, the array contains all of the segments the user belongs to. For batch messages, the array contains only segment changes since the last batch.</p> </td> 
+   <td colname="col3"> <p>Uma matriz de objetos de segmento. Para mensagens em tempo real, a matriz contém todos os segmentos aos quais o usuário pertence. Para mensagens em lote, a matriz contém somente alterações de segmento desde o último lote.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.Segment_ID</i></code> </td> 
    <td colname="col2"> <p>Número inteiro </p> </td> 
-   <td colname="col3"> <p>The identifier for the segment. In most cases, this is the segment ID generated by Audience Manager (an integer). In some cases, if the destination platform allows, customers can define the segment identifier in the Audience Manager UI (open text field), which would then reflect in this property. </p> </td> 
+   <td colname="col3"> <p>O identificador do segmento. Na maioria dos casos, essa é a ID do segmento gerada pelo Audience Manager (um número inteiro). Em alguns casos, se a plataforma de destino permitir, os clientes podem definir o identificador de segmento na interface do usuário do Audience Manager (campo de texto aberto), que deve ser refletido nessa propriedade. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.Status</i></code> </td> 
