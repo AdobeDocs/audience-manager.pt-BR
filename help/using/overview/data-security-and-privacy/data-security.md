@@ -15,23 +15,23 @@ source-git-commit: b76e905ec890dbe8270177d142dddb351438b039
 
 O Audience Manager leva a segurança e privacidade dos dados muito a sério. Trabalhamos para manter nossos sistemas protegidos e proteger seus dados valiosos.
 
-Audience Manager security practices include external and internal audits, activity logging, training, and other procedures designed to help protect our systems and your valuable data. We believe a secure product helps build and maintain the trust customers place in us.
+As práticas de segurança do Audience Manager incluem auditorias externas e internas, registro de atividades, treinamento e outros procedimentos projetados para ajudar a proteger nossos sistemas e seus dados valiosos. Acreditamos que um produto seguro ajuda a criar e manter a confiança que os clientes depositam em nós.
 
-In Audience Manager, we think about security in three main categories:
+No Audience Manager, pensamos sobre segurança em três categorias principais:
 
-| Security Type | Fornece suporte para |
+| Tipo de segurança | Fornece suporte para |
 |---|---|
-| **Information security** | Práticas de autenticação, criptografia e armazenamento de dados de nível empresarial |
-| **Data leakage/transparency** | Insight profundo e acionável sobre atividades no local que constituem ou contribuem para a fuga de dados |
-| **Aprimoramentos de processos/políticas** | Clients, by working with industry best practices for privacy and data security |
+| **Segurança das informações** | Práticas de autenticação, criptografia e armazenamento de dados de nível empresarial |
+| **Fuga/transparência de dados** | Insight profundo e acionável sobre atividades no local que constituem ou contribuem para a fuga de dados |
+| **Aprimoramentos de processos/políticas** | Clientes, trabalhando com as práticas recomendadas do setor para privacidade e segurança de dados |
 
 ## Sistemas, treinamento e acesso {#systems-training-access}
 
-Processes that help keep our system and your data secure.
+Processos que ajudam a manter nosso sistema e seus dados protegidos.
 
-**** External Security Validation:  Audience Manager tests security on an annual and quarterly basis.
+**** Validação de Segurança Externa:  O Audience Manager testa a segurança anualmente e trimestralmente.
 
-* Yearly: Once a year, Audience Manager undergoes a full penetration test conducted by an independent third-party company. The test is designed to identify security vulnerabilities in the application. The tests include scanning for cross-site scripting, SQL injections, form parameter manipulation, and other application-level vulnerabilities.
+* Anualmente: Uma vez por ano, o Audience Manager é submetido a um teste completo de penetração realizado por uma empresa independente. O teste foi projetado para identificar vulnerabilidades de segurança no aplicativo. Os testes incluem varredura para script entre sites, injeções de SQL, manipulação de parâmetros de formulário e outras vulnerabilidades no nível do aplicativo.
 * Trimestral: Uma vez a cada trimestre, as equipes internas verificam vulnerabilidades de segurança. Esses testes incluem verificações de rede em busca de portas abertas e vulnerabilidades de serviço.
 
 **** Segurança de sistemas:  Para ajudar a manter os dados seguros e privados, o Audience Manager:
@@ -52,23 +52,23 @@ Processos que ajudam a manter as informações pessoais seguras. Para obter info
 
 **** Dados de PII:  O Audience Manager proíbe por contrato que clientes e parceiros de dados enviem informações PII para nosso sistema. Além disso, a ID de usuário exclusiva (UUID) não contém nem usa dados PII como parte do algoritmo de geração de ID.
 
-**** Endereços IP:  O Audience Manager coleta endereços IP. IP addresses are used in data-processing and log-aggregation processes. Eles também são necessários para pesquisas geográficas/locais e definição de metas. Além disso, todos os endereços IP nos arquivos de log retidos são ofuscados em 90 dias.
+**** Endereços IP:  O Audience Manager coleta endereços IP. Os endereços IP são usados em processos de processamento de dados e agregação de log. Eles também são necessários para pesquisas geográficas/locais e definição de metas. Além disso, todos os endereços IP nos arquivos de log retidos são ofuscados em 90 dias.
 
 ## Particionamento de dados {#data-partitioning}
 
 Processos que ajudam a proteger dados de propriedade de clientes individuais.
 
-**** Trait Data Partitioning:  Your data (traits, IDs, etc.) is partitioned by client. This helps prevent accidental information exposure between different clients. For example, trait data in cookies is partitioned by customer and stored in a client-specific sub-domain. It cannot be read or used accidentally by another Audience Manager client. Além disso, os dados de características armazenados no [!UICONTROL Profile Cache Servers (PCS)] são também particionados pelo cliente. Isso impede que outros clientes usem acidentalmente seus dados em uma chamada de evento ou outra solicitação.
+**** Particionamento de dados de características:  Seus dados (características, IDs etc.) é particionado pelo cliente. Isso ajuda a evitar a exposição acidental às informações entre clientes diferentes. Por exemplo, os dados de características em cookies são particionados pelo cliente e armazenados em um subdomínio específico do cliente. Não pode ser lido ou usado acidentalmente por outro cliente do Audience Manager. Além disso, os dados de características armazenados no [!UICONTROL Profile Cache Servers (PCS)] são também particionados pelo cliente. Isso impede que outros clientes usem acidentalmente seus dados em uma chamada de evento ou outra solicitação.
 
 **** Particionamento de dados em relatórios:  As IDs do cliente fazem parte da chave de identificação em todas as tabelas de relatórios e as consultas de relatório são filtradas por ID. Isso ajuda a impedir que seus dados apareçam nos relatórios de outro cliente do Audience Manager.
 
-## Inbound Server-to-Server (S2S) Transfers {#inbound-s2s}
+## Transferências S2S (Servidor para Servidor de Entrada) {#inbound-s2s}
 
-Adobe Audience Manager supports two main methods of transferring S2S on-boarded data files to our systems:
+O Adobe Audience Manager oferece suporte a dois métodos principais de transferência de arquivos de dados integrados S2S para nossos sistemas:
 
-Both methods are designed with the security of our customer and partner data in mind while data is in flight between their systems and our system.
+Ambos os métodos são projetados tendo em mente a segurança de nossos dados de clientes e parceiros enquanto os dados estão em voo entre seus sistemas e nosso sistema.
 
-**** SFTP: For the SFTP option, most customers choose to deliver files via the Secure FTP (SFTP) protocol, which uses the Secure Shell (SSH) protocol. Este método garante que os arquivos sejam criptografados enquanto estiverem em voo entre os sistemas do cliente e o sistema da Adobe. Para cada cliente, criamos um local de caixa suspensa preso em nossos servidores SFTP, que está vinculado a uma conta de usuário no sistema. Somente os usuários do sistema interno credenciados e privilegiados do cliente podem acessar esse local da caixa suspensa. Esta prisão nunca é acessível a outros clientes.
+**** SFTP: Para a opção SFTP, a maioria dos clientes opta por fornecer arquivos por meio do protocolo FTP seguro (SFTP), que usa o protocolo SSH (Secure Shell). Este método garante que os arquivos sejam criptografados enquanto estiverem em voo entre os sistemas do cliente e o sistema da Adobe. Para cada cliente, criamos um local de caixa suspensa preso em nossos servidores SFTP, que está vinculado a uma conta de usuário no sistema. Somente os usuários do sistema interno credenciados e privilegiados do cliente podem acessar esse local da caixa suspensa. Esta prisão nunca é acessível a outros clientes.
 
 **** Amazon Web Services S3 via HTTPS: Para a opção de entrega S3, recomendamos que todos os clientes configurem seus clientes S3 para usar o método de criptografia HTTPS para transferências de arquivos (esse não é o padrão, portanto, deve ser configurado explicitamente). A opção HTTPS é suportada pela ferramenta de linha de comando s3cmd, bem como pelas bibliotecas S3 disponíveis em todas as principais linguagens de programação. Com essa opção HTTPS ativada, os dados do cliente são criptografados enquanto estão em voo para nossos sistemas. Para cada cliente, criamos um subdiretório S3 bucket separado que pode ser acessado somente pelas credenciais desse cliente e das de nossos usuários internos do sistema.
 
@@ -88,6 +88,6 @@ Essa política melhora a segurança de dados entre clientes e servidores Adobe [
 
 ### Exemplo {#hsts-example}
 
-When trying to access ,  will automatically upgrade the request to  , in case the browser doesn’t automatically request the  domain.`http://bank.demdex.com`[!DNL HSTS]`https://bank.demdex.com`[!DNL HTTPS]
+Ao tentar acessar `http://bank.demdex.com`, [!DNL HSTS] atualizará automaticamente a solicitação para `https://bank.demdex.com`, caso o navegador não solicite automaticamente o [!DNL HTTPS] domínio.
 
 Consulte Segurança de Transporte Restrita [HTTP - Wikipedia](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) para obter mais informações sobre HSTS.
