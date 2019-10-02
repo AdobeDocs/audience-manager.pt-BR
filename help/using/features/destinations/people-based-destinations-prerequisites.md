@@ -1,11 +1,11 @@
 ---
 description: 'Leia abaixo para obter uma visão geral dos requisitos do cliente que você precisa atender antes de se inscrever em Destinos baseados em pessoas.  '
-seo-description: 'Read below for an overview of customer requirements that you need to meet before signing up for People-Based Destinations.  '
+seo-description: 'Leia abaixo para obter uma visão geral dos requisitos do cliente que você precisa atender antes de se inscrever em Destinos baseados em pessoas.  '
 seo-title: Pré-requisitos e Considerações para Destinos Baseados em Pessoas
 solution: Audience Manager
-title: Prerequisites and Considerations
+title: Pré-requisitos e considerações
 translation-type: tm+mt
-source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
+source-git-commit: ad9c077f538759e195a83d47e0ef36ccffa25c7e
 
 ---
 
@@ -30,37 +30,40 @@ Please contact your Adobe representative to take advantage of this premium featu
 
 ### [!DNL Facebook]
 
-Antes de poder usar [!DNL People-Based Destinations] para enviar seus segmentos de público-alvo primário para [!DNL Facebook], certifique-se de atender aos seguintes requisitos:
+Before you can use  to send your first-party audience segments to , make sure you meet the following requirements:[!DNL People-Based Destinations][!DNL Facebook]
 
-1. Sua conta [!DNL Facebook] de usuário deve ter a permissão **Gerenciar campanhas** ativada para a conta de anúncio que você planeja usar.
-1. Adicione a conta comercial da **Adobe Experience Cloud** como um parceiro de publicidade em seu [!DNL Facebook Ad Account]site. Use `business ID=206617933627973`. Consulte [Adicionar parceiros ao seu gerente](https://www.facebook.com/business/help/708679622611131) de negócios para obter detalhes.
+1. Your  user account must have the Manage campaigns permission enabled for the Ad account that you plan to use.[!DNL Facebook]****
+1. Add the **Adobe Experience Cloud** business account as an advertising partner in your [!DNL Facebook Ad Account]. Use `business ID=206617933627973`. See [Add Partners to Your Business Manager](https://www.facebook.com/business/help/708679622611131) for details.
    >[!IMPORTANT]
-   > Ao configurar as permissões para a Adobe Experience Cloud, você deve ativar a permissão **Gerenciar campanhas** . Isso é necessário para a [!DNL People-Based Destinations] integração.
-1. Leia e assine os [!DNL Facebook Custom Audiences] Termos de serviço. Para fazer isso, vá para `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`, onde `accountID` está seu [!DNL Facebook Ad Account ID].
+   > When configuring the permissions for Adobe Experience Cloud, you must enable the **Manage campaigns** permission. This is required for the [!DNL People-Based Destinations] integration.
+1. Read and sign the [!DNL Facebook Custom Audiences] Terms of Service. Para fazer isso, vá para `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`, onde `accountID` está seu [!DNL Facebook Ad Account ID].
 
-## Integração de dados {#data-onboarding}
+## Data Onboarding {#data-onboarding}
 
 A ingestão de dados para [!DNL People-Based Destinations] atualmente suporta até 10 endereços de email com hash vinculados a uma ID do cliente ([!DNL CRM ID]), por transferência em lote. Fazer upload de mais de 10 endereços de email com hash vinculados a uma ID do cliente faz com que o Audience Manager ingira 10 deles, sem ordem específica.
 
-Uploading more than 10 hashed email addresses linked to one customer ID in multiple batch transfers causes Audience Manager to retain the most recent 10 email addresses added.
+Fazer upload de mais de 10 endereços de email com hash vinculados a uma ID de cliente em várias transferências em lote faz com que o Audience Manager mantenha os 10 endereços de email mais recentes adicionados.
 
 ## Privacidade de dados {#data-privacy}
 
-Although  allow you to target audiences based on hashed email addresses uploaded by you, you remain prohibited from uploading any directly identifiable visitor information into Audience Manager. [!DNL People-Based Destinations] Na fase de integração de dados, é necessário garantir que os endereços de email que você pretende usar estejam com hash com o [!DNL SHA256] algoritmo. Caso contrário, você não poderá usá-los em [!DNL People-Based Destinations].
+Embora [!DNL People-Based Destinations] permita direcionar públicos-alvo com base em endereços de email com hash carregados por você, você permanece proibido de fazer upload de informações de visitantes diretamente identificáveis para o Audience Manager. Na fase de integração de dados, é necessário garantir que os endereços de email que você pretende usar estejam com hash com o [!DNL SHA256] algoritmo. Caso contrário, você não poderá usá-los em [!DNL People-Based Destinations].
 
 ## Hashes de dados versus criptografia {#data-hashing-encryption}
 
-Encryption is a two-way function. Any encrypted information can also be decrypted, using the correct decryption key. Encrypting data in the context of Audience Manager poses serious risks, since any encrypted form of personally identifiable information can also be decrypted. As opposed to encryption,  are designed to work with hashed data instead.[!DNL People-Based Destinations]
+A criptografia é uma função bidirecional. Todas as informações criptografadas também podem ser descriptografadas, usando a chave de decodificação correta. A criptografia de dados no contexto do Audience Manager apresenta sérios riscos, já que qualquer forma criptografada de informações de identificação pessoal também pode ser descriptografada. Ao contrário da criptografia, [!DNL People-Based Destinations] são criados para trabalhar com dados com hash.
 
-Hashing is a one-way function that scrambles the input to produce a unique result. Usando algoritmos de hash adequados, como [!DNL SHA256], não há como reverter a função de hash e revelar as informações desembaralhadas. Os endereços de email que você integrará ao Audience Manager devem ser hash com o [!DNL SHA256] algoritmo. Dessa forma, você pode garantir que nenhum endereço de email sem hash chegue ao Audience Manager.
+O hash é uma função unidirecional que embaralha a entrada para produzir um resultado exclusivo. Usando algoritmos de hash adequados, como [!DNL SHA256], não há como reverter a função de hash e revelar as informações desembaralhadas. Os endereços de email que você integrará ao Audience Manager devem ser hash com o [!DNL SHA256] algoritmo. Dessa forma, você pode garantir que nenhum endereço de email sem hash chegue ao Audience Manager.
 
 ## Requisitos de hash {#hashing-requirements}
 
 Ao atualizar os endereços de email, certifique-se de cumprir os seguintes requisitos:
 
 * Aparar todos os espaços à esquerda e à direita da string de email; exemplo: `johndoe@example.com`, não `<space>johndoe@example.com<space>`;
-* Verifique se a string com hash está toda em minúsculas; exemplo: `55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`, não `55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`;
-* Não salve a corda.
+* Ao executar o hash das strings de email, certifique-se de executar o hash da string em minúsculas;
+   * Exemplo: `example@email.com`, não `EXAMPLE@EMAIL.COM`;
+* Certifique-se de que a cadeia de caracteres com hash esteja em minúsculas
+   * Exemplo: `55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`, não `55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`;
+* Do not salt the string.
 
 A Adobe Experience Cloud oferece a opção de hash de IDs de clientes por meio do Serviço da Experience Cloud ID. Consulte Suporte de hash [SHA256 para setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) para obter informações detalhadas sobre como usar ECID para hash de IDs de clientes.
 
@@ -74,11 +77,11 @@ Caso seus clientes desejem recusar campanhas publicitárias, consulte Gerenciame
 
 ## Impondo a ativação de dados primários {#enforcing-first-party-activation}
 
-Ao usar [!DNL People-Based Destinations], você só pode usar dados primários para ativar segmentos de público-alvo em canais baseados em pessoas. Não é possível usar dados de terceiros ou segundos para a ativação do público-alvo em canais baseados em pessoas.
+When using , you can only use first-party data to activate audience segments in people-based channels. [!DNL People-Based Destinations] You cannot use any second- or third-party data for audience activation in people-based channels.
 
-## IDs com hash autenticadas onboard por meio da segmentação de ID declarada {#onboard-authenticated-declared-id}
+## Onboard Authenticated Hashed IDs through Declared ID Targeting {#onboard-authenticated-declared-id}
 
-Há duas maneiras de trazer seus dados offline para o Audience Manager para [!DNL People-Based Destinations].
+There are two ways you can bring your offline data to Audience Manager for .[!DNL People-Based Destinations]
 
-* [Envie dados](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) em lote para o Audience Manager para assimilar endereços de email com hash. Com esse método, você pode optar por usar os endereços de email com hash do seu [!DNL CRM] banco de dados em [!DNL People-Based Destinations]. Além disso, ao usar esse método, você também pode qualificar os endereços de email com hash para características [integradas](../traits/trait-qualification-reference.md).
-* Use Declared IDs to declare hashed email addresses when passing in authenticated customer IDs. [](../declared-ids.md) When using this method, Audience Manager, on your behalf, only sends to  the hashed email addresses from users who have authenticated online. [!DNL People-Based Destinations] Os endereços de email ativados por canais baseados em pessoas são apenas aqueles nas chamadas de evento de ID declaradas. Outros endereços de email associados à ID do cliente não são enviados em tempo real.
+* [Send batch data to Audience Manager to ingest hashed email addresses. ](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) With this method, you can choose to use the hashed email addresses from your  database in . [!DNL CRM][!DNL People-Based Destinations] Additionally, when using this method, you can also qualify the hashed email addresses for onboarded traits.[](../traits/trait-qualification-reference.md)
+* Use Declared IDs to declare hashed email addresses when passing in authenticated customer IDs. [](../declared-ids.md) When using this method, Audience Manager, on your behalf, only sends to  the hashed email addresses from users who have authenticated online. [!DNL People-Based Destinations] The email addresses activated through people-based channels are only the ones in the declared ID event calls. Other email addresses associated with the customer ID are not sent in real-time.
