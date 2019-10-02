@@ -1,25 +1,25 @@
 ---
-description: O Audience Manager leva a segurança e privacidade dos dados muito a sério. Trabalhamos para manter nossos sistemas protegidos e proteger seus dados valiosos.
-seo-description: O Audience Manager leva a segurança e privacidade dos dados muito a sério. Trabalhamos para manter nossos sistemas protegidos e proteger seus dados valiosos.
-seo-title: Segurança de dados
+description: Audience Manager takes data security and privacy very seriously. We work to keep our systems secure and protect your valuable data.
+seo-description: Audience Manager takes data security and privacy very seriously. We work to keep our systems secure and protect your valuable data.
+seo-title: Data Security
 solution: Audience Manager
-title: Segurança de dados
+title: Data Security
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
 translation-type: tm+mt
-source-git-commit: b76e905ec890dbe8270177d142dddb351438b039
+source-git-commit: 34884e3212d50237c73fdc6aa163d90c29a642f5
 
 ---
 
 
-# Segurança de dados {#data-security}
+# Data Security {#data-security}
 
-O Audience Manager leva a segurança e privacidade dos dados muito a sério. Trabalhamos para manter nossos sistemas protegidos e proteger seus dados valiosos.
+O Audience Manager leva a segurança e privacidade dos dados muito a sério. We work to keep our systems secure and protect your valuable data.
 
 As práticas de segurança do Audience Manager incluem auditorias externas e internas, registro de atividades, treinamento e outros procedimentos projetados para ajudar a proteger nossos sistemas e seus dados valiosos. Acreditamos que um produto seguro ajuda a criar e manter a confiança que os clientes depositam em nós.
 
 No Audience Manager, pensamos sobre segurança em três categorias principais:
 
-| Tipo de segurança | Fornece suporte para |
+| Security Type | Fornece suporte para |
 |---|---|
 | **Segurança das informações** | Práticas de autenticação, criptografia e armazenamento de dados de nível empresarial |
 | **Fuga/transparência de dados** | Insight profundo e acionável sobre atividades no local que constituem ou contribuem para a fuga de dados |
@@ -38,7 +38,7 @@ Processos que ajudam a manter nosso sistema e seus dados protegidos.
 
 * Bloqueia solicitações de endereços IP não autorizados.
 * Protege dados por trás de firewalls, VPNs e com armazenamento da Virtual Private Cloud.
-* Rastreia alterações nos bancos de dados de informações de controle e cliente com registro de auditoria baseado em disparador. Esses registros rastreiam todas as alterações no nível do banco de dados, incluindo a ID do usuário e o endereço IP dos quais as alterações são feitas.
+* Tracks changes in the customer and control-information databases with trigger-based audit logging. Esses registros rastreiam todas as alterações no nível do banco de dados, incluindo a ID do usuário e o endereço IP dos quais as alterações são feitas.
 
 **** Ativos de segurança:  O Audience Manager tem uma equipe dedicada de operações de rede que monitora firewalls e dispositivos de detecção de intrusão. Somente os principais funcionários têm acesso à nossa tecnologia e aos nossos dados de segurança.
 
@@ -46,19 +46,19 @@ Processos que ajudam a manter nosso sistema e seus dados protegidos.
 
 **** Acesso seguro:  O Audience Manager requer senhas seguras para fazer logon no sistema. Consulte os requisitos [de](../../reference/password-requirements.md)senha.
 
-## Privacidade e informações pessoais identificáveis (PII) {#pii}
+## Privacy and Personally Identifiable Information (PII) {#pii}
 
-Processos que ajudam a manter as informações pessoais seguras. Para obter informações adicionais sobre privacidade, consulte o Centro [de privacidade da](https://www.adobe.com/privacy/advertising-services.html)Adobe.
+Processes that help keep personal information safe. For additional privacy information, see the Adobe Privacy Center.[](https://www.adobe.com/privacy/advertising-services.html)
 
-**** Dados de PII:  O Audience Manager proíbe por contrato que clientes e parceiros de dados enviem informações PII para nosso sistema. Além disso, a ID de usuário exclusiva (UUID) não contém nem usa dados PII como parte do algoritmo de geração de ID.
+**** PII Data:  Audience Manager contractually prohibits customers and data partners from sending PII information into our system. Additionally, the Unique User ID (UUID) does not contain or use PII data as part of the ID-generation algorithm.
 
-**** Endereços IP:  O Audience Manager coleta endereços IP. Os endereços IP são usados em processos de processamento de dados e agregação de log. Eles também são necessários para pesquisas geográficas/locais e definição de metas. Além disso, todos os endereços IP nos arquivos de log retidos são ofuscados em 90 dias.
+**** Endereços IP:  O Audience Manager coleta endereços IP. IP addresses are used in data-processing and log-aggregation processes. They are also required for geographic/location look-ups and targeting. Additionally, all IP addresses within retained log files are obfuscated within 90 days.
 
-## Particionamento de dados {#data-partitioning}
+## Data Partitioning {#data-partitioning}
 
-Processos que ajudam a proteger dados de propriedade de clientes individuais.
+Processes that help protect data owned by individual clients.
 
-**** Particionamento de dados de características:  Seus dados (características, IDs etc.) é particionado pelo cliente. Isso ajuda a evitar a exposição acidental às informações entre clientes diferentes. Por exemplo, os dados de características em cookies são particionados pelo cliente e armazenados em um subdomínio específico do cliente. Não pode ser lido ou usado acidentalmente por outro cliente do Audience Manager. Além disso, os dados de características armazenados no [!UICONTROL Profile Cache Servers (PCS)] são também particionados pelo cliente. Isso impede que outros clientes usem acidentalmente seus dados em uma chamada de evento ou outra solicitação.
+**** Trait Data Partitioning:  Your data (traits, IDs, etc.) is partitioned by client. Isso ajuda a evitar a exposição acidental às informações entre clientes diferentes. For example, trait data in cookies is partitioned by customer and stored in a client-specific sub-domain. Não pode ser lido ou usado acidentalmente por outro cliente do Audience Manager. Furthermore, trait data stored in the  is also partitioned by customer. [!UICONTROL Profile Cache Servers (PCS)] Isso impede que outros clientes usem acidentalmente seus dados em uma chamada de evento ou outra solicitação.
 
 **** Particionamento de dados em relatórios:  As IDs do cliente fazem parte da chave de identificação em todas as tabelas de relatórios e as consultas de relatório são filtradas por ID. Isso ajuda a impedir que seus dados apareçam nos relatórios de outro cliente do Audience Manager.
 
@@ -82,12 +82,12 @@ Observe que [!DNL Audience Manager] não escapa aos dados de saída para proteg�
 
 [!DNL HTTP Strict-Transport-Security (HSTS)] é um mecanismo de segurança da Web em todo o setor que ajuda a proteger contra ataques de sequestro de cookies e downgrade de protocolos.
 
-A política instrui o navegador da Web que, uma vez feita uma [!DNL HTTPS] chamada segura para um determinado domínio, nenhuma chamada ([!DNL HTTP]) não segura subsequente deverá ser permitida para esse domínio. Isso protege contra ataques do homem no meio, onde um atacante pode tentar diminuir [!DNL HTTPS] chamadas para [!DNL HTTP] chamadas não seguras."
+A política instrui o navegador da Web que, uma vez feita uma [!DNL HTTPS] chamada segura para um determinado domínio, nenhuma chamada ([!DNL HTTP]) não segura subsequente deverá ser permitida para esse domínio. This protects against man-in-the-middle attacks, where an attacker might try to downgrade  calls to unsecured  calls.”[!DNL HTTPS][!DNL HTTP]
 
 Essa política melhora a segurança de dados entre clientes e servidores Adobe [Edge](../../reference/system-components/components-edge.md) .
 
 ### Exemplo {#hsts-example}
 
-Ao tentar acessar `http://bank.demdex.com`, [!DNL HSTS] atualizará automaticamente a solicitação para `https://bank.demdex.com`, caso o navegador não solicite automaticamente o [!DNL HTTPS] domínio.
+Digamos que o `yourcompany.demdex.com` domínio envia o tráfego para o [!DNL DCS] canal [!DNL HTTP]. [!DNL HSTS] atualiza as chamadas a serem usadas [!DNL HTTPS] em vez disso, e todas as [!DNL DCS] chamadas subsequentes provenientes de `yourcompany.demdex.com` serão usadas [!DNL HTTPS] em vez de [!DNL HTTP].
 
 Consulte Segurança de Transporte Restrita [HTTP - Wikipedia](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) para obter mais informações sobre HSTS.
