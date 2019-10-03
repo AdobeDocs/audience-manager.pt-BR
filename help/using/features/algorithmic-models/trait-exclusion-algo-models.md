@@ -5,12 +5,12 @@ seo-title: Exclusão de Características de Modelos Algorítmicos
 title: Exclusão de Características de Modelos Algorítmicos
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
 translation-type: tm+mt
-source-git-commit: f324838a5649722545ff36faba92bf3a13c2e805
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
 
-#  Modelos algorítmicos: Exclusão de características {#algorithmic-models-trait-exclusion}
+# Modelos algorítmicos: Exclusão de características {#algorithmic-models-trait-exclusion}
 
 [!UICONTROL Trait Exclusion] fornece controles adicionais no fluxo de trabalho de modelagem, permitindo que você adicione os trilhos de proteção necessários ao modelo, com base na sua experiência em domínio e nos requisitos normativos. Use a [!UICONTROL Exclusions] opção para selecionar quais características devem ser ignoradas ao criar modelos de uma ou mais fontes de dados.
 
@@ -84,6 +84,10 @@ Tomar nota dos seguintes aspectos e limitações relacionados com [!UICONTROL Tr
   </tr>
  </tbody>
 </table>
+
+Assista ao vídeo abaixo para saber como e por que excluir características específicas de um [!UICONTROL Look-Alike Model].
+
+[!VIDEO](https://video.tv.adobe.com/v/25569/?captions=por_br)
 
 ## Links relacionados
 
