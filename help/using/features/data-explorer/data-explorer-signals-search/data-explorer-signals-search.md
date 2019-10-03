@@ -4,7 +4,7 @@ seo-description: Procure sinais usados e não utilizados recebidos durante perí
 seo-title: Pesquisa de Sinais
 title: Pesquisa de Sinais
 translation-type: tm+mt
-source-git-commit: a0e585b85a4e8ab180766298579dc39f93b7ff29
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -19,5 +19,4 @@ Procure sinais usados e não utilizados recebidos durante períodos de tempo esp
 * [Filtrar resultados da pesquisa](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-filter-results.md)
 * [Salvar critérios de pesquisa](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md)
 
-
-
+[!VIDEO](https://video.tv.adobe.com/v/25148/?captions=por_br)
