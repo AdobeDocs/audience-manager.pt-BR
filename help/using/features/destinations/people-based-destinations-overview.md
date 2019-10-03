@@ -1,21 +1,21 @@
 ---
-description: 'Use destinos baseados em pessoas para enviar segmentos de público-alvo primários para ambientes baseados em pessoas. Esses ambientes são ecossistemas fechados pertencentes a uma entidade que controla o conteúdo que está sendo exibido dentro dele. Eles incluem plataformas sociais, como o Facebook, e outras plataformas que dependem das contas do cliente para personalizar o conteúdo exibido. '
-seo-description: 'Use destinos baseados em pessoas para enviar segmentos de público-alvo primários para ambientes baseados em pessoas. Esses ambientes são ecossistemas fechados pertencentes a uma entidade que controla o conteúdo que está sendo exibido dentro dele. They include social platforms such as Facebook, and other platforms that rely on customer accounts to personalize the displayed content.  '
-seo-title: People-Based Destinations Overview and Use Cases
+description: 'Use destinos baseados em pessoas para enviar segmentos de público-alvo primários para ambientes baseados em pessoas. Esses ambientes são ecossistemas fechados pertencentes a uma entidade que controla o conteúdo que está sendo exibido dentro dele. They include social platforms such as Facebook, and other platforms that rely on customer accounts to personalize the displayed content. '
+seo-description: 'Use destinos baseados em pessoas para enviar segmentos de público-alvo primários para ambientes baseados em pessoas. Esses ambientes são ecossistemas fechados pertencentes a uma entidade que controla o conteúdo que está sendo exibido dentro dele. Eles incluem plataformas sociais, como o Facebook, e outras plataformas que dependem das contas do cliente para personalizar o conteúdo exibido.  '
+seo-title: Destinos baseados em pessoas - Visão geral e casos de uso
 solution: Audience Manager
 title: Visão geral e casos de uso
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
 
-# Overview and Use Cases {#overview-use-cases}
+# Visão geral e casos de uso {#overview-use-cases}
 
-Use  to send first-party audience segments to people-based environments. [!DNL People-Based Destinations] These environments are closed ecosystems belonging to one entity that controls the content that is being displayed within it. They include social platforms such as , and other platforms that rely on customer accounts to personalize the displayed content.[!DNL Facebook]
+Use [!DNL People-Based Destinations] para enviar segmentos de público-alvo primários para ambientes baseados em pessoas. These environments are closed ecosystems belonging to one entity that controls the content that is being displayed within it. They include social platforms such as , and other platforms that rely on customer accounts to personalize the displayed content.[!DNL Facebook]
 
 >[!IMPORTANT]
->This article contains product documentation meant to guide you through the setup and usage of this feature. Nothing contained herein is legal advice. Please consult your own legal counsel for legal guidance.
+>This article contains product documentation meant to guide you through the setup and usage of this feature. Nada aqui contido é aconselhamento jurídico. Consulte o seu próprio advogado para obter orientação jurídica.
 
 ## Visão geral {#overview}
 
@@ -36,15 +36,15 @@ Você pode usar [!DNL People-Based Destinations] para segmentar e direcionar cli
 
 [!DNL People-Based Destinations] é uma integração premium do Audience Manager. Entre em contato com seu representante da Adobe para aproveitar esse recurso premium.
 
-## Why You Should Use People-Based Destinations {#why-use}
+## Por que você deve usar destinos baseados em pessoas {#why-use}
 
-**Provide your customers consistent cross-channel experiences by managing your entire audience segmentation from within Audience Manager.**
+**Forneça aos seus clientes experiências consistentes entre canais, gerenciando toda a segmentação do público-alvo no Audience Manager.**
 
-Not activating your audience segments in people-based channels through Audience Manager leads to disjointed experiences between what your customers see when visiting your website and what they see, for instance, in their  feeds. [!DNL Facebook] Having a consistent targeting across channels can increase your ad revenue while optimizing your ad spending.
+Não ativar seus segmentos de público-alvo em canais baseados em pessoas por meio do Audience Manager resulta em experiências dissociadas entre o que seus clientes veem ao visitar seu site e o que eles veem, por exemplo, em seus [!DNL Facebook] feeds. Ter uma definição de metas consistente em todos os canais pode aumentar a receita de seus anúncios e, ao mesmo tempo, otimizar os gastos com seus anúncios.
 
-**Reach audiences in people-based channels without the need of a dedicated data onboarding solution or custom workflows to send audiences.**
+**Alcance públicos-alvo em canais baseados em pessoas sem a necessidade de uma solução dedicada de integração de dados ou fluxos de trabalho personalizados para enviar públicos-alvo.**
 
-The more "traditional" way of targeting audiences across people-based channels involves you having to export your customer data in a format accepted by the platform that you want to advertise on, and then using the platform's dedicated data onboarding method to bring your customer data to your advertiser account. Este é todo o trabalho manual que você precisa fazer para cada plataforma que você deseja anunciar. Além disso, diferentes plataformas podem ter diferentes requisitos de formato de dados, tornando o processo ainda mais tedioso.
+A maneira mais "tradicional" de direcionar públicos-alvo em canais baseados em pessoas envolve a necessidade de exportar os dados do cliente em um formato aceito pela plataforma para a qual você deseja anunciar e, em seguida, usar o método dedicado de integração de dados da plataforma para trazer os dados do cliente para a conta do anunciante. Este é todo o trabalho manual que você precisa fazer para cada plataforma que você deseja anunciar. Além disso, diferentes plataformas podem ter diferentes requisitos de formato de dados, tornando o processo ainda mais tedioso.
 
 ![pbd-overview](assets/pbd-diagram.png)
 
@@ -52,15 +52,15 @@ Por meio [!DNL People-Based Destinations], o Audience Manager ajuda a centraliza
 
 **Crie e ative segmentos de público-alvo a partir de perfis meramente offline.**
 
-[!DNL People-Based Destinations] resolva o problema que anteriormente, você só podia ativar segmentos de público-alvo com base na atividade do dispositivo. Com [!DNL People-Based Destinations]o, você pode criar segmentos a partir de dados puramente offline [!DNL CRM]e ativá-los em plataformas baseadas em pessoas. Além disso, você pode correlacionar seus dados offline com os dados do dispositivo que já tem no Audience Manager.
+[!DNL People-Based Destinations] resolva o problema que anteriormente, você só podia ativar segmentos de público-alvo com base na atividade do dispositivo. With , you can create segments from purely offline data from your own , and activate them in people-based platforms. [!DNL People-Based Destinations][!DNL CRM] Além disso, você pode correlacionar seus dados offline com os dados do dispositivo que já tem no Audience Manager.
 
 **Aproveite o controle de dados e os controles de privacidade do Audience Manager para lidar com os dados do cliente com segurança.**
 
-[!DNL People-Based Destinations] requer que você use somente identificadores com hash irreversivelmente. Isso reduz o risco associado ao upload manual dos dados do cliente em cada plataforma de destino.
+[!DNL People-Based Destinations] requires that you only use irreversibly hashed identifiers. Isso reduz o risco associado ao upload manual dos dados do cliente em cada plataforma de destino.
 
 Assista ao vídeo abaixo para obter uma visão geral do fluxo de dados ao usar [!UICONTROL People-Based Destinations].
 
-[!VIDEO](https://video.tv.adobe.com/v/28968/?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/28968/?captions=por_br)
 
 ## Casos de uso {#use-cases}
 
@@ -74,6 +74,6 @@ Um varejista online quer atingir os clientes existentes por meio de plataformas 
 
 Uma companhia aérea tem níveis de clientes diferentes (Bronze, Prata e Ouro) e quer oferecer a cada um dos níveis ofertas personalizadas por meio de plataformas sociais. A empresa usa o Audience Manager para analisar a atividade do cliente no site. No entanto, nem todos os clientes usam o aplicativo móvel da companhia aérea e alguns deles não fizeram logon no site da empresa. Os únicos identificadores que a empresa tem sobre esses clientes são IDs de associação e endereços de email.
 
-To target them across social media and similar people-based channels, they can onboard the customer data from their  into Audience Manager, using the hashed email addresses as identifiers.[!DNL CRM]
+Para direcioná-los pelas mídias sociais e canais semelhantes baseados em pessoas, eles podem integrar os dados do cliente de seu [!DNL CRM] cliente ao Audience Manager, usando os endereços de email com hash como identificadores.
 
 Em seguida, eles podem combinar seus dados offline com suas características de atividade online existentes, para criar novos segmentos de público-alvo através dos quais eles podem direcionar [!DNL People-Based Destinations].
