@@ -1,18 +1,18 @@
 ---
 description: Realização de características de preenchimento retroativo para capturar públicos históricos e evitar a perda de dados relevantes antes da data de criação de uma característica.
-seo-description: Realização de características de preenchimento retroativo para capturar públicos históricos e evitar a perda de dados relevantes antes da data de criação de uma característica.
-seo-title: Realizações da característica de preenchimento retroativo
-title: Realizações da característica de preenchimento retroativo
+seo-description: Backfill trait realizations to capture historical audiences and avoid loss of relevant data prior to a trait creation date.
+seo-title: Backfill Trait Realizations
+title: Backfill Trait Realizations
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
 translation-type: tm+mt
-source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
 
-# Realizações da característica de preenchimento retroativo {#backfill-trait-realizations}
+# Backfill Trait Realizations {#backfill-trait-realizations}
 
-Realização de características de preenchimento retroativo para capturar públicos históricos e evitar a perda de dados relevantes antes da data de criação de uma característica.
+Backfill trait realizations to capture historical audiences and avoid loss of relevant data prior to a trait creation date.
 
 [!UICONTROL Data Explorer Trait Backfill] é um recurso premium que aprimora a experiência do Audience Manager ao desbloquear casos de uso adicionais. O preenchimento retroativo requer poder de processamento adicional e está disponível para todos os clientes do Audience Manager a um custo incremental. Entre em contato com seu representante de vendas da Adobe para obter mais detalhes.
 
@@ -36,24 +36,28 @@ Veja como preencher retroativamente as conclusões de características:
 
    >[!IMPORTANT]
    >
-   >O preenchimento retroativo de características e a estimativa não estão disponíveis para características com expressões que usam os seguintes operadores:
+   >Trait backfilling and estimation are not available for traits with expressions that use the following operators:
    >    * `!=`
    >    * `matchesregex`
    >    * `matcheswords`
 
-1. Crie a característica.
+1. Create the trait.
 
-Depois de terminar de criar o traço, você verá suas conclusões preenchidas retroativamente incluídas nas estatísticas de realização.
+Once you finish creating the trait, you'll see its backfilled realizations included in the realization statistics.
 
-## Latência de preenchimento retroativo da característica {#trait-backfilling-latency}
+Watch the video below for a video walkthrough of how to backfill traits.
 
-As características recém-criadas começam a capturar públicos duas a três horas após a criação. No entanto, devido ao grande volume de dados que [!DNL Audience Manager] são executados diariamente, a população preenchida retroativamente não é refletida imediatamente nos gráficos [!UICONTROL Unique Trait Realizations] e [!UICONTROL Total Trait Population] .
+[!VIDEO](https://video.tv.adobe.com/v/25169/?captions=por_br)
 
-O Audience Manager atualiza o [!UICONTROL Trait Graph] com a população preenchida retroativamente dentro de 48 horas após a criação da característica.
+## Trait Backfilling Latency {#trait-backfilling-latency}
+
+Newly created traits start capturing audiences two to three hours after creation. However, due to the large volume of data that  performs on a daily basis, the backfilled population is not immediately reflected in the  and  graphs.[!DNL Audience Manager][!UICONTROL Unique Trait Realizations][!UICONTROL Total Trait Population]
+
+Audience Manager updates the  with the backfilled population within 48 hours from trait creation.[!UICONTROL Trait Graph]
 
 ## Limite de preenchimento retroativo da característica {#trait-backfilling-limit}
 
-[!UICONTROL Data Explorer] permite preencher até 50 características por mês, com o contador de preenchimento retroativo sendo redefinido no dia 1 de cada mês.
+[!UICONTROL Data Explorer] allows you to backfill up to 50 traits per month, with the backfill counter being reset on the 1 day of each month.
 
 >[!NOTE]
 >
