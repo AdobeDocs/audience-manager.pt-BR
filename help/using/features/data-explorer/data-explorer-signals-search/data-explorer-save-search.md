@@ -1,11 +1,11 @@
 ---
 description: Otimize os esforços de pesquisa de sinal, salvando até 10 conjuntos de critérios de pesquisa para usar sempre que necessário, e rastreie-os no Painel. O Audience Manager recarregará as pesquisas salvas toda vez que você carregar o Painel.
-seo-description: Otimize os esforços de pesquisa de sinal, salvando até 10 conjuntos de critérios de pesquisa para usar sempre que necessário, e rastreie-os no Painel. O Audience Manager recarregará as pesquisas salvas toda vez que você carregar o Painel.
+seo-description: Otimize os esforços de pesquisa de sinal, salvando até 10 conjuntos de critérios de pesquisa para usar sempre que necessário, e rastreie-os no Painel. Audience Manager reloads the saved searches every time you load the Dashboard.
 seo-title: Salvar critérios de pesquisa
 title: Salvar critérios de pesquisa
 uuid: c17b26e0-f489-47c9-b41b-bf895ca9d8a5
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 Otimize os esforços de pesquisa de sinal, salvando até 10 conjuntos de critérios de pesquisa para usar sempre que necessário e rastreie-os no [!UICONTROL Signals Dashboard]. O Audience Manager recarregará as pesquisas salvas toda vez que você carregar o [!UICONTROL Signals Dashboard].
 
 1. Vá para **[!UICONTROL Audience Data > Signals > Search]** e execute um **[!UICONTROL Signals Search]** com os pares de valores chave e/ou os filtros que deseja salvar para pesquisas futuras.
-1. Clique em **[!UICONTROL Save this Search]** uma vez que você obtenha os resultados da pesquisa.
+1. Click **[!UICONTROL Save this Search]** once you get the search results.
 
    ![Resultado da etapa](assets/save-search-criteria.png)
 1. Insira um nome sugestivo para a pesquisa, para que você possa identificá-la posteriormente.
@@ -32,4 +32,4 @@ Otimize os esforços de pesquisa de sinal, salvando até 10 conjuntos de critér
 
 Assista ao vídeo abaixo para saber como salvar pesquisas de sinal.
 
-[!VIDEO](https://video.tv.adobe.com/v/25147/?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/25147/?captions=por_br)
