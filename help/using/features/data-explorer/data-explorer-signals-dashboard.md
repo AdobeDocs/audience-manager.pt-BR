@@ -5,7 +5,7 @@ seo-title: Painel de Sinais
 title: Painel de Sinais
 uuid: 26f39507-097f-427d-bf5b-ab6d035c1dd2
 translation-type: tm+mt
-source-git-commit: 12216ab5105fce80b4b47c31ee6be144ddfe8df9
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -35,3 +35,6 @@ Esta seção mostra os 50 primeiros sinais não utilizados recebidos nos último
 [!DNL Audience Manager] mostra todas as suas pesquisas [](../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md) salvas no [!UICONTROL Dashboard] e as carrega novamente cada vez que você carrega o [!UICONTROL Dashboard].
 
 Pesquisas salvas exibem os 50 principais resultados para os critérios correspondentes.
+
+Assista ao vídeo abaixo para saber como usar o [!UICONTROL Signals Dashboard].
+[!VIDEO](https://video.tv.adobe.com/v/25151/?captions=por_br)
