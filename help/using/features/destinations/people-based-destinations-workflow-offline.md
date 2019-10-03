@@ -5,7 +5,7 @@ seo-title: Fluxo de trabalho B - Personalização com base em dados somente offl
 solution: Audience Manager
 title: Fluxo de trabalho B - Personalização com base em dados somente offline
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 >[!IMPORTANT]
 >Este artigo contém a documentação do produto destinada a guiá-lo pela configuração e uso deste recurso. Nada aqui contido é aconselhamento jurídico. Consulte o seu próprio advogado para obter orientação jurídica.
 
-Esta página inclui orientações passo a passo sobre como criar segmentos de público-alvo a partir de dados de clientes somente offline e enviá-los para Destinos Baseados em Pessoas.
+This page includes step-by-step guidance on how to build audience segments from offline-only customer data, and send them to People-Based Destinations.
 
 ## Etapa 1 - Características off-line integradas {#step-1-onboard-traits}
 
@@ -87,7 +87,7 @@ Nesse caso, é necessário criar uma nova fonte de dados entre dispositivos que 
 
 Assista ao vídeo abaixo para ver um tutorial em vídeo sobre como criar uma fonte de dados para [!UICONTROL People-Based Destinations].
 
-[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=por_br)
 
 ## Etapa 3 - Corresponder DPUUIDs a endereços de email com hash via sincronização de ID baseada em arquivo {#match-ids-emails}
 
@@ -152,7 +152,7 @@ Para criar novos segmentos a partir de dados somente offline, use o Construtor [
 
 ## Etapa 6 - Configurar a autenticação de plataforma baseada em pessoas {#configure-authentication}
 
-1. Faça logon em sua conta do Audience Manager e vá para **[!UICONTROL Administration]** &gt; **[!UICONTROL Integrated Accounts]**. Se você tiver uma integração previamente configurada com uma plataforma social, deverá vê-la listada nesta página. Caso contrário, a página estará vazia.
+1. Faça logon em sua conta do Audience Manager e vá para **[!UICONTROL Administration]** &gt; **[!UICONTROL Integrated Accounts]**. Se você tiver uma integração previamente configurada com uma plataforma social, deverá vê-la listada nesta página. Otherwise, the page is empty.
    ![integração baseada em pessoas](assets/pbd-config.png)
 1. Clique em **[!UICONTROL Add Account]**.
 1. Use o menu **[!UICONTROL People-Based Platform]** suspenso para selecionar a plataforma com a qual deseja configurar a integração.
