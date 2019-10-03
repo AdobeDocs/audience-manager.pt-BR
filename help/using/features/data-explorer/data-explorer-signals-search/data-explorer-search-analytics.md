@@ -5,7 +5,7 @@ seo-title: Pesquisa avançada para o Adobe Analytics
 title: Pesquisa avançada para o Adobe Analytics
 uuid: 20177820-10e1-49d9-bb2c-3a62141a498e
 translation-type: tm+mt
-source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -25,3 +25,7 @@ Essa integração permite que você veja os nomes amigáveis para pares de valor
 
    ![](assets/signals-search-analytics.png)
 1. Os resultados da pesquisa mostrarão agora os nomes amigáveis dos pares de valores chave inseridos na **[!UICONTROL Key or Key Name]** coluna ou para todos os sinais no conjunto de relatórios, se você deixar os campos de valor chave em branco.
+
+O vídeo abaixo mostra como usar [!UICONTROL Data Explorer] para descobrir e usar seus dados do Adobe Analytics, incluindo a pesquisa por sinais usados e não utilizados, a criação de características do Analytics e a compreensão dos dados.
+
+[!VIDEO](https://video.tv.adobe.com/v/25150?captions=por_br)
