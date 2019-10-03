@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Privacidade de dados
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -78,20 +78,20 @@ Adobe has enabled processes and offers settings that allow customers to use Audi
 
 The [!DNL IP] address of a visitor to a customer’s website is transmitted to an Adobe [!DNL Data Processing Center] ([!DNL DPC]) where the [!DNL IP] address may be stored. Depending on the network configuration for the visitor, the [!DNL IP] address may not necessarily represent the [!DNL IP] address of the visitor’s computer. For example, the [!DNL IP] address could be the external [!DNL IP] address of a Network Address Translation (NAT) firewall, [!DNL HTTP] proxy, or Internet gateway.
 
-**** Metodologia de ofuscação de IP: Seguindo os princípios de "Privacidade por design", o Adobe Audience Manager permite que os clientes habilitem a [!DNL IP] ofuscação da interface do usuário, globalmente em todas as regiões geográficas ou para países específicos. Quando você habilita essa configuração, o último octeto (a última parte) do [!DNL IP] endereço é imediatamente descartado quando o [!DNL IP] endereço é ingerido no Audience Manager. O Audience Manager descarta essa parte do [!DNL IP] endereço antes do processamento (incluindo antes de qualquer pesquisa geográfica ou registro opcional do [!DNL IP] endereço). Por exemplo:
+**** Metodologia de ofuscação de IP: Seguindo os princípios de "Privacidade por design", o Adobe Audience Manager permite que os clientes habilitem a [!DNL IP] ofuscação da interface do usuário, globalmente em todas as regiões geográficas ou para países específicos. Quando você habilita essa configuração, o último octeto (a última parte) do [!DNL IP] endereço é imediatamente descartado quando o [!DNL IP] endereço é ingerido no Audience Manager. Audience Manager discards this part of the  address prior to processing (including before any optional geographic lookup or logging of the  address). [!DNL IP][!DNL IP] Por exemplo:
 
 * Antes: `255.255.255.255`
 * Depois: `255.255.255.0`
 
 >[!NOTE]
 >
->Consulte Ofuscação [de endereço](/help/using/features/administration/ip-obfuscation.md) IP para saber como ativar a ofuscação de [!DNL IP] endereço na interface do usuário do Audience Manager.
+>See IP Address Obfuscation to learn how to enable  address obfuscation in the Audience Manager UI.[](/help/using/features/administration/ip-obfuscation.md)[!DNL IP]
 
-Assista ao vídeo abaixo para entender como a ofuscação de [!DNL IP] endereços funciona no Audience Manager.
+Watch the video below to understand how  address obfuscation works in Audience Manager.[!DNL IP]
 
-[!VIDEO](https://video.tv.adobe.com/v/27218/?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/27218/?captions=por_br)
 
-**** Segmentação geográfica: Se você ativar a ofuscação de [!DNL IP] endereço, os octeto restantes do [!DNL IP] endereço ainda poderão ser usados para segmentação geográfica e relatórios no Audience Manager. Se você não ativar a ofuscação de [!DNL IP] endereço, o Audience Manager usará o [!DNL IP] endereço completo. Você pode usar o recurso Segmentação geográfica que permite identificar um [!DNL IP] local por área geográfica em ambos os casos, mas com uma pequena perda de precisão quando a [!DNL IP] ofuscação está sendo usada. Obtaining city-level information will likely be significantly impacted by the obfuscation of the [!DNL IP] address. A obtenção de informações sobre a região e o nível do país só deve ser ligeiramente afetada. Os dados de Segmentação geográfica são granulares somente no nível da cidade ou no nível do código postal, e não no nível individual. Leia mais sobre a [geolocalização](/help/using/features/traits/trait-geotarget-keys.md) e como configurar características com variáveis geográficas.
+**** Geographic Segmentation: If you enable  address obfuscation, the remaining octets of the  address can still be used for geo-segmentation and reporting in Audience Manager. [!DNL IP][!DNL IP] Se você não ativar a ofuscação de [!DNL IP] endereço, o Audience Manager usará o [!DNL IP] endereço completo. You can use the Geographic Segmentation feature that allows you to identify an  location by geographic area in either case, but with some slight loss of precision when  obfuscation is being used. [!DNL IP][!DNL IP] Obtaining city-level information will likely be significantly impacted by the obfuscation of the [!DNL IP] address. A obtenção de informações sobre a região e o nível do país só deve ser ligeiramente afetada. Os dados de Segmentação geográfica são granulares somente no nível da cidade ou no nível do código postal, e não no nível individual. Leia mais sobre a [geolocalização](/help/using/features/traits/trait-geotarget-keys.md) e como configurar características com variáveis geográficas.
 
 ## Conceitos relacionados {#related-concepts}
 
