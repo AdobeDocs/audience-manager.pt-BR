@@ -5,7 +5,7 @@ seo-title: Salvar critérios de pesquisa
 title: Salvar critérios de pesquisa
 uuid: c17b26e0-f489-47c9-b41b-bf895ca9d8a5
 translation-type: tm+mt
-source-git-commit: 3d8f16725053ae29bdba8e4fcd144ff0b9b67880
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -29,3 +29,7 @@ Otimize os esforços de pesquisa de sinal, salvando até 10 conjuntos de critér
 1. Clique em **[!UICONTROL Save]**. Você pode ver sua pesquisa salva na [!UICONTROL Saved Search] seção e usá-la sempre que precisar.
 
 ![pesquisa salva](assets/saved-search.png)
+
+Assista ao vídeo abaixo para saber como salvar pesquisas de sinal.
+
+[!VIDEO](https://video.tv.adobe.com/v/25147/?captions=por_br)
