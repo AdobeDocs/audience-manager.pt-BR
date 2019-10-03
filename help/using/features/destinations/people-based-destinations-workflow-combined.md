@@ -5,7 +5,7 @@ seo-title: Fluxo de trabalho A - Personalização com base em toda a atividade o
 solution: Audience Manager
 title: Fluxo de trabalho A - Personalização com base em toda a atividade online combinada com dados offline
 translation-type: tm+mt
-source-git-commit: fb5d9eff3573048d3e8a570b342a97bce3cd8da0
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -29,22 +29,22 @@ Nesse caso, é necessário rotular a fonte de dados correspondente como tal:
 
 1. Vá para [!UICONTROL Audience Data] -&gt; [!UICONTROL Data Sources].
 1. Localize a fonte de dados que contém seus [DPUUIDs](../../reference/ids-in-aam.md)e clique nela.
-1. In the  drop-down menu, select .**[!UICONTROL ID Type]****[!UICONTROL Cross Device]**
-1. Make sure the option  is unchecked.[!UICONTROL Cannot be tied to personally identifiable information]
-1. In the  section, select both the  and  options, and enable the  option.**[!UICONTROL Data Source Settings]****[!UICONTROL Inbound]****[!UICONTROL Outbound]****[!UICONTROL Share associated cross-device IDs in people-based destinations]**
-1. Use the drop-down menu to select the  label for this data source.**[!UICONTROL Emails(SHA256, lowercased)]**
+1. No menu **[!UICONTROL ID Type]** suspenso, selecione **[!UICONTROL Cross Device]**.
+1. Verifique se a opção [!UICONTROL Cannot be tied to personally identifiable information] está desmarcada.
+1. Na **[!UICONTROL Data Source Settings]** seção, selecione as opções **[!UICONTROL Inbound]** e **[!UICONTROL Outbound]** e ative a **[!UICONTROL Share associated cross-device IDs in people-based destinations]** .
+1. Use o menu suspenso para selecionar o **[!UICONTROL Emails(SHA256, lowercased)]** rótulo dessa fonte de dados.
    >[!IMPORTANT]
    >
-   >This option only labels the data source as containing data hashed with that specific algorithm. Audience Manager does not hash the data at this step. Make sure the email addresses that you plan on storing in this data source are already hashed with the  algorithm. [!DNL SHA256] Otherwise, you won't be able to use it for .[!DNL People-Based Destinations]
+   >Essa opção rotula somente a fonte de dados como contendo dados com hash com esse algoritmo específico. O Audience Manager não hash os dados nesta etapa. Verifique se os endereços de email que você planeja armazenar nessa fonte de dados já estão com hash com o [!DNL SHA256] algoritmo. Caso contrário, você não poderá usá-lo para [!DNL People-Based Destinations].
 
    ![pbd-datasource-settings](assets/pbd-ds-config.png)
-1. Save the data source settings.
+1. Salve as configurações da fonte de dados.
 
  
 
 **Cenário 2: seus[DPUUIDs](../../reference/ids-in-aam.md)não são endereços de email com hash em minúsculas.**
 
-In this case, you need to create a new cross-device data source that will store your hashed email addresses. Veja como fazer isso:
+Nesse caso, é necessário criar uma nova fonte de dados entre dispositivos que armazene seus endereços de email com hash. Veja como fazer isso:
 
 1. Faça logon em sua conta do Audience Manager, vá para **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Data Sources]** e clique em **[!UICONTROL Add New]**.
 1. Insira um [!UICONTROL Name] e [!UICONTROL Description] para sua nova fonte de dados.
@@ -57,6 +57,10 @@ In this case, you need to create a new cross-device data source that will store 
 
    ![pbd-datasource-settings](assets/pbd-ds-config.png)
 1. Salve as configurações da fonte de dados.
+
+Assista ao vídeo abaixo para ver um tutorial em vídeo sobre como criar uma fonte de dados para [!UICONTROL People-Based Destinations].
+
+[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=por_br)
 
 >[!NOTE]
 >
@@ -124,13 +128,13 @@ A próxima etapa é criar uma nova regra de mesclagem que ajudará a criar os se
 1. Clique em **[!UICONTROL Add New Rule]**.
 1. Insira uma regra de mesclagem de perfil **[!UICONTROL Name]** e **[!UICONTROL Description]**.
 1. Na **[!UICONTROL Profile Merge Rule Setup]** seção, selecione as **[!UICONTROL Current Authenticated Profiles]** opções ou **[!UICONTROL Last Authenticated Profiles]** .
-1. In the  list, select the data sources that you want to run the segmentation on. **[!UICONTROL Cross-Device Profile Options]** These should be the data sources containing your existing DPUUIDs.[](../../reference/ids-in-aam.md)
+1. Na **[!UICONTROL Cross-Device Profile Options]** lista, selecione as fontes de dados nas quais deseja executar a segmentação. Essas devem ser as fontes de dados que contêm seus [DPUUIDs](../../reference/ids-in-aam.md)existentes.
 
 ## Etapa 4 - Criar segmentos de público-alvo {#create-audience-segments}
 
-To create new audience segments, use the Segment Builder. [](../segments/segment-builder.md) If you have existing audience segments that you want to send to , skip to Step 5 - Configure People-Based Platform Authentication.[!DNL People-Based Destinations][](people-based-destinations-workflow-combined.md#configure-authentication)
+Para criar novos segmentos de público-alvo, use o Construtor [de segmentos](../segments/segment-builder.md). Se você tiver segmentos de público-alvo para os quais deseja enviar [!DNL People-Based Destinations], pule para a [Etapa 5 - Configurar a autenticação](people-based-destinations-workflow-combined.md#configure-authentication)da plataforma baseada em pessoas.
 
-## Step 5 - Configure People-Based Platform Authentication {#configure-authentication}
+## Etapa 5 - Configurar a autenticação da plataforma baseada em pessoas {#configure-authentication}
 
 1. Faça logon em sua conta do Audience Manager e vá para **[!UICONTROL Administration]** &gt; **[!UICONTROL Integrated Accounts]**. Se você tiver uma integração previamente configurada com uma plataforma social, deverá vê-la listada nesta página. Caso contrário, a página estará vazia.
    ![integração baseada em pessoas](assets/pbd-config.png)
@@ -147,7 +151,7 @@ To create new audience segments, use the Segment Builder. [](../segments/segment
 
 ## Etapa 6 - Criar um destino baseado em pessoas {#create-destination}
 
-1. Log in to your Audience Manager account, go to  &gt; , and click .**[!UICONTROL Audience Data]****[!UICONTROL Destinations]****[!UICONTROL Create Destination]**
+1. Faça logon em sua conta do Audience Manager, vá para **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Destinations]** e clique em **[!UICONTROL Create Destination]**.
 1. Na **[!UICONTROL Basic Information]** seção, digite um **[!UICONTROL Name]** e **[!UICONTROL Description]** para sua nova fonte de dados e use as seguintes configurações:
    * **[!UICONTROL Category]**: Plataformas integradas;
    * **[!UICONTROL Type]**: Baseado em pessoas;
