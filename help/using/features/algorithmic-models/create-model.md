@@ -1,19 +1,19 @@
 ---
-description: Descreve as etapas necessárias e opcionais que permitem criar um modelo algorítmico no Construtor de modelos.
-keywords: algo funciona
-seo-description: Descreve as etapas necessárias e opcionais que permitem criar um modelo algorítmico no Construtor de modelos.
-seo-title: Criar um modelo algorítmico
+description: Describes the required and optional steps that let you create an algorithmic model in Model Builder.
+keywords: algo how works
+seo-description: Describes the required and optional steps that let you create an algorithmic model in Model Builder.
+seo-title: Create an Algorithmic Model
 solution: Audience Manager
-title: Criar um modelo algorítmico
-topic: API DIL
+title: Create an Algorithmic Model
+topic: DIL API
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
 
-# Criar um modelo algorítmico {#create-an-algorithmic-model}
+# Create an Algorithmic Model {#create-an-algorithmic-model}
 
 Descreve as etapas necessárias e opcionais que permitem criar um modelo algorítmico em [!UICONTROL Model Builder].
 
@@ -42,23 +42,23 @@ Para criar um modelo, vá para a [!UICONTROL Models] seção e clique **[!UICONT
    * *(Opcional)* Forneça uma breve descrição sobre o modelo.
    * Defina o status do modelo como **[!UICONTROL Active]** ou **[!UICONTROL Inactive]**. Os modelos inativos não serão executados e não produzirão dados.
 1. Na seção [Configuração](../../features/algorithmic-models/create-model.md#configuration) :
-   * Clique **[!UICONTROL Browse All Traits]** ou **[!UICONTROL Browse All Segments]** para selecionar uma característica ou segmento para o qual deseja criar um modelo. Selecione uma característica integrada, uma característica baseada em regras ou um segmento como linha de base. Caso contrário, seus modelos não serão executados.
+   * Clique **[!UICONTROL Browse All Traits]** ou **[!UICONTROL Browse All Segments]** para selecionar uma característica ou segmento para o qual deseja criar um modelo.   Selecione uma característica integrada, uma característica baseada em regras ou um segmento como linha de base. Caso contrário, seus modelos não serão executados.
    * Escolha um período de retrospectiva de 30, 60 ou 90 dias. Isso define um intervalo de tempo para o modelo.
    * The [!UICONTROL TraitWeight] algorithm is selected by default.
-   * Selecione uma fonte de dados na [!UICONTROL Available Data] lista.
+   * Select a data source from the  list.[!UICONTROL Available Data]
    * Click **[!UICONTROL Save]** when done.
 
 ## Informações básicas para modelos algorítmicos {#basic-information}
 
 <!-- r_model_basic.xml -->
 
-Em [!UICONTROL Model Builder], as [!UICONTROL Basic Information] configurações permitem criar modelos novos ou editar modelos existentes. Para criar um novo modelo, forneça um nome e siga para as [!UICONTROL Configuration] configurações. O campo de descrição é opcional.
+In , the  settings let you create new or edit existing models. [!UICONTROL Model Builder][!UICONTROL Basic Information] To create a new model, provide a name and move on to the  settings. [!UICONTROL Configuration] The description field is optional.
 
 | Campo | Descrição |
 |---|---|
-| **[!UICONTROL Name]** | Dê ao seu modelo um nome curto e lógico que descreva sua função ou propósito. Evite abreviações, caracteres especiais e marcas de ênfase. |
+| **[!UICONTROL Name]** | Give your model a short, logical name that describes its function or purpose. Avoid abbreviations, special characters, and accent marks. |
 | **[!UICONTROL Description]** | Um campo para obter informações descritivas adicionais sobre o modelo. |
-| **[!UICONTROL Status]** | Ativa ou desativa o modelo (ativo por padrão). |
+| **[!UICONTROL Status]** | Activates or deactivates the model (active by default). |
 
 ## Configuração {#configuration}
 
@@ -82,7 +82,7 @@ Preencha os campos obrigatórios na [!UICONTROL Basic Information] seção prime
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Selecionar uma característica ou segmento da linha de base (1)</b> </p> </td> 
-   <td colname="col2"> <p>Clique no botão de característica ou segmento para ver uma lista de todas as suas características ou segmentos. Seu segmento ou característica selecionado se torna a linha de base que os algoritmos do sistema usam para modelagem. </p> <p> <p><b>Observação</b>:Selecione uma característica integrada, uma característica baseada em regras ou um segmento como linha de base. Caso contrário, seus modelos não serão executados. </p> </p> </td> 
+   <td colname="col2"> <p>Clique no botão de característica ou segmento para ver uma lista de todas as suas características ou segmentos. Seu segmento ou característica selecionado se torna a linha de base que os algoritmos do sistema usam para modelagem. </p> <p> <p><b>Observação</b>:  Selecione uma característica integrada, uma característica baseada em regras ou um segmento como linha de base. Caso contrário, seus modelos não serão executados. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Selecionar período de retrospectiva (2)</b> </p> </td> 
@@ -102,6 +102,10 @@ Preencha os campos obrigatórios na [!UICONTROL Basic Information] seção prime
   </tr> 
  </tbody>
 </table>
+
+Assista ao vídeo abaixo para saber como criar um modelo parecido, para que você possa encontrar mais visitantes que se pareçam com seus conversores.
+
+[!VIDEO](https://video.tv.adobe.com/v/23504/?captions=por_br)
 
 >[!MORE_LIKE_THIS]
 >
