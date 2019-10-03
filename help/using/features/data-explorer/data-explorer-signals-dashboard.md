@@ -1,11 +1,11 @@
 ---
 description: Obtenha uma visão geral dos sinais não utilizados recebidos pelo Audience Manager nos últimos 7 dias e identifique novas características potenciais. Os sinais não utilizados chegam ao Audience Manager a partir de suas propriedades online, mas não são usados em nenhuma de suas características existentes. Para exibir o Painel de sinais, vá até Dados de público-alvo > Sinais. O Painel de Sinais mostra insights acionáveis com base nos sinais mais ativos não utilizados.
-seo-description: Obtenha uma visão geral dos sinais não utilizados recebidos pelo Audience Manager nos últimos 7 dias e identifique novas características potenciais. Os sinais não utilizados chegam ao Audience Manager a partir de suas propriedades online, mas não são usados em nenhuma de suas características existentes. Para exibir o Painel de sinais, vá até Dados de público-alvo > Sinais. O Painel de Sinais mostra insights acionáveis com base nos sinais mais ativos não utilizados.
+seo-description: Obtenha uma visão geral dos sinais não utilizados recebidos pelo Audience Manager nos últimos 7 dias e identifique novas características potenciais. Unused signals reach Audience Manager from your online properties, but are not used in any of your existing traits. Para exibir o Painel de sinais, vá até Dados de público-alvo > Sinais. O Painel de Sinais mostra insights acionáveis com base nos sinais mais ativos não utilizados.
 seo-title: Painel de Sinais
 title: Painel de Sinais
 uuid: 26f39507-097f-427d-bf5b-ab6d035c1dd2
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -37,4 +37,4 @@ Esta seção mostra os 50 primeiros sinais não utilizados recebidos nos último
 Pesquisas salvas exibem os 50 principais resultados para os critérios correspondentes.
 
 Assista ao vídeo abaixo para saber como usar o [!UICONTROL Signals Dashboard].
-[!VIDEO](https://video.tv.adobe.com/v/25151/?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/25151/?captions=por_br)
