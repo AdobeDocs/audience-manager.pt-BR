@@ -5,7 +5,7 @@ seo-title: Visão geral, benefícios e casos de uso
 title: Visão geral, benefícios e casos de uso
 uuid: 3bd32d4a-ade3-413d-837a-9edd14d415a5
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -22,28 +22,28 @@ Criar características com base em insights existentes relacionados ao seu públ
 
 * [Painel](../../features/data-explorer/data-explorer-signals-dashboard.md) de Sinais e [!UICONTROL Signals Search] ajuda você a rastrear os sinais recebidos pelo [!DNL Audience Manager] qual você pode usar para criar novas características ou adicionar às existentes.
 
-* [O preenchimento retroativo](../../features/data-explorer/data-explorer-trait-backfill.md) da definição de características ajuda a qualificar públicos históricos para características recém-criadas, para que você possa incluí-los em esforços de definição de metas futuros.
+* [Trait Realization Backfill helps you qualify historical audiences for newly created traits, so that you can include them in future targeting efforts.](../../features/data-explorer/data-explorer-trait-backfill.md)
 
 ## Benefícios {#benefits}
 
-Use [!UICONTROL Data Explorer] para otimizar sua criação de público-alvo de várias maneiras:
+Use [!UICONTROL Data Explorer] to optimize your audience building in multiple ways:
 
-* **Concentre-se em públicos** de alto valor. Monitore as alterações de tendências no comportamento de pesquisa e navegação em suas páginas e crie características específicas para o comportamento. Elimine a necessidade de criar características "justas" e se concentre em sinais relevantes.
-* **Evite perda** de dados. Preencha retroativamente características com realizações históricas para que você não perca os segmentos do público-alvo porque não criou características antes de receber os sinais.
-* **Melhore seu fluxo de trabalho**. Descubra os sinais de tendência e transforme-os rapidamente em características acionáveis.
+* **Focus on high value audiences.** Monitor trend changes in search and browsing behavior on your pages, then create specific traits for their behavior. Eliminate the need for creating "just in case" traits and focus on relevant signals.
+* **Avoid data loss.** Backfill traits with historical realizations so you don't miss out on audience segments because you didn't create traits before receiving the signals.
+* **Improve your workflow.** Discover trending signals and quickly turn them into actionable traits.
 
 ## Casos de uso {#use-cases-data-explorer}
 
 ### Exemplo 1
 
-Um varejista global de eletrônicos tem um grande volume de tráfego de visitantes, mas as taxas de conversão são menores do que o esperado, embora tenham otimizado o conteúdo para várias plataformas. Usando o Painel [de](../../features/data-explorer/data-explorer-signals-dashboard.md)Sinais, eles identificam um grande volume de sinais não utilizados, indicando que os visitantes estão procurando por uma marca eletrônica específica que não está atualmente no estoque. A empresa pode aproveitar esse insight atualizando seu estoque e direcionando os visitantes com campanhas personalizadas.
+A global electronics retailer has a high volume of visitor traffic, but conversion rates are lower than expected, although they've optimized the content for multiple platforms. Using the Signals Dashboard, they identify a high volume of unused signals, indicating that visitors are searching for a specific electronics brand not currently in stock. [](../../features/data-explorer/data-explorer-signals-dashboard.md) The company can take advantage of this insight by refreshing their stock and targeting those visitors with personalized campaigns.
 
 ### Exemplo 2
 
-Depois que um provedor de serviços de viagens adiciona novos destinos ao site de reservas, ele quer anunciá-los a públicos históricos, embora não tenham características criadas para eles. Eles podem usar a Pesquisa de Sinais para identificar os sinais não utilizados relacionados aos novos destinos, incluí-los em novas características e [preenchê](../../features/data-explorer/data-explorer-trait-backfill.md) -los retroativamente com as realizações históricas. Em seguida, crie novos segmentos com as novas características e direcione-os imediatamente com campanhas dedicadas.
+After a travel services provider adds new destinations to their booking website, they want to advertise them to historical audiences, although they don't have any traits created for them. Eles podem usar a Pesquisa de Sinais para identificar os sinais não utilizados relacionados aos novos destinos, incluí-los em novas características e [preenchê](../../features/data-explorer/data-explorer-trait-backfill.md) -los retroativamente com as realizações históricas. Then, create new segments with the new traits and immediately target them with dedicated campaigns.
 
 ### Usando o Data Explorer para validar a criação de características para seus dados integrados
 
-Um dos recursos mais avançados do Audience Manager é a capacidade de integrar dados offline e uni-los aos seus dados online. No vídeo abaixo, saiba como usar [!UICONTROL Data Explorer] para validar se você criou todas as características necessárias para aproveitar esses dados integrados.
+One of the most powerful features of Audience Manager is the ability to onboard offline data and tie it together with your online data. No vídeo abaixo, saiba como usar [!UICONTROL Data Explorer] para validar se você criou todas as características necessárias para aproveitar esses dados integrados.
 
-[!VIDEO](https://video.tv.adobe.com/v/25149/?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/25149/?captions=por_br)
