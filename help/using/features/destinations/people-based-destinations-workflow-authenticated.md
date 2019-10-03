@@ -5,19 +5,19 @@ seo-title: Fluxo de trabalho C - personalização baseada na atividade autentica
 solution: Audience Manager
 title: Fluxo de trabalho C - personalização baseada na atividade autenticada combinada com dados offline
 translation-type: tm+mt
-source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
 
-# Workflow C - Personalization Based on Authenticated Activity Combined with Offline Data {#workflow-c}
+# Fluxo de trabalho C - personalização baseada na atividade autenticada combinada com dados offline {#workflow-c}
 
 >[!IMPORTANT]
->This article contains product documentation meant to guide you through the setup and usage of this feature. Nada aqui contido é aconselhamento jurídico. Consulte o seu próprio advogado para obter orientação jurídica.
+>Este artigo contém a documentação do produto destinada a guiá-lo pela configuração e uso deste recurso. Nada aqui contido é aconselhamento jurídico. Consulte o seu próprio advogado para obter orientação jurídica.
 
 Esta página inclui orientações passo a passo sobre como combinar dados offline [!DNL CRM] com dados comportamentais em tempo real para usuários autenticados criarem segmentos de público-alvo e, em seguida, enviarem esses segmentos de público-alvo para [!DNL People-Based Destinations].
 
-## Step 1 - Configure Data Source Settings {#configure-data-source-settings}
+## Etapa 1 - Definir configurações da fonte de dados {#configure-data-source-settings}
 
 Dependendo de seus [DPUUIDs](../../reference/ids-in-aam.md) serem endereços de email com hash e minúsculas, talvez seja necessário configurar a fonte de dados que armazenará os endereços de email com hash.
 
@@ -47,6 +47,10 @@ Nesse caso, é necessário criar uma nova fonte de dados entre dispositivos que 
    >[!NOTE]
    >
    > Consulte Integração de [dados](people-based-destinations-prerequisites.md#data-onboarding) para obter perguntas frequentes sobre como você deve colocar seus dados offline no Audience Manager para destinos baseados em pessoas.
+
+Assista ao vídeo abaixo para ver um tutorial em vídeo sobre como criar uma fonte de dados para [!UICONTROL People-Based Destinations].
+
+[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=por_br)
 
 ## Etapa 2 - Usar IDs declaradas para corresponder DPUUIDs a endereços de email com hash por meio de chamadas HTTP em tempo real {#match-email-addresses}
 
@@ -83,7 +87,7 @@ No exemplo acima, a chamada de ID declarada deve ter a seguinte aparência:
 
 ## Etapa 3 - Criar uma regra de mesclagem de perfil para segmentação {#create-profile-merge-rule-segmentation}
 
-The next step is creating a new merge rule that will help you create the audience segments to send to your .[!DNL People-Based Destinations]
+A próxima etapa é criar uma nova regra de mesclagem que ajudará a criar os segmentos de público-alvo a serem enviados para o seu site [!DNL People-Based Destinations].
 
 >[!IMPORTANT]
 >
