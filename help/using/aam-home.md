@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Documentação do produto do Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 translation-type: tm+mt
-source-git-commit: 78a0a0e461ea3a74d0dbb0370a841db274a6f9be
+source-git-commit: f73d4ea5802cec4829f69d495745aeabf1e87c1d
 
 ---
 
@@ -20,10 +20,10 @@ Este guia de documentação técnica fornece autoajuda para o Audience Manager -
   <tr> 
    <td colname="col1"> <p> <b>Itens novos e em destaque</b> </p> <p>Leia sobre os recursos mais recentes do Audience Manager:</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
+     <li><a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/overview/data-security-and-privacy/data-security.html#hsts">HTTP Strict-Transport-Security</a></li>
      <li><a href="features/destinations/people-based-destinations-overview.md">Destinos baseados em pessoas</a> </li>
      <li><a href="features/destinations/twitter-tailored-audiences.md">Configurar públicos-alvo personalizados do Twitter como um destino baseado em dispositivo de autoatendimento</a> </li>
      <li><a href="features/destinations/destinations-home.md">Página inicial de destinos</a> </li>
-     <li><a href="features/administration/ip-obfuscation.md">Ofuscação de endereço IP</a> </li>
      </ul> </p> <p>Consulte também, Atualizações <a href="docs-updates/docs-2019.md"> da documentação de</a>2019. </p> 
      <p>Se você for novo no Audience Manager, consulte nosso <a href="reference/aam-glossary.md"> Glossário</a> e <a href= "reference/ids-in-aam.md">Índice de IDs.</a></p>
      <br> 
