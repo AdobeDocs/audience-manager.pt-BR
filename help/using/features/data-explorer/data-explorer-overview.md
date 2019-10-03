@@ -5,7 +5,7 @@ seo-title: Visão geral, benefícios e casos de uso
 title: Visão geral, benefícios e casos de uso
 uuid: 3bd32d4a-ade3-413d-837a-9edd14d415a5
 translation-type: tm+mt
-source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -41,3 +41,9 @@ Um varejista global de eletrônicos tem um grande volume de tráfego de visitant
 ### Exemplo 2
 
 Depois que um provedor de serviços de viagens adiciona novos destinos ao site de reservas, ele quer anunciá-los a públicos históricos, embora não tenham características criadas para eles. Eles podem usar a Pesquisa de Sinais para identificar os sinais não utilizados relacionados aos novos destinos, incluí-los em novas características e [preenchê](../../features/data-explorer/data-explorer-trait-backfill.md) -los retroativamente com as realizações históricas. Em seguida, crie novos segmentos com as novas características e direcione-os imediatamente com campanhas dedicadas.
+
+### Usando o Data Explorer para validar a criação de características para seus dados integrados
+
+Um dos recursos mais avançados do Audience Manager é a capacidade de integrar dados offline e uni-los aos seus dados online. No vídeo abaixo, saiba como usar [!UICONTROL Data Explorer] para validar se você criou todas as características necessárias para aproveitar esses dados integrados.
+
+[!VIDEO](https://video.tv.adobe.com/v/25149/?captions=por_br)
