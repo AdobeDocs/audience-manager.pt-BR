@@ -5,7 +5,7 @@ seo-title: Fluxo de trabalho C - personalização baseada na atividade autentica
 solution: Audience Manager
 title: Fluxo de trabalho C - personalização baseada na atividade autenticada combinada com dados offline
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -50,20 +50,20 @@ Nesse caso, é necessário criar uma nova fonte de dados entre dispositivos que 
 
 Assista ao vídeo abaixo para ver um tutorial em vídeo sobre como criar uma fonte de dados para [!UICONTROL People-Based Destinations].
 
-[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=por_br)
 
-## Etapa 2 - Usar IDs declaradas para corresponder DPUUIDs a endereços de email com hash por meio de chamadas HTTP em tempo real {#match-email-addresses}
+## Step 2 - Use Declared IDs to Match DPUUIDs to Hashed Email Addresses via Real Time HTTP Calls {#match-email-addresses}
 
-Para qualificar usuários autenticados para características com base em regras, é necessário enviar a qualificação de característica por meio de IDs [](../declared-ids.md)declaradas.
+To qualify authenticated users for rule-based traits, you need to send the trait qualification through declared IDs.[](../declared-ids.md)
 
 ### Exemplo
 
-Digamos que você tenha criado as duas fontes de dados a seguir.
+Let's say you have created the following two data sources.
 
-| ID da fonte de dados | Conteúdo da fonte de dados |
+| Data source ID | Data source contents |
 | -------------- | -------------------------- |
-| 999999 | DPUUIDs existentes (IDs CRM) |
-| 987654 | Endereços de email em hash |
+| 999999 | Existing DPUUIDs (CRM IDs) |
+| 987654 | Hashed email addresses |
 
  
 
@@ -71,7 +71,7 @@ Em seguida, você deseja qualificar as IDs de CRM abaixo para a característica 
 
 | DPUUID (CRM ID) | Endereço de email | Endereço de email com hash | Características |
 | -------------------------------------- | --------------------- | ---------------------------------------------------------------- | ------------- |
-| 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 | localização = EUA |
+| 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 | location = US |
 
  
 
@@ -119,17 +119,17 @@ Para criar novos segmentos, use o Construtor [de](../segments/segment-builder.md
 >
 >O Audience Manager lida com a integração com plataformas sociais por meio de tokens de autenticação que expiram após um determinado período de tempo. Consulte Renovação de token de autenticação para obter detalhes sobre como renovar os tokens expirados.
 
-## Etapa 6 - Criar um destino baseado em pessoas {#create-destination}
+## Step 6 - Create a People-Based Destination {#create-destination}
 
-1. Faça logon em sua conta do Audience Manager, vá para **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Destinations]** e clique em **[!UICONTROL Create Destination]**.
-1. Na **[!UICONTROL Basic Information]** seção, digite um **[!UICONTROL Name]** e **[!UICONTROL Description]** para sua nova fonte de dados e use as seguintes configurações:
-   * **[!UICONTROL Category]**: Plataformas integradas;
+1. Log in to your Audience Manager account, go to  &gt; , and click .**[!UICONTROL Audience Data]****[!UICONTROL Destinations]****[!UICONTROL Create Destination]**
+1. In the  section, enter a  and  for your new data source, and use the following settings:**[!UICONTROL Basic Information]****[!UICONTROL Name]****[!UICONTROL Description]**
+   * **[!UICONTROL Category]**: Integrated Platforms;
    * **[!UICONTROL Type]**: Baseado em pessoas;
-   * **[!UICONTROL Platform]**: selecione a plataforma baseada em pessoas para a qual deseja enviar segmentos de público-alvo;
-   * **[!UICONTROL Account]**: selecione a conta do anunciante desejada associada à plataforma selecionada.
-      ![create-target](assets/pbd-create-destination.png)
+   * **[!UICONTROL Platform]**: select the people-based platform that you want to send audience segments to;
+   * **[!UICONTROL Account]**: select the desired advertiser account associated with the selected platform.
+      ![create-destination](assets/pbd-create-destination.png)
 1. Clique em **[!UICONTROL Next]**.
-1. Escolha o destino **[!UICONTROL Data Export Labels]** que deseja definir.
+1. Choose the  that you want to set for this destination.**[!UICONTROL Data Export Labels]**
 1. Na **[!UICONTROL Configuration]** seção, selecione a fonte de dados que contém suas fontes de dados com hash.
 1. Na **[!UICONTROL Segment Mappings]** seção, selecione os segmentos que deseja enviar para esse destino. Esses seriam os segmentos criados na [Etapa 4 - Criar segmentos](#create-audience-segments)de público-alvo.
 1. Salve o destino.
