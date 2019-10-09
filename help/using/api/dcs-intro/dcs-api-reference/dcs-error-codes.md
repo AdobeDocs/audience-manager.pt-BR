@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Códigos de erros, mensagens e exemplos de DCS
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 8478a28cd1b18d878d6938d77ee4f975deb524ef
 
 ---
 
@@ -35,12 +35,12 @@ In the tables below, *italics* represents a variable placeholder.
   </tr> 
   <tr> 
    <td colname="col1"> <p>1 </p> </td> 
-   <td colname="col2"> <p>Não foi possível localizar a configuração para o nome do host: nome do <code><i>host</i></code> </p> </td> 
+   <td colname="col2"> <p>Não foi possível localizar a configuração para o nome do host: <code><i>hostname</i></code> </p> </td> 
    <td colname="col3"> <p>O nome do host enviado na solicitação não foi configurado pela equipe de provisionamento do parceiro. Entre em contato com seu representante da Adobe se vir esta mensagem de erro. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2 </p> </td> 
-   <td colname="col2"> <p>Valor <code> d_orgid</code> inválido (não foi possível localizar uma configuração para esta id organizacional): <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Valor inválido <code> d_orgid</code> (não foi possível localizar uma configuração para esta ID de organização): <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>A ID da organização está incorreta. </p> <p>Verifique sua ID e tente a solicitação novamente. Se você não souber ou não possuir a ID da empresa, consulte a seção "Página de administração" na Administração <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html" format="https" scope="external"> da</a> Experience Cloud para obter informações sobre como encontrá-la. </p> </td> 
   </tr>
  </tbody>
@@ -64,18 +64,23 @@ In the tables below, *italics* represents a variable placeholder.
   </tr> 
   <tr> 
    <td colname="col1"> <p>101 </p> </td> 
-   <td colname="col2"> <p>ID inválida da Experience Cloud transmitida na <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>A chamada <span class="wintitle"> DCS</span> contém uma Experience Cloud <span class="keyword"></span> ID inválida. </p> <p>Verifique o par <code> d_mid=</code> key-value na string do cabeçalho. Verifique se você está transmitindo a Experience Cloud <span class="keyword"></span> ID correta e tente a solicitação novamente. </p> </td> 
+   <td colname="col2"> <p>Id inválida da Experience Cloud transmitida <code><i>ID</i></code> </p> </td> 
+   <td colname="col3"> <p>A chamada <span class="wintitle"> DCS</span> contém uma Experience Cloud <span class="keyword"></span> ID inválida. </p> <p>Verifique o par de <code> d_mid=</code> chave-valor na string de cabeçalho. Verifique se você está transmitindo a Experience Cloud <span class="keyword"></span> ID correta e tente a solicitação novamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>102 </p> </td> 
-   <td colname="col2"> <p>ID de aam inválida transmitida na <code><i>ID de solicitação</i></code> </p> </td> 
-   <td colname="col3"> <p>A chamada <span class="wintitle"> DCS</span> contém uma ID inválida <span class="keyword"> do Audience Manager</span> . </p> <p>Verifique o par <code> d_uuid=</code> key-value na string do cabeçalho. Verifique se você está transmitindo a ID correta do <span class="keyword"> Audience Manager</span> e tente a solicitação novamente. </p> </td> 
+   <td colname="col2"> <p>Id aam inválida transmitida na solicitação <code><i>ID</i></code> </p> </td> 
+   <td colname="col3"> <p>A chamada <span class="wintitle"> DCS</span> contém uma ID inválida <span class="keyword"> do Audience Manager</span> . </p> <p>Verifique o par de <code> d_uuid=</code> chave-valor na string de cabeçalho. Verifique se você está transmitindo a ID correta do <span class="keyword"> Audience Manager</span> e tente a solicitação novamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>104 </p> </td> 
    <td colname="col2"> <p>Todas as ids do cliente são inválidas </p> </td> 
    <td colname="col3"> <p>Todas as IDs do cliente na sua chamada são inválidas. Verifique suas IDs e tente novamente. </p> </td> 
+  </tr>
+    <tr> 
+   <td colname="col1"> <p>109</p> </td> 
+   <td colname="col2"> <p>Referenciador não <code>HTTP referer</code> permitido para parceiro <code>Partner ID</code> </p> </td> 
+   <td colname="col3"> <p>O cabeçalho [!DNL HTTP referer] na chamada não é permitido para a ID do parceiro na chamada. Verifique se o cabeçalho [!DNL HTTP referer] está correto.</p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>111 </p> </td> 
@@ -98,7 +103,7 @@ In the tables below, *italics* represents a variable placeholder.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>171 </p> </td> 
-   <td colname="col2"> <p>Foi encontrada uma tag de recusa para a <code><i>ID de ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Foi encontrada uma tag de recusa para a id <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>Um cliente optou por não receber publicidade com base em juros. </p> </td> 
   </tr> 
   <tr> 
@@ -113,7 +118,7 @@ In the tables below, *italics* represents a variable placeholder.
   </tr> 
   <tr> 
    <td colname="col1"> <p>198 </p> </td> 
-   <td colname="col2"> <p> Solicitações deste país são bloqueadas pelo parceiro </p> </td> 
+   <td colname="col2"> <p>Solicitações deste país são bloqueadas pelo parceiro </p> </td> 
    <td colname="col3"> <p>Com base no endereço IP, o <span class="wintitle"> DCS</span> bloqueia solicitações de países onde o parceiro limitou deliberadamente o tráfego. </p> </td> 
   </tr> 
   <tr> 
@@ -169,7 +174,7 @@ In the tables below, *italics* represents a variable placeholder.
   </tr> 
   <tr> 
    <td colname="col1"> <p>205 </p> </td> 
-   <td colname="col2"> <p>Não foi possível executar a migração da <code><i>ID</i></code> para a <code><i>ID</i></code>, porque a leitura do perfil falhou para a <code><i>ID</i></code> </p> </td>
+   <td colname="col2"> <p>Não foi possível executar a migração de <code><i>ID</i></code> para <code><i>ID</i></code>, porque a leitura do perfil falhou para <code><i>ID</i></code> </p> </td>
    <td colname="col3"> <p>Se você receber esse erro, podemos estar enfrentando problemas de escalabilidade com nosso armazenamento de dados (<span class="wintitle"> PCS</span>). Entre em contato com seu representante da Adobe se o problema persistir. </p> </td> 
   </tr> 
  </tbody> 
@@ -188,22 +193,22 @@ In the tables below, *italics* represents a variable placeholder.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>300 </p> </td> 
-   <td colname="col2"> <p>ID inválida <code><i>da ID do cliente</i></code> </p> </td> 
+   <td colname="col2"> <p>ID de cliente inválida <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>A ID do cliente é inválida (valores ausentes para fonte de dados, códigos de integração ausentes, formato inválido para fontes de dados, ID do cliente bloqueada, ID do cliente em branco, tentativa de acesso não autorizado a uma fonte de dados que não pertence ao parceiro). </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p>301 </p> </td> 
-   <td colname="col2"> <p>O número máximo de IDs do cliente foi excedido. O máximo permitido é o <code><i>máximo permitido</i></code>. Encontrado é o <code><i>máximo encontrado</i></code>.</p> </td> 
+   <td colname="col2"> <p>O número máximo de IDs do cliente foi excedido. O máximo permitido é <code><i>maximum allowed</i></code>. Encontrado é <code><i>maximum found</i></code>.</p> </td> 
    <td colname="col3"> <p>O número de IDs do cliente associadas a uma fonte de dados entre dispositivos excede o número permitido de IDs entre dispositivos por solicitação. Essas IDs incluem IDs de dispositivo, dispositivo móvel ou cookie. O limite está atualmente definido como 10. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p>302 </p> </td> 
-   <td colname="col2"> <p>ID do cliente não autorizada <code><i></i></code> </p> </td> 
+   <td colname="col2"> <p>Id do cliente não autorizada <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>Retornado quando a fonte de dados da ID do cliente não é pertencente à ID da organização atual. Se você não souber ou não possuir a ID da organização, consulte a seção "Localizar a ID da organização" em <a href="https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html" format="https" scope="external"> Organizações e vinculação</a> de contas para obter informações sobre como encontrá-la. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
-   <td colname="col2"> <p>ID do cliente bloqueada <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>ID do cliente bloqueado <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>Retornado quando a ID do cliente foi identificada como mal-intencionada e está na lista negra. </p> </td> 
   </tr> 
   <tr> 
@@ -223,7 +228,7 @@ In the tables below, *italics* represents a variable placeholder.
   </tr> 
   <tr> 
    <td colname="col1"> <p>309 </p> </td> 
-   <td colname="col2"> <p>A <code><i>ID</i></code> do cliente foi descartada porque excedeu o limite de IDs do cliente declaradas por solicitação </p> </td> 
+   <td colname="col2"> <p>A ID do cliente <code><i>ID</i></code> foi descartada porque excedeu o limite de IDs do cliente declaradas por solicitação </p> </td> 
    <td colname="col3"> <p>Relacionado ao erro 301. Esse erro especifica qual ID do cliente foi descartada porque o limite foi excedido. </p> <p>Por exemplo, se houver 12 IDs de cliente declaradas na chamada <span class="wintitle"> DCS</span> , duas delas serão descartadas. Para retransmitir quais foram descartados, esse erro aparecerá duas vezes na resposta (uma para cada uma das ID de cliente descartadas). </p> </td>
   </tr>
   <tr> 
@@ -234,7 +239,7 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>311 </p> </td> 
    <td colname="col2"> <p>A solicitação contém parâmetros inválidos </p> </td> 
-   <td colname="col3"> <p>O <span class="wintitle"> DCS</span> retorna esse código de erro quando pelo menos um parâmetro de URL não está corretamente codificado. Nesse caso, o <span class="wintitle"> DCS</span> ignora a solicitação inteira. </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%esid!&amp;d_creative=%ecid!&amp;d_adgroup=%eaid!&amp;d_placement=%epid!&amp;d_campaign=%ebuy!&amp;d_adsrc=48123</code> </p> <p>Na solicitação de amostra acima, a sequência <code> %</code> está codificada incorretamente. Consequentemente, o <span class="wintitle"> DCS</span> irá ignorá-lo. </p> <p>A amostra codificada corretamente deve ser semelhante a: </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%25esid!&amp;d_creative=%25ecid!&amp;d_adgroup=%25eaid!&amp;d_placement=%25epid!&amp;d_campaign=%25ebuy!&amp;d_adsrc=48123</code> </p> </td> 
+   <td colname="col3"> <p>O <span class="wintitle"> DCS</span> retorna esse código de erro quando pelo menos um parâmetro de URL não está corretamente codificado. Nesse caso, o <span class="wintitle"> DCS</span> ignora a solicitação inteira. </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%esid!&amp;d_creative=%ecid!&amp;d_adgroup=%eaid!&amp;d_placement=%epid!&amp;d_campaign=%ebuy!&amp;d_adsrc=48123</code> </p> <p>Na solicitação de amostra acima, a <code> %</code> sequência é codificada incorretamente. Consequentemente, o <span class="wintitle"> DCS</span> irá ignorá-lo. </p> <p>A amostra codificada corretamente deve ser semelhante a: </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%25esid!&amp;d_creative=%25ecid!&amp;d_adgroup=%25eaid!&amp;d_placement=%25epid!&amp;d_campaign=%25ebuy!&amp;d_adsrc=48123</code> </p> </td> 
   </tr>
   <tr> 
    <td colname="col1"> <p>312 </p> </td> 
