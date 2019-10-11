@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Arquivos de dados e metadados para relatórios de otimização de público-alvo
 uuid: 80aa4bc3-c660-4e65-8c22-2dbb7bddd4f
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 1ff46970470eae4bc30760468013d994c976e549
 
 ---
 
@@ -24,8 +24,3 @@ Um arquivo de dados contém dados de impressão, clique ou conversão que você 
 * [Convenções de nomenclatura para arquivos de metadados](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
 * [Formato de conteúdo para arquivos de metadados](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)
 * [Métodos de entrega para arquivos de metadados](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)
-* [Atualizações de status para arquivos de metadados](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md)
-
-
-
-
