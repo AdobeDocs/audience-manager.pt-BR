@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Visão geral e mapeamentos para arquivos de metadados
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 1ff46970470eae4bc30760468013d994c976e549
 
 ---
 
@@ -59,43 +59,43 @@ A tabela a seguir lista os pares de valores chave que contêm dados usados pelos
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Anunciante </p> </td> 
-   <td colname="col2"> <p> <code>d_adsrc = ID da fonte de <i>dados ou código de integração</i></code> </p> <p>Essa é a ID da fonte de dados ou o código de integração do anunciante fornecido ao criar uma fonte de dados. Consulte <a href="../../../features/manage-datasources.md#create-data-source"> Criar uma fonte</a>de dados. </p> </td> 
+   <td colname="col2"> <p> <code>d_adsrc = <i>data source ID or integration code</i></code> </p> <p>Essa é a ID da fonte de dados ou o código de integração do anunciante fornecido ao criar uma fonte de dados. Consulte <a href="../../../features/manage-datasources.md#create-data-source"> Criar uma fonte</a>de dados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Unidade de negócio (BU) </p> </td> 
-   <td colname="col2"> <p> <code>d_bu = ID da unidade <i>comercial</i></code> </p> </td> 
+   <td colname="col2"> <p> <code>d_bu = <i>business unit ID</i></code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Campanha </p> </td> 
-   <td colname="col2"> <p> <code>d_campaign = ID <i>da campanha</i></code> </p> </td> 
+   <td colname="col2"> <p> <code>d_campaign = <i>campaign ID</i></code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Creative </p> </td> 
-   <td colname="col2"> <p> <code>d_creative = ID <i>criativa</i></code> </p> </td> 
+   <td colname="col2"> <p> <code>d_creative = <i>creative ID</i></code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Exchange </p> </td> 
    <td colname="col2"> <p>Aceita dois pares de valores chave diferentes: </p> 
     <ul id="ul_3B3B751A8A134096B0912E81A0983B9D"> 
-     <li id="li_57BAC45A7B274AB695945E174A4D8A35"> <code>d_exchange = <i>ID para a troca que serviu o anúncio</i></code> </li> 
-     <li id="li_CCDF00DE59D3451C8EF590DD3E1A806D"> <code>d_site = <i>ID para o site e anúncio servido</i></code> </li> 
+     <li id="li_57BAC45A7B274AB695945E174A4D8A35"> <code>d_exchange = <i>ID for the exchange that served the ad</i></code> </li> 
+     <li id="li_CCDF00DE59D3451C8EF590DD3E1A806D"> <code>d_site = <i>ID for the site an ad served on</i></code> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ordem de inserção (E/S) </p> </td> 
-   <td colname="col2"> <p> <code>d_io = ID da ordem de <i>inserção</i></code> </p> </td> 
+   <td colname="col2"> <p> <code>d_io = <i>insertion order ID</i></code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Plataforma </p> </td> 
-   <td colname="col2"> <p> <code>d_src = ID da fonte <i>de dados</i></code> </p> <p>Esta é a ID da fonte <a href="../../../features/datasources-list-and-settings.md#data-sources-list-and-settings"></a> de dados da plataforma que fornece informações de metadados (por exemplo, DFA, Atlas, GBM, MediaMath etc.). </p> </td> 
+   <td colname="col2"> <p> <code>d_src = <i>data source ID</i></code> </p> <p>Esta é a ID da fonte <a href="../../../features/datasources-list-and-settings.md#data-sources-list-and-settings"></a> de dados da plataforma que fornece informações de metadados (por exemplo, DFA, Atlas, GBM, MediaMath etc.). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Tático </p> </td> 
-   <td colname="col2"> <p> <code>d_tactic = ID <i>tática</i></code> </p> </td> 
+   <td colname="col2"> <p> <code>d_tactic = <i>tactic ID</i></code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Vertical </p> </td> 
-   <td colname="col2"> <p> <code>d_vert = ID <i>vertical</i></code> </p> </td> 
+   <td colname="col2"> <p> <code>d_vert = <i>vertical ID</i></code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -134,7 +134,7 @@ Consulte Formato [de conteúdo para arquivos](../../../reporting/audience-optimi
 
 ### Entrega de arquivo
 
-Depois de nomear e adicionar dados a um arquivo, envie-os para um diretório de armazenamento Amazon S3 fornecido pela [!DNL Audience Manager]. Consulte Métodos [de entrega para arquivos](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md) de metadados e atualizações [de status para arquivos](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md)de metadados.
+Depois de nomear e adicionar dados a um arquivo, envie-os para um diretório de armazenamento Amazon S3 fornecido pela [!DNL Audience Manager]. Consulte Métodos [de entrega para arquivos](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)de metadados.
 
 >[!MORE_LIKE_THIS]
 >
