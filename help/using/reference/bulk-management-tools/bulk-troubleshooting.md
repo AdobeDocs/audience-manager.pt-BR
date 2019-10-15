@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Dicas de solução de problemas para ferramentas de gerenciamento em massa
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
 translation-type: tm+mt
-source-git-commit: cb3819192c523f9c20e9a15ca5d43ef36c49e900
+source-git-commit: 6f13cefb2f56bbc2e0bfff9a6d31925001403c50
 
 ---
 
@@ -65,4 +65,8 @@ A tabela a seguir lista alguns problemas comuns que podem ocorrer ao fazer solic
   </tr> 
  </tbody> 
 </table>
+
+## Mensagens de erro
+
+Às vezes, você pode receber mensagens de erro ao fazer alterações em massa. Para interpretar a mensagem de erro, consulte Códigos de [resposta definidos](/help/using/api/rest-api-main/aam-api-getting-started.md) na documentação da API.
 
