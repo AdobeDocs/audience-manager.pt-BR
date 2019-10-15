@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Solicitações em massa
 uuid: 0192d26a-4cea-4e12-9fea-388b92b382f1
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: cb17d417aa6b3cc213e69c5d71051f235d81c2a5
 
 ---
 
@@ -32,10 +32,11 @@ Para fazer solicitações em massa, abra a [!UICONTROL Bulk Management Tools] pl
 1. Click the **[!UICONTROL Request]** tab.
 2. Na barra de ferramentas na parte superior da planilha, clique em um botão de solicitação correspondente aos dados com os quais você deseja trabalhar. Você pode solicitar:
 
-   * IDs do provedor de dados
+   * Modelos algorítmicos
+   * Fontes de dados
    * Sinais derivados
    * Mapeamentos de destino
-   * Características baseadas em regras e a bordo
+   * Características algorítmicas, baseadas em regras e a bordo
    * Segmentos
    * IDs de pasta de características e segmentos
    A [!DNL Audience Manager] API grava dados em massa de volta à [!UICONTROL Request] planilha.
