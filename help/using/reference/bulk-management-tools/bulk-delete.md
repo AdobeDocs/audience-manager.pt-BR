@@ -1,19 +1,19 @@
 ---
-description: A exclusão em massa permite remover vários segmentos, características, pastas, sinais derivados e destinos com uma única operação. Siga estas instruções para fazer uma solicitação de exclusão em massa.
-seo-description: A exclusão em massa permite remover vários segmentos, características, pastas, sinais derivados e destinos com uma única operação. Siga estas instruções para fazer uma solicitação de exclusão em massa.
+description: A exclusão em massa permite remover vários segmentos, características, pastas, sinais derivados, fontes de dados, modelos e destinos com uma única operação. Siga estas instruções para fazer uma solicitação de exclusão em massa.
+seo-description: A exclusão em massa permite remover vários segmentos, características, pastas, sinais derivados, fontes de dados, modelos e destinos com uma única operação. Siga estas instruções para fazer uma solicitação de exclusão em massa.
 seo-title: Exclusão em massa
 solution: Audience Manager
 title: Exclusão em massa
 uuid: 679cde46-09fb-45c6-b84d-47e00e0e7c0a
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 30d4cec4502a2cf8b217816ea4ae62eb1b22f641
 
 ---
 
 
 # Exclusão em massa{#bulk-delete}
 
-A exclusão em massa permite remover vários segmentos, características, pastas, sinais derivados e destinos com uma única operação. Siga estas instruções para fazer uma solicitação de exclusão em massa.
+A exclusão em massa permite remover vários segmentos, características, pastas, sinais derivados, fontes de dados, modelos e destinos com uma única operação. Siga estas instruções para fazer uma solicitação de exclusão em massa.
 
 <!-- 
 
