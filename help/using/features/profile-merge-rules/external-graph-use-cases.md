@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Casos de uso do gráfico do dispositivo externo
 uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 ---
 
@@ -19,91 +19,113 @@ Recomendações e casos de uso para prospecção, redefinição de metas e perso
 
 Considere as opções de gráficos de dispositivos [!DNL Experience Cloud Device Co-op] e de terceiros para campanhas que:
 
-* Tenha um nível baixo de autenticação em suas propriedades digitais. Use a opção [de gráfico de dispositivo Link de](../../features/profile-merge-rules/merge-rule-definitions.md#device-options) perfil se você tiver um grande número de usuários autenticados.
+* Tenha um nível baixo de autenticação em suas propriedades digitais. Use o [!UICONTROL Profile Link Device Graph option] caso tenha um grande número de usuários autenticados.
 * Direcione públicos grandes. Os gráficos de dispositivos [!DNL Experience Cloud Device Co-op] e de terceiros contêm dados autenticados e não autenticados.
 * Segmentar visitantes autenticados e/ou não autenticados no nível individual e doméstico.
 
-![](assets/merge-rule-triangle1.png)
+![](../assets/merge-rule-triangle1.png)
+<!-- 
+## Prospecting/Branding Use Case {#prospecting-branding-use-cases}
 
-## Caso de uso de perspectiva/marca {#prospecting-branding-use-cases}
-
-Uma campanha de marca foi projetada para atingir o maior número possível de pessoas. Ela coloca poucos limites na qualificação de segmentos. Mas essas campanhas podem desperdiçar orçamento e impressões, sempre direcionando pessoas que veem seu conteúdo várias vezes e não convertem. Uma [!UICONTROL Profile Merge] regra que usa a opção [!DNL Device Co-op] ou de terceiros pode ajudá-lo a criar uma campanha de marca eficiente. Por exemplo, você pode adicionar esses usuários desconhecidos a um segmento "não no mercado" depois de vê-los em vários dispositivos para o limite de frequência definido.
+A branding campaign is designed to reach as many people as possible. It places few limits on segment qualification. But, these campaigns can waste budget and impressions by constantly targeting people who see your content multiple times and don't convert. A [!UICONTROL Profile Merge] rule that uses the [!DNL Device Co-op] or third-party option can help you create an efficient branding campaign. For example, you can add these unknown users to a "not in-market" segment after seeing them across multiple devices for your set frequency cap.
 
 <table id="table_00F6EED172574E80A38CADA8A92A23B1"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Caso de uso </th> 
-   <th colname="col2" class="entry"> Descrição </th> 
+   <th colname="col1" class="entry"> Use Case </th> 
+   <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Condições</b> </p> </td> 
-   <td colname="col2">Este caso de uso assume estas condições: <p> 
+   <td colname="col1"> <p> <b>Conditions</b> </p> </td> 
+   <td colname="col2">This use case assumes these conditions: <p> 
      <ul id="ul_F5CA7EE525774F7EBA5FBB5F94E4EDC8"> 
-      <li id="li_81AE304924724146A24FAB5B6533AD8E">Você deseja enviar no máximo 10 impressões para um usuário anônimo para uma campanha de publicidade específica. </li> 
-      <li id="li_E371F989735245B0B82433DE240D56D0">Um usuário tem vários dispositivos e pode ou não ter sido autenticado em seu site. </li> 
-      <li id="li_9231ABE15CA249E6B79D8BF0E511FD33">Um usuário anônimo visualiza o anúncio no total 10 vezes enquanto navega em um estado não autenticado em seu dispositivo atual e até três dispositivos vinculados por um gráfico de dispositivo externo. </li> 
-      <li id="li_8C276C07019C49EFA3A0D0D54CF73C31">Você definiu um segmento do <span class="keyword"> Audience Manager</span> para qualificar usuários anônimos depois de 10 impressões. </li> 
+      <li id="li_81AE304924724146A24FAB5B6533AD8E">You want to deliver a maximum of 10 impressions to an anonymous user for a specific ad campaign. </li> 
+      <li id="li_E371F989735245B0B82433DE240D56D0">A user has 4 devices and may or may not have authenticated on your site. </li> 
+      <li id="li_9231ABE15CA249E6B79D8BF0E511FD33">An anonymous user sees the ad a total of 10 times while browsing in an unauthenticated state on their current device and 3 devices linked to the current device by an external device graph. </li> 
+      <li id="li_8C276C07019C49EFA3A0D0D54CF73C31">You have defined an <span class="keyword"> Audience Manager</span> segment to qualify anonymous users after they have seen 10 impressions. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Resultados</b> </p> </td> 
-   <td colname="col2"> <p>Dadas essas condições, <span class="keyword"> o Audience Manager</span>: </p> <p> 
+   <td colname="col1"> <p> <b>Results</b> </p> </td> 
+   <td colname="col2"> <p>Given these conditions, <span class="keyword"> Audience Manager</span>: </p> <p> 
      <ul id="ul_8E988B1005324526BC6DC6637BBACCFB"> 
-      <li id="li_C9DD546754914BACB8F4C92C7D4ED70E">Une a atividade anônima e não autenticada coletada do dispositivo atual e os três dispositivos vinculados pelo gráfico do dispositivo externo (as impressões do anúncio de cada dispositivo). </li> 
-      <li id="li_FB55CB9116074525BA30FF062D1136AE">Avalia o usuário não autenticado para qualificação de segmento com base em uma combinação de atividade anônima em todos os três dispositivos vinculados pelo gráfico de dispositivo externo e pelo dispositivo atual. </li> 
-      <li id="li_B28EB32F718145A7ABBDAC0AF75E2AFC">Envia o segmento para qualquer destino em tempo real para uso como um segmento de supressão no dispositivo atual e em todos os três dispositivos vinculados pelo gráfico de dispositivos externos. </li> 
+      <li id="li_C9DD546754914BACB8F4C92C7D4ED70E">Merges the anonymous, unauthenticated activity collected from the current device and the 3 devices linked by the external device graph (the ad impressions from each device). </li> 
+      <li id="li_FB55CB9116074525BA30FF062D1136AE">Evaluates the unauthenticated user for segment qualification based on a combination of anonymous activity across all 3 devices linked by the external device graph and the current device. </li> 
+      <li id="li_B28EB32F718145A7ABBDAC0AF75E2AFC">Sends the segment to any real-time destination for use as a suppression segment on the current device and all 3 devices linked by the external device graph. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Caso de uso de redefinição de metas ou personalização do site {#retargeting-use-case}
+## Retargeting or Site Personalization Use Case {#retargeting-use-case}
 
-Essas estratégias são projetadas para trazer um usuário não autenticado ou desconhecido de volta ao seu site ou personalizar sua experiência de navegação enquanto ele estiver no site.
+These strategies are designed to bring an unauthenticated or unknown user back to your site or personalize their browsing experience while they're on-site.
 
 <table id="table_0EE2052AA3E744B3B76036FC06B5A453"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Caso de uso </th> 
-   <th colname="col2" class="entry"> Descrição </th> 
+   <th colname="col1" class="entry"> Use Case </th> 
+   <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Condições</b> </p> </td> 
-   <td colname="col2">Este caso de uso assume estas condições: <p> 
+   <td colname="col1"> <p> <b>Conditions</b> </p> </td> 
+   <td colname="col2">This use case assumes these conditions: <p> 
      <ul id="ul_FD0B869B4AF3453FAEC9BA3A45ABF039"> 
-      <li id="li_8E30BAED42E94AB3B81FCB1C7464E5FC">Você deseja fornecer uma experiência personalizada no site e/ou fora dele a um usuário anônimo com base em suas atividades no site enquanto estiver em um estado não autenticado. </li> 
-      <li id="li_3DBE53BA94324F1BA1C52A37AD4E426C">Um usuário tem vários dispositivos e pode ou não ter sido autenticado em seu site. </li> 
-      <li id="li_F867AFBDC1A54CD6A68AB0EC196E27C9">Um usuário exibe várias páginas em seu site enquanto navega em um estado não autenticado em seu dispositivo atual e até três dispositivos vinculados por um gráfico de dispositivo externo. </li> 
-      <li id="li_7E35D77949CE4E69BD51655AA4C40BEE">Você definiu um segmento do <span class="keyword"> Audience Manager</span> para qualificar usuários depois que eles visualizaram várias páginas em seu site enquanto navegavam em um estado não autenticado. </li> 
+      <li id="li_8E30BAED42E94AB3B81FCB1C7464E5FC">You want to deliver a personalized on-site and/or off-site experience to an anonymous user based on their activity on your site while in an unauthenticated state. </li> 
+      <li id="li_3DBE53BA94324F1BA1C52A37AD4E426C">A user has multiple devices and may or may not have authenticated to your site. </li> 
+      <li id="li_F867AFBDC1A54CD6A68AB0EC196E27C9">A user views multiple pages on your site while browsing in an unauthenticated state on their current device and 3 other devices linked by an external device graph. </li> 
+      <li id="li_7E35D77949CE4E69BD51655AA4C40BEE">You have defined an <span class="keyword"> Audience Manager</span> segment to qualify users after they have viewed multiple pages on your site while browsing in an unauthenticated state.</li>
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Resultados</b> </p> </td> 
-   <td colname="col2"> <p>Dadas essas condições, <span class="wintitle"> o Audience Manager</span>: </p> <p> 
+   <td colname="col1"> <p> <b>Results</b> </p> </td> 
+   <td colname="col2"> <p>Given these conditions, <span class="wintitle"> Audience Manager</span>: </p> <p> 
      <ul id="ul_301339426B0643B295DC5B17E1939CFB"> 
-      <li id="li_7E8BC3B179804F4A929497DE81E76911">Une a atividade anônima e não autenticada coletada dos dispositivos atuais e os três dispositivos vinculados pelo gráfico de dispositivos externos (as várias exibições de página de cada dispositivo). </li> 
-      <li id="li_803EFD58AA124A5BBC8279C4DC695544">Avalia o usuário não autenticado para qualificação de segmento com base em uma combinação de atividade anônima em todos os três dispositivos vinculados pelo gráfico de dispositivo externo e pelo dispositivo atual. </li> 
-      <li id="li_98D749268CC5456CBC9CF3BF5EB91BA8">Envia o segmento para qualquer destino em tempo real para fornecer uma experiência personalizada no site e/ou fora dele no dispositivo atual e em todos os três dispositivos vinculados pelo gráfico de dispositivos externos. </li>
+      <li id="li_7E8BC3B179804F4A929497DE81E76911">Merges the anonymous, unauthenticated activity collected from the current devices and the 3 devices linked by the external device graph (the multiple page views from each device). </li> 
+      <li id="li_803EFD58AA124A5BBC8279C4DC695544">Evaluates the unauthenticated user for segment qualification based on a combination of anonymous activity across all 3 devices linked by the external device graph and the current device. </li> 
+      <li id="li_98D749268CC5456CBC9CF3BF5EB91BA8">Sends the segment to any real-time destination to deliver a personalized on-site and/or off-site experience across the current device and all 3 devices linked by the external device graph. </li>
      </ul> </p> </td>
   </tr>
  </tbody>
-</table>
+</table> -->
 
-## Opções de Regra de Mesclagem de Perfil para Casos de Uso do Gráfico de Dispositivos Externos {#profile-merge}
+## Definição de meta de dispositivo expandida {#audience-expansion}
 
-Suas opções de regras de mesclagem para esses casos de uso seriam semelhantes às opções disponíveis mostradas abaixo. As [!UICONTROL Authenticated Profile] opções são desativadas porque essas configurações só estão disponíveis quando você seleciona **[!UICONTROL Current Authenticated Profile]** ou **[!UICONTROL Last Authenticated Profile]**. Sua opção [!UICONTROL Device Options] varia dependendo do tipo de configuração de gráfico de dispositivo que você deseja usar ou que está disponível para você.
+Este caso de uso exemplifica como você pode expandir o tamanho do seu público-alvo endereçável com personalização precisa entre dispositivos, por meio do [!DNL Adobe Co-Op Device Graph] ou de outro [!DNL External Device Graphs].
 
-![](assets/merge-rules-external.png)
+Digamos que Jane seja dona de três dispositivos que ela usa regularmente para procurar por ofertas de pacotes de férias: seu laptop ([!DNL Device 1]), seu smartphone ([!DNL Device 2]) e seu tablet ([!DNL Device 3]). Ao usar o laptop, Jane procurou por voos, hotéis e tours guiados. Ao usar o smartphone e o tablet, ela só visitou a página inicial da agência de viagens.
 
-Para obter mais informações sobre como esses processos de gráficos de dispositivos funcionam, baixe nosso PDF, [Audience Manager e Gráficos](https://marketing.adobe.com/resources/help/en_US/aam/downloads/AAM_Device_Graphs.pdf)de dispositivos externos.
+Ao usar a regra [!UICONTROL No Cross-Device Profile] + [!UICONTROL Adobe Co-op Device Graph] , a agência de viagens pode unir todos os três perfis de dispositivos, já que eles estão vinculados ao mesmo proprietário por meio do [!UICONTROL Adobe Co-op Device Graph].
+
+![regra de expansão do público-alvo](assets/audience-expansion-rule.png)
+
+Em nosso exemplo, as características necessárias para se qualificar para o segmento foram todas coletadas [!DNL Device 1]. Como o Audience Manager qualifica cada perfil de dispositivo que participou da mesclagem de perfil para um segmento, todos os três perfis de dispositivo da Jane agora são segmentados.
+
+Por meio dessa regra, o gráfico de dispositivos expandiu o número de perfis de dispositivos que se qualificam para o segmento de um a três e permitiu que a agência de viagens enviasse uma mensagem consistente para todos os três dispositivos pertencentes à Jane.
+
+![expansão de público-alvo](assets/audience-expansion.png)
+
+## Direcionamento avançado entre dispositivos {#advanced-graph-expansion}
+
+Este caso de uso mostra como você pode expandir a segmentação de público-alvo para visitantes autenticados com dispositivos de um gráfico de dispositivo externo ou do [!DNL Adobe Co-Op Device Graph], usando a regra **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adobe Co-Op Device Graph]** .
+
+![último dispositivo-gráfico](assets/last-device-coop.png)
+
+No exemplo abaixo, a empresa Acme Inc. quer direcionar todas as famílias com rendimentos acima de US$ 100.000/ano, que têm [!DNL Acme Inc.] assinantes [!DNL Data Plan A], que usam um [!DNL iPhone 7] dispositivo.
+
+John usa seu iPhone 7 no Data Plan A para autenticar no site da Acme Inc. Ao mesmo tempo, o [!DNL Co-Op Device Graph] cluster de John contém dois dispositivos adicionais que ele usa regularmente: seu laptop ([!DNL Device 1]) e seu smartphone secundário [!DNL Device 2] (um [!DNL Samsung S7] ligado [!DNL Data Plan B]).
+
+Usando o **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adobe Co-Op Device Graph]**, [!DNL Acme Inc.] é capaz de fornecer mensagens personalizadas para todos os três dispositivos do cluster de gráficos de dispositivos do John, mesmo que apenas um deles se qualifice inicialmente para o segmento.
+
+![expansão avançada de gráficos](assets/advanced-device-graph-expansion.png)
 
 >[!MORE_LIKE_THIS]
 >
->* [Casos de uso do gráfico de dispositivo de link de perfil](../../features/profile-merge-rules/profile-link-use-case.md)
->* [Casos de uso gerais para regras de mesclagem de perfil](../../features/profile-merge-rules/merge-rule-targeting-options.md)
->* [Perguntas frequentes sobre as regras de mesclagem de perfil](../../faq/faq-profile-merge.md)
+>* [Casos de uso do gráfico de dispositivo de link de perfil](profile-link-use-case.md)
+>* [Casos de uso gerais para regras de mesclagem de perfil](merge-rule-targeting-options.md)
+>* [Perguntas frequentes sobre as regras de mesclagem de perfil](faq-profile-merge.md)
 
