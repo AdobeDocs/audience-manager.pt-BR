@@ -6,14 +6,14 @@ solution: Audience Manager
 title: Métricas de relatório para regras de mesclagem de perfil
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 ---
 
 
-#  Métricas de relatório para regras de mesclagem de perfil {#report-metrics-for-profile-merge-rules}
+# Métricas de relatório para regras de mesclagem de perfil {#report-metrics-for-profile-merge-rules}
 
-[!UICONTROL Profile Link] as métricas fornecem dados sobre pessoas e dispositivos que se autenticam em seu site. Os dados e gráficos em [!UICONTROL Profile Link] atualização dinamicamente à medida que você cria uma regra de mesclagem ou ao clicar em uma regra existente no [!UICONTROL Profile Merge Rules] painel. Essas métricas podem incluir gráficos de dispositivos de fontes de gráficos de dispositivos [!DNL Adobe Experience Cloud Device Co-op] ou de outros fornecedores.
+[!UICONTROL Profile Merge Rule] as métricas fornecem dados sobre pessoas e dispositivos que se autenticam em seu site. Os dados e gráficos em [!UICONTROL Profile Merge Rule Reports] atualização dinamicamente à medida que você cria uma regra de mesclagem ou ao clicar em uma regra existente no [!UICONTROL Profile Merge Rules] painel. Essas métricas podem incluir gráficos de dispositivos de fontes de gráficos de dispositivos [!DNL Adobe Experience Cloud Device Co-op] ou de outros fornecedores.
 
 ## Mesclar métricas de regras {#merge-rule-metrics}
 
@@ -32,7 +32,7 @@ Os relatórios retornam dados em gráficos de barras lado a lado quando suas reg
    <td colname="col2"> <p>Mostra: </p> 
     <ul id="ul_7F7373919A4A49028EF4BF7B28D9F8E9"> 
      <li id="li_FE2F93C496D64ED8928B3E522C9585EA"> <span class="wintitle"> Pessoas</span>ativas: O número de pessoas que se autenticaram no site nos últimos 60 dias. </li> 
-     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> Entre dispositivos</span>: O número total de IDs <a href="../../features/profile-merge-rules/merge-rules-start.md#create-data-source"> entre dispositivos armazenados na Fonte</a> de <a href="../../features/manage-datasources.md#create-data-source"> dados do Perfil</a> <a href="../../features/profile-merge-rules/merge-rule-definitions.md"></a> autenticado selecionado pelo tempo de vida que a fonte de dados expirou. </li> 
+     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> Entre dispositivos</span>: O número total de IDs <a href="merge-rules-start.md#create-data-source"> entre dispositivos armazenados na Fonte</a> de <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/manage-datasources.html"> dados do Perfil</a> <a href="merge-rule-definitions.md"></a> autenticado selecionado pelo tempo de vida que a fonte de dados expirou. </li> 
      <li id="li_F2F07B6A326C4A18B79A0CF2C47D9677"> <span class="wintitle"> % de Pessoas</span>Ativas: Mostra Pessoas <span class="wintitle"></span> ativas como um %. </li> 
     </ul> <p> <span class="wintitle"> A Atividade</span> autenticada permite comparar fontes de dados por atividade, volume e porcentagem. Ele pode ajudá-lo a encontrar uma fonte de dados que tenha muitas pessoas e uma alta porcentagem de usuários ativos. Ou você pode encontrar valor comparando fontes de dados com a alta proporção de usuários ativos em comparação ao tamanho total do público-alvo. Por exemplo, às vezes uma fonte de dados com números de vida útil total baixos e alta atividade são mais valiosos do que aquelas com resultados de vida útil alta e números de atividade baixos. </p> <p> <p>Observação: As <span class="wintitle"> métricas de Atividade</span> Autenticada contêm apenas dados de Link <span class="wintitle"> de</span> perfil. Este relatório não inclui <span class="wintitle"> dados do Gráfico</span> de dispositivos. </p> </p> </td> 
   </tr> 
@@ -104,19 +104,17 @@ Os [!UICONTROL Merge Rules] relatórios também mostram dados sobre o número to
 
 Um [!UICONTROL Profile Link] relatório padrão se parece com o seguinte exemplo. As regras de mesclagem que usam várias fontes de dados (até 3, no máximo) mostram gráficos em guias separadas para cada fonte de dados. Essa regra de mesclagem não inclui [!UICONTROL Device Co-op] dados.
 
-![](assets/coop-metrics1.png)
+![](assets/profile-link-metrics.png)
 
 ### Relatório de link de perfil com dados de gráfico de dispositivo
 
-Um [!UICONTROL Profile Link] relatório que inclui dados de gráficos de dispositivos do ou de um gráfico de dispositivos de terceiros mostra [!UICONTROL Adobe Experience Cloud Device Co-op] [!UICONTROL Profile Link] e dados de gráficos de dispositivos com gráficos lado a lado. Colocar esses gráficos adjacentes permite avaliar os benefícios de usar os gráficos [!UICONTROL Experience Cloud Device Co-op] em comparação com [!UICONTROL Profile Link] eles mesmos. As regras de mesclagem que usam várias fontes de dados (até 3, no máximo) mostram gráficos em guias separadas para cada fonte de dados. Como lembrete, o [!UICONTROL Authenticated Activity] gráfico e as métricas não retornam dados do gráfico do [!DNL Adobe] dispositivo ou de outros gráficos de dispositivos de terceiros aos quais você pode ter acesso [!DNL Audience Manager].
+Um [!UICONTROL Profile Link Device Graph] relatório que inclui dados de gráficos de dispositivos do ou de um gráfico de dispositivos de terceiros mostra [!UICONTROL Adobe Experience Cloud Device Co-op] [!UICONTROL Profile Link] e dados de gráficos de dispositivos com gráficos lado a lado. Colocar esses gráficos adjacentes permite avaliar os benefícios de usar os gráficos [!UICONTROL Experience Cloud Device Co-op] em comparação com [!UICONTROL Profile Link] eles mesmos. As regras de mesclagem que usam várias fontes de dados (até 3, no máximo) mostram gráficos em guias separadas para cada fonte de dados. Como lembrete, o [!UICONTROL Authenticated Activity] gráfico e as métricas não retornam dados do gráfico do [!DNL Adobe] dispositivo ou de outros gráficos de dispositivos de terceiros aos quais você pode ter acesso [!DNL Audience Manager].
 
-![](assets/coop-metrics2.png)
+![](assets/profile-link-graph.png)
 
 ## Gráficos de Tendência de Link de Perfil {#profile-link-trend}
 
 Além das outras visualizações de dados, [!UICONTROL Profile Link] os relatórios incluem um gráfico de linha. O gráfico de linhas foi projetado para mostrar tendências ao longo do tempo para suas regras de perfil. Os gráficos de tendência (e os outros relatórios) estão disponíveis quando você clica em uma regra na página de [!UICONTROL Profile Merge Rules] aterrissagem ( **[!UICONTROL Audience Data > Profile Merge Rules]**). Esses gráficos incluem dados de gráficos de dispositivos se você for membro dos gráficos de dispositivos de terceiros [!UICONTROL Device Co-op] aos quais você pode ter acesso [!DNL Audience Manager]. Clique em uma linha de tendência para ver os dados subjacentes.
-
-![](assets/authenticated_trends.png)
 
 >[!MORE_LIKE_THIS]
 >
