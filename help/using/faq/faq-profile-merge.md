@@ -2,25 +2,21 @@
 description: Respostas a perguntas comuns sobre a regra de mesclagem de perfis e gráficos de dispositivos.
 keywords: ID da organização
 seo-description: Respostas a perguntas comuns sobre a regra de mesclagem de perfis e gráficos de dispositivos.
-seo-title: ' Perguntas frequentes sobre Regras de mesclagem de perfil e Gráfico de dispositivos'
+seo-title: Perguntas frequentes sobre Regras de mesclagem de perfil e Gráfico de dispositivos
 solution: Audience Manager
-title: ' Perguntas frequentes sobre Regras de mesclagem de perfil e Gráfico de dispositivos'
+title: Perguntas frequentes sobre Regras de mesclagem de perfil e Gráfico de dispositivos
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 ---
 
 
-#  Perguntas frequentes sobre Regras de mesclagem de perfil e Gráfico de dispositivos{#profile-merge-rules-and-device-graph-faq}
+# Perguntas frequentes sobre Regras de mesclagem de perfil e Gráfico de dispositivos{#profile-merge-rules-and-device-graph-faq}
 
 Respostas a perguntas comuns sobre a regra de mesclagem de perfis e gráficos de dispositivos.
 
-<!-- 
-
-profile-merge-faq.xml
-
- -->
+<!-- profile-merge-faq.xml -->
 
 ## Noções básicas sobre o gráfico de dispositivos {#device-graph-basics}
 
@@ -28,121 +24,105 @@ profile-merge-faq.xml
 
 Um gráfico de dispositivo é um conjunto de mapeamentos de ID que define grupos de dispositivos anônimos. Ela associa esses dispositivos a uma pessoa ou família com base em elementos comuns nos sinais coletados de cada dispositivo. Esses sinais ajudam a identificar dispositivos a nível individual ou doméstico.
 
-<br> 
+ 
 
 **O que é um gráfico de dispositivos externos?**
 
-Um gráfico de dispositivo externo é qualquer gráfico de dispositivo em [!DNL Audience Manager] que não foi criado exclusivamente de suas próprias fontes de dados entre dispositivos. Por exemplo, ao criar uma Regra [de mesclagem de](../features/profile-merge-rules/merge-rules-start.md) perfil e escolher as opções de gráfico de dispositivo [!UICONTROL Co-op Device Graph] ou de terceiros, você está trabalhando com um gráfico de dispositivo externo. Consulte Opções [](../features/profile-merge-rules/merge-rule-definitions.md#device-options)do dispositivo.
+Um gráfico de dispositivo externo é qualquer gráfico de dispositivo em [!DNL Audience Manager] que não foi criado exclusivamente de suas próprias fontes de dados entre dispositivos. Por exemplo, ao criar uma Regra [de mesclagem de](merge-rules-start.md) perfil e escolher as opções de gráfico de dispositivo [!UICONTROL Co-op Device Graph] ou de terceiros, você está trabalhando com um gráfico de dispositivo externo. Consulte Opções [](merge-rule-definitions.md#device-options)do dispositivo.
 
-<br> 
+ 
 
 **Quais são alguns casos de uso comuns para usar um gráfico de dispositivo externo em um[!UICONTROL Profile Merge Rule]?**
 
-O principal objetivo de usar um gráfico de dispositivos em um segmento [!UICONTROL Profile Merge Rule] é avaliar e qualificar vários dispositivos pertencentes a uma única pessoa ou residência para um segmento específico. O próprio segmento pode ter vários usos, por exemplo, direcionando um público-alvo de clientes em potencial com e servido por um DSP ou personalizando a experiência de um cliente no local por meio de uma plataforma de personalização no site. See [External Device Graph Use Cases](../features/profile-merge-rules/external-graph-use-cases.md).
+O principal objetivo de usar um gráfico de dispositivos em um segmento [!UICONTROL Profile Merge Rule] é avaliar e qualificar vários dispositivos pertencentes a uma única pessoa ou residência para um segmento específico. O próprio segmento pode ter vários usos, por exemplo, direcionando um público-alvo de clientes potenciais com um anúncio veiculado por um DSP ou personalizando a experiência de um cliente no local por meio de uma plataforma de personalização no site. See [External Device Graph Use Cases](external-graph-use-cases.md).
 
-<br> 
+ 
 
 **O Audience Manager fornece suporte global para gráficos de dispositivos externos?**
 
 Não. Gráficos de dispositivos externos estão disponíveis apenas nos Estados Unidos e Canadá.
 
-<br> 
+ 
 
 **Com que frequência os dados de gráficos de dispositivos externos são[!DNL Audience Manager]atualizados?**
 
 Uma vez por semana.
 
-<br> 
+ 
 
 ## Gráficos de dispositivo e regras de mesclagem de perfil {#device-graph-profile-merge-rules}
 
 **Como[!DNL Audience Manager]usar um gráfico de dispositivo?**
 
-Em [!DNL Audience Manager], os gráficos de dispositivo aparecem como opções de configuração quando você [cria uma Regra](../features/profile-merge-rules/merge-rules-start.md)de mesclagem de perfil. Por meio de seu [!UICONTROL Profile Merge Rules], esses gráficos de dispositivos ajudam [!DNL Audience Manager]:
+Em [!DNL Audience Manager], os gráficos de dispositivo aparecem como opções de configuração quando você [cria uma Regra](merge-rules-start.md)de mesclagem de perfil. Por meio de seu [!UICONTROL Profile Merge Rules], esses gráficos de dispositivos ajudam [!DNL Audience Manager]:
 
 * Unir vários perfis de dispositivo. Isto cria um único super conjunto de características.
 * Avalie o superconjunto de características para a qualificação de segmentos (em vez de avaliar cada perfil de dispositivo individualmente).
 * Adicione dispositivos qualificados aos segmentos disponíveis.
 
-<br> 
+ 
 
 **Quantos[!UICONTROL Profile Merge Rules]posso criar?**
 
-Atualmente, você pode criar um máximo de 3 [!UICONTROL Profile Merge Rules].
+Atualmente, você pode criar um máximo de 4 [!UICONTROL Profile Merge Rules]. A quarta Regra de mesclagem de perfil ([!UICONTROL All Cross-Device Profiles]) está disponível somente para clientes que compram o [!UICONTROL People-Based Destinations] complemento.
 
-<br> 
+ 
 
 **Quantos perfis de dispositivo são[!DNL Audience Manager]unidos e lidos ao usar um gráfico de dispositivo em um[!UICONTROL Profile Merge Rule]?**
 
-Ao qualificar um dispositivo para um segmento usando um [!UICONTROL Profile Merge Rule], o Audience Manager mescla e lê o perfil de dispositivo atual e um máximo de 3 perfis de dispositivo adicionais vinculados pela opção de gráfico de dispositivo selecionada.
+Ao qualificar um dispositivo para um segmento usando um [!UICONTROL Profile Merge Rule], o Audience Manager mescla e lê o perfil de dispositivo atual e um máximo de 99 outros perfis de dispositivo adicionais vinculados pela opção de gráfico de dispositivo selecionada.
 
-<br> 
+ 
 
 **Quais dispositivos se qualificam para um segmento ao usar um gráfico de dispositivo em um[!UICONTROL Profile Merge Rule]?**
 
 Os dispositivos [!DNL Audience Manager] se mesclam e são os mesmos dispositivos qualificados para um segmento.
 
->[!NOTE]
->
->Para gráficos de dispositivos externos, [!DNL Audience Manager] armazena o mapeamento entre dispositivos no nível da plataforma e seleciona 3 sem avaliar sua relação com os dispositivos vistos em sua instância do [!DNL Audience Manager].
-
-<br> 
-
-**Quais dispositivos *podem*se qualificar para um segmento usando um gráfico de dispositivo[!UICONTROL Profile Merge Rule]?**
-
-Para se qualificar para um segmento, os dispositivos devem ter sido vistos pelo Audience Manager em nossos servidores [de dados de](../reference/system-components/components-edge.md) borda após a criação do segmento. Além disso, os servidores de borda:
-
-* Armazenar dados de perfil por um máximo de 14 dias.
-* Exclua um perfil de dispositivo se ele estiver inativo por mais de 14 dias. Observação: Essa ação só remove dados da borda. Outros sistemas manterão registros por períodos mais longos. Consulte as Perguntas frequentes sobre [privacidade e retenção de dados](../faq/faq-privacy.md).
-* Redefina o intervalo de 14 dias se [!DNL Audience Manager] registrar qualquer atividade para esse perfil na plataforma inteira.
-
-Consulte também Componentes [da coleta de](../reference/system-components/components-data-collection.md)dados.
-
-<br> 
+ 
 
 **Onde pode[!DNL Audience Manager]enviar segmentos que foram qualificados por um gráfico de dispositivo[!UICONTROL Profile Merge Rule]que usa um gráfico de dispositivo?**
 
-[!DNL Audience Manager] pode enviar segmentos para um destino em arquivos em lote ou em tempo real. E, como observado na entrada de Perguntas frequentes acima, para qualificar-se para um segmento, os dispositivos devem ter sido vistos por [!DNL Audience Manager] nossos servidores [de dados de](../reference/system-components/components-edge.md) borda após a criação do segmento.
+[!DNL Audience Manager] pode enviar segmentos para um destino em arquivos em lote ou em tempo real.
 
-<br> 
+ 
 
 ## Segmentos, gráficos de dispositivo e regras de mesclagem de perfil {#segments-device-graphs-rules}
 
 **Como[!DNL Audience Manager]cancelar a segmentação de um dispositivo quando ele não é mais qualificado para um segmento com um[!UICONTROL Profile Merge Rule]gráfico de dispositivo?**
 
-O Audience Manager mescla até quatro dispositivos ao avaliar segmentos com um gráfico de dispositivos [!UICONTROL Profile Merge Rule] que usa um gráfico de dispositivos. Se o sinal de cancelamento de segmento for emitido, o dispositivo atual e três dispositivos adicionais vistos em tempo real serão removidos do segmento no destino. Por exemplo, em um cluster de seis dispositivos, até quatro dispositivos são unidos, avaliados e qualificados para um segmento. Da mesma forma, até quatro dispositivos são unidos, avaliados e não segmentados.
+O Audience Manager mescla até 100 dispositivos ao avaliar segmentos com um gráfico de dispositivos [!UICONTROL Profile Merge Rule] que usa um gráfico de dispositivos. Se o sinal de cancelamento de segmento for emitido, o dispositivo atual e até 99 dispositivos adicionais serão removidos do segmento no destino. Para obter mais informações sobre a dessegmentação, consulte Regras de mesclagem de [perfis e Processos](merge-rule-unsegment.md)de dessegmentação de dispositivos.
 
-<br> 
+ 
 
 **Se um destino puder cancelar a segmentação de dispositivos, os dispositivos serão removidos dos segmentos usando[!UICONTROL Profile Merge Rules]um gráfico de dispositivos?**
 
 Sim. Veja a explicação acima.
 
-<br> 
+ 
 
 **Se eu criar um segmento com um gráfico de dispositivos[!UICONTROL Profile Merge Rule]que usa um segmento e ele estiver usando dados em tempo real e integrados, meu segmento será atualizado à medida que os dados integrados forem alterados?**
 
-Não. Atualmente, [!DNL Audience Manager] avalia segmentos com um gráfico de dispositivo [!UICONTROL Profile Merge Rule] que usa somente em tempo real. As atualizações feitas nas características integradas depois que o segmento for avaliado serão usadas para qualificar o segmento quando o dispositivo for visualizado pelos servidores [de dados de](../reference/system-components/components-edge.md)borda. Isso presume que o perfil do dispositivo ainda esteja ativo nos servidores de borda e que os dados integrados tenham sido disponibilizados para esses sistemas. Consulte também as Perguntas frequentes sobre [privacidade e retenção de dados](../faq/faq-privacy.md).
+Sim.
 
-<br> 
+ 
 
 **As estimativas de tamanho de segmento incluem dispositivos que se qualificam para um segmento com base nas conexões fornecidas por um[!UICONTROL Profile Merge Rule]que usa uma opção de gráfico de dispositivo?**
 
-Não. Consulte as definições para o [!UICONTROL Estimated Real-Time Population] e [!UICONTROL Estimated Total Population] em Dados de [características e preenchimento de segmentos no Construtor](../features/segments/segment-builder-data.md)de segmentos.
+Não. Consulte as definições para o [!UICONTROL Estimated Real-Time Population] e [!UICONTROL Estimated Total Population] em Dados de [características e preenchimento de segmentos no Construtor](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder-data.html)de segmentos.
 
-<br> 
+ 
 
 **Inclui dispositivos que se qualificam para um segmento com base nas conexões fornecidas por um[!UICONTROL Addressable Audiences][!UICONTROL Profile Merge Rule]que usa uma opção de gráfico de dispositivo?**
 
 Sim.
 
-<br> 
+ 
 
-**Se um segmento usar um com[!UICONTROL Profile Merge Rule]e as características[!UICONTROL No Authenticated Profile]que qualificam dispositivos para o segmento forem armazenadas somente em relação ao perfil autenticado, o preenchimento total do segmento será 0?**
+**Se um segmento usar um com[!UICONTROL Profile Merge Rule][!UICONTROL No Cross-Device Profile]e as características que qualificam dispositivos para o segmento forem armazenadas apenas no perfil entre dispositivos, a população total do segmento será 0?**
 
-Não. Atualmente, o Audience Manager conta os dispositivos que estão mapeados para o perfil autenticado como qualificados para o segmento.
+Sim. O Audience Manager não contará as características armazenadas no perfil entre dispositivos na avaliação do segmento quando a Regra de mesclagem de perfil estiver definida como [!UICONTROL No Cross-Device Profile].
 
-<br> 
+ 
 
 ## Frequência da característica, gráficos do dispositivo e regras de mesclagem de perfil {#trait-freq-device-rules}
 
@@ -169,7 +149,7 @@ A frequência da característica é definida pela soma do número de qualificaç
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Ações</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> O Audience Manager</span> lê e mescla os perfis de dispositivo para o Dispositivo A e o Dispositivo B. Disso, vemos o seguinte: </p> <p> 
+   <td colname="col2"> <p> <span class="keyword"> O Audience Manager</span> lê e mescla os perfis de dispositivo para o Dispositivo A e o Dispositivo B. A partir disso, vemos o seguinte: </p> <p> 
      <ul id="ul_7AB307154C034695B4486E68D55CB084"> 
       <li id="li_5760BEE513C94152AA307AEE10894718">O dispositivo A qualificou-se para a característica 1 três vezes. Tem uma frequência de 3 para a característica 1. </li> 
       <li id="li_E20BC24CCCEC407C820A8032D56BC3F0">O dispositivo B qualificou-se para a característica 1 cinco vezes. Tem uma frequência de 5 para a característica 1. </li> 
@@ -182,15 +162,15 @@ A frequência da característica é definida pela soma do número de qualificaç
  </tbody> 
 </table>
 
-<br> 
+ 
 
 ## Relatórios, gráficos de dispositivo e regras de mesclagem de perfil {#reports-device-graphs-rules}
 
 **Posso ver o número de dispositivos que podem ser acessados por um dispositivo[!UICONTROL Profile Merge Rule]que usa um gráfico?**
 
-Sim. Os relatórios retornam dados no [!UICONTROL Profile Merge Rule] nível. Os dados do relatório são atualizados diariamente. Os dados são baseados nos dispositivos vistos em sua conta, não nos vinculados por um gráfico de dispositivos. Consulte Métricas [de relatório para Regras](../features/profile-merge-rules/profile-link-metrics.md)de mesclagem de perfil.
+Sim. Os relatórios retornam dados no [!UICONTROL Profile Merge Rule] nível. Os dados do relatório são atualizados diariamente. Os dados são baseados nos dispositivos vistos em sua conta, não nos vinculados por um gráfico de dispositivos. Consulte Métricas [de relatório para Regras](profile-link-metrics.md)de mesclagem de perfil.
 
-<br> 
+ 
 
 **Posso ver o número de dispositivos qualificados para um segmento específico em tempo *real*com[!UICONTROL Profile Merge Rules]o uso de um gráfico de dispositivo?**
 
@@ -232,7 +212,7 @@ Sim. A métrica de preenchimento em tempo real captura as qualificações de seg
  </tbody> 
 </table>
 
-<br> 
+ 
 
 **Posso ver o número total de dispositivos qualificados para um segmento específico com um gráfico de dispositivo[!UICONTROL Profile Merge Rule]que usa um gráfico de dispositivo?**
 
@@ -270,13 +250,13 @@ Sim. A métrica de preenchimento total do segmento inclui os dispositivos adicio
  </tbody> 
 </table>
 
-<br> 
+ 
 
 **Os dispositivos que se qualificam para um segmento com um gráfico de dispositivo[!UICONTROL Profile Merge Rule]incluído nos[!UICONTROL Interactive]relatórios,[!UICONTROL Overlap]relatórios e[!UICONTROL Audience Optimization]relatórios?**
 
-Não
+Não.
 
 >[!MORE_LIKE_THIS]
 >
->* [Link de perfil](../features/profile-merge-rules/merge-rules-overview.md)
+>* [Link de perfil](merge-rules-overview.md)
 
