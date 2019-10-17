@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Introdução às regras de mesclagem de perfil
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
 
 ---
 
@@ -62,7 +62,11 @@ Os campos de texto associados a essas configurações permitem que você renomei
 
 ## Criar uma regra de mesclagem de perfil {#create-profile-merge-rule}
 
-Para criar um [!UICONTROL Profile Merge Rule], vá até **[!UICONTROL Audience Data > Profile Merge Rules > Add New Rule]** e conclua as etapas para cada seção descrita aqui. É possível criar até 3 regras de mesclagem após configurar uma fonte de dados entre dispositivos. Permissões de administrador são necessárias para criar, editar ou excluir uma regra. Todos os usuários podem exibir e usar os existentes [!UICONTROL Profile Merge Rules].
+Para criar um [!UICONTROL Profile Merge Rule], vá até **[!UICONTROL Audience Data > Profile Merge Rules > Add New Rule]** e conclua as etapas para cada seção descrita aqui.
+
+É possível criar até 3 regras de mesclagem após configurar uma fonte de dados entre dispositivos. Você terá acesso a uma 4ª Regra de mesclagem de perfil ([!UICONTROL All Cross-Device Profiles]) se se inscrever em Destinos [baseados em](../destinations/people-based-destinations-overview.md)pessoas.
+
+Permissões de administrador são necessárias para criar, editar ou excluir uma regra. Todos os usuários podem exibir e usar os existentes [!UICONTROL Profile Merge Rules].
 
 <!-- create-profile-merge-rule.xml -->
 
