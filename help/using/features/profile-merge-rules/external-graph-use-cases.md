@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Casos de uso do gráfico do dispositivo externo
 uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: 54ae5956a34c193d42d4ff9a231249d56cce87aa
 
 ---
 
@@ -23,7 +23,7 @@ Considere as opções de gráficos de dispositivos [!DNL Experience Cloud Device
 * Direcione públicos grandes. Os gráficos de dispositivos [!DNL Experience Cloud Device Co-op] e de terceiros contêm dados autenticados e não autenticados.
 * Segmentar visitantes autenticados e/ou não autenticados no nível individual e doméstico.
 
-![](../assets/merge-rule-triangle1.png)
+![](assets/merge-rule-triangle1.png)
 <!-- 
 ## Prospecting/Branding Use Case {#prospecting-branding-use-cases}
 
@@ -127,5 +127,5 @@ Usando o **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adobe Co-O
 >
 >* [Casos de uso do gráfico de dispositivo de link de perfil](profile-link-use-case.md)
 >* [Casos de uso gerais para regras de mesclagem de perfil](merge-rule-targeting-options.md)
->* [Perguntas frequentes sobre as regras de mesclagem de perfil](faq-profile-merge.md)
+>* [Perguntas frequentes sobre as regras de mesclagem de perfil](../../faq/faq-profile-merge.md)
 
