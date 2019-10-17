@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Arquivo de registro acionável
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: b258c7dbdcf359394fbdcad6511c4113f8d88d91
+source-git-commit: 5643b1490738aa452e45517610d31e37c361a780
 
 ---
 
@@ -247,11 +247,13 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 ## Trabalhar com Sinais acionáveis na interface do usuário do Audience Manager {#actionable-signals-in-ui}
 
-Você pode exibir os sinais acionáveis recebidos na interface de Pesquisa [de](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md) Sinais usando a seleção Arquivos **de Log** Acionáveis.
+Você pode exibir os sinais acionáveis recebidos na interface de Pesquisa [de](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md) Sinais.
+
+Vá para Dados **de** público-alvo (1) &gt; **Sinais** (2) &gt; **Pesquisar** (3) e selecione o filtro Arquivos **** de registro acionáveis (4).
 
 ![Sinais acionáveis na interface do usuário](/help/using/integration/assets/alf-in-signals.png)
 
-Para criar características com base em regras usando seus sinais acionáveis, selecione Arquivos **de log acionáveis, selecione os sinais acionáveis que deseja usar como regras de características e pressione** Criar característica dos Sinais **** selecionados.
+Para criar características com base em regras usando seus sinais acionáveis, selecione Arquivos **de Log** Acionáveis (1), selecione os sinais acionáveis que deseja usar como regras de características (2) e pressione **Criar característica dos Sinais** Selecionados (3).
 
 ![Criar características de sinais](/help/using/integration/assets/alf-create-trait.png)
 
