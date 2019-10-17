@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Definição das opções de regra de mesclagem de perfil
 uuid: 225eaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
-source-git-commit: aebb6b8d3653197642ec591bc35bde50d4e7abb4
+source-git-commit: 3a272e31fd388e2b15245f231f11ecf68a7d55e9
 
 ---
 
@@ -84,7 +84,7 @@ A [!UICONTROL Cross-Device Profile Options] lista as fontes de dados entre dispo
 
 ## Opções do dispositivo {#device-options}
 
-O [!UICONTROL Device Options] permite selecionar o tipo de *`device profile`* usado por um [!UICONTROL Profile Merge Rule]. Um perfil de dispositivo é composto de características coletadas pelos usuários que navegam anonimamente na Web. No mínimo, uma regra de mesclagem de perfil inclui uma opção autenticada e uma opção de dispositivo.
+O [!UICONTROL Device Options] permite selecionar o tipo de *`device profile`* usado por um [!UICONTROL Profile Merge Rule]. Um perfil de dispositivo é criado a partir de características coletadas de atividades de navegação anônimas. No mínimo, uma regra de mesclagem de perfil inclui uma opção autenticada e uma opção de dispositivo.
 
 <table id="table_D373FB787D1A4E3485C02C4A76F03395"> 
  <thead> 
