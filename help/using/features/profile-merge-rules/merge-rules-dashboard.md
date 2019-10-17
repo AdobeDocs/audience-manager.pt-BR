@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Painel Regras de mesclagem de perfil
 uuid: d6725218-7b36-4653-9900-d67b5f7702a0
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
 
 ---
 
@@ -23,7 +23,7 @@ O [!UICONTROL Profile Merge Rules] painel fornece um espaço de trabalho unifica
 
 Ao trabalhar com [!UICONTROL Profile Merge Rules], você pode:
 
-* Crie um máximo de quatro regras a partir de suas fontes de dados entre dispositivos. Consulte [Criar uma fonte](merge-rules-start.md#create-data-source)de dados entre dispositivos.
+* Crie um máximo de 4 [!UICONTROL Profile Merge Rules] de suas fontes de dados entre dispositivos. Consulte [Criar uma fonte](merge-rules-start.md#create-data-source)de dados entre dispositivos.
 * Designar uma regra de mesclagem padrão. [O Construtor](../segments/segment-builder.md) de segmentos aplica automaticamente a regra padrão a quaisquer novos segmentos criados.
 * Aplicar controles [de exportação de](../data-export-controls.md) dados a uma regra de mesclagem. [!UICONTROL Data Export Controls] impedir o envio de dados para destinos quando isso violar a privacidade dos dados ou usar contratos.
 * Rastreie o número médio de dispositivos para cada usuário.
