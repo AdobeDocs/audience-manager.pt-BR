@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Arquivo de registro acionável
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: a7f1cefbde1fda695719b6bbc526218ba871b517
+source-git-commit: e324a298bf72b223e4ebf5627f3314e1613d3761
 
 ---
 
@@ -146,7 +146,7 @@ Os sinais descritos na tabela são captados em [!DNL Audience Manager] tempo rea
 https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_event=conv&d_conversion=24122&d_conversionType=2&d_bu=3983524&d_campaign=7321391&d_adsrc=11111&d_creative=123456
 ```
 
->Para um arquivo de [!DNL DCM] log de tamanho médio de 2 milhões de linhas, quaisquer características criadas a partir de sinais acionáveis são realizadas aproximadamente uma hora após o processamento dos registros.
+Para um arquivo de [!DNL DCM] log de tamanho médio de 2 milhões de linhas, quaisquer características criadas a partir de sinais acionáveis são realizadas aproximadamente uma hora após o processamento dos registros.
 
 >[!NOTE] {important="high"}
 >
