@@ -6,12 +6,12 @@ solution: Audience Manager
 title: Definição das opções de regra de mesclagem de perfil
 uuid: 225eaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: aebb6b8d3653197642ec591bc35bde50d4e7abb4
 
 ---
 
 
-# Profile Merge Rule Options Defined {#profile-merge-rule-options-defined}
+# Profile Merge Rules Options Defined {#profile-merge-rule-options-defined}
 
 As opções de regra de mesclagem permitem controlar o tipo de dados que o Audience Manager usa para segmentação. Uma regra de mesclagem pode incluir perfis de dispositivo mapeados pelo gráfico de [!UICONTROL Profile Link] dispositivo, pelos provedores de gráficos de dispositivo de terceiros [!UICONTROL Adobe Experience Cloud Device Co-op]e/ou outros que estejam integrados ao Audience Manager. Você pode criar um máximo de 4 [!UICONTROL Profile Merge Rules]. O quarto [!UICONTROL Profile Merge Rule] está disponível exclusivamente para clientes que compraram o complemento [!UICONTROL People-Based Destinations] .
 
