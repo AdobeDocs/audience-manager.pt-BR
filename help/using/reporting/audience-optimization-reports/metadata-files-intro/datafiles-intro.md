@@ -1,19 +1,19 @@
 ---
-description: Um arquivo de dados contém dados de impressão, clique ou conversão. Quando formatados corretamente, você pode importar esses dados para o Audience Manager e exibi-los nos relatórios de Otimização de público-alvo. Formate seus arquivos de dados de acordo com essas especificações nesta seção.
-seo-description: Um arquivo de dados contém dados de impressão, clique ou conversão. Quando formatados corretamente, você pode importar esses dados para o Audience Manager e exibi-los nos relatórios de Otimização de público-alvo. Formate seus arquivos de dados de acordo com essas especificações nesta seção.
-seo-title: ' Arquivos de dados para relatórios de otimização de público-alvo'
+description: Um arquivo de dados contém dados de impressão, clique ou conversão. Quando formatados corretamente, você pode importar esses dados para o Audience Manager e usá-los nos relatórios de Otimização de público-alvo e nos Arquivos de registro acionáveis. Formate os arquivos de dados de acordo com as especificações desta seção.
+seo-description: Um arquivo de dados contém dados de impressão, clique ou conversão. Quando formatados corretamente, você pode importar esses dados para o Audience Manager e usá-los nos relatórios de Otimização de público-alvo e nos Arquivos de registro acionáveis. Formate os arquivos de dados de acordo com as especificações desta seção.
+seo-title: Arquivos de dados para relatórios de otimização de público-alvo e arquivos de registro acionáveis
 solution: Audience Manager
-title: ' Arquivos de dados para relatórios de otimização de público-alvo'
+title: Arquivos de dados para relatórios de otimização de público-alvo e arquivos de registro acionáveis
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 translation-type: tm+mt
-source-git-commit: 6e504dabacff9be40633d6c91856b57c6e653f71
+source-git-commit: b46fc71ca62c4426732bd6d396637d02206b7c97
 
 ---
 
 
-#  Arquivos de dados para relatórios de otimização de público-alvo{#data-files-for-audience-optimization-reports}
+# Arquivos de dados para relatórios de otimização de público-alvo e arquivos de registro acionáveis {#data-files-for-audience-optimization-reports}
 
-Um arquivo de dados contém dados de impressão, clique ou conversão. Quando formatados corretamente, você pode importar esses dados para o Audience Manager e exibi-los nos relatórios de Otimização de público-alvo. Formate seus arquivos de dados de acordo com essas especificações nesta seção.
+Um arquivo de dados contém dados de impressão, clique ou conversão. Quando formatados corretamente, você pode importar esses dados para o Audience Manager para exibi-los nos Relatórios [de otimização de](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) público-alvo e criar características usando os dados por meio dos Arquivos [de registro](/help/using/integration/media-data-integration/actionable-log-files.md)acionáveis. Formate seus arquivos de dados de acordo com essas especificações nesta seção.
 
 ## Visão geral {#overview}
 
@@ -25,7 +25,7 @@ Um ficheiro de dados deve ser acompanhado de um ficheiro de metadados. O conteú
 
 A sintaxe a seguir define a estrutura de um nome de arquivo de dados bem formado. Observação: *itálico* indica um espaço reservado variável que muda dependendo do conteúdo do arquivo.
 
-**Sintaxe:** <pre><code><i>tipo</i>de evento_<i>aaaammdd</i></code></pre>
+**Sintaxe:** <pre><i>tipo</i>de evento_<i>aaaammdd</i></code></pre>
 
 Em um nome de arquivo:
 
@@ -35,15 +35,15 @@ Em um nome de arquivo:
 
 Dadas estas exigências, nomeie seus arquivos de dados com base em seus conteúdos como este:
 
-* Dados de impressão: <pre><code>impressionsions_<i>yyyymmdd<i>.gz</code></pre>
-* Dados de clique: <pre><code>click_<i>yyyymmdd</i>.gz</code></pre>
-* Dados de conversão: <pre><code>conversions_<i>yyyymmdd</i>.gz</code></pre>
+* Dados de impressão: <pre>impressionsions_<i>yyyymmdd<i>.gz</code></pre>
+* Dados de clique: <pre>click_<i>yyyymmdd</i>.gz</code></pre>
+* Dados de conversão: <pre>conversions_<i>yyyymmdd</i>.gz</code></pre>
 
 ## Formato de conteúdo para arquivos de dados {#content-format}
 
 A sintaxe a seguir define a estrutura do conteúdo em um arquivo de dados bem formado. Observação: *itálico* indica um espaço reservado variável e é substituído por um rótulo em um arquivo de dados real.
 
-**Sintaxe:** <pre><code><i>rótulo do cabeçalho 1</i> | Rótulo <i>do cabeçalho 2</i> ... rótulo <i>do cabeçalho n</i> | <i>versão</i></code></pre>
+**Sintaxe:** <pre><i>rótulo do cabeçalho 1</i> | Rótulo <i>do cabeçalho 2</i> ... rótulo <i>do cabeçalho n</i> | <i>versão</i></code></pre>
 
 No conteúdo do arquivo:
 
@@ -67,7 +67,7 @@ A tabela abaixo lista e descreve os cabeçalhos de coluna para seu arquivo de da
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Carimbo de data e hora </p> </td> 
-   <td colname="col2"> <p>Uma data e hora UTC para o evento de impressão, clique ou conversão. Use o formato <code> aaaa-dd-mm hh:mm:ss</code> . </p> </td> 
+   <td colname="col2"> <p>Uma data e hora UTC para o evento de impressão, clique ou conversão. Use o <code> yyyy-dd-mm hh:mm:ss</code> formato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID do usuário </p> </td> 
@@ -126,7 +126,7 @@ A tabela abaixo lista e descreve os cabeçalhos de coluna para seu arquivo de da
    <td colname="col2"> <p>Tipo de conversão. Indica se uma conversão é correspondida ou não. As opções incluem: </p> 
     <ul id="ul_DA8230D167F241F2B53F29367874D4B1"> 
      <li id="li_2BC2EBCAE12541029A5F62AC0785E7FE"> <code> 0</code>: Impressão </li> 
-     <li id="li_2A4B1354891144D587624228D8FB5E77"> <code> 1</code>: Clique </li> 
+     <li id="li_2A4B1354891144D587624228D8FB5E77"> <code> 1</code>: Clique em </li> 
      <li id="li_44E61419DB56471EB2091072595D3E5C"> <code> -1</code>: Não atribuído ou desconhecido </li> 
     </ul> <p> <i>Somente para arquivos de dados de conversão.</i> </p> </td> 
   </tr> 
@@ -145,7 +145,7 @@ Faça upload de sua impressão, clique ou converta arquivos de dados em um diret
 
 Os dados são armazenados em um namespace separado para cada cliente em um diretório Amazon S3. O caminho do arquivo segue a sintaxe mostrada abaixo. Note, *italics* indicates a variable placeholder. Outros elementos são constantes ou teclas e não são alterados.
 
-**Sintaxe:** <pre><code>.../log_ingestion/pid= ID <i>/dpid do<i>AAM= <i>d_src</i>/logs/ tipo <i>de</i>arquivo_<i>yyyymmdd</i></code></pre>
+**Sintaxe:** <pre>.../log_ingestion/pid= ID <i>/dpid do<i>AAM= <i>d_src</i>/logs/ tipo <i>de</i>arquivo_<i>yyyymmdd</i></code></pre>
 
 A tabela a seguir define cada um desses elementos em um caminho de entrega de arquivo.
 
@@ -158,11 +158,11 @@ A tabela a seguir define cada um desses elementos em um caminho de entrega de ar
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> .../log_ingestão/</code> </p> </td> 
+   <td colname="col1"> <p> <code> .../log_ingestion/</code> </p> </td> 
    <td colname="col2"> <p>Este é o início do caminho de armazenamento do diretório. Você receberá o caminho completo quando tudo estiver configurado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>pid=ID<i>AAM</i></code> </p> </td> 
+   <td colname="col1"> <p> <code>pid=<i>AAM ID</i></code> </p> </td> 
    <td colname="col2"> <p>Esse par de valores chave que contém a ID do cliente do <span class="keyword"> Audience Manager</span> . </p> </td> 
   </tr> 
   <tr> 
@@ -174,7 +174,7 @@ A tabela a seguir define cada um desses elementos em um caminho de entrega de ar
    <td colname="col2"> <p> Um diretório de nível superior para arquivos de dados. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> tipo <i>de</i>arquivo_<i>aaaammdd</i></code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>file type</i>_<i>yyyymmdd</i></code> </p> </td> 
    <td colname="col2"> <p>Um nome de tipo de arquivo que indica que tipo de dados ele contém e um carimbo de data e hora de entrega. </p> </td> 
   </tr> 
  </tbody> 
