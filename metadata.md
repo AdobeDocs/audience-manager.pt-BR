@@ -6,11 +6,11 @@ solution-image: assets/aam-icon-24.png
 getting-started-title: Introdução
 getting-started-url: https://helpx.adobe.com/audience-manager/get-started.html
 tutorials-title: Tutoriais
-tutorials-url: https://helpx.adobe.com/audience-manager/kt/index/aam-videos.html
+tutorials-url: https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/audience-manager.en
 index: y
 translation-type: tm+mt
-source-git-commit: fbc0e9f5243c8b09065083aa5ff9fa90386b044c
+source-git-commit: aae87606a38948f221b1efea2ab224218061847a
 
 ---
 
@@ -26,5 +26,5 @@ O arquivo metadata.md inclui metadados de nível de acordo de recompra que passa
 | ícone da solução | Exibe o ícone da solução ao lado do título da solução. Ainda não implementado |
 | getting-started-url | Link para a página de introdução ao helpx |
 | tutoriais-url | Link para tutoriais em vídeo — tutoriais do helpx ou tutoriais do KT |
-| mini-toc-levels | Determines the number of heading levels that appear in right rail. o padrão é 2 |
-| git-repo | Specifies the location of the master repo for internal use |
+| níveis minitoctoc | Determina o número de níveis de cabeçalho exibidos no painel direito. o padrão é 2 |
+| repo git | Especifica o local do acordo principal para uso interno |
