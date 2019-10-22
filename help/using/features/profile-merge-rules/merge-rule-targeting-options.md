@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Casos de uso gerais para regras de mesclagem de perfil
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: 532c69981ebc082bd411a9232e9ef207b59dace5
 
 ---
 
@@ -61,11 +61,15 @@ O link entre o dispositivo e o perfil doméstico permite que o Audience Manager 
 
 ![gestão familiar](assets/household-management.png)
 
-## Direcionamento baseado em pessoas {#all-cross-device}
+## Definição de metas para destinos baseados em pessoas {#all-cross-device}
+
+> [!IMPORTANT]
+>
+> Este artigo contém a documentação do produto destinada a guiá-lo pela configuração e uso deste recurso. Nada aqui contido é aconselhamento jurídico. Consulte o seu próprio advogado para obter orientação jurídica.
 
 Esse cenário de definição de metas está disponível somente para clientes que compraram o [!DNL People-Based Destinations] complemento. Essa regra permite que os comerciantes cheguem aos clientes com base em seus próprios dados autenticados.
 
-Digamos que um varejista online queira alcançar os clientes existentes através de plataformas sociais e mostrar a eles ofertas personalizadas com base em seus pedidos anteriores. Com [!UICONTROL People-Based Destinations], eles podem assimilar endereços de email com hash [!DNL CRM] para o Audience Manager, criar segmentos a partir dos dados offline e enviar esses segmentos para as plataformas sociais nas quais desejam anunciar, otimizando seus gastos com publicidade.
+Digamos que um varejista online queira alcançar os clientes existentes através de plataformas sociais e mostrar a eles ofertas personalizadas com base em seus pedidos anteriores. Com [!UICONTROL People-Based Destinations], eles podem assimilar endereços de email com hash [!DNL CRM] para o Audience Manager, criar segmentos a partir dos dados offline e enviar esses segmentos para as plataformas sociais nas quais desejam anunciar, usando esse identificador com hash, otimizando seus gastos com publicidade.
 
 Para saber mais sobre essa opção, consulte Destinos [baseados em](../destinations/people-based-destinations-overview.md)pessoas.
 
