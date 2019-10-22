@@ -5,8 +5,9 @@ seo-title: Página Detalhes da Característica
 solution: Audience Manager
 title: Página Detalhes da Característica
 uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
+keywords: detalhamento de tipo de identidade, detalhamento de identidade, relatório de identidade de público-alvo
 translation-type: tm+mt
-source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
+source-git-commit: 345042673a9ee7abdac994d774e5c4c893a78749
 
 ---
 
@@ -56,7 +57,7 @@ A [!UICONTROL Segments with this Trait] seção lista todos os segmentos aos qua
 
 ## Registro de histórico/auditoria de características {#trait-audit-history}
 
-Para traços baseados em regras e integrados, o [!UICONTROL Trait Expression Change History] mostra as últimas 10 alterações feitas nas regras de expressão de características e quem as fez. Se sua característica tiver mais de 10 alterações, clique **[!UICONTROL Export to CSV]** para baixar todo o log de auditoria. O registro de auditoria não está disponível para características de pasta ou algoritmo.
+Para traços baseados em regras e integrados, o [!UICONTROL Trait Expression Change History] mostra as últimas 10 alterações feitas nas regras de expressão de características e quem as fez. Se a sua característica tiver mais de 10 alterações, clique **[!UICONTROL Export to CSV]** para baixar todo o log de auditoria. O registro de auditoria não está disponível para características de pasta ou algoritmo.
 
 >[!NOTE]
 >
