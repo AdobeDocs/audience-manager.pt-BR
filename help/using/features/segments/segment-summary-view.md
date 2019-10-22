@@ -1,12 +1,13 @@
 ---
 description: A página de resumo do segmento exibe detalhes como nome, características no segmento, regras, dados de desempenho e informações de mapeamento de destino.
 seo-description: A página de resumo do segmento exibe detalhes como nome, características no segmento, regras, dados de desempenho e informações de mapeamento de destino.
-seo-title: ' Exibição do resumo do segmento'
+seo-title: Exibição do resumo do segmento
 solution: Audience Manager
-title: ' Exibição do resumo do segmento'
+title: Exibição do resumo do segmento
 uuid: e844e423-9701-42d4-9ba5-d82f41358adc
+keywords: detalhamento de tipo de identidade, detalhamento de identidade, relatório de identidade de público-alvo
 translation-type: tm+mt
-source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
+source-git-commit: 345042673a9ee7abdac994d774e5c4c893a78749
 
 ---
 
