@@ -4,7 +4,7 @@ audience: usuário final
 user-guide-title: Guia do usuário do Audience Manager
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 5f71883da6c20b2a4522d9dd2715b3a981cb0be9
+source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
 
 ---
 
@@ -319,7 +319,7 @@ source-git-commit: 5f71883da6c20b2a4522d9dd2715b3a981cb0be9
          + [Mensagem de amostra para parceiros após o processamento de entrada](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
       + [Integrações personalizadas de parceiros](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Integração com a Adobe Experience Platform {#integration-experience-platform}
-      + [Compartilhamento de público-alvo](integration/integration-aep/aam-aep-audience-sharing.md)
+      + [Compartilhamento de público-alvo entre o Audience Manager e a Adobe Experience Platform](integration/integration-aep/aam-aep-audience-sharing.md)
    + Integração com outras soluções da Experience Cloud {#integration-other-solutions}
       + [Integrar O Audience Manager Ao Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Implementação do módulo de gerenciamento de público-alvo](integration/integration-other-solutions/audience-management-module.md)
