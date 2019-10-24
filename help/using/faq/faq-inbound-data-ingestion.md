@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Perguntas frequentes sobre ingestão de dados do cliente de entrada
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 translation-type: tm+mt
-source-git-commit: 28d1292140a56cf1627a8921876d9483221876ca
+source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
 
 ---
 
@@ -84,41 +84,41 @@ Considere os seguintes casos de uso nos quais o provedor de dados não está con
    <td colname="col1"> <p><b>Caso 1</b> </p> </td> 
    <td colname="col2"> <p>Na segunda-feira, um visitante identificado no banco de dados do CRM como visitante ABC faz logon, o que inicia uma sincronização de ID do cliente. <span class="keyword"> O Audience Manager</span> armazena o mapeamento do visitante ABC para o visitante do <span class="keyword"> Audience Manager</span> 123. </p> <p>Na terça-feira, o banco de dados do CRM transfere um arquivo de dados (<span class="filepath"> .sync</span>) para o <span class="keyword"> Audience Manager </span>Server com o seguinte registro: </p> <p> 
      <ul class="simplelist"> 
-      <li><code> ABC "gender"="masculino","luxury_shopper"="yes"</code> </li> 
+      <li><code> ABC "gender"="male","luxury_shopper"="yes"</code> </li> 
      </ul> </p> <p>Nesse caso, <span class="keyword"> o Audience Manager</span>: </p> <p> 
      <ul id="ul_7616432BF9874E7D94F3101C71F73C81"> 
       <li id="li_DC4F5E63D8134A29B703BDF264F02F65">Reconhece o visitante ABC pelo mapeamento de sincronização de ID armazenado. </li> 
-      <li id="li_62E085FC184D41C3863B1CE832F77946"> Associa os traços <code> masculino</code> e <code> luxury_shopper</code> ao perfil do visitante 123. </li> 
+      <li id="li_62E085FC184D41C3863B1CE832F77946"> Associa as características <code> male</code> e <code> luxury_shopper</code> o perfil do visitante 123. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Caso 2</b> </p> </td> 
    <td colname="col2"> <p>Na segunda-feira, o banco de dados do CRM envia um arquivo de dados (<span class="filepath"> .sync</span>) para o servidor do <span class="keyword"> Audience Manager</span> com o seguinte registro: </p> <p> 
      <ul class="simplelist"> 
-      <li><code> DEF "gender"="fêmea","Wine_enthusiast"="yes"</code> </li> 
+      <li><code> DEF "gender"="female","wine_enthusiast"="yes"</code> </li> 
      </ul> </p> <p> <span class="keyword"> O Audience Manager</span> não tem um registro desse visitante (ou uma ID de visitante associada), portanto, esse registro não é processado. </p> <p>Na terça-feira, o visitante DEF faz logon. Esta ação inicia a primeira sincronização de ID do cliente para o visitante. Essa ação mapeia o DEF do visitante para a ID do <span class="keyword"> Audience Manager</span> 456. No entanto, esse visitante não tem dados de CRM associados ao perfil. Como resultado, <span class="keyword"> o Audience Manager</span> não volta e reprocessa arquivos antigos. </p> <p>Na quarta-feira, o banco de dados do CRM envia outro arquivo de dados para o servidor do <span class="keyword"> Audience Manager</span> com o seguinte registro: </p> <p> 
      <ul class="simplelist"> 
-      <li><code> DEF "gender"="fêmea","Wine_enthusiast"="yes","dma"="paris"</code> </li> 
+      <li><code> DEF "gender"="female","wine_enthusiast"="yes","dma"="paris"</code> </li> 
      </ul> </p> <p>Nesse caso, <span class="keyword"> o Audience Manager</span>: </p> 
     <ul id="ul_E853DA091D9042DAB19774383841D3A3"> 
      <li id="li_64D64A16E99E492BAAE1080867F854A9">Reconhece o DEF do visitante no mapeamento de sincronização de ID armazenado. </li> 
-     <li id="li_9CEE7A7B1A954FF6AEEBF8844074CFBB">Associa as características <code> feminina</code>, <code> paris</code>e <code> Wine_enthusiast</code> ao perfil do visitante 456. </li> 
+     <li id="li_9CEE7A7B1A954FF6AEEBF8844074CFBB">Associa as características <code> female</code>, <code> paris</code>e <code> wine_enthusiast</code> o perfil do visitante 456. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Caso 3</b> </p> </td> 
-   <td colname="col2"> <p>Na segunda-feira, o servidor do <span class="keyword"> Audience Manager</span> recebe dois arquivos com os seguintes registros: </p> <p> <code> Arquivo .sync</code> contendo: </p> <p> 
+   <td colname="col2"> <p>Na segunda-feira, o servidor do <span class="keyword"> Audience Manager</span> recebe dois arquivos com os seguintes registros: </p> <p> <code> .sync</code> arquivo contendo: </p> <p> 
      <ul class="simplelist"> 
       <li><code> GHI 123456789</code> </li> 
-     </ul> </p> <p> <code> Arquivo .overwrite</code> contendo: </p> 
+     </ul> </p> <p> <code> .overwrite</code> arquivo contendo: </p> 
     <ul id="ul_084AE448C60447ACA9B1E0C30EAA3E3E"> 
-     <li id="li_C68B7BBFE7CA4D22B606D939E32FF4FB"><code> GHI "gender"="masculino" "Wine_enthusiast"="no"</code> </li> 
-     <li id="li_FDBCAAFBD606477E8690EA80AD455A81"><code> JKL "gender"="fêmea" "Wine_enthusiast"="yes"</code> </li> 
+     <li id="li_C68B7BBFE7CA4D22B606D939E32FF4FB"><code> GHI "gender"="male" "wine_enthusiast"="no"</code> </li> 
+     <li id="li_FDBCAAFBD606477E8690EA80AD455A81"><code> JKL "gender"="female" "wine_enthusiast"="yes"</code> </li> 
     </ul> <p><span class="keyword"> O Audience Manager</span> mantém um registro mapeado do visitante JKL para ID 789, de uma sincronização de ID anterior. </p> <p>Nesse caso, <span class="keyword"> o Audience Manager</span>: </p> 
     <ul id="ul_4D083CEA7F1B4F6BBBBB841C21293751"> 
      <li id="li_6DABD380311D49738DAD98F5E6DE45B8">Reconhece a JKL do visitante no mapeamento de sincronização de ID armazenado. </li> 
-     <li id="li_CCEF77240E5C4A03AAE347440D73F0BB">Associa as características <code> feminina</code> e <code> Wine_enthusiast</code> ao perfil da ID do visitante 789. </li> 
-     <li id="li_273F8FD7C6214488A26AAFFA6DE043E5">Ignora a associação de características da GHI do visitante, pois sua ID só foi sincronizada no lote atual. Para associar características ao GHI do visitante, é necessário incluí-las em arquivos <code> .overwrite</code> futuros. </li> 
+     <li id="li_CCEF77240E5C4A03AAE347440D73F0BB">Associa as características <code> female</code> e <code> wine_enthusiast</code> o perfil da ID de visitante 789. </li> 
+     <li id="li_273F8FD7C6214488A26AAFFA6DE043E5">Ignora a associação de características da GHI do visitante, pois sua ID só foi sincronizada no lote atual. Para associar características ao GHI do visitante, é necessário incluí-las em <code> .overwrite</code> arquivos futuros. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -174,18 +174,18 @@ Os seguintes casos de uso demonstram como esses tipos de arquivos afetam os perf
    <td colname="col1"> <p><b>Incremental e Completo</b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_E89301D815174D45B9B238F2CDE6CCC6"> 
-      <li id="li_FA841FEEC0534AD59D1AB61DD5B9DEC4">Conteúdo do arquivo .sync <code></code> do dia 1: <code> visitor123 = a,b,c</code> </li> 
-      <li id="li_0E1A57B04D26481C8C41EBA63ACBEFE0">Dia 2 <code> .substituir</code> conteúdo do arquivo: <code> visitor123 = c,d,e</code> </li> 
-      <li id="li_497A5604AD9A49A2ADE548C7CE158F0E"> A ID de perfil de visitante do dia 3 123 contém <code> c,d,e </code> </li> 
+      <li id="li_FA841FEEC0534AD59D1AB61DD5B9DEC4">Conteúdo <code> .sync</code> do arquivo do dia 1: <code> visitor123 = a,b,c</code> </li> 
+      <li id="li_0E1A57B04D26481C8C41EBA63ACBEFE0">Conteúdo <code> .overwrite</code> do arquivo no dia 2: <code> visitor123 = c,d,e</code> </li> 
+      <li id="li_497A5604AD9A49A2ADE548C7CE158F0E"> A ID de perfil de visitante 123 do dia 3 contém <code> c,d,e </code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Apenas incremental</b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_8271C9796BD040E4B8DC64DCE4FE2AD3"> 
-      <li id="li_347959BDE83549F794E6661C95097891">Conteúdo do arquivo .sync <code></code> do dia 1: <code> visitor123 = a,b,c </code> </li> 
-      <li id="li_B25D96526DE94171A3A5DC8DB7A19415">Conteúdo do arquivo .sync <code></code> do dia 2: <code> visitor123 = c,d,e</code> </li> 
-      <li id="li_6E17809D49C74F4991B0B445469055E6">A ID de perfil de visitante do dia 3 123 contém <code> a,b,c,d,e</code> </li> 
+      <li id="li_347959BDE83549F794E6661C95097891">Conteúdo <code> .sync</code> do arquivo do dia 1: <code> visitor123 = a,b,c </code> </li> 
+      <li id="li_B25D96526DE94171A3A5DC8DB7A19415">Conteúdo <code> .sync</code> do arquivo no dia 2: <code> visitor123 = c,d,e</code> </li> 
+      <li id="li_6E17809D49C74F4991B0B445469055E6">A ID de perfil de visitante 123 do dia 3 contém <code> a,b,c,d,e</code> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -242,7 +242,7 @@ Sim. [!DNL Audience Manager] não armazena endereços de email em nosso banco de
 
 **O conteúdo do arquivo de dados faz distinção entre maiúsculas e minúsculas? Que tal a sincronização de ID?**
 
-Há dois componentes básicos de um arquivo de dados: Uma ID de usuário exclusiva (UUID) e dados de perfil, geralmente na forma de pares ou códigos de valores chave. A UUID diferencia maiúsculas de minúsculas. Geralmente, os dados de perfil ou valor-chave não fazem distinção entre maiúsculas e minúsculas.
+Há dois componentes básicos de um arquivo de dados: Uma ID de usuário (consulte ID de usuário em Variáveis de [arquivo definidas](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#file-variables-defined)) e dados de perfil, geralmente na forma de pares ou códigos de valores chave. A ID de usuário diferencia maiúsculas de minúsculas. Geralmente, os dados de perfil ou valor-chave não fazem distinção entre maiúsculas e minúsculas.
 
 <br> 
 
