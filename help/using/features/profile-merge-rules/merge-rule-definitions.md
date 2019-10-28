@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Definição das opções de regra de mesclagem de perfil
 uuid: 225eaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
-source-git-commit: 532c69981ebc082bd411a9232e9ef207b59dace5
+source-git-commit: 12dea0f5e762496b19a87c8993877302b1433d26
 
 ---
 
@@ -29,7 +29,7 @@ As Regras de mesclagem de perfil permitem várias combinações de regras, cada 
 | Sem perfil entre dispositivos | Gráfico de dispositivos externos (inclui o Gráfico de dispositivos cooperativos) | Todos os clientes | Tempo real e lote | Não | [Definição de meta de dispositivo expandida](external-graph-use-cases.md#audience-expansion) |
 | Perfis Autenticados Atuais | Sem perfil de dispositivo | Todos os clientes | Somente em tempo real | Não | [Direcionamento de dispositivo compartilhado](merge-rule-targeting-options.md#target-shared-devices) |
 | Últimos perfis autenticados | Perfil do dispositivo | Todos os clientes | Tempo real e lote | Sim | [Direcionamento online/offline](merge-rule-targeting-options.md#device-household-targeting) |
-| Últimos perfis autenticados |  Gráfico de dispositivos de link de perfil | Somente América do Norte e Canadá | Tempo real e lote | Sim | [Definição de metas entre dispositivos](profile-link-use-case.md#cross-device-personalization) |
+| Últimos perfis autenticados |  Gráfico de dispositivos de link de perfil | Todos os clientes | Tempo real e lote | Sim | [Definição de metas entre dispositivos](profile-link-use-case.md#cross-device-personalization) |
 | Últimos perfis autenticados | Gráfico de dispositivos externos (inclui o Gráfico de dispositivos cooperativos) | Todos os clientes | Tempo real e lote | Não | [Direcionamento avançado entre dispositivos](external-graph-use-cases.md#advanced-graph-expansion) |
 | Todos os perfis entre dispositivos | N/A | Exclusivo para clientes de Destinos [baseados em](../destinations/people-based-destinations-overview.md) Pessoas | Somente lote | Não | [Definição de metas para destinos baseados em pessoas](merge-rule-targeting-options.md#all-cross-device) |
 
