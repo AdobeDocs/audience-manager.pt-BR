@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Introdução ao Gerenciamento em massa
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: b1cecf805a47a7cf3b732337027c31664a08a910
+source-git-commit: be988def0e9cb5cb6b4a926754dd24f9fd1f85fe
 
 ---
 
@@ -111,9 +111,9 @@ A tabela abaixo lista as operações que você pode executar e os itens que voc�
 Como exemplo, vamos ver como criar várias características de uma só vez. Para criar várias características em uma operação em massa, você:
 
 1. Clique na **[!UICONTROL Headers]** guia e copie todos os rótulos sob a [!UICONTROL Create a Trait] opção.
-
 2. Clique na **[!UICONTROL Create]** guia e cole os rótulos começando na linha 1, coluna A.
 3. Forneça informações relacionadas a cada cabeçalho de coluna e clique em **[!UICONTROL Create Traits]**. Esta ação solicita que você confirme sua autenticação. Seu trabalho em massa é executado depois que você confirma sua autenticação. Verifique se há uma notificação de status de tarefa no canto inferior esquerdo da planilha.
+
 
 >[!NOTE]
 >
