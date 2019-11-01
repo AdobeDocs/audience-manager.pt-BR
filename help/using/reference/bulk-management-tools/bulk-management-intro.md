@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Introdução ao Gerenciamento em massa
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: be988def0e9cb5cb6b4a926754dd24f9fd1f85fe
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -121,7 +121,7 @@ Como exemplo, vamos ver como criar várias características de uma só vez. Para
 
 
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Download da Planilha de Gerenciamento em Massa](assets/BAAAM_August_2018.xlsm)
 
