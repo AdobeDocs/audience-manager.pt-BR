@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Regras de mesclagem de perfil e processos de dessegmentação de dispositivo
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
 translation-type: tm+mt
-source-git-commit: 54ae5956a34c193d42d4ff9a231249d56cce87aa
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -45,7 +45,7 @@ Como lembrete, os [!UICONTROL Device Options] estão disponíveis na [!UICONTROL
 
 ![](assets/last-device-graph.png)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Perguntas frequentes sobre Regras de mesclagem de perfil e Gráfico de dispositivos](../../faq/faq-profile-merge.md)
 >* [Supressão instantânea entre dispositivos](instant-cross-device-suppression.md)
