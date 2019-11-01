@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Dados de características e preenchimento de segmentos no Construtor de segmentos
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -153,7 +153,7 @@ A tabela a seguir define as métricas reais em tempo real e total de população
 
 Atualmente, há uma limitação conhecida porque nosso avaliador de tamanho de segmento não considera as regras de mesclagem de perfil. Por exemplo, observe os segmentos com a regra **** Sem perfil autenticado + perfil[de dispositivo atual para](../../features/profile-merge-rules/merge-rule-definitions.md)mesclar. Devido à forma como atualmente calculamos os números de estimativa de segmento, as populações estimadas incluirão perfis autenticados. No entanto, as populações de segmentos existentes ignorarão corretamente os perfis autenticados.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Perguntas frequentes sobre Regras de mesclagem de perfil e Gráfico de dispositivos](../../faq/faq-profile-merge.md)
 >* [Link de perfil](../../features/profile-merge-rules/merge-rules-overview.md)
