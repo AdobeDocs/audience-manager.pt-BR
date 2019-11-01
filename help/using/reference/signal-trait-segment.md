@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Sinais, características e segmentos
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -56,7 +56,7 @@ c_signal_trait_segment.xml
   <tr> 
    <td colname="col1"><b>Segmento</b> </td> 
    <td colname="col2"> <p>Usuários que compartilham um conjunto de atributos comuns e se qualificam para características relacionadas. </p> <p>Expressões booleanas, juntamente com requisitos de recenticidade/frequência, permitem que você crie regras de qualificação de segmentos. </p> <p>Crie requisitos de qualificação precisos com combinações de características e regras de segmentos. </p> </td> 
-   <td colname="col3"> <p>A partir das características e sinais disponíveis, é possível criar uma regra de segmento expressa como: </p> <p><code> (product=camera AND type=digital SLR) OU (price&gt;1000)</code> </p> </td> 
+   <td colname="col3"> <p>A partir das características e sinais disponíveis, é possível criar uma regra de segmento expressa como: </p> <p><code> (product=camera AND type=digital SLR) OR (price&gt;1000)</code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -77,7 +77,7 @@ Uma chamada de evento envia dados de seu site para [!DNL Audience Manager]. A ch
 https://<domain>/event?product=camera&price>100
 ```
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Segmentos: Finalidade, composição e regras](../features/segments/segments-purpose.md)
 
