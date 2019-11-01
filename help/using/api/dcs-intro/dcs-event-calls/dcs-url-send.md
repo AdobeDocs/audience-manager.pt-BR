@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Enviar dados para o DCS
 uuid: 024e307d-bfcb-46cf-ac3a-fc71df0248fe
 translation-type: tm+mt
-source-git-commit: 9c692ae41a309b4f1d8323a501619c02d2aef6a0
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -44,7 +44,7 @@ A tabela a seguir define os componentes básicos de uma [!UICONTROL DCS] chamada
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> alias de domínio.demdex.net</code> </p> </td> 
+   <td colname="col1"> <p> <code> domain alias.demdex.net</code> </p> </td> 
    <td colname="col2"> <p>Esta parte da chamada contém: </p> <p> 
      <ul id="ul_3EDA9C7BA6794D06BCB07A75A9BD2372"> 
       <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Seu alias de domínio atribuído pelo <span class="keyword"> Audience Manager</span> (por exemplo, <code> my_domain.demdex.net</code>). </li> 
@@ -61,14 +61,14 @@ A tabela a seguir define os componentes básicos de uma [!UICONTROL DCS] chamada
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> key</code> </p> </td> 
-   <td colname="col2"> <p> Um identificador exclusivo no par de chave-valor. </p> <p>Esses pares de valores chave usam um prefixo específico para identificar o tipo de dados que você está enviando ao <span class="wintitle"> DCS</span>. For more information, see <a href="../../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> Supported Attributes for DCS API Calls</a>. </p> </td> 
+   <td colname="col2"> <p>Um identificador exclusivo no par de chave-valor. </p> <p>Esses pares de valores chave usam um prefixo específico para identificar o tipo de dados que você está enviando ao <span class="wintitle"> DCS</span>. For more information, see <a href="../../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> Supported Attributes for DCS API Calls</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> val</code> </p> </td> 
    <td colname="col2"> <p>Um valor de variável que pertence a um conjunto definido por uma chave no par de valores chave. </p> <p>Ao trabalhar com valores: </p> <p> 
      <ul id="ul_624DC78759F74AD8920220058E54E083"> 
-      <li id="li_091E5B4820EC4A93B775433E428E74AB">Inclua dados de string entre aspas duplas (por exemplo, <code> age="41 a 55"</code>). </li> 
-      <li id="li_C558E3BA6EE34413BBBB962D4CD0D10E">Você pode passar várias teclas em um único valor (por exemplo, <i><code>key</i>=<i>val1,val2,val3</i></code></i>). </i></li> 
+      <li id="li_091E5B4820EC4A93B775433E428E74AB">Inclua dados de sequência de caracteres entre aspas duplas (por exemplo, <code> age="41 to 55"</code>). </li> 
+      <li id="li_C558E3BA6EE34413BBBB962D4CD0D10E">Você pode passar várias teclas em um único valor (por exemplo, <i><code>key</i>=<i>val1,val2,val3</i></code></i>). </li> 
      </ul> </p> <p>Consulte <a href="../../../api/dcs-intro/dcs-api-reference/dcs-key-format.md"> Formatação de pares de valores chave em chamadas</a>DCS. </p> </td>
   </tr> 
   <tr> 
@@ -95,7 +95,7 @@ https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_r
 
 Agora que vocês estão familiarizados com o envio de dados para o [!UICONTROL DCS], é hora de olhar como obter dados de volta e analisar essa informação. Consulte [Receber dados do DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Explicação dos pares de valor-chave](../../../reference/key-value-pairs-explained.md)
 
