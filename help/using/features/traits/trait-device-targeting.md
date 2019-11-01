@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Direcionamento de dispositivos com chaves de nível de plataforma
 uuid: bc048cc5-3df1-49bc-ac78-0ea5d7edd9cc
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -43,7 +43,7 @@ A [!UICONTROL Data Collection Servers] extrai os valores dessas chaves do cabeç
 >
 >Mesmo que um ou mais sinais não possam ser recuperados do cabeçalho do agente do usuário, os outros sinais ainda serão transmitidos para o [!UICONTROL Data Collection Servers].
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Requisitos de prefixo para variáveis-chave](../../features/traits/trait-variable-prefixes.md)
 
