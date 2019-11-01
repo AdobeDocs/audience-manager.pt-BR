@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Introdução às APIs REST
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: 27800ce003a62733eece0d5de3b94737ed61133a
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -130,12 +130,6 @@ A [!DNL JSON] resposta contém seu novo token de acesso. A resposta deve ser a s
 
 O Audience Manager [!UICONTROL REST API] suporta código de autorização e autenticação implícita. Para usar esses métodos de acesso, os usuários precisam fazer logon para obter acesso e atualizar tokens `https://api.demdex.com/oauth/authorize` para que possam acessá-los.
 
->[!MORE_LIKE_THIS]
->
->* [OAuth 2.0](https://oauth.net/2/)
->* [OAuth 2 simplificado](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
-
-
 ## Fazer solicitações de API autenticadas {#authenticated-api-requests}
 
 Requisitos para chamar [!DNL API] métodos depois de receber um token de autenticação.
@@ -146,11 +140,6 @@ Para efetuar chamadas em relação aos [!DNL API] métodos disponíveis:
 
 * No `HTTP` cabeçalho, defina `Authorization: Bearer <token>`.
 * Chame o [!DNL API] método necessário.
-
->[!MORE_LIKE_THIS]
->
->* [Autenticação OAuth](../../api/rest-api-main/aam-api-getting-started.md#oauth)
-
 
 ## Parâmetros de consulta de API opcionais {#optional-api-query-parameters}
 
@@ -238,3 +227,10 @@ Novas versões desses [!DNL API]s são lançadas regularmente. Uma nova versão 
 | 404 | Não encontrada | Não foi possível localizar o recurso para o caminho especificado. |
 | 409 | Conflito | Não foi possível concluir a solicitação devido a um conflito com o estado do recurso. |
 | 500 | Erro do servidor | O servidor encontrou um erro inesperado que o impedia de atender à solicitação. |
+
+>[!MORELIKETHIS]
+>
+>* [Autenticação OAuth](../../api/rest-api-main/aam-api-getting-started.md#oauth)
+>* [OAuth 2.0](https://oauth.net/2/)
+>* [OAuth 2 simplificado](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
+
