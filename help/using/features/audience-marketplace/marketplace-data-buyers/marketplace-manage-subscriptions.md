@@ -7,7 +7,7 @@ title: Gerenciar assinaturas de feed de dados
 topic: API DIL
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 translation-type: tm+mt
-source-git-commit: 49cedeb25e524bf13dc9e17b4674e3b27e42a1a9
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -51,13 +51,6 @@ Depois de assinar um feed de dados:
 
 * Revise a documentação de faturamento e pagamento. Consulte os links relacionados abaixo.
 
->[!MORE_LIKE_THIS]
->
->* [Alocação de Faturamento e Impressão para Feeds de Dados CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
->* [Alocação de Faturamento e Impressão para Feeds de Dados de Taxa Simples](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
->* [Como informar o uso do CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
-
-
 ## Assine um feed de dados privados {#subscript-private-data-feed}
 
 Os compradores assinam feeds de dados privados e planos em **[!UICONTROL Audience Marketplace > Marketplace]**.
@@ -76,12 +69,6 @@ Para assinar um feed de dados privados:
 
    * **[!UICONTROL Request approved]**: O status na [!UICONTROL Marketplace] lista muda para "Acesso concedido" e você receberá uma notificação automática. Nesse ponto, você pode assinar o feed. Consulte [Assinar um feed](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed) de dados público para obter instruções.
    * **[!UICONTROL Request denied]**: O texto "Solicitado" é removido da [!UICONTROL Marketplace] lista do feed. Você pode tentar assinar novamente ou escolher um feed diferente.
-
->[!MORE_LIKE_THIS]
->
->* [Assine um feed de dados público](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
->* [Descontos para Data Buyers](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)
-
 
 ## Descontos de feed de dados para compradores {#buyer-discount}
 
@@ -139,11 +126,6 @@ No exemplo, o comprador recebe um desconto de 10% no [!UICONTROL Segments and Ov
 
 ![](assets/buyer-discount.png)
 
->[!MORE_LIKE_THIS]
->
->* [O Mercado: About](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)
-
-
 ## Localizar dados de feed de assinatura {#find-subscribed-data-fee}
 
 Os dados (características) de seus feeds de dados aparecem em suas próprias pastas de armazenamento de características. Vá até **[!UICONTROL Audience Data > Traits]** e expanda a **[!UICONTROL 3rd-Party Data]** pasta para exibir e trabalhar com as características nos feeds inscritos. Procure a subpasta nomeada após o provedor de dados. Eles contêm pastas nomeadas a partir do feed de dados individuais e listam características fornecidas pelo feed.
@@ -151,11 +133,6 @@ Os dados (características) de seus feeds de dados aparecem em suas próprias pa
 <!-- marketplace-feed-storage.xml -->
 
 ![](assets/subscribe5.png)
-
->[!MORE_LIKE_THIS]
->
->* [Assine um feed de dados público](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
-
 
 ## Cancelar inscrição de um feed de dados {#unsubscribe}
 
@@ -168,7 +145,7 @@ Para cancelar a assinatura de um feed de dados:
 1. Clique no nome do feed de dados no [!UICONTROL Marketplace].
 1. Na [!UICONTROL Use Case] seção, localize o plano que deseja usar e mova o **[!UICONTROL Subscription]** controle deslizante para **[!UICONTROL Off]**.
 
-## Desativação do feed de dados: Porque acontece e como responder {#data-feed-deactivation-reasons}
+##  Desativação do feed de dados: Porque acontece e como responder {#data-feed-deactivation-reasons}
 
 Em [!UICONTROL Audience Marketplace]geral, os provedores de dados podem revogar o acesso aos feeds de dados inscritos. Não fique alarmado se isso acontecer com você. Nós te cobrimos. Consulte esta seção para ver os processos e procedimentos relacionados às desativações do feed de dados.
 
@@ -290,11 +267,6 @@ Esta página fornece as seguintes informações:
    * Clique em **[!UICONTROL Cancel]** para sair da página sem fazer alterações.
    * Clique em **[!UICONTROL Review & Subscribe]** para assinar um feed de dados. Este botão fica acinzentado até que você alterne uma [!UICONTROL Subscription] alternância para [!UICONTROL On]. Consulte também [Assinar um Feed](#subscript-public-data-feed) de dados público e [Assinar um Feed](#subscript-private-data-feed)de dados privado.
 
->[!MORE_LIKE_THIS]
->
->* [O Mercado: About](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)
-
-
 ## Como entender os casos de uso do feed de dados {#use-cases}
 
 Como comprador de [!UICONTROL Audience Marketplace] dados, você pode comprar dados para casos de sobreposição, modelagem e ativação. Cada caso de uso é projetado para uma finalidade específica e limita o que você pode fazer com os dados. Essas descrições de casos de uso podem ajudá-lo a tomar a decisão correta sobre qual tipo de plano de dados comprar.
@@ -317,3 +289,13 @@ Esse caso de uso permite avaliar características do fornecedor em relação às
 ### Activation
 
 Esse caso de uso permite que você envie dados para um [destino](../../../features/destinations/destinations.md). Em [!UICONTROL Audience Manager], um destino é qualquer sistema de terceiros (servidor de anúncios, [!DNL DSP], [!DNL DMP], troca etc.) com os quais você deseja compartilhar dados. No entanto, com um caso de [!UICONTROL Activation] uso, não é possível executar relatórios de sobreposição nem testar os dados em um modelo algorítmico.
+
+>[!MORELIKETHIS]
+>
+>* [Alocação de Faturamento e Impressão para Feeds de Dados CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
+>* [Alocação de Faturamento e Impressão para Feeds de Dados de Taxa Simples](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
+>* [Como informar o uso do CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
+>* [Assine um feed de dados público](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
+>* [Descontos para Data Buyers](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)
+>* [O Mercado: About](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)
+
