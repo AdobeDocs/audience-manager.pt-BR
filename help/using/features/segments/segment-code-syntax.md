@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Sintaxe de código usada no Editor de expressão de segmento
 uuid: 7b4b06ca-7879-4501-8ba7-b2b6467b8a3b
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -73,7 +73,7 @@ Defina os intervalos de [recenticidade e frequência](../../features/segments/re
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Idade e frequência](../../features/segments/recency-and-frequency.md)
 >* [Expressões booleanas no Construtor de traços e segmentos](../../reference/boolean-expressions-tsb.md)
