@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Casos de uso do gráfico do dispositivo externo
 uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
 translation-type: tm+mt
-source-git-commit: 54ae5956a34c193d42d4ff9a231249d56cce87aa
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -123,7 +123,7 @@ Usando o **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adobe Co-O
 
 ![expansão avançada de gráficos](assets/advanced-device-graph-expansion.png)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Casos de uso do gráfico de dispositivo de link de perfil](profile-link-use-case.md)
 >* [Casos de uso gerais para regras de mesclagem de perfil](merge-rule-targeting-options.md)
