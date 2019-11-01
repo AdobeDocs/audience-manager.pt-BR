@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Criar características algorítmicas
 uuid: 50c2d2d1-f412-479b-bb70-4f139429c388
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -28,11 +28,6 @@ Isso abre uma nova janela que permite selecionar o modelo que deseja usar com a 
 Adicionar o modelo expõe as configurações de alcance e precisão.
 1. Selecione o alcance ou a precisão como sua meta e escolha um valor nos respectivos menus suspensos. Click **[!UICONTROL Save]** when done.
 
->[!MORE_LIKE_THIS]
->
->* [Precisão e alcance](../../features/traits/trait-accuracy-reach.md)
-
-
 ## Configurações para características algorítmicas {#configure-settings}
 
 Em [!UICONTROL Trait Builder], a [!UICONTROL Configuration] seção permite associar um modelo algorítmico a uma característica. Para concluir o processo de criação de característica algorítmica, selecione um modelo e escolha uma meta de alcance ou precisão.
@@ -43,7 +38,7 @@ Em [!UICONTROL Trait Builder], a [!UICONTROL Configuration] seção permite asso
 
 * [Crie um modelo](../../features/algorithmic-models/create-model.md#build-model)algorítmico.
 * Aguarde o e-mail de notificação que informa que o modelo de execução de dados foi concluído.
-* Preencha os campos obrigatórios na seção Informações [](../../features/traits/create-onboarded-rule-based-traits.md) básicas.
+*  Preencha os campos obrigatórios na seção Informações [](../../features/traits/create-onboarded-rule-based-traits.md) básicas.
 
 ### Campos e configurações
 
@@ -54,6 +49,7 @@ Em [!UICONTROL Trait Builder], a [!UICONTROL Configuration] seção permite asso
 | **[!UICONTROL Reach and Accuracy Data Columns]** | Localizada à direita, esta seção exibe até 21 linhas de dados numéricos que exibem a precisão e os valores de alcance do modelo. |
 | **[!UICONTROL Reach and Accuracy Slider]** | Localizado na parte inferior do gráfico, o controle deslizante permite definir um valor numérico para suas metas de alcance ou precisão. Você pode definir o controle deslizante e escolher o botão de objetivo de alcance ou precisão para criar uma característica. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Precisão e alcance](../../features/traits/trait-accuracy-reach.md)
+
