@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Sintaxe de conteúdo do arquivo de dados de entrada, caracteres inválidos, variáveis e exemplos
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
 translation-type: tm+mt
-source-git-commit: 5a822460f93bb7295edafff03104ae7626b69a51
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -51,7 +51,7 @@ A tabela lista e define as variáveis usadas em um arquivo de dados de entrada c
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> <i>ID de usuário </i> </code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>User ID </i> </code> </p> </td> 
    <td colname="col2"> <p>Uma ID de usuário pode ser: </p> <p> 
      <ul id="ul_25168355353545A9A049D0083403025E"> 
       <li id="li_23829FE2F6464E33859B3E388FCD106B">Uma ID de usuário exclusiva atribuída pelo <span class="keyword"> Audience Manager </span> ( <a href="../../../reference/ids-in-aam.md"> Audience Manager UUUID </a>). </li> 
@@ -64,11 +64,11 @@ A tabela lista e define as variáveis usadas em um arquivo de dados de entrada c
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> GUIA </code> </p> </td> 
+   <td colname="col1"> <p> <code> TAB </code> </p> </td> 
    <td colname="col2"> <p>Separe a ID de usuário e as IDs de característica com um único delimitador de guia. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> ID <i>de característica </i></code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>trait ID </i> </code> </p> </td> 
    <td colname="col2"> <p>A ID de característica do <span class="keyword"> Audience Manager </span> . Solicitamos que você inclua <i>somente características</i> integradas em arquivos de dados de entrada. Não processamos nenhum outro tipo de característica na transferência de dados de entrada. </p> <p> <p>Observação:  A ID de característica pode ser encontrada usando o método GET que retorna detalhes sobre todas as suas características. Para obter mais informações, consulte Métodos <a href="../../../api/rest-api-main/api-traits.md"> de API de características </a>. </p> </p> </td> 
   </tr> 
  </tbody> 
@@ -88,33 +88,34 @@ A tabela a seguir descreve os prefixos que identificam nomes de características
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> d_sid= </code> </p> </td> 
-   <td colname="col2"> <p>O prefixo <code> d_sid </code> informa ao sistema que a ID é uma ID de característica <span class="keyword"> do Audience Manager </span> . Essa é a mesma ID mostrada na interface do usuário. Você também pode retornar IDs de características com o método <code> GET da API </code> . Consulte Métodos <a href="../../../api/rest-api-main/api-traits.md"> da API de características </a>. </p> </td>
+   <td colname="col2"> <p>O <code> d_sid </code> prefixo informa ao sistema que a ID é uma ID de <span class="keyword"> </span> característica do Audience Manager. Essa é a mesma ID mostrada na interface do usuário. Você também pode retornar IDs de características com o <code> GET </code> método da API. Consulte Métodos <a href="../../../api/rest-api-main/api-traits.md"> da API de características </a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <code> d_unsid= </code> </p> </td> 
-   <td colname="col2"> <p>Os dados com prefixo <code> d_unsid </code> removem os usuários dessa característica. O prefixo <code> d_unsid </code> é ignorado em um <code> arquivo de substituição </code> . </p> <p>O prefixo <code> d_unsid= </code> informa ao sistema que a ID é uma ID de característica <span class="keyword"> do Audience Manager </span> . Essa é a mesma ID mostrada na interface do usuário. Você também pode retornar IDs de características com o método <code> GET da API </code> . Consulte Métodos <a href="../../../api/rest-api-main/api-traits.md"> da API de características </a>. </p> </td>
+   <td colname="col2"> <p>O prefixo de dados com <code> d_unsid </code> remove os usuários dessa característica. O <code> d_unsid </code> prefixo é ignorado em um <code> overwrite </code> arquivo. </p> <p>O <code> d_unsid= </code> prefixo informa ao sistema que a ID é uma ID de <span class="keyword"> </span> característica do Audience Manager. Essa é a mesma ID mostrada na interface do usuário. Você também pode retornar IDs de características com o <code> GET </code> método da API. Consulte Métodos <a href="../../../api/rest-api-main/api-traits.md"> da API de características </a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ic= </code> </p> </td> 
-   <td colname="col2"> <p> <a href="../../../features/traits/manage-trait-rules.md#managing-trait-rules"> As regras de características </a> permitem definir critérios para a qualificação de características. Se formatar uma regra de característica como <code> ic == ID de característica </code>, você poderá enviar características em uma lista formatada por vírgula simples. </p> <p>Por exemplo, digamos que você crie estas três regras de características: </p> <p> 
+   <td colname="col2"> <p> <a href="../../../features/traits/manage-trait-rules.md#managing-trait-rules"> As regras de características </a> permitem definir critérios para a qualificação de características. Se formatar uma regra de característica como <code> ic == trait ID </code>, você poderá enviar características em uma lista formatada por vírgula simples. </p> <p>Por exemplo, digamos que você crie estas três regras de características: </p> <p> 
      <ul class="simplelist"> 
       <li> <code> ic == "123" </code> </li>
       <li> <code> ic == "456" </code> </li>
       <li> <code> ic == "789" </code> </li>
-     </ul> </p> <p>Essas características estão associadas à <code> tecla </code> . Isso permite criar uma lista de características mais simples no arquivo de dados. E não é necessário incluir o prefixo <code> ic </code> . Como resultado, o conteúdo do arquivo de dados pode ser semelhante a: </p> <p>
+     </ul> </p> <p>Essas características estão associadas à <code> ic </code> chave. Isso permite criar uma lista de características mais simples no arquivo de dados. E não é necessário incluir o <code> ic </code> prefixo. Como resultado, o conteúdo do arquivo de dados pode ser semelhante a: </p> <p>
      <code> 
-                       
-      ID <i>de</i>usuário &lt;TAB&gt; 123,456,789 </code> </p> </td> 
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      <i>user ID</i>&nbsp;&lt;TAB&gt;&nbsp;123,456,789 
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pares de valor-chave </p> </td> 
    <td colname="col2"> <p>Os dados de características podem ser formatados como pares de valores chave usando strings alfanuméricas. Há várias maneiras de formatar pares de valores chave, como mostrado abaixo: </p> <p> 
      <ul id="ul_D4F5A97FE0444AC6B7D8D4DAEDD3EAF2"> 
-      <li id="li_07B893AA8EB24F34B70F8DA06E87EAB3"> <code> key = valor </code> </li> 
-      <li id="li_1F3ACA27C5794931B430298B27AB8BCC"> <code> "key" = valor </code> </li> 
+      <li id="li_07B893AA8EB24F34B70F8DA06E87EAB3"> <code> key = value </code> </li> 
+      <li id="li_1F3ACA27C5794931B430298B27AB8BCC"> <code> "key" = value </code> </li> 
       <li id="li_8910539EB4F0431E8CF63983D30D9B08"> <code> key = "value" </code> </li> 
       <li id="li_DCECE281D245438FB01F8D0BA932B3CC"> <code> "key" = "value" </code> </li> 
-     </ul><code> "age"="32" </code> , <code> "gender"=m </code> , <code> modelo = "pickup caminhão" </code> , <code> produto = tablet </code> são exemplos de pares de valores chave formatados corretamente. </p> </td> 
+     </ul><code> "age"="32" </code> , <code> "gender"=m </code> , <code> model = "pickup truck" </code> , <code> product = tablet </code> são exemplos de pares de valores chave formatados corretamente. </p> </td> 
   </tr>
  </tbody>
 </table>
@@ -137,7 +138,7 @@ As IDs de características consistem apenas em caracteres numéricos. Solicitamo
  <tbody> 
   <tr> 
    <td colname="col1"> <p>DPUUID </p> </td> 
-   <td colname="col2"> <p><i>Não</i> use dois pontos codificados ( <code> %3A </code>) ou dois pontos não codificados ( : ) em DPUUIDs. </p> </td> 
+   <td colname="col2"> <p><i>Não</i> utilize dois pontos codificados ( <code> %3A </code>) ou dois pontos não codificados ( : ) em DPUUIDs. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID do dispositivo móvel iOS (IDFA) ou Android </p> </td> 
@@ -166,8 +167,8 @@ Nomes de valores formatados incorretamente em um par de valores chave também ca
    <td colname="col1"> <p>Caractere de citação (") </p> </td> 
    <td colname="col2"> <p>Você pode usar o caractere de aspas na chave e na parte de valor do par de valor chave, como segue: </p> <p> 
      <ul id="ul_3447A913203647A8A9A1A5D14B1A19FE"> 
-      <li id="li_B19B56CE8D4449B881B912E74809E00D"> <p> <code> d_city = "Nova York", d_city = "São Francisco" </code> </p> </li> 
-      <li id="li_895380BB35B4498091928F75F0BB6A45"> <p> <code> "d_city" = "Nova York", "d_city" = "São Francisco" </code> </p> </li> 
+      <li id="li_B19B56CE8D4449B881B912E74809E00D"> <p> <code> d_city = "New York", d_city = "San Francisco" </code> </p> </li> 
+      <li id="li_895380BB35B4498091928F75F0BB6A45"> <p> <code> "d_city" = "New York", "d_city" = "San Francisco" </code> </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -175,12 +176,12 @@ Nomes de valores formatados incorretamente em um par de valores chave também ca
    <td colname="col2"> <p>Ignoramos sinais de travessão no início das chaves. Por exemplo, <code> -product = camera </code> é interpretado como <code> product = camera </code>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> GUIA </code> </p> </td> 
-   <td colname="col2"> <p><i>Não</i> use <code> TAB </code> em vez de valores vazios em pares de valores chave. Use apenas <code> TAB </code> para separar variáveis no arquivo de dados de entrada. </p> </td> 
+   <td colname="col1"> <p> <code> TAB </code> </p> </td> 
+   <td colname="col2"> <p><i>Não</i> use valores vazios <code> TAB </code> em pares de valores chave. Use apenas <code> TAB </code> para separar variáveis no arquivo de dados de entrada. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> \n, \t </code> </p> </td> 
-   <td colname="col2"> <p>Não use os novos caracteres de linha ou tabulação ( <code> \n, \t </code>) nas teclas ou nos valores. </p> </td> 
+   <td colname="col2"> <p>Não use os novos caracteres de linha ou tabulação ( <code> \n, \t </code>) em teclas ou valores. </p> </td> 
   </tr>
  </tbody>
 </table>
@@ -190,7 +191,7 @@ Nomes de valores formatados incorretamente em um par de valores chave também ca
 <table id="table_8017E070F7A54143A82CA153CBAEB5DA"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry">  Formato de arquivo de dados </th> 
+   <th colname="col1" class="entry"> Formato de arquivo de dados </th> 
    <th colname="col2" class="entry"> Descrição e exemplo </th> 
   </tr> 
  </thead>
@@ -199,25 +200,31 @@ Nomes de valores formatados incorretamente em um par de valores chave também ca
    <td colname="col1"> <p>Com <code> d_sid </code> ou <code> d_unsid </code> </p> </td> 
    <td colname="col2"> <p>Este arquivo de dados mostra um usuário qualificado para as características 24, 26, 27 e foi removido da característica 28 e 29. </p> <p> 
      <code>
-       59767559181262060060278870901087098252&amp;nbsp;&amp;nbsp;d_sid=24,d_8 sid=26,d_sid=27,d_unsid=28,d_unsid=29 </code> </p> <p>Observação:  <p>Em vez de usar d_unsid, também é possível remover características dos perfis de usuário usando a seguinte sintaxe: </p> <p> 
+       59767559181262060060278870901087098252&amp;nbsp;&amp;nbsp;d_sid=24,d_sid=26,d_sid=27,d_unsid=28,d_unsid=29 
+     </code> </p> <p>Observação:  <p>Em vez de usar d_unsid, também é possível remover características dos perfis de usuário usando a seguinte sintaxe: </p> <p> 
       <code>
-        59767559181262060060278870901087098252&amp;nbsp;28:0, &amp; amp;nbsp;29:0 </code> </p> <p> 
+        59767559181262060060278870901087098252&amp;nbsp;28:0,&amp;nbsp;29:0 
+      </code> </p> <p> 
       <code>
-        59767559181262060060278870901087098252&amp;nbsp;28:-1,&amp;nbsp;29: 1 </code> </p> </p> </td> 
+        59767559181262060060278870901087098252&amp;nbsp;28:-1,&amp;nbsp;29:-1 
+      </code> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Com <code> ic== </code> </p> </td> 
-   <td colname="col2"> <p>Essas características foram adicionadas a uma regra de característica com o <code> prefixo ic </code> . Dessa forma, é possível adicioná-los ao arquivo de dados separado por vírgulas, conforme mostrado. Uma guia separa o UUID e as IDs de características. O prefixo <code> </code> ic não é necessário no arquivo. </p> <p><b>IDs numéricas</b> </p> <p> 
+   <td colname="col2"> <p>Essas características foram adicionadas a uma regra de característica com o <code> ic </code> prefixo. Dessa forma, é possível adicioná-los ao arquivo de dados separado por vírgulas, conforme mostrado. Uma guia separa o UUID e as IDs de características. O <code> ic </code> prefixo não é necessário no arquivo. </p> <p><b>IDs numéricas</b> </p> <p> 
      <code>
-       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;30608,50354,50338,50352,30 626 </code> </p> <p><b>IDs de string</b> </p> <p> 
+       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;30608,50354,50338,50352,30626 
+     </code> </p> <p><b>IDs de string</b> </p> <p> 
      <code>
-       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;ic=52,ic=55 </code> </p> </td> 
+       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;ic=52,ic=55 
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Com pares de valor chave </p> </td> 
    <td colname="col2"> Esses dados de arquivo usam pares de valores chave para passar os dados para o <span class="keyword"> Audience Manager </span>. <p> 
      <code>
-       59767559181262060060278870901087098252&amp;nbsp;"gender"="fêmea","luxury_shopper" "sim" </code> </p> </td> 
+       59767559181262060060278870901087098252&amp;nbsp;“gender”=”female”,“luxury_shopper”=”yes” 
+     </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -426,7 +433,7 @@ ou
 
 ### Example 12 {#example-12}
 
-Use o prefixo ic para enviar informações de qualificação de característica para dispositivos iOS.
+Use o prefixo ic para enviar informações de qualificação de características para dispositivos iOS.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> 30608,50354,50338,50352,30626
@@ -494,7 +501,7 @@ ou
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> ic=52,ic=55
 ```
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Construtor de perfil](../../../features/traits/about-trait-builder.md)
 
