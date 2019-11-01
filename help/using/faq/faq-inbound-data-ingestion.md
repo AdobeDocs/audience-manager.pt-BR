@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Perguntas frequentes sobre ingestão de dados do cliente de entrada
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 translation-type: tm+mt
-source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -268,7 +268,7 @@ Como prática recomendada, recomendamos [!DNL Amazon S3] porque o processo é ma
 
 Depende. [!DNL Audience Manager] lê até 119.000 entradas da [!DNL Amazon SQS] fila e as divide em até 3 lotes. Seus arquivos serão processados simultaneamente somente se eles terminarem no mesmo lote. No entanto, devido à grande quantidade de dados ingeridos [!DNL Audience Manager] diariamente, não podemos garantir nenhuma ordem de processamento de arquivos.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Processo de transferência de dados em lote descrito](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
 
