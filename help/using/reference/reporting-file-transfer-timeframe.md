@@ -1,17 +1,17 @@
 ---
 description: O Audience Manager recebe uma enorme quantidade de dados todos os dias. Isso afeta o tempo necessário para processar seus dados e gerar resultados do relatório. O conteúdo desta seção descreve como esses intervalos afetam sua conta do Audience Manager. Além disso, os intervalos de tempo e os agendamentos descritos aqui são apenas diretrizes gerais. Esses agendamentos não constituem SLAs (Service-Level Agreements, contratos de nível de serviço) ou compromissos relacionados à entrega de dados. A Adobe reserva o direito de alterar os intervalos de tempo e as programações a qualquer momento, sem aviso prévio.
 seo-description: O Audience Manager recebe uma enorme quantidade de dados todos os dias. Isso afeta o tempo necessário para processar seus dados e gerar resultados do relatório. O conteúdo desta seção descreve como esses intervalos afetam sua conta do Audience Manager. Além disso, os intervalos de tempo e os agendamentos descritos aqui são apenas diretrizes gerais. Esses agendamentos não constituem SLAs (Service-Level Agreements, contratos de nível de serviço) ou compromissos relacionados à entrega de dados. A Adobe reserva o direito de alterar os intervalos de tempo e as programações a qualquer momento, sem aviso prévio.
-seo-title: ' Como a entrega de dados e os tempos de processamento de arquivos afetam os relatórios'
+seo-title: Como a entrega de dados e os tempos de processamento de arquivos afetam os relatórios
 solution: Audience Manager
-title: ' Como a entrega de dados e os tempos de processamento de arquivos afetam os relatórios'
+title: Como a entrega de dados e os tempos de processamento de arquivos afetam os relatórios
 uuid: 4b975512-f67e-4749-a7ef-168415597682
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
 
-#  Como a entrega de dados e os tempos de processamento de arquivos afetam os relatórios{#how-data-delivery-and-file-processing-times-affect-reports}
+# Como a entrega de dados e os tempos de processamento de arquivos afetam os relatórios{#how-data-delivery-and-file-processing-times-affect-reports}
 
 O Audience Manager recebe uma enorme quantidade de dados todos os dias. Isso afeta o tempo necessário para processar seus dados e gerar resultados do relatório. O conteúdo desta seção descreve como esses intervalos afetam sua conta do Audience Manager. Além disso, os intervalos de tempo e os agendamentos descritos aqui são apenas diretrizes gerais. Esses agendamentos não constituem SLAs (Service-Level Agreements, contratos de nível de serviço) ou compromissos relacionados à entrega de dados. A Adobe reserva o direito de alterar os intervalos de tempo e as programações a qualquer momento, sem aviso prévio.
 
@@ -67,7 +67,7 @@ A tabela a seguir lista e descreve os intervalos de tempo em nossos relatórios 
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Perguntas frequentes sobre ingestão de dados do cliente de entrada](../faq/faq-inbound-data-ingestion.md)
 
