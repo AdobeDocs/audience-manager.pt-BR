@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Módulos DIL
 uuid: d4c0d8dd-79f8-448e-b17c-c935415dd449
 translation-type: tm+mt
-source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -21,7 +21,7 @@ c_dil_mods.xml
 
  -->
 
-## siteCatalyst.init {#sitecat-init}
+##  siteCatalyst.init {#sitecat-init}
 
 Funciona com [!UICONTROL DIL] para enviar elementos de [!DNL Analytics] tags (variáveis, props, eVars etc.) para o Audience Manager. Retorna dados em uma lista separada por vírgulas. Disponível na versão 2.6.
 
@@ -51,12 +51,12 @@ r_dil_sc_init.xml
   <tr valign="top"> 
    <td colname="col1"> <code> names </code> </td> 
    <td colname="col2"> String   </td> 
-   <td colname="col3"> <p>Uma matriz de strings que contém <span class="keyword"> variáveis do Analytics não enumeradas, como </span> pageName <code> , </code>channel <code> , campanha </code>, <code> produto </code><code> </code>etc. </p> </td> 
+   <td colname="col3"> <p>Uma matriz de strings que contém <span class="keyword"> variáveis do Analytics não enumeradas como </span> , <code> pageName </code>, <code> channel </code>, <code> campaign </code><code> product </code>etc. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> iteratedNames </code> </td> 
    <td colname="col2"> Objeto </td> 
-   <td colname="col3"> <p>Uma matriz de objetos que contém <span class="keyword"> variáveis enumeradas do </span> Analytics, como props e evars (por exemplo, <code> prop1 </code>, <code> prop2 </code>, <code> evar3 </code>, <code> evar4 </code>). </p> </td> 
+   <td colname="col3"> <p>Uma matriz de objetos que contém <span class="keyword"> variáveis enumeradas do </span> Analytics como props e evars (por exemplo, <code> prop1 </code>, <code> prop2 </code>, <code> evar3 </code>, <code> evar4 </code>). </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> maxIndex </code> </td> 
@@ -74,12 +74,12 @@ r_dil_sc_init.xml
    <td colname="col3"> <p>Um objeto que representa <span class="wintitle"> DIL </span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <code> opções </code> </td> 
+   <td colname="col1"> <code> options </code> </td> 
    <td colname="col2"> Objeto </td> 
    <td colname="col3"> <p>Opções adicionais: </p> 
     <ul id="ul_F4DFA5351BB5427B8CBF600A0A4A21A9"> 
-     <li id="li_659ECE5E63834A21A2D9698A1444FCA6"> <p> <code> replaceContextDataPeriodsWith </code> </p> <p>Se você não especificar outra coisa, os pontos serão substituídos pelo sublinhado padrão ( _ ). </p> <p>Por exemplo, <code> s.contextData = {abc.def = '123'} </code>resultaria em <code> c_contextData_abc_def=123 </code> na string de consulta de chamada de evento. </p> <p>Essa opção está disponível somente na <span class="wintitle"> DIL </span> versão 5.0 ou posterior. </p> </li> 
-     <li id="li_1C969DD8FC2F43A0A9281D9810A70C3A"> <p> <code> filterFromContextVariables </code> </p> <p>Por exemplo, <code> filterFromContextVariables: ['email', 'zip', 'accountNumber'] </code> resultaria na matriz de strings sendo filtrada da coleta de dados de contexto. Essa opção exclui as Informações pessoais identificáveis (PII). </p> </li> 
+     <li id="li_659ECE5E63834A21A2D9698A1444FCA6"> <p> <code> replaceContextDataPeriodsWith </code> </p> <p>Se você não especificar outra coisa, os pontos serão substituídos pelo sublinhado padrão ( _ ). </p> <p>Por exemplo, <code> s.contextData = {abc.def = '123'} </code>resultaria <code> c_contextData_abc_def=123 </code> na string de consulta de chamada de evento. </p> <p>Essa opção está disponível somente na <span class="wintitle"> DIL </span> versão 5.0 ou posterior. </p> </li> 
+     <li id="li_1C969DD8FC2F43A0A9281D9810A70C3A"> <p> <code> filterFromContextVariables </code> </p> <p>Por exemplo, <code> filterFromContextVariables: ['email', 'zip', 'accountNumber'] </code> resultaria na filtragem da matriz de sequências de caracteres da coleta de dados de contexto. Essa opção exclui as Informações pessoais identificáveis (PII). </p> </li> 
     </ul> <p> </p> </td> 
   </tr> 
  </tbody> 
@@ -173,7 +173,7 @@ A `GA.submitUniversalAnalytics();` função aceita as seguintes propriedades.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> gaObject </code> </p> </td> 
-   <td colname="col2"> <p>A variável global para sua instância do <span class="keyword"> Google Analytics </span>. Normalmente, isso é <code> ga </code> por padrão, a menos que você tenha personalizado seu <span class="keyword"> código do Google Analytics </span> . </p> </td> 
+   <td colname="col2"> <p>A variável global para sua instância do <span class="keyword"> Google Analytics </span>. Normalmente, isso ocorre <code> ga </code> por padrão, a menos que você tenha personalizado seu <span class="keyword"> </span> código do Google Analytics. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> dilInstance </code> </p> </td> 
@@ -181,7 +181,7 @@ A `GA.submitUniversalAnalytics();` função aceita as seguintes propriedades.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> internalPropertyName </code> </p> </td> 
-   <td colname="col2"> <p> <i>(Opcional)</i> Na biblioteca <code> analytics.js </code> , a propriedade interna é a variável minified <code> 'b' </code>. Essa variável contém <span class="keyword"> dados </span> do Google Analytics. </p> <p>Essa propriedade é opcional, pois não é necessário defini-la a menos que o Google altere o nome de sua variável interna. Por exemplo, se essa variável minified mudou para <code> 'a' </code>, você chamaria <code> GA.submitUniversalAnalytics(); </code> como: </p> <p> <code> DIL.modules.GAsubmitUniversalAnalytics(ga, DilInstance, 'a'); </code> </p> </td> 
+   <td colname="col2"> <p> <i>(Opcional)</i> Na <code> analytics.js </code> biblioteca, a propriedade interna é a variável minified <code> 'b' </code>. Essa variável contém <span class="keyword"> dados </span> do Google Analytics. </p> <p>Essa propriedade é opcional, pois não é necessário defini-la a menos que o Google altere o nome de sua variável interna. Por exemplo, se essa variável minified mudou para <code> 'a' </code>, você chamaria <code> GA.submitUniversalAnalytics(); </code> assim: </p> <p> <code> DIL.modules.GAsubmitUniversalAnalytics(ga, DilInstance, 'a'); </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -199,11 +199,6 @@ var dilInstance = DIL.create({
 //Call the DIL Universal Analytics function 
 DIL.modules.GA.submitUniversalAnalytics(ga, dilInstance);
 ```
-
->[!MORE_LIKE_THIS]
->
->* [referência dos métodos do objeto ga](https://developers.google.com/analytics/devguides/collection/analyticsjs/ga-object-methods-reference)
-
 
 ##  GA.init {#ga-init}
 
@@ -312,9 +307,10 @@ A chamada de evento de URL para o Audience Manager pode ser semelhante a:
 
 `https://adobe.demdex.com/event?...c_accountId=UA-XXXXX-X&c_Section=Life%20%26%20Style &c_itemOrderId=1234&c_itemSku=DD44&c_itemName=T-Shirt&c_itemCategory=Olive%20Medium& c_itemPrice=11.99&c_itemQuantity=1`
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Código de rastreamento do Google Analytics](https://developers.google.com/analytics/devguides/collection/gajs/methods/)
 >* [Atualização completa na Web: ga.js/dc.js ao analytics.js](https://developers.google.com/analytics/devguides/collection/upgrade/reference/gajs-analyticsjs)
 >* [Adicionar analytics.js ao seu site](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
+>* [referência dos métodos do objeto ga](https://developers.google.com/analytics/devguides/collection/analyticsjs/ga-object-methods-reference)
 
