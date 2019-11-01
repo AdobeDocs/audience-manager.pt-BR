@@ -7,7 +7,7 @@ title: Criar, precificar e gerenciar feeds de dados
 topic: API DIL
 uuid: e28c20b3-33fc-4485-8ee9-8530d126f741
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -59,11 +59,6 @@ Na [!UICONTROL Settings] seção, mova o controle deslizante para:
 * **[!UICONTROL Private]** e **[!UICONTROL Unbranded]**: A [!UICONTROL Marketplace] lista do comprador mostra somente o nome e a descrição do feed de dados. O nome do provedor de dados é exibido como [!UICONTROL Private Seller].
 
 Para ver a aparência de um feed privado para os compradores, consulte a seção compradores nos Feeds [de dados](../../../features/audience-marketplace/marketplace-private-feeds.md)privados.
-
->[!MORE_LIKE_THIS]
->
->* [Feeds de dados privados](../../../features/audience-marketplace/marketplace-private-feeds.md)
-
 
 ## Desativar o feed de dados de um assinante {#deactivate-data-feed}
 
@@ -183,11 +178,6 @@ Para revisar, aprovar ou rejeitar solicitações do comprador, vá para [!UICONT
 3. Na [!UICONTROL Allow Access] seção de cada caixa de solicitação, clique na marca de seleção para aprovar uma solicitação ou no X para negar o acesso.
 4. Confirme ou cancele a ação selecionada no pop-up de confirmação.
 
->[!MORE_LIKE_THIS]
->
->* [Feeds de dados privados](../../../features/audience-marketplace/marketplace-private-feeds.md)
-
-
 ## Descontos para provedores de dados {#discounts}
 
 Em [!UICONTROL Audience Marketplace]outros, os descontos permitem reduzir o preço publicado de um feed de dados para assinantes individuais. Você pode oferecer descontos para assinantes que enviaram uma solicitação de assinatura ou para assinantes que solicitaram detalhes sobre um feed de dados. Os descontos se aplicam aos feeds de taxa fixa [!DNL CPM] e aos feeds de taxa fixa. Os descontos podem ser úteis quando você deseja fornecer incentivos de assinatura para novos clientes ou recompensar a fidelidade dos clientes.
@@ -212,3 +202,8 @@ Nesses exemplos, o vendedor adicionou 10% de desconto ao feed de [!UICONTROL Sof
 Os provedores de dados podem ver todos os seus assinantes e feeds atualizados em **[!UICONTROL Audience Marketplace > My Shared Data > Current Subscribers]**.
 
 ![](assets/subscribers.png)
+
+>[!MORELIKETHIS]
+>
+>* [Feeds de dados privados](../../../features/audience-marketplace/marketplace-private-feeds.md)
+
