@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Contagem de usuários únicos em sobreposição e relatórios gerais
 uuid: 450f6a8c-f363-43de-b2d8-0a156f14ecae
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -33,7 +33,7 @@ Os relatórios de sobreposição contam os usuários como únicos quando eles se
 
 O relatório Geral conta os visitantes do site como únicos se eles se qualificaram para a característica durante o período selecionado.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Relatórios interativos](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports)
 >* [Relatórios gerais](../reporting/general-reports.md#general-reports-overview)
