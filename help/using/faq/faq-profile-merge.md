@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Perguntas frequentes sobre Regras de mesclagem de perfil e Gráfico de dispositivos
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
 translation-type: tm+mt
-source-git-commit: ddec078f406b5386b10247b42f1b8bde6b0253e4
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -256,7 +256,7 @@ Sim. A métrica de preenchimento total do segmento inclui os dispositivos adicio
 
 Não.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Link de perfil](../features/profile-merge-rules/profile-link-use-case.md)
 
