@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Painel Regras de mesclagem de perfil
 uuid: d6725218-7b36-4653-9900-d67b5f7702a0
 translation-type: tm+mt
-source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -29,7 +29,7 @@ Ao trabalhar com [!UICONTROL Profile Merge Rules], você pode:
 * Rastreie o número médio de dispositivos para cada usuário.
 * Trabalhe com controles básicos para criar, editar e excluir regras. Somente administradores podem gerenciar regras, mas outros usuários podem visualizá-las e aplicá-las a segmentos. Consulte Opções de regra de mesclagem de [perfil definidas](merge-rule-definitions.md) e casos de [uso para Regras](merge-rule-targeting-options.md)de mesclagem.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Perguntas frequentes sobre as regras de mesclagem de perfil](../../faq/faq-profile-merge.md)
 
