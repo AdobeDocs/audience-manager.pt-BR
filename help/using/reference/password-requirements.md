@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Requisitos de senha, contas bloqueadas e senhas esquecidas
 uuid: bca892eb-3577-4382-8110-131f78d23069
 translation-type: tm+mt
-source-git-commit: 12216ab5105fce80b4b47c31ee6be144ddfe8df9
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -74,7 +74,7 @@ As contas são bloqueadas depois de 5 tentativas de logon. Entre em contato com 
 
 Clique no **[!UICONTROL Forgot password]** link da página de logon para redefinir sua senha. Você receberá um email automático com uma senha temporária que expira em 24 horas. Clique no link no email para acessar sua conta e redefinir sua senha.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Segurança de dados](../overview/data-security-and-privacy/data-security.md)
 >* [Segurança de dados](../overview/data-security-and-privacy/data-privacy.md)
