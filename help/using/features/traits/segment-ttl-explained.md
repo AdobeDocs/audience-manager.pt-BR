@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Explicação do tempo de segmento ao vivo
 uuid: 5b2c6911-50b9-4b68-9dd4-21128d112eab
 translation-type: tm+mt
-source-git-commit: 17906734132813984437216f2a6cbc1c7bf14937
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -50,7 +50,7 @@ Por exemplo, digamos que você tenha o Segmento 1 composto pela Caractere A (30 
 
 Lembre-se, o [!DNL TTL] conjunto no seu [!DNL Audience Manager] pixel opera independentemente do [!DNL TTL] conjunto em outros pixels usados por terceiros ([!DNL DSP]s, redes de anúncios etc.).
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Definir um intervalo de expiração de característica](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)
 
