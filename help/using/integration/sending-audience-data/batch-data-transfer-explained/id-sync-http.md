@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Sincronização de ID para transferências de dados de entrada
 uuid: 037e74a6-acfd-4cef-b693-16b7aaa8e976
 translation-type: tm+mt
-source-git-commit: 0fac081c93be36d2aa40023c7323ef1886b3860a
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -48,24 +48,24 @@ A chamada [!DNL URL] de sincronização de ID de entrada deve conter variáveis 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <code> <i>&lt;VENDOR_ID&gt;</i></code> </td> 
+   <td colname="col1"> <code> <i>&lt;VENDOR_ID&gt;</i> </code> </td> 
    <td colname="col2"> <p>ID exclusiva do provedor de conteúdo (atribuída pelo <span class="keyword"> Audience Manager</span>). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> <i>&lt;VENDOR_UUID&gt;</i></code> </td> 
+   <td colname="col1"> <code> <i>&lt;VENDOR_UUID&gt;</i> </code> </td> 
    <td colname="col2"> <p>URL (Porcentagem) Representação codificada da ID de usuário exclusiva. Além da codificação de caracteres ASCII reservados, todos os caracteres não ASCII devem ser codificados por porcentagem com base na tabela de codificação de caracteres UTF-8. </p> <p>Para obter mais informações, consulte o site Codificar/Decodificar <a href="https://www.url-encode-decode.com" format="http" scope="external"> URL online</a> . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> <i>&lt;REDIRECT_URL&gt;</i></code> </td> 
+   <td colname="col1"> <code> <i>&lt;REDIRECT_URL&gt;</i> </code> </td> 
    <td colname="col2"> <p>Um redirecionamento de URL codificado com a macro <code> ${DD_UUID}</code> incorporada. </p> <p>Observação:  Adicionado somente quando o provedor de conteúdo inicia a chamada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i></code> </td> 
-   <td colname="col2"> <p>Opcional. Adicione esse parâmetro se estiver usando o Plug-in do <a href="../../../overview/aam-gdpr/aam-iab-plugin.md">Audience Manager para IAB TCF.</a></p> <p><code> gdpr</code> pode ser 0 (o RGPD não se aplica) ou 1 (o RGPD se aplica). </p> <p> <b></b> Observação: Esse parâmetro só pode ser usado junto com <code>gdpr_Consentimento</code>.</p></td> 
+   <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i> </code> </td> 
+   <td colname="col2"> <p>Opcional. Adicione esse parâmetro se estiver usando o Plug-in do <a href="../../../overview/aam-gdpr/aam-iab-plugin.md">Audience Manager para IAB TCF.</a></p> <p><code> gdpr</code> pode ser 0 (RGPD não se aplica) ou 1 (RGPD se aplica). </p> <p> <b></b> Observação: Esse parâmetro só pode ser usado junto com <code>gdpr_consent</code>.</p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code><i>gdpr_consentimento=&lt;STRING CODIFICADA&gt;</i></code> </td> 
-   <td colname="col2"> <p>Opcional. Adicione esse parâmetro se estiver usando o Plug-in do <a href="../../../overview/aam-gdpr/aam-iab-plugin.md">Audience Manager para IAB TCF.</a></p> <p><code>gdpr_Consentimento</code> é a cadeia de caracteres de consentimento do RGPD codificada em base64 com URL segura (consulte a especificação <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> do</a>IAB). </p> <p> <b></b> Observação: Esse parâmetro só pode ser usado junto com o <code>gdpr</code>.</p> </td> 
+   <td colname="col1"> <code><i>gdpr_consent=&lt;ENCODED STRING&gt;</i> </code> </td> 
+   <td colname="col2"> <p>Opcional. Adicione esse parâmetro se estiver usando o Plug-in do <a href="../../../overview/aam-gdpr/aam-iab-plugin.md">Audience Manager para IAB TCF.</a></p> <p><code>gdpr_consent</code> é a sequência de caracteres de consentimento do RGPD codificados com base64 e segura para URL (consulte a especificação <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> do</a>IAB). </p> <p> <b></b> Observação: Esse parâmetro só pode ser usado junto com <code>gdpr</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,7 +78,7 @@ Para obter mais informações, consulte IDs [declaradas](../../../features/decla
 
 O formato para IDs correspondentes por meio de uma imagem de email é o mesmo mostrado acima. Observe, no entanto, que as imagens em um email devem ser ativadas para que isso funcione. Isso pode afetar a sincronização de ID por email, pois a maioria dos sistemas de email desativa as imagens por padrão.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Componentes da coleção de dados](../../../reference/system-components/components-data-collection.md)
 
