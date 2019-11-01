@@ -2,12 +2,12 @@
 description: Informações básicas sobre os arquivos do Feed de dados do cliente (CDF) e instruções sobre como começar. Comece aqui se estiver interessado em receber arquivos CDF ou só quiser mais informações.
 keywords: dados de terceiros;dados de terceiros;de terceiros;dados de terceiros;de terceiros;dados de terceiros;de terceiros
 seo-description: Informações básicas sobre os arquivos do Feed de dados do cliente (CDF) e instruções sobre como começar. Comece aqui se estiver interessado em receber arquivos CDF ou só quiser mais informações.
-seo-title: ' Feeds de dados do cliente'
+seo-title: Feeds de dados do cliente
 solution: Audience Manager
-title: ' Feeds de dados do cliente'
+title: Feeds de dados do cliente
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 translation-type: tm+mt
-source-git-commit: c206246a4a586d1148c18e0bce734d07963a85f6
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -59,7 +59,7 @@ Um [!UICONTROL CDF] arquivo inclui alguns ou todos os campos definidos abaixo. P
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><code> Hora do evento</code> </p> </td> 
+   <td colname="col1"> <p><code> Event Time</code> </p> </td> 
    <td colname="col2"> <p>Carimbo de data e hora </p> </td> 
    <td colname="col3"> <p>A hora em que um arquivo CDF foi processado pelos Servidores <span class="wintitle"> de Coleta de</span> Dados (DCS). O carimbo de data e hora usa o formato <i>aaaa-mm-dd hh:mm:ss</i> e é definido no fuso horário UTC. </p> <p> <p>Observação: A hora do evento não <i></i>é: <p> 
        <ul id="ul_41ABC813FAAC4659AC8DA13F4A6DD7EB"> 
@@ -68,37 +68,37 @@ Um [!UICONTROL CDF] arquivo inclui alguns ou todos os campos definidos abaixo. P
        </ul> </p> </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> Dispositivo</code> </p> </td> 
+   <td colname="col1"> <p><code> Device</code> </p> </td> 
    <td colname="col2"> <p>String   </p> </td> 
    <td colname="col3"> <p>Esta é a ID <span class="wintitle"> de usuário</span> exclusiva (UUID), que é uma ID de dispositivo de 38 dígitos para o visitante do site. Consulte também <a href="../reference/ids-in-aam.md">Índice de IDs no Audience Manager</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> ID do contêiner</code> </p> </td> 
+   <td colname="col1"> <p><code> Container ID</code> </p> </td> 
    <td colname="col2"> <p>Numérico </p> </td> 
    <td colname="col3"> <p>A ID do contêiner que aciona sincronizações de ID. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> Características Realizadas</code> </p> </td> 
+   <td colname="col1"> <p><code> Realized Traits</code> </p> </td> 
    <td colname="col2"> <p>Matriz numérica </p> </td> 
    <td colname="col3"> <p>Uma matriz de IDs de características que contém todas as características que um visitante realizou (qualificado para) na chamada de evento. </p> <p>Observe que a matriz pode conter características para as quais o visitante se qualificou antes e para as quais se qualificam novamente por meio dessa chamada de evento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> Segmentos Realizados</code> </p> </td> 
+   <td colname="col1"> <p><code> Realized Segments</code> </p> </td> 
    <td colname="col2"> <p>Matriz numérica </p> </td> 
    <td colname="col3"> <p>Uma matriz de IDs de segmento que contém todos os segmentos que um visitante realizou (qualificado para) na chamada de evento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> Parâmetros da solicitação</code> </p> </td> 
+   <td colname="col1"> <p><code> Request Parameters</code> </p> </td> 
    <td colname="col2"> <p>String   </p> </td> 
-   <td colname="col3"> <p>Uma string que captura todos os parâmetros (variáveis, IDs, pares chave-valor, IDs de publicidade do dispositivo etc.) passado na chamada de evento. </p> <p>Exemplo abreviado: </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D585810,c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a .PrevSessionLength:583</code> </p> </td> 
+   <td colname="col3"> <p>Uma string que captura todos os parâmetros (variáveis, IDs, pares chave-valor, IDs de publicidade do dispositivo etc.) passado na chamada de evento. </p> <p>Exemplo abreviado: </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D585810,c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a.PrevSessionLength:583</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> Tipo de dados do referenciador</code> </p> </td> 
+   <td colname="col1"> <p><code> Referer Data Type</code> </p> </td> 
    <td colname="col2"> <p>String   </p> </td> 
    <td colname="col3"> <p>O URL não codificado da página de referência (se houver). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> Tipo de dados IP</code> </p> </td> 
+   <td colname="col1"> <p><code> IP Data Type</code> </p> </td> 
    <td colname="col2"> <p>String   </p> </td> 
    <td colname="col3"> <p>O endereço IP do visitante capturado na chamada de evento. </p> </td> 
   </tr> 
@@ -108,12 +108,12 @@ Um [!UICONTROL CDF] arquivo inclui alguns ou todos os campos definidos abaixo. P
    <td colname="col3"> <p>A <span class="keyword"> Experience Cloud</span> ID (MID) atribuída ao visitante do site. See also, <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and theExperience Cloud ID service</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> Todos os segmentos</code> </p> </td> 
+   <td colname="col1"> <p><code> All Segments</code> </p> </td> 
    <td colname="col2"> <p>Matriz numérica </p> </td> 
    <td colname="col3"> <p>Uma matriz de IDs de segmento que contém segmentos realizados anteriormente e novos segmentos para os quais o visitante está qualificado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> Todas as características</code> </p> </td> 
+   <td colname="col1"> <p><code> All Traits</code> </p> </td> 
    <td colname="col2"> <p>Matriz numérica </p> </td> 
    <td colname="col3"> <p>Uma matriz de IDs de características originais e de terceiros que contém características e novas características realizadas anteriormente para as quais o visitante se qualificou desde o último feed de dados gerado. </p> </td> 
   </tr> 
@@ -143,7 +143,7 @@ Lista e define a estrutura de dados de um [!UICONTROL CDF] arquivo. Isso inclui 
    <td colname="col2"> <p>Esses caracteres não imprimíveis definem os elementos e a estrutura do arquivo CDF: </p> <p> 
      <ul id="ul_056A9B90AC88405CBB5F81A56CD6E4C9"> 
       <li id="li_B9DA15DCB6A445D781B8753C1C4262B0">Ctrl + a (ASCII <code> 001</code> ou <code> ^A</code>) separa dados em campos individuais com um indicador de espaço não imprimível. </li> 
-      <li id="li_E68D0CC065B34AC9AF91F166CAA2A67C">Ctrl + b (ASCII <code> 002</code> ou <code> ^B</code>) separa dados e parâmetros de solicitação. </li> 
+      <li id="li_E68D0CC065B34AC9AF91F166CAA2A67C">Ctrl + b (ASCII <code> 002</code> ou <code> ^B</code>) separa os dados de uma matriz e os parâmetros de solicitação. </li> 
       <li id="li_6C32D927FEF04CDE9887374E8C2688E7">Ctrl + c (ASCII <code> 003</code> ou <code> ^C</code>) define pares de valores chave. </li> 
      </ul> </p> </td> 
   </tr> 
@@ -151,7 +151,7 @@ Lista e define a estrutura de dados de um [!UICONTROL CDF] arquivo. Isso inclui 
    <td colname="col1"> <p>Sequência de campo </p> </td> 
    <td colname="col2"> <p> <p>Importante: O <span class="keyword"> Audience Manager</span> reserva o direito de adicionar novos campos ao final do arquivo CDF em versões futuras. Isso significa que o design técnico do seu sistema de análise de arquivos não deve assumir um número fixo de colunas (embora possa assumir uma ordem fixa para colunas existentes). </p> </p> <p>Os dados no arquivo CDF são exibidos na ordem mostrada abaixo. </p> <p> 
      <ol id="ol_1FDF4A7F089448ED8A724378C23009C8"> 
-      <li id="li_CB97D90B54EB4F95861583D4A5F660C7">Hora do evento </li> 
+      <li id="li_CB97D90B54EB4F95861583D4A5F660C7"> Hora do evento </li> 
       <li id="li_C44E8CCB1A964B7A941FD772FB8A7608">Dispositivo </li> 
       <li id="li_F8AE0D4CA19D411686A240FE06F56147">ID do container </li> 
       <li id="li_660D17989BE54610A01229C47894E8A9"> Características Realizadas </li> 
@@ -224,23 +224,23 @@ A tabela a seguir lista e define os elementos em um nome de [!UICONTROL CDF] arq
    <td colname="col2"> <p>Esse é o bucket de armazenamento raiz padrão para seu arquivo CDF em um servidor Amazon S3. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> <i>seu nome</i> do bucket S3 </code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>your S3 bucket name</i> </code> </p> </td> 
    <td colname="col2"> <p>O nome do bucket S3 somente leitura que armazena seus arquivos CDF. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>day=<i>aaaa-mm-dd</i></code> </p> </td> 
+   <td colname="col1"> <p> <code>day=<i>yyyy-mm-dd</i></code> </p> </td> 
    <td colname="col2"> <p>A data em que seu arquivo foi processado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>hora=<i>hh</i></code> </p> </td> 
+   <td colname="col1"> <p> <code>hour=<i>hh</i></code> </p> </td> 
    <td colname="col2"> <p>Um valor de hora expresso em notação de 24 horas e definido no fuso horário UTC. <a href="#different-processing-times">Consulte também, </a> Horários do Nome do Arquivo do Feed de Dados do Cliente e Horários do Conteúdo do Arquivo.... </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> ID <i>do</i> parceiro </code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>partner ID</i> </code> </p> </td> 
    <td colname="col2"> <p>Sua ID do parceiro. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> ID <i>do processo do</i>AAM_0</code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>AAM process ID</i>_0</code> </p> </td> 
    <td colname="col2"> <p>Uma ID de processo interna do Audience Manager <span class="keyword"></span> . </p> </td> 
   </tr> 
   <tr> 
@@ -300,7 +300,7 @@ As tabelas a seguir listam e definem os elementos em um [!UICONTROL CDF]`.info` 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> Arquivos</code> </p> </td> 
+   <td colname="col1"> <p> <code> Files</code> </p> </td> 
    <td colname="col2"> <p>Inicia o storage que contém metadados sobre seus arquivos CDF. </p> </td> 
   </tr> 
   <tr> 
@@ -309,7 +309,7 @@ As tabelas a seguir listam e definem os elementos em um [!UICONTROL CDF]`.info` 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
-   <td colname="col2"> <p>Amazon S3 ETag. O número após o hífen mostra o número de partes usadas para criar o arquivo durante o upload de várias partes. O <code> ETag</code> não é idêntico à soma de verificação MD5 do arquivo. </p> </td> 
+   <td colname="col2"> <p>Amazon S3 ETag. O número após o hífen mostra o número de partes usadas para criar o arquivo durante o upload de várias partes. O arquivo não <code> ETag</code> é idêntico à soma de verificação MD5 do arquivo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileName</code> </p> </td> 
@@ -333,15 +333,15 @@ As tabelas a seguir listam e definem os elementos em um [!UICONTROL CDF]`.info` 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> Totais</code> </p> </td> 
+   <td colname="col1"> <p> <code> Totals</code> </p> </td> 
    <td colname="col2"> <p>Inicia o objeto que contém dados agregados sobre todos os arquivos CDF. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> Dia</code> </p> </td> 
+   <td colname="col1"> <p> <code> Day</code> </p> </td> 
    <td colname="col2"> <p>O dia em que os dados estão disponíveis. Usa o formato <i>aaaa-mm-dd</i> . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> Hora</code> </p> </td> 
+   <td colname="col1"> <p> <code> Hour</code> </p> </td> 
    <td colname="col2"> <p>A hora para a qual os dados estão disponíveis. Usa o formato de 24 horas definido no fuso horário UTC. </p> </td> 
   </tr> 
   <tr> 
@@ -376,7 +376,7 @@ A tabela a seguir fornece detalhes adicionais sobre os carimbos de data e hora d
 | Nome do arquivo | O carimbo de data e hora em seu nome de arquivo CDF marca a hora em que [!DNL Audience Manager] começou a preparar o arquivo para entrega. Esse carimbo de data e hora é definido no fuso horário UTC. Ele usa o `hour=` parâmetro, com o tempo formatado como uma hora de 2 dígitos em uma notação de 24 horas. Essa hora pode ser diferente da hora do evento registrada no conteúdo do arquivo. DETALHAMENTOAo trabalhar com arquivos CDF, às vezes você perceberá que seu bucket S3 está vazio por uma hora específica. Um compartimento vazio significa um dos seguintes:<ul><li>Não há dados para aquela hora em particular. </li><li> Nossos servidores estão sob cargas pesadas e não podem processar arquivos por uma hora específica. Quando o servidor pega, coloca os arquivos que deveriam ter entrado em um período anterior em um bucket com um valor de tempo posterior. Por exemplo, você verá isso quando um arquivo que deveria estar na hora 17 do bucket for exibido na hora 18 do bucket (com `hour=18` o nome do arquivo). Nesse caso, o servidor provavelmente começou a processar seu arquivo na hora 17, mas não pôde concluí-lo dentro desse intervalo de tempo. Em vez disso, o arquivo é encaminhado para o próximo intervalo de tempo por hora.</li></ul><br>**Importante**: Não use o carimbo de data e hora do nome do arquivo para agrupar eventos por hora. Se precisar agrupar por hora, use o `EventTime` carimbo de data e hora no conteúdo do arquivo. |
 | Conteúdo do arquivo | O carimbo de data e hora no conteúdo do arquivo CDF marca o momento em que os servidores de coleta de dados iniciaram o processamento do arquivo. Esse carimbo de data e hora é definido no fuso horário UTC. Ele usa o `EventTime` campo, com o tempo formatado como *`yyyy-mm-dd hh:mm:ss`*. Essa hora está próxima à hora real do evento na página, mas pode ser diferente do indicador de hora no nome do arquivo. <br> **Dica**: Ao contrário do `hour=` carimbo de data e hora no nome do arquivo, é possível usar `EventTime` para agrupar dados por hora. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Perguntas frequentes sobre o Feed de dados do cliente](../faq/faq-cdf.md)
 
