@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Casos de uso DIL e exemplos de código
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
 translation-type: tm+mt
-source-git-commit: 8763bff3960e2033951cf68e65f5ad44377b2917
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -44,8 +44,11 @@ Lembre-se de manter as propriedades de valor iguais ao transmitir dados. Por exe
 Este exemplo básico envia dados de cor e preço para o Audience Manager na forma de pares de valor chave. Seu código pode ser semelhante ao seguinte:
 
 <pre class="&ldquo;java&rdquo;"><code>
-var sample_dil = DIL.create({parceiro:"nome<i>do</i>parceiro"}); 
-sample_dil.api.signal({ c_color:"blue", c_price:"900" }); 
+var sample_dil = DIL.create({partner:"<i>partner name</i>"}); 
+sample_dil.api.signals({ 
+   c_color:"blue", 
+   c_price:"900" 
+}); 
 sample_dil.api.submit();
 </code></pre>
 
@@ -54,11 +57,14 @@ sample_dil.api.submit();
 Este exemplo avançado demonstra como enviar dados em um objeto para o Audience Manager. Ao trabalhar com esse método, [!UICONTROL DIL] permite que você passe um objeto como parâmetro de função para o [!DNL signals()] método. [!UICONTROL DIL] Seu código pode ser semelhante ao seguinte:
 
 <pre class="java"><code>
-var my_object = { color : "azul", preço : "900" }; 
+var my_object = { 
+   color : "blue", 
+   price : "900" 
+}; 
  
-var sample_dil = DIL.create({ parceiro : "nome<i>do</i>parceiro" }); 
-//Carregue o objeto e anexe "c_" a todas as chaves nos pares de valores chave e envie dados para o AudienceManager. 
-sample_dil.api.signal(my_object,"c_").submit();
+var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
+//Load the object and append "c_" to all keys in the key-value pairs and send data to AudienceManager. 
+sample_dil.api.signals(my_object,"c_").submit();
 </code></pre>
 
 **Exemplo 3: Enviar dados da página em um storage**
@@ -66,19 +72,23 @@ sample_dil.api.signal(my_object,"c_").submit();
 Nesse caso, a variável `my_object` usa uma matriz para armazenar dados. Este exemplo baseia-se nas informações passadas pelo método recomendado acima, mas adiciona uma camada adicional para acomodar um tipo de produto e modelo. Seu código pode ser semelhante ao seguinte:
 
 <pre class="java"><code>
-var my_objects = [{ color : "azul", preço : "900" }, { tipo : "acura", modelo: "tl" }]; 
+var my_objects = [{ 
+   color : "blue", 
+   price : "900" 
+}, { 
+   type : "acura", 
+   model : "tl" 
+}]; 
  
-var sample_dil = DIL.create({ parceiro : "nome<i>do</i>parceiro" }); 
+var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
  
-for (var i = 0; i &lt; my_objects.length; i++) //Carregue o objeto e anexe "c_" a todas as teclas nos pares de valores chave.  
-{ sample_dil.api.signal(my_objects[i], "c_"); 
-} sample_dil.api.submit();
+for (var i = 0; i < my_objects.length; i++) 
+//Load the object and append "c_" to all the keys in the key-value pairs.  
+{ 
+    sample_dil.api.signals(my_objects[i], "c_"); 
+} 
+sample_dil.api.submit();
 </code></pre>
-
->[!MORE_LIKE_THIS]
->
->* [sinais](../dil/dil-instance-methods.md#signals)
-
 
 ## Capturar URL de referência {#capture-referring-url}
 
@@ -99,8 +109,8 @@ c_dil_hrefer_over_https.xml
 Seu código pode ser semelhante ao seguinte:
 
 <pre class="java"><code>
-var adobe_dil = DIL.create({ parceiro : "nome<i>do</i>parceiro" }); 
-adobe_dil.api.signal({ d_referer : document.referrer }).submit();
+var adobe_dil = DIL.create({ partner : "<i>partner name</i>" }); 
+adobe_dil.api.signals({ d_referer : document.referrer }).submit();
 </code></pre>
 
 ## Capturar tipos de mecanismo de pesquisa e termos de pesquisa de palavra-chave {#capture-search-engine-types}
@@ -138,22 +148,35 @@ var search_referrer = DIL.tools.getSearchReferrer();
 Nesse caso, suponhamos que um usuário tenha procurado o termo "casas" do [!DNL Google] Canadá ( `www.google.ca`). Observe como o código prefixa o parâmetro necessário `c_` para o mecanismo de pesquisa ( `c_se`) e o termo de pesquisa ( `c_st`). `c_` é um prefixo [](../features/traits/trait-variable-prefixes.md) necessário que identifica como variáveis definidas pelo cliente para o Audience Manager.
 
 <pre class="java"><code>
-var adobe_dil = DIL.create({parceiro:"nome<i>do</i>parceiro"}); 
+var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
 var search_referrer = DIL.tools.getSearchReferrer(); 
  
-if (search_referrer &amp;&amp; search_referrer.valid) { adobe_dil.api.signal({ c_se : se.name, c_st : se.keywords }).submit(); 
-}</code></pre>
+if (search_referrer && search_referrer.valid) { 
+  adobe_dil.api.signals({ 
+    c_se : se.name, 
+    c_st : se.keywords 
+  }).submit(); 
+}
+</code></pre>
 
 **Amostra de código do mecanismo de pesquisa não listada**
 
 Nesse caso, vamos supor que um usuário buscou o termo "casas" de `dogpile.com`. Como não [!DNL Dogpile] é suportado por padrão, você pode configurar o DIL para reconhecer esse mecanismo de pesquisa e retornar os termos de pesquisa ao Audience Manager. Seu código pode ser semelhante ao seguinte:
 
 <pre class="java"><code>
-var adobe_dil = DIL.create({parceiro:"nome<i>do</i>parceiro"}); 
-var search_referrer = DIL.tools.getSearchReferrer(document.referrer, { hostPattern:/dogpile\./, queryParam:"q" }); 
+var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
+var search_referrer = DIL.tools.getSearchReferrer(document.referrer, {  
+    hostPattern:/dogpile\./, 
+    queryParam:"q" 
+}); 
  
-if (search_referrer &amp;&amp; search_referrer.valid) { adobe_dil.api.signal({ c_se : se.name, c_st : se.keywords }).submit(); 
-}</code></pre>
+if (search_referrer && search_referrer.valid) { 
+  adobe_dil.api.signals({ 
+    c_se : se.name, 
+    c_st : se.keywords 
+  }).submit(); 
+}
+</code></pre>
 
 ## Mapear valores principais para outras chaves {#map-key-values}
 
@@ -187,11 +210,6 @@ adobe_dil.api.signals({c_zip : '10010'}).submit();
 // Request will look like /event?c_zip=10010&d_zip=10010
 ```
 
->[!MORE_LIKE_THIS]
->
->* [Requisitos de prefixo para variáveis-chave](https://marketing.adobe.com/resources/help/en_US/aam/r_tb_variable_prefixes.html)
-
-
 ##  Tráfego DIL no Google Tag Manager (GTM) {#traffic-dil-gtm}
 
 Configure e forneça DIL com uma tag GTM.
@@ -218,7 +236,9 @@ Para fazer o tráfego do `dil.js` arquivo no GTM:
 1. Publique o contêiner.
 1. Gere o código da tag do contêiner e coloque-o no seu inventário.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Centro de ajuda do Google Tag Manager](https://support.google.com/tagmanager#topic=3441530)
+>* [Sinais](../dil/dil-instance-methods.md#signals)
+>* [Requisitos de prefixo para variáveis-chave](https://marketing.adobe.com/resources/help/en_US/aam/r_tb_variable_prefixes.html)
 
