@@ -5,7 +5,7 @@ seo-title: Adicionar controles de exportação de dados a um destino
 solution: Audience Manager
 title: Adicionar controles de exportação de dados a um destino
 translation-type: tm+mt
-source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 Para adicionar rótulos de exportação a um destino:
 
 1. Clique em **[!UICONTROL Audience Data]**:
-   * Para novos destinos: Clique em **[!UICONTROL Create New Destination]**. Preencha a [!UICONTROL Basic Information] seção antes de selecionar um rótulo de exportação de dados. Consulte [Criar um destino](../../features/destinations/create-cookie-destination.md) de cookie ou [Criar um destino](../../features/destinations/create-url-destination.md) de URL para obter informações.
+   * Para novos destinos:Clique em **[!UICONTROL Create New Destination]**. Preencha a [!UICONTROL Basic Information] seção antes de selecionar um rótulo de exportação de dados. Consulte [Criar um destino](../../features/destinations/create-cookie-destination.md) de cookie ou [Criar um destino](../../features/destinations/create-url-destination.md) de URL para obter informações.
    * Para destinos existentes: Use a [!DNL Search] caixa para localizar seu destino ou percorra a lista e clique no nome de destino para abri-lo.
 1. Selecione um [!DNL Data Export Label]. Deixe as caixas de seleção em branco se não quiser definir restrições de exportação. Os rótulos de exportação incluem as seguintes opções:
    * **[!UICONTROL This destination may enable a combination with personally identifiable information (PII)]**
@@ -36,6 +36,6 @@ Para adicionar rótulos de exportação a um destino:
    >As restrições de exportação não funcionarão a menos que você defina um controle [de exportação](../../features/data-export-controls.md) correspondente em uma fonte de dados.
 1. Clique em **[!UICONTROL Save]**.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Criar uma fonte de dados](../../features/manage-datasources.md#create-data-source)
