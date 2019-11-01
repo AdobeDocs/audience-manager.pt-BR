@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Captura de dados de impressão da campanha via Pixel Calls
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: f072c5328ac75bf3376f80e86418d25d4f10df23
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -67,7 +67,7 @@ Chamadas de evento de impressão aceitam dados formados em pares de valores chav
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_cid </code> </td> 
-   <td colname="col2"> <p>Neste contexto, <code> d_cid </code> instancia um par de valor chave que permite associar um tipo de dispositivo móvel a uma ID de usuário exclusiva (DPUUID). Uma ID fixa determina o tipo de dispositivo móvel. O valor, que é a ID do usuário, pode variar. Separe o par de valores chave com <code> %01 </code>, que é um caractere de controle não imprimível. Esse parâmetro aceita as seguintes chaves: </p> 
+   <td colname="col2"> <p>Neste contexto, <code> d_cid </code> instancia um par de valor chave que permite associar um tipo de dispositivo móvel a uma ID de usuário exclusiva (DPUUID). Uma ID fixa determina o tipo de dispositivo móvel. O valor, que é a ID do usuário, pode variar. Separe o par de valor chave por <code> %01 </code>, que é um caractere de controle não imprimível. Esse parâmetro aceita as seguintes chaves: </p> 
     <ul id="ul_4D5D696D10B34615867AF3B64A938878"> 
      <li id="li_A4BD4B0C8C9443BF99075CDFACC013F6">2014: Identifica um dispositivo Android (GAID). Por exemplo, <code> d_cid = 20914 %01 1234 </code> diz que o usuário 1234 está associado a um dispositivo Android. </li> 
      <li id="li_F83D7B3EC4D24D0187BFE639E2812B36">2015: Identifica um dispositivo iOS (IDFA). Por exemplo, <code> d_cid = 20915 %01 5678 </code> diz que o usuário 5678 está associado a um dispositivo iOS. </li> 
@@ -95,11 +95,11 @@ Chamadas de evento de impressão aceitam dados formados em pares de valores chav
   </tr> 
    <tr> 
    <td colname="col1"> <code><i>gdpr</i></code>  </td> 
-   <td colname="col2"> <p>Relacionado ao <a href="../../overview/aam-gdpr/aam-iab-plugin.md">plug-in do Audience Manager para IAB TCF.</a></p> <p><code>gdpr</code> pode ser 0 (o RGPD não se aplica) ou 1 (o RGPD se aplica).</p> <p>O valor padrão é 0.</p><p>Opcional.</p> </td> 
+   <td colname="col2"> <p>Relacionado ao <a href="../../overview/aam-gdpr/aam-iab-plugin.md">plug-in do Audience Manager para IAB TCF.</a></p> <p><code>gdpr</code> pode ser 0 (RGPD não se aplica) ou 1 (RGPD se aplica).</p> <p>O valor padrão é 0.</p><p>Opcional.</p> </td> 
   </tr>
    <tr> 
-   <td colname="col1"> <code>gdpr_agreement</code> </td> 
-   <td colname="col2"> <p>Relacionado ao <a href="../../overview/aam-gdpr/aam-iab-plugin.md">plug-in do Audience Manager para IAB TCF.</a></p><p> Se <code>gdpr=1</code>, então <code>%gdpr_consent%</code> é substituído pela cadeia de caracteres <code>gdpr_consent</code> (consulte a <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external">especificação do IAB</a>).</p> <p>O valor padrão é 0.</p><p>Opcional.</p> </td> 
+   <td colname="col1"> <code>gdpr_consent</code> </td> 
+   <td colname="col2"> <p>Relacionado ao <a href="../../overview/aam-gdpr/aam-iab-plugin.md">plug-in do Audience Manager para IAB TCF.</a></p><p> Se <code>gdpr=1</code>, então <code>%gdpr_consent%</code> é substituído pela string <code>gdpr_consent</code> (consulte a <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external">especificação do IAB</a>).</p> <p>O valor padrão é 0.</p><p>Opcional.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -108,7 +108,7 @@ Chamadas de evento de impressão aceitam dados formados em pares de valores chav
 >
 >Entre em contato com sua consultoria do Adobe Audience Manager ou cliente potencial da conta para obter o URL exato específico do domínio do cliente.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Arquivos de dados e metadados para relatórios de otimização de público-alvo](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
 
