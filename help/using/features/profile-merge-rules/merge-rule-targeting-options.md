@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Casos de uso gerais para regras de mesclagem de perfil
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 translation-type: tm+mt
-source-git-commit: 532c69981ebc082bd411a9232e9ef207b59dace5
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -112,7 +112,7 @@ Assista ao vídeo abaixo para obter uma visão geral de possíveis casos de uso 
 
 >[!VIDEO](https://video.tv.adobe.com/v/28975/?captions=por_br)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Casos de uso do gráfico de dispositivo de link de perfil](profile-link-use-case.md)
 >* [Casos de uso do gráfico do dispositivo externo](external-graph-use-cases.md)
