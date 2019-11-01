@@ -6,7 +6,7 @@ solution: Audience Manager
 title: APIs de chamada de evento DCS
 uuid: 84754960-9ef0-454d-8f5c-33846e2494f6
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -29,7 +29,7 @@ Para começar, consulte as seções abaixo. Comece com [Enviar dados para o DCS]
 * [Enviar dados para o DCS](dcs-url-send.md)
 * [Receber dados do DCS](dcs-url-receive.md)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Referência da API DCS](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
