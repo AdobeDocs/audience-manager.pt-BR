@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Enviar segmentos para uma lista de recomercialização do Google AdWords
 uuid: 5ad821c6-48b4-42c0-b912-156333e93a2
 translation-type: tm+mt
-source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -28,7 +28,7 @@ Para configurar uma lista de [!DNL Google Ads] remarketing como um destino de [!
    ```
 
 1. No Audience Manager, [crie um destino](../../features/destinations/create-url-destination.md) de URL ou edite um destino existente. Use as seguintes configurações ao criar o destino:
-   * Tipo: URL
+   * Tipo:URL
    * Serializar: Ativado
    * Delimitador: Ponto-e-vírgula (;)
 
@@ -65,7 +65,7 @@ Um mapeamento concluído pode ser semelhante a:
 
 ![](../assets/rlsa_mapping.png)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Destinos](../../features/destinations/destinations.md)
 >* [Criar um destino de URL](../../features/destinations/create-url-destination.md)
