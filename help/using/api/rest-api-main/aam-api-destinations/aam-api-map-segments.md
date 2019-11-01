@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Mapear segmentos para um destino
 uuid: 35358ace-3082-4e86-a6eb-d77281af6d7e
 translation-type: tm+mt
-source-git-commit: 8ab675cac67a0e6353cf5fd14944c7c5cc849e5a
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -20,13 +20,6 @@ Mapeie segmentos para destinos com esses [!DNL RESTful API] métodos.
 ## Tipos de Destino Suportados: URL e somente cookie
 
 Os `POST` métodos disponíveis permitem mapear segmentos para [!UICONTROL URL] e [!UICONTROL cookie destinations] apenas. Atualmente, não é possível mapear segmentos para [!UICONTROL server-to-server destinations] esses [!DNL REST API] métodos. Em vez disso, use a interface do usuário. No entanto, os `GET` métodos de destino relacionados permitem que você recupere informações sobre [!UICONTROL server-to-server destinations] a criação na interface do usuário.
-
->[!MORE_LIKE_THIS]
->
->* [Destinos](../../../features/destinations/destinations.md)
->* [Serialização do destino](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [Explicação dos pares de valor-chave](../../../reference/key-value-pairs-explained.md)
-
 
 ## Mapear um segmento para um destino de URL não serializado {#map-segment-non-serial}
 
@@ -584,3 +577,10 @@ Todos os valores de solicitação são obrigatórios, a menos que seja indicado 
     "traitAlias": null
 }
 ```
+
+>[!MORELIKETHIS]
+>
+>* [Destinos](../../../features/destinations/destinations.md)
+>* [Serialização do destino](../../../features/destinations/key-value-pairs.md#destination-serialized)
+>* [Explicação dos pares de valor-chave](../../../reference/key-value-pairs-explained.md)
+
