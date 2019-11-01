@@ -1,12 +1,12 @@
 ---
 description: Este artigo descreve os operadores de comparação usados pelo Construtor de características.
 seo-description: Este artigo descreve os operadores de comparação usados pelo Construtor de características.
-seo-title: ' Trabalhar com operadores de comparação no Construtor de características'
+seo-title: Trabalhar com operadores de comparação no Construtor de características
 solution: Audience Manager
-title: ' Trabalhar com operadores de comparação no Construtor de características'
+title: Trabalhar com operadores de comparação no Construtor de características
 uuid: 41bec3b3-e5df-4a6f-abb0-80ce4c75f5e7
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -50,7 +50,7 @@ Você pode criar regras com os seguintes operadores nomeados:
 | **[!UICONTROL Endswith]** | O valor em um par de valor chave *termina com* os caracteres especificados por esse operador. |
 | **[!UICONTROL Matchesregex]** | O valor em um par de valores chave *corresponde* ao padrão especificado por uma expressão regular. [Saiba mais](../../features/traits/trait-builder-regex.md) sobre como usar expressões regulares em [!UICONTROL Trait Builder]. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Expressões booleanas no Construtor de traços e segmentos](../../reference/boolean-expressions-tsb.md)
 >* [Compreensão das expressões booleanas no TraitBuilder](../../reference/boolean-expressions-tsb.md)
