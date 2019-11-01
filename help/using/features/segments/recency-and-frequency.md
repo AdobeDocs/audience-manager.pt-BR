@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Idade e frequência
 uuid: faadd18a-bf27-4b73-995e-9809f52f5350
 translation-type: tm+mt
-source-git-commit: 1cbff10b9e978755e139e7d5b996249de5ebb5bd
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -69,34 +69,34 @@ Analise e entenda esses limites e regras quando quiser aplicar recenticidade e f
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Características de terceiros</b> </p> </td> 
-   <td colname="col2"> <p>You cannot set frequency rules on individual third-party traits or trait groups that contain third-party traits. Recency and frequency applies to your own traits only. </p> </td> 
+   <td colname="col2"> <p>Não é possível definir regras de frequência em características individuais de terceiros ou grupos de características que contenham características de terceiros. A recenticidade e a frequência se aplicam somente às suas próprias características. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Tipos de características</b> </p> </td> 
-   <td colname="col2"> <p>You can apply frequency controls to rule-based and folder traits only. </p> </td> 
+   <td colname="col2"> <p>Você pode aplicar controles de frequência somente a características com base em regras e pastas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Recency Requirements</b> </p> </td> 
-   <td colname="col2"> <p>You can configure frequency requirements without configuring recency requirements. <i></i> Just set a frequency value and leave the recency field blank. </p> </td> 
+   <td colname="col1"> <p> <b>Requisitos de recenticidade</b> </p> </td> 
+   <td colname="col2"> <p>Você pode configurar os requisitos de frequência <i>sem</i> configurar os requisitos de recenticidade. Basta definir um valor de frequência e deixar o campo de recenticidade em branco. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Profile Merge Rules</b> </p> </td> 
-   <td colname="col2"> <p>See  Trait Frequency, External Device Graphs, and Profile Merge Rules.<a href="../../faq/faq-profile-merge.md#trait-freq-device-rules"></a> </p> </td> 
+   <td colname="col1"> <p><b>Regras de mesclagem de perfil</b> </p> </td> 
+   <td colname="col2"> <p>Consulte <a href="../../faq/faq-profile-merge.md#trait-freq-device-rules"> Frequência de características, Gráficos de dispositivos externos e Regras</a>de mesclagem de perfis. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Recency Examples {#recency-examples}
+## Exemplos de recenticidade {#recency-examples}
 
-Here are two examples of how recency works, depending on your selection in the UI:
+Estes são dois exemplos de como a atualização funciona, dependendo de sua seleção na interface do usuário:
 
-### Using a less than or equal to operator (&lt;=)
+### Usando um operador menor que ou igual a (&lt;=)
 
-![Less-than-equal-to](assets/less-than-equal-to.png)
+![Menor que igual a](assets/less-than-equal-to.png)
 
-In this example, you select the &lt;= operator, as shown in the screenshot. This qualifies your user for the segment if they qualify for any of the three traits a minimum of three times within the last five days. A linha do tempo abaixo mostra a qualificação do segmento no momento em que o segmento é criado, em 1º de outubro e dez dias depois.
+Neste exemplo, você seleciona o operador &lt;=, como mostrado na captura de tela. Isso qualifica o usuário para o segmento se ele se qualificar para qualquer uma das três características pelo menos três vezes nos últimos cinco dias. A linha do tempo abaixo mostra a qualificação do segmento no momento em que o segmento é criado, em 1º de outubro e dez dias depois.
 
-![Last-five-days](assets/last-5-days.png)
+![Últimos cinco dias](assets/last-5-days.png)
 
 ### Usando um operador maior que ou igual a (=&gt;)
 
@@ -119,7 +119,7 @@ As expressões de limite de frequência incluem todos os usuários cujo número 
 
 * Direita - Para casos de uso de limite de frequência de publicidade, é possível criar uma regra de segmento semelhante a esta: `(frequency([1000T] <= 2D) >= 5)`. Essa expressão inclui todos os usuários que perceberam a característica com a ID "1000" nos últimos 2 dias pelo menos cinco vezes. Defina o limite de frequência enviando esse segmento para o servidor de publicidade com um `NOT` conjunto definido no segmento no servidor de publicidade. Essa abordagem atinge um desempenho maior em [!DNL Audience Manager] simultâneo com o mesmo propósito para o limite de frequência.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Controles do Construtor de segmentos: Seção Características](../../features/segments/segment-builder.md#segment-builder-controls-traits)
 >* [Sintaxe de código usada no Editor de expressão de segmento](../../features/segments/segment-code-syntax.md)
