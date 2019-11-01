@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Macros de destino definidas
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -40,16 +40,16 @@ Ao criar um [!DNL URL] destino, você pode inserir as seguintes macros na [!DNL 
    <td colname="col2"> <p>Insere a ID do Audience Manager <span class="keyword"></span> do usuário no URL de destino. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>%dpid_id<i>da fonte de dados id</i>%</code> </p> </td> 
+   <td colname="col1"> <p> <code>%dpid_<i>data source id</i>%</code> </p> </td> 
    <td colname="col2"> <p>A ID <i>da fonte de</i> dados corresponde ao identificador de uma fonte de dados transmitida para a macro. </p> <p>Vejamos como isto funciona num exemplo simples. Nesse caso, temos um parceiro <span class="keyword"> Audience Manager</span> com as seguintes IDs e condições: </p> 
     <ul id="ul_697508B437EB4090B121AFA5D519AFBE"> 
      <li id="li_32D9F72A7D1543A892DC7E1529E98A96">ID da fonte de dados: <code> 1</code> </li> 
-     <li id="li_099F5B63D2244B5AADA9B26CB6152E6B">Uma ID interna do cliente: <code> Cliente ABC</code> </li> 
+     <li id="li_099F5B63D2244B5AADA9B26CB6152E6B">Uma ID interna do cliente: <code> CustomerABC</code> </li> 
      <li id="li_0D9FE501C16444DDB388C8E934E5A8C6">ID declarada: O parceiro deseja transmitir esses valores como a ID declarada <code> 1:CustomerABC</code>. </li> 
-    </ul> <p>Para fazer isso com o <code>%dpid_<i>data source id</i>%</code>, o parceiro do <span class="keyword"> Audience Manager</span> formataria a macro da seguinte maneira: </p> 
+    </ul> <p>Para fazer isso com o <code>%dpid_<i>data source id</i>%</code>, o parceiro do <span class="keyword"> Audience Manager</span> formataria a macro desta forma: </p> 
     <ul class="simplelist"> 
      <li> <code> %dpid_1%</code> </li> 
-    </ul> <p>A macro substituirá <code> 1</code> pelo <code> cliente ABC</code>. </p> <p> 
+    </ul> <p>A macro será substituída <code> 1</code> por <code> CustomerABC</code>. </p> <p> 
      <draft-comment>
        Baseado no AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193 
      </draft-comment> </p> </td> 
@@ -101,6 +101,6 @@ A eliminação de cache impede que os navegadores salvem e reutilizem conteúdo.
 
 Ambas as macros impedem o cache, mas `%rnd%` podem ser mais eficientes. Por exemplo, com `%timestamp%`, se vários usuários visualizarem uma página simultaneamente, eles obterão o mesmo valor de data/hora. Como resultado, as chamadas não [!DNL URL] são exclusivas e várias são contadas apenas uma vez. No entanto, `%rnd%` gera um valor numérico exclusivo para cada chamada (mesmo quando os usuários veem a mesma página simultaneamente). Isso significa que a [!DNL URL] string contém valores diferentes e é contada como exclusiva.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Macros de destino definidas](../../features/destinations/destination-macros.md#destination-macros-defined)
