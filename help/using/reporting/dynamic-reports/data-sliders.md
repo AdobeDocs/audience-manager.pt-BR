@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Filtrar resultados do relatório com os controles deslizantes de dados
 uuid: ec486d97-d1d9-469b-b8df-5821f30d10ee
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -28,7 +28,7 @@ Os controles deslizantes do relatório permitem definir limites nos dados retorn
 * Reduza a quantidade geral de dados retornados pelos relatórios.
 * Foco em características ou segmentos que se encaixam em um intervalo de tamanho específico.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Como entender os filtros de dados no relatório de sobreposição de segmento para característica](../../reporting/dynamic-reports/segment-trait-overlap-report.md#data-filters-s2t-report)
 
