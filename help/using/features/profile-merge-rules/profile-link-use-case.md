@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Casos de uso do gráfico de dispositivo de link de perfil
 uuid: bd5567fd-fcd5-40ba-b6f1-035d2dbcd3a
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -43,7 +43,7 @@ Isso [!UICONTROL Profile Merge Rule] permite que os profissionais de marketing o
 
 ![personalização entre dispositivos](assets/cross-device-personalization.png)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Casos de uso do gráfico do dispositivo externo](external-graph-use-cases.md)
 >* [Casos de uso gerais para regras de mesclagem de perfil](merge-rule-targeting-options.md)
