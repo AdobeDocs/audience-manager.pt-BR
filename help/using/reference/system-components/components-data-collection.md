@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Componentes da coleção de dados
 uuid: 51bb1719-5ff2-4bc7-8eb1-98795e05d08f
 translation-type: tm+mt
-source-git-commit: 5730b94d7f72cdc406c2be6c063edf65886044e3
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -93,7 +93,7 @@ Esses são sistemas que recebem dados enviados por várias integrações de serv
 
 O [!UICONTROL PCS] cria e grava dados nos arquivos de log. Eles são enviados para outros sistemas de banco de dados para processamento, relatório e armazenamento.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Centro de privacidade da Adobe](https://www.adobe.com/privacy.html)
 
