@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Gerenciando regras de características
 uuid: 827d4567-2b6f-411e-bd5c-9735c916291a
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -61,13 +61,6 @@ Clicar **[!UICONTROL Add Rule]** salva e move a característica para dentro da [
 
 ![](assets/tb_sample_rule2.png)
 
->[!MORE_LIKE_THIS]
->
->* [Criar um novo grupo de regras](../../features/traits/manage-trait-rules.md#create-rule-group)
->* [Mover regras entre grupos](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
->* [Excluir uma regra de característica](../../features/traits/manage-trait-rules.md#delete-trait)
-
-
 ## Create a New Rule Group {#create-rule-group}
 
 Este procedimento descreve como criar um novo grupo de regras.
@@ -84,23 +77,9 @@ Isso automaticamente separa a regra do grupo atual e a move para um novo grupo.
    >Arraste uma regra de volta ao grupo original se movê-la não intencionalmente.
 1. Selecione um [!DNL Boolean] operador ( [!UICONTROL AND], [!UICONTROL OR], [!UICONTROL AND NOT]) no menu suspenso para definir a relação entre os grupos de regras.
 
->[!MORE_LIKE_THIS]
->
->* [Criar uma regra de característica](../../features/traits/manage-trait-rules.md#create-trait-rule)
->* [Mover regras entre grupos](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
->* [Excluir uma regra de característica](../../features/traits/manage-trait-rules.md#delete-trait)
-
-
 ## Mover regras entre grupos {#move-rules-between-groups}
 
 Para mover uma regra, clique e arraste-a para outro grupo.
-
->[!MORE_LIKE_THIS]
->
->* [Criar uma regra de característica](../../features/traits/manage-trait-rules.md#create-trait-rule)
->* [Criar um novo grupo de regras](../../features/traits/manage-trait-rules.md#create-rule-group)
->* [Excluir uma regra de característica](../../features/traits/manage-trait-rules.md#delete-trait)
-
 
 ## Editar uma característica {#edit-trait}
 
@@ -122,3 +101,12 @@ Este procedimento descreve como excluir uma regra de característica.
 1. No [!UICONTROL Traits] painel, passe o mouse sobre as [!UICONTROL Actions] colunas da característica que deseja editar e clique no ícone de lápis. Isso traz à tona os ícones de gerenciamento de características.
 1. Expand the [!UICONTROL Trait Expression] section.
 1. Passe o mouse sobre a regra que deseja excluir e clique no ícone X. A regra é excluída imediatamente.
+
+>[!MORELIKETHIS]
+>
+>* [Criar um novo grupo de regras](../../features/traits/manage-trait-rules.md#create-rule-group)
+>* [Mover regras entre grupos](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
+>* [Criar uma regra de característica](../../features/traits/manage-trait-rules.md#create-trait-rule)
+>* [Excluir uma regra de característica](../../features/traits/manage-trait-rules.md#delete-trait)
+>* [Mover regras entre grupos](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
+
