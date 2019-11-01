@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Introdução às regras de mesclagem de perfil
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 translation-type: tm+mt
-source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -54,11 +54,6 @@ Para concluir a [!UICONTROL Data Source Details] seção:
 * **[!UICONTROL Data retention for inactive Customer IDs]**: Esse controle permite definir o período de retenção de dados para IDs de cliente inativas. Isso determina por quanto tempo o Audience Manager mantém as IDs do cliente em nosso banco de dados após serem vistas pela última vez na plataforma do Audience Manager. O valor padrão é 24 meses (720 dias). O valor mínimo que você pode definir é 1 mês e o valor máximo é 5 anos. Observe que todos os meses são contados como 30 dias. O Audience Manager executa um processo que exclui IDs de cliente inativas uma vez por semana, de acordo com a retenção de dados definida para IDs de cliente inativas.
 
 Os campos de texto associados a essas configurações permitem que você renomeie o arquivo com um alias que aparece nas opções [!UICONTROL Data Source] Regra de mesclagem de [](merge-rule-definitions.md)perfil. Por exemplo, se você adicionar um alias a **[!UICONTROL Use as Authenticated Profile]**, esse nome será exibido na [!UICONTROL Authenticated Profile Options] lista. Se você adicionar um alias a **[!UICONTROL Use as a Device Graph]**, esse nome será exibido na [!UICONTROL Device Options] lista.
-
->[!MORE_LIKE_THIS]
->
->* [Criar uma fonte de dados](../manage-datasources.md#create-data-source)
-
 
 ## Criar uma regra de mesclagem de perfil {#create-profile-merge-rule}
 
@@ -214,3 +209,8 @@ Verifique os métodos em seu [!DNL SDK] código que permitem a passagem [!UICONT
 </table>
 
 Consulte também Métodos do [Audience Manager para Android](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=c_audience_manager_methods.html) e Métodos do [Audience Manager para iOS](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=aam_methods.html).
+
+>[!MORELIKETHIS]
+>
+>* [Criar uma fonte de dados](../manage-datasources.md#create-data-source)
+
