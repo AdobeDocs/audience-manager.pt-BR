@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Estados de autenticação do visitante no Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -82,7 +82,7 @@ Chamada de amostra (o valor da solicitação correspondente ao status de autenti
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" morerows="1"> <p> <code>2</code> </p> </td> 
+   <td colname="col1" morerows="1"> <p> <code> 2 </code> </p> </td> 
    <td colname="col2"> Sim, se a regra de mesclagem de opções autenticadas = "Perfis autenticados pela última vez" </td> 
    <td colname="col3" morerows="1"> <p>Não, os dados de características são gravados no perfil do dispositivo. </p> </td> 
   </tr> 
@@ -100,7 +100,7 @@ Chamada de amostra (o valor da solicitação correspondente ao status de autenti
 >
 >[!DNL Audience Manager] executa uma sincronização de ID entre [CID e UUID](../reference/ids-in-aam.md) em todos os três casos.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Estados de autenticação e IDs do cliente](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html)
 
