@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Relatório de sobreposição de característica por característica
 uuid: 7fb3fc9e-0e0b-492a-9c3a-04356afb19c7
 translation-type: tm+mt
-source-git-commit: 4dc8aad623198cbc24c5c76ac3818d7ee00e9a5e
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -27,7 +27,7 @@ c_overlap_reports.xml
 
 ## Visão geral
 
-O [!UICONTROL Trait-to-Trait Overlap] relatório retorna dados sobre a % de usuários únicos compartilhados entre todas as suas características e as de terceiros. Como ferramenta de otimização, este relatório ajuda a:
+O [!UICONTROL Trait-to-Trait Overlap] relatório retorna dados sobre a % de usuários únicos compartilhados entre todas as suas características e as de terceiros. Como ferramenta de otimização, este relatório ajuda você a:
 
 * Crie segmentos com sobreposição alta ou baixa, dependendo de suas necessidades. Características com alta sobreposição oferecem um público-alvo direcionado, mas menos visitantes únicos. Características com baixa sobreposição podem ser úteis para alcançar um conjunto de visitantes maior e único.
 * Validar dados de características de terceiros: Uma forte sobreposição entre características semelhantes de terceiros e originais sugere que a característica do seu parceiro de dados é precisa e confiável. Por outro lado, a baixa sobreposição pode indicar que uma característica de terceiros pode não conter as mesmas informações que a sua própria característica primária, semelhante.
@@ -102,7 +102,7 @@ O pop-up do [!UICONTROL Trait-to-Trait Overlap] relatório contém as métricas 
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Filtrar resultados do relatório com os controles deslizantes de dados](../../reporting/dynamic-reports/data-sliders.md)
 >* [Formas, cores e tamanhos usados em relatórios dinâmicos](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
