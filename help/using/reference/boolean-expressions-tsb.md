@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Expressões booleanas no Construtor de traços e segmentos
 uuid: 14f02d3f-4c84-41fe-bc91-b34f0d49574a
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -76,7 +76,7 @@ O [!UICONTROL OR] operador é útil quando você deseja criar sinais com requisi
 
 O [!UICONTROL AND NOT] operador é útil quando é mais fácil definir um público-alvo por *exclusão* em vez de *inclusão*. Por exemplo, digamos que você esteja realizando uma venda e queira segmentar os visitantes em clientes que visualizam somente itens de preço total. Em vez de criar uma lista de sinais para todos os itens qualificados de preço total ou de venda, pode ser mais fácil qualificar os visitantes se eles *não* tiverem visto um item de preço de venda. Isso é eficiente administrativamente porque você geralmente tem menos itens de preço de venda em comparação com aqueles oferecidos pelo preço total. Com um booliano [!UICONTROL NOT], os visitantes não *devem* exibir o sinal de venda para se qualificarem para associação de público-alvo de preço total. Por outro lado, [!UICONTROL AND NOT] é o oposto do caso de [!UICONTROL AND] uso, que mostra como a associação do público-alvo é determinada pela inclusão (ou seja, o visitante se qualificou com base em 2 sinais explicitamente declarados).
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Trabalhar com operadores de comparação no TraitBuilder](../features/traits/trait-comparison-operators.md)
 >* [Ordem de operações nas expressões do TraitBuilder](../features/traits/trait-operator-precedence.md)
