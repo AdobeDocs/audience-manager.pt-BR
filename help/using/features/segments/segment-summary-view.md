@@ -1,24 +1,38 @@
 ---
 description: A página de resumo do segmento exibe detalhes como nome, características no segmento, regras, dados de desempenho e informações de mapeamento de destino.
 seo-description: A página de resumo do segmento exibe detalhes como nome, características no segmento, regras, dados de desempenho e informações de mapeamento de destino.
-seo-title: Exibição do resumo do segmento
+seo-title: Página Detalhes do Segmento
 solution: Audience Manager
-title: Exibição do resumo do segmento
+title: Página Detalhes do Segmento
 uuid: e844e423-9701-42d4-9ba5-d82f41358adc
 keywords: detalhamento de tipo de identidade, detalhamento de identidade, relatório de identidade de público-alvo
 translation-type: tm+mt
-source-git-commit: 345042673a9ee7abdac994d774e5c4c893a78749
+source-git-commit: 51f38819bfbc72c2588f63a63fb8ba2e963919ff
 
 ---
 
 
-# Exibição do resumo do segmento {#segment-summary-view}
+# Página Detalhes do Segmento {#segment-summary-view}
 
-A [!UICONTROL Segment Summary] página exibe detalhes como nome, características no segmento, dados de desempenho de regras e informações de mapeamento de destino.
+A página de detalhes de um segmento individual fornece uma visão geral dos detalhes do segmento, como nome do segmento, ID, métricas de desempenho, regras que definem o segmento e os mapeamentos de destino. Para exibir esses detalhes, vá até **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Segments]** e clique no nome do segmento com o qual você deseja trabalhar.
 
-Clique no nome de um segmento no painel principal para acessar a página de resumo. As seções de resumo incluem:
+## Ferramentas de gerenciamento de segmentos {#segment-management-tools}
 
-1. **[!UICONTROL Basic Information]** : Mostra detalhes obrigatórios e opcionais especificados quando o segmento foi criado.
+A parte superior da página de detalhes do segmento hospeda as ferramentas que você pode usar para gerenciar seus segmentos:
+
+1. **[!UICONTROL Add New]**: Use essa opção para ativar [!UICONTROL Segment Builder] e criar novos segmentos.
+2. **[!UICONTROL Edit]**: Use essa opção para alterar a configuração do segmento atual.
+3. **[!UICONTROL Duplicate]**: Use essa opção para criar uma cópia do segmento atual.
+4. **[!UICONTROL Delete]**: Use essa opção para remover o segmento atual da sua conta do Audience Manager.
+5. **[!UICONTROL Marketplace Recommendations]**: Use essa opção para localizar segmentos semelhantes àqueles que você está visualizando, de feeds de [!UICONTROL Audience Marketplace] dados aos quais você não está inscrito. Consulte [Audience Marketplace para Compradores](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) de Dados para saber como navegar no Mercado e encontrar segmentos semelhantes.
+
+![informações básicas do segmento](assets/basic-segment-information.png)
+
+## Informações do segmento {#basics}
+
+Abaixo das ferramentas de gerenciamento de segmentos você pode encontrar as seguintes informações de segmento:
+
+1. **[!UICONTROL Basic Information]** : Mostra detalhes obrigatórios e opcionais especificados quando o segmento foi criado. Consulte Construtor [de](segment-builder.md) segmentos para obter uma visão geral detalhada do que esses campos significam.
 2. **[!UICONTROL Segment Graph]** : Exibe dados de desempenho graficamente e para intervalos fixos de 1, 7, 14, 30, 60 e 90 dias. Explicamos os números da população de segmentos em um artigo [](../../features/segments/segment-builder-data.md)separado.
 
    ![gráfico de segmentos](assets/segment-graph.png)
@@ -31,6 +45,7 @@ Clique no nome de um segmento no painel principal para acessar a página de resu
    >
    >O Audience Manager só exibe o [!UICONTROL Identity Type Breakdown] relatório se você tiver IDs de dispositivo cruzado qualificadas para o segmento.
 
+   Assista ao vídeo abaixo para obter uma visão geral do [!UICONTROL Identity Type Breakdown].
    >[!VIDEO](https://video.tv.adobe.com/v/27977/?captions=por_br)
 
 4. **[!UICONTROL Segment Rules]** : Lista as características no segmento junto com as regras de qualificação.
