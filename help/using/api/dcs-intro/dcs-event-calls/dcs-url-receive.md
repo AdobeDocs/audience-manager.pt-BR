@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Receber dados do DCS
 uuid: fbb77197-8530-48a8-b708-d785f7214494
 translation-type: tm+mt
-source-git-commit: bc2a9364b771436fe0191f9d69a8c291563f9229
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -61,7 +61,7 @@ A tabela abaixo lista e define os parâmetros mais comuns que você pode ver em 
 | `u` e `uuid` | ID de usuário exclusiva atribuída pelo Audience Manager. Isso é necessário se você estiver realizando chamadas [](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)DCS de servidor para servidor. |
 | `y` | Tipo de destino, iFrame (`iframe`) ou imagem (`img`). |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Prefixos e variáveis de valor-chave suportados pelo DCS](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md)
 
