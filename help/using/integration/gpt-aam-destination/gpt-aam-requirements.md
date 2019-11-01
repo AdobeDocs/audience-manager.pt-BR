@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Requisitos e métodos de envio de segmentos para DFP usando Google Publisher Tags (GPT)
 uuid: 4b2ea81c-29bb-42d3-93d3-1d8e67790b6
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -49,7 +49,7 @@ Entre em contato com seu consultor do Audience Manager ou com o Atendimento ao c
 >
 >Se suas páginas da Web estiverem executando a biblioteca de páginas [de mídia](https://www.ampproject.org/) acelerada ([!DNL AMP]), você deverá usar a integração do servidor com o Audience Manager. Se você estiver ligado [!DNL AMP] e tiver uma integração do lado do cliente com [!DNL AMP], é necessário migrar para a integração do lado do servidor. Entre em contato com seu consultor do Audience Manager ou com o Atendimento ao cliente para discutir a migração.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Guia de referência da API GPT](https://support.google.com/dfp_premium/bin/answer.py?hl=en&answer=1650154)
 
