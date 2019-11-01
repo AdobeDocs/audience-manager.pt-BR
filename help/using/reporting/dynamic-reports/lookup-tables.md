@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Melhore os tempos de processamento do arquivo de log com tabelas de pesquisa
 uuid: ffc77618-474b-455e-9c91-15b32fc151a5
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -70,7 +70,7 @@ O arquivo de pesquisa abaixo contém os metadados e pode ser vinculado de volta 
 
 Se seu sistema de serviço de anúncios tiver uma API, talvez você não precise enviar metadados em um arquivo de pesquisa. Talvez possamos obter essas informações por meio da API. Nesse caso, seus arquivos de registro devem conter apenas IDs. Trabalharemos com você para determinar se os metadados podem ser obtidos por meio de uma API.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Relatório de entrega e desempenho](../../reporting/dynamic-reports/delivery-performance-report.md)
 
