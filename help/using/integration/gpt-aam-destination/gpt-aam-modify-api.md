@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Modificar a chamada da API setTargeting GPT
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -57,7 +57,7 @@ Define as variáveis principais usadas na `if` instrução.
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getKey </code> </p> </td> 
    <td colname="col2"> <p>String   </p> </td> 
-   <td colname="col3"> <p>Retorna a chave no par de segmentos de valor chave. Por exemplo, se seu par de valores chave consistiu em <code> color=blue </code>, isso retornará <code> color </code>. </p> </td> 
+   <td colname="col3"> <p>Retorna a chave no par de segmentos de valor chave. Por exemplo, se seu par de valor chave consistiu em <code> color=blue </code>, isso retornará <code> color </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getValues </code> </p> </td> 
@@ -72,7 +72,7 @@ Define as variáveis principais usadas na `if` instrução.
  </tbody>
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Criar um destino GPT](../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
 >* [Código do Audience Manager para tags do Google Publisher](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
