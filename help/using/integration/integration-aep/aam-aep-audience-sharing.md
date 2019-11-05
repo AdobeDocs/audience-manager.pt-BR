@@ -4,9 +4,9 @@ seo-description: Este artigo descreve como os públicos-alvo são compartilhados
 seo-title: Compartilhamento de público-alvo entre o Audience Manager e a Adobe Experience Platform
 solution: Audience Manager
 title: Compartilhamento de público-alvo entre o Audience Manager e a Adobe Experience Platform
-keywords: Compartilhamento de público-alvo AEP, segmentos AEP, segmentos de plataforma
+keywords: Compartilhamento de público-alvo AEP, segmentos AEP, segmentos de plataforma, compartilhamento de segmentos, compartilhamento de público-alvo
 translation-type: tm+mt
-source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
+source-git-commit: 897cc523aa52b1594e1c53f48459ddd7fd33d033
 
 ---
 
