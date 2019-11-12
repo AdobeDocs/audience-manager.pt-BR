@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Macros de modelo de saída
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 94984d14be6febf4de3ee3e0e79fba432e1cb15f
 
 ---
 
@@ -38,6 +38,10 @@ A tabela lista e descreve as macros que podem ser usadas no nome do arquivo e pa
   <tr> 
    <td colname="col1"> <p> <code> MASTER_DPID </code> </p> </td> 
    <td colname="col2"> <p>ID do provedor de dados da chave de ID do usuário. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code> NEW_LINE </code> </p> </td> 
+   <td colname="col2"> <p> Permite a criação de cabeçalhos de várias linhas para ordens de saída. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ORDER_ID </code> </p> </td> 
@@ -161,7 +165,7 @@ Macros usadas para formatar o conteúdo de um arquivo de dados. Para obter exemp
    <td colname="col1"> <p> <code> SEGMENT_LIST </code> </p> </td> 
    <td colname="col2"> <p>Retorna uma lista de segmentos em uma lista. Aceita os seguintes argumentos opcionais: </p> 
     <ul id="ul_B111AA0D6C18445598A1444B8B7E9325"> 
-     <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code> segmentId </code>:ID do segmento. Obsoleto. Use <code> sid </code>. </li> 
+     <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code> segmentId </code>: ID do segmento. Obsoleto. Use <code> sid </code>. </li> 
      <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code> csegid </code>: ID do segmento do cliente. Obsoleto. Use <code> sid </code>. </li> 
      <li id="li_D85F0A5D16AE4DAFB55C17DBB35EA66E"> <code> sid </code>: ID do segmento </li> 
      <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code> type </code>: Retorna <code> 5 </code>, um valor estático codificado que identifica dados como dados de segmento. </li> 
