@@ -5,9 +5,9 @@ seo-description: As Ferramentas de Gerenciamento em massa permitem que você cri
 seo-title: Introdução ao Gerenciamento em massa
 solution: Audience Manager
 title: Introdução ao Gerenciamento em massa
-uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c0c6c6aa2f1
+uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 963d765845dae6abe107be04d5aae2c49e7fb575
 
 ---
 
@@ -39,7 +39,7 @@ Baixe a planilha mais recente **[aqui](assets/BAAAM_V2_20191015.xlsm)**.
 Para usar o [!DNL Bulk Management Tools], é necessário o seguinte:
 
 * Seu [!DNL Experience Cloud] logon. Como cliente, você já deve ter essas credenciais.
-* A [!DNL Bulk Management Tools] planilha. [Baixe a planilha](/help/using/reference/bulk-management-tools/bulk-management-intro.md#download) para obter a versão mais recente.
+* A [!DNL Bulk Management Tools] planilha. [Baixe a planilha](assets/BAAAM_V2_20191015.xlsm) para obter a versão mais recente.
 * Microsoft Excel em execução em [!DNL macOS] ou 64 bits [!DNL Microsoft Windows].
 * Ao abrir a planilha, você deve **Ativar macros** para que [!DNL Bulk Management Tools] funcionem.
 
@@ -118,10 +118,4 @@ Como exemplo, vamos ver como criar várias características de uma só vez. Para
 >[!NOTE]
 >
 >Ao trabalhar com solicitações grandes, a planilha pode ficar sem resposta e parecer inativa. Nesses casos, deixe-o em paz. A planilha se tornará responsiva quando a solicitação em massa for concluída. Se a planilha não responder por um longo período, consulte a seção [Solução de](../../reference/bulk-management-tools/bulk-troubleshooting.md)problemas.
-
-
-
->[!MORELIKETHIS]
->
->* [Download da Planilha de Gerenciamento em Massa](assets/BAAAM_August_2018.xlsm)
 
