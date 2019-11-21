@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Sincronização de ID para transferências de dados de saída
 uuid: f3849be8-1094-47db-9296-7482f020af18
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: b1e438a77a472c192117a2c1ddcf63f4eb25d07d
 
 ---
 
@@ -60,7 +60,7 @@ A chamada [!DNL URL] de sincronização de ID de entrada deve conter variáveis 
     </tr> 
   <tr> 
    <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i> </code> </td> 
-   <td colname="col2"> <p><code>gdpr</code> pode ser 0 (RGPD não se aplica) ou 1 (RGPD se aplica).</p><p><b>Observação:</b> <ul><li>Os parâmetros <code>gdpr</code> e <code>gdpr_consent</code> estão sendo implantados gradualmente em URLs de sincronização de ID com parceiros de ativação. Consulte Parceiros de ativação que suportam IAB TCF no plug-in <a href="../../overview/aam-gdpr/aam-iab-plugin.md#aam-activation-partners">Audience Manager para IAB TCF.</a></li><li>Esse parâmetro só pode ser usado junto com <code>gdpr_consent.</code></li></ul></p></td>
+   <td colname="col2"> <p><code>gdpr</code> pode ser 0 (RGPD não se aplica) ou 1 (RGPD se aplica).</p><p><b>Observação:</b> <ul><li>Os parâmetros <code>gdpr</code> e <code>gdpr_consent</code> estão sendo implantados gradualmente em URLs de sincronização de ID com parceiros de ativação. Consulte Parceiros de ativação que suportam IAB TCF no plug-in <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners">Audience Manager para IAB TCF.</a></li><li>Esse parâmetro só pode ser usado junto com <code>gdpr_consent.</code></li></ul></p></td>
   </tr> 
     </tr> 
   <tr valign="top"> 
