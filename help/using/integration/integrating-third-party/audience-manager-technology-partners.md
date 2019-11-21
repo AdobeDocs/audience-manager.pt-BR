@@ -2,11 +2,11 @@
 description: Esta página inclui apenas integrações atuais de servidor para servidor. Para obter mais informações sobre uma integração, consulte sua lista do Adobe Exchange (quando disponível) ou entre em contato com seu consultor da Adobe ou com o Atendimento ao cliente.
 seo-description: Esta página inclui apenas integrações atuais de servidor para servidor. Para obter mais informações sobre uma integração, consulte sua lista do Adobe Exchange (quando disponível) ou entre em contato com seu consultor da Adobe ou com o Atendimento ao cliente.
 seo-title: Parceiros de tecnologia do Adobe Audience Manager
-keywords: ativação; parceiros de ativação, destino, destinos
+keywords: activation; activation partners, destination, destinations
 solution: Audience Manager
 title: Parceiros de tecnologia do Adobe Audience Manager
 translation-type: tm+mt
-source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
+source-git-commit: fab074926de1ff5e42092b9f7f8b0d5585fe2edc
 
 ---
 
@@ -18,8 +18,8 @@ Esta página inclui apenas integrações [](/help/using/features/destinations/ad
 <br> 
 
 * **Atualizado** = Mostra a última data em que houve uma atualização para este parceiro de ativação.
-* **Unsegment** = Unsegmentation descreve processos que desqualificam e removem perfis de dispositivos dos segmentos. Sua capacidade de remover um perfil de dispositivo de um segmento depende da opção de dispositivo usada para criar uma Regra de mesclagem de perfil. A dessegmentação também é usada no contexto de solicitações de exclusão do RGPD: Leia as Regras de mesclagem de [perfis e os processos](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) de dessegmentação de dispositivos e os parceiros do [Audience Manager com recursos](/help/using/overview/aam-gdpr/aam-gdpr-partners.md#aam-partners-with-unsegmentation)de dessegmentação. O Audience Manager envia informações de segmentos para os destinos marcados com Sim abaixo.
-* **Recebendo sinais** de consentimento TCF IAB = O Plug-in do Audience Manager para TCF IAB permite encaminhar a cadeia de caracteres de consentimento TCF IAB para parceiros de ativação, respeitando ao mesmo tempo as opções de privacidade dos usuários. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/aam-gdpr/aam-iab-plugin.md#aam-activation-partners).
+* **Unsegment** = Unsegmentation descreve processos que desqualificam e removem perfis de dispositivos dos segmentos. Sua capacidade de remover um perfil de dispositivo de um segmento depende da opção de dispositivo usada para criar uma Regra de mesclagem de perfil. A dessegmentação também é usada no contexto de solicitações de exclusão do RGPD: Leia as Regras de mesclagem de [perfis e os processos](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) de dessegmentação de dispositivos e os parceiros do [Audience Manager com recursos](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation)de dessegmentação. O Audience Manager envia informações de segmentos para os destinos marcados com Sim abaixo.
+* **Recebendo sinais** de consentimento TCF IAB = O Plug-in do Audience Manager para TCF IAB permite encaminhar a cadeia de caracteres de consentimento TCF IAB para parceiros de ativação, respeitando ao mesmo tempo as opções de privacidade dos usuários. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners).
 * **ICDS** = Esta coluna lista os parceiros que suportam a Supressão Instantânea entre Dispositivos. Read [Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
 * **IDs** de dispositivo móvel = Essa coluna lista parceiros que podem receber IDs de dispositivo móvel do Audience Manager.
 
@@ -143,7 +143,7 @@ Esta página inclui apenas integrações [](/help/using/features/destinations/ad
 | Supernave/ScaleOut | 03/03/2017 | Sim | Não | Não | Não |
 | Survata | 09/08/2017 | Sim | Não | Não | Sim |
 | Taboola | 03/08/2017 | Não | Sim | Não | Não |
-|  Tapad | 03/03/2017 | Não | Não | Não | Sim |
+| Tapad | 03/03/2017 | Não | Não | Não | Sim |
 | Telaria | 25/04/2019 | Sim | Não | Não | Sim |
 | Sistemas Telológicos | 03/03/2017 | Sim | Não | Não | Não |
 | A carteira comercial | 03/03/2017 | Sim | Sim | Sim | Sim |
