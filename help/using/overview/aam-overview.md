@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Visão geral do Audience Manager
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
 translation-type: tm+mt
-source-git-commit: f87a6f6c79a01c23608e4f5be24d017894e1c541
+source-git-commit: 77b13fc37aa0a61b0740ff8c2694e11e2349ec12
 
 ---
 
@@ -21,12 +21,6 @@ Com o Audience Manager, você não está vinculado a um vendedor de dados, troca
 
 O Audience Manager começou como Demdex em 2008. Ela foi adquirida pela Adobe Systems em 2011 e posteriormente reclassificada como Audience Manager.
 
-<!-- 
-
-c_history_and_background.xml
-
- -->
-
 ## History {#history}
 
 Desde 2008, o Audience Manager (anteriormente, [!UICONTROL Demdex]) é pioneiro no mercado de gerenciamento de público-alvo online. Os serviços do Audience Manager potencializam estratégias de dados online dinâmicas e multicanais. A nossa plataforma e serviços são utilizados por uma série de indústrias diversas, desde automóveis (AutoTrader), companhias aéreas (American Airlines) e companhias de serviços financeiros (American Express). O Audience Manager usa tecnologia de nível empresarial para fornecer escala, confiabilidade, análise e desempenho para ajudar sua empresa a ter sucesso online. O Audience Manager integra-se à Adobe Experience Cloud para ajudá-lo a centralizar, gerenciar e tomar medidas em seus ativos de dados em um número crescente de canais endereçáveis digitalmente.
@@ -36,4 +30,3 @@ Desde 2008, o Audience Manager (anteriormente, [!UICONTROL Demdex]) é pioneiro 
 O Audience Manager ajuda você a gerenciar seu pipeline de dados. Nosso serviço é um catalisador que transforma usuários genéricos e sinais de dados brutos em segmentos reais de público-alvo usados para esforços de marketing multicanal. Além disso, o Audience Manager fornece ferramentas para o gerenciamento de tags e análises de público-alvo, além de atender simultaneamente às necessidades de privacidade e segurança de dados dos clientes e consumidores.
 
 ![](assets/am_overview_80.png)
-
