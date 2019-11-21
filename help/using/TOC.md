@@ -1,10 +1,10 @@
 ---
 product: audience-manager
-audience: usuário final
-user-guide-title: Guia do usuário do Audience Manager
+audience: end-user
+user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
+source-git-commit: a5411ff8ff852cc02607e4a624075bf0e1828ee9
 
 ---
 
@@ -15,16 +15,20 @@ source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
 + Visão geral{#overview}
    + [Visão geral do Audience Manager](overview/aam-overview.md)
    + [Tipos de dados coletados](overview/data-types-collected.md)
-   + Data Security and Privacy {#data-security-and-privacy}
-      + [Visão geral](overview/data-security-and-privacy/data-security-privacy-overview.md)
-      + [Segurança de dados](overview/data-security-and-privacy/data-security.md)
-      + [Privacidade de dados](overview/data-security-and-privacy/data-privacy.md)
-      + [Gerenciamento de não participação](overview/data-security-and-privacy/opt-out-management.md)
-   + Regulamento geral de proteção de dados (RGPD){#gdpr}
-      + [RGPD no Audience Manager](overview/aam-gdpr/aam-gdpr-details.md)
-      + [Considerações sobre RGPD para Destinos](overview/aam-gdpr/aam-gdpr-partners.md)
-      + [Perguntas frequentes sobre o RGPD](overview/aam-gdpr/aam-gdpr-faq.md)
-      + [Plug-in do Audience Manager para a Estrutura de consentimento do IAB](/help/using/overview/aam-gdpr/aam-iab-plugin.md)
+   + [Segurança de dados](overview/data-security-and-privacy/data-security.md)
+   + Privacidade de dados {#data-privacy}
+      + [Visão geral da privacidade de dados](overview/data-security-and-privacy/data-privacy.md)
+      + [Solicitações de privacidade de dados](overview/data-security-and-privacy/data-privacy-requests.md)
+      + Referência de privacidade de dados {#data-privacy-reference}
+         + [Identificadores do Audience Manager](overview/data-security-and-privacy/data-privacy-ids.md)
+         + [Glossário CCPA](overview/data-security-and-privacy/aam-ccpa-glossary.md)
+         + [Glossário do RGPD](overview/data-security-and-privacy/aam-gdpr-glossary.md)
+         + [Considerações sobre RGPD para Destinos](overview/data-security-and-privacy/aam-gdpr-partners.md)
+         + [Diretrizes de disponibilidade do GDPR para clientes do Audience Manager](overview/data-security-and-privacy/aam-gdpr-readiness.md)
+      + Gerenciamento de consentimento {#consent-management}
+         + [Gerenciamento de consentimento](overview/data-security-and-privacy/data-privacy-consent.md)
+         + [Plug-in do Audience Manager para a Estrutura de consentimento do IAB](overview/data-security-and-privacy/aam-iab-plugin.md)
+   + [Controle de dados](overview/data-security-and-privacy/data-governance.md)
 + Recursos{#features}
    + [Públicos-alvo endereçáveis](features/addressable-audiences.md)
    + Administração{#administration}
@@ -36,7 +40,7 @@ source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
       + [Modelos algorítmicos](features/algorithmic-models/understanding-models.md)
       + [Criar um modelo algorítmico](features/algorithmic-models/create-model.md)
       + [Modelos algorítmicos: Exclusão de características](features/algorithmic-models/trait-exclusion-algo-models.md)
-   + Audience Lab{#audience-lab}
+   +  Audience Lab{#audience-lab}
       + [Visão geral do Audience Lab](features/audience-lab/audience-lab.md)
       + [Gerenciar grupos de teste](features/audience-lab/audience-lab-manage-test-groups.md)
       + [Testar informações do grupo](features/audience-lab/audience-lab-information-view.md)
