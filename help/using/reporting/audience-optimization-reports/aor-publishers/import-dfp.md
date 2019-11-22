@@ -4,9 +4,9 @@ seo-description: Antes do Audience Manager poder habilitar a otimização de pú
 seo-title: Importação de arquivos de dados DFP para o Audience Manager
 solution: Audience Manager
 title: Importação de arquivos de dados DFP para o Audience Manager
-uuid: c685f34f-3e50-4c4b-99fa-d8bafe0b268
+uuid: c685f34f-3e50-4c4b-99fa-d8bbafe0b268
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9f091fa765e937fb47b3328d8f5f2dab24a85040
 
 ---
 
@@ -23,8 +23,8 @@ Para usar arquivos de registro DFP ( [!DNL DoubleClick For Publishers]) em [!DNL
 
 Veja como definir a [!DNL Audience Manager] ID na chamada de tag do anúncio, como explicado em nossa documentação:
 
-* [Via Google Publisher Tag (GPT)](../../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
-* [Por um destino de cookie](../../../integration/gpt-aam-destination/gpt-aam-modify-api.md)
+* [Via Google Publisher Tag (GPT)](../../../integration/gpt-aam-destination/gpt-aam-modify-api.md)
+* [Por um destino de cookie](../../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
 
 Você mesmo precisa definir a [!DNL Audience Manager] ID e pode trabalhar com [!DNL Audience Manager] consultoria para verificar se tudo funciona. Você definiu a [!DNL Audience Manager] ID corretamente se:
 
