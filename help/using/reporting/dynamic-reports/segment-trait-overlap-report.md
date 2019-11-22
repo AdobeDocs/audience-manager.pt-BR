@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Relatório de sobreposição de segmento por característica
 uuid: a6b3dd21-332e-449f-aa01-2beb47f1794e
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: c05541df2d0dfc8753b06eaa8f2baee9bc6c2a16
 
 ---
 
@@ -134,11 +134,11 @@ O pop-up do [!UICONTROL Segment-to-Trait Overlap] relatório contém as métrica
    <td colname="col2"> ID numérica exclusiva do segmento. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Nome do provedor de dados</span></b> </td> 
-   <td colname="col2"> Nome do proprietário do segmento. </td> 
+   <td colname="col1"><b><span class="wintitle"> Fonte de Dados de Características </span></b> </td> 
+   <td colname="col2"> Nome do proprietário da característica. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Tipo de provedor de dados</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> Tipo de fonte de dados</span></b> </td> 
    <td colname="col2">Define o tipo de provedor ao qual uma característica pertence. Pode ser: 
     <ul id="ul_0477C04A33FD4F5D998B98984E6554D3"> 
      <li id="li_50FCA48EDB5843AB8FB6C34ED2C0067D">Primeiro partido (seu próprio traço). </li> 
@@ -146,12 +146,12 @@ O pop-up do [!UICONTROL Segment-to-Trait Overlap] relatório contém as métrica
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> SID</span></b> </td> 
-   <td colname="col2"> ID numérica exclusiva do segmento. </td> 
+   <td colname="col1"><b><span class="wintitle"> ID da característica</span></b> </td> 
+   <td colname="col2"> ID numérica exclusiva da característica. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Nome do SID</span></b> </td> 
-   <td colname="col2"> Nome do segmento. </td> 
+   <td colname="col1"><b><span class="wintitle"> Nome da característica</span></b> </td> 
+   <td colname="col2"> Nome do traço. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> % de sobreposição de características únicas</span></b> </td> 
