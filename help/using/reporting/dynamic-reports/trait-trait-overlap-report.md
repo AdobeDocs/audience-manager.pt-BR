@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Relatório de sobreposição de característica por característica
 uuid: 7fb3fc9e-0e0b-492a-9c3a-04356afb19c7
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: c05541df2d0dfc8753b06eaa8f2baee9bc6c2a16
 
 ---
 
@@ -68,36 +68,44 @@ O pop-up do [!UICONTROL Trait-to-Trait Overlap] relatório contém as métricas 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Nome do provedor de dados</span></b> </td> 
-   <td colname="col2"> Nome do proprietário da característica. </td> 
+   <td colname="col1"><b><span class="wintitle"> % de sobreposição</span></b> </td> 
+   <td colname="col2"> Mostra a % de sobreposição exclusiva entre características comparadas (únicos de sobreposição/únicos de características). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Tipo de provedor de dados</span></b> </td> 
-   <td colname="col2">Define o tipo de provedor ao qual uma característica pertence. Pode ser: 
+   <td colname="col1"><b><span class="wintitle"> Tipo de fonte de dados</span></b> </td> 
+   <td colname="col2">Define o tipo de fonte de dados à qual uma característica pertence. Pode ser: 
     <ul id="ul_0477C04A33FD4F5D998B98984E6554D3"> 
      <li id="li_50FCA48EDB5843AB8FB6C34ED2C0067D">Primeiro partido (seu próprio traço). </li> 
      <li id="li_4F6148EDAEFE43FA8D505944E9FE3855">Terceiros (de um parceiro/fornecedor externo de dados). </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> ID da característica</span></b> </td> 
-   <td colname="col2"> ID numérica exclusiva para essa característica. </td> 
+   <td colname="col1"><b><span class="wintitle"> ID de característica sobreposta</span></b> </td> 
+   <td colname="col2"> ID numérica exclusiva para a característica sobreposta. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Nome da característica</span></b> </td> 
-   <td colname="col2"> Nome do traço. </td> 
+   <td colname="col1"><b><span class="wintitle"> Nome da característica sobreposta</span></b> </td> 
+   <td colname="col2"> Nome da característica sobreposta. </td> 
+  </tr>
+    <tr> 
+   <td colname="col1"><b><span class="wintitle"> ID da característica 2</span></b> </td> 
+   <td colname="col2"> ID numérica exclusiva da característica na fonte de dados base. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> % de sobreposição</span></b> </td> 
-   <td colname="col2"> Mostra a % de sobreposição exclusiva entre características comparadas (únicos de sobreposição/únicos de características). </td> 
+   <td colname="col1"><b><span class="wintitle"> Nome da característica 2</span></b> </td> 
+   <td colname="col2"> Nome da característica em sua fonte de dados base. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> Sobreposição de únicos</span></b> </td> 
-   <td colname="col2"> <p>Para obter a % de sobreposição, o Audience Manager usa a seguinte fórmula:</p> <p>Únicos sobrepostos / (Únicos do segmento base + Únicos do segmento sobrepostos - Únicos sobrepostos)</p> </td> 
+   <td colname="col2"> <p>Para obter a % de sobreposição, o Audience Manager usa a seguinte fórmula:</p> <p>Únicos sobrepostos / (Únicos de traços base + Únicos de traços sobrepostos - Únicos sobrepostos)</p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Características únicas</span></b> </td> 
-   <td colname="col2"> O número de visitantes únicos na característica. </td> 
+   <td colname="col1"><b><span class="wintitle"> Únicos de características sobrepostas</span></b> </td> 
+   <td colname="col2"> O número de visitantes únicos da característica sobreposta. </td> 
+  </tr> 
+    <tr> 
+   <td colname="col1"><b><span class="wintitle"> Únicos de características básicas</span></b> </td> 
+   <td colname="col2"> O número de visitantes únicos do traço base. </td> 
   </tr> 
  </tbody> 
 </table>
