@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Relatório de sobreposição de segmento por segmento
 uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: c05541df2d0dfc8753b06eaa8f2baee9bc6c2a16
 
 ---
 
@@ -58,14 +58,16 @@ O pop-up do [!UICONTROL Segment-to-Segment Overlap] relatório contém as métri
 
 | Métrica | Descrição |
 |---|---|
-| **[!UICONTROL Segment ID1]** | ID numérica exclusiva do segmento que aparece nos resultados do relatório. Aparece como a ID da linha para o segmento. |
-| **[!UICONTROL Segment ID2]** | ID numérica exclusiva do segmento selecionado ao executar o relatório. Aparece como a ID da coluna do segmento. |
-| **[!UICONTROL Segment Name1]** | Nome do segmento que aparece na linha de resultados do relatório. |
-| **[!UICONTROL Segment Name2]** | Nome do segmento selecionado ao executar o relatório. Aparece na coluna de resultados do relatório. |
-| **[!UICONTROL Overlap %]** | Para obter a % de sobreposição, o Audience Manager usa a seguinte fórmula:Únicos sobrepostos / (Únicos do segmento base + Únicos do segmento sobrepostos - Únicos sobrepostos) |
-| **[!UICONTROL Overlap Uniques]** | O número de visitantes únicos compartilhados entre segmentos comparados. |
-| **[!UICONTROL Segment Uniques1]** | O número de visitantes únicos no segmento 1. |
-| **[!UICONTROL Segment Uniques2]** | O número de visitantes únicos no segmento 2. |
+| **[!UICONTROL Base Segment ID]** | ID numérica exclusiva do segmento que aparece nos resultados do relatório. Aparece como a ID da linha para o segmento. |
+| **[!UICONTROL Base Segment Name]** | Nome do segmento que aparece na linha de resultados do relatório. |
+| **[!UICONTROL Overlapping Segment ID]** | ID numérica exclusiva do segmento selecionado ao executar o relatório. Aparece como a ID da coluna do segmento. |
+| **[!UICONTROL Overlapping Segment Name]** | Nome do segmento selecionado ao executar o relatório. Aparece na coluna de resultados do relatório. |
+| **[!UICONTROL Base Segment Uniques]** | O número de visitantes únicos em seu segmento base. |
+| **[!UICONTROL Base Segment Uniques]** | O número de visitantes únicos em seu segmento sobreposto. |
+| **[!UICONTROL Overlapping Uniques]** | O número de visitantes únicos compartilhados entre segmentos comparados. |
+| **[!UICONTROL Overlap %]** | Para obter a % de sobreposição, o Audience Manager usa a seguinte fórmula: Únicos sobrepostos / (Únicos do segmento base + Únicos do segmento sobrepostos - Únicos sobrepostos) |
+
+
 
 >[!MORELIKETHIS]
 >
