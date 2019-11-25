@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Códigos de erros, mensagens e exemplos de DCS
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 translation-type: tm+mt
-source-git-commit: 8478a28cd1b18d878d6938d77ee4f975deb524ef
+source-git-commit: 05609645bef676bbd98aa08caf32a4ae2dcb6f00
 
 ---
 
@@ -80,7 +80,7 @@ In the tables below, *italics* represents a variable placeholder.
     <tr> 
    <td colname="col1"> <p>109</p> </td> 
    <td colname="col2"> <p>Referenciador não <code>HTTP referer</code> permitido para parceiro <code>Partner ID</code> </p> </td> 
-   <td colname="col3"> <p>O cabeçalho [!DNL HTTP referer] na chamada não é permitido para a ID do parceiro na chamada. Verifique se o cabeçalho [!DNL HTTP referer] está correto.</p> </td>
+   <td colname="col3"> <p>O cabeçalho da <code>HTTP referer</code> chamada não é permitido para a ID do parceiro na chamada. Verifique se o <code>HTTP referer</code> cabeçalho está correto.</p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>111 </p> </td> 
