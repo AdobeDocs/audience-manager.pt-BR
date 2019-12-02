@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Arquivos de dados para relatórios de otimização de público-alvo e arquivos de registro acionáveis
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 translation-type: tm+mt
-source-git-commit: b46fc71ca62c4426732bd6d396637d02206b7c97
+source-git-commit: 342a511b414ac682d8eb3c6547d725431d8828d6
 
 ---
 
@@ -35,7 +35,7 @@ Em um nome de arquivo:
 
 Dadas estas exigências, nomeie seus arquivos de dados com base em seus conteúdos como este:
 
-* Dados de impressão: <pre>impressionsions_<i>yyyymmdd<i>.gz</code></pre>
+* Dados de impressão: <pre>impressionsions_<i>yyyymmdd</i>.gz</code></pre>
 * Dados de clique: <pre>click_<i>yyyymmdd</i>.gz</code></pre>
 * Dados de conversão: <pre>conversions_<i>yyyymmdd</i>.gz</code></pre>
 
@@ -67,7 +67,7 @@ A tabela abaixo lista e descreve os cabeçalhos de coluna para seu arquivo de da
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Carimbo de data e hora </p> </td> 
-   <td colname="col2"> <p>Uma data e hora UTC para o evento de impressão, clique ou conversão. Use o <code> yyyy-dd-mm hh:mm:ss</code> formato. </p> </td> 
+   <td colname="col2"> <p>Uma data e hora UTC para o evento de impressão, clique ou conversão. Use o <code> yyyy-MM-dd HH:mm:ss</code> formato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID do usuário </p> </td> 
@@ -145,7 +145,7 @@ Faça upload de sua impressão, clique ou converta arquivos de dados em um diret
 
 Os dados são armazenados em um namespace separado para cada cliente em um diretório Amazon S3. O caminho do arquivo segue a sintaxe mostrada abaixo. Note, *italics* indicates a variable placeholder. Outros elementos são constantes ou teclas e não são alterados.
 
-**Sintaxe:** <pre>.../log_ingestion/pid= ID <i>/dpid do<i>AAM= <i>d_src</i>/logs/ tipo <i>de</i>arquivo_<i>yyyymmdd</i></code></pre>
+**Sintaxe:** <pre> .../log_ingestion/pid= ID <i>/dpid do<i>AAM= <i>d_src</i>/logs/ tipo <i>de</i>arquivo_<i>yyyymmdd</i></code></pre>
 
 A tabela a seguir define cada um desses elementos em um caminho de entrega de arquivo.
 
