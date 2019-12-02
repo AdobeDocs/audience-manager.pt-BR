@@ -1,13 +1,13 @@
 ---
 description: Os arquivos de registro acionáveis permitem capturar sinais de mídia de arquivos de log do servidor de publicidade para criar características no Audience Manager. Capture impressões, cliques e conversões de servidores de anúncios como características sem precisar anexar pixels.
-keywords: registros acionáveis, alf, ALF
+keywords: actionable logs, alf, ALF
 seo-description: Os arquivos de registro acionáveis permitem capturar sinais de mídia de arquivos de log do servidor de publicidade para criar características no Audience Manager. Capture impressões, cliques e conversões de servidores de anúncios como características sem precisar usar os pixels anexados.
 seo-title: Arquivo de registro acionável
 solution: Audience Manager
 title: Arquivo de registro acionável
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 1c14d2a6b5f1d092f4323d4471425e11f7860f25
 
 ---
 
@@ -160,7 +160,7 @@ Para um arquivo de [!DNL DCM] log de tamanho médio de 2 milhões de linhas, qua
 
 ### Sinais acionáveis de registros genéricos do servidor de anúncios {#generic-logs-signals}
 
-Primeiro, você deve soltar seus registros de servidor de anúncios em nossos baldes do Amazon S3. Para fazer isso, leia os Arquivos [de Dados para Relatórios de otimização de público-alvo e Arquivos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) de registro acionáveis *e entre* em contato com seu [!DNL Audience Manager] consultor. A tabela lista os sinais acionáveis dos arquivos de registro genéricos:
+Primeiro, você deve depositar seus registros de servidor de anúncios em nossos baldes do Amazon S3. Para fazer isso, leia os Arquivos [de Dados para Relatórios de otimização de público-alvo e Arquivos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) de registro acionáveis *e entre* em contato com seu [!DNL Audience Manager] consultor. A tabela lista os sinais acionáveis dos arquivos de registro genéricos:
 
 <table id="table_A5A2A10D471C4C9D8DCD88F9C017040C"> 
  <thead> 
@@ -186,8 +186,8 @@ Primeiro, você deve soltar seus registros de servidor de anúncios em nossos ba
   <tr> 
    <td colname="col1"> <p> <code>Time-Stamp</code> </p> </td> 
    <td colname="col2"> <p> <code> d_time</code> </p> </td> 
-   <td colname="col3"> <p> Uma data e hora UTC para o evento de impressão, clique ou conversão. Use a variável  <code>yyyy-dd-mm hh:mm:ss format.</code> </p></td> 
-   <td colname="col4"> <p> <code>2019-30-08 11:23:00</code> </p> </td> 
+   <td colname="col3"> <p> Uma data e hora UTC para o evento de impressão, clique ou conversão. Use o <code>yyyy-MM-dd HH:mm:ss</code> formato. </p></td> 
+   <td colname="col4"> <p> <code>2019-03-26 11:23:10</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Advertiser-ID</code> </p> </td> 
