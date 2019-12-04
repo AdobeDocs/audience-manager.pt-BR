@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Captura de dados de clique da campanha por meio de chamadas de pixels
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 translation-type: tm+mt
-source-git-commit: b1e438a77a472c192117a2c1ddcf63f4eb25d07d
+source-git-commit: 8d31bc79fd221cffd33969278eade93a4b32a4d5
 
 ---
 
@@ -20,7 +20,7 @@ O rastreamento de cliques permite a medição do envolvimento do visitante em to
 As chamadas de rastreamento de cliques exigem os seguintes parâmetros:
 
 * `d_event=click`: Um par de valor chave que identifica uma chamada de evento como um evento de clique.
-* `d_rd=redirect URL`: Um par de valor chave que contém um redirecionamento codificado [!DNL URL].
+* `d_rd=redirect URL`: Um par de valor chave que contém um redirecionamento codificado duas vezes [!DNL URL]. Se você estiver usando uma ferramenta de codificação on-line, execute a string pelo codificador e, em seguida, codifique o resultado novamente para que o redirecionamento funcione.
 
 Além disso, a chamada pode conter pares de valores chave que podem ser usados para qualificação de características ou para fornecer dados e metadados para outros relatórios.
 
@@ -40,7 +40,7 @@ Com base no exemplo acima, o navegador é redirecionado para o seguinte [!DNL UR
 
 ## Macros suportadas
 
-Os eventos de clique suportam as macros listadas na tabela a seguir. Uma macro é uma pequena unidade de código autocontido que é ativada quando a tag de anúncio é carregada para campanha e rastreamento de usuário. As macros serão transmitidas juntamente com o destino [!DNL URL], desde que estejam marcadas com o seguinte formato:  `%macro%`. Algumas teclas não têm macros e aceitam um valor de ID codificado. As teclas que aceitam valores codificados são necessárias se você quiser analisar dados nos Relatórios [de otimização de](../../reporting/audience-optimization-reports/audience-optimization-reports.md)público-alvo.
+Os eventos de clique suportam as macros listadas na tabela a seguir. Uma macro é uma pequena unidade de código autocontido que é ativada quando a tag de anúncio é carregada para campanha e rastreamento de usuário. As macros serão transmitidas juntamente com o destino [!DNL URL], desde que estejam marcadas com o seguinte formato: `%macro%`. Algumas teclas não têm macros e aceitam um valor de ID codificado. As teclas que aceitam valores codificados são necessárias se você quiser analisar dados nos Relatórios [de otimização de](../../reporting/audience-optimization-reports/audience-optimization-reports.md)público-alvo.
 
 <table id="table_6EB65C3B7D0E49C59AA6C932549E33FC"> 
  <thead> 
@@ -150,8 +150,7 @@ Este exemplo demonstra como passar as macros criativas, adgroup e placement. Ele
 
 ```
 https://client.demdex.net/event?d_event=click&d_creative=1235&d_src=203&d_campaign=4709&d_adgroup=3408&d_placement=1001&
-d_rd=http%3A%2F%2Fadobe.com%2Fcallback%3Fcreative%3D%25d_creative%25%26campaign%3D%25d_campaign%25%26adgroup%3D%25
-d_adgroup%25%26d_placement%3D%25placement%25%26src%3D%25d_src%25
+d_rd%3Dhttp%253A%252F%252Fadobe.com%252Fcallback%253Fcreative%253D%2525d_creative%2525%2526campaign%253D%2525d_campaign%2525%2526adgroup%253D%2525%0Ad_adgroup%2525%2526d_placement%253D%2525placement%2525%2526src%253D%2525d_src%2525
 ```
 
 ## Resposta
