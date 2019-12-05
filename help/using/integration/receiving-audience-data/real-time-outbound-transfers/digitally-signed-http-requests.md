@@ -1,25 +1,25 @@
 ---
-description: O Audience Manager requer que as solicitações HTTP de servidor para servidor sejam assinadas digitalmente para validade. Este documento descreve como você pode assinar solicitações HTTP com chaves privadas.
-seo-description: O Audience Manager requer que as solicitações HTTP de servidor para servidor sejam assinadas digitalmente para validade. Este documento descreve como você pode assinar solicitações HTTP com chaves privadas.
-seo-title: Solicitações HTTP Assinadas Digitalmente
+description: O Audience Manager requer que as solicitações de servidor para servidor HTTP(S) sejam assinadas digitalmente para validade. Este documento descreve como você pode assinar solicitações HTTP com chaves privadas.
+seo-description: O Audience Manager requer que as solicitações de servidor para servidor HTTP(S) sejam assinadas digitalmente para validade. Este documento descreve como você pode assinar solicitações HTTP(S) com chaves privadas.
+seo-title: Solicitações HTTP(S) Assinadas Digitalmente
 solution: Audience Manager
-title: Solicitações HTTP Assinadas Digitalmente
+title: Solicitações HTTP(S) Assinadas Digitalmente
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
 translation-type: tm+mt
-source-git-commit: 9bf1f3771b6a4b9bb9a52149e812b37d1c8e27f8
+source-git-commit: e7bb837a9a4a4e41ca5c73a192f68a4caa30335d
 
 ---
 
 
-# Solicitações Assinadas Digitalmente `HTTP`{#digitally-signed-http-requests}
+# Solicitações Assinadas Digitalmente `HTTP(S)`{#digitally-signed-http-requests}
 
-O Audience Manager exige que as solicitações de servidor para servidor sejam assinadas digitalmente para validade. `HTTP` Este documento descreve como você pode assinar `HTTP` solicitações com chaves privadas.
+O Audience Manager exige que as solicitações de servidor para servidor sejam assinadas digitalmente para validade. `HTTP(S)` Este documento descreve como você pode assinar `HTTP(S)` solicitações com chaves privadas.
 
 ## Visão geral {#overview}
 
 <!-- digitally_signed_http_requests.xml -->
 
-Usando uma chave privada fornecida por você e compartilhada com [!DNL Audience Manager], podemos assinar digitalmente as `HTTP` solicitações enviadas entre o [IRIS](../../../reference/system-components/components-data-action.md#iris) e o servidor HTTP. Isso garante:
+Usando uma chave privada fornecida por você e compartilhada com [!DNL Audience Manager], podemos assinar digitalmente as `HTTP(S)` solicitações enviadas entre o [IRIS](../../../reference/system-components/components-data-action.md#iris) e o servidor HTTP(S). Isso garante:
 
 * **Autenticidade**: somente o remetente que tem a chave privada ([!UICONTROL IRIS]) pode enviar `HTTP(S)` mensagens válidas para o parceiro.
 * **Integridade** da mensagem: com esta abordagem, mesmo assim, `HTTP`você está protegido de um homem no meio do ataque onde as mensagens ficam distorcidas.
@@ -28,10 +28,10 @@ Usando uma chave privada fornecida por você e compartilhada com [!DNL Audience 
 
 ## Informações que você precisa fornecer {#info-to-provide}
 
-Para obter um destino de servidor para servidor em tempo `HTTP` real, entre em contato com seu [!DNL Audience Manager] consultor e especifique:
+Para obter um destino de servidor para servidor em tempo `HTTP(S)` real, entre em contato com seu [!DNL Audience Manager] consultor e especifique:
 
 * A chave usada para assinar a solicitação.
-* O nome do `HTTP` cabeçalho que manterá a assinatura gerada (assinatura X no cabeçalho de exemplo abaixo).
+* O nome do `HTTP(S)` cabeçalho que manterá a assinatura gerada (assinatura X no cabeçalho de exemplo abaixo).
 * Opcional: o tipo de hash usado para a assinatura (md5, sha1, sha256).
 
 ```
@@ -47,8 +47,8 @@ POST message content
 
 ## How it works {#how-it-works}
 
-1. [!UICONTROL IRIS] cria a `HTTP` mensagem a ser enviada ao parceiro.
-1. [!UICONTROL IRIS] cria uma assinatura com base na `HTTP` mensagem e na chave privada comunicada pelo parceiro.
+1. [!UICONTROL IRIS] cria a `HTTP(S)` mensagem a ser enviada ao parceiro.
+1. [!UICONTROL IRIS] cria uma assinatura com base na `HTTP(S)` mensagem e na chave privada comunicada pelo parceiro.
 1. [!UICONTROL IRIS] envia a `HTTP(S)` solicitação ao parceiro. Esta mensagem contém a assinatura e a mensagem real, como visto no exemplo acima.
 1. O servidor parceiro recebe a `HTTP(S)` solicitação. Ele lê o corpo da mensagem e a assinatura recebida de [!UICONTROL IRIS].
 1. Com base no corpo da mensagem recebida e na chave privada, o servidor parceiro recalcula a assinatura. Consulte a seção [Como calcular a assinatura](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#calculate-signature) logo abaixo sobre como conseguir isso.
@@ -63,8 +63,8 @@ POST message content
 
 ```
 // Message to be signed.
-// For GET type HTTP destinations, the message used for signing will be the REQUEST_PATH + QUERY_STRING
-// For POST type HTTP destinations, the message used for signing will be the REQUEST_BODY.
+// For GET type HTTP(S) destinations, the message used for signing will be the REQUEST_PATH + QUERY_STRING
+// For POST type HTTP(S) destinations, the message used for signing will be the REQUEST_BODY.
 // String getData = "/from-aam-s2s?sids=1,2,3";
 String postData = "POST message content";
 // Algorithm used. Currently supported: HmacSHA1, HmacSHA256, HmacMD5.
@@ -95,6 +95,6 @@ Por motivos de segurança, é recomendável girar periodicamente a chave privada
 
 ## Dados usados para assinar {#data-signing}
 
-Para destinos de `GET` tipo, a mensagem usada para assinatura será *REQUEST_PATH + QUERY STRING* (por exemplo, */from-aam-s2s?sids=1,2,3*). O IRIS não leva em conta o nome do host ou `HTTP` cabeçalhos - eles podem ser modificados/configurados incorretamente ao longo do caminho ou reportados incorretamente.
+Para destinos de `GET` tipo, a mensagem usada para assinatura será *REQUEST_PATH + QUERY STRING* (por exemplo, */from-aam-s2s?sids=1,2,3*). O IRIS não leva em conta o nome do host ou `HTTP(S)` cabeçalhos - eles podem ser modificados/configurados incorretamente ao longo do caminho ou reportados incorretamente.
 
-Para destinos de `POST` tipo, a mensagem usada para assinatura é o CORPO *DE* SOLICITAÇÃO. Novamente, os cabeçalhos ou outros parâmetros de solicitação são ignorados
+Para destinos de `POST` tipo, a mensagem usada para assinatura é o CORPO *DE* SOLICITAÇÃO. Novamente, os cabeçalhos ou outros parâmetros de solicitação são ignorados.
