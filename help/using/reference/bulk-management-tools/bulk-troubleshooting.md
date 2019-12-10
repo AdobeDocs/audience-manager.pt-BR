@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Dicas de solução de problemas para ferramentas de gerenciamento em massa
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
 translation-type: tm+mt
-source-git-commit: 6f13cefb2f56bbc2e0bfff9a6d31925001403c50
+source-git-commit: 994b12fd442a08da3b606dabca1f9382a7bd6f74
 
 ---
 
@@ -34,7 +34,7 @@ Fatores como tráfego intenso de rede, uso do servidor e grandes conjuntos de da
 * Exclua todas as linhas que já foram atualizadas.
 * Tente a solicitação em massa novamente.
 
-## Longos atrasos ou comportamento sem resposta {#delays-behavior}
+## Erros de autenticação, longos atrasos ou comportamento sem resposta {#delays-behavior}
 
 A tabela a seguir lista alguns problemas comuns que podem ocorrer ao fazer solicitações em massa com as planilhas. Tente corrigir esses problemas com as soluções recomendadas. Se as soluções recomendadas não resolverem o problema, você deve salvar seu trabalho, reiniciar seu computador e tentar a solicitação novamente sem iniciar ou trabalhar com outros aplicativos.
 
@@ -46,6 +46,12 @@ A tabela a seguir lista alguns problemas comuns que podem ocorrer ao fazer solic
   </tr> 
  </thead>
  <tbody> 
+  <tr> 
+   <td colname="col1"> <b>Erro de autenticação</b> </td> 
+   <td colname="col2"> 
+    <b>Atualizar para a versão mais recente do Microsoft Excel</b>: Quando uma nova versão do Microsoft Excel é lançada e você está usando uma versão mais antiga, você pode encontrar um erro de autenticação na planilha Gerenciamento em massa. Atualize para a versão mais recente do Microsoft Excel para resolver o erro de autenticação.
+</td> 
+  </tr> 
   <tr> 
    <td colname="col1"> <b>Longos atrasos</b> </td> 
    <td colname="col2"> 
