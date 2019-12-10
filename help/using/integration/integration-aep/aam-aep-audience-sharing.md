@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Compartilhamento de público-alvo entre o Audience Manager e a Adobe Experience Platform
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing
 translation-type: tm+mt
-source-git-commit: b3f7ee5730ed91c656f0dea1bacfabad703755fd
+source-git-commit: e27ce2f607cadd7318a171359a5ae4daa071c486
 
 ---
 
