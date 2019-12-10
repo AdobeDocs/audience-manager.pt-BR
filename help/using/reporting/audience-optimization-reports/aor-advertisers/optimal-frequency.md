@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Relatório de frequência ideal
 uuid: 50459ce9-39ac-4401-93dd-7526937fc742
 translation-type: tm+mt
-source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
+source-git-commit: e27ce2f607cadd7318a171359a5ae4daa071c486
 
 ---
 
@@ -14,6 +14,8 @@ source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
 # Relatório de frequência ideal{#optimal-frequency-report}
 
 O relatório de Frequência ideal ajuda a descobrir o equilíbrio ideal entre o número de impressões e conversões servidas. Ele permite ajustar o número de impressões que você deseja exibir antes de começar a ver a diminuição dos retornos.
+
+O relatório tem um intervalo de retrospectiva de 30 dias, a partir da data escolhida no [!UICONTROL Date Through] seletor.
 
 O volume de conversão geralmente diminui com compartimentos de frequência de impressão mais altos. Menos usuários veem o maior número de impressões. Isso significa que esses baldes de frequência mais alta têm menos conversões.
 
@@ -23,5 +25,4 @@ Conforme mostrado no relatório de amostra, a interseção dos dois gráficos de
 
 ## Relatório de exemplo
 
-![](assets/optimal-frequency.png)
-
+![frequência ideal](assets/optimal-frequency.png)
