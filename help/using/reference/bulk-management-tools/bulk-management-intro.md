@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Introdução ao Gerenciamento em massa
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: 963d765845dae6abe107be04d5aae2c49e7fb575
+source-git-commit: c9dfddf728045bf2cbc01d5467a64ae95b449664
 
 ---
 
@@ -32,15 +32,15 @@ Este recurso usa uma planilha do Microsoft Excel com macros que fazem chamadas s
 
 ## Download {#download}
 
-Baixe a planilha mais recente **[aqui](assets/BAAAM_V2_20191015.xlsm)**.
+Baixe a planilha mais recente **[aqui](assets/BAAAM_V2_20191205.xlsm)**.
 
 ## Pré-requisitos {#prereqs}
 
 Para usar o [!DNL Bulk Management Tools], é necessário o seguinte:
 
 * Seu [!DNL Experience Cloud] logon. Como cliente, você já deve ter essas credenciais.
-* A [!DNL Bulk Management Tools] planilha. [Baixe a planilha](assets/BAAAM_V2_20191015.xlsm) para obter a versão mais recente.
-* Microsoft Excel em execução em [!DNL macOS] ou 64 bits [!DNL Microsoft Windows].
+* A [!DNL Bulk Management Tools] planilha. [Baixe a planilha](assets/BAAAM_V2_20191205.xlsm) para obter a versão mais recente.
+* Microsoft Excel em execução em [!DNL macOS] ou 64 bits [!DNL Microsoft Windows]. Recomendamos que você use a versão mais recente do Microsoft Excel.
 * Ao abrir a planilha, você deve **Ativar macros** para que [!DNL Bulk Management Tools] funcionem.
 
 ## Requisitos e opções de autenticação {#auth-reqs}
