@@ -4,9 +4,9 @@ seo-description: As opções de regra de mesclagem permitem controlar o tipo de 
 seo-title: Definição das opções de regra de mesclagem de perfil
 solution: Audience Manager
 title: Definição das opções de regra de mesclagem de perfil
-uuid: 225eaf7-45e9-4f21-9360-d80a9f90520c
+uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e27ce2f607cadd7318a171359a5ae4daa071c486
 
 ---
 
@@ -29,7 +29,7 @@ As Regras de mesclagem de perfil permitem várias combinações de regras, cada 
 | Sem perfil entre dispositivos | Gráfico de dispositivos externos (inclui o Gráfico de dispositivos cooperativos) | Todos os clientes | Tempo real e lote | Não | [Definição de meta de dispositivo expandida](external-graph-use-cases.md#audience-expansion) |
 | Perfis Autenticados Atuais | Sem perfil de dispositivo | Todos os clientes | Somente em tempo real | Não | [Direcionamento de dispositivo compartilhado](merge-rule-targeting-options.md#target-shared-devices) |
 | Últimos perfis autenticados | Perfil do dispositivo | Todos os clientes | Tempo real e lote | Sim | [Direcionamento online/offline](merge-rule-targeting-options.md#device-household-targeting) |
-| Últimos perfis autenticados |  Gráfico de dispositivos de link de perfil | Todos os clientes | Tempo real e lote | Sim | [Definição de metas entre dispositivos](profile-link-use-case.md#cross-device-personalization) |
+| Últimos perfis autenticados | Gráfico de dispositivos de link de perfil | Todos os clientes | Tempo real e lote | Sim | [Definição de metas entre dispositivos](profile-link-use-case.md#cross-device-personalization) |
 | Últimos perfis autenticados | Gráfico de dispositivos externos (inclui o Gráfico de dispositivos cooperativos) | Todos os clientes | Tempo real e lote | Não | [Direcionamento avançado entre dispositivos](external-graph-use-cases.md#advanced-graph-expansion) |
 | Todos os perfis entre dispositivos | N/A | Exclusivo para clientes de Destinos [baseados em](../destinations/people-based-destinations-overview.md) Pessoas | Somente lote | Não | [Definição de metas para destinos baseados em pessoas](merge-rule-targeting-options.md#all-cross-device) |
 
@@ -126,6 +126,10 @@ O [!UICONTROL Device Options] permite selecionar o tipo de *`device profile`* us
   </tr>
  </tbody>
 </table>
+
+## Políticas de mesclagem externas {#external-merge-policies}
+
+Segmentos de público-alvo criados automaticamente a partir de outras soluções da Experience Cloud, com base nas regras de mesclagem definidas fora do Audience Manager, são marcados como usando um [!UICONTROL External Merge Policy]. Por exemplo, consulte Compartilhamento de [público-alvo entre o Audience Manager e a Adobe Experience Platform](../../integration/integration-aep/aam-aep-audience-sharing.md).
 
 >[!MORELIKETHIS]
 >
