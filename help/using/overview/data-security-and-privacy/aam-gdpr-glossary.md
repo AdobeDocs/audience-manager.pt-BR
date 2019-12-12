@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Glossário do RGPD
 uuid: e52cad27-6a44-45ee-8524-6080adb86cc8
 translation-type: tm+mt
-source-git-commit: caa5207bc2955ee18b40d6a51613340001cbd92f
+source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
 
 ---
 
@@ -31,7 +31,7 @@ Familiarize-se com os termos chave usados relacionados ao RGPD. Destacamos algun
 
  
 
-**** Processador de dados: O "processador" é "a ... pessoa coletiva ... que processa dados pessoais em nome do responsável pelo tratamento". No contexto do Audience Manager, a Adobe, ao operar o serviço, está agindo como um "Processador de dados" para quaisquer dados pessoais que ele processa em nome do Controlador. A Adobe só processa dados pessoais de acordo com as instruções do Controlador de dados (conforme estabelecido em nosso acordo com o cliente ou por meio de ações tomadas no Audience Manager).
+**** Processador de dados: O "processador" é "a ... pessoa coletiva ... que processa dados pessoais em nome do responsável pelo tratamento". No contexto do Audience Manager, a Adobe, ao operar o serviço, está agindo como um "Processador de dados" para quaisquer dados pessoais que ele processa em nome do Controlador, por meio do Audience Manager. A Adobe só processa dados pessoais de acordo com as instruções do Controlador de dados (conforme estabelecido em nosso acordo com o cliente ou por meio de ações tomadas no Audience Manager).
 
  
 
@@ -39,7 +39,7 @@ Familiarize-se com os termos chave usados relacionados ao RGPD. Destacamos algun
 
  
 
-**** Consentimento: Consentimento significa "qualquer indicação livre, específica, informada e inequívoca da vontade da pessoa em causa por meio da qual, através de uma declaração ou de uma ação afirmativa clara, dê o seu acordo ao tratamento dos dados pessoais que lhe digam respeito". Consentimento é responsabilidade do Controlador de dados, não da Adobe por meio do Audience Manager.
+**** Consentimento: Consentimento significa "qualquer indicação livre, específica, informada e inequívoca da vontade da pessoa em causa por meio da qual, através de uma declaração ou de uma ação afirmativa clara, dê o seu acordo ao tratamento dos dados pessoais que lhe digam respeito". Consentimento é responsabilidade do Controlador de dados, não da Adobe (por meio do Audience Manager).
 
  
 
