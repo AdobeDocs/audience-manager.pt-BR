@@ -5,7 +5,7 @@ seo-title: Plug-in do Audience Manager para a Estrutura de consentimento do IAB
 solution: Audience Manager
 title: Plug-in do Audience Manager para a Estrutura de consentimento do IAB
 translation-type: tm+mt
-source-git-commit: caa5207bc2955ee18b40d6a51613340001cbd92f
+source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
 
 ---
 
@@ -40,7 +40,7 @@ Você deve atender aos seguintes pré-requisitos para usar o TCF IAB com o Audie
 1. Você deve estar usando a versão 4.1 ou mais recente do Serviço da Experience Cloud ID (ECID). [Baixe](https://github.com/Adobe-Marketing-Cloud/id-service/releases) nossa versão mais recente do ECID.
 1. Você deve estar usando a Biblioteca de integração de dados (DIL) do Audience Manager versão 9.0 ou mais recente, disponível para download [aqui](https://github.com/Adobe-Marketing-Cloud/dil/releases). Leia sobre o [DIL na documentação](../..//dil/dil-overview.md)do Audience Manager.
 1. Como alternativa, se você usar o encaminhamento pelo lado do servidor (SSF) para importar dados para o Audience Manager, será necessário atualizar para a versão mais recente do AppMeasurement. Baixe o AppMeasurement usando o Gerenciador [de código do](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html)Analytics.
-1. Você deve estar usando uma Plataforma de Gerenciamento de Consentimento (CMP), comercial ou própria, compatível com a IAB, e está registrada no IAB TCF. Consulte a lista de [CMPs registrados na estrutura](https://advertisingconsent.eu/cmp-list/)IAB.
+1. Você deve estar usando uma Plataforma de Gerenciamento de Consentimento (CMP), comercial ou própria, compatível com o TCF da IAB, e está registrada no TCF da IAB. Consulte a lista de [CMPs registrados na estrutura](https://advertisingconsent.eu/cmp-list/)IAB.
 
 ## Recomendações e como implementar {#recommendations}
 
