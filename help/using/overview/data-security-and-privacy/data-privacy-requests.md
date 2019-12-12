@@ -7,7 +7,7 @@ keywords: GDPR UI, GDPR API, CCPA, privacy
 title: Solicitações de privacidade de dados
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 translation-type: tm+mt
-source-git-commit: caa5207bc2955ee18b40d6a51613340001cbd92f
+source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
 
 ---
 
@@ -49,16 +49,16 @@ A interface do usuário [do](https://gdprui.cloud.adobe.io/) Privacy Service per
 
 Para ver a aparência de um [!DNL JSON] arquivo válido, é possível [baixar uma amostra de JSON](../data-security-and-privacy/assets/access_request.json).
 
-Compreendemos o seu compromisso de atender às suas solicitações de privacidade de dados do cliente dentro de 30 dias após a recepção. Por esse motivo, tentamos processar sua solicitação de exclusão de dados o mais rápido possível.
+A Adobe entende seu compromisso de atender às solicitações de privacidade dos seus clientes dentro de 30 dias após a recepção. Por esse motivo, a Adobe tem compromisso de processar sua solicitação de exclusão de dados assim que possível.
 
-Em resposta às solicitações de exclusão de dados, excluímos características e segmentos associados ao identificador do Audience Manager incluído na solicitação. Além disso, os respectivos identificadores do Audience Manager para a pessoa de dados serão removidos permanentemente da coleta de dados adicional pelo Audience Manager e os respectivos mapeamentos de ID serão removidos.
+Em resposta às solicitações de exclusão de dados do consumidor, o Audience Manager exclui características e segmentos associados ao identificador do Audience Manager incluído na solicitação. Além disso, os respectivos identificadores do Audience Manager para o indivíduo que optou por não fazer mais coleta de dados pelo Audience Manager e os respectivos mapeamentos de ID serão removidos.
 
 Quando você envia IDs declaradas, como IDs de dispositivo cruzado ou IDs de cookie, em solicitações de privacidade de dados, o Audience Manager executa a exclusão necessária em todos os dispositivos vinculados (até 100 dispositivos por ID declarada). [!DNL CRM]
 
-O Audience Manager notifica os parceiros de ativação sobre solicitações de exclusão enviando a eles informações de cancelamento de segmentos para os Indivíduos de dados que solicitam a exclusão de determinados dados. No entanto, alguns parceiros de ativação:
+O Audience Manager tentará notificar os parceiros de ativação sobre solicitações de exclusão enviando-lhes informações de cancelamento de segmentos para os Indivíduos de dados que solicitam a exclusão de determinados dados. No entanto, alguns parceiros de ativação:
 
-1. Não é possível suportar solicitações de cancelamento de segmento (ou remoção de segmento) da Adobe e/ou
-2. Não podem receber atualizações de nós com uma frequência inferior a 30 dias. Nesses casos, os clientes do Audience Manager não podem enviar solicitações de exclusão para parceiros de ativação de forma automatizada pelo Audience Manager.
+1. Não é possível suportar solicitações de cancelamento de segmento (ou remoção de segmento) do Audience Manager e/ou
+2. Não é possível receber atualizações do Audience Manager com uma frequência inferior a 30 dias. Nesses casos, os clientes do Audience Manager não podem enviar solicitações de exclusão para parceiros de ativação de forma automatizada por meio do Audience Manager.
 
 Nesses casos, não é possível enviar solicitações de exclusão para parceiros de ativação de forma automatizada pelo Audience Manager.
 
@@ -66,7 +66,7 @@ Baixe nossa planilha [do Excel do](assets/AAM-Partners-October2019.xlsx) Parceir
 
 ## Solicitações de recusa {#opt-out-requests}
 
-A Adobe cumpre todos os padrões do setor em relação ao gerenciamento de opções. Leia para obter informações completas sobre os tipos de opção de não participação suportados pelo Audience Manager.
+O Audience Manager suporta padrões em todo o setor no que diz respeito ao gerenciamento de opções. Leia para obter informações completas sobre os tipos de opção de não participação suportados pelo Audience Manager.
 
 Enquanto as solicitações de acesso e exclusão de dados são tratadas pelo [Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html), as solicitações de cancelamento são suportadas por meio da DCS API. Leia para saber como as chamadas de API de opção de não participação devem ser exibidas.
 
@@ -108,7 +108,7 @@ Seus usuários finais também podem optar por não participar da coleta global d
 
 Seguindo as solicitações de opção de não participação descritas acima:
 
-* O Audience Manager irá parar toda a coleta, segmentação ou ativação de dados em diante.
+* O Audience Manager irá parar toda a coleta, segmentação ou ativação de dados em andamento, desde que o usuário não limpe os cookies do navegador.
 * Os dados históricos são removidos do perfil do usuário após 120 dias.
 
 ### Recusar nível de parceiro com chamadas de ID declaradas
@@ -161,12 +161,12 @@ Seguindo uma opção de não participação em nível de parceiro com uma chamad
 
 ## Parceiros Do Audience Manager Com Recursos De Dessegmentação {#aam-partners-with-unsegmentation}
 
-Para ajudar nossos clientes a automatizar as solicitações de privacidade de dados, o Audience Manager notifica nossos parceiros de ativação sobre solicitações de exclusão de Indivíduos de dados, enviando-os para dessegmentar (ou remover segmentos) informações.
+Para ajudá-lo a automatizar suas solicitações de privacidade de dados do consumidor, o Audience Manager tentará notificar os parceiros de ativação sobre solicitações de exclusão de Indivíduos de dados enviando-lhes informações de dessegmento (ou removendo segmento).
 
 Entretanto, alguns de nossos parceiros de ativação:
 
-1. Não é possível suportar solicitações de cancelamento de segmento da Adobe e/ou
-1. Não podem receber atualizações de nós com mais frequência do que uma vez em 30 dias.
+1. Não é possível suportar solicitações de cancelamento de segmento do Audience Manager e/ou
+2. Não é possível receber atualizações do Audience Manager com mais frequência que uma vez em 30 dias.
 
 Nesses casos, não é possível enviar solicitações de exclusão para parceiros de ativação de forma automatizada pelo Audience Manager.
 
@@ -174,6 +174,6 @@ Baixe nossa planilha [do Excel do](assets/AAM-Partners-October2019.xlsx) Parceir
 
 ## Solicitações de correção de dados {#correction}
 
-Como o Audience Manager não é a fonte dos dados, há uma função limitada para a correção de dados no Audience Manager. A correção pode significar que a pessoa de dados solicitou a desqualificação de um traço/segmento incorreto ou a qualificação para o traço/segmento desejado.
+Como o Audience Manager não é a fonte dos dados, há uma função limitada para a correção de dados no Audience Manager. A correção poderia significar que o consumidor solicitou a não qualificação de um traço/segmento incorreto ou a qualificação para o traço/segmento desejado.
 
 Os clientes do Audience Manager podem optar por capturar os sinais/características/segmentos relevantes em relação aos perfis do usuário e enviar essas informações por meio da ingestão [de dados](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) offline para o Audience Manager. Observe que o usuário continuará se qualificando para a característica original e os segmentos se eles repetirem seu comportamento.
