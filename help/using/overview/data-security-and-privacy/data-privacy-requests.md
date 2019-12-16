@@ -7,7 +7,7 @@ keywords: GDPR UI, GDPR API, CCPA, privacy
 title: Solicitações de privacidade de dados
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 translation-type: tm+mt
-source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
+source-git-commit: 9004dc46c0ac431e9f193467a2147a2d9ac36cdc
 
 ---
 
@@ -39,7 +39,7 @@ A interface do usuário [do](https://gdprui.cloud.adobe.io/) Privacy Service per
 
 Para ver a aparência de um [!DNL JSON] arquivo válido, é possível [baixar uma amostra de JSON](../data-security-and-privacy/assets/access_request.json).
 
-Compreendemos seu compromisso de atender às solicitações de privacidade de seus dados do cliente dentro do período definido pela legislação.
+Compreendemos o seu compromisso de atender às suas solicitações de privacidade de dados dentro do período definido pela legislação.
 
 ## Solicitações de exclusão de dados{#delete-data}
 
@@ -49,7 +49,7 @@ A interface do usuário [do](https://gdprui.cloud.adobe.io/) Privacy Service per
 
 Para ver a aparência de um [!DNL JSON] arquivo válido, é possível [baixar uma amostra de JSON](../data-security-and-privacy/assets/access_request.json).
 
-A Adobe entende seu compromisso de atender às solicitações de privacidade dos seus clientes dentro de 30 dias após a recepção. Por esse motivo, a Adobe tem compromisso de processar sua solicitação de exclusão de dados assim que possível.
+A Adobe entende seu compromisso de atender às solicitações de privacidade dos seus clientes dentro de 30 dias. Por esse motivo, a Adobe tem compromisso de processar sua solicitação de exclusão de dados assim que possível.
 
 Em resposta às solicitações de exclusão de dados do consumidor, o Audience Manager exclui características e segmentos associados ao identificador do Audience Manager incluído na solicitação. Além disso, os respectivos identificadores do Audience Manager para o indivíduo que optou por não fazer mais coleta de dados pelo Audience Manager e os respectivos mapeamentos de ID serão removidos.
 
@@ -108,7 +108,7 @@ Seus usuários finais também podem optar por não participar da coleta global d
 
 Seguindo as solicitações de opção de não participação descritas acima:
 
-* O Audience Manager irá parar toda a coleta, segmentação ou ativação de dados em andamento, desde que o usuário não limpe os cookies do navegador.
+* O Audience Manager encerrará toda a coleta, segmentação ou ativação de dados, desde que o usuário não limpe os cookies do navegador.
 * Os dados históricos são removidos do perfil do usuário após 120 dias.
 
 ### Recusar nível de parceiro com chamadas de ID declaradas
