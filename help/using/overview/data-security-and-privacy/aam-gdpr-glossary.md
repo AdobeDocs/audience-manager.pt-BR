@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Glossário do RGPD
 uuid: e52cad27-6a44-45ee-8524-6080adb86cc8
 translation-type: tm+mt
-source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
+source-git-commit: 9004dc46c0ac431e9f193467a2147a2d9ac36cdc
 
 ---
 
@@ -35,7 +35,7 @@ Familiarize-se com os termos chave usados relacionados ao RGPD. Destacamos algun
 
  
 
-**** Assunto dos dados: O indivíduo a quem os dados pessoais se referem. No contexto do Audience Manager, os objetos de dados são os consumidores do cliente do Audience Manager ou os usuários finais. Se o Audience Manager receber solicitações diretamente de Indivíduos de dados, essas solicitações serão encaminhadas aos respectivos Clientes da Adobe.
+**** Assunto dos dados: O indivíduo a quem os dados pessoais se referem. No contexto do Audience Manager, os objetos de dados são os consumidores do cliente do Audience Manager ou os usuários finais. Se a Adobe receber solicitações diretamente de Indivíduos de dados, essas solicitações serão encaminhadas aos respectivos Clientes do Audience Manager.
 
  
 
