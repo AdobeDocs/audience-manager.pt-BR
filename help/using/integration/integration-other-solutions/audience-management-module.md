@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Implementação do módulo de gerenciamento de público-alvo
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 translation-type: tm+mt
-source-git-commit: d6bfffa97813eeafd7e478f0520b2a62eb63cb94
+source-git-commit: 1b7c29c0637432a320b2a7573a3f5a7fb4cdcb81
 
 ---
 
@@ -18,7 +18,7 @@ Adicione a [!UICONTROL Audience Management Module] para [!DNL Adobe Analytics] e
 
 >[!NOTE]
 >
->As instruções desta página se referem às implementações que usam o [Adobe Digital Tag Manager (DTM)](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) ou qualquer outra solução de gerenciamento de tags, *exceto* o [Adobe Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html). Recomendamos que você use o Adobe Launch. Ao usar o Launch, não é necessário copiar manualmente o código, como mostrado nesta página.
+>As instruções desta página se referem às implementações que usam o [Adobe Digital Tag Manager (DTM)](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) ou qualquer outra solução de gerenciamento de tags, *exceto* o [Adobe Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html). Recomendamos que você use o Adobe Launch. Ao usar [!DNL Launch], não é necessário copiar manualmente o código para [!UICONTROL AppMeasurement], conforme mostrado nesta página.
 
 ## Pré-requisitos {#prereqs}
 
