@@ -1,13 +1,13 @@
 ---
 description: Adicione o Módulo de gerenciamento de público-alvo ao Adobe Analytics AppMeasurement para encaminhar os dados do Analytics para o Audience Manager, em vez de fazer com que o código da Biblioteca de integração de dados (DIL) do Audience Manager envie um pixel da página.
-keywords: Análises de audiência; Análises; ssf; encaminhamento pelo lado do servidor
+keywords: audience analytics; analytics; ssf; server side forwarding
 seo-description: Adicione o Módulo de gerenciamento de público-alvo ao Adobe Analytics AppMeasurement para encaminhar os dados do Analytics para o Audience Manager, em vez de fazer com que o código da Biblioteca de integração de dados (DIL) do Audience Manager envie um pixel da página.
 seo-title: Implementação do módulo de gerenciamento de público-alvo
 solution: Audience Manager
 title: Implementação do módulo de gerenciamento de público-alvo
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 translation-type: tm+mt
-source-git-commit: 94046c4ed825949451d0dbad37adbe9fba0f9191
+source-git-commit: d6bfffa97813eeafd7e478f0520b2a62eb63cb94
 
 ---
 
@@ -15,6 +15,10 @@ source-git-commit: 94046c4ed825949451d0dbad37adbe9fba0f9191
 # Implementação do módulo de gerenciamento de público-alvo {#implement-the-audience-management-module}
 
 Adicione a [!UICONTROL Audience Management Module] para [!DNL Adobe Analytics] encaminhar [!UICONTROL AppMeasurement] dados ao Audience Manager em vez de fazer com que o código do Audience Manager [!DNL Analytics] ( [!UICONTROL Data Integration Library][!UICONTROL DIL]) envie um pixel da página.
+
+>[!NOTE]
+>
+>As instruções desta página se referem às implementações que usam o [Adobe Digital Tag Manager (DTM)](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) ou qualquer outra solução de gerenciamento de tags, *exceto* o [Adobe Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html). Recomendamos que você use o Adobe Launch. Ao usar o Launch, não é necessário copiar manualmente o código, como mostrado nesta página.
 
 ## Pré-requisitos {#prereqs}
 
