@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Arquivo de registro acionável
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: 1c14d2a6b5f1d092f4323d4471425e11f7860f25
+source-git-commit: a96e64d81b6834a308ba40ec3f7fa6ada038f662
 
 ---
 
@@ -244,6 +244,19 @@ Os sinais descritos na tabela são captados em [!DNL Audience Manager] tempo rea
 ```
 https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_activity=1234&d_creative=24122&d_placemebt=3442&d_bu=3983524&d_campaign=7321391&d_adsrc=11111
 ```
+
+## Trabalhar com Sinais acionáveis na interface do usuário do Audience Manager {#actionable-signals-in-ui}
+
+Você pode exibir os sinais acionáveis recebidos na interface de Pesquisa [de](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md) Sinais.
+
+Vá para Dados **de** público-alvo (1) &gt; **Sinais** (2) &gt; **Pesquisar** (3) e selecione o filtro Arquivos **** de registro acionáveis (4).
+
+![Sinais acionáveis na interface do usuário](/help/using/integration/assets/alf-in-signals.png)
+
+Para criar características com base em regras usando seus sinais acionáveis, selecione Arquivos **de Log** Acionáveis (1), selecione os sinais acionáveis que deseja usar como regras de características (2) e pressione **Criar característica dos Sinais** Selecionados (3).
+
+![Criar características de sinais](/help/using/integration/assets/alf-create-trait.png)
+
 
 ## Casos de uso {#use-cases}
 
