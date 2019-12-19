@@ -5,7 +5,7 @@ seo-title: Plug-in do Audience Manager para a Estrutura de consentimento do IAB
 solution: Audience Manager
 title: Plug-in do Audience Manager para a Estrutura de consentimento do IAB
 translation-type: tm+mt
-source-git-commit: ff4bf70c9012f99289ea82824a552db97430fbf2
+source-git-commit: 25ca7a44e9b4a67ec025d63da1395fc30789597c
 
 ---
 
@@ -44,7 +44,7 @@ Você deve atender aos seguintes pré-requisitos para usar o TCF IAB com o Audie
 
 ## Recomendações e como implementar {#recommendations}
 
-Para habilitar o suporte ao TCF IAB no Audience Manager, leia nossa documentação sobre [como configurar o IAB com aceitação](https://marketing.adobe.com/resources/help/en_US/mcvid/iab.html).
+Para habilitar o suporte ao TCF IAB no Audience Manager, leia nossa documentação sobre [como configurar o IAB com aceitação](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/iab.html).
 
 Isso é mais fácil de ser feito usando o [Adobe Launch](https://docs.adobelaunch.com/) para instrumentar a opção ECID nas suas propriedades. Read the documentation for the [ECID Opt-in extension](https://docs.adobelaunch.com/extension-reference/web/experience-cloud-id-service-extension#opt-in) to learn how to set up the Launch extension.
 
@@ -133,7 +133,7 @@ O Plug-in do Audience Manager para IAB TCF permite encaminhar a sequência de ca
 
 ## Testar sua implementação IAB {#test-iab-implementation}
 
-Para testar se você implementou corretamente o Plug-in do Audience Manager para IAB TCF, leia [Caso de uso 4 em Métodos de validação para aceitação e implementação](https://marketing.adobe.com/resources/help/en_US/mcvid/testing-optin-and-iab-plugin.html)IAB.
+Para testar se você implementou corretamente o Plug-in do Audience Manager para IAB TCF, leia [Caso de uso 4 em Métodos de validação para aceitação e implementação](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/testing-optin-and-iab-plugin.html#section-64331998954d4892960dcecd744a6d88)IAB.
 
 ## IAB e cancelamento no Audience Manager. Ordem de precedência. {#iab-and-optout}
 
