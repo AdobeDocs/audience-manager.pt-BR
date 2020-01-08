@@ -1,13 +1,13 @@
 ---
 description: Os arquivos de registro acionáveis permitem capturar sinais de mídia de arquivos de log do servidor de publicidade para criar características no Audience Manager. Capture impressões, cliques e conversões de servidores de anúncios como características sem precisar anexar pixels.
 keywords: actionable logs, alf, ALF
-seo-description: Os arquivos de registro acionáveis permitem capturar sinais de mídia de arquivos de log do servidor de publicidade para criar características no Audience Manager. Capture impressões, cliques e conversões de servidores de anúncios como características sem precisar usar os pixels anexados.
+seo-description: Os arquivos de registro acionáveis permitem capturar sinais de mídia de arquivos de log do servidor de publicidade para criar características no Audience Manager. Capture impressões, cliques e conversões de servidores de anúncios como características sem precisar anexar pixels.
 seo-title: Arquivo de registro acionável
 solution: Audience Manager
 title: Arquivo de registro acionável
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: a96e64d81b6834a308ba40ec3f7fa6ada038f662
+source-git-commit: fcdfe3a81cddc3c899453234d349f7a458c2be61
 
 ---
 
@@ -35,7 +35,7 @@ Se você já estiver importando dados de log para [!DNL Audience Manager], peça
 
 >[!IMPORTANT]
 >
-> No final de 2019, [!UICONTROL Actionable Log Files] começará a expandir a disponibilidade para novos servidores de anúncios. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to get started.
+> No início de 2020, [!UICONTROL Actionable Log Files] começará a expandir a disponibilidade para novos servidores de anúncios. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to get started.
 
 ## Trabalhar com arquivos de registro acionáveis {#working-with-actionable-log-files}
 
@@ -148,7 +148,7 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 Para um arquivo de [!DNL DCM] log de tamanho médio de 2 milhões de linhas, quaisquer características criadas a partir de sinais acionáveis são realizadas aproximadamente uma hora após o processamento dos registros.
 
->[!NOTE] {important="high"}
+>[!NOTE] {important=&quot;high&quot;}
 >
 >O carimbo de data e hora do evento fornecido nos [!DNL DCM] logs será respeitado e passado para o [!UICONTROL Data Collection Servers].
 >
@@ -249,7 +249,7 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 Você pode exibir os sinais acionáveis recebidos na interface de Pesquisa [de](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md) Sinais.
 
-Vá para Dados **de** público-alvo (1) &gt; **Sinais** (2) &gt; **Pesquisar** (3) e selecione o filtro Arquivos **** de registro acionáveis (4).
+Vá para Dados **de** público-alvo (1) > **Sinais** (2) > **Pesquisar** (3) e selecione o filtro Arquivos **** de registro acionáveis (4).
 
 ![Sinais acionáveis na interface do usuário](/help/using/integration/assets/alf-in-signals.png)
 
