@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: f5c8d39aaf18fd513d85d17c3aa34c5d57e69885
+source-git-commit: 3c528a39ffb1f6b36838bb6e2e3240957e87eb61
 
 ---
 
@@ -348,7 +348,6 @@ source-git-commit: f5c8d39aaf18fd513d85d17c3aa34c5d57e69885
       + [Dicas de solução de problemas para ferramentas de gerenciamento em massa](reference/bulk-management-tools/bulk-troubleshooting.md)
       + [Glossário de ferramentas de gerenciamento em massa](reference/bulk-management-tools/bulk-management-glossary.md)
    + [CID substitui DPID e DPUUID](reference/cid.md)
-   + [Glossário](reference/aam-glossary.md)
    + [Como a entrega de dados e os tempos de processamento de arquivos afetam os relatórios](reference/reporting-file-transfer-timeframe.md)
    + [Índice de IDs no Audience Manager](reference/ids-in-aam.md)
    + [Explicação dos pares de valor-chave](reference/key-value-pairs-explained.md)
@@ -391,3 +390,4 @@ source-git-commit: f5c8d39aaf18fd513d85d17c3aa34c5d57e69885
    + [Atualizações da documentação de 2017](docs-updates/docs-2017.md)
    + [Atualizações da documentação de 2016](docs-updates/docs-2016.md)
    + [Atualizações da documentação de 2015](docs-updates/docs-2015.md)
++ [Glossário](reference/aam-glossary.md)
