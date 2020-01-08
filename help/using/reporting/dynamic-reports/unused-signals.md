@@ -6,22 +6,22 @@ solution: Audience Manager
 title: Relatório de Sinais Não Utilizados
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: dcc44161df89b44ca1a234070c4afbb0210dc723
 
 ---
 
 
 # Relatório de Sinais Não Utilizados{#unused-signals-report}
 
-Este relatório retorna uma contagem de frequência de todas as informações não utilizadas coletadas no inventário e enviadas ao Audience Manager.
+Este relatório retorna uma contagem de frequência de todas as informações não utilizadas coletadas no inventário e enviadas ao Audience Manager. Para acessar esse relatório, navegue até **Analytics > Relatórios de público-alvo > Outros relatórios > Sinais** não usados.
 
-<!-- 
+>[!NOTE]
+>
+>Se aparecer a mensagem &quot;Você não tem acesso aos Relatórios de público-alvo&quot;, entre em contato com seu consultor do Audience Manager ou com o Atendimento ao cliente para fornecer o relatório.
 
-c_unused_signals.xml
+![Captura de tela do Relatório de Sinais não usados](/help/using/reporting/dynamic-reports/assets/unused-signals.png)
 
- -->
-
-## Relatório de Sinais Não Utilizados
+## Visão geral
 
 Um sinal é a informação transmitida pelo seu sítio Web [!DNL Audience Manager] sob a forma de pares [](../../reference/key-value-pairs-explained.md) chave-valor (por exemplo, `color=blue, price>100, gender=female`, etc.).
 
@@ -45,7 +45,7 @@ Revise este relatório para ajudar a identificar sinais órfãos que podem ser m
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Garanta a uniformidade da característica ou adicione valores relacionados a uma única chave</b> </p> </td> 
-   <td colname="col2"> <p>Revise o relatório para considerar variações de valor diferentes para um sinal específico. </p> <p>Por exemplo, digamos que você tenha uma característica para o estado "Carolina do Norte" definida em um par de valor chave como <code> c_state = Carolina</code>do Norte. O relatório pode ajudá-lo a encontrar variantes de nomes e adicioná-las à característica (por exemplo, <code> c_state = Carolina do Norte, NC, N.C., NCarolina</code>). Como alternativa, você pode detectar variantes de nome no relatório e substituí-las por um valor uniforme em todos os sites. </p> <p> </p> </td> 
+   <td colname="col2"> <p>Revise o relatório para considerar variações de valor diferentes para um sinal específico. </p> <p>Por exemplo, digamos que você tenha uma característica para o estado "Carolina do Norte" definida em um par chave-valor como <code> c_state = North Carolina</code>. O relatório pode ajudá-lo a encontrar variantes de nomes e adicioná-las à característica (por exemplo, <code> c_state = North Carolina, NC, N.C., NCarolina</code>). Como alternativa, você pode detectar variantes de nome no relatório e substituí-las por um valor uniforme em todos os sites. </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Criar novas características</b> </p> </td> 
