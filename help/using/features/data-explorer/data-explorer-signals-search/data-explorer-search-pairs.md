@@ -5,7 +5,7 @@ seo-title: Pesquisar Sinais por Pares de Valor-Chave
 title: Pesquisar Sinais por Pares de Valor-Chave
 uuid: 2a38d0d4-4a2e-4ca5-b9ec-af9d4963d876
 translation-type: tm+mt
-source-git-commit: 1f26460d746a93ddc36c375360fcfbd9feb06fbb
+source-git-commit: 2206b5e40f7024084953fed52bb02fcc46ea36f1
 
 ---
 
@@ -32,6 +32,10 @@ Ao procurar sinais usando vários pares de valores chave, [!DNL Audience Manager
 Essa pesquisa retornará somente os resultados que se qualificam para os três filtros na mesma chamada: `c_creative == "12345"``AND` `c_product == "smartphone"``AND``c_location == "europe"`.
 
 ![](assets/signals-search.png)
+
+## Sinais excluídos da pesquisa de sinal {#excluded-signals}
+
+As variáveis-chave usadas pelo Audience Manager e prefixadas pelos prefixos `d_` e `h_` não são reveladas [!UICONTROL Signals Search]. Consulte Requisitos de [prefixo para variáveis](../../traits/trait-variable-prefixes.md) -chave para obter detalhes.
 
 ## Insensibilidade a maiúsculas e minúsculas e autocompletar a pesquisa {#case-insensitivity}
 
