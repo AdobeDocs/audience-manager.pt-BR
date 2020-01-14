@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Requisitos de prefixo para variáveis-chave
 uuid: df2ef9c8-606a-45f9-a836-859f856a7d4b
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 2206b5e40f7024084953fed52bb02fcc46ea36f1
 
 ---
 
@@ -39,11 +39,11 @@ A tabela a seguir define os prefixos comuns usados por [!UICONTROL Trait Builder
   </tr> 
   <tr> 
    <td colname="col1"><code> d_</code> </td> 
-   <td colname="col2"> <p>No nível do <span class="keyword"> Audience Manager</span> . Esses dados são uniformes em todo o ecossistema do <span class="keyword"> Audience Manager</span> . Consulte <a href="../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> Atributos suportados para chamadas</a> de API DCS para obter uma lista mais completa. </p> </td> 
-  </tr> 
+   <td colname="col2"> <p>No nível do <span class="keyword"> Audience Manager</span> . Esses dados são uniformes em todo o ecossistema do <span class="keyword"> Audience Manager</span> . Consulte <a href="../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> Atributos suportados para chamadas</a> de API DCS para obter uma lista mais completa. <p>Sinais que usam esse prefixo não são exibidos na Pesquisa <a href="../data-explorer/data-explorer-signals-search/data-explorer-signals-search.md">de</a>sinal.</p></p> </td> 
+  </tr>
   <tr> 
    <td colname="col1"><code> h_</code> </td> 
-   <td colname="col2"> <p>Isso contém informações de cabeçalho <a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" scope="external" format="html"></a> HTTP. Inclui parâmetros de cabeçalho como <code> referer</code>,<code> IP</code>, <code> accept-language</code>etc. </p> <p> <p>Observação: Para clientes que usam versões DIL anteriores à 9.0, a coleta de dados que usa o <code> h_referer</code> sinal não funcionará nos navegadores Safari. Com a introdução do <a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external"> ITP 2.0</a>, os navegadores Safari podem classificar o domínio demdex.net como um rastreador e truncarão o referenciador na solicitação de coleta de dados para conter apenas a origem em vez do URL completo. Consulte <a href="../../dil/dil-overview.md#get-implement-dil-code">Obtendo e implementando o código</a> DIL para obter a versão mais recente do DIL. </p> </p> </td> 
+   <td colname="col2"> <p>Isso contém informações de cabeçalho <a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" scope="external" format="html"></a> HTTP. Inclui parâmetros de cabeçalho como <code> referer</code>,<code> IP</code>, <code> accept-language</code>etc. </p> <p> <p>Observação: Para clientes que usam versões DIL anteriores à 9.0, a coleta de dados que usa o <code> h_referer</code> sinal não funcionará nos navegadores Safari. Com a introdução do <a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external"> ITP 2.0</a>, os navegadores Safari podem classificar o domínio demdex.net como um rastreador e truncarão o referenciador na solicitação de coleta de dados para conter apenas a origem em vez do URL completo. Consulte <a href="../../dil/dil-overview.md#get-implement-dil-code">Obtendo e implementando o código</a> DIL para obter a versão mais recente do DIL.<p>Sinais que usam esse prefixo não são exibidos na Pesquisa <a href="../data-explorer/data-explorer-signals-search/data-explorer-signals-search.md">de</a>sinal.</p></p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><code> p_</code> </td> 
