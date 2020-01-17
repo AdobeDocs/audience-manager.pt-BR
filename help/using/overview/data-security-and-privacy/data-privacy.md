@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Visão geral da privacidade de dados
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 translation-type: tm+mt
-source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
+source-git-commit: f8184dfccdb7b5cbc3ace67831d988dd8061ea38
 
 ---
 
@@ -30,9 +30,9 @@ O Regulamento [Geral sobre a Proteção de Dados (RGPD)](https://eugdpr.org/) in
 
 Para estar em conformidade com o RGPD, o Audience Manager oferece suporte ao acesso a dados e à exclusão de [solicitações](data-privacy-requests.md).
 
-A [California Consumer Privacy Act (CCPA)](https://www.caprivacy.org/about), que entrará em vigor em 1º de janeiro de 2020, concederá aos residentes da Califórnia novos direitos sobre suas informações pessoais e imporá responsabilidades de proteção de dados a determinadas entidades que fazem negócios na Califórnia.
+A [California Consumer Privacy Act (CCPA)](https://www.caprivacy.org/about), que entrou em vigor em 1º de janeiro de 2020, fornece aos residentes da Califórnia novos direitos sobre suas informações pessoais e impõe responsabilidades de proteção de dados a determinadas entidades que realizam negócios na Califórnia.
 
-A CCPA fornece novos direitos de privacidade de dados aos residentes da Califórnia, incluindo o direito de acessar e excluir seus dados pessoais e saber se seus dados pessoais são vendidos ou divulgados (e a quem). Em antecipação ao CCPA, o Audience Manager oferece suporte ao acesso e exclusão de [solicitações](data-privacy-requests.md)do CCPA.
+A CCPA fornece novos direitos de privacidade de dados para residentes na Califórnia, incluindo o direito de acessar e excluir seus dados pessoais e saber se seus dados pessoais foram vendidos ou divulgados (e para quem). Para estar em conformidade com o CCPA, o Audience Manager oferece suporte ao acesso CCPA e à exclusão de [solicitações](data-privacy-requests.md).
 
 Consulte o Centro [de privacidade da](https://www.adobe.com/privacy/opt-out.html) Adobe para obter mais detalhes.
 
