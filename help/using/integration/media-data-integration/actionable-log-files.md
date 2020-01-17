@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Arquivo de registro acionável
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: fcdfe3a81cddc3c899453234d349f7a458c2be61
+source-git-commit: 408ebf38ad75f32d110455b754a096328f2c456e
 
 ---
 
@@ -35,7 +35,7 @@ Se você já estiver importando dados de log para [!DNL Audience Manager], peça
 
 >[!IMPORTANT]
 >
-> No início de 2020, [!UICONTROL Actionable Log Files] começará a expandir a disponibilidade para novos servidores de anúncios. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to get started.
+> No final de 2019, [!UICONTROL Actionable Log Files] começou a expandir a disponibilidade para novos servidores de anúncios. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to get started.
 
 ## Trabalhar com arquivos de registro acionáveis {#working-with-actionable-log-files}
 
