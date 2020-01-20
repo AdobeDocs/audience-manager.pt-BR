@@ -1,13 +1,13 @@
 ---
 description: No Audience Manager, um destino é qualquer sistema de terceiros (servidor de anúncios, DSP, rede de anúncios etc.) com os quais você deseja compartilhar dados. O Construtor de destinos é a ferramenta usada para criar e gerenciar cookies, URL ou destinos de servidor para servidor.
-keywords: código de integração, destino, visão geral do destino, destino, destino, destino, destino, destino, destino, destino, destino, destino, destino, destino, destino
+keywords: integration code, destination, destination overview, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination
 seo-description: No Audience Manager, um destino é qualquer sistema de terceiros (servidor de anúncios, DSP, rede de anúncios etc.) com os quais você deseja compartilhar dados. O Construtor de destinos é a ferramenta usada para criar e gerenciar cookies, URL ou destinos de servidor para servidor.
 seo-title: Destinos
 solution: Audience Manager
 title: Destinos
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
 translation-type: tm+mt
-source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
+source-git-commit: 431a254f1a70958db29621a59acc6239d2a6b005
 
 ---
 
@@ -45,5 +45,8 @@ Os exemplos na tabela a seguir podem ajudá-lo a entender quando usar um destino
 
 | Tipo de destino | Normalmente Usado Quando | Exemplo | Considerações |
 |--- |--- |--- |--- |
-| **URL** ou **cookie** | É necessário transferir dados imediatamente para que um destino possa agir imediatamente em um usuário qualificado. | Envio de dados de um site de compra de tíquete. Use um URL ou um destino de cookie para qualificar o usuário e redirecionar imediatamente. | <ul><li>Transfere dados somente sobre novos visitantes. </li><li>Os visitantes devem ser vistos novamente para se qualificarem para o segmento.</li></ul> |
-| **Servidor para servidor** | <ul><li>Não é necessária a transferência imediata de dados.</li><li>Coleta de dados para criar um grande pool de usuários qualificados.</li></ul> | Coletando dados ao longo do tempo (horas ou dias) para usá-los em um conjunto de campanhas para execução em uma data posterior. | <ul><li>Transfere dados sobre visitantes do site novos e anteriores. </li><li>Os visitantes não precisam ser vistos novamente para se qualificarem para outros segmentos.</li></ul> |
+| **[!UICONTROL Adobe Experience Cloud Destinations]** | É necessário enviar dados para outras soluções da Adobe Experience Cloud. | Envio de dados para o Adobe Analytics. |  |
+| **[!UICONTROL People-Based Destinations]** | É necessário enviar segmentos de público-alvo para ambientes baseados em pessoas, como o Facebook. | Fornecer ofertas personalizadas a clientes existentes, com base em seu histórico de compras | O direcionamento de público-alvo é feito por meio de identificadores com hash. Consulte Destinos baseados em [pessoas](people-based-destinations-overview.md) |
+| **[!UICONTROL Device-Based Destinations]**(Servidor** para servidor **) | <ul><li>Não é necessária a transferência imediata de dados.</li><li>Coleta de dados para criar um grande pool de usuários qualificados.</li></ul> | Coletando dados ao longo do tempo (horas ou dias) para usá-los em um conjunto de campanhas para execução em uma data posterior. | <ul><li>Transfere dados sobre visitantes do site novos e anteriores. </li><li>Os visitantes não precisam ser vistos novamente para se qualificarem para outros segmentos.</li></ul> |
+| **[!UICONTROL Custom Destinations]**(** URL **ou** cookie **) | É necessário transferir dados imediatamente para que um destino possa agir imediatamente em um usuário qualificado. | Envio de dados de um site de compra de tíquete. Use um URL ou um destino de cookie para qualificar o usuário e redirecionar imediatamente. | <ul><li>Transfere dados somente sobre novos visitantes. </li><li>Os visitantes devem ser vistos novamente para se qualificarem para o segmento.</li></ul> |
+
