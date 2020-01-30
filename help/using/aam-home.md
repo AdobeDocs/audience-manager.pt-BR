@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Documentação do produto do Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 translation-type: tm+mt
-source-git-commit: 3c528a39ffb1f6b36838bb6e2e3240957e87eb61
+source-git-commit: 1eeab9f3e4d87131323cf5a5a4f4f8702f92c120
 
 ---
 
@@ -20,6 +20,7 @@ Este guia de documentação técnica fornece autoajuda para o Audience Manager -
   <tr> 
    <td colname="col1"> <p> <b>Itens novos e em destaque</b> </p> <p>Leia sobre os recursos mais recentes do Audience Manager:</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
+     <li><a href="features/administration/activity-usage-reporting.md">Relatório de uso de atividade</a></li>
      <li><a href="overview/data-security-and-privacy/data-privacy.md">Visão geral do suporte e da documentação de privacidade da California Consumer Privacy Act (CCPA)</a></li>
      <li><a href="features/segments/trait-recommendations.md">Recomendações inteligentes para dados do Audience Marketplace, capacitadas pelo Adobe Sensei</a></li>
     <li><a href="features/profile-merge-rules/merge-rules-overview.md">Aprimoramentos das regras de mesclagem de perfil</a></li>
