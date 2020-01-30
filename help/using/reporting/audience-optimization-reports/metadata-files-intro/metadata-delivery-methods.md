@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Métodos de entrega para arquivos de metadados
 uuid: 5199ee9b-920d-423d-8070-05a017ecd562
 translation-type: tm+mt
-source-git-commit: de51f27cac0d165d043e90db978a6949d6a43761
+source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
 
 ---
 
@@ -14,6 +14,10 @@ source-git-commit: de51f27cac0d165d043e90db978a6949d6a43761
 # Métodos de entrega para arquivos de metadados{#delivery-methods-for-metadata-files}
 
 Envie ou atualize arquivos de metadados enviando-os para um [!DNL Amazon S3] diretório especial para sua conta do Audience Manager. Consulte esta seção para obter informações sobre caminhos de entrega/diretório, tempos de processamento de arquivos e atualizações.
+
+>[!IMPORTANT]
+>
+> Entre em contato com seu consultor do Audience Manager ou com o Atendimento ao cliente para começar e configurar um [!DNL Amazon S3] diretório para seus arquivos de metadados.
 
 ## Sintaxe e exemplo do caminho de entrega {#syntax}
 
