@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Visão geral e mapeamentos para arquivos de metadados
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 13882a8f9300344e1bb0a3079666a67166945a83
 
 ---
 
@@ -17,7 +17,7 @@ Um arquivo de metadados vincula IDs numéricas com nomes que você pode ler e en
 
 ## Visão geral {#overview}
 
-Uma análise dos metadados e como eles são usados. Um arquivo de metadados deve ser acompanhado por um arquivo de dados. O conteúdo do arquivo de metadados corresponde às informações do arquivo de dados a rótulos relacionados e legíveis por humanos nos menus do relatório. Para obter mais informações, consulte Arquivos [de dados para relatórios](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)de otimização de público-alvo.
+Uma análise dos metadados e como eles são usados. Um arquivo de metadados deve ser acompanhado por um arquivo de dados. O conteúdo do arquivo de metadados corresponde às informações do arquivo de dados a rótulos relacionados e legíveis por humanos nos menus do relatório. Para obter mais informações, consulte Arquivos [de dados para Relatórios de otimização de público-alvo e Arquivos](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)de registro acionáveis.
 
 ### Os Arquivos De Metadados Contêm Dados Sobre Outros Dados
 
@@ -31,7 +31,7 @@ A chamada de evento organiza informações em conjuntos de pares de valores chav
 
 O arquivo de metadados é necessário para vincular uma ID numérica a um nome legível. Por exemplo, digamos que uma chamada de evento contenha uma ID criativa em um par de valor chave como este: `d_creative:1234`. Sem um arquivo de metadados, esse anúncio seria exibido como 1234 em um menu de opções.
 
-No entanto, um arquivo de metadados devidamente formatado pode vincular esse anúncio a um nome real como "Advertiser Creative A", que é um nome que você pode ler e reconhecer em um relatório.
+No entanto, um arquivo de metadados devidamente formatado pode vincular esse anúncio a um nome real como &quot;Advertiser Creative A&quot;, que é um nome que você pode ler e reconhecer em um relatório.
 
 ### Quando você precisa de um arquivo de metadados
 
