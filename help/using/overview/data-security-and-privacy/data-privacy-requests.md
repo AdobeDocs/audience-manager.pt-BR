@@ -7,7 +7,7 @@ keywords: GDPR UI, GDPR API, CCPA, privacy
 title: Solicitações de privacidade de dados
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 translation-type: tm+mt
-source-git-commit: ff4bf70c9012f99289ea82824a552db97430fbf2
+source-git-commit: 1a7f207b593ea783e20a0398bb0d543628253049
 
 ---
 
@@ -25,9 +25,9 @@ Antes de ler este artigo, recomendamos passar pelo Glossário [do](../data-secur
 Você pode enviar solicitações individuais para acessar e excluir dados do consumidor do Audience Manager de duas formas:
 
 * Por meio da interface do usuário do [Privacy Service](https://gdprui.cloud.adobe.io/). Consulte a documentação [aqui](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md).
-* Através do **[!DNL Privacy Service API]**. Consulte a documentação [aqui](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md) e a referência da API [aqui](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml).
+* Através do **[!DNL Privacy Service API]**. Consulte a documentação[aqui](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md)e a referência da API[aqui](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml).
 
-Ao enviar solicitações individuais de privacidade de dados, você pode enviar identificadores (IDs) do Audience Manager, conforme descrito na seção Identificadores **[do](data-privacy-ids.md)** Audience Manager, juntamente com suas respectivas IDs de namespace (IDs de fonte de dados).
+Ao enviar solicitações individuais de privacidade de dados, você pode enviar identificadores (IDs) do Audience Manager, conforme descrito na seção Identificadores **[do](data-privacy-ids.md)**Audience Manager, juntamente com suas respectivas IDs de namespace (IDs de fonte de dados).
 
 O [Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) suporta dois tipos de solicitações: acesso aos dados e solicitações de exclusão de dados.
 
@@ -170,7 +170,7 @@ Entretanto, alguns de nossos parceiros de ativação:
 
 Nesses casos, não é possível enviar solicitações de exclusão para parceiros de ativação de forma automatizada pelo Audience Manager.
 
-Baixe nossa planilha [do Excel do](assets/AAM-Partners-December2019.xlsx) Parceiro para ver quais parceiros de ativação do Audience Manager suportam a anulação de segmentos.
+Consulte a [lista de destinos](/help/using/features/destinations/device-based-destinations-list.md) baseados em dispositivos para ver quais parceiros de ativação do Audience Manager suportam a anulação de segmentos.
 
 ## Solicitações de correção de dados {#correction}
 
