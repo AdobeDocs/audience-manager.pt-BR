@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Arquivos de dados para relatórios de otimização de público-alvo e arquivos de registro acionáveis
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 translation-type: tm+mt
-source-git-commit: 342a511b414ac682d8eb3c6547d725431d8828d6
+source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
 
 ---
 
@@ -141,11 +141,15 @@ A tabela abaixo lista e descreve os cabeçalhos de coluna para seu arquivo de da
 
 Faça upload de sua impressão, clique ou converta arquivos de dados em um diretório Amazon S3 para sua [!DNL Audience Manager] conta. Consulte esta seção para obter informações sobre caminhos de entrega/diretório, tempos de processamento de arquivos e atualizações.
 
+>[!IMPORTANT]
+>
+> Entre em contato com seu consultor do Audience Manager ou com o Atendimento ao cliente para começar e configurar um [!DNL Amazon S3] diretório para seus arquivos de dados.
+
 **Sintaxe do caminho de entrega e exemplos**
 
-Os dados são armazenados em um namespace separado para cada cliente em um diretório Amazon S3. O caminho do arquivo segue a sintaxe mostrada abaixo. Note, *italics* indicates a variable placeholder. Outros elementos são constantes ou teclas e não são alterados.
+Os dados são armazenados em um namespace separado para cada cliente em um [!DNL Amazon S3] diretório. O caminho do arquivo segue a sintaxe mostrada abaixo. Note, *italics* indicates a variable placeholder. Outros elementos são constantes ou teclas e não são alterados.
 
-**Sintaxe:** <pre> .../log_ingestion/pid= ID <i>/dpid do<i>AAM= <i>d_src</i>/logs/ tipo <i>de</i>arquivo_<i>yyyymmdd</i></code></pre>
+**Sintaxe:** <pre>.../log_ingestion/pid= ID <i>/dpid do<i>AAM= <i>d_src</i>/logs/ tipo <i>de</i>arquivo_<i>yyyymmdd</i></code></pre>
 
 A tabela a seguir define cada um desses elementos em um caminho de entrega de arquivo.
 
@@ -163,7 +167,7 @@ A tabela a seguir define cada um desses elementos em um caminho de entrega de ar
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>pid=<i>AAM ID</i></code> </p> </td> 
-   <td colname="col2"> <p>Esse par de valores chave que contém a ID do cliente do <span class="keyword"> Audience Manager</span> . </p> </td> 
+   <td colname="col2"> <p>Esse par de valores chave contém a ID do cliente do <span class="keyword"> Audience Manager</span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>dpid=<i>d_src</i></code> </p> </td> 
