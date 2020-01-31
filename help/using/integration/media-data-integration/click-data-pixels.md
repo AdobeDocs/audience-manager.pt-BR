@@ -6,18 +6,14 @@ solution: Audience Manager
 title: Captura de dados de clique da campanha por meio de chamadas de pixels
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 translation-type: tm+mt
-source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
+source-git-commit: 132e36175a69a270ea608643049931fbc06efc69
 
 ---
 
 
 # Capturing Campaign Click Data via Pixel Calls {#capturing-campaign-click-data-via-pixel-calls}
 
-O rastreamento de cliques permite a medição do envolvimento do visitante em toda a sua campanha, pois registra uma atividade baseada em cliques para criações de terceiros. Semelhante à coleção de impressões, uma chamada de evento é enviada para os servidores de coleta de dados ([!UICONTROL DCS]) do Audience Manager para processamento. O visitante é então redirecionado para o endereço da Web desejado.
-
->[!IMPORTANT]
->
->Para que o Audience Manager interprete corretamente os campos recebidos em chamadas de evento e renderize os dados da sua campanha nos relatórios [de Otimização de](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)público-alvo, você deve enviar arquivos de metadados que mapeiam esses campos para valores legíveis para humanos. Consulte [Visão geral e mapeamentos para arquivos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) de metadados e entre em contato com seu consultor do Audience Manager ou com o Atendimento ao cliente para configurar um diretório Amazon S3 para arquivos de metadados.
+O rastreamento de cliques permite a medição do envolvimento do visitante em toda a sua campanha, pois registra uma atividade baseada em cliques para criações de terceiros. Semelhante à coleção [de](/help/using/integration/media-data-integration/impression-data-pixels.md)impressões, uma chamada de evento é enviada para os servidores de coleta de dados do Audience Manager ([!UICONTROL DCS]) para processamento. O visitante é então redirecionado para o endereço da Web desejado.
 
 >[!NOTE]
 >
@@ -166,6 +162,11 @@ d_rd%3Dhttp%253A%252F%252Fadobe.com%252Fcallback%253Fcreative%253D%2525d_creativ
 Com base no exemplo acima, o navegador é redirecionado para o seguinte [!DNL URL]:
 
 `https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`
+
+## Funcionalidade adicional - Relatórios de otimização de público-alvo
+
+Você pode usar chamadas de pixel para alimentar os Relatórios [de otimização de](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)público-alvo. Consulte [Visão geral e mapeamentos para arquivos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) de metadados se desejar usar pixels para alimentar os relatórios.
+
 
 >[!MORELIKETHIS]
 >
