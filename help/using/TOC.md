@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 17c994d9bb818b72f23e336f9433495c2bcdbbb5
+source-git-commit: 3cda1eb649ee8ae0c522682503fa591e7bff9e35
 
 ---
 
@@ -373,7 +373,6 @@ source-git-commit: 17c994d9bb818b72f23e336f9433495c2bcdbbb5
    + [Perguntas frequentes sobre API](faq/faq-api.md)
    + [Perguntas frequentes sobre o Audience Lab](faq/faq-audience-lab.md)
    + [Perguntas frequentes sobre o Feed de dados do cliente](faq/faq-cdf.md)
-   + [Atendimento ao cliente - Problemas relatados com mais frequência](/help/using/faq/faq-top-customer-care-issues.md)
    + [Perguntas frequentes sobre coleta de dados e integração de produtos](faq/faq-data-collection.md)
    + [Perguntas frequentes sobre ingestão de dados do cliente de entrada](faq/faq-inbound-data-ingestion.md)
    + [Perguntas frequentes sobre privacidade e retenção de dados](faq/faq-privacy.md)
@@ -386,11 +385,6 @@ source-git-commit: 17c994d9bb818b72f23e336f9433495c2bcdbbb5
    + [Visão geral](/help/using/help-legal/help-legal-overview.md)
    + [Se houver um problema](/help/using/help-legal/help-problem.md)
    + [Contato e informações legais](/help/using/help-legal/help-legal-contact.md)
-+ Principais problemas de suporte ao cliente{#top-support-issues}
-   + [Visão geral](/help/using/support-issues/support-issues-overview.md)
-   + [Por que minhas populações de traços Onboard caíram para 0 por volta de 15 de outubro? ](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
-   + [Por que minhas características ou segmentos não aparecem na página de Relatórios de sobreposição?](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
-   + [Por que nossos usuários somente leitura podem criar, editar ou excluir características e segmentos?](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
 + Atualizações de documentação{#documentation-updates}
    + [Atualizações da documentação 2020](docs-updates/docs-2020.md)
    + [Atualizações da documentação de 2019](docs-updates/docs-2019.md)
