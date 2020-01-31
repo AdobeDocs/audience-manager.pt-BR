@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Captura de dados de impressão da campanha via Pixel Calls
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
+source-git-commit: 132e36175a69a270ea608643049931fbc06efc69
 
 ---
 
@@ -16,10 +16,6 @@ source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
 Uma abordagem para enviar dados de mídia ao Audience Manager usa macros de servidor de publicidade para enviar atributos de campanha ao Audience Manager.
 
 Esta metodologia é frequentemente chamada de &quot;pixeling the creative&quot;. Esses pontos de dados são inseridos dinamicamente no código de [!DNL Audience Manager] pixels pelas macros de servidor de publicidade de terceiros, que são usadas para mapear e relatar todas as impressões e cliques com base nos principais atributos de relatório da campanha. Os dados agregados fornecem uma exibição unificada do desempenho da campanha, ajudam a identificar caminhos de conversão personalizados e ajudam os clientes a melhorar a sequência de eventos de servidor de anúncios que levam a conversões.
-
->[!IMPORTANT]
->
->Para que o Audience Manager interprete corretamente os campos recebidos em chamadas de evento e renderize os dados da sua campanha nos relatórios [de Otimização de](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)público-alvo, você deve enviar arquivos de metadados que mapeiam esses campos para valores legíveis para humanos. Consulte [Visão geral e mapeamentos para arquivos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) de metadados e entre em contato com seu consultor do Audience Manager ou com o Atendimento ao cliente para configurar um diretório Amazon S3 para arquivos de metadados.
 
 ## Sintaxe de chamada de evento
 
@@ -111,6 +107,10 @@ Chamadas de evento de impressão aceitam dados formados em pares de valores chav
 >[!NOTE]
 >
 >Entre em contato com sua consultoria do Adobe Audience Manager ou cliente potencial da conta para obter o URL exato específico do domínio do cliente.
+
+## Funcionalidade adicional - Relatórios de otimização de público-alvo
+
+Você pode usar chamadas de pixel para alimentar os Relatórios [de otimização de](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)público-alvo. Consulte [Visão geral e mapeamentos para arquivos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) de metadados se desejar usar pixels para alimentar os relatórios.
 
 >[!MORELIKETHIS]
 >
