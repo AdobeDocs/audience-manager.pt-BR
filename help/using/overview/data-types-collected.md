@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Tipos de dados coletados
 uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
 translation-type: tm+mt
-source-git-commit: 9cbfb90ec4293bf44b1915c3c1c9698e0326136f
+source-git-commit: f44b765836bf744f566ae51bdf3eaa1b87d8a90c
 
 ---
 
@@ -39,8 +39,14 @@ O exemplo a seguir ilustra como elementos de dados potenciais podem ser capturad
 
 ![dados do carrinho de compras](assets/shopping-cart-data.png)
 
-|Item|Descrição||—|—|1|**Gênero**. O nome do comprador geralmente indica o sexo. Em nosso exemplo, o nome do comprador é Mary, então sabemos que o comprador é uma mulher. Os nomes nunca são armazenados pelo Audience Manager. ||2|**Interesses**. Os itens no carrinho de compras podem indicar vários interesses. Em nosso exemplo, Maria gasta muito em equipamentos de fitness. ||3|**Tipo**de alojamento. Com base nos endereços de envio e/ou faturamento, você pode deduzir se a Mary compra equipamentos de adequação para si mesma ou para uma empresa.|
-|4|**Location**. Os códigos ZIP são mais confiáveis do que endereços IP quando se trata de identificar um local. ||5|**Afinidade** de promoção. Se um comprador usa códigos promocionais ou cartões-presente, provavelmente ele é um caçador de barganhas procurando os melhores acordos. ||6|**Energia** gasta. Os dados de preço correlacionados aos códigos ZIP+4 indicam o poder de gastos de determinado local.|
+| Item | Descrição |
+|---|---|
+| 1 | **Gênero**. O nome do comprador geralmente indica o sexo. Em nosso exemplo, o nome do comprador é Mary, então sabemos que o comprador é uma mulher. Os nomes nunca são armazenados pelo Audience Manager. |
+| 2 | **Interesses**. Os itens no carrinho de compras podem indicar vários interesses. Em nosso exemplo, Maria gasta muito em equipamentos de fitness. |
+| 3 | **Tipo** de alojamento. Com base nos endereços de envio e/ou faturamento, você pode deduzir se a Mary compra equipamentos de adequação para si mesma ou para uma empresa. |
+| 4 | **Localização**. Os códigos ZIP são mais confiáveis do que endereços IP quando se trata de identificar um local. |
+| 5 | **Afinidade** de promoção. Se um comprador usa códigos promocionais ou cartões-presente, provavelmente ele é um caçador de barganhas procurando os melhores acordos. |
+| 6 | **Gastando energia**. Os dados de preço correlacionados aos códigos ZIP+4 indicam o poder de gastos de determinado local. |
 
 Depois que os dados brutos são coletados, eles são mapeados de volta às características definidas pelo cliente na plataforma do Audience Manager. A taxonomia e os mapeamentos de dados podem ser ajustados a qualquer momento sem fazer alterações no código de coleta de dados.
 
