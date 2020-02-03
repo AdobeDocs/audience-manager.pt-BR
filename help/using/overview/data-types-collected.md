@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Tipos de dados coletados
 uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
 translation-type: tm+mt
-source-git-commit: f87a6f6c79a01c23608e4f5be24d017894e1c541
+source-git-commit: 9cbfb90ec4293bf44b1915c3c1c9698e0326136f
 
 ---
 
@@ -37,7 +37,10 @@ O Audience Manager trabalha com clientes para entender sua estratégia de dados 
 
 O exemplo a seguir ilustra como elementos de dados potenciais podem ser capturados de uma página de compras de amostra.
 
-![](assets/1st_party_800px.png)
+![dados do carrinho de compras](assets/shopping-cart-data.png)
+
+|Item|Descrição||—|—|1|**Gênero**. O nome do comprador geralmente indica o sexo. Em nosso exemplo, o nome do comprador é Mary, então sabemos que o comprador é uma mulher. Os nomes nunca são armazenados pelo Audience Manager. ||2|**Interesses**. Os itens no carrinho de compras podem indicar vários interesses. Em nosso exemplo, Maria gasta muito em equipamentos de fitness. ||3|**Tipo**de alojamento. Com base nos endereços de envio e/ou faturamento, você pode deduzir se a Mary compra equipamentos de adequação para si mesma ou para uma empresa.|
+|4|**Location**. Os códigos ZIP são mais confiáveis do que endereços IP quando se trata de identificar um local. ||5|**Afinidade** de promoção. Se um comprador usa códigos promocionais ou cartões-presente, provavelmente ele é um caçador de barganhas procurando os melhores acordos. ||6|**Energia** gasta. Os dados de preço correlacionados aos códigos ZIP+4 indicam o poder de gastos de determinado local.|
 
 Depois que os dados brutos são coletados, eles são mapeados de volta às características definidas pelo cliente na plataforma do Audience Manager. A taxonomia e os mapeamentos de dados podem ser ajustados a qualquer momento sem fazer alterações no código de coleta de dados.
 
@@ -53,9 +56,9 @@ c_2nd_party_data.xml
 
 Em um cenário de dados de terceiros, os anunciantes enviam seus próprios ativos de dados para os editores para que eles possam combinar essas informações com os dados do editor e, em seguida, executar um programa de publicidade mais direcionado. Além disso, os editores podem ampliar seu público-alvo através de parcerias com seus anunciantes. Na maioria dos casos, esses acordos envolvem relações contratuais limitadas à colocação da tag de contêiner do Audience Manager no site do parceiro para facilitar a coleta e o compartilhamento de dados.
 
-Um exemplo de recolha e recomercialização de dados de terceiros poderia envolver a recolha de dados por parte de um fabricante de automóveis nas suas páginas de configuração de automóveis e, em seguida, a partilha dessas informações com os principais parceiros. Nesse caso, o fabricante do carro pode fornecer anúncios diferentes em um site de parceiros do Audience Manager para os consumidores que configuraram diferentes tipos de opções do veículo (por exemplo, cor, modelo, etc.).
+Um exemplo de coleta e recomercialização de dados de terceiros poderia envolver um varejo de roupas que colecionasse dados sobre seus produtos e depois compartilhasse essas informações com os principais parceiros. Nesse caso, o varejista poderia oferecer diferentes anúncios em um site de parceiros do Audience Manager para consumidores que escolhiam várias cores e tamanhos da jaqueta.
 
-![](assets/2nd_party_700px.png)
+![](assets/shopping-cart-traits.png)
 
 ## Third-Party Data Collection {#third-party-data}
 
