@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Tipos de dados coletados
 uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
 translation-type: tm+mt
-source-git-commit: cee17904aa5ece54d1df7ad482505515846349b5
+source-git-commit: f37f5c3747357205fa35bff6bb2322b8b909cb3c
 
 ---
 
@@ -46,7 +46,7 @@ O exemplo a seguir ilustra como elementos de dados potenciais podem ser capturad
 | 3 | **Tipo** de alojamento. Com base nos endereços de envio e/ou faturamento, você pode deduzir se a Mary compra equipamentos de adequação para si mesma ou para uma empresa. |
 | 4 | **Localização**. Os códigos ZIP são mais confiáveis do que endereços IP quando se trata de identificar um local. |
 | 5 | **Afinidade** de promoção. Se um comprador usa códigos promocionais ou cartões-presente, provavelmente ele é um caçador de barganhas procurando os melhores acordos. |
-| 6 | **Gastando energia**. Os dados de preço correlacionados aos códigos ZIP+4 indicam o poder de gastos de determinado local. |
+| 6 | **Gastando energia**. Os dados de preço correlacionados aos códigos ZIP+4 indicam o poder de gastos de um determinado local. |
 
 Depois que os dados brutos são coletados, eles são mapeados de volta às características definidas pelo cliente na plataforma do Audience Manager. A taxonomia e os mapeamentos de dados podem ser ajustados a qualquer momento sem fazer alterações no código de coleta de dados.
 
@@ -62,7 +62,7 @@ c_2nd_party_data.xml
 
 Em um cenário de dados de terceiros, os anunciantes enviam seus próprios ativos de dados para os editores para que eles possam combinar essas informações com os dados do editor e, em seguida, executar um programa de publicidade mais direcionado. Além disso, os editores podem ampliar seu público-alvo através de parcerias com seus anunciantes. Na maioria dos casos, esses acordos envolvem relações contratuais limitadas à colocação da tag de contêiner do Audience Manager no site do parceiro para facilitar a coleta e o compartilhamento de dados.
 
-Um exemplo de coleta e recomercialização de dados de terceiros poderia envolver um varejo de roupas que colecionasse dados sobre seus produtos e depois compartilhasse essas informações com os principais parceiros. Nesse caso, o varejista poderia oferecer diferentes anúncios em um site de parceiros do Audience Manager para consumidores que escolhiam várias cores e tamanhos da jaqueta.
+Um exemplo de coleta e recomercialização de dados de terceiros poderia envolver um varejista de roupas coletando dados sobre seus produtos e depois compartilhando essas informações com os principais parceiros. Nesse caso, o varejista poderia oferecer diferentes anúncios em um site de parceiros do Audience Manager para consumidores que escolhiam várias cores e tamanhos da jaqueta.
 
 ![](assets/shopping-cart-traits.png)
 
