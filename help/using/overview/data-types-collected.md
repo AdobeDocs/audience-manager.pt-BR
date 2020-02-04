@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Tipos de dados coletados
 uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
 translation-type: tm+mt
-source-git-commit: f44b765836bf744f566ae51bdf3eaa1b87d8a90c
+source-git-commit: cee17904aa5ece54d1df7ad482505515846349b5
 
 ---
 
@@ -88,5 +88,4 @@ O Audience Manager é integrado com outros provedores de dados com base em suas 
 
 Muitos clientes escolhem trabalhar com parceiros de correspondência de dados de terceiros. Essas entidades têm relacionamentos com sites que têm requisitos de registro e podem processar arquivos de dados do cliente, combinando-os (em tempo real) com base em sua rede de registro.
 
-![](assets/data_provider_match_700px.png)
-
+![correspondência entre provedores de dados](assets/data-provider-match.png)
