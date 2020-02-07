@@ -1,14 +1,14 @@
 ---
 description: As opções no menu Administração permitem criar usuários do Audience Manager e atribuí-los a grupos. Você também pode exibir limites (características, segmentos, destinos e modelos).
-keywords: rbac;RBAC;baseado em função;baseado em função;controles de acesso baseados em função
+keywords: rbac;RBAC;role based;role-based;role-based access controls
 seo-description: As opções no menu Administração permitem criar usuários do Audience Manager e atribuí-los a grupos. Você também pode exibir limites (características, segmentos, destinos e modelos).
-seo-title: API de
+seo-title: Administração
 solution: Audience Manager
-title: API de
-topic: API DIL
+title: Administração
+topic: DIL API
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 translation-type: tm+mt
-source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
+source-git-commit: 1bde60711ca53682b6ab936a7297daf66a1bb336
 
 ---
 
@@ -29,7 +29,7 @@ Os clientes corporativos que usam [!DNL Audience Manager] uma plataforma de gere
 
 Crie usuários em [!DNL Audience Manager] e especifique detalhes de usuários, status de logon e atribua usuários a grupos.
 
-1. Click **[!UICONTROL Administration]** &gt; **[!UICONTROL Users]**.
+1. Clique em **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
 1. Clique em ![](assets/icon_add.png) para exibir a [!UICONTROL Create New User] página.
 1. Under **[!UICONTROL User Details]**, fill in the fields:
    * **** Nome de usuário: Especifique um nome de usuário exclusivo para o Audience Manager.
@@ -56,7 +56,7 @@ Um *grupo* é uma coleção de usuários que compartilham direitos de acesso a o
 
 Para criar um grupo:
 
-1. Click **[!UICONTROL Administration]** &gt; **[!UICONTROL Groups]**.
+1. Clique em **[!UICONTROL Administration]** > **[!UICONTROL Groups]**.
 1. Clique ![](assets/icon_add.png) para abrir a [!UICONTROL Group Settings] página.
 1. Em [!UICONTROL Group Details]:
    * Nomeie o grupo.
@@ -134,3 +134,21 @@ Leia abaixo uma descrição do que cada permissão de caractere curinga signific
 **Sinais**
 
 * `VIEW_ALL_SIGNALS` - Os usuários podem exibir todos os sinais capturados no [Data Explorer](/help/using/features/data-explorer/data-explorer-overview.md).
+
+## Casos de uso {#use-cases}
+
+### Monitorando o acesso do usuário {#monitoring-user-access}
+
+[!UICONTROL Role-Based Access Control] pode ajudá-lo a monitorar o status de login do usuário, fornecendo uma imagem clara de quem pode acessar sua instância do Audience Manager.
+
+Dependendo dos requisitos de sua empresa, você pode ativar e desativar as contas de usuário, conforme necessário.
+
+![acesso do usuário ao monitor](assets/monitor-user-access.png)
+
+### Garantir a proteção de acesso para fontes de dados confidenciais {#protect-sensitive-data-sources}
+
+Você pode configurar [!UICONTROL Role-Based Access Control] no nível de característica, segmento e destino, para cada grupo de usuários.
+
+Esse recurso ajuda a gerenciar como seus usuários visualizam, criam, leem, gravam e editam conjuntos de dados específicos, além de impedir que usuários acessem conjuntos de dados que não devem estar disponíveis para eles.
+
+![proteção de acesso](assets/access-protection.png)
