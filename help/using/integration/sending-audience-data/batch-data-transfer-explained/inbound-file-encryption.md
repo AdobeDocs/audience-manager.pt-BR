@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Criptografia PGP de Arquivo para Tipos de Dados de Entrada
 uuid: 89caace1-0259-48fc-865b-d525ec7822f7
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 8d2d841f8e94fd67c2165eb280b85ab18001d77e
 
 ---
 
@@ -20,6 +20,8 @@ Como opção, você pode criptografar arquivos de dados com [!DNL PGP] criptogra
 >[!IMPORTANT]
 >
 >No momento, não oferecemos suporte à criptografia e compactação no mesmo arquivo de dados de entrada. Você pode optar por criptografar ou [compactar](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) seus arquivos de entrada.
+>
+> No entanto, lembre-se de que a criptografia PGP inclui compactação integrada.
 
 Siga as etapas descritas abaixo para criptografar arquivos de dados de entrada.
 
