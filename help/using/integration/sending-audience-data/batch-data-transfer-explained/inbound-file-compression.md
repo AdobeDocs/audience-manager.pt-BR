@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Compactação de arquivos para arquivos de transferência de dados de entrada
 uuid: 2a68f69c-60b0-4002-863b-302d2320e356
 translation-type: tm+mt
-source-git-commit: b2e0b560a944f2ad63a48476be647f1355712342
+source-git-commit: 392b17e5a97038169e2cd36f2e71f5b4b997070c
 
 ---
 
@@ -25,7 +25,7 @@ O Audience Manager também suporta arquivos descompactados.
 >
 >Não oferecemos suporte à criptografia em arquivos de entrada compactados usando gzip (`.gz`).
 >
-> Para criptografar e compactar arquivos de entrada, use a criptografia [](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)PGP. [!DNL PGP] a criptografia inclui compactação de arquivo.
+>Para criptografar e compactar arquivos de entrada, use a criptografia [](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)PGP. [!DNL PGP] a criptografia inclui compactação de arquivo.
 
 ## Compactação Amazon S3
 
