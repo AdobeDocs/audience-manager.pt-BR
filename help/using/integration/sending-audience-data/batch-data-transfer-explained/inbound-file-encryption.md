@@ -6,33 +6,33 @@ solution: Audience Manager
 title: Criptografia PGP de Arquivo para Tipos de Dados de Entrada
 uuid: 89caace1-0259-48fc-865b-d525ec7822f7
 translation-type: tm+mt
-source-git-commit: 8d2d841f8e94fd67c2165eb280b85ab18001d77e
+source-git-commit: b2e0b560a944f2ad63a48476be647f1355712342
 
 ---
 
 
 # Criptografia PGP de Arquivo para Tipos de Dados de Entrada{#file-pgp-encryption-for-inbound-data-types}
 
-Como opção, você pode criptografar arquivos de dados com [!DNL PGP] criptografia ao enviá-los para o Audience Manager.
+É possível criptografar arquivos de dados com [!DNL PGP] criptografia ao enviá-los para o Audience Manager.
 
 <!-- c_encryption.xml -->
 
 >[!IMPORTANT]
 >
->No momento, não oferecemos suporte à criptografia e compactação no mesmo arquivo de dados de entrada. Você pode optar por criptografar ou [compactar](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) seus arquivos de entrada.
+>[!DNL PGP] a criptografia inclui compactação de arquivo. Ao enviar arquivos de entrada [!DNL PGP] criptografados, certifique-se de não [compactá](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) -los usando gzip (`.gz`).
 >
-> No entanto, lembre-se de que a criptografia PGP inclui compactação integrada.
+>[!DNL PGP] os arquivos de entrada criptografados que também são [compactados](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) são inválidos no Audience Manager.
 
 Siga as etapas descritas abaixo para criptografar arquivos de dados de entrada.
 
 1. Baixe a chave [pública do](./assets/adobe_pgp.pub)Audience Manager.
-1. Importe a chave pública para a sua loja confiável.
+2. Importe a chave pública para a sua loja confiável.
 
    Por exemplo, se você usar [!DNL GPG], o comando poderá ser semelhante ao seguinte:
 
    `gpg --import adobe_pgp.pub`
 
-1. Para validar se a chave foi importada corretamente, execute o seguinte comando:
+3. Para validar se a chave foi importada corretamente, execute o seguinte comando:
 
    `gpg --list-keys`
 
@@ -44,7 +44,7 @@ Siga as etapas descritas abaixo para criptografar arquivos de dados de entrada.
    sub   4096R/E3F2A363 2013-11-01
    ```
 
-1. Criptografe os dados de entrada usando o seguinte comando:
+4. Criptografe os dados de entrada usando o seguinte comando:
 
    `gpg --recipient "Adobe AudienceManager" --cipher-algo AES --output $output.gpg --encrypt $inbound`
 
