@@ -4,17 +4,15 @@ seo-description: Um feed de dados requer um nome, uma descrição, uma fonte de 
 seo-title: Criar, precificar e gerenciar feeds de dados
 solution: Audience Manager
 title: Criar, precificar e gerenciar feeds de dados
-topic: API DIL
+topic: DIL API
 uuid: e28c20b3-33fc-4485-8ee9-8530d126f741
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 979c853a3be94f1cda57e4f376d0033d6e8a06a5
 
 ---
 
 
 # Criar, precificar e gerenciar feeds de dados {#create-price-and-manage-data-feeds}
-
-Um feed de dados requer um nome, uma descrição, uma fonte de dados e um tipo de plano. Os feeds são desativados até que você salve e ative o feed. Configure feeds de dados públicos ou privados em [!UICONTROL Audience Marketplace] &gt; [!UICONTROL My Shared Data]. Disponível somente para vendedores de dados.
 
 ## Criar um feed de dados público ou privado {#create-public-private-data-feed}
 
@@ -30,7 +28,7 @@ Para criar um feed de dados:
 1. Forneça uma breve descrição (máximo de 255 caracteres).
 
    Uma boa descrição deve descrever seu feed com precisão. Por exemplo, você pode incluir texto para categorias de marketing, demografia e cobertura geográfica (por exemplo, [!DNL US] ou América do Norte). O texto de descrição é pesquisável e ajuda os compradores a localizar ou avaliar seu feed. Uma boa descrição é uma parte importante para atrair assinantes para o feed de dados.
-1. Selecione uma fonte de dados nas **[!UICONTROL Data Source]** opções.
+1. Selecione uma fonte de dados nas **[!UICONTROL Data Source]** opções. Os feeds de dados são limitados a uma única fonte de dados. Não é possível atribuir várias fontes de dados ao mesmo feed de dados.
 
    >[!IMPORTANT]
    >
@@ -40,7 +38,7 @@ Para criar um feed de dados:
 
    Os feeds podem conter vários planos. Os planos podem conter vários casos de uso. Para obter detalhes, consulte Tipos de [plano para feeds](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types)de dados.
 
-1. Clique **[!UICONTROL Save]** para salvar sua taxa de dados *sem* ativá-la.
+1. Clique **[!UICONTROL Save]** para salvar seu feed de dados *sem* ativá-lo.
 1. Para salvar e ativar um feed de dados:
    1. Mova o **[!UICONTROL Availability]** controle deslizante para **[!UICONTROL Active]**.
    1. Clique em **[!UICONTROL Save]**.
