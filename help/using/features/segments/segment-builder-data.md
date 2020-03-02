@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Dados de características e preenchimento de segmentos no Construtor de segmentos
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 2add6b77e167203dab66b5fa7b87b7c5fbeb3d48
 
 ---
 
@@ -136,11 +136,11 @@ A tabela a seguir define as métricas reais em tempo real e total de população
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> População em tempo real (existente)</span> </p> </td> 
-   <td colname="col2"> <p>O número real de dispositivos vistos em tempo real com perfis atuais que, quando mesclados com até três outros perfis de dispositivo conectados pelo gráfico de dispositivo, contém as características para qualificar-se para o segmento no momento em que foi visto pelo <span class="keyword"> Audience Manager</span>. </p> </td>
+   <td colname="col2"> <p>O número real de dispositivos vistos em tempo real com perfis atuais que, quando mesclados com até 100 outros perfis de dispositivo conectados pelo gráfico de dispositivo, contém as características para qualificar-se para o segmento no momento em que foi visto pelo <span class="keyword"> Audience Manager</span>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> População total (existente)</span> </p> </td> 
-   <td colname="col2"> <p>O número total de dispositivos com perfis que, quando mesclados com até três outros perfis de dispositivo conectados pelo gráfico de dispositivo, eram todos qualificados para o segmento. </p> </td>
+   <td colname="col2"> <p>O número total de dispositivos com perfis que, quando mesclados com até 100 outros perfis de dispositivo conectados pelo gráfico de dispositivo, eram todos qualificados para o segmento. </p> </td>
   </tr>
  </tbody>
 </table>
