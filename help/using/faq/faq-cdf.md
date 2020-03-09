@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Perguntas frequentes sobre o Feed de dados do cliente
 uuid: 7183b3e2-e999-4e1e-892f-2bab335c13b6
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 7018705c130bf7c65f3a69da5e4bd9e0666423bc
 
 ---
 
@@ -37,7 +37,7 @@ Não. As opções de personalização e armazenamento alternativo não estão di
 
 **O meu diretório não tem um ficheiro durante uma hora específica. Onde está?**
 
-Um arquivo ausente significa que não [!DNL Audience Manager] foi possível processar seus arquivos CDF naquela hora. Isso normalmente acontece quando nossos servidores ficam atrasados no processamento de arquivos CDF. Nesse caso, seu arquivo não é perdido. Ele aparecerá em um diretório horário posterior depois que nosso sistema tiver uma chance de alcançar. Consulte também, Notificações [de Processamento de Arquivos de Feed de Dados do](../features/cdf-files.md#cdf-file-processing-notifications)Cliente.
+Um arquivo ausente significa que não [!DNL Audience Manager] foi possível processar seus arquivos CDF naquela hora. Isso normalmente acontece quando nossos servidores ficam atrasados no processamento de arquivos CDF. Nesse caso, seu arquivo não é perdido. Ele aparecerá em um diretório horário posterior depois que nosso sistema tiver uma chance de alcançar. Consulte também, Notificações [de Processamento de Arquivos de Feed de Dados de](../features/cdf-files.md#cdf-file-processing-notifications)Clientes.
 
 <br> 
 
@@ -65,9 +65,7 @@ Mais uma vez, é difícil estimar isto. No entanto, se você vai receber arquivo
 
 **Como posso verificar a integridade dos dados carregados no Amazon S3?**
 
-Os arquivos de tamanho superior a 16MiB são divididos em blocos de 16MiB e carregados para [!DNL Amazon S3] usar upload de várias partes.
-
-[!DNL Amazon] gera um `ETag` valor para uploads de várias partes. Primeiro, calcula as somas de verificação individuais do MD5 de cada parte carregada e, em seguida, concatena-as em uma única string. Em seguida, calcula a soma de verificação MD5 da string. A soma de verificação resultante (o `ETag`) é então anexada com um hífen e o número total de peças usadas para upload. Por exemplo, o `ETag` para um arquivo que foi dividido em 5 partes durante o upload pode ser semelhante a: `2c51427d19021e88cf3395365895b6d4-5`
+[!DNL Amazon] divide arquivos grandes em partes menores e os carrega para [!DNL Amazon S3] usar o upload de várias partes. Em seguida, ele gera um `ETag` valor para o upload de várias partes. Primeiro, calcula as somas de verificação individuais do MD5 de cada parte carregada e, em seguida, concatena-as em uma única string. Em seguida, calcula a soma de verificação MD5 da string. A soma de verificação resultante (o `ETag`) é então anexada com um hífen e o número total de peças usadas para upload. Por exemplo, o `ETag` para um arquivo que foi dividido em 5 partes durante o upload pode ser semelhante a: `2c51427d19021e88cf3395365895b6d4-5`
 
 <br> 
 
