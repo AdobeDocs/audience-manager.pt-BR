@@ -1,13 +1,13 @@
 ---
 description: A qualificação de características, ou realização de características, é tratada de forma diferente no Audience Manager, dependendo do tipo de característica. Consulte a tabela abaixo para obter informações detalhadas sobre qualificação de características.
-keywords: qualificação de característica;realização de característica;Realizações de características únicas;UTR;População de características totais;TTP
+keywords: trait qualification;trait realization;Unique Trait Realizations;UTR;Total Trait Population;TTP
 seo-description: A qualificação de características, ou realização de características, é tratada de forma diferente no Audience Manager, dependendo do tipo de característica. Consulte a tabela abaixo para obter informações detalhadas sobre qualificação de características.
 seo-title: Referência de qualificação de característica
 solution: Audience Manager
 title: Referência de qualificação de característica
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
 translation-type: tm+mt
-source-git-commit: 0921cd69ffcb75768acee99685b0d80b8bef0be6
+source-git-commit: 2f8662aba70254e550bc15417463c3c06492a9d5
 
 ---
 
@@ -32,7 +32,7 @@ A qualificação de características, ou realização de características, é tr
   </tr> 
   <tr> 
    <td colname="col1"> <p>Características integradas </p> </td> 
-   <td colname="col2"> <p>A qualificação de características ocorre depois que um arquivo de entrada é processado, isto é, o arquivo de entrada é <a href="../../faq/faq-inbound-data-ingestion.md"> importado para o Audience Manager</a> e é quando a qualificação de características acontece. </p> <p> Para características integradas, o número máximo de qualificações para um perfil de usuário é 1. </p> </td> 
+   <td colname="col2"> <p>A qualificação de características ocorre depois que um arquivo de entrada é processado, isto é, o arquivo de entrada é <a href="../../faq/faq-inbound-data-ingestion.md"> importado para o Audience Manager</a> e é quando a qualificação de características acontece. Aguarde aproximadamente 4 horas após criar uma característica integrada antes de carregar um arquivo de entrada para processamento.  </p> <p> Para características integradas, o número máximo de qualificações para um perfil de usuário é 1. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Características algorítmicas </p> </td> 
@@ -57,7 +57,7 @@ A **[!UICONTROL Unique Trait Realizations]** contagem do número de visitantes q
 
 O **[!UICONTROL Total Trait Population]** representa o número de visitantes que têm essa característica no perfil.
 
-Pense nos números desta forma. Na imagem acima, na exibição Detalhes [da](../../features/traits/trait-details-page.md) característica, 181 representa o número de dispositivos ativos que visitaram suas propriedades ontem. A [!UICONTROL Total Trait Population] de 1.595 representa a quantidade de usuários atualmente qualificados para essa característica. A [!UICONTROL Total Trait Population] figura deve mostrar a quantidade total de usuários que podem ser usados para segmentação/definição de metas. Normalmente, os usuários permanecerão parte de uma característica por 120 dias.
+Pense nos números desta forma. Na imagem acima, na exibição Detalhes [da](../../features/traits/trait-details-page.md) característica, 181 representa o número de dispositivos ativos que visitaram suas propriedades ontem. A [!UICONTROL Total Trait Population] de 1.595 representa a quantidade de usuários atualmente qualificados para essa característica. A [!UICONTROL Total Trait Population] figura destina-se a mostrar a quantidade total de usuários que podem ser usados para segmentação/definição de metas. Normalmente, os usuários permanecerão parte de uma característica por 120 dias.
 
 Porque nós executamos dois trabalhos computacionais diferentes para calcular as duas populações, as [!UICONTROL Total Trait Population] sempre ficam para trás [!UICONTROL Unique Trait Realizations] por 24 horas. No gráfico acima, você pode ver 175 [!UICONTROL Unique Trait Realizations] e um [!UICONTROL Total Trait Population] de 6 para 11 de fevereiro. Os 175 perfis são adicionados ao [!UICONTROL Total Trait Population] no dia seguinte.
 
