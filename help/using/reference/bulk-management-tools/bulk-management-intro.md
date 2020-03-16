@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Introdução ao Gerenciamento em massa
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: c9dfddf728045bf2cbc01d5467a64ae95b449664
+source-git-commit: ee31681e5805bff274b4051a354886fcda0599ff
 
 ---
 
@@ -24,7 +24,7 @@ c_bulk_start.xml
 
 >[!NOTE]
 >
->Os [!UICONTROL Bulk Management Tools] não *são suportados por* [!DNL Audience Manager]. Esta ferramenta é fornecida apenas para conveniência e cortesia. Para alterações em massa, recomendamos que você trabalhe com as APIs [do](../../api/rest-api-main/aam-api-getting-started.md) Audience Manager. [As permissões](../../features/administration/administration-overview.md) de grupo RBAC atribuídas na [!DNL Audience Manager] interface do usuário são respeitadas na [!UICONTROL Bulk Management Tools].
+>Os [!UICONTROL Bulk Management Tools] eventos não *são suportados por* [!DNL Audience Manager]. Esta ferramenta é fornecida apenas para conveniência e cortesia. Para alterações em massa, recomendamos que você trabalhe com as APIs [do](../../api/rest-api-main/aam-api-getting-started.md) Audience Manager. [As permissões](../../features/administration/administration-overview.md) de grupo RBAC atribuídas na [!DNL Audience Manager] interface do usuário são respeitadas na [!UICONTROL Bulk Management Tools].
 
 ## Visão geral {#overview}
 
@@ -39,7 +39,7 @@ Baixe a planilha mais recente **[aqui](assets/BAAAM_V2_20191205.xlsm)**.
 Para usar o [!DNL Bulk Management Tools], é necessário o seguinte:
 
 * Seu [!DNL Experience Cloud] logon. Como cliente, você já deve ter essas credenciais.
-* A [!DNL Bulk Management Tools] planilha. [Baixe a planilha](assets/BAAAM_V2_20191205.xlsm) para obter a versão mais recente.
+* A [!DNL Bulk Management Tools] planilha. [Baixe a planilha](assets/BAAAM_V2_20200311.xlsm) para obter a versão mais recente.
 * Microsoft Excel em execução em [!DNL macOS] ou 64 bits [!DNL Microsoft Windows]. Recomendamos que você use a versão mais recente do Microsoft Excel.
 * Ao abrir a planilha, você deve **Ativar macros** para que [!DNL Bulk Management Tools] funcionem.
 
@@ -117,5 +117,5 @@ Como exemplo, vamos ver como criar várias características de uma só vez. Para
 
 >[!NOTE]
 >
->Ao trabalhar com solicitações grandes, a planilha pode ficar sem resposta e parecer inativa. Nesses casos, deixe-o em paz. A planilha se tornará responsiva quando a solicitação em massa for concluída. Se a planilha não responder por um longo período, consulte a seção [Solução de](../../reference/bulk-management-tools/bulk-troubleshooting.md)problemas.
+>Ao trabalhar com solicitações grandes, a planilha pode ficar sem resposta e parecer inativa. Nesses casos, deixe-o em paz. A planilha se tornará responsiva quando a solicitação em massa for concluída. Se a planilha não responder por um longo período de tempo, consulte a seção [Solução de](../../reference/bulk-management-tools/bulk-troubleshooting.md)problemas.
 
