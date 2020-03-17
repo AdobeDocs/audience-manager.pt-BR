@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Glossário
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
 translation-type: tm+mt
-source-git-commit: d5a8b763d2d0d1ceebe2252ebd283943dcbc1754
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -27,7 +27,7 @@ Consulte [Como entender os modelos](../features/algorithmic-models/understanding
 
 **BAAAM**
 
-[!UICONTROL Bulk Management Tools]. O [!UICONTROL Bulk Management Tools] In [!DNL Audience Manager] é um conjunto de ferramentas baseado no Microsoft Excel que permite criar, modificar ou excluir vários objetos ao mesmo tempo com uma única operação. Você pode trabalhar com fontes de dados, sinais derivados, destinos, pastas, segmentos e características. O recurso usa uma planilha do Microsoft Excel com macros que fazem chamadas seguras e autenticadas para as [!DNL Audience Manager] APIs.
+[!UICONTROL Bulk Management Tools]. O [!UICONTROL Bulk Management Tools] In [!DNL Audience Manager] é um conjunto de ferramentas baseado no Microsoft Excel que permite criar, modificar ou excluir vários objetos de uma só vez com uma única operação. Você pode trabalhar com fontes de dados, sinais derivados, destinos, pastas, segmentos e características. O recurso usa uma planilha do Microsoft Excel com macros que fazem chamadas seguras e autenticadas para as [!DNL Audience Manager] APIs.
 
 Consulte Ferramentas [de gerenciamento em](../reference/bulk-management-tools/bulk-management-intro.md)massa.
 
@@ -35,7 +35,7 @@ Consulte Ferramentas [de gerenciamento em](../reference/bulk-management-tools/bu
 
 **CDF**
 
-[!UICONTROL Customer Data Feed]. Um [!UICONTROL CDF] arquivo representa um download em massa dos dados coletados pelo e permite que você trabalhe com [!DNL Audience Manager] [!DNL Audience Manager] dados fora dos limites impostos pela interface do usuário. Um [!UICONTROL CDF] arquivo contém os mesmos dados que uma chamada de [!DNL Audience Manager] evento ( `/event`) envia para nossos servidores. Isso inclui dados como IDs de usuário, IDs de característica, IDs de segmento e todos os outros parâmetros capturados por uma chamada de evento.
+[!UICONTROL Customer Data Feed]. Um [!UICONTROL CDF] arquivo representa um download em massa dos dados coletados por [!DNL Audience Manager] e permite que você trabalhe com [!DNL Audience Manager] dados fora dos limites impostos pela interface do usuário. Um [!UICONTROL CDF] arquivo contém os mesmos dados que uma chamada de [!DNL Audience Manager] evento ( `/event`) envia para nossos servidores. Isso inclui dados como IDs de usuário, IDs de característica, IDs de segmento e todos os outros parâmetros capturados por uma chamada de evento.
 
 See [Customer Data Feeds](../features/cdf-files.md).
 
@@ -78,7 +78,7 @@ No Público-alvo [endereçável](/help/using/features/addressable-audiences.md),
 
 **demdex.net**
 
-Demdex.net é um domínio herdado controlado por [!DNL Adobe]. Ele reflete o nome original [!DNL Audience Manager]da pré-aquisição ( [!DNL Demdex]). [!DNL Adobe] adquirido [!DNL Demdex] em 2011 e reclassificado como [!DNL Audience Manager]. Todas as chamadas HTTP para `demdex.net` domínios são enviadas para [!DNL Adobe].
+Demdex.net é um domínio herdado controlado por [!DNL Adobe]. Ele reflete o nome original [!DNL Audience Manager]da pré-aquisição ( [!DNL Demdex]). [!DNL Adobe] adquirido [!DNL Demdex] em 2011 e reclassificado a empresa como [!DNL Audience Manager]. Todas as chamadas HTTP para `demdex.net` domínios são enviadas para [!DNL Adobe].
 
 Consulte [Compreender as chamadas para o domínio Demdex](../reference/demdex-calls.md).
 
@@ -112,7 +112,7 @@ O [!UICONTROL Data Integration Library] é uma biblioteca de API usada para [!DN
 
 **Experience Cloud ID (ECID)**
 
-Anteriormente nomeada a [!DNL Marketing Cloud] ID (MID ou MCID). A [!DNL Experience Cloud] ID é central para o serviço de ID. É um identificador exclusivo e persistente para os visitantes do site. See Cookies and the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html).
+Anteriormente nomeada a [!DNL Marketing Cloud] ID (MID ou MCID). A [!DNL Experience Cloud] ID é central para o serviço de ID. É um identificador exclusivo e persistente para os visitantes do site. Consulte Cookies e o Serviço [de identificação da plataforma](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html)Adobe Experience.
 
 <br> 
 
@@ -163,7 +163,7 @@ Ao trabalhar com a [!DNL Audience Manager] interface do usuário ou a API, você
 
 * [!UICONTROL Traits]: um código de integração é um campo para uma ID, SKU ou outro valor usado por seus processos comerciais internos. Opcional.
 * [!UICONTROL Segments]: um código de integração é um campo para uma ID definida pelo usuário ou outras informações específicas da empresa. Opcional.
-* [!UICONTROL Data Sources]: os códigos de integração são necessários quando você deseja criar fontes de dados entre dispositivos, usar o serviço da Experience Cloud ID ou trabalhar com [!UICONTROL Profile Merge Rules]. Consulte [Criar uma fonte](../features/manage-datasources.md#create-data-source) de dados para obter mais informações.
+* [!UICONTROL Data Sources]: os códigos de integração são necessários quando você deseja criar fontes de dados entre dispositivos, usar o Adobe Experience Platform Identity Service ou trabalhar com [!UICONTROL Profile Merge Rules]. Consulte [Criar uma fonte](../features/manage-datasources.md#create-data-source) de dados para obter mais informações.
 
 ## K-L {#k-l}
 
@@ -269,7 +269,7 @@ O TTL define quantos dias um visitante qualificado permanece em uma característ
 
 The [!DNL Experience Cloud] ID Service (formerly visitor ID) provides a universal, persistent ID that identifies your visitors across all the solutions in the [!DNL Experience Cloud].
 
-See the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/reference/marketing-cloud-id-service.html) documentation.
+Consulte a documentação do Serviço [de identidade da plataforma](https://marketing.adobe.com/resources/help/en_US/reference/marketing-cloud-id-service.html) Adobe Experience.
 
 ## W-X-Y-Z {#w-z}
 
