@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 475603733f9695aa3baae5ed02c8a13c8d867081
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -63,7 +63,7 @@ source-git-commit: 475603733f9695aa3baae5ed02c8a13c8d867081
    + [Feeds de dados do cliente](features/cdf-files.md)
    + Gerenciador de dados{#data-explorer}
       + [Data Explorer - Visão geral, benefícios e casos de uso](features/data-explorer/data-explorer-overview.md)
-      + [Noções básicas sobre sinais](features/data-explorer/data-explorer-understanding-signals.md)
+      + [Noções Gerais dos Sinais](features/data-explorer/data-explorer-understanding-signals.md)
       + [Painel de Sinais](features/data-explorer/data-explorer-signals-dashboard.md)
       + Pesquisa de Sinais{#signals-search}
          + [Visão geral da pesquisa de sinais](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md)
@@ -192,7 +192,7 @@ source-git-commit: 475603733f9695aa3baae5ed02c8a13c8d867081
          + [Convenções de nomenclatura para arquivos de metadados](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
          + [Formato de conteúdo para arquivos de metadados](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)
          + [Métodos de entrega para arquivos de metadados](reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)
-      + [Relatório de variação de característica diária](reporting/audience-optimization-reports/daily-trait-variation-report.md)
+      + [Relatório de Variação de Caracteres Diários](reporting/audience-optimization-reports/daily-trait-variation-report.md)
    + Relatórios interativos e de sobreposição {#interactive-and-overlap-reports}
       + [Visão geral dos relatórios interativos e de sobreposição](reporting/dynamic-reports/dynamic-reports.md)
       + [Relatório de entrega e desempenho](reporting/dynamic-reports/delivery-performance-report.md)
@@ -221,15 +221,15 @@ source-git-commit: 475603733f9695aa3baae5ed02c8a13c8d867081
       + APIs DCS{#dcs-apis}
          + [APIs DCS para transferências de dados de servidor para servidor](api/dcs-intro/dcs-s2s/dcs-s2s.md)
          + [Obter IDs de usuário e regiões de uma resposta DCS](api/dcs-intro/dcs-s2s/dcs-aam-ids.md)
-         + [Obter IDs de usuário e regiões pelo serviço da Experience Cloud ID](api/dcs-intro/dcs-s2s/dcs-mcid-ids.md)
-         + [Como fazer chamadas de API DCS servidor a servidor](api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)
+         + [Obter IDs de usuário e regiões por meio do Adobe Experience Platform Identity Service](api/dcs-intro/dcs-s2s/dcs-mcid-ids.md)
+         + [Como fazer chamadas de API DCS de servidor para servidor](api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)
       + Referência da API DCS{#dcs-api-reference}
          + [Visão geral de referência da API DCS](api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)
          + [Métodos da API DCS](api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
          + [Códigos de erros, mensagens e exemplos de DCS](api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
          + [Monitoramento de ID e lista negra](api/dcs-intro/dcs-api-reference/id-monitoring-blacklisting.md)
          + [IDs de região DCS, locais e nomes de host](api/dcs-intro/dcs-api-reference/dcs-regions.md)
-         + [Formatação de pares de valores chave em chamadas DCS](api/dcs-intro/dcs-api-reference/dcs-key-format.md)
+         + [Formatação de pares de valores-chave em chamadas DCS](api/dcs-intro/dcs-api-reference/dcs-key-format.md)
          + [Condições de raça e tratamento de erros](api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
          + [Atributos suportados para chamadas de API DCS](api/dcs-intro/dcs-api-reference/dcs-keys.md)
    + REST APIs{#rest-apis}
@@ -258,7 +258,7 @@ source-git-commit: 475603733f9695aa3baae5ed02c8a13c8d867081
       + [Métodos da API da região DCS](api/rest-api-main/aam-api-dcs-regions.md)
    + [Código SDK](api/aam-sdk.md)
 + Data Integration Library (DIL) API{#dil-api}
-   + [Como entender a Biblioteca de integração de dados (DIL)](dil/dil-overview.md)
+   + [Como entender a DIL (Data Integration Library, biblioteca de integração de dados)](dil/dil-overview.md)
    + Métodos DIL de nível de classe{#class-level-dil-methods}
       + [Introdução às APIs DIL de nível de classe](dil/dil-class-overview/dil-start.md)
       + [Criar DIL](dil/dil-class-overview/dil-create.md)
@@ -292,7 +292,7 @@ source-git-commit: 475603733f9695aa3baae5ed02c8a13c8d867081
       + [Visão geral da integração de dados de mídia](integration/media-data-integration/media-data-integration.md)
       + [Arquivo de registro acionável](integration/media-data-integration/actionable-log-files.md)
       + [Captura de dados de impressão da campanha via Pixel Calls](integration/media-data-integration/impression-data-pixels.md)
-      + [Captura de dados de clique da campanha por meio de chamadas de pixels](integration/media-data-integration/click-data-pixels.md)
+      + [Captura de dados de cliques da campanha por meio de chamadas de pixels](integration/media-data-integration/click-data-pixels.md)
    + Recebendo dados de público-alvo{#receiving-audience-data}
       + [Visão geral dos dados do público-alvo](integration/receiving-audience-data/receiving-audience-data-overview.md)
       + [Sincronização de ID para transferências de dados de saída](integration/receiving-audience-data/id-sync-outbound.md)
@@ -366,7 +366,7 @@ source-git-commit: 475603733f9695aa3baae5ed02c8a13c8d867081
       + [Como entender o Edge Data Center](reference/system-components/components-edge.md)
    + [Convenções de estilo para elementos de código e texto](reference/code-style-elements.md)
    + [Fusos horários no Audience Manager](reference/aam-time-zones.md)
-   + [Substituição TLS 1.0 e 1.1](reference/tls-support.md)
+   + [Substituição de TLS 1.0 e 1.1](reference/tls-support.md)
    + [Compreender as chamadas ao domínio Demdex](reference/demdex-calls.md)
    + [Estados de autenticação do visitante no Audience Manager](reference/visitor-authentication-states.md)
 + Perguntas frequentes{#faqs}
