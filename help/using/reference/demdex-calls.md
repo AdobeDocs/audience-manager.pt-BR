@@ -1,19 +1,19 @@
 ---
-description: O Audience Manager e o serviço da Experience Cloud ID fazem chamadas e recebem dados do domínio demdex.net. Isso pode parecer que a Adobe está trabalhando com um domínio de terceiros incomum, mas não é o caso. Esta seção descreve os elementos em uma chamada demdex.net.
-seo-description: O Audience Manager e o serviço da Experience Cloud ID fazem chamadas e recebem dados do domínio demdex.net. Isso pode parecer que a Adobe está trabalhando com um domínio de terceiros incomum, mas não é o caso. Esta seção descreve os elementos em uma chamada demdex.net.
+description: O Audience Manager e o Adobe Experience Platform Identity Service fazem chamadas e recebem dados do domínio demdex.net. Isso pode parecer que a Adobe está trabalhando com um domínio de terceiros incomum, mas não é o caso. Esta seção descreve os elementos em uma chamada demdex.net.
+seo-description: O Audience Manager e o Adobe Experience Platform Identity Service fazem chamadas e recebem dados do domínio demdex.net. Isso pode parecer que a Adobe está trabalhando com um domínio de terceiros incomum, mas não é o caso. Esta seção descreve os elementos em uma chamada demdex.net.
 seo-title: Compreender as chamadas ao domínio Demdex
 solution: Audience Manager
 title: Compreender as chamadas ao domínio Demdex
 uuid: c06dae3a-f169-4712-80fb-d6d448dce51a
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
 
 # Compreender as chamadas ao domínio Demdex{#understanding-calls-to-the-demdex-domain}
 
-O Audience Manager e o serviço da Experience Cloud ID fazem chamadas e recebem dados do domínio demdex.net. Isso pode parecer que a Adobe está trabalhando com um domínio de terceiros incomum, mas não é o caso. Esta seção descreve os elementos em uma chamada demdex.net.
+O Audience Manager e o Adobe Experience Platform Identity Service fazem chamadas e recebem dados do domínio demdex.net. Isso pode parecer que a Adobe está trabalhando com um domínio de terceiros incomum, mas não é o caso. Esta seção descreve os elementos em uma chamada demdex.net.
 
 <table id="table_B846CBEDDA4C4AD19416F7C27FC325C6"> 
  <thead> 
@@ -32,7 +32,7 @@ O Audience Manager e o serviço da Experience Cloud ID fazem chamadas e recebem 
    <td colname="col2"> <p><span class="wintitle"> O DPM</span> é uma abreviação para Correspondência <span class="wintitle"> do Provedor de</span>dados. Ele informa aos sistemas internos da Adobe <span class="keyword"> que uma chamada do</span> Audience Manager <span class="keyword"> ou do serviço</span> de <span class="wintitle"></span> ID está transmitindo os dados do cliente para sincronização ou solicitando uma ID. Esta é a <code> demdex.net</code> chamada mais comum que você verá do <span class="keyword"> Audience Manager</span> ou do serviço <span class="wintitle"> de</span>ID. </p> <p><span class="wintitle"> Noções básicas sobre chamadas do DPM</span> : </p> <p> 
      <ul id="ul_44023BB060774518BE414EE10820C141"> 
       <li id="li_0F94D1988A6944BA885FD40AB26FC49F"> <b> <span class="keyword"> Audience Manager</span> </b>: Uma chamada <span class="wintitle"> DPM</span> do <span class="keyword"> Audience Manager</span> envia dados para os servidores <span class="wintitle"> de coleta de dados e os servidores</span> de cache de <span class="wintitle"></span>perfil. Consulte <a href="../reference/system-components/components-data-collection.md"> Componentes</a>da coleta de dados. </li> 
-      <li id="li_5A7EA9EE16EE4D828F0A24AE2B969122"> <b> serviço <span class="wintitle"></span> de ID </b>: Uma chamada <span class="wintitle"> DPM</span> do serviço <span class="wintitle"> de</span> ID é uma solicitação de uma ID de visitante. Consulte <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies e o serviço</a> da Experience Cloud ID e <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_id_request.html" format="https" scope="external"> Como o serviço da Experience Cloud ID solicita e define IDs</a>. </li> 
+      <li id="li_5A7EA9EE16EE4D828F0A24AE2B969122"> <b> serviço <span class="wintitle"></span> de ID </b>: Uma chamada <span class="wintitle"> DPM</span> do serviço <span class="wintitle"> de</span> ID é uma solicitação de uma ID de visitante. Consulte <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies e o Adobe Experience Platform Identity Service</a> e <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_id_request.html" format="https" scope="external"> Como o Adobe Experience Platform Identity Service solicita e define IDs</a>. </li> 
      </ul> </p> <p> <p>Observação:  <span class="wintitle"> Os clientes do serviço</span> de ID podem alterar o prefixo do <span class="wintitle"> DPM</span> no nome do domínio. Consulte <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-subdomain-config.html" format="https" scope="external"> audienceManager Server e audienceManagerServerSecure</a>. </p> </p> </td> 
   </tr> 
  </tbody> 
@@ -40,6 +40,6 @@ O Audience Manager e o serviço da Experience Cloud ID fazem chamadas e recebem 
 
 >[!MORELIKETHIS]
 >
->* [Serviço da Experience Cloud ID](https://marketing.adobe.com/resources/help/en_US/mcvid/)
+>* [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/)
 >* [Cookies do Audience Manager](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html)
 
