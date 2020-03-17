@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Implementação do módulo de gerenciamento de público-alvo
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 translation-type: tm+mt
-source-git-commit: 7e8ba292f2f901b1323d30d682066b49df885a0c
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -18,20 +18,20 @@ Siga as etapas neste tutorial para encaminhar [!DNL Analytics] dados ao Audience
 
 >[!TIP]
 >
->Recomendamos que você use [!UICONTROL Adobe Launch] para encaminhar [!UICONTROL Analytics] dados para o Audience Manager. Ao usar [!UICONTROL Launch], não é necessário copiar manualmente o código para [!UICONTROL AppMeasurement], conforme mostrado nesta página.
+>Recomendamos que você use [!DNL Adobe Experience Platform Launch] para encaminhar [!UICONTROL Analytics] dados para o Audience Manager. Ao usar [!UICONTROL Launch], não é necessário copiar manualmente o código para [!UICONTROL AppMeasurement], conforme mostrado nesta página.
 
 ## Pré-requisitos {#prereqs}
 
 Além de ativar as extensões ou implementar o código descrito neste documento, você também deve:
 
-* Implement the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+* Implemente o serviço [de identidade da plataforma](https://marketing.adobe.com/resources/help/en_US/mcvid/)Adobe Experience.
 * Ative o encaminhamento [pelo lado do](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html) servidor para conjuntos de relatórios no [!UICONTROL Adobe Analytics Admin Console].
 
 ## Implementação {#implementation}
 
 Há dois métodos para implementar o encaminhamento de dados do Adobe Analytics para o Audience Manager, dependendo da solução de gerenciamento de tags usada.
 
-### Implementação usando o Adobe Launch
+### Implementação usando o Adobe Experience Platform Launch
 
 A Adobe recomenda usar a extensão [Iniciar](https://docs.adobe.com/content/help/en/launch/using/overview.html) para instrumentar o Adobe Analytics e o Audience Manager em suas propriedades. Nesse caso, não é necessário copiar manualmente qualquer código. Em vez disso, você deve ativar o compartilhamento de dados na extensão do Analytics Launch, como mostrado na imagem abaixo. Consulte também a documentação do [Adobe Analytics Extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager) .
 
@@ -52,7 +52,7 @@ Para implementar o [!UICONTROL Audience Management Module] usando o [Adobe DTM](
 
 1. Baixe [!UICONTROL AppMeasurement] usando o Gerenciador [de código do](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html) Analytics (requer a versão 1.5 ou posterior).
 1. Atualize seu [!UICONTROL AppMeasurement] código para a versão incluída no arquivo zip baixado.
-1. Copie todo o código `AppMeasurement_Module_AudienceManagement.js` do arquivo zip. Cole-o no `appMeasurement.js` ficheiro logo acima do texto. `"DO NOT ALTER ANYTHING BELOW THIS LINE."`
+1. Copie todo o código do arquivo `AppMeasurement_Module_AudienceManagement.js` zip. Cole-o no `appMeasurement.js` ficheiro logo acima do texto. `"DO NOT ALTER ANYTHING BELOW THIS LINE."`
 1. Adicione o código, `s.loadModule("AudienceManagement");`, logo acima do `AppMeasurement_Module_AudienceManagement.js` código que você acabou de adicionar na etapa anterior.
 1. Atualize e copie o código abaixo e adicione-o à `doPlugins` função em seu `AppMeasurement.js` arquivo.
 
@@ -82,15 +82,15 @@ A tabela a seguir define variáveis importantes na amostra de código.
 |--- |--- |
 | `partner` | Obrigatório. Este é um nome de parceiro atribuído a você pela Adobe. Às vezes, é chamada de &quot;ID do parceiro&quot; ou &quot;subdomínio do parceiro&quot;.  Entre em contato com seu consultor da Adobe ou com o [Atendimento](https://helpx.adobe.com/marketing-cloud/contact-support.html) ao cliente se você não souber o nome do seu parceiro. |
 | `containerNSID` | Obrigatório. A maioria dos clientes pode definir `"containerNSID":0` . No entanto, se sua empresa precisar personalizar sincronizações de ID com um contêiner diferente, você pode especificar essa ID do contêiner aqui. |
-| `uuidCookie` | Opcional. Essa configuração permite definir um cookie da Adobe no domínio primário. Este cookie contém o [UUID](../../reference/ids-in-aam.md) . |
-| `visitorService` - `namespace` | Obrigatório. O `namespace` parâmetro é necessário se você usar o módulo AudienceManagement fornecido com a [!UICONTROL AppMeasurement] versão 2.10 ou mais recente. Este [!UICONTROL AudienceManagement] módulo requer o uso da versão [!UICONTROL Experience Cloud ID Service] 3.3 ou mais recente. <br> A ID [!UICONTROL Experience Cloud Organization ID] é fornecida por uma empresa ao se inscrever no [!UICONTROL Experience Cloud]. Descubra a ID da empresa em [Organizações e vinculação](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)de contas. |
+| `uuidCookie` | Opcional. Essa configuração permite que você defina um cookie da Adobe no domínio primário. Este cookie contém o [UUID](../../reference/ids-in-aam.md) . |
+| `visitorService` - `namespace` | Obrigatório. O `namespace` parâmetro é necessário se você usar o módulo AudienceManagement fornecido com a [!UICONTROL AppMeasurement] versão 2.10 ou mais recente. Este [!UICONTROL AudienceManagement] módulo requer o uso da versão [!UICONTROL Adobe Experience Platform Identity Service] 3.3 ou mais recente. <br> A ID [!UICONTROL Experience Cloud Organization ID] é fornecida por uma empresa ao se inscrever no [!UICONTROL Experience Cloud]. Descubra a ID da empresa em [Organizações e vinculação](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)de contas. |
 
 ## Resultados: Encaminhamento de dados para o Audience Manager {#results-data-forwarding}
 
 Sua [!DNL Analytics] implementação envia dados para o Audience Manager após você ter:
 
 * Ativado [!UICONTROL Server-Side Forwarding] (fale com o seu consultor sobre este recurso);
-* Implementação do serviço da Experience Cloud ID;
+* O Adobe Experience Platform Identity Service foi implementado;
 * Seguidas as etapas de implementação neste tutorial.
 
 Esse processo envia dados para [!DNL Audience Manager]:
