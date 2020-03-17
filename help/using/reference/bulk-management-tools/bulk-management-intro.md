@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Introdução ao Gerenciamento em massa
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: ee31681e5805bff274b4051a354886fcda0599ff
+source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 ---
 
@@ -24,7 +24,7 @@ c_bulk_start.xml
 
 >[!NOTE]
 >
->Os [!UICONTROL Bulk Management Tools] eventos não *são suportados por* [!DNL Audience Manager]. Esta ferramenta é fornecida apenas para conveniência e cortesia. Para alterações em massa, recomendamos que você trabalhe com as APIs [do](../../api/rest-api-main/aam-api-getting-started.md) Audience Manager. [As permissões](../../features/administration/administration-overview.md) de grupo RBAC atribuídas na [!DNL Audience Manager] interface do usuário são respeitadas na [!UICONTROL Bulk Management Tools].
+>[As permissões](../../features/administration/administration-overview.md) de grupo RBAC atribuídas na [!DNL Audience Manager] interface do usuário são respeitadas na [!UICONTROL Bulk Management Tools].
 
 ## Visão geral {#overview}
 
@@ -32,7 +32,7 @@ Este recurso usa uma planilha do Microsoft Excel com macros que fazem chamadas s
 
 ## Download {#download}
 
-Baixe a planilha mais recente **[aqui](assets/BAAAM_V2_20191205.xlsm)**.
+Baixe a planilha mais recente **[aqui](assets/BAAAM_V2_20200311.xlsm)**.
 
 ## Pré-requisitos {#prereqs}
 
