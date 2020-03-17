@@ -1,13 +1,13 @@
 ---
 description: Informações básicas sobre os arquivos do Feed de dados do cliente (CDF) e instruções sobre como começar. Comece aqui se estiver interessado em receber arquivos CDF ou só quiser mais informações.
-keywords: dados de terceiros;dados de terceiros;de terceiros;dados de terceiros;de terceiros;dados de terceiros;de terceiros
+keywords: second party data;2nd party;2nd party data;second party
 seo-description: Informações básicas sobre os arquivos do Feed de dados do cliente (CDF) e instruções sobre como começar. Comece aqui se estiver interessado em receber arquivos CDF ou só quiser mais informações.
 seo-title: Feeds de dados do cliente
 solution: Audience Manager
 title: Feeds de dados do cliente
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -64,7 +64,7 @@ Um [!UICONTROL CDF] arquivo inclui alguns ou todos os campos definidos abaixo. P
    <td colname="col3"> <p>A hora em que um arquivo CDF foi processado pelos Servidores <span class="wintitle"> de Coleta de</span> Dados (DCS). O carimbo de data e hora usa o formato <i>aaaa-mm-dd hh:mm:ss</i> e é definido no fuso horário UTC. </p> <p> <p>Observação: A hora do evento não <i></i>é: <p> 
        <ul id="ul_41ABC813FAAC4659AC8DA13F4A6DD7EB"> 
         <li id="li_0192D253EA4C49C4BF2E8BA62CEE028E">A hora do evento da página ou da chamada do evento, embora possa estar próxima desses momentos. </li> 
-        <li id="li_271DF14395BC495FBF17186588A554A8">Relacionado à hora do DCS no nome do arquivo. <a href="#different-processing-times">Consulte também, </a> Horários do Nome do Arquivo do Feed de Dados do Cliente e Horários do Conteúdo do Arquivo.... </li> 
+        <li id="li_271DF14395BC495FBF17186588A554A8">Relacionado à hora do DCS no nome do arquivo. Consulte também, <a href="#different-processing-times"> Horários do Nome do Arquivo do Feed de Dados do Cliente e Horários do Conteúdo do Arquivo...</a>. </li> 
        </ul> </p> </p> </p> </td> 
   </tr> 
   <tr> 
@@ -105,7 +105,7 @@ Um [!UICONTROL CDF] arquivo inclui alguns ou todos os campos definidos abaixo. P
   <tr> 
    <td colname="col1"> <p><code> MCDevice </code> </p> </td> 
    <td colname="col2"> <p>String   </p> </td> 
-   <td colname="col3"> <p>A <span class="keyword"> Experience Cloud</span> ID (MID) atribuída ao visitante do site. See also, <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and theExperience Cloud ID service</a>. </p> </td> 
+   <td colname="col3"> <p>A <span class="keyword"> Experience Cloud</span> ID (MID) atribuída ao visitante do site. Consulte também Cookies e o Serviço <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"></a>de identificação da plataforma Adobe Experience. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> All Segments</code> </p> </td> 
@@ -128,7 +128,7 @@ Lista e define a estrutura de dados de um [!UICONTROL CDF] arquivo. Isso inclui 
 
 <!-- cdf-file-structure.xml -->
 
-[!UICONTROL CDF] os arquivos não contêm colunas rotuladas ou cabeçalhos de campo. Em vez disso, um [!UICONTROL CDF] arquivo define campos e matrizes com [!DNL ASCII] caracteres não imprimíveis. Além disso, o [!UICONTROL CDF] arquivo lista cada campo e matriz em uma ordem específica. Compreender os identificadores de campo e a ordem o ajudará a analisar o arquivo corretamente.
+[!UICONTROL CDF] os arquivos não contêm colunas rotuladas nem cabeçalhos de campo. Em vez disso, um [!UICONTROL CDF] arquivo define campos e matrizes com [!DNL ASCII] caracteres não imprimíveis. Além disso, o [!UICONTROL CDF] arquivo lista cada campo e matriz em uma ordem específica. Compreender os identificadores de campo e a ordem o ajudará a analisar o arquivo corretamente.
 
 <table id="table_D2C8786DF7CE47E5ADB8930EC825F8F6"> 
  <thead> 
@@ -151,17 +151,17 @@ Lista e define a estrutura de dados de um [!UICONTROL CDF] arquivo. Isso inclui 
    <td colname="col1"> <p>Sequência de campo </p> </td> 
    <td colname="col2"> <p> <p>Importante: O <span class="keyword"> Audience Manager</span> reserva o direito de adicionar novos campos ao final do arquivo CDF em versões futuras. Isso significa que o design técnico do seu sistema de análise de arquivos não deve assumir um número fixo de colunas (embora possa assumir uma ordem fixa para colunas existentes). </p> </p> <p>Os dados no arquivo CDF são exibidos na ordem mostrada abaixo. </p> <p> 
      <ol id="ol_1FDF4A7F089448ED8A724378C23009C8"> 
-      <li id="li_CB97D90B54EB4F95861583D4A5F660C7"> Hora do evento </li> 
+      <li id="li_CB97D90B54EB4F95861583D4A5F660C7">Hora do evento </li> 
       <li id="li_C44E8CCB1A964B7A941FD772FB8A7608">Dispositivo </li> 
       <li id="li_F8AE0D4CA19D411686A240FE06F56147">ID do container </li> 
-      <li id="li_660D17989BE54610A01229C47894E8A9"> Características Realizadas </li> 
-      <li id="li_1591180564374204852785C6FFCA4F74"> Segmentos Realizados </li> 
+      <li id="li_660D17989BE54610A01229C47894E8A9">Características Realizadas </li> 
+      <li id="li_1591180564374204852785C6FFCA4F74">Segmentos Realizados </li> 
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">Parâmetros da solicitação </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Referer </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">Endereço IP </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud Device ID (ou MID). See also, <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID Service</a> </li> 
-      <li id="li_7A05AF4790A1425A90D019681DF4A595"> Todos os segmentos </li> 
-      <li id="li_1B5A6F076A354BA0A931CB260E6D2675"> Todas as características </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud Device ID (ou MID). Consulte também, <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies e o Adobe Experience Platform Identity Service</a> </li> 
+      <li id="li_7A05AF4790A1425A90D019681DF4A595">Todos os segmentos </li> 
+      <li id="li_1B5A6F076A354BA0A931CB260E6D2675">Todas as características </li> 
      </ol> </p> <p>Para obter descrições de campos, consulte Conteúdo definido <a href="#cdf-defined"></a>do feed de dados do cliente. </p> </td> 
   </tr> 
  </tbody> 
@@ -233,7 +233,7 @@ A tabela a seguir lista e define os elementos em um nome de [!UICONTROL CDF] arq
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>hour=<i>hh</i></code> </p> </td> 
-   <td colname="col2"> <p>Um valor de hora expresso em notação de 24 horas e definido no fuso horário UTC. <a href="#different-processing-times">Consulte também, </a> Horários do Nome do Arquivo do Feed de Dados do Cliente e Horários do Conteúdo do Arquivo.... </p> </td> 
+   <td colname="col2"> <p>Um valor de hora expresso em notação de 24 horas e definido no fuso horário UTC. Consulte também, <a href="#different-processing-times"> Horários do Nome do Arquivo do Feed de Dados do Cliente e Horários do Conteúdo do Arquivo...</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>partner ID</i> </code> </p> </td> 
@@ -373,8 +373,8 @@ A tabela a seguir fornece detalhes adicionais sobre os carimbos de data e hora d
 
 | Localização do carimbo de data e hora | Descrição |
 |--- |--- |
-| Nome do arquivo | O carimbo de data e hora em seu nome de arquivo CDF marca a hora em que [!DNL Audience Manager] começou a preparar o arquivo para entrega. Esse carimbo de data e hora é definido no fuso horário UTC. Ele usa o `hour=` parâmetro, com o tempo formatado como uma hora de 2 dígitos em uma notação de 24 horas. Essa hora pode ser diferente da hora do evento registrada no conteúdo do arquivo. DETALHAMENTOAo trabalhar com arquivos CDF, às vezes você perceberá que seu bucket S3 está vazio por uma hora específica. Um compartimento vazio significa um dos seguintes:<ul><li>Não há dados para aquela hora em particular. </li><li> Nossos servidores estão sob cargas pesadas e não podem processar arquivos por uma hora específica. Quando o servidor pega, coloca os arquivos que deveriam ter entrado em um período anterior em um bucket com um valor de tempo posterior. Por exemplo, você verá isso quando um arquivo que deveria estar na hora 17 do bucket for exibido na hora 18 do bucket (com `hour=18` o nome do arquivo). Nesse caso, o servidor provavelmente começou a processar seu arquivo na hora 17, mas não pôde concluí-lo dentro desse intervalo de tempo. Em vez disso, o arquivo é encaminhado para o próximo intervalo de tempo por hora.</li></ul><br>**Importante**: Não use o carimbo de data e hora do nome do arquivo para agrupar eventos por hora. Se precisar agrupar por hora, use o `EventTime` carimbo de data e hora no conteúdo do arquivo. |
-| Conteúdo do arquivo | O carimbo de data e hora no conteúdo do arquivo CDF marca o momento em que os servidores de coleta de dados iniciaram o processamento do arquivo. Esse carimbo de data e hora é definido no fuso horário UTC. Ele usa o `EventTime` campo, com o tempo formatado como *`yyyy-mm-dd hh:mm:ss`*. Essa hora está próxima à hora real do evento na página, mas pode ser diferente do indicador de hora no nome do arquivo. <br> **Dica**: Ao contrário do `hour=` carimbo de data e hora no nome do arquivo, é possível usar `EventTime` para agrupar dados por hora. |
+| Nome do arquivo | O carimbo de data e hora em seu nome de arquivo CDF marca a hora em que [!DNL Audience Manager] começou a preparar o arquivo para entrega. Esse carimbo de data e hora é definido no fuso horário UTC. Ele usa o `hour=` parâmetro, com o tempo formatado como uma hora de 2 dígitos em uma notação de 24 horas. Essa hora pode ser diferente da hora do evento registrada no conteúdo do arquivo. DETALHAMENTOAo trabalhar com arquivos CDF, às vezes você perceberá que seu bucket S3 está vazio por uma hora específica. Um compartimento vazio significa um dos seguintes:<ul><li>Não há dados para aquela hora em particular. </li><li> Nossos servidores estão sob cargas pesadas e não podem processar arquivos por uma hora específica. Quando o servidor pega, coloca os arquivos que deveriam ter entrado em um período anterior em um bucket com um valor de tempo posterior. Por exemplo, você verá isso quando um arquivo que deveria estar na hora 17 do bucket for exibido na hora 18 do bucket (com `hour=18` o nome do arquivo). Nesse caso, o servidor provavelmente começou a processar seu arquivo na hora 17, mas não pôde concluí-lo dentro desse intervalo de tempo. Em vez disso, o arquivo é encaminhado para o próximo intervalo de tempo por hora.</li></ul><br>**Importante **: Não use o carimbo de data e hora do nome do arquivo para agrupar eventos por hora. Se precisar agrupar por hora, use o`EventTime`carimbo de data e hora no conteúdo do arquivo. |
+| Conteúdo do arquivo | O carimbo de data e hora no conteúdo do arquivo CDF marca o momento em que os servidores de coleta de dados iniciaram o processamento do arquivo. Esse carimbo de data e hora é definido no fuso horário UTC. Ele usa o `EventTime` campo, com o tempo formatado como *`yyyy-mm-dd hh:mm:ss`*. Essa hora está próxima à hora real do evento na página, mas pode ser diferente do indicador de hora no nome do arquivo. <br> **Dica**: Diferentemente do `hour=` carimbo de data e hora no nome do arquivo, é possível usar `EventTime` para agrupar dados por hora. |
 
 >[!MORELIKETHIS]
 >
