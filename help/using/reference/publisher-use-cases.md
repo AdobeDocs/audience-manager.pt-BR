@@ -4,9 +4,9 @@ seo-description: Uma análise de algumas necessidades comuns do editor atendidas
 seo-title: Casos de uso do editor
 solution: Audience Manager
 title: Casos de uso do editor
-uuid: 5f571d60-d902-4958-b5d3-8d09dda42c7
+uuid: 5f571d60-d902-4958-b5d3-8d09ddda42c7
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -39,7 +39,7 @@ c_pub_use_case.xml
       <li id="li_45C12198EDDE4107AE59947BBAA51A60">Descubra os públicos-alvo, execute anúncios mais inteligentes ou campanhas de vendas e gerencie o insight do cliente. </li> 
       <li id="li_53727E7A3D494299B4631439612AC226">Agregar insights relacionados ao cliente em todos os seus canais. </li> 
      </ul> </p> </td> 
-   <td colname="col3"> <p>Equipe sua equipe de Pesquisa de vendas de anúncios para monetizar os perfis de público-alvo dos editores, destaque os entusiastas do "Faça você mesmo" como relevantes para uma campanha futura do Home Depot. </p> </td> 
+   <td colname="col3"> <p>Equipe sua equipe de Pesquisa de vendas de anúncios para monetizar os perfis de público-alvo dos editores, destaque os entusiastas do "Faça você mesmo", conforme relevante para uma futura campanha do Home Depot. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,7 +62,7 @@ c_pub_use_case.xml
      <ul id="ul_07695D68C7FA4BDE92E69AB84B59F0B5"> 
       <li id="li_D271C4C62589403C9F5D3B478EA1B1F3">Agregar um segmento primário de "Tech Geeks" em uma rede de propriedades. </li> 
       <li id="li_1EC9E0F4BC6343C88CF29D07B9D1DA11">Incluir inscritos técnicos em boletins informativos por email. </li> 
-      <li id="li_2C5CE406BAEC4F3B8AAED5DF414E1C8B">Monetize "Tech Geeks" como um produto premium no cartão de taxa digital para anunciantes relevantes. </li> 
+      <li id="li_2C5CE406BAEC4F3B8AAED5DF414E1C8B">Monetizar "Tech Geeks" como um produto premium no cartão de taxa digital para anunciantes relevantes. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -115,13 +115,13 @@ Esse caso de uso funciona com dados primários do Analytics enviados para uma pl
    <td colname="col3"> <p> 
      <ul id="ul_EE7A86BFFE534A59A9F8C7CAF46A31E5"> 
       <li id="li_D399592D9D904865BD319DC3621B832B">Crie um segmento "Pesquisadores de Imposto de Renda". </li> 
-      <li id="li_D28AC8BA5E194176BB8736B089B3C2F7">Alinhe a campanha de anúncios do lado da venda à Turbo Tax com uma campanha de extensão de alcance externo por meio de um DSP como o Adobe Media Otimizer. </li> 
+      <li id="li_D28AC8BA5E194176BB8736B089B3C2F7">Alinhe a campanha de anúncios do lado da venda à Turbo Tax com uma campanha de extensão de alcance externo por meio de um DSP, como a Adobe Advertising Cloud. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Criar segmentos de alto valor e melhorar o alcance com modelagem semelhante**
+**Crie segmentos de alto valor e melhore o alcance com modelagem semelhante**
 
 A documentação [de](../features/algorithmic-models/understanding-models.md) Modelos contém detalhes sobre o processo de modelagem [!DNL Audience Manager] algorítmica.
 
