@@ -1,13 +1,13 @@
 ---
 description: Perguntas e problemas comuns relacionados a produtos e funções.
-keywords: cookies do Audience Manager
+keywords: audience manager cookies
 seo-description: Perguntas e problemas comuns relacionados a produtos e funções.
 seo-title: Perguntas frequentes sobre recursos e funções do produto
 solution: Audience Manager
 title: Perguntas frequentes sobre recursos e funções do produto
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -30,7 +30,7 @@ A ID *`Organization ID`* é exclusiva para identificar a organização [!DNL Aud
 
 Por exemplo, um *`Organization ID`* tem a seguinte aparência: `1FD6776A524453CC0A490D44@AdobeOrg`.
 
-O *`Organization ID`* é usado pela API [DIL](../dil/dil-overview.md) do Audience Manager, o serviço [da](https://marketing.adobe.com/resources/help/en_US/mcvid/)Experience Cloud ID e outras [!DNL Experience Cloud] soluções. Os usuários com permissões de Administrador podem encontrar o *`Organization ID`* na [!DNL Adobe Admin Console]. Consulte as Perguntas frequentes sobre [Administração - Gerenciamento de usuários](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html).
+O *`Organization ID`* é usado pela API [DIL](../dil/dil-overview.md) do Audience Manager, pelo Serviço [de identificação da plataforma](https://marketing.adobe.com/resources/help/en_US/mcvid/)Adobe Experience e outras [!DNL Experience Cloud] soluções. Os usuários com permissões de Administrador podem encontrar o *`Organization ID`* na [!DNL Adobe Admin Console]. Consulte as Perguntas frequentes sobre [Administração - Gerenciamento de usuários](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html).
 
 <br> 
 
@@ -46,11 +46,11 @@ Sim. Consulte Ferramentas [de gerenciamento em](../reference/bulk-management-too
 
 **É possível[!DNL Audience Manager]reduzir a necessidade de tags ou pixels de terceiros e melhorar o tempo de carregamento da página?**
 
-Se [!DNL Audience Manager] estiver integrado ao seu parceiro de dados de terceiros, você poderá substituir os pixels e tags deles por uma chamada de ID de servidor para servidor [!DNL Audience Manager]. Nesse caso, [!DNL Audience Manager] acionaria uma única chamada de ID na primeira vez que um usuário fosse exibido e sincronizaria essas informações com seu parceiro de terceiros. Isso elimina a necessidade de fazer várias chamadas de pixels de cada página. A redução de chamadas de pixel pode melhorar o tempo de carregamento da página.
+Se [!DNL Audience Manager] estiver integrado ao seu parceiro de dados de terceiros, você poderá substituir os pixels e as tags deles por uma chamada de ID de servidor para servidor [!DNL Audience Manager]. Nesse caso, [!DNL Audience Manager] acionaria uma única chamada de ID na primeira vez que um usuário fosse exibido e sincronizaria essas informações com seu parceiro de terceiros. Isso elimina a necessidade de fazer chamadas de vários pixels de cada página. A redução de chamadas de pixel pode melhorar o tempo de carregamento da página.
 
 <br> 
 
-**Assinei um feed de dados. Onde estão armazenados esses dados?**
+**Eu me inscrevi em um feed de dados. Onde estão armazenados esses dados?**
 
 Seu feed de dados e todas as características contidas no feed aparecem como subpastas e características no [!DNL Audience Manager]. Vá até **[!UICONTROL Audience Data > Traits]** e expanda a [!UICONTROL 3rd-Party Data] pasta para exibir suas características ou criar segmentos e modelos com esses dados.
 
@@ -58,7 +58,7 @@ Seu feed de dados e todas as características contidas no feed aparecem como sub
 
 **O que é[!UICONTROL Tag Insertion Manager (TIM)]?**
 
-O Audience Manager usou [!UICONTROL Tag Insertion Manager] (TIM) para criar e gerenciar [!UICONTROL data collection code (DIL)]. This feature is obsolete and has been replaced first by [!UICONTROL Dynamic Tag Manager (DTM)], and later by [!DNL Adobe Launch]. Para obter mais informações, consulte [Adobe Launch](https://docs.adobelaunch.com/) e Gerenciamento [](https://marketing.adobe.com/resources/help/en_US/dtm/)dinâmico de tags.
+O Audience Manager usou [!UICONTROL Tag Insertion Manager] (TIM) para criar e gerenciar [!UICONTROL data collection code (DIL)]. This feature is obsolete and has been replaced first by [!UICONTROL Dynamic Tag Manager (DTM)], and later by [!DNL Adobe Experience Platform Launch]. For more information, see [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) and [Dynamic Tag Management](https://marketing.adobe.com/resources/help/en_US/dtm/).
 
 <br> 
 
