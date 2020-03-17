@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Perguntas frequentes sobre coleta de dados e integração de produtos
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 translation-type: tm+mt
-source-git-commit: 0921cd69ffcb75768acee99685b0d80b8bef0be6
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -45,7 +45,7 @@ Sim, veja abaixo.
 
 | Item | Endereço |
 ---------|----------|
-|  ftp-in.demdex.com | 54.225.117.163 |
+| ftp-in.demdex.com | 54.225.117.163 |
 | ftp-out.demdex.com | 23.23.188.76 |
 
 <br> 
@@ -64,7 +64,7 @@ Como prática recomendada, configure sua [!DNL Audience Manager]- [!DNL Analytic
 
 * Coloque [!UICONTROL DIL] diretamente no `s_code`.
 
-* Serve [!UICONTROL DIL] e o `s_code` através [!DNL Adobe Launch] ou [!DNL Adobe DTM].
+* Serve [!UICONTROL DIL] e o `s_code` através [!DNL Adobe Experience Platform Launch] ou [!DNL Adobe DTM].
 
 See [Data Integration Library (DIL) API](../dil/dil-overview.md).
 
@@ -81,7 +81,7 @@ Isso normalmente acontece quando:
 
 **Com que versões de[!DNL Analytics]trabalho[!UICONTROL DIL]?**
 
-Você deve usar a [!DNL Analytics] versão 20.2 (ou superior) e a [!DNL Adobe AppMeasurement AS] versão 3.5.2 (ou superior) para trabalhar com [!UICONTROL DIL]. Se você não souber sua versão [!DNL Analytics] ou [!DNL AppMeasurement] versão, verifique a [!DNL Analytics] chamada que é feita na página. Informações de versão mostradas abaixo:
+Você deve usar a [!DNL Analytics] versão 20.2 (ou superior) e a [!DNL Adobe AppMeasurement AS] versão 3.5.2 da biblioteca (ou superior) para trabalhar com [!UICONTROL DIL]. Se você não souber sua versão [!DNL Analytics] ou [!DNL AppMeasurement] versão, verifique a [!DNL Analytics] chamada que é feita na página. Informações de versão mostradas abaixo:
 
 Este cliente usa a [!DNL Analytics] versão 24.4:
 
@@ -133,13 +133,13 @@ Sim, [!DNL Audience Manager] pode fornecer dados coletados para usuários que j�
 
 **Quero coletar dados em um site e direcionar usuários por DFP em um site diferente. Preciso implantar o código na outra propriedade se não quiser coletar dados desse local?**
 
-Não. Se a coleta de dados no segundo site não for um requisito, não será necessário implantar o DIL aqui. Desde que você tenha acesso ao inventário no segundo site por meio do DFP, é possível usar a coleta de dados do site inicial e da meta por meio do DFP.
+Não. Se a coleta de dados no segundo site não for um requisito, não será necessário implantar o DIL lá. Desde que você tenha acesso ao inventário no segundo site por meio do DFP, é possível usar a coleta de dados do site inicial e da meta por meio do DFP.
 
 <br> 
 
 **Qual é o melhor provedor de dados de terceiros?**
 
-Cada provedor traz algo único à tabela, então a resposta depende do que você está procurando. Podemos ativar o relatório de sobreposição (sem custo) para ajudá-lo a entender qual provedor pode funcionar melhor para você.
+Cada provedor traz algo único para a tabela, então a resposta depende do que você está procurando. Podemos ativar o relatório de sobreposição (sem custo) para ajudá-lo a entender qual provedor pode funcionar melhor para você.
 
 <br> 
 
@@ -157,11 +157,11 @@ Sim. Podemos enviar dados de funil, mas o DSP deve ter a capacidade técnica par
 
 **Como posso confirmar se os dados enviados via FTP foram coletados por[!DNL Audience Manager]?**
 
-Um arquivo foi selecionado quando a extensão muda de `.sync` para `.processed`. Quando isso acontece, o arquivo fica na fila de ingestão. Além disso, seu gerente de conta pode confirmar quando um arquivo foi carregado.
+Um arquivo foi selecionado quando a extensão muda de `.sync` para `.processed`. Quando isso acontece, o arquivo está na fila de ingestão. Além disso, seu gerente de conta pode confirmar quando um arquivo foi carregado.
 
 <br> 
 
-**Quero testar a funcionalidade da API[do](../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)DCS. Estou enviando chamadas de evento como a mostrada abaixo. As chamadas contêm IDs[](../features/declared-ids.md)declaradas e sinais, que devem perceber algumas características e segmentos que já configurei. Posso usar o[!UICONTROL General Reports]e[!UICONTROL Trend Reports]para verificar se as populações de características e segmentos estão aumentando?**
+**Quero testar a funcionalidade da API[do](../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)DCS. Estou enviando chamadas de evento como a mostrada abaixo. As chamadas contêm[IDs](../features/declared-ids.md)declaradas e sinais, que devem perceber algumas características e segmentos que já configurei. Posso usar o[!UICONTROL General Reports]e[!UICONTROL Trend Reports]para verificar se as populações de características e segmentos estão aumentando?**
 
 ```
 https://apse2.demdex.net/event?d_rtbd=json&d_cid=123456%01abc123&c_events=placed-an-order
