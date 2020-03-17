@@ -5,7 +5,7 @@ seo-title: Pré-requisitos e Considerações para Destinos Baseados em Pessoas
 solution: Audience Manager
 title: Pré-requisitos e considerações
 translation-type: tm+mt
-source-git-commit: 301a5c553cfd5658f4d594773ab6248012cc50fa
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 301a5c553cfd5658f4d594773ab6248012cc50fa
 # Pré-requisitos e considerações {#prerequisites-considerations}
 
 >[!IMPORTANT]
->Este artigo contém a documentação do produto destinada a guiá-lo pela configuração e uso deste recurso. Nada aqui contido é aconselhamento jurídico. Consulte o seu próprio advogado para obter orientação jurídica.
+>Este artigo contém a documentação do produto destinada a orientá-lo durante a configuração e o uso deste recurso. Nada aqui contido é aconselhamento jurídico. Consulte o seu próprio advogado para obter orientação jurídica.
 
 Leia abaixo para obter uma visão geral dos requisitos do cliente que você precisa atender antes de se inscrever [!DNL People-Based Destinations].
 
@@ -50,7 +50,7 @@ Embora [!DNL People-Based Destinations] permita direcionar públicos-alvo com ba
 
 ## Hashes de dados versus criptografia {#data-hashing-encryption}
 
-A criptografia é uma função bidirecional. Todas as informações criptografadas também podem ser descriptografadas, usando a chave de decodificação correta. A criptografia de dados no contexto do Audience Manager apresenta sérios riscos, já que qualquer forma criptografada de informações de identificação pessoal também pode ser descriptografada. Ao contrário da criptografia, [!DNL People-Based Destinations] são criados para trabalhar com dados com hash.
+A criptografia é uma função bidirecional. Todas as informações criptografadas também podem ser descriptografadas, usando a chave de decodificação correta. A criptografia de dados no contexto do Audience Manager apresenta sérios riscos, já que qualquer forma criptografada de informações de identificação pessoal também pode ser descriptografada. Ao contrário da criptografia, [!DNL People-Based Destinations] são projetados para trabalhar com dados com hash.
 
 O hash é uma função unidirecional que embaralha a entrada para produzir um resultado exclusivo. Usando algoritmos de hash adequados, como [!DNL SHA256], não há como reverter a função de hash e revelar as informações desembaralhadas. Os endereços de email que você integrará ao Audience Manager devem ser hash com o [!DNL SHA256] algoritmo. Dessa forma, você pode garantir que nenhum endereço de email sem hash chegue ao Audience Manager.
 
@@ -61,7 +61,7 @@ Ao atualizar os endereços de email, certifique-se de cumprir os seguintes requi
 * Aparar todos os espaços à esquerda e à direita da string de email; exemplo: `johndoe@example.com`, não `<space>johndoe@example.com<space>`;
 * Ao executar o hash das strings de email, certifique-se de executar o hash da string em minúsculas;
    * Exemplo: `example@email.com`, não `EXAMPLE@EMAIL.COM`;
-* Certifique-se de que a cadeia de caracteres com hash esteja em minúsculas
+* Certifique-se de que a cadeia de caracteres com hash esteja toda em minúsculas
    * Exemplo: `55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`, não `55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`;
 * Não salve a corda.
 
@@ -69,7 +69,7 @@ Assista ao vídeo abaixo para entender os requisitos de hash do [!UICONTROL Peop
 
 >[!VIDEO](https://video.tv.adobe.com/v/29003/)
 
-A Adobe Experience Cloud oferece a opção de hash de IDs de clientes por meio do Serviço da Experience Cloud ID. Consulte Suporte de hash [SHA256 para setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) para obter informações detalhadas sobre como usar ECID para hash de IDs de clientes.
+A Adobe Experience Cloud oferece a opção de hash de IDs de clientes por meio do Adobe Experience Platform Identity Service. Consulte Suporte de hash [SHA256 para setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) para obter informações detalhadas sobre como usar a ECID para hash de IDs de clientes.
 
 ## Obtendo permissão do usuário {#obtaining-user-permission}
 
