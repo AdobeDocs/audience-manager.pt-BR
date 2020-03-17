@@ -1,46 +1,46 @@
 ---
 description: Uma visão geral da DIL e como ela funciona.
 seo-description: Uma visão geral da DIL e como ela funciona.
-seo-title: Como entender a Biblioteca de integração de dados (DIL)
-keywords: 'dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, l, '
+seo-title: Como entender a DIL (Data Integration Library, biblioteca de integração de dados)
+keywords: dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil,
 solution: Audience Manager
-title: Como entender a Biblioteca de integração de dados (DIL)
+title: Como entender a DIL (Data Integration Library, biblioteca de integração de dados)
 uuid: 77b12f35-81e4-4639-ada6-bf982f27b36e
 translation-type: tm+mt
-source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
 
-# Como entender a Biblioteca de integração de dados (DIL){#understanding-the-data-integration-library-dil}
+# Como entender a DIL (Data Integration Library, biblioteca de integração de dados){#understanding-the-data-integration-library-dil}
 
 Visão geral, introdução e métodos de código disponíveis na biblioteca de códigos DIL do Audience Manager.
 
 >[!IMPORTANT]
 >
->Starting with version 8.0 (released August 2018), [!UICONTROL DIL] has a hard dependency on the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), version 3.3 or higher. Ele depende do serviço de ID para acionar sincronizações de ID e destinos de URL. Ocorre um erro se o serviço de ID estiver ausente, antigo ou não configurado.
+>A partir da versão 8.0 (lançada em agosto de 2018), [!UICONTROL DIL] há uma forte dependência do [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), versão 3.3 ou superior. Ele depende do serviço de ID para acionar sincronizações de ID e destinos de URL. Ocorre um erro se o serviço de ID estiver ausente, antigo ou não configurado.
 >
->Recomendamos que você use o Adobe Launch para implementar e gerenciar as bibliotecas do DIL e do Serviço da Experience Cloud ID.
+>Recomendamos que você use o Adobe Experience Platform Launch para implementar e gerenciar suas bibliotecas do DIL e do Adobe Experience Platform Identity Service.
 
 No entanto, você também pode baixar as versões mais recentes da Experience Cloud e da DIL de nossa página do GitHub. Consulte os links de download abaixo:
 
-* Baixar o serviço da [Experience Cloud ID](https://github.com/Adobe-Marketing-Cloud/id-service/releases)
+* Baixar o serviço de identidade da plataforma [Adobe Experience](https://github.com/Adobe-Marketing-Cloud/id-service/releases)
 * Baixar [DIL](https://github.com/Adobe-Marketing-Cloud/dil/releases)
 
 ## Objetivo do DIL {#purpose-dil}
 
-[!UICONTROL DIL] é uma biblioteca da API. Você pode pensar que é um corpo de código auxiliar para [!DNL Adobe Audience Manager]. Não é necessário usar [!DNL Audience Manager], mas os métodos e funções [!UICONTROL DIL] fornecem meios para que você não precise desenvolver seu próprio código para enviar dados [!DNL Audience Manager]. Além disso, [!UICONTROL DIL] é diferente da API fornecida pelo serviço [da](https://marketing.adobe.com/resources/help/en_US/mcvid/)Experience Cloud ID. Esse serviço foi projetado para gerenciar a identidade do visitante em diferentes [!DNL Experience Cloud] soluções. Por outro lado, [!UICONTROL DIL] foi concebido para:
+[!UICONTROL DIL] é uma biblioteca de APIs. Você pode pensar que é um corpo de código auxiliar para [!DNL Adobe Audience Manager]. Não é necessário usar [!DNL Audience Manager], mas os métodos e funções [!UICONTROL DIL] fornecem meios para que você não precise desenvolver seu próprio código para enviar dados [!DNL Audience Manager]. Além disso, [!UICONTROL DIL] é diferente da API fornecida pelo [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/). Esse serviço foi projetado para gerenciar a identidade do visitante em diferentes [!DNL Experience Cloud] soluções. Por outro lado, [!UICONTROL DIL] foi concebido para:
 
 * Efetuar chamadas de evento e enviar dados para o Servidor [de Coleta de](../reference/system-components/components-data-collection.md)Dados.
 * Enviar dados para [destinos](../features/destinations/destinations.md).
 
 ## Obtenção e implementação do código DIL {#get-implement-dil-code}
 
-[!UICONTROL DIL] o código está disponível para download **[aqui](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Please note that starting with version 8.0 (released August 2018), [!UICONTROL DIL] has a hard dependency on the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), version 3.3 or higher. Ele depende do serviço de ID para acionar sincronizações de ID e destinos de URL. Ocorre um erro se o serviço de ID estiver ausente, antigo ou não configurado.
+[!UICONTROL DIL] o código está disponível para download **[aqui](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Observe que, a partir da versão 8.0 (lançada em agosto de 2018),[!UICONTROL DIL]há uma forte dependência do[Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), versão 3.3 ou superior. Ele depende do serviço de ID para acionar sincronizações de ID e destinos de URL. Ocorre um erro se o serviço de ID estiver ausente, antigo ou não configurado.
 
-Em vez de trabalhar com [!UICONTROL DIL] e configurar [!DNL Audience Manager] manualmente, recomendamos que você use o [Adobe Launch](https://docs.adobelaunch.com/) . [!DNL Adobe Launch] é a ferramenta de implementação recomendada, pois simplifica a implantação de código, o posicionamento e o gerenciamento de versões. Leia mais sobre a extensão [do](https://docs.adobelaunch.com/extension-reference/web/adobe-audience-manager-extension) Audience Manager no Adobe Launch.
+Em vez de trabalhar com [!UICONTROL DIL] e configurar [!DNL Audience Manager] manualmente, recomendamos que você use o [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) . [!DNL Adobe Experience Platform Launch] é a ferramenta de implementação recomendada, pois simplifica a implantação de código, o posicionamento e o gerenciamento de versões. Leia mais sobre a extensão [do](https://docs.adobelaunch.com/extension-reference/web/adobe-audience-manager-extension) Audience Manager no Adobe Experience Platform Launch.
 
-O Adobe Launch é o sucessor do [Adobe Dynamic Tag Manager](https://marketing.adobe.com/resources/help/en_US/dtm/c_overview.html) ([!DNL DTM]).
+O Adobe Experience Platform Launch é o sucessor do [Adobe Dynamic Tag Manager](https://marketing.adobe.com/resources/help/en_US/dtm/c_overview.html) ([!DNL DTM]).
 
 ## Chamada de exemplo {#sample-code}
 
