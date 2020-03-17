@@ -1,13 +1,13 @@
 ---
 description: Para criar uma nova fonte de dados, vá até Dados de público-alvo > Fontes de dados > Adicionar novo e conclua as etapas para cada seção descrita aqui. São necessárias permissões de administrador para criar uma fonte de dados.
-keywords: fontes de dados;gerenciar fonte de dados;fonte de dados do Audience Manager
+keywords: data sources;manage data source;audience manager data source
 seo-description: Para criar uma nova fonte de dados, vá até Dados de público-alvo > Fontes de dados > Adicionar novo e conclua as etapas para cada seção descrita aqui. São necessárias permissões de administrador para criar uma fonte de dados.
 seo-title: Criar uma fonte de dados
 solution: Audience Manager
 title: Gerenciar fontes de dados
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -33,7 +33,7 @@ Para concluir a [!UICONTROL Data Source Details] seção:
 1. Forneça um código de integração. Geralmente, os códigos de integração são opcionais. Eles são necessários quando você deseja:
 
    * [Crie uma fonte](../features/profile-merge-rules/merge-rules-start.md#create-data-source)de dados entre dispositivos.
-   * Use o serviço [da](https://marketing.adobe.com/resources/help/en_US/mcvid/)Experience Cloud ID.
+   * Use o Serviço [de identificação da plataforma](https://marketing.adobe.com/resources/help/en_US/mcvid/)Adobe Experience.
    * Trabalhar com regras [de mesclagem de](../features/profile-merge-rules/merge-rules-start.md)perfil.
 
 1. Escolha um **[!UICONTROL ID Type]**. As opções de Tipo de ID incluem:
@@ -77,7 +77,7 @@ Exclua uma fonte de dados que não é mais necessária.
 >* Para clientes que usam o Adobe Analytics: O Audience Manager não permite que você exclua fontes de dados criadas automaticamente de seus conjuntos de [!DNL Analytics] relatórios. Use o Serviço [](https://marketing.adobe.com/resources/help/en_US/mcloud/) principal para desmapear essas fontes de dados.
 
 
-1. Click **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Data Sources]**.
+1. Clique em **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**.
 1. Marque a caixa de seleção ao lado de uma ou mais fontes de dados.
 Você pode usar a [!UICONTROL Search] caixa para localizar as fontes de dados desejadas se tiver uma lista longa.
 1. Clique em ![](assets/icon_trash.png)e confirme a exclusão.
