@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Introdução às regras de mesclagem de perfil
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -49,9 +49,9 @@ Para concluir a [!UICONTROL Data Source Details] seção:
 
 * **[!UICONTROL Use as Authenticated Profile]**: Selecionada por padrão, essa configuração permite criar um [!UICONTROL Profile Merge Rule] com seus próprios dados autenticados.
 
-* **[!UICONTROL Use as a Device Graph]**: Esse controle está disponível somente para contas listadas como um provedor de dados. Marcar essa caixa de seleção cria sua fonte de dados como um gráfico de dispositivo e permite que você compartilhe-o com outros [!DNL Audience Manager] clientes. Entre em contato com seu [!DNL Audience Manager] consultor para configurar como um provedor de dados e especificar com quais clientes isso [!UICONTROL Data Source] deve ser compartilhado. Seu consultor fornecerá o compartilhamento de gráficos de conta e dispositivo por meio de um processo de provisionamento interno.
+* **[!UICONTROL Use as a Device Graph]**: Esse controle está disponível somente para contas listadas como um provedor de dados. Marcar essa caixa de seleção cria sua fonte de dados como um gráfico de dispositivo e permite que você compartilhe-o com outros [!DNL Audience Manager] clientes. Entre em contato com seu [!DNL Audience Manager] consultor para configurar como um provedor de dados e especificar com quais clientes isso [!UICONTROL Data Source] deve ser compartilhado. Seu consultor fornecerá seu compartilhamento de gráficos de conta e dispositivo por meio de um processo de provisionamento interno.
 
-* **[!UICONTROL Data retention for inactive Customer IDs]**: Esse controle permite definir o período de retenção de dados para IDs de cliente inativas. Isso determina por quanto tempo o Audience Manager mantém as IDs do cliente em nosso banco de dados após serem vistas pela última vez na plataforma do Audience Manager. O valor padrão é 24 meses (720 dias). O valor mínimo que você pode definir é 1 mês e o valor máximo é 5 anos. Observe que todos os meses são contados como 30 dias. O Audience Manager executa um processo que exclui IDs de cliente inativas uma vez por semana, de acordo com a retenção de dados definida para IDs de cliente inativas.
+* **[!UICONTROL Data retention for inactive Customer IDs]**: Esse controle permite que você defina o período de retenção de dados para IDs de cliente inativas. Isso determina por quanto tempo o Audience Manager mantém as IDs do cliente em nosso banco de dados após serem vistas pela última vez na plataforma do Audience Manager. O valor padrão é 24 meses (720 dias). O valor mínimo que você pode definir é 1 mês e o valor máximo é 5 anos. Observe que todos os meses são contados como 30 dias. O Audience Manager executa um processo que exclui IDs de cliente inativas uma vez por semana, de acordo com a retenção de dados definida para IDs de cliente inativas.
 
 Os campos de texto associados a essas configurações permitem que você renomeie o arquivo com um alias que aparece nas opções [!UICONTROL Data Source] Regra de mesclagem de [](merge-rule-definitions.md)perfil. Por exemplo, se você adicionar um alias a **[!UICONTROL Use as Authenticated Profile]**, esse nome será exibido na [!UICONTROL Authenticated Profile Options] lista. Se você adicionar um alias a **[!UICONTROL Use as a Device Graph]**, esse nome será exibido na [!UICONTROL Device Options] lista.
 
@@ -65,7 +65,7 @@ Permissões de administrador são necessárias para criar, editar ou excluir uma
 
 <!-- create-profile-merge-rule.xml -->
 
-**** Pré-requisitos: Uma fonte de dados entre dispositivos é necessária para criar um [!UICONTROL Profile Merge Rule]. Consulte [Criar uma fonte](../manage-datasources.md#create-data-source)de dados.
+**Pré-requisitos:** Uma fonte de dados entre dispositivos é necessária para criar um [!UICONTROL Profile Merge Rule]. Consulte [Criar uma fonte](../manage-datasources.md#create-data-source)de dados.
 
 >[!TIP]
 >
@@ -91,7 +91,7 @@ Para concluir a [!UICONTROL Proflie Merge Rule Setup] seção:
    * **[!UICONTROL No Authenticated Profile]**
    * **[!UICONTROL Current Authenticated Profile]**
    * **[!UICONTROL Last Authenticated Profile]**
-2. Selecione um **[!UICONTROL Authenticated Profile Option]** (máximo de 3). Essas são as fontes [de dados](merge-rules-start.md) entre dispositivos que você criou anteriormente.
+2. Selecione um **[!UICONTROL Authenticated Profile Option]** (até 3, no máximo). Essas são as fontes [de dados](merge-rules-start.md) entre dispositivos que você criou anteriormente.
 3. Selecione um **[!UICONTROL Device Option]**. As opções incluem:
    * **[!UICONTROL No Device Profile]**
    * **[!UICONTROL Current Device Profile]**
@@ -101,7 +101,7 @@ Para concluir a [!UICONTROL Proflie Merge Rule Setup] seção:
 
 ## Configurar o código da regra de mesclagem {#configure-merge-rule-code}
 
-Siga estas instruções para configurar o [!UICONTROL Experience Cloud ID Service], [!UICONTROL DIL]e o [!DNL SDK] código móvel para trabalhar com suas regras de mesclagem.
+Siga estas instruções para configurar o [!UICONTROL Adobe Experience Platform Identity Service], [!UICONTROL DIL]e o [!DNL SDK] código móvel para trabalhar com suas regras de mesclagem.
 
 <!-- merge-rules-configure-code.xml -->
 
@@ -109,13 +109,13 @@ Siga estas instruções para configurar o [!UICONTROL Experience Cloud ID Servic
 
 É necessário configurar uma fonte [de dados](#create-data-source) entre dispositivos e regras [de mesclagem de](#create-profile-merge-rule) perfil *antes* de concluir esses procedimentos.
 
-## Para clientes do serviço da Experience Cloud ID {#id-service-customers}
+## Para clientes do Adobe Experience Platform Identity Service {#id-service-customers}
 
-A versão [!UICONTROL Experience Cloud ID Service] e a versão mais recente da [DIL](../../dil/dil-overview.md) são recomendadas ao trabalhar com [!UICONTROL Profile Merge Rules]. No entanto, você não precisa usar o para [!UICONTROL Experience Cloud ID Service] trabalhar com esse recurso. Se você estiver usando apenas [!UICONTROL DIL], consulte a seção [DIL](#legacy-dil) herdada abaixo.
+A versão [!UICONTROL Adobe Experience Platform Identity Service] e a versão mais recente da [DIL](../../dil/dil-overview.md) são recomendadas ao trabalhar com [!UICONTROL Profile Merge Rules]. No entanto, você não precisa usar o para [!UICONTROL Adobe Experience Platform Identity Service] trabalhar com esse recurso. Se você estiver usando apenas [!UICONTROL DIL], consulte a seção [DIL](#legacy-dil) herdada abaixo.
 
 ### Configurar a função Definir ID do cliente
 
-Ao trabalhar com o [!UICONTROL Experience Cloud ID Service], a `setCustomerIDs` função passa as IDs declaradas para [!DNL Audience Manager]. Para usar uma regra de mesclagem de perfil, é necessário modificar `setCustomerIDs` para usar o código de integração especificado ao criar uma fonte de dados entre dispositivos. Por exemplo, considere que você criou uma fonte de dados entre dispositivos com o código de integração `my_datasource_ic`. Para passar uma ID declarada, adicione o código de integração à função de ID de visitante, conforme mostrado na amostra de código modificada abaixo.
+Ao trabalhar com o [!UICONTROL Adobe Experience Platform Identity Service], a `setCustomerIDs` função passa as IDs declaradas para [!DNL Audience Manager]. Para usar uma regra de mesclagem de perfil, é necessário modificar `setCustomerIDs` para usar o código de integração especificado ao criar uma fonte de dados entre dispositivos. Por exemplo, considere que você criou uma fonte de dados entre dispositivos com o código de integração `my_datasource_ic`. Para passar uma ID declarada, adicione o código de integração à função de ID de visitante, conforme mostrado na amostra de código modificada abaixo.
 
 #### Exemplo de código genérico
 
@@ -158,7 +158,7 @@ Consulte a seção [Configurar SDKs](#configure-sdks-legacy-dil) abaixo.
 
 ## DIL herdado {#legacy-dil}
 
-Se você não está usando [!DNL Experience Cloud ID Service] ainda, você realmente deveria. Mas, nós entendemos que a mudança para um novo código requer um pensamento cuidadoso e testes. Nesses casos, verifique sua `DIL.create` função para verificar se ela está configurada corretamente, conforme mostrado na amostra de código abaixo.
+Se você não está usando [!DNL Adobe Experience Platform Identity Service] ainda, você realmente deveria. Mas, nós entendemos que a mudança para um novo código requer um pensamento cuidadoso e testes. Nesses casos, verifique sua `DIL.create` função para verificar se ela está configurada corretamente, conforme mostrado na amostra de código abaixo.
 
 ```js
 DIL.create({
