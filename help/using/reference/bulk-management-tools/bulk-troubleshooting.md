@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Dicas de solução de problemas para ferramentas de gerenciamento em massa
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
 translation-type: tm+mt
-source-git-commit: 994b12fd442a08da3b606dabca1f9382a7bd6f74
+source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 ---
 
@@ -25,7 +25,7 @@ O que fazer quando as planilhas retornarem um erro ou sua solicitação em massa
 
 >[!NOTE]
 >
->Os [!UICONTROL Bulk Management Tools] não *são suportados por* [!DNL Audience Manager]. Esta ferramenta é fornecida apenas para conveniência e cortesia. Para alterações em massa, recomendamos que você trabalhe com as APIs [do](../../api/rest-api-main/aam-api-getting-started.md) Audience Manager. [As permissões](../../features/administration/administration-overview.md) de grupo RBAC atribuídas na [!DNL Audience Manager] interface do usuário são respeitadas na [!UICONTROL Bulk Management Tools].
+>[As permissões](../../features/administration/administration-overview.md) de grupo RBAC atribuídas na [!DNL Audience Manager] interface do usuário são respeitadas na [!UICONTROL Bulk Management Tools].
 
 Fatores como tráfego intenso de rede, uso do servidor e grandes conjuntos de dados podem causar falha ou tempo limite de uma solicitação em massa. Se houver um problema, a planilha deixará de gravar dados e exibirá uma mensagem de erro. Quando isso acontecer, você deverá:
 
