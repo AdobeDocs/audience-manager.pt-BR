@@ -1,13 +1,13 @@
 ---
 description: As APIs DIL de nível de instância permitem que você crie e trabalhe programaticamente com objetos do Audience Manager. Os métodos de nível de instância aprimoram a funcionalidade da API estabelecida pelos métodos de nível de classe.
-keywords: criar características;criar característica
+keywords: create traits;create trait
 seo-description: As APIs DIL de nível de instância permitem que você crie e trabalhe programaticamente com objetos do Audience Manager. Os métodos de nível de instância aprimoram a funcionalidade da API estabelecida pelos métodos de nível de classe.
 seo-title: Métodos DIL de nível de instância
 solution: Audience Manager
 title: Métodos DIL de nível de instância
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -37,7 +37,7 @@ c_instance_start.xml
 
 ## sinais {#signals}
 
-Adiciona mapeamentos de nível de cliente e plataforma à sequência de caracteres de consulta de uma solicitação pendente.
+Adiciona mapeamentos de nível de cliente e plataforma à sequência de consulta de uma solicitação pendente.
 
 <!-- 
 
@@ -45,7 +45,7 @@ r_dil_signals.xml
 
  -->
 
-**** Assinatura da função: `signals: function ({key1:value1, key2:value2},prefix){}`
+**Assinatura da função:** `signals: function ({key1:value1, key2:value2},prefix){}`
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ r_dil_signals.xml
 >* Se a biblioteca JavaScript da Adobe Experience Cloud estiver na página, `submit()` aguardará que a Cloud defina um cookie antes de enviar uma solicitação.
 
 
-**Chaves de solicitação reservadas**
+**Chaves de Solicitação Reservadas**
 
 As seguintes chaves de solicitação são reservadas e não podem ser substituídas por este método:
 
@@ -107,7 +107,7 @@ r_dil_traits.xml
 
  -->
 
-**** Assinatura da função: `traits:function (sids){}`
+**Assinatura da função:** `traits:function (sids){}`
 
 >[!NOTE]
 >
@@ -143,7 +143,7 @@ r_dil_logs.xml
 
  -->
 
-**** Assinatura da função: `logs: function {key1:value1, key2:value2}`
+**Assinatura da função:** `logs: function {key1:value1, key2:value2}`
 
 **Resposta**
 
@@ -172,7 +172,7 @@ r_dil_submit.xml
 
  -->
 
-**** Assinatura da função: `submit: function () {}`
+**Assinatura da função:** `submit: function () {}`
 
 >[!NOTE]
 >
@@ -210,7 +210,7 @@ r_dil_after_result.xml
 
  -->
 
-**** Assinatura da função: `afterResult: function (fn) {}`
+**Assinatura da função:** `afterResult: function (fn) {}`
 
 >[!NOTE]
 >
@@ -252,7 +252,7 @@ r_dil_clear_data.xml
 
  -->
 
-**** Assinatura da função: `clearData: function () {}`
+**Assinatura da função:** `clearData: function () {}`
 
 >[!NOTE]
 >
@@ -292,13 +292,13 @@ r_dil_custom_query_params.xml
 
  -->
 
-**** Assinatura da função: `customQueryParams: function (obj) {}`
+**Assinatura da função:** `customQueryParams: function (obj) {}`
 
 >[!NOTE]
 >
 >Você pode encadear outras chamadas de API para este método.
 
-**Chaves de solicitação reservadas**
+**Chaves de Solicitação Reservadas**
 
 As seguintes chaves de solicitação são reservadas e não podem ser substituídas por este método:
 
@@ -336,7 +336,7 @@ r_dil_get_container_nsid.xml
 
  -->
 
-**** Assinatura da função: `dil.api.getContainerNSID: function () {}`
+**Assinatura da função:** `dil.api.getContainerNSID: function () {}`
 
 **Código de exemplo**
 
@@ -352,7 +352,7 @@ var nsid = dataLib.api.getContainerNSID();
 
 ## getEventLog {#geteventlog}
 
-Retorna dados de log de eventos classificados cronologicamente como uma matriz de strings. Útil para depuração e solução de problemas.
+Retorna dados de log de eventos classificados cronologicamente como uma matriz de sequências de caracteres. Útil para depuração e solução de problemas.
 
 <!-- 
 
@@ -360,7 +360,7 @@ r_dil_get_event_log.xml
 
  -->
 
-**** Assinatura da função: `dil.api.getEventLog: function () {}`
+**Assinatura da função:** `dil.api.getEventLog: function () {}`
 
 **Código de exemplo**
 
@@ -397,7 +397,7 @@ r_dil_get_partner.xml
 
  -->
 
-**** Assinatura da função: `dil.api.getPartner: function () {}`
+**Assinatura da função:** `dil.api.getPartner: function () {}`
 
 **Código de exemplo**
 
@@ -421,7 +421,7 @@ r_dil_get_state.xml
 
  -->
 
-**** Assinatura da função: `dil.api.getState: function () {}`
+**Assinatura da função:** `dil.api.getState: function () {}`
 
 **Código de exemplo**
 
@@ -483,7 +483,7 @@ state = {
 
 ## idSync {#idsync}
 
-Consiste em duas funções que permitem que os parceiros de dados troquem e sincronizem IDs de usuário entre si e o Audience Manager.
+Consiste em duas funções que permitem que os parceiros de dados troquem e sincronizem IDs de usuário entre eles e o Audience Manager.
 
 <!-- 
 
@@ -505,11 +505,11 @@ Funciona com [!UICONTROL DIL] as versões 2.10 e 3.1 ou superior.
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.idSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Entre diferentes parceiros de dados e o Audience Manager. Por exemplo, o parceiro x usaria isso para sincronizar uma ID de usuário com o parceiro y e enviá-la para o Audience Manager. </p> <p> <p><b></b> Importante:  Este método está obsoleto. Use o <code> idSyncByURL </code> método da instância do Serviço da Experience Cloud ID. </p> </p> </td> 
+   <td colname="col2"> <p>Entre diferentes parceiros de dados e o Audience Manager. Por exemplo, o parceiro x usaria isso para sincronizar uma ID de usuário com o parceiro y e enviá-la para o Audience Manager. </p> <p> <p><b>Importante:</b>  Este método está obsoleto. Use o <code> idSyncByURL </code> método da instância do Adobe Experience Platform Identity Service. </p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.aamIdSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Quando você já souber a ID de usuário e desejar enviá-la para o Audience Manager. </p> <p> <p><b></b> Importante:  Este método está obsoleto. Use o <code> idSyncByDataSource </code> método da instância do Serviço da Experience Cloud ID. </p> </p> </td> 
+   <td colname="col2"> <p>Quando você já souber a ID de usuário e desejar enviá-la para o Audience Manager. </p> <p> <p><b>Importante:</b>  Este método está obsoleto. Use o <code> idSyncByDataSource </code> método da instância do Adobe Experience Platform Identity Service. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -554,9 +554,9 @@ Funciona com [!UICONTROL DIL] as versões 2.10 e 3.1 ou superior.
 
 `idSync` aceita as seguintes macros:
 
-* **`%TIMESTAMP%`:** gera um carimbo de data e hora (em milissegundos). Usado para eliminação de cache.
-* **`%DID%`:** insere a ID do Audience Manager para o usuário.
-* **`%HTTP_PROTO%`** : Define o protocolo da página ( `http` ou `https`).
+* **`%TIMESTAMP%`:**gera um carimbo de data e hora (em milissegundos). Usado para eliminação de cache.
+* **`%DID%`:**insere a ID do Audience Manager para o usuário.
+* **`%HTTP_PROTO%`:**Define o protocolo da página (`http`ou`https`).
 
 **Resposta**
 
@@ -597,7 +597,7 @@ r_dil_result.xml
 
  -->
 
-**** Assinatura da função: `result: function (callback) {}`
+**Assinatura da função:** `result: function (callback) {}`
 
 Esse retorno de chamada substitui o retorno de chamada padrão que lida com a publicação de destino.
 
@@ -694,7 +694,7 @@ r_dil_use_image_request.xml
 
  -->
 
-**** Assinatura da função: `useImageRequest: function () {}`
+**Assinatura da função:** `useImageRequest: function () {}`
 
 >[!NOTE]
 >
@@ -719,8 +719,8 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >
 >* [Requisitos de nome para variáveis-chave](../features/traits/trait-key-name-requirements.md)
 >* [Requisitos de prefixo para variáveis-chave](../features/traits/trait-variable-prefixes.md)
->* [Funções de sincronização no serviço da Experience Cloud ID](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idsync.html)
+>* [Funções de sincronização no Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idsync.html)
 >* [Criar DIL](../dil/dil-class-overview/dil-create.md#dil-create)
->* [Serviço da Experience Cloud ID: UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
->* [Suporte para CORS no serviço de Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
+>* [Serviço de identidade da plataforma Adobe Experience: UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
+>* [Suporte a CORS no Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
 
