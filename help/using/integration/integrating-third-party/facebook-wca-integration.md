@@ -5,7 +5,7 @@ seo-title: Integração WCA do Facebook
 solution: Audience Manager
 title: Integração WCA do Facebook
 translation-type: tm+mt
-source-git-commit: 28d1292140a56cf1627a8921876d9483221876ca
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -28,10 +28,10 @@ Esta página ilustra o processo de criação de pixels de Públicos-alvo persona
 
 1. Conta de anúncio do Facebook
 2. Segmentos do Audience Manager, prontos para atribuir ao seu novo destino do Facebook. Veja [como criar um segmento](/help/using/features/segments/segment-builder.md) na interface do usuário do Audience Manager.
-3. Adobe Experience Cloud ID Service (ECID) versão 4.1.0 ou mais recente. Baixe a versão mais recente **[aqui](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**.
-4. Biblioteca de integração de dados do Audience Manager (DIL) versão 9.0 ou mais recente, disponível para download **[aqui](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Como alternativa, se você usar o [Server-Side Forwarding (SSF)](https://marketing.adobe.com/resources/help/en_US/reference/ssf.html) para importar dados para o Audience Manager, deverá usar o AppMeasurement versão 2.12 ou mais recente. Baixe o AppMeasurement usando o Gerenciador [de código do](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html)Analytics.
+3. Adobe Adobe Experience Platform Identity Service (ECID) versão 4.1.0 ou mais recente. Baixe a versão mais recente **[aqui](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**.
+4. Biblioteca de integração de dados do Audience Manager (DIL) versão 9.0 ou mais recente, disponível para download **[aqui](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Como alternativa, se você usar o[Server-Side Forwarding (SSF)](https://marketing.adobe.com/resources/help/en_US/reference/ssf.html)para importar dados para o Audience Manager, deverá usar o AppMeasurement versão 2.12 ou mais recente. Baixe o AppMeasurement usando o Gerenciador[de código do](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html)Analytics.
 
-Recomendamos que você instale ou atualize as bibliotecas nas etapas 3 e 4 usando o [Adobe Launch](https://docs.adobelaunch.com/) ou o Gerenciamento [dinâmico de tags da](https://marketing.adobe.com/resources/help/en_US/dtm/)Adobe.
+Recomendamos que você instale ou atualize as bibliotecas nas etapas 3 e 4 usando o [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) ou o Gerenciamento [dinâmico de tags da](https://marketing.adobe.com/resources/help/en_US/dtm/)Adobe.
 
 ## Etapa 1 - Criar um destino do Facebook no Audience Manager {#step-1-create-facebook-destination}
 
@@ -92,7 +92,7 @@ Consulte [Criar um público](https://www.facebook.com/business/help/666509013483
 | Item | Descrição |
 ---------|----------|
 | Tráfego do site | Combinação personalizada |
-| Incluir | <ul><li>Selecione **Evento** &gt; Selecionar **Adobe-Audience-Manager-Segment**. Esse era o valor do parâmetro ev no exemplo pixel na etapa 1. Observe que, se o pixel ainda não for acionado, a opção **Evento** ou **Adobe-Audience-Manager-Segment** talvez não apareça na interface do usuário do Facebook.</li><li>Adicione um parâmetro: Selecione `segID`.</li><li><p>Selecione o operador **contém** .</p><p>Isso é importante, considerando que os visitantes podem se qualificar para vários segmentos, pode haver várias IDs de segmento no parâmetro de pixel. O uso do operador igual (=) pode não qualificar seus visitantes para o público-alvo e você observará um volume menor.</p></li><li>Adicionar um valor: Insira a ID de segmento do Audience Manager.</li></ul> |
+| Incluir | <ul><li>Selecione **Evento** > Selecionar **Adobe-Audience-Manager-Segment**. Esse era o valor do parâmetro ev no exemplo pixel na etapa 1. Observe que, se o pixel ainda não for acionado, a opção **Evento** ou **Adobe-Audience-Manager-Segment** talvez não apareça na interface do usuário do Facebook.</li><li>Adicione um parâmetro: Selecione `segID`.</li><li><p>Selecione o operador **contém** .</p><p>Isso é importante, considerando que os visitantes podem se qualificar para vários segmentos, pode haver várias IDs de segmento no parâmetro de pixel. O uso do operador igual (=) pode não qualificar seus visitantes para o público-alvo e você observará um volume menor.</p></li><li>Adicione um valor: Insira a ID de segmento do Audience Manager.</li></ul> |
 | Adicionar nova condição | Configuração opcional. |
 | No último | Configuração opcional. |
 | Nome do público-alvo | Recomendamos que você use o mesmo nome de segmento do Audience Manager para fins de consistência, a menos que esteja adicionando condições adicionais a esse Público-alvo. |
@@ -103,7 +103,7 @@ Depois de criar o Público personalizado, atribua-o a uma campanha de publicidad
 
 ## Resumo {#summary}
 
-Agora que você atribuiu seu segmento do Audience Manager ao destino WCA do Facebook, o Audience Manager acionará seletivamente o pixel WCA do Facebook para usuários de um determinado segmento com a respectiva ID de segmento no pixel para preencher o Público do Facebook. Isso resulta em um aumento gradual no Público-alvo do Facebook quanto mais a tag é acionada para o público-alvo aplicável em seu site.
+Agora que você atribuiu seu segmento do Audience Manager ao destino WCA do Facebook, o Audience Manager irá disparar seletivamente o pixel WCA do Facebook para os usuários de um determinado segmento com a respectiva ID de segmento no pixel para preencher o Público do Facebook. Isso resulta em um aumento gradual no Público-alvo do Facebook quanto mais a tag é acionada para o público-alvo aplicável em seu site.
 
 >[!NOTE]
 >
