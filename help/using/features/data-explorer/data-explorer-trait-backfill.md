@@ -5,24 +5,26 @@ seo-title: Realizações da característica de preenchimento retroativo
 title: Realizações da característica de preenchimento retroativo
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
 translation-type: tm+mt
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+source-git-commit: 383d529d656f86fa39e2e11d312e8a8a2092926b
 
 ---
 
 
-# Backfill Trait Realizations {#backfill-trait-realizations}
+# Realizações da característica de preenchimento retroativo {#backfill-trait-realizations}
 
-Backfill trait realizations to capture historical audiences and avoid loss of relevant data prior to a trait creation date.
+Realização de características de preenchimento retroativo para capturar públicos históricos e evitar a perda de dados relevantes antes da data de criação de uma característica.
 
-[!UICONTROL Data Explorer Trait Backfill] is a premium capability that enhances the Audience Manager experience by unlocking additional use cases. Backfill requires additional processing power and is available to all Audience Manager customers at an incremental cost. Please contact your Adobe sales representative for additional details.
+>[!IMPORTANT]
+>
+> [!UICONTROL Data Explorer Trait Backfill] é um recurso premium que aprimora a experiência do Audience Manager ao desbloquear casos de uso adicionais. O preenchimento retroativo requer poder de processamento adicional e está disponível para todos os clientes do Audience Manager a um custo incremental. Entre em contato com seu representante de vendas da Adobe para obter mais detalhes.
 
-When you create traits from unused signals, you can choose to backfill the trait realizations over a specific period of time. [!DNL Audience Manager] captura os dados históricos sobre públicos-alvo qualificados para a nova característica e os armazena no perfil correspondente. You can see the  in the  section of the Trait Builder.**[!UICONTROL Backfill Options]**[!UICONTROL Trait Expression]**[](../../features/traits/about-trait-builder.md)**
+Ao criar características de sinais não utilizados, você pode optar por preencher retroativamente as realizações de características ao longo de um período de tempo específico. [!DNL Audience Manager] captura os dados históricos sobre os públicos-alvo que se qualificam para a nova característica e os armazena no perfil correspondente. Você pode ver a imagem **[!UICONTROL Backfill Options]** na [!UICONTROL Trait Expression] seção do Construtor de **[características](../../features/traits/about-trait-builder.md)**.
 
 >[!NOTE]
 >
 >Você pode preencher retroativamente as realizações de características para características baseadas em regras e integradas.
 
-Veja como preencher retroativamente as conclusões de características:
+Veja como preencher retroativamente as realizações de características:
 
 1. Vá para o [!UICONTROL Audience Data > Signals > Search] amd e execute uma Pesquisa de Sinais ou use o Painel [de](../../features/data-explorer/data-explorer-signals-dashboard.md) Sinais para identificar os sinais a serem usados no novo traço.
 1. Crie um novo traço com base nos sinais desejados.
@@ -41,13 +43,13 @@ Veja como preencher retroativamente as conclusões de características:
    >    * `matchesregex`
    >    * `matcheswords`
 
-1. Crie a característica.
+1. Crie o traço.
 
-Depois de terminar de criar o traço, você verá suas conclusões preenchidas retroativamente incluídas nas estatísticas de realização.
+Depois de terminar de criar o traço, você verá suas execuções preenchidas retroativamente incluídas nas estatísticas de realização.
 
 Assista ao vídeo abaixo para ver uma apresentação em vídeo de como preencher retroativamente as características.
 
->[!VIDEO](https://video.tv.adobe.com/v/25169/?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/25169/)
 
 ## Latência de preenchimento retroativo da característica {#trait-backfilling-latency}
 
@@ -65,6 +67,6 @@ O Audience Manager atualiza o [!UICONTROL Trait Graph] com a população preench
 
 ## Impacto nos relatórios {#reporting-impact}
 
-Backfilled trait realizations are reflected in the  and  metrics, as  turns historical signals into trait realizations.[!UICONTROL Unique Trait Realizations][!UICONTROL Total Trait Population][!DNL Audience Manager]
+As realizações de características preenchidas retroativamente são refletidas nas métricas [!UICONTROL Unique Trait Realizations] e [!UICONTROL Total Trait Population] , à medida que [!DNL Audience Manager] os sinais históricos se tornam realizações de características.
 
-No entanto, os [!UICONTROL Trait Graph], [!UICONTROL General Reports]e [!UICONTROL Trend Reports] não são atualizados retroativamente com as métricas históricas preenchidas retroativamente antes da data de criação da característica.
+No entanto, as métricas [!UICONTROL Trait Graph], [!UICONTROL General Reports]e [!UICONTROL Trend Reports] não são atualizadas retroativamente com o preenchimento retroativo das métricas históricas antes da data de criação da característica.
