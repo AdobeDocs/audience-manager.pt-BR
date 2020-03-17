@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Documentação do produto do Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 translation-type: tm+mt
-source-git-commit: df33d16269101fd8d9c1dbb791c5a1f5ef647a0b
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -85,11 +85,11 @@ Este guia de documentação técnica fornece assistência de autoajuda para o Au
      <li><a href="/help/using/integration/implement-audience-manager.md">Guia de implementação</a></li>
      </ul> </p>
      <br> 
-   <p> <b>Guias de implementação técnica</b> </p> <p>Comece com as APIs do Audience Manager e configure o Audience Manager no aplicativo:</p> <p> 
+   <p> <b>Guias de implementação técnica</b> </p> <p>Comece com as APIs do Audience Manager e configure o Audience Manager no seu aplicativo:</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
      <li><a href="/help/using/api/rest-api-main/aam-api-getting-started.md">Introdução às APIs REST</a></li>
      <li><a href="/help/using/api/dcs-intro/dcs-event-calls/dcs-event-calls.md">Introdução à API DCS</a></li>
-     <li><a href="https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html">Adicionar a extensão do Audience Manager ao Adobe Launch</a></li>
+     <li><a href="https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html">Adicionar a extensão do Audience Manager ao Adobe Experience Platform Launch</a></li>
     <li><a href="https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager">Adicionar o Audience Manager ao aplicativo</a></li>
      </ul> </p>
     </td>
@@ -118,7 +118,7 @@ Este guia de documentação técnica fornece assistência de autoajuda para o Au
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
      <li><a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html">Getting Started with REST APIs</a></li>
      <li><a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-event-calls/dcs-event-calls.html">Get started with the DCS API</a></li>
-     <li><a href="https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html">Add the Audience Manager extension to Adobe Launch</a></li>
+     <li><a href="https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html">Add the Audience Manager extension to Adobe Experience Platform Launch</a></li>
     <li><a href="https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager">Add Audience Manager to your app</a></li>
      </ul> </p>
     </td>
