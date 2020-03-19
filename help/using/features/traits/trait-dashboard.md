@@ -6,14 +6,14 @@ solution: Audience Manager
 title: Painel Características
 uuid: 31b8f958-f67d-4af2-8d78-e37e2dfe810d
 translation-type: tm+mt
-source-git-commit: 8a616bcf9583abfb2a94ec2a0cabcaf97ea2aeeb
+source-git-commit: 2a3a562d5bc516c338c113db08303cf36e832f47
 
 ---
 
 
 # Painel Características {#traits-dashboard}
 
-O [!UICONTROL Traits] painel é um espaço de trabalho centralizado para gerenciar características.
+O painel [Características](https://bank.demdex.com/portal/Traits/Traits.ddx#show/list) é um espaço de trabalho centralizado para gerenciar características. Você pode ver o [!UICONTROL Traits] painel navegando até **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]**.
 
 ![](assets/traits-dashboard.png)
 
@@ -22,8 +22,8 @@ O [!UICONTROL Traits] painel é um espaço de trabalho centralizado para gerenci
 O [!UICONTROL Traits] painel contém recursos e ferramentas que ajudam a:
 
 1. Veja todas as suas características e detalhes relacionados em uma tabela com colunas que você pode classificar.
-1. Revise e trabalhe com Características do público-alvo [ativo e Características sincronizadas da fonte de dados](../../features/traits/client-activity-synced-audience-traits.md).
-1. Crie, edite e exclua características.
-1. Exibir e gerenciar pastas de armazenamento de características.
-1. Procure características por nome, ID, descrição ou fonte de dados. Clique em uma pasta enquanto pesquisa para limitar os resultados a essa pasta e suas subpastas.
-1. Filtre as características por tipo de característica (integrado, baseado em regras, algorítmico, características de pastas).
+2. Revise e trabalhe com Características do público-alvo [ativo e Características sincronizadas da fonte de dados](../../features/traits/client-activity-synced-audience-traits.md).
+3. Crie, edite e exclua características.
+4. Exibir e gerenciar pastas de armazenamento de características.
+5. Procure características por nome, ID, descrição ou fonte de dados. Clique em uma pasta enquanto pesquisa para limitar os resultados a essa pasta e suas subpastas.
+6. Filtre as características por tipo de característica (integrado, baseado em regras, algorítmico, características de pastas).
