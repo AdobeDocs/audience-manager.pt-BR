@@ -6,20 +6,22 @@ solution: Audience Manager
 title: Exibição de lista de segmentos
 uuid: aa69877b-1d52-4b87-8734-b4bff39935a5
 translation-type: tm+mt
-source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
+source-git-commit: 2a3a562d5bc516c338c113db08303cf36e832f47
 
 ---
 
 
 # Exibição de lista de segmentos {#segments-list-view}
 
-O [!UICONTROL Segments] painel é um espaço de trabalho centralizado para gerenciar destinos.
+O painel [](https://bank.demdex.com/portal/Segments/SegmentBuilder.ddx#list) Segmentos é um espaço de trabalho centralizado para gerenciar seus segmentos de público-alvo. Você pode ver o [!UICONTROL Segments] painel navegando até **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]**.
 
-A [!UICONTROL Segments] página principal contém recursos e ferramentas que ajudam a:
+![segment-dashboard](assets/segments-dashboard.png)
 
-* Criar novos segmentos.
-* Edite e exclua segmentos.
-* Clonar (duplicar) segmentos existentes.
-* Veja todos os seus segmentos em uma tabela com colunas classificáveis.
-* Gerencie o armazenamento de segmentos.
+A [!UICONTROL Segments] página contém recursos e ferramentas que ajudam você a:
+
+* Criar novos segmentos;
+* Editar e excluir segmentos;
+* Clonar (duplicar) segmentos existentes;
+* Veja todos os seus segmentos em uma tabela com colunas classificáveis;
+* Gerenciar o armazenamento de segmentos;
 * Procure segmentos por nome.
