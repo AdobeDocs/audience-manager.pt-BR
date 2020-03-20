@@ -5,8 +5,9 @@ seo-title: Perguntas frequentes sobre coleta de dados e integração de produtos
 solution: Audience Manager
 title: Perguntas frequentes sobre coleta de dados e integração de produtos
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
+keywords: SFTP; SFTP address; STFP IP address; FTP address
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: d221890d2a80cd557a6968d3382ee8842fea9aef
 
 ---
 
@@ -39,7 +40,7 @@ Infelizmente, não podemos. Esses IPs são atribuídos dinamicamente, por regiã
 
 <br> 
 
-**Você pode me fornecer um endereço IP para o qual posso adicionar uma lista de permissões ao seu servidor FTP de entrada e saída?**
+**Você pode me fornecer um endereço IP para o qual posso adicionar uma lista de permissões ao seu servidor sFTP de entrada e de saída?**
 
 Sim, veja abaixo.
 
