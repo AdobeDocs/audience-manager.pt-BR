@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
 
 ---
 
@@ -370,6 +370,7 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
    + [Compreender as chamadas ao domínio Demdex](reference/demdex-calls.md)
    + [Estados de autenticação do visitante no Audience Manager](reference/visitor-authentication-states.md)
 + Perguntas frequentes{#faqs}
+   + [Visão geral das perguntas frequentes do Audience Manager](faq/faq-overview.md)
    + [Perguntas frequentes sobre API](faq/faq-api.md)
    + [Perguntas frequentes sobre o Audience Lab](faq/faq-audience-lab.md)
    + [Perguntas frequentes sobre o Feed de dados do cliente](faq/faq-cdf.md)
