@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Referência de qualificação de característica
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
 translation-type: tm+mt
-source-git-commit: ceda75d2bc57aa164cb048c20e3fcff33000cddb
+source-git-commit: bd0ebcddc89c2141e9ce55d7fa2e68b5ca1cbb22
 
 ---
 
@@ -34,13 +34,13 @@ Dependendo do tipo de resultados que você deseja que o gráfico mostre (filtrad
 
 Ao filtrar os resultados por [!UICONTROL Device ID]:
 
-* A [!UICONTROL Unique Trait Realizations] conta o número de visitantes anônimos do dispositivo que adicionaram a característica ao perfil, dentro de intervalos de tempo diferentes.
-* A [!UICONTROL Total Trait Population] conta o número total de visitantes anônimos do dispositivo que têm a característica no perfil.
+* [!UICONTROL Unique Trait Realizations] é o número de visitantes anônimos do dispositivo que adicionaram a característica ao perfil dentro de intervalos de tempo diferentes.
+* [!UICONTROL Total Trait Population] é o número de visitantes anônimos do dispositivo que têm esta característica no perfil.
 
 Ao filtrar os resultados por [!UICONTROL Cross-Device ID]:
 
-* A [!UICONTROL Unique Trait Realizations] contagem do número de visitantes autenticados que adicionaram a característica ao perfil, dentro de intervalos de tempo diferentes.
-* A [!UICONTROL Total Trait Population] conta o número total de visitantes autenticados que têm essa característica no perfil.
+* [!UICONTROL Unique Trait Realizations] é o número de visitantes autenticados que adicionaram a característica ao perfil, dentro de intervalos de tempo diferentes.
+* [!UICONTROL Total Trait Population] é o número de visitantes autenticados que têm esta característica no perfil.
 
 Pense nos números desta forma. Na imagem acima, da visualização Detalhes [da](../../features/traits/trait-details-page.md) característica, 90.173 representa o número de dispositivos ativos que visitaram suas propriedades ontem. A [!UICONTROL Total Trait Population] de 55.757 representa a quantidade de usuários atualmente qualificados para essa característica. A [!UICONTROL Total Trait Population] figura destina-se a mostrar a quantidade total de usuários que podem ser usados para segmentação/definição de metas. Normalmente, os usuários permanecerão parte de uma característica por 120 dias.
 
