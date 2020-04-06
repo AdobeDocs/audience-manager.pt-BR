@@ -1,24 +1,24 @@
 ---
-description: Realização de características de preenchimento retroativo para capturar públicos históricos e evitar a perda de dados relevantes antes da data de criação de uma característica.
-seo-description: Realização de características de preenchimento retroativo para capturar públicos históricos e evitar a perda de dados relevantes antes da data de criação de uma característica.
+description: Realização de características de preenchimento retroativo para capturar audiências históricas e evitar a perda de dados relevantes antes de uma data de criação de característica.
+seo-description: Realização de características de preenchimento retroativo para capturar audiências históricas e evitar a perda de dados relevantes antes de uma data de criação de característica.
 seo-title: Realizações da característica de preenchimento retroativo
 title: Realizações da característica de preenchimento retroativo
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
 translation-type: tm+mt
-source-git-commit: 383d529d656f86fa39e2e11d312e8a8a2092926b
+source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
 
 ---
 
 
 # Realizações da característica de preenchimento retroativo {#backfill-trait-realizations}
 
-Realização de características de preenchimento retroativo para capturar públicos históricos e evitar a perda de dados relevantes antes da data de criação de uma característica.
+Realização de características de preenchimento retroativo para capturar audiências históricas e evitar a perda de dados relevantes antes de uma data de criação de característica.
 
 >[!IMPORTANT]
 >
-> [!UICONTROL Data Explorer Trait Backfill] é um recurso premium que aprimora a experiência do Audience Manager ao desbloquear casos de uso adicionais. O preenchimento retroativo requer poder de processamento adicional e está disponível para todos os clientes do Audience Manager a um custo incremental. Entre em contato com seu representante de vendas da Adobe para obter mais detalhes.
+>[!UICONTROL Data Explorer Trait Backfill] é um recurso premium que aprimora a experiência do Gerenciador de Audiências desbloqueando casos de uso adicionais. O preenchimento retroativo requer poder de processamento adicional e está disponível para todos os clientes do Audiência Manager a um custo incremental. Entre em contato com seu representante de vendas da Adobe para obter mais detalhes.
 
-Ao criar características de sinais não utilizados, você pode optar por preencher retroativamente as realizações de características ao longo de um período de tempo específico. [!DNL Audience Manager] captura os dados históricos sobre os públicos-alvo que se qualificam para a nova característica e os armazena no perfil correspondente. Você pode ver a imagem **[!UICONTROL Backfill Options]** na [!UICONTROL Trait Expression] seção do Construtor de **[características](../../features/traits/about-trait-builder.md)**.
+Ao criar características de sinais não utilizados, você pode optar por preencher retroativamente as realizações de características ao longo de um período de tempo específico. [!DNL Audience Manager] captura os dados históricos sobre audiências que se qualificam para a nova característica e as armazena no perfil correspondente. Você pode ver a imagem **[!UICONTROL Backfill Options]** na [!UICONTROL Trait Expression] seção do Construtor de **[características](../../features/traits/about-trait-builder.md)**.
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ Ao criar características de sinais não utilizados, você pode optar por preenc
 
 Veja como preencher retroativamente as realizações de características:
 
-1. Vá para o [!UICONTROL Audience Data > Signals > Search] amd e execute uma Pesquisa de Sinais ou use o Painel [de](../../features/data-explorer/data-explorer-signals-dashboard.md) Sinais para identificar os sinais a serem usados no novo traço.
+1. Vá para o [!UICONTROL Audience Data > Signals > Search] amd executar uma Pesquisa de Sinais ou use o Painel [de](../../features/data-explorer/data-explorer-signals-dashboard.md) Sinais para identificar os sinais a serem usados no novo traço.
 1. Crie um novo traço com base nos sinais desejados.
 1. Use o **[!UICONTROL Backfill Options]** na **[!UICONTROL Trait Expression]** seção para selecionar o intervalo de tempo para o qual você deseja preencher retroativamente as realizações de características. Os intervalos predefinidos de preenchimento retroativo incluem 1, 7, 14 e 30 dias. Você também pode escolher um intervalo de datas personalizado de até 30 dias.
 
@@ -53,9 +53,9 @@ Assista ao vídeo abaixo para ver uma apresentação em vídeo de como preencher
 
 ## Latência de preenchimento retroativo da característica {#trait-backfilling-latency}
 
-As características recém-criadas começam a capturar públicos duas a três horas após a criação. No entanto, devido ao grande volume de dados que [!DNL Audience Manager] são executados diariamente, a população preenchida retroativamente não é refletida imediatamente nos gráficos [!UICONTROL Unique Trait Realizations] e [!UICONTROL Total Trait Population] .
+O start de características recém-criado captura audiências duas a três horas após a criação. No entanto, devido ao grande volume de dados que [!DNL Audience Manager] são executados diariamente, a população preenchida retroativamente não é refletida imediatamente nos gráficos [!UICONTROL Unique Trait Realizations] e [!UICONTROL Total Trait Population] .
 
-O Audience Manager atualiza o [!UICONTROL Trait Graph] com a população preenchida retroativamente dentro de 48 horas após a criação da característica.
+O Gerenciador de Audiências atualiza o com a população preenchida retroativamente [!UICONTROL Trait Graph] dentro de 48 horas após a criação da característica.
 
 ## Limite de preenchimento retroativo da característica {#trait-backfilling-limit}
 
@@ -65,7 +65,7 @@ O Audience Manager atualiza o [!UICONTROL Trait Graph] com a população preench
 >
 >A quota de preenchimento retroativo das características não é transferida dos meses anteriores. Por exemplo, se você preencher 30 características este mês retroativamente, a cota de preenchimento retroativo característica para o mês seguinte será redefinida para 50, não 70.
 
-## Impacto nos relatórios {#reporting-impact}
+## Impacto nos Relatórios {#reporting-impact}
 
 As realizações de características preenchidas retroativamente são refletidas nas métricas [!UICONTROL Unique Trait Realizations] e [!UICONTROL Total Trait Population] , à medida que [!DNL Audience Manager] os sinais históricos se tornam realizações de características.
 
