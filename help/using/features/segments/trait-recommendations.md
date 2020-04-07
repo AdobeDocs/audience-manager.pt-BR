@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Recomendações de característica
 uuid: null
 translation-type: tm+mt
-source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
+source-git-commit: 019396917482340f15b4eb23736b15322815bd84
 
 ---
 
@@ -80,9 +80,9 @@ Ao criar ou editar um segmento no Construtor [de](segment-builder.md)segmentos, 
 ### Novos segmentos
 
 1. Vá para Dados de **Audiência > Segmentos** e clique em **Adicionar novo**.
-2. Na caixa **suspensa Características** , adicione pelo menos uma característica à regra do segmento.
-3. Você pode ver as características recomendadas e as recomendações de características [!UICONTROL Audience Marketplace] dos feeds aos quais você está inscrito, na **[!UICONTROL Recommendations]** seção. A **[!UICONTROL Recommendations from Marketplace]** seção mostra as recomendações de características dos feeds aos quais você não está inscrito. Todas essas recomendações são semelhantes às características adicionadas à regra de segmento. Role para baixo para ver todas as características recomendadas.
-4. (Opcional) Para excluir características primárias recomendadas de determinadas fontes de dados, clique no símbolo de **X** das fontes de dados que deseja excluir.
+1. Na caixa **suspensa Características** , adicione pelo menos uma característica à regra do segmento.
+1. Você pode ver as características recomendadas e as recomendações de características [!UICONTROL Audience Marketplace] dos feeds aos quais você está inscrito, na **[!UICONTROL Recommendations]** seção. A **[!UICONTROL Recommendations from Marketplace]** seção mostra as recomendações de características dos feeds aos quais você não está inscrito. Todas essas recomendações são semelhantes às características adicionadas à regra de segmento. Role para baixo para ver todas as características recomendadas.
+1. (Opcional) Para excluir características primárias recomendadas de determinadas fontes de dados, clique no símbolo de **X** das fontes de dados que deseja excluir.
 
    >[!NOTE]
    >
