@@ -5,7 +5,7 @@ seo-title: Fluxo de trabalho B - Personalização com base em dados somente offl
 solution: Audience Manager
 title: Fluxo de trabalho B - Personalização com base em dados somente offline
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: 1302d8c9dba8e7bb7f0c57bcbd5531ec56fad0d5
 
 ---
 
@@ -38,7 +38,8 @@ Você deseja qualificar as IDs do cliente da tabela abaixo para as IDs de caract
 | 89159024796760343733111707646026765593 | 11223, 93342, 27341 |
 
 <br />
-Para qualificar as IDs do cliente no exemplo acima para as características integradas correspondentes, faça upload de um [arquivo de dados de entrada](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) com o seguinte conteúdo:
+
+Para qualificar as IDs do cliente no exemplo acima para as características integradas correspondentes, é necessário fazer upload de um arquivo [de dados de](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) entrada com o seguinte conteúdo:
 
 ```
 68079982765673198504052656074456196039<TAB>d_sid=12345,d_sid=23456
