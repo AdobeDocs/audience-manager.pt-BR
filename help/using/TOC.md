@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Guia do usuário do Gerenciador de Audiências
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: e70c3dde2777d0ec128bae8998697b28e92df19a
 
 ---
 
@@ -387,6 +387,13 @@ source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
    + [Visão geral](/help/using/help-legal/help-legal-overview.md)
    + [Se houver um problema](/help/using/help-legal/help-problem.md)
    + [Contato e informações legais](/help/using/help-legal/help-legal-contact.md)
++ Principais problemas de suporte ao cliente{#top-support-issues}
+   + [Visão geral](/help/using/support-issues/support-issues-overview.md)
+   + [Por que minhas populações de traços Onboard caíram para 0 por volta de 15 de outubro? ](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
+   + [Por que minhas características ou segmentos não aparecem na página de Relatórios de sobreposição?](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
+   + [Por que nossos usuários somente leitura podem criar, editar ou excluir características e segmentos?](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
+   + [Não somos clientes do Gerenciador de Audiências, mas vejam as chamadas do Javascript do Gerenciador de Audiências em nosso site](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
+   + [Devo ver meus segmentos mapeados do Laboratório de Audiências do Gerenciador de Audiências na página de detalhes de destino?](/help/using/support-issues/should-i-see-audience-lab-mapped-segments-on-the-destination-page.md)
 + Atualizações de documentação{#documentation-updates}
    + [Atualizações da documentação 2020](docs-updates/docs-2020.md)
    + [Atualizações da documentação de 2019](docs-updates/docs-2019.md)
