@@ -5,7 +5,7 @@ seo-title: Não estamos usando o Gerenciador de Audiências, mas estamos vendo c
 solution: Audience Manager
 title: Não estamos usando o Gerenciador de Audiências, mas estamos vendo chamadas Javascript do Gerenciador de Audiências no depurador Javascript - Por quê?
 translation-type: tm+mt
-source-git-commit: 7206b43562eded19bfb30f8aea3bcad946a3f834
+source-git-commit: 1f5c1a91f0b5df5291d3143d297e25128b5bb716
 
 ---
 
@@ -14,10 +14,12 @@ source-git-commit: 7206b43562eded19bfb30f8aea3bcad946a3f834
 
 ## Pergunta
 
-Não estamos usando o Adobe Audiência Manager, mas estamos vendo chamadas de Javascript do Audiência Manager no depurador do Javascript.  Por que isso estaria acontecendo?
+Não estamos usando o Adobe Audiência Manager, mas estamos vendo chamadas de Javascript do Audiência Manager no depurador do Javascript.
+
+Por que isso está acontecendo?
 
 ## Resposta
 
-É provável que você esteja executando o serviço de ID do Visitante em sua propriedade. Se você estiver, essa referência do AAM não se refere necessariamente à propriedade que executa o Gerenciador de Audiências, mas significa que o Gerenciador de Audiências está acionando esse serviço.
+É provável que você esteja executando o Serviço [de identidade da](https://docs.adobe.com/content/help/en/id-service/using/home.html) Experience Cloud em sua propriedade. Se estiver, ter essa referência do Gerenciador de Audiências não necessariamente se refere à propriedade que executa o Gerenciador de Audiências. Em vez disso, isso significa que o Gerenciador de Audiências está acionando esse serviço.
 
-Observe que a chamada do AAM geralmente é feita para sincronizar Definir IDs do cliente.
+Normalmente, a chamada do servidor do Gerenciador de Audiências é feita para [sincronizar as IDs](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/setcustomerids.html)do cliente.
