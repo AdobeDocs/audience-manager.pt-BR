@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Referência de qualificação de característica
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: 46d1770d50284e0e73bc2c43f5e5ccca22c12574
 
 ---
 
@@ -34,7 +34,7 @@ Além disso, consulte População de segmentos em tempo [real e População](#re
 
 ![realização de características únicas](assets/trait-graph.png)
 
-Dependendo do tipo de resultados que você deseja que o gráfico mostre (filtrado por [!UICONTROL Device ID] ou ID [!UICONTORL de]vários dispositivos), as métricas têm significados diferentes:
+Dependendo do tipo de resultados que você deseja que o gráfico mostre (filtrado por [!UICONTROL Device ID] ou [!UICONTROL Cross-Device ID]), as métricas têm significados diferentes:
 
 Ao filtrar os resultados por [!UICONTROL Device ID]:
 
