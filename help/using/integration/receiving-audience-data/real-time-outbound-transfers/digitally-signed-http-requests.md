@@ -1,19 +1,19 @@
 ---
-description: O Audience Manager requer que as solicitações de servidor para servidor HTTP(S) sejam assinadas digitalmente para validade. Este documento descreve como você pode assinar solicitações HTTP com chaves privadas.
-seo-description: O Audience Manager requer que as solicitações de servidor para servidor HTTP(S) sejam assinadas digitalmente para validade. Este documento descreve como você pode assinar solicitações HTTP(S) com chaves privadas.
+description: O Gerenciador de Audiências exige que as solicitações de servidor para servidor HTTP(S) sejam assinadas digitalmente para validade. Este documento descreve como você pode assinar solicitações HTTP com chaves privadas.
+seo-description: O Gerenciador de Audiências exige que as solicitações de servidor para servidor HTTP(S) sejam assinadas digitalmente para validade. Este documento descreve como você pode assinar solicitações HTTP(S) com chaves privadas.
 seo-title: Solicitações HTTP(S) Assinadas Digitalmente
 solution: Audience Manager
 title: Solicitações HTTP(S) Assinadas Digitalmente
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
 translation-type: tm+mt
-source-git-commit: e7bb837a9a4a4e41ca5c73a192f68a4caa30335d
+source-git-commit: 5dddaaae3a5cb2ce4c4649e2a153edf1992fa964
 
 ---
 
 
 # Solicitações Assinadas Digitalmente `HTTP(S)`{#digitally-signed-http-requests}
 
-O Audience Manager exige que as solicitações de servidor para servidor sejam assinadas digitalmente para validade. `HTTP(S)` Este documento descreve como você pode assinar `HTTP(S)` solicitações com chaves privadas.
+O Gerenciador de Audiências exige que as solicitações de servidor para servidor sejam assinadas digitalmente para validade. `HTTP(S)` Este documento descreve como você pode assinar `HTTP(S)` solicitações com chaves privadas.
 
 ## Visão geral {#overview}
 
@@ -22,7 +22,7 @@ O Audience Manager exige que as solicitações de servidor para servidor sejam a
 Usando uma chave privada fornecida por você e compartilhada com [!DNL Audience Manager], podemos assinar digitalmente as `HTTP(S)` solicitações enviadas entre o [IRIS](../../../reference/system-components/components-data-action.md#iris) e o servidor HTTP(S). Isso garante:
 
 * **Autenticidade**: somente o remetente que tem a chave privada ([!UICONTROL IRIS]) pode enviar `HTTP(S)` mensagens válidas para o parceiro.
-* **Integridade** da mensagem: com esta abordagem, mesmo assim, `HTTP`você está protegido de um homem no meio do ataque onde as mensagens ficam distorcidas.
+* **Integridade** da mensagem: com esta abordagem, mesmo assim, `HTTP`você está protegido de um homem no ataque do meio, onde as mensagens ficam distorcidas.
 
 [!UICONTROL IRIS] tem suporte integrado para girar as teclas com tempo de inatividade zero, conforme mostrado na seção [Girando a chave](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#rotate-private-key) privada abaixo.
 
@@ -59,7 +59,7 @@ POST message content
 
 ## Como calcular a assinatura {#calculate-signature}
 
-[!DNL HMAC] (Código de autenticação de mensagem baseado em hash) é o método usado para assinatura [!UICONTROL IRIS] de mensagem. Implementações e bibliotecas estão disponíveis basicamente em cada linguagem de programação. [!DNL HMAC] não tem ataques de extensão conhecidos. Veja um exemplo em [!DNL Java] abaixo:
+[!DNL HMAC] (Código de autenticação de mensagem baseado em hash) é o método usado para assinatura [!UICONTROL IRIS] de mensagem. Implementações e bibliotecas estão disponíveis basicamente em todas as linguagens de programação. [!DNL HMAC] não tem ataques de extensão conhecidos. Veja um exemplo em [!DNL Java] abaixo:
 
 ```
 // Message to be signed.
@@ -89,12 +89,10 @@ A RFC para a implementação de [!DNL HMAC] hash é [https://www.ietf.org/rfc/rf
 Por motivos de segurança, é recomendável girar periodicamente a chave privada. Cabe a você decidir a chave privada e o período de rotação. Para obter a rotação da chave com tempo de inatividade zero, [!UICONTROL IRIS] é possível adicionar vários cabeçalhos de assinatura. Um cabeçalho conterá a assinatura gerada com a chave antiga, outro cabeçalho conterá a assinatura gerada usando a nova chave privada. Veja abaixo as etapas em detalhes:
 
 1. O parceiro comunica a nova chave privada para [!DNL Adobe Audience Manager].
-1. [!UICONTROL IRIS] começará a enviar dois cabeçalhos de assinatura (um usando a chave antiga, o outro usando a nova chave).
-1. Depois de começar a receber ambos os cabeçalhos, você pode optar por descartar a chave antiga e apenas observar a nova assinatura.
 1. A chave antiga é removida [!DNL Audience Manager] e [!UICONTROL IRIS] envia somente o novo cabeçalho de assinatura. As teclas foram giradas.
 
 ## Dados usados para assinar {#data-signing}
 
-Para destinos de `GET` tipo, a mensagem usada para assinatura será *REQUEST_PATH + QUERY STRING* (por exemplo, */from-aam-s2s?sids=1,2,3*). O IRIS não leva em conta o nome do host ou `HTTP(S)` cabeçalhos - eles podem ser modificados/configurados incorretamente ao longo do caminho ou reportados incorretamente.
+Para destinos de `GET` tipo, a mensagem usada para assinatura será *REQUEST_PATH + STRING* de QUERY (por exemplo, */from-aam-s2s?sids=1,2,3*). O IRIS não leva em conta o nome do host ou `HTTP(S)` cabeçalhos - eles podem ser modificados/configurados incorretamente ao longo do caminho ou reportados incorretamente.
 
 Para destinos de `POST` tipo, a mensagem usada para assinatura é o CORPO *DE* SOLICITAÇÃO. Novamente, os cabeçalhos ou outros parâmetros de solicitação são ignorados.
