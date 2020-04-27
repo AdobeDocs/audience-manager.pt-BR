@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Amostragem de dados e taxas de erro nos relatórios selecionados do Gerenciador de Audiências
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: 6dca5c8bc338a670050123a94808795705450c3a
 
 ---
 
@@ -51,3 +51,4 @@ Os [!DNL Audience Manager] relatórios que usam dados de amostra incluem:
 * [Relatórios](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) de sobreposição (característica a característica, segmento a característica e segmento a segmento).
 * [Dados de Audiência](../features/addressable-audiences.md) endereçáveis (dados no nível do cliente e do segmento).
 * A métrica [Total de dispositivos](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) para um [!UICONTROL Profile Merge Rule].
+* [O Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) usa dados de amostra na [!UICONTROL Search] guia e em qualquer [!UICONTROL Saved Searches].
