@@ -1,29 +1,24 @@
 ---
 description: Descreve as etapas necessárias e opcionais que permitem criar um modelo algorítmico no Construtor de modelos.
-keywords: algo funciona
+keywords: algo how works
 seo-description: Descreve as etapas necessárias e opcionais que permitem criar um modelo algorítmico no Construtor de modelos.
 seo-title: Criar um modelo algorítmico
 solution: Audience Manager
 title: Criar um modelo algorítmico
-topic: API DIL
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 4d10aaac5779f283aa675eef10cf13392837157f
 
 ---
 
 
-# Criar um modelo algorítmico {#create-an-algorithmic-model}
+# Criar um modelo semelhante {#create-an-algorithmic-model}
 
-Descreve as etapas necessárias e opcionais que permitem criar um modelo algorítmico em [!UICONTROL Model Builder].
+Descreve as etapas necessárias e opcionais que permitem criar um [!UICONTROL Look-Alike Model].
 
-## Criar um modelo {#build-model}
+## Seção do Construtor de modelos
 
-<!-- t_model_build.xml -->
-
-### Seção do Construtor de modelos
-
-[!UICONTROL Model Builder] consiste nas seções [!UICONTROL Basic Information] e [!UICONTROL Configuration] . Para criar um modelo, preencha os campos obrigatórios nessas duas seções. Salve o modelo para iniciar o algoritmo. [!DNL Audience Manager] envia uma notificação automática após a conclusão da primeira execução de dados. Depois de receber o email, você pode acessar o Construtor de [características](../../features/traits/about-trait-builder.md) e criar traços algorítmicos.
+[!UICONTROL Model Builder] consiste nas seções [!UICONTROL Basic Information] e [!UICONTROL Configuration] . Para criar um modelo, preencha os campos obrigatórios nessas duas seções. Salve o modelo para start do algoritmo. [!DNL Audience Manager] envia uma notificação automática após a conclusão da primeira execução de dados. Depois de receber o email, você pode ir para o Construtor de [características](../../features/traits/about-trait-builder.md) e criar traços algorítmicos.
 
 >[!NOTE]
 >
@@ -33,20 +28,24 @@ Descreve as etapas necessárias e opcionais que permitem criar um modelo algorí
 >* A notificação por email automatizada é enviada apenas uma vez (após a primeira execução dos dados).
 
 
-### Criar o modelo
+## Criar o modelo
 
-Para criar um modelo, vá para a [!UICONTROL Models] seção e clique **[!UICONTROL Add New]** e siga as etapas abaixo:
+Siga as etapas abaixo para criar um [!UICONTROL Look-Alike Model]:
 
-1. Na seção Informações [](../../features/algorithmic-models/create-model.md#basic-information) básicas
+1. Vá até **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** e clique **[!UICONTROL Add New]** na [!UICONTROL Look-Alike Modeling] seção.
+   ![look-like-add](assets/look-alike-add.png)
+2. Na seção Informações [](../../features/algorithmic-models/create-model.md#basic-information) básicas
    * Nomeie o modelo.
    * *(Opcional)* Forneça uma breve descrição sobre o modelo.
    * Defina o status do modelo como **[!UICONTROL Active]** ou **[!UICONTROL Inactive]**. Os modelos inativos não serão executados e não produzirão dados.
-1. Na seção [Configuração](../../features/algorithmic-models/create-model.md#configuration) :
-   * Clique **[!UICONTROL Browse All Traits]** ou **[!UICONTROL Browse All Segments]** para selecionar uma característica ou segmento para o qual deseja criar um modelo.   Selecione uma característica integrada, uma característica baseada em regras ou um segmento como linha de base. Caso contrário, seus modelos não serão executados.
+      ![sósia-básica](assets/look-alike-basic.png)
+3. Na seção [Configuração](../../features/algorithmic-models/create-model.md#configuration) :
+   * Clique **[!UICONTROL Browse All Traits]** ou **[!UICONTROL Browse All Segments]** para selecionar uma característica ou segmento para o qual deseja criar um modelo. Selecione uma característica integrada, uma característica baseada em regras ou um segmento como linha de base. Caso contrário, seus modelos não serão executados.
    * Escolha um período de retrospectiva de 30, 60 ou 90 dias. Isso define um intervalo de tempo para o modelo.
    * The [!UICONTROL TraitWeight] algorithm is selected by default.
-   * Selecione uma fonte de dados na [!UICONTROL Available Data] lista.
-   * Click **[!UICONTROL Save]** when done.
+   * Selecione uma fonte de dados da [!UICONTROL Available Data] lista.
+   * Clique **[!UICONTROL Save]** quando concluído.
+      ![configuração semelhante](assets/look-alike-configuration.png)
 
 ## Informações básicas para modelos algorítmicos {#basic-information}
 
@@ -62,7 +61,7 @@ Em [!UICONTROL Model Builder], as [!UICONTROL Basic Information] configurações
 
 ## Configuração {#configuration}
 
-Em [!UICONTROL Model Builder], a [!UICONTROL Configuration] seção permite adicionar características ou segmentos ao modelo. Nesta seção, selecione uma característica ou segmento de linha de base, um período de análise e dados de suas fontes de dados originais e de terceiros.
+Em [!UICONTROL Model Builder], a [!UICONTROL Configuration] seção permite que você adicione características ou segmentos ao modelo. Nesta seção, selecione uma característica ou segmento de linha de base, um período de análise e dados de suas fontes de dados originais e de terceiros.
 
 <!-- r_model_configuration.xml -->
 
@@ -90,22 +89,22 @@ Preencha os campos obrigatórios na [!UICONTROL Basic Information] seção prime
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Selecionar algoritmo (3)</b> </p> </td> 
-   <td colname="col2"> <p>No momento, o Construtor de modelos funciona somente com nosso algoritmo de peso <span class="keyword"></span> de característica proprietário. <span class="keyword"> O Audience Manager</span> pode adicionar outras funções algorítmicas em versões subsequentes. </p> </td>
+   <td colname="col2"> <p>No momento, o Construtor de modelos funciona somente com nosso algoritmo de Peso <span class="keyword"></span> de características proprietário. <span class="keyword"> O Gerenciador</span> de Audiências pode adicionar outras funções algorítmicas em versões subsequentes. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><b>Selecionar Dados do Modelo da Fonte de Dados (4)</b> </p> </td> 
-   <td colname="col2"> <p>Permite selecionar as fontes de dados originais e de terceiros que deseja usar no modelo. </p> </td>
+   <td colname="col2"> <p>Permite que você selecione as fontes de dados originais e de terceiros que deseja usar no modelo. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Exclusões (5)</b> </p> </td> 
-   <td colname="col2"> <p>É possível excluir características das fontes de dados selecionadas para modelagem. Use a lista <span class="wintitle"> Exclusões</span> e leia os Modelos <a href="../../features/algorithmic-models/trait-exclusion-algo-models.md"> Algorítmicos: Exclusão</a> de características para saber mais. </p> </td>
+   <td colname="col2"> <p>É possível excluir características das fontes de dados selecionadas para modelagem. Use a lista de exclusões <span class="wintitle"> e leia os Modelos algorítmicos</span> <a href="../../features/algorithmic-models/trait-exclusion-algo-models.md"> : Exclusão</a> de características para saber mais. </p> </td>
   </tr> 
  </tbody>
 </table>
 
 Assista ao vídeo abaixo para saber como criar um modelo parecido, para que você possa encontrar mais visitantes que se pareçam com seus conversores.
 
->[!VIDEO](https://video.tv.adobe.com/v/23504/?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/23504/)
 
 >[!MORELIKETHIS]
 >
