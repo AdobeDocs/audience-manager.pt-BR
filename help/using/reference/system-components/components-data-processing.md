@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Componentes de processamento de dados
 uuid: d458d869-7a23-4016-871d-0b994cf4af06
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
 
 ---
 
@@ -21,30 +21,29 @@ c_comproc.xml
 
  -->
 
-O Audience Manager usa os seguintes componentes para processar dados:
+O Gerenciador de Audiências usa os seguintes componentes para processar dados:
 
 ## Hadoop {#hadoop}
 
-Em [!DNL Audience Manager], o Hadoop é o banco de dados mestre que contém tudo o que [!DNL Audience Manager] sabe sobre um usuário. Por exemplo, quando os Servidores [de cache de](../../reference/system-components/components-data-collection.md) perfil criam arquivos de log que contêm dados sobre seus usuários, eles enviam esses dados para o Hadoop para armazenamento. Outros elementos importantes do Hadoop incluem:
+Em [!DNL Audience Manager], o Hadoop é o banco de dados mestre que contém tudo o que [!DNL Audience Manager] sabe sobre um usuário. Por exemplo, quando os Servidores [de Cache de](../../reference/system-components/components-data-collection.md) Perfis criam arquivos de log que contêm dados sobre seus usuários, eles enviam esses dados para o Hadoop para armazenamento. Outros elementos importantes do Hadoop incluem:
 
-* **** Coloque: Um data warehouse para o Hadoop. Hive gerencia consultas ad hoc para os dados armazenados no Hadoop.
+* **Coloque:** Um data warehouse para o Hadoop. Hive gerencia query ad hoc para os dados armazenados no Hadoop.
 
-* **** HBase: Um banco de dados Hadoop muito grande. Ele processa e gerencia dados de entrada e saída, regras de características, informações de modelagem algorítmica e executa muitas outras funções relacionadas ao armazenamento e movimentação de dados para diferentes sistemas.
+* **HBase:** Um banco de dados Hadoop muito grande. Ele processa e gerencia dados de entrada e saída, regras de características, informações de modelagem algorítmica e executa muitas outras funções relacionadas ao armazenamento e movimentação de dados para diferentes sistemas.
 
 Os clientes não têm acesso direto a esses sistemas. No entanto, os clientes trabalham com eles indiretamente, já que esses componentes armazenam dados importantes sobre os visitantes do site.
 
 ## Floco de neve {#snowflake}
 
-[Snowflake](https://www.snowflake.net/) é um enorme banco de dados de nuvens. Fornece dados para muitos dos gráficos de painel e suas caixas de texto relacionadas que exibem a % de alteração para cada item no gráfico. Se você usar [!DNL Audience Manager] e observar os relatórios de painel, estará interagindo com os dados fornecidos por [!UICONTROL Snowflake].
+[Snowflake](https://www.snowflake.net/) é um enorme banco de dados de nuvens. Fornece dados para muitos gráficos de painéis e suas caixas de texto relacionadas que exibem a % de alteração para cada item no gráfico. Se você usar [!DNL Audience Manager] e observar os relatórios de painel, interagirá com os dados fornecidos por [!UICONTROL Snowflake].
 
 
 
 ![](assets/dashboardreport.png)
 
-Essa não é de forma alguma uma lista abrangente, mas alguns relatórios comuns de painel que [!UICONTROL Snowflake] são responsáveis por incluir:
+Esta não é de modo algum uma lista abrangente, mas alguns relatórios comuns de painel que [!UICONTROL Snowflake] são responsáveis por incluem:
 
-* [Relatório de variação de característica diária](/help/using/reporting/audience-optimization-reports/daily-trait-variation-report.md)
-* [Relatório de entrega e desempenho](/help/using/reporting/dynamic-reports/delivery-performance-report.md)
+* [Relatório de Variação de Caracteres Diários](/help/using/reporting/audience-optimization-reports/daily-trait-variation-report.md)
 * Todos os relatórios de sobreposição (consulte a seção Relatórios [](/help/using/reporting/dynamic-reports/dynamic-reports.md) interativos para obter informações sobre cada relatório de sobreposição).
 * [Relatório de Sinais Não Utilizados](/help/using/reporting/dynamic-reports/unused-signals.md)
 
@@ -58,7 +57,7 @@ O SOLR é um banco de dados de código aberto e um sistema de servidor do Apache
 
 ## Tableau {#tableau}
 
-[!DNL Audience Manager] usa o [Tableau](https://www.tableausoftware.com/) para exibir dados nos Relatórios [](../../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) interativos e nos Relatórios [de otimização de](../../reporting/audience-optimization-reports/audience-optimization-reports.md)público-alvo. Os relatórios interativos exibem dados de desempenho e sobreposição para características e segmentos. Em vez de usar números organizados em colunas e linhas, eles retornam dados usando diferentes formas, cores e tamanhos. Além disso, você pode escolher indivíduos ou grupos de pontos de dados e detalhar os resultados do relatório para obter mais detalhes. Essas técnicas de visualização e interatividade de relatório ajudam a facilitar a compreensão de grandes quantidades de dados numéricos.
+[!DNL Audience Manager] usa o [Tableau](https://www.tableausoftware.com/) para exibir dados nos Relatórios [](../../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) interativos e nos Relatórios [de otimização de](../../reporting/audience-optimization-reports/audience-optimization-reports.md)Audiência. Os relatórios interativos exibem dados de desempenho e sobreposição para características e segmentos. Em vez de usar números organizados em colunas e linhas, eles retornam dados usando diferentes formas, cores e tamanhos. Além disso, você pode escolher indivíduos ou grupos de pontos de dados e detalhar os resultados do relatório para obter mais detalhes. Essas técnicas de visualização e interatividade de relatório ajudam a facilitar a compreensão de grandes quantidades de dados numéricos.
 
 
 
