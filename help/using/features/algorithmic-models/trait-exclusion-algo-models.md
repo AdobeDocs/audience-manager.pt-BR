@@ -1,16 +1,16 @@
 ---
 description: A Exclusão de características fornece controles adicionais no fluxo de trabalho de modelagem, permitindo que você adicione os trilhos de proteção necessários ao modelo, com base na sua experiência em domínio e nos requisitos normativos. Use a opção Exclusões para selecionar quais características devem ser ignoradas ao criar modelos de uma ou mais fontes de dados.
 seo-description: A Exclusão de características fornece controles adicionais no fluxo de trabalho de modelagem, permitindo que você adicione os trilhos de proteção necessários ao modelo, com base na sua experiência em domínio e nos requisitos normativos. Use a opção Exclusões para selecionar quais características devem ser ignoradas ao criar modelos de uma ou mais fontes de dados.
-seo-title: Algorithmic Models  Trait Exclusion
-title: Algorithmic Models  Trait Exclusion
+seo-title: Exclusão de Características de Modelos Algorítmicos
+title: Exclusão de Características de Modelos Algorítmicos
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
 translation-type: tm+mt
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+source-git-commit: 4d10aaac5779f283aa675eef10cf13392837157f
 
 ---
 
 
-#  Modelos algorítmicos: Exclusão de características {#algorithmic-models-trait-exclusion}
+# Modelagem semelhante: Exclusão de características {#algorithmic-models-trait-exclusion}
 
 [!UICONTROL Trait Exclusion] fornece controles adicionais no fluxo de trabalho de modelagem, permitindo que você adicione os trilhos de proteção necessários ao modelo, com base na sua experiência em domínio e nos requisitos normativos. Use a [!UICONTROL Exclusions] opção para selecionar quais características devem ser ignoradas ao criar modelos de uma ou mais fontes de dados.
 
@@ -18,7 +18,7 @@ source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 Estes são alguns casos de uso que você pode abordar com [!UICONTROL Trait Exclusion]:
 
-* [!UICONTROL Trait Exclusion] permite que você exclua certas características capturadas, como características do visitante do site, para que você não influencie o modelo, resultando em resultados simples.
+* [!UICONTROL Trait Exclusion] permite que você exclua certas características de captura total, como características de visitante do site, para que você não influencie o modelo, resultando em resultados simples.
 * Você pode remover características que você não conhece ou não confia em uma fonte de dados, para entender melhor as características influentes.
 * Você pode excluir certas características, como características demográficas, para ajudar com quaisquer obrigações de conformidade que você possa ter.
 
@@ -42,9 +42,9 @@ Use o fluxo de trabalho [Criar um modelo](../../features/algorithmic-models/crea
 >
 >É possível excluir pastas inteiras excluindo a característica da pasta em vez de excluir as características na pasta, uma por uma. Por exemplo, em uma pasta com 20 características, seria necessário excluir apenas a característica da pasta em vez de excluir todas as características uma por uma.
 
-If you prefer video tutorials, watch our video demonstration for Trait Exclusion:
+Se preferir tutoriais em vídeo, assista a nossa demonstração em vídeo para obter a Exclusão de características:
 
->[!VIDEO](https://video.tv.adobe.com/v/25569/?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/25569/?quality=12)
 
 ## Aspectos e limitações importantes {#important-aspects-and-limitations}
 
@@ -59,15 +59,15 @@ Tomar nota dos seguintes aspectos e limitações relacionados com [!UICONTROL Tr
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Características excluídas na exibição Resumo de modelos </p> </td>
-   <td colname="col2"> <p>As características excluídas <i>não são exibidas</i> na exibição Resumo de modelos. You can see the excluded traits only in the  Edit Model workflow.<b><span class="uicontrol"></span></b> </p> </td>
+   <td colname="col1"> <p>Características excluídas na Visualização de resumo de modelos </p> </td>
+   <td colname="col2"> <p>As características excluídas <i>não são exibidas</i> na visualização Resumo de modelos. Você pode ver as características excluídas somente no fluxo de trabalho <b><span class="uicontrol"> Editar modelo</span></b> . </p> </td>
   </tr> 
   <tr> 
-   <td colname="col1"> <p>RBAC (Role-Based Access Controls) </p> </td>
-   <td colname="col2"> <p>Note the following limitations for companies using  RBAC:<a href="../../features/administration/administration-overview.md#administration"></a> </p> <p>
+   <td colname="col1"> <p>Controles de acesso baseados em função (RBAC) </p> </td>
+   <td colname="col2"> <p>Observe as seguintes limitações para empresas usando o <a href="../../features/administration/administration-overview.md#administration"> RBAC</a>: </p> <p>
      <ul id="ul_38A4056C235B428C822EA4A353893786"> 
-      <li id="li_2624FB35581F4807B8530910D63FFDBF">Se você não tiver acesso para visualizar uma característica, <i>não poderá</i> selecioná-la para ser excluída do modelo. </li>
-      <li id="li_3FD7A12AAAA8462EA84A760C05F20379">Se você não tiver acesso para exibir uma característica, <i>não poderá</i> visualizá-la na lista de características excluídas. </li>
+      <li id="li_2624FB35581F4807B8530910D63FFDBF">Se você não tiver acesso à visualização de uma característica, <i>não poderá</i> selecioná-la para ser excluída do modelo. </li>
+      <li id="li_3FD7A12AAAA8462EA84A760C05F20379">Se você não tiver acesso à visualização de uma característica, <i>não poderá</i> visualização dessa característica na lista de características excluídas. </li>
      </ul> </p> </td>
   </tr> 
   <tr> 
@@ -80,14 +80,14 @@ Tomar nota dos seguintes aspectos e limitações relacionados com [!UICONTROL Tr
   </tr> 
   <tr> 
    <td colname="col1"> <p>Excluir característica da linha de base </p> </td>
-   <td colname="col2"> <p>A característica da linha de base é excluída por padrão, portanto, não aparece na lista <b><span class="uicontrol"> Exclusões</span></b> ao criar o modelo. </p> </td>
+   <td colname="col2"> <p>A característica da linha de base é excluída por padrão, portanto, não aparece na lista <b><span class="uicontrol"> Exclusões</span></b> , ao criar o modelo. </p> </td>
   </tr>
  </tbody>
 </table>
 
 Assista ao vídeo abaixo para saber como e por que excluir características específicas de um [!UICONTROL Look-Alike Model].
 
->[!VIDEO](https://video.tv.adobe.com/v/25569/?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/25569/)
 
 ## Links relacionados
 
