@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Guia do usuário do Gerenciador de Audiências
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: e70c3dde2777d0ec128bae8998697b28e92df19a
+source-git-commit: 5518531ce008e42eb3f0168a845464d9d4da3e44
 
 ---
 
@@ -39,9 +39,15 @@ source-git-commit: e70c3dde2777d0ec128bae8998697b28e92df19a
       + [Limites de uso](features/administration/usage-limits.md)
       + [Relatórios de uso de Atividade](features/administration/activity-usage-reporting.md)
    + Modelos algorítmicos{#algorithmic-models}
-      + [Modelos algorítmicos](features/algorithmic-models/understanding-models.md)
-      + [Criar um modelo algorítmico](features/algorithmic-models/create-model.md)
-      + [Modelos algorítmicos: Exclusão de características](features/algorithmic-models/trait-exclusion-algo-models.md)
+      + [Visão geral dos modelos algorítmicos](features/algorithmic-models/algo-models-overview.md)
+      + Modelo de semelhanças {#look-alike-modeling}
+         + [Como entender a modelagem semelhante](features/algorithmic-models/understanding-models.md)
+         + [Criar um modelo semelhante](features/algorithmic-models/create-model.md)
+         + [Modelagem semelhante: Exclusão de características](features/algorithmic-models/trait-exclusion-algo-models.md)
+      + Audiências preditivas {#predictive-audiences}
+         + [Visão geral das Audiências preditivas](features/algorithmic-models/predictive-audiences.md)
+         + [Introdução às Audiências preditivas](features/algorithmic-models/predictive-audiences-start.md)
+         + [Relatórios de Audiências preditivas](features/algorithmic-models/predictive-audiences-reporting.md)
    + Laboratório de Audiência{#audience-lab}
       + [Visão geral do Laboratório de Audiências](features/audience-lab/audience-lab.md)
       + [Gerenciar grupos de teste](features/audience-lab/audience-lab-manage-test-groups.md)
@@ -381,6 +387,7 @@ source-git-commit: e70c3dde2777d0ec128bae8998697b28e92df19a
    + [Perguntas frequentes sobre destinos baseados em pessoas](faq/faq-people-based-destinations.md)
    + [Perguntas frequentes sobre recursos e funções do produto](faq/faq-features.md)
    + [Perguntas frequentes sobre Regras de mesclagem de Perfis e Gráfico de dispositivos](faq/faq-profile-merge.md)
+   + [Perguntas frequentes sobre Audiências preditivas](faq/faq-predictive-audiences.md)
    + [Perguntas frequentes sobre definição de metas](faq/faq-targeting.md)
    + [Perguntas frequentes de geração de relatórios](faq/faq-reporting.md)
 + Ajuda e Assuntos legais{#help-and-legal}
