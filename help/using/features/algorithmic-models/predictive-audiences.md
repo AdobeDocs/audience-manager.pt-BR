@@ -5,7 +5,7 @@ seo-title: Visão geral das Audiências preditivas
 solution: Audience Manager
 title: Audiências preditivas do Gerenciador de Audiências
 translation-type: tm+mt
-source-git-commit: 8cf504fa811e4043f83d0b9f11754065efccf7bb
+source-git-commit: 74a5de961b2f9ab6afa2caf998ba1100d40cc93a
 
 ---
 
@@ -97,7 +97,7 @@ Ao avaliar audiências primárias e atribuir pontuações, o modelo usa o padrã
 ## Considerações e limitações {#considerations}
 
 >[!IMPORTANT]
-> Leia este artigo cuidadosamente antes de passar para a fase de implementação.
+> Leia atentamente esta seção antes de passar para a fase de implementação.
 
 Ao configurar seus [!UICONTROL Predictive Audiences] modelos, lembre-se das seguintes considerações e limitações:
 
