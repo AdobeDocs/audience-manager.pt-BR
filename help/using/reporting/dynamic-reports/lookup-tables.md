@@ -1,19 +1,19 @@
 ---
-description: Coloque os dados nos arquivos de log do relatório Desempenho da entrega em tabelas que contêm somente IDs. Coloque metadados que não sejam ID em tabelas de pesquisa separadas para ajudar a reduzir o tamanho do arquivo e os tempos de processamento.
-seo-description: Coloque os dados nos arquivos de log do relatório Desempenho da entrega em tabelas que contêm somente IDs. Coloque metadados que não sejam ID em tabelas de pesquisa separadas para ajudar a reduzir o tamanho do arquivo e os tempos de processamento.
+description: Coloque os dados nos arquivos de log do relatório Desempenho do Delivery em tabelas que contêm somente IDs. Coloque metadados que não sejam ID em tabelas de pesquisa separadas para ajudar a reduzir o tamanho do arquivo e os tempos de processamento.
+seo-description: Coloque os dados nos arquivos de log do relatório Desempenho do Delivery em tabelas que contêm somente IDs. Coloque metadados que não sejam ID em tabelas de pesquisa separadas para ajudar a reduzir o tamanho do arquivo e os tempos de processamento.
 seo-title: Melhore os tempos de processamento do arquivo de log com tabelas de pesquisa
 solution: Audience Manager
 title: Melhore os tempos de processamento do arquivo de log com tabelas de pesquisa
 uuid: ffc77618-474b-455e-9c91-15b32fc151a5
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
 
 ---
 
 
 # Melhore os tempos de processamento do arquivo de log com tabelas de pesquisa{#improve-log-file-processing-times-with-lookup-tables}
 
-Coloque os dados nos arquivos de log do relatório Desempenho da entrega em tabelas que contêm somente IDs. Coloque metadados que não sejam ID em tabelas de pesquisa separadas para ajudar a reduzir o tamanho do arquivo e os tempos de processamento.
+Coloque os dados nos arquivos de log do relatório Desempenho do Delivery em tabelas que contêm somente IDs. Coloque metadados que não sejam ID em tabelas de pesquisa separadas para ajudar a reduzir o tamanho do arquivo e os tempos de processamento.
 
 <!-- 
 
@@ -69,8 +69,3 @@ O arquivo de pesquisa abaixo contém os metadados e pode ser vinculado de volta 
 ## As APIs podem eliminar a necessidade de tabelas de pesquisa
 
 Se seu sistema de serviço de anúncios tiver uma API, talvez você não precise enviar metadados em um arquivo de pesquisa. Talvez possamos obter essas informações por meio da API. Nesse caso, seus arquivos de registro devem conter apenas IDs. Trabalharemos com você para determinar se os metadados podem ser obtidos por meio de uma API.
-
->[!MORELIKETHIS]
->
->* [Relatório de entrega e desempenho](../../reporting/dynamic-reports/delivery-performance-report.md)
-
