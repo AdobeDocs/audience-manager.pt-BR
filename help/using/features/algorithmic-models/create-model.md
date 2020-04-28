@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Criar um modelo algorítmico
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 translation-type: tm+mt
-source-git-commit: 4d10aaac5779f283aa675eef10cf13392837157f
+source-git-commit: 35bad7e676aa1d4143f5d114a1eff85d6aba5f1d
 
 ---
 
@@ -34,13 +34,14 @@ Siga as etapas abaixo para criar um [!UICONTROL Look-Alike Model]:
 
 1. Vá até **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** e clique **[!UICONTROL Add New]** na [!UICONTROL Look-Alike Modeling] seção.
    ![look-like-add](assets/look-alike-add.png)
-2. Na seção Informações [](../../features/algorithmic-models/create-model.md#basic-information) básicas
+1. Na seção Informações [](../../features/algorithmic-models/create-model.md#basic-information) básicas
    * Nomeie o modelo.
    * *(Opcional)* Forneça uma breve descrição sobre o modelo.
    * Defina o status do modelo como **[!UICONTROL Active]** ou **[!UICONTROL Inactive]**. Os modelos inativos não serão executados e não produzirão dados.
       ![sósia-básica](assets/look-alike-basic.png)
-3. Na seção [Configuração](../../features/algorithmic-models/create-model.md#configuration) :
-   * Clique **[!UICONTROL Browse All Traits]** ou **[!UICONTROL Browse All Segments]** para selecionar uma característica ou segmento para o qual deseja criar um modelo. Selecione uma característica integrada, uma característica baseada em regras ou um segmento como linha de base. Caso contrário, seus modelos não serão executados.
+1. Na seção [Configuração](../../features/algorithmic-models/create-model.md#configuration) :
+   * Clique **[!UICONTROL Browse All Traits]** ou **[!UICONTROL Browse All Segments]** para selecionar uma característica ou segmento para o qual deseja criar um modelo. Procure características por nome, ID, descrição ou fonte de dados. Clique em uma pasta enquanto pesquisa para limitar os resultados a essa pasta e suas subpastas. Você também pode filtrar características por tipo de característica ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded]e [!UICONTROL Algorithmic]) ou tipo de preenchimento (ID[do](../../reference/ids-in-aam.md) dispositivo e ID [de](../../reference/ids-in-aam.md)dispositivo cruzado).
+      ![características de navegação](assets/browse-traits.png)
    * Escolha um período de retrospectiva de 30, 60 ou 90 dias. Isso define um intervalo de tempo para o modelo.
    * The [!UICONTROL TraitWeight] algorithm is selected by default.
    * Selecione uma fonte de dados da [!UICONTROL Available Data] lista.
