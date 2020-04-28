@@ -1,53 +1,64 @@
 ---
-description: Informações sobre requisitos gerais, autenticação, parâmetros de consulta opcionais, URLs de solicitação e outras referências.
-seo-description: Informações sobre requisitos gerais, autenticação, parâmetros de consulta opcionais, URLs de solicitação e outras referências.
+description: Informações sobre requisitos gerais, autenticação, parâmetros opcionais de query, URLs de solicitação e outras referências.
+seo-description: Informações sobre requisitos gerais, autenticação, parâmetros opcionais de query, URLs de solicitação e outras referências.
 seo-title: Introdução às APIs REST
 solution: Audience Manager
 title: Introdução às APIs REST
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: afaaaa50bdbe1dd0104af7e715d76985cb3d443c
 
 ---
 
 
 # Introdução às APIs REST {#getting-started-with-rest-apis}
 
-Informações sobre requisitos gerais, autenticação, parâmetros de consulta opcionais, URLs de solicitação e outras referências.
+Informações sobre requisitos gerais, autenticação, parâmetros opcionais de query, URLs de solicitação e outras referências.
 
 <!-- c_rest_api_overview.xml -->
 
 ## Requisitos e recomendações da API {#api-requirements-recommendations}
 
-As coisas que você deve e deve fazer ao trabalhar com o Audience Manager [!DNL API]s.
+As coisas que você deve e deve fazer ao trabalhar com os Gerentes de Audiência [!DNL API]s.
 
 <!-- aam-api-requirements.xml -->
 
-Observe o seguinte ao trabalhar com o código da API [do](https://bank.demdex.com/portal/swagger/index.html#/) Audience Manager:
+Observe o seguinte ao trabalhar com o código da API [do](https://bank.demdex.com/portal/swagger/index.html#/) Audiência Manager:
 
-* **** Parâmetros de solicitação: Todos os parâmetros de solicitação são necessários, a menos que especificado de outra forma.
-* **[!DNL JSON]** tipo de conteúdo: Especifique `content-type: application/json` e *especifique* `accept: application/json` no seu código.
+* **Parâmetros de solicitação:** Todos os parâmetros de solicitação são necessários, a menos que especificado de outra forma.
+* **[!DNL JSON]tipo de conteúdo:**Especifique`content-type: application/json`e *especifique*`accept: application/json`no seu código.
 
-* **** Solicitações e respostas: Envie solicitações como um [!DNL JSON] objeto formatado corretamente. [!DNL Audience Manager] responde com dados [!DNL JSON] formatados. As respostas do servidor podem conter dados solicitados, um código de status ou ambos.
+* **Solicitações e respostas:** Envie solicitações como um [!DNL JSON] objeto formatado corretamente. [!DNL Audience Manager] responde com dados [!DNL JSON] formatados. As respostas do servidor podem conter dados solicitados, um código de status ou ambos.
 
-* **** Acesso: Seu [!DNL Audience Manager] consultor fornecerá uma ID de cliente e uma chave que permite fazer [!DNL API] solicitações.
+* **Acesso:** Seu [!DNL Audience Manager] consultor fornecerá uma ID de cliente e uma chave que permite fazer [!DNL API] solicitações.
 
-* **** Documentação e amostras de código: O texto em *itálico* representa uma variável fornecida ou transmitida ao criar ou receber [!DNL API] dados. Substitua o texto *em itálico* por seu próprio código, parâmetros ou outras informações necessárias.
+* **Documentação e amostras de código:** O texto em *itálico* representa uma variável fornecida ou transmitida ao criar ou receber [!DNL API] dados. Substitua o texto *em itálico* por seu próprio código, parâmetros ou outras informações necessárias.
 
 ## Recomendações: Criar um usuário de API genérico {#requirements}
 
-Recomendamos que você crie uma conta de usuário técnica e separada para trabalhar com o Audience Manager [!DNL API]s. Esta é uma conta genérica que não está vinculada ou associada a um usuário específico em sua organização. Este tipo de conta de [!DNL API] usuário ajuda você a realizar duas coisas:
+Recomendamos que você crie uma conta de usuário técnica e separada para trabalhar com os Gerentes de Audiência [!DNL API]s. Esta é uma conta genérica que não está vinculada ou associada a um usuário específico em sua organização. Este tipo de conta de [!DNL API] usuário ajuda você a realizar duas coisas:
 
 * Identifique o serviço que está chamando o [!DNL API] (por exemplo, chamadas de seus aplicativos que usam nossos [!DNL API]s ou de outras ferramentas que fazem [!DNL API] solicitações).
-* Fornecer acesso ininterrupto aos [!DNL API]s. Uma conta vinculada a uma pessoa específica pode ser excluída ao sair da empresa. Isso impedirá que você trabalhe com o [!DNL API] código disponível. Uma conta genérica que não está vinculada a um determinado funcionário ajuda a evitar esse problema.
+* Fornecer acesso ininterrupto aos [!DNL API]s. Uma conta vinculada a uma pessoa específica pode ser excluída quando ela deixar sua empresa. Isso impedirá que você trabalhe com o [!DNL API] código disponível. Uma conta genérica que não está vinculada a um determinado funcionário ajuda a evitar esse problema.
 
-Como exemplo ou caso de uso para esse tipo de conta, digamos que você queira alterar muitos segmentos de uma só vez com as Ferramentas [de Gerenciamento em](../../reference/bulk-management-tools/bulk-management-intro.md)massa. Para fazer isso, sua conta de usuário precisa de [!DNL API] acesso. Em vez de adicionar permissões a um usuário específico, crie uma conta de usuário não específica, [!DNL API] que tenha as credenciais, a chave e o segredo apropriados para fazer [!DNL API] chamadas. Isso também é útil se você desenvolver seus próprios aplicativos que usam os Audience Manager [!DNL API]s.
+Como exemplo ou caso de uso para esse tipo de conta, digamos que você queira alterar muitos segmentos de uma só vez com as Ferramentas [de Gerenciamento em](../../reference/bulk-management-tools/bulk-management-intro.md)massa. Bem, para fazer isso, sua conta de usuário precisa de [!DNL API] acesso. Em vez de adicionar permissões a um usuário específico, crie uma conta de usuário não específica, [!DNL API] que tenha as credenciais, a chave e o segredo apropriados para fazer [!DNL API] chamadas. Isso também é útil se você desenvolver seus próprios aplicativos que usam os Gerentes de Audiência [!DNL API]s.
 
-Entre em contato com seu consultor do Audience Manager para configurar uma conta de usuário genérica e [!DNL API]exclusiva.
+Entre em contato com seu consultor do Gerenciador de Audiências para configurar uma conta de usuário genérica e [!DNL API]exclusiva.
 
-## OAuth Authentication {#oauth}
+## Autenticação JWT (Conta de Serviço) {#jwt}
 
-O Audience Manager [!UICONTROL REST API] segue [!DNL OAuth 2.0] padrões para autenticação e renovação de token. As seções abaixo descrevem como autenticar e começar a trabalhar com os [!DNL API]s.
+Para estabelecer uma sessão de API de E/S da Adobe segura de serviço para serviço, você deve criar um JSON Web Token (JWT) que encapsula a identidade de sua integração e trocá-la por um token de acesso. Cada solicitação a um serviço da Adobe deve incluir o token de acesso no cabeçalho Autorização, juntamente com a chave da API (ID do cliente) que foi gerada quando você criou a Integração [da conta de](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) serviço no Console [de E/S da](https://console.adobe.io/)Adobe.
+
+Consulte Autenticação [](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) JWT (Conta de serviço) para obter instruções detalhadas sobre como configurar sua autenticação.
+
+## Autenticação OAuth (obsoleta) {#oauth}
+
+>[!WARNING]
+> A autenticação e renovação de [!UICONTROL REST API] token do Gerenciador de Audiências por meio [!DNL OAuth 2.0] está obsoleta.
+>
+> Em vez disso, use a Autenticação [](#jwt-service-account-authentication-jwt) JWT (Conta de Serviço).
+
+O Gerenciador de Audiências [!UICONTROL REST API] segue [!DNL OAuth 2.0] os padrões de autenticação e renovação de token. As seções abaixo descrevem como autenticar e start trabalhando com os [!DNL API]s.
 
 ## Fluxo de trabalho da autenticação de senha {#password-authentication-workflow}
 
@@ -67,9 +78,9 @@ Observação: Se você quiser receber um token de atualização, especifique-o a
 
 ### Etapa 2: Solicite o token
 
-Transmita uma solicitação de token com seu [!DNL JSON] cliente preferencial. Ao criar a solicitação:
+Transmita uma solicitação de token com seu [!DNL JSON] cliente preferencial. Quando você cria a solicitação:
 
-* Use um `POST` método para chamar `https://api.demdex.com/oauth/token`.
+* Use um `POST` método para chamar `https://aam.adobe.io/oauth/token`.
 * Converta a ID do cliente e o segredo em uma string codificada em base 64. Separe a ID e o segredo com dois pontos durante o processo de conversão. Por exemplo, as credenciais são `testId : testSecret` convertidas em `dGVzdElkOnRlc3RTZWNyZXQ=`.
 * Passe nos [!DNL HTTP] cabeçalhos `Authorization:Basic <base-64 clientID:clientSecret>` e `Content-Type: application/x-www-form-urlencoded` . Por exemplo, seu cabeçalho pode ser semelhante a: <br/>`Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/>`Content-Type: application/x-www-form-urlencoded`
 * Configure o corpo da solicitação da seguinte maneira:
@@ -77,7 +88,7 @@ Transmita uma solicitação de token com seu [!DNL JSON] cliente preferencial. A
 
 ### Etapa 3: Receber o token
 
-A [!DNL JSON] resposta contém seu token de acesso. A resposta deve ser a seguinte:
+A [!DNL JSON] resposta contém seu token de acesso. A resposta deve ser parecida com esta:
 
 ```json
 {
@@ -101,20 +112,20 @@ Se o token de acesso tiver expirado, você receberá um cabeçalho `401 Status C
 
 `WWW-Authenticate: Bearer realm="oauth", error="invalid_token", error_description="Access token expired: <token>"`
 
-As etapas a seguir descrevem o fluxo de trabalho para usar um token de atualização para criar um novo token de acesso de um [!DNL JSON] cliente em seu navegador.
+As etapas a seguir descrevem o fluxo de trabalho para usar um token de atualização para criar um novo token de acesso a partir de um [!DNL JSON] cliente em seu navegador.
 
 ### Etapa 1: Solicitar o novo token
 
-Passe uma solicitação de token de atualização com o seu [!DNL JSON] cliente preferencial. Ao criar a solicitação:
+Passe uma solicitação de token de atualização com o seu [!DNL JSON] cliente preferencial. Quando você cria a solicitação:
 
-* Use um `POST` método para chamar `https://api.demdex.com/oauth/token`.
+* Use um `POST` método para chamar `https://aam.adobe.io/oauth/token`.
 * Converta a ID do cliente e o segredo em uma string codificada em base 64. Separe a ID e o segredo com dois pontos durante o processo de conversão. Por exemplo, as credenciais são `testId : testSecret` convertidas em `dGVzdElkOnRlc3RTZWNyZXQ=`.
 * Transmita os cabeçalhos HTTP `Authorization:Basic <base-64 clientID:clientSecret>` e `Content-Type: application/x-www-form-urlencoded`. Por exemplo, seu cabeçalho pode ser semelhante a: <br/> `Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/> `Content-Type: application/x-www-form-urlencoded`
-* No corpo da solicitação, especifique o token de atualização `grant_type:refresh_token` e passe-o na solicitação de acesso anterior. A solicitação deve ser semelhante a: <br/> `grant_type=refresh_token&refresh_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e`
+* No corpo da solicitação, especifique o token de atualização `grant_type:refresh_token` e passe-o na solicitação de acesso anterior. A solicitação deve ser parecida com esta: <br/> `grant_type=refresh_token&refresh_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e`
 
 ### Etapa 2: Receber o novo token
 
-A [!DNL JSON] resposta contém seu novo token de acesso. A resposta deve ser a seguinte:
+A [!DNL JSON] resposta contém seu novo token de acesso. A resposta deve ser parecida com esta:
 
 ```json
 {
@@ -128,7 +139,7 @@ A [!DNL JSON] resposta contém seu novo token de acesso. A resposta deve ser a s
 
 ## Código de autorização e autenticação implícita {#authentication-code-implicit}
 
-O Audience Manager [!UICONTROL REST API] suporta código de autorização e autenticação implícita. Para usar esses métodos de acesso, os usuários precisam fazer logon para obter acesso e atualizar tokens `https://api.demdex.com/oauth/authorize` para que possam acessá-los.
+O Gerenciador de Audiências [!UICONTROL REST API] oferece suporte ao código de autorização e à autenticação implícita. Para usar esses métodos de acesso, os usuários precisam fazer logon para obter acesso e atualizar tokens `https://aam.adobe.io/oauth/authorize` para que possam acessá-los.
 
 ## Fazer solicitações de API autenticadas {#authenticated-api-requests}
 
@@ -141,23 +152,23 @@ Para efetuar chamadas em relação aos [!DNL API] métodos disponíveis:
 * No `HTTP` cabeçalho, defina `Authorization: Bearer <token>`.
 * Chame o [!DNL API] método necessário.
 
-## Parâmetros de consulta de API opcionais {#optional-api-query-parameters}
+## Parâmetros opcionais do Query da API {#optional-api-query-parameters}
 
 Defina os parâmetros opcionais disponíveis para métodos que retornam todas as propriedades de um objeto.
 
 <!-- c_rest_api_optional.xml -->
 
-Você pode usar esses parâmetros opcionais com [!DNL API] métodos que retornam *todas* as propriedades de um objeto. Defina essas opções na string de solicitação ao passar essa consulta para o [!DNL API].
+Você pode usar esses parâmetros opcionais com [!DNL API] métodos que retornam *todas* as propriedades de um objeto. Defina essas opções na string de solicitação ao passar esse query para o [!DNL API].
 
 | Parâmetro | Descrição |
 |--- |--- |
-| página | Retorna os resultados por número de página. A numeração começa em 0. |
+| página | Retorna os resultados por número de página. Numerando start em 0. |
 | pageSize | Define o número de resultados de resposta retornados pela solicitação (10 é padrão). |
 | sortBy | Classifica e retorna os resultados de acordo com a [!DNL JSON] propriedade especificada. |
 | descendente | Classifica e retorna os resultados em ordem decrescente. Crescente é padrão. |
-| pesquisa | Retorna os resultados com base na string especificada que você deseja usar como parâmetro de pesquisa. Por exemplo, digamos que você queira encontrar resultados para todos os modelos que têm a palavra "Teste" em qualquer um dos campos de valor desse item. Sua solicitação de amostra pode ser semelhante a: `GET https://api.demdex.com/v1/models/?search=Test`.  Você pode pesquisar qualquer valor retornado por um método "obter tudo". |
+| pesquisa | Retorna os resultados com base na string especificada que você deseja usar como parâmetro de pesquisa. Por exemplo, digamos que você queira encontrar resultados para todos os modelos que têm a palavra &quot;Teste&quot; em qualquer um dos campos de valor desse item. Sua solicitação de amostra pode ser semelhante a:   `GET https://aam.adobe.io/v1/models/?search=Test`.  Você pode pesquisar qualquer valor retornado por um método &quot;obter tudo&quot;. |
 | folderId | Retorna todas as IDs para características dentro da pasta especificada. Não disponível para todos os métodos. |
-| permissões | Retorna uma lista de segmentos com base na permissão especificada.  LER é o padrão. As permissões incluem:<ul><li>`READ` : Retornar e exibir informações sobre um segmento.</li><li>`WRITE` : Use `PUT` para atualizar um segmento.</li><li>`CREATE` : Use `POST` para criar um segmento.</li><li>`DELETE` : Excluir um segmento. Requer acesso às características subjacentes, se houver. Por exemplo, você precisará de direitos para excluir as características que pertencem a um segmento se desejar removê-lo.</li></ul><br>Especifique várias permissões com pares separados de valores chave. Por exemplo, para retornar uma lista de segmentos somente com `READ` e `WRITE` permissões, passe `"permissions":"READ"`, `"permissions":"WRITE"` . |
+| permissões | Retorna uma lista de segmentos com base na permissão especificada.  LER é o padrão. As permissões incluem:<ul><li>`READ` : Informações de retorno e visualização sobre um segmento.</li><li>`WRITE` : Use `PUT` para atualizar um segmento.</li><li>`CREATE` : Use `POST` para criar um segmento.</li><li>`DELETE` : Excluir um segmento. Requer acesso às características subjacentes, se houver. Por exemplo, você precisará de direitos para excluir as características que pertencem a um segmento se desejar removê-lo.</li></ul><br>Especifique várias permissões com pares separados de valores chave. Por exemplo, para retornar uma lista de segmentos somente com `READ` e `WRITE` permissões, passe `"permissions":"READ"`, `"permissions":"WRITE"` . |
 | includePermissions | (Booliano) Defina como true para retornar suas permissões para o segmento. O padrão é falso. |
 
 ### Uma observação sobre as opções da página
@@ -165,7 +176,7 @@ Você pode usar esses parâmetros opcionais com [!DNL API] métodos que retornam
 Quando as informações da página não *são especificadas, a solicitação retorna* [!DNL JSON] resultados simples em uma matriz. Se as informações da página *forem* especificadas, a lista retornada será encapsulada em um [!DNL JSON] objeto que contém informações sobre o resultado total e a página atual. Sua solicitação de amostra usando opções de página pode ser semelhante a esta:
 
 ```
-GET https://api.demdex.com/v1/models/?page=1&pageSize=2&search=Test
+GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 ```
 
 ## URLs de API {#api-urls}
@@ -180,40 +191,40 @@ A tabela a seguir lista os URLs de solicitação usados para passar em [!DNL API
 
 | [!DNL API] Métodos | Solicitação [!DNL URL] |
 |--- |--- |
-| Modelagem algorítmica | `https://api.demdex.com/v1/models/` |
-| Fonte de dados | `https://api.demdex.com/v1/datasources/` |
-| Sinais derivados | `https://api.demdex.com/v1/signals/derived/` |
-| Destinos | `https://api.demdex.com/v1/destinations/` |
-| Domínios | `https://api.demdex.com/v1/partner-sites/` |
-| Pastas | Características:  `https://api.demdex.com/v1/folders/traits /`<br>Segmentos:  `https://api.demdex.com/v1/folders/segments /` |
-| Esquema | `https://api.demdex.com/v1/schemas/` |
-| Segmentos | `https://api.demdex.com/v1/segments/` |
-| Características | `https://api.demdex.com/v1/traits/` |
-| Tipos de características | `https://api.demdex.com/v1/customer-trait-types` |
-| Taxonomia | `https://api.demdex.com/v1/taxonomies/0/` |
+| Modelagem algorítmica | `https://aam.adobe.io/v1/models/` |
+| Fonte de dados | `https://aam.adobe.io/v1/datasources/` |
+| Sinais derivados | `https://aam.adobe.io/v1/signals/derived/` |
+| Destinos  | `https://aam.adobe.io/v1/destinations/` |
+| Domínios | `https://aam.adobe.io/v1/partner-sites/` |
+| Pastas | Características:  `https://aam.adobe.io/v1/folders/traits /`<br>Segmentos:  `https://aam.adobe.io/v1/folders/segments /` |
+| Schema | `https://aam.adobe.io/v1/schemas/` |
+| Segmentos | `https://aam.adobe.io/v1/segments/` |
+| Características | `https://aam.adobe.io/v1/traits/` |
+| Tipos de características | `https://aam.adobe.io/v1/customer-trait-types` |
+| Taxonomia | `https://aam.adobe.io/v1/taxonomies/0/` |
 
 ## Ambientes {#environments}
 
-Os [!DNL Audience Manager] [!DNL API]s fornecem acesso a diferentes ambientes de trabalho. Esses ambientes ajudam você a testar códigos em bancos de dados separados sem afetar os dados de produção ao vivo. A tabela a seguir lista os [!DNL API] ambientes disponíveis e os nomes dos hosts de recursos correspondentes.
+Os [!DNL Audience Manager] [!DNL API]s fornecem acesso a diferentes ambientes de trabalho. Esses ambientes ajudam você a testar o código em bancos de dados separados sem afetar os dados de produção ao vivo. A tabela a seguir lista os [!DNL API] ambientes disponíveis e os nomes dos hosts de recursos correspondentes.
 
 | Ambiente | Nome de host |
 |---|---|
-| **Produção** | `https://api.demdex.com/...` |
+| **Produção** | `https://aam.adobe.io/...` |
 | **Beta** | `https://api-beta.demdex.com/...` |
 
 >[!NOTE]
 >
->O ambiente beta do Audience Manager é uma versão independente e de menor escala do ambiente de produção. Todos os dados que você deseja testar devem ser inseridos e coletados neste ambiente.
+>O ambiente beta do Gerenciador de Audiências é uma versão independente e de menor escala do ambiente de produção. Todos os dados que você deseja testar devem ser inseridos e coletados neste ambiente.
 
 ## Versões {#versions}
 
-Novas versões desses [!DNL API]s são lançadas regularmente. Uma nova versão aumenta o número da [!DNL API] versão. O número da versão é referenciado no URL da solicitação, conforme `v<version number>` mostrado no exemplo a seguir:
+Novas versões desses [!DNL API]s são lançadas regularmente. Uma nova versão incrementa o número da [!DNL API] versão. O número da versão é referenciado no URL da solicitação, conforme `v<version number>` mostrado no exemplo a seguir:
 
 `https://<host>/v1/...`
 
 ## Códigos de resposta definidos {#response-codes-defined}
 
-`HTTP` códigos de status e texto de resposta retornados pelo Audience Manager [!UICONTROL REST API].
+`HTTP` códigos de status e texto de resposta retornados pelo Gerenciador de Audiências [!UICONTROL REST API].
 
 <!-- r_api_http_response_codes.xml -->
 
@@ -222,7 +233,7 @@ Novas versões desses [!DNL API]s são lançadas regularmente. Uma nova versão 
 | 200 | OK | A solicitação foi processada com êxito. Retornará o conteúdo ou os dados esperados, se necessário. |
 | 201 | Criado | O recurso foi criado. Retorna para `PUT` e `POST` solicitações. |
 | 204 | Sem conteúdo | O recurso foi excluído. O corpo da resposta ficará em branco. |
-| 400 | Solicitação inválida | O servidor não entendeu a solicitação. Normalmente devido a sintaxe malformada. Verifique sua solicitação e tente novamente. |
+| 400 | Solicitação inválida | O servidor não entendeu a solicitação. Geralmente devido a sintaxe malformada. Verifique sua solicitação e tente novamente. |
 | 403 | Proibido | Você não tem acesso ao recurso. |
 | 404 | Não encontrada | Não foi possível localizar o recurso para o caminho especificado. |
 | 409 | Conflito | Não foi possível concluir a solicitação devido a um conflito com o estado do recurso. |
