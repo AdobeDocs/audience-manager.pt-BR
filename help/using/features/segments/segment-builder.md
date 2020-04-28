@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Construtor de segmentos
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 translation-type: tm+mt
-source-git-commit: f162d62fff490aaabfec0ddbb31801fcae482e3b
+source-git-commit: 723c75e8946c42779b4c27727ff9e6398b5fc9b1
 
 ---
 
@@ -17,7 +17,7 @@ Descreve as etapas necessárias e opcionais que criam um segmento em [!UICONTROL
 
 ## Demonstração de vídeo
 
-Comece assistindo ao vídeo [](https://images-tv.adobe.com/avp/vr/b7f88801-efe0-4786-9d58-554db16b34eb/81b6f004-cec0-452c-9b35-dabdc69ae3b4/9dc8a1d4-350d-46c3-90a6-5197dfb76f40_20180130023449.854x480at800_h264.mp4)Criar segmentos no Audience Manager. O vídeo o orienta pelo processo de criação do segmento. Leia as seções abaixo para obter mais informações.
+Start assistindo ao vídeo [Criar segmentos no Audiência Manager](https://images-tv.adobe.com/avp/vr/b7f88801-efe0-4786-9d58-554db16b34eb/81b6f004-cec0-452c-9b35-dabdc69ae3b4/9dc8a1d4-350d-46c3-90a6-5197dfb76f40_20180130023449.854x480at800_h264.mp4). O vídeo o orienta pelo processo de criação do segmento. Leia as seções abaixo para obter mais informações.
 
 ## Criar um segmento {#create-segment}
 
@@ -27,26 +27,31 @@ Comece assistindo ao vídeo [](https://images-tv.adobe.com/avp/vr/b7f88801-efe0-
 
 [!UICONTROL Segment Builder] consiste em 3 seções separadas: [!UICONTROL Basic Information], [!UICONTROL Traits]e [!UICONTROL Destinations Mapping]. Para criar um segmento, preencha os campos obrigatórios nas seções [!UICONTROL Basic Information] e [!UICONTROL Traits] . [!UICONTROL Destinations Mapping] são opcionais. Consulte as instruções abaixo para obter ajuda adicional.
 
-![create-segment](assets/create-segment.png)
-
 1. Na seção Informações [](../../features/segments/segment-builder.md#segment-builder-controls-basics) básicas:
+
+   ![create-segment](assets/create-segment.png)
+
    * Nomeie o segmento. O comprimento máximo de um nome de segmento é de 255 caracteres.
    * Defina o status do segmento (ativo é padrão).
-   * Escolha uma fonte de dados. Use o primeiro menu suspenso para filtrar entre as fontes de dados do Audience Manager, os conjuntos de relatórios do Adobe Analytics ou ambos. Em seguida, use o segundo menu suspenso para escolher sua fonte de dados. Se você não estiver usando os conjuntos de relatórios do Adobe Analytics, o seletor de tipo de fonte de dados será desativado e o padrão será usado somente nas fontes de dados do Audience Manager.
-   * Selecione uma regra de mesclagem de perfil a ser usada para qualificação de segmento.
+   * Escolha uma fonte de dados. Use o primeiro menu suspenso para filtrar entre as fontes de dados do Gerenciador de Audiências, os conjuntos de relatórios do Adobe Analytics ou ambos. Em seguida, use o segundo menu suspenso para escolher sua fonte de dados. Se você não estiver usando os conjuntos de relatórios do Adobe Analytics, o seletor de tipo de fonte de dados será desativado e o padrão será somente as fontes de dados do Audiência Manager.
+   * Selecione uma regra de união de perfis para usar na qualificação de segmentos.
    * Atribua o segmento a uma pasta de armazenamento.
-2. Na [seção Características](../../features/segments/segment-builder.md#segment-builder-controls-traits) :
+
+1. Na [seção Características](../../features/segments/segment-builder.md#segment-builder-controls-traits) :
+   ![características do construtor de segmentos](assets/segment-builder-traits.png)
    * Procure a característica que deseja adicionar a um segmento e clique em **[!UICONTROL Add Trait]**. Adicione outra característica para criar um grupo de características.
-   * Abra o modal Pesquisa avançada clicando em **[!UICONTROL Browse All Traits]**. Procure características por nome, ID, descrição ou fonte de dados. Clique em uma pasta enquanto pesquisa para limitar os resultados a essa pasta e suas subpastas. Você também pode filtrar características por tipo de característica.
+   * Abra o modal Pesquisa avançada clicando em **[!UICONTROL Browse All Traits]**. Procure características por nome, ID, descrição ou fonte de dados. Clique em uma pasta enquanto pesquisa para limitar os resultados a essa pasta e suas subpastas. Você também pode filtrar características por tipo de característica ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded]e [!UICONTROL Algorithmic]) ou tipo de preenchimento (ID[do](../../reference/ids-in-aam.md) dispositivo e ID [de](../../reference/ids-in-aam.md)dispositivo cruzado).
+      ![segment-builder-browser-traits](assets/segment-builder-browse-traits.png)
    * Obtenha recomendações [de](trait-recommendations.md) características ao vivo enquanto cria seu segmento.
    * Clique e arraste características para criar grupos separados.
    * Passe o cursor do mouse sobre os grupos para definir relações com valores Booleanos [!UICONTROL AND], [!UICONTROL OR], [!UICONTROL AND NOT] .
    * Passe o mouse sobre o ícone do relógio para adicionar regras de [recenticidade e frequência](../../features/segments/recency-and-frequency.md) à característica.
-   * Exibir dados de preenchimento do segmento à medida que você adiciona ou remove características. Clique **[!UICONTROL Calculate Estimates]** para ver (ou atualizar) os números de população estimados. Leia mais sobre os dados [de preenchimento do](../../features/segments/segment-builder-data.md#segment-populations) segmento no Construtor de segmentos.
-   * Click **[!UICONTROL Save]** when done.
-3. *(Opcional)* Mapeie um segmento para um destino na seção Mapeamento [de](../../features/segments/segment-builder.md#segment-builder-controls-destinations) destino:
+   * Visualização dos dados de preenchimento do segmento à medida que você adiciona ou remove características. Clique **[!UICONTROL Calculate Estimates]** para ver (ou atualizar) os números de população estimados. Leia mais sobre os dados [de preenchimento do](../../features/segments/segment-builder-data.md#segment-populations) segmento no Construtor de segmentos.
+   * Clique **[!UICONTROL Save]** quando concluído.
+
+1. *(Opcional)* Mapeie um segmento para um destino na seção Mapeamento [de](../../features/segments/segment-builder.md#segment-builder-controls-destinations) destino:
    * Procure o destino e clique em **[!UICONTROL Add Destination]**. Observe que o destino já deve existir antes que você possa adicioná-lo a um segmento.
-   * Click **[!UICONTROL Save]** when done.
+   * Clique **[!UICONTROL Save]** quando concluído.
 
 ## Controles do Construtor de segmentos: Seção Informações básicas {#segment-builder-controls-basics}
 
@@ -76,11 +81,11 @@ Em [!UICONTROL Segment Builder], [!UICONTROL the Basic Information] as configura
   </tr> 
   <tr> 
    <td colname="col1"> <b>Fonte de dados</b> </td> 
-   <td colname="col2"> <p>Associa o segmento a um provedor de dados específico. <p>Use o primeiro menu suspenso para filtrar entre as fontes de dados do Audience Manager, os conjuntos de relatórios do Adobe Analytics ou ambos. Em seguida, use o segundo menu suspenso para escolher sua fonte de dados.</p><p> Se você não estiver usando os conjuntos de relatórios do Adobe Analytics, o seletor de tipo de fonte de dados será desativado e o padrão será usado somente nas fontes de dados do Audience Manager.</p></p> </td> 
+   <td colname="col2"> <p>Associa o segmento a um provedor de dados específico. <p>Use o primeiro menu suspenso para filtrar entre as fontes de dados do Gerenciador de Audiências, os conjuntos de relatórios do Adobe Analytics ou ambos. Em seguida, use o segundo menu suspenso para escolher sua fonte de dados.</p><p> Se você não estiver usando os conjuntos de relatórios do Adobe Analytics, o seletor de tipo de fonte de dados será desativado e o padrão será somente as fontes de dados do Audiência Manager.</p></p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b>Regra de mesclagem de perfil</b> </td> 
-   <td colname="col2"> <p>Seleciona a Regra de mesclagem de perfil a ser usada para qualificação de segmento. </p> </td> 
+   <td colname="col1"><b>Regra de mesclagem de Perfis</b> </td> 
+   <td colname="col2"> <p>Seleciona a Regra de mesclagem de Perfis a ser usada para qualificação de segmentos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Status</b> </td> 
@@ -99,14 +104,14 @@ Em [!UICONTROL Segment Builder], a [!UICONTROL Traits] seção permite gerenciar
 
 <!-- r_segment_traits_section.xml-->
 
-**** Pré-requisitos: Preencha os campos obrigatórios na [!UICONTROL Basic Information] seção.
+**Pré-requisitos:** Preencha os campos obrigatórios na [!UICONTROL Basic Information] seção.
 
 | Campo | Descrição |
 |--- |--- |
-| Exibição básica | Esta seção fornece controles visuais que permitem: <ul><li>Crie novos segmentos e gerencie os existentes.</li><li>Remova características de um segmento.</li><li>Adicione até 50 (máximo) características a um segmento.</li><li>Arraste e solte características para criar novos grupos.</li><li>Exibir características e grupos de características em um segmento.</li><li>Defina os critérios de qualificação com expressões booleanas, operadores de comparação e configurações de recenticidade/frequência.</li></ul> |
-| Exibição de código | Abre um ambiente de desenvolvimento que permite criar e gerenciar características, grupos e requisitos de qualificação com código em vez da interface visual. A visualização de código é útil se seus segmentos: <ul><li>Contêm mais de 50 características em um segmento individual. Observação: Os segmentos são limitados a 5000 características (máximo).</li><li>Contém muitos grupos de características.</li><li>Ter requisitos de qualificação complexos.</li></ul> |
+| Visualização básica | Esta seção fornece controles visuais que permitem: <ul><li>Crie novos segmentos e gerencie os existentes.</li><li>Remova características de um segmento.</li><li>Adicione até 50 (máximo) características a um segmento.</li><li>Arraste e solte características para criar novos grupos.</li><li>Características da Visualização e grupos de características em um segmento.</li><li>Defina os critérios de qualificação com expressões booleanas, operadores de comparação e configurações de recenticidade/frequência.</li></ul> |
+| Visualização de código | Abre um ambiente de desenvolvimento que permite criar e gerenciar características, grupos e requisitos de qualificação com código em vez da interface visual. A visualização de código é útil se seus segmentos: <ul><li>Contêm mais de 50 características em um segmento individual. Observação: Os segmentos são limitados a 5000 características (máximo).</li><li>Contém muitos grupos de características.</li><li>Ter requisitos de qualificação complexos.</li></ul> |
 | Pesquisar | Ajuda a encontrar características a serem adicionadas a um segmento. |
-| Recomendações   | Obtenha recomendações ao vivo para características semelhantes, a partir de suas características originais e feeds de [!UICONTROL Audience Marketplace] dados aos quais você está inscrito. Adicione essas recomendações à regra de segmento para expandir seu público-alvo. Leia mais no [Trait Recommendations](trait-recommendations.md). |
+| Recomendações   | Obtenha recomendações ao vivo para características semelhantes, a partir de suas características originais e feeds de [!UICONTROL Audience Marketplace] dados aos quais você está inscrito. Adicione essas recomendações à regra de segmento para expandir sua audiência. Leia mais no [Trait Recommendations](trait-recommendations.md). |
 | Recomendações do Marketplace | Obtenha recomendações ao vivo para características semelhantes, a partir de feeds de [!UICONTROL Audience Marketplace] dados aos quais você não está inscrito. Leia mais no [Trait Recommendations](trait-recommendations.md). |
 | Dados reais e estimados do tamanho do segmento | See [Trait and Segment Population Data in Segment Builder](segment-builder-data.md). |
 
@@ -116,9 +121,9 @@ O gerenciamento das características em seus segmentos é uma parte importante p
 
 Para remover características de um segmento:
 
-1. Vá para Dados de **público-alvo &gt; Segmentos**. Role pela lista ou use o recurso de pesquisa para encontrar o segmento com o qual você deseja trabalhar.
+1. Vá para Dados de **Audiência > Segmentos**. Role pela lista ou use o recurso de pesquisa para encontrar o segmento com o qual você deseja trabalhar.
 2. Clique no nome do segmento para abrir a tela de detalhes do segmento.
-3. Clique em **Editar** para abrir o Construtor de segmentos e clique em **Características** para abrir o painel Características.
+3. Clique em **Editar** para abrir o Construtor de segmentos e, em seguida, clique em **Características** para abrir o painel Características.
 4. Passe o mouse sobre a característica que deseja excluir e clique no X. Essa ação remove imediatamente a característica do seu segmento.
 
 ## Controles do Construtor de segmentos: Seção Mapeamentos de Destinos {#segment-builder-controls-destinations}
@@ -137,8 +142,8 @@ O **[!UICONTROL Destination Mappings]** painel contém ferramentas de pesquisa, 
 
 | Tipo de pesquisa | Descrição |
 |---|---|
-| **Pesquisar por nome de destino** | Permite que você procure um destino específico por nome. Para pesquisar, comece a digitar. O campo será preenchido automaticamente com base em seus termos de pesquisa. Click **[!UICONTROL Add Destination]** when done. |
-| **Procurar todos os destinos** | Procure uma lista de *todos* os destinos disponíveis para você. Selecione e adicione destinos ao seu segmento na lista suspensa. |
+| **Pesquisar por nome de destino** | Permite que você procure um destino específico por nome. Para pesquisar, digite start. O campo será preenchido automaticamente com base em seus termos de pesquisa. Clique **[!UICONTROL Add Destination]** quando concluído. |
+| **Procurar todos os destinos** | Procure uma lista de *todos* os destinos disponíveis para você. Selecione e adicione destinos ao seu segmento na lista pop-up. |
 
 ## Campos nas janelas pop-up Mapeamentos de destino {#fields-in-dest-mappings}
 
@@ -150,7 +155,7 @@ Em [!UICONTROL Segment Builder], a caixa de [!UICONTROL Add Destination] diálog
 
 <!-- r_add_mappings_pop.xml -->
 
-### Campos de destino de cookie
+### Campos de Destino de Cookie
 
 Nos [!UICONTROL Destination Mapping] campos, especifique os pares de valores chave usados para enviar dados para o destino. Insira a chave no primeiro campo e os valores no segundo. O pop-up de destino do cookie pode ser semelhante a este:
 
