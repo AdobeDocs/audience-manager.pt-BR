@@ -7,7 +7,7 @@ solution: Audience Manager
 title: IDs declaradas
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -18,13 +18,13 @@ Como as IDs declaradas funcionam, configurar procedimentos, exemplos de código 
 
 ## Definição de direcionamento ID declarada {#declared-id-targeting}
 
-Troque e sincronize IDs de usuários com o Audience Manager de dispositivos ou navegadores que não usam ou aceitam mecanismos de armazenamento persistentes, como cookies de terceiros.
+Troque e sincronize as IDs de usuário com o Gerenciador de Audiências de dispositivos ou navegadores que não usam ou aceitam mecanismos de armazenamento persistentes, como cookies de terceiros.
 
 <!-- declared_id_about.xml -->
 
 ## Finalidade da segmentação declarada da ID {#declared-id-targeting-purpose}
 
-Alguns navegadores e a maioria dos dispositivos móveis não aceitam cookies de terceiros. Isso dificulta a retenção de informações sobre os visitantes do site ou a atribuição de IDs persistentes. Para resolver esse problema, o Audience Manager usa [!UICONTROL DIL] para permitir que você passe [!UICONTROL declared IDs] em uma chamada de evento. Além disso, uma [!UICONTROL declared ID] pode agir como uma ID universal que se aplica ao mesmo usuário em todas as soluções no [!DNL Experience Cloud]. A tabela a seguir descreve o processo de definição de metas/correspondência de ID:
+Alguns navegadores e a maioria dos dispositivos móveis não aceitam cookies de terceiros. Isso dificulta a retenção de informações sobre visitantes do site ou a atribuição de IDs persistentes. Para resolver esse problema, o Gerenciador de Audiências usa [!UICONTROL DIL] para permitir que você passe [!UICONTROL declared IDs] em uma chamada de evento. Além disso, uma [!UICONTROL declared ID] pode agir como uma ID universal que se aplica ao mesmo usuário em todas as soluções no [!DNL Experience Cloud]. A tabela a seguir descreve o processo de definição de metas/correspondência de ID:
 
 <table id="table_5D59CD5AF70B44C3B45D279283D4691F"> 
  <thead> 
@@ -35,20 +35,20 @@ Alguns navegadores e a maioria dos dispositivos móveis não aceitam cookies de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <b>Chamada de evento</b> </td> 
-   <td colname="col2"> <p>Para funcionar, você precisa do <span class="wintitle"> DIL </span> e do <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Adobe Experience Platform Identity Service </a> na página. <span class="wintitle"> O DIL </span> obtém IDs <span class="wintitle"> declaradas </span> da <code> setVisitorID </code> função fornecida pelo serviço de identidade da plataforma <span class="keyword"> Adobe Experience </span> e as transmite para o <span class="keyword"> Audience Manager </span>. </p> </td> 
+   <td colname="col1"> <b>Chamada de Evento</b> </td> 
+   <td colname="col2"> <p>Para funcionar, você precisa do <span class="wintitle"> DIL </span> e do <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform Identity Service </a> na página. <span class="wintitle"> O DIL </span> obtém IDs <span class="wintitle"> declaradas </span> da <code> setVisitorID </code> função fornecida pelo serviço de identidade da plataforma <span class="keyword"> Adobe Experience </span> e as transmite para o Gerenciador de <span class="keyword"> Audiências </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>ID de correspondência</b> </td> 
-   <td colname="col2"> <p>O Audience Manager tenta corresponder a ID do cliente e do visitante com uma ID correspondente em nosso sistema. Se uma ID correspondente não existir, o Audience Manager criará uma nova ID e a associará à ID do cliente e visitante. </p> <p> <p>Observação:  O mapeamento mais recente é usado se sua ID mapear para mais de uma ID do Audience Manager. </p> </p> </td> 
+   <td colname="col2"> <p>O Gerenciador de Audiências tenta corresponder a ID do cliente e do visitante a uma ID correspondente em nosso sistema. Se uma ID correspondente não existir, o Gerenciador de Audiências criará uma nova ID e a associará à ID do cliente e do visitante. </p> <p> <p>Observação:  O mapeamento mais recente é usado se sua ID mapear para mais de uma ID do gerente de Audiência. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>ID de retorno</b> </td> 
-   <td colname="col2"> <p>O Audience Manager grava sua ID sincronizada em um cookie primário (ou outro espaço de armazenamento endereçável) no domínio do cliente ou aplicativo. </p> </td>
+   <td colname="col2"> <p>O Gerenciador de Audiências grava sua ID sincronizada em um cookie primário (ou outro espaço de armazenamento endereçável) no domínio do cliente ou aplicativo. </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <b>Chamadas de evento subsequentes</b> </td>
-   <td colname="col2"> <p>Chamadas de evento adicionais leem a ID do Audience Manager do domínio do cliente e enviam-na para o Audience Manager. </p> </td>
+   <td colname="col1"> <b>Chamadas de Evento subsequentes</b> </td>
+   <td colname="col2"> <p>Chamadas adicionais de evento leem a ID do Gerenciador de Audiências do domínio do cliente e enviam-na para o Gerenciador de Audiências. </p> </td>
   </tr> 
  </tbody>
 </table>
@@ -57,10 +57,10 @@ Para começar, é necessário configurar o serviço de [!DNL Experience Cloud] I
 
 ## Chamadas de cancelamento {#opt-out-calls}
 
-O [!UICONTROL declared ID] processo atende às preferências do visitante do site para excluir a definição de metas do Audience Manager por seu site. Quando o Audience Manager recebe uma solicitação de recusa, a solicitação [!DNL JSON] retornada pelo [!UICONTROL DCS] contém o código de erro 171, com a mensagem &quot;Encontrada tag de recusa&quot;, em vez da ID de usuário do Audience Manager.
+O [!UICONTROL declared ID] processo atende às preferências de visitante do site para excluir a definição de metas do Gerenciador de Audiências pelo seu site. Quando o Gerenciador de Audiências recebe uma solicitação de recusa, a solicitação [!DNL JSON] retornada pelo [!UICONTROL DCS] contém o código de erro 171, com a mensagem &quot;opt out tag encontrada&quot;, em vez da ID de usuário do Gerenciador de Audiências.
 
-* O Audience Manager pode enviar uma [!UICONTROL declared ID] opção de não participação ao lado de um Audience Manager [!UICONTROL UUID] no [!DNL URL].
-* A [!UICONTROL declared ID] opção de não participação é armazenada no [!UICONTROL Profile Cache Server ([!UICONTROL PCS]) por parceiro. Não há cancelamento de nível de plataforma usando [!UICONTROL declared IDs]. Além disso, o Audience Manager recusa o usuário daquela região específica na borda (a opção de não participação não atravessa [!UICONTROL DCS] regiões).
+* O Gerenciador de Audiências pode enviar uma [!UICONTROL declared ID] opção de não participação ao lado de um Gerente de Audiências [!UICONTROL UUID] no [!DNL URL].
+* A [!UICONTROL declared ID] opção de não participação é armazenada no [!UICONTROL Perfil Cache Server ([!UICONTROL PCS]) em uma base por parceiro. Não há cancelamento de nível de plataforma usando [!UICONTROL declared IDs]. Além disso, o Gerenciador de Audiências rejeita o usuário daquela região específica na borda (a opção de não participação não atravessa [!UICONTROL DCS] regiões).
 
 Consulte Privacidade [de](../overview/data-security-and-privacy/data-privacy.md) dados para obter mais informações sobre como recusar a coleta de dados.
 
@@ -113,7 +113,7 @@ Esses métodos ainda funcionam, mas são considerados obsoletos. Essas informaç
   </tr> 
   <tr> 
    <td colname="col1"> <p>Opção de não participação no nível do parceiro </p> </td> 
-   <td colname="col2"> <p> <code> https://demoptout.jpg?d_dpuuid= user ID&amp;d_dpid= data provider ID </code> </p> <p>Uma opção de não participação em nível de parceiro é armazenada para o mapeamento mais recente desse par <code> dpid </code> + <code> dpuuid </code> para um UUID do AAM. Se não houver mapeamento existente anteriormente, o Audience Manager verificará se a solicitação contém um UUID do AAM no cookie e, se houver, o usará para armazenar a opção de não participação. Caso contrário, o Audience Manager gera um novo UUID do AAM e armazena a opção de não participação sob ele. </p> </td> 
+   <td colname="col2"> <p> <code> https://demoptout.jpg?d_dpuuid= user ID&amp;d_dpid= data provider ID </code> </p> <p>Uma opção de não participação em nível de parceiro é armazenada para o mapeamento mais recente desse par <code> dpid </code> + <code> dpuuid </code> para um UUID do AAM. Se não houver mapeamento existente anteriormente, o Gerenciador de Audiências verificará se a solicitação contém um UUID do AAM no cookie e, se ele existir, o usará para armazenar a opção de não participação. Caso contrário, o Audiência Manager gera um novo UUID do AAM e armazena a opção de não participação sob ele. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_dpuuid </code> + <code> d_dpid </code> e explícito <code> d_uuid </code> </p> </td> 
@@ -152,14 +152,14 @@ Em cada par de valor chave:
  </tbody> 
 </table>
 
-## Chamadas de Evento de Exemplo {#sample-event-calls}
+## Chamadas de Evento de exemplo {#sample-event-calls}
 
-Considerando esses pares de valores chave e sua sintaxe necessária, você faria chamadas de evento, como mostrado abaixo.
+Considerando esses pares de valor chave e sua sintaxe necessária, você faria chamadas de evento, como mostrado abaixo.
 
 <table id="table_4C8E23CC663942BA8FA6BB1EE5929440"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> A chamada de evento inclui </th> 
+   <th colname="col1" class="entry"> A chamada do Evento inclui </th> 
    <th colname="col2" class="entry"> Amostra de código </th> 
   </tr> 
  </thead>
@@ -187,7 +187,7 @@ Descreve as variáveis de configuração usadas para passar as IDs declaradas po
 
 <!-- r_dil_declared_id_vars.xml -->
 
-Quando usado com o [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), você não precisa mais passar [!UICONTROL declared IDs] com as variáveis `dpid` e `dpuuid` desaprovadas. Em vez disso, as versões atuais de [!UICONTROL DIL] dependem da `visitorService` função para obter o [!UICONTROL declared IDs] da `setCustomerIDs` função no [!UICONTROL Adobe Experience Platform Identity Service]. For more information, see [Customer IDs and Authentication States](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html). Você faria uma chamada `visitorService` como mostrado `DIL.create` abaixo.
+Quando usado com o [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html), você não precisa mais passar [!UICONTROL declared IDs] com as variáveis `dpid` e `dpuuid` desaprovadas. Em vez disso, as versões atuais de [!UICONTROL DIL] dependem da `visitorService` função para obter o [!UICONTROL declared IDs] da `setCustomerIDs` função no [!UICONTROL Adobe Experience Platform Identity Service]. For more information, see [Customer IDs and Authentication States](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). Você faria uma chamada `visitorService` como mostrado `DIL.create` abaixo.
 
 ```js
 var vDil = DIL.create({
@@ -198,7 +198,7 @@ var vDil = DIL.create({
 });
 ```
 
-No par de `namespace` chave-valor, `MCORG` está a ID da [!DNL Experience Cloud] organização. Se você não tiver essa ID, poderá encontrá-la na [!UICONTROL Administration] seção do [!DNL Experience Cloud] painel. Você precisa de permissões de administrador para exibir este painel. See [Administration: Core Services](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html).
+No par de `namespace` chave-valor, `MCORG` está a ID da [!DNL Experience Cloud] organização. Se você não tiver essa ID, poderá encontrá-la na [!UICONTROL Administration] seção do [!DNL Experience Cloud] painel. Você precisa de permissões de administrador para visualização deste painel. See [Administration: Core Services](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html).
 
 ## Funções obsoletas {#deprecated-functions}
 
@@ -217,7 +217,7 @@ A tabela a seguir descreve as variáveis herdadas usadas pelo `declaredId` objet
   <tr> 
    <td colname="col1"> <code> dpid </code> </td> 
    <td colname="col2"> String   </td> 
-   <td colname="col3"> <p>ID do parceiro de dados atribuída pelo Audience Manager. </p> </td> 
+   <td colname="col3"> <p>ID do parceiro de dados atribuída pelo Gerenciador de Audiências. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> dpuuid </code> </td> 
@@ -229,7 +229,7 @@ A tabela a seguir descreve as variáveis herdadas usadas pelo `declaredId` objet
 
 ### `DPID` e `DPUUID`
 
-O Audience Manager compara e corresponde à ID de usuário combinada `DPID` e `DPUUID` a correspondente no sistema. Se uma ID não existir, o Audience Manager criará uma nova ID de usuário e a sincronizará com a `DPID/DPUUID` combinação. Quando o Audience Manager corresponde ou cria uma ID de usuário (a), ela retorna essa ID na `UUID`[!DNL JSON] resposta ao cookie no domínio do cliente (cookie primário) ou em outro armazenamento local.
+O Gerenciador de Audiências compara e corresponde à ID do usuário combinada `DPID` e `DPUUID` à ID correspondente em nosso sistema. Se uma ID não existir, o Gerenciador de Audiências criará uma nova ID de usuário e a sincronizará com a `DPID/DPUUID` combinação. Quando o Gerenciador de Audiências corresponde ou cria uma ID de usuário (a), ela retorna essa ID na `UUID`[!DNL JSON] resposta ao cookie no domínio do cliente (cookie primário) ou em outro armazenamento local.
 
 Chame essa função quando estiver usando [!UICONTROL DIL] v6.1 ou anterior. No entanto, essa função foi descontinuada em favor da nova versão obtida [!UICONTROL declared IDs] do [!UICONTROL Adobe Experience Platform Identity Service].
 
@@ -251,7 +251,7 @@ DIL.create({
 
 >[!NOTE]
 >
->Se você fizer uma [!DNL API] chamada com uma `declaredID` combinação diferente, a nova combinação será usada apenas para essa chamada. Outras chamadas regulares de evento usarão a `DIL.create` `declaredID` combinação original.
+>Se você fizer uma [!DNL API] chamada com uma `declaredID` combinação diferente, a nova combinação será usada apenas para essa chamada. Outras chamadas regulares de evento usarão a `DIL.create` combinação original `declaredID` .
 
 ```js
 DIL.getDil('partner name').api.signals({...}).declaredId({
@@ -262,13 +262,13 @@ DIL.getDil('partner name').api.signals({...}).declaredId({
 
 ## Exemplos de solicitação/resposta {#request-response-examples}
 
-A solicitação envia um provedor de dados e uma ID de usuário para o Audience Manager:
+A solicitação envia um provedor de dados e uma ID de usuário para o Gerenciador de Audiências:
 
 ```
 https://my_domain.net/event?d_rtbd=json&d_cb=myCallback&key=val&d_dpuuid=1234&d_dpid=5678
 ```
 
-A resposta retorna a ID do Audience Manager (por exemplo, `UUID`) que é gravada em um cookie primário no domínio da página.
+A resposta retorna a ID do Gerenciador de Audiências (por exemplo, `UUID`) que é gravada em um cookie primário no domínio da página.
 
 ```js
 myCallback({
@@ -277,9 +277,9 @@ myCallback({
 })
 ```
 
-## Não direcionar e recusar chamadas {#do-not-target}
+## Não Público alvo e Chamadas de Recusa {#do-not-target}
 
-O [!UICONTROL declared ID] processo atende às preferências do visitante do site para excluir a definição de metas do Audience Manager por seu site. Quando o Audience Manager recebe uma solicitação de recusa, o [!UICONTROL DCS] [!DNL JSON] retorna um objeto vazio em vez da ID de usuário do Audience Manager.
+O [!UICONTROL declared ID] processo atende às preferências de visitante do site para excluir a definição de metas do Gerenciador de Audiências pelo seu site. Quando o Gerenciador de Audiências recebe uma solicitação de recusa, o [!UICONTROL DCS] [!DNL JSON] retorna um objeto vazio em vez da ID de usuário do Gerenciador de Audiências.
 
 >[!MORELIKETHIS]
 >
