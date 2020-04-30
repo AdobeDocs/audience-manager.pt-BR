@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Códigos de erros, mensagens e exemplos de DCS
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 translation-type: tm+mt
-source-git-commit: 05609645bef676bbd98aa08caf32a4ae2dcb6f00
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -31,17 +31,17 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>0 </p> </td> 
    <td colname="col2"> <p>Erro não especificado </p> </td> 
-   <td colname="col3"> <p>Este é um erro geral que trata eventos não cobertos pelos outros manipuladores de erros. A solução de problemas desse erro é difícil. Pode ser causado por uma variedade de ações ou eventos desconhecidos. </p> <p>Se você receber esse erro, tente sua solicitação do <span class="wintitle"> DCS</span> novamente. Entre em contato com seu representante da Adobe se o problema persistir. </p> </td> 
+   <td colname="col3"> <p>Este é um erro catch-all que manipula eventos que não são cobertos pelos outros manipuladores de erro. A solução de problemas desse erro é difícil. Pode ser causado por uma variedade de ações ou eventos desconhecidos. </p> <p>Se você receber esse erro, tente sua solicitação do <span class="wintitle"> DCS</span> novamente. Entre em contato com seu representante da Adobe se o problema persistir. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>1 </p> </td> 
    <td colname="col2"> <p>Não foi possível localizar a configuração para o nome do host: <code><i>hostname</i></code> </p> </td> 
-   <td colname="col3"> <p>O nome do host enviado na solicitação não foi configurado pela equipe de provisionamento do parceiro. Entre em contato com seu representante da Adobe se vir esta mensagem de erro. </p> </td> 
+   <td colname="col3"> <p>O nome do host enviado na solicitação não foi configurado pela nossa equipe de provisionamento do parceiro. Entre em contato com seu representante da Adobe se vir esta mensagem de erro. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2 </p> </td> 
    <td colname="col2"> <p>Valor inválido <code> d_orgid</code> (não foi possível localizar uma configuração para esta ID de organização): <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>A ID da organização está incorreta. </p> <p>Verifique sua ID e tente a solicitação novamente. Se você não souber ou não possuir a ID da empresa, consulte a seção "Página de administração" na Administração <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html" format="https" scope="external"> da</a> Experience Cloud para obter informações sobre como encontrá-la. </p> </td> 
+   <td colname="col3"> <p>A ID da organização está incorreta. </p> <p>Verifique sua ID e tente a solicitação novamente. Se você não souber ou não possuir a ID da organização, consulte a seção "Página de administração" em <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html" format="https" scope="external"> Organizações e vinculação</a> de contas para obter informações sobre como encontrá-la. </p> </td> 
   </tr>
  </tbody>
 </table>
@@ -70,11 +70,11 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>102 </p> </td> 
    <td colname="col2"> <p>Id aam inválida transmitida na solicitação <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>A chamada <span class="wintitle"> DCS</span> contém uma ID inválida <span class="keyword"> do Audience Manager</span> . </p> <p>Verifique o par de <code> d_uuid=</code> chave-valor na string de cabeçalho. Verifique se você está transmitindo a ID correta do <span class="keyword"> Audience Manager</span> e tente a solicitação novamente. </p> </td> 
+   <td colname="col3"> <p>A chamada <span class="wintitle"> DCS</span> contém uma ID de gerente <span class="keyword"> de</span> Audiência inválida. </p> <p>Verifique o par de <code> d_uuid=</code> chave-valor na string de cabeçalho. Verifique se você está transmitindo a ID correta do gerente <span class="keyword"> de</span> Audiência e tente a solicitação novamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>104 </p> </td> 
-   <td colname="col2"> <p>Todas as ids do cliente são inválidas </p> </td> 
+   <td colname="col2"> <p>Todas as IDs do cliente são inválidas </p> </td> 
    <td colname="col3"> <p>Todas as IDs do cliente na sua chamada são inválidas. Verifique suas IDs e tente novamente. </p> </td> 
   </tr>
     <tr> 
@@ -85,7 +85,7 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>111 </p> </td> 
    <td colname="col2"> <p>Token <span class="wintitle"> IMS</span> inválido recebido </p> </td> 
-   <td colname="col3"> <p>Retornado para o Audience Manager - integrações do Adobe Target. O erro é emitido quando uma chamada é feita para o DCS, contendo um token IMS inválido. O token pode estar malformado, expirado ou o usuário pode não estar autorizado a acessar o recurso desejado. </p> </td>
+   <td colname="col3"> <p>Retornado para o Gerenciador de Audiências - Integrações de Públicos alvos da Adobe. O erro é emitido quando uma chamada é feita para o DCS, contendo um token IMS inválido. O token pode estar malformado, expirado ou o usuário pode não estar autorizado a acessar o recurso desejado. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -103,7 +103,7 @@ In the tables below, *italics* represents a variable placeholder.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>171 </p> </td> 
-   <td colname="col2"> <p>Foi encontrada uma tag de recusa para a id <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Tag opt out encontrada para id <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>Um cliente optou por não receber publicidade com base em juros. </p> </td> 
   </tr> 
   <tr> 
@@ -136,7 +136,7 @@ In the tables below, *italics* represents a variable placeholder.
  </tbody> 
 </table>
 
-## Códigos de erro de recuperação de perfil {#profile-retrieval-error-codes}
+## Códigos de erro de recuperação de Perfis {#profile-retrieval-error-codes}
 
 <table id="table_CFF2252A3CC54960802905454A867D7A"> 
  <thead> 
@@ -149,13 +149,13 @@ In the tables below, *italics* represents a variable placeholder.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>200 </p> </td> 
-   <td colname="col2"> <p> Não é possível ler as características do cache de perfil para a ID: <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p> Não é possível ler as características do cache de perfis para a ID: <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>Retornado quando um perfil de usuário não pode ser lido de nosso armazenamento interno. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>201 </p> </td> 
-   <td colname="col2"> <p> Não é possível ler as IDs do dispositivo do cache de perfil para a ID do cliente: <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Retornado quando a ID <a href="../../../reference/ids-in-aam.md"> do</a> dispositivo não pode ser recuperada para uma regra de mesclagem do Link do perfil. </p> </td> 
+   <td colname="col2"> <p> Não é possível ler as IDs do dispositivo do cache de perfis para a ID do cliente: <code><i>ID</i></code> </p> </td> 
+   <td colname="col3"> <p>Retornado quando a ID <a href="../../../reference/ids-in-aam.md"> do</a> dispositivo não pode ser recuperada para uma regra de mesclagem de Link de Perfil. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>202 </p> </td> 
@@ -194,7 +194,7 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>300 </p> </td> 
    <td colname="col2"> <p>ID de cliente inválida <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>A ID do cliente é inválida (valores ausentes para fonte de dados, códigos de integração ausentes, formato inválido para fontes de dados, ID do cliente bloqueada, ID do cliente em branco, tentativa de acesso não autorizado a uma fonte de dados que não pertence ao parceiro). </p> </td>
+   <td colname="col3"> <p>A ID do cliente é inválida (valores ausentes para a fonte de dados, códigos de integração ausentes, formato inválido para fontes de dados, ID do cliente bloqueada, ID do cliente em branco, tentativa de acesso não autorizado a uma fonte de dados que não pertence ao parceiro). </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p>301 </p> </td> 
@@ -209,22 +209,22 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
    <td colname="col2"> <p>ID do cliente bloqueado <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Retornado quando a ID do cliente foi identificada como mal-intencionada e está na lista negra. </p> </td> 
+   <td colname="col3"> <p>Retornado quando a ID do cliente foi identificada como maliciosa e foi incluído na blacklist. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>304 </p> </td> 
    <td colname="col2"> <p>ID da fonte de dados bloqueada <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Retornado quando a ID da fonte de dados foi identificada como mal-intencionada e está na lista negra. </p> </td> 
+   <td colname="col3"> <p>Retornado quando a ID da fonte de dados foi identificada como maliciosa e foi incluído na blacklist. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>306 </p> </td> 
    <td colname="col2"> <p>ID de dispositivo declarada bloqueada <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>A ID do dispositivo foi identificada como mal-intencionada e está na lista negra. Isso pode acontecer quando recebemos uma quantidade extrema de solicitações <span class="wintitle"> DCS</span> contendo essa ID de dispositivo em um curto período de tempo. </p> </td>
+   <td colname="col3"> <p>A ID do dispositivo foi identificada como maliciosa e foi incluído na blacklist. Isso pode acontecer quando recebemos uma quantidade extrema de solicitações <span class="wintitle"> DCS</span> contendo essa ID de dispositivo em um curto período de tempo. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>307 </p> </td> 
    <td colname="col2"> <p>Operação de perfil bloqueada para <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Uma ação de leitura/gravação foi bloqueada porque uma ID foi identificada como mal-intencionada e está na lista negra. Consulte o código de erro 306. </p> </td> 
+   <td colname="col3"> <p>Uma ação de leitura/gravação foi bloqueada porque uma ID foi identificada como maliciosa e foi incluído na blacklist. Consulte o código de erro 306. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>309 </p> </td> 
@@ -233,8 +233,8 @@ In the tables below, *italics* represents a variable placeholder.
   </tr>
   <tr> 
    <td colname="col1"> <p>310 </p> </td> 
-   <td colname="col2"> <p>A ID do cliente foi descartada porque excedeu o limite de um determinado namespace. A ID do namespace é <code><i>ID</i></code>, a ID do cliente é <code><i>ID</i></code>. </p> </td> 
-   <td colname="col3"> <p>Esse código de erro será retornado se houver mais de 3 IDs do cliente declaradas para o mesmo namespace (<code> DPID</code>) em uma chamada <span class="wintitle"> DCS</span> . </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </code> </p> <p>Nessa solicitação de exemplo de <span class="wintitle"> DCS</span> , há 4 ids declaradas para o mesmo namespace (com o código de integração um). Uma das IDs é descartada e o erro 310 é retornado. </p> </td> 
+   <td colname="col2"> <p>A ID do cliente foi descartada porque excedeu o limite de uma determinada namespace. A ID da Namespace é <code><i>ID</i></code>, a ID do cliente é <code><i>ID</i></code>. </p> </td> 
+   <td colname="col3"> <p>Esse código de erro será retornado se houver mais de 3 IDs do cliente declaradas para a mesma namespace (<code> DPID</code>) em uma chamada <span class="wintitle"> DCS</span> . </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </code> </p> <p>Nessa solicitação de exemplo do <span class="wintitle"> DCS</span> , há quatro IDs declaradas para a mesma namespace (com o código de integração um). Uma das IDs é descartada e o erro 310 é retornado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>311 </p> </td> 
@@ -244,7 +244,7 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>312 </p> </td> 
    <td colname="col2"> <p>A solicitação contém uma ID de dispositivo global inválida </p> </td> 
-   <td colname="col3"> <p>O <span class="wintitle">DCS</span> retorna esse código de erro quando a solicitação contém uma ID de dispositivo global inválida. O DCS ignora a ID inválida e lança um erro 312 junto com os erros específicos da ID inválida. Consulte Fontes <a href="../../../features/global-data-sources.md" format="dita" scope="local">de dados</a> globais e <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">Índice de IDs no Audience Manager</a> para obter informações detalhadas sobre os formatos corretos de ID de publicidade do dispositivo e as fontes de dados globais correspondentes.</p>
+   <td colname="col3"> <p>O <span class="wintitle">DCS</span> retorna esse código de erro quando a solicitação contém uma ID de dispositivo global inválida. O DCS ignora a ID inválida e lança um erro 312 junto com os erros específicos da ID inválida. Consulte Fontes <a href="../../../features/global-data-sources.md" format="dita" scope="local">de dados</a> globais e <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">Índice de IDs no Gerenciador</a> de Audiências para obter informações detalhadas sobre os formatos corretos de ID de publicidade do dispositivo e as fontes de dados globais correspondentes.</p>
    <p>Exemplo de uma chamada incorreta: <code>"http://partner.demdex.net/event?d_rtbd=json&amp;d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
    <p>Explicação: Um <span class="keyword">IDFA (DPID 20915)</span> deve ser uma ID em maiúsculas. A ID fornecida na solicitação está em minúsculas.</p>
    </td>
