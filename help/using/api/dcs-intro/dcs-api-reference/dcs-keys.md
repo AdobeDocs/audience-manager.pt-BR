@@ -1,20 +1,20 @@
 ---
-description: Lista e descreve a sintaxe e os atributos suportados (ou pares de valores chave) que podem ser passados para os Servidores de Coleta de Dados (DCS). Essas informações podem ajudar a formatar as solicitações do DCS e entender os parâmetros retornados por este sistema.
-seo-description: Lista e descreve a sintaxe e os atributos suportados (ou pares de valores chave) que podem ser passados para os Servidores de Coleta de Dados (DCS). Essas informações podem ajudar a formatar as solicitações do DCS e entender os parâmetros retornados por este sistema.
+description: Listas e descreve a sintaxe e os atributos suportados (ou pares de valores chave) que podem ser transmitidos para os Servidores de Coleta de Dados (DCS). Essas informações podem ajudar a formatar as solicitações do DCS e entender os parâmetros retornados por este sistema.
+seo-description: Listas e descreve a sintaxe e os atributos suportados (ou pares de valores chave) que podem ser transmitidos para os Servidores de Coleta de Dados (DCS). Essas informações podem ajudar a formatar as solicitações do DCS e entender os parâmetros retornados por este sistema.
 seo-title: Atributos suportados para chamadas de API DCS
 solution: Audience Manager
 title: Atributos suportados para chamadas de API DCS
 keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d_dst=1, d_dst_filter, d_mid, d_ptfm, d_nsid, d_rs, d_rtbd=json, d_tdpid_ic
 uuid: 0b98ed11-314b-4500-afde-45a041112150
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
 
 # Atributos suportados para chamadas de API DCS {#supported-attributes-for-dcs-api-calls}
 
-Lista e descreve a sintaxe e os atributos suportados (ou pares de valores chave) que você pode passar para o [!UICONTROL Data Collection Servers] ([!UICONTROL DCS]). Essas informações podem ajudar a formatar suas [!UICONTROL DCS] solicitações e entender os parâmetros retornados por este sistema.
+Listas e descreve a sintaxe e os atributos suportados (ou pares de valores chave) que podem ser transmitidos para o [!UICONTROL Data Collection Servers] ([!UICONTROL DCS]). Essas informações podem ajudar a formatar suas [!UICONTROL DCS] solicitações e entender os parâmetros retornados por este sistema.
 
 ## Prefixos de atributo {#attribute-prefixes}
 
@@ -34,7 +34,7 @@ O [!UICONTROL DCS] depende de prefixos específicos adicionados às chaves em pa
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_</code> </p> </td> 
-   <td colname="col2"> <p><span class="keyword"> Atributos do Audience Manager</span> . </p> </td> 
+   <td colname="col2"> <p><span class="keyword"> Atributos do Gerenciador</span> de Audiências. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> h_</code> </p> </td> 
@@ -42,7 +42,7 @@ O [!UICONTROL DCS] depende de prefixos específicos adicionados às chaves em pa
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> p_</code> </p> </td> 
-   <td colname="col2"> <p>Atributos privados definidos pelo cliente. </p> <p> O DCS aceita seus próprios dados privados quando a chave tem um <code> p_</code> prefixo. Os dados privados são usados para avaliação de características, mas não serão registrados ou armazenados em nosso sistema. Por exemplo, digamos que você tenha uma característica definida como <code> customers = p_age&lt;25</code> e você passe <code> p_age=23</code> em uma chamada de evento. Dadas essas condições, o usuário que atende aos critérios de qualificação com base na idade se qualifica para a característica, mas o par de valor chave é descartado depois que o <span class="keyword"> Audience Manager</span> recebe a solicitação e não é registrado. </p> </td>
+   <td colname="col2"> <p>Atributos privados definidos pelo cliente. </p> <p> O DCS aceita seus próprios dados privados quando a chave tem um <code> p_</code> prefixo. Os dados privados são usados para avaliação de características, mas não serão registrados ou armazenados em nosso sistema. Por exemplo, digamos que você tenha uma característica definida como <code> customers = p_age&lt;25</code> e você passe <code> p_age=23</code> em uma chamada de evento. Dadas essas condições, o usuário que atende aos critérios de qualificação com base na idade se qualifica para a característica, mas o par de valor chave é descartado depois que o <span class="keyword"> Audiência Manager</span> recebe a solicitação e não é registrado. </p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -69,7 +69,7 @@ Todos eles são opcionais, a menos que você deseje uma resposta do [!UICONTROL 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_cid</code> </p> </td> 
-   <td colname="col2"> <p>Contém um ou mais pares de IDs (<code> DPID</code>) do provedor de dados e IDs de usuário do provedor de dados (<code> DPUUID</code>) atribuídas pelo <span class="keyword"> Audience Manager</span>. Se você usar vários pares de <code> DPID</code>s e <code> DPUUID</code>s, separe cada par com o caractere não imprimível <code> %01</code>. Por exemplo: <code><i>DPID</i>%01<i>DPUUUID</i></code>. </p> <p><code> d_cid</code> substitui <code> d_dpid</code> e <code> d_dpuuid</code>, que são obsoletos, mas ainda são compatíveis. Consulte <a href="../../../reference/cid.md">CID substitui DPID e DPUUID</a>. </p> </td>
+   <td colname="col2"> <p>Contém um ou mais pares de IDs (<code> DPID</code>) do provedor de dados e IDs de usuário do provedor de dados (<code> DPUUID</code>) atribuídas pelo Gerenciador <span class="keyword"> de</span>Audiências. Se você usar vários pares de <code> DPID</code>s e <code> DPUUID</code>s, separe cada par com o caractere não imprimível <code> %01</code>. Por exemplo: <code><i>DPID</i>%01<i>DPUUUID</i></code>. </p> <p><code> d_cid</code> substitui <code> d_dpid</code> e <code> d_dpuuid</code>, que são obsoletos, mas ainda são compatíveis. Consulte <a href="../../../reference/cid.md">CID substitui DPID e DPUUID</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cid_ic</code> </p> </td> 
@@ -77,11 +77,11 @@ Todos eles são opcionais, a menos que você deseje uma resposta do [!UICONTROL 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
-   <td colname="col2"> <p>Desative o uso de cookies de terceiros para cumprir as normas de proteção infantil. Esse parâmetro é definido dinamicamente pelo Adobe Experience Platform Identity Service e depende da <code> idSyncDisable3rdPartySyncing</code> configuração. Consulte Suporte <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_coppa.html" format="https" scope="external"> COPPA no Adobe Experience Platform Identity Service</a>. </p> </td>
+   <td colname="col2"> <p>Desative o uso de cookies de terceiros para cumprir as normas de proteção infantil. Esse parâmetro é definido dinamicamente pelo Adobe Experience Platform Identity Service e depende da <code> idSyncDisable3rdPartySyncing</code> configuração. Consulte Suporte <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/coppa.html" format="https" scope="external"> COPPA no Adobe Experience Platform Identity Service</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cts=1</code> </p> <p><code> d_cts=2</code> </p> </td> 
-   <td colname="col2"> <p>Opcional. Ativado mediante solicitação do cliente. Entre em contato com seu consultor do Adobe Audience Manager ou com o Atendimento ao cliente. </p> <p>Indica que características e segmentos devem ser retornados dentro da <code> JSON</code> resposta. </p> <p> 
+   <td colname="col2"> <p>Opcional. Ativado mediante solicitação do cliente. Entre em contato com seu consultor do Audiência Manager ou com o Atendimento ao cliente. </p> <p>Indica que características e segmentos devem ser retornados dentro da <code> JSON</code> resposta. </p> <p> 
      <ul id="ul_8B936ACB18724681B959783421ACF026"> 
       <li id="li_792A6248F49141C0B4B214C754D5F5C5"> <p><code> d_cts=1</code> retorna IDs <a href="../../../reference/ids-in-aam.md"></a> de segmento herdadas para os segmentos. </p> </li>
       <li id="li_F304CA651F3C444A9A24576726925D87"> <p><code> d_cts=2</code> retorna IDs de segmento para os segmentos. </p> </li>
@@ -111,7 +111,7 @@ Todos eles são opcionais, a menos que você deseje uma resposta do [!UICONTROL 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_dst_filter</code> </p> </td> 
-   <td colname="col2"> <p><code> d_dst_filter</code> é um atributo reservado, usado na integração entre o Adobe Analytics e o Audience Manager. </p> <p>Não recomendamos a criação de características que usam atributos reservados. A Adobe pode alterar atributos reservados a qualquer momento. </p> </td> 
+   <td colname="col2"> <p><code> d_dst_filter</code> é um atributo reservado, usado na integração entre o Adobe Analytics e o Audiência Manager. </p> <p>Não recomendamos a criação de características que usam atributos reservados. A Adobe pode alterar atributos reservados a qualquer momento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_jsonv=1|0</code> </p> </td> 
@@ -119,15 +119,15 @@ Todos eles são opcionais, a menos que você deseje uma resposta do [!UICONTROL 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p>Especifica o conjunto da Experience Cloud ID e usado pelo serviço da <span class="keyword"> Experience Cloud</span> ID. For more information about the ECID, see <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </p> </td> 
+   <td colname="col2"> <p>Especifica o conjunto da Experience Cloud ID e usado pelo serviço da <span class="keyword"> Experience Cloud</span> ID. Para obter mais informações sobre o ECID, consulte <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies e o Serviço</a>de identidade da Experience Cloud. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_nsid</code> </p> </td> 
-   <td colname="col2"> <p>Nomear ID do espaço. Indica qual contêiner JavaScript é usado. Usada pelo <span class="wintitle"> DIL</span> para sincronização de id. </p> </td> 
+   <td colname="col2"> <p>Nomear ID do espaço. Indica qual container JavaScript é usado. Usada pelo <span class="wintitle"> DIL</span> para sincronização de id. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_ptfm </code> </p> </td> 
-   <td colname="col2"> <p>Permite que o Audience Manager distinga as solicitações móveis das solicitações de desktop. Os valores compatíveis incluem: </p> <p> 
+   <td colname="col2"> <p>Permite que o Gerenciador de Audiências diferencie solicitações móveis de solicitações de desktop. Os valores compatíveis incluem: </p> <p> 
      <ul id="ul_A01D4B15C89F4713A39E08377924D632"> 
       <li id="li_E17CC839265B4EB9AC44A3DA31A23857"> <code> ios</code> </li> 
       <li id="li_468F5903CD3048B5AE02A3FDA9B3C4F1"> <code> android</code> </li> 
@@ -137,7 +137,7 @@ Todos eles são opcionais, a menos que você deseje uma resposta do [!UICONTROL 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_rs</code> </p> </td> 
-   <td colname="col2"> <p>Obsoleto. <code> d_rs</code> é um atributo reservado, usado na integração herdada entre o <span class="keyword"> Adobe Analytics</span> e o <span class="keyword"> Audience Manager</span>. </p> <p>Não recomendamos a criação de características que usam atributos reservados. A Adobe pode alterar atributos reservados a qualquer momento. </p> </td> 
+   <td colname="col2"> <p>Obsoleto. <code> d_rs</code> é um atributo reservado, usado na integração herdada entre o <span class="keyword"> Adobe Analytics</span> e o Gerenciador <span class="keyword"> de</span>Audiências. </p> <p>Não recomendamos a criação de características que usam atributos reservados. A Adobe pode alterar atributos reservados a qualquer momento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_rtbd=json</code> </p> </td> 
