@@ -1,13 +1,13 @@
 ---
-description: Para criar uma nova fonte de dados, vá até Dados de público-alvo > Fontes de dados > Adicionar novo e conclua as etapas para cada seção descrita aqui. São necessárias permissões de administrador para criar uma fonte de dados.
+description: Para criar uma nova fonte de dados, vá até Dados de Audiência > Fontes de dados > Adicionar novo e conclua as etapas para cada seção descrita aqui. São necessárias permissões de administrador para criar uma fonte de dados.
 keywords: data sources;manage data source;audience manager data source
-seo-description: Para criar uma nova fonte de dados, vá até Dados de público-alvo > Fontes de dados > Adicionar novo e conclua as etapas para cada seção descrita aqui. São necessárias permissões de administrador para criar uma fonte de dados.
+seo-description: Para criar uma nova fonte de dados, vá até Dados de Audiência > Fontes de dados > Adicionar novo e conclua as etapas para cada seção descrita aqui. São necessárias permissões de administrador para criar uma fonte de dados.
 seo-title: Criar uma fonte de dados
 solution: Audience Manager
 title: Gerenciar fontes de dados
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -33,8 +33,8 @@ Para concluir a [!UICONTROL Data Source Details] seção:
 1. Forneça um código de integração. Geralmente, os códigos de integração são opcionais. Eles são necessários quando você deseja:
 
    * [Crie uma fonte](../features/profile-merge-rules/merge-rules-start.md#create-data-source)de dados entre dispositivos.
-   * Use o Serviço [de identificação da plataforma](https://marketing.adobe.com/resources/help/en_US/mcvid/)Adobe Experience.
-   * Trabalhar com regras [de mesclagem de](../features/profile-merge-rules/merge-rules-start.md)perfil.
+   * Use o Serviço [de identificação da plataforma](https://docs.adobe.com/content/help/en/id-service/using/home.html)Adobe Experience.
+   * Trabalhar com regras [de mesclagem de](../features/profile-merge-rules/merge-rules-start.md)Perfis.
 
 1. Escolha um **[!UICONTROL ID Type]**. As opções de Tipo de ID incluem:
 
@@ -53,7 +53,7 @@ Para concluir a [!UICONTROL Data Source Details] seção:
 
 ## Data Source Settings {#settings}
 
-Essas configurações determinam como uma fonte de dados é identificada, usada e compartilhada. Você também pode ativar o relatório de erros para arquivos de dados de entrada. Para concluir a [!UICONTROL Data Source Settings] seção:
+Essas configurações determinam como uma fonte de dados é identificada, usada e compartilhada. Você também pode ativar o relatórios de erro para arquivos de dados de entrada. Para concluir a [!UICONTROL Data Source Settings] seção:
 
 1. Marque uma [!UICONTROL Data Source Setting] caixa de seleção para aplicar uma opção à sua fonte de dados.
 2. Clique em **[!UICONTROL Save]**.
@@ -73,8 +73,8 @@ Exclua uma fonte de dados que não é mais necessária.
 >
 >Observe as seguintes restrições:
 >
->* Não é possível excluir um Público-alvo [ativo ou uma característica](../features/traits/client-activity-synced-audience-traits.md)sincronizada da fonte de dados.
->* Para clientes que usam o Adobe Analytics: O Audience Manager não permite que você exclua fontes de dados criadas automaticamente de seus conjuntos de [!DNL Analytics] relatórios. Use o Serviço [](https://marketing.adobe.com/resources/help/en_US/mcloud/) principal para desmapear essas fontes de dados.
+>* Não é possível excluir uma Audiência [ativa ou uma característica](../features/traits/client-activity-synced-audience-traits.md)sincronizada da fonte de dados.
+>* Para clientes que usam o Adobe Analytics: O Gerenciador de Audiências não permite que você exclua fontes de dados criadas automaticamente de seus conjuntos de [!DNL Analytics] relatórios. Use o Serviço [](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services-landing.html) principal para desmapear essas fontes de dados.
 
 
 1. Clique em **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**.
