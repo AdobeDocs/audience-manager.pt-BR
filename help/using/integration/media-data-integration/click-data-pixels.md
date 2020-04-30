@@ -1,30 +1,30 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Captura de dados de clique da campanha por meio de chamadas de pixels
+seo-title: Captura de dados de clique de Campanha por meio de chamadas de pixels
 solution: Audience Manager
-title: Captura de dados de clique da campanha por meio de chamadas de pixels
+title: Captura de dados de clique de Campanha por meio de chamadas de pixels
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 translation-type: tm+mt
-source-git-commit: 132e36175a69a270ea608643049931fbc06efc69
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
 
 # Capturing Campaign Click Data via Pixel Calls {#capturing-campaign-click-data-via-pixel-calls}
 
-O rastreamento de cliques permite a medição do envolvimento do visitante em toda a sua campanha, pois registra uma atividade baseada em cliques para criações de terceiros. Semelhante à coleção [de](/help/using/integration/media-data-integration/impression-data-pixels.md)impressões, uma chamada de evento é enviada para os servidores de coleta de dados do Audience Manager ([!UICONTROL DCS]) para processamento. O visitante é então redirecionado para o endereço da Web desejado.
+O rastreamento de cliques permite a medição do envolvimento do visitante em toda a campanha, pois registra a atividade baseada em cliques para criações de terceiros. Semelhante à coleção [de](/help/using/integration/media-data-integration/impression-data-pixels.md)impressões, uma chamada de evento é enviada para os servidores de coleta de dados do Gerenciador de Audiências ([!UICONTROL DCS]) para processamento. O visitante é então redirecionado para o endereço da Web desejado.
 
 >[!NOTE]
 >
->Entre em contato com sua consultoria do Adobe Audience Manager ou cliente potencial da conta para obter o URL exato específico do domínio do cliente.
+>Entre em contato com sua consultoria ou cliente potencial de conta do Adobe Audiência Manager para obter o URL exato específico do domínio do cliente.
 
 ## Requisitos
 
 As chamadas de rastreamento de cliques exigem os seguintes parâmetros:
 
-* `d_event=click`: Um par de valor chave que identifica uma chamada de evento como um evento de clique.
-* `d_rd=redirect URL`: Um par de valor chave que contém um redirecionamento codificado duas vezes [!DNL URL]. Se você estiver usando uma ferramenta de codificação on-line, execute a string pelo codificador e, em seguida, codifique o resultado novamente para que o redirecionamento funcione.
+* `d_event=click`: Um par de valor chave que identifica uma chamada de evento como um evento click.
+* `d_rd=redirect URL`: Um par de valor chave que contém um redirecionamento codificado por duplo [!DNL URL]. Se você estiver usando uma ferramenta de codificação on-line, execute a string pelo codificador e, em seguida, codifique o resultado novamente para que o redirecionamento funcione.
 
 Além disso, a chamada pode conter pares de valores chave que podem ser usados para qualificação de características ou para fornecer dados e metadados para outros relatórios.
 
@@ -44,7 +44,7 @@ Com base no exemplo acima, o navegador é redirecionado para o seguinte [!DNL UR
 
 ## Macros suportadas
 
-Os eventos de clique suportam as macros listadas na tabela a seguir. Uma macro é uma pequena unidade de código autocontido que é ativada quando a tag de anúncio é carregada para campanha e rastreamento de usuário. As macros serão transmitidas juntamente com o destino [!DNL URL], desde que estejam marcadas com o seguinte formato: `%macro%`. Algumas teclas não têm macros e aceitam um valor de ID codificado. As teclas que aceitam valores codificados são necessárias se você quiser analisar dados nos Relatórios [de otimização de](../../reporting/audience-optimization-reports/audience-optimization-reports.md)público-alvo.
+Clique em eventos que suportam as macros listadas na tabela a seguir. Uma macro é uma pequena unidade de código autocontido que é ativada quando a tag do anúncio é carregada para campanha e rastreamento do usuário. As macros serão transmitidas juntamente com o destino [!DNL URL], desde que estejam marcadas com o seguinte formato: `%macro%`. Algumas teclas não têm macros e aceitam um valor de ID codificado. As teclas que aceitam valores codificados são necessárias se você quiser analisar dados nos Relatórios [de otimização de](../../reporting/audience-optimization-reports/audience-optimization-reports.md)Audiência.
 
 <table id="table_6EB65C3B7D0E49C59AA6C932549E33FC"> 
  <thead> 
@@ -63,17 +63,17 @@ Os eventos de clique suportam as macros listadas na tabela a seguir. Uma macro �
   <tr> 
    <td colname="col1"> <p> <code> d_adsrc</code> </p> </td> 
    <td colname="col02"> <p>Sem macro. </p> <p>Aceita um valor de ID codificado. </p> </td> 
-   <td colname="col2"> <p>ID do anunciante.</p> <p>Um código de integração para a fonte de dados do anunciante. Observe que isso não está relacionado às fontes de dados do Audience Manager.</p> <p> Necessário para <span class="wintitle"> relatórios de Otimização</span> de público-alvo. </p> </td> 
+   <td colname="col2"> <p>ID do anunciante.</p> <p>Um código de integração para a fonte de dados do anunciante. Observe que isso não está relacionado às fontes de dados do Gerenciador de Audiências.</p> <p> Necessário para relatórios de Otimização <span class="wintitle"> de</span> Audiência. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_bu</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_bu%</code> </p> </td> 
-   <td colname="col2"> <p>ID numérica da unidade de negócios. </p> <p> Necessário para <span class="wintitle"> relatórios de Otimização</span> de público-alvo. </p> </td> 
+   <td colname="col2"> <p>ID numérica da unidade de negócios. </p> <p> Necessário para relatórios de Otimização <span class="wintitle"> de</span> Audiência. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_campaign</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_campaign%</code> </p> </td> 
-   <td colname="col2"> <p>ID de campanha numérica do servidor de publicidade. </p> <p> Necessário para <span class="wintitle"> relatórios de Otimização</span> de público-alvo. </p> </td> 
+   <td colname="col2"> <p>ID de campanha numérica do servidor de publicidade. </p> <p> Necessário para relatórios de Otimização <span class="wintitle"> de</span> Audiência. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_creative</code> </p> </td> 
@@ -83,17 +83,17 @@ Os eventos de clique suportam as macros listadas na tabela a seguir. Uma macro �
   <tr> 
    <td colname="col1"> <p> <code> d_dpid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_id%</code> </p> </td> 
-   <td colname="col2"> <p>ID do provedor de dados. </p> <p>Geralmente usado com <code> d_dpuuid</code> para vincular uma ID de provedor de dados a uma ID de usuário. </p> <p>Opcional. </p> </td> 
+   <td colname="col2"> <p>ID do provedor de dados. </p> <p>Geralmente usado com <code> d_dpuuid</code> o para vincular uma ID de provedor de dados a uma ID de usuário. </p> <p>Opcional. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_dpuuid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_dpuuid%</code> </p> </td> 
-   <td colname="col2"> <p>ID exclusiva do usuário fornecida pelo provedor de dados. </p> <p>Geralmente usado com <code> d_dpid</code> para vincular uma ID de usuário a uma ID de provedor de dados. </p> </td> 
+   <td colname="col2"> <p>ID exclusiva do usuário fornecida pelo provedor de dados. </p> <p>Geralmente usado com <code> d_dpid</code> o para vincular uma ID de usuário a uma ID de provedor de dados. </p> </td> 
   </tr>
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Experience Cloud ID (ECID). </span> For more information about the ECID, see <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </p> <p>Opcional. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Experience Cloud ID (ECID). </span> For more information about the ECID, see <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </p> <p>Opcional. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_placement</code> </p> </td> 
@@ -118,7 +118,7 @@ Os eventos de clique suportam as macros listadas na tabela a seguir. Uma macro �
   <tr> 
    <td colname="col1"> <p> <code> d_src</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_src%</code> </p> </td> 
-   <td colname="col2"> <p>DPID da origem de onde o Audience Manager extrai os metadados. </p> <p>Obrigatório. </p> </td> 
+   <td colname="col2"> <p>DPID da origem de onde o Gerenciador de Audiências puxa os metadados. </p> <p>Obrigatório. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_uuid</code> </p> </td> 
@@ -163,12 +163,12 @@ Com base no exemplo acima, o navegador é redirecionado para o seguinte [!DNL UR
 
 `https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`
 
-## Funcionalidade adicional - Relatórios de otimização de público-alvo
+## Funcionalidade adicional - Relatórios de otimização de Audiência
 
-Você pode usar chamadas de pixel para alimentar os Relatórios [de otimização de](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)público-alvo. Consulte [Visão geral e mapeamentos para arquivos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) de metadados se desejar usar pixels para alimentar os relatórios.
+Você pode usar chamadas de pixel para alimentar os Relatórios [de otimização de](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)Audiência. Consulte [Visão geral e mapeamentos para arquivos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) de metadados se desejar usar pixels para alimentar os relatórios.
 
 
 >[!MORELIKETHIS]
 >
->* [Arquivos de dados e metadados para relatórios de otimização de público-alvo](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
+>* [Arquivos de dados e metadados para relatórios de otimização de Audiência](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
 
