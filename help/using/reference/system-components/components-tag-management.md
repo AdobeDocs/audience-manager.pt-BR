@@ -1,19 +1,19 @@
 ---
-description: Os componentes do gerenciamento de tags do Audience Manager incluem o portal do cliente, o Adobe Tag Manager (obsoleto em favor do Adobe Dynamic Tag Manager e do Adobe Experience Platform Launch), o DIL, o Akamai e o banco de dados de controle.
-seo-description: Os componentes do gerenciamento de tags do Audience Manager incluem o portal do cliente, o Adobe Tag Manager (obsoleto em favor do Adobe Dynamic Tag Manager e do Adobe Experience Platform Launch), o DIL, o Akamai e o banco de dados de controle.
+description: Os componentes do gerenciamento de tags do Audiência Manager incluem o portal do cliente, o Adobe Tag Manager (obsoleto em favor do Adobe Dynamic Tag Manager e do Adobe Experience Platform Launch), o DIL, o Akamai e o banco de dados de controle.
+seo-description: Os componentes do gerenciamento de tags do Audiência Manager incluem o portal do cliente, o Adobe Tag Manager (obsoleto em favor do Adobe Dynamic Tag Manager e do Adobe Experience Platform Launch), o DIL, o Akamai e o banco de dados de controle.
 seo-title: Componentes do Gerenciamento de tags
 solution: Audience Manager
 title: Componentes do Gerenciamento de tags
 uuid: e5059478-6ba7-4e1a-afec-e41ad7a27750
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
 
 # Componentes do Gerenciamento de tags{#tag-management-components}
 
-Os componentes do gerenciamento de tags do Audience Manager incluem o portal do cliente, o Adobe Tag Manager (obsoleto em favor do Adobe Dynamic Tag Manager e do Adobe Experience Platform Launch), o DIL, o Akamai e o banco de dados de controle.
+Os componentes do gerenciamento de tags do Audiência Manager incluem o portal do cliente, o Adobe Tag Manager (obsoleto em favor do Adobe Dynamic Tag Manager e do Adobe Experience Platform Launch), o DIL, o Akamai e o banco de dados de controle.
 
 <!-- 
 
@@ -21,21 +21,21 @@ c_comptag.xml
 
  -->
 
-O Audience Manager contém os seguintes componentes:
+O Gerenciador de Audiências contém os seguintes componentes:
 
 * [Portal do cliente](../../reference/system-components/components-tag-management.md#client-portal)
-* [Contêiner DIL/TIM](../../reference/system-components/components-tag-management.md#dil-tim)
+* [Container DIL/TIM](../../reference/system-components/components-tag-management.md#dil-tim)
 * [Biblioteca de informações de dados (DIL)](../../reference/system-components/components-tag-management.md#dil)
 * [Akamai](../../reference/system-components/components-tag-management.md#akamai)
 * [Banco de dados de controle](../../reference/system-components/components-tag-management.md#control-database)
 
 ## Portal do cliente {#client-portal}
 
-O portal do cliente é a interface do usuário principal (UI) para gerenciamento de tags e dados. Os clientes usam o portal para trabalhar com tags, criar características e segmentos, configurar destinos e monitorar o desempenho da campanha com relatórios.
+O portal do cliente é a interface do usuário principal (UI) para tag e gestão de dados. Os clientes usam o portal para trabalhar com tags, criar características e segmentos, configurar destinos e monitorar o desempenho da campanha com relatórios.
 
-## Contêiner DIL/TIM {#dil-tim}
+## Container DIL/TIM {#dil-tim}
 
-O [!UICONTROL DIL] contêiner ajuda a implantar o código de coleta [!DNL Audience Manager] de dados em seu site. [!UICONTROL TIM] é o Gerenciador de inserção de tag obsoleto. Não é mais usado por [!DNL Audience Manager]. Em vez disso, você usa o Gerenciamento [dinâmico de tags ou a](https://marketing.adobe.com/resources/help/en_US/dtm/) extensão no [!DNL Audience Manager] Adobe Experience Platform Launch [](https://docs.adobelaunch.com/extension-reference/web/adobe-audience-manager-extension) para configurar e gerar o código do contêiner que você coloca nas páginas do seu inventário. O [!UICONTROL DTM] contêiner trabalha com o [!UICONTROL Data Information Library (DIL)] para coletar dados do site e enviá-los para [!DNL Audience Manager].
+O [!UICONTROL DIL] container ajuda a implantar o código de coleta [!DNL Audience Manager] de dados em seu site. [!UICONTROL TIM] é o Gerenciador de inserção de tag obsoleto. Não é mais usado por [!DNL Audience Manager]. Em vez disso, você usa o Gerenciamento [dinâmico de tags ou a](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) extensão no [!DNL Audience Manager] Adobe Experience Platform Launch [](https://docs.adobelaunch.com/extension-reference/web/adobe-audience-manager-extension) para configurar e gerar o código de container que você coloca nas páginas do seu inventário. O [!UICONTROL DTM] container trabalha com o [!UICONTROL Data Information Library (DIL)] para coletar dados do site e enviá-los para [!DNL Audience Manager].
 
 ## Biblioteca da integração de dados (DIL) {#dil}
 
@@ -43,13 +43,13 @@ A Biblioteca [de informações de](../../dil/dil-overview.md) dados (DIL) é um 
 
 ## Akamai {#akamai}
 
-[!DNL Audience Manager] usa o [Akamai](https://www.akamai.com/html/about/index.html) para hospedar e fornecer o código do contêiner de nossa própria plataforma de gerenciamento de tags, conhecida como [!UICONTROL TIM (Tag Insertion Manager)]. No entanto, a implantação de código com [!UICONTROL TIM] foi removida gradualmente em favor de [!DNL Adobe Dynamic Tag Management] e [!DNL Adobe Experience Platform Launch].
+[!DNL Audience Manager] usa o [Akamai](https://www.akamai.com/html/about/index.html) para hospedar e fornecer código de container de nossa própria plataforma de gerenciamento de tags, conhecida como [!UICONTROL TIM (Tag Insertion Manager)]. No entanto, a implantação de código com [!UICONTROL TIM] foi removida gradualmente em favor de [!DNL Adobe Dynamic Tag Management] e [!DNL Adobe Experience Platform Launch].
 
 ## Banco de dados de controle {#control-database}
 
 A base de dados de controlo:
 
 * Processa a entrada do cliente a partir do portal (por exemplo, criar características e destinos).
-* Transmite dados para o Akamai, que inclui dados usados para criar o modelo de contêiner e o iFrame de publicação de destino.
-* Retorna dados para sistemas de relatório de interface.
+* Transmite dados para o Akamai, que inclui dados usados para criar o modelo de container e o iFrame de publicação de destino.
+* Retorna dados para sistemas de relatórios da interface do usuário.
 
