@@ -6,7 +6,7 @@ solution: Audience Manager
 title: isCoopSafe
 uuid: c5362a38-93c0-4edb-bdcb-106e43f33a92
 translation-type: tm+mt
-source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -20,7 +20,7 @@ Uma configuração booleana opcional que determina se DIL envia (ou não) dados 
 To use `isCoopSafe` you must:
 
 * Use [!UICONTROL DIL] v6.11 ou superior.
-* Participar do [Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/). Os membros em potencial também devem consultar essa documentação para determinar se `isCoopSafe` responde possíveis dúvidas sobre como os dados são usados para criar o gráfico do dispositivo.
+* Participar do [Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html). Os membros em potencial também devem consultar essa documentação para determinar se `isCoopSafe` responde possíveis dúvidas sobre como os dados são usados para criar o gráfico do dispositivo.
 
 * Trabalhe com seu consultor da [!DNL Adobe] para definir um sinalizador de lista de permissões ou lista de bloqueios na conta do Device Co-op. Não há caminho de autoatendimento para ativar esses sinalizadores.
 
@@ -114,11 +114,11 @@ Essas APIs permitem que você substitua o status de `isCoopSafe`. Elas são nece
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> dilInstance.api.setAsCoopSafe(); </code> </p> </td> 
-   <td colname="col2"> <p>Define o parâmetro POST <code>d_coop_safe=1</code> em todas as chamadas de evento subsequentes. </p> </td> 
+   <td colname="col2"> <p>Sets POST parameter <code> d_coop_safe=1 </code> in all subsequent event calls. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> dilInstance.api.setAsCoopUnsafe(); </code> </p> </td> 
-   <td colname="col2"> <p>Define o parâmetro POST <code>d_coop_unsafe=1</code> em todas as chamadas de evento subsequentes. </p> </td> 
+   <td colname="col2"> <p>Sets POST parameter <code> d_coop_unsafe=1 </code> in all subsequent event calls. </p> </td> 
   </tr> 
  </tbody> 
 </table>
