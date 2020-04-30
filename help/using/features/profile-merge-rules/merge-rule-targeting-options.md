@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Casos de uso gerais para regras de mesclagem de Perfis
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 translation-type: tm+mt
-source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -98,7 +98,7 @@ A escolha de uma [!UICONTROL device graph] opção para uma [!UICONTROL Profile 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Opções de Gráfico de Dispositivo Externo </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> As regras de mesclagem</span> de Perfis criadas com o Device Co-op <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/" format="https" scope="external"> da</a> Experience Cloud ou qualquer gráfico de dispositivo externo integrado ao <span class="keyword"> Audiência Manager</span> são ideais para: </p> <p> 
+   <td colname="col2"> <p><span class="wintitle"> As regras de mesclagem</span> de Perfis criadas com o Device Co-op <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> da</a> Experience Cloud ou qualquer gráfico de dispositivo externo integrado ao <span class="keyword"> Audiência Manager</span> são ideais para: </p> <p> 
      <ul id="ul_D76D773988604A619FA4A3BF37F910F0"> 
       <li id="li_969A0755A9E34CBEB2F7331C137B9A26">Propriedades digitais com um nível baixo de autenticação de cliente. </li> 
       <li id="li_AC78C8B4AD5340FFAC44FE851096C6A6">campanhas de marca amplas e de alto alcance. </li> 
