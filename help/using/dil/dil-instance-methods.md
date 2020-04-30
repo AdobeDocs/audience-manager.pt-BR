@@ -1,20 +1,20 @@
 ---
-description: As APIs DIL de nível de instância permitem que você crie e trabalhe programaticamente com objetos do Audience Manager. Os métodos de nível de instância aprimoram a funcionalidade da API estabelecida pelos métodos de nível de classe.
+description: As APIs DIL de nível de instância permitem que você crie e trabalhe programaticamente com objetos do Gerenciador de Audiências. Os métodos de nível de instância aprimoram a funcionalidade da API estabelecida pelos métodos de nível de classe.
 keywords: create traits;create trait
-seo-description: As APIs DIL de nível de instância permitem que você crie e trabalhe programaticamente com objetos do Audience Manager. Os métodos de nível de instância aprimoram a funcionalidade da API estabelecida pelos métodos de nível de classe.
+seo-description: As APIs DIL de nível de instância permitem que você crie e trabalhe programaticamente com objetos do Gerenciador de Audiências. Os métodos de nível de instância aprimoram a funcionalidade da API estabelecida pelos métodos de nível de classe.
 seo-title: Métodos DIL de nível de instância
 solution: Audience Manager
 title: Métodos DIL de nível de instância
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
 
 # Métodos DIL de nível de instância{#instance-level-dil-methods}
 
-As [!UICONTROL DIL] APIs de nível de instância permitem que você crie e trabalhe programaticamente com objetos do Audience Manager. Os métodos de nível de instância aprimoram a funcionalidade da API estabelecida pelos métodos de nível de classe.
+As [!UICONTROL DIL] APIs de nível de instância permitem criar e trabalhar programaticamente com objetos do Gerenciador de Audiências. Os métodos de nível de instância aprimoram a funcionalidade da API estabelecida pelos métodos de nível de classe.
 
 ## Introdução aos Métodos DIL de nível de instância {#get-started-dil-methods}
 
@@ -26,7 +26,7 @@ c_api_overview.xml
 
 Ao trabalhar com as [!UICONTROL DIL] APIs de nível de instância:
 
-* O acesso requer um nome de parceiro e uma ID de namespace de contêiner (NSID). Entre em contato com o gerente de conta do Audience Manager para obter essas informações.
+* O acesso requer um nome de parceiro e uma ID de namespace de container (NSID). Entre em contato com o gerente de contas do Audiência Manager para obter essas informações.
 * Substitua qualquer amostra de texto *em itálico* na documentação da API por valor, ID ou outra variável, conforme exigido pelo método com o qual você está trabalhando.
 
 <!-- 
@@ -37,7 +37,7 @@ c_instance_start.xml
 
 ## sinais {#signals}
 
-Adiciona mapeamentos de nível de cliente e plataforma à sequência de consulta de uma solicitação pendente.
+Adiciona mapeamentos no nível do cliente e da plataforma à sequência de query de uma solicitação pendente.
 
 <!-- 
 
@@ -99,7 +99,7 @@ dataLib.api.signals(obj, 'c_').submit();
 
 ## traits {#traits}
 
-Adiciona SIDs à string de consulta de uma solicitação pendente.
+Adiciona SIDs à sequência de query de uma solicitação pendente.
 
 <!-- 
 
@@ -164,7 +164,7 @@ partnerObject.api.logs({
 
 ## submit {#submit}
 
-Envia todos os dados pendentes para o Audience Manager para a [!UICONTROL DIL] instância.
+Envia todos os dados pendentes para o Gerenciador de Audiências da [!UICONTROL DIL] instância.
 
 <!-- 
 
@@ -284,7 +284,7 @@ dataLib.clearData();
 
 ## customQueryParams {#customqueryparams}
 
-Adiciona parâmetros de consulta personalizados que não são explicitamente definidos pelo servidor de coleta de dados a uma solicitação pendente.
+Adiciona parâmetros de query personalizados que não são explicitamente definidos pelo servidor de coleta de dados a uma solicitação pendente.
 
 <!-- 
 
@@ -328,7 +328,7 @@ partnerObject.api.customQueryParams({
 
 ## getContainerNSID {#getcontainernsid}
 
-Retorna o valor do NSID do contêiner para a [!UICONTROL DIL] instância. Útil para depuração e solução de problemas.
+Retorna o valor do NSID do container para a [!UICONTROL DIL] instância. Útil para depuração e solução de problemas.
 
 <!-- 
 
@@ -352,7 +352,7 @@ var nsid = dataLib.api.getContainerNSID();
 
 ## getEventLog {#geteventlog}
 
-Retorna dados de log de eventos classificados cronologicamente como uma matriz de sequências de caracteres. Útil para depuração e solução de problemas.
+Retorna dados do log de eventos classificados cronologicamente como uma matriz de sequências de caracteres. Útil para depuração e solução de problemas.
 
 <!-- 
 
@@ -483,7 +483,7 @@ state = {
 
 ## idSync {#idsync}
 
-Consiste em duas funções que permitem que os parceiros de dados troquem e sincronizem IDs de usuário entre eles e o Audience Manager.
+Consiste em duas funções que permitem que os parceiros de dados troquem e sincronizem IDs de usuário entre si e o Gerenciador de Audiências.
 
 <!-- 
 
@@ -505,11 +505,11 @@ Funciona com [!UICONTROL DIL] as versões 2.10 e 3.1 ou superior.
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.idSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Entre diferentes parceiros de dados e o Audience Manager. Por exemplo, o parceiro x usaria isso para sincronizar uma ID de usuário com o parceiro y e enviá-la para o Audience Manager. </p> <p> <p><b>Importante:</b>  Este método está obsoleto. Use o <code> idSyncByURL </code> método da instância do Adobe Experience Platform Identity Service. </p> </p> </td> 
+   <td colname="col2"> <p>Entre diferentes parceiros de dados e o Gerenciador de Audiências. Por exemplo, o parceiro x usaria isso para sincronizar uma ID de usuário com o parceiro y e enviá-la para o Gerenciador de Audiências. </p> <p> <p><b>Importante:</b>  Este método está obsoleto. Use o <code> idSyncByURL </code> método da instância do Adobe Experience Platform Identity Service. </p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.aamIdSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Quando você já souber a ID de usuário e desejar enviá-la para o Audience Manager. </p> <p> <p><b>Importante:</b>  Este método está obsoleto. Use o <code> idSyncByDataSource </code> método da instância do Adobe Experience Platform Identity Service. </p> </p> </td> 
+   <td colname="col2"> <p>Quando você já souber a ID de usuário e desejar enviá-la para o Gerenciador de Audiências. </p> <p> <p><b>Importante:</b>  Este método está obsoleto. Use o <code> idSyncByDataSource </code> método da instância do Adobe Experience Platform Identity Service. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -719,7 +719,7 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >
 >* [Requisitos de nome para variáveis-chave](../features/traits/trait-key-name-requirements.md)
 >* [Requisitos de prefixo para variáveis-chave](../features/traits/trait-variable-prefixes.md)
->* [Funções de sincronização no Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idsync.html)
+>* [Funções de sincronização no Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/idsync.html)
 >* [Criar DIL](../dil/dil-class-overview/dil-create.md#dil-create)
 >* [Serviço de identidade da plataforma Adobe Experience: UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
 >* [Suporte a CORS no Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
