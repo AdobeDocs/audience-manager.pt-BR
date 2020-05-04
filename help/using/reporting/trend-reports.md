@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Relatórios de tendências
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
 translation-type: tm+mt
-source-git-commit: 760818663ff3eb32c6de876c756697e1d9034369
+source-git-commit: 859e55fa5d93c7c56cef4bf2a112cdd4ff318d97
 
 ---
 
@@ -95,6 +95,10 @@ Ao filtrar os resultados por [!UICONTROL Cross-Device ID]:
 ![tendência-características-do-relatório](assets/trend-report-traits.png)
 
 Zeroes indicam que não [!DNL Audience Manager] coletou dados para aquele dia. Entradas em branco indicam que o traço não existia.
+
+Assista ao vídeo abaixo para ver detalhadamente como as métricas entre dispositivos funcionam.
+
+>[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
 ## Resultados de relatório de tendência para segmentos {#segment-report-results-traits}
 
