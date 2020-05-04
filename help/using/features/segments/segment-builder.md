@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Construtor de segmentos
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 translation-type: tm+mt
-source-git-commit: 723c75e8946c42779b4c27727ff9e6398b5fc9b1
+source-git-commit: 859e55fa5d93c7c56cef4bf2a112cdd4ff318d97
 
 ---
 
@@ -52,6 +52,10 @@ Start assistindo ao vídeo [Criar segmentos no Audiência Manager](https://image
 1. *(Opcional)* Mapeie um segmento para um destino na seção Mapeamento [de](../../features/segments/segment-builder.md#segment-builder-controls-destinations) destino:
    * Procure o destino e clique em **[!UICONTROL Add Destination]**. Observe que o destino já deve existir antes que você possa adicioná-lo a um segmento.
    * Clique **[!UICONTROL Save]** quando concluído.
+
+Assista ao vídeo abaixo para ver detalhadamente como as métricas entre dispositivos funcionam.
+
+>[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
 ## Controles do Construtor de segmentos: Seção Informações básicas {#segment-builder-controls-basics}
 
