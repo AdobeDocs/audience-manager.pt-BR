@@ -1,13 +1,13 @@
 ---
 description: As Ferramentas de Gerenciamento em massa permitem que você crie e gerencie vários objetos de uma só vez com uma única operação. Você pode usar as Ferramentas de Gerenciamento em massa para trabalhar com fontes de dados, sinais derivados, destinos, pastas, segmentos e características.
-keywords: baaam;BAAAM
+keywords: baaam;BAAAM;download baaam
 seo-description: As Ferramentas de Gerenciamento em massa permitem que você crie e gerencie vários objetos de uma só vez com uma única operação. Você pode usar as Ferramentas de Gerenciamento em massa para trabalhar com fontes de dados, sinais derivados, destinos, pastas, segmentos e características.
 seo-title: Introdução ao Gerenciamento em massa
 solution: Audience Manager
 title: Introdução ao Gerenciamento em massa
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
+source-git-commit: a4569127b748374b5707daedb0809c58bca74e9b
 
 ---
 
@@ -32,14 +32,14 @@ Este recurso usa uma planilha do Microsoft Excel com macros que fazem chamadas s
 
 ## Download {#download}
 
-Baixe a planilha mais recente **[aqui](assets/BAAAM_V2_20200311.xlsm)**.
+Baixe a planilha mais recente **[aqui](assets/BAAAM_V2_20200502.xlsm)**.
 
 ## Pré-requisitos {#prereqs}
 
 Para usar o [!DNL Bulk Management Tools], é necessário o seguinte:
 
 * Seu [!DNL Experience Cloud] logon. Como cliente, você já deve ter essas credenciais.
-* A [!DNL Bulk Management Tools] planilha. [Baixe a planilha](assets/BAAAM_V2_20200311.xlsm) para obter a versão mais recente.
+* A [!DNL Bulk Management Tools] planilha. [Baixe a planilha](assets/BAAAM_V2_20200502.xlsm) para obter a versão mais recente.
 * Microsoft Excel em execução em [!DNL macOS] ou 64 bits [!DNL Microsoft Windows]. Recomendamos que você use a versão mais recente do Microsoft Excel.
 * Ao abrir a planilha, você deve **Ativar macros** para que [!DNL Bulk Management Tools] funcionem.
 
@@ -60,7 +60,7 @@ Ao fazer alterações em massa, você ainda precisará confirmar que está autor
 
 **Opções de autenticação de domínio**
 
-A autenticação de domínio dá a você a opção de testar solicitações em massa ou aplicá-las diretamente à sua conta de produção. Fazer alterações em massa no ambiente beta não afetará sua conta de produção. As mudanças de produção estão em vigor imediatamente. A planilha de gerenciamento em massa permite que você trabalhe nos seguintes ambientes:
+A autenticação de domínio dá a você a opção de testar solicitações em massa ou aplicá-las diretamente à sua conta de produção. Fazer alterações em massa no ambiente beta não afetará sua conta de produção. As mudanças de produção estão em vigor imediatamente. A folha de gerenciamento em massa permite que você trabalhe nos seguintes ambientes:
 
 * Beta 
 * Produção
