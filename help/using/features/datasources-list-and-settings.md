@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Lista e configurações das fontes de dados
 uuid: 280a6acd-fef0-4737-a96d-9e22fbc8bfaf
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 6b55441c2bdde6cf2333852fd59fbe87f4e531eb
+workflow-type: tm+mt
+source-wordcount: '1158'
+ht-degree: 1%
 
 ---
 
@@ -96,6 +99,10 @@ O [!UICONTROL Data Source Settings] contém os controles e as opções listados 
 ### Configurações da fonte de dados de entrada
 
 Marque a caixa de **[!UICONTROL Inbound]** seleção quando sua fonte de dados for projetada para receber dados de entrada. Marcar a caixa de **[!UICONTROL Inbound]** seleção expõe 2 grupos adicionais de controles descritos abaixo.
+
+>[!NOTE]
+>
+>A caixa de **[!UICONTROL Inbound]** seleção deve exibir ou ocultar somente os controles de fonte de dados descritos abaixo. Desmarcar a opção **[!UICONTROL Inbound]** não afeta a ingestão de dados de nenhuma forma. Seus dados integrados serão processados independentemente dessa opção estar sendo marcada.
 
 <table id="table_B2825B7BE0DB4665B47C589A3787CD93"> 
  <thead> 
