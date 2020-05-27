@@ -5,9 +5,12 @@ seo-title: Página Detalhes da Característica
 solution: Audience Manager
 title: Página Detalhes da Característica
 uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
-keywords: identity type breakdown, identity breakdown, audience identity reporting
+keywords: identity type breakdown, identity breakdown, audience identity reporting, cross-device, cross-device ID, device ID
 translation-type: tm+mt
-source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
+source-git-commit: 3b56d7ecdef4375bf3b007fa9b325618c701c174
+workflow-type: tm+mt
+source-wordcount: '728'
+ht-degree: 0%
 
 ---
 
@@ -37,12 +40,20 @@ O [!UICONTROL Trait Graph] fornece rapidamente métricas de desempenho para a ca
 
 [!UICONTROL Unique Trait Realizations] representam uma contagem de usuários únicos que adicionaram essa característica ao seu perfil no intervalo de tempo especificado. O [!UICONTROL Total Trait Population] indica o número de usuários exclusivos atualmente qualificados para essa característica.
 
-* Para características com base em regras, a qualificação de características acontece em tempo real, já que os usuários se qualificam para uma característica em seu navegador.
-* Para características integradas, a qualificação de características ocorre depois que um arquivo de entrada é processado, isto é, o arquivo de entrada é [alimentado no Gerenciador](../../faq/faq-inbound-data-ingestion.md) de Audiências e é quando a qualificação de características acontece.
+Para características com base em regras, a qualificação de características acontece em tempo real, já que os usuários se qualificam para uma característica em seu navegador.
+
+Para características integradas, a qualificação de características ocorre depois que um arquivo de entrada é processado, isto é, o arquivo de entrada é [alimentado no Gerenciador](../../faq/faq-inbound-data-ingestion.md) de Audiências e é quando a qualificação de características acontece.
+
+A [!UICONTROL Trait Graph] mostra as seguintes informações:
+
+* **[!UICONTROL Show results by]**
+   * **[!UICONTROL Cross-Device ID]**: selecione essa opção para ver os resultados de características que estão coletando dados de perfis autenticados. Ao selecionar essa opção, você verá apenas os dados no [!UICONTROL Cross-Device ID] relatório, e nenhum dado estará presente no [!UICONTROL Device ID] relatório.
+   * **[!UICONTROL Device ID]**: selecione essa opção para ver os resultados de características que estão coletando dados para perfis de dispositivos. Ao selecionar essa opção, você verá apenas os dados no [!UICONTROL Device ID] relatório, e nenhum dado estará presente no [!UICONTROL Cross-Device ID] relatório.
+
+      ![traço gráfico](assets/trait-summary.png)
+
 * **[!UICONTROL Unique Trait Realizations]**: Uma contagem de usuários únicos que adicionaram essa característica ao seu perfil no intervalo de tempo especificado.
 * **[!UICONTROL Total Trait Population]**: O número de usuários exclusivos atualmente qualificados para essa característica.
-
-   ![traço gráfico](assets/trait-summary.png)
 
 * **[!UICONTROL Identity Type Breakdown]**: As três primeiras entradas mostram as três principais fontes de dados entre dispositivos com a maior contagem de população que se qualificaram para a característica, em ordem decrescente. A quarta entrada mostra a soma de todas as outras [!DNL DPUUIDs] ([!DNL CRM IDs]) qualificadas para a característica, das fontes de dados entre dispositivos que não estão nas três principais. Este relatório aparece somente se você selecionar ID entre dispositivos no menu suspenso no lado superior direito da página. [!UICONTROL Show Results By] A opção suspensa padrão é [!UICONTROL Device ID], onde esse relatório não é exibido.
 
