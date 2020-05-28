@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Glossário
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 62147fc719a59d2b2c7b444bce853334b03816c6
+workflow-type: tm+mt
+source-wordcount: '1186'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +24,7 @@ Definições e ligações para posterior leitura.
 
 Use [!UICONTROL Algorithmic Modeling] como meio de estender o alcance além do núcleo dos usuários identificados. O recurso o ajuda a descobrir audiências novas e exclusivas por meio da análise de dados automatizada. Gerencie [!UICONTROL Algorithmic Models] em **[!UICONTROL Audience Data > Models]**.
 
-Consulte [Como entender os modelos](../features/algorithmic-models/understanding-models.md#understanding-models)algorítmicos.
+Consulte [Como entender os modelos](../features/algorithmic-models/algo-models-overview.md)algorítmicos.
 
 <br> 
 
