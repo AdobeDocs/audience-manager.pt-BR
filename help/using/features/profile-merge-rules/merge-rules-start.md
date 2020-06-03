@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Introdução às regras de mesclagem de Perfis
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 56a9626b1fa77926bdc31ef72b058d2aa9b58f43
+workflow-type: tm+mt
+source-wordcount: '1327'
+ht-degree: 1%
 
 ---
 
@@ -98,6 +101,19 @@ Para concluir a [!UICONTROL Proflie Merge Rule Setup] seção:
    * **[!UICONTROL Profile Link Device Graph]**
    * **[!UICONTROL Device Co-op]**
 4. Clique em **[!UICONTROL Save]**.
+
+### Considerações para destinos de Adobe Campaign usando IDs entre dispositivos como chaves de ID de usuário {#considerations}
+
+No final de 2019, lançamos uma série de melhorias nas Regras de mesclagem de Perfis para melhorar a precisão dos arquivos em lote gerados com IDs de vários dispositivos. Esses aprimoramentos serão rigorosamente respeitados em sua instância do Audiência Manager a partir de segunda-feira, 16 de março de 2020. Consequentemente, os segmentos mapeados para um destino usando IDs entre dispositivos pararão de produzir exportações em algumas configurações de Regras de mesclagem de Perfis.
+
+Para garantir a integração correta entre a instância do Gerenciador de Audiências e os destinos usando IDs de vários dispositivos, como o Adobe Campaign, verifique se você atende aos seguintes requisitos:
+
+1. Revise a Regra de mesclagem de Perfil usada pelos segmentos mapeados para o destino da ID declarada do Adobe Campaign. A regra de mesclagem de Perfis deve usar a [!UICONTROL Last Authenticated Profile] opção, para que todos os perfis autenticados possam ser incluídos nas exportações. Se a Regra de mesclagem de Perfis estiver usando uma opção diferente, alterne para [!UICONTROL Last Authenticated Profile].
+2. Selecione a fonte de dados de ID declarada do Adobe Campaign nas configurações da Regra de mesclagem do Perfil.
+
+>[!NOTE]
+>
+> Aumentamos o limite da Regra de mesclagem de Perfil em 1 para clientes que enfrentam essa situação, para que você possa criar uma Regra de mesclagem de Perfis dedicada para os segmentos mapeados para o destino da ID declarada de Adobe Campaign, sem alterar as Regras de mesclagem de Perfis para outros casos de uso.
 
 ## Configurar o código da regra de mesclagem {#configure-merge-rule-code}
 
