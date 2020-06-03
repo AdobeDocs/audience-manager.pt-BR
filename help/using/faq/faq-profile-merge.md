@@ -1,20 +1,23 @@
 ---
-description: Respostas a perguntas comuns sobre a regra de mesclagem de perfis e gráficos de dispositivos.
-keywords: ID da organização
-seo-description: Respostas a perguntas comuns sobre a regra de mesclagem de perfis e gráficos de dispositivos.
-seo-title: Perguntas frequentes sobre Regras de mesclagem de perfil e Gráfico de dispositivos
+description: Respostas a perguntas comuns sobre a regra de mesclagem de Perfis e gráficos de dispositivos.
+keywords: Organization ID
+seo-description: Respostas a perguntas comuns sobre a regra de mesclagem de Perfis e gráficos de dispositivos.
+seo-title: Perguntas frequentes sobre Regras de mesclagem de Perfis e Gráfico de dispositivos
 solution: Audience Manager
-title: Perguntas frequentes sobre Regras de mesclagem de perfil e Gráfico de dispositivos
+title: Perguntas frequentes sobre Regras de mesclagem de Perfis e Gráfico de dispositivos
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 56a9626b1fa77926bdc31ef72b058d2aa9b58f43
+workflow-type: tm+mt
+source-wordcount: '1545'
+ht-degree: 2%
 
 ---
 
 
-# Perguntas frequentes sobre Regras de mesclagem de perfil e Gráfico de dispositivos{#profile-merge-rules-and-device-graph-faq}
+# Perguntas frequentes sobre Regras de mesclagem de Perfis e Gráfico de dispositivos{#profile-merge-rules-and-device-graph-faq}
 
-Respostas a perguntas comuns sobre a regra de mesclagem de perfis e gráficos de dispositivos.
+Respostas a perguntas comuns sobre a regra de mesclagem de Perfis e gráficos de dispositivos.
 
 <!-- profile-merge-faq.xml -->
 
@@ -28,17 +31,17 @@ Um gráfico de dispositivo é um conjunto de mapeamentos de ID que define grupos
 
 **O que é um gráfico de dispositivos externos?**
 
-Um gráfico de dispositivo externo é qualquer gráfico de dispositivo em [!DNL Audience Manager] que não foi criado exclusivamente de suas próprias fontes de dados entre dispositivos. Por exemplo, ao criar uma Regra [de mesclagem de](../features/profile-merge-rules/merge-rules-start.md) perfil e escolher as opções de gráfico de dispositivo [!UICONTROL Co-op Device Graph] ou de terceiros, você está trabalhando com um gráfico de dispositivo externo. Consulte Opções [](../features/profile-merge-rules/merge-rule-definitions.md#device-options)do dispositivo.
+Um gráfico de dispositivo externo é qualquer gráfico de dispositivo em [!DNL Audience Manager] que não foi criado exclusivamente a partir de suas próprias fontes de dados entre dispositivos. Por exemplo, ao criar uma Regra [de mesclagem de](../features/profile-merge-rules/merge-rules-start.md) Perfis e escolher as opções de gráfico de dispositivo [!UICONTROL Co-op Device Graph] ou de terceiros, você está trabalhando com um gráfico de dispositivo externo. Consulte Opções [](../features/profile-merge-rules/merge-rule-definitions.md#device-options)do dispositivo.
 
  
 
 **Quais são alguns casos de uso comuns para usar um gráfico de dispositivo externo em um[!UICONTROL Profile Merge Rule]?**
 
-O principal objetivo de usar um gráfico de dispositivos em um segmento [!UICONTROL Profile Merge Rule] é avaliar e qualificar vários dispositivos pertencentes a uma única pessoa ou residência para um segmento específico. O próprio segmento pode ter vários usos, por exemplo, direcionando um público-alvo de clientes potenciais com um anúncio veiculado por um DSP ou personalizando a experiência de um cliente no local por meio de uma plataforma de personalização no site. See [External Device Graph Use Cases](../features/profile-merge-rules/external-graph-use-cases.md).
+O principal objetivo de usar um gráfico de dispositivos em um segmento [!UICONTROL Profile Merge Rule] é avaliar e qualificar vários dispositivos pertencentes a uma única pessoa ou residência para um segmento específico. O próprio segmento pode ter vários usos, por exemplo, como direcionar uma audiência de prospectos com um anúncio veiculado por um DSP ou personalizar a experiência de um cliente no local por meio de uma plataforma de personalização no site. See [External Device Graph Use Cases](../features/profile-merge-rules/external-graph-use-cases.md).
 
  
 
-**O Audience Manager fornece suporte global para gráficos de dispositivos externos?**
+**O Gerenciador de Audiências oferece suporte global para gráficos de dispositivos externos?**
 
 Não. Gráficos de dispositivos externos estão disponíveis apenas nos Estados Unidos e Canadá.
 
@@ -50,13 +53,13 @@ Uma vez por semana.
 
  
 
-## Gráficos de dispositivo e regras de mesclagem de perfil {#device-graph-profile-merge-rules}
+## Gráficos de dispositivos e regras de mesclagem de Perfis {#device-graph-profile-merge-rules}
 
 **Como[!DNL Audience Manager]usar um gráfico de dispositivo?**
 
-Em [!DNL Audience Manager], os gráficos de dispositivo aparecem como opções de configuração quando você [cria uma Regra](../features/profile-merge-rules/merge-rules-start.md)de mesclagem de perfil. Por meio de seu [!UICONTROL Profile Merge Rules], esses gráficos de dispositivos ajudam [!DNL Audience Manager]:
+Em [!DNL Audience Manager], os gráficos de dispositivo aparecem como opções de configuração quando você [cria uma Regra](../features/profile-merge-rules/merge-rules-start.md)de mesclagem de Perfis. Por meio de seu [!UICONTROL Profile Merge Rules], esses gráficos de dispositivos ajudam [!DNL Audience Manager]:
 
-* Unir vários perfis de dispositivo. Isto cria um único super conjunto de características.
+* Mesclar vários perfis de dispositivo. Isto cria um único super conjunto de características.
 * Avalie o superconjunto de características para a qualificação de segmentos (em vez de avaliar cada perfil de dispositivo individualmente).
 * Adicione dispositivos qualificados aos segmentos disponíveis.
 
@@ -64,13 +67,13 @@ Em [!DNL Audience Manager], os gráficos de dispositivo aparecem como opções d
 
 **Quantos[!UICONTROL Profile Merge Rules]posso criar?**
 
-Atualmente, você pode criar um máximo de 4 [!UICONTROL Profile Merge Rules]. A quarta Regra de mesclagem de perfil ([!UICONTROL All Cross-Device Profiles]) está disponível somente para clientes que compram o [!UICONTROL People-Based Destinations] complemento.
+Atualmente, você pode criar um máximo de 4 [!UICONTROL Profile Merge Rules]. A quarta Regra de mesclagem de Perfis ([!UICONTROL All Cross-Device Profiles]) está disponível somente para clientes que compram o complemento [!UICONTROL People-Based Destinations] .
 
  
 
 **Quantos perfis de dispositivo são[!DNL Audience Manager]unidos e lidos ao usar um gráfico de dispositivo em um[!UICONTROL Profile Merge Rule]?**
 
-Ao qualificar um dispositivo para um segmento usando um [!UICONTROL Profile Merge Rule], o Audience Manager mescla e lê o perfil de dispositivo atual e um máximo de 99 outros perfis de dispositivo adicionais vinculados pela opção de gráfico de dispositivo selecionada.
+Ao qualificar um dispositivo para um segmento usando um [!UICONTROL Profile Merge Rule], o Gerenciador de Audiências mescla e lê o perfil do dispositivo atual e um máximo de 99 outros perfis de dispositivo adicionais vinculados pela opção de gráfico do dispositivo selecionado.
 
  
 
@@ -86,11 +89,11 @@ Os dispositivos [!DNL Audience Manager] se mesclam e são os mesmos dispositivos
 
  
 
-## Segmentos, gráficos de dispositivo e regras de mesclagem de perfil {#segments-device-graphs-rules}
+## Segmentos, gráficos de dispositivos e regras de mesclagem de Perfis {#segments-device-graphs-rules}
 
 **Como[!DNL Audience Manager]cancelar a segmentação de um dispositivo quando ele não é mais qualificado para um segmento com um[!UICONTROL Profile Merge Rule]gráfico de dispositivo?**
 
-O Audience Manager mescla até 100 dispositivos ao avaliar segmentos com um gráfico de dispositivos [!UICONTROL Profile Merge Rule] que usa um gráfico de dispositivos. Se o sinal de cancelamento de segmento for emitido, o dispositivo atual e até 99 dispositivos adicionais serão removidos do segmento no destino. Para obter mais informações sobre a dessegmentação, consulte Regras de mesclagem de [perfis e Processos](../features/profile-merge-rules/merge-rule-unsegment.md)de dessegmentação de dispositivos.
+O Gerenciador de Audiências mescla até 100 dispositivos ao avaliar segmentos com um gráfico de dispositivos [!UICONTROL Profile Merge Rule] que usa um gráfico de dispositivos. Se o sinal de cancelamento de segmento for emitido, o dispositivo atual e até 99 dispositivos adicionais serão removidos do segmento no destino. Para obter mais informações sobre a dessegmentação, consulte Regras de mesclagem de [Perfis e Processos](../features/profile-merge-rules/merge-rule-unsegment.md)de dessegmentação de dispositivos.
 
  
 
@@ -118,13 +121,13 @@ Sim.
 
  
 
-**Se um segmento usar um com[!UICONTROL Profile Merge Rule][!UICONTROL No Cross-Device Profile]e as características que qualificam dispositivos para o segmento forem armazenadas apenas no perfil entre dispositivos, a população total do segmento será 0?**
+**Se um segmento usar um com[!UICONTROL Profile Merge Rule]e as características[!UICONTROL No Cross-Device Profile]que qualificam dispositivos para o segmento forem armazenadas apenas no perfil entre dispositivos, a população total do segmento será 0?**
 
-Sim. O Audience Manager não contará as características armazenadas no perfil entre dispositivos na avaliação do segmento quando a Regra de mesclagem de perfil estiver definida como [!UICONTROL No Cross-Device Profile].
+Sim. O Gerenciador de Audiências não contará as características armazenadas no perfil entre dispositivos na avaliação de segmentos quando a Regra de mesclagem de Perfis estiver definida como [!UICONTROL No Cross-Device Profile].
 
  
 
-## Frequência da característica, gráficos do dispositivo e regras de mesclagem de perfil {#trait-freq-device-rules}
+## Frequência da característica, gráficos do dispositivo e regras de mesclagem de Perfis {#trait-freq-device-rules}
 
 **Como[!DNL Audience Manager]calcular a frequência de características com um gráfico de dispositivos[!UICONTROL Profile Merge Rule]que usa um gráfico de dispositivos?**
 
@@ -143,13 +146,13 @@ A frequência da característica é definida pela soma do número de qualificaç
    <td colname="col2"> <p> 
      <ul id="ul_52EA0F142E3F488CAAC7CF541E7F3472"> 
       <li id="li_11228EC0266A4A02BB4057B77FE93A8A">O dispositivo A e o dispositivo B são vinculados por um gráfico de dispositivo. </li> 
-      <li id="li_EB90B9D0D3F64A15AB24DA5D000EEBA5">Você tem uma Regra <span class="wintitle"> de mesclagem de</span> perfil que usa uma opção de gráfico de dispositivo. </li> 
+      <li id="li_EB90B9D0D3F64A15AB24DA5D000EEBA5">Você tem uma Regra <span class="wintitle"> de mesclagem de</span> Perfis que usa uma opção de gráfico de dispositivo. </li> 
       <li id="li_B46C4DE6CBD44D44B0F02EC9987140A5">Um único segmento (Segmento 1) composto por um único traço (Caractere 1), onde a característica 1 tem uma frequência de 8. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Ações</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> O Audience Manager</span> lê e mescla os perfis de dispositivo para o Dispositivo A e o Dispositivo B. A partir disso, vemos o seguinte: </p> <p> 
+   <td colname="col2"> <p> <span class="keyword"> O Gerenciador</span> de Audiências lê e mescla os perfis do dispositivo para o Dispositivo A e o Dispositivo B. A partir disso, vemos o seguinte: </p> <p> 
      <ul id="ul_7AB307154C034695B4486E68D55CB084"> 
       <li id="li_5760BEE513C94152AA307AEE10894718">O dispositivo A qualificou-se para a característica 1 três vezes. Tem uma frequência de 3 para a característica 1. </li> 
       <li id="li_E20BC24CCCEC407C820A8032D56BC3F0">O dispositivo B qualificou-se para a característica 1 cinco vezes. Tem uma frequência de 5 para a característica 1. </li> 
@@ -157,24 +160,24 @@ A frequência da característica é definida pela soma do número de qualificaç
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Resultados</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> O Audience Manager</span> resume a frequência da Caractere 1 e usa 8 (3 + 5 = 8) para decidir a qualificação de segmentos. O dispositivo A e o dispositivo B se qualificam para o segmento 1 porque ele tem uma frequência de 8. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> O Gerenciador</span> de Audiências resume a frequência da Caractere 1 e usa 8 (3 + 5 = 8) para decidir a qualificação de segmentos. O dispositivo A e o dispositivo B se qualificam para o segmento 1 porque ele tem uma frequência de 8. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
  
 
-## Relatórios, gráficos de dispositivo e regras de mesclagem de perfil {#reports-device-graphs-rules}
+## Relatórios, gráficos de dispositivo e regras de mesclagem de Perfis {#reports-device-graphs-rules}
 
 **Posso ver o número de dispositivos que podem ser acessados por um dispositivo[!UICONTROL Profile Merge Rule]que usa um gráfico?**
 
-Sim. Os relatórios retornam dados no [!UICONTROL Profile Merge Rule] nível. Os dados do relatório são atualizados diariamente. Os dados são baseados nos dispositivos vistos em sua conta, não nos vinculados por um gráfico de dispositivos. Consulte Métricas [de relatório para Regras](../features/profile-merge-rules/profile-link-metrics.md)de mesclagem de perfil.
+Sim. Os relatórios retornam dados no [!UICONTROL Profile Merge Rule] nível. Os dados do relatório são atualizados diariamente. Os dados são baseados nos dispositivos vistos em sua conta, não nos vinculados por um gráfico de dispositivos. Consulte Métricas [de relatório para Regras](../features/profile-merge-rules/profile-link-metrics.md)de mesclagem de Perfis.
 
  
 
 **Posso ver o número de dispositivos qualificados para um segmento específico em tempo *real*com[!UICONTROL Profile Merge Rules]o uso de um gráfico de dispositivo?**
 
-Sim. A métrica de preenchimento em tempo real captura as qualificações de segmento do dispositivo atual (o dispositivo visto em tempo real) usando os perfis de todos os dispositivos vinculados por um gráfico de dispositivo.
+Sim. A métrica de população em tempo real captura as qualificações de segmento do dispositivo atual (o dispositivo visto em tempo real) usando os perfis de todos os dispositivos vinculados por um gráfico de dispositivo.
 
 <table id="table_D37A51E99B314C04A96A084491A5FEC7"> 
  <thead> 
@@ -203,9 +206,9 @@ Sim. A métrica de preenchimento em tempo real captura as qualificações de seg
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Resultados</b> </p> </td> 
-   <td colname="col2"> <p>Dados os elementos anteriores, a população total do Segmento 1 é uma. </p> <p>Nesse caso, a Regra <span class="wintitle"> de mesclagem de</span> perfis usa todos os dispositivos e suas características para decidir a qualificação de segmentos. Isso significa que os dispositivos 1, 2 e 3 estão qualificados para o Segmento 1, mas, como mencionado acima, somente o Dispositivo 1 está incluído na população de segmentos em tempo real. Isso ocorre porque: </p> <p> 
+   <td colname="col2"> <p>Dados os elementos anteriores, a população total do Segmento 1 é uma. </p> <p>Nesse caso, a Regra <span class="wintitle"> de mesclagem de</span> Perfis usa todos os dispositivos e suas características para decidir a qualificação de segmentos. Isso significa que os dispositivos 1, 2 e 3 estão qualificados para o Segmento 1, mas, como mencionado acima, somente o Dispositivo 1 está incluído na população de segmentos em tempo real. Isso ocorre porque: </p> <p> 
      <ul id="ul_5958E1A0E1514B6BA31DF5551401AF38"> 
-      <li id="li_E4F68B12ED944416ACBEAF7BF61CA4E7">O dispositivo 1 é o dispositivo atual que interage com os Servidores <span class="wintitle"> de coleta de</span> dados do Audience Manager (<span class="wintitle"> DCS</span>) em tempo real. </li> 
+      <li id="li_E4F68B12ED944416ACBEAF7BF61CA4E7">O dispositivo 1 é o dispositivo atual que interage com os Servidores <span class="wintitle"> de Coleta de</span> Dados do Gerenciador de Audiências (<span class="wintitle"> DCS</span>) em tempo real. </li> 
       <li id="li_57165E96289F4E20BF2244BC68B90BA3">Os dispositivos 2 e 3 são associados ao Dispositivo 1 por um gráfico de dispositivo, mas não interagem com o DCS ao mesmo tempo que o Dispositivo 1. </li> 
      </ul> </p> <p>Como resultado, os Dispositivos 2 e 3 não são incluídos na métrica de população do segmento em tempo real. </p> </td> 
   </tr> 
@@ -214,7 +217,7 @@ Sim. A métrica de preenchimento em tempo real captura as qualificações de seg
 
  
 
-**Posso ver o número total de dispositivos qualificados para um segmento específico com um gráfico de dispositivo[!UICONTROL Profile Merge Rule]que usa um gráfico de dispositivo?**
+**É possível ver o número total de dispositivos qualificados para um segmento específico com um gráfico de dispositivo[!UICONTROL Profile Merge Rule]que usa um gráfico de dispositivo?**
 
 Sim. A métrica de preenchimento total do segmento inclui os dispositivos adicionais que se qualificaram para um segmento com base nas conexões de um gráfico de dispositivo.
 
@@ -245,7 +248,7 @@ Sim. A métrica de preenchimento total do segmento inclui os dispositivos adicio
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Resultados</b> </p> </td> 
-   <td colname="col2"> <p>Dados os elementos anteriores, a população total do segmento 1 é de três (3). </p> <p>Nesse caso, a Regra <span class="wintitle"> de mesclagem de</span> perfis usa todos os dispositivos e suas características para decidir a qualificação de segmentos. Isso significa que os dispositivos 1, 2 e 3 se qualificam para o Segmento 1 e todos os três estão incluídos na população total. </p> </td> 
+   <td colname="col2"> <p>Dados os elementos anteriores, a população total do segmento 1 é de três (3). </p> <p>Nesse caso, a Regra <span class="wintitle"> de mesclagem de</span> Perfis usa todos os dispositivos e suas características para decidir a qualificação de segmentos. Isso significa que os dispositivos 1, 2 e 3 se qualificam para o Segmento 1 e todos os três estão incluídos na população total. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -255,6 +258,19 @@ Sim. A métrica de preenchimento total do segmento inclui os dispositivos adicio
 **Os dispositivos que se qualificam para um segmento com um gráfico de dispositivo[!UICONTROL Profile Merge Rule]incluído nos[!UICONTROL Interactive]relatórios,[!UICONTROL Overlap]relatórios e[!UICONTROL Audience Optimization]relatórios?**
 
 Não.
+
+**Por que minhas exportações de segmento para a Adobe Campaign são exibidas após 16 de março de 2020?**
+
+No final de 2019, lançamos uma série de melhorias nas Regras de mesclagem de Perfis para melhorar a precisão dos arquivos em lote gerados com IDs de vários dispositivos. Esses aprimoramentos serão rigorosamente respeitados em sua instância do Audiência Manager a partir de segunda-feira, 16 de março de 2020. Consequentemente, os segmentos mapeados para um destino usando IDs entre dispositivos pararão de produzir exportações em algumas configurações de Regras de mesclagem de Perfis.
+
+Para garantir a integração correta entre a instância do Gerenciador de Audiências e os destinos usando IDs de vários dispositivos, como o Adobe Campaign, verifique se você atende aos seguintes requisitos:
+
+1. Revise a Regra de mesclagem de Perfil usada pelos segmentos mapeados para o destino da ID declarada do Adobe Campaign. A regra de mesclagem de Perfis deve usar a [!UICONTROL Last Authenticated Profile] opção, para que todos os perfis autenticados possam ser incluídos nas exportações. Se a Regra de mesclagem de Perfis estiver usando uma opção diferente, alterne para [!UICONTROL Last Authenticated Profile].
+2. Selecione a fonte de dados de ID declarada do Adobe Campaign nas configurações da Regra de mesclagem do Perfil.
+
+>[!NOTE]
+>
+> Aumentamos o limite da Regra de mesclagem de Perfil em 1 para clientes que enfrentam essa situação, para que você possa criar uma Regra de mesclagem de Perfis dedicada para os segmentos mapeados para o destino da ID declarada de Adobe Campaign, sem alterar as Regras de mesclagem de Perfis para outros casos de uso.
 
 >[!MORELIKETHIS]
 >
