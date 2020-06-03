@@ -7,9 +7,9 @@ solution: Audience Manager
 title: Perguntas frequentes sobre Regras de mesclagem de Perfis e Gráfico de dispositivos
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
 translation-type: tm+mt
-source-git-commit: 56a9626b1fa77926bdc31ef72b058d2aa9b58f43
+source-git-commit: 6876ca5ee0bc5f50c2aa1acd5c683b151a07fd59
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1548'
 ht-degree: 2%
 
 ---
@@ -259,7 +259,7 @@ Sim. A métrica de preenchimento total do segmento inclui os dispositivos adicio
 
 Não.
 
-**Por que minhas exportações de segmento para a Adobe Campaign são exibidas após 16 de março de 2020?**
+**Por que vejo uma população de segmentos zero para exportações de segmentos para a Adobe Campaign após 16 de março de 2020?**
 
 No final de 2019, lançamos uma série de melhorias nas Regras de mesclagem de Perfis para melhorar a precisão dos arquivos em lote gerados com IDs de vários dispositivos. Esses aprimoramentos serão rigorosamente respeitados em sua instância do Audiência Manager a partir de segunda-feira, 16 de março de 2020. Consequentemente, os segmentos mapeados para um destino usando IDs entre dispositivos pararão de produzir exportações em algumas configurações de Regras de mesclagem de Perfis.
 
