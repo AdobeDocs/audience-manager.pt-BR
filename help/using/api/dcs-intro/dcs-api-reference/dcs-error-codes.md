@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Códigos de erros, mensagens e exemplos de DCS
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 07fb9269f285a8662a9ce5e03d8be8b8d51df553
+workflow-type: tm+mt
+source-wordcount: '1533'
+ht-degree: 4%
 
 ---
 
@@ -247,6 +250,23 @@ In the tables below, *italics* represents a variable placeholder.
    <td colname="col3"> <p>O <span class="wintitle">DCS</span> retorna esse código de erro quando a solicitação contém uma ID de dispositivo global inválida. O DCS ignora a ID inválida e lança um erro 312 junto com os erros específicos da ID inválida. Consulte Fontes <a href="../../../features/global-data-sources.md" format="dita" scope="local">de dados</a> globais e <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">Índice de IDs no Gerenciador</a> de Audiências para obter informações detalhadas sobre os formatos corretos de ID de publicidade do dispositivo e as fontes de dados globais correspondentes.</p>
    <p>Exemplo de uma chamada incorreta: <code>"http://partner.demdex.net/event?d_rtbd=json&amp;d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
    <p>Explicação: Um <span class="keyword">IDFA (DPID 20915)</span> deve ser uma ID em maiúsculas. A ID fornecida na solicitação está em minúsculas.</p>
+   </td>
+  </tr>
+   <tr> 
+   <td colname="col1"> <p>313 </p> </td> 
+   <td colname="col2"> <p>A ID CMP não está presente no GCL</p> </td> 
+   <td colname="col3"> <p>Quando <code>gdpr=1</code> e a string IAB TC é gerada por uma ID CMP que não está presente na versão em cache do Gerenciador de Audiências da Lista Global CMP no momento da avaliação, o Plug-in Audiência Manager para IAB TCF descarta a string IAB TC e processa a solicitação como de costume. A macro IAB TCF v2.0 ${GDPR} está definida como 0 e a macro ${GDPR_CONSENT_XXX} está vazia.</p>
+   </td>
+  </tr>
+   <tr> 
+   <td colname="col1"> <p>314 </p> </td> 
+   <td colname="col2"> <p>A ID CMP é marcada como excluída no GCL</p> </td> 
+   <td colname="col3"> <p>Quando <code>gdpr=1</code> e a string IAB TC é gerada por um CMP marcado como excluído em nossa versão em cache da Lista Global CMP, o Plug-in Audiência Manager para IAB TCF descarta a string TC e processa a solicitação como de costume, se o tempo de avaliação ultrapassar o tempo de exclusão da Lista Global CMP. A macro IAB TCF v2.0 ${GDPR} está definida como 0 e a macro ${GDPR_CONSENT_XXX} está vazia.</p></td>
+  </tr>
+   <tr> 
+   <td colname="col1"> <p>315 </p> </td> 
+   <td colname="col2"> <p>A sequência de caracteres de consentimento indica que não há consentimento</p> </td> 
+   <td colname="col3"> <p>Quando nenhum consentimento é fornecido, o Plug-in do Gerenciador de Audiências para TCF IAB opta o usuário por não fazer mais coleta de dados ou descarta a chamada completamente se não houver contexto de parceiro detectado.</p>
    </td>
   </tr>
 
