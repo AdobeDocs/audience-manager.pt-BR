@@ -5,7 +5,10 @@ seo-title: Plug-in do Audience Manager para a Estrutura de consentimento do IAB
 solution: Audience Manager
 title: Plug-in do Audience Manager para a Estrutura de consentimento do IAB
 translation-type: tm+mt
-source-git-commit: 5fff9315558d3088f68268f32681842bb8d5e7d3
+source-git-commit: b5c56453a7278573dec2b80be7baa9833a847a4a
+workflow-type: tm+mt
+source-wordcount: '2432'
+ht-degree: 7%
 
 ---
 
@@ -14,92 +17,125 @@ source-git-commit: 5fff9315558d3088f68268f32681842bb8d5e7d3
 
 ## Visão geral
 
-Um aspecto importante nas obrigações de privacidade que você tem em relação aos seus usuários é a aquisição e o transporte de opções de usuário sobre como os dados pessoais deles podem ser usados (ou seja, “finalidade”) e por quem (ou seja, “empresas”).
+Um aspecto importante das obrigações de privacidade que você pode ter para com seus usuários é a aquisição e a transmissão de escolhas do usuário sobre como seus dados pessoais podem ser usados (ou seja, &quot;fins&quot;) e por quem (ou seja, &quot;empresas&quot;).
 
 A Adobe fornece o meio de gerenciar e comunicar as opções de privacidade de seus usuários por meio da [funcionalidade de Opt-in](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/optin-overview.html) e pelo suporte à [Estrutura de transparência e consentimento (TCF) do IAB](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/).
 
-Este artigo descreve os casos de uso do Audience Manager que oferecem suporte à TCF do IAB e como implementar tal suporte no Audience Manager. O Gerenciador de Audiências está registrado no TCF IAB com a ID do fornecedor 565.
+Este artigo descreve os casos de uso do Audience Manager que oferecem suporte à TCF do IAB e como implementar tal suporte no Audience Manager.
 
-O Plug-in do Audiência Manager para IAB TCF utiliza a funcionalidade [de](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/iab.html)aceitação, que, por sua vez, faz parte da biblioteca do Adobe [Adobe Experience Platform Identity Service (ECID)](https://docs.adobe.com/content/help/en/id-service/using/home.html) .
+>[!IMPORTANT]
+>
+>O Gerenciador de Audiências está registrado no TCF [IAB](https://iabeurope.eu/tcf-for-vendors/) com a ID do fornecedor 565.
+
+O Plug-in do Audiência Manager para IAB TCF utiliza a funcionalidade [de](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/iab.html)aceitação, que, por sua vez, faz parte da biblioteca do [Adobe Experience Platform Identity Service (ECID)](https://docs.adobe.com/content/help/en/id-service/using/home.html) .
 
 ## Âmbito e limitações {#scope-and-limitations}
 
-Como Editor ou Anunciante trabalhando com o Gerenciador de Audiências, você pode transmitir as opções do usuário ao Gerenciador de Audiências de acordo com o TCF da IAB. Isso fornece uma maneira fácil e consistente de comunicar as opções de usuário a todos os parceiros com os quais você trabalha e o Gerenciador de Audiências pode ajudá-lo a respeitar as opções de privacidade dos usuários.
+Como Editor ou Anunciante trabalhando com o Gerenciador de Audiências, você pode transmitir as opções do usuário ao Gerenciador de Audiências de acordo com o TCF da IAB.
 
-O suporte do ICB TCF descrito neste artigo representa a primeira fase do suporte planejado pelo gestor de Audiências para o quadro IAB. Atualmente, o Gerenciador de Audiências não oferece suporte a:
+>[!IMPORTANT]
+>
+>Os regulamentos relativos ao TCF da IAB aplicam-se apenas aos visitantes localizados no Espaço Econômico Europeu.
+
+O Gerenciador de Audiências ajuda você a respeitar as opções de privacidade dos usuários e também fornece uma maneira fácil de comunicar essas opções a todos os parceiros com os quais você trabalha.
+
+Atualmente, o Gerenciador de Audiências não oferece suporte a:
 
 * workflows para dispositivos móveis;
-* Gestão do consentimento entre dispositivos;
-* Acrescentar consentimento aos URLs enviados para destinos [](../../features/destinations/create-url-destination.md)URL;
-* Anexar consentimento aos segmentos.
+* Anexar consentimento às exportações de segmento.
 
 ## Pré-requisitos {#prerequisites}
 
-Você deve atender aos seguintes pré-requisitos para usar o TCF IAB com o Gerenciador de Audiências:
+>[!IMPORTANT]
+>
+>O Gerenciador de Audiências suporta IAB TCF v2.0.
+>
+>O suporte ao IAB TCF v1.1 terminará em 15 de agosto de 2020.
+>
+> Os clientes que desejarem continuar usando o Plug-in do Audiência Manager para IAB TCF para gerenciamento de consentimento devem atualizar para a versão mais recente do [ECID](https://github.com/Adobe-Marketing-Cloud/id-service/releases) para suporte contínuo.
+>
+> Após a atualização para a versão [ECID](https://github.com/Adobe-Marketing-Cloud/id-service/releases) mais recente, as sequências de caracteres de consentimento IAB TCF v1.1 não serão mais suportadas, portanto, atualize seu CMP antes de atualizar para a versão mais recente do ECID.
 
-1. Você deve usar o Adobe Experience Platform Identity Service (ECID) versão 4.1 ou mais recente. [Baixe](https://github.com/Adobe-Marketing-Cloud/id-service/releases) nossa versão mais recente do ECID.
-1. Você deve estar usando a Biblioteca de integração de dados (DIL) do Audiência Manager versão 9.0 ou mais recente, disponível para download [aqui](https://github.com/Adobe-Marketing-Cloud/dil/releases). Leia sobre o [DIL na documentação](../..//dil/dil-overview.md)do Gerenciador de Audiências.
-1. Como alternativa, se você usar o encaminhamento pelo lado do servidor (SSF) para importar dados para o Audiência Manager, será necessário atualizar para a versão mais recente do AppMeasurement. Baixe o AppMeasurement usando o Gerenciador [de código do](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html)Analytics.
-1. Você deve estar usando uma Plataforma de Gerenciamento de Consentimento (CMP), comercial ou própria, compatível com o TCF da IAB, e está registrada no TCF da IAB. Consulte a lista de [CMPs registrados na estrutura](https://iabeurope.eu/cmp-list/)IAB.
+Você deve atender aos seguintes pré-requisitos para usar o Plug-in Audiência Manager para IAB TCF com o Audiência Manager:
+
+1. Você deve usar o Adobe Experience Platform Identity Service (ECID) versão 5 ou mais recente. [Baixe](https://github.com/Adobe-Marketing-Cloud/id-service/releases) nossa versão mais recente do ECID.
+2. Você deve estar usando a Biblioteca de integração de dados (DIL) do Audiência Manager versão 9.0 ou mais recente, disponível para download [aqui](https://github.com/Adobe-Marketing-Cloud/dil/releases). Leia sobre o [DIL na documentação](../..//dil/dil-overview.md)do Gerenciador de Audiências. Recomendamos usar o [Adobe Launch](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html) para a implementação mais fácil do DIL para o Audiência Manager.
+3. Como alternativa, se você usar o encaminhamento pelo lado do servidor (SSF) para importar dados para o Audiência Manager, será necessário atualizar para a versão mais recente do AppMeasurement. Baixe o AppMeasurement usando o Gerenciador [de código do](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html)Analytics.
+4. Você deve estar usando uma Plataforma de Gerenciamento de Consentimento (CMP), comercial ou própria, integrada ao IAB TCF v2.0 e registrada no IAB TCF. Consulte a lista de [CMPs registrados na estrutura](https://iabeurope.eu/cmp-list/)IAB.
+
+>[!WARNING]
+>
+>Se você estiver usando uma Plataforma de gerenciamento de consentimento (CMP) que não suporta IAB TCF v.2.0, o Audiência Manager enviará automaticamente o `gdpr=0` parâmetro em sincronizações de ID, mesmo se seus visitantes estiverem na União europeia. Para determinar se sua validação do RGPD está ativa, recomendamos que você confirme com sua Plataforma de Gerenciamento de Consentimento (CMP) que eles suportam o IAB TCF v2.0.
 
 ## Recomendações e como implementar {#recommendations}
 
 Para ativar o suporte ao TCF IAB no Gerenciador de Audiências, leia nossa documentação sobre [como configurar o IAB com a opção de participação](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/iab.html).
 
-Isso é feito com mais facilidade usando o [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) para instruir o ECID Opt-in em suas propriedades. Read the documentation for the [ECID Opt-in extension](https://docs.adobelaunch.com/extension-reference/web/experience-cloud-id-service-extension#opt-in) to learn how to set up the Launch extension.
+A maneira mais fácil de fazer isso é usando o [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) para adicionar o ECID Opt-in às suas propriedades. Read the documentation for the [ECID Opt-in extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) to learn how to set up the Launch extension.
 
 ## Fluxo de trabalho de escolha do usuário ao usar a estrutura IAB {#user-choice-workflow}
 
-Ao visitar uma propriedade da Web, os usuários podem fornecer suas opções sobre como seus dados devem ser usados pelo editor e pelos fornecedores de terceiros com os quais o editor trabalha. Os usuários fornecem suas opções na forma de finalidades *e permissões* padrão para fornecedores ** terceiros registrados na lista global do fornecedor. A imagem abaixo representa um exemplo de uma caixa de diálogo CMP, exibida em um visitante pela primeira vez de um site. Lembre-se de que essa caixa de diálogo pode parecer muito diferente, com base na implementação do cliente.
+Ao visitar uma propriedade da Web, os usuários podem fornecer suas opções sobre como seus dados devem ser usados pelo editor e pelos fornecedores de terceiros com os quais o editor trabalha.
 
-![Caixa de diálogo CMP](assets/cmp.png)
+Os usuários fornecem suas opções na forma de *consentimento* e interesse ** legítimo para os fins IAB a fornecedores ** terceiros registrados na lista do fornecedor global.
 
-Os objetivos padrão do quadro IAB são:
+A imagem abaixo representa um exemplo de uma caixa de diálogo CMP, exibida em um visitante pela primeira vez de um site. Lembre-se de que essa caixa de diálogo pode parecer muito diferente, com base na implementação do cliente.
 
-* armazenamento e acesso à informação
-* Personalização
-* Seleção de anúncios, delivery e relatórios
-* Seleção de conteúdo, delivery e relatórios
-* Medição
+![Caixa de diálogo CMP](assets/cmp-example.png)
 
-Consulte a página [de especificação da estrutura](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/Consent%20string%20and%20vendor%20list%20formats%20v1.1%20Final.md#purposes-features) IAB para obter uma descrição dos cinco objetivos padrão.
+Os detalhes sobre os vários objetivos e permissões incluídos no IAB TCF v2.0 são abordados nas Políticas [](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#A_Purposes)IAB Europe Transparency &amp; Consent Framework.
 
-Os usuários podem conceder seu consentimento para uma combinação de finalidades padrão e fornecedores. Por exemplo, os usuários podem conceder seu consentimento para armazenamento, personalização e medição e conceder seu consentimento a todos os fornecedores de terceiros exibidos pelo CMP. Ou, em outro exemplo, eles poderiam conceder seu consentimento para os cinco fins padrão, mas apenas conceder o consentimento a alguns dos fornecedores exibidos pelo CMP.
+Os usuários podem conceder seu consentimento ou interesse legítimo (se disponível) para uma combinação de finalidades e fornecedores. Por exemplo, os usuários podem conceder seu consentimento para armazenar informações em um dispositivo, desenvolver e melhorar produtos e conceder seu consentimento a todos os fornecedores de terceiros exibidos pelo CMP.
 
-Depois que o usuário seleciona suas opções de privacidade, as opções do usuário são registradas na sequência de caracteres de consentimento TCF do IAB. A cadeia de caracteres de consentimento TCF da IAB armazena a combinação de finalidades e fornecedores aprovados, juntamente com outras informações de metadados (consulte a página [da](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/Consent%20string%20and%20vendor%20list%20formats%20v1.1%20Final.md#Consent-string-and-vendor-list-format) IAB para obter mais informações). Todos os fornecedores registrados no IAB TCF avaliam a sequência de caracteres de consentimento do IAB TCF e tomam decisões com base nas opções de privacidade dos usuários. Lembre-se de que as opções de privacidade dos usuários são válidas para todos os fornecedores aprovados.
+Ou, num outro exemplo, poderiam conceder o seu consentimento ou o seu interesse legítimo para todos os fins, mas apenas conceder o consentimento ou o interesse legítimo a alguns dos fornecedores expostos pelo CMP.
 
-## Finalidades padrão necessárias ao Gerenciador de Audiências {#aam-standard-purposes}
+Depois que o usuário seleciona suas opções de privacidade, as opções do usuário são registradas na string IAB TC. A string IAB TC armazena a combinação de finalidades e fornecedores aprovados, juntamente com outras informações de metadados (consulte a página [](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/TCFv2/IAB%20Tech%20Lab%20-%20Consent%20string%20and%20vendor%20list%20formats%20v2.md#about-the-transparency--consent-string-tc-string) IAB para obter mais informações).
 
-O Gerenciador de Audiências avalia as opções dos usuários armazenadas na sequência de caracteres de consentimento TCF do IAB para:
+Todos os fornecedores registrados no IAB TCF avaliam a sequência de caracteres IAB TC e tomam decisões com base nas opções de privacidade dos usuários. Lembre-se de que as opções de privacidade dos usuários são válidas em todos os fornecedores registrados com IAB TCF.
 
-* armazenamento de informações e acesso (ID de objetivo 1 na lista [do fornecedor](https://vendorlist.consensu.org/vendorlist.json)global)
-* Personalização (ID de objetivo 2)
-* Medição (ID de objetivo 5)
-* O consentimento do fornecedor do Gerenciador de Audiências para armazenar, processar ou ativar dados para um editor.
+## Finalidades exigidas pelo Gerenciador de Audiências {#aam-standard-purposes}
+
+O Gerenciador de Audiências avalia as opções dos usuários armazenadas na sequência IAB TC para os seguintes fins, definidos nas Políticas [](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#A_Purposes)IAB Europe Transparency &amp; Consent Framework. Além disso, você também pode encontrar os propósitos na lista [do fornecedor](https://vendorlist.consensu.org/vendorlist.json)global.
+
+* **Finalidade 1**: Armazenar e/ou aceder a informações num dispositivo;
+* **Finalidade 10**: Desenvolver e melhorar os produtos;
+* **Finalidade especial 1**: Garanta a segurança, evite fraudes e depure.
 
 >[!IMPORTANT]
 >
->Audience Manager needs consent for *all three purposes, plus vendor consent* in order to deploy cookies and initiate or honor ID syncs.
+>O Gerenciador de Audiências precisa de consentimento para a Finalidade 1 e a Finalidade 10, além do consentimento do fornecedor, para implantar cookies e iniciar ou honrar sincronizações de ID.
+>
+>De acordo com os regulamentos [da](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#Special_Purpose_1__Ensure_security_prevent_fraud_and_debug_)IAB, o Especial 1 (Garanta a segurança, previne fraudes e depura) é sempre aceito e os usuários não podem se opor a isso.
 
 ## O comportamento do Gerenciador de Audiências depende se o usuário concede consentimento {#aam-behavior-consent}
 
-O Gerenciador de Audiências funciona de forma diferente dependendo se o Gerenciador de Audiências detecta na sequência de caracteres de consentimento TCF do IAB que o usuário forneceu consentimento para os três fins (armazenamento, personalização, medição) ou não.
+O Gerenciador de Audiências funciona de forma diferente dependendo se a sequência de caracteres IAB TC inclui o consentimento do usuário para os dois fins (armazenar e/ou acessar informações em um dispositivo e desenvolver e melhorar produtos) ou não.
+
+Também verificamos o consentimento do usuário para todos os destinos com os quais você trabalha no Gerenciador de Audiências, desde que esses destinos estejam registrados na IAB TCF.
 
 | Quando seu usuário *fornece consentimento*, o Gerenciador de Audiências: | Quando o usuário *recusar* o consentimento, o Gerenciador de Audiências: |
 |---|---|
-| <ul><li>Executa todos os casos de uso do Gerenciador de Audiências solicitados.</li><li>Transmite o consentimento a terceiros em sincronizações de ID (transmitindo gdpr = 1 e a sequência de caracteres de consentimento como gdpr_Consentimento em chamadas de sincronização de ID).</li><li>Avalia e respeita o consentimento passado dos pixels do servidor de publicidade.</li><li>Honra sincronizações de ID iniciadas pelo parceiro.</li></ul> | <ul><li>Não armazena dados novos do usuário na sua instância. Isso inclui IDs de parceiros, sinais, características ou dados de pixel.</li><li>Não inicia sincronizações de ID de terceiros.</li><li>Não aceita sincronizações de ID iniciadas pelo parceiro.</li></ul> |
+| <ul><li>Executa todos os casos de uso do Gerenciador de Audiências solicitados.</li><li>Transmite o consentimento a terceiros em sincronizações de ID (passando `gdpr = 1` e a sequência de caracteres de consentimento como `gdpr_consent` em chamadas de sincronização de ID).</li><li>Avalia e respeita o consentimento passado dos pixels do servidor de publicidade.</li><li>Honra sincronizações de ID iniciadas pelo parceiro.</li></ul> | <ul><li>Não armazena dados novos do usuário na sua instância. Isso inclui IDs de parceiros, sinais, características ou dados de pixel.</li><li>Não inicia sincronizações de ID de terceiros.</li><li>Não aceita sincronizações de ID iniciadas pelo parceiro.</li><li>Opt out o usuário de mais coleta de dados.</li></ul> |
 
 ## Caso de uso do editor {#publisher-use-case}
 
-Ao implementar o TCF da IAB, você não é obrigado a manter o código personalizado para gerenciamento de consentimento nas suas propriedades da Web por meio de um mecanismo diferente com a Adobe ou outros fornecedores de terceiros. O caso de uso é descrito na imagem e nas etapas abaixo. Start à esquerda da imagem:
+Ao implementar o Plug-in do Audiência Manager para IAB TCF, você não precisa manter o código personalizado para gerenciamento de consentimento em suas propriedades da Web por meio de um mecanismo diferente com a Adobe ou outros fornecedores de terceiros. O caso de uso é descrito na imagem e nas etapas abaixo. Start à esquerda da imagem:
 
 1. Um usuário visita uma de suas propriedades da Web. Desde que você esteja usando as versões mais recentes das bibliotecas ECID e DIL (consulte [Pré-requisitos](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#prerequisites)), o fluxo de aceitação é acionado.
 2. O Gerenciador de Audiências verifica se o fluxo IAB se aplica (`isIabContext=true`). Consulte [Recomendações e como implementar](aam-iab-plugin.md#recommendations).
-3. O Gerenciador de Audiências verifica se o RGPD se aplica (`gdpr = 1`) e se há um CMP, registrado com o IAB, na propriedade da Web. Por exemplo, tal aplicar-se-ia aos utilizadores que visitam o espaço da União europeia. Observe que é sua responsabilidade, como editor, definir o sinalizador do RGPD.
-4. Se o RGPD for aplicado, o Gerenciador de Audiências verificará a string de consentimento do TCF IAB, transmitida no parâmetro `gdpr_consent`, para obter as permissões necessárias. O Gerenciador de Audiências precisa de permissões para o armazenamento, personalização, medição, além do consentimento do fornecedor do Audiência Manager, para armazenar, processar ou ativar dados.
-5. Se a sequência de caracteres de consentimento TCF do IAB estiver presente e contiver as permissões necessárias, o Gerenciador de Audiências transmitirá a sequência de caracteres de consentimento TCF do IAB em nossos servidores [de coleta de](../../reference/system-components/components-data-collection.md) dados (DCS).
-6. O Gerenciador de Audiências responde definindo um cookie [](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-am.html) demdex no navegador. O Gerenciador de Audiências também inicia e honra sincronizações de IDs de terceiros.
-7. Como alternativa, se a sequência de caracteres de consentimento TCF IAB transmitida na etapa 5 não contiver todas as permissões necessárias, o Gerenciador de Audiências não coletará, processará ou ativará dados e não honrará ou iniciará sincronizações de ID.
+3. O Gerenciador de Audiências verifica se o RGPD se aplica (`gdpr = 1`) e se há um CMP, registrado com o TCF da IAB, na propriedade da Web. Por exemplo, tal aplicar-se-ia aos utilizadores que visitam a União europeia. Observe que é sua responsabilidade, como editor, definir o sinalizador do RGPD.
+4. Se o RGPD for aplicado, o Gerenciador de Audiências verificará a string do TC IAB, transmitida no `gdpr_consent` parâmetro, para obter o consentimento necessário. O Gerenciador de Audiências precisa de consentimento para armazenar e/ou acessar informações em um dispositivo (finalidade 1[do TCF da](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#A_Purposes)IAB), desenvolver e melhorar produtos (finalidade 10[do TCF da](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#A_Purposes)IAB), além do consentimento do fornecedor do Gerenciador de Audiências para armazenar, processar ou ativar dados.
+5. Se a string IAB TC estiver presente e contiver o consentimento necessário, o Gerenciador de Audiências transmitirá a string IAB TC aos nossos servidores [de coleta de](../../reference/system-components/components-data-collection.md) dados (DCS).
+6. O Gerenciador de Audiências responde configurando um cookie [](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-am.html) demdex no navegador e inicia e honra sincronizações de IDs de terceiros.
+7. Como alternativa, se a sequência de caracteres TC IAB transmitida na etapa 4 não contiver todas as permissões necessárias, o Gerenciador de Audiências não coletará, processará ou ativará quaisquer dados do usuário e não honrará ou iniciará sincronizações de ID. Além disso, ele opt out o usuário dos destinos com os quais você trabalha.
+
+>[!IMPORTANT]
+>
+>Se você estiver trabalhando com parceiros de destino do Gerenciador de Audiências que exigem parâmetros TCF do IAB, mas não tiver um CMP compatível com TCF do IAB em seu site, o Gerenciador de Audiências enviará `gdpr=0` sincronizações de ID. Isso significa que o RGPD não se aplica a esses usuários.
+>
+> Se isso não for desejado, ative a funcionalidade TCF IAB no Gerenciador de Audiências para enviar as strings TC IAB apropriadas aos parceiros de destino.
+
+
 
 ![Caso de uso do editor](assets/publisher-use-case.png)
 
@@ -107,12 +143,12 @@ Ao implementar o TCF da IAB, você não é obrigado a manter o código personali
 
 O Gerenciador de Audiências avalia e respeita o consentimento passado em chamadas [de](../../integration/sending-audience-data/real-time-data-integration/pixel-based-data-transfer.md)pixel, de acordo com o TCF da IAB.
 
-Em geral, os pixels são colocados por clientes do Gerenciador de Audiências em suas páginas de parceiros ou são colocados em servidores de anúncios para inclusão na resposta do anúncio. No primeiro caso, seu parceiro deve recuperar programaticamente o parâmetro de consentimento e adicioná-lo ao pixel antes de disparar. No segundo caso, que é mais comum e é descrito detalhadamente abaixo, os servidores de anúncios anexam os parâmetros de consentimento que recebem da Plataforma do lado do suprimento (SSP) ou dos servidores de anúncios do editor a todos os pixels.
+Os pixels podem ser colocados por clientes do Gerenciador de Audiências em suas páginas de parceiros ou em servidores de anúncios para inclusão na resposta do anúncio. No primeiro caso, seu parceiro deve recuperar programaticamente o parâmetro de consentimento e adicioná-lo ao pixel antes de disparar. No segundo caso, que é mais comum e é descrito detalhadamente abaixo, os servidores de anúncios anexam os parâmetros de consentimento que recebem da Plataforma do lado do suprimento (SSP) ou dos servidores de anúncios do editor a todos os pixels.
 
 O Gerenciador de Audiências usa dois parâmetros para passar o consentimento do usuário em chamadas de pixel:
 
 * `gdpr` pode ser 0 (RGPD não se aplica) ou 1 (RGPD se aplica);
-* `gdpr_consent` é a sequência de caracteres de consentimento do RGPD com codificação base64 segura para URL (consulte a [especificação](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications)). Uma amostra de chamada para um pixel de impressão, com os dois parâmetros, pode ser a seguinte:
+* `gdpr_consent` é a sequência de caracteres de consentimento do RGPD com codificação base64 segura para URL (consulte a [especificação](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/TCFv2/IAB%20Tech%20Lab%20-%20Consent%20string%20and%20vendor%20list%20formats%20v2.md#about-the-transparency--consent-string-tc-string)). Uma amostra de chamada para um pixel de impressão, com os dois parâmetros, pode ser a seguinte:
 
 ```
 http://yourcompany.demdex.net/event?d_event=imp&gdpr=1&gdpr_consent=consentstring&d_src=datasource_id&d_site=siteID&d_creative=creative_id&d_adgroup=adgroup_id&d_placement=placement_id
@@ -120,26 +156,44 @@ http://yourcompany.demdex.net/event?d_event=imp&gdpr=1&gdpr_consent=consentstrin
 
 O caso de uso é descrito na imagem e nas etapas abaixo. Start à esquerda da imagem:
 
-1. Seu usuário recebe uma impressão por meio de um servidor de anúncios. Isso se traduz em uma chamada de pixel para nossos servidores de coleta de dados (DCS).
-2. O Gerente de Audiências verifica se o indicador do RGPD se aplica. Caso contrário, o Gerenciador de Audiências armazena os dados transmitidos nas variáveis de macro em chamadas de pixel.
-3. Se a sequência de caracteres de consentimento estiver presente e contiver as permissões necessárias, o Audiência Manager armazenará os dados transmitidos nas variáveis de macro em chamadas de pixel.
-4. Se a sequência de caracteres de consentimento estiver ausente ou não tiver as permissões necessárias, o Gerenciador de Audiências soltará os dados transmitidos nas variáveis de macro em chamadas de pixel.
+1. Seu usuário recebe uma impressão por meio de um servidor de anúncios. Isso se traduz em uma chamada [de](../../integration/media-data-integration/impression-data-pixels.md) pixel para nossos servidores de coleta de dados (DCS).
+2. O Gerente de Audiências verifica se o indicador do RGPD se aplica. Caso contrário, o Audiência Manager armazena os dados transmitidos nas variáveis `gdpr` e `gdpr_consent` nas chamadas de pixel.
+3. Se a string IAB TC estiver presente e contiver as permissões necessárias, o Gerenciador de Audiências armazenará os dados transmitidos nas variáveis `gdpr` e `gdpr_consent` nas chamadas de pixel.
+4. Se a sequência de caracteres TC IAB estiver ausente ou não tiver as permissões necessárias, o Gerenciador de Audiências ignorará os dados transmitidos nas variáveis `gdpr` e `gdpr_consent` nas chamadas de pixel.
 
 ![Caso de uso do anunciante](assets/advertiser-use-case.png)
 
 ## Parceiros Ativações que oferecem suporte ao IAB TCF {#aam-activation-partners}
 
-O Plug-in do Gerenciador de Audiências para IAB TCF permite encaminhar a sequência de caracteres de consentimento TCF do IAB para parceiros de ativação, respeitando ao mesmo tempo as opções de privacidade dos usuários. Para obter informações sobre quais parceiros de ativações suportam o TCF da IAB, consulte nossa [lista de destinos](/help/using/features/destinations/device-based-destinations-list.md)baseados em dispositivos.
+O Plug-in do Gerenciador de Audiências para IAB TCF permite encaminhar a sequência de caracteres IAB TC para parceiros de ativação respeitando as opções de privacidade dos usuários. Para obter informações sobre quais parceiros de ativações suportam o TCF da IAB, consulte nossa [lista de destinos](/help/using/features/destinations/device-based-destinations-list.md)baseados em dispositivos.
+
+## Acrescentar consentimento a URLs enviados para destinos de URL
+
+A integração do Gerenciador de Audiências com o IAB TCF v2.0 suporta a anexação do consentimento às informações enviadas para destinos [de](../../features/destinations/create-url-destination.md) URL que são integrados ao IAB TCF v2.0. No entanto, esse processo não é feito automaticamente pelo Gerenciador de Audiências, para evitar quebrar formatos de URL específicos.
+
+Os clientes que desejam anexar o consentimento aos dados enviados para destinos de URL devem adicionar manualmente as macros `${GDPR}` e `${GDPR_CONSENT_XXXX}` os dados ao formato de URL, substituindo `XXXX` pela ID do parceiro de destino.
+
+Exemplo: `http://yourdomain.com?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_1234}`.
+
+Consulte Macros de [destino definidas](../../features/destinations/destination-macros.md) para obter mais detalhes sobre as macros de destino suportadas.
+
+## Gerenciamento de consentimento entre dispositivos
+
+O Plug-in do Gerenciador de Audiências para IAB TCF opt out automaticamente as IDs presentes em uma solicitação, quando os visitantes do site não fornecem as permissões apropriadas. Se a solicitação contiver uma ID de dispositivo [cruzado (ID CRM)](../../reference/ids-in-aam.md), o Gerenciador de Audiências opt out a ID, juntamente com o último dispositivo vinculado a essa ID de dispositivo [cruzado (ID CRM)](../../reference/ids-in-aam.md).
 
 ## Testar sua implementação IAB {#test-iab-implementation}
 
-Para testar se você implementou corretamente o Plug-in do Audiência Manager para IAB TCF, leia [Caso de uso 4 em Métodos de validação para aceitação e implementação](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/testing-optin-and-iab-plugin.html#section-64331998954d4892960dcecd744a6d88)IAB.
+Para testar se você implementou corretamente o Plug-in do Audiência Manager para IAB TCF, leia [Caso de uso 4 em Validação do serviço](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/testing-optin-and-iab-plugin.html#section-64331998954d4892960dcecd744a6d88)de aceitação.
 
 ## IAB e opção de não participação no Gerenciador de Audiências. Ordem de precedência. {#iab-and-optout}
 
 Outra opção de privacidade à disposição dos usuários é a capacidade de opt out toda a coleta de dados. A Adobe fornece aos usuários os meios para fazer isso na página [Suas escolhas](https://www.adobe.com/privacy/opt-out.html#customeruse) de privacidade.
 
-O Gerenciador de Audiências aborda as solicitações de não participação em um artigo [separado em nossa documentação](data-privacy-requests.md).
+O Gerenciador de Audiências aborda as solicitações de não participação em um artigo [separado em nossa documentação](data-privacy-requests.md#opt-out-requests).
+
+>[!IMPORTANT]
+>
+>Os usuários que forem opt out de toda a coleta de dados depois que recusarem o consentimento, não poderão ser aceitos novamente.
 
 >[!NOTE]
 >
