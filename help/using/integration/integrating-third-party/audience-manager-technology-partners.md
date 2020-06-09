@@ -1,31 +1,34 @@
 ---
 description: Esta página inclui apenas integrações atuais de servidor para servidor. Para obter mais informações sobre uma integração, consulte sua lista do Adobe Exchange (quando disponível) ou entre em contato com seu consultor da Adobe ou com o Atendimento ao cliente.
 seo-description: Esta página inclui apenas integrações atuais de servidor para servidor. Para obter mais informações sobre uma integração, consulte sua lista do Adobe Exchange (quando disponível) ou entre em contato com seu consultor da Adobe ou com o Atendimento ao cliente.
-seo-title: Parceiros de tecnologia do Adobe Audience Manager
+seo-title: Parceiros de tecnologia do Adobe Audiência Manager
 keywords: activation; activation partners, destination, destinations
 solution: Audience Manager
-title: Parceiros de tecnologia do Adobe Audience Manager
+title: Parceiros de tecnologia do Adobe Audiência Manager
 translation-type: tm+mt
-source-git-commit: fab074926de1ff5e42092b9f7f8b0d5585fe2edc
+source-git-commit: da0eb0244fc3ae158fa151727f4253625dcff2c4
+workflow-type: tm+mt
+source-wordcount: '1178'
+ht-degree: 59%
 
 ---
 
 
-# Parceiros de ativação do Audience Manager
+# Parceiros de Ativação do Gerenciador de Audiências
 
-Esta página inclui apenas integrações [](/help/using/features/destinations/add-edit-segments.md) atuais de servidor para servidor do Audience Manager.  Para obter mais informações sobre uma integração, consulte sua lista do [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (quando disponível) ou entre em contato com seu consultor da Adobe ou com o Atendimento ao cliente.
+Esta página inclui apenas integrações [de](/help/using/features/destinations/add-edit-segments.md) servidor para servidor atuais do Gerenciador de Audiências.  Para obter mais informações sobre uma integração, consulte sua lista do [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (quando disponível) ou entre em contato com seu consultor da Adobe ou com o Atendimento ao cliente.
 
 <br> 
 
 * **Atualizado** = Mostra a última data em que houve uma atualização para este parceiro de ativação.
-* **Unsegment** = Unsegmentation descreve processos que desqualificam e removem perfis de dispositivos dos segmentos. Sua capacidade de remover um perfil de dispositivo de um segmento depende da opção de dispositivo usada para criar uma Regra de mesclagem de perfil. A dessegmentação também é usada no contexto de solicitações de exclusão do RGPD: Leia as Regras de mesclagem de [perfis e os processos](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) de dessegmentação de dispositivos e os parceiros do [Audience Manager com recursos](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation)de dessegmentação. O Audience Manager envia informações de segmentos para os destinos marcados com Sim abaixo.
-* **Recebendo sinais** de consentimento TCF IAB = O Plug-in do Audience Manager para TCF IAB permite encaminhar a cadeia de caracteres de consentimento TCF IAB para parceiros de ativação, respeitando ao mesmo tempo as opções de privacidade dos usuários. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners).
+* **Unsegment** = Unsegmentation descreve processos que desqualificam e removem perfis de dispositivos de segmentos. Sua capacidade de remover um perfil de dispositivo de um segmento depende da opção de dispositivo usada para criar uma Regra de mesclagem de Perfis. A dessegmentação também é usada no contexto de solicitações de exclusão do RGPD: Leia as Regras de mesclagem de [Perfis e os Processos](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) de dessegmentação de dispositivos e os Parceiros do Gerenciador de [Audiências com recursos](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation)de dessegmentação. O Gerenciador de Audiências envia informações de segmentos para os destinos marcados com Sim abaixo.
+* **Recebendo sinais** de consentimento TCF IAB = O Plug-in do Gerenciador de Audiências para TCF IAB permite encaminhar a sequência de caracteres TC IAB para parceiros de ativação, respeitando as opções de privacidade dos usuários. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners).
 * **ICDS** = Esta coluna lista os parceiros que suportam a Supressão Instantânea entre Dispositivos. Read [Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
-* **IDs** de dispositivo móvel = Essa coluna lista parceiros que podem receber IDs de dispositivo móvel do Audience Manager.
+* **IDs** de dispositivo móvel = essa coluna lista parceiros que podem receber IDs de dispositivo móvel do Audiência Manager.
 
 <br> 
 
-| Integração | Atualizado | Cancelar segmento | Recebendo sinais de consentimento IAB TCF | ICDS | IDs de dispositivo móvel |
+| Integração | Atualizado | Cancelar segmento | Recebendo sinais de consentimento TCF da IAB | ICDS | IDs de dispositivo móvel |
 |---------------------------------------------------|------------|-----------|-----------------------------------|------|-------------------|
 | Insights 4C | 26/09/2018 | Sim | Não | Não | Sim |
 | 4info | 09/02/2017 | Não | Não | Não | Sim |
@@ -78,9 +81,9 @@ Esta página inclui apenas integrações [](/help/using/features/destinations/ad
 | Mídia de Gamut | 03/03/2017 |  | Não | Não |  |
 | Exibição do Google AdsWords | 02/08/2018 | Sim | Sim | Não | Sim |
 | Gerenciador de lances do Google DoubleClick (DBM) | 24/04/2017 | Sim | Sim | Sim | Sim |
-| Gerenciador de campanha do Google DoubleClick (DCM fka DFA) | 24/04/2017 | Sim | Sim | Sim | Sim |
+| Gerenciador de Campanhas do Google DoubleClick (DCM fka DFA) | 24/04/2017 | Sim | Sim | Sim | Sim |
 | Google DoubleClick for Publishers (DFP, DFPP) | 24/04/2017 | Sim | Sim | Sim | Sim |
-| Goma | 02/06/2017 | Sim | Não | Não | Não |
+| GumGum | 02/06/2017 | Sim | Não | Não | Não |
 | Index Exchange (antigo Casale Media) | 03/03/2017 | Sim | Não | Não | Não |
 | Mídia infecciosa | 03/03/2017 | Sim | Não | Sim | Não |
 | inMobi | 30/03/2017 | Sim | Não | Não | Sim |
@@ -129,7 +132,7 @@ Esta página inclui apenas integrações [](/help/using/features/destinations/ad
 | EXECUTAR | 17/02/2017 | Sim | Não | Não | Não |
 | Sabio Mobile | 17/02/2017 | Não | Não | Não | Sim |
 | Simpli.fi | 17/02/2017 | Não | Não | Não | Sim |
-| Sizmek Audience Hub | 17/02/2017 | Sim | Não | Não |  |
+| Hub Audiência Sizmek | 17/02/2017 | Sim | Não | Não |  |
 | Slickdeal | 04/09/2018 | Sim | Não | Não | Sim |
 | Servidor inteligente | 31/07/2017 | Sim | Não | Sim | Sim |
 | Logicad de redes de mídia So-net |  | Sim | Não | Não |  |
@@ -154,7 +157,7 @@ Esta página inclui apenas integrações [](/help/using/features/destinations/ad
 | TubeMogul | 03/03/2017 | Sim | Não | Sim | Não |
 | Ligar / Amobee | 03/03/2027 | Não | Não | Não | Sim |
 | Twenga | 29/10/2018 | Sim | Não | Não | Não |
-| Públicos-alvo personalizados do Twitter | 27/03/2017 | Sim | Não | Sim | Não |
+| Audiências personalizadas do Twitter | 27/03/2017 | Sim | Não | Sim | Não |
 | Subtom | 11/07/2017 | Não | Não | Não | Não |
 | Verve | 15/06/2017 | Sim | Não | Não | Sim |
 | VideoAmp | 03/03/2017 | Não | Não | Não | Não |
