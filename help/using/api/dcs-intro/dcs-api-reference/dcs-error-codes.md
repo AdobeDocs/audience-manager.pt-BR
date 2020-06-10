@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Códigos de erros, mensagens e exemplos de DCS
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 translation-type: tm+mt
-source-git-commit: 07fb9269f285a8662a9ce5e03d8be8b8d51df553
+source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1545'
 ht-degree: 4%
 
 ---
@@ -212,22 +212,22 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
    <td colname="col2"> <p>ID do cliente bloqueado <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Retornado quando a ID do cliente foi identificada como maliciosa e foi incluído na blacklist. </p> </td> 
+   <td colname="col3"> <p>Retornado quando a ID do cliente foi identificada como mal-intencionada e adicionada a uma lista de negação. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>304 </p> </td> 
    <td colname="col2"> <p>ID da fonte de dados bloqueada <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Retornado quando a ID da fonte de dados foi identificada como maliciosa e foi incluído na blacklist. </p> </td> 
+   <td colname="col3"> <p>Retornado quando a ID da fonte de dados foi identificada como maliciosa e adicionada a uma lista de negação </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>306 </p> </td> 
    <td colname="col2"> <p>ID de dispositivo declarada bloqueada <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>A ID do dispositivo foi identificada como maliciosa e foi incluído na blacklist. Isso pode acontecer quando recebemos uma quantidade extrema de solicitações <span class="wintitle"> DCS</span> contendo essa ID de dispositivo em um curto período de tempo. </p> </td>
+   <td colname="col3"> <p>A ID do dispositivo foi identificada como mal-intencionada e adicionada a uma lista de negação Isso pode ocorrer quando recebemos uma quantidade extrema de solicitações <span class="wintitle"> DCS</span> contendo essa ID do dispositivo em um curto período de tempo. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>307 </p> </td> 
    <td colname="col2"> <p>Operação de perfil bloqueada para <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Uma ação de leitura/gravação foi bloqueada porque uma ID foi identificada como maliciosa e foi incluído na blacklist. Consulte o código de erro 306. </p> </td> 
+   <td colname="col3"> <p>Uma ação de leitura/gravação foi bloqueada porque uma ID foi identificada como maliciosa e adicionada a uma lista de negação. Consulte o código de erro 306. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>309 </p> </td> 
