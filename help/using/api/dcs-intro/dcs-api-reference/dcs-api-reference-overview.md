@@ -1,10 +1,13 @@
 ---
 description: Informações conceituais, descrições e definições para código, métodos e processos da API DCS.
-seo-description: Informações conceituais, descrições e definições para código, métodos e processos da API DCS no Adobe Audience Manager (AAM).
-seo-title: Visão geral de referência da API DCS no Adobe Audience Manager (AAM)
+seo-description: Informações conceituais, descrições e definições para código, métodos e processos da API DCS no Adobe Audiência Manager (AAM).
+seo-title: Visão geral de referência da API DCS no Adobe Audiência Manager (AAM)
 title: Visão geral de referência da API DCS
 translation-type: tm+mt
-source-git-commit: a1960a65058622c198bb07d7c20c1e21e2eaf00a
+source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+workflow-type: tm+mt
+source-wordcount: '306'
+ht-degree: 1%
 
 ---
 
@@ -21,15 +24,15 @@ Informações conceituais, descrições e definições para código, métodos e 
 
    Códigos de erro e mensagens geradas pelos servidores de coleta de dados (DCS) listados em ordem numérica por ID de código.
 
-* [Monitoramento de ID e lista negra](/help/using/api/dcs-intro/dcs-api-reference/id-monitoring-blacklisting.md)
+* [Monitoramento de ID e lista de negação](/help/using/api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
 
-   O DCS monitora as IDs que recebe e faz a lista negra das que estão sendo enviadas a uma taxa excepcionalmente alta em um curto período de tempo.
+   O DCS monitora as IDs que recebe e adiciona aquelas que estão sendo enviadas a uma taxa excepcionalmente alta durante um curto período de tempo para uma lista de negação.
 
 * [IDs de região DCS, locais e nomes de host](/help/using/api/dcs-intro/dcs-api-reference/dcs-regions.md)
 
-   O nome do host do servidor DCS regional é necessário para fazer chamadas para o DCS. Isso ocorre porque o DCS armazena informações em data centers geograficamente próximos aos visitantes do site. Suas consultas funcionarão se você as enviar para o DCS errado, mas essas chamadas são ineficientes e podem atrasar a resposta. Para fazer uma solicitação DCS, corresponda a ID da região ao nome do host regional correspondente e forme a consulta com o nome do host apropriado.
+   O nome do host do servidor DCS regional é necessário para fazer chamadas para o DCS. Isso ocorre porque o DCS armazena informações em data centers geograficamente próximos aos visitantes do site. Seus query funcionarão se você os enviar para o DCS errado, mas essas chamadas são ineficientes e podem atrasar a resposta. Para fazer uma solicitação DCS, corresponda a ID da região ao nome do host regional correspondente e forme o query com o nome do host apropriado.
 
-* [Formatação de pares de valores chave em chamadas DCS](/help/using/api/dcs-intro/dcs-api-reference/dcs-key-format.md)
+* [Formatação de pares de valores-chave em chamadas DCS](/help/using/api/dcs-intro/dcs-api-reference/dcs-key-format.md)
 
    Ao fazer uma chamada, o DCS aceita dados de valor chave em formato padrão ou serializado. Consulte esta seção para obter informações sobre como formatar dados de valores chave padrão e serializados.
 
@@ -39,4 +42,4 @@ Informações conceituais, descrições e definições para código, métodos e 
 
 * [Atributos suportados para chamadas de API DCS](/help/using/api/dcs-intro/dcs-api-reference/dcs-keys.md)
 
-   Lista e descreve a sintaxe e os atributos suportados (ou pares de valores chave) que podem ser transmitidos para os Servidores de Coleta de Dados (DCS). Essas informações podem ajudar a formatar as solicitações do DCS e entender os parâmetros retornados por este sistema.
+   Listas e descreve a sintaxe e os atributos suportados (ou pares de valores chave) que podem ser transmitidos para os Servidores de Coleta de Dados (DCS). Essas informações podem ajudar a formatar as solicitações do DCS e entender os parâmetros retornados por este sistema.
