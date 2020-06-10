@@ -5,12 +5,15 @@ audience: end-user
 user-guide-title: Guia do usuário do Gerenciador de Audiências
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
+source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+workflow-type: tm+mt
+source-wordcount: '1711'
+ht-degree: 9%
 
 ---
 
 
-# Guia do usuário do Gerenciador de Audiências {#user-guide}
+# Audience Manager User Guide {#user-guide}
 
 + [Documentação do produto do Gerenciador de Audiências](aam-home.md)
 + Visão geral{#overview}
@@ -167,7 +170,7 @@ source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
       + [Expressões de amostra com operadores booleanos e de comparação](features/traits/trait-expression-samples.md)
       + [Referência de qualificação de características e segmentos](features/traits/trait-and-segment-qualification-reference.md)
    + [Visualizador de Perfis de Visitantes](features/visitor-profile-viewer.md)
-+ Relatório{#reporting}
++ Relatórios {#reporting}
    + [Visão geral dos relatórios](reporting/reports-overview.md)
    + [Painel de relatórios](reporting/reports-dashboard.md)
    + [Relatórios gerais](reporting/general-reports.md)
@@ -233,7 +236,7 @@ source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
          + [Visão geral de referência da API DCS](api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)
          + [Métodos da API DCS](api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
          + [Códigos de erros, mensagens e exemplos de DCS](api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
-         + [Monitoramento de ID e lista negra](api/dcs-intro/dcs-api-reference/id-monitoring-blacklisting.md)
+         + [Monitoramento de ID e lista de negação](api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
          + [IDs de região DCS, locais e nomes de host](api/dcs-intro/dcs-api-reference/dcs-regions.md)
          + [Formatação de pares de valores-chave em chamadas DCS](api/dcs-intro/dcs-api-reference/dcs-key-format.md)
          + [Condições de raça e tratamento de erros](api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
