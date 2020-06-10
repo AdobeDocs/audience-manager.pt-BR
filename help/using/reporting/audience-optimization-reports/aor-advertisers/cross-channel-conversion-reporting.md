@@ -1,25 +1,28 @@
 ---
-description: A opção Conversão entre canais nos relatórios de Otimização de público-alvo permite que você atribua conversões offline a impressões ou cliques online oferecidos.
-seo-description: A opção Conversão entre canais nos relatórios de Otimização de público-alvo permite que você atribua conversões offline a impressões ou cliques online oferecidos.
+description: A opção Conversão entre Canais nos relatórios de Otimização de Audiência permite que você atribua conversões offline a impressões ou cliques online oferecidos.
+seo-description: A opção Conversão entre Canais nos relatórios de Otimização de Audiência permite que você atribua conversões offline a impressões ou cliques online oferecidos.
 seo-title: Conversão entre canais
 solution: Audience Manager
 title: Conversão entre canais
 uuid: 0fecec23-e502-490b-b7dd-47a3753a3f75
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 6988c6750c98f382a3440a606677243646551ad1
+workflow-type: tm+mt
+source-wordcount: '261'
+ht-degree: 4%
 
 ---
 
 
 # Conversão entre canais{#cross-channel-conversion}
 
-A opção Conversão entre canais nos relatórios de Otimização de público-alvo permite que você atribua conversões offline a impressões ou cliques online oferecidos.
+A opção Conversão entre Canais nos relatórios de Otimização de Audiência permite que você atribua conversões offline a impressões ou cliques online oferecidos.
 
 Os [!UICONTROL Cross Channel Conversion] relatórios combinam os resultados da plataforma [!DNL DoubleClick Campaign Manager] (DCM) com as características de [!DNL Audience Manager] conversão. Isso permite vincular conversões offline a impressões ou cliques online.
 
 Você pode usar o [!UICONTROL Cross Channel Conversion] para os relatórios Desempenho [do](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) segmento e Frequência [](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md) ideal.
 
-Para exibir os [!UICONTROL Cross Channel Conversion] relatórios, selecione o **[!UICONTROL AAM+DCM]** item na lista **[!UICONTROL Platform]** suspensa.
+Para visualização dos [!UICONTROL Cross Channel Conversion] relatórios, selecione o **[!UICONTROL AAM+DCM]** item na lista **[!UICONTROL Platform]** suspensa.
 
 A tabela a seguir lista considerações importantes ao configurar [!UICONTROL Cross Channel Conversion]:
 
@@ -33,12 +36,8 @@ A tabela a seguir lista considerações importantes ao configurar [!UICONTROL Cr
  <tbody> 
   <tr> 
    <td colname="col01"> <p>Número mínimo de características de conversão </p> </td> 
-   <td colname="col1"> <p>Pelo menos uma característica de conversão deve ser atribuída a uma fonte de dados para que os relatórios de conversão <span class="wintitle"></span> entre canais sejam executados. Consulte Informações <a href="../../../features/traits/create-onboarded-rule-based-traits.md"> básicas sobre características</a> para obter mais informações sobre características. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> <p>Número máximo de características de conversão </p> </td> 
-   <td colname="col1"> <p>Os relatórios extraem no <i>máximo</i> 50 características de conversão do usuário. Se você atingir o máximo, os relatórios usarão as primeiras 50 características de conversão com base na ID de característica, em ordem crescente. </p> </td> 
-  </tr> 
+   <td colname="col1"> <p>Pelo menos uma característica de conversão deve ser atribuída a uma fonte de dados para que os relatórios de Conversão <span class="wintitle"></span> entre Canais sejam executados. Consulte Informações <a href="../../../features/traits/create-onboarded-rule-based-traits.md"> básicas sobre características</a> para obter mais informações sobre características. </p> </td> 
+  </tr>
   <tr> 
    <td> <p>Janela de atribuição </p> </td> 
    <td> <p> <b><span class="uicontrol"> A janela de atribuição AAM+DCM</span></b> é de 14 dias, o que significa que somente as características de conversão exibidas nas últimas duas semanas são consideradas. </p> </td> 
