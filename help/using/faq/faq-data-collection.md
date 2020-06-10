@@ -7,7 +7,10 @@ title: Perguntas frequentes sobre coleta de dados e integração de produtos
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP address; STFP IP address; FTP address
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+workflow-type: tm+mt
+source-wordcount: '1072'
+ht-degree: 1%
 
 ---
 
@@ -34,13 +37,13 @@ As características a bordo [!UICONTROL Inbound] são preenchidas [!UICONTROL In
 
 <br> 
 
-**Você pode me fornecer uma lista de endereços IP nos quais eu posso adicionar uma lista de permissões para dpm.demdex.net?**
+**Você pode me fornecer uma lista de endereços IP que eu posso adicionar a uma lista de permissão para dpm.demdex.net?**
 
 Infelizmente, não podemos. Esses IPs são atribuídos dinamicamente, por região geográfica, por [!DNL Amazon Web Services]. Como resultado, [!DNL Audience Manager] não controla o intervalo de IPs que podem ser atribuídos a este endereço.
 
 <br> 
 
-**Você pode me fornecer um endereço IP para o qual posso adicionar uma lista de permissões ao seu servidor sFTP de entrada e de saída?**
+**Você pode me fornecer um endereço IP que posso adicionar a uma lista de permissão para seu servidor sFTP de entrada e de saída?**
 
 Sim, veja abaixo.
 
