@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Introdução às APIs REST
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: b78dc6df380d43b809ae169f23eea208cd951a4b
+source-git-commit: e51a4302808958093342170d513701ac1547c275
 workflow-type: tm+mt
 source-wordcount: '1890'
 ht-degree: 3%
@@ -20,7 +20,7 @@ Informações sobre requisitos gerais, autenticação, parâmetros opcionais de 
 
 <!-- c_rest_api_overview.xml -->
 
-## Requisitos e recomendações da API {#api-requirements-recommendations}
+## Requisitos da API e recomendações {#api-requirements-recommendations}
 
 As coisas que você deve e deve fazer ao trabalhar com os Gerentes de Audiência [!DNL API]s.
 
