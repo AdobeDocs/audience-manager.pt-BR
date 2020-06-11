@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Relatório de sobreposição de segmento por segmento
 uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
 translation-type: tm+mt
-source-git-commit: c05541df2d0dfc8753b06eaa8f2baee9bc6c2a16
+source-git-commit: a35be513c2cec40257f2df0731eaccbb98e3a000
+workflow-type: tm+mt
+source-wordcount: '375'
+ht-degree: 4%
 
 ---
 
@@ -17,7 +20,7 @@ Retorna dados sobre quantos usuários únicos são compartilhados entre seus seg
 
 >[!NOTE]
 >
->Os relatórios de sobreposição no Audience Manager seguem os princípios do RBAC. Você só pode ver segmentos de fontes de dados às quais você tem acesso com base no Grupo [de usuários](/help/using/features/administration/administration-overview.md) RBAC ao qual você pertence.
+>Os relatórios de sobreposição no Gerenciador de Audiências seguem os princípios do RBAC. Você só pode ver segmentos de fontes de dados às quais você tem acesso com base no Grupo [de usuários](/help/using/features/administration/administration-overview.md) RBAC ao qual você pertence.
 
 <!-- 
 
@@ -29,7 +32,7 @@ c_segment_segment_overlap.xml
 
 O [!UICONTROL Segment-to-Segment Overlap] relatório pode ajudá-lo a:
 
-* Identifique segmentos com sobreposição alta ou baixa, dependendo de suas necessidades. Características com alta sobreposição oferecem um público-alvo direcionado, mas menos visitantes únicos. Características com baixa sobreposição podem ser úteis para alcançar um conjunto de visitantes maior e único.
+* Identifique segmentos com sobreposição alta ou baixa, dependendo de suas necessidades. Características com alta sobreposição oferecem uma audiência direcionada, mas menos visitantes únicos. Características com baixa sobreposição podem ser úteis para alcançar um conjunto de visitantes maior e único.
 * Encontre sobreposições inesperadas e use essas informações para criar novos segmentos de alto desempenho.
 
 ## Relatório de exemplo
@@ -44,7 +47,7 @@ A ilustração a seguir fornece uma visão geral de alto nível do [!UICONTROL S
 
 ## Detalhar pontos de dados individuais
 
-Selecione um ponto individual para exibir detalhes de dados em uma janela pop-up. As ações de clique atualizam automaticamente os dados exibidos no relatório.
+Selecione um ponto individual para visualização de detalhes de dados em uma janela pop-up. As ações de clique atualizam automaticamente os dados exibidos no relatório.
 
 ## Campos de Pop de Dados de Sobreposição de Segmento a Segmento Definidos {#fields-defined}
 
@@ -65,7 +68,7 @@ O pop-up do [!UICONTROL Segment-to-Segment Overlap] relatório contém as métri
 | **[!UICONTROL Base Segment Uniques]** | O número de visitantes únicos em seu segmento base. |
 | **[!UICONTROL Base Segment Uniques]** | O número de visitantes únicos em seu segmento sobreposto. |
 | **[!UICONTROL Overlapping Uniques]** | O número de visitantes únicos compartilhados entre segmentos comparados. |
-| **[!UICONTROL Overlap %]** | Para obter a % de sobreposição, o Audience Manager usa a seguinte fórmula: Únicos sobrepostos / (Únicos do segmento base + Únicos do segmento sobrepostos - Únicos sobrepostos) |
+| **[!UICONTROL Overlap %]** | Para obter a % de sobreposição, o Gerenciador de Audiências usa a seguinte fórmula: Únicos sobrepostos / (Únicos do segmento base + Únicos do segmento sobrepostos - Únicos sobrepostos) |
 
 
 
@@ -75,5 +78,5 @@ O pop-up do [!UICONTROL Segment-to-Segment Overlap] relatório contém as métri
 >* [Formas, cores e tamanhos usados em relatórios interativos](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [Explicação dos ícones e ferramentas do relatório](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
 >* [Relatórios de sobreposição: Atualizar agendamento e tamanho mínimo do segmento](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Amostragem de dados e taxas de erro nos relatórios selecionados do Audience Manager...](../../reporting/report-sampling.md)
+>* [Amostragem de dados e taxas de erro nos relatórios selecionados do Gerenciador de Audiências...](../../reporting/report-sampling.md)
 >* [Arquivos CSV para relatórios de sobreposição](../../reporting/dynamic-reports/overlap-csv-files.md)
