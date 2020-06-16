@@ -1,38 +1,41 @@
 ---
-description: Este procedimento requer uma lista de recomercialização do AdWords, um código de pixels e um destino de URL do Audience Manager. Também é conhecida como uma lista de remarketing para integração de anúncios de pesquisa (RLSA). Aplica-se somente à pesquisa paga.
-seo-description: Este procedimento requer uma lista de recomercialização do AdWords, um código de pixels e um destino de URL do Audience Manager. Também é conhecida como uma lista de remarketing para integração de anúncios de pesquisa (RLSA). Aplica-se somente à pesquisa paga.
-seo-title: Enviar segmentos para uma lista de recomercialização do Google AdWords
+description: Este procedimento requer uma lista de recomercialização do AdWords, um código de pixel e um destino de URL Audience Manager. Também é conhecida como lista de remarketing para integração de anúncios de pesquisa (RLSA). Aplica-se somente à pesquisa paga.
+seo-description: Este procedimento requer uma lista de recomercialização do AdWords, um código de pixel e um destino de URL Audience Manager. Também é conhecida como lista de remarketing para integração de anúncios de pesquisa (RLSA). Aplica-se somente à pesquisa paga.
+seo-title: Enviar segmentos para uma Lista de recomercialização do Google AdWords
 solution: Audience Manager
-title: Enviar segmentos para uma lista de recomercialização do Google AdWords
-uuid: 5ad821c6-48b4-42c0-b912-156333e93a2
+title: Enviar segmentos para uma Lista de recomercialização do Google AdWords
+uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: c70d02637615848a86fc980a70868a6b0f7bda00
+workflow-type: tm+mt
+source-wordcount: '340'
+ht-degree: 0%
 
 ---
 
 
-# Enviar segmentos para uma lista de comentários do Google Ads {#send-segments-to-a-google-adwords-remarketing-list}
+# Enviar segmentos para uma Lista de recomercialização do Google Ads {#send-segments-to-a-google-adwords-remarketing-list}
 
-Este procedimento requer uma lista de [!DNL Google Ads] recomercialização, um código de pixels e um [!DNL URL] destino do Audience Manager. Também é conhecida como uma lista de remarketing para integração de anúncios de pesquisa ([!DNL RLSA]). Aplica-se somente à pesquisa paga.
+Esse procedimento requer uma lista [!DNL Google Ads] de recomercialização, um código de pixel e um Audience Manager [!DNL URL] [!DNL destination]. Também é conhecida como lista de remarketing para integração de anúncios de pesquisa ([!DNL RLSA]). Aplica-se somente à pesquisa paga.
 
 >[!IMPORTANT]
 >Observe que esta não é uma integração produtiva dos dois sistemas.
 
-Para configurar uma lista de [!DNL Google Ads] remarketing como um destino de [!DNL Audience Manager] URL:
+Para configurar uma lista [!DNL Google Ads] de recomercialização como uma [!DNL Audience Manager] das seguintes opções [!DNL URL destination]:
 
-1. Na sua [!DNL Google Ads] conta, [crie uma lista](https://support.google.com/adwords/answer/2454064?hl=en) de remarketing do site e anote sua ID de conversão.
+1. Em sua [!DNL Google Ads] conta, [crie uma lista](https://support.google.com/adwords/answer/2454064?hl=en) de remarketing do site e anote sua ID de conversão.
 1. Use o seguinte URL como modelo para o URL básico e o URL seguro. Substitua a seção xxxxxxxx pela ID de conversão.
 
    ```
     //googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/?value=0&guid=ON&script=0&data=%ALIAS%
    ```
 
-1. No Audience Manager, [crie um destino](../../features/destinations/create-url-destination.md) de URL ou edite um destino existente. Use as seguintes configurações ao criar o destino:
-   * Tipo:URL
+1. No Audience Manager, [crie um [!DNL URL target]](../../features/destinations/create-url-destination.md) ou edite um URL existente [!DNL destination]. Use as seguintes configurações ao criar o [!DNL destination]:
+   * Tipo: URL
    * Serializar: Ativado
    * Delimitador: Ponto-e-vírgula (;)
 
-1. Na [!UICONTROL Segment Mappings] seção do seu [!DNL URL] destino, adicione o código da etapa 2 aos campos [!DNL URL] e [!DNL Secure URL] . Prefixe o código com `http:` e `https:` nos campos [!DNL URL] e [!DNL Secure URL] , respectivamente.
+1. Na [!UICONTROL Segment Mappings] seção de sua [!DNL URL] página [!DNL destination], adicione o código da etapa 2 aos campos [!DNL URL] e [!DNL Secure URL] . Prefixe o código com `http:` e `https:` nos campos [!DNL URL] e [!DNL Secure URL] , respectivamente.
 
    >[!IMPORTANT]
    >
@@ -56,9 +59,9 @@ Para configurar uma lista de [!DNL Google Ads] remarketing como um destino de [!
 
    >[!NOTE]
    >
-   >Se estiver trabalhando com vários segmentos, obtenha um novo pixel para cada segmento que deseja mapear para um destino do Google Ads. Isso garante que os dados sejam aplicados à lista de recomercialização apropriada.
+   >Se estiver trabalhando com vários segmentos, obtenha um novo pixel para cada segmento que deseja mapear para um [!DNL Google Ads][!DNL destination]. Isso garante que os dados sejam aplicados à lista de recomercialização apropriada.
 
-1. Ao mapear um novo segmento para esse destino no Audience Manager, defina o mapeamento como `aam=segmentID` e substitua `segmentID` pela ID do segmento.
+1. Ao mapear um novo segmento para isso [!DNL destination] no Audience Manager, defina o mapeamento como `aam=segmentID` e substitua `segmentID` pela ID do segmento.
 1. Ao definir um bucket em [!DNL Google Ads], crie uma regra que corresponda ao mapeamento definido na etapa 6.
 
 Um mapeamento concluído pode ser semelhante a:
@@ -67,8 +70,8 @@ Um mapeamento concluído pode ser semelhante a:
 
 >[!MORELIKETHIS]
 >
->* [Destinos](../../features/destinations/destinations.md)
->* [Criar um destino de URL](../../features/destinations/create-url-destination.md)
->* [Sobre as Listas de Recomercialização do AdWords](https://support.google.com/adwords/answer/2472738)
+>* [[!Destinos DNL]](../../features/destinations/destinations.md)
+>* [Criar um [!DNL URL Destination]](../../features/destinations/create-url-destination.md)
+>* [Sobre Listas de recomercialização do AdWords](https://support.google.com/adwords/answer/2472738)
 >* [Como funciona a recomercialização de AdWords](https://support.google.com/adwords/answer/2454000)
 
