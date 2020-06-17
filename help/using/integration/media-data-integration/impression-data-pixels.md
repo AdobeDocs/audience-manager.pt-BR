@@ -1,22 +1,22 @@
 ---
-description: Uma abordagem para enviar dados de mídia ao Gerenciador de Audiências usa macros de servidor de publicidade para enviar atributos de campanha ao Gerenciador de Audiências.
-seo-description: Uma abordagem para enviar dados de mídia ao Gerenciador de Audiências usa macros de servidor de publicidade para enviar atributos de campanha ao Gerenciador de Audiências.
+description: Uma abordagem para enviar dados de mídia ao Audience Manager usa macros de servidor de publicidade para enviar atributos de campanha ao Audience Manager.
+seo-description: Uma abordagem para enviar dados de mídia ao Audience Manager usa macros de servidor de publicidade para enviar atributos de campanha ao Audience Manager.
 seo-title: Captura de dados de impressão da campanha via Pixel Calls
 solution: Audience Manager
 title: Captura de dados de impressão da campanha via Pixel Calls
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: 72cf5f30c74736f7143841c0edd6c5c69154a0c2
+source-git-commit: 1fb8ee6c229418e48fcaa412a8ea0f1ab5f00331
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 20%
+source-wordcount: '713'
+ht-degree: 21%
 
 ---
 
 
 # Captura de dados de impressão da campanha via Pixel Calls{#capturing-campaign-impression-data-via-pixel-calls}
 
-Uma abordagem para enviar dados de mídia ao Gerenciador de Audiências usa macros de servidor de publicidade para enviar atributos de campanha ao Gerenciador de Audiências.
+Uma abordagem para enviar dados de mídia ao Audience Manager usa macros de servidor de publicidade para enviar atributos de campanha ao Audience Manager.
 
 Esta metodologia é frequentemente chamada de &quot;pixeling the creative&quot;. Esses pontos de dados são inseridos dinamicamente no código de [!DNL Audience Manager] pixel pelas macros de servidores de publicidade de terceiros, que são usadas para mapear e relatar todas as impressões e cliques com base nos atributos chave do relatórios da campanha. Os dados agregados fornecem uma visualização unificada de desempenho de campanha, ajudam a identificar caminhos de conversão personalizados e ajudam os clientes a melhorar a sequência de eventos de servidor de anúncios que levam a conversões.
 
@@ -62,7 +62,7 @@ Chamadas de evento de impressão aceitam dados formados em pares de valores chav
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_bust </code> </p> </td> 
-   <td colname="col2"> <p>Valor de economia de cache. <span class="keyword"> O Audiência Manager envia </span> automaticamente cabeçalhos de controle de cache que são respeitados pela maioria dos navegadores e proxies. Se você quiser executar o cache busting adicional, inclua este parâmetro em uma chamada de evento, seguido por uma sequência aleatória. </p> <p> Opcional. </p> </td> 
+   <td colname="col2"> <p>Valor de economia de cache. <span class="keyword"> O Audience Manager envia </span> automaticamente cabeçalhos de controle de cache que são respeitados pela maioria dos navegadores e proxies. Se você quiser executar o cache busting adicional, inclua este parâmetro em uma chamada de evento, seguido por uma sequência aleatória. </p> <p> Opcional. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_campaign </code> </td> 
@@ -109,9 +109,9 @@ Chamadas de evento de impressão aceitam dados formados em pares de valores chav
 
 >[!NOTE]
 >
->Entre em contato com sua consultoria ou cliente potencial de conta do Adobe Audiência Manager para obter o URL exato específico do domínio do cliente.
+>Entre em contato com sua consultoria de Adobe Audience Manager ou líder de conta para obter o URL exato específico do domínio do cliente.
 
-## Funcionalidade adicional - Relatórios de otimização de Audiência
+## Funcionalidade adicional - [!DNL Audience Optimization Reports]
 
 Você pode usar chamadas de pixel para alimentar os Relatórios [de otimização de](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)Audiência. Consulte [Visão geral e mapeamentos para arquivos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) de metadados se desejar usar pixels para alimentar os relatórios.
 
