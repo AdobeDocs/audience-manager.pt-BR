@@ -4,7 +4,10 @@ seo-description: O Adobe Audience Manager (AAM) envia dados em lote para provedo
 seo-title: Transferências de dados de saída em lote no Adobe Audience Manager (AAM)
 title: Transferências de Dados de Saída em Lote
 translation-type: tm+mt
-source-git-commit: a1960a65058622c198bb07d7c20c1e21e2eaf00a
+source-git-commit: 1b31f10effa2780b5e4374516dd6c76d92a0123a
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 7%
 
 ---
 
@@ -17,9 +20,13 @@ O Audience Manager envia dados em lote para provedores de conteúdo de terceiros
 
    Descreve os campos obrigatórios, a sintaxe e as convenções usadas para nomear um arquivo de dados externo.
 
+* [Configurar integração de transferência de dados em lote](batch-server-configuration.md)
+
+   Descreve os métodos pelos quais você pode configurar a integração de transferência de dados em lote.
+
 * [Arquivos de controle de transferência para transferências de arquivos de registro](/help/using/integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
 
-   Os arquivos de controle de transferência (.info) fornecem informações de metadados sobre transferências de arquivos para que os parceiros possam verificar se o Audience Manager manipulou as transferências de arquivos corretamente.
+   Os arquivos de controle de transferência (.info) fornecem informações de metadados sobre transferências de arquivos para que os parceiros possam verificar se o Audience Manager tratou transferências de arquivos corretamente.
 
 * [Macros de modelo de saída](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
 
@@ -31,4 +38,4 @@ O Audience Manager envia dados em lote para provedores de conteúdo de terceiros
 
 * [Potencializar as permissões de bucket entre contas do Amazon S3 para seus arquivos de saída](/help/using/integration/receiving-audience-data/batch-outbound-transfers/authorize-s3-cross-bucket.md)
 
-   O processo de transferência de dados de saída para clientes que usam o Amazon Simple Storage Service (Amazon S3) exige que solicitemos sua chave de acesso e chave secreta do Amazon S3 para fornecer os arquivos de dados de saída ao seu bucket.
+   O processo de transferência de dados de saída para clientes que usam o Amazon Simple Armazenamento Service (Amazon S3) exige que solicitemos sua chave de acesso e chave secreta do Amazon S3 para entregar os arquivos de dados de saída ao seu bucket.
