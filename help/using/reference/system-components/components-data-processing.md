@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Componentes de processamento de dados
 uuid: d458d869-7a23-4016-871d-0b994cf4af06
 translation-type: tm+mt
-source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
+source-git-commit: 9a92420b1f0116c0fd71db56895720e0ee894f30
+workflow-type: tm+mt
+source-wordcount: '409'
+ht-degree: 0%
 
 ---
 
@@ -21,13 +24,13 @@ c_comproc.xml
 
  -->
 
-O Gerenciador de Audiências usa os seguintes componentes para processar dados:
+O Audience Manager usa os seguintes componentes para processar dados:
 
 ## Hadoop {#hadoop}
 
-Em [!DNL Audience Manager], o Hadoop é o banco de dados mestre que contém tudo o que [!DNL Audience Manager] sabe sobre um usuário. Por exemplo, quando os Servidores [de Cache de](../../reference/system-components/components-data-collection.md) Perfis criam arquivos de log que contêm dados sobre seus usuários, eles enviam esses dados para o Hadoop para armazenamento. Outros elementos importantes do Hadoop incluem:
+No [!DNL Audience Manager], o Hadoop é o banco de dados principal que contém tudo o que [!DNL Audience Manager] sabe sobre um usuário. Por exemplo, quando os Servidores [de Cache de](../../reference/system-components/components-data-collection.md) Perfis criam arquivos de log que contêm dados sobre seus usuários, eles enviam esses dados para o Hadoop para armazenamento. Outros elementos importantes do Hadoop incluem:
 
-* **Coloque:** Um data warehouse para o Hadoop. Hive gerencia query ad hoc para os dados armazenados no Hadoop.
+* **Coloque:** Uma data warehouse para o Hadoop. Hive gerencia query ad hoc para os dados armazenados no Hadoop.
 
 * **HBase:** Um banco de dados Hadoop muito grande. Ele processa e gerencia dados de entrada e saída, regras de características, informações de modelagem algorítmica e executa muitas outras funções relacionadas ao armazenamento e movimentação de dados para diferentes sistemas.
 
