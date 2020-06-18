@@ -1,26 +1,29 @@
 ---
-description: Perguntas frequentes sobre como trazer dados offline para o Gerenciador de Audiências.
+description: Perguntas frequentes sobre como trazer dados offline para o Audience Manager.
 keywords: ftp or s3;s3 or ftp
-seo-description: Perguntas frequentes sobre como trazer dados offline para o Gerenciador de Audiências.
+seo-description: Perguntas frequentes sobre como trazer dados offline para o Audience Manager.
 seo-title: Perguntas frequentes sobre ingestão de dados do cliente de entrada
 solution: Audience Manager
 title: Perguntas frequentes sobre ingestão de dados do cliente de entrada
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 translation-type: tm+mt
-source-git-commit: 187874fb5d0c4363f771297766f3c4bc9d967c9b
+source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
+workflow-type: tm+mt
+source-wordcount: '1355'
+ht-degree: 3%
 
 ---
 
 
 # Perguntas frequentes sobre ingestão de dados do cliente de entrada{#inbound-customer-data-ingestion-faq}
 
-Perguntas frequentes sobre como trazer dados offline para o Gerenciador de Audiências.
+Perguntas frequentes sobre como trazer dados offline para o Audience Manager.
 
  
 
 **Você pode resumir o processo de integração?**
 
-O processo de integração consiste em duas etapas descritas em [Enviar dados em lote para a visão geral](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)do Audiência Manager:
+O processo de integração consiste em duas etapas descritas em [Enviar dados em lote para a visão geral](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)do Audience Manager:
 
 * Etapa 1: sincronizar IDs de usuário;
 * Etapa 2: crie e transfira seu arquivo de dados de entrada, seguindo os requisitos de formato de arquivo.
@@ -49,16 +52,16 @@ Consulte Compactação de [arquivos para arquivos](../integration/sending-audien
 
 >[!WARNING]
 >
->Estamos gradualmente removendo o suporte para configurações FTP. Embora a ingestão de arquivos de dados de entrada ainda seja suportada em integrações FTP existentes, recomendamos usar o Amazon S3 para dados offline integrados para novas integrações. Consulte Requisitos de nome e tamanho de arquivo do [Amazon S3 para arquivos](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) de dados de entrada para obter detalhes.
+>Estamos gradualmente removendo o suporte para configurações FTP. Embora a ingestão de arquivos de dados de entrada ainda seja suportada em integrações FTP existentes, recomendamos o uso do Amazon S3 para dados offline integrados para novas integrações. Consulte Requisitos de nome e tamanho de arquivo do [Amazon S3 para arquivos](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) de dados de entrada para obter detalhes.
 
  
 
 **É possível carregar um arquivo de dados de entrada ([!DNL .sync] ou arquivo [!DNL .overwrite]) antes de implantar o código [!DNL Audience Manager] na produção?**
 
-Sim. Desde que você use uma fonte de dados entre dispositivos para armazenar os dados do CRM que você carrega, o Audiência Manager sempre armazena os dados. Na verdade, após os aprimoramentos das Regras de mesclagem de Perfis que o Audiência Manager lançou em outubro de 2019 e que permitem casos de uso somente offline, você pode fazer upload e executar ações em dados sem implantar o código do Audiência Manager na produção. Consulte:
+Sim. Desde que você use um [!UICONTROL cross-device data source] para armazenar os dados do CRM que você carrega, o Audience Manager sempre armazena os dados. Na verdade, após os [!UICONTROL Profile Merge Rules] aprimoramentos lançados pela Audience Manager em outubro de 2019 que permitem casos de uso somente offline, você pode fazer upload e executar ações em dados sem implantar o código Audience Manager na produção. Consulte:
 
 * [Visão geral das melhorias nas regras de mesclagem de Perfis](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* Destinos baseados em pessoas - [Personalização baseada em dados somente offline](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* [!UICONTROL People-based Destinations] - [Personalização com base em dados somente offline](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br> 
 
@@ -141,7 +144,7 @@ Como prática recomendada, envie um arquivo incremental uma vez por dia para nov
 
  
 
-**Por quanto tempo o Audiência Manager mantém meus arquivos no servidor?**
+**Por quanto tempo o Audience Manager mantém meus arquivos no servidor?**
 
 Os arquivos FTP são removidos após serem processados. [!DNL S3] os arquivos são removidos após 30 dias. Os arquivos que não podem ser processados devido a erros de formato, sintaxe ou outros erros são removidos. Consulte também Perguntas frequentes sobre [privacidade e retenção de dados](../faq/faq-privacy.md).
 
@@ -153,7 +156,7 @@ Os arquivos FTP são removidos após serem processados. [!DNL S3] os arquivos s�
 
    >[!NOTE]
    >
-   >Os [!DNL .overwrite] arquivos substituem apenas os dados do [!DNL Audience Manager] perfil associados a esse provedor de dados. Em outras palavras, todos os [!DNL Adobe Analytics] dados associados ao visitante permanecem intactos depois que um [!DNL .overwrite] arquivo é processado.
+   >Os [!DNL .overwrite] arquivos substituem apenas os dados do [!DNL Audience Manager] perfil associados a esse provedor de dados. Em outras palavras, todos os [!DNL Audience Manager] dados associados ao visitante permanecem intactos depois que um [!DNL .overwrite] arquivo é processado.
 
 * **Incremental:** Um arquivo incremental anexa novos dados aos perfis de visitantes existentes. Os arquivos incrementais são identificados pela `.sync` tag anexada ao nome do arquivo. Enviar um arquivo incremental não apaga nem substitui perfis existentes.
 
@@ -184,7 +187,7 @@ Os carimbos de data e hora são usados para registro e manutenção de registros
 
  
 
-**O que é uma ID de provedor de dados (DPID) e como faço para obtê-la?**
+**O que é um[!DNL Data Provider ID (DPID)]e como o obtenho?**
 
 Seu consultor da Adobe atribuirá um [DPID de três ou quatro dígitos (ID do provedor de dados)](../reference/ids-in-aam.md) à sua fonte de dados específica. Essa ID é exclusiva e não é alterada.
 
@@ -196,7 +199,7 @@ Consulte Compactação de [arquivos para arquivos](../integration/sending-audien
 
  
 
-**O Gerenciador de Audiências oferece suporte à compactação de arquivos?**
+**O Audience Manager suporta compactação de arquivos?**
 
 Sim, consulte o:
 
@@ -223,7 +226,7 @@ Como prática recomendada, recomendamos [!DNL Amazon S3] porque o processo é ma
 
 >[!WARNING]
 >
->Estamos gradualmente removendo o suporte para configurações FTP. Embora a ingestão de arquivos de dados de entrada ainda seja suportada em integrações FTP existentes, recomendamos usar o Amazon S3 para dados offline integrados para novas integrações. Consulte Requisitos de nome e tamanho de arquivo do [Amazon S3 para arquivos](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) de dados de entrada para obter detalhes.
+>Estamos gradualmente removendo o suporte para configurações FTP. Embora a ingestão de arquivos de dados de entrada ainda seja suportada em integrações FTP existentes, recomendamos usar dados offline integrados [!DNL Amazon S3] para novas integrações. Consulte Requisitos de nome e tamanho de arquivo do [Amazon S3 para arquivos](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) de dados de entrada para obter detalhes.
 
  
 
