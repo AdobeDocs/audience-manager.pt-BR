@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Métodos de integração de dados
 uuid: 17a4179a-e99b-49eb-8f45-f2946afbd27f
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '1095'
+ht-degree: 1%
 
 ---
 
@@ -17,24 +20,24 @@ Uma visão geral de alto nível de como o Audience Manager troca informações c
 
 ## Métodos de integração de dados suportados: Tempo real e servidor para servidor {#supported-methods}
 
-A escolha do método de integração correto depende de uma combinação de requisitos de negócios e dos recursos técnicos do seu parceiro de dados. O Audience Manager troca informações do visitante com outros provedores de dados por um dos seguintes métodos:
+A escolha do método de integração correto depende de uma combinação de requisitos de negócios e dos recursos técnicos do seu parceiro de dados. A Audience Manager troca informações sobre visitantes com outros provedores de dados por um dos seguintes métodos:
 
-* **** Tempo real: Transfere dados imediatamente quando um usuário visita seu site. Esse método também é conhecido como uma *`synchronous`* integração.
-* **** Lote (Servidor para Servidor): Transfere dados entre servidores em uma programação definida depois que um visitante deixa a página. Esse método também é conhecido como uma integração *`out-of-band`* ou *`asynchronous`* integração.
+* **Tempo real:** Transfere dados imediatamente quando um usuário visita seu site. Esse método também é conhecido como uma *`synchronous`* integração.
+* **Lote (Servidor para Servidor):** Transfere dados entre servidores em uma programação definida depois que um visitante deixa a página. Esse método também é conhecido como uma integração *`out-of-band`* ou *`asynchronous`* integração.
 
 ## Pré-requisitos: Criar uma taxonomia de características {#prereqs}
 
-Antes de iniciar o processo de integração, lembre-se de [criar características](../features/traits/create-onboarded-rule-based-traits.md) e uma estrutura [de](../features/traits/trait-storage.md#create-trait-storage-folder) pastas na [!DNL Audience Manager] interface do usuário. A taxonomia conterá todas as suas características organizadas em uma hierarquia lógica.
+Antes de iniciar o processo de integração, lembre-se de [criar características](../features/traits/create-onboarded-rule-based-traits.md) e uma estrutura [de](../features/traits/trait-storage.md#create-trait-storage-folder) pastas na [!DNL Audience Manager] interface do usuário. A taxonomia conterá todos os seus traços organizados em uma hierarquia lógica.
 
 ## Casos de uso da integração {#integration-use-cases}
 
-Um resumo de caso de uso dos métodos de integração de dados do Audience Manager junto com as vantagens e desvantagens de cada um.
+Um resumo do caso de uso dos métodos de integração de dados Audience Manager, juntamente com as vantagens e desvantagens de cada um.
 
 ### Integrações de servidor para servidor em tempo real
 
 <!-- c_int_types_use_cases.xml -->
 
-Uma integração de dados servidor a servidor em tempo real sincroniza rapidamente os dados do usuário entre os servidores do Audience Manager e outro sistema de definição de metas. Na maioria dos casos, a troca de dados ocorre em segundos ou minutos, dependendo da taxa de atualização do sistema de definição de metas. Observe, no entanto, que o sistema de destino determina esse intervalo de atualização, não o Audience Manager. Além disso, a taxa de atualização pode variar entre diferentes sistemas. Uma integração de servidor para servidor em tempo real é o tipo de integração preferencial para trocas de dados. O Audience Manager usa esse método sempre que os parceiros de definição de metas podem suportá-lo.
+Uma integração de dados de servidor para servidor em tempo real sincroniza rapidamente os dados do usuário entre os servidores de Audience Manager e outro sistema de definição de metas. Na maioria dos casos, a troca de dados ocorre em segundos ou minutos, dependendo da taxa de atualização do sistema de definição de metas. Observe, no entanto, que o sistema de destino determina esse intervalo de atualização, não Audience Manager. Além disso, a taxa de atualização pode variar entre diferentes sistemas. Uma integração de servidor para servidor em tempo real é o tipo de integração preferencial para trocas de dados. A Audience Manager usa esse método sempre que os parceiros de definição de metas puderem suportá-lo.
 
 <table id="simpletable_5307DEC378E5486CB92A354287F33AD8"> 
  <tr class="strow">
@@ -49,13 +52,13 @@ Uma integração de dados servidor a servidor em tempo real sincroniza rapidamen
  </tr>
  <tr class="strow">
   <td class="stentry"> Desvantagens:</td>
-  <td class="stentry"> Menos útil para direcionamento no site quando você precisa direcionar o usuário na mesma página, ou na próxima, com base na qualificação de um usuário para esse segmento.</td>
+  <td class="stentry"> Menos útil para o direcionamento no site quando você precisa público alvo o usuário na mesma página, ou na próxima, com base na qualificação de um usuário para esse segmento.</td>
  </tr>
 </table>
 
 ### Integrações de lote de servidor para servidor
 
-Uma integração de lote de servidor para servidor agrupa dados e os envia para outros sistemas em intervalos definidos, em vez de em tempo quase real. Os intervalos de transferência de dados começam de 24 horas. Alguns provedores de dados suportam apenas esse tipo de integração. Entretanto, temos visto uma tendência geral de integração de lote para metodologias de integração em tempo real.
+Uma integração de lote de servidor para servidor agrupa dados e os envia para outros sistemas em intervalos definidos, em vez de em tempo quase real. start de intervalos de transferência de dados de 24 horas. Alguns provedores de dados suportam apenas esse tipo de integração. Entretanto, temos visto uma tendência geral de integração de lote para metodologias de integração em tempo real.
 
 <table id="simpletable_6878241639114DE68E61A251486C6317"> 
  <tr class="strow">
@@ -74,16 +77,16 @@ Uma integração de lote de servidor para servidor agrupa dados e os envia para 
 
 ### Chamadas em tempo real
 
-As chamadas em tempo real trocam dados com o Audience Manager imediatamente, à medida que um usuário visita seu site ou toma medidas na página. Com esse método, os sistemas de definição de metas obtêm os dados de qualificação de segmento mais atualizados e podem levar essas informações em conta durante uma decisão de entrega de conteúdo ou anúncio. Além disso, esse processo funciona com servidores de anúncios de editores, onde atualizamos segmentos qualificados para um cookie primário que é lido em uma chamada de anúncio como pares de valor chave. Atualmente, o Audience Manager usa chamadas em tempo real para integração com [!DNL Target] e outros sistemas de gerenciamento de conteúdo.
+As chamadas em tempo real trocam dados imediatamente com o Audience Manager, à medida que um usuário visita seu site ou age na página. Com esse método, os sistemas de definição de metas obtêm os dados de qualificação de segmento mais atualizados e podem levar essas informações em conta durante uma decisão de conteúdo ou delivery de anúncio. Além disso, esse processo funciona com servidores de anúncios de editores, onde atualizamos segmentos qualificados para um cookie primário que é lido em uma chamada de anúncio como pares de valor chave. Atualmente, o Audience Manager usa chamadas em tempo real para se integrar com [!DNL Target] e outros sistemas de gestão de conteúdo.
 
 <table> 
  <tr>
   <td> <p>Benefícios: </p></td>
-  <td> <p> Permite direcionar a próxima página, área de conteúdo ou impressão de anúncio com base na qualificação de segmento mais recente. </p></td> 
+  <td> <p> Permite que você público alvo a próxima página, área de conteúdo ou impressão de anúncio com base na qualificação de segmento mais recente. </p></td> 
  </tr> 
  <tr>
   <td> <p>Desvantagens: </p></td>
-  <td> <p>Adiciona uma chamada ao Audience Manager a partir da página.</p></td>
+  <td> <p>Adiciona uma chamada ao Audience Manager da página.</p></td>
  </tr> 
 </table>
 
@@ -107,16 +110,16 @@ A sincronização de pixels mapeia segmentos para pixels na página. O pixel dis
  </tr> 
 </table>
 
-## Como escolher um método de entrega de dados {#data-delivery-choices}
+## Como escolher um método de Delivery de dados {#data-delivery-choices}
 
 Descreve motivos técnicos e comerciais para enviar dados por meio de metodologias síncronas (em tempo real) ou assíncronas (servidor para servidor).
 
 <!-- c_int_delivery_choices.xml -->
 
-### Seleção de um tipo de entrega de dados
+### Como selecionar um tipo de Delivery de dados
 
-* **** Considerações técnicas: A entrega de dados depende dos recursos técnicos do parceiro de dados. O Audience Manager pode enviar/receber dados em tempo real do navegador ou por atualizações em lote por meio de processos de comunicação offline de servidor para servidor.
-* **** Considerações comerciais: Os motivos comerciais para selecionar um método de entrega ou outro dependem dos recursos técnicos do parceiro de destino e de como você deseja usar esses dados. Normalmente, as transferências de dados síncronas são úteis quando é necessário executar uma ação nos dados do usuário imediatamente. Transferências de dados assíncronas podem ser úteis quando não é necessária uma ação imediata e quando você tem tempo para criar perfis de usuário mais profundos para uso posterior.
+* **Considerações técnicas:** O delivery de dados depende dos recursos técnicos do parceiro de dados. O Audience Manager pode enviar/receber dados em tempo real do navegador ou por atualizações em lote por meio de processos de comunicação offline de servidor para servidor.
+* **Considerações comerciais:** Os motivos comerciais para selecionar um método de delivery ou outro dependem dos recursos técnicos do parceiro de destino e de como você deseja usar esses dados. Normalmente, as transferências de dados síncronas são úteis quando é necessário executar uma ação nos dados do usuário imediatamente. Transferências de dados assíncronas podem ser úteis quando não é necessária uma ação imediata e quando você tem tempo para criar perfis mais profundos para o usuário para uso posterior.
 
 ## Processo de transferência de dados em tempo real {#real-time-data-transfer-process}
 
@@ -132,10 +135,10 @@ As transferências de dados em tempo real enviam e recebem IDs de segmento quand
 
 O processo de integração de dados em tempo real funciona da seguinte maneira:
 
-1. Um usuário visita o site de um cliente que contém o código do Audience Manager.
-1. O Audience Manager carrega um Iframe e faz uma chamada para o [!UICONTROL Data Collection Server] ([!UICONTROL DCS]).
-1. O [!UICONTROL DCS] chama o servidor de terceiros (em tempo real) para verificar se o fornecedor tem alguma informação de segmento sobre o usuário.
-1. O terceiro retorna informações de segmento sobre esse usuário ao Audience Manager.
+1. Um usuário visita o site de um cliente que contém o código de Audience Manager.
+1. Audience Manager carrega um Iframe e faz uma chamada para o [!UICONTROL Data Collection Server] ([!DNL DCS]).
+1. O [!DNL DCS] chama o servidor de terceiros (em tempo real) para verificar se o fornecedor tem alguma informação de segmento sobre o usuário.
+1. O terceiro retorna as informações do segmento sobre esse usuário ao Audience Manager.
 1. O Audience Manager ingere informações de segmento e as disponibiliza para definição de metas.
 
 ![](assets/rt_reduce70.png)
@@ -157,10 +160,10 @@ O processo de integração de dados em lote (servidor para servidor) segue a mai
 ### Etapas de integração de dados em lote
 
 1. Um usuário visita um site de cliente.
-1. O Audience Manager e o provedor de dados de terceiros atribuem ao visitante uma ID exclusiva (normalmente com um cookie).
-1. O Audience Manager chama o provedor de dados de terceiros para corresponder às IDs do visitante.
-1. Uma solicitação programada, normalmente em um intervalo diário, troca dados de segmentos de visitantes entre o Audience Manager e o provedor de dados de terceiros.
+1. Audience Manager e o provedor de dados de terceiros atribuem ao visitante uma ID exclusiva (normalmente com um cookie).
+1. Audience Manager chama o provedor de dados de terceiros para corresponder às IDs de visitante.
+1. Uma solicitação programada, normalmente em um intervalo diário, troca dados de segmento de visitante entre o Audience Manager e o provedor de dados de terceiros.
 
 ![](assets/s2s_70.png)
 
-Para obter informações que descrevem os intervalos de tempo em que o Audience Manager processa transferências de arquivos de entrada e saída do Servidor para Servidor ([!UICONTROL S2S]), consulte Diretrizes [de](../reference/reporting-file-transfer-timeframe.md)relatório e de tempo de transferência de arquivos.
+Para obter informações que descrevem os intervalos de tempo em que o Audience Manager processa transferências de arquivos de entrada e de saída do Servidor para Servidor ([!UICONTROL S2S]), consulte Diretrizes [de](../reference/reporting-file-transfer-timeframe.md)Relatórios e Tempo de Transferência de Arquivos.
