@@ -1,18 +1,21 @@
 ---
-description: Visão geral e fluxo de trabalho para compradores de dados que desejam comprar dados de terceiros no Audience Manager
-seo-description: Visão geral e fluxo de trabalho para compradores de dados que desejam comprar dados de terceiros no Audience Manager
-seo-title: Audience Marketplace para Compradores de Dados
+description: Visão geral e fluxo de trabalho para compradores de dados que desejam comprar dados de terceiros de dentro do Audience Manager
+seo-description: Visão geral e fluxo de trabalho para compradores de dados que desejam comprar dados de terceiros de dentro do Audience Manager
+seo-title: Audience Marketplace para Data Buyers
 solution: Audience Manager
-title: Audience Marketplace para Compradores de Dados
-topic: API DIL
+title: Audience Marketplace para Data Buyers
+topic: DIL API
 uuid: f505b5f4-4231-4e84-993a-cd64128b540f
 translation-type: tm+mt
-source-git-commit: f66c5a0fb6ea1b0e89b804e56fa7045978427ab8
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '777'
+ht-degree: 1%
 
 ---
 
 
-# Audience Marketplace para Compradores de Dados {#audience-marketplace-for-data-buyers}
+# Audience Marketplace para Data Buyers {#audience-marketplace-for-data-buyers}
 
 Visão geral e fluxo de trabalho para compradores de dados que desejam comprar dados de terceiros de dentro [!DNL Audience Manager].
 
@@ -20,27 +23,27 @@ Visão geral e fluxo de trabalho para compradores de dados que desejam comprar d
 >[Permissões](../../../reporting/reports-dashboard.md) baseadas em funções controlam o acesso aos [!UICONTROL Audience Marketplace] recursos.
 >
 >* Os administradores podem criar feeds de dados, gerenciar assinantes e assinar feeds de dados.
->* Os usuários podem pesquisar e exibir somente feeds.
+>* Os usuários podem pesquisar e visualização somente nos feeds.
 
 
 ## O Mercado: About {#about-marketplace}
 
 <!-- c_marketplace_about.xml -->
 
-O [!UICONTROL Marketplace] é um [!DNL Audience Manager] recurso para compradores de dados que lista feeds de dados que você pode assinar. Ele lista feeds de dados privados, [!DNL CPM]e de taxa fixa. Esses feeds são fornecidos por fornecedores terceirizados que usam [!DNL Audience Manager] para vender dados.
+O recurso [!UICONTROL Marketplace] é um [!DNL Audience Manager] recurso para compradores de dados ao qual você pode assinar os feeds de dados do lista. Ele lista feeds de dados privados, [!DNL CPM]e de taxa fixa. Esses feeds são fornecidos por fornecedores terceirizados que usam [!DNL Audience Manager] para vender dados.
 
-No [!UICONTROL Marketplace], as ferramentas de relatório permitem rastrear o uso do feed e a sobreposição entre suas características e as de um feed de dados inscrito. Por fim, com [!UICONTROL Audience Marketplace], [!DNL Adobe] cuida das NFFs e dos pagamentos de taxa (embora você tenha que relatar o uso automaticamente quando estiver inscrito em um [!DNL CPM] feed). Esses recursos permitem que você encontre fontes de dados eficazes sem perder tempo procurando um provedor de dados.
+No [!UICONTROL Marketplace], as ferramentas de relatórios permitem rastrear o uso de feed e a sobreposição entre suas características e as de um feed de dados assinado. Por fim, com [!UICONTROL Audience Marketplace], [!DNL Adobe] cuida das NFFs e dos pagamentos de taxa (embora você tenha que relatar o uso automaticamente quando estiver inscrito em um [!DNL CPM] feed). Esses recursos permitem que você encontre fontes de dados eficazes sem perder tempo procurando um provedor de dados.
 
 >[!TIP]
 >
->Use o **[Adobe Audience Finder](https://www.adobe-audience-finder.com/)** para encontrar feeds de dados de alta qualidade que você possa assinar. Em seguida, volte para a interface do usuário do Audience Manager ou use a API [do](https://bank.demdex.com/portal/swagger/index.html#/Audience_Marketplace_Buyer_API) Audience Marketplace Buyer para assinar os feeds encontrados.
+>Use o Localizador **[de Audiências da](https://www.adobe-audience-finder.com/)**Adobe para encontrar feeds de dados de alta qualidade que você possa assinar. Em seguida, volte à interface do[!DNL Audience Manager]usuário ou use a API[do](https://bank.demdex.com/portal/swagger/index.html#/Audience_Marketplace_Buyer_API)Audience Marketplace Buyer para assinar os feeds encontrados.
 
 ![comprador-mercado-visão geral](assets/buyer-marketplace-overview.png)
 
-A [!UICONTROL Marketplace] lista contém informações que você pode classificar e pesquisar para encontrar o feed de dados certo para você. Os itens da lista de [!UICONTROL Marketplace] compradores incluem:
+A [!UICONTROL Marketplace] lista contém informações que você pode classificar e pesquisar para encontrar o feed de dados certo para você. Os itens na lista do [!UICONTROL Marketplace] comprador incluem:
 
 * **[!UICONTROL Search]**: Encontre feeds de dados por nome ou descrição de texto.
-* **[!UICONTROL Similar Traits]**: Mostra o número de características semelhantes de um feed de dados. Essa coluna é exibida depois que você insere uma característica ou segmento para filtrar na **[!UICONTROL Similarity To]** seção.
+* **[!UICONTROL Similar Traits]**: Mostra o número de características semelhantes de um feed de dados. Essa coluna é mostrada depois que você insere uma característica ou segmento para filtrar na **[!UICONTROL Similarity To]** seção.
 * **[!UICONTROL Name]**: Nome do feed de dados.
 * **[!UICONTROL Description]**: Informações sobre o conteúdo de um feed de dados.
 * **[!UICONTROL Provider]**: Nome do provedor de dados.
@@ -49,7 +52,7 @@ A [!UICONTROL Marketplace] lista contém informações que você pode classifica
 * **[!UICONTROL 30 Day Overlapped Uniques]**: O número de usuários em sua conta que se sobrepõem aos usuários na conta do provedor.
 * **[!UICONTROL Feed Overlap]**: O valor único sobreposto de 30 dias, exibido em porcentagens, calculado como: Comprador de dados: 30 dias sobrepostos únicos / Comprador de dados, 30 dias únicos) x 100.
 * **[!UICONTROL Private Feeds]**: Consulte Feeds [de dados](../../../features/audience-marketplace/marketplace-private-feeds.md)privados.
-* **[!UICONTROL Currently Subscribed Plan Count]**: O número de assinaturas que você tem com um provedor de dados.
+* **[!UICONTROL Currently Subscribed Plan Count]**: O número de subscrições que você tem com um provedor de dados.
 
  
 
@@ -57,7 +60,7 @@ Para encontrar facilmente os melhores feeds de dados para suas necessidades, use
 
 * **[!UICONTROL Similarity To]**: Filtre os feeds de dados com base na semelhança deles com uma característica ou segmento de sua escolha. Ao inserir a característica ou o segmento para comparar, você pode usar a ID de característica ou segmento ou seus respectivos nomes.
 * **[!UICONTROL Similarity Cutoff]**: Arraste o controle deslizante para filtrar os feeds de dados com base na semelhança entre suas características e a característica ou segmento selecionado. Para saber mais sobre as pontuações de similaridade de características, consulte Pontuação de [similaridade de características](../../segments/trait-recommendations.md#trait-similarity-score)
-* **[!UICONTROL Subscription Status]**: Filtre os feeds de dados com base no status da sua assinatura.
+* **[!UICONTROL Subscription Status]**: Filtre os feeds de dados com base no status da subscrição.
 * **[!UICONTROL Plan Use Case]**: Filtrar feeds de dados com base em seus casos de uso suportados: **[!UICONTROL Activation]**, **[!UICONTROL Segments and Overlap]** e **[!UICONTROL Modelling]**.
 * **[!UICONTROL Plan Unit]**: Filtrar feeds de dados com base em seu tipo de preço.
 
@@ -65,7 +68,7 @@ Para encontrar facilmente os melhores feeds de dados para suas necessidades, use
 
 [!UICONTROL Audience Marketplace] oferece a opção de localizar características de vários feeds de dados, com base na similaridade com suas características ou segmentos existentes. Veja como fazer isso:
 
-1. Vá até **[!UICONTROL Audience Marketplace]** &gt; **[!UICONTROL Marketplace]**.
+1. Vá até **[!UICONTROL Audience Marketplace]** > **[!UICONTROL Marketplace]**.
 2. Use o **[!UICONTROL Similarity To]** seletor para escolher entre filtragem com base em uma característica ou segmento. Você pode filtrar com base na ID ou no nome do traço/segmento. A caixa de pesquisa mostra automaticamente sugestões relevantes com base na sua entrada.
 3. Depois de identificar a característica ou o segmento pelo qual deseja filtrar, clique nele na lista de sugestões.
 4. Para restringir os resultados, use o **[!UICONTROL Similarity Cutoff]** controle deslizante para mover de características menos semelhantes para outras mais semelhantes.
@@ -76,15 +79,15 @@ Para ver a lista completa de características semelhantes, clique no número na 
 
 >[!NOTE]
 >
-> O Audience Marketplace exibe os 500 principais resultados de características semelhantes de todos os feeds de dados.
+> O Audience Marketplace exibe os 500 principais resultados de características semelhantes nos feeds de dados.
 
 Assista ao vídeo abaixo para obter uma visão geral completa de como encontrar características semelhantes.
 
->[!VIDEO](https://video.tv.adobe.com/v/29370/?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/29370/)
 
 ## Feeds de dados privados {#private-data-feeds}
 
-Na [!UICONTROL Marketplace] lista, às vezes os dados de nome e característica do provedor são marcados como privados. Isso indica um feed [de dados](../../../features/audience-marketplace/marketplace-private-feeds.md)privados. Um feed de dados privados permite que os vendedores limitem o acesso do comprador aos seus dados. Os vendedores podem tornar os feeds privados quando oferecem negócios especiais, descontos ou quando a privacidade e o controle de acesso são importantes para eles. Como comprador, você deve enviar uma solicitação de assinatura ao vendedor se quiser acessar um feed privado. Consulte [Assinar um feed](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed) de dados privados para obter detalhes.
+Na [!UICONTROL Marketplace] lista, às vezes os dados de nome e característica do provedor são marcados como privados. Isso indica um feed [de dados](../../../features/audience-marketplace/marketplace-private-feeds.md)privados. Um feed de dados privados permite que os vendedores limitem o acesso do comprador aos seus dados. Os vendedores podem tornar os feeds privados quando estão oferecendo negócios especiais, descontos ou quando privacidade e controle de acesso são importantes para eles. Como comprador, você tem que enviar uma solicitação de subscrição ao vendedor se quiser acessar um feed privado. Consulte [Assinar um feed](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed) de dados privados para obter detalhes.
 
 >[!MORELIKETHIS]
 >
