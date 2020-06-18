@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Transferências de dados de saída em tempo real
 uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
 translation-type: tm+mt
-source-git-commit: 05609645bef676bbd98aa08caf32a4ae2dcb6f00
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '699'
+ht-degree: 4%
 
 ---
 
@@ -21,25 +24,25 @@ O processo de transferência de dados em tempo real de saída fornece dados do u
 
 Para usar esse método, a plataforma de destino deve atender aos seguintes requisitos:
 
-* Deve fornecer um terminal [!DNL URL] que possa ser dimensionado para receber um grande volume de mensagens do Audience Manager;
+* Deve fornecer um ponto de extremidade [!DNL URL] que possa ser dimensionado para receber um grande volume de mensagens de Audience Manager;
 * Deve aceitar os dados no [!DNL JSON] formato (`Content-type: application/json`);
 * Tem de aceitar transferências de `HTTPS` dados seguras. [!DNL Audience Manager] não enviará mensagens através do `HTTP` protocolo inseguro.
 
 ## Frequência
 
-Esse método de transferência de dados pode enviar dados em tempo quase real, à medida que os usuários se qualificam para segmentos. As mensagens em tempo real só são entregues enquanto o usuário estiver online e ativamente visível à rede de Borda do Audience Manager. Como opção, esse método também pode enviar lotes de dados offline ou integrados com a mesma frequência a cada 24 horas.
+Esse método de transferência de dados pode enviar dados em tempo quase real, à medida que os usuários se qualificam para segmentos. As mensagens em tempo real só são entregues enquanto o usuário estiver online e ativamente visível à rede Audience Manager Edge. Como opção, esse método também pode enviar lotes de dados offline ou integrados com a mesma frequência a cada 24 horas.
 
 ## Transferências em lote
 
-As transferências em tempo real e em lote são enviadas para o mesmo terminal e usam o mesmo formato de mensagem. Quando as transferências em lote estiverem ativadas, a plataforma de destino verá um pico no volume de mensagens enquanto as mensagens em lote forem entregues. Muitas das qualificações de segmento enviadas por mensagens em tempo real serão repetidas nas mensagens em lote. As transferências em lote incluirão apenas as qualificações de segmento (ou inqualificações) que foram alteradas desde que o último lote foi entregue.
+As transferências em tempo real e em lote são enviadas para o mesmo terminal e usam o mesmo formato de mensagem. Quando as transferências em lote estiverem ativadas, a plataforma de destino observará um pico no volume de mensagens enquanto as mensagens em lote forem entregues. Muitas das qualificações de segmento enviadas por mensagens em tempo real serão repetidas nas mensagens em lote. As transferências em lote incluirão apenas as qualificações de segmento (ou inqualificações) que foram alteradas desde que o último lote foi entregue.
 
 ## Limites de taxa
 
-Não há limites de taxa definidos na saída de mensagens entregues. A definição de limites de taxa pode levar à perda de dados.
+Não há limites de taxa definidos na throughput das mensagens entregues. A definição de limites de taxa pode levar à perda de dados.
 
 ## Respostas Obrigatórias
 
-Por padrão, o servidor destinatário deve retornar o `200 OK` código para indicar o recebimento bem-sucedido. Outros códigos serão interpretados como falhas. Esta resposta é esperada dentro de 3000 milissegundos. Em resposta a uma falha, [!DNL Audience Manager] fará apenas uma tentativa.
+Por padrão, o servidor de recipient deve retornar o `200 OK` código para indicar o recebimento bem-sucedido. Outros códigos serão interpretados como falhas. Esta resposta é esperada dentro de 3000 milissegundos. Em resposta a uma falha, [!DNL Audience Manager] fará apenas uma tentativa.
 
 ## Parâmetros
 
@@ -72,7 +75,7 @@ A tabela a seguir define os elementos no arquivo de [!DNL JSON] dados que você 
   <tr valign="top"> 
    <td colname="col1"><code><i>Client_ID</i></code> </td> 
    <td colname="col2"> <p>String   </p> </td> 
-   <td colname="col3"> <p>Representa a conta de destino na plataforma de destino. Essa ID é originária da plataforma de destino.</p> </td> 
+   <td colname="col3"> <p>Representa a conta do público alvo na plataforma de destino. Essa ID é originária da plataforma de destino.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>AAM_Destination_ID</i></code> </td> 
@@ -92,7 +95,7 @@ A tabela a seguir define os elementos no arquivo de [!DNL JSON] dados que você 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_UUID</i></code> </td> 
    <td colname="col2"> <p>String   </p> </td> 
-   <td colname="col3"> <p>O <span class="keyword"> Audience Manager</span> UUID. </p> </td> 
+   <td colname="col3"> <p>O UUID <span class="keyword"> Audience Manager</span> . </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.DataPartner_UUID</i></code> </td> 
@@ -112,7 +115,7 @@ A tabela a seguir define os elementos no arquivo de [!DNL JSON] dados que você 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segmnent.Segment_ID</i></code> </td> 
    <td colname="col2"> <p>Número inteiro </p> </td> 
-   <td colname="col3"> <p>O identificador do segmento. Na maioria dos casos, essa é a ID do segmento gerada pelo Audience Manager (um número inteiro). Em alguns casos, se a plataforma de destino permitir, os clientes podem definir o identificador de segmento na interface do usuário do Audience Manager (campo de texto aberto), que deve ser refletido nessa propriedade. </p> </td> 
+   <td colname="col3"> <p>O identificador do segmento. Na maioria dos casos, essa é a ID do segmento gerada por Audience Manager (um número inteiro). Em alguns casos, se a plataforma de destino permitir, os clientes podem definir o identificador do segmento na interface do usuário do Audience Manager (campo de texto aberto), que deve ser refletido nessa propriedade. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.Status</i></code> </td> 
@@ -127,7 +130,7 @@ A tabela a seguir define os elementos no arquivo de [!DNL JSON] dados que você 
      <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Removido de um segmento com base no intervalo <a href="../../../features/traits/segment-ttl-explained.md"></a>de tempo para vida do segmento. </li> 
      <li id="li_F48D1052BA2B45108225641292CC748D">Movido para um estado inativo se não tiver sido visto nos últimos 120 dias. </li>
      <li>Removido devido a uma solicitação de alteração de privacidade (isto é, <span class="keyword"> RGPD</span>)</li>
-    </ul> <p>Todas as IDs de parceiro sincronizadas com uma ID do <span class="keyword"> Audience Manager</span> receberão o <code> "Status":"0"</code> sinalizador quando um usuário não estiver segmentado. </p> </td> 
+    </ul> <p>Todas as IDs de parceiro sincronizadas com uma ID de <span class="keyword"> Audience Manager</span> receberão o sinalizador <code> "Status":"0"</code> quando um usuário não estiver segmentado. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.DateTime</i></code> </td> 
