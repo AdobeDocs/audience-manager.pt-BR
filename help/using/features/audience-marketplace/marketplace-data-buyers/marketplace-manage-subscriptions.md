@@ -7,7 +7,10 @@ title: Gerenciar Subscrições do Feed de dados
 topic: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 translation-type: tm+mt
-source-git-commit: aaf4e178cd6faf8fe18f54454277e4253a524130
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '2186'
+ht-degree: 1%
 
 ---
 
@@ -124,7 +127,7 @@ Em [!UICONTROL Audience Marketplace]geral, os provedores podem oferta os comprad
    <td colname="col1"> <p> <b>Assinantes potenciais</b> </p> </td> 
    <td colname="col2"> <p>Um assinante <a href="../../../features/audience-marketplace/marketplace-private-feeds.md"></a> potencial é um comprador de dados que solicitou acesso a um feed de dados privado, recebeu a aprovação do vendedor, mas não se inscreveu no feed. Para solicitar um desconto como um assinante potencial: </p> 
     <ol id="ol_9CECDA92E7894B20AC8A777D78962188"> 
-     <li id="li_618B64160CF24549AFCA73E006DCA35A">Vá para <b><span class="uicontrol"> Audiência Marketplace &gt; Marketplace</span></b>. </li> 
+     <li id="li_618B64160CF24549AFCA73E006DCA35A">Vá para <b><span class="uicontrol"> Audience Marketplace &gt; Marketplace</span></b>. </li> 
      <li id="li_FE52A06B30FC4858B48AF81954365FE9">Clique no nome do feed para o qual você foi aprovado. </li> 
      <li id="li_763C050AC9464BE380D00F6085B6E540">Clique em <b><span class="uicontrol"> Solicitar mais detalhes</span></b>. Solicite um desconto em sua solicitação de detalhes ao vendedor. </li> 
     </ol> </td> 
@@ -174,7 +177,7 @@ Em [!UICONTROL Audience Marketplace]geral, os provedores de dados podem revogar 
 
 <!-- marketplace-subscriber-deactivated.xml -->
 
-Pode ser confuso ou até mesmo perturbador se um feed que você assina for desligado. No entanto, os provedores de dados podem desativar um feed de dados por vários motivos. Alguns motivos comuns incluem:
+Pode ser confuso ou até mesmo perturbador se um feed que você assina for desligado. No entanto, os provedores de dados podem desativar um feed de dados por vários motivos. Some common reasons include:
 
 * **Faturamento:** Os provedores de dados desativarão um feed se você estiver sempre atrasado com pagamentos de taxas ou se não pagar suas taxas.
 * **Atualizações de feed:** Os provedores de dados precisam desativar feeds quando atualizam sua taxonomia de feed ou suas estruturas de custo.
@@ -278,7 +281,7 @@ Esta página fornece as seguintes informações:
    * Clique em **[!UICONTROL Request More Details]** para fazer perguntas ao provedor de dados sobre o feed de dados selecionado ou solicitar um desconto. Este recurso envia seus comentários e perguntas diretamente ao provedor de dados.
 
 1. Métricas de relatório de feed de dados. O diagrama Venn (e métricas relacionadas) mostra os dados de sobreposição de características dos últimos 30 dias. Consulte [O Marketplace: Sobre](marketplace-data-buyers.md#about-marketplace) detalhes.
-   * **[!UICONTROL 30 Day Overlapped Uniques]**: O número de usuários únicos em sua conta que se sobrepõem aos usuários na conta do provedor. Para obter uma definição de usuários únicos, consulte UUID do AAM no [Índice de IDs no Gerenciador](/help/using/reference/ids-in-aam.md)de Audiências.
+   * **[!UICONTROL 30 Day Overlapped Uniques]**: O número de usuários únicos em sua conta que se sobrepõem aos usuários na conta do provedor. Para obter uma definição de usuários únicos, consulte UUID do AAM no [Índice de IDs no Audience Manager](/help/using/reference/ids-in-aam.md).
    * **[!UICONTROL 30 Day Provider Unique Users]**: O número de usuários únicos provenientes da conta do provedor.
    * **[!UICONTROL Your Unique Users]**: O número de usuários únicos provenientes de sua conta.
 
@@ -309,7 +312,7 @@ Esse caso de uso permite que você avalie as características do fornecedor em r
 
 ### Activation
 
-Esse caso de uso permite que você envie dados para um [destino](../../../features/destinations/destinations.md). Em [!UICONTROL Audience Manager], um destino é qualquer sistema de terceiros (servidor de anúncios, [!DNL DSP], [!DNL DMP], troca etc.) com os quais você deseja compartilhar dados. No entanto, com um caso de [!UICONTROL Activation] uso, não é possível executar relatórios de sobreposição nem testar os dados em um modelo algorítmico.
+Esse caso de uso permite que você envie dados para um [destino](../../../features/destinations/destinations.md). Em [!DNL Audience Manager], um destino é qualquer sistema de terceiros (servidor de anúncios, [!DNL DSP], [!DNL DMP], troca etc.) com os quais você deseja compartilhar dados. No entanto, com um caso de [!UICONTROL Activation] uso, não é possível executar relatórios de sobreposição nem testar os dados em um modelo algorítmico.
 
 >[!MORELIKETHIS]
 >
