@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Códigos de erros, mensagens e exemplos de DCS
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: ff245c2cca417e9b1fd51460ddbadd25d5696006
 workflow-type: tm+mt
-source-wordcount: '1545'
-ht-degree: 4%
+source-wordcount: '1509'
+ht-degree: 3%
 
 ---
 
@@ -22,76 +22,22 @@ In the tables below, *italics* represents a variable placeholder.
 
 ## Códigos de erro do sistema {#system-error-codes}
 
-<table id="table_43F4321BEA6A4D1BBDFE2E9FB4402914"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> ID do código </th> 
-   <th colname="col2" class="entry"> Mensagem de erro </th> 
-   <th colname="col3" class="entry"> Descrição </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>0 </p> </td> 
-   <td colname="col2"> <p>Erro não especificado </p> </td> 
-   <td colname="col3"> <p>Este é um erro catch-all que manipula eventos que não são cobertos pelos outros manipuladores de erro. A solução de problemas desse erro é difícil. Pode ser causado por uma variedade de ações ou eventos desconhecidos. </p> <p>Se você receber esse erro, tente sua solicitação do <span class="wintitle"> DCS</span> novamente. Entre em contato com seu representante da Adobe se o problema persistir. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>1 </p> </td> 
-   <td colname="col2"> <p>Não foi possível localizar a configuração para o nome do host: <code><i>hostname</i></code> </p> </td> 
-   <td colname="col3"> <p>O nome do host enviado na solicitação não foi configurado pela nossa equipe de provisionamento do parceiro. Entre em contato com seu representante da Adobe se vir esta mensagem de erro. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>2 </p> </td> 
-   <td colname="col2"> <p>Valor inválido <code> d_orgid</code> (não foi possível localizar uma configuração para esta ID de organização): <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>A ID da organização está incorreta. </p> <p>Verifique sua ID e tente a solicitação novamente. Se você não souber ou não possuir a ID da organização, consulte a seção "Página de administração" em <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html" format="https" scope="external"> Organizações e vinculação</a> de contas para obter informações sobre como encontrá-la. </p> </td> 
-  </tr>
- </tbody>
-</table>
+|Código de erro|Mensagem de erro|Descrição|
+|—|—|
+|0|Erro não especificado|Este é um erro catch-all que manipula eventos não cobertos pelos outros manipuladores de erro. A solução de problemas desse erro é difícil. Pode ser causado por uma variedade de ações ou eventos desconhecidos. Se você receber esse erro, tente sua [!DNL DCS] solicitação novamente. Entre em contato com seu [!DNL Adobe] representante se o problema persistir.|
+|1|Não foi possível localizar a configuração para o nome do host: `hostname`|O nome do host enviado na solicitação não foi configurado pela equipe de provisionamento do parceiro. Entre em contato com seu [!DNL Adobe] representante se vir esta mensagem de erro.|
+|2|Valor inválido `d_orgid` (não foi possível localizar uma configuração para esta ID de organização): `ID`|A ID da organização está incorreta. Verifique sua ID e tente a solicitação novamente. Se você não souber ou não possuir a ID da organização, consulte a seção &quot;Página de administração&quot; [Organizações e vinculação](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html) de contas para obter informações sobre como encontrá-la.|
 
 ## Códigos de erro de integração {#integration-error-codes}
 
-<table id="table_EFF06FB3D045459BA7802872AF22DF79"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> ID do código </th> 
-   <th colname="col2" class="entry"> Mensagem </th> 
-   <th colname="col3" class="entry"> Descrição </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>100 </p> </td> 
-   <td colname="col2"> <p>Não foi possível recuperar o nome do host para a solicitação </p> </td> 
-   <td colname="col3"> <p>Uma chamada de API não enviou o cabeçalho HTTP do host na solicitação. </p> <p>Adicione o cabeçalho do host à chamada e tente novamente. Observe que a maioria dos navegadores e clientes de API fazem isso automaticamente. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>101 </p> </td> 
-   <td colname="col2"> <p>ID de Experience Cloud inválida transmitida <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>A chamada <span class="wintitle"> DCS</span> contém uma ID de <span class="keyword"> Experience Cloud</span> inválida. </p> <p>Verifique o par de <code> d_mid=</code> chave-valor na string de cabeçalho. Verifique se você está transmitindo a ID de <span class="keyword"> Experience Cloud</span> correta e tente a solicitação novamente. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>102 </p> </td> 
-   <td colname="col2"> <p>Id aam inválida transmitida na solicitação <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>A chamada <span class="wintitle"> DCS</span> contém uma ID de <span class="keyword"> Audience Manager</span> inválida. </p> <p>Verifique o par de <code> d_uuid=</code> chave-valor na string de cabeçalho. Verifique se você está transmitindo a ID de <span class="keyword"> Audience Manager</span> correta e tente a solicitação novamente. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>104 </p> </td> 
-   <td colname="col2"> <p>Todas as IDs do cliente são inválidas </p> </td> 
-   <td colname="col3"> <p>Todas as IDs do cliente na sua chamada são inválidas. Verifique suas IDs e tente novamente. </p> </td> 
-  </tr>
-    <tr> 
-   <td colname="col1"> <p>109</p> </td> 
-   <td colname="col2"> <p>Referenciador não <code>HTTP referer</code> permitido para parceiro <code>Partner ID</code> </p> </td> 
-   <td colname="col3"> <p>O cabeçalho da <code>HTTP referer</code> chamada não é permitido para a ID do parceiro na chamada. Verifique se o <code>HTTP referer</code> cabeçalho está correto.</p> </td>
-  </tr>
-  <tr> 
-   <td colname="col1"> <p>111 </p> </td> 
-   <td colname="col2"> <p>Token <span class="wintitle"> IMS</span> inválido recebido </p> </td> 
-   <td colname="col3"> <p>Retornado para Audience Manager - integrações Adobe Target. O erro é emitido quando uma chamada é feita para o DCS, contendo um token IMS inválido. O token pode estar malformado, expirado ou o usuário pode não estar autorizado a acessar o recurso desejado. </p> </td>
-  </tr>
- </tbody>
-</table>
+|Código de erro|Mensagem de erro|Descrição|
+|—|—|
+|100|Não foi possível recuperar o nome do host para a solicitação|Uma [!DNL API] chamada não enviou o cabeçalho do host [!DNL HTTP] na solicitação. Adicione o cabeçalho do host à chamada e tente novamente. A maioria dos navegadores e [!DNL API] clientes faz isso automaticamente. |
+|101|Id inválida [!DNL Experience Cloud] transmitida `ID`|A [!DNL DCS] chamada contém uma ID inválida [!DNL Experience Cloud] . Verifique o par de `d_mid=` chave-valor na string de cabeçalho. Verifique se você está transmitindo a ID [!DNL Experience Cloud] correta e tente a solicitação novamente. |
+|102|Pedido inválido [!DNL AAM ID] transmitido `ID`|A [!DNL DCS] chamada contém uma ID inválida [!DNL Audience Manager] . Verifique o par de `d_uuid=` chave-valor na string de cabeçalho. Verifique se você está transmitindo a ID [!DNL Audience Manager] correta e tente a solicitação novamente. |
+|104|Todas as IDs de cliente são inválidas | Todas as IDs do cliente na sua chamada são inválidas. Verifique suas IDs e tente novamente.|
+|109|Referenciador não `HTTP referer` permitido para parceiro `Partner ID`|O cabeçalho da `HTTP referer` chamada não é permitido para a ID do parceiro na chamada. Verifique se o `HTTP referer` cabeçalho está correto.|
+|111|Foi recebido um `IMS` token inválido|Devolvido para [!DNL Audience Manager] - [!DNL Adobe Target] integrações. O erro é emitido quando uma chamada é feita para o [!DNL DCS], contendo um [!DNL IMS] token inválido. O token pode estar malformado, expirado ou o usuário pode não estar autorizado a acessar o recurso desejado.|
 
 ## Códigos de erro de não participação {#opt-out-error-codes}
 
