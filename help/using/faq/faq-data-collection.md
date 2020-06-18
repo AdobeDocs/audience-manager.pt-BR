@@ -7,7 +7,7 @@ title: Perguntas frequentes sobre coleta de dados e integração de produtos
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP address; STFP IP address; FTP address
 translation-type: tm+mt
-source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 1%
@@ -27,9 +27,9 @@ faq_data_collection_integration.xml
 
  -->
 
-**Como posso diferenciar o tráfego de entrada do[!UICONTROL DCS]tráfego nas exportações de arquivos de[!UICONTROL DCS]log?**
+**Como posso diferenciar o tráfego de entrada do[!DNL DCS]tráfego nas exportações de arquivos de[!DNL DCS]log?**
 
-As características a bordo [!UICONTROL Inbound] são preenchidas [!UICONTROL Inbound] da mesma forma que são preenchidas por [!UICONTROL DCS]. Há algumas maneiras diferentes de dizer que o tráfego veio de [!UICONTROL Inbound]:
+As características a bordo [!UICONTROL Inbound] são preenchidas [!UICONTROL Inbound] da mesma forma que são preenchidas por [!DNL DCS]. Há algumas maneiras diferentes de dizer que o tráfego veio de [!UICONTROL Inbound]:
 
 * O IP remoto será definido como 68.67.173.18
 * DomainID será definido como 5325
@@ -37,13 +37,13 @@ As características a bordo [!UICONTROL Inbound] são preenchidas [!UICONTROL In
 
 <br> 
 
-**Você pode me fornecer uma lista de endereços IP que eu posso adicionar a uma lista de permissão para dpm.demdex.net?**
+**Você pode me fornecer uma lista de endereços IP que eu posso adicionar a uma lista de permissões para dpm.demdex.net?**
 
 Infelizmente, não podemos. Esses IPs são atribuídos dinamicamente, por região geográfica, por [!DNL Amazon Web Services]. Como resultado, [!DNL Audience Manager] não controla o intervalo de IPs que podem ser atribuídos a este endereço.
 
 <br> 
 
-**Você pode me fornecer um endereço IP que posso adicionar a uma lista de permissão para seu servidor sFTP de entrada e de saída?**
+**Você pode me fornecer um endereço IP que posso adicionar a uma lista de permissões para seu servidor sFTP de entrada e de saída?**
 
 Sim, veja abaixo.
 
@@ -175,15 +175,15 @@ Não, não confie no [!UICONTROL General Reports] e [!UICONTROL Trend Reports] n
 
 Os relatórios calculam as populações com base nos registros de perfis não autenticados (UUIDs) que vemos no backend no momento em que os relatórios são gerados.
 
-Em uma primeira chamada para o [!UICONTROL DCS], as IDs declaradas *não* estão vinculadas a qualquer UUID (ou seja, nenhum cookie [](hhttps://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-am.html) demdex está presente no lado do cliente). O [!UICONTROL DCS] gerará aleatoriamente um UUID e definirá um [!DNL demdex] cookie e o transmitirá na chamada de resposta, mas ele não transmitirá o UUID para o backend.
+Em uma primeira chamada para o [!DNL DCS], as IDs declaradas *não* estão vinculadas a qualquer UUID (ou seja, nenhum cookie [](hhttps://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-am.html) demdex está presente no lado do cliente). O [!DNL DCS] gerará aleatoriamente um UUID e definirá um [!DNL demdex] cookie e o transmitirá na chamada de resposta, mas ele não transmitirá o UUID para o backend.
 
 >[!NOTE]
 >
 >A UUID gerada só será materializada em nosso armazenamento de dados de backend quando o dispositivo no qual o cookie está definido acionar mais atividade.
 
-Por esse motivo, os relatórios não refletirão os eventos acionados pelas IDs declaradas em sua chamada. Recomendamos que você use UUID, ECID (anteriormente MID) ou IDs de dispositivo móvel em chamadas de teste de evento para o [!UICONTROL DCS]. Em seguida, você pode verificar a característica e as realizações do segmento no [!UICONTROL General Reports] e no [!UICONTROL Trend Reports].
+Por esse motivo, os relatórios não refletirão os eventos acionados pelas IDs declaradas em sua chamada. Recomendamos que você use UUID, ECID (anteriormente MID) ou IDs de dispositivo móvel em chamadas de teste de evento para o [!DNL DCS]. Em seguida, você pode verificar a característica e as realizações do segmento no [!UICONTROL General Reports] e no [!UICONTROL Trend Reports].
 
-Consulte também o [Índice de IDs](../reference/ids-in-aam.md)do Gerenciador de Audiências.
+Consulte também o [Índice de IDs](../reference/ids-in-aam.md)de Audience Manager.
 
 <br> 
 
