@@ -7,14 +7,17 @@ solution: Audience Manager
 title: Introdução ao Gerenciamento em massa
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: a4569127b748374b5707daedb0809c58bca74e9b
+source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
+workflow-type: tm+mt
+source-wordcount: '710'
+ht-degree: 1%
 
 ---
 
 
 # Getting Started With Bulk Management{#getting-started-with-bulk-management}
 
-As Ferramentas de Gerenciamento em massa permitem que você crie e gerencie vários objetos de uma só vez com uma única operação. Você pode usar as Ferramentas de Gerenciamento em massa para trabalhar com fontes de dados, sinais derivados, destinos, pastas, modelos, segmentos e características.
+O [!DNL Bulk Management Tools] permite que você crie e gerencie vários objetos de uma só vez com uma única operação. Você pode usar [!DNL Bulk Management Tools] para trabalhar com [!UICONTROL data sources], [!UICONTROL derived signals], [!UICONTROL destinations], [!UICONTROL folders], [!UICONTROL models], [!UICONTROL segments]e [!UICONTROL traits].
 
 <!-- 
 
@@ -24,11 +27,11 @@ c_bulk_start.xml
 
 >[!NOTE]
 >
->[As permissões](../../features/administration/administration-overview.md) de grupo RBAC atribuídas na [!DNL Audience Manager] interface do usuário são respeitadas na [!UICONTROL Bulk Management Tools].
+>[As permissões](../../features/administration/administration-overview.md) de grupo RBAC atribuídas na interface de [!DNL Audience Manager] usuário são respeitadas na [!UICONTROL Bulk Management Tools].
 
 ## Visão geral {#overview}
 
-Este recurso usa uma planilha do Microsoft Excel com macros que fazem chamadas seguras e autenticadas para as [!DNL Audience Manager] APIs. A API fornece os métodos e serviços que permitem fazer alterações em massa. Você não precisa saber como codificar ou trabalhar com nossas APIs para usá-lo. A planilha contém cabeçalhos de coluna e guias que executam funções específicas de alteração em massa. Para fazer alterações em massa, basta adicionar os cabeçalhos predefinidos a planilhas específicas, fornecer as informações que deseja alterar em massa e clicar em um botão de ação. A planilha e as APIs fazem o resto do trabalho para você.
+Este recurso usa uma [!DNL Microsoft Excel] planilha com macros que fazem chamadas seguras e autenticadas para as [!DNL Audience Manager] APIs. A API fornece os métodos e serviços que permitem fazer alterações em massa. Você não precisa saber como codificar ou trabalhar com nossas APIs para usá-lo. A planilha contém cabeçalhos de coluna e guias que executam funções específicas de alteração em massa. Para fazer alterações em massa, basta adicionar os cabeçalhos predefinidos a planilhas específicas, fornecer as informações que deseja alterar em massa e clicar em um botão de ação. A planilha e as APIs fazem o resto do trabalho para você.
 
 ## Download {#download}
 
@@ -40,7 +43,7 @@ Para usar o [!DNL Bulk Management Tools], é necessário o seguinte:
 
 * Seu [!DNL Experience Cloud] logon. Como cliente, você já deve ter essas credenciais.
 * A [!DNL Bulk Management Tools] planilha. [Baixe a planilha](assets/BAAAM_V2_20200502.xlsm) para obter a versão mais recente.
-* Microsoft Excel em execução em [!DNL macOS] ou 64 bits [!DNL Microsoft Windows]. Recomendamos que você use a versão mais recente do Microsoft Excel.
+* [!DNL Microsoft Excel] em execução em [!DNL macOS] ou 64 bits [!DNL Microsoft Windows]. Recomendamos que você use a versão mais recente do [!DNL Microsoft Excel].
 * Ao abrir a planilha, você deve **Ativar macros** para que [!DNL Bulk Management Tools] funcionem.
 
 ## Requisitos e opções de autenticação {#auth-reqs}
@@ -49,9 +52,9 @@ Alterações em massa exigem autenticação. Antes de executar qualquer ação, 
 
 **Requisitos de autenticação da API**
 
-A segunda versão das Ferramentas de Gerenciamento em massa, lançada em outubro de 2019, simplifica o processo de autenticação. As etapas de autenticação nesta versão são descritas abaixo:
+A segunda versão do [!DNL Bulk Management Tools], lançada em outubro de 2019, simplifica o processo de autenticação. As etapas de autenticação nesta versão são descritas abaixo:
 
-1. Abra a planilha e navegue até a planilha **Config** .
+1. Abra a planilha e navegue até a **[!UICONTROL Config]** planilha.
 2. Siga as etapas descritas na planilha.
    ![](assets/baaam-authentication.png)
 3. Após concluir as etapas, você está autorizado a fazer alterações em massa.
