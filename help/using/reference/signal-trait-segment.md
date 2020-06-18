@@ -1,19 +1,22 @@
 ---
-description: Descreve os componentes de um segmento do Audience Manager, as expressões usadas para definir critérios de qualificação de público-alvo e como os dados são transmitidos em uma chamada de evento.
-seo-description: Descreve os componentes de um segmento do Audience Manager, as expressões usadas para definir critérios de qualificação de público-alvo e como os dados são transmitidos em uma chamada de evento.
+description: Descreve os componentes de um segmento de Audience Manager, as expressões usadas para definir critérios de qualificação de audiência e como os dados são transmitidos em uma chamada de evento.
+seo-description: Descreve os componentes de um segmento de Audience Manager, as expressões usadas para definir critérios de qualificação de audiência e como os dados são transmitidos em uma chamada de evento.
 seo-title: Sinais, características e segmentos
 solution: Audience Manager
 title: Sinais, características e segmentos
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 1%
 
 ---
 
 
 # Sinais, características e segmentos{#signals-traits-and-segments}
 
-Descreve os componentes de um segmento do Audience Manager, as expressões usadas para definir critérios de qualificação de público-alvo e como os dados são transmitidos em uma chamada de evento.
+Descreve os componentes de um [!DNL Audience Manager] segmento, as expressões usadas para definir critérios de qualificação de audiência e como os dados são transmitidos em uma chamada de evento.
 
 <!-- 
 
@@ -23,7 +26,7 @@ c_signal_trait_segment.xml
 
 **Composição e finalidade**
 
-[!DNL Audience Manager] os dados consistem em sinais, características, segmentos e regras de qualificação relacionadas. Os elementos de dados e as regras se combinam para criar segmentos. Os segmentos organizam os visitantes do site em grupos relacionados. A tabela a seguir define os três componentes principais em um [!DNL Audience Manager] segmento.
+[!DNL Audience Manager] os dados consistem em sinais, características, segmentos e regras de qualificação relacionadas. Os elementos de dados e as regras se combinam para criar segmentos. Os segmentos organizam visitantes do site em grupos relacionados. A tabela a seguir define os três componentes principais em um [!DNL Audience Manager] segmento.
 
 <table id="table_E8373A01C3414C42B4983A59BF0F0669"> 
  <thead> 
@@ -36,7 +39,7 @@ c_signal_trait_segment.xml
  <tbody> 
   <tr> 
    <td colname="col1"><b>Sinal</b> </td> 
-   <td colname="col2"> <p>Os sinais são as menores unidades de dados no <span class="keyword"> Audience Manager</span> e são expressos como pares <a href="../reference/key-value-pairs-explained.md"> de</a>valor chave. </p> 
+   <td colname="col2"> <p>Os sinais são as menores unidades de dados em <span class="keyword"> Audience Manager</span> e são expressos como pares <a href="../reference/key-value-pairs-explained.md"> de</a>valor chave. </p> 
     <ul id="ul_728347E325284B9FA0B4E05DE8CF4570"> 
      <li id="li_89574A3B4A734726AD43405AE6D85FF5">A chave é uma constante que define um conjunto de dados (por exemplo, gênero, cor, preço). </li> 
      <li id="li_D35601B33EE24EC5857F45D9577254D4">O valor é uma variável relacionada à constante (por exemplo, macho/fêmea, verde, 100). </li> 
@@ -50,12 +53,12 @@ c_signal_trait_segment.xml
   </tr> 
   <tr> 
    <td colname="col1"><b>Características</b> </td> 
-   <td colname="col2"> <p>Combinações de um ou mais sinais. </p> <p>As expressões booleanas e os operadores de comparação permitem criar regras de qualificação de característica. </p> <p>Crie requisitos de qualificação precisos com combinações de características e grupos de características. </p> </td> 
+   <td colname="col2"> <p>Combinações de um ou mais sinais. </p> <p>expressões booleanas e operadores de comparação permitem criar regras de qualificação de característica. </p> <p>Crie requisitos de qualificação precisos com combinações de características e grupos de características. </p> </td> 
    <td colname="col3"> <p>A partir dos sinais disponíveis, você pode criar uma regra "Navegador de câmera sofisticado" expressa como: </p> <p><code> product=camera AND price&gt;1000</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>Segmento</b> </td> 
-   <td colname="col2"> <p>Usuários que compartilham um conjunto de atributos comuns e se qualificam para características relacionadas. </p> <p>Expressões booleanas, juntamente com requisitos de recenticidade/frequência, permitem que você crie regras de qualificação de segmentos. </p> <p>Crie requisitos de qualificação precisos com combinações de características e regras de segmentos. </p> </td> 
+   <td colname="col2"> <p>Usuários que compartilham um conjunto de atributos comuns e se qualificam para características relacionadas. </p> <p>expressões booleanas, juntamente com requisitos de recenticidade/frequência, permitem que você crie regras de qualificação de segmentos. </p> <p>Crie requisitos de qualificação precisos com combinações de características e regras de segmentos. </p> </td> 
    <td colname="col3"> <p>A partir das características e sinais disponíveis, é possível criar uma regra de segmento expressa como: </p> <p><code> (product=camera AND type=digital SLR) OR (price&gt;1000)</code> </p> </td> 
   </tr> 
  </tbody> 
@@ -67,15 +70,13 @@ Use o diagrama abaixo para manter uma nota mental da relação entre sinais, car
 
 **Criar características e regras de segmento com ferramentas visuais e editores de código**
 
-Os clientes gerenciam características e segmentos com ferramentas visuais e editores de código na interface do [!DNL Audience Manager] usuário. As ferramentas visuais permitem criar regras usando recursos de pesquisa, opções de pop-up, menus suspensos e a funcionalidade arrastar e soltar. Os editores de código fornecem aos usuários avançados uma maneira de desenvolver de forma programática os critérios de segmentação do público-alvo.
+Os clientes gerenciam características e segmentos com ferramentas visuais e editores de código na interface do [!DNL Audience Manager] usuário. As ferramentas visuais permitem criar regras usando recursos de pesquisa, opções de pop-up, menus suspensos e a funcionalidade arrastar e soltar. Os editores de código fornecem aos usuários avançados uma maneira de desenvolver de forma programática os critérios de segmentação de audiência.
 
-**Chamadas de evento Enviar dados para o Audience Manager**
+**Chamadas de Evento para enviar dados para o Audience Manager**
 
-Uma chamada de evento envia dados de seu site para [!DNL Audience Manager]. A chamada contém dados de sinal, característica e segmento em uma solicitação HTTP. O evento em si é tudo depois da parte `/event` de uma string de URL. Como mostrado no exemplo abaixo, esse processo requer apenas uma chamada de evento para transmitir várias variáveis para [!DNL Audience Manager].
+Uma chamada de evento envia dados de seu site para [!DNL Audience Manager]. A chamada contém dados de sinal, característica e segmento em uma [!DNL HTTP] solicitação. O evento em si é tudo depois da parte `/event` de uma [!DNL URL] string. Como mostrado no exemplo abaixo, esse processo requer apenas uma chamada de evento única para transmitir várias variáveis para [!DNL Audience Manager].
 
-```
-https://<domain>/event?product=camera&price>100
-```
+`https://<domain>/event?product=camera&price>100`
 
 >[!MORELIKETHIS]
 >
