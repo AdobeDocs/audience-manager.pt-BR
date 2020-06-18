@@ -7,9 +7,9 @@ solution: Audience Manager
 title: Arquivo de registro acionável
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: 8f5dadb44ada3822b7336827c8863a7277b687c3
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1378'
 ht-degree: 3%
 
 ---
@@ -31,8 +31,8 @@ ht-degree: 3%
 
 Para começar a usar [!UICONTROL Actionable Log Files], é necessário importar dados de log para [!DNL Audience Manager]. Os links a seguir ajudarão você a começar:
 
-* Para [!UICONTROL Google DCM] registros, consulte [Importar arquivos de dados do DCM para o Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *e entre* em contato com seu [!DNL Audience Manager] consultor.
-* Para [!UICONTROL Google DFP] registros, consulte [Importar arquivos de dados DFP para o Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) *e entre* em contato com seu [!DNL Audience Manager] consultor.
+* Para obter [!UICONTROL Google DCM] registros, consulte [Importar arquivos de dados do DCM para o Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *e entre* em contato com seu [!DNL Audience Manager] consultor.
+* Para obter [!UICONTROL Google DFP] registros, consulte [Importar arquivos de dados DFP para o Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) *e entre* em contato com seu [!DNL Audience Manager] consultor.
 * Para outros logs de servidor de publicidade, consulte Arquivos [de dados e metadados](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) e *entre em contato com seu* [!DNL Audience Manager] consultor.
 
 Se você já estiver importando dados de log para [!DNL Audience Manager], peça a seu [!DNL Audience Manager] consultor ou ao [Atendimento](https://helpx.adobe.com/br/contact/enterprise-support.ec.html) ao cliente para habilitá-los [!UICONTROL Actionable Log Files] para você.
@@ -45,7 +45,7 @@ Se você já estiver importando dados de log para [!DNL Audience Manager], peça
 
 Com [!UICONTROL Actionable Log Files]o, as informações dos registros do servidor de anúncios são capturadas [!DNL Audience Manager] da mesma forma que você capturaria dados de interações de site em tempo real. [!DNL Audience Manager] conecta-se ao armazenamento de log do servidor de publicidade, analisa as informações dos registros e envia os dados de log como sinais acionáveis para nossos servidores [de coleta de](../../reference/system-components/components-data-collection.md#dcs-pcs)dados.
 
-Você ainda precisa configurar características baseadas em regras para capturar os sinais acionáveis. Consulte como configurar características com base em regras na interface do usuário do [Audience Manager](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) ou usando nossas Ferramentas [de gerenciamento em](../../reference/bulk-management-tools/bulk-create.md)massa. Role para baixo até a seção Sinais [](../../integration/media-data-integration/actionable-log-files.md#actionable-signals) acionáveis para obter uma lista de todas as teclas que você pode usar em características baseadas em regras.
+Você ainda precisa configurar características baseadas em regras para capturar os sinais acionáveis. Veja como configurar características baseadas em regras na interface [do usuário do](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) Audience Manager ou usando nossas Ferramentas [de Gerenciamento em](../../reference/bulk-management-tools/bulk-create.md)massa. Role para baixo até a seção Sinais [](../../integration/media-data-integration/actionable-log-files.md#actionable-signals) acionáveis para obter uma lista de todas as teclas que você pode usar em características baseadas em regras.
 
 >[!IMPORTANT]
 >
@@ -97,7 +97,7 @@ A tabela lista os sinais acionáveis dos arquivos de [!DNL DCM] registro:
   <tr> 
    <td colname="col1"> <p> <code>Advertiser Group ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_adsrc</code> </p> </td> 
-   <td colname="col3"><p>Um código de integração para a fonte de dados do anunciante. Observe que isso não está relacionado às fontes de dados do Audience Manager.</p> <p>Esse campo mapeia a ID do grupo de anunciantes do DCM. </p> </td> 
+   <td colname="col3"><p>Um código de integração para a fonte de dados do anunciante. Observe que isso não está relacionado a fontes de dados Audience Manager.</p> <p>Esse campo mapeia a ID do grupo de anunciantes do DCM. </p> </td> 
    <td colname="col4"> <p> <code> 134243</code> </p> </td> 
   </tr> 
   <tr> 
@@ -196,7 +196,7 @@ Primeiro, você deve depositar seus registros de servidor de anúncios em nossos
   <tr> 
    <td colname="col1"> <p> <code>Advertiser-ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_adsrc</code> </p> </td> 
-   <td colname="col3"> <p>Um código de integração para a fonte de dados do anunciante. Observe que esse campo não está relacionado às fontes de dados do <a href="../../features/datasources-list-and-settings.md">Audience Manager.</a></p></td> 
+   <td colname="col3"> <p>Um código de integração para a fonte de dados do anunciante. Observe que esse campo não está relacionado a fontes de dados de <a href="../../features/datasources-list-and-settings.md">Audience Manager.</a></p></td> 
    <td colname="col4"> <p> <code> 134243</code> </p> </td> 
   </tr> 
   <tr> 
@@ -249,7 +249,7 @@ Os sinais descritos na tabela são captados em [!DNL Audience Manager] tempo rea
 https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_activity=1234&d_creative=24122&d_placemebt=3442&d_bu=3983524&d_campaign=7321391&d_adsrc=11111
 ```
 
-## Trabalhar com Sinais acionáveis na interface do usuário do Audience Manager {#actionable-signals-in-ui}
+## Trabalhar com sinais acionáveis na interface do usuário do Audience Manager {#actionable-signals-in-ui}
 
 Você pode visualização seus sinais acionáveis recebidos na interface de Pesquisa [de](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md) Sinais.
 
