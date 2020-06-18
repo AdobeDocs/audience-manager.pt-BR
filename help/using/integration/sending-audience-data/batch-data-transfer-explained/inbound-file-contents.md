@@ -6,12 +6,15 @@ solution: Audience Manager
 title: Sintaxe de conteúdo do arquivo de dados de entrada, caracteres inválidos, variáveis e exemplos
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '1245'
+ht-degree: 4%
 
 ---
 
 
-# Conteúdo do arquivo de dados de entrada: Sintaxe, caracteres inválidos, variáveis e exemplos{#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}
+# Conteúdo do arquivo de dados de entrada: Sintaxe, caracteres inválidos, variáveis e exemplos {#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}
 
 Campos obrigatórios, sintaxe e regras que você deve seguir ao formatar um arquivo de dados de característica de entrada.
 
@@ -29,7 +32,8 @@ Para obter outros formatos de conteúdo de arquivo aceitos, consulte Integraçõ
 >
 >Temos um limite de 200 linhas que podem ser processadas para cada ID de usuário enviada no arquivo de dados de entrada. Por exemplo, se você enviar 300 linhas para uma ID de usuário, as primeiras 200 linhas serão mantidas e as 100 linhas adicionais serão descartadas. No exemplo abaixo, você está bem porque está enviando 3 linhas cada para a ID de usuário 1 e a ID de usuário 2. Não impomos um limite no número de características ou pares de valores chave que você inclui em uma linha.
 >
->```
+>
+```
 ><user ID1><TAB><trait ID>,<trait ID>,<trait ID>
 ><user ID1><TAB><trait ID>,<trait ID>,<trait ID>
 ><user ID1><TAB><trait ID>,<trait ID>,<trait ID>
@@ -54,7 +58,7 @@ A tabela lista e define as variáveis usadas em um arquivo de dados de entrada c
    <td colname="col1"> <p> <code> <i>User ID </i> </code> </p> </td> 
    <td colname="col2"> <p>Uma ID de usuário pode ser: </p> <p> 
      <ul id="ul_25168355353545A9A049D0083403025E"> 
-      <li id="li_23829FE2F6464E33859B3E388FCD106B">Uma ID de usuário exclusiva atribuída pelo <span class="keyword"> Audience Manager </span> ( <a href="../../../reference/ids-in-aam.md"> Audience Manager UUUID </a>). </li> 
+      <li id="li_23829FE2F6464E33859B3E388FCD106B">Uma ID de usuário exclusiva atribuída por <span class="keyword"> Audience Manager </span> ( <a href="../../../reference/ids-in-aam.md"> Audience Manager UUID </a>). </li> 
       <li id="li_76961F20DD3F4554AD2ADFB773F975DB">Uma ID de usuário exclusiva atribuída no sistema CRM ( <a href="../../../reference/ids-in-aam.md"> DPUUID, no Audience Manager </a>). </li> 
       <li id="li_52ABF6CCBCD147E2BD84D056F7461BA0">Uma ID de dispositivo Android ou iOS móvel em sua forma original e não modificada, como exposta pelo sistema operacional móvel. </li> 
      </ul> </p> <p>Para IDs móveis: </p> <p> 
@@ -69,7 +73,7 @@ A tabela lista e define as variáveis usadas em um arquivo de dados de entrada c
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>trait ID </i> </code> </p> </td> 
-   <td colname="col2"> <p>A ID de característica do <span class="keyword"> Audience Manager </span> . Solicitamos que você inclua <i>somente características</i> integradas em arquivos de dados de entrada. Não processamos nenhum outro tipo de característica na transferência de dados de entrada. </p> <p> <p>Observação:  A ID de característica pode ser encontrada usando o método GET que retorna detalhes sobre todas as suas características. Para obter mais informações, consulte Métodos <a href="../../../api/rest-api-main/api-traits.md"> de API de características </a>. </p> </p> </td> 
+   <td colname="col2"> <p>A ID <span class="keyword"> Audience Manager </span> . Solicitamos que você inclua <i>apenas traços</i> integrados em arquivos de dados de entrada. Não processamos nenhum outro tipo de característica na transferência de dados de entrada. </p> <p> <p>Observação:  A ID de característica pode ser encontrada usando o método GET que retorna detalhes sobre todas as suas características. Para obter mais informações, consulte Métodos <a href="../../../api/rest-api-main/api-traits.md"> de API de características </a>. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -88,11 +92,11 @@ A tabela a seguir descreve os prefixos que identificam nomes de características
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> d_sid= </code> </p> </td> 
-   <td colname="col2"> <p>O <code> d_sid </code> prefixo informa ao sistema que a ID é uma ID de <span class="keyword"> </span> característica do Audience Manager. Essa é a mesma ID mostrada na interface do usuário. Você também pode retornar IDs de características com o <code> GET </code> método da API. Consulte Métodos <a href="../../../api/rest-api-main/api-traits.md"> da API de características </a>. </p> </td>
+   <td colname="col2"> <p>O <code> d_sid </code> prefixo informa ao sistema que a ID é uma ID <span class="keyword"> Audience Manager </span> . Essa é a mesma ID mostrada na interface do usuário. Você também pode retornar IDs de características com o <code> GET </code> método da API. Consulte Métodos <a href="../../../api/rest-api-main/api-traits.md"> da API de características </a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <code> d_unsid= </code> </p> </td> 
-   <td colname="col2"> <p>O prefixo de dados com <code> d_unsid </code> remove os usuários dessa característica. O <code> d_unsid </code> prefixo é ignorado em um <code> overwrite </code> arquivo. </p> <p>O <code> d_unsid= </code> prefixo informa ao sistema que a ID é uma ID de <span class="keyword"> </span> característica do Audience Manager. Essa é a mesma ID mostrada na interface do usuário. Você também pode retornar IDs de características com o <code> GET </code> método da API. Consulte Métodos <a href="../../../api/rest-api-main/api-traits.md"> da API de características </a>. </p> </td>
+   <td colname="col2"> <p>O prefixo de dados com <code> d_unsid </code> remove os usuários dessa característica. O <code> d_unsid </code> prefixo é ignorado em um <code> overwrite </code> arquivo. </p> <p>O <code> d_unsid= </code> prefixo informa ao sistema que a ID é uma ID <span class="keyword"> Audience Manager </span> . Essa é a mesma ID mostrada na interface do usuário. Você também pode retornar IDs de características com o <code> GET </code> método da API. Consulte Métodos <a href="../../../api/rest-api-main/api-traits.md"> da API de características </a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ic= </code> </p> </td> 
@@ -101,7 +105,7 @@ A tabela a seguir descreve os prefixos que identificam nomes de características
       <li> <code> ic == "123" </code> </li>
       <li> <code> ic == "456" </code> </li>
       <li> <code> ic == "789" </code> </li>
-     </ul> </p> <p>Essas características estão associadas à <code> ic </code> chave. Isso permite criar uma lista de características mais simples no arquivo de dados. E não é necessário incluir o <code> ic </code> prefixo. Como resultado, o conteúdo do arquivo de dados pode ser semelhante a: </p> <p>
+     </ul> </p> <p>Essas características estão associadas à <code> ic </code> chave. Isso permite criar uma lista de característica mais simples no arquivo de dados. E não é necessário incluir o <code> ic </code> prefixo. Como resultado, o conteúdo do arquivo de dados pode ser semelhante a: </p> <p>
      <code> 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
       <i>user ID</i>&nbsp;&lt;TAB&gt;&nbsp;123,456,789 
@@ -124,7 +128,7 @@ A tabela a seguir descreve os prefixos que identificam nomes de características
 
 ### IDs de características
 
-As IDs de características consistem apenas em caracteres numéricos. Solicitamos que você inclua *somente características* integradas em arquivos de dados de entrada. Não processamos nenhum outro tipo de característica na transferência de dados de entrada.
+As IDs de características consistem apenas em caracteres numéricos. Solicitamos que você inclua *apenas traços* integrados em arquivos de dados de entrada. Não processamos nenhum outro tipo de característica na transferência de dados de entrada.
 
 ### IDs de usuário
 
@@ -173,7 +177,7 @@ Nomes de valores formatados incorretamente em um par de valores chave também ca
   </tr> 
   <tr> 
    <td colname="col1"> <p>Caractere traço (-) </p> </td> 
-   <td colname="col2"> <p>Ignoramos sinais de travessão no início das chaves. Por exemplo, <code> -product = camera </code> é interpretado como <code> product = camera </code>. </p> </td> 
+   <td colname="col2"> <p>Ignoramos sinais de travessão no start das chaves. Por exemplo, <code> -product = camera </code> é interpretado como <code> product = camera </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TAB </code> </p> </td> 
@@ -201,7 +205,7 @@ Nomes de valores formatados incorretamente em um par de valores chave também ca
    <td colname="col2"> <p>Este arquivo de dados mostra um usuário qualificado para as características 24, 26, 27 e foi removido da característica 28 e 29. </p> <p> 
      <code>
        59767559181262060060278870901087098252&amp;nbsp;&amp;nbsp;d_sid=24,d_sid=26,d_sid=27,d_unsid=28,d_unsid=29 
-     </code> </p> <p>Observação:  <p>Em vez de usar d_unsid, também é possível remover características dos perfis de usuário usando a seguinte sintaxe: </p> <p> 
+     </code> </p> <p>Observação:  <p>Em vez de usar d_unsid, também é possível remover características de perfis do usuário usando a seguinte sintaxe: </p> <p> 
       <code>
         59767559181262060060278870901087098252&amp;nbsp;28:0,&amp;nbsp;29:0 
       </code> </p> <p> 
@@ -221,7 +225,7 @@ Nomes de valores formatados incorretamente em um par de valores chave também ca
   </tr> 
   <tr> 
    <td colname="col1"> <p>Com pares de valor chave </p> </td> 
-   <td colname="col2"> Esses dados de arquivo usam pares de valores chave para passar os dados para o <span class="keyword"> Audience Manager </span>. <p> 
+   <td colname="col2"> Esses dados de arquivo usam pares de valor chave para passar os dados para o <span class="keyword"> Audience Manager </span>. <p> 
      <code>
        59767559181262060060278870901087098252&amp;nbsp;“gender”=”female”,“luxury_shopper”=”yes” 
      </code> </p> </td> 
@@ -233,21 +237,21 @@ Nomes de valores formatados incorretamente em um par de valores chave também ca
 
 ## Matriz de exemplos {#examples-matrix}
 
-O gráfico abaixo mostra exemplos da maneira correta de formatar seus arquivos de entrada, dependendo do [tipo de IDs](../../../reference/ids-in-aam.md) e do método pelo qual você deseja adicionar características aos perfis.
+O gráfico abaixo mostra exemplos da maneira correta de formatar os arquivos de entrada, dependendo do [tipo de IDs](../../../reference/ids-in-aam.md) e do método pelo qual você deseja adicionar características aos perfis.
 
 <table id="table_FE6D97A1F5074E4A8EFC723AF0C5E707"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Tipo/operação de ID </th> 
-   <th colname="col2" class="entry"> Usar d_sid para adicionar características a um perfil de usuário </th> 
+   <th colname="col2" class="entry"> Use d_sid para adicionar características a um perfil do usuário </th> 
    <th colname="col3" class="entry"> Usar d_unsid para remover características de um perfil de usuário </th> 
    <th colname="col4" class="entry"> Enviar pares de valores chave para adicionar características a um perfil de usuário </th> 
-   <th colname="col5" class="entry"> Use o prefixo ic para adicionar características a um perfil de usuário </th> 
+   <th colname="col5" class="entry"> Use o prefixo ic para adicionar características a um perfil do usuário </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>UUID do Audience Manager </p> </td> 
+   <td colname="col1"> <p>Audience Manager UUID </p> </td> 
    <td colname="col2"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-1"> Exemplo 1 </a> </p> </td> 
    <td colname="col3"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-2"> Exemplo 2 </a> </p> </td> 
    <td colname="col4"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-3"> Exemplo 3 </a> </p> </td> 
@@ -279,7 +283,7 @@ O gráfico abaixo mostra exemplos da maneira correta de formatar seus arquivos d
 
 ### Exemplo 1 {#example-1}
 
-Use IDs de características para enviar informações de qualificação de características para UUIDs do Audience Manager.
+Use IDs de características para enviar informações de qualificação de características para [!DNL Audience Manager][!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> d_sid=24, d_sid=26, d_sid=27
@@ -287,7 +291,7 @@ Use IDs de características para enviar informações de qualificação de carac
 
 ### Exemplo 2 {#example-2}
 
-Use IDs de características para enviar informações de desqualificação de características para UUIDs do Audience Manager.
+Use as IDs de características para enviar informações de desqualificação de características para [!DNL Audience Manager][!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> d_unsid=24, d_unsid=26, d_unsid=27
@@ -307,7 +311,7 @@ ou
 
 ### Example 3 {#example-3}
 
-Envie pares de valor chave para adicionar informações de qualificação de característica para UUIDs do Audience Manager.
+Envie pares de valor chave para adicionar informações de qualificação de característica para [!DNL Audience Manager][!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> product = tablet, product = phone
@@ -321,7 +325,7 @@ ou
 
 ### Example 4 {#example-4}
 
-Use o prefixo ic para enviar informações de qualificação de característica para UUIDs do Audience Manager.
+Use o prefixo ic para enviar informações de qualificação de característica para [!DNL Audience Manager][!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> 30608,50354,50338,50352,30626
@@ -335,7 +339,7 @@ ou
 
 ### Example 5 {#example-5}
 
-Use IDs de características para enviar informações de qualificação de características para dispositivos Android.
+Use IDs de características para enviar informações de qualificação de características para [!DNL Android] dispositivos.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -343,7 +347,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
 
 ### Example 6 {#example-6}
 
-Use as IDs de características para enviar informações de desqualificação de características para dispositivos Android.
+Use as IDs características para enviar informações de desqualificação de características para [!DNL Android] dispositivos.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -363,7 +367,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 24:-1, 26:-1, 27:-1
 
 ### Example 7 {#example-7}
 
-Envie pares de valor chave para adicionar informações de qualificação de característica para dispositivos Android.
+Envie pares de valor chave para adicionar informações de qualificação de característica para [!DNL Android] dispositivos.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> product = tablet, product = phone
@@ -377,7 +381,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> "product" = "tablet", "product" = "ph
 
 ### Example 8 {#example-8}
 
-Use o prefixo ic para enviar informações de qualificação de característica para dispositivos Android.
+Use o prefixo ic para enviar informações de qualificação de característica para [!DNL Android] dispositivos.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 30608,50354,50338,50352,30626
@@ -391,7 +395,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### Example 9 {#example-9}
 
-Use IDs de características para enviar informações de qualificação de características para dispositivos iOS.
+Use IDs de características para enviar informações de qualificação de características para [!DNL iOS] dispositivos.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -399,7 +403,7 @@ Use IDs de características para enviar informações de qualificação de carac
 
 ### Example 10 {#example-10}
 
-Use as IDs de características para enviar informações de desqualificação de características para dispositivos iOS.
+Use as IDs características para enviar informações de desqualificação de características para [!DNL iOS] dispositivos.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -419,7 +423,7 @@ ou
 
 ### Example 11 {#example-11}
 
-Envie pares de valor chave para adicionar informações de qualificação de característica para dispositivos iOS.
+Envie pares de valor chave para adicionar informações de qualificação de característica para [!DNL iOS] dispositivos.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> product = tablet, product = phone
@@ -433,7 +437,7 @@ ou
 
 ### Example 12 {#example-12}
 
-Use o prefixo ic para enviar informações de qualificação de características para dispositivos iOS.
+Use o prefixo ic para enviar informações de qualificação de característica para [!DNL iOS] dispositivos.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> 30608,50354,50338,50352,30626
@@ -447,7 +451,7 @@ ou
 
 ### Example 13 {#example-13}
 
-Use IDs de características para enviar informações de qualificação de características para DPUUIDs.
+Use IDs de características para enviar informações de qualificação de características para [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -455,7 +459,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
 
 ### Example 14 {#example-14}
 
-Use IDs características para enviar informações de desqualificação de características para DPUUIDs.
+Use as IDs de características para enviar informações de desqualificação de características para [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -475,7 +479,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 24:-1, 26:-1, 27:-1
 
 ### Example 15 {#example-15}
 
-Envie pares de valor chave para adicionar informações de qualificação de característica para DPUUIDs.
+Envie pares de valor chave para adicionar informações de qualificação de característica para [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> product = tablet, product = phone
@@ -489,7 +493,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> "product" = "tablet", "product" = 
 
 ### Example 16 {#example-16}
 
-Use o prefixo ic para enviar informações de qualificação de característica para DPUUIDs.
+Use o `ic` prefixo para enviar informações de qualificação de característica para [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 30608,50354,50338,50352,30626
