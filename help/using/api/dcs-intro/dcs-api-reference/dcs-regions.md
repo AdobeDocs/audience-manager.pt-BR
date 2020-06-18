@@ -1,24 +1,27 @@
 ---
-description: O nome do host do servidor DCS regional é necessário para fazer chamadas para o DCS. Isso ocorre porque o DCS armazena informações em data centers geograficamente próximos aos visitantes do site. Suas consultas funcionarão se você as enviar para o DCS errado, mas essas chamadas são ineficientes e podem atrasar a resposta. Para fazer uma solicitação DCS, corresponda a ID da região ao nome do host regional correspondente e forme a consulta com o nome do host apropriado.
-seo-description: O nome do host do servidor DCS regional é necessário para fazer chamadas para o DCS. Isso ocorre porque o DCS armazena informações em data centers geograficamente próximos aos visitantes do site. Suas consultas funcionarão se você as enviar para o DCS errado, mas essas chamadas são ineficientes e podem atrasar a resposta. Para fazer uma solicitação DCS, corresponda a ID da região ao nome do host regional correspondente e forme a consulta com o nome do host apropriado.
+description: O nome do host do servidor DCS regional é necessário para fazer chamadas para o DCS. Isso ocorre porque o DCS armazena informações em data centers geograficamente próximos aos visitantes do site. Seus query funcionarão se você os enviar para o DCS errado, mas essas chamadas são ineficientes e podem atrasar a resposta. Para fazer uma solicitação DCS, corresponda a ID da região ao nome do host regional correspondente e forme o query com o nome do host apropriado.
+seo-description: O nome do host do servidor DCS regional é necessário para fazer chamadas para o DCS. Isso ocorre porque o DCS armazena informações em data centers geograficamente próximos aos visitantes do site. Seus query funcionarão se você os enviar para o DCS errado, mas essas chamadas são ineficientes e podem atrasar a resposta. Para fazer uma solicitação DCS, corresponda a ID da região ao nome do host regional correspondente e forme o query com o nome do host apropriado.
 seo-title: IDs de região DCS, locais e nomes de host
 solution: Audience Manager
 title: IDs de região DCS, locais e nomes de host
 uuid: ad150ffe-4583-472b-ac8b-fb900a7966e4
 translation-type: tm+mt
-source-git-commit: 51a326d0ac02175e0e1452e0a00b4a3a415d88ff
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '311'
+ht-degree: 2%
 
 ---
 
 
 # DCS Region IDs, Locations, and Host Names {#dcs-region-ids-locations-and-host-names}
 
-O nome do host do [!UICONTROL DCS] servidor regional é necessário para fazer chamadas para o [!UICONTROL DCS]. Isso ocorre porque o [!UICONTROL DCS] armazena informações em data centers geograficamente próximos aos visitantes do site. Suas consultas funcionarão se você enviá-las para o erro [!UICONTROL DCS], mas essas chamadas são ineficientes e podem atrasar a resposta. Para fazer uma [!UICONTROL DCS] solicitação, corresponda a ID da região ao nome do host regional correspondente e forme a consulta com o nome do host apropriado.
+O nome do host do [!DNL DCS] servidor regional é necessário para fazer chamadas para o [!DNL DCS]. Isso ocorre porque o [!DNL DCS] armazena informações em data centers geograficamente próximos aos visitantes do site. Seus query funcionarão se você enviá-los para o erro [!DNL DCS], mas essas chamadas são ineficientes e podem atrasar a resposta. Para fazer uma [!DNL DCS] solicitação, corresponda a ID da região ao nome do host regional correspondente e forme o query com o nome do host apropriado.
 
 <table id="table_643212E4F9C64DFF9443904B01D89CB3"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> ID da região DCS (dcs_region) </th> 
+   <th colname="col1" class="entry"> ID da região do DCS (dcs_region) </th> 
    <th colname="col2" class="entry"> Região (e local) </th> 
    <th colname="col3" class="entry"> Nome do host </th> 
   </tr> 
@@ -67,4 +70,4 @@ O nome do host do [!UICONTROL DCS] servidor regional é necessário para fazer c
  </tbody> 
 </table>
 
-Você também pode usar [!DNL API] métodos para obter uma lista das [!UICONTROL DCS] regiões disponíveis. Consulte Métodos [da API de região](../../../api/rest-api-main/aam-api-dcs-regions.md)DCS.
+Você também pode usar [!DNL API] métodos para obter uma lista das [!DNL DCS] regiões disponíveis. Consulte Métodos [da API de região](../../../api/rest-api-main/aam-api-dcs-regions.md)DCS.
