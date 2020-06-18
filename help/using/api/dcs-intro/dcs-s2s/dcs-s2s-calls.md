@@ -1,25 +1,28 @@
 ---
-seo-title: Como fazer chamadas de API DCS servidor a servidor
+seo-title: Como fazer chamadas de API DCS de servidor para servidor
 solution: Audience Manager
-title: Como fazer chamadas de API DCS servidor a servidor
+title: Como fazer chamadas de API DCS de servidor para servidor
 uuid: bdfe3430-e27f-4a5c-88d9-ae164d28f601
 translation-type: tm+mt
-source-git-commit: bc2a9364b771436fe0191f9d69a8c291563f9229
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '344'
+ht-degree: 5%
 
 ---
 
 
-# Como fazer chamadas de API DCS servidor a servidor {#making-server-to-server-dcs-api-calls}
+# Como fazer chamadas de API DCS de servidor para servidor {#making-server-to-server-dcs-api-calls}
 
 As chamadas exigem o nome do host do servidor DCS regional e a ID do usuário. Se você não tiver as IDs de usuário e região necessárias, consulte [Obter IDs de usuário e regiões de uma resposta](/help/using/api/dcs-intro/dcs-s2s/dcs-aam-ids.md) DCS e/ou [Experience Cloud](/help/using/api/dcs-intro/dcs-s2s/dcs-mcid-ids.md). Depois que você tiver IDs de usuário e região, poderá fazer chamadas de servidor para servidor para o DCS. Consulte esta seção para obter a sintaxe e exemplos.
 
 >[!NOTE]
 >
->In the code and examples, *italics* represents a variable placeholder. Substitua um valor real do espaço reservado quando você chama o servidor para o [!UICONTROL DCS].
+>In the code and examples, *italics* represents a variable placeholder. Substitua um valor real do espaço reservado quando você chama o servidor para o [!DNL DCS].
 
 ## Sintaxe de chamada e exemplo {#call-syntax-example}
 
-Uma solicitação básica de servidor para servidor que envia dados para o [!UICONTROL DCS] usuário usa a sintaxe mostrada abaixo.
+Uma solicitação básica de servidor para servidor que envia dados para o [!DNL DCS] usuário usa a sintaxe mostrada abaixo.
 
 ```js
 "Host:domain_alias.demdex.net" "https://DCS_host_name.demdex.net/event?d_rtbd=json&d_jsonv=1&d_uuid=userID
@@ -42,7 +45,7 @@ Uma chamada de amostra é semelhante ao exemplo a seguir.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><code> alias <i>do</i>domínio.demdex.net</code> </p> </td> 
+   <td colname="col1"> <p><code> <i>domain alias</i>.demdex.net</code> </p> </td> 
    <td colname="col2"> <p>Esta parte da chamada contém: </p> <p> 
      <ul id="ul_3EDA9C7BA6794D06BCB07A75A9BD2372"> 
       <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Seu alias de domínio atribuído pelo <span class="keyword"> Audience Manager</span> (por exemplo, <i><code> my_domain.demdex.net</code></i>). </li> 
@@ -50,7 +53,7 @@ Uma chamada de amostra é semelhante ao exemplo a seguir.
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> Nome <i>do host</i>DCS.demdex.net</code> </p> </td> 
+   <td colname="col1"> <p><code> <i>DCS host name</i>.demdex.net</code> </p> </td> 
    <td colname="col2"> <p>O parâmetro host do cabeçalho http que mostra o nome do servidor DCS <span class="wintitle"></span> regional. O nome do host está vinculado a uma ID de região, por isso é necessário fazer isso antes de realizar esses tipos de chamadas. Consulte <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">IDs da região do DCS, locais e nomes de host</a>. </p> </td> 
   </tr> 
   <tr> 
@@ -58,16 +61,16 @@ Uma chamada de amostra é semelhante ao exemplo a seguir.
    <td colname="col2"> <p>Esta parte da chamada: </p> <p> 
      <ul id="ul_6332444A305A4F12A7CBE471CA508516"> 
       <li id="li_1C5C111B2B0E4621B3FC0C20D6516041">Identifica a chamada como uma chamada de evento. </li> 
-      <li id="li_DBCE9B1C70604A629ECD7AC0A9052198">Define o início da string de URL que contém os dados que você deseja enviar para o DCS. </li> 
+      <li id="li_DBCE9B1C70604A629ECD7AC0A9052198">Define o start da string de URL que contém os dados que você deseja enviar para o DCS. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code>d_uuid= ID de usuário do <i>Audience Manager</i></code> </p> </td> 
+   <td colname="col1"> <p><code>d_uuid= <i>Audience Manager user ID</i></code> </p> </td> 
    <td colname="col2"> <p>Essa é a chave de ID de usuário exclusiva que mantém o valor de ID de usuário do <span class="keyword"> Audience Manager</span> em um par de valor chave. </p> <p>Use <code><i>d_uuid</i></code> se estiver transmitindo a ID de usuário do <span class="keyword"> Audience Manager</span> . </p> </td>
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code>d_mid=ID de usuário da<i>Experience Cloud</i></code> </p> </td> 
-   <td colname="col2"> <p>Essa é a chave de ID de usuário exclusiva que mantém o valor de ID de usuário da <span class="keyword"> Experience Cloud</span> em um par de valores chave. Consulte também <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#get-user-ids-from-service-cookie"> Obter a ID do usuário do cookie</a>do serviço de ID. </p> <p>Use <i><code> d_mid</code></i> se estiver transmitindo uma <span class="keyword"> Experience Cloud</span> ID capturada do serviço da <span class="keyword"> Experience Cloud</span> ID. </p> </td> 
+   <td colname="col1"> <p><code>d_mid=<i>Experience Cloud user ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Essa é a chave de ID de usuário exclusiva que mantém o valor de ID de usuário do <span class="keyword"> Experience Cloud</span> em um par de valor chave. Consulte também <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#get-user-ids-from-service-cookie"> Obter a ID do usuário do cookie</a>do serviço de ID. </p> <p>Use <i><code> d_mid</code></i> se estiver transmitindo uma ID de <span class="keyword"> Experience Cloud</span> capturada do serviço de ID de <span class="keyword"> Experience Cloud</span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 
