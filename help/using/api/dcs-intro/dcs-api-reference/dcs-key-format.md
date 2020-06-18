@@ -1,19 +1,22 @@
 ---
 description: Ao fazer uma chamada, o DCS aceita dados de valor chave em formato padrão ou serializado. Consulte esta seção para obter informações sobre como formatar dados de valores chave padrão e serializados.
 seo-description: Ao fazer uma chamada, o DCS aceita dados de valor chave em formato padrão ou serializado. Consulte esta seção para obter informações sobre como formatar dados de valores chave padrão e serializados.
-seo-title: Formatação de pares de valores chave em chamadas DCS
+seo-title: Formatação de pares de valores-chave em chamadas DCS
 solution: Audience Manager
-title: Formatação de pares de valores chave em chamadas DCS
+title: Formatação de pares de valores-chave em chamadas DCS
 uuid: af02f2a1-4388-4074-ab4e-66ee82023f1c
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 1%
 
 ---
 
 
-# Formatação de pares de valores chave em chamadas DCS {#formatting-key-value-pairs-in-dcs-calls}
+# Formatação de pares de valores-chave em chamadas DCS {#formatting-key-value-pairs-in-dcs-calls}
 
-Ao fazer uma chamada, o [!UICONTROL DCS] aceita dados de valor chave em formato padrão ou serializado. Consulte esta seção para obter informações sobre como formatar dados de valores chave padrão e serializados.
+Ao fazer uma chamada, o [!DNL DCS] aceita dados de valor chave em formato padrão ou serializado. Consulte esta seção para obter informações sobre como formatar dados de valores chave padrão e serializados.
 
 ## Pares padrão e serializados de valor chave {#standard-serialized}
 
@@ -41,7 +44,7 @@ Ao fazer uma chamada, o [!UICONTROL DCS] aceita dados de valor chave em formato 
 
 ## Delimitadores e separadores para pares de valores-chave serializados {#delimiters-separators}
 
-Com pares serializados de valores chave, você deve especificar os marcadores que separam valores dentro e entre essas variáveis. O Audience Manager requer os seguintes delimitadores e separadores:
+Com pares serializados de valores chave, você deve especificar os marcadores que separam valores dentro e entre essas variáveis. Audience Manager requer os seguintes delimitadores e separadores:
 
 <table id="table_8FD4E6B9506943AEA619D4089913ECBC"> 
  <thead> 
