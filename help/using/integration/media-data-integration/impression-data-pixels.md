@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Captura de dados de impressão da campanha via Pixel Calls
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: b1d953837766f5822f5ba0246f7e10042c6f1072
+source-git-commit: aefd0a0798797b8bbe9cadc1af9f2e86e772bb4c
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 21%
@@ -26,7 +26,7 @@ Esta metodologia é frequentemente chamada de &quot;pixeling the creative&quot;.
 >
 >Estilos de texto (`monospaced text`, *itálico*, colchetes `[ ]` `( )` etc.) indicar elementos e opções de código. Consulte [Convenções de estilo para código e elementos de texto](../../reference/code-style-elements.md) para obter mais informações.
 
-A chamada de evento coleta dados de impressão e conversão e os envia para os [!DNL Audience Manager] [servidores de coleta de dados](/help/using/reference/system-components/components-data-collection.md) ([!UICONTROL DCS]). Esse processo depende de servidores de publicidade de terceiros que colocam a chamada no criativo para controlar o conteúdo inserido no código. Os servidores de publicidade de terceiros (por exemplo, [!DNL DFA]) podem colocar esse código em cada impressão de anúncios. Além disso, uma chamada de anúncio não utiliza [!DNL JavaScript] nem emprega técnicas de frame-busting para acessar os dados do editor fora da tag de anúncio.
+A chamada de evento coleta dados de impressão e conversão e os envia para os [!DNL Audience Manager] [servidores de coleta de dados](/help/using/reference/system-components/components-data-collection.md) ([!DNL DCS]). Esse processo depende de servidores de publicidade de terceiros que colocam a chamada no criativo para controlar o conteúdo inserido no código. Os servidores de publicidade de terceiros (por exemplo, [!DNL DFA]) podem colocar esse código em cada impressão de anúncios. Além disso, uma chamada de anúncio não utiliza [!DNL JavaScript] nem emprega técnicas de frame-busting para acessar os dados do editor fora da tag de anúncio.
 
 As chamadas de Evento consistem em pares de valores chave que usam a seguinte sintaxe:
 
