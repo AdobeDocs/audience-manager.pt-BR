@@ -1,21 +1,24 @@
 ---
 description: Envie dados para a API DCS usando os métodos GET ou POST.
 seo-description: Envie dados para a API DCS usando os métodos GET ou POST.
-seo-title: ' Métodos da API DCS'
+seo-title: Métodos da API DCS
 solution: Audience Manager
-title: ' Métodos da API DCS'
+title: Métodos da API DCS
 uuid: 6e407458-11d4-4342-a84a-512afa5fc183
 translation-type: tm+mt
-source-git-commit: bdea2609b84d7f80d67452b4c43e11cbef01a368
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '118'
+ht-degree: 0%
 
 ---
 
 
 # Métodos da API DCS {#dcs-api-methods}
 
-Envie dados para o [!UICONTROL DCS] usando [!DNL API] ou `GET` `POST` métodos.
+Envie dados para o [!DNL DCS] usando [!DNL API] ou `GET` `POST` métodos.
 
-É possível enviar dados para o [!UICONTROL DCS] usando um dos métodos `GET` ou `POST` . Veja as chamadas de amostra abaixo, usando [curl](https://curl.haxx.se/). Em todas as três chamadas de amostra, estamos adicionando os sinais `c_likes = famous popstar` e `c_loves = famous actress` ao perfil do dispositivo `12345678901234567890123456789012345678`.
+É possível enviar dados para o [!DNL DCS] usando um dos métodos `GET` ou `POST` . Veja as chamadas de amostra abaixo, usando [curl](https://curl.haxx.se/). Em todas as três chamadas de amostra, estamos adicionando os sinais `c_likes = famous popstar` e `c_loves = famous actress` ao perfil do dispositivo `12345678901234567890123456789012345678`.
 
 
 ## Enviar dados via GET {#send-data-via-get}
