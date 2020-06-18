@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Introdução às APIs REST
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: cdf567a816be60d0d966783e87f4ed02838be378
 workflow-type: tm+mt
-source-wordcount: '1791'
+source-wordcount: '1781'
 ht-degree: 2%
 
 ---
@@ -46,7 +46,7 @@ O [!DNL Audience Manager] [!DNL REST APIs] suporta dois métodos de autenticaç�
 >
 >Dependendo do método de autenticação, é necessário ajustar a solicitação [!DNL URLs] de acordo. Consulte a seção [Ambientes](#environments) para obter detalhes sobre os nomes de host que você deve usar.
 
-## Autenticação JWT (Conta de Serviço) {#jwt}
+## Autenticação JWT ([!DNL Service Account]) {#jwt}
 
 ### Pré-requisitos {#prerequisites}
 
@@ -278,14 +278,14 @@ Novas versões desses [!DNL API]s são lançadas regularmente. Uma nova versão 
 
 | ID do código de resposta | Texto de resposta | Definição |
 |---|---|---|
-| 200 | `OK` | A solicitação foi processada com êxito. Retornará o conteúdo ou os dados esperados, se necessário. |
-| 201 | `Created` | O recurso foi criado. Retorna para `PUT` e `POST` solicitações. |
-| 204 | `No Content` | O recurso foi excluído. O corpo da resposta ficará em branco. |
-| 400 | `Bad Request` | O servidor não entendeu a solicitação. Geralmente devido a sintaxe malformada. Verifique sua solicitação e tente novamente. |
-| 403 | `Forbidden` | Você não tem acesso ao recurso. |
-| 404 | `Not Found` | Não foi possível localizar o recurso para o caminho especificado. |
-| 409 | `Conflict` | Não foi possível concluir a solicitação devido a um conflito com o estado do recurso. |
-| 500 | `Server Error` | O servidor encontrou um erro inesperado que o impedia de atender à solicitação. |
+| `200` | `OK` | A solicitação foi processada com êxito. Retornará o conteúdo ou os dados esperados, se necessário. |
+| `201` | `Created` | O recurso foi criado. Retorna para `PUT` e `POST` solicitações. |
+| `204` | `No Content` | O recurso foi excluído. O corpo da resposta ficará em branco. |
+| `400` | `Bad Request` | O servidor não entendeu a solicitação. Geralmente devido a sintaxe malformada. Verifique sua solicitação e tente novamente. |
+| `403` | `Forbidden` | Você não tem acesso ao recurso. |
+| `404` | `Not Found` | Não foi possível localizar o recurso para o caminho especificado. |
+| `409` | `Conflict` | Não foi possível concluir a solicitação devido a um conflito com o estado do recurso. |
+| `500` | `Server Error` | O servidor encontrou um erro inesperado que o impedia de atender à solicitação. |
 
 >[!MORELIKETHIS]
 >
