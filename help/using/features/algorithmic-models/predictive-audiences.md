@@ -5,9 +5,9 @@ seo-title: Visão geral das Audiências preditivas
 solution: Audience Manager
 title: Audiências Audience Manager preditivas
 translation-type: tm+mt
-source-git-commit: 4df2a7536155d42133c0873ed4e3376eb24cba1a
+source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
 workflow-type: tm+mt
-source-wordcount: '1275'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Como profissional de marketing, quero prever em qual fase da jornada do cliente 
 
 Como empresa de mídia, eu quero categorizar minha audiência, para que eu possa vender meu espaço publicitário com preços premium, ao mesmo tempo em que ofereço aos meus visitantes anúncios relevantes.
 
-## Como funcionam os modelos de Audiências preditivas
+## Como funcionam [!UICONTROL Predictive Audiences] os modelos {#how-predictive-audiences-models-work}
 
 Ao criar um [!UICONTROL Predictive Audiences] modelo, você percorre três etapas:
 
@@ -82,14 +82,14 @@ Você pode escolher quaisquer características ou segmentos originais para defin
 
 Semelhante à seleção pessoal, você deve escolher seu traço ou segmento que define sua audiência de público alvo de modo que ela tenha usuários em tempo real com conjuntos avançados de características, para classificação na pessoa certa.
 
-### Fase de treinamento do modelo de Audiências preditivas {#model-training}
+### [!UICONTROL Predictive Audiences] Fase de treinamento do modelo {#model-training}
 
 Antes que o algoritmo possa classificar sua audiência primária nas pessoas certas, ele precisa treinar a si mesmo nos seus dados.
 
 Para cada persona definida, o algoritmo analisa sua respectiva audiência e avalia qualquer atividade de característica em tempo real e/ou integrada para seus usuários nos últimos 30 dias.
 Esta etapa ocorre uma vez a cada 24 horas, para levar em conta as alterações na audiência primária.
 
-### Fase de classificação do modelo de Audiências preditivas {#model-classification}
+### [!UICONTROL Predictive Audiences] Fase de classificação do modelo {#model-classification}
 
 Quando um visitante que faz parte da audiência do público alvo é visto em tempo real, o modelo avalia se o visitante faz parte da pessoa definida. Para cada visitante que não pertence a nenhuma das pessoas, o modelo atribui uma pontuação de qualificação pessoal.
 
@@ -109,7 +109,7 @@ Ao configurar seus [!UICONTROL Predictive Audiences] modelos, lembre-se das segu
 * Os dados de segundo e terceiro não são suportados atualmente em [!UICONTROL Predictive Audiences].
 * A classificação de Audiência é feita somente para audiências originais em tempo real. A classificação de audiência primária integrada pode ser suportada em uma atualização futura.
    >[!IMPORTANT]
-   > No momento, os segmentos preditivos [!UICONTROL Total Segment Population] de seus segmentos são exibidos como 0, e as Transferências [de Dados de Saída em](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md) Lote não são compatíveis com Audiências Preditivas. Esse comportamento será alterado em uma atualização futura.
+   > No momento, o número [!UICONTROL Total Segment Population] de segmentos preditivos é exibido como 0 e as Transferências [de Dados de Saída em](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md) Lote não são suportadas para [!UICONTROL Predictive Audiences]. Esse comportamento será alterado em uma atualização futura.
 * [!UICONTROL Predictive Audiences] executa a classificação de audiência com base nas características originais, de todas as fontes de dados originais.
 * A avaliação de segmentos para [!UICONTROL Predictive Audiences] usa o padrão **[!UICONTROL Profile Merge Rule]** definido na sua conta. Para saber mais sobre [!UICONTROL Profile Merge Rules] , consulte a [documentação](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/profile-merge-rules/merge-rules-overview.html)dedicada.
 * Algumas características e segmentos não são suportados como audiências de linha de base ou públicos alvos. [!UICONTROL Predictive Audiences] os modelos não serão salvos ao escolher uma das seguintes opções como linhas de base ou audiências de público alvo:
@@ -118,7 +118,7 @@ Ao configurar seus [!UICONTROL Predictive Audiences] modelos, lembre-se das segu
    * Características algorítmicas;
    * Características de segundo e terceiro.
 
-## Controles da exportação de dados{#dec}
+## [!UICONTROL Data Export Controls] {#dec}
 
 Segmentos preditivos criados por [!UICONTROL Predictive Audiences] modelos herdam os Controles [de exportação de](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html) dados das seguintes fontes de dados primários:
 
@@ -129,7 +129,7 @@ As características preditivas e os segmentos recém-criados terão as mesmas re
 
 Características que têm restrições adicionais que não fazem parte das restrições de privacidade do [!UICONTROL Predictive Audiences] segmento serão excluídas da fase de treinamento e não se tornarão influentes para o modelo.
 
-## Controles de acesso baseados em função{#rbac}
+## [!UICONTROL Role-Based Access Controls] {#rbac}
 
 As características e os segmentos que você escolhe para a classificação de audiência e estão sujeitos aos Controles de acesso [baseados em](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html)funções de Audience Manager.
 
