@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Captura de dados de clique de Campanha por meio de chamadas de pixels
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 translation-type: tm+mt
-source-git-commit: 72cf5f30c74736f7143841c0edd6c5c69154a0c2
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '657'
 ht-degree: 7%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 7%
 
 # Capturing Campaign Click Data via Pixel Calls {#capturing-campaign-click-data-via-pixel-calls}
 
-O rastreamento de cliques permite a medição do envolvimento do visitante em toda a campanha, pois registra a atividade baseada em cliques para criações de terceiros. Semelhante à coleção [de](/help/using/integration/media-data-integration/impression-data-pixels.md)impressões, uma chamada de evento é enviada para os servidores de coleta de dados do Gerenciador de Audiências ([!UICONTROL DCS]) para processamento. O visitante é então redirecionado para o endereço da Web desejado.
+O rastreamento de cliques permite a medição do envolvimento do visitante em toda a campanha, pois registra a atividade baseada em cliques para criações de terceiros. Semelhante à coleta [de](/help/using/integration/media-data-integration/impression-data-pixels.md)impressões, uma chamada de evento é enviada para os servidores de coleta de dados do Audience Manager ([!DNL DCS]) para processamento. O visitante é então redirecionado para o endereço da Web desejado.
 
 >[!NOTE]
 >
->Entre em contato com sua consultoria ou cliente potencial de conta do Adobe Audiência Manager para obter o URL exato específico do domínio do cliente.
+>Entre em contato com sua [!DNL Audience Manager] consultoria ou cliente potencial de conta para obter o [!DNL URL] domínio específico do cliente.
 
 ## Requisitos
 
@@ -66,7 +66,7 @@ Clique em eventos que suportam as macros listadas na tabela a seguir. Uma macro 
   <tr> 
    <td colname="col1"> <p> <code> d_adsrc</code> </p> </td> 
    <td colname="col02"> <p>Sem macro. </p> <p>Aceita um valor de ID codificado. </p> </td> 
-   <td colname="col2"> <p>ID do anunciante.</p> <p>Um código de integração para a fonte de dados do anunciante. Observe que isso não está relacionado às fontes de dados do Gerenciador de Audiências.</p> <p> Necessário para relatórios de Otimização <span class="wintitle"> de</span> Audiência. </p> </td> 
+   <td colname="col2"> <p>ID do anunciante.</p> <p>Um código de integração para a fonte de dados do anunciante. Observe que isso não está relacionado a fontes de dados Audience Manager.</p> <p> Necessário para relatórios de Otimização <span class="wintitle"> de</span> Audiência. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_bu</code> </p> </td> 
@@ -121,7 +121,7 @@ Clique em eventos que suportam as macros listadas na tabela a seguir. Uma macro 
   <tr> 
    <td colname="col1"> <p> <code> d_src</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_src%</code> </p> </td> 
-   <td colname="col2"> <p>DPID da origem de onde o Gerenciador de Audiências puxa os metadados. </p> <p>Obrigatório. </p> </td> 
+   <td colname="col2"> <p>DPID da origem de onde o Audience Manager puxa os metadados. </p> <p>Obrigatório. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_uuid</code> </p> </td> 
