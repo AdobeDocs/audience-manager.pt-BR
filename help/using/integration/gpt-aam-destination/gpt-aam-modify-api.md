@@ -1,21 +1,24 @@
 ---
-description: Adicione uma declaração if para verificar os cookies do Audience Manager antes de chamar o método Google Publisher Tag .setTargeting.
-seo-description: Adicione uma declaração if para verificar os cookies do Audience Manager antes de chamar o método Google Publisher Tag .setTargeting.
+description: Adicione uma declaração if para verificar cookies de Audience Manager antes de chamar o método Google Publisher Tag .setTargeting.
+seo-description: Adicione uma declaração if para verificar cookies de Audience Manager antes de chamar o método Google Publisher Tag .setTargeting.
 seo-title: Modificar a chamada da API setTargeting GPT
 solution: Audience Manager
 title: Modificar a chamada da API setTargeting GPT
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '298'
+ht-degree: 1%
 
 ---
 
 
-# Modificar a chamada de API GPT `setTargeting`{#modify-the-gpt-settargeting-api-call}
+# Modificar a chamada de API GPT `setTargeting` {#modify-the-gpt-settargeting-api-call}
 
-Adicione uma declaração if para verificar os cookies do Audience Manager antes de chamar o [!DNL Google Publisher Tag] `.setTargeting` método.
+Adicione uma declaração if para verificar os cookies de Audience Manager antes de chamar o [!DNL Google Publisher Tag] `.setTargeting` método.
 
-## Verifique se há cookies do Audience Manager com uma `IF` declaração
+## Verifique se há cookies de Audience Manager com uma `IF` declaração
 
 O `.setTargeting` método obtém dados do cookie de destino do Audience Manager e do cookie de ID de usuário exclusivo ( `aam_uuid`). No entanto, se `.setTargeting` for chamado antes de [!UICONTROL DIL] gravar esses cookies, ou se os cookies estiverem vazios, você poderá ver erros quando a página for carregada. Para ajudar a evitar isso, vincule o `.setTargeting` método em uma `if` declaração que verifique esses cookies. Se não estiverem definidas, esta instrução impedirá `.setTargeting` de chamar a `AamGpt` função.
 
@@ -34,11 +37,11 @@ if(typeof AamGpt.getCookie("aam_uuid") != "undefined" ){
 
 >[!IMPORTANT]
 >
->Dependendo de como você deseja integrar com [!DNL DFP], você só precisa de algumas das linhas na amostra de código acima:
+>Dependendo de como você deseja se integrar com [!DNL DFP], você só precisa de algumas das linhas na amostra de código acima:
 >
 >* Integração do cliente: use somente as linhas 1 a 3.
 >* Integração do servidor: nenhuma das linhas é necessária.
->* Ingest [!DNL DFP] arquivos de log para relatório em [!DNL Audience Manager]: use somente as linhas 4-6. Esse código insere o valor do `aam_uuid` cookie nos registros para que eles possam ser assimilados para relatórios.
+>* Ingest [!DNL DFP] arquivos de registro para relatórios em [!DNL Audience Manager]: use somente as linhas 4-6. Esse código insere o valor do `aam_uuid` cookie nos registros para que eles possam ser assimilados para o relatórios.
 
 
 ### `AamGpt` Funções e tipos de dados
@@ -75,5 +78,5 @@ Define as variáveis principais usadas na `if` instrução.
 >[!MORELIKETHIS]
 >
 >* [Criar um destino GPT](../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
->* [Código do Audience Manager para tags do Google Publisher](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
+>* [Código de Audience Manager para tags do Google Publisher](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
 
