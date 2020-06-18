@@ -7,7 +7,10 @@ solution: Audience Manager
 title: Sobre a modelagem semelhante à aparência
 uuid: 39441e72-5316-453d-9aff-0e0b633aabcd
 translation-type: tm+mt
-source-git-commit: a6e8db30c54e0629e27b1ee7f189a6c471d2bb6d
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '1685'
+ht-degree: 0%
 
 ---
 
@@ -69,7 +72,7 @@ Cada usuário nas fontes de dados selecionadas recebe uma pontuação de usuári
 
 ### Etapa 5: Exibir e trabalhar com resultados
 
-O Gerenciador de Audiências exibe os resultados ponderados do modelo em [!UICONTROL Trait Builder]. Quando você deseja criar uma característica algorítmica, [!UICONTROL Trait Builder] permite criar características com base na pontuação ponderada gerada pelo algoritmo durante uma execução de dados. Você pode escolher uma precisão maior para qualificar somente usuários que tenham pontuações muito altas e, portanto, sejam muito semelhantes à audiência da linha de base, em vez do restante da audiência. Se quiser atingir uma audiência maior (alcance), você pode diminuir a precisão.
+[!DNL Audience Manager] exibe os resultados do modelo ponderado em [!UICONTROL Trait Builder]. Quando você deseja criar uma característica algorítmica, [!UICONTROL Trait Builder] permite criar características com base na pontuação ponderada gerada pelo algoritmo durante uma execução de dados. Você pode escolher uma precisão maior para qualificar somente usuários que tenham pontuações muito altas e, portanto, sejam muito semelhantes à audiência da linha de base, em vez do restante da audiência. Se quiser atingir uma audiência maior (alcance), você pode diminuir a precisão.
 
 ### Etapa 6: Reavaliar a importância de uma característica nos ciclos de processamento
 
