@@ -1,23 +1,26 @@
 ---
-description: Descreve os campos obrigatórios, a sintaxe, as convenções de nomenclatura e os tamanhos de arquivo que você precisa seguir ao enviar dados para o Audience Manager. Defina os nomes e tamanhos dos arquivos de acordo com essas especificações ao enviar dados para um diretório FTP do Audience Manager.
-seo-description: Descreve os campos obrigatórios, a sintaxe, as convenções de nomenclatura e os tamanhos de arquivo que você precisa seguir ao enviar dados para o Audience Manager. Defina os nomes e tamanhos dos arquivos de acordo com essas especificações ao enviar dados para um diretório FTP do Audience Manager.
+description: Descreve os campos obrigatórios, a sintaxe, as convenções de nomenclatura e os tamanhos de arquivo que você precisa seguir ao enviar dados para o Audience Manager. Defina os nomes e os tamanhos dos arquivos de acordo com essas especificações ao enviar dados para um diretório FTP Audience Manager.
+seo-description: Descreve os campos obrigatórios, a sintaxe, as convenções de nomenclatura e os tamanhos de arquivo que você precisa seguir ao enviar dados para o Audience Manager. Defina os nomes e os tamanhos dos arquivos de acordo com essas especificações ao enviar dados para um diretório FTP Audience Manager.
 seo-title: Requisitos de nome e tamanho de arquivo FTP para arquivos de dados de entrada
 solution: Audience Manager
 title: Requisitos de nome e tamanho de arquivo FTP para arquivos de dados de entrada
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 translation-type: tm+mt
-source-git-commit: 881ccf512e9776948e4507e321e972dd2079e21a
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '899'
+ht-degree: 3%
 
 ---
 
 
 # Requisitos de nome e tamanho de arquivo FTP para arquivos de dados de entrada{#ftp-name-and-file-size-requirements-for-inbound-data-files}
 
-Descreve os campos obrigatórios, a sintaxe, as convenções de nomenclatura e os tamanhos de arquivo que você precisa seguir ao enviar dados para o Audience Manager. Defina os nomes e tamanhos dos arquivos de acordo com essas especificações ao enviar dados para um [!DNL FTP] diretório do Audience Manager.
+Descreve os campos obrigatórios, a sintaxe, as convenções de nomenclatura e os tamanhos de arquivo que você precisa seguir ao enviar dados para o Audience Manager. Defina os nomes e tamanhos dos arquivos de acordo com essas especificações ao enviar dados para um diretório Audience Manager [!DNL FTP] .
 
 >[!WARNING]
 >
->Estamos gradualmente removendo o suporte para configurações FTP. Embora a ingestão de arquivos de dados de entrada ainda seja suportada em integrações FTP existentes, recomendamos usar o Amazon S3 para dados offline integrados para novas integrações. Consulte Requisitos de nome e tamanho de arquivo do [Amazon S3 para arquivos](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) de dados de entrada para obter detalhes.
+>Estamos gradualmente a eliminar o apoio às [!DNL FTP] configurações. Embora a ingestão de arquivos de dados de entrada ainda seja suportada em [!DNL FTP] integrações existentes, recomendamos usar dados offline integrados [!DNL Amazon S3] para novas integrações. Consulte Requisitos de nome e tamanho de arquivo do [Amazon S3 para arquivos](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) de dados de entrada para obter detalhes.
 
 >[!NOTE]
 >
@@ -31,7 +34,7 @@ Descreve os campos obrigatórios, a sintaxe, as convenções de nomenclatura e o
 
 Para outros formatos de nome de arquivo aceitos, consulte Integrações [](/help/using/integration/sending-audience-data/custom-partner-integrations.md)personalizadas de parceiros.
 
->[!NOTE] {important="high"}
+>[!NOTE] {important=&quot;high&quot;}
 >
 >[!DNL Audience Manager] só processa [!DNL ASCII] e [!DNL UTF-8] codifica arquivos.
 
@@ -49,20 +52,20 @@ A tabela define os elementos em um nome de [!DNL FTP] arquivo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> ftp_dpm_</code> </p> </td> 
-   <td colname="col2"> <p>O caminho e o nome do diretório FTP do Audience Manager <span class="keyword"></span> . Entre em contato com seu Gerente de contas para obter o diretório FTP e as credenciais. </p> </td> 
+   <td colname="col2"> <p>O caminho e o nome do diretório FTP do <span class="keyword"> Audience Manager</span> . Entre em contato com seu Gerente de contas para obter o diretório FTP e as credenciais. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
-   <td colname="col2"> <p>Uma ID que informa ao <span class="keyword"> Audience Manager</span> se um arquivo de dados contém suas próprias IDs de usuário ou IDs do Android ou iOS. Aceita as seguintes opções: </p> 
+   <td colname="col2"> <p>Um lD que informa <span class="keyword"> Audience Manager</span> se um arquivo de dados contém suas próprias IDs de usuário ou IDs do Android ou iOS. Aceita as seguintes opções: </p> 
     <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
-     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b></b> ID do parceiro de dados: Esta é uma ID exclusiva que o Audience Manager atribui à sua empresa ou organização. Use essa ID atribuída em um nome de arquivo ao enviar dados que contenham suas próprias IDs de usuário. Por exemplo, <code>...ftp_dpm_21_123456789.sync</code> informa ao <span class="keyword"> Audience Manager</span> que um parceiro com ID 21 enviou o arquivo e ele contém IDs de usuário atribuídas por esse parceiro. </li> 
-     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b></b> IDs do Android (GAID): Use a ID 20914 em um nome de arquivo de dados se ela contiver a ID do Android. Por exemplo, <code>...ftp_dpm_20914_123456789.sync</code> informa ao <span class="keyword"> Audience Manager</span> que o arquivo de dados contém somente IDs Android. </li> 
-     <li id="li_54E7734C121646AF82095806DD1AED61"> <b></b> IDs do iOS (IDFA): Use a ID 20915 em um nome de arquivo de dados se ela contiver IDs do iOS. Por exemplo, <code>...ftp_dpm_20915_123456789.sync</code> informa ao <span class="keyword"> Audience Manager</span> que o arquivo de dados contém somente IDs do iOS. </li> 
+     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>ID do parceiro de dados:</b> Esta é uma Audience Manager de ID exclusiva atribuída à sua empresa ou organização. Use essa ID atribuída em um nome de arquivo ao enviar dados que contenham suas próprias IDs de usuário. Por exemplo, <code>...ftp_dpm_21_123456789.sync</code> informa à <span class="keyword"> Audience Manager</span> que um parceiro com ID 21 enviou o arquivo e ele contém IDs de usuário atribuídas por esse parceiro. </li> 
+     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>IDs do Android (GAID):</b> Use a ID 20914 em um nome de arquivo de dados se ela contiver a ID do Android. Por exemplo, <code>...ftp_dpm_20914_123456789.sync</code> informa ao <span class="keyword"> Audience Manager</span> que o arquivo de dados contém somente IDs do Android. </li> 
+     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>IDs do iOS (IDFA):</b> Use a ID 20915 em um nome de arquivo de dados se ela contiver IDs do iOS. Por exemplo, <code>...ftp_dpm_20915_123456789.sync</code> informa ao <span class="keyword"> Audience Manager</span> que o arquivo de dados contém somente IDs do iOS. </li> 
     </ul> <p> <p>Observação:  Não misture tipos de ID em seus arquivos de dados. Por exemplo, se o nome do arquivo incluir o identificador do Android, não coloque IDs do iOS ou suas próprias IDs no arquivo de dados. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
-   <td colname="col2"> <p>Um espaço reservado para uma ID. Por exemplo, você pode defini-la como sua ID do <span class="keyword"> Audience Manager</span> se definir o DPID como uma ID de fonte de dados ou uma ID do Android ou iOS. Isso permite que o <span class="keyword"> Audience Manager</span> vincule os dados do arquivo de volta à sua organização. </p> <p>Por exemplo: </p> 
+   <td colname="col2"> <p>Um espaço reservado para uma ID. Por exemplo, você pode defini-lo como sua ID de <span class="keyword"> Audience Manager</span> se definir o DPID como uma ID de fonte de dados ou uma ID do Android ou iOS. Isso permite que o Audience Manager <span class="keyword"></span> vincule os dados do arquivo de volta à sua organização. </p> <p>Por exemplo: </p> 
     <ul id="ul_55EBBCB11F2B4A858AEFBFA1CD99E286"> 
      <li id="li_3404428F4E3D49A5AB6EDF56310D923F"> <code>...ftp_dpm_33_21_1234567890.sync</code> mostra que um parceiro com a ID 21 enviou dados de uma fonte de dados que usa a ID 33. </li> 
      <li id="li_CF8D5AF678764E9984A088FD5D7BBFB6"> <code>...ftp_dpm_20914_21_1234567890.sync</code> mostra que um parceiro com a ID 21 enviou dados que contêm IDs do Android. </li> 
@@ -73,8 +76,8 @@ A tabela define os elementos em um nome de [!DNL FTP] arquivo.
    <td colname="col1"> <p> <code> (.sync |.overwrite)</code> </p> </td> 
    <td colname="col2"> <p>Opções de sincronização que incluem: </p> <p> 
      <ul id="ul_DAAF61EC636C4456BECDDC34C3F86E83"> 
-      <li id="li_6EC6DE442B4546AA9F4F800D65C8A4EC"> <code> sync</code>: Cenário normal quando provedores de dados de terceiros enviam características por usuário para serem adicionadas ou removidas no sistema do Audience Manager. </li> 
-      <li id="li_8FE8430C2C004F87835D55231A0D99C9"> <code> overwrite</code>: Permite que os clientes e provedores de dados enviem uma lista de características por usuário que devem substituir todas as características existentes desse usuário para uma determinada fonte de dados no Audience Manager. Não é necessário incluir todos os usuários em um arquivo de substituição. Inclua somente os usuários que você deseja alterar. As características que não estão atribuídas à fonte de dados de destino não serão apagadas. </li> 
+      <li id="li_6EC6DE442B4546AA9F4F800D65C8A4EC"> <code> sync</code>: Cenário normal quando provedores de dados de terceiros enviam características por usuário para serem adicionadas ou removidas no sistema Audience Manager. </li> 
+      <li id="li_8FE8430C2C004F87835D55231A0D99C9"> <code> overwrite</code>: Permite que os clientes e provedores de dados enviem uma lista de características por usuário que devem substituir todas as características existentes desse usuário para uma determinada fonte de dados no Audience Manager. Não é necessário incluir todos os usuários em um arquivo de substituição. Inclua somente os usuários que você deseja alterar. As características que não estão atribuídas à fonte de dados do público alvo não serão apagadas. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -89,7 +92,7 @@ A tabela define os elementos em um nome de [!DNL FTP] arquivo.
    <td colname="col1"> <p> <code> <i>TIMESTAMP</i> </code> </p> </td> 
    <td colname="col2"> <p>Um carimbo de data e hora UNIX UTC de 10 dígitos em segundos. O carimbo de data e hora ajuda a tornar cada nome de arquivo único. </p> 
     <draft-comment> 
-     <p> <p>Observação:  O Audience Manager não usa o carimbo de data e hora durante o processamento de arquivos de entrada. O carimbo de data e hora no nome do arquivo foi substituído no Audience Manager, mas ainda é necessário para compatibilidade com versões anteriores. </p> </p> 
+     <p> <p>Observação:  Audience Manager não usa o carimbo de data e hora durante o processamento de arquivos de entrada. O carimbo de data e hora no nome do arquivo foi substituído no Audience Manager, mas ainda é necessário para compatibilidade com versões anteriores. </p> </p> 
     </draft-comment> </td> 
   </tr> 
   <tr> 
@@ -126,7 +129,7 @@ Considere as figuras abaixo para o processamento mais rápido/rápido de seus ar
  <tbody> 
   <tr> 
    <td colname="col1"><b>Compactado</b> </td> 
-   <td colname="col2"> <p> 200 a 300 MB </p> </td> 
+   <td colname="col2"> <p>200 a 300 MB </p> </td> 
    <td colname="col3"> <p>3 GB </p> </td> 
   </tr> 
   <tr> 
