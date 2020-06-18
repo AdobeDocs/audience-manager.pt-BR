@@ -1,19 +1,22 @@
 ---
-description: As opções de regra de mesclagem permitem controlar o tipo de uso do Gerenciador de Audiência de dados para segmentação. Uma regra de mesclagem pode incluir perfis de dispositivo mapeados pelo gráfico de dispositivo do Link de Perfil, o Adobe Experience Cloud Device Co-op e/ou outros provedores de gráficos de dispositivo de terceiros que estão integrados ao Audiência Manager. É possível criar um máximo de quatro Regras de mesclagem de Perfis.
-seo-description: As opções de regra de mesclagem permitem controlar o tipo de uso do Gerenciador de Audiência de dados para segmentação. Uma regra de mesclagem pode incluir perfis de dispositivo mapeados pelo gráfico de dispositivo do Link de Perfil, o Adobe Experience Cloud Device Co-op e/ou outros provedores de gráficos de dispositivo de terceiros que estão integrados ao Audiência Manager. É possível criar um máximo de quatro Regras de mesclagem de Perfis.
+description: As opções de regra de mesclagem permitem controlar o tipo de uso do Audience Manager de dados para segmentação. Uma regra de mesclagem pode incluir perfis de dispositivo mapeados pelo gráfico de dispositivo do Link de Perfil, o Adobe Experience Cloud Device Co-op e/ou outros provedores de gráficos de dispositivo de terceiros que estão integrados ao Audience Manager. É possível criar um máximo de quatro Regras de mesclagem de Perfis.
+seo-description: As opções de regra de mesclagem permitem controlar o tipo de uso do Audience Manager de dados para segmentação. Uma regra de mesclagem pode incluir perfis de dispositivo mapeados pelo gráfico de dispositivo do Link de Perfil, o Adobe Experience Cloud Device Co-op e/ou outros provedores de gráficos de dispositivo de terceiros que estão integrados ao Audience Manager. É possível criar um máximo de quatro Regras de mesclagem de Perfis.
 seo-title: Definição das opções de regra de mesclagem de Perfis
 solution: Audience Manager
 title: Definição das opções de regra de mesclagem de Perfis
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
-source-git-commit: e8729366a62ec82aa906fe043cf594bff837c737
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '1084'
+ht-degree: 4%
 
 ---
 
 
 # Profile Merge Rules Options Defined {#profile-merge-rule-options-defined}
 
-As opções de regra de mesclagem permitem controlar o tipo de uso do Gerenciador de Audiência de dados para segmentação. Uma regra de mesclagem pode incluir perfis de dispositivo mapeados pelo gráfico de [!UICONTROL Profile Link] dispositivo, os provedores de gráficos de dispositivo de terceiros [!UICONTROL Adobe Experience Cloud Device Co-op]e/ou outros que estejam integrados ao Audiência Manager. Você pode criar um máximo de 4 [!UICONTROL Profile Merge Rules]. O quarto [!UICONTROL Profile Merge Rule] está disponível exclusivamente para clientes que compraram o complemento [!UICONTROL People-Based Destinations] .
+The merge rule options let you control the type of data [!DNL Audience Manager] uses for segmentation. Uma regra de mesclagem pode incluir perfis de dispositivo mapeados pelo gráfico de [!UICONTROL Profile Link] dispositivo, os provedores de gráficos de dispositivo de terceiros [!UICONTROL Adobe Experience Cloud Device Co-op]e/ou outros com os quais eles estão integrados [!DNL Audience Manager]. Você pode criar um máximo de 4 [!UICONTROL Profile Merge Rules]. O quarto [!UICONTROL Profile Merge Rule] está disponível exclusivamente para clientes que compraram o complemento [!UICONTROL People-Based Destinations] .
 
 Crie um formulário [!UICONTROL Profile Merge Rule] fazendo uma seleção das opções descritas abaixo, em [!UICONTROL Profile Merge Rule Setup].
 
@@ -21,21 +24,21 @@ Crie um formulário [!UICONTROL Profile Merge Rule] fazendo uma seleção das op
 
 ## Profile Merge Rule Options Overview {#overview}
 
-As Regras de mesclagem de Perfis permitem várias combinações de regras, cada uma direcionada para casos de uso específicos. Consulte a tabela abaixo para obter detalhes sobre quando usar cada combinação de regras.
+[!UICONTROL Profile Merge Rules] permitir várias combinações de regras, cada uma delas orientada para casos de uso específicos. Consulte a tabela abaixo para obter detalhes sobre quando usar cada combinação de regras.
 
-| Opção entre dispositivos | Opção de dispositivo | Disponibilidade | Tipo de avaliação | Suporte ao laboratório de Audiência | Casos de uso |
+| [!UICONTROL Cross-Device Option] | [!UICONTROL Device Option] | Disponibilidade | Tipo de avaliação | [!UICONTROL Audience Lab] Suporte | Casos de uso |
 | ------------------------------ | --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ----| -------------------- |
-| Nenhum Perfil entre dispositivos | Perfil do dispositivo | Todos os clientes | Tempo real e lote | Sim | [Direcionamento de dispositivo](merge-rule-targeting-options.md#device-personalization) |
-| Nenhum Perfil entre dispositivos | Gráfico de dispositivos externos (inclui o Gráfico de dispositivos cooperativos) | Todos os clientes | Tempo real e lote | Não | [Definição de meta de dispositivo expandida](external-graph-use-cases.md#audience-expansion) |
-| Perfis Autenticados Atuais | Nenhum Perfil de dispositivo | Todos os clientes | Somente em tempo real | Não | [Direcionamento de dispositivo compartilhado](merge-rule-targeting-options.md#target-shared-devices) |
-| Últimos Perfis autenticados | Perfil do dispositivo | Todos os clientes | Tempo real e lote | Sim | [Direcionamento online/offline](merge-rule-targeting-options.md#device-household-targeting) |
-| Últimos Perfis autenticados | Gráfico de dispositivos de link de Perfil | Todos os clientes | Tempo real e lote | Sim | [Definição de metas entre dispositivos](profile-link-use-case.md#cross-device-personalization) |
-| Últimos Perfis autenticados | Gráfico de dispositivos externos (inclui o Gráfico de dispositivos cooperativos) | Todos os clientes | Tempo real e lote | Não | [Direcionamento avançado entre dispositivos](external-graph-use-cases.md#advanced-graph-expansion) |
-| Todos os Perfis entre dispositivos | N/A | Exclusivo para clientes de Destinos [Baseados em](../destinations/people-based-destinations-overview.md) Pessoas | Somente em lote | Não | [Definição de metas para destinos baseados em pessoas](merge-rule-targeting-options.md#all-cross-device) |
+| [!UICONTROL No Cross-Device Profile] | [!UICONTROL Device Profile] | Todos os clientes | Tempo real e lote | Sim | [Direcionamento de dispositivo](merge-rule-targeting-options.md#device-personalization) |
+| [!UICONTROL No Cross-Device Profile] | [!UICONTROL External Device Graph] (inclui [!UICONTROL Co-op Device Graph]) | Todos os clientes | Tempo real e lote | Não | [Definição de meta de dispositivo expandida](external-graph-use-cases.md#audience-expansion) |
+| [!UICONTROL Current Authenticated Profiles] | [!UICONTROL No Device Profile] | Todos os clientes | Somente em tempo real | Não | [Direcionamento de dispositivo compartilhado](merge-rule-targeting-options.md#target-shared-devices) |
+| [!UICONTROL Last Authenticated Profiles] | [!UICONTROL Device Profile] | Todos os clientes | Tempo real e lote | Sim | [Direcionamento online/offline](merge-rule-targeting-options.md#device-household-targeting) |
+| [!UICONTROL Last Authenticated Profiles] | [!UICONTROL Profile Link Device Graph] | Todos os clientes | Tempo real e lote | Sim | [Definição de metas entre dispositivos](profile-link-use-case.md#cross-device-personalization) |
+| [!UICONTROL Last Authenticated Profiles] | [!UICONTROL External Device Graph] (inclui [!UICONTROL Co-op Device Graph]) | Todos os clientes | Tempo real e lote | Não | [Direcionamento avançado entre dispositivos](external-graph-use-cases.md#advanced-graph-expansion) |
+| [!UICONTROL All Cross-Device Profiles] | N/A | Exclusivo para clientes de Destinos [Baseados em](../destinations/people-based-destinations-overview.md) Pessoas | Somente em lote | Não | [Definição de metas para destinos baseados em pessoas](merge-rule-targeting-options.md#all-cross-device) |
 
 ## Avaliação do segmento da regra de mesclagem de Perfis {#segment-evaluation}
 
-Dependendo da sua [!UICONTROL Profile Merge Rules] configuração, o Audiência Manager pode executar a avaliação de segmentos em tempo real, em lote ou em ambos.
+Dependendo da sua [!UICONTROL Profile Merge Rules] configuração, [!DNL Audience Manager] é possível executar a avaliação de segmentos em tempo real, em lote ou em ambos.
 
 * A avaliação de segmentos em tempo real exige que os visitantes acessem suas propriedades digitais em tempo real para se qualificarem para o segmento. [!DNL DCS]
 * A avaliação do segmento de lote é realizada em relação a características qualificadas anteriormente.
@@ -49,7 +52,7 @@ A avaliação do segmento de lote pode levar até 24 horas para ser refletida no
 
 ## Opções entre dispositivos {#auth-options}
 
-O [!UICONTROL Cross-Device Options] permite selecionar usuários autenticados e não autenticados e aproveitar seu perfil entre dispositivos para segmentação. Essas opções ajudam a identificar e acessar usuários específicos em um dispositivo compartilhado. Para obter mais informações sobre usuários anônimos e autenticados, consulte Estados de autenticação de [Visitantes no Audiência Manager](../../reference/visitor-authentication-states.md).
+O [!UICONTROL Cross-Device Options] permite selecionar usuários autenticados e não autenticados e aproveitar seu perfil entre dispositivos para segmentação. Essas opções ajudam a identificar e acessar usuários específicos em um dispositivo compartilhado. Para obter mais informações sobre usuários anônimos e autenticados, consulte Estados de autenticação de [Visitante](../../reference/visitor-authentication-states.md).
 
 <table id="table_4CE2DD312F54480E96BEAF72800789FB"> 
  <thead> 
@@ -61,19 +64,19 @@ O [!UICONTROL Cross-Device Options] permite selecionar usuários autenticados e 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Nenhum Perfil entre dispositivos</span></b> </p> </td> 
-   <td colname="col2"> <p>Informa o <span class="keyword"> Gerenciador</span> de Audiências a não usar os dados coletados de usuários autenticados. </p> </td> 
+   <td colname="col2"> <p>Informa ao <span class="keyword"> Audience Manager</span> para não usar os dados coletados de usuários autenticados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Perfis Autenticados Atuais</span></b> </p> </td> 
-   <td colname="col2"> <p>Informa o gerente <span class="keyword"> de</span> Audiência a ler e gravar dados no perfil autenticado se um visitante tiver feito logon no site. </p> </td> 
+   <td colname="col2"> <p>Informa o <span class="keyword"> Audience Manager</span> a ler e gravar dados no perfil autenticado se um visitante tiver feito logon no site. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Últimos Perfis autenticados</span></b> </p> </td> 
-   <td colname="col2"> <p>Informa o <span class="keyword"> Gerenciador</span> de Audiências a ler dados do perfil autenticado do usuário que fez logon pela última vez no dispositivo. </p> <p>Quando selecionado, o Gerenciador <span class="keyword"></span> de Audiências não gravará novos dados de características no perfil autenticado se o usuário for anônimo. Após a autenticação, os novos dados de características são gravados no perfil autenticado do usuário. </p> </td>
+   <td colname="col2"> <p>Informa ao <span class="keyword"> Audience Manager</span> para ler os dados do perfil autenticado do usuário que fez logon pela última vez no dispositivo. </p> <p>Quando selecionado, o <span class="keyword"> Audience Manager</span> não gravará novos dados de características no perfil autenticado se o usuário for anônimo. Após a autenticação, os novos dados de características são gravados no perfil autenticado do usuário. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Todos os Perfis entre dispositivos</span></b> </p> </td> 
-   <td colname="col2"> <p>Informa o Gerenciador de Audiências a ler dados de todos os perfis entre dispositivos, independentemente do estado de autenticação. Esta opção só está disponível para clientes do Gerenciador de Audiências que compraram o complemento Destinos baseados em pessoas.</p> </td>
+   <td colname="col2"> <p>Informa a Audience Manager para ler dados de todos os perfis entre dispositivos, independentemente do estado de autenticação. Esta opção só está disponível para clientes do Audience Manager que compraram o complemento de Destinos baseados em pessoas.</p> </td>
   </tr>
  </tbody>
 </table>
@@ -96,19 +99,19 @@ O [!UICONTROL Device Options] permite selecionar o tipo de *`device profile`* us
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Nenhum Perfil de dispositivo</span></b> </p> </td> 
-   <td colname="col2"> <p>Informa o <span class="keyword"> Gerenciador</span> de Audiência a não usar as características contidas no perfil anônimo para segmentação. </p> </td> 
+   <td colname="col2"> <p>Informa ao <span class="keyword"> Audience Manager</span> para não usar as características contidas no perfil anônimo para segmentação. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Perfil do dispositivo</span></b> </p> </td> 
-   <td colname="col2"> <p>Informa o <span class="keyword"> Gerenciador</span> de Audiências a usar o perfil de dispositivo anônimo para segmentação. </p> </td> 
+   <td colname="col2"> <p>Informa ao <span class="keyword"> Audience Manager</span> para usar o perfil de dispositivo anônimo para segmentação. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Gráfico de dispositivos de link de Perfil</span></b> </p> </td> 
-   <td colname="col2"> <p>Informa o Gerenciador <span class="keyword"> de</span> Audiências a ler os perfis do dispositivo atual e até 100 outros dispositivos dos quais o usuário foi autenticado. Este gráfico de dispositivos é criado com base em seus próprios dados primários no <span class="keyword"> Audiência Manager</span>. É ideal para clientes que têm um alto nível de autenticação em suas propriedades digitais. O gráfico do dispositivo Link <span class="wintitle"> do</span> Perfil é atualizado em tempo real. Essa opção está disponível quando você seleciona <b><span class="uicontrol"> Perfil</span></b> Autenticado atual ou <b><span class="uicontrol"> Último Perfil</span></b>autenticado. Ao usar essa opção, você só pode escolher um único perfil autenticado (<span class="keyword"> o Gerenciador</span> de Audiências fica automaticamente cinza os outros). Consulte também, Casos <a href="profile-link-use-case.md"> de uso do gráfico de dispositivo de link de</a>Perfil. </p> </td>
+   <td colname="col2"> <p>Informa a <span class="keyword"> Audience Manager</span> para ler os perfis do dispositivo atual e até 100 outros dispositivos dos quais o usuário foi autenticado. Este gráfico de dispositivos foi criado com base em seus próprios dados primários no <span class="keyword"> Audience Manager</span>. É ideal para clientes que têm um alto nível de autenticação em suas propriedades digitais. O gráfico do dispositivo Link <span class="wintitle"> do</span> Perfil é atualizado em tempo real. Essa opção está disponível quando você seleciona <b><span class="uicontrol"> Perfil</span></b> Autenticado atual ou <b><span class="uicontrol"> Último Perfil</span></b>autenticado. Ao usar essa opção, você só pode escolher um único perfil autenticado (o<span class="keyword"> Audience Manager</span> fica automaticamente cinza os outros). Consulte também, Casos <a href="profile-link-use-case.md"> de uso do gráfico de dispositivo de link de</a>Perfil. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Gráfico de dispositivos cooperativos</span></b> </p> </td> 
-   <td colname="col2"> <p>Informa o <span class="keyword"> Gerenciador</span> de Audiências a ler os perfis do dispositivo atual e até 100 outros dispositivos usando os links fornecidos pelo <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> Experience Cloud Device Co-op</a>. </p> <p>O <span class="keyword"> Device Co-op</span> é uma cooperativa digital em que os participantes compartilham informações de links de dispositivos. O <span class="keyword"> Device Co-op</span> processa esses dados em um gráfico <span class="term"> de</span>dispositivos. Um gráfico de dispositivo vincula dispositivos em conjunto a partir de clusters de dispositivos. Esses links são criados a partir de dados <a href="https://docs.adobe.com/content/help/en/device-co-op/using/device-graph/links.html" format="https" scope="external"></a>probabilísticos e determinísticos. Os clusters representam um grupo de dispositivos usados por uma pessoa desconhecida. O <span class="keyword">Device Co-op</span> compartilha esses grupos entre os seus membros, o que os ajuda a entregar experiências valiosas e consistentes entre dispositivos para os seus clientes. </p> <p> Para obter mais informações sobre o <span class="wintitle"> Device Co-op</span>, consulte: </p> <p> 
+   <td colname="col2"> <p>Informa o <span class="keyword"> Audience Manager</span> a ler os perfis do dispositivo atual e até 100 outros dispositivos usando os links fornecidos pelo <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> Experience Cloud Device Co-op</a>. </p> <p>O <span class="keyword"> Device Co-op</span> é uma cooperativa digital em que os participantes compartilham informações de links de dispositivos. O <span class="keyword"> Device Co-op</span> processa esses dados em um gráfico <span class="term"> de</span>dispositivos. Um gráfico de dispositivo vincula dispositivos em conjunto a partir de clusters de dispositivos. Esses links são criados a partir de dados <a href="https://docs.adobe.com/content/help/en/device-co-op/using/device-graph/links.html" format="https" scope="external"></a>probabilísticos e determinísticos. Os clusters representam um grupo de dispositivos usados por uma pessoa desconhecida. O <span class="keyword">Device Co-op</span> compartilha esses grupos entre os seus membros, o que os ajuda a entregar experiências valiosas e consistentes entre dispositivos para os seus clientes. </p> <p> Para obter mais informações sobre o <span class="wintitle"> Device Co-op</span>, consulte: </p> <p> 
      <ul id="ul_8EDA7D092ECD444C8C19CDC7534D84DE"> 
       <li id="li_323BC5993D6A4BA3962169BF0ED37C55"> <a href="https://docs.adobe.com/content/help/en/device-co-op/using/home.html" format="https" scope="external"> Visão geral do Device Co-op</a> </li> 
       <li id="li_0BDB2144EC584002B3B9F1D64B6CD580"> <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/requirements.html" format="https" scope="external"> Requisitos de adesão</a> </li> 
@@ -121,14 +124,14 @@ O [!UICONTROL Device Options] permite selecionar o tipo de *`device profile`* us
      <ul id="ul_5BA0D940BA15484FADF134A5A73815D5"> 
       <li id="li_389ACEBBF79A47499B6119B0F9CB3B5D"> Dados probabilísticos e/ou determinísticos. </li> 
       <li id="li_E8606D3871A145A68E87BDC3554AC4EF">Dados ao nível da pessoa ou do agregado familiar. </li> 
-     </ul> </p> <p>Para usar essas opções, você deve ser um cliente de um gráfico de dispositivo que já esteja integrado ao Gerenciador <span class="keyword"> de</span>Audiências. Entre em contato com seu gerente de conta para obter mais informações ou para começar. </p> </td>
+     </ul> </p> <p>Para usar essas opções, você deve ser um cliente de um gráfico de dispositivo que já esteja integrado ao <span class="keyword"> Audience Manager</span>. Entre em contato com seu gerente de conta para obter mais informações ou para começar. </p> </td>
   </tr>
  </tbody>
 </table>
 
 ## Políticas de mesclagem externas {#external-merge-policies}
 
-Os segmentos de Audiência que foram criados automaticamente a partir de outras soluções da Experience Cloud, com base nas regras de mesclagem definidas fora do Audiência Manager, são marcados como usando um [!UICONTROL External Merge Policy]. Por exemplo, consulte Compartilhamento de [Audiências entre o Audiência Manager e a Adobe Experience Platform](../../integration/integration-aep/aam-aep-audience-sharing.md).
+Os segmentos de Audiência que foram criados automaticamente a partir de outras soluções de Experience Cloud, com base nas regras de mesclagem definidas fora do [!DNL Audience Manager], são marcados como usando um [!UICONTROL External Merge Policy]. Por exemplo, consulte Compartilhamento de [Audiência entre Audience Manager e Adobe Experience Platform](../../integration/integration-aep/aam-aep-audience-sharing.md).
 
 >[!MORELIKETHIS]
 >
