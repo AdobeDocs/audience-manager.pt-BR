@@ -7,7 +7,10 @@ solution: Audience Manager
 title: Feeds de dados do cliente
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '1890'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +23,7 @@ Informações básicas sobre [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) 
 
 <!-- cdf-intro.xml -->
 
-Um [!UICONTROL CDF] arquivo contém os mesmos dados que uma chamada de [!DNL Audience Manager] evento ( `/event`) envia para nossos servidores. Isso inclui dados como IDs de usuário, IDs de característica, IDs de segmento e todos os outros parâmetros capturados por uma chamada de evento. Os [!DNL Audience Manager] sistemas internos processam os dados do evento em um [!UICONTROL CDF] arquivo com conteúdo organizado em campos que aparecem em uma ordem definida. [!DNL Audience Manager] tenta gerar [!UICONTROL CDF] arquivos por hora e armazena-os em um bucket seguro e específico do cliente em um [!DNL Amazon S3] servidor. Fornecemos esses arquivos para que você possa trabalhar com [!DNL Audience Manager] dados fora dos limites impostos pela interface do usuário.
+Um [!UICONTROL CDF] arquivo contém os mesmos dados que uma chamada de [!DNL Audience Manager] evento (`/event`) envia para nossos servidores. Isso inclui dados como IDs de usuário, IDs de característica, IDs de segmento e todos os outros parâmetros capturados por uma chamada de evento. Os [!DNL Audience Manager] sistemas internos processam os dados do evento em um [!UICONTROL CDF] arquivo com conteúdo organizado em campos que aparecem em uma ordem definida. [!DNL Audience Manager] tenta gerar [!UICONTROL CDF] arquivos por hora e armazena-os em um bucket seguro e específico do cliente em um [!DNL Amazon S3] servidor. Fornecemos esses arquivos para que você possa trabalhar com [!DNL Audience Manager] dados fora dos limites impostos pela interface do usuário.
 
 >[!NOTE]
 >
@@ -105,7 +108,7 @@ Um [!UICONTROL CDF] arquivo inclui alguns ou todos os campos definidos abaixo. P
   <tr> 
    <td colname="col1"> <p><code> MCDevice </code> </p> </td> 
    <td colname="col2"> <p>String   </p> </td> 
-   <td colname="col3"> <p>A <span class="keyword"> Experience Cloud</span> ID (MID) atribuída ao visitante do site. Consulte também Cookies e o Serviço <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"></a>de identificação da plataforma Adobe Experience. </p> </td> 
+   <td colname="col3"> <p>A ID do <span class="keyword"> Experience Cloud</span> (MID) atribuída ao visitante do site. Consulte também Cookies e o serviço <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"></a>de identidade do Experience Platform da Adobe. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> All Segments</code> </p> </td> 
@@ -149,7 +152,7 @@ Lista e define a estrutura de dados de um [!UICONTROL CDF] arquivo. Isso inclui 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Sequência de campo </p> </td> 
-   <td colname="col2"> <p> <p>Importante: <span class="keyword"> O Gerenciador</span> de Audiências reserva o direito de adicionar novos campos ao final do arquivo CDF em versões futuras. Isso significa que o design técnico do seu sistema de análise de arquivos não deve assumir um número fixo de colunas (embora possa assumir uma ordem fixa para colunas existentes). </p> </p> <p>Os dados no arquivo CDF são exibidos na ordem mostrada abaixo. </p> <p> 
+   <td colname="col2"> <p> <p>Importante: <span class="keyword"> O Audience Manager</span> reserva-se o direito de adicionar novos campos ao final do arquivo CDF em versões futuras. Isso significa que o design técnico do seu sistema de análise de arquivos não deve assumir um número fixo de colunas (embora possa assumir uma ordem fixa para colunas existentes). </p> </p> <p>Os dados no arquivo CDF são exibidos na ordem mostrada abaixo. </p> <p> 
      <ol id="ol_1FDF4A7F089448ED8A724378C23009C8"> 
       <li id="li_CB97D90B54EB4F95861583D4A5F660C7">Hora do Evento </li> 
       <li id="li_C44E8CCB1A964B7A941FD772FB8A7608">Dispositivo </li> 
@@ -159,7 +162,7 @@ Lista e define a estrutura de dados de um [!UICONTROL CDF] arquivo. Isso inclui 
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">Parâmetros da solicitação </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Referer </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">Endereço IP </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud Device ID (ou MID). Consulte também, <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies e o Adobe Experience Platform Identity Service</a> </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">ID do dispositivo Experience Cloud (ou MID). Consulte também, <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies e Serviço de identificação do Adobe Experience Platform</a> </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">Todos os segmentos </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">Todas as características </li> 
      </ol> </p> <p>Para obter descrições de campos, consulte Conteúdo definido <a href="#cdf-defined"></a>do feed de dados do cliente. </p> </td> 
@@ -241,7 +244,7 @@ A tabela a seguir lista e define os elementos em um nome de [!UICONTROL CDF] arq
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>AAM process ID</i>_0</code> </p> </td> 
-   <td colname="col2"> <p>Uma ID de processo interna do Gerenciador <span class="keyword"></span> de Audiências. </p> </td> 
+   <td colname="col2"> <p>Uma ID de processo <span class="keyword"> Audience Manager</span> interna. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> .gz</code> </p> </td> 
@@ -373,8 +376,8 @@ A tabela a seguir fornece detalhes adicionais sobre os carimbos de data e hora d
 
 | Localização do carimbo de data e hora | Descrição |
 |--- |--- |
-| Nome do arquivo | O carimbo de data e hora no nome do arquivo CDF indica a hora em que o arquivo foi [!DNL Audience Manager] iniciado para o delivery. Esse carimbo de data e hora é definido no fuso horário UTC. Ele usa o `hour=` parâmetro, com o tempo formatado como uma hora de 2 dígitos em uma notação de 24 horas. Essa hora pode ser diferente da hora do evento registrada no conteúdo do arquivo. DETALHAMENTOAo trabalhar com arquivos CDF, às vezes você perceberá que seu bucket S3 está vazio por uma hora específica. Um compartimento vazio significa um dos seguintes:<ul><li>Não há dados para aquela hora em particular. </li><li> Nossos servidores estão sob cargas pesadas e não podem processar arquivos por uma hora específica. Quando o servidor pega, coloca os arquivos que deveriam ter entrado em um período anterior em um bucket com um valor de tempo posterior. Por exemplo, você verá isso quando um arquivo que deveria estar na hora 17 do bucket for exibido na hora 18 do bucket (com `hour=18` o nome do arquivo). Nesse caso, o servidor provavelmente começou a processar seu arquivo na hora 17, mas não pôde concluí-lo dentro desse intervalo de tempo. Em vez disso, o arquivo é encaminhado para o próximo intervalo de tempo por hora.</li></ul><br>**Importante **: Não use o carimbo de data e hora do nome do arquivo para agrupar eventos por hora. Se precisar agrupar por hora, use o`EventTime`carimbo de data e hora no conteúdo do arquivo. |
-| Conteúdo do arquivo | O carimbo de data e hora no conteúdo do arquivo CDF marca o momento em que os servidores de coleta de dados iniciaram o processamento do arquivo. Esse carimbo de data e hora é definido no fuso horário UTC. Ele usa o `EventTime` campo, com o tempo formatado como *`yyyy-mm-dd hh:mm:ss`*. Essa hora está próxima à hora real do evento na página, mas pode ser diferente do indicador de hora no nome do arquivo. <br> **Dica**: Diferentemente do `hour=` carimbo de data e hora no nome do arquivo, é possível usar `EventTime` para agrupar dados por hora. |
+| Nome do arquivo | O carimbo de data e hora no nome [!DNL CDF] do arquivo marca a hora em que [!DNL Audience Manager] começou a preparar o arquivo para o delivery. Esse carimbo de data e hora é definido no [!DNL UTC] fuso horário. Ele usa o `hour=` parâmetro, com o tempo formatado como uma hora de 2 dígitos em uma notação de 24 horas. Essa hora pode ser diferente da hora do evento registrada no conteúdo do arquivo. Ao trabalhar com [!DNL CDF] arquivos, às vezes você perceberá que seu [!DNL S3] bucket está vazio por uma hora específica. Um compartimento vazio significa um dos seguintes:<ul><li>Não há dados para aquela hora em particular. </li><li> Nossos servidores estão sob cargas pesadas e não podem processar arquivos por uma hora específica. Quando o servidor pega, coloca os arquivos que deveriam ter entrado em um período anterior em um bucket com um valor de tempo posterior. Por exemplo, você verá isso quando um arquivo que deveria estar na hora 17 do bucket for exibido na hora 18 do bucket (com `hour=18` o nome do arquivo). Nesse caso, o servidor provavelmente começou a processar seu arquivo na hora 17, mas não pôde concluí-lo dentro desse intervalo de tempo. Em vez disso, o arquivo é encaminhado para o próximo intervalo de tempo por hora.</li></ul><br>**Importante **: Não use o carimbo de data e hora do nome do arquivo para agrupar eventos por hora. Se precisar agrupar por hora, use o`EventTime`carimbo de data e hora no conteúdo do arquivo. |
+| Conteúdo do arquivo | O carimbo de data e hora no conteúdo [!DNL CDF] do arquivo marca a hora em que o arquivo foi [!DNL Data Collection Servers] iniciado. Esse carimbo de data e hora é definido no [!DNL UTC] fuso horário. Ele usa o `EventTime` campo, com o tempo formatado como *`yyyy-mm-dd hh:mm:ss`*. Essa hora está próxima à hora real do evento na página, mas pode ser diferente do indicador de hora no nome do arquivo. <br> **Dica**: Diferentemente do `hour=` carimbo de data e hora no nome do arquivo, é possível usar `EventTime` para agrupar dados por hora. |
 
 >[!MORELIKETHIS]
 >
