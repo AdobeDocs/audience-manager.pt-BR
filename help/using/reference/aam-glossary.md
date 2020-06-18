@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Glossário
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
 translation-type: tm+mt
-source-git-commit: 62147fc719a59d2b2c7b444bce853334b03816c6
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 3%
@@ -46,9 +46,9 @@ See [Customer Data Feeds](../features/cdf-files.md).
 
 **ID do CRM**
 
-A ID do CRM é a ID pela qual os clientes identificam os usuários em seu próprio sistema CRM. Em vez da ID do CRM, usamos o termo DPUUID no Gerenciador de Audiências.
+A ID do CRM é a ID pela qual os clientes identificam os usuários em seu próprio sistema CRM. Em vez da ID do CRM, usamos o termo DPUUID no Audience Manager.
 
-Consulte DPUUID no [Índice de IDs no Gerenciador](../reference/ids-in-aam.md)de Audiências.
+Consulte DPUUID no [Índice de IDs no Audience Manager](../reference/ids-in-aam.md).
 
 <br> 
 
@@ -115,7 +115,7 @@ O [!UICONTROL Data Integration Library] é uma biblioteca de API usada para [!DN
 
 **Experience Cloud ID (ECID)**
 
-Anteriormente nomeada a [!DNL Marketing Cloud] ID (MID ou MCID). A [!DNL Experience Cloud] ID é central para o serviço de ID. É um identificador exclusivo e persistente para os visitantes do site. Consulte Cookies e o Serviço [de identificação da plataforma](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html)Adobe Experience.
+Anteriormente nomeada a [!DNL Marketing Cloud] ID (MID ou MCID). A [!DNL Experience Cloud] ID é central para o serviço de ID. É um identificador exclusivo e persistente para os visitantes do site. Consulte Cookies e o Serviço [de identificação do](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html)Adobe Experience Platform.
 
 <br> 
 
@@ -166,7 +166,7 @@ Ao trabalhar com a [!DNL Audience Manager] interface do usuário ou a API, você
 
 * [!UICONTROL Traits]: um código de integração é um campo para uma ID, SKU ou outro valor usado por seus processos comerciais internos. Opcional.
 * [!UICONTROL Segments]: um código de integração é um campo para uma ID definida pelo usuário ou outras informações específicas da empresa. Opcional.
-* [!UICONTROL Data Sources]: os códigos de integração são necessários quando você deseja criar fontes de dados entre dispositivos, usar o Adobe Experience Platform Identity Service ou trabalhar com [!UICONTROL Profile Merge Rules]. Consulte [Criar uma fonte](../features/manage-datasources.md#create-data-source) de dados para obter mais informações.
+* [!UICONTROL Data Sources]: os códigos de integração são necessários quando você deseja criar fontes de dados entre dispositivos, usar o Serviço de identidade do Adobe Experience Platform ou trabalhar com [!UICONTROL Profile Merge Rules]. Consulte [Criar uma fonte](../features/manage-datasources.md#create-data-source) de dados para obter mais informações.
 
 ## K-L {#k-l}
 
@@ -178,13 +178,13 @@ Consulte Modelagem [algorítmica](../reference/aam-glossary.md#a-b).
 
 **MCID**, **MID**
 
-Consulte a [Experience Cloud ID](../reference/aam-glossary.md#e-f).
+Consulte a ID do [Experience Cloud](../reference/aam-glossary.md#e-f).
 
 ## O-P {#o-p}
 
 **PCS**
 
-[!UICONTROL Profile Cache Server]. O [!UICONTROL PCS] é um grande banco de dados, funcionando no Apache Cassandra. Ele armazena dados recebidos para usuários ativos de transferências de servidor para servidor e do [!UICONTROL DCS]. [!UICONTROL PCS] os dados consistem em IDs de dispositivo, IDs de perfil autenticadas e suas características associadas.
+[!UICONTROL Profile Cache Server]. O [!UICONTROL PCS] é um grande banco de dados, funcionando no Apache Cassandra. Ele armazena dados recebidos para usuários ativos de transferências de servidor para servidor e do [!DNL DCS]. [!UICONTROL PCS] os dados consistem em IDs de dispositivo, IDs de perfil autenticadas e suas características associadas.
 
 Consulte Componentes [da coleta de](../reference/system-components/components-data-collection.md)dados.
 
@@ -220,7 +220,7 @@ Consulte [Segmentos: Finalidade, composição e regras](../features/segments/seg
 
 **Audiência endereçável do segmento**
 
-Na [Audiência](/help/using/features/addressable-audiences.md)endereçável, essa métrica representa o número de usuários que pertenceram ao segmento durante o período de análise do relatório e que têm uma sincronização de ID ativa no site. Os segmentos podem incluir seus próprios dados primários e dados de terceiros e de terceiros, por meio de características adquiridas no [Audiência Marketplace](/help/using/features/audience-marketplace/audience-marketplace.md).
+Na [Audiência](/help/using/features/addressable-audiences.md)endereçável, essa métrica representa o número de usuários que pertenceram ao segmento durante o período de análise do relatório e que têm uma sincronização de ID ativa no site. Os segmentos podem incluir seus próprios dados primários e dados de terceiros e de terceiros, por meio de características adquiridas no [Audience Marketplace](/help/using/features/audience-marketplace/audience-marketplace.md).
 
 <br> 
 
@@ -272,7 +272,7 @@ O TTL define quantos dias um visitante qualificado permanece em uma característ
 
 The [!DNL Experience Cloud] ID Service (formerly visitor ID) provides a universal, persistent ID that identifies your visitors across all the solutions in the [!DNL Experience Cloud].
 
-Consulte a documentação do Serviço [de identidade da plataforma](https://docs.adobe.com/content/help/en/id-service/using/home.html) Adobe Experience.
+Consulte a documentação do Serviço [de identificação do](https://docs.adobe.com/content/help/en/id-service/using/home.html) Adobe Experience Platform.
 
 ## W-X-Y-Z {#w-z}
 
