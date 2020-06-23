@@ -6,75 +6,39 @@ solution: Audience Manager
 title: Sinais, características e segmentos
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 620730ab1596d4777a768de4453b73538671279d
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 1%
+source-wordcount: '374'
+ht-degree: 0%
 
 ---
 
 
-# Sinais, características e segmentos{#signals-traits-and-segments}
+# [!UICONTROL Signals], [!UICONTROL Traits]e [!UICONTROL Segments] {#signals-traits-and-segments}
 
-Descreve os componentes de um [!DNL Audience Manager] segmento, as expressões usadas para definir critérios de qualificação de audiência e como os dados são transmitidos em uma chamada de evento.
+Descreve os componentes de uma chamada [!DNL Audience Manager][!UICONTROL segment], as expressões usadas para definir critérios de qualificação de audiência e como os dados são transmitidos em uma chamada de evento.
 
-<!-- 
+## Composição e finalidade
 
-c_signal_trait_segment.xml
+[!DNL Audience Manager] os dados consistem em regras de qualificação [!UICONTROL signals], [!UICONTROL traits]e [!UICONTROL segments]relacionadas. Os elementos de dados e as regras se combinam para criar [!UICONTROL segments]. [!UICONTROL Segments] organize visitantes do site em grupos relacionados. A tabela a seguir define os três componentes principais em um [!DNL Audience Manager][!UICONTROL segment].
 
- -->
+| Elemento | Consiste em | Exemplo |
+|---|---|---|
+| [!UICONTROL Signal] | [!UICONTROL Signals] são as menores unidades de dados em [!DNL Audience Manager] e são expressas como pares [de valores](../reference/key-value-pairs-explained.md)chave.<br><br><ul><li>A chave é uma constante que define um conjunto de dados (por exemplo, gênero, cor, preço).</li><li>O valor é uma variável relacionada à constante (por exemplo, macho/fêmea, verde, 100).</li></ul>Os operadores de comparação ingressam no par de valores chave e definem a relação entre eles. | <ul><li>`product=camera`</li><li>`price>1000`</li><li>`type=digital SLR`</li></ul> |
+| [!UICONTROL Trait] | Combinações de um ou mais [!UICONTROL signals].<br><br> [!DNL Boolean] Os operadores de expressões e comparação permitem que você crie regras [!UICONTROL trait] de qualificação. <br><br>Crie requisitos de qualificação precisos com combinações de [!UICONTROL traits] e [!UICONTROL trait] grupos. | A partir do disponível [!UICONTROL signals], é possível criar uma `High End Camera Browser` regra expressa como: `product=camera AND price>1000` |
+| [!UICONTROL Segment] | Usuários que compartilham um conjunto de atributos comuns e se qualificam para os relacionados [!UICONTROL traits]. [!DNL Boolean] As expressões, juntamente com os requisitos de recenticidade/frequência, permitem que você crie regras de [!UICONTROL segment] qualificação.<br><br> Crie requisitos de qualificação precisos com combinações de [!UICONTROL trait] regras e [!UICONTROL segment] regras. | A partir do disponível [!UICONTROL traits] e [!UICONTROL signals], é possível criar uma [!UICONTROL segment] regra expressa como:`(product=camera AND type=digital SLR) OR (price>1000)` |
 
-**Composição e finalidade**
-
-[!DNL Audience Manager] os dados consistem em sinais, características, segmentos e regras de qualificação relacionadas. Os elementos de dados e as regras se combinam para criar segmentos. Os segmentos organizam visitantes do site em grupos relacionados. A tabela a seguir define os três componentes principais em um [!DNL Audience Manager] segmento.
-
-<table id="table_E8373A01C3414C42B4983A59BF0F0669"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Elemento </th> 
-   <th colname="col2" class="entry"> Consiste em </th> 
-   <th colname="col3" class="entry"> Exemplo </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"><b>Sinal</b> </td> 
-   <td colname="col2"> <p>Os sinais são as menores unidades de dados em <span class="keyword"> Audience Manager</span> e são expressos como pares <a href="../reference/key-value-pairs-explained.md"> de</a>valor chave. </p> 
-    <ul id="ul_728347E325284B9FA0B4E05DE8CF4570"> 
-     <li id="li_89574A3B4A734726AD43405AE6D85FF5">A chave é uma constante que define um conjunto de dados (por exemplo, gênero, cor, preço). </li> 
-     <li id="li_D35601B33EE24EC5857F45D9577254D4">O valor é uma variável relacionada à constante (por exemplo, macho/fêmea, verde, 100). </li> 
-    </ul> <p>Os operadores de comparação ingressam no par de valores chave e definem a relação entre eles. </p> </td> 
-   <td colname="col3"> 
-    <ul id="ul_A6D8D30A37C94437A7BF38736C6F8556"> 
-     <li id="li_74C87C34FA254783AC0DEBBC69B35AC4"><code> product=camera</code> </li> 
-     <li id="li_C1727B9136024E56B60374597A7DCA00"><code> price&gt;1000</code> </li> 
-     <li id="li_B2E7798768EE444AB978F3F27B0BC0B5"><code> type=digital SLR</code> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"><b>Características</b> </td> 
-   <td colname="col2"> <p>Combinações de um ou mais sinais. </p> <p>expressões booleanas e operadores de comparação permitem criar regras de qualificação de característica. </p> <p>Crie requisitos de qualificação precisos com combinações de características e grupos de características. </p> </td> 
-   <td colname="col3"> <p>A partir dos sinais disponíveis, você pode criar uma regra "Navegador de câmera sofisticado" expressa como: </p> <p><code> product=camera AND price&gt;1000</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"><b>Segmento</b> </td> 
-   <td colname="col2"> <p>Usuários que compartilham um conjunto de atributos comuns e se qualificam para características relacionadas. </p> <p>expressões booleanas, juntamente com requisitos de recenticidade/frequência, permitem que você crie regras de qualificação de segmentos. </p> <p>Crie requisitos de qualificação precisos com combinações de características e regras de segmentos. </p> </td> 
-   <td colname="col3"> <p>A partir das características e sinais disponíveis, é possível criar uma regra de segmento expressa como: </p> <p><code> (product=camera AND type=digital SLR) OR (price&gt;1000)</code> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-Use o diagrama abaixo para manter uma nota mental da relação entre sinais, características e segmentos.
+Use o diagrama abaixo para manter uma nota mental da relação entre [!UICONTROL signals], [!UICONTROL traits]e [!UICONTROL segments].
 
 ![](assets/signals-traits-segments.png)
 
-**Criar características e regras de segmento com ferramentas visuais e editores de código**
+**Criar[!UICONTROL Traits]e[!UICONTROL Segment]regras com ferramentas visuais e editores de código**
 
-Os clientes gerenciam características e segmentos com ferramentas visuais e editores de código na interface do [!DNL Audience Manager] usuário. As ferramentas visuais permitem criar regras usando recursos de pesquisa, opções de pop-up, menus suspensos e a funcionalidade arrastar e soltar. Os editores de código fornecem aos usuários avançados uma maneira de desenvolver de forma programática os critérios de segmentação de audiência.
+Os clientes gerenciam [!UICONTROL traits] e [!UICONTROL segments] com ferramentas visuais e editores de código na interface do [!DNL Audience Manager] usuário. As ferramentas visuais permitem criar regras usando recursos de pesquisa, opções de pop-up, menus suspensos e a funcionalidade arrastar e soltar. Os editores de código fornecem aos usuários avançados uma maneira de desenvolver de forma programática os critérios de segmentação de audiência.
 
-**Chamadas de Evento para enviar dados para o Audience Manager**
+**Chamadas de Evento para enviar dados para[!DNL Audience Manager]**
 
-Uma chamada de evento envia dados de seu site para [!DNL Audience Manager]. A chamada contém dados de sinal, característica e segmento em uma [!DNL HTTP] solicitação. O evento em si é tudo depois da parte `/event` de uma [!DNL URL] string. Como mostrado no exemplo abaixo, esse processo requer apenas uma chamada de evento única para transmitir várias variáveis para [!DNL Audience Manager].
+Uma chamada de evento envia dados de seu site para [!DNL Audience Manager]. A chamada contém [!UICONTROL signal], [!UICONTROL trait]e [!UICONTROL segment] dados em uma [!DNL HTTP] solicitação. O evento em si é tudo depois da parte `/event` de uma [!DNL URL] string. Como mostrado no exemplo abaixo, esse processo requer apenas uma chamada de evento única para transmitir várias variáveis para [!DNL Audience Manager].
 
 `https://<domain>/event?product=camera&price>100`
 
