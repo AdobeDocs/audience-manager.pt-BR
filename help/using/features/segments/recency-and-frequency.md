@@ -1,28 +1,31 @@
 ---
-description: No Construtor de segmentos, a recente e a frequência permitem segmentar os visitantes com base em ações que ocorrem ou se repetem em um intervalo diário definido.
-seo-description: No Construtor de segmentos, a recente e a frequência permitem segmentar os visitantes com base em ações que ocorrem ou se repetem em um intervalo diário definido.
+description: No Construtor de segmentos, a recenticidade e a frequência permitem segmentar visitantes com base em ações que ocorrem ou se repetem em um intervalo diário definido.
+seo-description: No Construtor de segmentos, a recenticidade e a frequência permitem segmentar visitantes com base em ações que ocorrem ou se repetem em um intervalo diário definido.
 seo-title: Idade e frequência
 solution: Audience Manager
 title: Idade e frequência
 uuid: faadd18a-bf27-4b73-995e-9809f52f5350
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 0869e016d7f80710cb194449c48675b82fdfa865
+workflow-type: tm+mt
+source-wordcount: '726'
+ht-degree: 0%
 
 ---
 
 
 # Recency and Frequency {#recency-and-frequency}
 
-Em [!UICONTROL Segment Builder], a recenticidade e a frequência permitem segmentar os visitantes com base em ações que ocorrem ou se repetem em um intervalo diário definido.
+Em [!UICONTROL Segment Builder], a recenticidade e a frequência permitem segmentar visitantes com base em ações que ocorrem ou se repetem em um intervalo diário definido.
 
-O Audience Manager define [!DNL recency] e [!DNL frequency] como:
+Audience Manager define [!DNL recency] e [!DNL frequency] como segue:
 
-* **[!UICONTROL Recency]** : Recentemente, um usuário visualizou ou se qualificou para uma (ou mais) característica.
-* **[!UICONTROL Frequency]** : A taxa na qual um usuário visualizou ou se qualificou para uma (ou mais) características.
+* **[!UICONTROL Recency]:**Recentemente, um usuário visualizou ou qualificou-se para um (ou mais)[!UICONTROL traits].
+* **[!UICONTROL Frequency]:**A taxa na qual um usuário visualizou ou se qualificou para um (ou mais)[!UICONTROL traits].
 
-[!UICONTROL Recency] e [!UICONTROL Frequency] as configurações ajudam a segmentar os visitantes com base em seu nível de interesse real (ou percebido) em um site, seção ou criação específica. Por exemplo, os usuários que se qualificam para um segmento com requisitos de alta recenticidade/frequência podem estar mais interessados em um site ou produto do que os usuários que visitam com menos frequência ou com menos frequência.
+[!UICONTROL Recency] e [!UICONTROL Frequency] as configurações ajudam a segmentar visitantes com base em seu nível de interesse real (ou percebido) em um site, seção ou criação específica. Por exemplo, os usuários que se qualificam para um segmento com requisitos de alta recenticidade/frequência podem estar mais interessados em um site ou produto do que os usuários que visitam com menos frequência ou com menos frequência.
 
-## Localização das configurações de recente e frequência {#location}
+## Localização das [!UICONTROL Recency and Frequency] configurações {#location}
 
 As configurações [!UICONTROL Segment Builder], [!UICONTROL Recency] e [!UICONTROL Frequency] estão localizadas na [!UICONTROL Basic View] seção do [!UICONTROL Traits] painel. Clique no ícone de relógio para expor esses controles.
 
@@ -32,7 +35,7 @@ As configurações [!UICONTROL Segment Builder], [!UICONTROL Recency] e [!UICONT
 
 Analise e entenda esses limites e regras quando quiser aplicar recenticidade e frequência às características em seus segmentos.
 
-### Recenticidade
+### [!UICONTROL Recency] {#recency}
 
 <table id="table_026064124C694D75B7A960457D50170B"> 
  <thead> 
@@ -57,7 +60,7 @@ Analise e entenda esses limites e regras quando quiser aplicar recenticidade e f
  </tbody> 
 </table>
 
-### Frequência
+### [!UICONTROL Frequency] {#frequency}
 
 <table id="table_EBD621D26C8B4D03933E8C0753C892A7"> 
  <thead> 
@@ -80,8 +83,8 @@ Analise e entenda esses limites e regras quando quiser aplicar recenticidade e f
    <td colname="col2"> <p>Você pode configurar os requisitos de frequência <i>sem</i> configurar os requisitos de recenticidade. Basta definir um valor de frequência e deixar o campo de recenticidade em branco. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Regras de mesclagem de perfil</b> </p> </td> 
-   <td colname="col2"> <p>Consulte <a href="../../faq/faq-profile-merge.md#trait-freq-device-rules"> Frequência de características, Gráficos de dispositivos externos e Regras</a>de mesclagem de perfis. </p> </td> 
+   <td colname="col1"> <p><b>Regras de mesclagem de Perfis</b> </p> </td> 
+   <td colname="col2"> <p>Consulte <a href="../../faq/faq-profile-merge.md#trait-freq-device-rules"> Frequência de características, Gráficos de dispositivos externos e Regras</a>de mesclagem de Perfis. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,33 +97,33 @@ Estes são dois exemplos de como a atualização funciona, dependendo de sua sel
 
 ![Menor que igual a](assets/less-than-equal-to.png)
 
-Neste exemplo, você seleciona o operador &lt;=, como mostrado na captura de tela. Isso qualifica o usuário para o segmento se ele se qualificar para qualquer uma das três características pelo menos três vezes nos últimos cinco dias. A linha do tempo abaixo mostra a qualificação do segmento no momento em que o segmento é criado, em 1º de outubro e dez dias depois.
+Neste exemplo, você seleciona o operador &lt;=, como mostrado na captura de tela. Isso qualifica seu usuário para o [!UICONTROL segment] caso ele se qualifice para qualquer uma das três [!UICONTROL traits] pelo menos três vezes nos últimos cinco dias. A linha do tempo abaixo mostra a [!UICONTROL segment] qualificação no momento em que [!UICONTROL segment] é criada, em 1º de outubro e dez dias depois.
 
 ![Últimos cinco dias](assets/last-5-days.png)
 
-### Usando um operador maior que ou igual a (=&gt;)
+### Usando um operador maior que ou igual a (=>)
 
 ![Maior que igual a](assets/greater-than-equal-to.png)
 
-Neste exemplo, você seleciona o operador =&gt;, como mostrado na captura de tela. Isso qualifica seu usuário para o segmento se ele se qualificar para qualquer uma das três características pelo menos três vezes a qualquer momento entre sua primeira qualificação na plataforma Audience Manager e o tempo limite cinco dias atrás. A linha do tempo abaixo mostra a qualificação do segmento no momento em que o segmento é criado, em 1º de outubro e dez dias depois.
+Neste exemplo, você seleciona o operador =>, como mostrado na captura de tela. Isso qualifica seu usuário para o [!UICONTROL segment] caso ele se qualifice para qualquer uma das três [!UICONTROL traits] pelo menos três vezes a qualquer momento entre sua primeira qualificação na plataforma do Audience Manager e o tempo de interrupção cinco dias atrás. A linha do tempo abaixo mostra a [!UICONTROL segment] qualificação no momento em que [!UICONTROL segment] é criada, em 1º de outubro e dez dias depois.
 
 ![Qualificação anterior](assets/earlier-qualification.png)
 
 
 ## Exemplos de limite de frequência {#frequency-capping}
 
-As expressões de limite de frequência incluem todos os usuários cujo número de realizações de características está abaixo de um valor desejado. Estes são alguns exemplos de Right e Wrong:
+As expressões de limite de frequência incluem todos os usuários cujo número de [!UICONTROL trait] realizações está abaixo de um valor desejado. Estes são alguns exemplos de Right e Wrong:
 
-* Errado - A expressão `frequency([1000T]) <= 5` inclui todos os usuários que perceberam a característica com a ID "1000" no máximo cinco vezes, mas também inclui usuários que não perceberam a característica. Portanto, o Audience Manager não valida essa expressão por motivos de desempenho, pois qualificaria muitos usuários para o segmento.
+* Errado - A expressão `frequency([1000T]) <= 5` inclui todos os usuários que perceberam o evento com a ID &quot;1000&quot; no máximo cinco vezes, mas também os usuários que não perceberam o evento [!UICONTROL trait] [!UICONTROL trait]. Portanto, o Audience Manager não valida essa expressão por motivos de desempenho, pois qualificaria muitos usuários para o [!UICONTROL segment].
 
-* Direita - Se você quiser incluir todos os usuários que tiverem realizado a característica com a ID "1000" no máximo cinco vezes, adicione outra condição à expressão, para garantir que os usuários tenham se qualificado para a característica pelo menos uma vez:  `frequency([1000T]) >= 1  AND  frequency([1000T]) <= 5`
+* Direita - Se você quiser incluir todos os usuários que perceberam o evento com a ID &quot;1000&quot; no máximo cinco vezes, adicione outra condição à expressão, para garantir que os usuários tenham se qualificado para o [!UICONTROL trait] [!UICONTROL trait] pelo menos uma vez:  `frequency([1000T]) >= 1  AND  frequency([1000T]) <= 5`
 
-* Direita - quando você precisa que os requisitos de recenticidade/frequência sejam menores que um número específico de vezes ou dias, associe essa característica a outra com um `AND` operador. Usando o exemplo no primeiro ponto, essa expressão se torna válida quando unida a outra característica, como mostrado aqui: `frequency([1000T]) <= 5 AND isSiteVisitorTrait`.
+* Direita - Quando você precisar que os requisitos de recenticidade/frequência sejam menores que um número específico de vezes ou dias, associe isso [!UICONTROL trait] `AND` a outro operador. Usando o exemplo no primeiro ponto, essa expressão se torna válida quando unida a outra, [!UICONTROL trait] como mostrado aqui: `frequency([1000T]) <= 5 AND isSiteVisitorTrait`.
 
-* Direita - Para casos de uso de limite de frequência de publicidade, é possível criar uma regra de segmento semelhante a esta: `(frequency([1000T] <= 2D) >= 5)`. Essa expressão inclui todos os usuários que perceberam a característica com a ID "1000" nos últimos 2 dias pelo menos cinco vezes. Defina o limite de frequência enviando esse segmento para o servidor de publicidade com um `NOT` conjunto definido no segmento no servidor de publicidade. Essa abordagem atinge um desempenho maior em [!DNL Audience Manager] simultâneo com o mesmo propósito para o limite de frequência.
+* Direita - Para casos de uso de limite de frequência de publicidade, é possível criar uma [!UICONTROL segment] regra semelhante a esta: `(frequency([1000T] <= 2D) >= 5)`. Essa expressão inclui todos os usuários que perceberam o evento com a ID &quot;1000&quot; nos últimos 2 dias, pelo menos cinco vezes. [!UICONTROL trait] Defina o limite de frequência enviando-o [!UICONTROL segment] para o servidor de publicidade com um `NOT` conjunto no servidor de publicidade [!UICONTROL segment] . Essa abordagem atinge um desempenho maior em [!DNL Audience Manager] simultâneo com o mesmo propósito para o limite de frequência.
 
 >[!MORELIKETHIS]
 >
 >* [Controles do Construtor de segmentos: Seção Características](../../features/segments/segment-builder.md#segment-builder-controls-traits)
->* [Sintaxe de código usada no Editor de expressão de segmento](../../features/segments/segment-code-syntax.md)
+>* [Sintaxe de código usada no Editor de Expressão de segmentos](../../features/segments/segment-code-syntax.md)
 
