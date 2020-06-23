@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Visão geral da privacidade de dados
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 2%
+source-wordcount: '485'
+ht-degree: 1%
 
 ---
 
@@ -27,13 +27,13 @@ A documentação de Privacidade de dados descreve a integração e a conformidad
 
 Em nosso apoio contínuo a este modelo, [!DNL Audience Manager] continua comprometido em fornecer as ferramentas para ajudá-lo a oferecer transparência e controle aos seus consumidores, além de fornecer anúncios personalizados sujeitos aos Princípios [autorregulatórios da OBA (](https://www.iab.com/news/self-regulatory-principles-for-online-behavioral-advertising/)Online Behavioral Advertising).
 
-## GDPR {#gdpr}
+## [!DNL GDPR] {#gdpr}
 
-O Regulamento [Geral sobre a Proteção de Dados (RGPD)](https://eugdpr.org/) introduziu vários novos direitos de privacidade de dados para os membros da União Europeia, incluindo o **direito de acesso** e o **direito de ser esquecido**. Isso significa que qualquer cidadão da UE cujos dados pessoais tenham sido coletados pela sua empresa pode solicitar acesso ou apagar seus dados a qualquer momento. O não cumprimento dessas solicitações pode resultar em multas de vários milhões de dólares para sua organização.
+O Regulamento [Geral sobre a Proteção de Dados (RGPD)](https://eugdpr.org/) introduziu vários novos direitos de privacidade de dados para os membros da União Europeia, incluindo o **direito de acesso** e o **direito de ser esquecido**. Isso significa que qualquer [!DNL EU] cidadão cujos dados pessoais foram coletados por sua empresa pode solicitar acesso ou excluir seus dados a qualquer momento. O não cumprimento dessas solicitações pode resultar em multas de vários milhões de dólares para sua organização.
 
 Para cumprir [!DNL GDPR], [!DNL Audience Manager] é compatível com o acesso aos dados e a exclusão de [solicitações](data-privacy-requests.md).
 
-## CCPA {#ccpa}
+## [!DNL CCPA] {#ccpa}
 
 A [California Consumer Privacy Act (CCPA)](https://www.caprivacy.org/about), que entrou em vigor em 1º de janeiro de 2020, fornece aos residentes da Califórnia novos direitos sobre suas informações pessoais e impõe responsabilidades de proteção de dados a determinadas entidades que realizam negócios na Califórnia.
 
