@@ -1,29 +1,32 @@
 ---
-description: Crie segmentos de teste mutuamente exclusivos em Grupos de teste de segmento para comparar e medir a eficácia de destinos diferentes. Pode separar um grupo de controlo e dividir o seu segmento em percentagens de um todo, a fim de testar a eficácia.
-seo-description: Crie segmentos de teste mutuamente exclusivos em Grupos de teste de segmento para comparar e medir a eficácia de destinos diferentes. Pode separar um grupo de controlo e dividir o seu segmento em percentagens de um todo, a fim de testar a eficácia.
-seo-title: Audience Lab
+description: Crie segmentos de teste mutuamente exclusivos em Grupos de teste de segmento para comparar e medir a eficácia de destinos diferentes. Pode separar um grupo de controle e dividir o seu segmento em percentagens de um todo, a fim de testar a eficácia.
+seo-description: Crie segmentos de teste mutuamente exclusivos em Grupos de teste de segmento para comparar e medir a eficácia de destinos diferentes. Pode separar um grupo de controle e dividir o seu segmento em percentagens de um todo, a fim de testar a eficácia.
+seo-title: Laboratório de Audiência
 solution: Audience Manager
-title: Audience Lab
-topic: API DIL
+title: Laboratório de Audiência
+topic: DIL API
 uuid: aaee820c-1e78-4fd4-bd8f-2629085d78e9
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
+workflow-type: tm+mt
+source-wordcount: '587'
+ht-degree: 2%
 
 ---
 
 
-#  Audience Lab {#audience-lab}
+# [!UICONTROL Audience Lab] {#audience-lab}
 
-Crie segmentos de teste mutuamente exclusivos [!UICONTROL Segment Test Groups] para comparar e medir a eficácia de diferentes destinos. Pode separar um grupo de controlo e dividir o seu segmento em percentagens de um todo, a fim de testar a eficácia.
+Crie segmentos de teste mutuamente exclusivos [!UICONTROL Segment Test Groups] para comparar e medir a eficácia de diferentes destinos. Pode separar um grupo de controle e dividir o seu segmento em percentagens de um todo, a fim de testar a eficácia.
 
 ## Visão geral {#audience-lab-overview}
 
-[!UICONTROL Audience Lab] usa o Link [de](../../features/profile-merge-rules/merge-rules-overview.md) perfil para acionar o teste entre dispositivos. Isso ajuda a garantir que o usuário se qualifice para o mesmo segmento de teste e receba o mesmo tratamento em todos os dispositivos. Os segmentos de teste em grupos de teste herdarão a Regra [de mesclagem de](../../features/profile-merge-rules/merge-rules-dashboard.md) perfil que o segmento base atribuiu a ela.
+[!UICONTROL Audience Lab] usa o Link [do](../../features/profile-merge-rules/merge-rules-overview.md) Perfil para acionar o teste entre dispositivos. Isso ajuda a garantir que o usuário se qualifice para o mesmo segmento de teste e receba o mesmo tratamento em todos os dispositivos. Os segmentos de teste em grupos de teste herdarão a Regra [de mesclagem de](../../features/profile-merge-rules/merge-rules-dashboard.md) Perfis atribuída pelo segmento base.
 
-A visualização [!UICONTROL Audience Lab] padrão exibe um cartão para cada um dos grupos de teste. Clique em um cartão para acessar a **[!UICONTROL Test Group]** exibição. Esta exibição inclui as seguintes informações:
+A visualização [!UICONTROL Audience Lab] padrão exibe um cartão para cada um dos grupos de teste. Clique em um cartão para acessar a **[!UICONTROL Test Group]** visualização. Esta visualização inclui as seguintes informações:
 
 * **[Testar informações do grupo](../../features/audience-lab/audience-lab-information-view.md)**
-* **[Relatório de grupo de teste](../../features/audience-lab/audience-lab-reporting-view.md)**
+* **[Relatórios do grupo de teste](../../features/audience-lab/audience-lab-reporting-view.md)**
 
 Você pode criar **até 10 grupos** de teste, cada um com **até 15 segmentos** de teste.
 
@@ -31,7 +34,7 @@ Você pode criar **até 10 grupos** de teste, cada um com **até 15 segmentos** 
 
 ## Pesquisar e filtrar grupos de teste {#search-and-filter}
 
-Depois de começar a criar vários grupos de teste com vários segmentos de teste, pode ser mais fácil usar a caixa de pesquisa para localizar um grupo de teste específico. Você pode pesquisar por um grupo de teste:
+Depois que você start a criação de vários grupos de teste com vários segmentos de teste, pode ser mais fácil usar a caixa de pesquisa para localizar um grupo de teste específico. Você pode pesquisar por um grupo de teste:
 
 * O nome do grupo de ensaio;
 * O nome de qualquer um dos segmentos de teste no grupo de teste;
@@ -41,7 +44,7 @@ Depois de começar a criar vários grupos de teste com vários segmentos de test
 
 Você também pode filtrar seus grupos de teste por status. Todos os status disponíveis estão descritos na seção [Status](../../features/audience-lab/audience-lab.md#status) abaixo.
 
-## Status {#status}
+## [!UICONTROL Status] {#status}
 
 O status de um grupo de teste pode estar ativo, programado, pausado, rascunho ou concluído. Mais informações sobre cada uma delas na tabela abaixo:
 
@@ -58,8 +61,8 @@ O status de um grupo de teste pode estar ativo, programado, pausado, rascunho ou
    <td colname="col2"> <p>Um grupo de teste <i>ativo</i> significa que os dados estão sendo enviados para destinos no momento. Pressione <b><span class="uicontrol"> Pause Test (Pausar teste) </span></b> no cartão <b><span class="uicontrol"> </span></b> Test Group (Grupo de teste) para suspender o envio de dados para destinos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Agendado </span></b> </p> </td> 
-   <td colname="col2"> <p>Um grupo de teste <i>agendado</i> ainda não está ativo, mas não pode mais ser editado. Ele ficará ativo na data de início selecionada no assistente <b>Criar grupos</b> de teste. </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> Programado </span></b> </p> </td> 
+   <td colname="col2"> <p>Um grupo de teste <i>agendado</i> ainda não está ativo, mas não pode mais ser editado. Ele ficará ativo na data de start selecionada no assistente <b>Criar grupos</b> de teste. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Pausado </span></b> </p> </td> 
@@ -71,12 +74,12 @@ O status de um grupo de teste pode estar ativo, programado, pausado, rascunho ou
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Concluído </span></b> </p> </td> 
-   <td colname="col2"> <p>Um grupo de teste <i>concluído</i> atingiu a data de término selecionada no assistente <b><span class="uicontrol"> Criar grupos de teste </span></b> e parou de enviar dados de relatório. </p> </td>
+   <td colname="col2"> <p>Um grupo de teste <i>concluído</i> atingiu a data de término selecionada no assistente <b><span class="uicontrol"> Criar grupos de teste </span></b> e parou de enviar dados do relatórios. </p> </td>
   </tr>
  </tbody>
 </table>
 
-## Ações {#actions}
+## [!UICONTROL Actions] {#actions}
 
 <table id="table_481A411E2D2F4FE891595D00E775CF60"> 
  <thead> 
@@ -100,7 +103,7 @@ O status de um grupo de teste pode estar ativo, programado, pausado, rascunho ou
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Exibir </span></b> </p> </td>
-   <td colname="col2"> <p>Disponível para grupos de teste concluídos. Permite exibir as informações de relatório que o teste gerou. </p> </td>
+   <td colname="col2"> <p>Disponível para grupos de teste concluídos. Permite que você visualização as informações do relatórios que o teste gerou. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Duplicar </span></b> </p> </td>
@@ -108,7 +111,7 @@ O status de um grupo de teste pode estar ativo, programado, pausado, rascunho ou
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Excluir </span></b> </p> </td>
-   <td colname="col2"> <p>Permite excluir um grupo de teste. Os segmentos de teste não serão mapeados dos destinos, o segmento de linha de base e as características de conversão associadas ao grupo de teste serão totalmente editáveis. Um alerta solicitará o download do arquivo CSV quando você excluir um grupo de teste para salvar o relatório, se desejar. </p> </td>
+   <td colname="col2"> <p>Permite que você exclua um grupo de teste. Os segmentos de teste não serão mapeados dos destinos, o segmento de linha de base e as características de conversão associadas ao grupo de teste serão totalmente editáveis. Um alerta solicitará o download do arquivo CSV quando você excluir um grupo de teste para salvar o relatórios, se desejar. </p> </td>
   </tr>
  </tbody>
 </table>
