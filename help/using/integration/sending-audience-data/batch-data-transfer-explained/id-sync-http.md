@@ -6,19 +6,17 @@ solution: Audience Manager
 title: Sincronização de ID para transferências de dados de entrada
 uuid: 037e74a6-acfd-4cef-b693-16b7aaa8e976
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '478'
 ht-degree: 3%
 
 ---
 
 
-# Sincronização de ID para transferências de dados de entrada{#id-synchronization-for-inbound-data-transfers}
+# Sincronização de ID para transferências de dados de entrada {#id-synchronization-for-inbound-data-transfers}
 
 Descreve a sintaxe e os parâmetros usados na `HTTP` chamada inicial para sincronizar IDs de usuário entre um fornecedor e [!DNL Audience Manager]. A sincronização de ID pode começar depois de enviar a taxonomia de dados para [!DNL Audience Manager].
-
-<!-- c_id_sync_in.xml -->
 
 A sincronização de ID é a primeira etapa do processo de transferência de dados assíncrono de entrada. Nesta etapa, [!DNL Audience Manager] e o fornecedor compara e corresponde IDs para os respectivos visitantes do site. Por exemplo, um [!DNL Audience Manager] cliente pode conhecer um usuário pela ID 123. No entanto, seu parceiro de dados pode identificar esse usuário com a ID 456. O processo de sincronização permite que um fornecedor [!DNL Audience Manager] de dados reconcilie essas diferentes IDs e identifique usuários em seus respectivos sistemas. Após a conclusão, [!DNL Audience Manager] e seu parceiro de terceiros deve ter IDs correspondentes para cada usuário único visto em nossas redes.
 
@@ -73,7 +71,7 @@ A chamada [!DNL URL] de sincronização de ID de entrada deve conter variáveis 
  </tbody> 
 </table>
 
-## Evento de ID declarado {#declared-id-event}
+## [!UICONTROL Declared ID] Evento {#declared-id-event}
 
 Para obter mais informações, consulte IDs [declaradas](../../../features/declared-ids.md).
 
