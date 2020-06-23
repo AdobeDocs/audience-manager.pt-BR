@@ -6,23 +6,23 @@ solution: Audience Manager
 title: Definição das opções de regra de mesclagem de Perfis
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1029'
 ht-degree: 4%
 
 ---
 
 
-# Profile Merge Rules Options Defined {#profile-merge-rule-options-defined}
+# [!UICONTROL Profile Merge Rules] Opções definidas {#profile-merge-rule-options-defined}
 
-The merge rule options let you control the type of data [!DNL Audience Manager] uses for segmentation. Uma regra de mesclagem pode incluir perfis de dispositivo mapeados pelo gráfico de [!UICONTROL Profile Link] dispositivo, os provedores de gráficos de dispositivo de terceiros [!UICONTROL Adobe Experience Cloud Device Co-op]e/ou outros com os quais eles estão integrados [!DNL Audience Manager]. Você pode criar um máximo de 4 [!UICONTROL Profile Merge Rules]. O quarto [!UICONTROL Profile Merge Rule] está disponível exclusivamente para clientes que compraram o complemento [!UICONTROL People-Based Destinations] .
+The [!UICONTROL profile merge rule] options let you control the type of data [!DNL Audience Manager] uses for segmentation. Um [!UICONTROL profile merge rule] pode incluir perfis de dispositivo mapeados pelo gráfico de [!UICONTROL Profile Link] dispositivo, os provedores de gráficos de dispositivo [!UICONTROL Adobe Experience Cloud Device Co-op]e/ou outros provedores de gráficos de dispositivo de terceiros que estão integrados ao [!DNL Audience Manager]. Você pode criar um máximo de 4 [!UICONTROL Profile Merge Rules]. O quarto [!UICONTROL Profile Merge Rule] está disponível exclusivamente para clientes que compraram o complemento [!UICONTROL People-Based Destinations] .
 
 Crie um formulário [!UICONTROL Profile Merge Rule] fazendo uma seleção das opções descritas abaixo, em [!UICONTROL Profile Merge Rule Setup].
 
 ![configuração de regra de união de perfis](assets/profile-merge-rule-setup.png)
 
-## Profile Merge Rule Options Overview {#overview}
+## [!UICONTROL Profile Merge Rule] Visão geral das opções {#overview}
 
 [!UICONTROL Profile Merge Rules] permitir várias combinações de regras, cada uma delas orientada para casos de uso específicos. Consulte a tabela abaixo para obter detalhes sobre quando usar cada combinação de regras.
 
@@ -36,21 +36,21 @@ Crie um formulário [!UICONTROL Profile Merge Rule] fazendo uma seleção das op
 | [!UICONTROL Last Authenticated Profiles] | [!UICONTROL External Device Graph] (inclui [!UICONTROL Co-op Device Graph]) | Todos os clientes | Tempo real e lote | Não | [Direcionamento avançado entre dispositivos](external-graph-use-cases.md#advanced-graph-expansion) |
 | [!UICONTROL All Cross-Device Profiles] | N/A | Exclusivo para clientes de Destinos [Baseados em](../destinations/people-based-destinations-overview.md) Pessoas | Somente em lote | Não | [Definição de metas para destinos baseados em pessoas](merge-rule-targeting-options.md#all-cross-device) |
 
-## Avaliação do segmento da regra de mesclagem de Perfis {#segment-evaluation}
+## [!UICONTROL Profile Merge Rule] [!UICONTROL Segment] Avaliação {#segment-evaluation}
 
-Dependendo da sua [!UICONTROL Profile Merge Rules] configuração, [!DNL Audience Manager] é possível executar a avaliação de segmentos em tempo real, em lote ou em ambos.
+Dependendo da sua [!UICONTROL Profile Merge Rules] configuração, [!DNL Audience Manager] é possível executar a [!UICONTROL segment] avaliação em tempo real, em lote ou em ambos.
 
-* A avaliação de segmentos em tempo real exige que os visitantes acessem suas propriedades digitais em tempo real para se qualificarem para o segmento. [!DNL DCS]
-* A avaliação do segmento de lote é realizada em relação a características qualificadas anteriormente.
-* [!UICONTROL Profile Merge Rules] que suportam a avaliação de segmentos em tempo real e em lote combinam a atividade de visitante em tempo real com características qualificadas anteriormente.
+* A [!UICONTROL segment] avaliação em tempo real exige que os visitantes acessem suas propriedades digitais em tempo real para se qualificarem para o [!DNL DCS] [!UICONTROL segment].
+* A avaliação em lote [!UICONTROL segment] é realizada com base em qualificações anteriores [!UICONTROL traits].
+* [!UICONTROL Profile Merge Rules] que suportam a avaliação em tempo real e em lote [!UICONTROL segment] combinam a atividade de visitante em tempo real com as qualificações anteriores [!UICONTROL traits].
 
-## Latência do Relatórios das Regras de Mesclagem de Perfis {#reporting-latency}
+## [!UICONTROL Profile Merge Rules] Latência do Relatórios {#reporting-latency}
 
-A avaliação de segmentos em tempo real reflete imediatamente nos [!UICONTROL Profile Merge Rules] relatórios.
+A [!UICONTROL segment] avaliação em tempo real reflete imediatamente nos [!UICONTROL Profile Merge Rules] relatórios.
 
-A avaliação do segmento de lote pode levar até 24 horas para ser refletida nos relatórios [de Regras de mesclagem de](profile-link-metrics.md)Perfis.
+A avaliação em lote [!UICONTROL segment] pode levar até 24 horas para ser refletida nos relatórios [de Regras de mesclagem de](profile-link-metrics.md)Perfis.
 
-## Opções entre dispositivos {#auth-options}
+## [!UICONTROL Cross-Device Options] {#auth-options}
 
 O [!UICONTROL Cross-Device Options] permite selecionar usuários autenticados e não autenticados e aproveitar seu perfil entre dispositivos para segmentação. Essas opções ajudam a identificar e acessar usuários específicos em um dispositivo compartilhado. Para obter mais informações sobre usuários anônimos e autenticados, consulte Estados de autenticação de [Visitante](../../reference/visitor-authentication-states.md).
 
@@ -81,13 +81,13 @@ O [!UICONTROL Cross-Device Options] permite selecionar usuários autenticados e 
  </tbody>
 </table>
 
-## Opções de Perfil entre dispositivos {#profile-options}
+## [!UICONTROL Cross-Device Profile Options] {#profile-options}
 
-A [!UICONTROL Cross-Device Profile Options] lista suas fontes de dados entre dispositivos. Essas opções usam os nomes fornecidos quando você criou uma fonte de dados entre dispositivos (consulte [Criar uma fonte](merge-rules-start.md#create-data-source)de dados entre dispositivos). Você pode selecionar até 3 fontes de dados entre dispositivos para usar com cada regra de perfil. Os [!UICONTROL Authenticated Profile Options] estão disponíveis quando você escolher **[!UICONTROL Current Authenticated Profiles]** ou **[!UICONTROL Last Authenticated Profiles]**.
+A [!UICONTROL Cross-Device Profile Options] lista [!UICONTROL cross-device data sources]. Essas opções usam os nomes que você forneceu ao criar uma [!UICONTROL cross-device] (consulte [!UICONTROL data source] Criar uma fonte [](merge-rules-start.md#create-data-source)de dados entre dispositivos). Você pode selecionar até 3 [!UICONTROL cross-device data sources] para usar com cada regra de perfil. Os [!UICONTROL Authenticated Profile Options] estão disponíveis quando você escolher **[!UICONTROL Current Authenticated Profiles]** ou **[!UICONTROL Last Authenticated Profiles]**.
 
-## Opções do dispositivo {#device-options}
+## [!UICONTROL Device Options] {#device-options}
 
-O [!UICONTROL Device Options] permite selecionar o tipo de *`device profile`* usado por um [!UICONTROL Profile Merge Rule]. Um perfil de dispositivo é criado a partir de características coletadas de atividades de navegação anônimas. No mínimo, uma regra de união de perfis inclui uma opção autenticada e uma opção de dispositivo.
+O [!UICONTROL Device Options] permite selecionar o tipo de *`device profile`* usado por um [!UICONTROL Profile Merge Rule]. Um perfil de dispositivo é criado a partir de [!UICONTROL traits] uma atividade de navegação anônima. No mínimo, um [!UICONTROL profile merge rule] inclui um [!UICONTROL authenticated option] e um [!UICONTROL device option].
 
 <table id="table_D373FB787D1A4E3485C02C4A76F03395"> 
  <thead> 
@@ -129,9 +129,9 @@ O [!UICONTROL Device Options] permite selecionar o tipo de *`device profile`* us
  </tbody>
 </table>
 
-## Políticas de mesclagem externas {#external-merge-policies}
+## [!UICONTROL External Merge Policies] {#external-merge-policies}
 
-Os segmentos de Audiência que foram criados automaticamente a partir de outras soluções de Experience Cloud, com base nas regras de mesclagem definidas fora do [!DNL Audience Manager], são marcados como usando um [!UICONTROL External Merge Policy]. Por exemplo, consulte Compartilhamento de [Audiência entre Audience Manager e Adobe Experience Platform](../../integration/integration-aep/aam-aep-audience-sharing.md).
+Os segmentos de Audiência que foram criados automaticamente a partir de outras [!DNL Experience Cloud] soluções, com base nas regras de mesclagem definidas fora do [!DNL Audience Manager], são marcados como usando um [!UICONTROL External Merge Policy]. Por exemplo, consulte Compartilhamento de [Audiência entre Audience Manager e Adobe Experience Platform](../../integration/integration-aep/aam-aep-audience-sharing.md).
 
 >[!MORELIKETHIS]
 >
