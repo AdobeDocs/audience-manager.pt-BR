@@ -1,179 +1,179 @@
 ---
 description: Esta página inclui apenas integrações atuais de servidor para servidor. Para obter mais informações sobre uma integração, consulte sua lista do Adobe Exchange (quando disponível) ou entre em contato com seu consultor da Adobe ou com o Atendimento ao cliente.
 seo-description: Esta página inclui apenas integrações atuais de servidor para servidor. Para obter mais informações sobre uma integração, consulte sua lista do Adobe Exchange (quando disponível) ou entre em contato com seu consultor da Adobe ou com o Atendimento ao cliente.
-seo-title: Destinos de servidor para servidor do Adobe Audiência Manager
+seo-title: Destinos Adobe Audience Manager Server-to-Server
 keywords: activation; activation partners, destination, destinations
 solution: Audience Manager
-title: Destinos de servidor para servidor do Adobe Audiência Manager
+title: Destinos Adobe Audience Manager Server-to-Server
 translation-type: tm+mt
-source-git-commit: da0eb0244fc3ae158fa151727f4253625dcff2c4
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '1389'
-ht-degree: 58%
+source-wordcount: '1122'
+ht-degree: 71%
 
 ---
 
 
-# Destinos baseados em dispositivo do Audiência Manager
+# [!DNL Audience Manager] [!UICONTROL Device-based Destinations]
 
-Esta página inclui somente os destinos [atuais baseados em](/help/using/features/destinations/add-device-based-destinations.md) dispositivos do Gerenciador de Audiências. No Gerenciador de Audiências, os destinos baseados em dispositivos também são chamados de destinos servidor para servidor. Para obter mais informações sobre uma integração, consulte sua lista do [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (quando disponível) ou entre em contato com seu consultor da Adobe ou com o Atendimento ao cliente.
+Esta página inclui somente destinos [!DNL Audience Manager] baseados em [](/help/using/features/destinations/add-device-based-destinations.md) dispositivos atuais. Em [!DNL Audience Manager], [!UICONTROL device-based destinations] também são chamados [!UICONTROL server-to-server destinations]. Para obter mais informações sobre uma integração, consulte sua lista do [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (quando disponível) ou entre em contato com seu [!DNL Adobe] Consultor ou Atendimento ao cliente.
 
-<br> 
+ 
 
-* **Última atualização** = Mostra a última data em que houve uma atualização para este destino baseado em dispositivo.
-* **Atualizações** = Indica se o Gerenciador de Audiências envia dados em tempo real ou em lote (1xday) para esse destino.
-* **Unsegment** = Unsegmentation descreve processos que desqualificam e removem perfis de dispositivos de segmentos. Sua capacidade de remover um perfil de dispositivo de um segmento depende da opção de dispositivo usada para criar uma Regra de mesclagem de Perfis. A dessegmentação também é usada no contexto de solicitações de exclusão do RGPD. Leia Regras de mesclagem de [Perfis e Processos](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) de dessegmentação de dispositivos e Parceiros do [Audiência Manager com recursos](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation)de dessegmentação. O Gerenciador de Audiências envia informações de segmentos para os destinos marcados com **Sim** abaixo.
-* **Recebendo sinais** de consentimento TCF IAB = O Plug-in do Gerenciador de Audiências para TCF IAB permite encaminhar a sequência de caracteres TC IAB para parceiros de ativação, respeitando as opções de privacidade dos usuários. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
-* **ICDS** = Esta coluna lista os parceiros que suportam a Supressão Instantânea entre Dispositivos. Leia sobre a Supressão [](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md)interdispositivo instantânea.
-* **IDs** de dispositivo móvel = essa coluna lista parceiros que podem receber IDs de dispositivo móvel do Audiência Manager.
+* **Última atualização** = Mostra a última data em que houve uma atualização para este [!UICONTROL device-based destination].
+* **Atualizações** = Indica se [!DNL Audience Manager] envia dados em tempo real ou em lote (1xday) para isso [!UICONTROL destination].
+* **Unsegment** = Unsegmentation descreve processos que desqualificam e removem perfis de dispositivos de [!UICONTROL segments]. Sua capacidade de remover um perfil de dispositivo de um dispositivo [!UICONTROL segment] depende da opção de dispositivo usada para criar um [!UICONTROL Profile Merge Rule]. A dessegmentação também é usada no contexto de solicitações de [!DNL GDPR] exclusão. Leia Regras de mesclagem de [Perfis e Processos](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) de dessegmentação de dispositivos e Parceiros de [Audience Manager com recursos](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation)de dessegmentação. [!DNL Audience Manager] envia informações de cancelamento de segmento para o [!UICONTROL destinations] marcador com **Sim** abaixo.
+* **Recebendo sinais[!DNL IAB TCF]de** consentimento = [!DNL Audience Manager Plug-in for IAB TCF] permite encaminhar a [!DNL IAB TC] sequência para parceiros de ativação respeitando as opções de privacidade dos usuários. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
+* **[!DNL ICDS]** = Essa coluna lista os parceiros que oferecem suporte [!UICONTROL Instant Cross-Device Suppression]. Leia sobre a Supressão [](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md)interdispositivo instantânea.
+* **IDs** de dispositivo móvel = Essa coluna lista parceiros que podem receber IDs de dispositivo móvel de [!DNL Audience Manager].
 
-<br> 
+ 
 
-| Integração | Última atualização | Atualizações | Cancelar segmento | Recebendo sinais de consentimento TCF da IAB | ICDS | IDs de dispositivo móvel |
+| Integração | Última atualização | Atualizações | Cancelar segmento | Recebendo sinais de [!DNL IAB TCF] consentimento | [!DNL ICDS] | IDs de dispositivo móvel |
 |---------------------------------------------------|------------|-----------|-----------|-----------------------------------|------|-------------------|
-| Insights 4C | 26/09/2018 | 1xday | Sim | Não | Não | Sim |
-| 4info | 09/02/2017 | 1xday | Não | Não | Não | Sim |
-| AcuityAds | 09/02/2017 | Tempo real | Sim | Não | Sim | Não |
-| Adara | 17/02/2017 | Tempo real | Sim | Não | Não | Não |
-| Mobilidade viciosa | 22/02/2017 | 1xday | Sim | Não | Sim | Sim |
-| Adelfático | 22/02/2017 | 1xday | Não | Não | Não | Sim |
-| AdForm | 22/02/2017 | Tempo real | Sim | Não | Sim | Sim |
-| AdGear | 22/02/2017 | Tempo real | Sim | Não | Sim | Não |
-| Adikteev | 26/01/2018 | 1xday | Sim | Não | Não | Sim |
-| Adroll / NextRoll | 10/12/2019 | 1xday | Não | Não | Não | Não |
-| Adswizz | 09/10/2017 | 1xday | Sim | Não | Não | Sim |
-| Adtheorent | 22/02/2017 | 1xday | Sim | Não | Não | Sim |
-| Affinio | 03/04/2018 | 1xday | Sim | Não | Não | Sim |
-| Aki | 21/06/2018 | 1xday | Não | Não | Não | Sim |
-| Anúncios da Amazon | 15/06/2017 | 1xday | Sim | Não | Não | Não |
-| AOL AdLearn | 02/03/2017 | Tempo real | Não | Não | Não | Sim |
-| AOL ONE | 02/03/2017 | Tempo real | Sim | Não | Não | Sim |
-| AppNexus | 02/03/2017 | Tempo real | Sim | Não | Sim | Não |
-| AppNexus Yieldex | 10/08/2017 | 1xday | Sim | Não | Não | Não |
-| Atedra/AdStop | 02/03/2017 | Tempo real | Sim | Não | Sim | Não |
-| Evoceto | 06/12/2017 | 1xday | Não | Não | Não | Não |
-| Bidtellect | 03/03/2017 | Tempo real | Sim | Não | Não | Não |
-| Cera de abelhas | 25/05/2018 | 1xday | Não | Não | Não | Sim |
-| Tela de marca | 03/03/2017 | Tempo real | Não | Não | Não | Não |
-| Brightroll | 03/03/2017 | 1xday | Não | Sim | Não | Não |
-| Botão | 18/12/2017 | 1xday | Sim | Não | Não | Sim |
-| C1 Exchange | 27/02/2017 | 1xday | Sim | Não | Não | Não |
-| Celtra | 27/02/2017 | 1xday | Sim | Não | Não | Sim |
-| Centro | 27/02/2017 | 1xday | Não | Não | Não | Sim |
-| ChoiceStream | 27/02/2017 | 1xday | Não | Não | Não | Não |
-| Clearstream.tv | 27/02/2017 | Tempo real | Sim | Não | Não | Não |
-| Plataforma AMP coletiva | 27/02/2017 | 1xday | Não | Não | Não | Não |
-| Criteo | 27/02/2017 | Tempo real | Não | Sim | Não | Sim |
-| Crossswise | 27/02/2017 | 1xday | Sim | Não | Não | Não |
-| D.A.C. AudienceOne | 27/02/2017 | 1xday | Sim | Não | Não | Não |
-| DataXu | 11/20/2017 | Tempo real | Não | Não | Não | Sim |
-| Digilante | 02/03/2017 | Tempo real |  | Não | Não | Não |
-| DistritoM | 02/03/2017 | 1xday | Sim | Não | Não | Não |
-| DoubleVerify | 06/09/2017 | 1xday | Sim | Não | Não | Não |
-| Drawbridge | 02/03/2017 | Tempo real | Não | Não | Não | Sim |
-| Destilaria (FKA Media6) | 02/03/2017 | Tempo real | Sim | Não | Não | Sim |
-| Dunnhumby | 21/11/2019 | 1xday | Não | Não | Não | Não |
-| angariação de fundos | 27/06/2019 | 1xday | Não | Não | Não | Sim |
-| Conversor de Epsilon | 03/03/2017 | Tempo real | Não | Não | Não | Não |
-| Exponencial | 27/02/2017 | Tempo real | Sim | Não | Sim | Não |
-| Marketing de Eyereturn | 11/04/2017 | 1xday | Sim | Não | Não | Não |
-| EyeView Digital | 14/06/2018 | 1xday | Sim | Não | Não | Sim |
-| Fiksu | 03/03/2017 | 1xday | Sim | Não | Não | Sim |
-| Flashtalk | 02/03/2017 | 1xday | Não | Não | Não | Não |
-| FreakOut | 03/03/2017 | 1xday | Sim | Não | Não | Não |
-| Roda livre | 27/02/2017 | 1xday | Sim | Sim | Não | Sim |
-| Mídia de Gamut | 03/03/2017 | Tempo real |  | Não | Não |  |
-| Exibição do Google AdsWords | 02/08/2018 | Tempo real | Sim | Sim | Não | Sim |
-| Gerenciador de lances do Google DoubleClick (DBM) | 24/04/2017 | Tempo real | Sim | Sim | Sim | Sim |
-| Gerenciador de Campanhas do Google DoubleClick (DCM fka DFA) | 24/04/2017 | Tempo real | Sim | Sim | Sim | Sim |
-| Google DoubleClick for Publishers (DFP, DFPP) | 24/04/2017 | Tempo real | Sim | Sim | Sim | Sim |
-| GumGum | 02/06/2017 | 1xday | Sim | Não | Não | Não |
-| Index Exchange (antigo Casale Media) | 03/03/2017 | 1xday | Sim | Não | Não | Não |
-| Mídia infecciosa | 03/03/2017 | Tempo real | Sim | Não | Sim | Não |
-| inMobi | 30/03/2017 | 1xday | Sim | Não | Não | Sim |
-| Innovid | 02/03/2017 | 1xday | Sim | Não | Não | Não |
-| iPinYou | 11/07/2017 | 1xday | Não | Não | Não | Não |
-| Jampp | 11/05/2017 | 1xday | Sim | Não | Não | Sim |
-| Jivox | 30/08/2017 | Tempo real | Não | Não | Não | Não |
-| Suco móvel | 03/03/2017 | 1xday | Sim | Não | Não | Sim |
-| Krux | 30/06/2017 | 1xday | Não | Não | Não | Sim |
-| Liftoff.io | 09/11/2017 | 1xday | Sim | Não | Não | Sim |
-| LiveIntent | 17/07/2017 | 1xday | Sim | Não | Não | Não |
-| LiveRail | 20/01/2017 | 1xday |  | Não | Não |  |
-| Logicad | 22/06/2017 | 1xday | Não | Não | Não | Não |
-| Lotame | 30/06/2017 | 1xday | Sim | Não | Não | Sim |
-| MaxPoint Interativo | 27/02/2017 | 1xday | Não | Não | Não | Não |
-| MediaMath | 27/02/2017 | 1xday | Sim | Não | Não | Sim |
-| Anúncios do Microsoft Bing | 10/10/2019 | Tempo real | Sim | Sim | Sim | Não |
-| Mídia milenar | 27/02/2017 | 1xday | Não | Não | Não | Sim |
-| mPlatform China | 06/08/2018 | 1xday | Sim | Não | Não | Sim |
-| E/S narrativa | 12/01/2018 | 1xday | Sim | Não | Não | Sim |
-| Toque nativo | 02/03/2017 | 1xday | Sim | Não | Não | Sim |
-| Nativo | 27/02/2017 | 2x/dia | Sim | Não | Não | Não |
-| Mail.ru | 29/04/2019 | 1xday | Sim | Não | Não | Sim |
-| Profissionais móveis | 25/05/2018 | 1xday | Sim | Não | Não | Sim |
-| Colocação em rede | 02/03/2017 | Tempo real | Não | Não | Não | Não |
-| Neustar | 28/03/2017 | 1xday | Sim | Não | Não | Não |
-| OnAd | 13/02/2017 | Tempo real | Sim | Não | Sim | Não |
-| OneSpot | 19/06/2017 | Tempo real | Sim | Não | Não | Sim |
-| OpenX | 26/07/2018 | 1xday | Sim | Não | Não | Sim |
-| Opera Mediaworks | 13/02/2017 | 1xday | Sim | Não | Não | Sim |
-| Cefaleia | 03/04/2017 | 1xday | Sim | Não | Não | Não |
-| OwnerIQ | 13/02/2017 | Tempo real | Sim | Não | Sim | Não |
-| Plataforma 161 | 28/11/2018 | 1xday | Sim | Não | Não | Sim |
-| PocketMath | 22/02/2017 | 1xday | Sim | Não | Não | Sim |
-| Powerlinks | 17/05/2017 | 1xday | Sim | Não | Não | Não |
-| Publicar | 13/02/2017 | Tempo real | Não | Não | Não | Não |
-| Pulsepoint | 13/02/2017 | 1xday | Sim | Não | Não | Não |
-| PushSpring | 28/08/2017 | 1xday | Sim | Não | Não | Sim |
-| Quantcast | 13/02/2017 | Tempo real | Sim | Não | Não | Não |
-| RhythmOne / RadiumOne | 13/02/2017 | Tempo real | Sim | Não | Não | Sim |
-| Remerge | 31/05/2017 | Tempo real | Sim | Não | Sim | Sim |
-| Restabelecer | 17/02/2017 | 1x/dia | Sim | Não | Não | Não |
-| RevJet | 17/02/2017 | 1x/dia | Não | Não | Não | Não |
-| RocketFuel | 17/02/2017 | Tempo real | Sim | Não | Sim | Sim |
-| Rubicon |  | Tempo real | Sim | Sim | Não |  |
-| EXECUTAR | 17/02/2017 | 1xday | Sim | Não | Não | Não |
-| Sabio Mobile | 17/02/2017 | 1xday | Não | Não | Não | Sim |
-| Simpli.fi | 17/02/2017 | 1xday | Não | Não | Não | Sim |
-| Servidor de anúncios Sizmek (Amazon) | 17/02/2017 | Tempo real | Sim | Não | Não |  |
-| Slickdeal | 04/09/2018 | Tempo real | Sim | Não | Não | Sim |
-| Servidor inteligente | 31/07/2017 | Tempo real | Sim | Não | Sim | Sim |
-| Logicad de redes de mídia So-net |  | 1x/dia | Sim | Não | Não |  |
-| Sonobi | 28/03/2017 | Tempo real | Sim | Não | Sim | Não |
-| SpecificMedia | 03/03/2017 | Tempo real | Não | Não | Não | Não |
-| SpongeCell | 03/03/2017 | Tempo real | Sim | Não | Sim | Sim |
-| SpotX | 16/03/2018 | 1xday | Não | Sim | Não | Sim |
-| Stroer | 03/03/2017 | 1xday | Sim | Não | Não | Não |
-| SundaySky | 03/03/2017 | Tempo real | Sim | Não | Sim | Não |
-| StartApp | 25/05/2018 | 1xday | Sim | Não | Não | Sim |
-| Supernave/ScaleOut | 03/03/2017 | 1x/dia | Sim | Não | Não | Não |
-| Survata | 09/08/2017 | 1xday | Sim | Não | Não | Sim |
-| Taboola | 03/08/2017 | 1xday | Não | Sim | Não | Não |
-| Tapad | 03/03/2017 | Tempo real | Não | Não | Não | Sim |
-| Telaria | 25/04/2019 | 1xday | Sim | Não | Não | Sim |
-| Sistemas Telológicos | 03/03/2017 | Tempo real | Sim | Não | Não | Não |
-| A carteira comercial | 03/03/2017 | Tempo real | Sim | Sim | Sim | Sim |
-| Tempo real de agradecimento | 05/02/2016 | Tempo real |  | Não | Não |  |
-| Vídeo Tremor | 03/03/2017 | 1xday | Sim | Não | Não | Não |
-| Triple Lift | 03/03/2017 | Tempo real | Não | Sim | Não | Não |
-| TrueX | 11/01/2018 | Tempo real | Sim | Não | Não | Sim |
-| TubeMogul | 03/03/2017 | Tempo real | Sim | Não | Sim | Não |
-| Ligar / Amobee | 03/03/2027 | Tempo real | Não | Não | Não | Sim |
-| Twenga | 29/10/2018 | Tempo real | Sim | Não | Não | Não |
-| Audiências personalizadas do Twitter | 27/03/2017 | Tempo real | Sim | Não | Sim | Não |
-| Subtom | 11/07/2017 | 1xday | Não | Não | Não | Não |
-| Verve | 15/06/2017 | 1xday | Sim | Não | Não | Sim |
-| VideoAmp | 03/03/2017 | Tempo real | Não | Não | Não | Não |
-| Videologia | 03/03/2017 | 1xday | Não | Não | Não | Não |
-| VisualIQ | 24/03/2017 | 1xday | Sim | Não | Não | Não |
-| Wikibuy | 04/08/2018 | Tempo real | Sim | Não | Não | Sim |
-| X+1 | 05/02/2016 | 1xday |  | Não | Não |  |
-| Xaxis | 03/03/2017 | 1xday | Sim | Não | Não | Não |
-| Dados do YahooX | 03/03/2017 | Tempo real | Sim | Sim | Sim | Sim |
-| Yahoo! Japão | 03/03/2017 | Tempo real | Não | Não | Não | Não |
-| Yandex | 28/11/2018 | 1xday | Sim | Não | Não | Sim |
-| Iieldex | 21/08/2017 | Varia | Sim | Não | Não | Não |
-| RendimentoMo | 03/03/2017 | 1xday | Não | Não | Não | Não |
-| Yume | 31/05/2017 | 1xday | Não | Não | Não | Não |
-| Zeta / Sizmek DSP / RocketFuel | 17/02/2017 | Tempo real | Sim | Não | Sim | Sim |
+| [!DNL 4C Insights] | 26/09/2018 | 1xday | Sim | Não | Não | Sim |
+| [!DNL 4info] | 09/02/2017 | 1xday | Não | Não | Não | Sim |
+| [!DNL AcuityAds] | 09/02/2017 | Tempo real | Sim | Não | Sim | Não |
+| [!DNL Adara] | 17/02/2017 | Tempo real | Sim | Não | Não | Não |
+| [!DNL Addictive Mobility] | 22/02/2017 | 1xday | Sim | Não | Sim | Sim |
+| [!DNL Adelphic] | 22/02/2017 | 1xday | Não | Não | Não | Sim |
+| [!DNL AdForm] | 22/02/2017 | Tempo real | Sim | Não | Sim | Sim |
+| [!DNL AdGear] | 22/02/2017 | Tempo real | Sim | Não | Sim | Não |
+| [!DNL Adikteev] | 26/01/2018 | 1xday | Sim | Não | Não | Sim |
+| [!DNL Adroll] / [!DNL NextRoll] | 10/12/2019 | 1xday | Não | Não | Não | Não |
+| [!DNL Adswizz] | 09/10/2017 | 1xday | Sim | Não | Não | Sim |
+| [!DNL Adtheorent] | 22/02/2017 | 1xday | Sim | Não | Não | Sim |
+| [!DNL Affinio] | 03/04/2018 | 1xday | Sim | Não | Não | Sim |
+| [!DNL Aki] | 21/06/2018 | 1xday | Não | Não | Não | Sim |
+| [!DNL Amazon Advertising] | 15/06/2017 | 1xday | Sim | Não | Não | Não |
+| [!DNL AOL AdLearn] | 02/03/2017 | Tempo real | Não | Não | Não | Sim |
+| [!DNL AOL ONE] | 02/03/2017 | Tempo real | Sim | Não | Não | Sim |
+| [!DNL AppNexus] | 02/03/2017 | Tempo real | Sim | Não | Sim | Não |
+| [!DNL AppNexus Yieldex] | 10/08/2017 | 1xday | Sim | Não | Não | Não |
+| [!DNL Atedra]/[!DNL AdStanding] | 02/03/2017 | Tempo real | Sim | Não | Sim | Não |
+| [!DNL Avocet] | 06/12/2017 | 1xday | Não | Não | Não | Não |
+| [!DNL Bidtellect] | 03/03/2017 | Tempo real | Sim | Não | Não | Não |
+| [!DNL Beeswax] | 25/05/2018 | 1xday | Não | Não | Não | Sim |
+| [!DNL Brandscreen] | 03/03/2017 | Tempo real | Não | Não | Não | Não |
+| [!DNL Brightroll] | 03/03/2017 | 1xday | Não | Sim | Não | Não |
+| [!DNL Button] | 18/12/2017 | 1xday | Sim | Não | Não | Sim |
+| [!DNL C1 Exchange] | 27/02/2017 | 1xday | Sim | Não | Não | Não |
+| [!DNL Celtra] | 27/02/2017 | 1xday | Sim | Não | Não | Sim |
+| [!DNL Centro] | 27/02/2017 | 1xday | Não | Não | Não | Sim |
+| [!DNL ChoiceStream] | 27/02/2017 | 1xday | Não | Não | Não | Não |
+| [!DNL Clearstream.tv] | 27/02/2017 | Tempo real | Sim | Não | Não | Não |
+| [!DNL Collective AMP Platform] | 27/02/2017 | 1xday | Não | Não | Não | Não |
+| [!DNL Criteo] | 27/02/2017 | Tempo real | Não | Sim | Não | Sim |
+| [!DNL Crosswise] | 27/02/2017 | 1xday | Sim | Não | Não | Não |
+| [!DNL D.A.C. AudienceOne] | 27/02/2017 | 1xday | Sim | Não | Não | Não |
+| [!DNL DataXu] | 11/20/2017 | Tempo real | Não | Não | Não | Sim |
+| [!DNL Digilant] | 02/03/2017 | Tempo real |  | Não | Não | Não |
+| [!DNL DistrictM] | 02/03/2017 | 1xday | Sim | Não | Não | Não |
+| [!DNL DoubleVerify] | 06/09/2017 | 1xday | Sim | Não | Não | Não |
+| [!DNL Drawbridge] | 02/03/2017 | Tempo real | Não | Não | Não | Sim |
+| [!DNL Dstillery] ([!DNL FKA Media6]) | 02/03/2017 | Tempo real | Sim | Não | Não | Sim |
+| [!DNL Dunnhumby] | 21/11/2019 | 1xday | Não | Não | Não | Não |
+| [!DNL easyfundraising] | 27/06/2019 | 1xday | Não | Não | Não | Sim |
+| [!DNL Epsilon Conversant] | 03/03/2017 | Tempo real | Não | Não | Não | Não |
+| [!DNL Exponential] | 27/02/2017 | Tempo real | Sim | Não | Sim | Não |
+| [!DNL Eyereturn Marketing] | 11/04/2017 | 1xday | Sim | Não | Não | Não |
+| [!DNL EyeView Digital] | 14/06/2018 | 1xday | Sim | Não | Não | Sim |
+| [!DNL Fiksu] | 03/03/2017 | 1xday | Sim | Não | Não | Sim |
+| [!DNL Flashtalking] | 02/03/2017 | 1xday | Não | Não | Não | Não |
+| [!DNL FreakOut] | 03/03/2017 | 1xday | Sim | Não | Não | Não |
+| [!DNL Freewheel] | 27/02/2017 | 1xday | Sim | Sim | Não | Sim |
+| [!DNL Gamut Media] | 03/03/2017 | Tempo real |  | Não | Não |  |
+| [!DNL Google AdsWords Display] | 02/08/2018 | Tempo real | Sim | Sim | Não | Sim |
+| [!DNL Google DoubleClick Bid Manager (DBM)] | 24/04/2017 | Tempo real | Sim | Sim | Sim | Sim |
+| [!DNL Google DoubleClick Campaign Manager (DCM fka DFA)] | 24/04/2017 | Tempo real | Sim | Sim | Sim | Sim |
+| [!DNL Google DoubleClick for Publishers (DFP, DFPP)] | 24/04/2017 | Tempo real | Sim | Sim | Sim | Sim |
+| [!DNL GumGum] | 02/06/2017 | 1xday | Sim | Não | Não | Não |
+| [!DNL Index Exchange (formerly Casale Media)] | 03/03/2017 | 1xday | Sim | Não | Não | Não |
+| [!DNL Infectious Media] | 03/03/2017 | Tempo real | Sim | Não | Sim | Não |
+| [!DNL inMobi] | 30/03/2017 | 1xday | Sim | Não | Não | Sim |
+| [!DNL Innovid] | 02/03/2017 | 1xday | Sim | Não | Não | Não |
+| [!DNL iPinYou] | 11/07/2017 | 1xday | Não | Não | Não | Não |
+| [!DNL Jampp] | 11/05/2017 | 1xday | Sim | Não | Não | Sim |
+| [!DNL Jivox] | 30/08/2017 | Tempo real | Não | Não | Não | Não |
+| [!DNL Juice Mobile] | 03/03/2017 | 1xday | Sim | Não | Não | Sim |
+| [!DNL Krux] | 30/06/2017 | 1xday | Não | Não | Não | Sim |
+| [!DNL Liftoff.io] | 09/11/2017 | 1xday | Sim | Não | Não | Sim |
+| [!DNL LiveIntent] | 17/07/2017 | 1xday | Sim | Não | Não | Não |
+| [!DNL LiveRail] | 20/01/2017 | 1xday |  | Não | Não |  |
+| [!DNL Logicad] | 22/06/2017 | 1xday | Não | Não | Não | Não |
+| [!DNL Lotame] | 30/06/2017 | 1xday | Sim | Não | Não | Sim |
+| [!DNL MaxPoint Interactive] | 27/02/2017 | 1xday | Não | Não | Não | Não |
+| [!DNL MediaMath] | 27/02/2017 | 1xday | Sim | Não | Não | Sim |
+| [!DNL Microsoft Bing Ads] | 10/10/2019 | Tempo real | Sim | Sim | Sim | Não |
+| [!DNL Millennial Media] | 27/02/2017 | 1xday | Não | Não | Não | Sim |
+| [!DNL mPlatform China] | 06/08/2018 | 1xday | Sim | Não | Não | Sim |
+| [!DNL Narrative I/O] | 12/01/2018 | 1xday | Sim | Não | Não | Sim |
+| [!DNL Native Touch] | 02/03/2017 | 1xday | Sim | Não | Não | Sim |
+| [!DNL Nativo] | 27/02/2017 | 2x/dia | Sim | Não | Não | Não |
+| [!DNL Mail.ru] | 29/04/2019 | 1xday | Sim | Não | Não | Sim |
+| [!DNL Mobile Professionals] | 25/05/2018 | 1xday | Sim | Não | Não | Sim |
+| [!DNL Netmining] | 02/03/2017 | Tempo real | Não | Não | Não | Não |
+| [!DNL Neustar] | 28/03/2017 | 1xday | Sim | Não | Não | Não |
+| [!DNL OnAd] | 13/02/2017 | Tempo real | Sim | Não | Sim | Não |
+| [!DNL OneSpot] | 19/06/2017 | Tempo real | Sim | Não | Não | Sim |
+| [!DNL OpenX] | 26/07/2018 | 1xday | Sim | Não | Não | Sim |
+| [!DNL Opera Mediaworks] | 13/02/2017 | 1xday | Sim | Não | Não | Sim |
+| [!DNL Outbrain] | 03/04/2017 | 1xday | Sim | Não | Não | Não |
+| [!DNL OwnerIQ] | 13/02/2017 | Tempo real | Sim | Não | Sim | Não |
+| [!DNL Platform 161] | 28/11/2018 | 1xday | Sim | Não | Não | Sim |
+| [!DNL PocketMath] | 22/02/2017 | 1xday | Sim | Não | Não | Sim |
+| [!DNL Powerlinks] | 17/05/2017 | 1xday | Sim | Não | Não | Não |
+| [!DNL Pubmatic] | 13/02/2017 | Tempo real | Não | Não | Não | Não |
+| [!DNL Pulsepoint] | 13/02/2017 | 1xday | Sim | Não | Não | Não |
+| [!DNL PushSpring] | 28/08/2017 | 1xday | Sim | Não | Não | Sim |
+| [!DNL Quantcast] | 13/02/2017 | Tempo real | Sim | Não | Não | Não |
+| [!DNL RhythmOne / RadiumOne] | 13/02/2017 | Tempo real | Sim | Não | Não | Sim |
+| [!DNL Remerge] | 31/05/2017 | Tempo real | Sim | Não | Sim | Sim |
+| [!DNL Resonate] | 17/02/2017 | 1x/dia | Sim | Não | Não | Não |
+| [!DNL RevJet] | 17/02/2017 | 1x/dia | Não | Não | Não | Não |
+| [!DNL RocketFuel] | 17/02/2017 | Tempo real | Sim | Não | Sim | Sim |
+| [!DNL Rubicon] |  | Tempo real | Sim | Sim | Não |  |
+| [!DNL RUN] | 17/02/2017 | 1xday | Sim | Não | Não | Não |
+| [!DNL Sabio Mobile] | 17/02/2017 | 1xday | Não | Não | Não | Sim |
+| [!DNL Simpli.fi] | 17/02/2017 | 1xday | Não | Não | Não | Sim |
+| [!DNL Sizmek ad server (Amazon)] | 17/02/2017 | Tempo real | Sim | Não | Não |  |
+| [!DNL Slickdeals] | 04/09/2018 | Tempo real | Sim | Não | Não | Sim |
+| [!DNL Smart Adserver] | 31/07/2017 | Tempo real | Sim | Não | Sim | Sim |
+| [!DNL So-net Media Networks Logicad] |  | 1x/dia | Sim | Não | Não |  |
+| [!DNL Sonobi] | 28/03/2017 | Tempo real | Sim | Não | Sim | Não |
+| [!DNL SpecificMedia] | 03/03/2017 | Tempo real | Não | Não | Não | Não |
+| [!DNL SpongeCell] | 03/03/2017 | Tempo real | Sim | Não | Sim | Sim |
+| [!DNL SpotX] | 16/03/2018 | 1xday | Não | Sim | Não | Sim |
+| [!DNL Stroer] | 03/03/2017 | 1xday | Sim | Não | Não | Não |
+| [!DNL SundaySky] | 03/03/2017 | Tempo real | Sim | Não | Sim | Não |
+| [!DNL StartApp] | 25/05/2018 | 1xday | Sim | Não | Não | Sim |
+| [!DNL Supership]/[!DNL ScaleOut] | 03/03/2017 | 1x/dia | Sim | Não | Não | Não |
+| [!DNL Survata] | 09/08/2017 | 1xday | Sim | Não | Não | Sim |
+| [!DNL Taboola] | 03/08/2017 | 1xday | Não | Sim | Não | Não |
+| [!DNL Tapad] | 03/03/2017 | Tempo real | Não | Não | Não | Sim |
+| [!DNL Telaria] | 25/04/2019 | 1xday | Sim | Não | Não | Sim |
+| [!DNL Telogical Systems] | 03/03/2017 | Tempo real | Sim | Não | Não | Não |
+| [!DNL The Trade Desk] | 03/03/2017 | Tempo real | Sim | Sim | Sim | Sim |
+| [!DNL Thnk Realtime] | 05/02/2016 | Tempo real |  | Não | Não |  |
+| [!DNL Tremor Video] | 03/03/2017 | 1xday | Sim | Não | Não | Não |
+| [!DNL Triple Lift] | 03/03/2017 | Tempo real | Não | Sim | Não | Não |
+| [!DNL TrueX] | 11/01/2018 | Tempo real | Sim | Não | Não | Sim |
+| [!DNL TubeMogul] | 03/03/2017 | Tempo real | Sim | Não | Sim | Não |
+| [!DNL Turn] / [!DNL Amobee] | 03/03/2027 | Tempo real | Não | Não | Não | Sim |
+| [!DNL Twenga] | 29/10/2018 | Tempo real | Sim | Não | Não | Não |
+| [!DNL Twitter Tailored Audiences] | 27/03/2017 | Tempo real | Sim | Não | Sim | Não |
+| [!DNL Undertone] | 11/07/2017 | 1xday | Não | Não | Não | Não |
+| [!DNL Verve] | 15/06/2017 | 1xday | Sim | Não | Não | Sim |
+| [!DNL VideoAmp] | 03/03/2017 | Tempo real | Não | Não | Não | Não |
+| [!DNL Videology] | 03/03/2017 | 1xday | Não | Não | Não | Não |
+| [!DNL VisualIQ] | 24/03/2017 | 1xday | Sim | Não | Não | Não |
+| [!DNL Wikibuy] | 04/08/2018 | Tempo real | Sim | Não | Não | Sim |
+| [!DNL X+1] | 05/02/2016 | 1xday |  | Não | Não |  |
+| [!DNL Xaxis] | 03/03/2017 | 1xday | Sim | Não | Não | Não |
+| [!DNL Yahoo DataX] | 03/03/2017 | Tempo real | Sim | Sim | Sim | Sim |
+| [!DNL Yahoo! Japan] | 03/03/2017 | Tempo real | Não | Não | Não | Não |
+| [!DNL Yandex] | 28/11/2018 | 1xday | Sim | Não | Não | Sim |
+| [!DNL Yieldex] | 21/08/2017 | Varia | Sim | Não | Não | Não |
+| [!DNL YieldMo] | 03/03/2017 | 1xday | Não | Não | Não | Não |
+| [!DNL Yume] | 31/05/2017 | 1xday | Não | Não | Não | Não |
+| [!DNL Zeta] / [!DNL Sizmek DSP] / [!DNL RocketFuel] | 17/02/2017 | Tempo real | Sim | Não | Sim | Sim |
