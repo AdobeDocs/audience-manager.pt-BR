@@ -1,25 +1,28 @@
 ---
-description: Essa integração permite que você envie segmentos do Gerenciador de Audiências para o Público alvo.
-seo-description: Essa integração permite que você envie segmentos do Gerenciador de Audiências para o Público alvo.
-seo-title: Integrar o Gerenciador de Audiências ao Público alvo
+description: Essa integração permite enviar segmentos de Audience Manager para o Público alvo.
+seo-description: Essa integração permite enviar segmentos de Audience Manager para o Público alvo.
+seo-title: Integrar Audience Manager com Público alvo
 solution: Audience Manager
-title: Integrar o Gerenciador de Audiências ao Público alvo
+title: Integrar Audience Manager com Público alvo
 uuid: c5ca2101-99fb-4178-9839-3ec5b605c040
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 0869e016d7f80710cb194449c48675b82fdfa865
+workflow-type: tm+mt
+source-wordcount: '154'
+ht-degree: 0%
 
 ---
 
 
-# Integrar o Gerenciador de Audiências ao Público alvo {#integrate-audience-manager-with-target}
+# Integrar o Audience Manager com [!DNL Target] {#integrate-audience-manager-with-target}
 
-Essa integração permite que você envie segmentos do Gerenciador de Audiências para a Adobe [!DNL Target].
+Essa integração permite que você envie segmentos de Audience Manager para a Adobe [!DNL Target].
 
-Um gerente de Audiências - a integração exige [!DNL Target] :
+Um Audience Manager - a integração exige [!DNL Target] :
 
-* O serviço [da](https://docs.adobe.com/content/help/en/id-service/using/home.html)Experience Cloud. Se você não estiver usando esse serviço, consulte os guias [de](https://docs.adobe.com/content/help/en/id-service/using/implementation/implementation-guides.html) implementação para começar.
-* Perfis e públicos-alvo. Se você não estiver provisionado para Perfis e Audiências, preencha o formulário na página [Integrações da](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES) Experience Cloud ou entre em contato com seu consultor para começar.
+* A [Experience Cloud](https://docs.adobe.com/content/help/en/id-service/using/home.html). Se você não estiver usando esse serviço, consulte os guias [de](https://docs.adobe.com/content/help/en/id-service/using/implementation/implementation-guides.html) implementação para começar.
+* [!DNL Profiles and Audiences]. Se você não estiver provisionado para [!DNL Profiles and Audiences], preencha o formulário na página [Integrações do](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES) Experience Cloud ou entre em contato com seu consultor para começar.
 
-Todos os segmentos do Gerenciador de Audiências serão exibidos em [!DNL Target] breve após a conclusão dessas etapas no processo de implementação. Consulte **[!UICONTROL Audiences > Audience List]** os segmentos do Gerenciador de Audiências em [!DNL Target]. Identifique os segmentos do Gerenciador de Audiências pela Experience Cloud na **[!UICONTROL Source]** coluna e `aam-integration-user@adobe.com` na **[!UICONTROL Modified]** coluna.
+Todos os seus segmentos de Audience Manager aparecerão em [!DNL Target] pouco tempo depois que você concluir essas etapas no processo de implementação. Procure **[!UICONTROL Audiences > Audience List]** para ver seus segmentos de Audience Manager em [!DNL Target]. Identifique segmentos Audience Manager por Experience Cloud na **[!UICONTROL Source]** coluna e `aam-integration-user@adobe.com` na **[!UICONTROL Modified]** coluna.
 
 ![](../assets/target.png)
