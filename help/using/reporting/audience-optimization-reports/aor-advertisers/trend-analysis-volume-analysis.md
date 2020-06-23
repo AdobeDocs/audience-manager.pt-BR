@@ -1,27 +1,30 @@
 ---
-description: Esses relatórios retornam dados sobre impressões, taxas de cliques e conversões para uma ampla variedade de dimensões de publicidade. Compare as tendências e o volume de suas métricas selecionadas para obter uma ideia melhor do desempenho de sua campanha ao longo do tempo.
-seo-description: Esses relatórios retornam dados sobre impressões, taxas de cliques e conversões para uma ampla variedade de dimensões de publicidade. Compare as tendências e o volume de suas métricas selecionadas para obter uma ideia melhor do desempenho de sua campanha ao longo do tempo.
-seo-title: Relatórios de análise de tendências e análise de volume
+description: Esses relatórios retornam dados sobre impressões, taxas de cliques e conversões para uma ampla variedade de dimensões de publicidade. Compare as tendências e o volume de suas métricas selecionadas para obter uma ideia melhor do desempenho da sua campanha ao longo do tempo.
+seo-description: Esses relatórios retornam dados sobre impressões, taxas de cliques e conversões para uma ampla variedade de dimensões de publicidade. Compare as tendências e o volume de suas métricas selecionadas para obter uma ideia melhor do desempenho da sua campanha ao longo do tempo.
+seo-title: Relatórios de Análise de tendências e Análise de volumes
 solution: Audience Manager
-title: Relatórios de análise de tendências e análise de volume
+title: Relatórios de Análise de tendências e Análise de volumes
 uuid: 5d124d80-5f54-4970-92cd-2c8eba42efca
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9326b61f27f6c529567ab9b26694998f0b5dafb3
+workflow-type: tm+mt
+source-wordcount: '211'
+ht-degree: 0%
 
 ---
 
 
-# Relatórios de análise de tendências e análise de volume{#trend-analysis-and-volume-analysis-reports}
+# [!UICONTROL Trend Analysis] e [!UICONTROL Volume Analysis] Relatórios{#trend-analysis-and-volume-analysis-reports}
 
-Esses relatórios retornam dados sobre impressões, taxas de cliques e conversões para uma ampla variedade de dimensões de publicidade. Compare as tendências e o volume de suas métricas selecionadas para obter uma ideia melhor do desempenho de sua campanha ao longo do tempo.
+Esses relatórios retornam dados sobre impressões, taxas de cliques e conversões para uma ampla variedade de dimensões de publicidade. Compare as tendências e o volume de suas métricas selecionadas para obter uma ideia melhor do desempenho da sua campanha ao longo do tempo.
 
-## Exemplo de relatório de análise de tendência {#sample-trend-analysis}
+## Relatório de exemplo [!UICONTROL Trend Analysis] {#sample-trend-analysis}
 
 O [!UICONTROL Trend Analysis] relatório retorna os dados em um gráfico de linhas somente para um intervalo de 14 dias. Neste exemplo, o relatório mostra impressões, click-through e tendências de conversão para um conjunto de segmentos mapeados.
 
 ![](assets/trend-analysis.png)
 
-## Relatório de análise de volume de amostra {#sample-volume-analysis}
+## Relatório de exemplo [!UICONTROL Volume Analysis] {#sample-volume-analysis}
 
 O [!UICONTROL Volume Analysis] relatório retorna dados em um gráfico de barras para o intervalo de datas selecionado. Neste exemplo, o relatório mostra impressões, click-through e conversões por volume para um conjunto de segmentos mapeados.
 
