@@ -7,15 +7,15 @@ solution: Audience Manager
 title: Implementação do módulo de gerenciamento de Audiências
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '691'
 ht-degree: 1%
 
 ---
 
 
-# Como encaminhar dados do Adobe Analytics para o Audience Manager {#implement-the-audience-management-module}
+# Como encaminhar dados de [!DNL Adobe Analytics] para [!DNL Audience Manager] {#implement-the-audience-management-module}
 
 Siga as etapas neste tutorial para encaminhar [!DNL Analytics] dados para [!DNL Audience Manager] em vez de fazer com que o [!DNL Audience Manager] ( [!UICONTROL Data Integration Library][!DNL DIL]) código envie um pixel da página.
 
@@ -34,7 +34,7 @@ Além de ativar as extensões ou implementar o código descrito neste documento,
 
 Há dois métodos para implementar o encaminhamento de dados de [!DNL Adobe Analytics] para [!DNL Audience Manager], dependendo da solução de gerenciamento de tags usada.
 
-### Implementação usando o Adobe Experience Platform Launch
+### Implementação usando [!DNL Adobe Experience Platform Launch]
 
 [!DNL Adobe] recomenda usar a extensão [Iniciar](https://docs.adobe.com/content/help/en/launch/using/overview.html) para instrumentar [!DNL Adobe Analytics] e [!DNL Audience Manager] nas suas propriedades. Nesse caso, não é necessário copiar manualmente qualquer código. Em vez disso, você deve ativar o compartilhamento de dados na [!DNL Analytics Launch] extensão, como mostrado na imagem abaixo. Consulte também a documentação do [Adobe Analytics Extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager) .
 
@@ -44,7 +44,7 @@ Há dois métodos para implementar o encaminhamento de dados de [!DNL Adobe Anal
 
 ![Como ativar o compartilhamento de dados da extensão do Adobe Analytics para o Audience Manager](/help/using/integration/assets/analytics-to-aam.png)
 
-### Implementação usando o Adobe Digital Tag Management (DTM) ou qualquer outra solução de gerenciamento de tags
+### Implementação usando [!DNL Adobe Digital Tag Management (DTM)] ou qualquer outra solução de gerenciamento de tags
 
 >[!WARNING]
 >
@@ -82,12 +82,12 @@ A tabela a seguir define variáveis importantes na amostra de código.
 
 | Parâmetro | Descrição |
 |--- |--- |
-| `partner` | Obrigatório. Este é um nome de parceiro atribuído por [!DNL Adobe]. Às vezes, é chamada de &quot;ID do parceiro&quot; ou &quot;subdomínio do parceiro&quot;.  Entre em contato com seu [!DNL Adobe] consultor ou com o [Atendimento](https://helpx.adobe.com/marketing-cloud/contact-support.html) ao cliente se você não souber o nome do seu parceiro. |
+| `partner` | Obrigatório. Este é um nome de parceiro atribuído por [!DNL Adobe]. Às vezes, é conhecido como subdomínio do seu [!UICONTROL partner ID] ou do seu parceiro.  Entre em contato com seu [!DNL Adobe] consultor ou com o [Atendimento](https://helpx.adobe.com/marketing-cloud/contact-support.html) ao cliente se você não souber o nome do seu parceiro. |
 | `containerNSID` | Obrigatório. A maioria dos clientes pode definir `"containerNSID":0` . No entanto, se sua empresa precisar personalizar sincronizações de ID com um container diferente, você pode especificar essa ID de container aqui. |
-| `uuidCookie` | Opcional. Essa configuração permite que você defina um [!DNL Adobe] cookie no domínio primário. Este cookie contém o [UUID](../../reference/ids-in-aam.md) . |
-| `visitorService` - `namespace` | Obrigatório. O `namespace` parâmetro é necessário se você usar o [!DNL AudienceManagement] módulo fornecido com a [!UICONTROL AppMeasurement] versão 2.10 ou mais recente. Este [!UICONTROL AudienceManagement] módulo requer o uso da versão [!UICONTROL Adobe Experience Platform Identity Service] 3.3 ou mais recente. <br> A ID [!UICONTROL Experience Cloud Organization ID] é fornecida por uma empresa ao se inscrever no [!UICONTROL Experience Cloud]. Descubra a ID da organização da empresa em [Organizações e vinculação](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html)de contas. |
+| `uuidCookie` | Opcional. Essa configuração permite que você defina um [!DNL Adobe] cookie no domínio primário. Isso [!DNL cookie] contém o [UUID](../../reference/ids-in-aam.md) . |
+| `visitorService` - `namespace` | Obrigatório. O `namespace` parâmetro é necessário se você usar o [!DNL AudienceManagement] módulo fornecido com a [!UICONTROL AppMeasurement] versão 2.10 ou mais recente. Este [!UICONTROL AudienceManagement] módulo requer o uso da versão [!UICONTROL Adobe Experience Platform Identity Service] 3.3 ou mais recente. <br><br>A ID [!UICONTROL Experience Cloud Organization ID] é fornecida por uma empresa ao se inscrever no [!UICONTROL Experience Cloud]. Descubra a ID da organização da empresa em [Organizações e vinculação](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html)de contas. |
 
-## Resultados: Encaminhamento de dados para Audience Manager {#results-data-forwarding}
+## Resultados: Encaminhamento de dados para [!DNL Audience Manager] {#results-data-forwarding}
 
 Sua [!DNL Analytics] implementação envia dados para [!DNL Audience Manager] depois de:
 
