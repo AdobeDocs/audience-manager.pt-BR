@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Processo de transferência de dados em lote descrito
 uuid: a9eee940-151c-44f8-9fe9-8ab47d8fa45c
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ O processo de integração de dados em lote salva as informações do visitante 
 ## Etapas da integração de dados
 
 1. Um usuário visita um site de cliente.
-1. Audience Manager e o provedor de dados de terceiros atribuem ao visitante uma ID exclusiva (normalmente com um cookie).
-1. Audience Manager chama o provedor de dados de terceiros para corresponder às IDs de visitante.
-1. Uma solicitação programada, normalmente em um intervalo diário, troca dados de segmento de visitante entre o Audience Manager e o provedor de dados de terceiros.
+1. [!DNL Audience Manager] e o provedor de dados de terceiros atribui ao visitante uma ID exclusiva (normalmente com um cookie).
+1. [!DNL Audience Manager] chama o provedor de dados de terceiros para corresponder às IDs de visitante.
+1. Uma solicitação programada, normalmente em um intervalo diário, troca dados de segmentos de visitantes entre [!DNL Audience Manager] o seu provedor de dados de terceiros.
 1. Sempre que um [!UICONTROL Server-to-Server] arquivo de entrada é processado, um recibo é enviado por email para soluções de parceiros e, se configurado, para o parceiro. Para obter mais informações, consulte Mensagem de [amostra para parceiros após o processamento](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)de entrada.
