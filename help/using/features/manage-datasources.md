@@ -7,16 +7,19 @@ solution: Audience Manager
 title: Gerenciar fontes de dados
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 0869e016d7f80710cb194449c48675b82fdfa865
+workflow-type: tm+mt
+source-wordcount: '371'
+ht-degree: 2%
 
 ---
 
 
-# Manage Data Sources {#manage-data-sources}
+# Gerenciar [!UICONTROL Data Sources] {#manage-data-sources}
 
-## Create a Data Source {#create-data-source}
+## Criar um [!UICONTROL Data Source] {#create-data-source}
 
-Para criar uma nova fonte de dados, vá até **[!UICONTROL Audience Data > Data Sources > Add New]** e conclua as etapas para cada seção descrita aqui. São necessárias permissões de administrador para criar uma fonte de dados.
+Para criar um novo [!UICONTROL data source], vá para **[!UICONTROL Audience Data > Data Sources > Add New]** e conclua as etapas para cada seção descrita aqui. Permissões de administrador são necessárias para criar um [!UICONTROL data source].
 
 <!-- create-datasource.xml -->
 
@@ -24,19 +27,19 @@ Para criar uma nova fonte de dados, vá até **[!UICONTROL Audience Data > Data 
 >
 >Consulte Configurações da fonte de [dados e Opções](../features/datasources-list-and-settings.md#settings-menu-options) de menu para obter descrições desses diferentes controles.
 
-## Detalhes da fonte de dados {#details}
+## [!UICONTROL Data Source] Detalhes {#details}
 
 Para concluir a [!UICONTROL Data Source Details] seção:
 
-1. Nomeie a fonte de dados.
-1. *(Opcional)* Descreva a fonte de dados. Uma descrição concisa ajuda a definir a função ou a finalidade da fonte de dados.
-1. Forneça um código de integração. Geralmente, os códigos de integração são opcionais. Eles são necessários quando você deseja:
+1. Dê um nome ao [!UICONTROL data source].
+1. *(Opcional)* Descreva o [!UICONTROL data source]. Uma descrição concisa ajuda a definir a função ou a finalidade do [!UICONTROL data source].
+1. Forneça um [!UICONTROL integration code]. Geralmente, [!UICONTROL integration codes] são opcionais. Eles são necessários quando você deseja:
 
    * [Crie uma fonte](../features/profile-merge-rules/merge-rules-start.md#create-data-source)de dados entre dispositivos.
-   * Use o Serviço [de identificação da plataforma](https://docs.adobe.com/content/help/en/id-service/using/home.html)Adobe Experience.
+   * Use o Serviço [de identificação do](https://docs.adobe.com/content/help/en/id-service/using/home.html)Adobe Experience Platform.
    * Trabalhar com regras [de mesclagem de](../features/profile-merge-rules/merge-rules-start.md)Perfis.
 
-1. Escolha um **[!UICONTROL ID Type]**. As opções de Tipo de ID incluem:
+1. Escolha um **[!UICONTROL ID Type]**. [!UICONTROL ID Type] as opções incluem:
 
    * **[!UICONTROL Cookie]**
    * **[!UICONTROL Device Advertising ID]**
@@ -47,37 +50,37 @@ Para concluir a [!UICONTROL Data Source Details] seção:
    * **[!UICONTROL Person]**
    * **[!UICONTROL Household]**
 
-## Controles da exportação de dados {#export-controls}
+## [!UICONTROL Data Export Controls] {#export-controls}
 
-[Os Controles](../features/data-export-controls.md) de exportação de dados são regras de classificação opcionais que podem ser aplicadas a uma fonte de dados e destino. Elas impedem que você envie dados para um destino quando essa ação viola a privacidade dos dados ou o contrato de uso. Ignore esta seção se não usar [!UICONTROL Data Export Controls].
+[Os Controles](../features/data-export-controls.md) de exportação de dados são regras de classificação opcionais que podem ser aplicadas a um [!UICONTROL data source] e [!UICONTROL destination]. Elas impedem que você envie dados para um [!UICONTROL destination] quando essa ação viola a privacidade dos dados ou o contrato de uso. Ignore esta seção se não usar [!UICONTROL Data Export Controls].
 
-## Data Source Settings {#settings}
+## [!UICONTROL Data Source] Configurações {#settings}
 
-Essas configurações determinam como uma fonte de dados é identificada, usada e compartilhada. Você também pode ativar o relatórios de erro para arquivos de dados de entrada. Para concluir a [!UICONTROL Data Source Settings] seção:
+Essas configurações determinam como um [!UICONTROL data source] é identificado, usado e compartilhado. Você também pode ativar o relatórios de erro para arquivos de dados de entrada. Para concluir a [!UICONTROL Data Source Settings] seção:
 
-1. Marque uma [!UICONTROL Data Source Setting] caixa de seleção para aplicar uma opção à sua fonte de dados.
+1. Marque uma caixa de [!UICONTROL Data Source Setting] seleção para aplicar uma opção à sua [!UICONTROL data source].
 2. Clique em **[!UICONTROL Save]**.
-
->[!MORELIKETHIS]
->
->* [Configurações da fonte de dados e opções de menu](../features/datasources-list-and-settings.md#settings-menu-options)
-
 
 ## Excluir uma fonte de dados {#delete-data-source}
 
 <!-- t_datasource_delete.xml -->
 
-Exclua uma fonte de dados que não é mais necessária.
+Exclua um item de [!UICONTROL data source] que você não precisa mais.
 
 >[!NOTE]
 >
 >Observe as seguintes restrições:
 >
 >* Não é possível excluir uma Audiência [ativa ou uma característica](../features/traits/client-activity-synced-audience-traits.md)sincronizada da fonte de dados.
->* Para clientes que usam o Adobe Analytics: O Gerenciador de Audiências não permite que você exclua fontes de dados criadas automaticamente de seus conjuntos de [!DNL Analytics] relatórios. Use o Serviço [](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services-landing.html) principal para desmapear essas fontes de dados.
+>* Para clientes que usam o Adobe Analytics: O Audience Manager não permite que você exclua fontes de dados criadas automaticamente de seus conjuntos de [!DNL Analytics] relatórios. Use o Serviço [](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services-landing.html) principal para desmapear essas fontes de dados.
 
 
 1. Clique em **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**.
 1. Marque a caixa de seleção ao lado de uma ou mais fontes de dados.
 Você pode usar a [!UICONTROL Search] caixa para localizar as fontes de dados desejadas se tiver uma lista longa.
 1. Clique em ![](assets/icon_trash.png)e confirme a exclusão.
+
+
+>[!MORELIKETHIS]
+>
+>* [Configurações da fonte de dados e opções de menu](../features/datasources-list-and-settings.md#settings-menu-options)
