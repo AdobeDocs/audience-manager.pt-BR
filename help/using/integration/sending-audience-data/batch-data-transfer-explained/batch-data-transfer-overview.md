@@ -7,33 +7,31 @@ solution: Audience Manager
 title: Visão geral do envio de dados em lote para o Audience Manager
 uuid: 472583b1-5057-4add-8e3c-5e50762c88e0
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '482'
 ht-degree: 3%
 
 ---
 
 
-# Visão geral do envio de dados em lote para o Audience Manager {#send-batch-data-to-audience-manager-overview}
+# Enviar dados em lote para [!DNL Audience Manager] visão geral {#send-batch-data-to-audience-manager-overview}
 
 Uma visão geral para clientes técnicos e não técnicos que desejam trazer dados de outros sistemas (off-line) para [!DNL Audience Manager].
 
 ## Benefícios
 
-<!-- c_offline_to_online.xml -->
-
 Você pode disponibilizar dados de outros sistemas em [!DNL Audience Manager]. Nosso sistema pode ajudá-lo a desbloquear o valor e aproveitar os dados do usuário que você coletou anteriormente. Isso inclui informações sobre compras, pesquisas do cliente, dados de registro, [!DNL CRM] bancos de dados etc. Embora cada integração apresente seus próprios desafios, todos eles compartilham esses passos comuns. Revise este material para ajudar a reduzir o esforço necessário para colocar seus dados offline online.
 
 ## Etapa 1: Sincronizar IDs de usuário
 
-Durante a sincronização, [!DNL Audience Manager] atribui IDs exclusivas aos clientes e seus usuários. Essas IDs são conhecidas como [!UICONTROL Data Provider ID] ([!UICONTROL DPID]) e [!UICONTROL Unique User ID] ([!UICONTROL UUID]), respectivamente. [!DNL Audience Manager] usa o [!UICONTROL DPID] e [!UICONTROL UUID] para identificar usuários e qualificá-los para características, segmentos, grupos de audiências e para relatórios. Além disso, nosso código de coleta de dados ([!UICONTROL DIL]) procura por essas IDs para capturar dados de visitantes do seu site. Quando essa etapa for concluída, [!DNL Audience Manager] e seu repositório offline deverá conter as IDs correspondentes para cada registro de usuário.
+Durante a sincronização, [!DNL Audience Manager] atribui IDs exclusivas a clientes e seus usuários. Essas IDs são conhecidas como [!UICONTROL Data Provider ID] ([!UICONTROL DPID]) e [!UICONTROL Unique User ID] ([!UICONTROL UUID]), respectivamente. [!DNL Audience Manager] usa o [!UICONTROL DPID] e [!UICONTROL UUID] para identificar usuários e qualificá-los para [!UICONTROL traits], [!UICONTROL segments], grupos de audiências e para relatórios. Além disso, nosso código de coleta de dados ([!UICONTROL DIL]) procura por essas IDs para capturar dados de visitantes do seu site. Quando essa etapa for concluída, [!DNL Audience Manager] e seu repositório offline deverá conter as IDs correspondentes para cada registro de usuário.
 
 Considerações importantes sobre esta etapa:
 
 * **Posicionamento da ID do cliente:** [!DNL Audience Manager] precisa saber onde a ID do cliente aparece no seu site (por exemplo, ela é armazenada em um cookie, uma variável do Analytics, no código da página etc.).
 * **Excluir[!DNL PII]:** As IDs de usuário não devem conter informações de identificação pessoal ([!DNL PII]).
-* **Diferenciação entre maiúsculas e minúsculas e conteúdo:** Durante uma sincronização de dados em tempo real, as IDs de usuário capturadas do site por [!DNL Audience Manager] meio devem corresponder às IDs enviadas do repositório offline. Por exemplo, se os registros offline contêm informações sobre [!DNL User123], mas seu site renderiza essa ID como [!DNL USER123], o Audience Manager os vê como visitantes diferentes. Como resultado, as informações online deste visitante não podem ser associadas aos registros correspondentes no banco de dados offline. As IDs devem corresponder exatamente.
+* **Diferenciação entre maiúsculas e minúsculas e conteúdo:** Durante uma sincronização de dados em tempo real, as IDs de usuário capturadas do site por [!DNL Audience Manager] meio devem corresponder às IDs enviadas do repositório offline. Por exemplo, se os registros offline contêm informações sobre [!DNL User123], mas seu site renderiza essa ID como [!DNL USER123], [!DNL Audience Manager] ela é vista como visitantes diferentes. Como resultado, as informações online deste visitante não podem ser associadas aos registros correspondentes no banco de dados offline. As IDs devem corresponder exatamente.
 
 See [ID Synchronization for Inbound Data Transfers](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md).
 
