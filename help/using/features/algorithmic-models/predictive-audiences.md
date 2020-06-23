@@ -5,9 +5,9 @@ seo-title: Visão geral das Audiências preditivas
 solution: Audience Manager
 title: Audiências Audience Manager preditivas
 translation-type: tm+mt
-source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
+source-git-commit: f52321f3621d9eb6b9c5b643a3516f39f35466c2
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1251'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Ao configurar seus [!UICONTROL Predictive Audiences] modelos, lembre-se das segu
    >[!IMPORTANT]
    > No momento, o número [!UICONTROL Total Segment Population] de segmentos preditivos é exibido como 0 e as Transferências [de Dados de Saída em](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md) Lote não são suportadas para [!UICONTROL Predictive Audiences]. Esse comportamento será alterado em uma atualização futura.
 * [!UICONTROL Predictive Audiences] executa a classificação de audiência com base nas características originais, de todas as fontes de dados originais.
-* A avaliação de segmentos para [!UICONTROL Predictive Audiences] usa o padrão **[!UICONTROL Profile Merge Rule]** definido na sua conta. Para saber mais sobre [!UICONTROL Profile Merge Rules] , consulte a [documentação](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/profile-merge-rules/merge-rules-overview.html)dedicada.
+* A avaliação de segmentos para [!UICONTROL Predictive Audiences] usa o padrão **[!UICONTROL Profile Merge Rule]** definido na sua conta. Para saber mais sobre [!UICONTROL Profile Merge Rules] , consulte a [documentação](../profile-merge-rules/merge-rules-overview.md)dedicada.
 * Algumas características e segmentos não são suportados como audiências de linha de base ou públicos alvos. [!UICONTROL Predictive Audiences] os modelos não serão salvos ao escolher uma das seguintes opções como linhas de base ou audiências de público alvo:
    * Características preditivas e segmentos criados com características preditivas;
    * [Características ou segmentos de Adobe Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) ;
