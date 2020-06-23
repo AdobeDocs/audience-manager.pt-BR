@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Captura de dados de clique de Campanha por meio de chamadas de pixels
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 620730ab1596d4777a768de4453b73538671279d
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '652'
 ht-degree: 7%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 7%
 
 # Capturing Campaign Click Data via Pixel Calls {#capturing-campaign-click-data-via-pixel-calls}
 
-O rastreamento de cliques permite a medição do envolvimento do visitante em toda a campanha, pois registra a atividade baseada em cliques para criações de terceiros. Semelhante à coleta [de](/help/using/integration/media-data-integration/impression-data-pixels.md)impressões, uma chamada de evento é enviada para os servidores de coleta de dados do Audience Manager ([!DNL DCS]) para processamento. O visitante é então redirecionado para o endereço da Web desejado.
+O rastreamento de cliques permite a medição do envolvimento do visitante em toda a campanha, pois registra a atividade baseada em cliques para criações de terceiros. Semelhante à coleta [de](/help/using/integration/media-data-integration/impression-data-pixels.md)impressões, uma chamada de evento é enviada para os servidores de coleta de [!DNL Audience Manager] dados ([!DNL DCS]) para processamento. O visitante é então redirecionado para o endereço da Web desejado.
 
 >[!NOTE]
 >
@@ -166,7 +166,7 @@ Com base no exemplo acima, o navegador é redirecionado para o seguinte [!DNL UR
 
 `https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`
 
-## Funcionalidade adicional - Relatórios de otimização de Audiência
+## Funcionalidade adicional - [!UICONTROL Audience Optimization Reports]
 
 Você pode usar chamadas de pixel para alimentar os Relatórios [de otimização de](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)Audiência. Consulte [Visão geral e mapeamentos para arquivos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) de metadados se desejar usar pixels para alimentar os relatórios.
 
