@@ -1,9 +1,9 @@
 ---
 description: O Audience Manager proporciona serviços líderes do setor para o gerenciamento online de dados. Nossos produtos e serviços proporcionam aos anunciantes e editores as ferramentas necessárias para controlar e aproveitar seus ativos de dados com o objetivo de ajudar a aumentar o sucesso das vendas.
-seo-description: Documentação técnica e autoajuda para o Audiência Manager (AAM). O AAM fornece serviços líderes do setor para gestões de dados de audiências online e fornece aos anunciantes e editores digitais as ferramentas necessárias para controlar e aproveitar seus ativos de dados para ajudar a impulsionar o sucesso das vendas.
-seo-title: Documentação técnica do produto Adobe Audiência Manager
+seo-description: Documentação técnica e autoajuda para o Audience Manager (AAM). O AAM fornece serviços líderes do setor para gestões de dados de audiências online e fornece aos anunciantes e editores digitais as ferramentas necessárias para controlar e aproveitar seus ativos de dados para ajudar a impulsionar o sucesso das vendas.
+seo-title: Documentação técnica do produto Adobe Audience Manager
 solution: Audience Manager
-title: Documentação do produto do Gerenciador de Audiências
+title: Documentação do produto Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 translation-type: tm+mt
 source-git-commit: 54d108d3ab2a5476e919d706be74821d6ef8c2bd
@@ -15,9 +15,9 @@ ht-degree: 15%
 
 
 
-# Documentação do produto do Gerenciador de Audiências {#audience-manager-product-documentation}
+# Documentação do produto Audience Manager {#audience-manager-product-documentation}
 
-Este guia de documentação técnica fornece assistência de autoajuda para o Gerenciador de Audiências - um serviço líder do setor para gestões de dados de audiências online. Nossos produtos e serviços proporcionam aos anunciantes e editores as ferramentas necessárias para controlar e aproveitar seus ativos de dados com o objetivo de ajudar a aumentar o sucesso das vendas.
+Este guia de documentação técnica fornece assistência de autoajuda para o Audience Manager - um serviço líder do setor para gestões de dados de audiências online. Nossos produtos e serviços proporcionam aos anunciantes e editores as ferramentas necessárias para controlar e aproveitar seus ativos de dados com o objetivo de ajudar a aumentar o sucesso das vendas.
 
 ## Uso deste guia de documentação do produto
 
@@ -27,14 +27,14 @@ Este guia de documentação técnica fornece assistência de autoajuda para o Ge
 
 ## Como ler esta página
 
-* Start explorando a funcionalidade **principal do Gerenciador de** Audiências da seção para obter um instantâneo dos problemas que o Audiência Manager pode ajudar a resolver. Consulte também a visão geral [do Gerenciador de](/help/using/overview/aam-overview.md) Audiências e retorne a esta página.
-* Em seguida, leia **Introdução ao Gerenciador** de Audiências para se familiarizar com os conceitos do Gerenciador de Audiências. Verifique também os guias de implementação técnica e comercial.
-* Consulte as notas de versão mais recentes do Gerenciador de Audiências e leia sobre os recursos mais recentes na seção **Notas de versão e Recursos** mais recentes.
-* Por fim, você pode explorar mais recursos da Experience Cloud, como fóruns, tutoriais em vídeo, cursos de treinamento presenciais e online na seção **Learning Center - Recommended Audiência Manager e Experience Cloud Resources**.
+* Start explorando a funcionalidade **principal do** Audience Manager para obter um instantâneo dos problemas que o Audience Manager pode ajudar a resolver. Consulte também a visão geral [do](/help/using/overview/aam-overview.md) Audience Manager e retorne a esta página.
+* Em seguida, leia **Introdução ao Audience Manager** para se familiarizar com os conceitos do Audience Manager. Verifique também os guias de implementação técnica e comercial.
+* Consulte as notas de versão mais recentes do Audience Manager e leia sobre os recursos mais recentes nas notas de **versão e os recursos** mais recentes da seção.
+* Por fim, você pode explorar mais recursos de Experience Cloud como fóruns, tutoriais em vídeo, cursos de treinamento presenciais e online na seção **Learning Center - Recommended Audience Manager and Experience Cloud Resources (Centro de aprendizado - Recursos** recomendados de e).
 
 <br> 
 
-## Funcionalidade principal do Gerenciador de Audiências
+## funcionalidade principal do Audience Manager
 
 <table>
    <td>
@@ -43,7 +43,7 @@ Este guia de documentação técnica fornece assistência de autoajuda para o Ge
          <b>Importar dados</b>
       </div>
       <p>
-         <em><ul><li><a href="/help/using/api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md">Servidores de coleção de dados</a></li><li><a href="/help/using/integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md">Ingestão de dados em lote</a></li><li><a href="/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md">Inscrição de Log</a></li><li><a href="/help/using/integration/integration-other-solutions/audience-management-module.md">Encaminhar dados do Adobe Analytics para o Gerenciador de Audiências</a></li></ul></em>
+         <em><ul><li><a href="/help/using/api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md">Servidores de coleção de dados</a></li><li><a href="/help/using/integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md">Ingestão de dados em lote</a></li><li><a href="/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md">Inscrição de Log</a></li><li><a href="/help/using/integration/integration-other-solutions/audience-management-module.md">Encaminhar dados do Adobe Analytics para o Audience Manager</a></li></ul></em>
       <p>
    </td>
    <td>
@@ -72,28 +72,28 @@ Este guia de documentação técnica fornece assistência de autoajuda para o Ge
 
 <br> 
 
-## Introdução ao Gerenciador de Audiências
+## Introdução ao Audience Manager
 
 <table> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Documentação conceitual importante</b></p>
-   <p>Leia as páginas abaixo para obter uma compreensão mais profunda dos conceitos do Gerenciador de Audiências: 
-   <ul><li><a href="/help/using/overview/aam-overview.md"> Visão geral do Gerenciador de Audiências</a></li><li><a href="/help/using/reference/signal-trait-segment.md">Sinais, características e segmentos</a></li><li><a href="/help/using/reference/aam-glossary.md"> Glossário</a> </li><li><a href="/help/using/reference/ids-in-aam.md">Índice de IDs</a></li></ul></p>
+   <p>Leia as páginas abaixo para obter uma compreensão mais profunda dos conceitos de Audience Manager: 
+   <ul><li><a href="/help/using/overview/aam-overview.md"> Visão geral do Audience Manager</a></li><li><a href="/help/using/reference/signal-trait-segment.md">Sinais, características e segmentos</a></li><li><a href="/help/using/reference/aam-glossary.md"> Glossário</a> </li><li><a href="/help/using/reference/ids-in-aam.md">Índice de IDs</a></li></ul></p>
    <br> 
-   <p><b>Implementar o Gerenciador de Audiências</b></p>
-   <p> Comece a implementar o Gerenciador de Audiências lendo as páginas abaixo:
+   <p><b>Implementar Audience Manager</b></p>
+   <p> Comece a implementar o Audience Manager lendo as páginas abaixo:
      <ul>
      <li><a href="/help/using/integration/data-integration-methods.md">Métodos de integração de dados</a></li>
      <li><a href="/help/using/integration/implement-audience-manager.md">Guia de implementação</a></li>
      </ul> </p>
      <br> 
-   <p> <b>Guias de implementação técnica</b> </p> <p>Comece com as APIs do Gerenciador de Audiências e configure o Gerenciador de Audiências no seu aplicativo:</p> <p> 
+   <p> <b>Guias de implementação técnica</b> </p> <p>Comece com as APIs do Audience Manager e configure o Audience Manager no seu aplicativo:</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
      <li><a href="/help/using/api/rest-api-main/aam-api-getting-started.md">Introdução às APIs REST</a></li>
      <li><a href="/help/using/api/dcs-intro/dcs-event-calls/dcs-event-calls.md">Introdução à API DCS</a></li>
-     <li><a href="https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html">Adicionar a extensão do Gerenciador de Audiências ao Adobe Experience Platform Launch</a></li>
-    <li><a href="https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager">Adicionar o Gerenciador de Audiências ao aplicativo</a></li>
+     <li><a href="https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html">Adicione a extensão Audience Manager ao Adobe Experience Platform Launch</a></li>
+    <li><a href="https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager">Adicionar Audience Manager ao aplicativo</a></li>
      </ul> </p>
     </td>
 
@@ -158,10 +158,10 @@ Este guia de documentação técnica fornece assistência de autoajuda para o Ge
      Consulte as <a href="https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html" format="https" scope="external">Notas de versão da Experience Cloud</a> para obter novos recursos e correções.</p> 
      <br> 
      <p> <b>Recursos mais recentes</b> </p> <p> 
-     Leia sobre os recursos mais recentes do Gerenciador de Audiências:</p>
-     <p><ul><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Plug-in do Gerenciador de Audiências para IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Audiências preditivas</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Relatórios de uso de Atividade</a></li>
+     Leia sobre os recursos mais recentes do Audience Manager:</p>
+     <p><ul><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Plug-in de Audience Manager para IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Audiências preditivas</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Relatórios de uso de Atividade</a></li>
      <li><a href="/help/using/overview/data-security-and-privacy/data-privacy.md">Visão geral do suporte e da documentação de privacidade da California Consumer Privacy Act (CCPA)</a></li>
-     <li><a href="/help/using/features/segments/trait-recommendations.md">Recomendações inteligentes para dados do Audiência Marketplace, capacitadas pelo Adobe Sensei</a></li>
+     <li><a href="/help/using/features/segments/trait-recommendations.md">Recomendações inteligentes para dados de Audience Marketplace, capacitadas pelo Adobe Sensei</a></li>
      <li><a href="/help/using/features/profile-merge-rules/merge-rules-overview.md">Aprimoramentos das regras de mesclagem de Perfis</a></li></ul><p>
     </td>
   </tr> 
@@ -189,7 +189,7 @@ Read about the latest Audience Manager features:
 
 <br> 
 
-## Learning Center - Recursos recomendados do Audiência Manager e da Experience Cloud
+## Centro de aprendizado - Recursos de Audience Manager e Experience Cloud
 
 
 <table> 
@@ -197,14 +197,14 @@ Read about the latest Audience Manager features:
   <tr> 
    <td colname="col2"> 
      <p> <b>Recursos da Experience Cloud</b> </p>
-     <p>Visite os links abaixo para conectar-se com outros clientes do Gerenciador de Audiências nos fóruns da comunidade, para assistir a vídeos tutoriais de visualização para nossos recursos ou para solucionar problemas no centro de aprendizado e suporte.</p>
+     <p>Visite os links abaixo para se conectar com outros clientes do Audience Manager nos fóruns da comunidade, para assistir a vídeos tutoriais de visualização sobre nossos recursos ou para solucionar problemas no centro de aprendizado e suporte.</p>
      <p> 
      <ul id="ul_E30EC96BDC624B5591F0470D430B7F41"> 
-      <li id="li_F3A5CCFAE0F247CEB41A03CA8E03106B"><a href="https://forums.adobe.com/community/experience-cloud/analytics-cloud/audience-manager" format="https" scope="external"> Fóruns da comunidade do Audiência Manager</a> </li>
-      <li><a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html" format="http" scope="external"> Tutoriais do Gerenciador de Audiências</a> </li> 
+      <li id="li_F3A5CCFAE0F247CEB41A03CA8E03106B"><a href="https://forums.adobe.com/community/experience-cloud/analytics-cloud/audience-manager" format="https" scope="external"> Fóruns da comunidade Audience Manager</a> </li>
+      <li><a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html" format="http" scope="external"> Tutoriais de Audience Manager</a> </li> 
       <li id="li_1737D63307024F26B1F967621613A5AC"><a href="https://www.adobe.com/privacy.html" format="http" scope="external"> Centro de privacidade da Adobe</a> </li>  
       <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> Treinamento e certificações da Adobe</a> </li> 
-      <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://helpx.adobe.com/support/experience-cloud.html" scope="external" format="https">Página inicial de documentação do produto da Experience Cloud</a> </li> 
+      <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://helpx.adobe.com/support/experience-cloud.html" scope="external" format="https">Página inicial de documentação do produto Experience Cloud</a> </li> 
       <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/support/audience-manager.html" format="https" scope="external"> Aprendizagem e suporte do Audience Manager</a> </li> 
      </ul> </p> 
      <br> 
