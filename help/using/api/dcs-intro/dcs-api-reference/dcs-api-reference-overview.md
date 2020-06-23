@@ -1,12 +1,12 @@
 ---
 description: Informações conceituais, descrições e definições para código, métodos e processos da API DCS.
-seo-description: Informações conceituais, descrições e definições para código, métodos e processos da API DCS no Adobe Audiência Manager (AAM).
-seo-title: Visão geral de referência da API DCS no Adobe Audiência Manager (AAM)
+seo-description: Informações conceituais, descrições e definições para código, métodos e processos da API DCS no Adobe Audience Manager (AAM).
+seo-title: Visão geral de referência da API DCS no Adobe Audience Manager (AAM)
 title: Visão geral de referência da API DCS
 translation-type: tm+mt
-source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+source-git-commit: 0869e016d7f80710cb194449c48675b82fdfa865
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '302'
 ht-degree: 1%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 # Visão geral de referência da API DCS
 
-Informações conceituais, descrições e definições para código, métodos e processos da API DCS.
+Informações conceituais, descrições e definições para [!DNL DCS API] código, métodos e processos.
 
 * [Métodos da API DCS](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
-   Envie dados para a API DCS usando os métodos GET ou POST.
+   Envie dados para o [!DNL DCS API] usando os métodos GET ou POST.
 
 * [Códigos de erros, mensagens e exemplos de DCS](/help/using/api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
 
@@ -26,7 +26,7 @@ Informações conceituais, descrições e definições para código, métodos e 
 
 * [Monitoramento de ID e lista de negação](/help/using/api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
 
-   O DCS monitora as IDs que recebe e adiciona aquelas que estão sendo enviadas a uma taxa excepcionalmente alta durante um curto período de tempo para uma lista de negação.
+   O DCS monitora as IDs recebidas e adiciona aquelas que estão sendo enviadas a uma taxa excepcionalmente alta durante um curto período de tempo para uma lista de negação.
 
 * [IDs de região DCS, locais e nomes de host](/help/using/api/dcs-intro/dcs-api-reference/dcs-regions.md)
 
