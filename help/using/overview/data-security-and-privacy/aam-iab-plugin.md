@@ -5,15 +5,15 @@ seo-title: Plug-in do Audience Manager para a Estrutura de consentimento do IAB
 solution: Audience Manager
 title: Plug-in do Audience Manager para a Estrutura de consentimento do IAB
 translation-type: tm+mt
-source-git-commit: 1fb8ee6c229418e48fcaa412a8ea0f1ab5f00331
+source-git-commit: 3523cdb0d6d412c1a93694e4cbeab188154120f0
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: '2449'
 ht-degree: 7%
 
 ---
 
 
-# Plug-in do Audience Manager para a Estrutura de consentimento do IAB {#aam-iab-plugin}
+# [!DNL Audience Manager Plug-in for IAB TCF] {#aam-iab-plugin}
 
 ## Visão geral
 
@@ -43,6 +43,10 @@ Atualmente, o Audience Manager não suporta:
 
 * workflows para dispositivos móveis;
 * Anexar consentimento às exportações de segmento.
+
+## Atualizando para [!DNL IAB TCF v2.0] {#upgrading}
+
+Os clientes que estão atualizando sua [!DNL Audience Manager Plug-in for IAB TCF] implementação da [!DNL IAB TCF] v1.1 para a [!DNL IAB TCF] v2.0 ou ativando a [!DNL IAB TCF] v2.0 pela primeira vez devem seguir as mesmas diretrizes sobre pré-requisitos e implementação, conforme descrito abaixo.
 
 ## Pré-requisitos {#prerequisites}
 
