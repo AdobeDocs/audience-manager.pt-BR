@@ -5,7 +5,7 @@ seo-title: Plug-in do Audience Manager para a Estrutura de consentimento do IAB
 solution: Audience Manager
 title: Plug-in do Audience Manager para a Estrutura de consentimento do IAB
 translation-type: tm+mt
-source-git-commit: 3523cdb0d6d412c1a93694e4cbeab188154120f0
+source-git-commit: 40e30379f051398a5f6c8ee7db49b6c5c5e146cd
 workflow-type: tm+mt
 source-wordcount: '2449'
 ht-degree: 7%
