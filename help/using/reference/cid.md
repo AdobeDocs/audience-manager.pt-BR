@@ -1,12 +1,16 @@
 ---
-description: Atualize seu código para usar d_cid ou d_cid_ic em vez de d_dpid e d_dpuuid. As variáveis DPID e DPUUID continuarão funcionando, mas você deve considerá-las obsoletas. Inclui variantes DPID e DPUUID sem o prefixo d_.
-seo-description: Atualize seu código para usar d_cid ou d_cid_ic em vez de d_dpid e d_dpuuid. As variáveis DPID e DPUUID continuarão funcionando, mas você deve considerá-las obsoletas. Inclui variantes DPID e DPUUID sem o prefixo d_.
+description: Atualize seu código para usar d_cid ou d_cid_ic em vez de d_dpid e d_dpuuid. As variáveis DPID e DPUUID continuarão funcionando, mas você deve considerá-las obsoletas. Isso inclui variantes DPID e DPUUID sem o prefixo d_.
+seo-description: Atualize seu código para usar d_cid ou d_cid_ic em vez de d_dpid e d_dpuuid. As variáveis DPID e DPUUID continuarão funcionando, mas você deve considerá-las obsoletas. Isso inclui variantes DPID e DPUUID sem o prefixo d_.
 seo-title: CID substitui DPID e DPUUID
 solution: Audience Manager
 title: CID substitui DPID e DPUUID
 uuid: 3641eac5-b19e-45d5-bc1c-35a23b4bab8c
+feature: reference
 translation-type: tm+mt
-source-git-commit: cb3819192c523f9c20e9a15ca5d43ef36c49e900
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '666'
+ht-degree: 2%
 
 ---
 
@@ -31,16 +35,16 @@ A DPID e a DPUUID são pares de valores chave que contêm uma ID de provedor de 
    <td colname="col1"> <p>ID do provedor de dados (DPID) </p> </td> 
    <td colname="col2"> 
     <ul id="ul_0567D39DCE784C20A81EC0845C7B1C6B"> 
-     <li id="li_DDD8C18266314987A7C802918F4892A8"> <code>d_dpid=ID do provedor<i>de dados</i></code> </li> 
-     <li id="li_80185558932E416698ABD71158303EA8"> <code>dpid=ID do provedor<i>de dados</i></code> </li> 
+     <li id="li_DDD8C18266314987A7C802918F4892A8"> <code>d_dpid=<i>data provider ID</i></code> </li> 
+     <li id="li_80185558932E416698ABD71158303EA8"> <code>dpid=<i>data provider ID</i></code> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID de usuário único do provedor de dados (DPUUID) </p> </td> 
    <td colname="col2"> 
     <ul id="ul_EA7F769523B142CE8FF5886E5CDFF2D9"> 
-     <li id="li_C984E2FF0A83495880BB87C610FA3F79"> <code>d_dpuuid=ID de usuário exclusiva do provedor<i>de dados</i></code> </li> 
-     <li id="li_DCFFAC995DCC49F489ACEFD97A06F877"> <code>dpuuid=ID de usuário exclusiva do provedor<i>de dados</i></code> </li> 
+     <li id="li_C984E2FF0A83495880BB87C610FA3F79"> <code>d_dpuuid=<i>data provider unique user ID</i></code> </li> 
+     <li id="li_DCFFAC995DCC49F489ACEFD97A06F877"> <code>dpuuid=<i>data provider unique user ID</i></code> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -52,7 +56,7 @@ Esses pares de valor chave ainda funcionam, mas estão obsoletos. Você deve atu
 
 Os pares de valores chave CID e CID_IC substituem DPID e DPUUID. Elas fornecem as mesmas funções que a DPID e a DPUUID, mas são mais eficientes porque incluem a ID do provedor de dados (ou código de integração) e a ID do usuário em um único par de valores chave. Em cada par de valor chave:
 
-* O símbolo = separa a chave dos valores relacionados.
+* O símbolo = separa a chave de seus valores relacionados.
 * O caractere ASCII não imprimível %01 separa os valores.
 
 `d_cid` e `d_cid_ic` use a sintaxe mostrada abaixo. Observação: no código, o *itálico* indica um espaço reservado variável.
@@ -67,11 +71,11 @@ Os pares de valores chave CID e CID_IC substituem DPID e DPUUID. Elas fornecem a
  <tbody> 
   <tr> 
    <td colname="col1"> <p>ID do cliente (CID) </p> </td> 
-   <td colname="col2"> <p> <code>d_cid=ID<i>do provedor de</i>dados%01ID<i>do usuário</i></code> </p> </td> 
+   <td colname="col2"> <p> <code>d_cid=<i>data provider ID</i>%01<i>user ID</i></code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Código de integração da ID do cliente (CID_IC) </p> </td> 
-   <td colname="col2"> <p> <code>d_cid_ic=código<i>de</i>integração%01<i>ID do usuário</i></code> </p> <p> Um código <span class="term"> de</span> integração é uma ID alternativa que você pode usar em vez da ID da Fonte de Dados, atribuída pelo <span class="keyword"> Audience Manager</span>. Consulte <a href="../features/manage-datasources.md#create-data-source"> Criar uma fonte</a> de dados se precisar configurar um código de integração. </p> </td> 
+   <td colname="col2"> <p> <code>d_cid_ic=<i>integration code</i>%01<i>user ID</i></code> </p> <p> Um código <span class="term"> de</span> integração é uma ID alternativa que você pode usar em vez da ID da fonte de dados, atribuída por <span class="keyword"> Audience Manager</span>. Consulte <a href="../features/manage-datasources.md#create-data-source"> Criar uma fonte</a> de dados se precisar configurar um código de integração. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -101,7 +105,7 @@ A tabela a seguir fornece exemplos por tipo de evento.
    <td colname="col1"> <p>Evento </p> </td> 
    <td colname="col2"> 
     <ul id="ul_6EAB4188C6954512A28D1A8328794BCB"> 
-     <li id="li_344AAEF1622343489E2AD6E2929CEA98">Novo: <code> .../event?d_cid=123%01987...</code> </li> 
+     <li id="li_344AAEF1622343489E2AD6E2929CEA98">Novas método de API: <code> .../event?d_cid=123%01987...</code> </li> 
      <li id="li_B673C1BA5AD24C46AB8F8232EF89CE89">Obsoleto: <code> .../event?d_dpid=123&amp;d_dpuuid=987...</code> </li> 
     </ul> </td> 
   </tr> 
@@ -109,15 +113,15 @@ A tabela a seguir fornece exemplos por tipo de evento.
    <td colname="col1"> <p>Sincronização de entrada (IBS) </p> </td> 
    <td colname="col2"> 
     <ul id="ul_78270745CBC2469B8CA9EDB7032B8F92"> 
-     <li id="li_8C4620A04504442185F013F74E6B0647">Novo: <code> .../ibs:d_cid=123%01987...</code> </li> 
+     <li id="li_8C4620A04504442185F013F74E6B0647">Novas método de API: <code> .../ibs:d_cid=123%01987...</code> </li> 
      <li id="li_2A8F761C76334C1BB097CF1A9D7E8429">Obsoleto: <code> .../ibs:d_dpid=123&amp;d_dpuuid=987</code> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Gerar UUID do Audience Manager (ID) </p> </td> 
+   <td colname="col1"> <p>Gerar Audience Manager UUID (ID) </p> </td> 
    <td colname="col2"> 
     <ul id="ul_EAA764DCFF7244F69ABF67ACEE13E579"> 
-     <li id="li_18467A531FAF454A881CBD157BBFD6D2">Novo: <code> .../id?d_cid=123%01987...</code> </li> 
+     <li id="li_18467A531FAF454A881CBD157BBFD6D2">Novas método de API: <code> .../id?d_cid=123%01987...</code> </li> 
      <li id="li_433C33F7BC284362AC7CC3C9DC0BF471">Obsoleto: <code> .../id?d_dpid=123&amp;d_dpuuid=987</code> </li> 
     </ul> </td> 
   </tr> 
@@ -144,8 +148,8 @@ Cada chamada também pode incluir vários pares de valores `d_cid` e `d_cid_ic` 
    <td colname="col1"> <p>Codificação de URL </p> </td> 
    <td colname="col2"> <p>Suas equipes de desenvolvimento <i>devem</i> aplicar a codificação de URL às seguintes variáveis no par de valores chave CID: </p> <p> 
      <ul id="ul_66DCB63C60914057B2BE21F49D9A36CA"> 
-      <li id="li_6D82B4DB40BB4BB0B8FAF5841577FAAC"><code> ID</code> do usuário <code> (dpuuid)</code> </li> 
-      <li id="li_D2F94B07B0D84B09A5CDFA48518DDD62"><code> código de integração</code> </li> 
+      <li id="li_6D82B4DB40BB4BB0B8FAF5841577FAAC"><code> user ID</code> <code> (dpuuid)</code> </li> 
+      <li id="li_D2F94B07B0D84B09A5CDFA48518DDD62"><code> integration code</code> </li> 
      </ul> </p> <p> <p>Observação: É necessário codificar a ID do usuário e o código de integração em URL <i>antes</i> de concatená-los em uma string. Isso ocorre porque o caractere ASCII %01 que separa as duas variáveis não deve ser capturado na codificação do URL. </p> </p> <p>A codificação de URL garante que as IDs de usuário e os códigos de integração que contêm caracteres reservados ou não seguros, como, mas não limitados a, + ou =, sejam transmitidos corretamente para nossos servidores. </p> <p>Use a tabela <a href="https://www.w3schools.com/tags/ref_urlencode.asp" format="https" scope="external"> de codificação</a> ASCII para referência. </p> </td> 
   </tr> 
   <tr> 
