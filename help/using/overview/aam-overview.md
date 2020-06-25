@@ -5,23 +5,27 @@ seo-title: Visão geral do Audience Manager
 solution: Audience Manager
 title: Visão geral do Audience Manager
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
+feature: overview
 translation-type: tm+mt
-source-git-commit: a13c64eb45fdbcb311bfecdb39b3203523d6b399
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '309'
+ht-degree: 0%
 
 ---
 
 
 # Visão geral do Audience Manager {#audience-manager-overview}
 
-O Audience Manager ajuda você a reunir os ativos de dados do público-alvo, facilitando a coleta de informações relevantes comercialmente sobre os visitantes do site, a criação de segmentos comercializáveis e o fornecimento de anúncios e conteúdo direcionados ao público-alvo certo. Além disso, o Audience Manager oferece fácil implantação e gerenciamento de tags com coleta, controle e proteção de dados robustos.
+O Audience Manager ajuda você a reunir seus ativos de dados de audiência, facilitando a coleta de informações comercialmente relevantes sobre visitantes do site, a criação de segmentos comercializáveis e o fornecimento de anúncios e conteúdo direcionados para a audiência correta. Além disso, o Audience Manager oferta facilita a implantação e o gerenciamento de tags com coleta, controle e proteção de dados robustos.
 
-Com o Audience Manager, você não está vinculado a um vendedor de dados, troca ou plataforma do lado da demanda. Além disso, o Audience Manager é completamente agnóstico quando se trata dos ativos de dados de nossos parceiros. Com acesso a várias fontes de dados, o Audience Manager oferece aos editores digitais a capacidade de usar uma grande variedade de dados de terceiros, bem como nossa cooperação de dados privados. Converse com a nossa equipe de soluções de parceiros sobre a ajuda para tomar decisões inteligentes e precisas sobre o público-alvo.
+Com o Audience Manager, você não está vinculado a uma plataforma de venda de dados, troca ou do lado da demanda. Além disso, o Audience Manager é completamente agnóstico quando se trata dos ativos de dados de nossos parceiros. Com acesso a várias fontes de dados, o Audience Manager oferta Digital Publishers tem a capacidade de usar uma grande variedade de dados de terceiros, bem como nossa cooperação de dados privados. Converse com a nossa equipe de soluções de parceiros sobre a ajuda para tomar decisões inteligentes e precisas sobre a sua audiência de públicos alvos.
 
-## Três funções de uma Plataforma de gerenciamento de dados (DMP) {#dmp-three-functions}
+## Três funções de um Platform Gestão de dados (DMP) {#dmp-three-functions}
 
-As funções de uma Plataforma de Gerenciamento de Dados (DMP) podem ser resumidas em três categorias, como mostrado abaixo.
+As funções de um Platform Gestão de dados (DMP) podem ser resumidas em três categorias, como mostrado abaixo.
 
-![Imagem de três funções DMP: Entrada De Dados, Criação De Público-Alvo, Saída De Dados](/help/using/overview/assets/dmp-functions.png)
+![Imagem de três funções DMP: Entrada De Dados, Criação De Audiências, Saída De Dados](/help/using/overview/assets/dmp-functions.png)
 
 **Dados em**
 
@@ -29,21 +33,21 @@ O Audience Manager coleta dados primários de canais e dispositivos (análise da
 
 <br> 
 
-**Criação de público-alvo**
+**Criação de Audiências**
 
-Unifica dados em perfis de público-alvo, fornecendo uma visualização completa do cliente em dispositivos e canais. Crie modelos semelhantes, crie segmentos de público-alvo e grupos de perfis e complemente com fontes de dados de terceiros e segundo.
+Unifica dados em perfis de audiência, fornecendo uma visualização completa do cliente em dispositivos e canais. Crie modelos semelhantes, crie segmentos de audiência e grupos de perfis e complemente com fontes de dados de terceiros e segundos.
 
 <br> 
 
 **Saída de dados**
 
-Ativa os segmentos do público-alvo, enviando-os para plataformas do lado da demanda (DSPs), sistemas de gerenciamento de campanhas e outras plataformas de marketing.
+Ativa segmentos de audiência, enviando-os para plataformas do lado da demanda (DSPs), sistemas de gestão de campanha e outras plataformas de marketing.
 
 ## Mais Informações {#more-information}
 
 Consulte os seguintes recursos para obter mais informações:
 * [Visão geral do Audience Manager](https://www.adobe.com/analytics/audience-manager.html)
-* [Benefícios do Audience Manager](https://www.adobe.com/analytics/audience-manager/benefits.html)
+* [benefícios do Audience Manager](https://www.adobe.com/analytics/audience-manager/benefits.html)
 * [Recursos do Audience Manager](https://www.adobe.com/analytics/audience-manager/features.html)
 
 
