@@ -1,19 +1,23 @@
 ---
-description: O Audience Manager pode ser configurado para expirar senhas a cada 30 dias. Entre em contato com seu consultor do Audience Manager ou com o Atendimento ao cliente se quiser ativar a expiração da senha. Consulte esta seção para obter os requisitos de senha e como recuperar uma senha perdida ou esquecida.
-seo-description: O Audience Manager pode ser configurado para expirar senhas a cada 30 dias. Entre em contato com seu consultor do Audience Manager ou com o Atendimento ao cliente se quiser ativar a expiração da senha. Consulte esta seção para obter os requisitos de senha e como recuperar uma senha perdida ou esquecida.
+description: O Audience Manager pode ser configurado para expirar as senhas a cada 30 dias. Entre em contato com seu consultor de Audience Manager ou com o Atendimento ao cliente se quiser ativar a expiração da senha. Consulte esta seção para obter os requisitos de senha e como recuperar uma senha perdida ou esquecida.
+seo-description: O Audience Manager pode ser configurado para expirar as senhas a cada 30 dias. Entre em contato com seu consultor de Audience Manager ou com o Atendimento ao cliente se quiser ativar a expiração da senha. Consulte esta seção para obter os requisitos de senha e como recuperar uma senha perdida ou esquecida.
 seo-title: Requisitos de senha, contas bloqueadas e senhas esquecidas
 solution: Audience Manager
 title: Requisitos de senha, contas bloqueadas e senhas esquecidas
 uuid: bca892eb-3577-4382-8110-131f78d23069
+feature: reference
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '309'
+ht-degree: 2%
 
 ---
 
 
 # Password Requirements, Locked Accounts, and Forgotten Passwords{#password-requirements-locked-accounts-and-forgotten-passwords}
 
-O Audience Manager pode ser configurado para expirar senhas a cada 30 dias. Entre em contato com seu consultor do Audience Manager ou com o Atendimento ao cliente se quiser ativar a expiração da senha. Consulte esta seção para obter os requisitos de senha e como recuperar uma senha perdida ou esquecida.
+O Audience Manager pode ser configurado para expirar as senhas a cada 30 dias. Entre em contato com seu consultor de Audience Manager ou com o Atendimento ao cliente se quiser ativar a expiração da senha. Consulte esta seção para obter os requisitos de senha e como recuperar uma senha perdida ou esquecida.
 
 <!-- 
 
@@ -68,7 +72,7 @@ Para obter informações sobre como redefinir sua senha, consulte [Editar suas c
 
 **Bloqueio de conta**
 
-As contas são bloqueadas depois de 5 tentativas de logon. Entre em contato com o administrador da sua empresa [!DNL Audience Manager] ou com os representantes dos Serviços de Parceiro para desbloquear sua conta.
+As contas são bloqueadas depois de 5 tentativas de logon. Entre em contato com o administrador do empresa [!DNL Audience Manager] ou com um representante dos Serviços de Parceiro para desbloquear sua conta.
 
 **Senha perdida/esquecida**
 
