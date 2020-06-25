@@ -5,8 +5,12 @@ seo-title: Dicas de solução de problemas para ferramentas de gerenciamento em 
 solution: Audience Manager
 title: Dicas de solução de problemas para ferramentas de gerenciamento em massa
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
+feature: baaam
 translation-type: tm+mt
-source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '402'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +40,7 @@ Fatores como tráfego intenso de rede, uso do servidor e grandes conjuntos de da
 
 ## Erros de autenticação, longos atrasos ou comportamento sem resposta {#delays-behavior}
 
-A tabela a seguir lista alguns problemas comuns que podem ocorrer ao fazer solicitações em massa com as planilhas. Tente corrigir esses problemas com as soluções recomendadas. Se as soluções recomendadas não resolverem o problema, você deve salvar seu trabalho, reiniciar seu computador e tentar a solicitação novamente sem iniciar ou trabalhar com outros aplicativos.
+A tabela a seguir lista alguns problemas comuns que você pode encontrar ao fazer solicitações em massa com as planilhas. Tente corrigir esses problemas com as soluções recomendadas. Se as soluções recomendadas não resolverem o problema, você deve salvar seu trabalho, reiniciar seu computador e tentar a solicitação novamente sem iniciar ou trabalhar com outros aplicativos.
 
 <table id="table_AC6FB99402214A4EAC6E709465BB67AF"> 
  <thead> 
@@ -66,7 +70,7 @@ A tabela a seguir lista alguns problemas comuns que podem ocorrer ao fazer solic
     <ul id="ul_142E63CDD556414AB639E51734FEDBCF"> 
      <li id="li_DBB6C819603D46B5AECC9C854FDAFDF1">Verifique se você tem o conjunto certo de cabeçalhos para a ação de seleção. </li> 
      <li id="li_391C9031907A4085BDAD42054960045C">Verifique se você está usando a planilha correta para os cabeçalhos copiados. </li> 
-     <li id="li_76A7241989204933858621FAAB5C3408">Verifique a posição dos dados que deseja usar em uma operação em massa. Todos os cabeçalhos começam na coluna A, linha 1. Todos os dados vão para cabeçalhos correspondentes começando na coluna A, linha 2 (imediatamente abaixo dos cabeçalhos). </li> 
+     <li id="li_76A7241989204933858621FAAB5C3408">Verifique a posição dos dados que deseja usar em uma operação em massa. Todos os cabeçalhos são start na coluna A, linha 1. Todos os dados vão para cabeçalhos correspondentes começando na coluna A, linha 2 (imediatamente abaixo dos cabeçalhos). </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
