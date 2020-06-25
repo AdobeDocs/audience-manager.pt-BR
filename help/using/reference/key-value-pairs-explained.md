@@ -1,13 +1,17 @@
 ---
 description: Define e descreve pares de valores chave padrão e serializados.
-keywords: código de integração
+keywords: integration code
 seo-description: Define e descreve pares de valores chave padrão e serializados.
 seo-title: Explicação dos pares de valor-chave
 solution: Audience Manager
 title: Explicação dos pares de valor-chave
 uuid: f1435742-81ca-4964-8370-accf2f1c47a5
+feature: reference
 translation-type: tm+mt
-source-git-commit: cb3819192c523f9c20e9a15ca5d43ef36c49e900
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '280'
+ht-degree: 4%
 
 ---
 
@@ -43,10 +47,10 @@ Os destinos aceitam dados de valor chave no *`standard`* formato ou *`serialized
 
 Ao trabalhar com dados serializados, você deve especificar os caracteres que separam valores *dentro* e *entre* os pares de valores chave. Os elementos em pares de valor chave são definidos da seguinte forma:
 
-* **** Chave: Um identificador exclusivo no par de chave-valor.
-* **** Delimitador de valores: Separa pares de valores chave individuais.
-* **** Separador de valor-chave: Separa uma chave dos valores em um par de valores chave.
-* **** Separador de série: Separa valores individuais em pares de valores chave serializados.
+* **Chave:** Um identificador exclusivo no par de chave-valor.
+* **Delimitador de valores:** Separa pares de valores chave individuais.
+* **Separador de valor-chave:** Separa uma chave dos valores em um par de valores chave.
+* **Separador de série:** Separa valores individuais em pares de valores chave serializados.
 
 ## Elementos de valor-chave padrão e serializados {#standard-serialized-key-value-elements}
 
