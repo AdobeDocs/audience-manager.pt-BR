@@ -5,8 +5,12 @@ seo-title: Características principais não usadas
 solution: Audience Manager
 title: Características principais não usadas
 uuid: 90bcd333-41b8-416e-aa4e-a8661891df50
+feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '644'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +21,7 @@ As Características principais não usadas são representadas como um diagrama d
 
 ## Caso de uso {#use-cases}
 
-Com o [!UICONTROL Top Unused Traits] relatório, você pode analisar e comparar o desempenho de características originais e de terceiros que não estão mapeadas no momento para um segmento. Esta exibição pode indicar as melhores características a serem usadas em um segmento de público-alvo para otimização de campanha ou novas oportunidades líquidas.
+Com o [!UICONTROL Top Unused Traits] relatório, você pode analisar e comparar o desempenho de características originais e de terceiros que não estão mapeadas no momento para um segmento. Essa visualização pode indicar as melhores características a serem usadas em um segmento de audiência para otimização de campanha ou novas oportunidades líquidas.
 
 ## Usando o relatório Principais características não usadas {#using-the-report}
 
@@ -25,7 +29,7 @@ Use os **[!UICONTROL Data Provider Type]** controles para alternar entre caracte
 
 Com o **[!UICONTROL Impressions]** controle deslizante, é possível selecionar um valor mínimo e máximo para impressões retornadas. Quaisquer características responsáveis por menos ou mais dos limites definidos não serão exibidas no relatório.
 
-Use os controles **[!UICONTROL Day Range]** e **[!UICONTROL Date Through]** para ajustar o intervalo de retorno. Observe que apenas o período de 30 dias de análise está disponível para este relatório.
+Use os controles **[!UICONTROL Day Range]** e **[!UICONTROL Date Through]** para ajustar o intervalo de retrospectiva. Observe que apenas o período de 30 dias de análise está disponível para este relatório.
 
 Use a caixa **[!UICONTROL Order]** suspensa para selecionar as propriedades da Web no seu portfólio para as quais deseja retornar informações.
 
@@ -41,7 +45,7 @@ Use a caixa **[!UICONTROL Traits]** suspensa para selecionar quais característi
 
 **Relatório de exemplo**
 
-O seu [!UICONTROL Top Unused Traits] relatório pode ser semelhante ao que se segue. Em seu relatório, clique em uma bolha para exibir os dados subjacentes.
+O seu [!UICONTROL Top Unused Traits] relatório pode ser semelhante ao que se segue. Em seu relatório, clique em uma bolha para visualização dos dados subjacentes.
 
 Consulte descrições para obter as informações adicionais na tabela abaixo do relatório de amostra.
 
@@ -77,16 +81,16 @@ Consulte descrições para obter as informações adicionais na tabela abaixo do
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Características únicas</span> </p> </td> 
-   <td colname="col2"> <p>O número de membros características, nos últimos 30 dias. </p> </td> 
+   <td colname="col2"> <p>O número de membros de características, nos últimos 30 dias. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ![](assets/publisher_unused_traits_final.png)
 
-A posição de suas características em um relatório pode informar muito sobre quais características você pode usar para otimizar segmentos de público-alvo existentes.
+A posição de suas características em um relatório pode informar muito sobre quais características você pode usar para otimizar segmentos de audiência existentes.
 
-As características situadas acima no eixo Impressões são aquelas que você deseja usar em suas campanhas. Para características com um número baixo de impressões, é improvável que você esteja atingindo esse público-alvo em sua propriedade da Web, com base nos dados do DFP.
+As características situadas acima no eixo Impressões são aquelas que você deseja usar em suas campanhas. Para características com um número baixo de impressões, é improvável que você esteja atingindo essa audiência em sua propriedade da Web, com base nos dados do DFP.
 
 À esquerda do [!UICONTROL Unique Trait Realizations] eixo, procure traços altamente precisos e à direita por traços que possam impulsionar a escala.
 
@@ -100,7 +104,7 @@ As características situadas acima no eixo Impressões são aquelas que você de
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Superior esquerdo</b> </p> </td> 
-   <td colname="col2"> <p>Número alto de impressões, número baixo de realização de características. </p> <p>Este é um público-alvo altamente preciso que ainda não é membro de um segmento. Considere a definição de metas. </p> </td> 
+   <td colname="col2"> <p>Número alto de impressões, número baixo de realização de características. </p> <p>Esta é uma audiência altamente precisa que ainda não é membro de um segmento. Considere a definição de metas. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Inferior esquerdo</b> </p> </td> 
@@ -108,7 +112,7 @@ As características situadas acima no eixo Impressões são aquelas que você de
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Superior direito</b> </p> </td> 
-   <td colname="col2"> <p>Alto número de impressões, alto número de realização de características. </p> <p>Um alto alcance contra um público-alvo que ainda não está denotado em um segmento. Esse público é um candidato importante para a definição de metas devido ao alto número de impressões e à escala. </p> </td> 
+   <td colname="col2"> <p>Alto número de impressões, alto número de realização de características. </p> <p>Alcance alto contra uma audiência que ainda não está denotada em um segmento. Essa audiência é uma candidata principal para definição de metas devido ao alto número de impressões e à escala. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Inferior direito</b> </p> </td> 
