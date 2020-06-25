@@ -5,8 +5,12 @@ seo-title: Relatório de sobreposição de característica por característica
 solution: Audience Manager
 title: Relatório de sobreposição de característica por característica
 uuid: 7fb3fc9e-0e0b-492a-9c3a-04356afb19c7
+feature: overlap reports
 translation-type: tm+mt
-source-git-commit: c05541df2d0dfc8753b06eaa8f2baee9bc6c2a16
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +21,7 @@ Retorna dados sobre o número de usuários únicos compartilhados entre todas as
 
 >[!NOTE]
 >
->Os relatórios de sobreposição no Audience Manager seguem os princípios do RBAC. Você só pode ver características de fontes de dados às quais você tem acesso com base no Grupo [de usuários](/help/using/features/administration/administration-overview.md) RBAC ao qual você pertence.
+>Os relatórios de sobreposição em Audience Manager seguem os princípios do RBAC. Você só pode ver características de fontes de dados às quais você tem acesso com base no Grupo [de usuários](/help/using/features/administration/administration-overview.md) RBAC ao qual você pertence.
 
 <!-- 
 
@@ -27,9 +31,9 @@ c_overlap_reports.xml
 
 ## Visão geral
 
-O [!UICONTROL Trait-to-Trait Overlap] relatório retorna dados sobre a % de usuários únicos compartilhados entre todas as suas características e as de terceiros. Como ferramenta de otimização, este relatório ajuda você a:
+O [!UICONTROL Trait-to-Trait Overlap] relatório retorna dados sobre a % de usuários únicos compartilhados entre todas as suas características e suas características de terceiros. Como ferramenta de otimização, este relatório ajuda você a:
 
-* Crie segmentos com sobreposição alta ou baixa, dependendo de suas necessidades. Características com alta sobreposição oferecem um público-alvo direcionado, mas menos visitantes únicos. Características com baixa sobreposição podem ser úteis para alcançar um conjunto de visitantes maior e único.
+* Crie segmentos com sobreposição alta ou baixa, dependendo de suas necessidades. Características com alta sobreposição oferecem uma audiência direcionada, mas menos visitantes únicos. Características com baixa sobreposição podem ser úteis para alcançar um conjunto de visitantes maior e único.
 * Validar dados de características de terceiros: Uma forte sobreposição entre características semelhantes de terceiros e originais sugere que a característica do seu parceiro de dados é precisa e confiável. Por outro lado, a baixa sobreposição pode indicar que uma característica de terceiros pode não conter as mesmas informações que a sua própria característica primária, semelhante.
 * Encontre sobreposições inesperadas entre características e use essas informações para criar segmentos inovadores.
 
@@ -45,7 +49,7 @@ A ilustração a seguir fornece uma visão geral de alto nível dos elementos no
 
 ## Detalhar pontos de dados individuais
 
-Selecione um ponto individual para exibir detalhes de dados em uma janela pop-up. As ações de clique atualizam automaticamente os dados exibidos no relatório.
+Selecione um ponto individual para visualização de detalhes de dados em uma janela pop-up. As ações de clique atualizam automaticamente os dados exibidos no relatório.
 
 ## Campos de Pop-Pop de Dados de Sobreposição de Característica para Traço Definidos {#field-definitions}
 
@@ -89,7 +93,7 @@ O pop-up do [!UICONTROL Trait-to-Trait Overlap] relatório contém as métricas 
   </tr>
     <tr> 
    <td colname="col1"><b><span class="wintitle"> ID da característica 2</span></b> </td> 
-   <td colname="col2"> ID numérica exclusiva da característica na fonte de dados base. </td> 
+   <td colname="col2"> ID numérica exclusiva para a característica na fonte de dados base. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> Nome da característica 2</span></b> </td> 
@@ -116,5 +120,5 @@ O pop-up do [!UICONTROL Trait-to-Trait Overlap] relatório contém as métricas 
 >* [Formas, cores e tamanhos usados em relatórios dinâmicos](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [Explicação dos ícones e ferramentas do relatório](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
 >* [Relatórios de sobreposição: Atualizar agendamento e tamanho mínimo do segmento](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Amostragem de dados e taxas de erro nos relatórios selecionados do Audience Manager...](../../reporting/report-sampling.md)
+>* [Amostragem de dados e taxas de erro nos relatórios Audience Manager selecionados...](../../reporting/report-sampling.md)
 >* [Arquivos CSV para relatórios de sobreposição](../../reporting/dynamic-reports/overlap-csv-files.md)
