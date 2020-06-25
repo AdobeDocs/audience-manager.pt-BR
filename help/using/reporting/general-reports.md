@@ -1,12 +1,16 @@
 ---
 description: Um relatório Geral retorna dados de desempenho sobre características, segmentos e destinos.
-seo-description: Um relatório Geral no Gerenciador de Audiências retorna dados de desempenho sobre características, segmentos e destinos.
-seo-title: Relatórios gerais no Gerenciador de Audiências
+seo-description: Um relatório Geral no Audience Manager retorna dados de desempenho sobre características, segmentos e destinos.
+seo-title: Relatórios gerais no Audience Manager
 solution: Audience Manager
 title: Relatórios gerais
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
+feature: general & trend reports
 translation-type: tm+mt
-source-git-commit: 723c75e8946c42779b4c27727ff9e6398b5fc9b1
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '866'
+ht-degree: 0%
 
 ---
 
@@ -126,11 +130,11 @@ As métricas abaixo estão disponíveis quando você executa um relatório Geral
 
 ### População de segmentos em tempo real
 
-Essa métrica representa o número real de visitantes únicos vistos em tempo real para o intervalo de tempo especificado e que estavam qualificados para o segmento no momento em que foram vistos pelo Gerenciador de Audiências.
+Essa métrica representa o número real de visitantes únicos vistos em tempo real para o intervalo de tempo especificado e que estavam qualificados para o segmento no momento em que foram vistos pelo Audience Manager.
 
 ### População total de segmentos
 
-Essa métrica representa o número total de UUIDs do Gerenciador de Audiências qualificadas para o segmento no período de análise selecionado. Sua População total de segmentos de 1 dia representa a base de usuários mais precisa para definição de metas.
+Essa métrica representa o número total de UUIDs de Audience Manager qualificados para o segmento no período de análise selecionado. Sua População total de segmentos de 1 dia representa a base de usuários mais precisa para definição de metas.
 
 >[!NOTE]
 >
@@ -146,11 +150,11 @@ As métricas abaixo estão disponíveis quando você executa um relatório Geral
 
 **População de segmentos em tempo real**
 
-Essa métrica representa o número real de visitantes únicos vistos em tempo real para o intervalo de tempo especificado e que estavam qualificados para o segmento no momento em que foram vistos pelo Gerenciador de Audiências.
+Essa métrica representa o número real de visitantes únicos vistos em tempo real para o intervalo de tempo especificado e que estavam qualificados para o segmento no momento em que foram vistos pelo Audience Manager.
 
 **População total de segmentos**
 
-Essa métrica representa o número total de UUIDs do Gerenciador de Audiências pertencentes a um segmento dentro do período de análise, que foram enviados para um destino.
+Essa métrica representa o número total de UUIDs de Audience Manager pertencentes a um segmento dentro do período de análise, que foram enviados para um destino.
 
 A ilustração abaixo mostra os resultados da execução de um relatório geral para o tipo de relatório Destinos.
 
