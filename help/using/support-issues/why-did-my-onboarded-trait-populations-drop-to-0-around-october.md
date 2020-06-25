@@ -4,8 +4,12 @@ seo-description: Por volta de 14 de outubro de 2019 eu notei que minhas populaç
 seo-title: Por que minhas populações de traços Onboard caíram para 0 por volta de 15 de outubro?
 solution: Audience Manager
 title: Por que minhas populações de traços Onboard caíram para 0 por volta de 15 de outubro?
+feature: support
 translation-type: tm+mt
-source-git-commit: 0487a15c5fcd0e653bedf0e7fd8326f5cc363660
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '230'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +24,7 @@ Por volta de 14 de outubro de 2019 eu notei que minhas populações de caracter�
 
 ## Resposta
 
-Em 15 de outubro, uma atualização da funcionalidade Regra de mesclagem de Perfis do Gerenciador de Audiências foi alterada para onde os dados integrados de uma ID de CRM carregados em uma Fonte de Dados entre Dispositivos não estão mais sendo realizados em relação às IDs de dispositivos.  Anteriormente, o Gerenciador de Audiências se apercebia da ID entre dispositivos (ou da ID do CRM), bem como copiava essas conclusões para os UUIDs do Gerenciador de Audiências associados (IDs de dispositivo).  A alteração foi feita para refletir com mais precisão a natureza dos dados de características e os perfis que estão sendo realizados.
+Em 15 de outubro, uma atualização para a funcionalidade Regra de mesclagem do Perfil foi alterada para onde os dados integrados removidos de uma ID do CRM carregados em uma Fonte de Dados entre Dispositivos não estão mais sendo realizados em relação às IDs do dispositivo.  Anteriormente, o Audience Manager estava se dando conta da ID entre dispositivos (ou da ID do CRM) e copiando essas conclusões para as UUIDs de Audience Manager (IDs de dispositivo) associadas.  A alteração foi feita para refletir com mais precisão a natureza dos dados de características e os perfis que estão sendo realizados.
 
 Para visualização das realizações de características, selecione a opção &quot;ID entre dispositivos&quot; na lista suspensa no canto superior direito da visualização de características.
 
