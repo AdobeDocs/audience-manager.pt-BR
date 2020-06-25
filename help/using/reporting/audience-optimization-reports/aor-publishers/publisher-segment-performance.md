@@ -1,30 +1,34 @@
 ---
-description: O relatório Desempenho do segmento compara segmentos mapeados e não mapeados por impressões e Únicos de segmentos em tempo real. Um segmento mapeado é um segmento criado e enviado para um destino para definição de metas. Um segmento não mapeado é um segmento criado, mas não enviado para um destino para definição de metas. A comparação desses diferentes tipos de segmentos entre e dentro de relatórios ajuda a otimizar campanhas existentes e a encontrar segmentos ignorados que você pode querer enviar para um destino para definição de metas.
-seo-description: O relatório Desempenho do segmento compara segmentos mapeados e não mapeados por impressões e Únicos de segmentos em tempo real. Um segmento mapeado é um segmento criado e enviado para um destino para definição de metas. Um segmento não mapeado é um segmento criado, mas não enviado para um destino para definição de metas. A comparação desses diferentes tipos de segmentos entre e dentro de relatórios ajuda a otimizar campanhas existentes e a encontrar segmentos ignorados que você pode querer enviar para um destino para definição de metas.
-seo-title: ' Relatório de desempenho do segmento'
+description: O relatório Desempenho do segmento compara segmentos mapeados e não mapeados por impressões e Únicos de segmentos em tempo real. Um segmento mapeado é um segmento criado e enviado para um destino para definição de metas. Um segmento não mapeado é um segmento criado, mas não enviado para um destino para definição de metas. A comparação desses diferentes tipos de segmentos dentro e entre relatórios ajuda a otimizar campanhas existentes e a encontrar segmentos ignorados que você pode querer enviar para um destino para definição de metas.
+seo-description: O relatório Desempenho do segmento compara segmentos mapeados e não mapeados por impressões e Únicos de segmentos em tempo real. Um segmento mapeado é um segmento criado e enviado para um destino para definição de metas. Um segmento não mapeado é um segmento criado, mas não enviado para um destino para definição de metas. A comparação desses diferentes tipos de segmentos dentro e entre relatórios ajuda a otimizar campanhas existentes e a encontrar segmentos ignorados que você pode querer enviar para um destino para definição de metas.
+seo-title: Relatório de desempenho do segmento
 solution: Audience Manager
-title: ' Relatório de desempenho do segmento'
+title: Relatório de desempenho do segmento
 uuid: c9a1e9ad-4f3f-4334-a3ff-0f241c7303c4
+feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '718'
+ht-degree: 1%
 
 ---
 
 
-#  Relatório de desempenho do segmento{#segment-performance-report}
+# Relatório de desempenho do segmento{#segment-performance-report}
 
 O relatório Desempenho do segmento compara segmentos mapeados e não mapeados por impressões e Únicos de segmentos em tempo real.
 
 Um segmento mapeado é um segmento criado e enviado para um destino para definição de metas. Um segmento não mapeado é um segmento criado, mas não enviado para um destino para definição de metas.
 
-A comparação desses diferentes tipos de segmentos entre e dentro de relatórios ajuda a otimizar campanhas existentes e a encontrar segmentos ignorados que você pode querer enviar para um destino para definição de metas.
+A comparação desses diferentes tipos de segmentos dentro e entre relatórios ajuda a otimizar campanhas existentes e a encontrar segmentos ignorados que você pode querer enviar para um destino para definição de metas.
 
 ## Casos de uso {#use-cases}
 
 Com o [!UICONTROL Segment Performance] relatório, você pode:
 
-* Identifique segmentos mapeados de público-alvo que estão impulsionando escala ou desempenho.
-* Identifique segmentos não mapeados para introduzir em futuras campanhas, com base na contribuição de um público-alvo para o desempenho anterior.
+* Identifique os segmentos de audiência mapeados que estão impulsionando a escala ou o desempenho.
+* Identifique segmentos não mapeados para introduzir em campanhas futuras, com base na contribuição de uma audiência para o desempenho anterior.
 
 ## Usando o relatório de desempenho do segmento {#using-segment-performance-report}
 
@@ -44,7 +48,7 @@ Use a caixa **[!UICONTROL Segment]** suspensa para selecionar quais segmentos vo
 
 ## Interpretação dos resultados {#interpreting-results}
 
-O seu [!UICONTROL Segment Performance] relatório pode ser semelhante ao que se segue. Em seu relatório, clique em uma bolha para exibir os dados subjacentes. Consulte descrições para obter as informações adicionais na tabela abaixo do relatório de amostra.
+O seu [!UICONTROL Segment Performance] relatório pode ser semelhante ao que se segue. Em seu relatório, clique em uma bolha para visualização dos dados subjacentes. Consulte descrições para obter as informações adicionais na tabela abaixo do relatório de amostra.
 
 ![](assets/publisher_segment_performance.png)
 
@@ -70,7 +74,7 @@ O seu [!UICONTROL Segment Performance] relatório pode ser semelhante ao que se 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Cliques </p> </td> 
-   <td colname="col2"> <p>O número de vezes que membros dessa característica clicaram em itens na propriedade da Web. </p> </td> 
+   <td colname="col2"> <p>O número de vezes que os membros desta característica clicaram em itens na propriedade da Web. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Impressões </p> </td> 
