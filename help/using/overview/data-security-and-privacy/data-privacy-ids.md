@@ -1,24 +1,28 @@
 ---
-description: Este documento aborda os tipos de IDs do Gerenciador de Audiências que você pode usar em solicitações de privacidade de dados.
-seo-description: Este documento aborda os tipos de IDs do Gerenciador de Audiências que você pode usar em solicitações de privacidade de dados.
-seo-title: Identificadores do gerenciador de Audiências (IDs)
+description: Este documento cobre os tipos de IDs de Audience Manager que você pode usar em solicitações de privacidade de dados.
+seo-description: Este documento cobre os tipos de IDs de Audience Manager que você pode usar em solicitações de privacidade de dados.
+seo-title: Identificadores de Audience Manager (IDs)
 solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy, AAM ID
-title: Identificadores do gerenciador de Audiências (IDs)
+title: Identificadores de Audience Manager (IDs)
+feature: data governance & privacy
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '253'
+ht-degree: 10%
 
 ---
 
 
-# Identificadores do gerenciador de Audiências (IDs) {#aam-ids}
+# Identificadores de Audience Manager (IDs) {#aam-ids}
 
-Ao enviar solicitações [de privacidade de](data-privacy-requests.md) dados para o Adobe Audiência Manager, você deve incluir um dos identificadores (IDs) listados abaixo. Você pode encontrar mais informações sobre os formatos de ID em nosso [Índice de IDs](../../reference/ids-in-aam.md)do Gerenciador de Audiências.
+Ao enviar solicitações [de privacidade de](data-privacy-requests.md) dados ao Adobe Audience Manager, você deve incluir um dos identificadores (IDs) listados abaixo. Você pode encontrar mais informações sobre os formatos de ID em nosso [Índice de IDs](../../reference/ids-in-aam.md)de Audience Manager.
 
-## ID de usuário exclusiva do Adobe Audiência Manager
+## ID de usuário único do Adobe Audience Manager
 
 * **ID de usuário**: `aam_uuid`
-* **Definição**: ID de usuário exclusiva do Adobe Audiência Manager
+* **Definição**: ID de usuário único do Adobe Audience Manager
 * **ID** da Namespace: 0
 
 **Exemplo de JSON**:
@@ -137,7 +141,7 @@ Ao enviar solicitações [de privacidade de](data-privacy-requests.md) dados par
 
 **Definição**: ID do cliente, como um cookie definido para visitantes anônimos do site ou uma [!DNL CRM] ID de um sistema offline ou nome de usuário com hash.
 
-**ID** da Namespace: Específico do cliente. Localize-o na sua instância do Gerenciador de Audiências.
+**ID** da Namespace: Específico do cliente. Por favor, encontre-o na sua instância de Audience Manager.
 
 **Exemplo de JSON**:
 
@@ -183,7 +187,7 @@ Consulte Fontes [de dados](../../features/global-data-sources.md) globais para o
 
 >[!IMPORTANT]
 >
-> Se estiver usando o Mobile [!DNL SDK], você também deverá enviar a Experience Cloud ID (`MID`) juntamente com as IDs de publicidade móvel para obter respostas completas de Acesso e Excluir.
+> Se estiver usando o Mobile [!DNL SDK], você também deverá enviar a ID do Experience Cloud (`MID`) junto com as IDs de anúncio móveis para obter respostas completas de Acesso e Exclusão.
 
 **Exemplo de JSON**:
 
