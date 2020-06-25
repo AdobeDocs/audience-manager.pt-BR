@@ -5,8 +5,12 @@ seo-title: Agendamento de atualização de relatórios de sobreposição e taman
 solution: Audience Manager
 title: Agendamento de atualização de relatórios de sobreposição e tamanho mínimo de segmento
 uuid: 35c1cb39-e28d-4d20-88c9-5ff4fe154e9e
+feature: overlap reports
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '351'
+ht-degree: 3%
 
 ---
 
@@ -19,11 +23,11 @@ Descreve os requisitos de tamanho e tempo de criação do segmento exigidos pelo
 
 [!UICONTROL Overlap] os relatórios são atualizados semanalmente no domingo. O pré-processamento do relatório começa no sábado. Isso afeta a forma como segmentos novos ou existentes aparecem em um relatório de sobreposição na segunda-feira. A ser incluído em um relatório de sobreposição:
 
-* Um segmento deve conter no mínimo 70.000 usuários em tempo real nos últimos 14 dias. Leia mais sobre os requisitos [mínimos de visitante único para características e segmentos](../../reporting/report-sampling.md#data-sampling-ratio).
-* Um segmento deve ter sido criado antes das 12h de quinta-feira UTC (2 dias completos antes do início do processo de atualização do relatório de sobreposição semanal).
+* Um segmento deve conter no mínimo 70.000 usuários em tempo real nos últimos 14 dias. Leia mais sobre os requisitos [mínimos de Visitante único para características e segmentos](../../reporting/report-sampling.md#data-sampling-ratio).
+* Um segmento deve ter sido criado antes das 12 horas UTC de quinta-feira (2 dias completos antes do início do processo de atualização do relatório de sobreposição semanal).
 * Sua empresa deve ser um [!DNL Audience Manager] cliente completo. Entre em contato com seu [!DNL Audience Manager] consultor ou com o Atendimento ao cliente para saber mais.
 
-## Tamanho do segmento e/ou Tempo de criação afeta relatórios {#segment-size}
+## Tamanho do segmento e/ou Tempo de criação afeta o Relatórios {#segment-size}
 
 Se você não vir um segmento em um dos [!UICONTROL Overlap] relatórios, pode ser porque o segmento não atende a esses requisitos mínimos.
 
