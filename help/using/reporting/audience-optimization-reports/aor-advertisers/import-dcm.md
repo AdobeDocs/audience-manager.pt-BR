@@ -1,25 +1,29 @@
 ---
-description: Configure um grupo do Google para trazer seus arquivos de dados do DoubleClick Campaign Manager (DCM) para o Audience Manager. O conteúdo desta seção resume o processo de integração e fornece links para recursos do DCM para ajudá-lo a começar.
-seo-description: Configure um grupo do Google para trazer seus arquivos de dados do DoubleClick Campaign Manager (DCM) para o Audience Manager. O conteúdo desta seção resume o processo de integração e fornece links para recursos do DCM para ajudá-lo a começar.
-seo-title: ' Importar arquivos de dados do DCM para o Audience Manager'
+description: Configure um grupo do Google para colocar seus arquivos de dados do DoubleClick Campaign Manager (DCM) no Audience Manager. O conteúdo desta seção resume o processo de integração e fornece links para recursos do DCM para ajudá-lo a começar.
+seo-description: Configure um grupo do Google para colocar seus arquivos de dados do DoubleClick Campaign Manager (DCM) no Audience Manager. O conteúdo desta seção resume o processo de integração e fornece links para recursos do DCM para ajudá-lo a começar.
+seo-title: Importar arquivos de dados do DCM para o Audience Manager
 solution: Audience Manager
 title: Importar arquivos de dados do DCM para o Audience Manager
 uuid: 3578cfe1-6d30-4a73-ab75-8d272bebcd60
+feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '654'
+ht-degree: 5%
 
 ---
 
 
 # Import DCM Data Files Into Audience Manager {#import-dcm-data-files-into-audience-manager}
 
-Configure um grupo do Google para trazer seus arquivos de dados do DoubleClick Campaign Manager (DCM) para o Audience Manager. O conteúdo desta seção resume o processo de integração e fornece links para recursos do DCM para ajudá-lo a começar.
+Configure um grupo do Google para colocar seus arquivos de dados do DoubleClick Campaign Manager (DCM) no Audience Manager. O conteúdo desta seção resume o processo de integração e fornece links para recursos do DCM para ajudá-lo a começar.
 
 ## Resumo da integração
 
 O DCM é o substituto de [!DNL Google] para [!DNL DoubleClick for Advertisers] (DFA). Semelhante ao DFA, os clientes do DCM podem importar, visualizar e trabalhar com os dados no [!DNL Audience Manager]. Mas [!DNL Audience Manager] não é possível acessar e importar diretamente seus arquivos [!UICONTROL Data Transfer] e [!UICONTROL Match Table] arquivos. Para importar esses arquivos, o esforço se concentra no cliente.
 
-No entanto, o procedimento de configuração está bem documentado na Ajuda [do](https://support.google.com/dcm/partner/answer/2941575?hl=en&ref_topic=6107456)DoubleClick Campaign Manager. Além disso, você pode rever as etapas listadas abaixo para começar.
+No entanto, o procedimento de configuração está bem documentado na Ajuda [do Gerenciador de Campanhas](https://support.google.com/dcm/partner/answer/2941575?hl=en&amp;ref_topic=6107456)DoubleClick. Além disso, você pode revisar as etapas listadas abaixo para começar.
 
 >[!CAUTION]
 >
@@ -31,17 +35,17 @@ No entanto, o procedimento de configuração está bem documentado na Ajuda [do]
 
 ## Etapas
 
-1. [Criar um grupo](https://support.google.com/dcm/partner/answer/3370419?hl=en&ref_topic=6107456).
+1. [Criar um grupo](https://support.google.com/dcm/partner/answer/3370419?hl=en&amp;ref_topic=6107456).
 
    Os grupos controlam o acesso aos dados do DCM. Eventualmente, você convidará e adicionará [!DNL Audience Manager] a este grupo.
 
-1. [Verifique o status](https://support.google.com/dcm/partner/answer/3370481?hl=en&ref_topic=6107456)do armazenamento do Google Cloud.
+1. [Verifique o status](https://support.google.com/dcm/partner/answer/3370481?hl=en&amp;ref_topic=6107456)do Armazenamento do Google Cloud.
 
-   O Google Cloud Storage contém o grupo de dados que contém seu [!UICONTROL Data Transfer] e [!UICONTROL Match Tables]. Você precisará configurar um bucket ou certificar-se de que seu novo grupo tenha acesso a um bucket de armazenamento de dados existente.
+   O Armazenamento do Google Cloud contém o grupo de dados que contém seu [!UICONTROL Data Transfer] e [!UICONTROL Match Tables]. Você precisará configurar um grupo ou verificar se o novo grupo tem acesso a um grupo de armazenamentos de dados existente.
 
-1. [Obter um URL](https://support.google.com/dcm/partner/answer/3370482?hl=en&ref_topic=6107456)de arquivo de dados.
+1. [Obter um URL](https://support.google.com/dcm/partner/answer/3370482?hl=en&amp;ref_topic=6107456)de arquivo de dados.
 
-   Trabalhe com seu Gerente de conta do DCM ou Consultor de soluções de plataforma. Eles fornecerão um URL para seus arquivos de dados. [!DNL Google] pode alterar o formato para nomes de arquivo e de grupo em versões futuras. Novamente, entre em contato com seu Gerente de contas do DCM para verificar se você está usando os formatos corretos.
+   Entre em contato com seu Gerente de contas do DCM ou Consultor de soluções da Platform. Eles fornecerão um URL para seus arquivos de dados. [!DNL Google] pode alterar o formato para nomes de arquivo e de grupo em versões futuras. Novamente, entre em contato com seu Gerente de contas do DCM para verificar se você está usando os formatos corretos.
 
 1. [Defina permissões](https://cloud.google.com/storage/docs/cloud-console?csw=1#_bucketpermission)de grupo.
 
