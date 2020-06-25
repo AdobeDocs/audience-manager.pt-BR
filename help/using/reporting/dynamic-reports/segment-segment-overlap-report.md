@@ -5,8 +5,9 @@ seo-title: Relatório de sobreposição de segmento por segmento
 solution: Audience Manager
 title: Relatório de sobreposição de segmento por segmento
 uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
+feature: overlap reports
 translation-type: tm+mt
-source-git-commit: a35be513c2cec40257f2df0731eaccbb98e3a000
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 4%
@@ -20,7 +21,7 @@ Retorna dados sobre quantos usuários únicos são compartilhados entre seus seg
 
 >[!NOTE]
 >
->Os relatórios de sobreposição no Gerenciador de Audiências seguem os princípios do RBAC. Você só pode ver segmentos de fontes de dados às quais você tem acesso com base no Grupo [de usuários](/help/using/features/administration/administration-overview.md) RBAC ao qual você pertence.
+>Os relatórios de sobreposição em Audience Manager seguem os princípios do RBAC. Você só pode ver segmentos de fontes de dados às quais você tem acesso com base no Grupo [de usuários](/help/using/features/administration/administration-overview.md) RBAC ao qual você pertence.
 
 <!-- 
 
@@ -68,7 +69,7 @@ O pop-up do [!UICONTROL Segment-to-Segment Overlap] relatório contém as métri
 | **[!UICONTROL Base Segment Uniques]** | O número de visitantes únicos em seu segmento base. |
 | **[!UICONTROL Base Segment Uniques]** | O número de visitantes únicos em seu segmento sobreposto. |
 | **[!UICONTROL Overlapping Uniques]** | O número de visitantes únicos compartilhados entre segmentos comparados. |
-| **[!UICONTROL Overlap %]** | Para obter a % de sobreposição, o Gerenciador de Audiências usa a seguinte fórmula: Únicos sobrepostos / (Únicos do segmento base + Únicos do segmento sobrepostos - Únicos sobrepostos) |
+| **[!UICONTROL Overlap %]** | Para obter a % de sobreposição, o Audience Manager usa a seguinte fórmula: Únicos sobrepostos / (Únicos do segmento base + Únicos do segmento sobrepostos - Únicos sobrepostos) |
 
 
 
@@ -78,5 +79,5 @@ O pop-up do [!UICONTROL Segment-to-Segment Overlap] relatório contém as métri
 >* [Formas, cores e tamanhos usados em relatórios interativos](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [Explicação dos ícones e ferramentas do relatório](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
 >* [Relatórios de sobreposição: Atualizar agendamento e tamanho mínimo do segmento](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Amostragem de dados e taxas de erro nos relatórios selecionados do Gerenciador de Audiências...](../../reporting/report-sampling.md)
+>* [Amostragem de dados e taxas de erro nos relatórios Audience Manager selecionados...](../../reporting/report-sampling.md)
 >* [Arquivos CSV para relatórios de sobreposição](../../reporting/dynamic-reports/overlap-csv-files.md)
