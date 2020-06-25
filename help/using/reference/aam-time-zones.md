@@ -1,18 +1,22 @@
 ---
 description: O Audience Manager usa o Tempo Universal Coordenado (UTC) em toda a interface do usuário.
 seo-description: O Audience Manager usa o Tempo Universal Coordenado (UTC) em toda a interface do usuário.
-seo-title: Fusos horários no Audience Manager
+seo-title: Fusos horários em Audience Manager
 solution: Audience Manager
-title: Fusos horários no Audience Manager
+title: Fusos horários em Audience Manager
 uuid: ff4710a9-edee-470c-9ab0-85c1789a2837
+feature: reference
 translation-type: tm+mt
-source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 0%
 
 ---
 
 
-# Fusos horários no Audience Manager{#time-zones-in-audience-manager}
+# Fusos horários em Audience Manager{#time-zones-in-audience-manager}
 
 O Audience Manager usa o Tempo Universal Coordenado (UTC) em toda a interface do usuário.
 
-Salvo especificação em contrário, todas as datas e intervalos de datas que você pode selecionar na [!DNL Adobe] interface do usuário são Tempo Universal [!DNL Audience Manager] Coordenado (UTC) [](https://www.timeanddate.com/worldclock/timezone/utc). Por exemplo, no fluxo [Criar destino](../features/destinations/create-cookie-destination.md#segments-mapping) , ao mapear segmentos para seu destino, as datas inicial e final selecionadas são UTC à meia-noite. O mesmo se aplica a todas as datas em [!DNL Audience Manager].
+Salvo especificação em contrário, todas as datas e intervalos de datas que você pode selecionar na [!DNL Adobe] interface do usuário são Tempo Universal [!DNL Audience Manager] Coordenado (UTC) [](https://www.timeanddate.com/worldclock/timezone/utc). Por exemplo, no fluxo [Criar destino](../features/destinations/create-cookie-destination.md#segments-mapping) , ao mapear segmentos para seu destino, o start e a data final selecionados são UTC à meia-noite. O mesmo se aplica a todas as datas em [!DNL Audience Manager].
