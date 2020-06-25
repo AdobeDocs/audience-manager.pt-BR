@@ -5,19 +5,23 @@ seo-title: Sobreposição da unidade de publicidade
 solution: Audience Manager
 title: Sobreposição da unidade de publicidade
 uuid: e4467e81-acbf-474e-b501-89d57395651f
+feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 0%
 
 ---
 
 
 # Sobreposição da unidade de publicidade{#ad-unit-overlap}
 
-O **[!UICONTROL Ad Unit Overlap]** relatório é exibido como um gráfico de calor que destaca sobreposições elevadas e baixas entre as Unidades de anúncio.
+O **[!UICONTROL Ad Unit Overlap]** relatório é exibido como um gráfico de calor que destaca sobreposições elevadas e baixas entre as suas Unidades de publicidade.
 
 ## Caso de uso {#use-cases}
 
-Com o **[!UICONTROL Ad Unit Overlap]** relatório, você pode obter informações sobre onde seu público-alvo se sobrepõe em suas propriedades da Web. O relatório considera suas 100 principais propriedades relacionadas e mostra a sobreposição entre elas.
+Com o **[!UICONTROL Ad Unit Overlap]** relatório, você pode obter informações sobre onde sua audiência se sobrepõe nas propriedades da Web. O relatório considera suas 100 principais propriedades relacionadas e mostra a sobreposição entre elas.
 
 ## Uso do relatório de sobreposição da unidade de publicidade {#using-the-report}
 
