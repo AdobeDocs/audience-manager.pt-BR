@@ -5,8 +5,12 @@ seo-title: Glossário de ferramentas de gerenciamento em massa
 solution: Audience Manager
 title: Glossário de ferramentas de gerenciamento em massa
 uuid: 4658a6bc-9515-4d31-9715-0084760b0cea
+feature: baaam
 translation-type: tm+mt
-source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '346'
+ht-degree: 2%
 
 ---
 
@@ -79,7 +83,7 @@ Rótulos de cabeçalho de coluna definidos.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> startDate</span> </p> </td> 
-   <td colname="col2"> <p>Indica quando um segmento pode começar a ser enviado para um destino. Usa o formato <tt>aaaa-mm-dd</tt> . </p> </td> 
+   <td colname="col2"> <p>Indica quando um start de segmento pode ser enviado para um destino. Usa o formato <tt>aaaa-mm-dd</tt> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> targetKey</span> </p> </td> 
@@ -95,7 +99,7 @@ Rótulos de cabeçalho de coluna definidos.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitRule / segmentRule</span> </p> </td> 
-   <td colname="col2"> <p>A característica real ou regra de segmento usada para coletar dados. Uma solicitação em massa retorna as regras criadas no <span class="keyword"> Audience Manager</span> com o construtor <a href="../../features/traits/about-trait-builder.md"> de regras de</a> característica ou o construtor <a href="../../features/segments/segment-builder.md"> de regras de</a>segmento. Você também pode usar essas ferramentas para criar regras e aplicá-las em massa ao atualizar um segmento ou característica. </p> <p>Consulte também <a href="../../reference/bulk-management-tools/bulk-rules.md"> Criar ou atualizar regras de características e regras</a>de segmentos. </p> </td> 
+   <td colname="col2"> <p>A característica real ou regra de segmento usada para coletar dados. Uma solicitação em massa retorna as regras criadas no <span class="keyword"> Audience Manager</span> com o construtor <a href="../../features/traits/about-trait-builder.md"> de regras de</a> características ou o construtor <a href="../../features/segments/segment-builder.md"> de regras de</a>segmento. Você também pode usar essas ferramentas para criar regras e aplicá-las em massa ao atualizar um segmento ou característica. </p> <p>Consulte também <a href="../../reference/bulk-management-tools/bulk-rules.md"> Criar ou atualizar regras de características e regras</a>de segmentos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitType</span> </p> </td> 
