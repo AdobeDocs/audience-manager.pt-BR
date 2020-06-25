@@ -5,8 +5,12 @@ seo-title: Alcance único do usuário
 solution: Audience Manager
 title: Alcance único do usuário
 uuid: 64e75fad-f4cb-4d47-a162-34e663f3966f
+feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 3a02c2e109f6ae4565cf9d86bb8828ab49bb01f0
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '347'
+ht-degree: 1%
 
 ---
 
@@ -29,7 +33,7 @@ Use os controles Intervalo **de** dias e Intervalo de **datas até** para ajusta
 
 **Relatório de exemplo**
 
-O seu [!UICONTROL Unique User Reach] relatório pode ser semelhante ao que se segue. Em seu relatório, clique em uma bolha para exibir os dados subjacentes. Consulte as descrições para obter as informações adicionais na tabela abaixo.
+O seu [!UICONTROL Unique User Reach] relatório pode ser semelhante ao que se segue. Em seu relatório, clique em uma bolha para visualização dos dados subjacentes. Consulte as descrições para obter as informações adicionais na tabela abaixo.
 
 ![](assets/publisher_unique_user_reach.png)
 
