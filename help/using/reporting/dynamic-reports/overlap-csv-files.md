@@ -5,19 +5,23 @@ seo-title: Arquivos CSV para relatórios de sobreposição
 solution: Audience Manager
 title: Arquivos CSV para relatórios de sobreposição
 uuid: 047e440e-00c5-4d06-a809-51d776326cd6
+feature: overlap reports
 translation-type: tm+mt
-source-git-commit: d13b32999c5af4d20f33a92dfa805d7fe0babb2d
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '976'
+ht-degree: 8%
 
 ---
 
 
 # Arquivos CSV para relatórios de sobreposição{#csv-files-for-overlap-reports}
 
-É possível requisitar um arquivo .csv para um Relatório de sobreposição quando ele alcança o limite de 1 milhão. Um relatório pode ter atingido esse limite quando você vê uma mensagem de "Erro inesperado". Entre em contato com o Atendimento ao cliente para solicitar um arquivo .csv compactado, que pode ser importado e usado em seu próprio sistema de banco de dados. Os arquivos estão disponíveis para relatórios de sobreposição segmento a segmento, segmento a característica e característica a característica.
+É possível requisitar um arquivo .csv para um Relatório de sobreposição quando ele alcança o limite de 1 milhão. Um relatório pode ter atingido esse limite quando você vê uma mensagem de &quot;Erro inesperado&quot;. Entre em contato com o Atendimento ao cliente para solicitar um arquivo .csv compactado, que pode ser importado e usado em seu próprio sistema de banco de dados. Os arquivos estão disponíveis para relatórios de sobreposição segmento a segmento, segmento a característica e característica a característica.
 
 ## Metadados de nome de arquivo {#file-name-metadata}
 
-A seguinte lista de tabelas e descreve as convenções de nomenclatura de arquivos e as extensões de arquivo usadas em um arquivo .csv sobreposto. In the examples, *italics* indicates a variable placeholder.
+A lista de tabela a seguir e descreve as convenções de nomenclatura de arquivos e as extensões de arquivo usadas em um arquivo .csv sobreposto. In the examples, *italics* indicates a variable placeholder.
 
 <table id="table_C99FCABA365B4AB99620F27D4414E623"> 
  <thead> 
@@ -29,15 +33,15 @@ A seguinte lista de tabelas e descreve as convenções de nomenclatura de arquiv
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Arquivo Extensão </p> </td> 
-   <td colname="col2"> <p>Os arquivos de relatório sobrepostos são compactados por gzip e têm uma extensão de arquivo <code> .gz</code> . É necessário adicionar a extensão <code> .csv</code> ao arquivo após a descompactação. </p> </td> 
+   <td colname="col2"> <p>Os arquivos de relatório sobrepostos são compactados gzip e têm uma extensão de <code> .gz</code> arquivo. É necessário adicionar a extensão <code> .csv</code> ao arquivo após a descompactação. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nome do arquivo </p> </td> 
    <td colname="col2"> <p>Sintaxe do nome do arquivo: </p> <p> 
      <ul id="ul_D69D320A1AE94361B75D2AB47F90C4D1"> 
-      <li id="li_FFB104975D104050AB67FEEC903C6E2E">Arquivos segmento a segmento: Intervalo de <code>ID<i>_</i>parceiro_sobreposição_S2S_<i>aaaa-mm-dd</i>_<i>data</i></code> </li> 
-      <li id="li_7DEC51D693FB4377840D652AF40386EF">Arquivos de segmento para característica: Intervalo de <code>ID<i>_</i>parceiro_sobreposição_<i>S2T_</i>aaaa-mm-dd<i>_data</i></code> </li> 
-      <li id="li_CCB35A2BCB714E518AB279D453740623">Arquivos de características: Intervalo de <code>T2T_interface_<i>parceiro ID</i>_<i>aaaa-mm-dd</i>_<i>data</i></code> </li> 
+      <li id="li_FFB104975D104050AB67FEEC903C6E2E">Arquivos segmento a segmento: <code>S2S_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
+      <li id="li_7DEC51D693FB4377840D652AF40386EF">Arquivos de segmento para característica: <code>S2T_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
+      <li id="li_CCB35A2BCB714E518AB279D453740623">Arquivos de características: <code>T2T_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -56,13 +60,13 @@ A seguinte lista de tabelas e descreve as convenções de nomenclatura de arquiv
    <td colname="col1"> <p>Exemplos </p> </td> 
    <td colname="col2"> <p>Exemplos de nome de arquivo para um único relatório: </p> <p> 
      <ul id="ul_EED13F73F37D48868236F8945E19C88F"> 
-      <li id="li_55DD677F9BA7460AA4AAD27AFD08A5AE">Arquivo único de 7 dias: <code> S2S_duplicate_12345_2017_01_14_70000.gz</code> </li> 
-      <li id="li_487F8B76B7F24DCEB890C2D8186728F7">Arquivo único de 30 dias: <code> S2S_duplicate_12345_2017_01_14_30000.gz</code> </li> 
+      <li id="li_55DD677F9BA7460AA4AAD27AFD08A5AE">Arquivo único de 7 dias: <code> S2S_overlap_12345_2017_01_14_70000.gz</code> </li> 
+      <li id="li_487F8B76B7F24DCEB890C2D8186728F7">Arquivo único de 30 dias: <code> S2S_overlap_12345_2017_01_14_30000.gz</code> </li> 
      </ul> </p> <p>Exemplos de nome de arquivo para um relatório com vários arquivos: </p> <p> 
      <ul id="ul_D307EECBB3524962AB8C8332BF699D29"> 
-      <li id="li_9FA3B5539E5A4F95899075866D96DEA0"> <code> S2S_duplicate_12345_2017_01_14_7000.gz</code> </li> 
-      <li id="li_D8776BD8BAD842C29119B7765F258384"> <code> S2S_duplicate_12345_2017_01_14_70001.gz</code> </li> 
-      <li id="li_E97AC7696E954A9DAE3DA4E51B5C1B0E"> <code> S2S_duplicate_12345_2017_01_14_7002.gz</code> </li> 
+      <li id="li_9FA3B5539E5A4F95899075866D96DEA0"> <code> S2S_overlap_12345_2017_01_14_70000.gz</code> </li> 
+      <li id="li_D8776BD8BAD842C29119B7765F258384"> <code> S2S_overlap_12345_2017_01_14_70001.gz</code> </li> 
+      <li id="li_E97AC7696E954A9DAE3DA4E51B5C1B0E"> <code> S2S_overlap_12345_2017_01_14_70002.gz</code> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -70,7 +74,7 @@ A seguinte lista de tabelas e descreve as convenções de nomenclatura de arquiv
 
 ## Conteúdo do arquivo {#file-contents}
 
-No arquivo, os dados da string são delimitados por aspas duplas. Veja os dados de simulação abaixo. Isso foi truncado para brevidade e para se ajustar à tela.
+No arquivo, os dados da string são incluídos entre aspas de duplo. Veja os dados de simulação abaixo. Isso foi truncado para brevidade e para se ajustar à tela.
 
 ```js
 //File header
@@ -128,7 +132,7 @@ Um arquivo de dados para seu Relatório [de sobreposição](segment-segment-over
    <td colname="col2"> <p>O número de usuários únicos no segmento da linha de base. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> duplicate_uniques</code> </p> </td> 
+   <td colname="col1"> <p> <code> overlap_uniques</code> </p> </td> 
    <td colname="col2"> <p>Uma contagem total da sobreposição de usuários únicos entre o segmento da linha de base e os outros segmentos selecionados para comparação. </p> </td> 
   </tr> 
   <tr> 
@@ -162,8 +166,8 @@ Um arquivo de dados para seu Relatório [de sobreposição](segment-trait-overla
    <td colname="col1"> <p> <code> dataprovider_type</code> </p> </td> 
    <td colname="col2"> <p>A ID do provedor de dados. As IDs incluem: </p> <p> 
      <ul id="ul_B40EF144552B4BD3A1C2AE2BAFFC5A68"> 
-      <li id="li_8E3B524C615F4047A5A06AF2EDF9C758"> <code> 1º partido</code> </li> 
-      <li id="li_F0979659028F4E2D989F1F3D1014FD3A"> <code> Terceiros</code> </li> 
+      <li id="li_8E3B524C615F4047A5A06AF2EDF9C758"> <code> 1st Party</code> </li> 
+      <li id="li_F0979659028F4E2D989F1F3D1014FD3A"> <code> 3rd Party</code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -191,15 +195,15 @@ Um arquivo de dados para seu Relatório [de sobreposição](segment-trait-overla
    <td colname="col2"> <p>O número de usuários únicos em uma característica. No relatório da interface do usuário, esse número aparece na janela pop-up quando você passa o mouse sobre uma característica nos resultados do mapa de calor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> duplicate_uniques</code> </p> </td> 
+   <td colname="col1"> <p> <code> overlap_uniques</code> </p> </td> 
    <td colname="col2"> <p>O número de usuários únicos compartilhados entre os segmentos e características selecionados. No relatório da interface do usuário, esse número aparece na janela pop-up quando você passa o mouse sobre uma característica nos resultados do mapa de calor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> trait_uniques_duplicate_perc</code> </p> </td> 
+   <td colname="col1"> <p> <code> trait_uniques_overlap_perc</code> </p> </td> 
    <td colname="col2"> <p>% de usuários únicos que se sobrepõem entre a característica e o segmento. No relatório da interface do usuário, esse número aparece na janela pop-up quando você passa o mouse sobre uma característica nos resultados do mapa de calor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> segment_uniques_duplicate_perc</code> </p> </td> 
+   <td colname="col1"> <p> <code> segment_uniques_overlap_perc</code> </p> </td> 
    <td colname="col2"> <p>% de usuários únicos que se sobrepõem entre o segmento e a característica. No relatório da interface do usuário, esse número aparece na janela pop-up quando você passa o mouse sobre uma característica nos resultados do mapa de calor. </p> </td> 
   </tr> 
  </tbody> 
@@ -218,11 +222,11 @@ Um arquivo de dados para seu Relatório [de sobreposição](trait-trait-overlap-
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> duplicate_trait_id</code> </p> </td> 
+   <td colname="col1"> <p> <code> overlap_trait_id</code> </p> </td> 
    <td colname="col2"> <p>A ID do traço que você está comparando ao traço da linha de base. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> duplicate_trait_name</code> </p> </td> 
+   <td colname="col1"> <p> <code> overlap_trait_name</code> </p> </td> 
    <td colname="col2"> <p>O nome do traço que você está comparando ao traço da linha de base. </p> </td> 
   </tr> 
   <tr> 
@@ -237,8 +241,8 @@ Um arquivo de dados para seu Relatório [de sobreposição](trait-trait-overlap-
    <td colname="col1"> <p> <code> dataprovider_type</code> </p> </td> 
    <td colname="col2"> <p>A ID do provedor de dados. As IDs incluem: </p> <p> 
      <ul id="ul_FB6FCAF484BE404B8987B54078F5E858"> 
-      <li id="li_5E473205AB494D199FBDF22CAA4A1C57"> <code> 1º partido</code> </li> 
-      <li id="li_C9A5F455FB6D458F9DDB56EDBF5A6304"> <code> Terceiros</code> </li> 
+      <li id="li_5E473205AB494D199FBDF22CAA4A1C57"> <code> 1st Party</code> </li> 
+      <li id="li_C9A5F455FB6D458F9DDB56EDBF5A6304"> <code> 3rd Party</code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -258,7 +262,7 @@ Um arquivo de dados para seu Relatório [de sobreposição](trait-trait-overlap-
    <td colname="col2"> <p>A data de processamento de um relatório. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> duplicate_trait_uniques</code> </p> </td> 
+   <td colname="col1"> <p> <code> overlap_trait_uniques</code> </p> </td> 
    <td colname="col2"> <p>O número de usuários únicos compartilhados entre as características selecionadas. No relatório da interface do usuário, esse número aparece na janela pop-up quando você passa o mouse sobre uma característica nos resultados do mapa de calor. </p> </td> 
   </tr> 
   <tr> 
@@ -266,15 +270,15 @@ Um arquivo de dados para seu Relatório [de sobreposição](trait-trait-overlap-
    <td colname="col2"> <p>O número de usuários únicos em uma característica básica. No relatório da interface do usuário, esse número aparece na janela pop-up quando você passa o mouse sobre uma característica nos resultados do mapa de calor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> duplicate_uniques</code> </p> </td> 
+   <td colname="col1"> <p> <code> overlap_uniques</code> </p> </td> 
    <td colname="col2"> <p>O número de usuários únicos compartilhados entre as características selecionadas. No relatório da interface do usuário, esse número aparece na janela pop-up quando você passa o mouse sobre uma característica nos resultados do mapa de calor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> propriedade_sobreposição_únicos_sobreposição_perc</code> </p> </td> 
+   <td colname="col1"> <p> <code> overlap_trait_uniques_overlap_perc</code> </p> </td> 
    <td colname="col2"> <p>% de usuários únicos que se sobrepõem entre as características selecionadas. No relatório da interface do usuário, esse número aparece na janela pop-up quando você passa o mouse sobre uma característica nos resultados do mapa de calor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> base_trait_uniques_duplicate_perc</code> </p> </td> 
+   <td colname="col1"> <p> <code> base_trait_uniques_overlap_perc</code> </p> </td> 
    <td colname="col2"> <p>% de usuários únicos que se sobrepõem entre as características selecionadas. No relatório da interface do usuário, esse número aparece na janela pop-up quando você passa o mouse sobre uma característica nos resultados do mapa de calor. </p> </td> 
   </tr> 
  </tbody> 
