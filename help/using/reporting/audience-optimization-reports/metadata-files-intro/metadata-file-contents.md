@@ -1,25 +1,29 @@
 ---
-description: Formate o conteúdo do arquivo de metadados de Otimização de público-alvo de acordo com essas especificações.
-seo-description: Formate o conteúdo do arquivo de metadados de Otimização de público-alvo de acordo com essas especificações.
+description: Formate o conteúdo do arquivo de metadados de Otimização de Audiência de acordo com essas especificações.
+seo-description: Formate o conteúdo do arquivo de metadados de Otimização de Audiência de acordo com essas especificações.
 seo-title: Formato de conteúdo para arquivos de metadados
 solution: Audience Manager
 title: Formato de conteúdo para arquivos de metadados
 uuid: 9ba44738-3e17-40c7-9e8c-5abd8361e16d
+feature: log files
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '304'
+ht-degree: 0%
 
 ---
 
 
 # Formato de conteúdo para arquivos de metadados{#content-format-for-metadata-files}
 
-Formate o conteúdo do arquivo de metadados de Otimização de público-alvo de acordo com essas especificações.
+Formate o conteúdo do arquivo de metadados de Otimização de Audiência de acordo com essas especificações.
 
 ## Sintaxe {#syntax}
 
 A sintaxe a seguir define a estrutura do conteúdo bem formado em um arquivo de metadados. Note, *italics* indicates a variable placeholder.
 
-**** Sintaxe:  ID ** de conteúdo| *nome* | *-1*
+**Sintaxe:**  *ID de conteúdo* | *nome* | *-1*
 
 <!--In the contents syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file name](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md). These 2 variables seem similar, but they represent different things. In the file name, the parent ID corresponds to a category like "campaign" (ID 1), "placement" (ID 3), or "tactic" (ID 9), etc. In the file body:-->
 
@@ -31,7 +35,7 @@ A terceira coluna **-1** é tecnicamente a ID pai, que é um campo herdado. O va
 
 **Entradas de arquivo separadas com ^a (controle-A ou ASCII 001)**
 
-Use `^a` (controle A ou ASCII 001) para separar o conteúdo dos arquivos de metadados. Como são caracteres não imprimíveis, o exemplo de sintaxe acima mostra um pipe "|" somente para fins de exibição.
+Use `^a` (controle A ou ASCII 001) para separar o conteúdo dos arquivos de metadados. Como são caracteres não imprimíveis, o exemplo de sintaxe acima mostra um pipe &quot;|&quot; somente para fins de exibição.
 
 Se necessário, você pode baixar o arquivo de exemplo - [20181105_0_1](assets/20181105_0_1.zip). Descompacte-o e edite-o no editor de sua escolha e ajuste-o de acordo com o conteúdo real dos metadados, pois já contém o delimitador necessário.
 
@@ -41,11 +45,11 @@ Se necessário, você pode baixar o arquivo de exemplo - [20181105_0_1](assets/2
 
 ## Exemplos {#examples}
 
-Vejamos como você estruturaria o conteúdo em um arquivo de metadados. Parte dessa estrutura depende da dimensão. As dimensões são listadas no artigo Convenções de [nomenclatura para o arquivo](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension)de metadados.
+Vejamos como você deve estruturar o conteúdo em um arquivo de metadados. Parte dessa estrutura depende da dimensão. As dimensões são listadas no artigo Convenções de [nomenclatura para o arquivo](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension)de metadados.
 
 **Campaign**
 
-Neste exemplo, o título do arquivo é 20180921_0_1 e as três colunas do arquivo são: ID da campanha, Nome e ID pai.
+Neste exemplo, o título do arquivo é 20180921_0_1 e as três colunas do arquivo são: ID da Campanha, Nome e ID pai.
 
 <!--Let's say you want to populate the creative drop down menu with creative names from a particular campaign. In this case, your metadata file name would include ID 1 (campaign) and ID 2 (creative). Following the content syntax, your metadata file would contain the creative ID, creative name, and actual campaign ID.-->
 
