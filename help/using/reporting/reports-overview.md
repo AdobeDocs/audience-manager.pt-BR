@@ -3,8 +3,9 @@ description: Use as opções no menu Analytics para visualização do painel e v
 seo-description: Use as opções no menu Analytics para visualização do painel e vários relatórios no Adobe Audience Manager (AAM).
 seo-title: Visão geral do Relatórios no Adobe Audience Manager (AAM)
 title: Visão geral do Relatórios
+feature: reporting reference
 translation-type: tm+mt
-source-git-commit: 0869e016d7f80710cb194449c48675b82fdfa865
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 5%
