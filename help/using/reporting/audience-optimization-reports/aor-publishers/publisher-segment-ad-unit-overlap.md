@@ -1,23 +1,27 @@
 ---
-description: O relatório Segmento para sobreposição de unidade de publicidade é exibido como um gráfico de calor que destaca sobreposições elevadas e baixas entre os segmentos de Unidades de publicidade e do Audience Manager.
-seo-description: O relatório Segmento para sobreposição de unidade de publicidade é exibido como um gráfico de calor que destaca sobreposições elevadas e baixas entre os segmentos de Unidades de publicidade e do Audience Manager.
+description: O relatório Segmento para sobreposição de unidade de publicidade é exibido como um gráfico de calor que destaca sobreposições elevadas e baixas entre os segmentos de Unidades de publicidade e Audience Manager.
+seo-description: O relatório Segmento para sobreposição de unidade de publicidade é exibido como um gráfico de calor que destaca sobreposições elevadas e baixas entre os segmentos de Unidades de publicidade e Audience Manager.
 seo-title: Segmentar para sobreposição de unidade de publicidade
 solution: Audience Manager
 title: Segmentar para sobreposição de unidade de publicidade
 uuid: aaa20163-58aa-42c9-8f72-a1dfb0d20e57
+feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '414'
+ht-degree: 0%
 
 ---
 
 
 # Segmentar para sobreposição de unidade de publicidade{#segment-to-ad-unit-overlap}
 
-O relatório Segmento para sobreposição de unidade de publicidade é exibido como um gráfico de calor que destaca sobreposições elevadas e baixas entre os segmentos de Unidades de publicidade e do Audience Manager.
+O relatório Segmento para sobreposição de unidade de publicidade é exibido como um gráfico de calor que destaca sobreposições elevadas e baixas entre os segmentos de Unidades de publicidade e Audience Manager.
 
 ## Caso de uso {#use-cases}
 
-Com o [!UICONTROL Segment to Ad Unit Overlap] relatório, você pode entender quais públicos visitam suas propriedades da Web. O relatório exibe a sobreposição entre os membros dos seus [!DNL Audience Manager] segmentos e o número de visitantes das propriedades da Web. Uma sobreposição maior significa que muitos membros de um segmento visitam sua propriedade da Web.
+Com o [!UICONTROL Segment to Ad Unit Overlap] relatório, você pode entender quais audiências visitam suas propriedades da Web. O relatório exibe a sobreposição entre os membros de seus [!DNL Audience Manager] segmentos e o número de visitantes para suas propriedades da Web. Uma sobreposição maior significa que muitos membros de um segmento visitam sua propriedade da Web.
 
 ## Usando o relatório Segmento para sobreposição de unidade de publicidade {#using-the-report}
 
