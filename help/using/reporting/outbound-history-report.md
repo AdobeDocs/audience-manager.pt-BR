@@ -1,19 +1,23 @@
 ---
-description: Exibir informações de histórico de trabalhos em lote de saída para um destino e um período de tempo especificados.
-seo-description: Exibir informações de histórico de trabalhos em lote de saída para um destino e um período de tempo especificados.
+description: Visualização de informações de histórico de trabalho em lote de saída para um destino e um período de tempo especificados.
+seo-description: Visualização de informações de histórico de trabalho em lote de saída para um destino e um período de tempo especificados.
 seo-title: Histórico de Arquivos de Saída
 solution: Audience Manager
 title: Histórico de Arquivos de Saída
 uuid: 3621a59d-2bb5-4828-86f6-4c9bfa580764
+feature: inbound and outbound reports
 translation-type: tm+mt
-source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '168'
+ht-degree: 2%
 
 ---
 
 
 # Histórico de Arquivos de Saída {#outbound-file-history}
 
-Exibir informações de histórico de trabalhos em lote de saída para um destino e um período de tempo especificados.
+Visualização de informações de histórico de trabalho em lote de saída para um destino e um período de tempo especificados.
 
 <!-- 
 
@@ -21,12 +25,12 @@ t_reports_outbound_history.xml
 
  -->
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Outbound File History]**.
+1. Clique em **[!UICONTROL Analytics]** > **[!UICONTROL Outbound File History]**.
 
    ![Resultado da etapa](assets/outbound_history.png)
 
-1. Na **[!UICONTROL Search for a Destination]** caixa, comece a digitar e selecione o destino desejado.
-1. Na **[!UICONTROL Select a Date Range]** caixa, especifique as datas de início e término do seu relatório e clique em **[!UICONTROL Apply Date Filter]**.
+1. Na **[!UICONTROL Search for a Destination]** caixa, digite o start e selecione o destino desejado.
+1. Na **[!UICONTROL Select a Date Range]** caixa, especifique as datas de start e término do relatório e clique em **[!UICONTROL Apply Date Filter]**.
 
    ![Resultado da etapa](assets/outbound_history_stats.png)
 
@@ -54,7 +58,7 @@ t_reports_outbound_history.xml
   </tr> 
   <tr> 
    <td colname="col1"> Registros recebidos </td> 
-   <td colname="col2"> <p>O número total de registros <span class="keyword"> gerados pela Adobe</span> nos arquivos e tentados enviar para o destino. Na maioria dos casos, esse deve ser o número total de arquivos bem-sucedidos e com falha. </p> </td> 
+   <td colname="col2"> <p>O número total de registros que a <span class="keyword"> Adobe</span> gerou nos arquivos e tentou enviar para o destino. Na maioria dos casos, esse deve ser o número total de arquivos bem-sucedidos e com falha. </p> </td> 
   </tr> 
  </tbody> 
 </table>
