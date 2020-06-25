@@ -1,12 +1,16 @@
 ---
-description: Lista os navegadores compatíveis com a interface do usuário do Audience Manager. Os cookies e o JavaScript devem estar habilitados em todos os navegadores.
-seo-description: Lista os navegadores compatíveis com a interface do usuário do Audience Manager. Os cookies e o JavaScript devem estar habilitados em todos os navegadores.
+description: Lista os navegadores suportados pela interface do usuário do Audience Manager. Os cookies e o JavaScript devem estar habilitados em todos os navegadores.
+seo-description: Lista os navegadores suportados pela interface do usuário do Audience Manager. Os cookies e o JavaScript devem estar habilitados em todos os navegadores.
 seo-title: Navegadores compatíveis
 solution: Audience Manager
 title: Navegadores compatíveis
 uuid: dffecdb5-d94d-4001-8f2a-9d1d77ce2213
+feature: reference
 translation-type: tm+mt
-source-git-commit: 662ddd04bde203a35440669ac9677eb067e136a1
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '197'
+ht-degree: 20%
 
 ---
 
@@ -41,4 +45,4 @@ A Adobe suporta a versão principal mais recente destes navegadores:
 
    Obtenha a versão mais recente do Safari em [http://www.apple.com/safari/download](http://www.apple.com/safari/download).
 
-Outros navegadores podem funcionar, mas não são suportados por nossas equipes técnicas e de produtos. Se tiver problemas para trabalhar com [!DNL Audience Manager], verifique se está usando um navegador atualizado e suportado.
+Outros navegadores podem funcionar, mas não são suportados por nossas equipes técnicas e de produtos. Se tiver problemas para trabalhar com [!DNL Audience Manager], verifique se você está usando um navegador atualizado e compatível.
