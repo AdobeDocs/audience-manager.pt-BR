@@ -1,23 +1,27 @@
 ---
-description: Este relatório retorna uma lista de características que foram realizadas pelo menos 10.000 vezes nos 30 dias anteriores às datas selecionadas e têm um desvio padrão maior ou igual a 1,7 em ambas as direções ao longo do mesmo intervalo de tempo. O relatório ajuda a avaliar como o número de impressões de usuários únicos em uma característica flutuam ao longo do tempo.
-seo-description: Este relatório retorna uma lista de características que foram realizadas pelo menos 10.000 vezes nos 30 dias anteriores às datas selecionadas e têm um desvio padrão maior ou igual a 1,7 em ambas as direções ao longo do mesmo intervalo de tempo. O relatório ajuda a avaliar como o número de impressões de usuários únicos em uma característica flutuam ao longo do tempo.
-seo-title: Relatório de variação de característica diária
+description: Este relatório retorna uma lista de características que foram realizadas pelo menos 10.000 vezes nos 30 dias anteriores às datas selecionadas e têm um desvio padrão maior ou igual a 1,7 em ambas as direções, ao longo do mesmo intervalo de tempo. O relatório ajuda a avaliar como o número de impressões de usuários únicos em uma característica flutuam ao longo do tempo.
+seo-description: Este relatório retorna uma lista de características que foram realizadas pelo menos 10.000 vezes nos 30 dias anteriores às datas selecionadas e têm um desvio padrão maior ou igual a 1,7 em ambas as direções, ao longo do mesmo intervalo de tempo. O relatório ajuda a avaliar como o número de impressões de usuários únicos em uma característica flutuam ao longo do tempo.
+seo-title: Relatório de Variação de Caracteres Diários
 solution: Audience Manager
-title: Relatório de variação de característica diária
+title: Relatório de Variação de Caracteres Diários
 uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
+feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 8f2ec880cbbe2f516ebc240a712337dc09c4e7f7
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '773'
+ht-degree: 0%
 
 ---
 
 
-# Relatório de variação de característica diária {#daily-trait-variation-report}
+# Relatório de Variação de Caracteres Diários {#daily-trait-variation-report}
 
-Este relatório retorna uma lista de características que foram realizadas pelo menos 10.000 vezes nos 30 dias anteriores às datas selecionadas e têm um desvio padrão maior ou igual a 1,7 em ambas as direções ao longo do mesmo intervalo de tempo. O relatório ajuda a avaliar como o número de impressões de usuários únicos em uma característica flutuam ao longo do tempo.
+Este relatório retorna uma lista de características que foram realizadas pelo menos 10.000 vezes nos 30 dias anteriores às datas selecionadas e têm um desvio padrão maior ou igual a 1,7 em ambas as direções, ao longo do mesmo intervalo de tempo. O relatório ajuda a avaliar como o número de impressões de usuários únicos em uma característica flutuam ao longo do tempo.
 
 >[!NOTE]
 >
->O relatório de Variação de característica diária no Audience Manager segue os princípios do RBAC. Você só pode ver características de fontes de dados às quais você tem acesso com base no Grupo [de usuários](/help/using/features/administration/administration-overview.md) RBAC ao qual você pertence.
+>O relatório de Variação de Características Diárias em Audience Manager respeita os princípios do RBAC. Você só pode ver características de fontes de dados às quais você tem acesso com base no Grupo [de usuários](/help/using/features/administration/administration-overview.md) RBAC ao qual você pertence.
 
 O desvio padrão mede a quantidade de variação ou dispersão em relação à média (ou valor médio/esperado). Um desvio padrão baixo indica que os pontos de dados tendem a estar muito próximos da média. Um desvio padrão alto indica que os pontos de dados estão distribuídos por uma grande variedade de valores.
 
@@ -27,11 +31,11 @@ Use a [!UICONTROL Date] lista para selecionar uma ou mais datas para seu relató
 
 A coluna central contém uma lista de características, identificadas por [!UICONTROL Trait ID] e [!UICONTROL Trait Name]. Clique em qualquer característica para acessar uma caixa de diálogo pop-up que permite selecionar entre as seguintes opções:
 
-* **** Manter somente: Remove todas as outras características do relatório e exibe dados somente para essa característica.
-* **** Excluir: Remove essa característica do relatório e exibe dados de todas as outras características. É possível excluir várias características.
-* **** Exibir dados: Permite exibir dados para essa linha. Também é possível baixar todas as linhas como um arquivo de texto.
+* **Manter somente:** Remove todas as outras características do relatório e exibe dados somente para essa característica.
+* **Excluir:** Remove essa característica do relatório e exibe dados de todas as outras características. É possível excluir várias características.
+* **Dados de Visualização:** Permite exibir dados para essa linha. Também é possível baixar todas as linhas como um arquivo de texto.
 
-A [!UICONTROL Standard Deviation] coluna exibe gráficos de barras codificados por cores que exibem o desvio padrão para cada característica durante o intervalo selecionado. As barras vermelhas indicam características com um desvio padrão negativo (os pontos de dados tendem a estar abaixo da média). As barras verdes indicam características com um desvio padrão positivo (os pontos de dados tendem a estar acima da média). Passe o mouse sobre qualquer barra para exibir uma caixa de diálogo pop-up com mais informações e opções para manter ou excluir essa característica e exibir mais informações.
+A [!UICONTROL Standard Deviation] coluna exibe gráficos de barras codificados por cores que exibem o desvio padrão para cada característica durante o intervalo selecionado. As barras vermelhas indicam características com um desvio padrão negativo (os pontos de dados tendem a estar abaixo da média). As barras verdes indicam características com um desvio padrão positivo (os pontos de dados tendem a estar acima da média). Passe o mouse sobre qualquer barra para exibir uma caixa de diálogo pop-up com mais informações e opções para manter ou excluir essa característica e visualização com mais informações.
 
 Os ícones são exibidos na parte inferior do relatório que permitem exportar dados em vários formatos, reverter quaisquer alterações que você tenha feito no relatório (como excluir características), ativar ou desativar atualizações automáticas e atualizar os dados do relatório. Consulte Ícones [de relatório e ferramentas explicadas](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained).
 
@@ -42,18 +46,18 @@ Os ícones são exibidos na parte inferior do relatório que permitem exportar d
 * `productPage == "December Promotion"`
 * `price > "500"`
 
-Diga que você dirige o [!UICONTROL Daily Trait Variation] relatório no dia 20 de dezembro e percebe um desvio positivo sólido nas características acima mencionadas nos últimos 30 dias. Isso pode sugerir que seus visitantes estejam procurando os produtos mencionados em sua promoção sazonal. Para tirar proveito dessa tendência, você pode investir mais esforços na definição de metas de criações para aquela categoria específica de produto em visitantes que estejam interessados neles.
+Diga que você dirige o [!UICONTROL Daily Trait Variation] relatório no dia 20 de dezembro e percebe um desvio positivo sólido nas características acima mencionadas nos últimos 30 dias. Isso pode sugerir que seus visitantes estejam procurando os produtos mencionados em sua promoção sazonal. Para aproveitar essa tendência, você pode investir mais esforços na definição de metas para as criações para aquela categoria de produtos específica em visitantes que estão interessados neles.
 
-**Exemplo nº 2**: este relatório pode ajudá-lo a identificar anomalias de definição de metas relacionadas a problemas de marcação ou configurações incorretas de características. Imagine que você definiu o seguinte traço com base nas categorias da sua loja online:
+**Exemplo nº 2**: este relatório pode ajudá-lo a identificar anomalias de definição de metas relacionadas a problemas de marcação ou configurações incorretas de características. Imagine que você definiu a seguinte característica com base nas categorias de sua loja online:
 
 * `productPage == "smartphones"`
 
 Devido a uma reconfiguração da sua loja, você está dividindo a página de smartphones em várias páginas, com base nos nomes das marcas. No entanto, você se esquece de atualizar as características definidas em [!DNL Audience Manager].
 
-Um mês depois, você executa o [!UICONTROL Daily Trait Variation] relatório e nota um grande desvio negativo na `productPage == "smartphones"` característica, embora seu número de visitantes tenha aumentado, de acordo com as análises do site. Com base nessas informações, você percebe que não atualizou as características [!DNL Audience Manager] para suas novas páginas de produtos, portanto, você sabe que precisa criar as seguintes características:
+Um mês depois, você executa o [!UICONTROL Daily Trait Variation] relatório e nota um grande desvio negativo na `productPage == "smartphones"` característica, embora o número do visitante tenha aumentado, de acordo com as análises do site. Com base nessas informações, você percebe que não atualizou as características [!DNL Audience Manager] para suas novas páginas de produtos, portanto, você sabe que precisa criar as seguintes características:
 
-* productPage == "samsung"
-* productPage == "apple"
-* productPage == "huawei"
+* productPage == &quot;samsung&quot;
+* productPage == &quot;apple&quot;
+* productPage == &quot;huawei&quot;
 
-Depois de fazer isso, você verá seu público-alvo se qualificando para as características recém-criadas.
+Depois de fazer isso, você verá sua audiência se qualificando para as características recém-criadas.
