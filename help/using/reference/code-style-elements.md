@@ -5,8 +5,12 @@ seo-title: Convenções de estilo para elementos de código e texto
 solution: Audience Manager
 title: Convenções de estilo para elementos de código e texto
 uuid: 7605604d-bc76-4063-ba92-52c88bd69e3c
+feature: reference
 translation-type: tm+mt
-source-git-commit: 8e4afebaa2035fca6f8535314be5f072f26e0217
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '209'
+ht-degree: 0%
 
 ---
 
@@ -24,11 +28,11 @@ Esses elementos identificam as opções de código e as variáveis usadas na doc
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> <i>variável</i></code> </p> </td> 
-   <td colname="col2"> <p>As variáveis são exibidas em <i>itálico</i>. Substitua o valor apropriado para o nome da variável. </p> <p>Para maior clareza visual, às vezes variáveis e outros elementos de código aparecem entre &lt; &gt; colchetes. Não é necessário usar esses símbolos no código. </p> </td> 
+   <td colname="col1"> <p> <code> <i>variable</i> </code> </p> </td> 
+   <td colname="col2"> <p>As variáveis são exibidas em <i>itálico</i>. Substitua o valor apropriado para o nome da variável. </p> <p>Para maior clareza visual, às vezes as variáveis e outros elementos de código aparecem entre &lt; &gt; colchetes. Não é necessário usar esses símbolos no código. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> [opcional]</code> </p> </td> 
+   <td colname="col1"> <p> <code> [optional]</code> </p> </td> 
    <td colname="col2"> <p>Os itens entre colchetes são opcionais. </p> </td> 
   </tr> 
   <tr> 
