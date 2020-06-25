@@ -1,19 +1,23 @@
 ---
-description: Use o Painel para exibir informações sobre as contagens de visitantes únicos de seus parceiros, divididas por tipos de características e segmentos de um período especificado.
-seo-description: Use o Painel para exibir informações sobre as contagens de visitantes únicos de seus parceiros, divididas por tipos de características e segmentos de um período especificado.
+description: Use o Painel para obter informações visualizações sobre a contagem exclusiva de visitantes de seus parceiros, divididas por tipos de características e segmentos, por um período de tempo especificado.
+seo-description: Use o Painel para obter informações visualizações sobre a contagem exclusiva de visitantes de seus parceiros, divididas por tipos de características e segmentos, por um período de tempo especificado.
 seo-title: Painel de relatórios
 solution: Audience Manager
 title: Painel de relatórios
 uuid: 350eee2d-72f7-42a7-916b-60f9a362c5cf
+feature: reporting reference
 translation-type: tm+mt
-source-git-commit: ad4721cd2ff1f4b2b7cb814cbafdef1f59138a26
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '657'
+ht-degree: 0%
 
 ---
 
 
 # Painel de relatórios {#reports-dashboard}
 
-Use o Painel para exibir informações sobre suas contagens de visitantes únicos detalhadas por tipos de características e segmentos, por um período de tempo especificado.
+Use o Painel para obter informações visualizações sobre a contagem exclusiva de visitantes, divididas por tipos de características e segmentos, por um período de tempo especificado.
 
 <!-- 
 
@@ -21,18 +25,18 @@ c_dashboard.xml
 
  -->
 
-[!DNL Audience Manager] usa [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]) para estender as permissões do grupo de usuários ao [!UICONTROL Dashboard]. Os usuários podem ver apenas as informações no painel que têm permissões para exibir. [!UICONTROL RBAC] permite controlar quais dados de relatório as equipes internas podem visualizar.
+[!DNL Audience Manager] usa [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]) para estender as permissões do grupo de usuários ao [!UICONTROL Dashboard]. Os usuários podem ver apenas informações sobre o painel que possuem permissões para a visualização. [!UICONTROL RBAC] permite controlar quais equipes internas de dados de relatórios são capazes de visualização.
 
-Por exemplo, uma agência que gerencia diferentes contas de anunciante pode configurar permissões de grupo de usuários para que uma equipe que gerencia a conta do anunciante A não possa ver os dados de relatório do anunciante B. Este painel pode ser usado para solucionar problemas de entrega de dados.
+Por exemplo, uma agência que gerencia diferentes contas de anunciantes pode configurar permissões de grupo de usuários para que uma equipe que gerencia a conta do anunciante A não possa ver os dados de relatórios do anunciante B. Este painel pode ser usado para solucionar problemas de delivery de dados.
 
-Por exemplo, se você notar uma queda ou um pico, no total de usuários únicos com o detalhamento do tipo de usuário único (baseado em regras vs. a bordo), você terá um ponto de partida melhor para rastrear um possível problema de entrega de dados. Se você notar uma queda no total de usuários únicos e em usuários únicos embarcados, poderá acessar o [!UICONTROL On-boarding Status] relatório para ver se houve um problema com um arquivo de entrada.
+Por exemplo, se você notar uma queda ou um pico, no total de usuários únicos com o detalhamento do tipo de usuário único (baseado em regras vs. a bordo), você terá um ponto de partida melhor para rastrear um potencial problema de delivery de dados. Se você notar uma queda no total de usuários únicos e em usuários únicos embarcados, poderá acessar o [!UICONTROL On-boarding Status] relatório para ver se houve um problema com um arquivo de entrada.
 
 **Para acessar o Painel:**
 
 1. In the top navigation menu, click **[!UICONTROL Dashboard]**.
-2. *Opcional* Selecione o período desejado na última data do relatório na lista suspensa (7 Dias, 14 Dias (o padrão), 30 Dias ou 60 Dias).
+2. *Opcional* Selecione o período desejado na última data do relatórios na lista suspensa (7 Dias, 14 Dias (o padrão), 30 Dias ou 60 Dias).
 
-   Dependendo do período selecionado, a alteração delta nos painéis [!UICONTROL Largest Traits] &gt; [!UICONTROL Most Changed Traits] e [!UICONTROL Largest Segments] &gt; [!UICONTROL Most Changed Segments] exibe a alteração em visitantes únicos no público-alvo durante o período que termina hoje em vez do período anterior com a mesma duração. Por exemplo, se você selecionar 7 Dias, o delta compara os visitantes únicos nos sete dias anteriores que terminaram hoje com os visitantes únicos nos sete dias anteriores.
+   Dependendo do período selecionado, a alteração delta nos painéis [!UICONTROL Largest Traits] > [!UICONTROL Most Changed Traits] e [!UICONTROL Largest Segments] > [!UICONTROL Most Changed Segments] exibe a alteração em visitantes únicos na audiência durante o período que termina hoje em vez do período anterior com o mesmo comprimento. Por exemplo, se você selecionar 7 Dias, o delta compara os visitantes únicos nos sete dias anteriores que terminaram hoje com os visitantes únicos nos sete dias anteriores.
 
    >[!NOTE]
    >
@@ -48,7 +52,7 @@ Por exemplo, se você notar uma queda ou um pico, no total de usuários únicos 
 
 ## Parceiros únicos {#partner-uniques}
 
-Permissão necessária para exibir: [!UICONTROL View All Traits].
+Permissão necessária para a Visualização: [!UICONTROL View All Traits].
 
 ![](assets/partner_uniques.png)
 
@@ -56,11 +60,11 @@ Esse painel exibe o número de visitantes únicos durante o período especificad
 
 >[!NOTE]
 >
->O número total de visitantes únicos representa visitantes capturados por características com base em regras ou a bordo. No entanto, o número total de visitantes únicos não é igual à soma dos visitantes únicos capturados usando as características integradas e baseadas em regras. O mesmo usuário exclusivo pode ser representado em qualquer um desses dois tipos de características.
+>O número total de visitantes únicos representa visitantes capturados por características baseadas em regras ou a bordo. No entanto, o número total de visitantes únicos não é igual à soma dos visitantes únicos capturados usando as características integradas e baseadas em regras. O mesmo usuário exclusivo pode ser representado em qualquer um desses dois tipos de características.
 
 ## Maiores características/Características mais alteradas {#largest-traits}
 
-Permissão necessária para exibir: [!UICONTROL View Traits].
+Permissão necessária para a Visualização: [!UICONTROL View Traits].
 
 ![](assets/largest_traits.png)
 
@@ -91,7 +95,7 @@ Esse painel contém as seguintes guias:
 
 ## Principais segmentos/segmentos mais alterados {#most-changed-segments}
 
-Permissão necessária para exibir: [!UICONTROL View Segments].
+Permissão necessária para a Visualização: [!UICONTROL View Segments].
 
 ![](assets/largest_segments.png)
 
