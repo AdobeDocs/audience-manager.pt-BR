@@ -5,8 +5,12 @@ seo-title: Atualizações de status para arquivos de metadados
 solution: Audience Manager
 title: Atualizações de status para arquivos de metadados
 uuid: 56a1e88a-41da-4d51-a21e-2be98cca7fa2
+feature: log files
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '327'
+ht-degree: 1%
 
 ---
 
@@ -58,7 +62,7 @@ O conteúdo do seu `.info` arquivo será semelhante a este exemplo.
 
 ## Definição de pares de valores principais de metadados {#key-value-pairs}
 
-As tabelas a seguir listam e definem as chaves nas seções `Files` e `Summary` de um arquivo de status de metadados.
+As tabelas a seguir são listas e definem as chaves nas seções `Files` e `Summary` de um arquivo de status de metadados.
 
 **Teclas no storage de arquivos**
 
@@ -71,7 +75,7 @@ As tabelas a seguir listam e definem as chaves nas seções `Files` e `Summary` 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code>Descrição</code> </p> </td> 
+   <td colname="col1"> <p> <code> Description</code> </p> </td> 
    <td colname="col2"> <p>Contém uma breve descrição do motivo da falha no processamento. Este campo fica vazio quando o processamento é bem-sucedido. </p> </td> 
   </tr> 
   <tr> 
@@ -80,26 +84,26 @@ As tabelas a seguir listam e definem as chaves nas seções `Files` e `Summary` 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
-   <td colname="col2"> <p>A soma de verificação do MD 5 para o arquivo de metadados carregado no seu <code> meta</code> diretório. </p> </td> 
+   <td colname="col2"> <p>A soma de verificação MD 5 para o arquivo de metadados carregado no seu <code> meta</code> diretório. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileName</code> </p> </td> 
-   <td colname="col2"> <p>O nome do arquivo de metadados carregado no seu <code> diretório meta</code> . </p> </td> 
+   <td colname="col2"> <p>O nome do arquivo de metadados carregado no seu <code> meta</code> diretório. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MetadataType</code> </p> </td> 
    <td colname="col2"> <p>O nome legível para o tipo de dados que seu arquivo contém. Ela se baseia na ID filho no nome do arquivo. </p> <p>Consulte <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Nomear convenções para arquivos</a>de metadados. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> Pai</code> </p> </td> 
+   <td colname="col1"> <p> <code> Parent</code> </p> </td> 
    <td colname="col2"> <p>O nome legível para o tipo de dados que seu arquivo contém. Ela se baseia na ID pai no nome do arquivo. </p> <p>Consulte <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Nomear convenções para arquivos</a>de metadados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Status</code> </p> </td> 
    <td colname="col2"> <p>Retorna 2 valores de texto que descrevem o status de processamento do arquivo de metadados: </p> 
     <ul id="ul_3814EBB6B42B4EB294B1ABA5782190B6"> 
-     <li id="li_92AAECE7E9A44B1193A1D93ABBCE46B0"> <code> SUCESSO</code> </li> 
-     <li id="li_3109F4E254374117A89CB989F221CB18"> <code> FALHA</code> </li> 
+     <li id="li_92AAECE7E9A44B1193A1D93ABBCE46B0"> <code> SUCCESS</code> </li> 
+     <li id="li_3109F4E254374117A89CB989F221CB18"> <code> FAILURE</code> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -116,15 +120,15 @@ As tabelas a seguir listam e definem as chaves nas seções `Files` e `Summary` 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> Dia</code> </p> </td> 
-   <td colname="col2"> <p>Data de processamento do arquivo no formato <code><i>aaaa-mm-dd</i></code> . </p> </td> 
+   <td colname="col1"> <p> <code> Day</code> </p> </td> 
+   <td colname="col2"> <p>Data de processamento do arquivo no <code><i>yyyy-mm-dd</i></code> formato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> GlobalStatus</code> </p> </td> 
    <td colname="col2"> <p>Retorna 2 valores de texto que descrevem o status de processamento de todos os arquivos de um dia inteiro: </p> 
     <ul id="ul_3FC092CA043A486C9C79FECF71FAF8FB"> 
-     <li id="li_754B32D8267D44BBBD6EC354C459C566"> <code> SUCESSO</code> </li> 
-     <li id="li_8B64E39C80424AC2B95DF9B53D62864E"> <code> FALHA</code> </li> 
+     <li id="li_754B32D8267D44BBBD6EC354C459C566"> <code> SUCCESS</code> </li> 
+     <li id="li_8B64E39C80424AC2B95DF9B53D62864E"> <code> FAILURE</code> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -137,11 +141,11 @@ As tabelas a seguir listam e definem as chaves nas seções `Files` e `Summary` 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ProcessingTimeRFC2822</code> </p> </td> 
-   <td colname="col2"> <p>Retorna um carimbo de data e hora legível para as horas de início do processamento. </p> </td> 
+   <td colname="col2"> <p>Retorna um carimbo de data e hora legível para os tempos de start de processamento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ProcessingTimePOSIX</code> </p> </td> 
-   <td colname="col2"> <p>Um carimbo de data e hora UNIX para a hora de início do processamento. </p> </td> 
+   <td colname="col2"> <p>Um carimbo de data e hora UNIX para processamento de start. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TotalByteSize</code> </p> </td> 
@@ -149,7 +153,7 @@ As tabelas a seguir listam e definem as chaves nas seções `Files` e `Summary` 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TotalNumberFiles</code> </p> </td> 
-   <td colname="col2"> <p>Número total de todos os arquivos processados pelo dia. </p> </td> 
+   <td colname="col2"> <p>O número total de todos os arquivos processados pelo dia. </p> </td> 
   </tr> 
  </tbody> 
 </table>
