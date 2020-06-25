@@ -1,31 +1,35 @@
 ---
-description: O Relatório de status onboard verifica as taxas de sucesso e de falha do processamento de registros nos arquivos de fonte de dados de entrada. Este relatório exibe dados em um gráfico de barras interativo e fornece métricas de resumo em forma tabular. Além disso, ele inclui a opção de arquivos de amostra para um intervalo de tempo fixo e exibe os erros mais comuns para cada tipo de erro. Esse relatório pode ser encontrado no Analytics > Relatório de status onboard. Este relatório também está disponível ao criar uma fonte de dados de entrada.
-seo-description: O Relatório de status onboard verifica as taxas de sucesso e de falha do processamento de registros nos arquivos de fonte de dados de entrada. Este relatório exibe dados em um gráfico de barras interativo e fornece métricas de resumo em forma tabular. Além disso, ele inclui a opção de arquivos de amostra para um intervalo de tempo fixo e exibe os erros mais comuns para cada tipo de erro. Esse relatório pode ser encontrado no Analytics > Relatório de status onboard. Este relatório também está disponível ao criar uma fonte de dados de entrada.
-seo-title: Relatório de status onboard sobre
+description: O Relatório de status onboard verifica as taxas de sucesso e de falha para o processamento de registros nos arquivos de fonte de dados de entrada. Este relatório exibe dados em um gráfico de barras interativo e fornece métricas de resumo em forma tabular. Além disso, ele inclui a opção de arquivos de amostra para um intervalo de tempo fixo e exibe os erros mais comuns para cada tipo de erro. Você pode encontrar esse relatório em Analytics > Relatório de status onboard. Este relatório também está disponível ao criar uma fonte de dados de entrada.
+seo-description: O Relatório de status onboard verifica as taxas de sucesso e de falha para o processamento de registros nos arquivos de fonte de dados de entrada. Este relatório exibe dados em um gráfico de barras interativo e fornece métricas de resumo em forma tabular. Além disso, ele inclui a opção de arquivos de amostra para um intervalo de tempo fixo e exibe os erros mais comuns para cada tipo de erro. Você pode encontrar esse relatório em Analytics > Relatório de status onboard. Este relatório também está disponível ao criar uma fonte de dados de entrada.
+seo-title: Relatório de status onboard
 solution: Audience Manager
-title: Relatório de status onboard sobre
+title: Relatório de status onboard
 uuid: 6ca8a90a-436b-4fce-adf1-48f3b96b3ed2
+feature: inbound and outbound reports
 translation-type: tm+mt
-source-git-commit: dd5c3d28097251c58e1fb095aaf4076883d1c1a1
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '1498'
+ht-degree: 7%
 
 ---
 
 
 # Relatório de status onboard{#onboarding-status-report-about}
 
-O Relatório de status onboard verifica as taxas de sucesso e de falha do processamento de registros nos arquivos de fonte de dados de entrada. Este relatório exibe dados em um gráfico de barras interativo e fornece métricas de resumo em forma tabular. Além disso, ele inclui a opção de arquivos de amostra para um intervalo de tempo fixo e exibe os erros mais comuns para cada tipo de erro. Esse relatório pode ser encontrado no Analytics &gt; Relatório de status onboard. Este relatório também está disponível ao criar uma fonte de dados de entrada.
+O Relatório de status onboard verifica as taxas de sucesso e de falha para o processamento de registros nos arquivos de fonte de dados de entrada. Este relatório exibe dados em um gráfico de barras interativo e fornece métricas de resumo em forma tabular. Além disso, ele inclui a opção de arquivos de amostra para um intervalo de tempo fixo e exibe os erros mais comuns para cada tipo de erro. Você pode encontrar esse relatório em Analytics > Relatório de status onboard. Este relatório também está disponível ao criar uma fonte de dados de entrada.
 
 >[!NOTE]
 >
 >Somente os usuários com privilégios de Administrador podem ver esse relatório na interface do usuário do Audience Manager. Você pode fazer com que usuários não administradores sejam notificados do status dos arquivos de entrada carregados adicionando seus e-mails ao relatório. Consulte [Receber notificações](/help/using/reporting/onboarding-status-report.md#receive-email-notifications)por email.
 
-##  Relatório de status onboard: About {#onboarding-status-about}
+## Relatório de status onboard: About {#onboarding-status-about}
 
 The [!UICONTROL Onboarding Status Report] checks success and failure rates for processing records in your inbound data source files. Este relatório exibe dados em um gráfico de barras interativo e fornece métricas de resumo em forma tabular. Além disso, ele inclui a opção de arquivos de amostra para um intervalo de tempo fixo e exibe os erros mais comuns para cada tipo de erro. Você pode encontrar este relatório em **[!UICONTROL Analytics > Onboarding Status Report]**. Este relatório também está disponível ao criar uma fonte de dados de entrada.
 
 ## Relatórios de erros e amostragem de erros {#error-reporting-sampling}
 
-Relatórios de erros e amostragem de erros são dois recursos separados do [!UICONTROL Onboarding Status] relatório.
+relatórios de erros e amostragem de erros são dois recursos separados do [!UICONTROL Onboarding Status] relatório.
 
 <table id="table_4706D891D4C545E8BF9D8A0CC052CC48"> 
  <thead> 
@@ -36,12 +40,12 @@ Relatórios de erros e amostragem de erros são dois recursos separados do [!UIC
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Relatório de erros</b> </p> </td>
-   <td colname="col2"> <p>O relatório de erros mostra as taxas de sucesso e de falha do número de registros processados em uma fonte de dados de entrada. Ele retorna dados em um gráfico de barras empilhadas interativo e como métricas de resumo em tabelas abaixo do gráfico. </p> <p>O relatório de erros é automático. Ele é executado continuamente para todas as suas fontes de dados de entrada. Ele retorna dados com base no intervalo de intervalos de tempo predefinidos ou em um intervalo de tempo personalizado definido com um widget de calendário. </p> </td> 
+   <td colname="col1"> <p> <b>Relatórios de erro</b> </p> </td>
+   <td colname="col2"> <p>O relatórios de erro mostra as taxas de sucesso e falha do número de registros processados em uma fonte de dados de entrada. Ele retorna dados em um gráfico de barras empilhadas interativo e como métricas de resumo em tabelas abaixo do gráfico. </p> <p>O relatórios de erro é automático. Ele é executado continuamente para todas as suas fontes de dados de entrada. Ele retorna dados com base no intervalo de intervalos de tempo predefinidos ou em um intervalo de tempo personalizado definido com um widget de calendário. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Amostragem de erro</b> </p> </td>
-   <td colname="col2"> <p>A amostragem de erros analisa o conteúdo de seus arquivos de dados e retorna os 10 erros mais comuns para cada tipo de erro. Os erros nos arquivos de dados de entrada impedem que registros individuais sejam processados. Use este relatório como uma ferramenta de solução de problemas para ajudar a reduzir o número de erros de arquivo e melhorar as taxas de processamento. </p> <p>Você deve ativar a amostragem de erros manualmente. Ele é executado por 14 dias a partir do dia da ativação e então se desliga. Você pode ativar novamente a amostragem de erros após o intervalo de 14 dias expirar. Você ativa a amostragem de erros ao <a href="../features/manage-datasources.md#create-data-source"> criar uma fonte</a> de dados de entrada ou ao marcar a caixa de seleção Amostragem <b><span class="uicontrol"> de erros na seção Configurações</span></b> da fonte de <span class="wintitle"></span> dados de uma fonte de dados de entrada existente. </p> <p>A amostragem de erros é um processo que exige cálculos. Como resultado, retorna somente os primeiros 10 erros para cada categoria de erro. Ele não foi projetado para retornar todos os erros contidos em uma fonte de dados de entrada. Esses erros são uma amostra representativa de um grupo potencialmente maior de erros similares. Revise o arquivo inteiro para ver os tipos de erros que este relatório sinaliza, reformate o arquivo e envie-o novamente. </p> <p>Consulte Conteúdo <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> do arquivo de dados de entrada: Sintaxe, variáveis e exemplos</a> para obter mais informações sobre como formatar corretamente um arquivo de dados para uma fonte de dados de entrada. </p> </td> 
+   <td colname="col2"> <p>A amostragem de erros analisa o conteúdo de seus arquivos de dados e retorna os 10 erros mais comuns para cada tipo de erro. Os erros nos arquivos de dados de entrada impedem que registros individuais sejam processados. Use este relatório como uma ferramenta de solução de problemas para ajudar a reduzir o número de erros de arquivo e melhorar as taxas de processamento. </p> <p>Você deve ativar a amostragem de erros manualmente. Ela funciona por 14 dias a partir do dia da ativação e então se desliga. Você pode ativar novamente a amostragem de erros depois que o intervalo de 14 dias expirar. Você ativa a amostragem de erros ao <a href="../features/manage-datasources.md#create-data-source"> criar uma fonte</a> de dados de entrada ou ao marcar a caixa de seleção Amostragem <b><span class="uicontrol"> de erros na seção Configurações</span></b> da fonte de <span class="wintitle"></span> dados de uma fonte de dados de entrada existente. </p> <p>A amostragem de erros é um processo que exige cálculos. Como resultado, retorna somente os primeiros 10 erros para cada categoria de erro. Ele não foi projetado para retornar todos os erros contidos em uma fonte de dados de entrada. Esses erros são uma amostra representativa de um grupo potencialmente maior de erros similares. Revise o arquivo inteiro para ver os tipos de erros que este relatório sinaliza, reformate o arquivo e envie-o novamente. </p> <p>Consulte Conteúdo <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> do arquivo de dados de entrada: Sintaxe, variáveis e exemplos</a> para obter mais informações sobre como formatar corretamente um arquivo de dados para uma fonte de dados de entrada. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +62,7 @@ O relatório de erros exibe dados tabulares abaixo do gráfico de barras. A tabe
 
 **Registros com êxito e com falha**
 
-Esta exibição padrão mostra uma contagem de frequência do total de registros em seu relatório e inclui uma análise dos erros por tipo de erro.
+Esta visualização padrão mostra uma contagem de frequência do total de registros em seu relatório e inclui uma análise dos erros por tipo de erro.
 
 ![](assets/success-failure.png)
 
@@ -80,7 +84,7 @@ Com a amostragem de erros ativa, o relatório mostrará os 10 erros principais p
 
 ## Receber notificações por email {#receive-email-notifications}
 
-Você pode adicionar os endereços de email dos destinatários aos quais deseja ser notificado sobre o status dos arquivos de entrada carregados. Observe que você pode selecionar destinatários diferentes para fontes de dados diferentes.
+Você pode adicionar os endereços de email dos recipient que deseja que sejam notificados sobre o status dos arquivos de entrada carregados. Observe que é possível selecionar recipient diferentes para fontes de dados diferentes.
 
 ![](assets/mail-notifications.png)
 
@@ -95,7 +99,7 @@ create-onboarding-status-report.xml
  -->
 
 
-1. Vá para **[!UICONTROL Analytics > Onboarding Status Report]**. Procure uma fonte de dados ou escolha uma na lista.
+1. Vá para **[!UICONTROL Analytics > Onboarding Status Report]**. Procure uma fonte de dados ou escolha uma da lista.
 
 2. Selecione um intervalo de datas. As opções incluem:
 
@@ -118,7 +122,7 @@ Um guia de referência para os rótulos e termos usados neste relatório.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Nome do arquivo de sincronização de dados</b> </p> </td> 
-   <td colname="col2"> <p>Lista os arquivos que <span class="keyword"> o Audience Manager</span> recebeu e processou de sua fonte de dados de entrada selecionada. </p> <p>O processamento do arquivo falhará se o nome do arquivo for formatado incorretamente. Os requisitos de nome de arquivo variam dependendo de como você envia esses dados para o <span class="keyword"> Audience Manager</span>. Os métodos de entrega incluem <span class="keyword"> Amazon S3</span> e FTP. Para obter instruções sobre como nomear seus arquivos, consulte: </p> <p> 
+   <td colname="col2"> <p>Lista arquivos que <span class="keyword"> Audience Manager</span> recebeu e processou de sua fonte de dados de entrada selecionada. </p> <p>O processamento do arquivo falhará se o nome do arquivo for formatado incorretamente. Os requisitos de nome de arquivo variam dependendo de como você envia esses dados para o <span class="keyword"> Audience Manager</span>. Os métodos de Delivery incluem <span class="keyword"> Amazon S3</span> e FTP. Para obter instruções sobre como nomear seus arquivos, consulte: </p> <p> 
      <ul id="ul_9A32906A14CA41C5AED0E13930DB31BA"> 
       <li id="li_A5A0E6ED711D4002B52092619F87C7D6"> <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md"> Requisitos de nome Amazon S3 para arquivos de dados de entrada </a> </li> 
      </ul> </p> </td> 
@@ -129,7 +133,7 @@ Um guia de referência para os rótulos e termos usados neste relatório.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>ID de AAM inválida</b> </p> </td> 
-   <td colname="col2"> <p>Lista o número de IDs de usuário do Audience Manager <span class="keyword"></span> formatadas incorretamente (UUID). Normalmente, isso indica as IDs: </p> 
+   <td colname="col2"> <p>Lista o número de IDs de usuário do <span class="keyword"> Audience Manager (UUID) formatadas incorretamente</span> . Normalmente, isso indica as IDs: </p> 
     <ul id="ul_8304250E8F0F44918A50CF9D8D8D1F83"> 
      <li id="li_B100B4C2623B4E099E022869A4978357">Não correspondia ao formato de 38 dígitos esperado. </li> 
      <li id="li_44E8A9AD13174A20A5742E56ED786634">Contém caracteres alfabéticos. As IDs devem ser apenas números. </li> 
@@ -138,7 +142,7 @@ Um guia de referência para os rótulos e termos usados neste relatório.
 
 <tr> 
    <td colname="col1"> <p> <b>ID de dispositivo inválida</b> </p> </td> 
-   <td colname="col2"> <p>Lista o número de IDs de dispositivo global formatadas incorretamente. Consulte <a href="../reference/ids-in-aam.md">Índice de IDs no Audience Manager</a> e nas Fontes <a href="../features/global-data-sources.md">de Dados</a> Globais para obter detalhes sobre como as IDs de dispositivo devem ser formatadas e quais fontes de dados globais devem ser usadas, com base no tipo de dispositivo.</p>
+   <td colname="col2"> <p>Lista o número de IDs de dispositivo global formatadas incorretamente. Consulte <a href="../reference/ids-in-aam.md">Índice de IDs no Audience Manager</a> e Fontes <a href="../features/global-data-sources.md">de dados</a> globais para obter detalhes sobre como as IDs de dispositivo devem ser formatadas e quais fontes de dados globais devem ser usadas, com base no tipo de dispositivo.</p>
   <p>A seção de amostragem de erros do relatório inclui informações detalhadas sobre as IDs de dispositivo inválidas, como:</p>
    <ul>
     <li>A ID da fonte de dados correspondente à ID de dispositivo inválida;</li>
@@ -151,7 +155,7 @@ Um guia de referência para os rótulos e termos usados neste relatório.
 
 <tr> 
    <td colname="col1"> <p> <b>Nenhuma ID do AAM correspondente</b> </p> </td> 
-   <td colname="col2"> <p>Essas são IDs integradas <span class="keyword"> O Audience Manager</span> não pode corresponder a uma ID existente. As IDs integradas podem ter esse status quando o <span class="keyword"> Audience Manager</span> ainda não realizou uma sincronização de ID ou ainda não pode corresponder à ID mesmo depois de uma sincronização. </p> <p>No caso de IDs móveis não correspondentes, <span class="keyword"> o Audience Manager</span> : </p> 
+   <td colname="col2"> <p>Essas IDs integradas <span class="keyword"> não podem corresponder</span> a uma ID existente. As IDs integradas podem ter esse status quando o <span class="keyword"> Audience Manager</span> ainda não realizou uma sincronização de ID ou ainda não pode corresponder à ID mesmo depois de uma sincronização. </p> <p>No caso de IDs móveis não correspondentes, o <span class="keyword"> Audience Manager</span> : </p> 
     <ul id="ul_B0D6AF9EB27D4017B35E36824B403879"> 
      <li id="li_D141000A50D3463182CBA4571DCC5373">Continue a armazenar e tente sincronizar esta ID. </li> 
      <li id="li_2EFCEE716F254ABCBC5FBF749B7564E6">Registre-o como um Registro <span class="wintitle"></span> armazenado no relatório se a ID não puder ser sincronizada. </li> 
@@ -159,10 +163,10 @@ Um guia de referência para os rótulos e termos usados neste relatório.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Nenhuma característica realizada</b> </p> </td> 
-   <td colname="col2"> <p>Lista características que <span class="keyword"> o Audience Manager</span> não pode corresponder a uma característica integrada. Isso pode resultar de: </p> 
+   <td colname="col2"> <p>Características do Lista que o <span class="keyword"> Audience Manager</span> não pode corresponder a uma característica integrada. Isso pode resultar de: </p> 
     <ul id="ul_43619035AB6641B6949302FB50BDB5B1"> 
      <li id="li_D4C6306BF2B143198108702B309CE8CF">Características formatadas incorretamente no arquivo de dados de entrada. Para saber como formatar o arquivo de dados, consulte Conteúdo do arquivo de dados de <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> entrada: Sintaxe, variáveis e exemplos</a>. </li> 
-     <li id="li_A1C708A007D24EE09B7C629AFC6E43C3">Características que ainda não foram definidas no <span class="keyword"> Audience Manager</span>. </li> 
+     <li id="li_A1C708A007D24EE09B7C629AFC6E43C3">Características que ainda não foram definidas em <span class="keyword"> Audience Manager</span>. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -179,7 +183,7 @@ Um guia de referência para os rótulos e termos usados neste relatório.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Características Realizadas Totais</b> </p> </td> 
-   <td colname="col2"> <p>O número de características de todos os usuários em todos os arquivos de entrada armazenados na plataforma <span class="keyword"> Audience Manager</span> . </p> </td> 
+   <td colname="col2"> <p>O número de características de todos os usuários em todos os arquivos de entrada que são armazenados na plataforma <span class="keyword"> Audience Manager</span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Total de Sinais Não Utilizados</b> </p> </td> 
