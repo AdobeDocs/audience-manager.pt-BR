@@ -4,8 +4,9 @@ seo-description: A Adobe fornece o meio de gerenciar e comunicar as opções de 
 seo-title: Plug-in do Audience Manager para a Estrutura de consentimento do IAB
 solution: Audience Manager
 title: Plug-in do Audience Manager para a Estrutura de consentimento do IAB
+feature: data governance & privacy
 translation-type: tm+mt
-source-git-commit: 40e30379f051398a5f6c8ee7db49b6c5c5e146cd
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '2449'
 ht-degree: 7%
@@ -147,7 +148,7 @@ Ao implementar o Plug-in de Audience Manager para IAB TCF, você não é obrigad
 
 A Audience Manager avalia e honra o consentimento passado em chamadas [de](../../integration/sending-audience-data/real-time-data-integration/pixel-based-data-transfer.md)pixel, de acordo com o TCF da IAB.
 
-Os pixels podem ser colocados pelos clientes do Audience Manager em suas páginas de parceiros ou são colocados nos servidores de anúncios para inclusão na resposta do anúncio. No primeiro caso, seu parceiro deve recuperar programaticamente o parâmetro de consentimento e adicioná-lo ao pixel antes de disparar. No segundo caso, que é mais comum e é descrito detalhadamente abaixo, os servidores de publicidade anexam os parâmetros de consentimento que recebem do Supply-Side Platform (SSP) ou dos servidores de anúncios do editor a todos os pixels.
+Os pixels podem ser colocados por clientes Audience Manager em suas páginas de parceiros ou em servidores de anúncios para inclusão na resposta do anúncio. No primeiro caso, seu parceiro deve recuperar programaticamente o parâmetro de consentimento e adicioná-lo ao pixel antes de disparar. No segundo caso, que é mais comum e é descrito detalhadamente abaixo, os servidores de publicidade anexam os parâmetros de consentimento que recebem do Supply-Side Platform (SSP) ou dos servidores de anúncios do editor a todos os pixels.
 
 O Audience Manager usa dois parâmetros para passar o consentimento do usuário em chamadas de pixel:
 
