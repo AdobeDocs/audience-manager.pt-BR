@@ -1,23 +1,27 @@
 ---
-description: Este relatório retorna uma contagem de frequência de todas as informações não utilizadas coletadas no inventário e enviadas ao Audience Manager.
-seo-description: Este relatório retorna uma contagem de frequência de todas as informações não utilizadas coletadas no inventário e enviadas ao Audience Manager.
+description: Este relatório retorna uma contagem de frequência de todas as informações não utilizadas coletadas no inventário e enviadas para o Audience Manager.
+seo-description: Este relatório retorna uma contagem de frequência de todas as informações não utilizadas coletadas no inventário e enviadas para o Audience Manager.
 seo-title: Relatório de Sinais Não Utilizados
 solution: Audience Manager
 title: Relatório de Sinais Não Utilizados
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
+feature: overlap reports
 translation-type: tm+mt
-source-git-commit: dcc44161df89b44ca1a234070c4afbb0210dc723
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '613'
+ht-degree: 1%
 
 ---
 
 
 # Relatório de Sinais Não Utilizados{#unused-signals-report}
 
-Este relatório retorna uma contagem de frequência de todas as informações não utilizadas coletadas no inventário e enviadas ao Audience Manager. Para acessar esse relatório, navegue até **Analytics > Relatórios de público-alvo > Outros relatórios > Sinais** não usados.
+Este relatório retorna uma contagem de frequência de todas as informações não utilizadas coletadas no inventário e enviadas para o Audience Manager. Para acessar esse relatório, navegue até **Analytics > Relatórios de Audiência > Outros relatórios > Sinais** não usados.
 
 >[!NOTE]
 >
->Se aparecer a mensagem &quot;Você não tem acesso aos Relatórios de público-alvo&quot;, entre em contato com seu consultor do Audience Manager ou com o Atendimento ao cliente para fornecer o relatório.
+>Se aparecer a mensagem &quot;Você não tem acesso aos Relatórios de Audiência&quot;, entre em contato com seu consultor de Audience Manager ou com o Atendimento ao cliente para fornecer o relatório.
 
 ![Captura de tela do Relatório de Sinais não usados](/help/using/reporting/dynamic-reports/assets/unused-signals.png)
 
@@ -25,7 +29,7 @@ Este relatório retorna uma contagem de frequência de todas as informações n�
 
 Um sinal é a informação transmitida pelo seu sítio Web [!DNL Audience Manager] sob a forma de pares [](../../reference/key-value-pairs-explained.md) chave-valor (por exemplo, `color=blue, price>100, gender=female`, etc.).
 
-Os sinais não utilizados consistem em dados que você coleta, mas que não foram mapeados para uma característica. O [!UICONTROL Unused Signals] relatório mostra os dados em uma tabela por data, chave, valor e contagem de frequência. Qualquer sinal não mapeado passado para pelo [!DNL Audience Manager] menos 100 vezes por dia se qualifica para o [!UICONTROL Unused Signals] relatório.
+Os sinais não utilizados consistem em dados que você coleta, mas que não foram mapeados para um traço. O [!UICONTROL Unused Signals] relatório mostra os dados em uma tabela por data, chave, valor e contagem de frequência. Qualquer sinal não mapeado passado para pelo [!DNL Audience Manager] menos 100 vezes por dia se qualifica para o [!UICONTROL Unused Signals] relatório.
 
 Revise este relatório para ajudar a identificar sinais órfãos que podem ser mapeados para características novas ou existentes.
 
@@ -67,12 +71,12 @@ Execute e verifique o [!UICONTROL Unused Signals] relatório:
 
 >[!NOTE]
 >
->Ao pesquisar valores não utilizados no relatório, considere a seguinte particularidade. Há uma diferença de expressão entre os dois exemplos abaixo:
+>Ao pesquisar valores não utilizados no relatório, considere a seguinte particularidade. Há uma diferença na expressão entre os dois exemplos abaixo:
 
 * T(v=1 [!UICONTROL AND NOT] (a=23))
 * T(v=1 [!UICONTROL AND] (a!=23))
-* Ambos os exemplos mostram uma característica que contém dois pares de valores chave v e a. A primeira expressão se traduz em: a característica contém a tecla v com o valor 1 [!UICONTROL AND NOT] a tecla com o valor 23. A segunda expressão contém key v com o valor 1 [!UICONTROL AND] a tecla a com o valor [!UICONTROL NOT EQUAL] 23.
-* Considerando as duas expressões diferentes acima, digamos que você pesquise nos valores [!UICONTROL Unused Signals Report] que são passados para a chave com qualquer valor diferente de 23, você só obterá resultados no primeiro caso porque os valores para a chave não foram enviados para AT ALL. No segundo caso, valores diferentes de 23 foram enviados, de modo que a tecla a não é usada.
+* Ambos os exemplos mostram uma característica que contém dois pares de valores chave v e a. A primeira expressão se traduz em: a característica contém a tecla v com o valor 1 [!UICONTROL AND NOT] a tecla com o valor 23. A segunda expressão contém a tecla v com o valor 1 e [!UICONTROL AND] a tecla a com o valor [!UICONTROL NOT EQUAL] 23.
+* Considerando as duas expressões diferentes acima, digamos que você pesquise nos valores [!UICONTROL Unused Signals Report] que são passados para a chave com qualquer valor diferente de 23, você só obterá resultados no primeiro caso porque os valores para a chave não foram enviados PARA TODAS. No segundo caso, valores diferentes de 23 foram enviados, de modo que a tecla a não é usada.
 
 ## Criação de características em massa
 
