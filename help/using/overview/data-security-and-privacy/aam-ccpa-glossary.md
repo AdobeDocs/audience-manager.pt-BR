@@ -4,8 +4,12 @@ seo-description: Este artigo explica os conceitos e a terminologia usados pelo C
 seo-title: Glossário CCPA
 solution: Audience Manager
 title: Glossário CCPA
+feature: data governance & privacy
 translation-type: tm+mt
-source-git-commit: f8184dfccdb7b5cbc3ace67831d988dd8061ea38
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '543'
+ht-degree: 0%
 
 ---
 
@@ -14,11 +18,11 @@ source-git-commit: f8184dfccdb7b5cbc3ace67831d988dd8061ea38
 
 ## Visão geral {#overview}
 
-Este artigo explica os conceitos e a terminologia usados pelo California Consumer Privacy Act (CCPA) e como o Adobe Audience Manager, como Provedor de serviços, atende a vários requisitos do CCPA.
+Este artigo explica os conceitos e a terminologia usados pelo California Consumer Privacy Act (CCPA) e como o Adobe Audience Manager, como Provedor de serviço, atende a vários requisitos do CCPA.
 
 O California Consumer Privacy Act (CCPA), que entrou em vigor em 1º de janeiro de 2020, é outra oportunidade para tornar a privacidade uma parte integrada da sua experiência com o consumidor. O Audience Manager está aproveitando a infraestrutura de privacidade existente para ajudá-lo a cumprir suas obrigações no CCPA ao usar o Audience Manager, permitindo que você esteja preparado para CCPA.
 
-O Audience Manager aguarda com expectativa a parceria enquanto você aborda quaisquer novas obrigações através do uso de nossos recursos de controle de dados e privacidade por design.
+Audience Manager espera participar com você ao atender a quaisquer novas obrigações com o uso de nossos recursos de controle de dados e privacidade desde o design.
 
 ## Glossário CCPA {#CCPA-glossary}
 
@@ -40,7 +44,7 @@ Familiarize-se com os termos principais usados relacionados ao CCPA. Destacamos 
 
  
 
-**Provedor** de serviços: uma empresa individual, sociedade em comandita, sociedade de responsabilidade limitada, sociedade, associação ou outra entidade jurídica que esteja organizada ou operada para os lucros ou benefícios financeiros dos seus acionistas ou outros proprietários, que processe informações em nome de uma empresa e para a qual a empresa divulgue informações pessoais de um consumidor para fins comerciais nos termos de um contrato escrito, desde que o contrato proíba a entidade que recebe as informações de reter, utilizar ou divulgar as informações pessoais para qualquer outro fim que não seja Finalidade da prestação dos serviços especificados no contrato para a empresa, ou de outra forma permitida pelo presente título, incluindo a retenção, utilização ou divulgação das informações pessoais para fins comerciais diferentes da prestação dos serviços especificados no contrato com a empresa.
+**Provedor de serviço**: uma empresa individual, sociedade, empresa de responsabilidade limitada, sociedade, associação ou outra entidade jurídica que seja organizada ou operada para os lucros ou benefícios financeiros dos seus acionistas ou outros proprietários, que processe informações em nome de uma empresa e para a qual a empresa divulgue informações pessoais de um consumidor para fins comerciais nos termos de um contrato escrito, desde que o contrato proíba a entidade que recebe as informações de reter, utilizar ou divulgar as informações pessoais para qualquer outro fim que não seja Finalidade específica da prestação dos serviços especificados no contrato para a empresa, ou de qualquer outra forma permitida pelo presente título, incluindo a retenção, utilização ou divulgação das informações pessoais para fins comerciais diferentes da prestação dos serviços especificados no contrato com a empresa.
 
  
 
