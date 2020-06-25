@@ -1,19 +1,23 @@
 ---
-description: O relatório Desempenho do segmento compara segmentos mapeados e não mapeados por impressões e taxas de conversão. Um segmento mapeado é um segmento criado e enviado para um destino para definição de metas. Um segmento não mapeado é um segmento criado, mas não enviado para um destino para definição de metas. A comparação desses diferentes tipos de segmentos entre e dentro de relatórios ajuda a otimizar campanhas existentes e a encontrar segmentos ignorados que você pode querer enviar para um destino para definição de metas.
-seo-description: O relatório Desempenho do segmento compara segmentos mapeados e não mapeados por impressões e taxas de conversão. Um segmento mapeado é um segmento criado e enviado para um destino para definição de metas. Um segmento não mapeado é um segmento criado, mas não enviado para um destino para definição de metas. A comparação desses diferentes tipos de segmentos entre e dentro de relatórios ajuda a otimizar campanhas existentes e a encontrar segmentos ignorados que você pode querer enviar para um destino para definição de metas.
-seo-title: ' Relatório de desempenho do segmento'
+description: O relatório Desempenho do segmento compara segmentos mapeados e não mapeados por impressões e taxas de conversão. Um segmento mapeado é um segmento criado e enviado para um destino para definição de metas. Um segmento não mapeado é um segmento criado, mas não enviado para um destino para definição de metas. A comparação desses diferentes tipos de segmentos dentro e entre relatórios ajuda a otimizar campanhas existentes e a encontrar segmentos ignorados que você pode querer enviar para um destino para definição de metas.
+seo-description: O relatório Desempenho do segmento compara segmentos mapeados e não mapeados por impressões e taxas de conversão. Um segmento mapeado é um segmento criado e enviado para um destino para definição de metas. Um segmento não mapeado é um segmento criado, mas não enviado para um destino para definição de metas. A comparação desses diferentes tipos de segmentos dentro e entre relatórios ajuda a otimizar campanhas existentes e a encontrar segmentos ignorados que você pode querer enviar para um destino para definição de metas.
+seo-title: Relatório de desempenho do segmento
 solution: Audience Manager
-title: ' Relatório de desempenho do segmento'
+title: Relatório de desempenho do segmento
 uuid: 5156a4c7-831d-4a95-a1be-eb516f0d91b7
+feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: ad4721cd2ff1f4b2b7cb814cbafdef1f59138a26
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '643'
+ht-degree: 0%
 
 ---
 
 
-#  Relatório de desempenho do segmento{#segment-performance-report}
+# Relatório de desempenho do segmento{#segment-performance-report}
 
-O [!UICONTROL Segment Performance] relatório compara segmentos mapeados e não mapeados por impressões e taxas de conversão. Um segmento mapeado é um segmento criado e enviado para um destino para definição de metas. Um segmento não mapeado é um segmento criado, mas não enviado para um destino para definição de metas. A comparação desses diferentes tipos de segmentos entre e dentro de relatórios ajuda a otimizar campanhas existentes e a encontrar segmentos ignorados que você pode querer enviar para um destino para definição de metas.
+O [!UICONTROL Segment Performance] relatório compara segmentos mapeados e não mapeados por impressões e taxas de conversão. Um segmento mapeado é um segmento criado e enviado para um destino para definição de metas. Um segmento não mapeado é um segmento criado, mas não enviado para um destino para definição de metas. A comparação desses diferentes tipos de segmentos dentro e entre relatórios ajuda a otimizar campanhas existentes e a encontrar segmentos ignorados que você pode querer enviar para um destino para definição de metas.
 
 ## Como ler os resultados do segmento mapeado {#read-mapped-segment-results}
 
@@ -35,11 +39,11 @@ Os rótulos no exemplo e na tabela a seguir podem ajudá-lo a entender o desempe
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Superior esquerdo</b> </p> </td> 
-   <td colname="col2"> <p>Bons índices de conversão. </p> <p>Você pode obter mais conversões aumentando as impressões. </p> </td> 
+   <td colname="col2"> <p>Boas taxas de conversão. </p> <p>Você pode obter mais conversões aumentando as impressões. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Inferior esquerdo</b> </p> </td> 
-   <td colname="col2"> <p>Taxas de conversão baixas. </p> <p>Talvez você queira evitar a definição de metas para esses segmentos. Os segmentos nesta seção tornam excelentes candidatos para comparação com os resultados dos segmentos não mapeados. Alguns de seus segmentos não mapeados podem ter um desempenho melhor do que os segmentos que você já está direcionando. </p> </td> 
+   <td colname="col2"> <p>taxas de conversão baixas. </p> <p>Talvez você queira evitar a definição de metas para esses segmentos. Os segmentos nesta seção tornam excelentes candidatos para comparação com os resultados dos segmentos não mapeados. Alguns de seus segmentos não mapeados podem ter um desempenho melhor do que os segmentos que você já está direcionando. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Superior direito</b> </p> </td> 
@@ -47,7 +51,7 @@ Os rótulos no exemplo e na tabela a seguir podem ajudá-lo a entender o desempe
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Inferior direito</b> </p> </td> 
-   <td colname="col2"> <p>Taxas de conversão baixas e impressões altas. </p> <p>Segmentos nesta seção não estão funcionando bem. Você pode querer afastar o orçamento desses segmentos para segmentos no quadrante superior esquerdo do relatório. Isso ajudará a reduzir as impressões e poderá ajudar a melhorar as taxas de conversão para segmentos nesta seção inferior direita. Além disso, compare esses segmentos mapeados com seus segmentos não mapeados. Alguns de seus segmentos não mapeados podem ter um desempenho melhor do que os segmentos que você já está direcionando. </p> </td> 
+   <td colname="col2"> <p>taxas de conversão baixas e impressões altas. </p> <p>Segmentos nesta seção não estão funcionando bem. Você pode querer afastar o orçamento desses segmentos e transformá-lo em segmentos no quadrante superior esquerdo do relatório. Isso ajudará a reduzir as impressões e poderá ajudar a melhorar as taxas de conversão para segmentos nesta seção inferior direita. Além disso, compare esses segmentos mapeados com seus segmentos não mapeados. Alguns de seus segmentos não mapeados podem ter um desempenho melhor do que os segmentos que você já está direcionando. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,7 +67,7 @@ Para ler esse relatório, ajuda a dividir os resultados em 4 seções com linhas
 
 ![](assets/unmapped-segment-performance.png)
 
-Neste relatório, você só deseja se concentrar nos segmentos não mapeados na seção superior esquerda. Esses segmentos não mapeados exibem altas taxas de conversão para um nível baixo de impressões quando comparados aos segmentos das outras três seções.
+Neste relatório, você só deseja se concentrar nos segmentos não mapeados na seção superior esquerda. Esses segmentos não mapeados exibem taxas de conversão altas para um nível baixo de impressões quando comparados aos segmentos das outras três seções.
 
 >[!NOTE]
 >
