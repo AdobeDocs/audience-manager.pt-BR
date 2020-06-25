@@ -1,19 +1,23 @@
 ---
-description: Os componentes de ação de dados incluem Feeds de dados do cliente, Servidor de coleta de dados, editores SFTP/S3/HTTP, IRIS e Servidor de cache de perfil.
-seo-description: Os componentes de ação de dados incluem Feeds de dados do cliente, Servidor de coleta de dados, editores SFTP/S3/HTTP, IRIS e Servidor de cache de perfil.
+description: Os componentes de ação de dados incluem Feeds de dados do cliente, Servidor de coleta de dados, editores SFTP/S3/HTTP, IRIS e Servidor de cache de Perfis.
+seo-description: Os componentes de ação de dados incluem Feeds de dados do cliente, Servidor de coleta de dados, editores SFTP/S3/HTTP, IRIS e Servidor de cache de Perfis.
 seo-title: Componentes de ação de dados
 solution: Audience Manager
 title: Componentes de ação de dados
 uuid: c4c4cc46-8c96-4ef5-8269-571cc5ac9276
+feature: system components
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '680'
+ht-degree: 0%
 
 ---
 
 
 # Componentes de ação de dados{#data-action-components}
 
-Os componentes de ação de dados incluem Feeds de dados do cliente, Servidor de coleta de dados, editores SFTP/S3/HTTP, IRIS e Servidor de cache de perfil.
+Os componentes de ação de dados incluem Feeds de dados do cliente, Servidor de coleta de dados, editores SFTP/S3/HTTP, IRIS e Servidor de cache de Perfis.
 
 <!-- 
 
@@ -45,7 +49,7 @@ Os [!UICONTROL SFTP/S3] editores recebem dados de ID sincronizada do [!UICONTROL
 
 Na mitologia grega, [!UICONTROL Iris] há uma figura que viaja e entrega mensagens rapidamente. O [!UICONTROL IRIS] sistema é um namesake que reflete as características dessa figura do mundo antigo. Em termos modernos, [!UICONTROL IRIS] é um serviço de sincronização de cookies de baixa latência e alta frequência e transferência de dados.
 
-[!UICONTROL IRIS] funciona com o mesmo tipo de dados que o [!UICONTROL SFTP/S3] sistema. No entanto, [!UICONTROL IRIS] é diferente porque envia dados para destinos em tempo real em vez de em intervalos definidos. Este é um sistema separado porque os [!UICONTROL SFTP/S3] editores não podem enviar dados para um destino HTTP e não são projetados para transferências de dados em tempo real.
+[!UICONTROL IRIS] funciona com o mesmo tipo de dados que o [!UICONTROL SFTP/S3] sistema. No entanto, [!UICONTROL IRIS] é diferente porque envia dados para destinos em tempo real em vez de em intervalos definidos. Este é um sistema separado porque os [!UICONTROL SFTP/S3] editores não podem enviar dados para um destino HTTP e eles não são projetados para transferências de dados em tempo real.
 
 Não há controles de interface que permitam que os clientes trabalhem diretamente com [!UICONTROL IRIS]. Os clientes trabalham [!UICONTROL IRIS] indiretamente quando criam e enviam dados para destinos e para outros processos que exigem transferências rápidas de dados.
 
@@ -72,7 +76,7 @@ Para otimizar o tráfego entre destinos [!UICONTROL IRIS] e segmentos, [!UICONTR
 
 >[!IMPORTANT]
 >
->Se o Audience Manager não detectar nenhuma das atualizações acima por 3 dias consecutivos, [!UICONTROL IRIS] envia todos os segmentos associados a um dispositivo para todos os destinos mapeados para esses segmentos, na próxima vez que o Audience Manager visualizar o dispositivo.
+>Se o Audience Manager não detectar nenhuma das atualizações acima por 3 dias consecutivos, [!UICONTROL IRIS] enviará todos os segmentos associados a um dispositivo para todos os destinos mapeados para esses segmentos, na próxima vez que o Audience Manager visualizar o dispositivo.
 
 **Arquivo de dados de amostra**
 
@@ -144,6 +148,6 @@ O exemplo a seguir contém dados de segmento em tempo real de [!UICONTROL IRIS].
 }
 ```
 
-## Servidor de cache de perfil (PCS) {#pcs}
+## Servidor de cache de Perfil (PCS) {#pcs}
 
 Consulte Componentes [da coleta de](../../reference/system-components/components-data-collection.md)dados.
