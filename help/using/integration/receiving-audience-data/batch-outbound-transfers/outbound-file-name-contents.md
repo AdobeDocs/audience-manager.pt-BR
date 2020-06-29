@@ -5,8 +5,12 @@ seo-title: Sintaxe e exemplos de nomes de arquivos de dados de saída
 solution: Audience Manager
 title: Sintaxe e exemplos de nomes de arquivos de dados de saída
 uuid: effdcaf6-c37c-45f3-9d2f-a938a9da47a6
+feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: b32283a6cb3d001f0a1fc85f3e63fba651f32760
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '692'
+ht-degree: 4%
 
 ---
 
@@ -147,7 +151,7 @@ Por exemplo, arquivos completos:
 
 ## Conteúdo do arquivo de dados de saída: Sintaxe e parâmetros {#outbound-contents-syntax}
 
-Descreve os campos obrigatórios, a sintaxe e as convenções usadas para organizar informações em um arquivo de dados externo. Formate seus dados de acordo com essas especificações.
+Descreve os campos obrigatórios, a sintaxe e as convenções usadas para organizar as informações em um arquivo de dados externo. Formate seus dados de acordo com essas especificações.
 
 <!-- c_outbound_data_file.xml -->
 
@@ -175,7 +179,7 @@ A tabela lista variáveis que definem o conteúdo de um arquivo de dados.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code><i>UUID </i></code> </p> </td> 
-   <td colname="col2"> <p>Uma ID de usuário exclusiva atribuída pelo <span class="keyword"> Audience Manager </span>. </p> </td> 
+   <td colname="col2"> <p>Uma ID de usuário exclusiva atribuída por <span class="keyword"> Audience Manager </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>&lt;SPACE&gt; </i></code> </p> </td> 
