@@ -5,8 +5,12 @@ seo-title: Métodos da API de gerenciamento de grupos
 solution: Audience Manager
 title: Métodos da API de gerenciamento de grupos
 uuid: fe042eb5-ea12-42fe-be98-d721f987a914
+feature: API
 translation-type: tm+mt
-source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 8%
 
 ---
 
@@ -85,9 +89,9 @@ r_rest_api_group_update.xml
   }
 ```
 
-## Grupos de lista {#list-groups}
+## Grupos de Listas {#list-groups}
 
-Um `GET` método para listar grupos de usuários.
+Um `GET` método para lista de grupos de usuários.
 
 <!--
 r_rest_api_group_list.xml
@@ -137,9 +141,9 @@ Um `DELETE` método para excluir vários grupos em massa e remover todos os memb
 
 Retorna `204 No Content` se bem-sucedido. Em caso de retornos em conflito `409 Conflict`.
 
-## Listar todas as permissões de um grupo {#list-permissions-group}
+## Lista de todas as permissões de um grupo {#list-permissions-group}
 
-Um `GET` método para listar os objetos de permissão em um grupo.
+Um `GET` método para lista os objetos de permissão em um grupo.
 
 <!-- r_rest_api_perm_list_group.xml -->
 
@@ -204,6 +208,6 @@ Um `PUT` método para atualizar permissões de grupo. Este método substitui as 
 ]
 ```
 
-A amostra de resposta representa a lista atualizada de objetos de permissão.
+A resposta de amostra representa a lista atualizada de objetos de permissão.
 
-Retorna `200 OK` se bem-sucedido. Retorna `400` se qualquer permissão for inválida. Também pode retornar `403` se o objeto não for acessível pelo usuário conectado.
+Retorna `200 OK` se bem-sucedido. Retorna `400` se qualquer permissão fornecida for inválida. Também pode retornar `403` se o objeto não for acessível pelo usuário conectado.
