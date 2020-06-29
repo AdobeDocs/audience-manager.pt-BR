@@ -5,8 +5,12 @@ seo-title: Métricas de relatório para regras de mesclagem de Perfis
 solution: Audience Manager
 title: Métricas de relatório para regras de mesclagem de Perfis
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
+feature: Profile Merge Rules
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '833'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +36,7 @@ Os relatórios retornam dados em gráficos de barras lado a lado quando suas reg
    <td colname="col2"> <p>Mostra: </p> 
     <ul id="ul_7F7373919A4A49028EF4BF7B28D9F8E9"> 
      <li id="li_FE2F93C496D64ED8928B3E522C9585EA"> <span class="wintitle"> Pessoas</span>ativas: O número de pessoas que se autenticaram no site nos últimos 60 dias. </li> 
-     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> Entre dispositivos</span>: O número total de IDs <a href="merge-rules-start.md#create-data-source"> entre dispositivos armazenados na Fonte</a> de <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/manage-datasources.html"> dados do Perfil</a> <a href="merge-rule-definitions.md"></a> Autenticado selecionado pelo tempo de vida útil que a fonte de dados possui. </li> 
+     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> Entre dispositivos</span>: O número total de IDs <a href="merge-rules-start.md#create-data-source"> entre dispositivos armazenados na Fonte</a> de <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/manage-datasources.html"> dados do Perfil</a> <a href="merge-rule-definitions.md"></a> Autenticado selecionado durante o tempo de vida útil da fonte de dados. </li> 
      <li id="li_F2F07B6A326C4A18B79A0CF2C47D9677"> <span class="wintitle"> % de Pessoas</span>Ativas: Mostra Pessoas <span class="wintitle"></span> ativas como um %. </li> 
     </ul> <p> <span class="wintitle"> A Atividade</span> autenticada permite comparar fontes de dados por atividade, volume e porcentagem. Ele pode ajudá-lo a encontrar uma fonte de dados que tenha muitas pessoas e uma alta porcentagem de usuários ativos. Ou você pode encontrar valor ao comparar fontes de dados com a alta proporção de usuários ativos em comparação ao tamanho total da audiência. Por exemplo, às vezes uma fonte de dados com números de vida útil total baixos e atividade alta são mais valiosos do que aquelas com resultados de vida útil alta e números baixos de atividades. </p> <p> <p>Observação: As métricas de Atividade <span class="wintitle"> Autenticada contêm apenas dados de Link</span> de <span class="wintitle"></span> Perfil. Este relatório não inclui <span class="wintitle"> dados do Gráfico</span> de dispositivos. </p> </p> </td> 
   </tr> 
