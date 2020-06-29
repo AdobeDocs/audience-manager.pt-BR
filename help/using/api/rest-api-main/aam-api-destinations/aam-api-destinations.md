@@ -5,8 +5,12 @@ seo-title: Métodos da API de destino
 solution: Audience Manager
 title: Métodos da API de destino
 uuid: 048bcdb9-2b31-46f4-8b80-4ba25bf06640
+feature: API
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '101'
+ht-degree: 0%
 
 ---
 
