@@ -5,8 +5,12 @@ seo-title: Requisitos de prefixo para variáveis-chave
 solution: Audience Manager
 title: Requisitos de prefixo para variáveis-chave
 uuid: df2ef9c8-606a-45f9-a836-859f856a7d4b
+feature: Traits
 translation-type: tm+mt
-source-git-commit: 2206b5e40f7024084953fed52bb02fcc46ea36f1
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '355'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +23,7 @@ Este artigo descreve os prefixos que você deve anexar às variáveis principais
 
 ## Objetivo dos prefixos de variável de chave
 
-Ao criar [!UICONTROL Trait Builder] regras, é importante pré-posicionar a variável principal com um prefixo recomendado. Esses prefixos identificam o tipo de dados passados e ajudam a evitar conflitos de namespace no [!DNL Audience Manager]. Geralmente, você pode dar qualquer nome a uma variável, mas os dados de uma regra não serão processados se o nome da variável principal não corresponder ao nome da variável em uma chamada de evento.
+Ao criar [!UICONTROL Trait Builder] regras, é importante pré-posicionar a variável principal com um prefixo recomendado. Esses prefixos identificam o tipo de dados passados e ajudam a evitar conflitos de namespace no [!DNL Audience Manager]. Geralmente, é possível dar qualquer nome a uma variável, mas os dados de uma regra não serão processados se o nome da variável principal não corresponder ao nome da variável em uma chamada de evento.
 
 ## Prefixos para variáveis-chave
 
@@ -39,15 +43,15 @@ A tabela a seguir define os prefixos comuns usados por [!UICONTROL Trait Builder
   </tr> 
   <tr> 
    <td colname="col1"><code> d_</code> </td> 
-   <td colname="col2"> <p>No nível do <span class="keyword"> Audience Manager</span> . Esses dados são uniformes em todo o ecossistema do <span class="keyword"> Audience Manager</span> . Consulte <a href="../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> Atributos suportados para chamadas</a> de API DCS para obter uma lista mais completa. <p>Sinais que usam esse prefixo não são exibidos na Pesquisa <a href="../data-explorer/data-explorer-signals-search/data-explorer-signals-search.md">de</a>sinal.</p></p> </td> 
+   <td colname="col2"> <p>No nível de <span class="keyword"> Audience Manager</span> . Esses dados são uniformes em todo o ecossistema do <span class="keyword"> Audience Manager</span> . Consulte <a href="../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> Atributos suportados para chamadas</a> de API DCS para obter uma lista mais completa. <p>Sinais que usam esse prefixo não são exibidos na Pesquisa <a href="../data-explorer/data-explorer-signals-search/data-explorer-signals-search.md">de</a>sinal.</p></p> </td> 
   </tr>
   <tr> 
    <td colname="col1"><code> h_</code> </td> 
-   <td colname="col2"> <p>Isso contém informações de cabeçalho <a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" scope="external" format="html"></a> HTTP. Inclui parâmetros de cabeçalho como <code> referer</code>,<code> IP</code>, <code> accept-language</code>etc. </p> <p> <p>Observação: Para clientes que usam versões DIL anteriores à 9.0, a coleta de dados que usa o <code> h_referer</code> sinal não funcionará nos navegadores Safari. Com a introdução do <a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external"> ITP 2.0</a>, os navegadores Safari podem classificar o domínio demdex.net como um rastreador e truncarão o referenciador na solicitação de coleta de dados para conter apenas a origem em vez do URL completo. Consulte <a href="../../dil/dil-overview.md#get-implement-dil-code">Obtendo e implementando o código</a> DIL para obter a versão mais recente do DIL.<p>Sinais que usam esse prefixo não são exibidos na Pesquisa <a href="../data-explorer/data-explorer-signals-search/data-explorer-signals-search.md">de</a>sinal.</p></p> </p> </td> 
+   <td colname="col2"> <p>Isso contém informações de cabeçalho <a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" scope="external" format="html"></a> HTTP. Inclui parâmetros de cabeçalho, como <code> referer</code>,<code> IP</code>, <code> accept-language</code>etc. </p> <p> <p>Observação: Para clientes que usam versões DIL anteriores à 9.0, a coleta de dados que usa o <code> h_referer</code> sinal não funcionará nos navegadores Safari. Com a introdução do <a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external"> ITP 2.0</a>, os navegadores Safari podem classificar o domínio demdex.net como um rastreador e truncarão a quem indicou na solicitação de coleta de dados para conter apenas a origem em vez do URL completo. Consulte <a href="../../dil/dil-overview.md#get-implement-dil-code">Obtendo e implementando o código</a> DIL para obter a versão mais recente do DIL.<p>Sinais que usam esse prefixo não são exibidos na Pesquisa <a href="../data-explorer/data-explorer-signals-search/data-explorer-signals-search.md">de</a>sinal.</p></p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><code> p_</code> </td> 
-   <td colname="col2"> <p>Nossos servidores <span class="wintitle"></span> de coleta de dados permitem a passagem de parâmetros privados. Basicamente, qualquer parâmetro que começa com <code> p_</code> será usado para avaliação de características, mas não será registrado como downstream nem armazenado. </p> <p>Exemplo: dado <code> /event?p_age=23</code> e uma característica como <code> YoungPeople = p_age &lt; 25</code>, a característica será realizada, mas o par de valor- <code> p_age=23</code> chave será descartado após a solicitação e não será registrado. </p> </td> 
+   <td colname="col2"> <p>Nossos servidores <span class="wintitle"></span> de coleta de dados permitem a passagem de parâmetros privados. Basicamente, qualquer parâmetro com o qual o start <code> p_</code> será usado para avaliação de características, mas não será registrado como downstream nem armazenado. </p> <p>Exemplo: dado <code> /event?p_age=23</code> e uma característica como <code> YoungPeople = p_age &lt; 25</code>, a característica será realizada, mas o par de valor- <code> p_age=23</code> chave será descartado após a solicitação e não será registrado. </p> </td> 
   </tr> 
  </tbody> 
 </table>
