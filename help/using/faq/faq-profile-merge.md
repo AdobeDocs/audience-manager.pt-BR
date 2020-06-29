@@ -6,8 +6,9 @@ seo-title: Perguntas frequentes sobre Regras de mesclagem de Perfis e Gráfico d
 solution: Audience Manager
 title: Perguntas frequentes sobre Regras de mesclagem de Perfis e Gráfico de dispositivos
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
+feature: Profile Merge Rules
 translation-type: tm+mt
-source-git-commit: 6876ca5ee0bc5f50c2aa1acd5c683b151a07fd59
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1548'
 ht-degree: 2%
@@ -41,7 +42,7 @@ O principal objetivo de usar um gráfico de dispositivos em um segmento [!UICONT
 
  
 
-**O Gerenciador de Audiências oferece suporte global para gráficos de dispositivos externos?**
+**O Audience Manager oferece suporte global para gráficos de dispositivos externos?**
 
 Não. Gráficos de dispositivos externos estão disponíveis apenas nos Estados Unidos e Canadá.
 
@@ -73,7 +74,7 @@ Atualmente, você pode criar um máximo de 4 [!UICONTROL Profile Merge Rules]. A
 
 **Quantos perfis de dispositivo são[!DNL Audience Manager]unidos e lidos ao usar um gráfico de dispositivo em um[!UICONTROL Profile Merge Rule]?**
 
-Ao qualificar um dispositivo para um segmento usando um [!UICONTROL Profile Merge Rule], o Gerenciador de Audiências mescla e lê o perfil do dispositivo atual e um máximo de 99 outros perfis de dispositivo adicionais vinculados pela opção de gráfico do dispositivo selecionado.
+Ao qualificar um dispositivo para um segmento usando um [!UICONTROL Profile Merge Rule], o Audience Manager mescla e lê o perfil do dispositivo atual e um máximo de 99 outros perfis de dispositivo adicionais vinculados pela opção de gráfico do dispositivo selecionado.
 
  
 
@@ -93,7 +94,7 @@ Os dispositivos [!DNL Audience Manager] se mesclam e são os mesmos dispositivos
 
 **Como[!DNL Audience Manager]cancelar a segmentação de um dispositivo quando ele não é mais qualificado para um segmento com um[!UICONTROL Profile Merge Rule]gráfico de dispositivo?**
 
-O Gerenciador de Audiências mescla até 100 dispositivos ao avaliar segmentos com um gráfico de dispositivos [!UICONTROL Profile Merge Rule] que usa um gráfico de dispositivos. Se o sinal de cancelamento de segmento for emitido, o dispositivo atual e até 99 dispositivos adicionais serão removidos do segmento no destino. Para obter mais informações sobre a dessegmentação, consulte Regras de mesclagem de [Perfis e Processos](../features/profile-merge-rules/merge-rule-unsegment.md)de dessegmentação de dispositivos.
+Audience Manager mescla até 100 dispositivos ao avaliar segmentos com um gráfico de dispositivos [!UICONTROL Profile Merge Rule] . Se o sinal de cancelamento de segmento for emitido, o dispositivo atual e até 99 dispositivos adicionais serão removidos do segmento no destino. Para obter mais informações sobre a dessegmentação, consulte Regras de mesclagem de [Perfis e Processos](../features/profile-merge-rules/merge-rule-unsegment.md)de dessegmentação de dispositivos.
 
  
 
@@ -123,7 +124,7 @@ Sim.
 
 **Se um segmento usar um com[!UICONTROL Profile Merge Rule]e as características[!UICONTROL No Cross-Device Profile]que qualificam dispositivos para o segmento forem armazenadas apenas no perfil entre dispositivos, a população total do segmento será 0?**
 
-Sim. O Gerenciador de Audiências não contará as características armazenadas no perfil entre dispositivos na avaliação de segmentos quando a Regra de mesclagem de Perfis estiver definida como [!UICONTROL No Cross-Device Profile].
+Sim. Audience Manager não contará as características armazenadas no perfil entre dispositivos na avaliação de segmentos quando a Regra de mesclagem de Perfis estiver definida como [!UICONTROL No Cross-Device Profile].
 
  
 
@@ -152,7 +153,7 @@ A frequência da característica é definida pela soma do número de qualificaç
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Ações</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> O Gerenciador</span> de Audiências lê e mescla os perfis do dispositivo para o Dispositivo A e o Dispositivo B. A partir disso, vemos o seguinte: </p> <p> 
+   <td colname="col2"> <p> <span class="keyword"> O Audience Manager</span> lê e mescla os perfis do dispositivo para o Dispositivo A e o Dispositivo B. A partir disso, vemos o seguinte: </p> <p> 
      <ul id="ul_7AB307154C034695B4486E68D55CB084"> 
       <li id="li_5760BEE513C94152AA307AEE10894718">O dispositivo A qualificou-se para a característica 1 três vezes. Tem uma frequência de 3 para a característica 1. </li> 
       <li id="li_E20BC24CCCEC407C820A8032D56BC3F0">O dispositivo B qualificou-se para a característica 1 cinco vezes. Tem uma frequência de 5 para a característica 1. </li> 
@@ -160,7 +161,7 @@ A frequência da característica é definida pela soma do número de qualificaç
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Resultados</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> O Gerenciador</span> de Audiências resume a frequência da Caractere 1 e usa 8 (3 + 5 = 8) para decidir a qualificação de segmentos. O dispositivo A e o dispositivo B se qualificam para o segmento 1 porque ele tem uma frequência de 8. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> soma a frequência da característica 1 e utiliza 8 (3 + 5 = 8) para decidir a qualificação de segmentos. O dispositivo A e o dispositivo B se qualificam para o segmento 1 porque ele tem uma frequência de 8. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -208,7 +209,7 @@ Sim. A métrica de população em tempo real captura as qualificações de segme
    <td colname="col1"> <p> <b>Resultados</b> </p> </td> 
    <td colname="col2"> <p>Dados os elementos anteriores, a população total do Segmento 1 é uma. </p> <p>Nesse caso, a Regra <span class="wintitle"> de mesclagem de</span> Perfis usa todos os dispositivos e suas características para decidir a qualificação de segmentos. Isso significa que os dispositivos 1, 2 e 3 estão qualificados para o Segmento 1, mas, como mencionado acima, somente o Dispositivo 1 está incluído na população de segmentos em tempo real. Isso ocorre porque: </p> <p> 
      <ul id="ul_5958E1A0E1514B6BA31DF5551401AF38"> 
-      <li id="li_E4F68B12ED944416ACBEAF7BF61CA4E7">O dispositivo 1 é o dispositivo atual que interage com os Servidores <span class="wintitle"> de Coleta de</span> Dados do Gerenciador de Audiências (<span class="wintitle"> DCS</span>) em tempo real. </li> 
+      <li id="li_E4F68B12ED944416ACBEAF7BF61CA4E7">O dispositivo 1 é o dispositivo atual que interage com os Audience Manager <span class="wintitle"> Data Collection Servers</span> (<span class="wintitle"> DCS</span>) em tempo real. </li> 
       <li id="li_57165E96289F4E20BF2244BC68B90BA3">Os dispositivos 2 e 3 são associados ao Dispositivo 1 por um gráfico de dispositivo, mas não interagem com o DCS ao mesmo tempo que o Dispositivo 1. </li> 
      </ul> </p> <p>Como resultado, os Dispositivos 2 e 3 não são incluídos na métrica de população do segmento em tempo real. </p> </td> 
   </tr> 
@@ -261,9 +262,9 @@ Não.
 
 **Por que vejo uma população de segmentos zero para exportações de segmentos para a Adobe Campaign após 16 de março de 2020?**
 
-No final de 2019, lançamos uma série de melhorias nas Regras de mesclagem de Perfis para melhorar a precisão dos arquivos em lote gerados com IDs de vários dispositivos. Esses aprimoramentos serão rigorosamente respeitados em sua instância do Audiência Manager a partir de segunda-feira, 16 de março de 2020. Consequentemente, os segmentos mapeados para um destino usando IDs entre dispositivos pararão de produzir exportações em algumas configurações de Regras de mesclagem de Perfis.
+No final de 2019, lançamos uma série de melhorias nas Regras de mesclagem de Perfis para melhorar a precisão dos arquivos em lote gerados com IDs de vários dispositivos. Esses aprimoramentos serão rigorosamente respeitados em sua instância do Audience Manager a partir de segunda-feira, 16 de março de 2020. Consequentemente, os segmentos mapeados para um destino usando IDs entre dispositivos pararão de produzir exportações em algumas configurações de Regras de mesclagem de Perfis.
 
-Para garantir a integração correta entre a instância do Gerenciador de Audiências e os destinos usando IDs de vários dispositivos, como o Adobe Campaign, verifique se você atende aos seguintes requisitos:
+Para garantir a integração correta entre a instância do Audience Manager e os destinos usando IDs de dispositivos cruzados, como o Adobe Campaign, verifique se você atende aos seguintes requisitos:
 
 1. Revise a Regra de mesclagem de Perfil usada pelos segmentos mapeados para o destino da ID declarada do Adobe Campaign. A regra de mesclagem de Perfis deve usar a [!UICONTROL Last Authenticated Profile] opção, para que todos os perfis autenticados possam ser incluídos nas exportações. Se a Regra de mesclagem de Perfis estiver usando uma opção diferente, alterne para [!UICONTROL Last Authenticated Profile].
 2. Selecione a fonte de dados de ID declarada do Adobe Campaign nas configurações da Regra de mesclagem do Perfil.
