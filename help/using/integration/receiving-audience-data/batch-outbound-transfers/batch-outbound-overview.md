@@ -3,8 +3,9 @@ description: O Audience Manager envia dados em lote para provedores de conteúdo
 seo-description: O Adobe Audience Manager (AAM) envia dados em lote para provedores de conteúdo de terceiros de acordo com essas especificações.
 seo-title: Transferências de dados de saída em lote no Adobe Audience Manager (AAM)
 title: Transferências de Dados de Saída em Lote
+feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 1b31f10effa2780b5e4374516dd6c76d92a0123a
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 7%
