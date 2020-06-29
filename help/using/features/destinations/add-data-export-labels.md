@@ -4,8 +4,12 @@ seo-description: Rótulos de exportação de dados funcionam com os Controles de
 seo-title: Adicionar controles de exportação de dados a um destino
 solution: Audience Manager
 title: Adicionar controles de exportação de dados a um destino
+feature: Data Export Controls
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '277'
+ht-degree: 1%
 
 ---
 
@@ -24,8 +28,8 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 Para adicionar rótulos de exportação a um destino:
 
 1. Clique em **[!UICONTROL Audience Data]**:
-   * Para novos destinos:Clique em **[!UICONTROL Create New Destination]**. Preencha a [!UICONTROL Basic Information] seção antes de selecionar um rótulo de exportação de dados. Consulte [Criar um destino](../../features/destinations/create-cookie-destination.md) de cookie ou [Criar um destino](../../features/destinations/create-url-destination.md) de URL para obter informações.
-   * Para destinos existentes: Use a [!DNL Search] caixa para localizar seu destino ou percorra a lista e clique no nome de destino para abri-lo.
+   * Para novos destinos: Clique em **[!UICONTROL Create New Destination]**. Preencha a [!UICONTROL Basic Information] seção antes de selecionar um rótulo de exportação de dados. Consulte [Criar um destino](../../features/destinations/create-cookie-destination.md) de cookie ou [Criar um destino](../../features/destinations/create-url-destination.md) de URL para obter informações.
+   * Para destinos existentes: Use a [!DNL Search] caixa para localizar o destino ou percorra a lista e clique no nome de destino para abri-la.
 1. Selecione um [!DNL Data Export Label]. Deixe as caixas de seleção em branco se não quiser definir restrições de exportação. Os rótulos de exportação incluem as seguintes opções:
    * **[!UICONTROL This destination may enable a combination with personally identifiable information (PII)]**
    * **[!UICONTROL This destination may be used for on-site ad targeting]**
