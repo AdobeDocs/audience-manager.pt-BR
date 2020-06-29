@@ -5,21 +5,25 @@ seo-title: Sinais derivados
 solution: Audience Manager
 title: Sinais derivados
 uuid: e52600e3-26d1-4607-9b96-afd6086a252d
+feature: Traits
 translation-type: tm+mt
-source-git-commit: f9a12cf38833cf243edf4bc4c4f4e91f83ee0ca2
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '303'
+ht-degree: 0%
 
 ---
 
 
 # Sinais derivados {#derived-signals}
 
-Um site [!UICONTROL derived signal] qualifica os visitantes para características adicionais com base em uma característica que eles já viram. Em outras palavras, a qualificação de característica adicional pode ser derivada de uma característica atualmente exibida, mesmo se um usuário nunca tiver visto a nova característica antes.
+Um [!UICONTROL derived signal] qualifica os visitantes do site para características adicionais com base em uma característica que eles já viram. Em outras palavras, a qualificação de característica adicional pode ser derivada de uma característica atualmente exibida, mesmo se um usuário nunca tiver visto a nova característica antes.
 
 <!-- c_tb_derived_signal.xml -->
 
 ## Finalidade dos sinais derivados
 
-Em [!DNL Audience Manager], você pode criar uma relação entre sinais (ou regras de características) transmitidos durante uma chamada de evento para outros sinais ou características especificados. Por exemplo, suponha que uma chamada de evento passe em um sinal composto pelo valor-chave [!DNL "product = new_car"] ( `https://<domain alias>/event?product=new_car`). [!DNL Audience Manager] conectaria esse sinal a quaisquer outros criados com a [!UICONTROL derived signals] ferramenta. Embora os sinais associados possam ser quaisquer valores-chave especificados por você, eles são mais úteis quando vinculados a sinais existentes já configurados como [!UICONTROL Trait Builder] regras. Por exemplo, na figura abaixo, quando uma ação do usuário dispara o sinal [!DNL "product = new car"] que o usuário também pode se qualificar para características definidas pela chave de destino e sinais de valor.
+Em [!DNL Audience Manager], você pode criar uma relação entre sinais (ou regras de características) transmitidos durante uma chamada de evento para outros sinais ou características especificados. Por exemplo, suponha que uma chamada de evento passe em um sinal composto pelo valor-chave [!DNL "product = new_car"] ( `https://<domain alias>/event?product=new_car`). [!DNL Audience Manager] conectaria esse sinal a quaisquer outros criados com a [!UICONTROL derived signals] ferramenta. Embora os sinais associados possam ser quaisquer valores-chave especificados por você, eles são mais úteis quando vinculados a sinais existentes já configurados como [!UICONTROL Trait Builder] regras. Por exemplo, na figura abaixo, quando uma ação do usuário dispara o sinal [!DNL "product = new car"] que o usuário também pode se qualificar para características definidas pela chave do público alvo e sinais de valor.
 
 ![](assets/derived_signal_example.png)
 
@@ -35,7 +39,7 @@ To create a [!UICONTROL derived signal]:
 
 1. Selecione **[!UICONTROL Derived Signals]** no [!UICONTROL Tools] menu.
 1. Forneça um:
-   * *(Opcional)*[!UICONTROL Integration Code]
+   * *(Opcional)* [!UICONTROL Integration Code]
    * [!UICONTROL Source Key]
    * [!UICONTROL Source Value]
    * [!UICONTROL Target Key]
