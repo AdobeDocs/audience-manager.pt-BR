@@ -1,22 +1,26 @@
 ---
-description: A seção de relatório do grupo de teste retorna informações sobre as conversões do grupo de teste, permitindo uma comparação fácil da eficácia do segmento de teste. Vários filtros e dimensões estão disponíveis para visualização de dados.
-seo-description: A seção de relatório do grupo de teste retorna informações sobre as conversões do grupo de teste, permitindo uma comparação fácil da eficácia do segmento de teste. Vários filtros e dimensões estão disponíveis para visualização de dados.
-seo-title: Relatório de grupo de teste
+description: A seção relatórios do grupo de teste retorna informações sobre as conversões do grupo de teste, permitindo uma comparação fácil da eficácia do segmento de teste. Vários filtros e dimensões estão disponíveis para visualização de dados.
+seo-description: A seção relatórios do grupo de teste retorna informações sobre as conversões do grupo de teste, permitindo uma comparação fácil da eficácia do segmento de teste. Vários filtros e dimensões estão disponíveis para visualização de dados.
+seo-title: Relatórios do grupo de teste
 solution: Audience Manager
-title: Relatório de grupo de teste
-topic: API DIL
+title: Relatórios do grupo de teste
+topic: DIL API
 uuid: 21303c3e-4c05-4728-a759-96c2a1d99b69
+feature: Audience Lab
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '373'
+ht-degree: 0%
 
 ---
 
 
-# Relatório de grupo de teste {#test-group-reporting}
+# Relatórios do grupo de teste {#test-group-reporting}
 
-A seção de relatório do grupo de teste retorna informações sobre as conversões do grupo de teste, permitindo uma comparação fácil da eficácia do segmento de teste. Vários filtros e dimensões estão disponíveis para visualização de dados.
+A seção relatórios do grupo de teste retorna informações sobre as conversões do grupo de teste, permitindo uma comparação fácil da eficácia do segmento de teste. Vários filtros e dimensões estão disponíveis para visualização de dados.
 
-[!UICONTROL Audience Lab] retorna informações detalhadas de relatórios para os segmentos de teste criados e permite salvar os dados de relatório como [!DNL CSV] arquivos. Você pode selecionar entre **[!UICONTROL Aggregate Reporting]** e **[!UICONTROL Trend Reporting]**.
+[!UICONTROL Audience Lab] retorna informações detalhadas do relatórios para os segmentos de teste criados e permite salvar os dados do relatórios como [!DNL CSV] arquivos. Você pode selecionar entre **[!UICONTROL Aggregate Reporting]** e **[!UICONTROL Trend Reporting]**.
 
 **[!UICONTROL Aggregate Reporting]** retorna os números absolutos dos segmentos de teste. **[!UICONTROL Trend Reporting]** retorna um gráfico da tendência *em um período* específico. Quatro guias permitem personalizar os relatórios:
 
@@ -29,7 +33,7 @@ A seção de relatório do grupo de teste retorna informações sobre as convers
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Taxa de conversão de população</span></b> </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> Taxa de conversão populacional</span></b> </p> </td> 
    <td colname="col2"> <p>Retorna a porcentagem de dispositivos pertencentes a um segmento de teste específico, que foram convertidos. </p> </td> 
   </tr> 
   <tr> 
@@ -42,7 +46,7 @@ A seção de relatório do grupo de teste retorna informações sobre as convers
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Testar populações de segmentos</span></b> </p> </td> 
-   <td colname="col2"> <p>Retorna o número de dispositivos pertencentes aos segmentos de teste. Alternar entre a <b><span class="uicontrol"> População</span></b> total ou a População <b><span class="uicontrol"> em tempo</span></b>real. A diferença é explicada nas Perguntas frequentes sobre <a href="../../faq/faq-reporting.md"> relatórios</a> . </p> </td>
+   <td colname="col2"> <p>Retorna o número de dispositivos pertencentes aos segmentos de teste. Alternar entre a <b><span class="uicontrol"> População</span></b> total ou a População <b><span class="uicontrol"> em tempo</span></b>real. A diferença é explicada nas Perguntas frequentes sobre o <a href="../../faq/faq-reporting.md"> Relatórios</a> . </p> </td>
   </tr>
  </tbody>
 </table>
@@ -51,8 +55,8 @@ Você pode selecionar uma característica de conversão específica para a qual 
 
 >[!NOTE]
 >
->* Os relatórios de um grupo de teste preencherão o dia após sua data de início.
->* Uma conversão é contada somente para um dispositivo após a data de início de um teste e depois que o dispositivo é adicionado a um segmento de teste. Se uma conversão ocorrer para esse dispositivo antes que ele seja atribuído a um grupo de teste, a conversão não será contada.
+>* O Relatórios de um grupo de teste preencherá o dia após sua data de start.
+>* Uma conversão é contada somente para um dispositivo após a data de start de um teste e depois que o dispositivo é adicionado a um segmento de teste. Se uma conversão ocorrer para esse dispositivo antes que ele seja atribuído a um grupo de teste, a conversão não será contada.
 
 
 Um **[!UICONTROL Aggregate Reporting]** gráfico retornado pode ser semelhante a:
