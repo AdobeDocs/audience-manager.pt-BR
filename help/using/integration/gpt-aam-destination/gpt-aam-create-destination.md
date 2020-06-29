@@ -5,19 +5,23 @@ seo-title: Criar um destino GPT
 solution: Audience Manager
 title: Criar um destino GPT
 uuid: e3bbf327-a7e0-48da-bc84-8f531b7f6750
+feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '319'
+ht-degree: 1%
 
 ---
 
 
 # Criar um destino GPT {#create-a-gpt-destination}
 
-Você pode enviar segmentos qualificados para [!DNL DFP] o cliente por meio de uma integração do lado do cliente (navegador) ou de uma integração do lado do servidor. Se você escolher a integração do lado do cliente, deverá criar um destino baseado em cookies para o [!DNL Google Publisher Tags] no Audience Manager.
+Você pode enviar segmentos qualificados para [!DNL DFP] o cliente por meio de uma integração do lado do cliente (navegador) ou de uma integração do lado do servidor. Se você escolher a integração do lado do cliente, deverá criar um destino baseado em cookies para o [!DNL Google Publisher Tags] Audience Manager.
 
-## Destinos
+## Destinos 
 
-No Audience Manager, um *`destination`* é qualquer outro sistema (servidor de anúncios, [!DNL DSP]rede de anúncios etc.) com os quais você deseja compartilhar dados. [!UICONTROL Destination Builder] fornece as ferramentas que permitem criar e gerenciar esses processos de entrega de dados. Os recursos de destino do Audience Manager estão localizados em *[!UICONTROL Audience Data]&gt;[!UICONTROL Destinations]*. Para começar, clique **[!UICONTROL Add New Destination]** e siga as etapas abaixo.
+No Audience Manager, um *`destination`* é qualquer outro sistema (servidor de anúncios, [!DNL DSP]rede de anúncios etc.) com os quais você deseja compartilhar dados. [!UICONTROL Destination Builder] fornece as ferramentas que permitem criar e gerenciar esses processos de delivery de dados. Os recursos de destino do Audience Manager estão localizados em *[!UICONTROL Audience Data]>[!UICONTROL Destinations]*. Para começar, clique **[!UICONTROL Add New Destination]**e siga as etapas abaixo.
 
 ## Informações básicas
 
@@ -31,21 +35,21 @@ Para concluir a [!UICONTROL Basic Information] seção:
 
 Forneça o seguinte para concluir a [!UICONTROL Configuration] seção (outros campos são opcionais):
 
-1. **** Nome do cookie: Forneça um nome curto e descritivo para seu cookie.
-1. **** Formato de dados: Selecione a **[!UICONTROL "Single Key"]** opção.
-1. **** Chave: Forneça um nome de chave.
-1. **** Serializar: Marque a **[!UICONTROL Enable]** caixa de seleção.
-1. **** Delimitador serial: Use apenas vírgula.
+1. **Nome do cookie:** Forneça um nome curto e descritivo para seu cookie.
+1. **Formato de dados:** Selecione a **[!UICONTROL "Single Key"]** opção.
+1. **Chave:** Forneça um nome de chave.
+1. **Serializar:** Marque a **[!UICONTROL Enable]** caixa de seleção.
+1. **Delimitador serial:** Use apenas vírgula.
 
-##  Mapeamentos de segmentos
+## Mapeamentos de segmentos
 
 Para adicionar um segmento a um destino de cookie:
 
 1. Localizar segmentos: A [!UICONTROL Segment Mappings] seção fornece duas ferramentas de pesquisa para ajudar a localizar segmentos. Para localizar um segmento:
 
-   * Opção 1: Comece digitando um nome de segmento no campo de pesquisa. O campo é atualizado automaticamente com base no texto inserido. Clique **[!UICONTROL Add]** quando encontrar o segmento que deseja usar.
-   * Opção 2: Clique **[!UICONTROL Browse All Segments]** para abrir uma janela que permite procurar segmentos por nome ou local de armazenamento. Click **[!UICONTROL Add Selected Segments]** when done.
+   * Opção 1: Start que digita um nome de segmento no campo de pesquisa. O campo é atualizado automaticamente com base no texto inserido. Clique **[!UICONTROL Add]** quando encontrar o segmento que deseja usar.
+   * Opção 2: Clique **[!UICONTROL Browse All Segments]** para abrir uma janela que permite procurar segmentos por nome ou local do armazenamento. Clique **[!UICONTROL Add Selected Segments]** quando concluído.
 
-1. **** Adicionar mapeamentos: No pop-up de mapeamentos, insira a ID do segmento no campo de mapeamentos e clique em **[!UICONTROL Save]**.
+1. **Adicionar mapeamentos:** No pop-up de mapeamentos, insira a ID do segmento no campo de mapeamentos e clique em **[!UICONTROL Save]**.
 
 1. Clique em **[!UICONTROL Done]**.
