@@ -6,8 +6,12 @@ solution: Audience Manager
 title: Perguntas frequentes sobre o Laboratório de Audiências
 topic: DIL API
 uuid: b1daf99d-af60-4f65-987d-794a6d45d566
+feature: Audience Lab
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '349'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +40,7 @@ Sim, isso é permitido. Pense no caso de um teste usando um segmento macho assoc
 
 <br> 
 
-**Digamos que um grupo de teste esteja usando um perfil autenticado para a divisão do segmento de teste. O perfil autenticado está vinculado a 4 UUIDs[do Gerenciador de](../reference/ids-in-aam.md)Audiências. Quando o visitante exibe uma característica de conversão de um dos quatro UUIDs, isso[!UICONTROL Audience Lab]conta como uma ou quatro conversões?**
+**Digamos que um grupo de teste esteja usando um perfil autenticado para a divisão do segmento de teste. O perfil autenticado está vinculado a 4 UUIDs[Audience Manager](../reference/ids-in-aam.md). Quando o visitante exibe uma característica de conversão de um dos quatro UUIDs, isso[!UICONTROL Audience Lab]conta como uma ou quatro conversões?**
 
 Nesse caso, [!UICONTROL Audience Lab] só conta uma conversão.
 
