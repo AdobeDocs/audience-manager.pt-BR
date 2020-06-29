@@ -1,12 +1,16 @@
 ---
-description: Este artigo descreve dois recursos que fornecem funcionalidade avançada para o Modelo de alocação duplicada do Audience Lab e Retenção de segmentos.
-seo-description: Este artigo descreve dois recursos que fornecem funcionalidade avançada para o Modelo de alocação duplicada do Audience Lab e Retenção de segmentos.
-seo-title: Funcionalidade avançada do Audience Lab
+description: Este artigo descreve dois recursos que fornecem funcionalidade avançada para o Modelo de alocação de Duplicados do laboratório de Audiências e Retenção de segmentos.
+seo-description: Este artigo descreve dois recursos que fornecem funcionalidade avançada para o Modelo de alocação de Duplicados do laboratório de Audiências e Retenção de segmentos.
+seo-title: Funcionalidade avançada do laboratório de Audiências
 solution: Audience Manager
-title: Funcionalidade avançada do Audience Lab
+title: Funcionalidade avançada do laboratório de Audiências
 uuid: 0f57d634-caa0-40da-81a2-c23fbd299bfd
+feature: Audience Lab
 translation-type: tm+mt
-source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '465'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +19,7 @@ source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
 
 Este artigo descreve dois recursos que fornecem funcionalidade avançada para [!DNL Audience Lab]: [!DNL Duplicate Allocation Template] e [!DNL Segment Holdout].
 
-## Modelo de Alocação Duplicado {#duplicate-allocation-template}
+## Modelo de alocação de Duplicados {#duplicate-allocation-template}
 
 <!-- 
 <p>The <b>Allocation Template</b> represents how you split a test group into test segments and the way the test segments are mapped to destinations. </p>
@@ -24,7 +28,7 @@ Este artigo descreve dois recursos que fornecem funcionalidade avançada para [!
 Em [!DNL Audience Lab], as [!DNL Allocation Template] seleções que você faz ao criar um grupo de teste são as seguintes:
 
 * A distribuição dos dispositivos entre os segmentos de ensaio;
-* O mapeamento dos segmentos de ensaio para destinos;
+* O mapeamento dos segmentos de ensaio para os destinos;
 * As características de conversão usadas para um grupo de teste;
 * O intervalo de datas no qual o grupo de teste publica para os destinos selecionados.
 
@@ -36,11 +40,11 @@ Ao duplicar um modelo de alocação, você pode reutilizar a mesma distribuiçã
 With the option to duplicate allocation templates, you can increase your productivity when running multivariate tests as part of multivariate campaigns.
 -->
 
-### Uso do modelo de alocação duplicada
+### Uso do modelo de alocação de Duplicados
 
 Crie um grupo de teste inicial e selecione **[!UICONTROL Duplicate Allocation Template]** para reutilizar as mesmas configurações em vários grupos de teste. Por exemplo, você pode usar esse recurso se estiver executando um teste onde deseja determinar a eficácia de vários destinos para vários segmentos.
 
-1. Na exibição principal do Audience Lab, procure o grupo de teste cujo modelo de alocação você deseja reproduzir em um novo grupo de teste. Na caixa suspensa, selecione **[!UICONTROL Duplicate Allocation Template]**.
+1. Na visualização principal do Laboratório de Audiências, procure o grupo de teste cujo modelo de alocação você deseja reproduzir em um novo grupo de teste. Na caixa suspensa, selecione **[!UICONTROL Duplicate Allocation Template]**.
 
    ![](assets/duplicate-allocation-template.png)
 
@@ -60,7 +64,7 @@ Crie um grupo de teste inicial e selecione **[!UICONTROL Duplicate Allocation Te
 >
 >[!UICONTROL Test Segment Holdout] é uma funcionalidade avançada, ativada por solicitação do cliente. Entre em contato com [!DNL Customer Care] ou [!DNL Adobe Consulting] para ativar este recurso.
 
-Use esse recurso para impedir que parte do público-alvo seja incluída no teste. A porcentagem selecionada fica fora do teste. Dessa forma, você pode medir e comparar o número de conversões de públicos-alvo (ativados em destinos) e não direcionados (grupo de espera).
+Use esse recurso para impedir que parte da audiência seja incluída no teste. A porcentagem selecionada fica fora do teste. Dessa forma, você pode medir e comparar o número de conversões de audiências direcionadas (ativadas em destinos) e não direcionadas (grupo de espera).
 
 <!--
 <p>Note that this option is different to the control segment because it subtracts the percentage ................. You can withhold an audience group and still use a control segment. </p>
@@ -69,12 +73,12 @@ Use esse recurso para impedir que parte do público-alvo seja incluída no teste
 ### Uso da Retenção de Segmento de Teste
 
 1. Crie um novo grupo de teste usando o [!UICONTROL Create Test Group] assistente.
-1. Na **[!UICONTROL Allocate Test Segment]** etapa, você pode selecionar uma parte do público-alvo a ser omitida dos testes.
+1. Na **[!UICONTROL Allocate Test Segment]** etapa, você pode selecionar uma parte da audiência que será excluída do teste.
 
-   ![Item de lista](assets/test-segment-holdout.png)
+   ![Item de Lista](assets/test-segment-holdout.png)
 
 1. Use o controle deslizante para ajustar quantos dispositivos você deseja excluir do teste. Observe como o segmento de teste 1 e o segmento de teste 2 agora somente atingem 70% do total de dispositivos.
 
    ![](assets/test-segment-holdout-selected.png)
 
-1. Siga as outras etapas do **[!UICONTROL Create Test Group]** fluxo de trabalho e selecione **[!UICONTROL Finalize Group]** quando estiver satisfeito com sua seleção. Agora você tem um grupo de testes com parte do público-alvo excluído dos testes.
+1. Siga as outras etapas do **[!UICONTROL Create Test Group]** fluxo de trabalho e selecione **[!UICONTROL Finalize Group]** quando estiver satisfeito com sua seleção. Agora você tem um grupo de teste com parte da audiência retida dos testes.
