@@ -5,15 +5,19 @@ seo-title: Introdução às APIs DIL de nível de classe
 solution: Audience Manager
 title: Introdução às APIs DIL de nível de classe
 uuid: 00c1136a-5f08-4104-b0ed-3de847cecd16
+feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '156'
+ht-degree: 0%
 
 ---
 
 
 # Introdução às APIs DIL de nível de classe{#getting-started-with-class-level-dil-apis}
 
-As APIs DIL de nível de classe permitem que você crie e trabalhe programaticamente com objetos do Audience Manager. As APIs de nível de classe funcionam com outras funções de nível de instância para definir valores ou retornar dados.
+As APIs DIL de nível de classe permitem que você crie e trabalhe programaticamente com objetos Audience Manager. As APIs de nível de classe funcionam com outras funções de nível de instância para definir valores ou retornar dados.
 
 ## Introdução às APIs DIL de nível de classe {#get-started}
 
@@ -27,7 +31,7 @@ c_class_start.xml
 
 Ao trabalhar com as [!UICONTROL DIL] APIs de nível de classe:
 
-* O acesso requer um nome de parceiro e uma ID de namespace de contêiner (NSID). Entre em contato com o gerente de conta do Audience Manager para obter essas informações.
+* O acesso requer um nome de parceiro e uma ID de namespace de container (NSID). Entre em contato com seu gerente de contas de Audience Manager para obter essas informações.
 * Substitua qualquer amostra de texto *em itálico* na documentação da API por valor, ID ou outra variável, conforme exigido pelo método com o qual você está trabalhando.
 * [!UICONTROL DIL] grava dados codificados em um cookie de destino. Por exemplo, espaços são codificados como `%20` e ponto-e-vírgula como `%3B`.
 
