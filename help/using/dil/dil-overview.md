@@ -6,8 +6,9 @@ keywords: dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, 
 solution: Audience Manager
 title: Como entender a DIL (Data Integration Library, biblioteca de integração de dados)
 uuid: 77b12f35-81e4-4639-ada6-bf982f27b36e
+feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 2%
@@ -47,7 +48,7 @@ Em vez de trabalhar com [!UICONTROL DIL] e configurar [!DNL Audience Manager] ma
 
 ## Chamada de exemplo {#sample-code}
 
-[!UICONTROL DIL] envia dados para [!DNL Audience Manager] uma chamada de evento. Uma chamada de evento é uma solicitação HTTP XML de sua página. Ele usa um `POST` método para enviar dados no corpo da solicitação.
+[!UICONTROL DIL] envia dados para [!DNL Audience Manager] uma chamada de evento. Uma chamada de evento é uma solicitação HTTP XML da sua página. Ele usa um `POST` método para enviar dados no corpo da solicitação.
 
 | Elemento de chamada do Evento | Descrição |
 |--- |--- |
