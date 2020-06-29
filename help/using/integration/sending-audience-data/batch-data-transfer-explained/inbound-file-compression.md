@@ -5,19 +5,23 @@ seo-title: Compactação de arquivos para arquivos de transferência de dados de
 solution: Audience Manager
 title: Compactação de arquivos para arquivos de transferência de dados de entrada
 uuid: 2a68f69c-60b0-4002-863b-302d2320e356
+feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 392b17e5a97038169e2cd36f2e71f5b4b997070c
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '229'
+ht-degree: 0%
 
 ---
 
 
 # Compactação de arquivos para arquivos de transferência de dados de entrada{#file-compression-for-inbound-data-transfer-files}
 
-Você pode compactar arquivos de dados ao enviá-los para o Audience Manager.
+É possível compactar arquivos de dados ao enviá-los para o Audience Manager.
 
 <!-- inbound-file-compression.xml -->
 
-O Audience Manager oferece suporte à compactação gzip (`.gz`) para transferências de dados assíncronas e de entrada.
+O Audience Manager suporta compactação gzip (`.gz`) para transferências de dados assíncronas e de entrada.
 
 O Audience Manager também suporta arquivos descompactados.
 
@@ -29,11 +33,11 @@ O Audience Manager também suporta arquivos descompactados.
 
 ## Compactação Amazon S3
 
-Para entrega em [!DNL Amazon S3], você deve usar `.gz` ou descompactar arquivos. Os arquivos compactados devem ter 1 GB ou menos. Se os arquivos forem maiores, discuta o arquivo e o processo de transferência com o Atendimento ao cliente. Embora [!DNL Audience Manager] possa lidar com arquivos muito grandes, pode haver maneiras de reduzir o tamanho do arquivo ou tornar a transferência de dados mais eficiente.
+Para o delivery [!DNL Amazon S3], você deve usar `.gz` ou descompactar arquivos. Os arquivos compactados devem ter 1 GB ou menos. Se os arquivos forem maiores, discuta o arquivo e o processo de transferência com o Atendimento ao cliente. Embora [!DNL Audience Manager] possa lidar com arquivos muito grandes, pode haver maneiras de reduzir o tamanho do arquivo ou tornar a transferência de dados mais eficiente.
 
 >[!IMPORTANT]
 >
->Seu [!DNL FTP] cliente deve usar o modo binário para transferir arquivos compactados ou criptografados. Arquivos compactados ou criptografados enviados no [!DNL ASCII] modo corromperão o arquivo de transferência de dados.
+>Seu [!DNL FTP] cliente deve usar o modo binário para transferir arquivos compactados ou criptografados. Os arquivos compactados ou criptografados enviados no [!DNL ASCII] modo corromperão o arquivo de transferência de dados.
 
 ## Práticas recomendadas
 
