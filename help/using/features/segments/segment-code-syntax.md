@@ -1,21 +1,25 @@
 ---
-description: O Construtor de segmentos permite criar regras de características para um segmento usando um editor de código. Clique na guia Expressões de segmentos (Visualização de código) no painel Características para acessar esse recurso.
-seo-description: O Construtor de segmentos permite criar regras de características para um segmento usando um editor de código. Clique na guia Expressões de segmentos (Visualização de código) no painel Características para acessar esse recurso.
-seo-title: Sintaxe de código usada no Editor de expressão de segmento
+description: O Construtor de segmentos permite que você crie regras de características para um segmento usando um editor de código. Clique na guia Expressões de segmentos (Visualização de código) no painel Características para acessar esse recurso.
+seo-description: O Construtor de segmentos permite que você crie regras de características para um segmento usando um editor de código. Clique na guia Expressões de segmentos (Visualização de código) no painel Características para acessar esse recurso.
+seo-title: Sintaxe de código usada no Editor de Expressão de segmentos
 solution: Audience Manager
-title: Sintaxe de código usada no Editor de expressão de segmento
+title: Sintaxe de código usada no Editor de Expressão de segmentos
 uuid: 7b4b06ca-7879-4501-8ba7-b2b6467b8a3b
+feature: Segments
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '334'
+ht-degree: 1%
 
 ---
 
 
-# Sintaxe de código usada no Editor de expressão de segmento {#code-syntax-used-in-the-segment-expression-editor}
+# Sintaxe de código usada no Editor de Expressão de segmentos {#code-syntax-used-in-the-segment-expression-editor}
 
-[!UICONTROL Segment Builder] permite criar regras de características para um segmento usando um editor de código. Clique na **[!UICONTROL Segment Expressions (Code View)]** guia no [!UICONTROL Traits] painel para acessar esse recurso.
+[!UICONTROL Segment Builder] permite que você crie regras de características para um segmento usando um editor de código. Clique na **[!UICONTROL Segment Expressions (Code View)]** guia no [!UICONTROL Traits] painel para acessar esse recurso.
 
-## Sintaxe de código do Construtor de expressões
+## Sintaxe de código do Expressão Builder
 
 É possível adicionar regras de características a um segmento com código em vez de usar recursos de arrastar e soltar. Ao codificar, substitua os elementos em itálico no exemplo por uma expressão ou valor real. O código base usa a seguinte sintaxe:
 
@@ -30,7 +34,7 @@ FREQUENCY([<traitID1>T,<traitID2>T]<Recency Operator><Numeric Value>D)
 
 ### Unir segmentos com operadores booleanos
 
-Para criar grupos de segmentos, vincule a função de frequência entre parênteses e defina a relação *entre* cada expressão com um [!DNL Boolean] operador ([!UICONTROL AND], [!UICONTROL OR]e [!UICONTROL NOT]).
+Para criar grupos de segmentos, vincule a função de frequência entre parênteses e defina a relação *entre* cada expressão e um [!DNL Boolean] operador ([!UICONTROL AND], [!UICONTROL OR]e [!UICONTROL NOT]).
 
 ### Parâmetros
 
@@ -41,13 +45,13 @@ Para criar grupos de segmentos, vincule a função de frequência entre parênte
 | Nome ou variável | Descrição |
 |---|---|
 | `FREQUENCY` | Um literal que deve preceder a expressão. |
-| ` [`&lt;`traitID`&gt;`T]` | Uma matriz de IDs de características seguidas pela letra `T`. Separe várias características com uma vírgula. Por exemplo, `[123T, 456T]`. |
-| ` <Recency Operator><Numeric Value>D` | *(Opcional)* Define regras recentes sobre características no segmento. A carta `D` indica recenticidade em dias. |
+| ` [`&lt;`traitID`>`T]` | Uma matriz de IDs de características seguidas pela letra `T`. Separe várias características com uma vírgula. Por exemplo, `[123T, 456T]`. |
+| ` <Recency Operator><Numeric Value>D` | *(Opcional)* Define regras recentes sobre as características no segmento. A carta `D` indica recenticidade em dias. |
 | ` <Frequency Operator><Numeric Value>` | Define as regras de frequência nas características do segmento. |
 
 ### Operadores de recenticidade e frequência permitidos
 
-Defina os intervalos de [recenticidade e frequência](../../features/segments/recency-and-frequency.md) com um operador de comparação e um número inteiro. [!UICONTROL Segment Builder] usa expressões padrão como &lt; (menor que), &gt; (maior que), == (igual) etc. No entanto, os tipos de operadores permitidos variam quando você define recenticidade ou frequência. A tabela abaixo lista os operadores de recenticidade/frequência permitidos.
+Defina os intervalos de [recenticidade e frequência](../../features/segments/recency-and-frequency.md) com um operador de comparação e um número inteiro. [!UICONTROL Segment Builder] usa expressões padrão como &lt; (menor que), > (maior que), == (igual), etc. No entanto, os tipos de operadores permitidos variam quando você define recenticidade ou frequência. A tabela abaixo lista os operadores de recenticidade/frequência permitidos.
 
 <table id="table_2F92617CB472442BA5639E24DB4E43D3"> 
  <thead> 
@@ -78,5 +82,5 @@ Defina os intervalos de [recenticidade e frequência](../../features/segments/re
 >* [Idade e frequência](../../features/segments/recency-and-frequency.md)
 >* [Expressões booleanas no Construtor de traços e segmentos](../../reference/boolean-expressions-tsb.md)
 >* [Trabalhar com operadores de comparação no TraitBuilder](../../features/traits/trait-comparison-operators.md)
->* [Ordem de operações nas expressões do TraitBuilder](../../features/traits/trait-operator-precedence.md)
+>* [Ordem de operações nas Expressões do TraitBuilder](../../features/traits/trait-operator-precedence.md)
 
