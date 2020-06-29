@@ -5,8 +5,12 @@ seo-title: Métodos da API de gerenciamento de usuários
 solution: Audience Manager
 title: Métodos da API de gerenciamento de usuários
 uuid: 6e1f2c35-bb9d-4166-b7d4-d9c5518a61ad
+feature: API
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 4%
 
 ---
 
@@ -250,9 +254,9 @@ Um `Get` método para retornar o objeto de usuário para o usuário conectado no
 }
 ```
 
-## Listar usuários {#list-users}
+## Usuários da Lista {#list-users}
 
-Um `GET` método para listar usuários.
+Um `GET` método para lista de usuários.
 
 <!-- r_rest_api_user_list.xml -->
 
@@ -260,11 +264,11 @@ Um `GET` método para listar usuários.
 
 `GET /api/v1/users/`
 
-É possível especificar várias IDs de grupo nos parâmetros de consulta:
+É possível especificar várias IDs de grupo nos parâmetros do query:
 
 `GET /api/v1/users/?groupId=343&groupdId=12`
 
-Essa consulta retorna uma lista de todos os usuários nos grupos especificados.
+Esse query retorna uma lista de todos os usuários nos grupos especificados.
 
 ### Resposta
 
