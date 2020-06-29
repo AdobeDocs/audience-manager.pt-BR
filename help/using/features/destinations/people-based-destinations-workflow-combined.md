@@ -1,11 +1,15 @@
 ---
-description: 'Esta página inclui orientações passo a passo sobre como combinar dados do CRM offline com dados comportamentais que você já tem no Audiência Manager para criar novos segmentos de audiência e, em seguida, enviar esses segmentos de audiência para Destinos Baseados em Pessoas.  '
-seo-description: 'Esta página inclui orientações passo a passo sobre como combinar dados do CRM offline com dados comportamentais que você já tem no Audiência Manager para criar novos segmentos de audiência e, em seguida, enviar esses segmentos de audiência para Destinos Baseados em Pessoas.   '
+description: 'Esta página inclui orientações passo a passo sobre como combinar dados do CRM offline com dados comportamentais que você já tem no Audience Manager para criar novos segmentos de audiência e, em seguida, enviar esses segmentos de audiência para Destinos Baseados em Pessoas.  '
+seo-description: 'Esta página inclui orientações passo a passo sobre como combinar dados do CRM offline com dados comportamentais que você já tem no Audience Manager para criar novos segmentos de audiência e, em seguida, enviar esses segmentos de audiência para Destinos Baseados em Pessoas.   '
 seo-title: Fluxo de trabalho A - Personalização com base em toda a Atividade on-line combinada com dados off-line
 solution: Audience Manager
 title: Fluxo de trabalho A - Personalização com base em toda a Atividade on-line combinada com dados off-line
+feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: e8729366a62ec82aa906fe043cf594bff837c737
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '1180'
+ht-degree: 4%
 
 ---
 
@@ -15,7 +19,7 @@ source-git-commit: e8729366a62ec82aa906fe043cf594bff837c737
 >[!IMPORTANT]
 >Este artigo contém a documentação do produto destinada a orientá-lo durante a configuração e o uso deste recurso. Nada aqui contido é aconselhamento jurídico. Consulte o seu próprio advogado para obter orientação jurídica.
 
-Esta página inclui orientações passo a passo sobre como combinar dados offline [!DNL CRM] com dados comportamentais que você já tem no Audiência Manager para criar novos segmentos de audiência e, em seguida, enviar esses segmentos de audiência para [!DNL People-Based Destinations].
+Esta página inclui orientações passo a passo sobre como combinar dados offline [!DNL CRM] com dados comportamentais que você já tem no Audience Manager para criar novos segmentos de audiência e, em seguida, enviar esses segmentos de audiência para [!DNL People-Based Destinations].
 
 ## Etapa 1 - Definir configurações da fonte de dados {#configure-data-source-settings}
 
@@ -35,7 +39,7 @@ Nesse caso, é necessário rotular a fonte de dados correspondente como tal:
 1. Use o menu suspenso para selecionar o **[!UICONTROL Emails(SHA256, lowercased)]** rótulo dessa fonte de dados.
    >[!IMPORTANT]
    >
-   >Essa opção rotula somente a fonte de dados como contendo dados com hash com esse algoritmo específico. O Gerenciador de Audiências não hash os dados nesta etapa. Verifique se os endereços de email que você planeja armazenar nessa fonte de dados já estão com hash com o [!DNL SHA256] algoritmo. Caso contrário, você não poderá usá-lo para [!DNL People-Based Destinations].
+   >Essa opção rotula somente a fonte de dados como contendo dados com hash com esse algoritmo específico. Audience Manager não hash os dados nesta etapa. Verifique se os endereços de email que você planeja armazenar nessa fonte de dados já estão com hash com o [!DNL SHA256] algoritmo. Caso contrário, você não poderá usá-lo para [!DNL People-Based Destinations].
 
    ![pbd-datasource-settings](assets/pbd-ds-config.png)
 1. Salve as configurações da fonte de dados.
@@ -46,14 +50,14 @@ Nesse caso, é necessário rotular a fonte de dados correspondente como tal:
 
 Nesse caso, é necessário criar uma nova fonte de dados entre dispositivos que armazene seus endereços de email com hash. Veja como fazer isso:
 
-1. Faça logon em sua conta do Gerenciador de Audiências, vá para **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]** e clique em **[!UICONTROL Add New]**.
+1. Faça logon em sua conta do Audience Manager, vá para **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]** e clique em **[!UICONTROL Add New]**.
 1. Insira um [!UICONTROL Name] e [!UICONTROL Description] para sua nova fonte de dados.
 1. No menu **[!UICONTROL ID Type]** suspenso, selecione **[!UICONTROL Cross Device]**.
 1. Na **[!UICONTROL Data Source Settings]** seção, selecione as opções **[!UICONTROL Inbound]** e **[!UICONTROL Outbound]** e ative a **[!UICONTROL Share associated cross-device IDs in people-based destinations]** .
 1. Use o menu suspenso para selecionar o **[!UICONTROL Emails(SHA256, lowercased)]** rótulo dessa fonte de dados.
    >[!IMPORTANT]
    >
-   >Essa opção rotula somente a fonte de dados como contendo dados com hash com esse algoritmo específico. O Gerenciador de Audiências não hash os dados nesta etapa. Verifique se os endereços de email que você planeja armazenar nessa fonte de dados já estão com hash com o [!DNL SHA256] algoritmo. Caso contrário, você não poderá usá-lo para [!DNL People-Based Destinations].
+   >Essa opção rotula somente a fonte de dados como contendo dados com hash com esse algoritmo específico. Audience Manager não hash os dados nesta etapa. Verifique se os endereços de email que você planeja armazenar nessa fonte de dados já estão com hash com o [!DNL SHA256] algoritmo. Caso contrário, você não poderá usá-lo para [!DNL People-Based Destinations].
 
    ![pbd-datasource-settings](assets/pbd-ds-config.png)
 1. Salve as configurações da fonte de dados.
@@ -64,7 +68,7 @@ Assista ao vídeo abaixo para ver um tutorial em vídeo sobre como criar uma fon
 
 >[!NOTE]
 >
-> Consulte Integração de [dados](people-based-destinations-prerequisites.md#data-onboarding) para obter perguntas frequentes sobre como você deve colocar seus dados offline no Gerenciador de Audiências para destinos baseados em pessoas.
+> Consulte Integração de [dados](people-based-destinations-prerequisites.md#data-onboarding) para obter perguntas frequentes sobre como você deve colocar seus dados offline no Audience Manager para destinos baseados em pessoas.
 
 ## Etapa 2 - Corresponder DPUUIDs a endereços de email com hash via sincronização de ID baseada em arquivo {#match-ids-emails}
 
@@ -114,7 +118,7 @@ No exemplo acima, o nome do arquivo seria semelhante a:
 
 [Baixe o arquivo de exemplo aqui](assets/c2c_id_999999_987654_1560431657.sync).
 
-Depois de criar o arquivo de sincronização de ID, é necessário carregá-lo em um [!DNL Amazon S3] bucket. Para saber como carregar arquivos de sincronização de ID, consulte [Enviar dados em lote ao Gerenciador](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)de Audiências.
+Depois de criar o arquivo de sincronização de ID, é necessário carregá-lo em um [!DNL Amazon S3] bucket. Para saber como carregar arquivos de sincronização de ID, consulte [Enviar dados em lote para o Audience Manager](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md).
 
 ## Etapa 3 - Criar uma regra de união de Perfis para segmentação {#create-merge-rule}
 
@@ -124,7 +128,7 @@ A próxima etapa é a criação de uma nova regra de mesclagem que ajudará a cr
 >
 > Se você já tiver uma regra definida com as opções [!UICONTROL Current Authenticated Profiles] ou [!UICONTROL Last Authenticated Profiles] , poderá pular para a [Etapa 4 - Criar segmentos](people-based-destinations-workflow-combined.md#create-audience-segments)de Audiência.
 
-1. Faça logon em sua conta do Gerenciador de Audiências e vá para **[!UICONTROL Audience Data]** > **[!UICONTROL Profile Merge Rules]**.
+1. Faça logon em sua conta do Audience Manager e vá para **[!UICONTROL Audience Data]** > **[!UICONTROL Profile Merge Rules]**.
 1. Clique em **[!UICONTROL Add New Rule]**.
 1. Insira uma regra de união de perfis **[!UICONTROL Name]** e **[!UICONTROL Description]**.
 1. Na **[!UICONTROL Profile Merge Rule Setup]** seção, selecione as **[!UICONTROL Current Authenticated Profiles]** opções ou **[!UICONTROL Last Authenticated Profiles]** .
@@ -132,18 +136,18 @@ A próxima etapa é a criação de uma nova regra de mesclagem que ajudará a cr
 
 ## Etapa 4 - Criar segmentos de Audiência {#create-audience-segments}
 
-Para criar novos segmentos de audiência, use o Construtor [de segmentos](../segments/segment-builder.md). Se você tiver segmentos de audiência para os quais deseja enviar [!DNL People-Based Destinations], pule para a [Etapa 5 - Configurar a autenticação](people-based-destinations-workflow-combined.md#configure-authentication)da plataforma baseada em pessoas.
+Para criar novos segmentos de audiência, use o Construtor [de segmentos](../segments/segment-builder.md). Se você tiver segmentos de audiência para os quais deseja enviar [!DNL People-Based Destinations], pule para a [Etapa 5 - Configurar a autenticação](people-based-destinations-workflow-combined.md#configure-authentication)do Platform baseada em pessoas.
 
-## Etapa 5 - Configurar a autenticação da plataforma baseada em pessoas {#configure-authentication}
+## Etapa 5 - Configurar a autenticação do Platform baseada em pessoas {#configure-authentication}
 
-1. Faça logon em sua conta do Gerenciador de Audiências e vá para **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**. Se você tiver uma integração previamente configurada com uma plataforma social, deverá vê-la listada nesta página. Caso contrário, a página estará vazia.
+1. Faça logon em sua conta do Audience Manager e vá para **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**. Se você tiver uma integração previamente configurada com uma plataforma social, deverá vê-la listada nesta página. Caso contrário, a página estará vazia.
    ![integração baseada em pessoas](assets/pbd-config.png)
 1. Clique em **[!UICONTROL Add Account]**.
 1. Use o menu **[!UICONTROL People-Based Platform]** suspenso para selecionar a plataforma com a qual você deseja configurar a integração.
    ![plataforma baseada em pessoas](assets/pbd-add.png)
 1. Clique em **[!UICONTROL Confirm]** para ser redirecionado para a página de autenticação da plataforma selecionada.
-1. Depois de autenticar na sua conta da plataforma social, você será redirecionado para o Gerenciador de Audiências, onde deverá ver suas contas de anunciante associadas. Selecione a conta do anunciante que deseja usar e clique em **[!UICONTROL Confirm]**.
-1. O Gerenciador de Audiências exibe uma notificação na parte superior da página para informá-lo se a conta foi adicionada com êxito. A notificação também permite que você adicione um endereço de email de contato para receber notificações quando a autenticação da plataforma social estiver prestes a expirar.
+1. Depois de autenticado em sua conta da plataforma social, você é redirecionado para o Audience Manager onde deve ver suas contas de anunciante associadas. Selecione a conta do anunciante que deseja usar e clique em **[!UICONTROL Confirm]**.
+1. O Audience Manager exibe uma notificação na parte superior da página para informar se a conta foi adicionada com êxito. A notificação também permite que você adicione um endereço de email de contato para receber notificações quando a autenticação da plataforma social estiver prestes a expirar.
 
 >[!IMPORTANT]
 >
@@ -151,7 +155,7 @@ Para criar novos segmentos de audiência, use o Construtor [de segmentos](../seg
 
 ## Etapa 6 - Criar um destino baseado em pessoas {#create-destination}
 
-1. Faça logon em sua conta do Gerenciador de Audiências, vá para **[!UICONTROL Audience Data]** > **[!UICONTROL Destinations]** e clique em **[!UICONTROL Create Destination]**.
+1. Faça logon em sua conta do Audience Manager, vá para **[!UICONTROL Audience Data]** > **[!UICONTROL Destinations]** e clique em **[!UICONTROL Create Destination]**.
 1. Na **[!UICONTROL Basic Information]** seção, digite um **[!UICONTROL Name]** e **[!UICONTROL Description]** para sua nova fonte de dados e use as seguintes configurações:
    * **[!UICONTROL Category]**: Plataformas integradas;
    * **[!UICONTROL Type]**: Baseado em pessoas;
