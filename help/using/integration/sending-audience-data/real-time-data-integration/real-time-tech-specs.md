@@ -5,8 +5,12 @@ seo-title: Especificações técnicas para transferências de dados em tempo rea
 solution: Audience Manager
 title: Especificações técnicas para transferências de dados em tempo real e de entrada
 uuid: 722aaf40-c60f-451c-99ce-aa773f7f301d
+feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: f39c8fbb8f301c3068cd6fab47def9f8e3308cad
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '190'
+ht-degree: 0%
 
 ---
 
