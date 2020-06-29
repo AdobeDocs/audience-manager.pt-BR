@@ -5,8 +5,12 @@ seo-title: Pares padrão e de valor de chave serial
 solution: Audience Manager
 title: Pares padrão e de valor de chave serial
 uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
+feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: f9a12cf38833cf243edf4bc4c4f4e91f83ee0ca2
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '602'
+ht-degree: 0%
 
 ---
 
@@ -27,8 +31,8 @@ Totalmente formado, um conjunto básico de pares de valores chave poderia ser pa
 
 Os destinos aceitam dados de valor chave no *`standard`* formato ou *`serialized`* .
 
-* **** Pares padrão de valor chave: Formata os dados de destino em pares de valores chave separados. Cada chave é declarada explicitamente, mesmo quando usada novamente para definir um valor diferente.
-* **** Pares de valor chave serializados: Condensa vários valores em um único par de valores chave. Em um par serializado de valores chave, um indicador especial separa os valores dentro do conjunto de valores chave.
+* **Pares padrão de valor chave:** Formata os dados de destino em pares de valores chave separados. Cada chave é declarada explicitamente, mesmo quando usada novamente para definir um valor diferente.
+* **Pares de valor chave serializados:** Condensa vários valores em um único par de valores chave. Em um par serializado de valores chave, um indicador especial separa os valores dentro do conjunto de valores chave.
 
 Os valores de chave padrão e serializados podem conter valores únicos ou múltiplos. A tabela a seguir fornece exemplos de formatos padrão e de valores de chave serial.
 
@@ -58,9 +62,9 @@ Os valores de chave padrão e serializados podem conter valores únicos ou múlt
 
 Os caracteres que separam valores dentro e entre chaves e valores são conhecidos como *`delimiters`* e *`separators`*. Elas se tornam particularmente importantes quando você envia segmentos para um destino em um formato serial. A serialização permite que você passe vários valores com uma única chave e combine pares de valores chave. Os delimitadores e separadores são definidos da seguinte forma:
 
-* **** Separador de valor-chave: Separa uma chave e um valor em um par de valores chave.
-* **** Delimitador de valor-chave: Separa conjuntos de pares de valores chave.
-* **** Separador de série: Separa vários valores em conjuntos de pares de valores chave serializados.
+* **Separador de valor-chave:** Separa uma chave e um valor em um par de valores chave.
+* **Delimitador de valor-chave:** Separa conjuntos de pares de valores chave.
+* **Separador de série:** Separa vários valores em conjuntos de pares de valores chave serializados.
 
 ## Exemplos {#examples}
 
