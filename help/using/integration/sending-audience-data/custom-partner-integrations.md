@@ -4,8 +4,12 @@ seo-description: Esta página lista as integrações personalizadas entre o Audi
 seo-title: Integrações personalizadas de parceiros
 solution: Audience Manager
 title: Integrações personalizadas de parceiros
+feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: c069c901df6d8737f611d27ce7dffd4072e50adf
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 19%
 
 ---
 
@@ -32,7 +36,7 @@ Os nomes de arquivos ODC são estruturados como:
 
 `ftp_dpm_`**`odc`**`_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
 
-O elemento de nome de `odc` arquivo identifica o arquivo como sendo importado da Oracle Data Cloud e instrui o validador de arquivos de entrada do Audience Manager a processá-lo como tal.
+O elemento de nome de `odc` arquivo identifica o arquivo como sendo importado da Oracle Data Cloud e instrui o validador de arquivo de entrada do Audience Manager a processá-lo como tal.
 
 ### Conteúdo do arquivo
 
