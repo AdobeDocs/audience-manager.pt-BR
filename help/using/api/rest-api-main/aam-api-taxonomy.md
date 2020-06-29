@@ -1,19 +1,23 @@
 ---
-description: Métodos que permitem exibir a taxonomia comum do Audience Manager. Este sistema de classificação opcional organiza características em categorias padrão do setor.
-seo-description: Métodos que permitem exibir a taxonomia comum do Audience Manager. Este sistema de classificação opcional organiza características em categorias padrão do setor.
+description: Métodos que permitem visualização a taxonomia Audience Manager comum. Este sistema de classificação opcional organiza características em categorias padrão do setor.
+seo-description: Métodos que permitem visualização a taxonomia Audience Manager comum. Este sistema de classificação opcional organiza características em categorias padrão do setor.
 seo-title: Métodos da API taxonômica
 solution: Audience Manager
 title: Métodos da API taxonômica
 uuid: 4ee29ba5-e9ba-4498-a6ee-7343227dd7ba
+feature: API
 translation-type: tm+mt
-source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '196'
+ht-degree: 3%
 
 ---
 
 
 # Métodos da API taxonômica {#taxonomic-api-methods}
 
-Métodos que permitem exibir a taxonomia comum do Audience Manager. Este sistema de classificação opcional organiza características em categorias padrão do setor.
+Métodos que permitem visualização a taxonomia Audience Manager comum. Este sistema de classificação opcional organiza características em categorias padrão do setor.
 
 <!-- c_rest_api_taxonomy.xml -->
 
@@ -21,7 +25,7 @@ Métodos que permitem exibir a taxonomia comum do Audience Manager. Este sistema
 >
 >Não é possível criar novas categorias taxonômicas ou classificar características com esses métodos. Para classificar uma característica, especifique a apropriada `categoryId` com um método de criação ou atualização de característica.
 
-## Retornar uma Taxonomia Específica {#return-specific-taxonomy}
+## Devolver uma Taxonomia Específica {#return-specific-taxonomy}
 
 Um `GET` método que retorna detalhes sobre a categoria taxonômica especificada.
 
@@ -46,7 +50,7 @@ Uma resposta bem-sucedida retorna `200 OK` e a categoria para a ID especificada.
 }
 ```
 
-## Retornar todas as categorias taxonômicas {#return-all-taxonomy-categories}
+## Retornar todas as Categorias taxonômicas {#return-all-taxonomy-categories}
 
 Um `GET` método que retorna uma lista das categorias de nível superior em um storage.
 
@@ -89,7 +93,7 @@ Truncado para brevidade.
 ]
 ```
 
-## Subcategorias Taxonômicas de Retorno {#return-taxonomy-sub-categories}
+## Retornar Categorias taxonômicas {#return-taxonomy-sub-categories}
 
 Um `GET` método que retorna subcategorias para a categoria pai especificada em uma matriz.
 
