@@ -5,8 +5,12 @@ seo-title: Integração de dados de mídia
 solution: Audience Manager
 title: Integração de dados de mídia
 uuid: 6f6bbd03-084b-4226-8809-3b00b467606f
+feature: Integration with Campaign
 translation-type: tm+mt
-source-git-commit: f39c8fbb8f301c3068cd6fab47def9f8e3308cad
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '105'
+ht-degree: 9%
 
 ---
 
@@ -19,4 +23,4 @@ source-git-commit: f39c8fbb8f301c3068cd6fab47def9f8e3308cad
 
 * [Arquivo de registro acionável](/help/using/integration/media-data-integration/actionable-log-files.md)
 * [Captura de dados de impressão da campanha via Pixel Calls](/help/using/integration/media-data-integration/impression-data-pixels.md)
-* [Captura de dados de clique da campanha por meio de chamadas de pixels](/help/using/integration/media-data-integration/click-data-pixels.md)
+* [Captura de dados de clique de Campanha por meio de chamadas de pixels](/help/using/integration/media-data-integration/click-data-pixels.md)
