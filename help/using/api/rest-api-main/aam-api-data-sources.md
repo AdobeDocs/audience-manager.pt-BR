@@ -5,8 +5,12 @@ seo-title: Métodos de API de fontes de dados
 solution: Audience Manager
 title: Métodos de API de fontes de dados
 uuid: 92ab725d-6f0a-497b-8302-39a34dc58636
+feature: API
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '73'
+ht-degree: 17%
 
 ---
 
@@ -22,5 +26,5 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 >Os [!DNL API] [!DNL Swagger] métodos da fonte de dados foram regravados e migrados. Consulte:
 >
 >* [Documentos da API do Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
->* [Migração de código da API do Audience Manager](../../api/api-swagger-migration.md)
+>* [Migração de código da API Audience Manager](../../api/api-swagger-migration.md)
 >
