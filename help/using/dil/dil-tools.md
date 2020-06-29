@@ -1,19 +1,23 @@
 ---
-description: Descreve métodos no namespace DIL.tools. Essas funções de utilitário ajudam você a executar tarefas específicas.
-seo-description: Descreve métodos no namespace DIL.tools. Essas funções de utilitário ajudam você a executar tarefas específicas.
+description: Descreve métodos na namespace DIL.tools. Essas funções de utilitário ajudam a executar tarefas específicas.
+seo-description: Descreve métodos na namespace DIL.tools. Essas funções de utilitário ajudam a executar tarefas específicas.
 seo-title: Ferramentas DIL
 solution: Audience Manager
 title: Ferramentas DIL
 uuid: 2bc62ce2-16bd-4e80-b493-c816ba643b59
+feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: ac9e4f24a896ecae2ebf36dcf34a4ac8fab00cd8
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '293'
+ht-degree: 3%
 
 ---
 
 
 # Ferramentas DIL
 
-Descreve métodos no `DIL.tools` namespace. Essas funções de utilitário ajudam você a executar tarefas específicas.
+Descreve métodos na `DIL.tools` namespace. Essas funções de utilitário ajudam a executar tarefas específicas.
 
 <!-- 
 
@@ -43,7 +47,7 @@ Assinatura da função: `DIL.tools.getSearchReferrer(uri, initConfig)`
 
 `getSearchReferrer` aceita:
 
-* *`{string}`*: *(Opcional)* Uma string que contém o URL de pesquisa (usa `document.referrer` se indefinido).
+* *`{string}`*: *(Opcional)* Uma string que contém o URL de pesquisa (usa `document.referrer` se não estiver definido).
 * *`{object}`*: *(Opcional)* Um objeto que contém a configuração para o `hostPattern`, `queryParam`ou `queryPattern`.
 
 E retorna:
@@ -70,24 +74,24 @@ E retorna:
   </tr> 
   <tr> 
    <td>Enviar um URL personalizado</td> 
-   <td>Retorna o referenciador de pesquisa com base em um URL personalizado.</td> 
+   <td>Retorna a quem indicou de pesquisa com base em um URL personalizado.</td> 
    <td> 
   <code>
-        var results = 
-    DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules");
+        var&nbsp;results&nbsp;= 
+        DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules");
   </code>
 </td> 
   </tr> 
   <tr> 
    <td> <b>Corresponder o nome do host do URL a um Regex personalizado</b></td> 
-   <td> Passe um regex personalizado para corresponder ao nome do host do URL de referência. </td> 
+   <td> Transmita um regex personalizado para corresponder ao nome do host do URL de referência. </td> 
    <td> 
   <code>
       var results = 
-    DIL.tools.getSearchReferrer("https://www.ehow.com/
-    search.aspx?q=adobe+rules",{ 
-       hostPattern:/ehow\./, 
-         queryParam:"p" 
+        DIL.tools.getSearchReferrer("https://www.ehow.com/
+      search.aspx?q=adobe+rules",{ 
+      &nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
+      &nbsp;&nbsp;&nbsp;queryParam:"p" 
       }); 
   </code>
   </td></tr> 
@@ -96,11 +100,11 @@ E retorna:
    <td> Passe um regex personalizado para realizar uma pesquisa personalizada. </td> 
    <td> 
     <code>
-      var results = 
-    DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules,
-    {
-       hostPattern:/ehow\./, 
-           search_pattern:/[&amp;\?]p=([^&amp;]+/ 
+      var&nbsp;results&nbsp;= 
+      DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules,
+      {
+        &nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
+        &nbsp;&nbsp;&nbsp;search_pattern:/[&amp;\?]p=([^&amp;]+/ 
       });
     </code>
    </td> 
@@ -110,7 +114,7 @@ E retorna:
 
 ## decomposeURI
 
-Desmonta um identificador de recurso uniforme ( [!DNL URI]) em seus componentes: `hash`, `host`, `href`, `pathname`, `protocol`, `search`e `[!DNL uriParams]`.
+Desmonta um identificador de recurso uniforme ( [!DNL URI]) em seus componentes: `hash`, `host`, `href`, `pathname`, `protocol`, `search`, e `[!DNL uriParams]`.
 
 <!-- 
 
@@ -171,9 +175,12 @@ Assinatura da função: `DIL.tools.getMetaTags( 1 or more parameters)`
 ### Código de exemplo
 
 <pre class="&ldquo;javascript&rdquo;"><code>
-var dataLib = DIL.create({ parceiro: '<i>partnerName'</i>, containerNSID: <i>containerNSID</i> }); 
+var dataLib = DIL.create({ 
+     partner: '<i>partnerName'</i>, 
+     containerNSID: <i>containerNSID</i> 
+}); 
 
-dataLib.api.signal(DIL.tools.getMetaTags('<i>application</i>', '<i>keywords</i>', '<i>description</i>'), 'c_').submit();
+dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>', '<i>keywords</i>',  '<i>description</i>'), 'c_').submit();
 </code></pre>
 
 <pre><code>
@@ -181,5 +188,6 @@ var dataLib = DIL.create({
      partner: <i>`partnerName'</i>, 
      containerNSID: <i>containerNSID</i> 
 }); 
+
 dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>','<i>keywords</i>', '<i>description</i>'), 'c_').submit();
 </code></pre>
