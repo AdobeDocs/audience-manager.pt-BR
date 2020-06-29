@@ -1,23 +1,27 @@
 ---
-description: Quando o Audience Manager envia informações de segmento para um parceiro de dados, ele identifica esses objetos com IDs numéricas. Como parceiro de dados, quando você compartilha essas informações com seus clientes (ou trabalha com eles), um nome e uma descrição reais fornecem uma melhor experiência para os clientes em relatórios, painéis ou outras interfaces de usuário (UI). Os parceiros de dados podem disponibilizar esses nomes amigáveis para seus clientes com os métodos manuais ou automatizados descritos nesta seção.
-seo-description: Quando o Audience Manager envia informações de segmento para um parceiro de dados, ele identifica esses objetos com IDs numéricas. Como parceiro de dados, quando você compartilha essas informações com seus clientes (ou trabalha com eles), um nome e uma descrição reais fornecem uma melhor experiência para os clientes em relatórios, painéis ou outras interfaces de usuário (UI). Os parceiros de dados podem disponibilizar esses nomes amigáveis para seus clientes com os métodos manuais ou automatizados descritos nesta seção.
+description: Quando o Audience Manager envia informações de segmento para um parceiro de dados, identifica esses objetos com IDs numéricas. Como parceiro de dados, quando você compartilha essas informações com seus clientes (ou trabalha com eles), um nome e uma descrição reais fornecem uma melhor experiência para os clientes em relatórios, painéis ou outras interfaces de usuário (UI). Os parceiros de dados podem disponibilizar esses nomes amigáveis para seus clientes com os métodos manuais ou automatizados descritos nesta seção.
+seo-description: Quando o Audience Manager envia informações de segmento para um parceiro de dados, identifica esses objetos com IDs numéricas. Como parceiro de dados, quando você compartilha essas informações com seus clientes (ou trabalha com eles), um nome e uma descrição reais fornecem uma melhor experiência para os clientes em relatórios, painéis ou outras interfaces de usuário (UI). Os parceiros de dados podem disponibilizar esses nomes amigáveis para seus clientes com os métodos manuais ou automatizados descritos nesta seção.
 seo-title: Recuperando metadados do segmento
 solution: Audience Manager
 title: Recuperando metadados do segmento
 uuid: 719e2c41-8788-4e8a-967a-e367421f9f84
+feature: Segments
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '598'
+ht-degree: 0%
 
 ---
 
 
 # Recuperando metadados do segmento {#retrieving-segment-metadata}
 
-Quando o Audience Manager envia informações de segmento para um parceiro de dados, ele identifica esses objetos com IDs numéricas. Como parceiro de dados, quando você compartilha essas informações com seus clientes (ou trabalha com eles), um nome e uma descrição reais fornecem uma melhor experiência para os clientes em relatórios, painéis ou outras interfaces de usuário ([!DNL UI]). Os parceiros de dados podem disponibilizar esses nomes amigáveis para seus clientes com os métodos manuais ou automatizados descritos nesta seção.
+Quando o Audience Manager envia informações de segmento para um parceiro de dados, identifica esses objetos com IDs numéricas. Como parceiro de dados, quando você compartilha essas informações com seus clientes (ou trabalha com eles), um nome e uma descrição reais fornecem uma melhor experiência para os clientes em relatórios, painéis ou outras interfaces de usuário ([!DNL UI]). Os parceiros de dados podem disponibilizar esses nomes amigáveis para seus clientes com os métodos manuais ou automatizados descritos nesta seção.
 
 ## Método manual {#manual-method}
 
-Como parceiro de dados, você provavelmente está acostumado a obter metadados de público-alvo de seus clientes por meio de processos manuais. Isso pode incluir arquivos anexados a e-mails ou de clientes que adicionam esses dados por meio de um arquivo [!DNL UI] que você criou e manteve para essa finalidade. Esses processos funcionam, mas geralmente são complicados, demorados e podem exigir o trabalho manual de entrada de dados. Esses métodos são usados com frequência para ajudar a ativar e executar uma integração rapidamente, mas não fornecem a melhor experiência do cliente a longo prazo. Como alternativa, você pode usar o [!DNL Audience Manager] [!DNL API] para obter os metadados do segmento automaticamente.
+Como parceiro de dados, você provavelmente está acostumado a obter metadados de audiência de seus clientes por meio de processos manuais. Isso pode incluir arquivos anexados a e-mails ou de clientes que adicionam esses dados por meio de um arquivo [!DNL UI] que você criou e manteve para essa finalidade. Esses processos funcionam, mas geralmente são complicados, demorados e podem exigir o trabalho manual de entrada de dados. Esses métodos são usados com frequência para ajudar a ativar e executar uma integração rapidamente, mas não fornecem a melhor experiência do cliente a longo prazo. Como alternativa, você pode usar o [!DNL Audience Manager] [!DNL API] para obter os metadados do segmento automaticamente.
 
 ## Método automatizado {#automated-method}
 
@@ -52,8 +56,8 @@ Após concluir as etapas anteriores, você pode usar um `GET` método para recup
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> targetMappingId</code> </p> </td> 
-   <td colname="col2"> <p>A ID de segmento do <span class="keyword"> Audience Manager</span> . </p> </td> 
+   <td colname="col1"> <p> <code> destinationMappingId</code> </p> </td> 
+   <td colname="col2"> <p>A ID do segmento <span class="keyword"> Audience Manager</span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> elementName</code> </p> </td> 
@@ -67,9 +71,9 @@ Após concluir as etapas anteriores, você pode usar um `GET` método para recup
    <td colname="col1"> <p> <code> elementStatus</code> </p> </td> 
    <td colname="col2"> <p>O status atual do mapeamento de segmentos. As opções de status retornadas incluem: </p> 
     <ul id="ul_BA3A1F5A773D4ECD9A1A3A1118BDDA8A"> 
-     <li id="li_A12B858BD0AD4F35BCD50A4D113D86FF"> <code> ative</code> </li> 
-     <li id="li_98C04A861C2D4364B5FBD24498E8E9C5"> <code> inativo</code> </li> 
-     <li id="li_1913A10948894FF3B507C0A3FE775CC1"> <code> excluído</code> </li> 
+     <li id="li_A12B858BD0AD4F35BCD50A4D113D86FF"> <code> active</code> </li> 
+     <li id="li_98C04A861C2D4364B5FBD24498E8E9C5"> <code> inactive</code> </li> 
+     <li id="li_1913A10948894FF3B507C0A3FE775CC1"> <code> deleted</code> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
