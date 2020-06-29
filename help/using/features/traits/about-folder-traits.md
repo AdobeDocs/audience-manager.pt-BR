@@ -1,24 +1,28 @@
 ---
-description: As características da pasta permitem que você agregue automaticamente características que residem na mesma pasta e todas as pastas filhas em um segmento direcionável.
-keywords: avaliador de tamanho de segmento;sse
-seo-description: As características da pasta permitem que você agregue automaticamente características que residem na mesma pasta e todas as pastas filhas em um segmento direcionável.
+description: As características da pasta permitem que você agregação automaticamente as características que residem na mesma pasta e todas as pastas filhas em um segmento direcionável.
+keywords: segment size estimator;sse
+seo-description: As características da pasta permitem que você agregação automaticamente as características que residem na mesma pasta e todas as pastas filhas em um segmento direcionável.
 seo-title: Características da pasta sobre
 solution: Audience Manager
 title: Características da pasta sobre
 uuid: e561ce8f-6c90-44a7-b034-685533f29030
+feature: Traits
 translation-type: tm+mt
-source-git-commit: 9fa5a558c839da89286b1abdf77e835a92747c87
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 0%
 
 ---
 
 
 # Características da pasta: About {#folder-traits-about}
 
-[!UICONTROL Folder traits] permite que você agregue automaticamente características que residem na mesma pasta e todas as pastas filhas em um segmento direcionável.
+[!UICONTROL Folder traits] permite que você agregação automaticamente as características que residem na mesma pasta e todas as pastas filhas em um segmento direcionável.
 
 ## Benefícios do uso das características da pasta {#benefits}
 
-Um [!UICONTROL folder trait] contém todas as características em uma pasta pai e suas pastas filhas associadas. Isso permite segmentar e direcionar automaticamente seus usuários em diferentes níveis de pasta. Por exemplo, digamos que você tenha uma estrutura de pastas como esta:
+Um [!UICONTROL folder trait] contém todas as características em uma pasta pai e suas pastas filhas associadas. Isso permite que você segmente e público alvo automaticamente seus usuários em diferentes níveis de pasta. Por exemplo, digamos que você tenha uma estrutura de pastas como esta:
 
 `*` Eletrônicos (pai)
 
@@ -28,7 +32,7 @@ Um [!UICONTROL folder trait] contém todas as características em uma pasta pai 
 
 [!UICONTROL Folder traits] qualificar todos os usuários nessas pastas em uma pasta criada automaticamente [!DNL Electronics] [!UICONTROL Folder Trait] (com base no nome da pasta pai). E esse processo se repete enquanto você move para baixo a estrutura de arquivos. Nesse caso, as características das pastas capturam todos os usuários nas pastas Notebooks e Marcas em um Laptops automaticamente criados [!UICONTROL Folder Trait].
 
-[!UICONTROL Folder traits] são selecionáveis em expressões de segmento. A seleção de um [!UICONTROL folder trait] é equivalente a selecionar todas as características dentro dessa pasta e suas subpastas com um [!UICONTROL OR] agrupamento.
+[!UICONTROL Folder traits] são selecionáveis em expressões de segmentos. A seleção de um [!UICONTROL folder trait] é equivalente a selecionar todas as características dentro dessa pasta e suas subpastas com um [!UICONTROL OR] agrupamento.
 
 ![](assets/folder-traits-compare-border.jpg)
 
@@ -44,24 +48,24 @@ Nesse caso, o [!DNL Automobile Folder Trait] grupo tem 7 realizações.
 
 ![](assets/folder_traits_rollup_border.png)
 
-## Relatório de características da pasta {#folder-traits-reporting}
+## Relatórios de característica da pasta {#folder-traits-reporting}
 
-[!UICONTROL Folder traits] capture todos os usuários das características na estrutura de pastas abaixo deles. If you move a trait from a folder to another folder, the change propagates to our data collection servers just like a trait rule change. [](../../reference/system-components/components-data-collection.md) The reporting updates in the next reporting run to reflect this change across the reporting date ranges (1, 7, 14, 30, 60, 90). The old reporting numbers from the previous days will not change.
+[!UICONTROL Folder traits] capture todos os usuários das características na estrutura de pastas abaixo deles. Se você mover uma característica de uma pasta para outra pasta, a alteração será propagada para nossos servidores [de coleta de](../../reference/system-components/components-data-collection.md) dados da mesma forma que uma alteração de regra de característica. As atualizações do relatórios na próxima execução do relatórios refletem essa alteração nos intervalos de datas do relatórios (1, 7, 14, 30, 60, 90). Os números de relatórios antigos dos dias anteriores não serão alterados.
 
-## Role-Based Access Controls (RBAC) Permissions {#role-based-access-controls}
+## Permissões RBAC (Controles de acesso Baseados em Função) {#role-based-access-controls}
 
-For companies using  (), your users with the appropriate  permissions are able to change the data source associated to the . [!UICONTROL Role-Based Access Controls][!UICONTROL RBAC][!UICONTROL RBAC][!UICONTROL folder trait] A user must belong to a group with either of the following:
+Para o empresa que usa [!UICONTROL Role-Based Access Controls] ([!UICONTROL RBAC]), seus usuários com as [!UICONTROL RBAC] permissões apropriadas podem alterar a fonte de dados associada ao [!UICONTROL folder trait]. Um usuário deve pertencer a um grupo com uma das seguintes opções:
 
-* `READ` and  group permissions to a trait data source.`WRITE`
-* `VIEW_ALL_TRAITS` and `EDIT_ALL_TRAITS` wild card permissions for trait data sources.
+* `READ` e permissões de `WRITE` grupo para uma fonte de dados de característica.
+* `VIEW_ALL_TRAITS` e permissões `EDIT_ALL_TRAITS` curingas para fontes de dados de características.
 
-Learn how to assign [!UICONTROL RBAC] permissions in our [administration documentation](../../features/administration/administration-overview.md#create-group).
+Saiba como atribuir [!UICONTROL RBAC] permissões na documentação [](../../features/administration/administration-overview.md#create-group)administrativa.
 
-## Limits and Other Considerations {#limits}
+## Limites e outras considerações {#limits}
 
 | Item | Descrição |
 |---|---|
-| Trait type | [!UICONTROL Onboarded traits] and [!UICONTROL algorithmic traits] contribute at most 1 realization to a [!UICONTROL folder trait]'s frequency. |
-| Moving traits between folders | Moving a trait from a folder to another will disqualify that trait from the first folder trait and qualify it for the second . [!UICONTROL folder trait] This means that if you delete or move a trait from the folder, the users in the trait's population will be unsegmented from the segments using the folder trait as a segment expression. <br> Ao mapear segmentos do Adobe Analytics ou conjuntos de relatórios para a organização da Experience Cloud, o Audience Manager cria automaticamente segmentos e características novos, correspondentes e somente leitura. Não é possível editar ou alterar o local de armazenamento dessas características do Audience Manager. No entanto, qualquer alteração que você efetuar nos segmentos do Adobe Analytics ou conjuntos de relatórios mapeados será refletida no Audience Manager. |
+| Tipo de característica | [!UICONTROL Onboarded traits] e [!UICONTROL algorithmic traits] contribuir, no máximo, para a realização da frequência [!UICONTROL folder trait]de um evento. |
+| Mover características entre pastas | Mover uma característica de uma pasta para outra desqualificará essa característica da primeira pasta e a qualificará para a segunda [!UICONTROL folder trait]. Isso significa que, se você excluir ou mover uma característica da pasta, os usuários na população da característica não serão segmentados dos segmentos usando a característica da pasta como uma expressão de segmento. <br> Ao mapear segmentos do Adobe Analytics ou conjuntos de relatórios para a organização do Experience Cloud, o Audience Manager cria automaticamente segmentos e características novos, correspondentes e somente leitura. Não é possível editar ou alterar o local do armazenamento para o Audience Manager. No entanto, qualquer alteração que você efetuar nos segmentos do Adobe Analytics ou nos conjuntos de relatórios mapeados será refletida no Audience Manager. |
 | Variáveis de sistema | [!UICONTROL Folder traits] não pode ser realizado em chamadas de evento usando o `d_sid` parâmetro. |
 | Relatórios | [!UICONTROL Folder traits] são características calculadas automaticamente e não aparecem em **[!UICONTROL Overlap Reports]**. |
