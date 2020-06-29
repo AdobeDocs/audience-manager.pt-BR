@@ -1,16 +1,20 @@
 ---
 description: Deixe os campos de valor-chave em branco para procurar uma variedade maior de sinais e use os filtros disponíveis para restringir os resultados.
 seo-description: Deixe os campos de valor-chave em branco para procurar uma variedade maior de sinais e use os filtros disponíveis para restringir os resultados.
-seo-title: Pesquisar Sinais por Filtros
-title: Pesquisar Sinais por Filtros
+seo-title: Sinais de pesquisa por Filtros
+title: Sinais de pesquisa por Filtros
 uuid: 99b00d48-6415-4cb1-848a-5401b34c43a6
+feature: Data Explorer
 translation-type: tm+mt
-source-git-commit: 212ec8641068a9ed4c620987bb18586ee8c7d519
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '132'
+ht-degree: 0%
 
 ---
 
 
-# Pesquisar Sinais por Filtros {#search-signals-by-filters}
+# Sinais de pesquisa por Filtros {#search-signals-by-filters}
 
 Deixe os campos de valor-chave em branco para procurar uma variedade maior de sinais e use os filtros disponíveis para restringir os resultados.
 
