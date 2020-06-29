@@ -4,8 +4,12 @@ seo-description: No Construtor de destinos, a seção Configuração contém os 
 seo-title: Configurações opcionais para destinos de cookies
 solution: Audience Manager
 title: Configurações opcionais para destinos de cookies
+feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '461'
+ht-degree: 4%
 
 ---
 
@@ -28,20 +32,20 @@ Em [!UICONTROL Destination Builder], [!UICONTROL Configuration section] contém 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Sintaxe</b> </p> </td> 
-   <td colname="col2"> <p>O campo Domínio <span class="wintitle"></span> de cookie aceita uma sequência de texto simples que permite definir cookies em um domínio especificado ou em todos os domínios. Ao usar este recurso: </p> <p> 
+   <td colname="col2"> <p>O campo Domínio <span class="wintitle"></span> de cookie aceita uma sequência de caracteres de texto simples que permite definir cookies em um domínio especificado ou em todos os domínios. Ao usar este recurso: </p> <p> 
      <ul id="ul_473CB59F2C0C4B358201BE5C8B27D73D"> 
       <li id="li_4E7F4691C1B54415963F7D5AA1558C9A">Defina apenas um domínio para cada destino de cookie. Não digite vários domínios no campo <span class="wintitle"> Domínio</span> de cookie. Em vez disso, crie outro <span class="wintitle"> Destino</span> . </li> 
       <li id="li_AEBF5C5F3C264C5EA4A2A6063C3F377D">Não use caracteres curingas. </li> 
      </ul> </p> <p> Deixe o campo Domínio <span class="wintitle"></span> do cookie em branco para definir um cookie em todos os domínios. Essa é a configuração padrão. </p> <p>Para definir cookies em um domínio e subdomínios específicos: </p> <p> 
      <ul id="ul_F25BC0D8C40641A2A5CA338E5C258435"> 
       <li id="li_E236D8DEE4F24F9BBA36074F7049C12C">Digite o nome do domínio no campo <span class="wintitle"> Domínio</span> de cookie. </li> 
-      <li id="li_0471C198EE344DE5963A3C2F70B9E78B">Inicie o nome do domínio com um ponto final. Por exemplo, <code> .somedomain.com</code>. </li> 
+      <li id="li_0471C198EE344DE5963A3C2F70B9E78B">Start o nome do domínio por um ponto. Por exemplo, <code> .somedomain.com</code>. </li> 
       <li id="li_73D06F2BEF45487280C2245E1F6B8ED0">The <code> https://www</code> prefix is not required. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Exemplo</b> </p> </td> 
-   <td colname="col2"> <p>Como exemplo simples, digamos que tenhamos um site fictício chamado Sports.com. Sports.com tem domínios para golfe, beisebol e futebol. Para definir um cookie em todos os domínios esportivos, digite-o na caixa Domínio <span class="wintitle"> do</span> cookie, como mostrado abaixo: </p> <p> <img src="assets/sports-domain.png" id="image_8883477BB3B543648C97A441AD34C6DE" /> </p> <p>Isso instrui <span class="keyword"> o Audience Manager</span> a definir um cookie em qualquer domínio que contenha o pattern <code><i>something</i></code>.Sports.com. Consulte abaixo para obter um conjunto mais complexo de exemplos. </p> </td> 
+   <td colname="col2"> <p>Como exemplo simples, digamos que tenhamos um site fictício chamado Sports.com. Sports.com tem domínios para golfe, beisebol e futebol. Para definir um cookie em todos os domínios esportivos, digite-o na caixa Domínio <span class="wintitle"> do</span> cookie, como mostrado abaixo: </p> <p> <img src="assets/sports-domain.png" id="image_8883477BB3B543648C97A441AD34C6DE" /> </p> <p>Isso instrui o Audience Manager <span class="keyword"> a definir um cookie em qualquer domínio que contenha o pattern</span> <code><i>something</i></code>.Sports.com. Consulte abaixo para obter um conjunto mais complexo de exemplos. </p> </td> 
   </tr> 
  </tbody> 
 </table>
