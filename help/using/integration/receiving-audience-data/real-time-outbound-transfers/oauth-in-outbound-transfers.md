@@ -5,8 +5,12 @@ seo-title: Integração do OAuth 2.0 para transferências de saída em tempo rea
 solution: Audience Manager
 title: Integração do OAuth 2.0 para transferências de saída em tempo real
 uuid: a39e370c-b3bd-4b06-a1af-60a024ee7ee4
+feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 1cc8afd25331528fd67922183b6550288b9939bc
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '492'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +28,7 @@ A implementação da autenticação [!DNL Adobe Audience Manager] OAuth 2.0 [](h
    * As credenciais usadas para gerar um token.
 1. Um [!DNL Audience Manager] consultor configura o [destino](../../../features/destinations/destinations.md) usando as informações fornecidas.
 1. Quando um segmento é mapeado para esse destino, nosso sistema de transferência de dados em tempo real, [IRIS](../../../reference/system-components/components-data-action.md#iris), faz uma `POST` solicitação ao ponto final do token para trocar as credenciais por um token do portador.
-1. Para cada solicitação de publicação de segmento para o terminal do parceiro, [!UICONTROL IRIS] usa o token do portador para autenticar.
+1. Para cada solicitação de publicação de segmento ao ponto de extremidade do parceiro, [!UICONTROL IRIS] usa o token do portador para autenticar.
 
 ![](assets/oauth2-iris.png)
 
@@ -41,7 +45,7 @@ Esse terminal aceitará as credenciais fornecidas na etapa 1 e gerará um token 
 * O ponto de extremidade deve verificar o [!DNL Content-type] cabeçalho e validar se seu valor é `application/x-www-form-urlencoded ; charset=UTF-8`.
 * O corpo da solicitação será `grant_type=client_credentials`.
 
-### Exemplo de solicitação feita pelo Audience Manager para o terminal do parceiro para obter um token do portador
+### Exemplo de solicitação feita pelo Audience Manager para o ponto de extremidade do parceiro para obter um token do portador
 
 ```
 POST /oauth2/token HTTP/1.1
