@@ -1,19 +1,23 @@
 ---
-description: O Gerenciador de Audiências exige que as solicitações de servidor para servidor HTTP(S) sejam assinadas digitalmente para validade. Este documento descreve como você pode assinar solicitações HTTP com chaves privadas.
-seo-description: O Gerenciador de Audiências exige que as solicitações de servidor para servidor HTTP(S) sejam assinadas digitalmente para validade. Este documento descreve como você pode assinar solicitações HTTP(S) com chaves privadas.
+description: O Audience Manager exige que as solicitações de servidor para servidor HTTP(S) sejam assinadas digitalmente para validade. Este documento descreve como você pode assinar solicitações HTTP com chaves privadas.
+seo-description: O Audience Manager exige que as solicitações de servidor para servidor HTTP(S) sejam assinadas digitalmente para validade. Este documento descreve como você pode assinar solicitações HTTP(S) com chaves privadas.
 seo-title: Solicitações HTTP(S) Assinadas Digitalmente
 solution: Audience Manager
 title: Solicitações HTTP(S) Assinadas Digitalmente
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
+feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 5dddaaae3a5cb2ce4c4649e2a153edf1992fa964
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '637'
+ht-degree: 0%
 
 ---
 
 
-# Solicitações Assinadas Digitalmente `HTTP(S)`{#digitally-signed-http-requests}
+# Solicitações Assinadas Digitalmente `HTTP(S)` {#digitally-signed-http-requests}
 
-O Gerenciador de Audiências exige que as solicitações de servidor para servidor sejam assinadas digitalmente para validade. `HTTP(S)` Este documento descreve como você pode assinar `HTTP(S)` solicitações com chaves privadas.
+O Audience Manager exige que as solicitações de servidor para servidor sejam assinadas digitalmente para validade. `HTTP(S)` Este documento descreve como você pode assinar `HTTP(S)` solicitações com chaves privadas.
 
 ## Visão geral {#overview}
 
