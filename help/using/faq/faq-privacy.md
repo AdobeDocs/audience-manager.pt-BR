@@ -5,8 +5,9 @@ seo-title: Perguntas frequentes sobre privacidade e retenção de dados
 solution: Audience Manager
 title: Perguntas frequentes sobre privacidade e retenção de dados
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
+feature: Data Governance and Privacy
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 5%
@@ -67,14 +68,14 @@ A tabela a seguir lista os tempos de retenção para diferentes tipos de dados e
   </tr> 
   <tr> 
    <td colname="col1"> <p>Logs do servidor de anúncios </p> </td> 
-   <td colname="col2"> <p><b>Relatórios</b> </p> <p>Os arquivos de registro são mantidos para fins de relatórios por até 30 dias. Não persistimos registros inigualáveis (ou seja, registros para os quais não há sincronização de ID entre uma ID de servidor de anúncio de visitante <span class="keyword"> e a ID de</span> Audience Manager) em nosso armazenamento de backend, e os registros correspondentes armazenados no <span class="keyword"> Amazon S3</span> são mantidos por até 30 dias. </p> <p><b>Arquivo de registro acionável</b> </p> <p>Os registros correspondentes e não correspondentes são retidos por até 30 dias. </p> </td> 
+   <td colname="col2"> <p><b>Relatórios</b> </p> <p>Os arquivos de registro são mantidos para fins de relatórios por até 30 dias. Não persistimos registros inigualáveis (ou seja, registros para os quais não há sincronização de ID entre uma ID de servidor de anúncio de visitante <span class="keyword"> e a ID de</span> Audience Manager) em nosso armazenamento de backend, e os registros correspondentes armazenados no <span class="keyword"> Amazon S3</span> são mantidos por até 30 dias. </p> <p><b>Arquivo de registro acionável</b> </p> <p>Both matched and unmatched logs are retained for up to 30 days. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>perfis de nível CRM (perfis autenticados) </p> </td> 
-   <td colname="col2"> <p>O intervalo TTL (time-to-live) padrão para perfis de nível CRM inativos (IDs do cliente) é de 24 meses. No entanto, você pode usar a interface do usuário do Audience Manager para reduzir ou estender o intervalo TTL para perfis inativos no nível do CRM entre um mês e cinco anos. Isso pode ser feito ao criar ou editar uma fonte de dados entre dispositivos.</p> <p>Para obter mais informações, consulte Configurações da fonte de dados em <a href="../features/profile-merge-rules/merge-rules-start.md#settings"> Criar uma fonte de dados entre dispositivos </a>.</p> </td> 
+   <td colname="col2"> <p>O intervalo TTL (time-to-live) padrão para perfis de nível CRM inativos (IDs do cliente) é de 24 meses. However, you can use the Audience Manager user interface to reduce or extend the TTL interval for inactive CRM-level profiles between one month and 5 years. Isso pode ser feito ao criar ou editar uma fonte de dados entre dispositivos.</p> <p>For more information, see Data Source Settings in <a href="../features/profile-merge-rules/merge-rules-start.md#settings"> Create a Cross-Device Data Source </a>.</p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>IDs de dispositivo móvel </p> </td> 
+   <td colname="col1"> <p>Mobile Device IDs </p> </td> 
    <td colname="col2"> <p>As condições de retenção para IDs de dispositivos móveis (<a href="../reference/ids-in-aam.md"> IDFA, GAID</a>) seguem a cadência descrita nas duas primeiras linhas, servidores back-end e servidores de borda. </p> </td> 
   </tr> 
   <tr> 
