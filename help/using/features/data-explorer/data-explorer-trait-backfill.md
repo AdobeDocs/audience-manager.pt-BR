@@ -4,8 +4,12 @@ seo-description: Realização de características de preenchimento retroativo pa
 seo-title: Realizações da característica de preenchimento retroativo
 title: Realizações da característica de preenchimento retroativo
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
+feature: Data Explorer
 translation-type: tm+mt
-source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '451'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +20,7 @@ Realização de características de preenchimento retroativo para capturar audi�
 
 >[!IMPORTANT]
 >
->[!UICONTROL Data Explorer Trait Backfill] é um recurso premium que aprimora a experiência do Gerenciador de Audiências desbloqueando casos de uso adicionais. O preenchimento retroativo requer poder de processamento adicional e está disponível para todos os clientes do Audiência Manager a um custo incremental. Entre em contato com seu representante de vendas da Adobe para obter mais detalhes.
+>[!UICONTROL Data Explorer Trait Backfill] é um recurso premium que aprimora a experiência de Audience Manager, desbloqueando casos de uso adicionais. O preenchimento retroativo requer poder de processamento adicional e está disponível para todos os clientes de Audience Manager a um custo adicional. Entre em contato com seu representante de vendas da Adobe para obter mais detalhes.
 
 Ao criar características de sinais não utilizados, você pode optar por preencher retroativamente as realizações de características ao longo de um período de tempo específico. [!DNL Audience Manager] captura os dados históricos sobre audiências que se qualificam para a nova característica e as armazena no perfil correspondente. Você pode ver a imagem **[!UICONTROL Backfill Options]** na [!UICONTROL Trait Expression] seção do Construtor de **[características](../../features/traits/about-trait-builder.md)**.
 
@@ -55,7 +59,7 @@ Assista ao vídeo abaixo para ver uma apresentação em vídeo de como preencher
 
 O start de características recém-criado captura audiências duas a três horas após a criação. No entanto, devido ao grande volume de dados que [!DNL Audience Manager] são executados diariamente, a população preenchida retroativamente não é refletida imediatamente nos gráficos [!UICONTROL Unique Trait Realizations] e [!UICONTROL Total Trait Population] .
 
-O Gerenciador de Audiências atualiza o com a população preenchida retroativamente [!UICONTROL Trait Graph] dentro de 48 horas após a criação da característica.
+O Audience Manager atualiza o com a população [!UICONTROL Trait Graph] preenchida retroativamente dentro de 48 horas após a criação da característica.
 
 ## Limite de preenchimento retroativo da característica {#trait-backfilling-limit}
 
