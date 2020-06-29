@@ -1,17 +1,21 @@
 ---
-description: Envie dados de público-alvo de outras fontes para o Audience Manager.
-seo-description: Envie dados de público-alvo de outras fontes para o Adobe Audience Manager (AAM).
-seo-title: Envio de dados de público-alvo no Adobe Audience Manager (AAM)
-title: Envio de dados do público-alvo
+description: Envie dados de audiência de outras fontes para o Audience Manager.
+seo-description: Envie dados de audiência de outras fontes para o Adobe Audience Manager (AAM).
+seo-title: Envio de dados de Audiência no Adobe Audience Manager (AAM)
+title: Envio de dados de Audiência
+feature: Inbound Data Transfer
 translation-type: tm+mt
-source-git-commit: 00ea159dff61de4b346d994a50b5dcfc2ccb8c89
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '90'
+ht-degree: 12%
 
 ---
 
 
-# Envio de dados do público-alvo
+# Envio de dados de Audiência
 
-Envie dados de público-alvo de outras fontes para o Audience Manager.
+Envie dados de audiência de outras fontes para o Audience Manager.
 
 * [Integração de dados de entrada em tempo real](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md)
 
