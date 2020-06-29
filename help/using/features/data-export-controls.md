@@ -5,8 +5,12 @@ seo-title: Controles da exportação de dados
 solution: Audience Manager
 title: Controles da exportação de dados
 uuid: de7f3608-c0cb-4049-973a-8be54525c600
+feature: Data Export Controls
 translation-type: tm+mt
-source-git-commit: 22657113512e136296be5c4bcb8e092e65f45c06
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '905'
+ht-degree: 1%
 
 ---
 
@@ -29,8 +33,8 @@ Por exemplo, digamos que um segmento esteja mapeado para um destino com o rótul
 * O envio de dados para um destino tem um rótulo de exportação de dados bloqueado por um controle de exportação de dados em qualquer um dos seguintes:
    * A fonte de dados de uma característica incluída;
    * A fonte de dados de uma característica usada em um segmento incluído;
-   * A regra de mesclagem de perfil aproveitada por um segmento incluído;
-   * Qualquer uma das fontes de dados que uma regra de mesclagem de perfil do segmento incluído usa.
+   * A regra de união de perfis aproveitada por um segmento incluído;
+   * Qualquer uma das fontes de dados que uma regra de mesclagem de perfis de segmentos incluídos usa.
 
 [!UICONTROL Data Export Controls] estão disponíveis automaticamente para todos os clientes do Audience Manager. No entanto, você precisa de permissões de administrador para adicionar controles de exportação a uma fonte de dados. A adição de rótulos de exportação a um destino requer permissões de administrador *ou* privilégios suficientes para criar ou editar um destino.
 
@@ -38,16 +42,16 @@ Por exemplo, digamos que um segmento esteja mapeado para um destino com o rótul
 
 [!UICONTROL Data Export Controls] forneça os seguintes controles para ajudar a classificar fontes de dados e destinos.
 
-Para bloquear a entrega de dados, é necessário classificar uma fonte de dados com um controle de exportação e adicionar um rótulo de exportação a um destino. Se você aplicar controles de exportação somente a uma fonte de dados ou destino, esse recurso não restringirá a entrega de dados. Quando definidos na fonte de dados *e no destino,* os controles de exportação limitarão as características que podem ser adicionadas a um segmento e impedirão o envio dos membros do segmento para um destino.
+Para bloquear o delivery de dados, é necessário classificar uma fonte de dados com um controle de exportação e adicionar um rótulo de exportação a um destino. Se você aplicar controles de exportação somente a uma fonte de dados ou destino, esse recurso não restringirá o delivery de dados. Quando definidos na fonte de dados *e no destino,* os controles de exportação limitarão as características que podem ser adicionadas a um segmento e impedirão o envio dos membros do segmento para um destino.
 
-Além disso, pelo menos um rótulo de exportação deve corresponder a um controle de exportação antes que as restrições de entrega de dados entrem em vigor. Por exemplo, digamos que você adicione o controle de [!UICONTROL PII] exportação a uma fonte de dados. Em seguida, adicione o rótulo de direcionamento no site a um destino. Nesse caso, os controles de exportação não limitarão a entrega de dados porque as configurações não correspondem. No entanto, se você adicionar o rótulo de [!UICONTROL PII] exportação ao destino, os controles de exportação bloquearão a exportação.
+Além disso, pelo menos um rótulo de exportação deve corresponder a um controle de exportação antes que as restrições de delivery de dados entrem em vigor. Por exemplo, digamos que você adicione o controle de [!UICONTROL PII] exportação a uma fonte de dados. Em seguida, adicione o rótulo de direcionamento no site a um destino. Nesse caso, os controles de exportação não limitarão o delivery de dados porque as configurações não correspondem. No entanto, se você adicionar o rótulo de [!UICONTROL PII] exportação ao destino, os controles de exportação bloquearão a exportação.
 
 >[!IMPORTANT]
 >
 >Não é possível bloquear a exportação de um segmento colocando um controle de exportação de dados na fonte de dados do segmento. É necessário definir o controle em:
 > * As fontes de dados das características utilizadas no segmento;
-> * A regra de mesclagem de perfil aproveitada pelo segmento;
-> * Qualquer uma das fontes de dados que a regra de mesclagem de perfil do segmento usa.
+> * A regra de união de perfis aproveitada pelo segmento;
+> * Qualquer uma das fontes de dados que a regra de união de perfis do segmento usa.
 
 
 <br> 
@@ -80,8 +84,8 @@ Além disso, pelo menos um rótulo de exportação deve corresponder a um contro
    <td colname="col2"> <b><span class="uicontrol"> Esse destino pode ser usado para direcionamento de anúncios no site</span></b> </td> 
    <td colname="col3">Quando selecionado, não é possível: 
     <ul id="ul_5B17972E7E0C424A833AD540DFF3CBF2"> 
-     <li id="li_05810CEAC8CB4616BB2D52DDDADA84A8">Adicione características a segmentos mapeados a destinos que personalizam a entrega de anúncios com base no histórico de navegação de um visitante na Web. </li> 
-     <li id="li_B2C3479ECEA74F49B9A2CFDDEE128DF3">Mapeie segmentos criados com uma característica da fonte de dados para destinos que personalizam a entrega de anúncios com base no histórico de navegação de um visitante na Web. </li> 
+     <li id="li_05810CEAC8CB4616BB2D52DDDADA84A8">Adicione características a segmentos mapeados a destinos que personalizam o delivery de anúncio com base em um histórico de navegação na Web do visitante. </li> 
+     <li id="li_B2C3479ECEA74F49B9A2CFDDEE128DF3">Mapeie segmentos criados com uma característica da fonte de dados para destinos que personalizam o delivery do anúncio com base em um histórico de navegação na Web do visitante. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -89,8 +93,8 @@ Além disso, pelo menos um rótulo de exportação deve corresponder a um contro
    <td colname="col2"> <b><span class="uicontrol"> Esse destino pode ser usado para direcionamento de anúncios fora do site</span></b> </td> 
    <td colname="col3">Essas restrições são usadas geralmente com Quando selecionadas, não é possível: 
     <ul id="ul_B9352FF5282C481BA3A24C581217A156"> 
-     <li id="li_0F89583A603D4CD8804724954CFD52C6">Adicione características a segmentos mapeados a destinos que redirecionam usuários em outros sites. </li> 
-     <li id="li_ABDD8BEDE9AF411695C7BDF9AE522BA7">Mapeie segmentos criados com uma característica da fonte de dados para destinos que redirecionam usuários em outros sites. </li> 
+     <li id="li_0F89583A603D4CD8804724954CFD52C6">Adicione características a segmentos mapeados a destinos que repúblico alvo usuários em outros sites. </li> 
+     <li id="li_ABDD8BEDE9AF411695C7BDF9AE522BA7">Mapeie segmentos criados com uma característica da fonte de dados para destinos que repúblicos alvos usuários em outros sites. </li> 
     </ul> <p>Muitas vezes é necessário ao trabalhar com dados de plataformas de mídia social. </p> </td> 
   </tr> 
   <tr> 
@@ -99,7 +103,7 @@ Além disso, pelo menos um rótulo de exportação deve corresponder a um contro
    <td colname="col3">Quando selecionado, não é possível: 
     <ul id="ul_3360EB209E07402A863F0E7473B99D3F"> 
      <li id="li_88B3842B67E040EB9DC0BBEB8E5EC251">Adicione características a segmentos mapeados a destinos que personalizam o conteúdo com base em interesses do usuário ou histórico de navegação na Web. </li> 
-     <li id="li_6506254CCE6546039A3D82B60368C8B4">Mapeie segmentos criados com uma característica da fonte de dados para destinos que personalizam o conteúdo com base em interesses do usuário ou histórico de navegação na Web. </li> 
+     <li id="li_6506254CCE6546039A3D82B60368C8B4">Mapeie segmentos criados com uma característica da fonte de dados para destinos que personalizam o conteúdo com base nos interesses do usuário ou no histórico de navegação na Web. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -107,7 +111,7 @@ Além disso, pelo menos um rótulo de exportação deve corresponder a um contro
 
 ## Fluxo de trabalho {#workflow}
 
-Para começar, reveja a fonte de dados e a documentação de destino. Esses artigos fornecem instruções sobre como adicionar controles de exportação e rótulos às suas fontes de dados e destinos.
+Para começar, reveja a fonte de dados e a documentação de destino. Esses artigos fornecem instruções sobre como adicionar controles de exportação e etiquetas às suas fontes de dados e destinos.
 
 * [Criar uma fonte de dados](../features/manage-datasources.md#create-data-source)
 * [Adicionar rótulos de exportação de dados a um destino](../features/destinations/add-data-export-labels.md)
