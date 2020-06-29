@@ -1,12 +1,16 @@
 ---
-description: Métodos que permitem trabalhar programaticamente com a Biblioteca de integração de dados (DIL).
-seo-description: Métodos que permitem trabalhar programaticamente com a Biblioteca de integração de dados (DIL).
+description: Métodos que permitem trabalhar de forma programática com a Biblioteca de integração de dados (DIL).
+seo-description: Métodos que permitem trabalhar de forma programática com a Biblioteca de integração de dados (DIL).
 seo-title: Métodos da API da biblioteca de integração de dados
 solution: Audience Manager
 title: Métodos da API da biblioteca de integração de dados
 uuid: 507e7afd-3ae7-44de-98b0-589d699c453b
+feature: API
 translation-type: tm+mt
-source-git-commit: 5e08861f8bfe88559b089fae00bd14e576f2d0ac
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 4%
 
 ---
 
@@ -17,13 +21,13 @@ Métodos que permitem trabalhar programaticamente com o [!UICONTROL Data Integra
 
 >[!IMPORTANT]
 >
->A API da Biblioteca de integração de dados foi substituída. Essa API foi usada para gerar DIL, que agora você pode baixar automaticamente aqui: Download [DIL](https://github.com/Adobe-Marketing-Cloud/dil/releases).
+>A API da Biblioteca de integração de dados foi substituída. Essa API foi usada para gerar DIL, que agora você pode baixar automaticamente aqui: [Download](https://github.com/Adobe-Marketing-Cloud/dil/releases)DIL.
 
 <!-- c_data_integr_library_api.xml -->
 
 ## Versões de retorno para DIL {#return-version-dil}
 
-Um `GET` método que retorna uma lista de versões ordenadas do mais antigo para o mais recente.
+Um `GET` método que retorna uma lista de versões pedidas do mais antigo para o mais recente.
 
 <!-- r_api_return_versions_dil.xml -->
 
@@ -39,9 +43,9 @@ Uma solicitação bem-sucedida retorna o código de resposta `["4.0", "4.1"]` co
 ["4.0", "4.1"]
 ```
 
-## Retornar esquema JSON para a versão {#return-json-schema-version}
+## Retornar o Schema JSON para a versão {#return-json-schema-version}
 
-Um `GET` método que retorna o [!DNL JSON] esquema para a [!UICONTROL DIL] versão. Suporta o uso de alias [!UICONTROL LATEST] para versão para obter a versão mais recente do [!UICONTROL DIL].
+Um `GET` método que retorna o [!DNL JSON] schema para a [!UICONTROL DIL] versão. Suporta o uso de alias [!UICONTROL LATEST] para versão para obter a versão mais recente do [!UICONTROL DIL].
 
 <!-- r_api_return_json_schema_for_version.xml -->
 
