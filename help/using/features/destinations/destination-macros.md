@@ -5,8 +5,9 @@ seo-title: Macros de destino definidas
 solution: Audience Manager
 title: Macros de destino definidas
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
+feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: da0eb0244fc3ae158fa151727f4253625dcff2c4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 1%
@@ -40,16 +41,16 @@ Ao criar um [!DNL URL] destino, você pode inserir as seguintes macros na [!DNL 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> %did%</code> </p> </td> 
-   <td colname="col2"> <p>Insere a ID do gerente <span class="keyword"> de</span> Audiência do usuário no URL de destino. </p> </td> 
+   <td colname="col2"> <p>Insere a ID de <span class="keyword"> Audience Manager</span> do usuário no URL de destino. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>%dpid_<i>data source id</i>%</code> </p> </td> 
-   <td colname="col2"> <p>A ID <i>da fonte de</i> dados corresponde ao identificador de uma fonte de dados transmitida para a macro. </p> <p>Vejamos como isto funciona num exemplo simples. Nesse caso, temos um parceiro do Gerenciador <span class="keyword"> de</span> Audiências com as seguintes IDs e condições: </p> 
+   <td colname="col2"> <p>A ID <i>da fonte de</i> dados corresponde ao identificador de uma fonte de dados transmitida para a macro. </p> <p>Vejamos como isto funciona num exemplo simples. Nesse caso, temos um parceiro <span class="keyword"> Audience Manager</span> com as seguintes IDs e condições: </p> 
     <ul id="ul_697508B437EB4090B121AFA5D519AFBE"> 
      <li id="li_32D9F72A7D1543A892DC7E1529E98A96">ID da fonte de dados: <code> 1</code> </li> 
      <li id="li_099F5B63D2244B5AADA9B26CB6152E6B">Uma ID interna do cliente: <code> CustomerABC</code> </li> 
      <li id="li_0D9FE501C16444DDB388C8E934E5A8C6">ID declarada: O parceiro deseja transmitir esses valores como a ID declarada <code> 1:CustomerABC</code>. </li> 
-    </ul> <p>Para fazer isso com o <code>%dpid_<i>data source id</i>%</code>, o parceiro do Gerenciador <span class="keyword"> de</span> Audiências formataria a macro da seguinte maneira: </p> 
+    </ul> <p>Para fazer isso com o <code>%dpid_<i>data source id</i>%</code>, o parceiro de <span class="keyword"> Audience Manager</span> formataria a macro desta forma: </p> 
     <ul class="simplelist"> 
      <li> <code> %dpid_1%</code> </li> 
     </ul> <p>A macro será substituída <code> 1</code> por <code> CustomerABC</code>. </p> <p> 
@@ -59,11 +60,11 @@ Ao criar um [!DNL URL] destino, você pode inserir as seguintes macros na [!DNL 
   </tr> 
   <tr>
     <td><p><code>${GDPR}</code></p></td>
-    <td><p>Indica se os regulamentos RGPD se aplicam ao visitante ou não. Use essa macro para incluir o consentimento em segmentos enviados para destinos de URL integrados com o IAB. Consulte Plug-in <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audiência Manager para IAB TCF</a> para obter detalhes.</p></td>
+    <td><p>Indica se os regulamentos RGPD se aplicam ao visitante ou não. Use essa macro para incluir o consentimento em segmentos enviados para destinos de URL integrados com o IAB. Consulte Plug-in <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager para IAB TCF</a> para obter detalhes.</p></td>
   </tr>
    <tr>
     <td><code>${GDPR_CONSENT_XXXX}</code></p></td>
-    <td><p>A sequência de caracteres de consentimento (incluindo a ID de fornecedor IAB) coletada quando os visitantes fornecem ou negam o consentimento em seu site. Use essa macro para incluir a sequência de caracteres de consentimento nos segmentos enviados para destinos de URL integrados com IAB. Substitua <code>XXXX</code> pela ID do parceiro de destino. Consulte Plug-in <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audiência Manager para IAB TCF</a> para obter detalhes. </p></td>
+    <td><p>A sequência de caracteres de consentimento (incluindo a ID de fornecedor IAB) coletada quando os visitantes fornecem ou negam o consentimento em seu site. Use essa macro para incluir a sequência de caracteres de consentimento nos segmentos enviados para destinos de URL integrados com IAB. Substitua <code>XXXX</code> pela ID do parceiro de destino. Consulte Plug-in <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager para IAB TCF</a> para obter detalhes. </p></td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> %http_proto%</code> </p> </td> 
@@ -76,11 +77,11 @@ Ao criar um [!DNL URL] destino, você pode inserir as seguintes macros na [!DNL 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> %mcid%</code> </p> </td> 
-   <td colname="col2"> <p>Insere a <span class="keyword"> Experience Cloud</span> ID no URL de destino. </p> </td> 
+   <td colname="col2"> <p>Insere a ID do <span class="keyword"> Experience Cloud</span> no URL de destino. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> %region%</code> </p> </td> 
-   <td colname="col2"> <p>Insere a região <span class="wintitle"> Data Collection Server (DCS)</span> no URL de destino. Para minimizar a latência, quando o visitante faz uma chamada HTTP para o Gerenciador <span class="keyword"> de</span>Audiências, eles estão sendo redirecionados para o data center DCS <span class="wintitle"></span> mais próximo. Isso é feito por meio do DNS, que é capaz de detectar o local do visitante e direcioná-lo para o data center apropriado. </p> </td> 
+   <td colname="col2"> <p>Insere a região <span class="wintitle"> Data Collection Server (DCS)</span> no URL de destino. Para minimizar a latência, quando o visitante faz uma chamada HTTP para o <span class="keyword"> Audience Manager</span>, eles estão sendo redirecionados para o datacenter <span class="wintitle"> DCS</span> mais próximo. Isso é feito por meio do DNS, que é capaz de detectar o local do visitante e direcioná-lo para o data center apropriado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> %rnd%</code> </p> </td> 
