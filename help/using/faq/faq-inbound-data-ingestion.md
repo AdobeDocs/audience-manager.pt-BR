@@ -6,8 +6,9 @@ seo-title: Perguntas frequentes sobre ingestão de dados do cliente de entrada
 solution: Audience Manager
 title: Perguntas frequentes sobre ingestão de dados do cliente de entrada
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
+feature: Onboarding Offline Data
 translation-type: tm+mt
-source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1355'
 ht-degree: 3%
@@ -52,7 +53,7 @@ Consulte Compactação de [arquivos para arquivos](../integration/sending-audien
 
 >[!WARNING]
 >
->Estamos gradualmente removendo o suporte para configurações FTP. Embora a ingestão de arquivos de dados de entrada ainda seja suportada em integrações FTP existentes, recomendamos o uso do Amazon S3 para dados offline integrados para novas integrações. Consulte Requisitos de nome e tamanho de arquivo do [Amazon S3 para arquivos](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) de dados de entrada para obter detalhes.
+>Estamos gradualmente removendo o suporte para configurações FTP. Embora a ingestão de arquivos de dados de entrada ainda seja suportada em integrações FTP existentes, recomendamos usar o Amazon S3 para dados offline integrados para novas integrações. Consulte Requisitos de nome e tamanho de arquivo do [Amazon S3 para arquivos](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) de dados de entrada para obter detalhes.
 
  
 
@@ -144,7 +145,7 @@ Como prática recomendada, envie um arquivo incremental uma vez por dia para nov
 
  
 
-**Por quanto tempo o Audience Manager mantém meus arquivos no servidor?**
+**Por quanto tempo o Audience Manager guarda meus arquivos no servidor?**
 
 Os arquivos FTP são removidos após serem processados. [!DNL S3] os arquivos são removidos após 30 dias. Os arquivos que não podem ser processados devido a erros de formato, sintaxe ou outros erros são removidos. Consulte também Perguntas frequentes sobre [privacidade e retenção de dados](../faq/faq-privacy.md).
 
