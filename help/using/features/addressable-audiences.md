@@ -7,8 +7,9 @@ solution: Audience Manager
 title: Públicos-alvo endereçáveis
 topic: DIL API
 uuid: 3eb1335a-6949-452b-b77a-697c22856cb3
+feature: Match Rates
 translation-type: tm+mt
-source-git-commit: 620730ab1596d4777a768de4453b73538671279d
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1824'
 ht-degree: 1%
@@ -114,7 +115,7 @@ Essas métricas retornam dados para características realizadas quando visitante
 
 | Métrica | Descrição |
 |---|---|
-| [!UICONTROL Customer Addressable Audience] | Uma contagem de sobreposições de dispositivos que perceberam uma [!UICONTROL rule-based trait] ou uma [!UICONTROL onboarded trait] durante a janela de retrospectiva e os dispositivos com os quais temos uma sincronização de ID com o destino escolhido, independentemente do tempo de sincronização.<br><br>Essa métrica representa dispositivos que:<ul><li>Percebeu um [!UICONTROL rule-based] ou um [!UICONTROL onboarded trait] durante a janela de olhar para trás `AND`</li><li>Ter uma sincronização de ID com o escolhido, [!UICONTROL destination] independentemente do tempo de sincronização.</li></ul> |
+| [!UICONTROL Customer Addressable Audience] | Uma contagem de sobreposições de dispositivos que perceberam uma [!UICONTROL rule-based trait] ou uma [!UICONTROL onboarded trait] durante a janela de retrospectiva e os dispositivos com os quais temos uma sincronização de ID com o destino escolhido, independentemente do tempo de sincronização.<br><br>Essa métrica representa dispositivos que:<ul><li>Percebeu um [!UICONTROL rule-based] ou um [!UICONTROL onboarded trait] durante a janela de retrospectiva `AND`</li><li>Ter uma sincronização de ID com o escolhido, [!UICONTROL destination] independentemente do tempo de sincronização.</li></ul> |
 | [!UICONTROL Customer Total Audience] | Uma contagem de dispositivos que perceberam um erro [!UICONTROL rule-based trait] em suas propriedades ou um erro [!UICONTROL onboarded trait] em seus arquivos offline durante a janela de retrospectiva. |
 | [!UICONTROL Customer Match Rate] | [!UICONTROL Customer Addressable Audience] / [!UICONTROL Customer Total Audience] expresso em percentagem. |
 
