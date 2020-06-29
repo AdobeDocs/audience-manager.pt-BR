@@ -4,8 +4,12 @@ seo-description: Um destino de cookie retorna e grava dados em um cookie no nave
 seo-title: Configurar um destino de cookie
 solution: Audience Manager
 title: Configurar um destino de cookie
+feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: 6e2b5842ad3ca52f7ed0fb72231deb6fa614b70b
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '614'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +24,7 @@ Para criar um novo destino de cookie, vá para **[!UICONTROL Audience Data > Des
 
 ## Informações básicas {#basic-information}
 
-Esta seção contém campos e opções que iniciam o processo de criação de destino do cookie. Para concluir esta seção:
+Esta seção contém campos e opções que start o processo de criação de destino do cookie. Para concluir esta seção:
 
 1. Clique **[!UICONTROL Basic Information]** para expor os controles.
 2. Nomeie o destino. Evite abreviações e caracteres especiais.
@@ -35,7 +39,7 @@ Esta seção contém campos e opções que iniciam o processo de criação de de
 
 ## Rótulos de exportação de dados {#data-export-labels-cookies}
 
-Esta seção contém opções que aplicam controles [de exportação de](../../features/data-export-controls.md) dados a um destino de cookie. Ignore esta etapa se não usar controles de exportação de dados. Para concluir esta seção:
+Esta seção contém opções que aplicam controles [de exportação de](../../features/data-export-controls.md) dados a um destino de cookie. Ignore esta etapa se você não usar controles de exportação de dados. Para concluir esta seção:
 
 1. Clique **[!UICONTROL Data Export Labels]** para expor os controles.
 2. Selecione um rótulo que corresponda ao controle de exportação de dados aplicado ao destino (consulte [Adicionar rótulos de exportação a um destino](/help/using/features/destinations/add-data-export-labels.md) para obter detalhes).
@@ -54,8 +58,8 @@ Para concluir esta seção:
 1. Clique **[!UICONTROL Configuration]** para expor os controles
 1. Dê um nome ao cookie. Evite abreviações e caracteres especiais.
 1. Escolha uma opção de formato de dados. Essas opções permitem escolher os delimitadores e separadores para os pares de valores chave que enviam dados de segmento para um destino. As opções de formato incluem:
-   * **** Chave única: Permite definir a chave em um par de valor chave. Você definirá o valor depois de selecionar um segmento na [!UICONTROL Segment Mappings] seção abaixo.
-   * **** Várias teclas: Permite definir a chave e o valor de um par de valores chave. Você criará o par de valores chave depois de selecionar um segmento na seção Mapeamentos de segmentos abaixo.
+   * **Chave única:** Permite definir a chave em um par de valor chave. Você definirá o valor depois de selecionar um segmento na [!UICONTROL Segment Mappings] seção abaixo.
+   * **Várias teclas:** Permite definir a chave e o valor de um par de valores chave. Você criará o par de valores chave depois de selecionar um segmento na seção Mapeamentos de segmentos abaixo.
 Consulte Pares [](../../features/destinations/key-value-pairs.md) padrão e pares de valores chave seriais para obter mais informações sobre esses elementos de dados.
 1. Clique em **[!UICONTROL Save]**.
 
@@ -66,10 +70,10 @@ Todas as outras configurações são opcionais. Para obter mais informações so
 Esta seção permite que você procure e adicione segmentos ao seu destino. Para concluir esta seção:
 
 1. Clique **[!UICONTROL Segment Mappings]** para expor os controles.
-1. Na **[!UICONTROL Search and Add Segments]** caixa, comece a digitar o nome de um segmento ou clique **[!UICONTROL Browse All Segments]** para navegar em uma lista de segmentos disponíveis.
+1. Na **[!UICONTROL Search and Add Segments]** caixa, start digitando o nome de um segmento ou clique **[!UICONTROL Browse All Segments]** para navegar por uma lista de segmentos disponíveis.
 1. Clique **[!UICONTROL Add Selected Segments]** quando encontrar o segmento que deseja usar. Adicionar um segmento abre a [!UICONTROL Edit Mapping] janela.
 1. Na [!UICONTROL Edit Mapping] caixa de diálogo:
    * **[!UICONTROL Mapping]** permite definir um valor para a chave especificada na seção Configuração acima.
-   * **[!UICONTROL Publish from]** permite definir a data de início e término para o destino. Se a data final estiver em branco, o destino nunca expirará.
+   * **[!UICONTROL Publish from]** permite definir a data de start e de término para o destino. Se a data final estiver em branco, o destino nunca expirará.
 1. Clique em **[!UICONTROL Save]**.
 1. Clique em **[!UICONTROL Done]**.
