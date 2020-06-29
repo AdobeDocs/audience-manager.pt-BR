@@ -3,9 +3,13 @@ description: Audiências preditivas ajudam a classificar audiências desconhecid
 seo-description: Audiências preditivas ajudam a classificar audiências desconhecidas em personas distintas em tempo real, usando a ciência de dados.
 seo-title: Gerenciamento de Audiências preditivas
 solution: Audience Manager
-title: Audiências preditivas do Gerenciador de Audiências
+title: Audiências Audience Manager preditivas
+feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 8259f07c91efa0efd88e8f7c87cb1829ffadd77d
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '464'
+ht-degree: 0%
 
 ---
 
@@ -43,7 +47,7 @@ Depois de saber qual fonte de dados você usará, siga as etapas abaixo.
 
 ## Edição de Audiências preditivas {#edit-predictive-audiences}
 
-O Gerenciador de Audiências não oferece suporte à edição de [!UICONTROL Predictive Audiences] modelos existentes. Para alterar a configuração de um modelo, é necessário criar um novo modelo. Se você atingiu o limite de 10 [!UICONTROL Predictive Audiences] modelos e precisa editar um de seus modelos, é necessário excluir um modelo e criar um novo.
+O Audience Manager não oferece suporte à edição de [!UICONTROL Predictive Audiences] modelos existentes. Para alterar a configuração de um modelo, é necessário criar um novo modelo. Se você atingiu o limite de 10 [!UICONTROL Predictive Audiences] modelos e precisa editar um de seus modelos, é necessário excluir um modelo e criar um novo.
 
 ## Excluindo Audiências preditivas {#delete-predictive-audiences}
 
