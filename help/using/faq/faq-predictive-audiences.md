@@ -3,9 +3,13 @@ description: Audiências preditivas ajudam a classificar audiências desconhecid
 seo-description: Audiências preditivas ajudam a classificar audiências desconhecidas em personas distintas em tempo real, usando a ciência de dados.
 seo-title: Perguntas frequentes sobre Audiências preditivas
 solution: Audience Manager
-title: Audiências preditivas do Gerenciador de Audiências
+title: Audiências Audience Manager preditivas
+feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 8cf504fa811e4043f83d0b9f11754065efccf7bb
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '773'
+ht-degree: 0%
 
 ---
 
