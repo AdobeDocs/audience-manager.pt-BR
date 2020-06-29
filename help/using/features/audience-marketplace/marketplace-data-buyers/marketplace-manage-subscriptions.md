@@ -6,8 +6,9 @@ solution: Audience Manager
 title: Gerenciar Subscrições do Feed de dados
 topic: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
+feature: Audience Marketplace
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '2186'
 ht-degree: 1%
@@ -177,7 +178,7 @@ Em [!UICONTROL Audience Marketplace]geral, os provedores de dados podem revogar 
 
 <!-- marketplace-subscriber-deactivated.xml -->
 
-Pode ser confuso ou até mesmo perturbador se um feed que você assina for desligado. No entanto, os provedores de dados podem desativar um feed de dados por vários motivos. Some common reasons include:
+Pode ser confuso ou até mesmo perturbador se um feed que você assina for desligado. No entanto, os provedores de dados podem desativar um feed de dados por vários motivos. Alguns motivos comuns incluem:
 
 * **Faturamento:** Os provedores de dados desativarão um feed se você estiver sempre atrasado com pagamentos de taxas ou se não pagar suas taxas.
 * **Atualizações de feed:** Os provedores de dados precisam desativar feeds quando atualizam sua taxonomia de feed ou suas estruturas de custo.
