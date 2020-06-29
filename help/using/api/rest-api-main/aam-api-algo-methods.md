@@ -1,13 +1,17 @@
 ---
 description: Métodos que permitem trabalhar programaticamente com recursos de modelagem algorítmica.
-keywords: api de introdução;api de introdução
+keywords: api getting started;get started api
 seo-description: Métodos que permitem trabalhar programaticamente com recursos de modelagem algorítmica.
 seo-title: Métodos de API algorítmicos
 solution: Audience Manager
 title: Métodos de API algorítmicos
 uuid: 8d5304d7-c1cf-42df-94e7-3f583944bd62
+feature: API
 translation-type: tm+mt
-source-git-commit: 0fea73016eeed5d6fb5c8614d543a0a21638b25e
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '65'
+ht-degree: 1%
 
 ---
 
@@ -21,4 +25,4 @@ Métodos que permitem trabalhar programaticamente com recursos de modelagem algo
 >Os métodos de modelos algorítmicos [!DNL API] foram reescritos com [!DNL Swagger] e migrados. Consulte:
 >
 >* [Documentos da API do Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
->* [Migração de código da API do Audience Manager](../../api/api-swagger-migration.md)
+>* [Migração de código da API Audience Manager](../../api/api-swagger-migration.md)
