@@ -4,8 +4,9 @@ seo-description: Este artigo explica como configurar novos destinos baseados em 
 seo-title: Adicionar novos destinos baseados em dispositivo
 solution: Audience Manager
 title: Adicionar novos destinos baseados em dispositivo
+feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 1%
@@ -33,7 +34,7 @@ Ao criar o primeiro destino baseado em dispositivo com uma plataforma integrada,
 
 Antes de criar um novo destino baseado em dispositivo, é necessário configurar a integração entre o Audience Manager e a plataforma de destino. Veja como fazer isso:
 
-1. Log in to your Audience Manager account and go to **[!DNL Administration > Integrated Accounts]**. If you have a previously configured integration with a destination platform, you should see it listed in this page. Caso contrário, a página estará vazia.
+1. Faça logon na sua conta do Audience Manager e vá para **[!DNL Administration > Integrated Accounts]**. Se você tiver uma integração previamente configurada com uma plataforma de destino, deverá vê-la listada nesta página. Caso contrário, a página estará vazia.
 1. Clique em **[!DNL Add Account]**.
 1. Selecione a plataforma de destino com a qual deseja autenticar e clique em **[!DNL Confirm]** para ser redirecionado para a página de autenticação da plataforma selecionada.
 
@@ -62,4 +63,4 @@ Depois de configurar a integração da plataforma de destino, você pode criar o
 1. Escolha os Rótulos [de Exportação de](/help/using/features/data-export-controls.md#controls-labels) Dados que deseja definir para este destino.
 1. Clique em **[!DNL Save]**.
 1. Na **[!DNL Segment Mappings]** seção, selecione os segmentos de audiência que deseja enviar para esse destino.
-1. Save the destination.
+1. Salve o destino.
