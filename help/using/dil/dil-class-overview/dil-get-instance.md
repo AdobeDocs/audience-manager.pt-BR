@@ -6,8 +6,12 @@ seo-title: getDil
 solution: Audience Manager
 title: getDil
 uuid: 7b95f9bf-14c0-4c74-b6b9-d6b38513d487
+feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '73'
+ht-degree: 13%
 
 ---
 
@@ -16,7 +20,7 @@ source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
 
 Recupera uma instância DIL específica do parceiro.
 
-**** Assinatura da função: `getDil: function (partner, containerNSID) {}`
+**Assinatura da função:** `getDil: function (partner, containerNSID) {}`
 
 <!-- r_dil_get_dil.xml -->
 
@@ -25,11 +29,11 @@ Recupera uma instância DIL específica do parceiro.
 | Nome | Tipo | Descrição |
 |---|---|---|
 | `partner` | String   | O nome do parceiro a procurar. |
-| `containerNSID` | Número inteiro | O padrão é `0`. O NSID do contêiner que você está procurando. Opcional. |
+| `containerNSID` | Número inteiro | O padrão é `0`. O NSID do container que você está procurando. Opcional. |
 
 ## Resposta
 
-Uma correspondência NSID de parceiro e contêiner bem-sucedida retorna uma [!UICONTROL DIL] instância específica do parceiro. Se não houver correspondência, a API retornará (não retornará) um erro com a mensagem, " `The DIL instance with partner <name> and containerNSID <ID> was not found.`"
+Uma correspondência NSID de parceiro e container bem-sucedida retorna uma instância específica do parceiro. [!UICONTROL DIL] Se não houver correspondência, a API retornará (não retornará) um erro com a mensagem, &quot; `The DIL instance with partner <name> and containerNSID <ID> was not found.`&quot;
 
 ## Código de exemplo
 
