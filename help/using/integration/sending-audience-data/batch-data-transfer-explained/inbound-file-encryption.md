@@ -5,8 +5,12 @@ seo-title: Criptografia PGP de Arquivo para Tipos de Dados de Entrada
 solution: Audience Manager
 title: Criptografia PGP de Arquivo para Tipos de Dados de Entrada
 uuid: 89caace1-0259-48fc-865b-d525ec7822f7
+feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: b2e0b560a944f2ad63a48476be647f1355712342
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '189'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +27,7 @@ source-git-commit: b2e0b560a944f2ad63a48476be647f1355712342
 >
 >[!DNL PGP] os arquivos de entrada criptografados que também são [compactados](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) são inválidos no Audience Manager.
 
-Siga as etapas descritas abaixo para criptografar arquivos de dados de entrada.
+Siga as etapas descritas abaixo para criptografar os arquivos de dados de entrada.
 
 1. Baixe a chave [pública do](./assets/adobe_pgp.pub)Audience Manager.
 2. Importe a chave pública para a sua loja confiável.
@@ -32,7 +36,7 @@ Siga as etapas descritas abaixo para criptografar arquivos de dados de entrada.
 
    `gpg --import adobe_pgp.pub`
 
-3. Para validar se a chave foi importada corretamente, execute o seguinte comando:
+3. Valide se a chave foi importada corretamente executando o seguinte comando:
 
    `gpg --list-keys`
 
@@ -52,4 +56,4 @@ Siga as etapas descritas abaixo para criptografar arquivos de dados de entrada.
 
    >[!NOTE]
    >
-   >O Audience Manager suporta apenas o algoritmo de criptografia de [!DNL Advanced Encryption Standard (AES)] dados. O Audience Manager suporta qualquer tamanho de chave.
+   >Audience Manager suporta apenas o algoritmo de criptografia de [!DNL Advanced Encryption Standard (AES)] dados. Audience Manager suporta qualquer tamanho de chave.
