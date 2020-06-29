@@ -1,17 +1,21 @@
 ---
-description: Recomendações e casos de uso para redefinição de metas de segmentos e qualificação de segmentos personalizados com o gráfico de dispositivo Link de perfil.
-seo-description: Recomendações e casos de uso para redefinição de metas de segmentos e qualificação de segmentos personalizados com o gráfico de dispositivo Link de perfil.
-seo-title: Casos de uso do gráfico de dispositivo de link de perfil
+description: Recomendações e casos de uso para redefinição de metas de segmentos e qualificação de segmentos personalizados com o gráfico de dispositivo Link de Perfil.
+seo-description: Recomendações e casos de uso para redefinição de metas de segmentos e qualificação de segmentos personalizados com o gráfico de dispositivo Link de Perfil.
+seo-title: Casos de uso do gráfico de dispositivo de link de Perfil
 solution: Audience Manager
-title: Casos de uso do gráfico de dispositivo de link de perfil
-uuid: bd5567fd-fcd5-40ba-b6f1-035d2dbcd3a
+title: Casos de uso do gráfico de dispositivo de link de Perfil
+uuid: bd5567fd-fcd5-40ba-b6f1-035d2ddbcd3a
+feature: Profile Merge Rules
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '325'
+ht-degree: 1%
 
 ---
 
 
-# Casos de uso do gráfico de dispositivo de link de perfil {#profile-link-device-graph-use-cases}
+# Casos de uso do gráfico de dispositivo de link de Perfil {#profile-link-device-graph-use-cases}
 
 Recomendações e casos de uso para o redirecionamento de segmentos e qualificação de segmentos personalizados com o [!UICONTROL Profile Link Device Graph].
 
@@ -20,8 +24,8 @@ Recomendações e casos de uso para o redirecionamento de segmentos e qualifica�
 Considere o gráfico do [!UICONTROL Profile Link] dispositivo para campanhas que:
 
 * Tenha um alto nível de autenticação em suas propriedades digitais. Use uma opção [de gráfico de dispositivo](merge-rule-definitions.md#device-options) externo se você tiver uma pequena quantidade de usuários autenticados.
-* Exigir direcionamento preciso de públicos conhecidos. O [!UICONTROL Profile Link Device Graph] é criado usando dados autenticados originais.
-* Direcione públicos conhecidos em seus estados autenticados e não autenticados em tempo real.
+* Exigir direcionamento preciso de audiências conhecidas. O [!UICONTROL Profile Link Device Graph] é criado usando dados autenticados originais.
+* Público alvo audiências conhecidas em seus estados autenticados e não autenticados em tempo real.
 
 ![](assets/merge-rule-triangle2.png)
 
@@ -33,11 +37,11 @@ Vamos dizer que John é dono de três dispositivos que ele usa regularmente para
 * Ele usa seu smartphone para procurar hotéis.
 * Ele usa seu tablet para procurar tours guiados.
 
-Mesmo se o John não for autenticado em todos os três dispositivos mencionados acima, usando a regra **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]** , um provedor de pacotes de feriados poderá associar esses dispositivos ao perfil autenticado do John, supondo que ele foi a última pessoa a autenticar em todos os três dispositivos.
+Mesmo se o John não for autenticado em todos os três dispositivos mencionados acima, usando a regra **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]** , um provedor de pacotes de feriados poderá associar esses dispositivos ao perfil autenticado do John, assumindo que ele foi a última pessoa a autenticar em todos os três dispositivos.
 
 ![último dispositivo-gráfico](assets/last-device-graph.png)
 
-Como o Audience Manager qualifica cada perfil de dispositivo que participou da mesclagem de perfil para um segmento, todos os três perfis de dispositivo são segmentados. O [!UICONTROL Profile Link Device Graph] permite que o Audience Manager examine o comportamento em todos os três dispositivos e qualifice todos os dispositivos para um segmento que nenhum perfil de dispositivo individual se qualifica sozinho.
+Como o Audience Manager qualifica cada perfil de dispositivo que participou da mesclagem de perfil para um segmento, todos os três perfis de dispositivo são segmentados. O [!UICONTROL Profile Link Device Graph] permite que a Audience Manager examine o comportamento em todos os três dispositivos e qualifice cada dispositivo para um segmento que nenhum perfil de dispositivo se qualifica sozinho.
 
 Isso [!UICONTROL Profile Merge Rule] permite que os profissionais de marketing ofereçam uma experiência consistente a todos os dispositivos pertencentes a uma pessoa, com base na atividade do usuário em vez da atividade individual do dispositivo.
 
@@ -46,6 +50,6 @@ Isso [!UICONTROL Profile Merge Rule] permite que os profissionais de marketing o
 >[!MORELIKETHIS]
 >
 >* [Casos de uso do gráfico do dispositivo externo](external-graph-use-cases.md)
->* [Casos de uso gerais para regras de mesclagem de perfil](merge-rule-targeting-options.md)
->* [Perguntas frequentes sobre as regras de mesclagem de perfil](../../faq/faq-profile-merge.md)
+>* [Casos de uso gerais para regras de mesclagem de Perfis](merge-rule-targeting-options.md)
+>* [Perguntas frequentes sobre as regras de mesclagem de Perfis](../../faq/faq-profile-merge.md)
 
