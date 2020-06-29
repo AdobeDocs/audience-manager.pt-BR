@@ -5,8 +5,12 @@ seo-title: Explicação do tempo de vida do segmento e da característica
 solution: Audience Manager
 title: Explicação do tempo de segmento ao vivo
 uuid: 5b2c6911-50b9-4b68-9dd4-21128d112eab
+feature: Traits
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '369'
+ht-degree: 0%
 
 ---
 
@@ -19,13 +23,13 @@ Como o intervalo de características [!UICONTROL time-to-live] ([!DNL TTL]) afet
 
 ## Tempo de vida
 
-[!DNL TTL] define quanto tempo um visitante do site permanece em um segmento após o último evento de qualificação de característica. [!DNL TTL] é definida em características e não em segmentos. Os visitantes saem de um segmento se não se qualificarem para uma característica antes do final do [!DNL TTL] intervalo. O padrão [!DNL TTL] para novas características é 120 dias. Quando definido como 0 dias, a característica nunca expira. [Defina o valor](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval) TTL ao criar ou editar uma característica na [!UICONTROL Advanced Options] seção da interface de criação de característica.
+[!DNL TTL] define quanto tempo um visitante do site permanece em um segmento após o último evento de qualificação de característica. [!DNL TTL] é definida em características e não em segmentos. Os Visitantes saem de um segmento se não se qualificarem para uma característica antes do final do [!DNL TTL] intervalo. O padrão [!DNL TTL] para novas características é 120 dias. Quando definido como 0 dias, a característica nunca expira. [Defina o valor](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval) TTL ao criar ou editar uma característica na [!UICONTROL Advanced Options] seção da interface de criação de característica.
 
 ### Explicação do TTL de 1 dia
 
-Ao definir o [!DNL TTL] como 1 dia, o temporizador TTL começará no dia seguinte após a realização do traço, sem contar as horas restantes no dia de realização do traço.
+Ao definir [!DNL TTL] como 1 dia, o temporizador TTL start no dia seguinte após a realização do traço, sem contar as horas restantes no dia de realização do traço.
 
-O Audience Manager calcula a [!DNL TTL] expiração de características com 1 dia [!DNL TTL] com base na seguinte fórmula:
+Audience Manager calcula a [!DNL TTL] expiração de características com 1 dia [!DNL TTL] com base na seguinte fórmula:
 
 `24 + (24 - Hour of the day the trait was realized, in UTC)`
 
