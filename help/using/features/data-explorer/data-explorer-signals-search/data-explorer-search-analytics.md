@@ -1,18 +1,22 @@
 ---
-description: Os clientes do Audience Manager que também usam o Adobe Analytics podem aproveitar a estreita integração entre as duas soluções ao habilitar a opção Pesquisa avançada para o Adobe Analytics.
-seo-description: Os clientes do Audience Manager que também usam o Adobe Analytics podem aproveitar a estreita integração entre as duas soluções ao habilitar a opção Pesquisa avançada para o Adobe Analytics.
-seo-title: Pesquisa avançada para o Adobe Analytics
-title: Pesquisa avançada para o Adobe Analytics
+description: Os clientes do Audience Manager que também usam o Adobe Analytics podem aproveitar a integração estreita entre as duas soluções, habilitando a opção Pesquisa avançada para Adobe Analytics.
+seo-description: Os clientes do Audience Manager que também usam o Adobe Analytics podem aproveitar a integração estreita entre as duas soluções, habilitando a opção Pesquisa avançada para Adobe Analytics.
+seo-title: Pesquisa avançada para Adobe Analytics
+title: Pesquisa avançada para Adobe Analytics
 uuid: 20177820-10e1-49d9-bb2c-3a62141a498e
+feature: Data Explorer
 translation-type: tm+mt
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '240'
+ht-degree: 0%
 
 ---
 
 
-# Pesquisa avançada para o Adobe Analytics {#advanced-search-for-adobe-analytics}
+# Pesquisa avançada para Adobe Analytics {#advanced-search-for-adobe-analytics}
 
-Os clientes do Audience Manager que também usam [!DNL Adobe Analytics] podem aproveitar a estreita integração entre as duas soluções ao habilitar a [!UICONTROL Advanced Search for Adobe Analytics] opção.
+Os clientes do Audience Manager que também usam [!DNL Adobe Analytics] podem aproveitar a integração estreita entre as duas soluções, habilitando a [!UICONTROL Advanced Search for Adobe Analytics] opção.
 
 Essa integração permite que você veja os nomes amigáveis para pares de valores chave derivados de conjuntos de [!DNL Adobe Analytics] relatórios. Veja como fazer isso:
 
@@ -28,4 +32,4 @@ Essa integração permite que você veja os nomes amigáveis para pares de valor
 
 O vídeo abaixo mostra como usar [!UICONTROL Data Explorer] para descobrir e usar seus dados do Adobe Analytics, incluindo a pesquisa por sinais usados e não utilizados, a criação de características do Analytics e a compreensão dos dados.
 
->[!VIDEO](https://video.tv.adobe.com/v/25150?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/25150)
