@@ -5,8 +5,12 @@ seo-title: Perguntas frequentes sobre o Feed de dados do cliente
 solution: Audience Manager
 title: Perguntas frequentes sobre o Feed de dados do cliente
 uuid: 7183b3e2-e999-4e1e-892f-2bab335c13b6
+feature: Customer Data Feeds
 translation-type: tm+mt
-source-git-commit: 7018705c130bf7c65f3a69da5e4bd9e0666423bc
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 0%
 
 ---
 
@@ -23,13 +27,13 @@ Seu arquivo CDF é armazenado no diretório `aam-cdf` raiz em um [!DNL Amazon S3
 
 <br> 
 
-**Meu balde de armazenamento está seguro?**
+**O meu balde de armazenamento está seguro?**
 
-Sim. Os clientes obtêm acesso somente ao seu próprio espaço de armazenamento. Você terá acesso somente leitura ao seu compartimento de armazenamento. Você não terá acesso de gravação.
+Sim. Os clientes têm acesso apenas ao seu próprio espaço de armazenamento. Você terá acesso somente leitura ao seu armazenamento bucket. Você não terá acesso de gravação.
 
 <br> 
 
-**É possível personalizar meu bucket de armazenamento ou armazenar arquivos em outro diretório?**
+**É possível personalizar meu bucket de armazenamentos ou armazenar arquivos em outro diretório?**
 
 Não. As opções de personalização e armazenamento alternativo não estão disponíveis.
 
