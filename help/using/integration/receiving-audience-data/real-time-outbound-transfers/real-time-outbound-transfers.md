@@ -5,8 +5,9 @@ seo-title: Transferências de dados de saída em tempo real
 solution: Audience Manager
 title: Transferências de dados de saída em tempo real
 uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
+feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 4%
@@ -30,7 +31,7 @@ Para usar esse método, a plataforma de destino deve atender aos seguintes requi
 
 ## Frequência
 
-Esse método de transferência de dados pode enviar dados em tempo quase real, à medida que os usuários se qualificam para segmentos. As mensagens em tempo real só são entregues enquanto o usuário estiver online e ativamente visível à rede Audience Manager Edge. Como opção, esse método também pode enviar lotes de dados offline ou integrados com a mesma frequência a cada 24 horas.
+Esse método de transferência de dados pode enviar dados em tempo quase real, à medida que os usuários se qualificam para segmentos. As mensagens em tempo real só são entregues enquanto o usuário estiver on-line e ativamente visível à rede Audience Manager Edge. Como opção, esse método também pode enviar lotes de dados offline ou integrados com a mesma frequência a cada 24 horas.
 
 ## Transferências em lote
 
