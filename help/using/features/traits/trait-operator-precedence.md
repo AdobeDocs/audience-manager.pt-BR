@@ -5,8 +5,12 @@ seo-title: Ordem de operações no Construtor de características
 solution: Audience Manager
 title: Ordem de operações no Construtor de características
 uuid: df325047-af62-45ad-9ca1-046bfcbe5341
+feature: Traits
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '207'
+ht-degree: 3%
 
 ---
 
@@ -29,7 +33,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
   <tr> 
    <td colname="col1"> Parêntese </td> 
    <td colname="col2"> ( ) </td> 
-   <td colname="col3"> As expressões entre parênteses são sempre avaliadas primeiro e seguem a ordem de precedência. </td> 
+   <td colname="col3"> As Expressões entre parênteses são sempre avaliadas primeiro e seguem a ordem de precedência. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Operadores de comparação </td> 
@@ -56,6 +60,6 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 >[!MORELIKETHIS]
 >
->* [Trabalhar com expressões booleanas (AND, OR, NOT) no TraitBuilder](../../reference/boolean-expressions-tsb.md)
+>* [Trabalhar com Expressões booleanas (AND, OR, NOT) no TraitBuilder](../../reference/boolean-expressions-tsb.md)
 >* [Trabalhar com operadores de comparação no TraitBuilder](../../features/traits/trait-comparison-operators.md)
 
