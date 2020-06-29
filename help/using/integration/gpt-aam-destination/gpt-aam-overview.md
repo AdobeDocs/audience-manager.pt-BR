@@ -1,17 +1,21 @@
 ---
 description: Visão geral de como integrar o DFP usando o Google Publisher Tags (GPT).
-seo-description: Visão geral de como integrar o DFP usando Google Publisher Tags (GPT) no Adobe Audience Manager (AAM).
-seo-title: Integre o DFP usando tags do Google Publisher (GPT) no Adobe Audience Manager (AAM)
+seo-description: Visão geral de como integrar o DFP usando o Google Publisher Tags (GPT) no Adobe Audience Manager (AAM).
+seo-title: Integrar o DFP usando as Tags do Google Publisher (GPT) no Adobe Audience Manager (AAM)
 title: Integrar o DFP usando as tags do Google Publisher (GPT)
+feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: a1960a65058622c198bb07d7c20c1e21e2eaf00a
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 5%
 
 ---
 
 
 # Integrar o DFP usando as tags do Google Publisher (GPT)
 
-Os artigos listados abaixo fornecem uma visão geral de como integrar o DFP usando o Google Publisher Tags (GPT). Você pode usar uma integração do lado do servidor ou configurar o GPT como destino para enviar dados de segmento do Audience Manager para o DFP. Você também aprenderá as etapas necessárias para assimilar arquivos de registro DFP para relatórios no Audience Manager.
+Os artigos listados abaixo fornecem uma visão geral de como integrar o DFP usando o Google Publisher Tags (GPT). Você pode usar uma integração do lado do servidor ou configurar o GPT como destino para enviar dados de segmento de Audience Manager para o DFP. Você também aprenderá as etapas necessárias para assimilar arquivos de registro DFP para relatórios no Audience Manager.
 
 * [Requisitos e métodos de envio de segmentos para DFP usando Google Publisher Tags (GPT)](/help/using/integration/gpt-aam-destination/gpt-aam-requirements.md)
 
@@ -23,8 +27,8 @@ Os artigos listados abaixo fornecem uma visão geral de como integrar o DFP usan
 
 * [Modificar a chamada da API setTargeting GPT](/help/using/integration/gpt-aam-destination/gpt-aam-modify-api.md)
 
-   Adicione uma declaração if para verificar os cookies do Audience Manager antes de chamar o método Google Publisher Tag .setTargeting.
+   Adicione uma declaração if para verificar cookies de Audience Manager antes de chamar o método Google Publisher Tag .setTargeting.
 
-* [Código do Audience Manager para tags do Google Publisher](/help/using/integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
+* [Código de Audience Manager para tags do Google Publisher](/help/using/integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
 
-   O AamGpt é uma função JavaScript que lê os dados de cookies do Audience Manager e envia essas informações para as Tags do Google Publisher.
+   O AamGpt é uma função JavaScript que lê dados de cookies de Audience Manager e envia essas informações para as Tags do Google Publisher.
