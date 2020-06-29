@@ -5,8 +5,12 @@ seo-title: Mapear segmentos para um destino
 solution: Audience Manager
 title: Mapear segmentos para um destino
 uuid: 35358ace-3082-4e86-a6eb-d77281af6d7e
+feature: API
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '508'
+ht-degree: 8%
 
 ---
 
@@ -218,7 +222,7 @@ Na solicitação, a chave `traitAlias` e `valueAlias` o valor são definidos, re
 
 ## Mapeie um segmento para um destino de cookie: Multi-Key, Serializado {#map-segment-cookie-multi-serial}
 
-Um `POST` método que permite que você mapeie um segmento para uma série multichave [!UICONTROL cookie destination].
+Um `POST` método que permite que você mapeie um segmento para uma série de várias teclas [!UICONTROL cookie destination].
 
 <!-- r_map_cookie_multikey_serialized.xml -->
 
@@ -312,7 +316,7 @@ Na solicitação, o `traitAlias` corresponde à chave em um par de valor chave. 
 
 ## Criar Mapeamentos de Destino em Massa {#bulk-create}
 
-Um `POST` método que permite que você passe em uma matriz de mapeamentos de destino [!UICONTROL cookie] ou [!UICONTROL URL] .
+A `POST` method that lets you pass in an array of [!UICONTROL cookie] or [!UICONTROL URL] destination mappings.
 
 <!-- r_bulk_create.xml -->
 
@@ -343,7 +347,7 @@ Todos os valores de solicitação são obrigatórios, a menos que seja indicado 
 
 ### Resposta
 
-Uma resposta bem-sucedida retorna a matriz de mapeamentos criados.
+A successful response returns the array of created mappings.
 
 ```
 [
@@ -394,9 +398,9 @@ Uma resposta bem-sucedida retorna a matriz de mapeamentos criados.
 ]
 ```
 
-## Adicionar vários segmentos a um destino {#add-segments-dest}
+## Add Multiple Segments to a Destination {#add-segments-dest}
 
-Um `POST` método que permite mapear vários segmentos para um destino.
+A `POST` method that lets you map multiple segments to a destination.
 
 <!-- r_add_segments_to_destination.xml -->
 
@@ -406,7 +410,7 @@ Um `POST` método que permite mapear vários segmentos para um destino.
 
 ### Solicitação de exemplo
 
-Crie vários mapeamentos de destino em uma matriz. Todos os valores de solicitação são obrigatórios, a menos que seja indicado o contrário.
+Create multiple destination mappings in an array. Todos os valores de solicitação são obrigatórios, a menos que seja indicado o contrário.
 
 ```
 [
@@ -427,7 +431,7 @@ Crie vários mapeamentos de destino em uma matriz. Todos os valores de solicita�
 
 ### Resposta
 
-Retorna uma matriz de mapeamentos criados.
+Returns an array of created mappings.
 
 ```
 [
@@ -478,7 +482,7 @@ Retorna uma matriz de mapeamentos criados.
 ]
 ```
 
-## Atualizar uma ID de destino por destino {#update-dest-data-order}
+## Update a Destination by Destination ID {#update-dest-data-order}
 
 Um `PUT` método que permite atualizar um destino existente por `destinationId`.
 
