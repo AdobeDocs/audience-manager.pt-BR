@@ -4,8 +4,9 @@ seo-description: Antes de enviar dados em lote para provedores de conteúdo de t
 seo-title: Configurar integração de dados em lote
 solution: Audience Manager
 title: Configurar integração de transferência de dados em lote
+feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 1b31f10effa2780b5e4374516dd6c76d92a0123a
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 0%
