@@ -5,8 +5,12 @@ seo-title: Macros de modelo de saída
 solution: Audience Manager
 title: Macros de modelo de saída
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
+feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 94984d14be6febf4de3ee3e0e79fba432e1cb15f
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '719'
+ht-degree: 3%
 
 ---
 
@@ -29,7 +33,7 @@ A tabela lista e descreve as macros que podem ser usadas no nome do arquivo e pa
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> ASCII_SOH </code> </p> </td> 
-   <td colname="col2"> <p>Um caractere ASCII não imprimível. Indica o início de uma linha ou de uma seção de conteúdo. Também pode ser usado para separar colunas de dados em um arquivo. </p> </td> 
+   <td colname="col2"> <p>Um caractere ASCII não imprimível. Indica o start de uma linha ou de uma seção de conteúdo. Também pode ser usado para separar colunas de dados em um arquivo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DPID </code> </p> </td> 
@@ -56,7 +60,7 @@ A tabela lista e descreve as macros que podem ser usadas no nome do arquivo e pa
    <td colname="col2"> <p>Indica a divisão de arquivos de saída em várias partes. Substitua a seção SPLITNUM no nome do arquivo pelo número de peça precedido de zeros, garantindo no mínimo três caracteres para a seção SPLITNUM.</p>
    <p>A macro SPLITNUM não precisa ser cercada por caracteres &lt;&gt;.</p><p>Exemplo: <code>&lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;SPLITNUM.csv</code>
 <p>s3_123456_9999_full_1566906141001.csv</p> 
-<p>s3_123456_999_full_1566906141002.csv</p> 
+<p>s3_123456_9999_full_1566906141002.csv</p> 
 <p>s3_123456_999_full_1566906141003.csv</p> 
 <p>Os três últimos dígitos (001.002.003) nos exemplos acima são os identificadores SPLITNUM.</p> </td> 
   </tr> 
