@@ -1,20 +1,24 @@
 ---
-description: Gere um relatório de faturamento do Audience Marketplace para exibir o uso do feed de dados do mês anterior para cada um dos assinantes. Você pode criar um relatório para o mês anterior a qualquer momento. No entanto, o relatório é mais preciso quando você o gera no dia 10 do mês atual ou após ele.
-seo-description: Gere um relatório de faturamento do Audience Marketplace para exibir o uso do feed de dados do mês anterior para cada um dos assinantes. Você pode criar um relatório para o mês anterior a qualquer momento. No entanto, o relatório é mais preciso quando você o gera no dia 10 do mês atual ou após ele.
+description: Gere um relatório de faturamento de Audience Marketplace para a utilização do feed de dados de visualização para o mês anterior para cada um dos seus assinantes. Você pode criar um relatório para o mês anterior a qualquer momento. No entanto, o relatório é mais preciso quando você o gera no dia 10 do mês atual ou após ele.
+seo-description: Gere um relatório de faturamento de Audience Marketplace para a utilização do feed de dados de visualização para o mês anterior para cada um dos seus assinantes. Você pode criar um relatório para o mês anterior a qualquer momento. No entanto, o relatório é mais preciso quando você o gera no dia 10 do mês atual ou após ele.
 seo-title: Faturamento para provedores de feeds de dados
 solution: Audience Manager
 title: Faturamento para provedores de feeds de dados
-topic: API DIL
+topic: DIL API
 uuid: 4e11dbd2-91fd-4b59-a66d-86a92e0de655
+feature: Audience Marketplace
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '453'
+ht-degree: 2%
 
 ---
 
 
 # Faturamento para provedores de feeds de dados {#billing-for-data-feed-providers}
 
-Gere um relatório de [!DNL Audience Marketplace] faturamento para exibir o uso do feed de dados do mês anterior para cada um de seus assinantes. Você pode criar um relatório para o mês anterior a qualquer momento. No entanto, o relatório é mais preciso quando você o gera no dia 10 do mês atual ou após ele.
+Gere um relatório de [!DNL Audience Marketplace] faturamento para a utilização do feed de dados de visualização para o mês anterior para cada um dos seus assinantes. Você pode criar um relatório para o mês anterior a qualquer momento. No entanto, o relatório é mais preciso quando você o gera no dia 10 do mês atual ou após ele.
 
 ## Download de um Relatório de cobrança {#download-billing-report}
 
@@ -49,7 +53,7 @@ Um relatório de cobrança contém as seguintes informações.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Nome do comprador</span></b> </p> </td> 
-   <td colname="col2"> <p>O nome da empresa ou organização do comprador. </p> </td> 
+   <td colname="col2"> <p>A empresa do comprador ou o nome da organização. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> ID do feed</span></b> </p> </td> 
@@ -73,12 +77,12 @@ Um relatório de cobrança contém as seguintes informações.
    <td colname="col2"> <p>Indica cobranças de CPM ou de taxa fixa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> Preço de lista</span></b> </p> </td> 
-   <td colname="col2"> <p>A taxa de assinatura para cada feed de dados. </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Preço Lista</span></b> </p> </td> 
+   <td colname="col2"> <p>A taxa de subscrição para cada feed de dados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Preço Descontado</span></b> </p> </td> 
-   <td colname="col2"> <p>A taxa de assinatura para um feed de dados com desconto. Consulte <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts"> Descontos para provedores</a>de dados. </p> </td> 
+   <td colname="col2"> <p>A taxa de subscrição para um feed de dados com desconto. Consulte <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts"> Descontos para provedores</a>de dados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Unidades</span></b> </p> </td> 
@@ -90,7 +94,7 @@ Um relatório de cobrança contém as seguintes informações.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Custo total</span></b> </p> </td> 
-   <td colname="col2"> <p>A quantia <span class="keyword"> que o Audience Manager</span> cobra de um comprador. </p> </td> 
+   <td colname="col2"> <p>A quantia <span class="keyword"> de Audience Manager</span> paga um comprador. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Período de Faturamento</span></b> </p> </td> 
@@ -98,15 +102,15 @@ Um relatório de cobrança contém as seguintes informações.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Data de entrada</span></b> </p> </td> 
-   <td colname="col2"> <p>A data em que um comprador inseriu informações de assinatura/uso. </p> </td> 
+   <td colname="col2"> <p>A data em que um comprador inseriu informações de subscrição/uso. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> Data de início da assinatura</span></b> </p> </td> 
-   <td colname="col2"> <p>A data em que um comprador iniciou sua assinatura de feed de dados. </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Data do Start da Subscrição</span></b> </p> </td> 
+   <td colname="col2"> <p>A data em que um comprador iniciou sua subscrição de feed de dados. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> Data Final da Assinatura</span></b> </p> </td> 
-   <td colname="col2"> <p>A data em que um comprador encerrou sua assinatura de feed de dados. </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Data final da Subscrição</span></b> </p> </td> 
+   <td colname="col2"> <p>A data em que um comprador terminou sua subscrição de feed de dados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Sinalizador</span></b> </p> </td> 
