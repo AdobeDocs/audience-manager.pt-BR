@@ -5,8 +5,9 @@ seo-title: Perguntas frequentes de geração de relatórios
 solution: Audience Manager
 title: Perguntas frequentes de geração de relatórios
 uuid: 78cd6c86-8a4a-4748-ab71-b6e8d6078c94
+feature: Reporting
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '702'
 ht-degree: 1%
@@ -49,7 +50,7 @@ Anexe uma sequência de query específica da campanha ao URL da seção do site 
 
 <br> 
 
-**Qual é a diferença entre a contagem de população de segmentos em tempo real e total?**
+**What is the difference between real-time and total segment population counts?**
 
 * **Tempo real:** O número de usuários únicos que fazem parte do segmento e estão ativos em suas propriedades durante um período de tempo definido (isto é, [!DNL Audience Manager] devem ter registrado a atividade desse usuário durante o período de tempo específico).
 
@@ -81,17 +82,17 @@ See [Trait and Segment Population Data in Segment Builder](../features/segments/
 
  -->
 
-**I Inbound a file (Entrada de um arquivo) e o recibo de entrada mostra um número alto de registros processados com êxito, mas o relatórios mostra números muito menores. Por quê?**
+**I Inbound a file and my Inbound receipt shows a high number of successfully processed records, but reporting shows much lower numbers. Por quê?**
 
-No backend, os dados integrados são anexados somente aos usuários que ainda estão ativos no AAM (o usuário deve ter tido [!DNL DCS] atividade recente nos últimos 120 dias). Portanto, se os dados a bordo de usuários que já expiraram em [!DNL Audience Manager], [!UICONTROL Inbound] talvez informem que um determinado número de registros de usuários foram integrados, mas se esses usuários não tiverem tido nenhuma atividade recente, esses dados serão ignorados quando chegarem em nosso [!UICONTROL User Profile Store] relatórios.
+In the backend, onboarded data gets attached only to users that are still active in AAM (user must have had recent [!DNL DCS] activity in the past 120 days). Therefore, if you onboard data for users that have already expired in [!DNL Audience Manager], [!UICONTROL Inbound] might tell you that a certain number of user records were onboarded, but if these users have not had any recent activity, this data is dropped when it reaches our [!UICONTROL User Profile Store] and reporting will surface that.
 
 <br> 
 
-**Por que os únicos traços para meus traços integrados entre dispositivos são muito mais altos do que o número total de registros integrados?**
+**Why are the trait uniques for my cross-device onboarded traits much higher than the total number of onboarded records?**
 
 Se você estiver integrado em um arquivo para um provedor de dados entre dispositivos que ignorou a ID do cliente, o Audience Manager realizará uma pesquisa para obter todas as IDs de dispositivo associadas a cada uma das IDs de cliente integradas. Audience Manager, então, atribui as características integradas à ID do dispositivo associada à ID do cliente.
 
-Por exemplo, suponha que você tenha integrado 100 registros. Para cada uma dessas IDs de cliente, em média, o AAM associou três IDs de dispositivo. Como resultado, a característica integrada é atribuída a 300 IDs de dispositivo.
+Por exemplo, suponha que você tenha integrado 100 registros. For each of these customer IDs, on average, AAM has associated three device IDs. Como resultado, a característica integrada é atribuída a 300 IDs de dispositivo.
 
 Há dois motivos pelos quais uma única ID de cliente entre dispositivos pode ser associada a várias IDs de dispositivo:
 
