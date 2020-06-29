@@ -5,8 +5,9 @@ seo-title: Introdução às regras de mesclagem de Perfis
 solution: Audience Manager
 title: Introdução às regras de mesclagem de Perfis
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
+feature: Profile Merge Rules
 translation-type: tm+mt
-source-git-commit: 56a9626b1fa77926bdc31ef72b058d2aa9b58f43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 1%
@@ -54,7 +55,7 @@ Para concluir a [!UICONTROL Data Source Details] seção:
 
 * **[!UICONTROL Use as a Device Graph]**: Esse controle está disponível somente para contas listadas como um provedor de dados. Marcar essa caixa de seleção cria sua fonte de dados como um gráfico de dispositivo e permite que você compartilhe-o com outros [!DNL Audience Manager] clientes. Entre em contato com seu [!DNL Audience Manager] consultor para configurar como um provedor de dados e especificar com quais clientes isso [!UICONTROL Data Source] deve ser compartilhado. Seu consultor fornecerá seu compartilhamento de gráficos de conta e dispositivo por meio de um processo de provisionamento interno.
 
-* **[!UICONTROL Data retention for inactive Customer IDs]**: Esse controle permite que você defina o período de retenção de dados para IDs de cliente inativas. Isso determina por quanto tempo o Gerenciador de Audiências mantém as IDs do cliente em nosso banco de dados após serem vistas pela última vez na plataforma do Gerenciador de Audiências. O valor padrão é 24 meses (720 dias). O valor mínimo que você pode definir é 1 mês e o valor máximo é 5 anos. Observe que todos os meses são contados como 30 dias. O Gerenciador de Audiências executa um processo que exclui IDs de clientes inativas uma vez por semana, de acordo com a retenção de dados definida para IDs de clientes inativas.
+* **[!UICONTROL Data retention for inactive Customer IDs]**: Esse controle permite que você defina o período de retenção de dados para IDs de cliente inativas. Isso determina por quanto tempo a Audience Manager mantém as IDs do cliente em nosso banco de dados após serem vistas pela última vez na plataforma do Audience Manager. O valor padrão é 24 meses (720 dias). O valor mínimo que você pode definir é 1 mês e o valor máximo é 5 anos. Observe que todos os meses são contados como 30 dias. O Audience Manager executa um processo que exclui IDs de clientes inativas uma vez por semana, de acordo com a retenção de dados definida para IDs de clientes inativas.
 
 Os campos de texto associados a essas configurações permitem renomear o [!UICONTROL Data Source] com um alias que aparece nas opções [de Regra de mesclagem de](merge-rule-definitions.md)Perfis. Por exemplo, se você adicionar um alias a **[!UICONTROL Use as Authenticated Profile]**, esse nome será exibido na [!UICONTROL Authenticated Profile Options] lista. Se você adicionar um alias a **[!UICONTROL Use as a Device Graph]**, esse nome será exibido na [!UICONTROL Device Options] lista.
 
@@ -104,9 +105,9 @@ Para concluir a [!UICONTROL Proflie Merge Rule Setup] seção:
 
 ### Considerações para destinos de Adobe Campaign usando IDs entre dispositivos como chaves de ID de usuário {#considerations}
 
-No final de 2019, lançamos uma série de melhorias nas Regras de mesclagem de Perfis para melhorar a precisão dos arquivos em lote gerados com IDs de vários dispositivos. Esses aprimoramentos serão rigorosamente respeitados em sua instância do Audiência Manager a partir de segunda-feira, 16 de março de 2020. Consequentemente, os segmentos mapeados para um destino usando IDs entre dispositivos pararão de produzir exportações em algumas configurações de Regras de mesclagem de Perfis.
+No final de 2019, lançamos uma série de melhorias nas Regras de mesclagem de Perfis para melhorar a precisão dos arquivos em lote gerados com IDs de vários dispositivos. Esses aprimoramentos serão rigorosamente respeitados em sua instância do Audience Manager a partir de segunda-feira, 16 de março de 2020. Consequentemente, os segmentos mapeados para um destino usando IDs entre dispositivos pararão de produzir exportações em algumas configurações de Regras de mesclagem de Perfis.
 
-Para garantir a integração correta entre a instância do Gerenciador de Audiências e os destinos usando IDs de vários dispositivos, como o Adobe Campaign, verifique se você atende aos seguintes requisitos:
+Para garantir a integração correta entre a instância do Audience Manager e os destinos usando IDs de dispositivos cruzados, como o Adobe Campaign, verifique se você atende aos seguintes requisitos:
 
 1. Revise a Regra de mesclagem de Perfil usada pelos segmentos mapeados para o destino da ID declarada do Adobe Campaign. A regra de mesclagem de Perfis deve usar a [!UICONTROL Last Authenticated Profile] opção, para que todos os perfis autenticados possam ser incluídos nas exportações. Se a Regra de mesclagem de Perfis estiver usando uma opção diferente, alterne para [!UICONTROL Last Authenticated Profile].
 2. Selecione a fonte de dados de ID declarada do Adobe Campaign nas configurações da Regra de mesclagem do Perfil.
@@ -125,7 +126,7 @@ Siga estas instruções para configurar o [!UICONTROL Adobe Experience Platform 
 
 É necessário configurar uma fonte [de dados](#create-data-source) entre dispositivos e regras [de mesclagem de](#create-profile-merge-rule) perfis *antes* de concluir esses procedimentos.
 
-## Para clientes do Adobe Experience Platform Identity Service {#id-service-customers}
+## Para clientes do serviço de identidade Adobe Experience Platform {#id-service-customers}
 
 A versão [!UICONTROL Adobe Experience Platform Identity Service] e a versão mais recente da [DIL](../../dil/dil-overview.md) são recomendadas ao trabalhar com [!UICONTROL Profile Merge Rules]. No entanto, você não precisa usar o para [!UICONTROL Adobe Experience Platform Identity Service] trabalhar com esse recurso. Se você estiver usando apenas [!UICONTROL DIL], consulte a seção [DIL](#legacy-dil) herdada abaixo.
 
@@ -224,7 +225,7 @@ Verifique os métodos em seu [!DNL SDK] código que permitem a passagem [!UICONT
  </tbody>
 </table>
 
-Consulte também Métodos do gerenciador de [Audiências para Android](hhttps://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) e Métodos do gerenciador de [Audiências para iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/aam-methods.html).
+Consulte também Métodos de [Audience Manager para Android](hhttps://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) e Métodos de [Audience Manager para iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/aam-methods.html).
 
 >[!MORELIKETHIS]
 >
