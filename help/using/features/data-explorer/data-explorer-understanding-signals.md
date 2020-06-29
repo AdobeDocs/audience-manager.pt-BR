@@ -1,30 +1,34 @@
 ---
-description: Os sinais são a menor unidade de informação do Audience Manager. Elas representam as interações do usuário ou a atividade do usuário em suas propriedades online e são enviadas para o Audience Manager para serem usadas em regras de características.
-seo-description: Os sinais são a menor unidade de informação do Audience Manager. Elas representam as interações do usuário ou a atividade do usuário em suas propriedades online e são enviadas para o Audience Manager para serem usadas em regras de características.
-seo-title: Noções básicas sobre sinais
-title: Noções básicas sobre sinais
+description: Os sinais são a menor unidade de informação do Audience Manager. Elas representam as interações do usuário ou a atividade do usuário em suas propriedades online e são repassadas para o Audience Manager para serem usadas em regras de características.
+seo-description: Os sinais são a menor unidade de informação do Audience Manager. Elas representam as interações do usuário ou a atividade do usuário em suas propriedades online e são repassadas para o Audience Manager para serem usadas em regras de características.
+seo-title: Noções Gerais dos Sinais
+title: Noções Gerais dos Sinais
 uuid: 04a0554e-954e-484a-8838-9161ef416872
+feature: Data Explorer
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '396'
+ht-degree: 0%
 
 ---
 
 
-# Noções básicas sobre sinais
+# Noções Gerais dos Sinais
 
-Os sinais são a menor unidade de informação do Audience Manager. Elas representam as interações do usuário ou a atividade do usuário em suas propriedades on-line e são enviadas ao Audience Manager para serem usadas nas regras de características.
+Os sinais são a menor unidade de informação do Audience Manager. Elas representam as interações do usuário ou a atividade do usuário em suas propriedades on-line e são repassadas para o Audience Manager para serem usadas nas regras de características.
 
-[!DNL Audience Manager] usa pares de valores chave para representar sinais. Por exemplo, o sinal a seguir pode indicar que um visitante acessou uma página da Web que contém produtos eletrônicos:
+[!DNL Audience Manager] usa pares de valores chave para representar sinais. Por exemplo, o sinal a seguir pode indicar que um visitante atingiu uma página da Web contendo eletrônicos:
 
 * `page = electronics`
 
-O Painel de [Sinais](../../features/data-explorer/data-explorer-signals-dashboard.md) mostra vários tipos de atributos de sinal que você pode usar para criar novas características. Esta é uma exibição detalhada das propriedades de sinal disponíveis:
+O Painel [de](../../features/data-explorer/data-explorer-signals-dashboard.md) Sinais mostra vários tipos de atributos de sinal que podem ser usados para criar novas características. Veja uma visualização detalhada das propriedades de sinal disponíveis:
 
 * *O par* de valor chave mostra o par de valor chave do sinal recebido por [!DNL Audience Manager].
-* *O tipo* de sinal descreve a categoria de cada sinal. Os sinais pertencem a uma das seguintes categorias:
+* *O tipo* de sinal descreve a categoria de cada sinal. Os sinais se encaixam em uma das seguintes categorias:
    * [Arquivos](/help/using/integration/media-data-integration/actionable-log-files.md)de registro acionáveis: Sinais em tempo real recebidos dos ficheiros de registro de desempenho da sua mídia;
    * [!DNL Adobe Analytics]: sinais em tempo real recebidos da sua [!DNL Adobe Analytics] conta;
-   * Dados gerais em linha: dados em tempo real gerados pela atividade do público-alvo e não incluídos em arquivos de registro acionáveis e [!DNL Adobe Analytics];
+   * Dados gerais em linha: dados em tempo real gerados pela atividade da audiência e não incluídos em arquivos de registro acionáveis e [!DNL Adobe Analytics];
    * Registros a bordo: dados recebidos através de transferências de dados em lote.
 * *A Fonte* do sinal depende do tipo de sinal:
    * Para sinais a bordo, a fonte do sinal é o nome da fonte de dados.
