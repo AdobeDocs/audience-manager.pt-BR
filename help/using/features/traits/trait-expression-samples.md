@@ -1,12 +1,16 @@
 ---
-description: Exemplos que você pode consultar para criar expressões no editor de código do Construtor de expressões.
-seo-description: Exemplos que você pode consultar para criar expressões no editor de código do Construtor de expressões.
+description: Exemplos que você pode consultar para criar expressões no editor de código do Expressão Builder.
+seo-description: Exemplos que você pode consultar para criar expressões no editor de código do Expressão Builder.
 seo-title: Expressões de amostra com operadores booleanos e de comparação
 solution: Audience Manager
 title: Expressões de amostra com operadores booleanos e de comparação
 uuid: ee74c376-2099-4816-8694-43f58845a0ac
+feature: Traits
 translation-type: tm+mt
-source-git-commit: 92b75773d2bbe2f635d84bd5bffe625d2023b6cf
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '211'
+ht-degree: 2%
 
 ---
 
@@ -19,9 +23,9 @@ Exemplos que você pode consultar para criar expressões no editor de [!UICONTRO
 
 <!-- r_tb_expression_samples.xml -->
 
-Crie suas próprias regras de características com o editor de [!UICONTROL Expression Builder] códigos. Os exemplos a seguir podem ajudá-lo a começar. Alguns exemplos apresentam a *`key`* variável como prefácio `c_` para identificá-la como uma variável definida pelo usuário. Inclua o `c_` prefixo (ou qualquer outra convenção de nomenclatura) da *`key`* variável se suas chamadas de evento enviarem dados para [!DNL Audience Manager] usar essa sintaxe.
+Crie suas próprias regras de características com o editor de [!UICONTROL Expression Builder] códigos. Os exemplos a seguir podem ajudá-lo a começar. Alguns exemplos apresentam a *`key`* variável como prefácio `c_` para identificá-la como uma variável definida pelo usuário. Inclua o `c_` prefixo (ou qualquer outra convenção de nomenclatura) da *`key`* variável se as chamadas de evento enviarem dados para [!DNL Audience Manager] usar essa sintaxe.
 
-## Expressões Booleanas {#boolean-expressions}
+## Expressões booleanas {#boolean-expressions}
 
 ### Exemplo AND
 
@@ -60,7 +64,7 @@ Esta regra estabelece requisitos de qualificação de características usando [!
  <tbody> 
   <tr> 
    <td colname="col1"><code>(a== "1" OR b=="1") AND (c=="new")</code> </td> 
-   <td colname="col2"> Satisfaça as condições definidas pelas variáveis <code><i>a </i></code> b <code><i>e </i></code> c <code><i></i></code>. </td> 
+   <td colname="col2"> Satisfaça as condições definidas por variáveis <code><i>a </i></code> ou <code><i>b </i></code> e <code><i>c </i></code>. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,7 +82,7 @@ Esta regra estabelece os requisitos de qualificação de características usando
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><code>(preço &gt;= 1,00 E preço &lt;= 100,00)</code> </td> 
+   <td colname="col1"><code>(price &gt;= 1.00 AND price &lt;= 100.00)</code> </td> 
    <td colname="col2"> Satisfaça qualquer condição de preço entre 1.00 e 100.00. </td> 
   </tr> 
  </tbody> 
