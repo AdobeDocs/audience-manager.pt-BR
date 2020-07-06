@@ -7,15 +7,15 @@ title: Requisitos de nome e tamanho de arquivo do Amazon S3 para arquivos de dad
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: d3fd387478ac00470537124110299cd264eac499
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 2%
+source-wordcount: '1152'
+ht-degree: 6%
 
 ---
 
 
-# [!DNL Amazon S3] Requisitos de nome e tamanho de arquivo para arquivos de dados de entrada {#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
+# [!DNL Amazon S3]Requisitos de nome e tamanho de arquivo para arquivos de dados de entrada{#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
 
 Descreve os campos obrigatórios, a sintaxe, as convenções de nomenclatura e os tamanhos de arquivo que você precisa seguir ao enviar dados para [!DNL Audience Manager]. Defina os nomes e tamanhos dos arquivos de acordo com essas especificações ao enviar dados para um diretório [!DNL Audience Manager] / [!DNL Amazon S3] .
 
@@ -33,7 +33,11 @@ Descreve os campos obrigatórios, a sintaxe, as convenções de nomenclatura e o
 
 Para outros formatos de nome de arquivo aceitos, consulte Integrações [](/help/using/integration/sending-audience-data/custom-partner-integrations.md)personalizadas de parceiros.
 
->[!NOTE] {important=&quot;high&quot;}
+<!--
+Removed  {importance="high"} for ExL
+-->
+
+>[!NOTE]
 >
 >[!DNL Audience Manager] só processa [!DNL ASCII] e [!DNL UTF-8] codifica arquivos.
 
@@ -66,7 +70,7 @@ A tabela define os elementos em um nome de [!DNL S3] arquivo.
       <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>IDs do Android (GAID):</b> Use a ID 20914 em um nome de arquivo de dados se ela contiver a ID do Android. Por exemplo, <code>...ftp_dpm_20914_21_123456789.sync</code> informa ao <span class="keyword"> Audience Manager</span> que o arquivo de dados contém somente IDs do Android. Observação: a ID 21 </li> 
       <li id="li_54E7734C121646AF82095806DD1AED61"> <b>IDs do iOS (IDFA):</b> Use a ID 20915 em um nome de arquivo de dados se ela contiver IDs do iOS. Por exemplo, <code>...ftp_dpm_20915_123456789.sync</code> informa ao <span class="keyword"> Audience Manager</span> que o arquivo de dados contém somente IDs do iOS. </li> 
      </ul> 
-    </draft-comment> <p> <p>Observação:  Não misture tipos de ID em seus arquivos de dados. Por exemplo, se o nome do arquivo incluir o identificador do Android, não coloque IDs do iOS ou suas próprias IDs no arquivo de dados. </p> </p><p>Consulte Fontes <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">de dados</a> globais para obter mais detalhes.</p> <p>Consulte também a <code><i>_DPID_TARGET_DATA_OWNER</i></code> entrada abaixo. </p> </td> 
+    </draft-comment> <p> <p>Observação:  Não misture tipos de ID em seus arquivos de dados. Por exemplo, se o nome do arquivo incluir o identificador do Android, não coloque IDs do iOS ou suas próprias IDs no arquivo de dados. </p> </p><p>Consulte <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">Fontes de dados globais</a> para obter mais detalhes.</p> <p>Consulte também a <code><i>_DPID_TARGET_DATA_OWNER</i></code> entrada abaixo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
@@ -106,7 +110,7 @@ A tabela define os elementos em um nome de [!DNL S3] arquivo.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [.gz]</code> </p> </td> 
-   <td colname="col2"> <p>Ao enviar arquivos para o Amazon S3, use apenas a compactação gzip. Quando compactados, esses arquivos recebem a <code> .gz</code> extensão. Não use compactação .zip. </p> <p>Os arquivos compactados devem ter 3 GB ou menos. Se seus arquivos forem maiores, entre em contato com o Atendimento ao cliente. Embora o Audience Manager possa lidar com arquivos grandes, talvez possamos ajudá-lo a reduzir o tamanho de seus arquivos e tornar as transferências de dados mais eficientes. Consulte <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md"> Compactação de arquivos para arquivos</a>de transferência de dados de entrada. </p> </td> 
+   <td colname="col2"> <p>Ao enviar arquivos para o Amazon S3, use apenas a compactação gzip. Quando compactados, esses arquivos recebem a <code> .gz</code> extensão. Não use compactação .zip. </p> <p>Os arquivos compactados devem ter 3 GB ou menos. Se seus arquivos forem maiores, entre em contato com o Atendimento ao cliente. Embora o Audience Manager possa lidar com arquivos grandes, talvez possamos ajudá-lo a reduzir o tamanho de seus arquivos e tornar as transferências de dados mais eficientes. Consulte <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md">Compactação de arquivos de transferência de dados de entrada</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
