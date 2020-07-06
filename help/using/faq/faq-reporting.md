@@ -1,23 +1,23 @@
 ---
-description: Perguntas e problemas comuns relacionados ao relatórios.
-seo-description: Perguntas e problemas comuns relacionados ao relatórios.
-seo-title: Perguntas frequentes de geração de relatórios
+description: Perguntas e problemas comuns relacionados a relatórios.
+seo-description: Perguntas e problemas comuns relacionados a relatórios.
+seo-title: Perguntas frequentes sobre relatórios
 solution: Audience Manager
-title: Perguntas frequentes de geração de relatórios
+title: Perguntas frequentes sobre relatórios
 uuid: 78cd6c86-8a4a-4748-ab71-b6e8d6078c94
 feature: Reporting
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '702'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
-# Perguntas frequentes de geração de relatórios{#reporting-faq}
+# Perguntas frequentes sobre relatórios {#reporting-faq}
 
-Perguntas e problemas comuns relacionados ao relatórios.
+Perguntas e problemas comuns relacionados a relatórios.
 
 <br> 
 
@@ -27,34 +27,34 @@ faq_reports.xml
 
  -->
 
-**Para novas características integradas, por que as[!UICONTROL Trait Graph]vezes exibem números menores que o esperado ou 0?**
+**Para novas características integradas, por que o [!UICONTROL Trait Graph] às vezes exibe números menores que o esperado ou 0?**
 
-Às vezes, depois que você carrega características, o [!UICONTROL Trait Graph] não mostra resultados ou mostra números inferiores aos esperados. Isso acontece quando o volume de dados que recebemos é tão grande que o trabalho de processamento de entrada não pode terminar de assimilar essas informações até o final do prazo de relatórios daquele dia.
+Às vezes, depois que você carrega características, o [!UICONTROL Trait Graph] não mostra resultados ou mostra números inferiores aos esperados. Isso acontece quando o volume de dados que recebemos é tão grande que o trabalho de processamento de entrada não pode terminar de assimilar essas informações até o final do prazo para relatórios daquele dia.
 
-Como resultado, esses dados são enviados tardiamente para o sistema do relatórios e não são exibidos no intervalo de 1 dia do relatórios usado para plotar o [!UICONTROL Trait Graph]. No entanto, você pode visualização esses dados nos intervalos de relatório de 7, 14, 30 e 60 dias em uma [Tendência](../reporting/trend-reports.md#trend-report-overview) ou Relatório [](../reporting/general-reports.md#general-reports-overview) Geral no dia seguinte.
+Como resultado, esses dados são enviados tardiamente para o sistema de relatórios e não são exibidos no intervalo de 1 dia do relatório usado para plotar o [!UICONTROL Trait Graph]. No entanto, você pode visualizar esses dados nos intervalos de relatório de 7, 14, 30 e 60 dias em uma [Tendência](../reporting/trend-reports.md#trend-report-overview) ou [Relatório geral](../reporting/general-reports.md#general-reports-overview) no dia seguinte.
 
 <br> 
 
-**Alguns segmentos estão ausentes em um[!UICONTROL Overlap]relatório. Onde eles estão?**
+**Alguns segmentos estão ausentes em um relatório de [!UICONTROL Overlap]. Onde eles estão?**
 
-Para ajudar a reduzir a demanda computacional, esses relatórios omitem dados estatisticamente insignificantes dos resultados. Seus segmentos não estão faltando, eles são descartados porque não produzem resultados significativos ou pools úteis de usuários que você pode público alvo. Consulte também:
+Para ajudar a reduzir a demanda computacional, esses relatórios omitem dados estatisticamente insignificantes dos resultados. Os segmentos não estão ausentes, eles são descartados porque não produzem resultados significativos ou pools úteis de usuários que você pode direcionar. Consulte também:
 
 * [Metodologias de amostragem de relatórios e dados](../reporting/report-sampling.md)
-* [Contagem de usuários únicos em sobreposição e relatórios](../reporting/unique-user-counts.md)gerais.
+* [Contagem de usuários únicos em sobreposição e relatórios gerais](../reporting/unique-user-counts.md).
 
 <br> 
 
 **Se eu executar uma campanha de marketing por email, como posso determinar se os usuários redirecionados vêm para o meu site a partir dessa campanha ou de outras fontes?**
 
-Anexe uma sequência de query específica da campanha ao URL da seção do site que você deseja monitorar. Em seguida, configure uma regra de característica para capturar essa variável. Por exemplo, se seu URL passar em uma ID de campanha como essa, `www.test123.com/electronics?campaign=123`crie uma regra de característica para capturar esses dados da `h_referer` variável com uma regra de característica que procura um cabeçalho como `h_referer = 'campaign=123'`).
+Anexe uma sequência de consulta específica da campanha ao URL da seção do site que você deseja monitorar. Em seguida, configure uma regra de característica para capturar essa variável. Por exemplo, se o URL passar em uma ID de campanha como essa, `www.test123.com/electronics?campaign=123`, crie uma regra de característica para capturar esses dados da variável `h_referer` com uma regra de característica que procura um cabeçalho como `h_referer = 'campaign=123'`).
 
 <br> 
 
-**What is the difference between real-time and total segment population counts?**
+**Qual é a diferença entre a contagem de população de segmentos em tempo real e total?**
 
-* **Tempo real:** O número de usuários únicos que fazem parte do segmento e estão ativos em suas propriedades durante um período de tempo definido (isto é, [!DNL Audience Manager] devem ter registrado a atividade desse usuário durante o período de tempo específico).
+* **Tempo real:** o número de usuários únicos que fazem parte do segmento e estão ativos em suas propriedades durante um período de tempo definido (isto é, o [!DNL Audience Manager] deve ter registrado a atividade desse usuário durante o período de tempo específico).
 
-* **População total do segmento:** Um agregado de todos os usuários atualmente classificados nesse segmento.
+* **População total do segmento:** um agregado de todos os usuários atualmente classificados nesse segmento.
 
 <!-- 
 
@@ -65,9 +65,9 @@ Anexe uma sequência de query específica da campanha ao URL da seção do site 
 
 <br> 
 
-**Eu tenho um segmento que consiste em apenas um traço. Quando eu olho para as métricas de Relatórios, suas contagens não correspondem. Por que isso ocorre?**
+**Tenho um segmento que consiste em apenas uma característica. Quando olho para as métricas de Relatórios, suas contagens não correspondem. Por que isso ocorre?**
 
-See [Trait and Segment Population Data in Segment Builder](../features/segments/segment-builder-data.md).
+Consulte [Dados de população de característica e segmento no Criador de segmentos](../features/segments/segment-builder-data.md).
 
 <br> 
 
@@ -82,31 +82,31 @@ See [Trait and Segment Population Data in Segment Builder](../features/segments/
 
  -->
 
-**I Inbound a file and my Inbound receipt shows a high number of successfully processed records, but reporting shows much lower numbers. Por quê?**
+**Insiro um arquivo e meu recibo de entrada mostra um alto número de registros processados com êxito, mas os relatórios mostram números muito mais baixos. Por quê?**
 
-In the backend, onboarded data gets attached only to users that are still active in AAM (user must have had recent [!DNL DCS] activity in the past 120 days). Therefore, if you onboard data for users that have already expired in [!DNL Audience Manager], [!UICONTROL Inbound] might tell you that a certain number of user records were onboarded, but if these users have not had any recent activity, this data is dropped when it reaches our [!UICONTROL User Profile Store] and reporting will surface that.
+No backend, os dados integrados são anexados somente aos usuários que ainda estão ativos no AAM (o usuário deve ter tido atividade de [!DNL DCS] recente nos últimos 120 dias). Portanto, se você integrar dados de usuários que já expiraram no [!DNL Audience Manager], o [!UICONTROL Inbound] talvez informe que um determinado número de registros de usuários foram integrados, mas se esses usuários não tiverem tido nenhuma atividade recente, esses dados serão ignorados quando chegarem em nosso [!UICONTROL User Profile Store] e os relatórios aparecerão.
 
 <br> 
 
-**Why are the trait uniques for my cross-device onboarded traits much higher than the total number of onboarded records?**
+**Por que as características únicas das minhas características integradas em vários dispositivos são muito maiores que o número total de registros integrados?**
 
-Se você estiver integrado em um arquivo para um provedor de dados entre dispositivos que ignorou a ID do cliente, o Audience Manager realizará uma pesquisa para obter todas as IDs de dispositivo associadas a cada uma das IDs de cliente integradas. Audience Manager, então, atribui as características integradas à ID do dispositivo associada à ID do cliente.
+Se você integrar um arquivo para um provedor de dados entre dispositivos que ignorou a ID do cliente, o Audience Manager fará uma pesquisa para obter todas as IDs de dispositivo associadas a cada uma das IDs de cliente integradas. Em seguida, o Audience Manager atribui as características integradas à ID do dispositivo associada à ID do cliente.
 
-Por exemplo, suponha que você tenha integrado 100 registros. For each of these customer IDs, on average, AAM has associated three device IDs. Como resultado, a característica integrada é atribuída a 300 IDs de dispositivo.
+Por exemplo, suponha que você tenha integrado 100 registros. Para cada uma dessas IDs de cliente, em média, o AAM associou três IDs de dispositivo. Como resultado, a característica integrada é atribuída a 300 IDs de dispositivo.
 
 Há dois motivos pelos quais uma única ID de cliente entre dispositivos pode ser associada a várias IDs de dispositivo:
 
 * Os usuários estão fazendo logon na mesma conta entre dispositivos de vários computadores/navegadores.
-* Os usuários estão limpando seus cookies. Observação: Os cookies &quot;abandonados&quot; são excluídos após 120 dias de inatividade do usuário.
+* Os usuários estão limpando os cookies. Observação: os cookies &quot;abandonados&quot; são excluídos após 120 dias de inatividade do usuário.
 
 <br> 
 
-**Por que meus traços integrados são sempre 0?[!UICONTROL Total Trait Realizations]**
+**Por que [!UICONTROL Total Trait Realizations] minhas características integradas são sempre 0?**
 
-[!UICONTROL Total Trait Realizations] corresponde a cargas de página. [!UICONTROL Total Trait Realizations] forneça o número de vezes que um traço específico foi acionado em tempo real. Esse número é calculado somente para características com base em regras. Os traços integrados sempre são exibidos [!UICONTROL Total Trait Realizations] como 0.
+As [!UICONTROL Total Trait Realizations] correspondem a carregamentos de página. As [!UICONTROL Total Trait Realizations] fornecem o número de vezes que uma característica específica foi acionada em tempo real. Esse número é calculado somente para características com base em regras. As características integradas sempre mostram [!UICONTROL Total Trait Realizations] como 0.
 
 <br> 
 
-**Criei um traço e o[!UICONTROL Trait Graph]mostra um número maior de[!UICONTROL Unique Trait Realizations]que o[!UICONTROL Total Trait Population]. Isso é normal?**
+**Criei uma característica e o [!UICONTROL Trait Graph] mostra um número maior de [!UICONTROL Unique Trait Realizations] que a [!UICONTROL Total Trait Population]. Isso é normal?**
 
-Você está vendo isso porque [!UICONTROL Unique Trait Realizations] são métricas em tempo real, mas os trabalhos de relatórios que fazemos para calcular os resultados não [!UICONTROL Total Trait Population] são em tempo real. O tamanho [!UICONTROL Total Trait Population] deve ser maior do que o [!UICONTROL Unique Trait Realizations] em alguns dias.
+Você está vendo isso porque [!UICONTROL Unique Trait Realizations] são métricas em tempo real, mas os trabalhos de relatórios que fazemos para calcular os resultados de [!UICONTROL Total Trait Population] não são em tempo real. A [!UICONTROL Total Trait Population] deve ser maior do que as [!UICONTROL Unique Trait Realizations] em alguns dias.
