@@ -2,21 +2,21 @@
 description: Perguntas frequentes sobre como trazer dados offline para o Audience Manager.
 keywords: ftp or s3;s3 or ftp
 seo-description: Perguntas frequentes sobre como trazer dados offline para o Audience Manager.
-seo-title: Perguntas frequentes sobre ingestão de dados do cliente de entrada
+seo-title: Perguntas frequentes sobre assimilação de dados de entrada do cliente
 solution: Audience Manager
-title: Perguntas frequentes sobre ingestão de dados do cliente de entrada
+title: Perguntas frequentes sobre assimilação de dados de entrada do cliente
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 feature: Onboarding Offline Data
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1355'
-ht-degree: 3%
+ht-degree: 91%
 
 ---
 
 
-# Perguntas frequentes sobre ingestão de dados do cliente de entrada{#inbound-customer-data-ingestion-faq}
+# Perguntas frequentes sobre assimilação de dados de entrada do cliente {#inbound-customer-data-ingestion-faq}
 
 Perguntas frequentes sobre como trazer dados offline para o Audience Manager.
 
@@ -24,10 +24,10 @@ Perguntas frequentes sobre como trazer dados offline para o Audience Manager.
 
 **Você pode resumir o processo de integração?**
 
-O processo de integração consiste em duas etapas descritas em [Enviar dados em lote para a visão geral](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)do Audience Manager:
+O processo de integração consiste em duas etapas descritas em [Enviar dados em lote para a visão geral do Audience Manager](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md):
 
 * Etapa 1: sincronizar IDs de usuário;
-* Etapa 2: crie e transfira seu arquivo de dados de entrada, seguindo os requisitos de formato de arquivo.
+* Etapa 2: criar e transferir o arquivo de dados de entrada seguindo os requisitos de formato de arquivo.
 
  
 
@@ -39,30 +39,30 @@ Recomendamos o seguinte:
    * [Requisitos de nome e conteúdo para arquivos de sincronização de ID](../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
    * [Conteúdo do arquivo de dados de entrada: Sintaxe, caracteres inválidos, variáveis e exemplos](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
    * [Requisitos de nome e tamanho de arquivo do Amazon S3 para arquivos de dados de entrada](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
-* Trabalhe com seu [!DNL Adobe] consultor para transferir um arquivo de dados de teste para [!DNL Adobe] a verificação de formato.
-* Trabalhe com seu [!DNL Adobe] consultor para produzir uma taxonomia adequada para interpretar o conteúdo do arquivo de dados.
-* No ambiente de armazenamento temporário/desenvolvimento, confirme se a sincronização da ID está configurada para coletar corretamente a ID do visitante do provedor de dados e transferi-la para os [!DNL Audience Manager] servidores em tempo real.
-* Implantar sincronização DIL/ID para produção. A sincronização de ID já será configurada como um módulo dentro do código DIL pelo seu consultor da Adobe.
-* Transfira os arquivos de dados de produção para [!DNL Audience Manager]. Considerando as dependências nos mapeamentos de sincronização de ID, pode fazer sentido começar a transferir dados até uma semana após a implantação do código de produção, embora seja possível transferir os arquivos de dados em start assim que o código entrar em produção.
+* Trabalhe com o consultor da [!DNL Adobe] para transferir um arquivo de dados de teste para a [!DNL Adobe] para verificação de formato.
+* Trabalhe com o consultor da [!DNL Adobe] para produzir uma taxonomia adequada para interpretar o conteúdo do arquivo de dados.
+* No ambiente de armazenamento temporário/desenvolvimento, confirme se a sincronização da ID está configurada para coletar corretamente a ID do visitante do provedor de dados e transferi-la para os servidores do [!DNL Audience Manager] em tempo real.
+* Implantar sincronização de DIL/ID para produção. A sincronização de ID já será configurada como um módulo dentro do código de DIL pelo consultor da Adobe.
+* Transfira os arquivos de dados de produção para o [!DNL Audience Manager]. Considerando as dependências nos mapeamentos de sincronização de ID, pode fazer sentido começar a transferir dados até uma semana após a implantação do código de produção, embora seja possível começar a transferir os arquivos de dados assim que o código entrar em produção.
 
  
 
 **Que modo FTP devo usar para transferir arquivos compactados ou criptografados?**
 
-Consulte Compactação de [arquivos para arquivos](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)de transferência de dados de entrada.
+Consulte [Compactação de arquivos de transferência de dados de entrada](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md).
 
 >[!WARNING]
 >
->Estamos gradualmente removendo o suporte para configurações FTP. Embora a ingestão de arquivos de dados de entrada ainda seja suportada em integrações FTP existentes, recomendamos usar o Amazon S3 para dados offline integrados para novas integrações. Consulte Requisitos de nome e tamanho de arquivo do [Amazon S3 para arquivos](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) de dados de entrada para obter detalhes.
+>Estamos removendo gradualmente o suporte para configurações FTP. Embora a assimilação de arquivos de dados de entrada ainda seja aceita em integrações FTP existentes, recomendamos o uso do Amazon S3 para dados offline integrados para novas integrações. Consulte [Requisitos de nome e tamanho de arquivo do Amazon S3 para arquivos de dados de entrada](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) para obter detalhes.
 
  
 
-**É possível carregar um arquivo de dados de entrada ([!DNL .sync] ou arquivo [!DNL .overwrite]) antes de implantar o código [!DNL Audience Manager] na produção?**
+**É possível carregar um arquivo de dados de entrada ([!DNL .sync] ou arquivo [!DNL .overwrite]) antes de implantar o código [!DNL Audience Manager] na produção?**
 
-Sim. Desde que você use um [!UICONTROL cross-device data source] para armazenar os dados do CRM que você carrega, o Audience Manager sempre armazena os dados. Na verdade, após os [!UICONTROL Profile Merge Rules] aprimoramentos lançados pela Audience Manager em outubro de 2019 que permitem casos de uso somente offline, você pode fazer upload e executar ações em dados sem implantar o código Audience Manager na produção. Consulte:
+Sim. As long as you use a [!UICONTROL cross-device data source] to store the CRM data that you upload, Audience Manager always stores the data. In fact, following the [!UICONTROL Profile Merge Rules] enhancements that Audience Manager launched in October 2019 that allow for offline-only use cases, you can upload and action on data without deploying Audience Manager code into production at all. Consulte:
 
-* [Visão geral das melhorias nas regras de mesclagem de Perfis](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* [!UICONTROL People-based Destinations] - [Personalização com base em dados somente offline](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* [Visão geral das melhorias nas Regras de mesclagem de perfis](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
+* [!UICONTROL People-based Destinations] - [Personalização com base em dados somente offline](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br> 
 
@@ -127,46 +127,46 @@ Consider the following use cases in which the data provider is not configured to
 
 -->
 
-**A que horas do dia devo transferir meu arquivo?**
+**A que horas do dia devo transferir o arquivo?**
 
-[!DNL Audience Manager] verifica e processa arquivos várias vezes ao longo do dia. Carregue seus dados sempre que estiver pronto.
-
- 
-
-**Quanto tempo leva até que os dados de um arquivo carregado estejam disponíveis para definição de metas?**
-
-Os dados estão disponíveis para definição de metas após 48 horas. Além disso, não interprete o email de &quot;carregamento bem-sucedido&quot; como uma declaração de que os dados estão disponíveis. Isso significa apenas que [!DNL Audience Manager] o selecionou o arquivo e concluiu a primeira etapa do processamento.
+O [!DNL Audience Manager] verifica e processa arquivos várias vezes ao longo do dia. Faça upload dos dados sempre que estiver pronto.
 
  
 
-**Com que frequência devo enviar arquivos e esses arquivos devem ser completos ou incrementais?**
+**Quanto tempo leva até que os dados de um arquivo carregado estejam disponíveis para direcionamento?**
 
-Como prática recomendada, envie um arquivo incremental uma vez por dia para novos visitantes e para visitantes cujos dados foram alterados. Muitos [!DNL Audience Manager] clientes enviam um arquivo completo uma vez por mês. No entanto, esses intervalos de arquivos e incrementos são flexíveis. Você deve enviar dados em incrementos e às vezes que fizerem sentido para você.
+Os dados estão disponíveis para direcionamento após 48 horas. Além disso, não interprete o email de &quot;carregamento bem-sucedido&quot; como uma declaração de que os dados estão disponíveis. Isso significa apenas que o [!DNL Audience Manager] selecionou o arquivo e concluiu a primeira etapa do processamento.
 
  
 
-**Por quanto tempo o Audience Manager guarda meus arquivos no servidor?**
+**Com que frequência devo enviar arquivos? Esses arquivos devem ser completos ou incrementais?**
 
-Os arquivos FTP são removidos após serem processados. [!DNL S3] os arquivos são removidos após 30 dias. Os arquivos que não podem ser processados devido a erros de formato, sintaxe ou outros erros são removidos. Consulte também Perguntas frequentes sobre [privacidade e retenção de dados](../faq/faq-privacy.md).
+Como prática recomendada, envie um arquivo incremental uma vez por dia para novos visitantes e para visitantes cujos dados foram alterados. Muitos clientes do [!DNL Audience Manager] enviam um arquivo completo uma vez por mês. No entanto, esses intervalos de arquivos e incrementos são flexíveis. Você deve enviar dados em incrementos e quando fizer sentido para você.
+
+ 
+
+**Por quanto tempo o Audience Manager mantém os arquivos no servidor?**
+
+Os arquivos FTP são removidos após serem processados. Os arquivos [!DNL S3] são removidos após 30 dias. Os arquivos que não podem ser processados devido a erros de formato, sintaxe ou outros erros são removidos. Consulte também [Perguntas frequentes sobre privacidade e retenção de dados](../faq/faq-privacy.md).
 
  
 
 **Qual é a diferença entre arquivos completos e incrementais?**
 
-* **Total:** Um arquivo completo substitui todos os perfis de visitante existentes e os substitui pelos dados do arquivo. Os arquivos completos são identificados pela `.overwrite` tag anexada ao nome do arquivo. Você pode usar um `.overwrite` arquivo para redefinir características do visitante ou remover características obsoletas e obsoletas.
+* **Total:** um arquivo completo substitui todos os perfis de visitante existentes e os substitui pelos dados do arquivo. Os arquivos completos são identificados pela tag `.overwrite` anexada ao nome do arquivo. Você pode usar um arquivo `.overwrite` para redefinir características do visitante ou remover características obsoletas.
 
    >[!NOTE]
    >
-   >Os [!DNL .overwrite] arquivos substituem apenas os dados do [!DNL Audience Manager] perfil associados a esse provedor de dados. Em outras palavras, todos os [!DNL Audience Manager] dados associados ao visitante permanecem intactos depois que um [!DNL .overwrite] arquivo é processado.
+   >Os arquivos [!DNL .overwrite] substituem apenas os dados do perfil do [!DNL Audience Manager] associados a esse provedor de dados. Em outras palavras, todos os dados do [!DNL Audience Manager] associados ao visitante permanecem intactos depois que um arquivo [!DNL .overwrite] é processado.
 
-* **Incremental:** Um arquivo incremental anexa novos dados aos perfis de visitantes existentes. Os arquivos incrementais são identificados pela `.sync` tag anexada ao nome do arquivo. Enviar um arquivo incremental não apaga nem substitui perfis existentes.
+* **Incremental:** um arquivo incremental anexa novos dados aos perfis de visitantes existentes. Os arquivos incrementais são identificados pela tag `.sync` anexada ao nome do arquivo. Enviar um arquivo incremental não apaga nem substitui perfis existentes.
 
 Os casos de uso a seguir demonstram como esses tipos de arquivos afetam os perfis de visitante armazenados.
 
 | Caso de uso | Descrição |
 |---|---|
-| Incremental e Completo | <ul><li>Conteúdo `.sync` do arquivo do dia 1: `visitor123 = a,b,c`</li><li>Conteúdo `.overwrite` do arquivo no dia 2: `visitor123 = c,d,e`</li><li>Conteúdo da ID de perfil do dia 3: `c,d,e`</li></ul> |
-| Apenas Incremental | <ul><li>Conteúdo `.sync` do arquivo do dia 1: `visitor123 = a,b,c`</li><li>Conteúdo `.sync` do arquivo no dia 2: `visitor123 = c,d,e`</li><li>Conteúdo da ID de perfil do dia 3: `a,b,c,d,e`</li></ul> |
+| Incremental e completo | <ul><li>Conteúdo do arquivo `.sync` do dia 1: `visitor123 = a,b,c`</li><li>Conteúdo do arquivo `.overwrite` do dia 2: `visitor123 = c,d,e`</li><li>Conteúdo da ID de perfil do visitante 123 do dia 3: `c,d,e`</li></ul> |
+| Apenas incremental | <ul><li>Conteúdo do arquivo `.sync` do dia 1: `visitor123 = a,b,c`</li><li>Conteúdo do arquivo `.sync` do dia 2: `visitor123 = c,d,e`</li><li>Conteúdo da ID de perfil do visitante 123 do dia 3: `a,b,c,d,e`</li></ul> |
 
 Para obter mais informações sobre tipos de arquivos completos e incrementais, consulte:
 
@@ -176,13 +176,13 @@ Para obter mais informações sobre tipos de arquivos completos e incrementais, 
 
 **O que acontece se eu enviar um arquivo com IDs para visitantes que nunca executaram a sincronização de ID na página?**
 
-Durante o processamento, [!DNL Audience Manager] ignora esse registro e avança para o seguinte. Se um [DPID (ID do provedor de dados)](../reference/ids-in-aam.md) estiver configurado como um DPID entre dispositivos, os dados ingeridos antes de uma sincronização de ID serão salvos e estarão disponíveis para uso logo após a sincronização de ID ocorrer.
+Durante o processamento, o [!DNL Audience Manager] ignora esse registro e avança para o seguinte. Se uma [DPID (ID do provedor de dados)](../reference/ids-in-aam.md) estiver configurada como uma DPID entre dispositivos, os dados assimilados antes de uma sincronização de ID serão salvos e estarão disponíveis para uso logo após a sincronização de ID.
 
  
 
-**Para que serve o carimbo de data e hora e pode dar um exemplo?**
+**Para que serve o carimbo de data e hora? Você pode dar um exemplo?**
 
-Os carimbos de data e hora são usados para registro e manutenção de registros. Elas são exigidas pela sintaxe usada para um nome de arquivo de entrada corretamente formatado. Consulte:
+Os carimbos de data e hora são usados para fazer registros e mantê-los. Eles são exigidos pela sintaxe usada para um nome de arquivo de entrada corretamente formatado. Consulte:
 
 * [Requisitos de nome Amazon S3 para arquivos de dados de entrada](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
@@ -190,62 +190,62 @@ Os carimbos de data e hora são usados para registro e manutenção de registros
 
 **O que é um[!DNL Data Provider ID (DPID)]e como o obtenho?**
 
-Seu consultor da Adobe atribuirá um [DPID de três ou quatro dígitos (ID do provedor de dados)](../reference/ids-in-aam.md) à sua fonte de dados específica. Essa ID é exclusiva e não é alterada.
+O consultor da Adobe atribuirá uma [DPID (ID do provedor de dados)](../reference/ids-in-aam.md) de três ou quatro dígitos à sua fonte de dados específica. Essa ID é exclusiva e não é alterada.
 
  
 
-**Qual pode ser o tamanho dos arquivos de dados diários?**
+**Que tamanho podem ter os arquivos de dados diários?**
 
-Consulte Compactação de [arquivos para arquivos](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)de transferência de dados de entrada.
+Consulte [Compactação de arquivos de transferência de dados de entrada](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md).
 
  
 
-**O Audience Manager suporta compactação de arquivos?**
+**O Audience Manager oferece suporte à compactação de arquivos?**
 
-Sim, consulte o:
+Sim, consulte:
 
-* [Compactação de arquivos para arquivos de transferência de dados de entrada](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
+* [Compactação de arquivos de transferência de dados de entrada](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
 * [Requisitos de nome Amazon S3 para arquivos de dados de entrada](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
  
 
-**A chave primária no meu banco de dados de fonte de dados é um endereço de email. Isso é considerado informação pessoal?**
+**A chave primária no meu banco de dados de fonte de dados é um endereço de email. Ele é considerado informação pessoal?**
 
-Sim. [!DNL Audience Manager] não armazena endereços de email em seu banco de dados. Os Visitantes devem receber uma ID gerada aleatoriamente ou uma versão com hash unidirecional do endereço de email antes de iniciar sincronizações de ID.
-
- 
-
-**O conteúdo do arquivo de dados faz distinção entre maiúsculas e minúsculas? Que tal a sincronização de ID?**
-
-Há dois componentes básicos de um arquivo de dados: Um [!UICONTROL User ID] (consulte [!UICONTROL User ID] Variáveis de [arquivo definidas](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#file-variables-defined)) e dados de perfil, geralmente na forma de pares de valores chave ou códigos. O [!UICONTROL User ID] é sensível a maiúsculas e minúsculas. Geralmente, os dados de perfil ou valor chave não fazem distinção entre maiúsculas e minúsculas.
+Sim. O [!DNL Audience Manager] não armazena endereços de email no banco de dados. Os Visitantes devem receber uma ID gerada aleatoriamente ou uma versão com hash unidirecional do endereço de email antes de iniciar sincronizações de ID.
 
  
 
-**Devo usar o FTP ou[!DNL Amazon S3]transferir arquivos?**
+**O conteúdo do arquivo de dados faz distinção entre maiúsculas e minúsculas? E a sincronização de ID?**
 
-Como prática recomendada, recomendamos [!DNL Amazon S3] porque o processo é mais simples. [!DNL Audience Manager] transfere arquivos FTP para [!DNL S3] qualquer instância, de modo que o processo é mais simplificado se você soltar os arquivos em [!DNL Amazon S3] si mesmo. Além disso, os clientes que fazem upload simultaneamente para FTP compartilham a largura de banda do FTP, para que esperem velocidades de upload mais lentas. [!DNL Amazon S3] também é replicado e distribuído, portanto, geralmente é mais seguro e confiável do que um servidor FTP. Para obter mais informações, consulte [Sobre o Amazon S3](../reference/amazon-s3.md).
+Há dois componentes básicos de um arquivo de dados: Uma [!UICONTROL User ID] (consulte [!UICONTROL User ID] em [Variáveis de arquivo definidas](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#file-variables-defined)) e dados de perfil, geralmente na forma de pares de valores-chave ou códigos. O [!UICONTROL User ID] diferencia maiúsculas e minúsculas. Geralmente, os dados de perfil ou valor-chave não fazem distinção entre maiúsculas e minúsculas.
+
+ 
+
+**Devo usar o FTP ou o [!DNL Amazon S3] para transferir arquivos?**
+
+Como prática recomendada, recomendamos o [!DNL Amazon S3] porque o processo é mais simples. O [!DNL Audience Manager] transfere arquivos FTP para o [!DNL S3] independentemente, de modo que o processo é mais simples se você soltar os arquivos no próprio [!DNL Amazon S3]. Além disso, os clientes que fazem upload simultaneamente para FTP compartilham a largura de banda do FTP, portanto as velocidades de upload são mais lentas. O [!DNL Amazon S3] também é replicado e distribuído, portanto, geralmente é mais seguro e confiável do que um servidor FTP. Para obter mais informações, consulte [Sobre o Amazon S3](../reference/amazon-s3.md).
 
 >[!WARNING]
 >
->Estamos gradualmente removendo o suporte para configurações FTP. Embora a ingestão de arquivos de dados de entrada ainda seja suportada em integrações FTP existentes, recomendamos usar dados offline integrados [!DNL Amazon S3] para novas integrações. Consulte Requisitos de nome e tamanho de arquivo do [Amazon S3 para arquivos](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) de dados de entrada para obter detalhes.
+>Estamos removendo gradualmente o suporte para configurações FTP. While inbound data file ingestion is still supported in existing FTP integrations, we strongly recommend using [!DNL Amazon S3] to onboard offline data for new integrations. Consulte [Requisitos de nome e tamanho de arquivo do Amazon S3 para arquivos de dados de entrada](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) para obter detalhes.
 
  
 
-**Como o Audiência Manager processa arquivos de entrada?**
+**Como o Audience Manager processa arquivos de entrada?**
 
-[!DNL Audience Manager] usa [!DNL Amazon Simple Queue Service (SQS)] o processamento de dados de entrada. Veja como isso funciona:
+O [!DNL Audience Manager] usa o [!DNL Amazon Simple Queue Service (SQS)] para processar dados de entrada. Veja como isso funciona:
 
-1. [!DNL Audience Manager] os clientes carregam seus dados de entrada em um [!DNL Amazon S3] bucket.
-1. Os dados entram na [!DNL Amazon SQS] fila, aguardando para serem processados por [!DNL Audience Manager].
-1. [!DNL Audience Manager] lê até 119.000 entradas da [!DNL Amazon SQS] fila e as divide em até 3 lotes. Os arquivos em cada lote são processados simultaneamente.
+1. Os clientes do [!DNL Audience Manager] fazem o upload de dados de entrada em um bucket do [!DNL Amazon S3].
+1. Os dados entram na fila do [!DNL Amazon SQS], aguardando para serem processados pelo [!DNL Audience Manager].
+1. O [!DNL Audience Manager] lê até 119.000 entradas da fila do [!DNL Amazon SQS] e as divide em até 3 lotes. Os arquivos em cada lote são processados simultaneamente.
 
  
 
-**Preciso carregar vários arquivos ao mesmo tempo. Os arquivos serão processados simultaneamente?**
+**Preciso carregar vários arquivos ao mesmo tempo.. Os arquivos serão processados simultaneamente?**
 
-Depende. [!DNL Audience Manager] lê até 119.000 entradas da [!DNL Amazon SQS] fila e as divide em até 3 lotes. Seus arquivos serão processados simultaneamente somente se eles terminarem no mesmo lote. No entanto, devido à grande quantidade de dados ingeridos [!DNL Audience Manager] diariamente, não podemos garantir nenhuma ordem de processamento de arquivos.
+Depende. O [!DNL Audience Manager] lê até 119.000 entradas da fila do [!DNL Amazon SQS] e as divide em até 3 lotes. Os arquivos serão processados simultaneamente somente se eles terminarem no mesmo lote. No entanto, devido à grande quantidade de dados assimilados pelo [!DNL Audience Manager] diariamente, não podemos garantir nenhuma ordem de processamento de arquivos.
 
 >[!MORELIKETHIS]
 >
->* [Processo de transferência de dados em lote descrito](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
+>* [Descrição do processo de transferência de dados em lote](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
 
