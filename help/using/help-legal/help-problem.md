@@ -1,6 +1,6 @@
 ---
-description: O Atendimento ao Cliente está preparado para ajudar você a resolver qualquer problema que possa surgir. Forneça o máximo possível dessas informações ao entrar em contato com o Atendimento ao cliente. Isso ajudará a equipe a entender e resolver seu problema.
-seo-description: O Atendimento ao Cliente está preparado para ajudar você a resolver qualquer problema que possa surgir. Forneça o máximo possível dessas informações ao entrar em contato com o Atendimento ao cliente. Isso ajudará a equipe a entender e resolver seu problema.
+description: O Atendimento ao Cliente está preparado para ajudar você a resolver qualquer problema que possa surgir. Forneça o máximo possível de informações ao entrar em contato com o Atendimento ao cliente. Elas ajudarão a equipe a entender e resolver seu problema.
+seo-description: O Atendimento ao Cliente está preparado para ajudar você a resolver qualquer problema que possa surgir. Forneça o máximo possível de informações ao entrar em contato com o Atendimento ao cliente. Elas ajudarão a equipe a entender e resolver seu problema.
 seo-title: Se houver um problema
 solution: Audience Manager
 title: Se houver um problema
@@ -8,15 +8,15 @@ feature: Support
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 26%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Se houver um problema {#problem}
 
-O Atendimento ao Cliente está preparado para ajudar você a resolver qualquer problema que possa surgir. Forneça o máximo possível dessas informações ao entrar em contato com o Atendimento ao cliente. Isso ajudará a equipe a entender e resolver seu problema.
+O Atendimento ao Cliente está preparado para ajudar você a resolver qualquer problema que possa surgir. Forneça o máximo possível de informações ao entrar em contato com o Atendimento ao cliente. Elas ajudarão a equipe a entender e resolver seu problema.
 
 ## Informações básicas {#basic-information}
 
@@ -26,11 +26,11 @@ r_problem.xml
 
  -->
 
-For technical issues or to log a bug, contact [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html).
+No caso de problemas técnicos ou para registrar de um erro, entre em contato com o [Atendimento ao cliente](https://helpx.adobe.com/br/marketing-cloud/contact-support.html).
 
 * **Telefone:** 1-800-497-0335
 
-   Para ver os números de ligação gratuita fora dos Estados Unidos, consulte o nosso site [regional de números](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) de contato do Atendimento ao cliente. When asked to select an option for your product, press 4 to contact the [!DNL Audience Manager] team.
+   Para ver os números de chamada gratuita fora dos Estados Unidos, consulte o site com os [números de contato regionais do Atendimento ao cliente](https://helpx.adobe.com/br/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html). Quando for solicitado que você selecione uma opção para seu produto, pressione 4 para entrar em contato com a equipe do [!DNL Audience Manager].
 
 * **Email:** amsupport@adobe.com
 
@@ -50,23 +50,23 @@ Tenha as seguintes informações em mãos antes de entrar em contato conosco.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Informações da conta</b> </p> </td> 
-   <td colname="col2"> <p>Forneça: </p> <p> 
+   <td colname="col2"> <p>Informe o: </p> <p> 
      <ul id="ul_6ACF6EF2165C4041A891FF36D78BBA63"> 
-      <li id="li_86573CAAE8454BE6BDF44F9A8281FF95">Nome da Empresa. </li> 
-      <li id="li_8259BB738BA84A13982A8E84BCF56B2A"><span class="keyword"> Subdomínio Audience Manager</span> (se conhecido). O subdomínio é o URL do domínio que envia eventos de coleta de dados para a <span class="keyword"> Adobe</span> (por exemplo, <code>https://<i>myCompany</i>.demdex.net</code>). </li> 
+      <li id="li_86573CAAE8454BE6BDF44F9A8281FF95">Nome da empresa. </li> 
+      <li id="li_8259BB738BA84A13982A8E84BCF56B2A">Subdomínio do <span class="keyword">Audience Manager</span> (se conhecido). O subdomínio é o URL do domínio que envia eventos de coleta de dados para a <span class="keyword"> Adobe</span> (por exemplo, <code>https://<i>myCompany</i>.demdex.net</code>). </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Etapas para reproduzir</b> </p> </td> 
-   <td colname="col2"> <p>Inclua o máximo de detalhes possível, incluindo quaisquer URLs necessários para duplicado do problema e o resultado esperado. Sua descrição deve conter detalhes suficientes para que alguém que não esteja familiarizado com o <span class="keyword"> Audience Manager</span> possa seguir seus passos ou procedimentos e reproduzir o problema. </p> </td> 
+   <td colname="col2"> <p>Inclua a maior quantidade de detalhes possível, incluindo todos URLs necessários para duplicar o problema, bem como o resultado previsto. A descrição deve conter detalhes suficientes para que alguém não conheça o <span class="keyword"> Audience Manager</span> possa seguir os passos ou procedimentos e reproduzir o problema. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Prioridade</b> </p> </td> 
-   <td colname="col2"> <p>Atribua prioridade a esse problema. O intervalo de prioridade é de P1 (mais importante) a P4 (menos importante). </p> </td> 
+   <td colname="col2"> <p>Atribua uma prioridade ao problema. O intervalo de prioridade vai de P1 (mais importante) a P4 (menos importante). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Impacto nos negócios</b> </p> </td> 
-   <td colname="col2"> <p>Descreva como esse problema afeta sua empresa. Por exemplo, esse problema está causando perda de receita ou inutilizando o produto? Você tem trabalhado em torno desse problema? </p> </td> 
+   <td colname="col2"> <p>Descreva como esse problema afeta seus negócios. Por exemplo, esse problema está causando perda de receita ou inutilizando o produto? Você tem trabalhado com esse problema? </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Expectativas</b> </p> </td> 
@@ -77,7 +77,7 @@ Tenha as seguintes informações em mãos antes de entrar em contato conosco.
 
 ## Em caso de interrupção {#outage}
 
-If you suspect there is an outage, first check the [Experience Cloud System Status page](https://status.adobe.com) ( [!DNL https://status.adobe.com]) This has a record of all outages, incidents and maintenance for Experience Cloud Solutions, including Audience Manager, and includes latest updates from our Tech Ops team. Se precisar de mais ajuda, verifique seu conhecimento sobre os seguintes itens além das informações listadas abaixo ao entrar em contato com o Atendimento ao cliente:
+Se você suspeitar que haja uma interrupção, verifique primeiro a [página Status do Sistema da Experience Cloud](https://status.adobe.com) ([!DNL https://status.adobe.com]). Ela tem um registro de todas as interrupções, incidentes e manutenção das Soluções da Adobe Experience Cloud, incluindo o Audience Manager, e inclui as últimas atualizações da nossa equipe de Operações técnicas. Se precisar de mais ajuda, verifique seu conhecimento sobre os seguintes itens além das informações listadas abaixo ao entrar em contato com o Atendimento ao cliente:
 
 * O horário do início da interrupção
 * Explicação sobre o que está acontecendo
