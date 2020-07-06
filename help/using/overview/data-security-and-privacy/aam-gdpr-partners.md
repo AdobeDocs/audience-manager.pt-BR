@@ -1,25 +1,25 @@
 ---
-description: Esta página descreve as informações fornecidas diretamente pelos nossos parceiros, conforme elas se tornam disponíveis, juntamente com quaisquer implicações relacionadas à sua prática de Audience Manager. As principais implicações para os parceiros que efetuaram estas atualizações são o resultado do RGPD (Regulamento geral de proteção de dados), que entrou em vigor em 25 de maio de 2018 e do novo Quadro IAB de Transparência e Consentimento do RGPD (Quadro IAB).
-seo-description: Esta página descreve as informações fornecidas diretamente pelos nossos parceiros, conforme elas se tornam disponíveis, juntamente com quaisquer implicações relacionadas à sua prática de Audience Manager. As principais implicações para os parceiros que efetuaram estas atualizações são o resultado do RGPD (Regulamento geral de proteção de dados), que entrou em vigor em 25 de maio de 2018 e do novo Quadro IAB de Transparência e Consentimento do RGPD (Quadro IAB).
-seo-title: Considerações sobre RGPD para Destinos
+description: Esta página descreve as informações fornecidas diretamente pelos nossos parceiros, conforme elas ficam disponíveis, juntamente com qualquer implicação relacionada à prática do Audience Manager. As principais implicações para os parceiros que fizeram estas atualizações são o resultado do GDPR (Regulamento Geral sobre a Proteção de Dados), que entrou em vigor em 25 de maio de 2018 e da nova Estrutura de transparência e consentimento do RGPD do IAB (Estrutura do IAB).
+seo-description: Esta página descreve as informações fornecidas diretamente pelos nossos parceiros, conforme elas ficam disponíveis, juntamente com qualquer implicação relacionada à prática do Audience Manager. As principais implicações para os parceiros que fizeram estas atualizações são o resultado do GDPR (Regulamento Geral sobre a Proteção de Dados), que entrou em vigor em 25 de maio de 2018 e da nova Estrutura de transparência e consentimento do RGPD do IAB (Estrutura do IAB).
+seo-title: Considerações sobre o GDPR para destinos
 solution: Audience Manager
-title: Considerações sobre RGPD para Destinos
+title: Considerações sobre o GDPR para destinos
 uuid: e8a40060-086c-4f03-b48c-9c903acb7891
 feature: data governance & privacy
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '357'
-ht-degree: 0%
+ht-degree: 97%
 
 ---
 
 
-# Considerações sobre RGPD para Destinos{#gdpr-considerations-for-destinations}
+# Considerações sobre o GDPR para destinos {#gdpr-considerations-for-destinations}
 
-Esta página descreve as informações fornecidas diretamente pelos nossos parceiros, conforme elas se tornam disponíveis, juntamente com quaisquer implicações relacionadas à sua prática de Audience Manager. As principais implicações para os parceiros que efetuaram estas atualizações são o resultado do RGPD (Regulamento geral de proteção de dados), que entrou em vigor em 25 de maio de 2018 e do novo Quadro IAB de Transparência e Consentimento do RGPD (Quadro IAB).
+Esta página descreve as informações fornecidas diretamente pelos nossos parceiros, conforme elas ficam disponíveis, juntamente com qualquer implicação relacionada à prática do Audience Manager. As principais implicações para os parceiros que fizeram estas atualizações são o resultado do GDPR (Regulamento Geral sobre a Proteção de Dados), que entrou em vigor em 25 de maio de 2018 e da nova Estrutura de transparência e consentimento do RGPD do IAB (Estrutura do IAB).
 
-Os parceiros da Adobe são proprietários de seus processos de negócios e podem decidir atualizar seus requisitos de integração com o Audience Manager de tempos em tempos. Estamos trabalhando proativamente com nosso ecossistema de parceiros Audience Manager para manter nossos clientes informados sobre as mudanças.
+Os parceiros da Adobe são proprietários de seus processos comerciais e podem decidir atualizar seus requisitos de integração com o Audience Manager ocasionalmente. Estamos trabalhando proativamente com nosso ecossistema de parceiros do Audience Manager para manter nossos clientes informados sobre as mudanças.
 
 <!-- ## Audience Manager Partner Updates - ID Syncs {#partner-updates-id-syncs}
 
@@ -57,8 +57,8 @@ Some partners, as listed in the table below, have changed their integration requ
  </tbody> 
 </table> -->
 
-## Atualização da interface do usuário do Audience Manager - Integração Yahoo/Oath/DataX {#ui-update}
+## Audience Manager User Interface Update - Yahoo/Oath/DataX Integration {#ui-update}
 
-Além das atualizações à Estrutura IAB acima mencionadas, o Yahoo/Oath/DataX adicionou novos parâmetros, **gdpr** e **gdpr_mode**, às APIs de taxonomia e Audiência. Seus parâmetros informam ao Yahoo/Oath/DataX que eles têm os direitos de processar um determinado segmento como um Processador de dados ou como um Controlador de dados. Como resultado, os clientes do Audience Manager que enviam segmentos para um destino Yahoo/Oath/DataX devem designar o parâmetro apropriado (Processador ou Controlador), com base em seu acordo com Oath.
+Além das atualizações à Estrutura do IAB mencionadas acima, o Yahoo/Oath/DataX adicionou novos parâmetros, **gdpr** and **gdpr_mode**, às APIs de taxonomia e público-alvo. Seus parâmetros informam ao Yahoo/Oath/DataX que eles têm os direitos de processar um determinado segmento como um Processador de dados ou como um Controlador de dados. Como resultado, os clientes do Audience Manager que enviam segmentos para um destino Yahoo/Oath/DataX devem designar o parâmetro apropriado (Processador ou Controlador), com base no acordo feito com a Oath.
 
-Entre em contato com seu Consultor ou com o Client Care para definir o parâmetro correto. A Adobe não pode fazer esta atualização em nome de um cliente, a menos que recebamos correspondência por escrito, solicitando esta atualização. Entre em contato com seu representante do Yahoo/Oath/DataX para entender a definição completa desses parâmetros.
+Entre em contato com seu Consultor ou com o Atendimento ao cliente para definir o parâmetro correto. A Adobe não pode fazer esta atualização em nome de um cliente, a menos que recebamos uma autorização por escrito solicitando a atualização. Entre em contato com o representante do Yahoo/Oath/DataX para entender a definição completa desses parâmetros.
