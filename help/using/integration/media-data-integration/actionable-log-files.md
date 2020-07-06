@@ -8,10 +8,10 @@ title: Arquivo de registro acionável
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: d3fd387478ac00470537124110299cd264eac499
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 3%
+source-wordcount: '1376'
+ht-degree: 4%
 
 ---
 
@@ -153,7 +153,11 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 Para um arquivo de [!DNL DCM] log de tamanho médio de 2 milhões de linhas, quaisquer características criadas a partir de sinais acionáveis são realizadas aproximadamente uma hora após o processamento dos registros.
 
->[!NOTE] {important=&quot;high&quot;}
+<!--
+Removed  {importance="high"} for ExL
+-->
+
+>[!NOTE]
 >
 >O carimbo de data e hora do evento fornecido nos [!DNL DCM] logs será honrado e passado para o [!UICONTROL Data Collection Servers].
 >
@@ -299,6 +303,6 @@ Redirecione usuários que viram 123 criativos, mas não clicaram nem converteram
 
 >[!MORELIKETHIS]
 >
->* [Importar arquivos de dados do DCM para o Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
->* [Relatórios de otimização de Audiência](../../reporting/audience-optimization-reports/audience-optimization-reports.md)
+>* [Importação de arquivos de dados DCM para o Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+>* [Relatórios de otimização de público-alvo](../../reporting/audience-optimization-reports/audience-optimization-reports.md)
 
