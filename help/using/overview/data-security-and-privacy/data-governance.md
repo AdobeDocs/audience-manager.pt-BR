@@ -1,6 +1,6 @@
 ---
 description: Este documento explica como os dados do cliente são controlados no Audience Manager.
-seo-description: Este documento explica como os dados do cliente são governados no Audience Manager.
+seo-description: Este documento explica como os dados do cliente são controlados no Audience Manager.
 seo-title: Controle de dados
 solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy, consent, obfuscation, governance
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '458'
-ht-degree: 1%
+ht-degree: 96%
 
 ---
 
@@ -19,31 +19,31 @@ ht-degree: 1%
 
 ## Visão geral {#overview}
 
-O Data Governance no Audience Manager refere-se ao ciclo de vida dos dados do cliente no Audience Manager e abrange a [coleta e ofuscação de endereços](data-governance.md#collecting-ip-addresses)IP, retenção [de](data-governance.md#data-retention)dados e transferências [de dados](data-governance.md#data-transfers)transfronteiras.
+O controle de dados no Audience Manager refere-se ao ciclo de vida dos dados de seus clientes no Audience Manager e abrange [Coleta e ofuscação de endereços IP](data-governance.md#collecting-ip-addresses), [Retenção de dados](data-governance.md#data-retention) e [Transferências de dados entre fronteiras](data-governance.md#data-transfers).
 
-## Coletando Endereços IP e Ofuscação de Endereço IP {#collecting-ip-addresses}
+## Coleta e ofuscação de endereço IP {#collecting-ip-addresses}
 
-The [!DNL IP] address of a visitor to a customer’s website is transmitted to an Adobe [!DNL Data Processing Center] ([!DNL DPC]) where the [!DNL IP] address may be stored. Depending on the network configuration for the visitor, the [!DNL IP] address may not necessarily represent the [!DNL IP] address of the visitor’s computer. For example, the [!DNL IP] address could be the external [!DNL IP] address of a Network Address Translation (NAT) firewall, [!DNL HTTP] proxy, or Internet gateway.
+O endereço [!DNL IP] de um visitante do site de um cliente é transmitido a um [!DNL Data Processing Center] ([!DNL DPC]) da Adobe, onde o endereço [!DNL IP] pode ser armazenado. Dependendo da configuração de rede do visitante, o endereço [!DNL IP] não representa necessariamente o endereço [!DNL IP] do computador dele. Por exemplo, o endereço [!DNL IP] pode ser o endereço [!DNL IP] externo de um firewall NAT (Network Address Translation, tradução de endereço de rede), proxy [!DNL HTTP] ou gateway de Internet.
 
-**Metodologia de ofuscação de IP:** Seguindo os princípios de &quot;Privacidade por design&quot;, o Adobe Audience Manager permite que os clientes habilitem a [!DNL IP] ofuscação da interface do usuário, tanto globalmente em todas as regiões geográficas quanto para países específicos. Quando você habilita essa configuração, o último octeto (a última parte) do [!DNL IP] endereço é imediatamente descartado quando o [!DNL IP] endereço é ingerido no Audience Manager. O Audience Manager descarta essa parte do [!DNL IP] endereço antes do processamento (inclusive antes de qualquer pesquisa geográfica ou registro opcional do [!DNL IP] endereço). Por exemplo:
+**Metodologia de ofuscação de IP:** seguindo os princípios de &quot;Privacidade por design&quot;, o Adobe Audience Manager permite que os clientes habilitem a ofuscação de [!DNL IP] da interface do usuário, globalmente em todas as áreas geográficas ou em países específicos. Ao habilitar essa configuração, o último octeto (a última parte) do endereço [!DNL IP] é imediatamente descartado quando o endereço [!DNL IP] é assimilado no Audience Manager. O Audience Manager descarta essa parte do endereço [!DNL IP] antes do processamento (incluindo antes de qualquer pesquisa geográfica ou registro opcional do endereço [!DNL IP]). Por exemplo:
 
 * Antes: `255.255.255.255`
 * Depois: `255.255.255.0`
 
 >[!NOTE]
 >
->Consulte Ofuscação [de endereço](../../features/administration/ip-obfuscation.md) IP para saber como ativar a ofuscação de [!DNL IP] endereço na interface do usuário do Audience Manager.
+>See [IP Address Obfuscation](../../features/administration/ip-obfuscation.md) to learn how to enable [!DNL IP] address obfuscation in the Audience Manager user interface.
 
-Assista ao vídeo abaixo para entender como a ofuscação de [!DNL IP] endereços funciona no Audience Manager.
+Assista ao vídeo abaixo para entender como a ofuscação de endereços [!DNL IP] funciona no Audience Manager.
 
 >[!VIDEO](https://video.tv.adobe.com/v/27218/)
 
-**Segmentação geográfica:** Se você ativar a ofuscação de [!DNL IP] endereço, os octeto restantes do [!DNL IP] endereço ainda poderão ser usados para a segmentação geográfica e relatórios no Audience Manager. Se você não ativar a ofuscação de [!DNL IP] endereço, o Audience Manager usará o [!DNL IP] endereço completo. Você pode usar o recurso Segmentação geográfica que permite identificar um [!DNL IP] local por área geográfica em ambos os casos, mas com uma pequena perda de precisão quando a [!DNL IP] ofuscação está sendo usada. Obtaining city-level information will likely be significantly impacted by the obfuscation of the [!DNL IP] address. A obtenção de informações sobre a região e o nível do país só deve ser ligeiramente afetada. Os dados de Segmentação geográfica são granulares somente no nível da cidade ou no nível do código postal, e não no nível individual. Leia mais sobre a [geolocalização](../../features/traits/trait-geotarget-keys.md) e como configurar características com variáveis geográficas.
+**Segmentação geográfica:** se você ativar a ofuscação de endereço [!DNL IP], os octetos restantes do endereço [!DNL IP] ainda poderão ser usados para a segmentação geográfica e em relatórios no Audience Manager. Se você não ativar a ofuscação de endereço [!DNL IP], o Audience Manager usará o endereço [!DNL IP] completo. Você pode usar o recurso Segmentação geográfica que permite identificar um local [!DNL IP] por área geográfica em ambos os casos, mas com uma pequena perda de precisão quando a ofuscação de [!DNL IP] está sendo usada. A obtenção de informações do nível da cidade provavelmente será muito afeta pela ofuscação do endereço [!DNL IP]. A obtenção de informações do nível da região e do país será pouco afetada. Os dados de segmentação geográfica são granulares somente no nível da cidade ou no nível de código postal, e não no nível individual. Leia mais sobre [geolocalização](../../features/traits/trait-geotarget-keys.md) e como configurar características com variáveis geográficas.
 
 ## Retenção de dados no Audience Manager {#data-retention}
 
-A aplicação de políticas apropriadas, seguras e oportunas de retenção de dados aos seus dados é uma parte importante do cumprimento das regras de privacidade dos dados. Os clientes do Audience Manager têm a capacidade de definir períodos de retenção personalizados em características e segmentos definindo o TTL (tempo de vida) necessário. Consulte Perguntas frequentes sobre [retenção de](../../faq/faq-privacy.md) dados para obter mais detalhes sobre os períodos de retenção.
+A aplicação de políticas apropriadas, seguras e oportunas de retenção de dados é uma parte importante do cumprimento das regras de privacidade dos dados. Os clientes do Audience Manager podem definir períodos de retenção personalizados em características e segmentos definindo o TTL (tempo de vida útil) necessário. Consulte [Perguntas frequentes sobre retenção de dados](../../faq/faq-privacy.md) para obter mais detalhes sobre os períodos de retenção.
 
-## Transferências de dados transfronteiras {#data-transfers}
+## Transferências de dados entre fronteiras {#data-transfers}
 
-Quando a Audience Manager transfere dados pessoais de Clientes para além das fronteiras nacionais, a Audience Manager faz isso em conformidade com a legislação aplicável. Visite o Centro [de privacidade da](https://www.adobe.com/privacy/eudatatransfers.html) Adobe para saber mais.
+Quando transfere dados pessoais de clientes para além das fronteiras nacionais, o Audience Manager cumpre a legislação aplicável. Visite o [Centro de privacidade da Adobe](https://www.adobe.com/br/privacy/eudatatransfers.html) para obter mais informações.
