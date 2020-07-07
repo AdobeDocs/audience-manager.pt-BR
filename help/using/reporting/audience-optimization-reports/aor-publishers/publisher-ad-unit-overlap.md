@@ -1,21 +1,21 @@
 ---
 description: O relatório de sobreposição da unidade de publicidade é exibido como um gráfico de calor que destaca sobreposições elevadas e baixas entre as suas Unidades de publicidade.
 seo-description: O relatório de sobreposição da unidade de publicidade é exibido como um gráfico de calor que destaca sobreposições elevadas e baixas entre as suas Unidades de publicidade.
-seo-title: Sobreposição da unidade de publicidade
+seo-title: Sobreposição da unidade de anúncio
 solution: Audience Manager
-title: Sobreposição da unidade de publicidade
+title: Sobreposição da unidade de anúncio
 uuid: e4467e81-acbf-474e-b501-89d57395651f
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 0%
+source-wordcount: '432'
+ht-degree: 3%
 
 ---
 
 
-# Sobreposição da unidade de publicidade{#ad-unit-overlap}
+# Sobreposição da unidade de anúncio{#ad-unit-overlap}
 
 O **[!UICONTROL Ad Unit Overlap]** relatório é exibido como um gráfico de calor que destaca sobreposições elevadas e baixas entre as suas Unidades de publicidade.
 
@@ -33,7 +33,7 @@ Use os controles **[!UICONTROL Base Ad Unit]** e **[!UICONTROL Overlap Ad Unit]*
 
 >[!IMPORTANT]
 >
->Ao ativar [!UICONTROL Audience Optimization for Publishers], você deve incluir metadados descritivos para [!UICONTROL Ad Unit IDs], conforme descrito na Etapa 3 de [Importar arquivos de dados DFP para o Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ao fazer isso, você garante que o relatório detalhe a propriedade da Web como [!UICONTROL Ad Unit] não como [!UICONTROL Ad Unit ID].
+>Ao ativar [!UICONTROL Audience Optimization for Publishers], você deve incluir metadados descritivos para [!UICONTROL Ad Unit IDs], conforme descrito na Etapa 3 de [Importar arquivos de dados do Google Ad Manager (antigo DFP) para o Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ao fazer isso, você garante que o relatório detalhe a propriedade da Web como [!UICONTROL Ad Unit] não como [!UICONTROL Ad Unit ID].
 
 ## Interpretação dos resultados {#interpreting-results}
 
@@ -59,11 +59,11 @@ O seu [!UICONTROL Ad Unit Overlap] relatório pode ser semelhante ao que se segu
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Contagem exclusiva de unidade de publicidade sobreposta</span> </p> </td> 
-   <td colname="col2"> <p>O número de usuários que visitaram os itens da unidade de publicidade 9 a 18. Essas informações são extraídas dos registros DFP. </p> </td> 
+   <td colname="col2"> <p>O número de usuários que visitaram os itens da unidade de publicidade 9 a 18. Essas informações são extraídas dos registros do Google Ad Manager. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Contagem de únicos da unidade de anúncios base</span> </p> </td> 
-   <td colname="col2"> <p>O número de usuários que visitaram os itens da unidade de publicidade 1 a 8. Essas informações são extraídas dos registros DFP. </p> </td> 
+   <td colname="col2"> <p>O número de usuários que visitaram os itens da unidade de publicidade 1 a 8. Essas informações são extraídas dos registros do Google Ad Manager. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Contagem exclusiva de sobreposição</span> </p> </td> 
