@@ -8,10 +8,10 @@ uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP address; STFP IP address; FTP address
 feature: Administration
 translation-type: tm+mt
-source-git-commit: 27ce94084e35ffa770858027d12235ca9f1f8430
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 96%
+source-wordcount: '1066'
+ht-degree: 91%
 
 ---
 
@@ -136,9 +136,9 @@ Sim, o [!DNL Audience Manager] pode fornecer dados coletados para usuários que 
 
 <br> 
 
-**Quero coletar dados em um site e direcionar usuários por meio do DFP em um site diferente. Preciso implantar o código na outra propriedade se não quiser coletar dados desse local?**
+**[!DNL Google Ad Manager]Quero coletar dados em um site e direcionar usuários por meio do em um site diferente. Preciso implantar o código na outra propriedade se não quiser coletar dados desse local?**
 
-Não. Se a coleta de dados no segundo site não for um requisito, não será necessário implantar a DIL lá. Se você tiver acesso ao inventário no segundo site por meio do DFP, é possível usar a coleta de dados do site e direcionar por meio do DFP.
+Não. Se a coleta de dados no segundo site não for um requisito, não será necessário implantar a DIL lá. As long as you have access to the inventory on the second site via [!DNL Google Ad Manager], you can use the data collection from the initial site and target via [!DNL Google Ad Manager].
 
 <br> 
 
@@ -148,9 +148,9 @@ Cada provedor traz algo único para a tabela, então a resposta depende do que v
 
 <br> 
 
-**Como o [!DNL Audience Manager] define cookies e transmite variáveis para o DFP?**
+**Como o [!DNL Audience Manager] define cookies e transmite variáveis para o[!DNL Google Ad Manager]?**
 
-O [!DNL Audience Manager] define 2 cookies: um envia variáveis de segmento para a tag de anúncio do DFP e o outro define a ID de usuário exclusiva (UUID), que também é lida pelo DFP. Adicionar a UUID à tag de publicidade significa que podemos fazer relatórios no nível do usuário e descobrir públicos-alvo.
+[!DNL Audience Manager] define 2 cookies: Um envia variáveis de segmento para a tag de [!DNL Google Ad Manager] anúncio e o outro define a ID de usuário exclusiva (UUID), que também é lida por [!DNL Google Ad Manager]. Adicionar a UUID à tag de publicidade significa que podemos fazer relatórios no nível do usuário e descobrir públicos-alvo.
 
 <br> 
 
