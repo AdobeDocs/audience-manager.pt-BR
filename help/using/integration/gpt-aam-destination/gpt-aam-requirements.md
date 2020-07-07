@@ -1,23 +1,23 @@
 ---
-description: Você pode enviar segmentos qualificados para o DFP por meio de uma integração do lado do cliente ou do lado do servidor. Os requisitos e as informações relacionadas sobre ambos os métodos estão listados abaixo.
-seo-description: Você pode enviar segmentos qualificados para o DFP por meio de uma integração do lado do cliente ou do lado do servidor. Os requisitos e as informações relacionadas sobre ambos os métodos estão listados abaixo.
-seo-title: Requisitos e métodos de envio de segmentos para DFP usando Google Publisher Tags (GPT)
+description: Você pode enviar segmentos qualificados para o Google Ad Manager por meio de uma integração do cliente ou do servidor. Os requisitos e as informações relacionadas sobre ambos os métodos estão listados abaixo.
+seo-description: Você pode enviar segmentos qualificados para o Google Ad Manager por meio de uma integração do cliente ou do servidor. Os requisitos e as informações relacionadas sobre ambos os métodos estão listados abaixo.
+seo-title: Requisitos e métodos de envio de segmentos ao Google Ad Manager usando Google Publisher Tags (GPT)
 solution: Audience Manager
-title: Requisitos e métodos de envio de segmentos para DFP usando Google Publisher Tags (GPT)
+title: Requisitos e métodos de envio de segmentos ao Google Ad Manager usando Google Publisher Tags (GPT)
 uuid: 4b2ea81c-29bb-42d3-93d3-1d8e677790b6
 feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 7%
+source-wordcount: '524'
+ht-degree: 0%
 
 ---
 
 
-# Requisitos e métodos de envio de segmentos para DFP usando Google Publisher Tags (GPT) {#requirements-and-methods-of-sending-segments-to-dfp-using-google-publisher-tags-gpt}
+# Requirements and Methods of Sending Segments to Google Ad Manager Using Google Publisher Tags ( GPT) {#requirements-and-methods-of-sending-segments-to-dfp-using-google-publisher-tags-gpt}
 
-É possível enviar segmentos qualificados para [!DNL DFP] o cliente por meio de uma integração do lado do servidor. Os requisitos e as informações relacionadas sobre ambos os métodos estão listados abaixo.
+Você pode enviar segmentos qualificados para [!DNL Google Ad Manager] (antigo DFP) por meio de uma integração do cliente ou do servidor. Os requisitos e as informações relacionadas sobre ambos os métodos estão listados abaixo.
 
 ## Integração do cliente {#client-side-integration}
 
@@ -47,7 +47,7 @@ A quantidade de dados transmitida depende de quantos segmentos um usuário espec
 
 ## Integração do servidor {#server-side-integration}
 
-Entre em contato com seu consultor de Audience Manager ou com o Atendimento ao cliente se desejar configurar uma integração do lado do servidor com [!DNL DFP]o [!DNL GPT]. Será necessário fornecer a ID de rede e a ID de link de Audiência da sua [!DNL DFP] conta.
+Entre em contato com seu consultor de Audience Manager ou com o Atendimento ao cliente se desejar configurar uma integração do lado do servidor com [!DNL Google Ad Manager]o [!DNL GPT]. Será necessário fornecer a ID de rede e a ID de link de Audiência da sua [!DNL Google Ad Manager] conta.
 
 >[!IMPORTANT]
 >
