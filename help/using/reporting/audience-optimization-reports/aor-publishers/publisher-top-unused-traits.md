@@ -7,10 +7,10 @@ title: Características principais não usadas
 uuid: 90bcd333-41b8-416e-aa4e-a8661891df50
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 0%
+source-wordcount: '647'
+ht-degree: 2%
 
 ---
 
@@ -39,7 +39,7 @@ Use a caixa **[!UICONTROL Traits]** suspensa para selecionar quais característi
 
 >[!IMPORTANT]
 >
->Ao ativar [!UICONTROL Audience Optimization for Publishers], você deve incluir metadados descritivos para [!UICONTROL Order IDs], conforme descrito na Etapa 3 de [Importar arquivos de dados DFP para o Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ao fazer isso, você garante que o relatório detalhe a propriedade da Web como [!UICONTROL Order] não como [!UICONTROL Order ID].
+>Ao ativar [!UICONTROL Audience Optimization for Publishers], você deve incluir metadados descritivos para [!UICONTROL Order IDs], conforme descrito na Etapa 3 de [Importar arquivos de dados do Google Ad Manager (antigo DFP) para o Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ao fazer isso, você garante que o relatório detalhe a propriedade da Web como [!UICONTROL Order] não como [!UICONTROL Order ID].
 
 ## Interpretação dos resultados {#interpreting-results}
 
@@ -90,7 +90,7 @@ Consulte descrições para obter as informações adicionais na tabela abaixo do
 
 A posição de suas características em um relatório pode informar muito sobre quais características você pode usar para otimizar segmentos de audiência existentes.
 
-As características situadas acima no eixo Impressões são aquelas que você deseja usar em suas campanhas. Para características com um número baixo de impressões, é improvável que você esteja atingindo essa audiência em sua propriedade da Web, com base nos dados do DFP.
+As características situadas acima no eixo Impressões são aquelas que você deseja usar em suas campanhas. Para características com um número baixo de impressões, é improvável que você esteja atingindo essa audiência em sua propriedade da Web, com base em seus [!DNL Google Ad Manager] dados.
 
 À esquerda do [!UICONTROL Unique Trait Realizations] eixo, procure traços altamente precisos e à direita por traços que possam impulsionar a escala.
 
