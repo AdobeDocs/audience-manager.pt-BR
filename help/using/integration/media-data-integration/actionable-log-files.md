@@ -8,9 +8,9 @@ title: Arquivo de registro acionável
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 translation-type: tm+mt
-source-git-commit: d3fd387478ac00470537124110299cd264eac499
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1597'
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 4%
 Para começar a usar [!UICONTROL Actionable Log Files], é necessário importar dados de log para [!DNL Audience Manager]. Os links a seguir ajudarão você a começar:
 
 * Para obter [!UICONTROL Google DCM] registros, consulte [Importar arquivos de dados do DCM para o Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *e entre* em contato com seu [!DNL Audience Manager] consultor.
-* Para obter [!UICONTROL Google DFP] registros, consulte [Importar arquivos de dados DFP para o Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) *e entre* em contato com seu [!DNL Audience Manager] consultor.
+* Para obter registros [!UICONTROL Google Ad Manager] (antigo Google DFP), consulte [Importar arquivos de dados DFP para o Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) *e entre* em contato com seu [!DNL Audience Manager] consultor.
 * Para outros logs de servidor de publicidade, consulte Arquivos [de dados e metadados](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) e *entre em contato com seu* [!DNL Audience Manager] consultor.
 
 Se você já estiver importando dados de log para [!DNL Audience Manager], peça a seu [!DNL Audience Manager] consultor ou ao [Atendimento](https://helpx.adobe.com/br/contact/enterprise-support.ec.html) ao cliente para habilitá-los [!UICONTROL Actionable Log Files] para você.
@@ -163,6 +163,35 @@ Removed  {importance="high"} for ExL
 >
 >* Se um carimbo de data e hora não estiver disponível para uma linha de dados no arquivo de [!DNL DCM] log, usamos o horário da `HTTP` chamada como carimbo de data e hora do evento.
 >* Se a linha de dados no arquivo de [!DNL DCM] log contiver um carimbo de data e hora malformado, ignoraremos a linha inteira.
+
+
+<br> 
+
+### Sinais acionáveis de [!DNL Google Ad Manager] registros {#ad-manager-logs-signals}
+
+A tabela lista os sinais acionáveis dos arquivos de [!DNL Google Ad Manager] registro:
+
+
+| Nome do cabeçalho no arquivo de log | Sinal | Descrição |
+---------|----------|---------
+| `LineItemId` | `d_lineitem` | A ID numérica do item de linha do Gerenciador de publicidade entregue |
+| `OrderId` | `d_orderid` | A ID numérica do pedido do Gerenciador de publicidade que continha o item de linha e o anúncio fornecidos. |
+| `CreativeId` | `d_creative` | A ID numérica do anúncio do Ad Manager. |
+| `-` | `d_event` | Indica o tipo de evento. O Audience Manager lê o tipo de evento do nome do arquivo de log do Gerenciador de publicidade e o transforma em um sinal acionável. Os valores aceitos são: <br> <ul><li>d_evento = imp para impressões.</li><li>d_evento = clique para clicar.</li><li>d_evento = conversão para conversões e atividades.</li></ul> |
+| `-` | `d_src` | A ID da fonte de dados usada para capturar os dados do Gerenciador de publicidade. Consulte [Como criar uma fonte](/help/using/features/manage-datasources.md)de dados. |
+
+Os sinais descritos na tabela são capturados em Audience Manager como uma chamada HTTP em tempo real. A chamada de exemplo abaixo contém informações sobre um evento de conversão do Google Ad Manager. As chamadas não precisam necessariamente incluir todos os sinais na chamada de exemplo.
+
+```
+https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_event=conv&d_lineitem=112&d_orderid=22223&d_creative=3983524
+```
+
+>[!NOTE]
+>
+>O carimbo de data e hora do evento fornecido nos [!DNL Google Ad Manager] logs será honrado e passado para o [!UICONTROL Data Collection Servers].
+>
+>* Se um carimbo de data e hora não estiver disponível para uma linha de dados no arquivo de [!DNL Google Ad Manager] log, usamos o horário da `HTTP` chamada como carimbo de data e hora do evento.
+>* Se a linha de dados no arquivo de [!DNL Google Ad Manager] log contiver um carimbo de data e hora malformado, ignoraremos a linha inteira.
 
 
 <br> 
