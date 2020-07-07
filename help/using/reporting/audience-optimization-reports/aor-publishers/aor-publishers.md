@@ -1,31 +1,31 @@
 ---
 description: A otimização de público-alvo para editores pode ajudá-lo a identificar oportunidades potenciais de desempenho para os segmentos do Audience Manager no seu conteúdo próprio ou explorado. Esses relatórios combinam dados de desempenho de campanha em nível de log com métricas de Audience Manager para informar otimizações de audiência e oportunidades de monetização.
 seo-description: A otimização de público-alvo para editores pode ajudá-lo a identificar oportunidades potenciais de desempenho para os segmentos do Audience Manager no seu conteúdo próprio ou explorado. Esses relatórios combinam dados de desempenho de campanha em nível de log com métricas de Audience Manager para informar otimizações de audiência e oportunidades de monetização.
-seo-title: Otimização do Audience para editores
+seo-title: Otimização de público-alvo para editores
 solution: Audience Manager
-title: Otimização do Audience para editores
+title: Otimização de público-alvo para editores
 uuid: 8425e237-ec52-4615-bb00-84ece4ebffe1
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 29%
+source-wordcount: '274'
+ht-degree: 36%
 
 ---
 
 
-# Otimização do Audience para editores{#audience-optimization-for-publishers}
+# Otimização de público-alvo para editores{#audience-optimization-for-publishers}
 
 A otimização de público-alvo para editores pode ajudá-lo a identificar oportunidades potenciais de desempenho para os segmentos do Audience Manager no seu conteúdo próprio ou explorado. Esses relatórios combinam dados de desempenho de campanha em nível de log com métricas de Audience Manager para informar otimizações de audiência e oportunidades de monetização.
 
 ## Visão geral {#aor-overview}
 
-[!UICONTROL Audience Optimization for Publishers] justapõe dados de desempenho de campanha em nível de log [!UICONTROL DFP] com as métricas de [!DNL Audience Manager] segmento. Os relatórios estão disponíveis para clientes que configuraram a ingestão de registro de [!UICONTROL DFP] para [!DNL Audience Manager]. Se ainda não tiver configurado a ingestão de registro, leia [Importar arquivos de dados DFP para o Audience Manager](import-dfp.md) para obter informações sobre como fazer isso.
+[!UICONTROL Audience Optimization for Publishers] justapõe dados de desempenho de campanha em nível de log [!DNL Google Ad Manager] com as métricas de [!DNL Audience Manager] segmento. Os relatórios estão disponíveis para clientes que configuraram a ingestão de log [!DNL Google Ad Manager]para [!DNL Audience Manager]. Se ainda não tiver configurado a ingestão de registro, leia [Importar arquivos de dados do Google Ad Manager para o Audience Manager](import-dfp.md) para obter informações sobre como fazer isso.
 
 ## Metadados {#metadata}
 
-As informações de desempenho exibidas nos relatórios são importadas da sua [!UICONTROL DFP] instância. Você deve enviar arquivos de metadados para que possamos adicionar nomes descritivos e amigáveis aos seus itens nos relatórios, em vez de IDs. A Etapa 3 em [Importar arquivos de dados DFP para o Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md) descreve como enviar os metadados.
+As informações de desempenho exibidas nos relatórios são importadas da sua [!DNL Google Ad Manager] instância. Você deve enviar arquivos de metadados para que possamos adicionar nomes descritivos e amigáveis aos seus itens nos relatórios, em vez de IDs. A Etapa 3 em [Importar arquivos de dados do Google Ad Manager para o Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md) descreve como enviar os metadados.
 
 ## Relatórios disponíveis {#available-reports}
 
@@ -34,6 +34,6 @@ As informações de desempenho exibidas nos relatórios são importadas da sua [
 + [Relatório de desempenho do segmento](publisher-segment-performance.md)
 + [Relatório de tendência do segmento](publisher-segment-trends.md)
 + [Características principais não usadas](publisher-top-unused-traits.md)
-+ [Sobreposição da unidade de publicidade](publisher-ad-unit-overlap.md)
-+ [Segmentar para sobreposição de unidade de publicidade](publisher-segment-ad-unit-overlap.md)
++ [Sobreposição da unidade de anúncio](publisher-ad-unit-overlap.md)
++ [Segmentar para sobreposição de unidade de anúncio](publisher-segment-ad-unit-overlap.md)
 + [Alcance único do usuário](publisher-unique-reach.md)
