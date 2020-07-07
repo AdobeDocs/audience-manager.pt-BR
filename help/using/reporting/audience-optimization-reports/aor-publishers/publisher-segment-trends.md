@@ -7,10 +7,10 @@ title: Relatório de tendência do segmento
 uuid: f84e8d0a-74e5-430c-b61c-efb696faee93
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 1%
+source-wordcount: '609'
+ht-degree: 3%
 
 ---
 
@@ -45,7 +45,7 @@ Use a caixa **[!UICONTROL Segment]** suspensa para selecionar quais segmentos vo
 
 >[!IMPORTANT]
 >
->Ao ativar [!UICONTROL Audience Optimization for Publishers], você deve incluir metadados descritivos para [!UICONTROL Line Item] IDs, conforme descrito na Etapa 3 de [Importar arquivos de dados DFP para o Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ao fazer isso, você garante que o relatório detalhe a propriedade da Web [!UICONTROL Line Item] em vez da [!UICONTROL Line Item] ID.
+>Ao ativar [!UICONTROL Audience Optimization for Publishers], você deve incluir metadados descritivos para [!UICONTROL Line Item] IDs, conforme descrito na Etapa 3 de [Importar arquivos de dados do Google Ad Manager (antigo DFP) para o Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ao fazer isso, você garante que o relatório detalhe a propriedade da Web [!UICONTROL Line Item] em vez da [!UICONTROL Line Item] ID.
 
 ## Interpretação dos resultados {#interpreting-results}
 
