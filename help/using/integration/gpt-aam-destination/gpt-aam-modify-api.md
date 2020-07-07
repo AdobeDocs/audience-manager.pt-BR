@@ -7,15 +7,15 @@ title: Modificar a chamada da API setTargeting GPT
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
 feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
 
-# Modificar a chamada de API GPT `setTargeting` {#modify-the-gpt-settargeting-api-call}
+# Modify the GPT `setTargeting` API Call {#modify-the-gpt-settargeting-api-call}
 
 Adicione uma declaração if para verificar os cookies de Audience Manager antes de chamar o [!DNL Google Publisher Tag] `.setTargeting` método.
 
@@ -38,11 +38,11 @@ if(typeof AamGpt.getCookie("aam_uuid") != "undefined" ){
 
 >[!IMPORTANT]
 >
->Dependendo de como você deseja se integrar com [!DNL DFP], você só precisa de algumas das linhas na amostra de código acima:
+>Dependendo de como você deseja se integrar com [!DNL Google Ad Manager], você só precisa de algumas das linhas na amostra de código acima:
 >
 >* Integração do cliente: use somente as linhas 1 a 3.
 >* Integração do servidor: nenhuma das linhas é necessária.
->* Ingest [!DNL DFP] arquivos de registro para relatórios em [!DNL Audience Manager]: use somente as linhas 4-6. Esse código insere o valor do `aam_uuid` cookie nos registros para que eles possam ser assimilados para o relatórios.
+>* Ingest [!DNL Google Ad Manager] arquivos de registro para relatórios em [!DNL Audience Manager]: use somente as linhas 4-6. Esse código insere o valor do `aam_uuid` cookie nos registros para que eles possam ser assimilados para o relatórios.
 
 
 ### `AamGpt` Funções e tipos de dados
@@ -78,6 +78,6 @@ Define as variáveis principais usadas na `if` instrução.
 
 >[!MORELIKETHIS]
 >
->* [Criar um destino GPT](../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
->* [Código de Audience Manager para tags do Google Publisher](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
+>* [Criar um destino com GPT](../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
+>* [Código do Audience Manager para Tags do Google Publisher](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
 
