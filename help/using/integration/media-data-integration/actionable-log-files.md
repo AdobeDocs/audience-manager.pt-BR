@@ -8,10 +8,10 @@ title: Arquivo de registro acionável
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 translation-type: tm+mt
-source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
+source-git-commit: 86b328a186c5e864a080848cb022ecb1971595db
 workflow-type: tm+mt
-source-wordcount: '1597'
-ht-degree: 4%
+source-wordcount: '1574'
+ht-degree: 3%
 
 ---
 
@@ -33,14 +33,18 @@ ht-degree: 4%
 Para começar a usar [!UICONTROL Actionable Log Files], é necessário importar dados de log para [!DNL Audience Manager]. Os links a seguir ajudarão você a começar:
 
 * Para obter [!UICONTROL Google DCM] registros, consulte [Importar arquivos de dados do DCM para o Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *e entre* em contato com seu [!DNL Audience Manager] consultor.
-* Para obter registros [!UICONTROL Google Ad Manager] (antigo Google DFP), consulte [Importar arquivos de dados DFP para o Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) *e entre* em contato com seu [!DNL Audience Manager] consultor.
+* Para obter registros [!UICONTROL Google Ad Manager] (antigo Google DFP), consulte [Importar arquivos de dados do Google Ad Manager para o Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) *e entre* em contato com seu [!DNL Audience Manager] consultor.
 * Para outros logs de servidor de publicidade, consulte Arquivos [de dados e metadados](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) e *entre em contato com seu* [!DNL Audience Manager] consultor.
 
 Se você já estiver importando dados de log para [!DNL Audience Manager], peça a seu [!DNL Audience Manager] consultor ou ao [Atendimento](https://helpx.adobe.com/br/contact/enterprise-support.ec.html) ao cliente para habilitá-los [!UICONTROL Actionable Log Files] para você.
 
+<!--
+
 >[!IMPORTANT]
 >
-> No final de 2019, [!UICONTROL Actionable Log Files] começou a expandir a disponibilidade para novos servidores de anúncios. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/br/contact/enterprise-support.ec.html) to get started.
+> At the end of 2019, [!UICONTROL Actionable Log Files] began to expand availability to new ad servers. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to get started.
+
+-->
 
 ## Trabalhar com arquivos de registro acionáveis {#working-with-actionable-log-files}
 
