@@ -1,27 +1,27 @@
 ---
-description: Você pode enviar segmentos qualificados para o DFP por meio de uma integração do lado do cliente (navegador) ou de uma integração do lado do servidor. Se você escolher a integração do cliente, deverá criar um destino baseado em cookies para as Tags do Google Publisher no Audience Manager.
-seo-description: Você pode enviar segmentos qualificados para o DFP por meio de uma integração do lado do cliente (navegador) ou de uma integração do lado do servidor. Se você escolher a integração do cliente, deverá criar um destino baseado em cookies para as Tags do Google Publisher no Audience Manager.
-seo-title: Criar um destino GPT
+description: Você pode enviar segmentos qualificados para o Google Ad Manager por meio de uma integração do lado do cliente (navegador) ou de uma integração do lado do servidor. Se você escolher a integração do cliente, deverá criar um destino baseado em cookies para as Tags do Google Publisher no Audience Manager.
+seo-description: Você pode enviar segmentos qualificados para o Google Ad Manager por meio de uma integração do lado do cliente (navegador) ou de uma integração do lado do servidor. Se você escolher a integração do cliente, deverá criar um destino baseado em cookies para as Tags do Google Publisher no Audience Manager.
+seo-title: Criar um destino com GPT
 solution: Audience Manager
-title: Criar um destino GPT
+title: Criar um destino com GPT
 uuid: e3bbf327-a7e0-48da-bc84-8f531b7f6750
 feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 1%
+source-wordcount: '323'
+ht-degree: 7%
 
 ---
 
 
-# Criar um destino GPT {#create-a-gpt-destination}
+# Criar um destino com GPT {#create-a-gpt-destination}
 
-Você pode enviar segmentos qualificados para [!DNL DFP] o cliente por meio de uma integração do lado do cliente (navegador) ou de uma integração do lado do servidor. Se você escolher a integração do lado do cliente, deverá criar um destino baseado em cookies para o [!DNL Google Publisher Tags] Audience Manager.
+Você pode enviar segmentos qualificados para [!DNL Google Ad Manager] o cliente por meio de uma integração do lado do cliente (navegador) ou de uma integração do lado do servidor. Se você escolher a integração do lado do cliente, deverá criar um destino baseado em cookies para o [!DNL Google Publisher Tags] Audience Manager.
 
 ## Destinos 
 
-No Audience Manager, um *`destination`* é qualquer outro sistema (servidor de anúncios, [!DNL DSP]rede de anúncios etc.) com os quais você deseja compartilhar dados. [!UICONTROL Destination Builder] fornece as ferramentas que permitem criar e gerenciar esses processos de delivery de dados. Os recursos de destino do Audience Manager estão localizados em *[!UICONTROL Audience Data]>[!UICONTROL Destinations]*. Para começar, clique **[!UICONTROL Add New Destination]**e siga as etapas abaixo.
+No Audience Manager, um *`destination`* é qualquer outro sistema (servidor de anúncios, [!DNL DSP]rede de anúncios etc.) com o qual você deseja compartilhar dados. [!UICONTROL Destination Builder] fornece as ferramentas que permitem criar e gerenciar esses processos de delivery de dados. Os recursos de destino do Audience Manager estão localizados em *[!UICONTROL Audience Data]>[!UICONTROL Destinations]*. Para começar, clique **[!UICONTROL Add New Destination]**e siga as etapas abaixo.
 
 ## Informações básicas
 
