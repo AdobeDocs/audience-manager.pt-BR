@@ -7,9 +7,9 @@ title: Conversão entre canais
 uuid: 0fecec23-e502-490b-b7dd-47a3753a3f75
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 97129b435ab8e13def14bc85dcaab8254b2c4bda
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '262'
 ht-degree: 4%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 4%
 
 A opção Conversão entre Canais nos relatórios de Otimização de Audiência permite que você atribua conversões offline a impressões ou cliques online oferecidos.
 
-Os [!UICONTROL Cross Channel Conversion] relatórios combinam os resultados da plataforma [!DNL DoubleClick Campaign Manager] (DCM) com as características de [!DNL Audience Manager] conversão. Isso permite vincular conversões offline a impressões ou cliques online.
+Os [!UICONTROL Cross Channel Conversion] relatórios combinam os resultados da [!DNL Google Campaign Manager] plataforma com características [!DNL Audience Manager] de conversão. Isso permite vincular conversões offline a impressões ou cliques online.
 
 Você pode usar o [!UICONTROL Cross Channel Conversion] para os relatórios Desempenho [do](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) segmento e Frequência [](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md) ideal.
 
-Para visualização dos [!UICONTROL Cross Channel Conversion] relatórios, selecione o **[!UICONTROL AAM+DCM]** item na lista **[!UICONTROL Platform]** suspensa.
+Para visualização dos [!UICONTROL Cross Channel Conversion] relatórios, selecione o **[!UICONTROL AAM + Ad Server Name]** item na lista **[!UICONTROL Platform]** suspensa.
 
 A tabela a seguir lista considerações importantes ao configurar [!UICONTROL Cross Channel Conversion]:
 
@@ -41,7 +41,7 @@ A tabela a seguir lista considerações importantes ao configurar [!UICONTROL Cr
   </tr>
   <tr> 
    <td> <p>Janela de atribuição </p> </td> 
-   <td> <p> <b><span class="uicontrol"> A janela de atribuição AAM+DCM</span></b> é de 14 dias, o que significa que somente as características de conversão exibidas nas últimas duas semanas são consideradas. </p> </td> 
+   <td> <p> <b><span class="uicontrol"> A janela de atribuição do AAM+Google Campaign Manager</span></b> é de 14 dias, o que significa que somente as características de conversão exibidas nas últimas duas semanas são consideradas. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Metodologia de último toque </p> </td> 
