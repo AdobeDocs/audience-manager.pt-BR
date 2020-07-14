@@ -7,15 +7,15 @@ title: Solicitações HTTP(S) Assinadas Digitalmente
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
 feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 4877aa5391193ee2187609fdc9cb3740c91feb96
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
 
 
-# Solicitações Assinadas Digitalmente `HTTP(S)` {#digitally-signed-http-requests}
+# Digitally Signed `HTTP(S)` Requests {#digitally-signed-http-requests}
 
 O Audience Manager exige que as solicitações de servidor para servidor sejam assinadas digitalmente para validade. `HTTP(S)` Este documento descreve como você pode assinar `HTTP(S)` solicitações com chaves privadas.
 
@@ -90,10 +90,7 @@ A RFC para a implementação de [!DNL HMAC] hash é [https://www.ietf.org/rfc/rf
 
 ## Girar a chave privada {#rotate-private-key}
 
-Por motivos de segurança, é recomendável girar periodicamente a chave privada. Cabe a você decidir a chave privada e o período de rotação. Para obter a rotação da chave com tempo de inatividade zero, [!UICONTROL IRIS] é possível adicionar vários cabeçalhos de assinatura. Um cabeçalho conterá a assinatura gerada com a chave antiga, outro cabeçalho conterá a assinatura gerada usando a nova chave privada. Veja abaixo as etapas em detalhes:
-
-1. O parceiro comunica a nova chave privada para [!DNL Adobe Audience Manager].
-1. A chave antiga é removida [!DNL Audience Manager] e [!UICONTROL IRIS] envia somente o novo cabeçalho de assinatura. As teclas foram giradas.
+Para girar a chave privada, os parceiros devem comunicar a nova chave privada ao seu [!DNL Adobe Audience Manager] consultor. A chave antiga é removida [!DNL Audience Manager] e [!UICONTROL IRIS] envia somente o novo cabeçalho de assinatura. As teclas foram giradas.
 
 ## Dados usados para assinar {#data-signing}
 
