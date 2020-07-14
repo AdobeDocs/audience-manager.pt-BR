@@ -1,16 +1,16 @@
 ---
 description: É possível capturar dados de campanhas de mídia usando chamadas de pixel para o Audience Manager (geralmente chamado de pixeling the creative) ou ingerindo arquivos de registro.
 seo-description: É possível capturar dados de campanhas de mídia usando chamadas de pixel para o Audience Manager (geralmente chamado de pixeling the creative) ou ingerindo arquivos de registro.
-seo-title: Integração de dados de mídia
+seo-title: 'Integração de dados de mídia '
 solution: Audience Manager
-title: Integração de dados de mídia
+title: 'Integração de dados de mídia '
 uuid: 6f6bbd03-084b-4226-8809-3b00b467606f
 feature: Integration with Campaign
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 3c70178dc1a020545793ea7facc70e34d23543fa
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 9%
+source-wordcount: '146'
+ht-degree: 17%
 
 ---
 
@@ -23,4 +23,10 @@ ht-degree: 9%
 
 * [Arquivo de registro acionável](/help/using/integration/media-data-integration/actionable-log-files.md)
 * [Captura de dados de impressão da campanha via Pixel Calls](/help/using/integration/media-data-integration/impression-data-pixels.md)
-* [Captura de dados de clique de Campanha por meio de chamadas de pixels](/help/using/integration/media-data-integration/click-data-pixels.md)
+* [Captura de dados de cliques da campanha via Pixel Calls](/help/using/integration/media-data-integration/click-data-pixels.md)
+
+Para configurar a ingestão de registro, leia os seguintes artigos:
+
+* [Importar arquivos de dados do Google Campaign Manager para o Audience Manager](/help/using/reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+* [Importar arquivos de dados do Google Ad Manager para o Audience Manager ](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
+* [Registrar arquivos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) de dados e metadados para configurar a ingestão de registro para arquivos de registro genéricos
