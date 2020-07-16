@@ -1,15 +1,15 @@
 ---
 description: Informações sobre requisitos gerais, autenticação, parâmetros opcionais de query, URLs de solicitação e outras referências.
 seo-description: Informações sobre requisitos gerais, autenticação, parâmetros opcionais de query, URLs de solicitação e outras referências.
-seo-title: Introdução às APIs REST
+seo-title: Introdução às REST APIs
 solution: Audience Manager
-title: Introdução às APIs REST
+title: Introdução às REST APIs
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 feature: API
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 0fd2b2a58274199ecc2fd58738113165c804ceb8
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1854'
 ht-degree: 2%
 
 ---
@@ -40,22 +40,28 @@ Observe o seguinte ao trabalhar com o código da API [](https://bank.demdex.com/
 
 O [!DNL Audience Manager] [!DNL REST APIs] suporta dois métodos de autenticação.
 
-* [Autenticação](#jwt)JWT (Conta de Serviço). Este é o método de autenticação recomendado.
+* [Autenticação](#jwt) JWT (Conta de serviço) usando E/S [da Adobe](https://www.adobe.io/). [!DNL Adobe I/O] é o ecossistema e a comunidade de desenvolvedores da Adobe. Ele inclui as ferramentas do desenvolvedor de E/S da [Adobe e APIs](https://www.adobe.io/apis/experienceplatform.html) e [APIs para todos os produtos](https://www.adobe.io/apis.html)da Adobe. Essa é a maneira recomendada de configurar e usar [!DNL Adobe][!DNL APIs].
 * [Autenticação OAuth (obsoleta)](#oauth). Embora esse método esteja obsoleto, os clientes com [!DNL OAuth] integrações existentes podem continuar usando esse método.
 
 >[!IMPORTANT]
 >
 >Dependendo do método de autenticação, é necessário ajustar a solicitação [!DNL URLs] de acordo. Consulte a seção [Ambientes](#environments) para obter detalhes sobre os nomes de host que você deve usar.
 
-## [!DNL JWT] ([!DNL Service Account]) Autenticação {#jwt}
+## [!DNL JWT] ([!DNL Service Account]) Autenticação usando E/S da Adobe {#jwt}
+
+### Visão geral de E/S da Adobe {#adobeio}
+
+[!DNL Adobe I/O] é o ecossistema e a comunidade de desenvolvedores da Adobe. Ele inclui as ferramentas do desenvolvedor de E/S da [Adobe e APIs](https://www.adobe.io/apis/experienceplatform.html) e [APIs para todos os produtos](https://www.adobe.io/apis.html)da Adobe.
+
+Essa é a maneira recomendada de configurar e usar [!DNL Adobe][!DNL APIs].
 
 ### Pré-requisitos {#prerequisites}
 
-Antes de configurar a [!DNL JWT] autenticação, verifique se você tem acesso ao [Adobe Developer Console](https://console.adobe.io/). Entre em contato com o administrador da organização para obter informações sobre solicitações de acesso.
+Antes de configurar a [!DNL JWT] autenticação, verifique se você tem acesso ao [Adobe Developer Console](https://console.adobe.io/) em E/S [da Adobe](https://www.adobe.io/). Entre em contato com o administrador da organização para obter informações sobre solicitações de acesso.
 
 ### Autenticação
 
-Siga as etapas abaixo para configurar a [!DNL JWT (Service Account)] autenticação:
+Siga as etapas abaixo para configurar a [!DNL JWT (Service Account)] autenticação usando [!DNL Adobe I/O]:
 
 1. Faça logon no [Adobe Developer Console](https://console.adobe.io/).
 1. Siga as etapas em [Service Account Connection (Conexão](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)de conta de serviço).
