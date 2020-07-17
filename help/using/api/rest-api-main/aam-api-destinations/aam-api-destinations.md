@@ -1,16 +1,16 @@
 ---
 description: Métodos que permitem trabalhar programaticamente com recursos de destino.
 seo-description: Métodos que permitem trabalhar programaticamente com recursos de destino.
-seo-title: Métodos da API de destino
+seo-title: 'Métodos da API de destino '
 solution: Audience Manager
-title: Métodos da API de destino
+title: 'Métodos da API de destino '
 uuid: 048bcdb9-2b31-46f4-8b80-4ba25bf06640
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
@@ -21,7 +21,7 @@ Métodos que permitem trabalhar programaticamente com recursos de destino.
 
 <!-- c_destinations_api.xml -->
 
-No Audience Manager, o destino é qualquer outro sistema (servidor de anúncios, rede de anúncios, troca, cookie próprio, etc.) [!DNL DSP] com os quais você deseja compartilhar dados.
+No Audience Manager, o destino é qualquer outro sistema (servidor de anúncios, rede de anúncios, troca, cookie próprio, etc.) [!DNL DSP] com o qual você deseja compartilhar dados.
 
 ## Tipos de Destino: URL e cookie {#destination-types}
 
