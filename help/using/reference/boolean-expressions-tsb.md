@@ -1,21 +1,21 @@
 ---
 description: Este artigo explica como as ferramentas de segmento e característica Audience Manager usam expressões Booleanas E, OU e NÃO.
 seo-description: Este artigo explica como as ferramentas de segmento e característica Audience Manager usam expressões Booleanas E, OU e NÃO.
-seo-title: Expressões booleanas no Construtor de traços e segmentos
+seo-title: Expressões booleanas no Construtor de características e segmentos
 solution: Audience Manager
-title: Expressões booleanas no Construtor de traços e segmentos
+title: Expressões booleanas no Construtor de características e segmentos
 uuid: 14f02d3f-4c84-41fe-bc91-b34f0d49574a
 feature: reference
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# Expressões booleanas no Construtor de traços e segmentos{#boolean-expressions-in-trait-and-segment-builder}
+# Expressões booleanas no Construtor de características e segmentos{#boolean-expressions-in-trait-and-segment-builder}
 
 Este artigo explica como as ferramentas de segmento e característica Audience Manager usam expressões Booleanas E, OU e NÃO.
 
