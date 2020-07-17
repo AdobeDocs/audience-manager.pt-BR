@@ -9,13 +9,13 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '277'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
 
 
-# Adicionar rótulos de exportação de dados a um destino {#add-data-export-labels}
+# Add Data Export Labels to a Destination {#add-data-export-labels}
 
 [!DNL Data Export Labels] trabalhe com a fonte de dados [!DNL Export Controls] definida. [!DNL Data Export Labels] impedir que você adicione características restritas a um segmento e envie dados de segmento para um destino. É possível definir vários rótulos de exportação para um destino novo ou existente [!DNL cookie] ou [!DNL URL] .
 
@@ -35,6 +35,7 @@ Para adicionar rótulos de exportação a um destino:
    * **[!UICONTROL This destination may be used for on-site ad targeting]**
    * **[!UICONTROL This destination may be used for off-site ad targeting]**
    * **[!UICONTROL This destination may be used for on-site ad personalization]**
+
    >[!IMPORTANT]
    >
    >As restrições de exportação não funcionarão a menos que você defina um controle [de exportação](../../features/data-export-controls.md) correspondente em uma fonte de dados.
