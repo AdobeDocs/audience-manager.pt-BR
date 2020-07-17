@@ -2,16 +2,16 @@
 description: Descreve as etapas e os recursos específicos do processo de criação de características integradas e baseadas em regras.
 keywords: create trait;create traits
 seo-description: Descreve as etapas e os recursos específicos do processo de criação de características integradas e baseadas em regras.
-seo-title: Criar características baseadas em regras ou integradas
+seo-title: Criar características integradas ou com base em regras
 solution: Audience Manager
-title: Criar características baseadas em regras ou integradas
+title: Criar características integradas ou com base em regras
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -52,7 +52,7 @@ Em [!UICONTROL Trait Builder], as [!UICONTROL Basic Information] configurações
       </ul> </p> </p> <p>Isso ajuda a reduzir os erros de processamento ao configurar uma transferência <a href="../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"></a>de arquivo de dados de entrada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol">Descrição</span></b> </td> 
+   <td colname="col1"> <b><span class="uicontrol"> Descrição</span></b> </td> 
    <td colname="col2"> Algumas palavras para ajudar a descrever o propósito ou a função do traço. Opcional. </td> 
   </tr> 
   <tr> 
