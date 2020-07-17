@@ -2,21 +2,21 @@
 description: Use o Visualizador de Perfis de Visitantes para exibir o estado atual de um perfil de usuário para o navegador atual, incluindo suas características e segmentos. Para cada característica, você pode visualização o SID, o nome, os detalhes sobre como as características do visitante foram realizadas (próprio ou terceiro), a data de realização e a frequência das realizações. Para cada segmento, você pode visualização o SID, o nome e a data de associação do segmento. Você também pode visualização o perfil do visitante para outra ID do perfil (UUID). O Visualizador de Perfis de Visitantes é útil para fins de solução de problemas.
 keywords: location;location parameter
 seo-description: Use o Visualizador de Perfis de Visitantes para exibir o estado atual de um perfil de usuário para o navegador atual, incluindo suas características e segmentos. Para cada característica, você pode visualização o SID, o nome, os detalhes sobre como as características do visitante foram realizadas (próprio ou terceiro), a data de realização e a frequência das realizações. Para cada segmento, você pode visualização o SID, o nome e a data de associação do segmento. Você também pode visualização o perfil do visitante para outra ID do perfil (UUID). O Visualizador de Perfis de Visitantes é útil para fins de solução de problemas.
-seo-title: Visualizador de Perfis de Visitantes
+seo-title: Visualizador de perfil do visitante
 solution: Audience Manager
-title: Visualizador de Perfis de Visitantes
+title: Visualizador de perfil do visitante
 uuid: 77ffe134-e08f-41de-8fc4-15494847b1d0
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '336'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Visualizador de Perfis de Visitantes {#visitor-profile-viewer}
+# Visualizador de perfil do visitante {#visitor-profile-viewer}
 
 Use o [!UICONTROL Visitor Profile Viewer] para exibir o estado atual de um perfil de usuário para o navegador atual, incluindo suas características e segmentos. Para cada característica, você pode visualização seus [!UICONTROL SID]nomes, detalhes sobre como as características do visitante foram realizadas (primeiro ou terceiro), a data de realização e a frequência de realização. Para cada segmento, você pode visualização sua data [!UICONTROL SID], nome e a data de associação do segmento. Você também pode visualização o perfil do visitante para outra ID do perfil ([!UICONTROL UUID]). O [!UICONTROL Visitor Profile Viewer] é útil para fins de solução de problemas.
 
