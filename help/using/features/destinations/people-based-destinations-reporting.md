@@ -1,20 +1,20 @@
 ---
 description: 'Destinos baseados em pessoas introduzem a noção de Audiência para Audience Manager. Essa métrica ajuda você a entender quantos endereços de email com hash o Audience Manager pode compartilhar com a plataforma de destino. '
 seo-description: 'Destinos baseados em pessoas introduzem a noção de Audiência para Audience Manager. Essa métrica ajuda você a entender quantos endereços de email com hash o Audience Manager pode compartilhar com a plataforma de destino. '
-seo-title: Audiências compartilháveis
+seo-title: Públicos compartilháveis
 solution: Audience Manager
-title: Audiências compartilháveis
+title: Públicos compartilháveis
 feature: People-Based Destinations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '523'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Audiências compartilháveis {#shareable-audiences}
+# Públicos compartilháveis {#shareable-audiences}
 
 >[!IMPORTANT]
 >Este artigo contém a documentação do produto destinada a orientá-lo durante a configuração e o uso deste recurso. Nada aqui contido é aconselhamento jurídico. Consulte o seu próprio advogado para obter orientação jurídica.
