@@ -1,21 +1,21 @@
 ---
 description: Os clientes do serviço de ID devem consultar esta seção para obter informações sobre como ler o cookie do visitante para as IDs necessárias para fazer chamadas de API DCS.
 seo-description: Os clientes do serviço de ID devem consultar esta seção para obter informações sobre como ler o cookie do visitante para as IDs necessárias para fazer chamadas de API DCS.
-seo-title: Obter IDs de usuário e regiões pelo serviço de identidade do Adobe Experience Platform
+seo-title: Obter IDs de usuário e regiões por meio do Adobe Experience Platform Identity Service
 solution: Audience Manager
-title: Obter IDs de usuário e regiões pelo serviço de identidade do Adobe Experience Platform
+title: Obter IDs de usuário e regiões por meio do Adobe Experience Platform Identity Service
 uuid: 80de6cf2-5d9e-4ef8-a0f2-d53b5d574c89
 feature: DCS
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '691'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
 
 
-# Obter IDs de usuário e regiões pelo serviço de identidade do Adobe Experience Platform {#get-user-ids-and-regions-through-the-experience-cloud-id-service}
+# Obter IDs de usuário e regiões por meio do Adobe Experience Platform Identity Service {#get-user-ids-and-regions-through-the-experience-cloud-id-service}
 
 Os clientes do serviço de ID devem consultar esta seção para obter informações sobre como ler o cookie do visitante para as IDs necessárias para fazer chamadas de [!DNL DCS] API.
 
@@ -48,7 +48,7 @@ O código em *itálico* representa um espaço reservado de variável.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>3. Ler o cookie do serviço <span class="keyword"></span> de ID</b> </p> </td> 
-   <td colname="col2"> <p>O serviço <span class="keyword"> de</span> ID armazena a ID de usuário e região no cookie AMCV. O nome completo do cookie é <code>AMCV_<i>###</i>@AdobeOrg</code>. Os <code><i>###</i></code> elementos são espaços reservados para a ID da organização. See <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a> for details. </p> <p>Analise o cookie AMCV para estes pares de valores chave: </p> <p> 
+   <td colname="col2"> <p>O serviço <span class="keyword"> de</span> ID armazena a ID de usuário e região no cookie AMCV. O nome completo do cookie é <code>AMCV_<i>###</i>@AdobeOrg</code>. Os <code><i>###</i></code> elementos são espaços reservados para a ID da organização. See <a href="https://docs.adobe.com/content/help/pt-BR/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a> for details. </p> <p>Analise o cookie AMCV para estes pares de valores chave: </p> <p> 
      <ul id="ul_502ECFCDDD084D448B5EDC4E5C0909C1"> 
       <li id="li_662FFA36AC854E699D50A183B161D654"> <code>mid=<i>user ID</i></code>: Esse par de valores chave contém a ID de usuário do <span class="keyword"> Experience Cloud</span> . </li> 
       <li id="li_65422233187B4217B50DC52DBD58F404"> <code>aamlh=<i>region ID</i></code>: Esse par de valor chave contém a ID da região (às vezes chamada de dica <span class="term"> de</span>localização) associada ao nome de um servidor regional. </li> 
