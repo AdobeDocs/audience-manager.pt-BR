@@ -1,20 +1,20 @@
 ---
 description: Este artigo explica como configurar novos destinos baseados em dispositivos a partir da interface do usuário do Audience Manager.
 seo-description: Este artigo explica como configurar novos destinos baseados em dispositivos a partir da interface do usuário do Audience Manager.
-seo-title: Adicionar novos destinos baseados em dispositivo
+seo-title: Adicionar novos destinos com base em dispositivo
 solution: Audience Manager
-title: Adicionar novos destinos baseados em dispositivo
+title: Adicionar novos destinos com base em dispositivo
 feature: Destination Basics
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
 
-# Adicionar novos destinos baseados em dispositivo {#add-new-device-based-destinations}
+# Adicionar novos destinos com base em dispositivo {#add-new-device-based-destinations}
 
 Este artigo explica como configurar novos destinos baseados em dispositivos a partir da interface do usuário do Audience Manager.
 
