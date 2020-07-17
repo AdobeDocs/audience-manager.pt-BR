@@ -2,22 +2,22 @@
 description: O Audience Manager envia dados em lote para provedores de conteúdo de terceiros de acordo com essas especificações.
 seo-description: O Adobe Audience Manager (AAM) envia dados em lote para provedores de conteúdo de terceiros de acordo com essas especificações.
 seo-title: Transferências de dados de saída em lote no Adobe Audience Manager (AAM)
-title: Transferências de Dados de Saída em Lote
+title: 'Transferências de dados de saída em lote '
 feature: Outbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 7%
+ht-degree: 17%
 
 ---
 
 
-# Transferências de Dados de Saída em Lote
+# Transferências de dados de saída em lote 
 
 O Audience Manager envia dados em lote para provedores de conteúdo de terceiros de acordo com essas especificações.
 
-* [Nome do arquivo de dados de saída: Sintaxe e exemplos](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
+* [Nome do arquivo de dados de saída: sintaxe e exemplos](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
 
    Descreve os campos obrigatórios, a sintaxe e as convenções usadas para nomear um arquivo de dados externo.
 
@@ -25,7 +25,7 @@ O Audience Manager envia dados em lote para provedores de conteúdo de terceiros
 
    Descreve os métodos pelos quais você pode configurar a integração de transferência de dados em lote.
 
-* [Arquivos de controle de transferência para transferências de arquivos de registro](/help/using/integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
+* [Arquivos de controle de transferência para transferências de arquivos de log](/help/using/integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
 
    Os arquivos de controle de transferência (.info) fornecem informações de metadados sobre transferências de arquivos para que os parceiros possam verificar se o Audience Manager tratou transferências de arquivos corretamente.
 
