@@ -1,20 +1,20 @@
 ---
 description: Use operadores lógicos para agrupar pares de valores chave e características de preenchimento retroativo.
 seo-description: Use operadores lógicos para agrupar pares de valores chave e características de preenchimento retroativo.
-seo-title: Operadores lógicos suportados
-title: Operadores lógicos suportados
+seo-title: Operadores lógicos compatíveis
+title: Operadores lógicos compatíveis
 uuid: 645fcb6f-50ac-49bc-8df9-c699c749cf8f
 feature: Data Explorer
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '164'
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
 
-# Operadores lógicos suportados {#supported-logical-operators}
+# Operadores lógicos compatíveis {#supported-logical-operators}
 
 Use operadores lógicos para agrupar pares de valores chave e características de preenchimento retroativo.
 
