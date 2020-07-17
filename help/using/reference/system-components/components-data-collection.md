@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '762'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -58,11 +58,11 @@ Em uma chamada de evento, a localização geográfica é capturada em um par de 
 
 ![](assets/dcs-map.png)
 
-Como cliente, você se envolve com o servidor [!DNL DCS] indiretamente por meio de nosso código de coleta de dados. Você também pode trabalhar diretamente com o [!DNL DCS] por meio de um conjunto de APIs. Consulte Métodos e código [da API do Servidor de coleta de](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)dados (DCS).
+Como cliente, você se envolve com o servidor [!DNL DCS] indiretamente por meio de nosso código de coleta de dados. Você também pode trabalhar diretamente com o [!DNL DCS] por meio de um conjunto de APIs. See [Data Collection Server (DCS) API Methods and Code](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md).
 
 **[!UICONTROL Profile Cache Servers (PCS)]**
 
-O [!UICONTROL PCS] é um banco de dados grande (basicamente, um cookie enorme do lado do servidor). Ele armazena dados recebidos para usuários ativos de transferências de servidor para servidor e do [!DNL DCS]. [!UICONTROL PCS] os dados consistem em IDs de dispositivo, IDs de perfil autenticadas e suas características associadas. Quando o usuário [!DNL DCS] recebe uma chamada em tempo real, ele verifica se há outras características [!UICONTROL PCS] às quais um usuário pode pertencer ou se qualificar. E, se uma característica for adicionada a um segmento posteriormente, essas IDs de características serão adicionadas ao segmento [!UICONTROL PCS] e os usuários poderão se qualificar para esse segmento automaticamente, sem uma visita a um site ou aplicativo específico. O [!UICONTROL PCS] ajuda a aprofundar [!DNL Audience Manager]a compreensão dos usuários, pois ele pode combinar e segmentar usuários em tempo real ou em segundo plano com dados de características novos e históricos. Esse comportamento oferece uma visão mais completa e precisa dos usuários do que apenas das qualificações em tempo real.
+O [!UICONTROL PCS] é um banco de dados grande (basicamente, um cookie enorme do lado do servidor). Ele armazena dados recebidos para usuários ativos de transferências de servidor para servidor e do [!DNL DCS]. Os dados do [!UICONTROL PCS] consistem em IDs de dispositivo, IDs de perfil autenticadas e suas características associadas. Quando o usuário [!DNL DCS] recebe uma chamada em tempo real, ele verifica se há outras características [!UICONTROL PCS] às quais um usuário pode pertencer ou se qualificar. E, se uma característica for adicionada a um segmento posteriormente, essas IDs de características serão adicionadas ao segmento [!UICONTROL PCS] e os usuários poderão se qualificar para esse segmento automaticamente, sem uma visita a um site ou aplicativo específico. O [!UICONTROL PCS] ajuda a aprofundar [!DNL Audience Manager]a compreensão dos usuários, pois ele pode combinar e segmentar usuários em tempo real ou em segundo plano com dados de características novos e históricos. Esse comportamento oferece uma visão mais completa e precisa dos usuários do que apenas das qualificações em tempo real.
 
 Não há controles de interface que permitam que nossos clientes trabalhem diretamente com o [!UICONTROL PCS]. O acesso do cliente ao sistema [!UICONTROL PCS] é indireto, por meio de sua função de armazenamento de dados e transferência de dados. A [!UICONTROL PCS] corrida é no Apache Cassandra.
 
@@ -83,9 +83,9 @@ Os traços de [!UICONTROL PCS] descarga se estiverem inativos por 17 dias. No en
 
 **Outros[!UICONTROL DCS/PCS]processos: Recusa de privacidade**
 
-Esses sistemas de servidor lidam com solicitações de privacidade e cancelamento de usuário. As informações do cookie do usuário não são coletadas no arquivo de log se um usuário tiver opt out da coleta de dados. Para obter mais informações sobre nossas políticas de privacidade, consulte o Centro [de privacidade da](https://www.adobe.com/privacy/advertising-services.html)Adobe.
+Esses sistemas de servidor lidam com solicitações de privacidade e cancelamento de usuário. As informações do cookie do usuário não são coletadas no arquivo de log se um usuário tiver opt out da coleta de dados. Para obter mais informações sobre nossas políticas de privacidade, consulte o Centro [de privacidade da](https://www.adobe.com/pt/privacy/advertising-services.html)Adobe.
 
-## Biblioteca da integração de dados (DIL) {#dil}
+## Consulte da Biblioteca de integração de dados (DIL) {#dil}
 
 [!UICONTROL DIL] é o código que você coloca na página para a coleta de dados. Consulte a API [](../../dil/dil-overview.md) DIL para obter mais informações sobre os serviços e métodos disponíveis.
 
@@ -99,5 +99,5 @@ O [!UICONTROL PCS] cria e grava dados nos arquivos de log. Eles são enviados pa
 
 >[!MORELIKETHIS]
 >
->* [Centro de privacidade da Adobe](https://www.adobe.com/privacy.html)
+>* [Centro de privacidade da Adobe](https://www.adobe.com/br/privacy.html)
 
