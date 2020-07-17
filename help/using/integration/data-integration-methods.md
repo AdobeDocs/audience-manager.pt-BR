@@ -122,7 +122,7 @@ Descreve motivos técnicos e comerciais para enviar dados por meio de metodologi
 * **Considerações técnicas:** O delivery de dados depende dos recursos técnicos do parceiro de dados. O Audience Manager pode enviar/receber dados em tempo real do navegador ou por atualizações em lote por meio de processos de comunicação offline de servidor para servidor.
 * **Considerações comerciais:** Os motivos comerciais para selecionar um método de delivery ou outro dependem dos recursos técnicos do parceiro de destino e de como você deseja usar esses dados. Normalmente, as transferências de dados síncronas são úteis quando é necessário executar uma ação nos dados do usuário imediatamente. Transferências de dados assíncronas podem ser úteis quando não é necessária uma ação imediata e quando você tem tempo para criar perfis mais profundos para o usuário para uso posterior.
 
-## Processo de transferência de dados em tempo real {#real-time-data-transfer-process}
+## Real-Time Data Transfer Process {#real-time-data-transfer-process}
 
 Uma visão geral de como o Audience Manager executa uma troca de dados síncrona com um fornecedor terceirizado.
 
