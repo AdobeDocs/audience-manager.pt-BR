@@ -1,9 +1,9 @@
 ---
 description: As APIs RESTful permitem que você trabalhe programaticamente com o Audience Manager.
 seo-description: As APIs RESTful permitem que você trabalhe programaticamente com o Audience Manager.
-seo-title: REST APIs
+seo-title: 'REST APIs '
 solution: Audience Manager
-title: REST APIs
+title: 'REST APIs '
 uuid: f575c8dd-7381-4b55-8228-26eb87fbef64
 feature: API
 translation-type: tm+mt
