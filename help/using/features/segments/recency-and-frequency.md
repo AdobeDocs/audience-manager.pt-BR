@@ -1,21 +1,21 @@
 ---
 description: No Construtor de segmentos, a recenticidade e a frequência permitem segmentar visitantes com base em ações que ocorrem ou se repetem em um intervalo diário definido.
 seo-description: No Construtor de segmentos, a recenticidade e a frequência permitem segmentar visitantes com base em ações que ocorrem ou se repetem em um intervalo diário definido.
-seo-title: Idade e frequência
+seo-title: Recenticidade e frequência
 solution: Audience Manager
-title: Idade e frequência
+title: Recenticidade e frequência
 uuid: faadd18a-bf27-4b73-995e-9809f52f5350
 feature: Segments
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Recency and Frequency {#recency-and-frequency}
+# Recenticidade e frequência {#recency-and-frequency}
 
 Em [!UICONTROL Segment Builder], a recenticidade e a frequência permitem segmentar visitantes com base em ações que ocorrem ou se repetem em um intervalo diário definido.
 
@@ -84,8 +84,8 @@ Analise e entenda esses limites e regras quando quiser aplicar recenticidade e f
    <td colname="col2"> <p>Você pode configurar os requisitos de frequência <i>sem</i> configurar os requisitos de recenticidade. Basta definir um valor de frequência e deixar o campo de recenticidade em branco. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Regras de mesclagem de Perfis</b> </p> </td> 
-   <td colname="col2"> <p>Consulte <a href="../../faq/faq-profile-merge.md#trait-freq-device-rules"> Frequência de características, Gráficos de dispositivos externos e Regras</a>de mesclagem de Perfis. </p> </td> 
+   <td colname="col1"> <p><b>Regras de mesclagem de perfis</b> </p> </td> 
+   <td colname="col2"> <p>See <a href="../../faq/faq-profile-merge.md#trait-freq-device-rules"> Trait Frequency, External Device Graphs, and Profile Merge Rules</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -126,5 +126,5 @@ As expressões de limite de frequência incluem todos os usuários cujo número 
 >[!MORELIKETHIS]
 >
 >* [Controles do Construtor de segmentos: Seção Características](../../features/segments/segment-builder.md#segment-builder-controls-traits)
->* [Sintaxe de código usada no Editor de Expressão de segmentos](../../features/segments/segment-code-syntax.md)
+>* [Sintaxe de código usada no Editor de expressão de segmentos](../../features/segments/segment-code-syntax.md)
 
