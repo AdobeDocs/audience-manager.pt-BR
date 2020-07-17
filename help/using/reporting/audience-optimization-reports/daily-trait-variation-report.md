@@ -1,21 +1,21 @@
 ---
 description: Este relatório retorna uma lista de características que foram realizadas pelo menos 10.000 vezes nos 30 dias anteriores às datas selecionadas e têm um desvio padrão maior ou igual a 1,7 em ambas as direções, ao longo do mesmo intervalo de tempo. O relatório ajuda a avaliar como o número de impressões de usuários únicos em uma característica flutuam ao longo do tempo.
 seo-description: Este relatório retorna uma lista de características que foram realizadas pelo menos 10.000 vezes nos 30 dias anteriores às datas selecionadas e têm um desvio padrão maior ou igual a 1,7 em ambas as direções, ao longo do mesmo intervalo de tempo. O relatório ajuda a avaliar como o número de impressões de usuários únicos em uma característica flutuam ao longo do tempo.
-seo-title: Relatório de Variação de Caracteres Diários
+seo-title: Relatório de variação diária de características
 solution: Audience Manager
-title: Relatório de Variação de Caracteres Diários
+title: Relatório de variação diária de características
 uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
 feature: audience optimization reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '773'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Relatório de Variação de Caracteres Diários {#daily-trait-variation-report}
+# Relatório de variação diária de características {#daily-trait-variation-report}
 
 Este relatório retorna uma lista de características que foram realizadas pelo menos 10.000 vezes nos 30 dias anteriores às datas selecionadas e têm um desvio padrão maior ou igual a 1,7 em ambas as direções, ao longo do mesmo intervalo de tempo. O relatório ajuda a avaliar como o número de impressões de usuários únicos em uma característica flutuam ao longo do tempo.
 
