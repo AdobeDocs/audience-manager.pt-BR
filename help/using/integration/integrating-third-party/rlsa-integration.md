@@ -1,21 +1,21 @@
 ---
 description: Este procedimento requer uma lista de recomercialização do AdWords, um código de pixel e um destino de URL Audience Manager. Também é conhecida como lista de remarketing para integração de anúncios de pesquisa (RLSA). Aplica-se somente à pesquisa paga.
 seo-description: Este procedimento requer uma lista de recomercialização do AdWords, um código de pixel e um destino de URL Audience Manager. Também é conhecida como lista de remarketing para integração de anúncios de pesquisa (RLSA). Aplica-se somente à pesquisa paga.
-seo-title: Enviar segmentos para uma Lista de recomercialização do Google AdWords
+seo-title: Enviar segmentos para uma Lista de remarketing do Google AdWords
 solution: Audience Manager
-title: Enviar segmentos para uma Lista de recomercialização do Google AdWords
+title: Enviar segmentos para uma Lista de remarketing do Google AdWords
 uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
 feature: Third Party Integrations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 0%
+source-wordcount: '334'
+ht-degree: 5%
 
 ---
 
 
-# Enviar segmentos para uma Lista de recomercialização do Google Ads {#send-segments-to-a-google-adwords-remarketing-list}
+# Send Segments to a Google Ads Remarketing List {#send-segments-to-a-google-adwords-remarketing-list}
 
 Esse procedimento requer uma lista [!DNL Google Ads] de recomercialização, um código de pixel e um Audience Manager [!DNL URL] [!DNL destination]. Também é conhecida como lista de remarketing para integração de anúncios de pesquisa ([!DNL RLSA]). Aplica-se somente à pesquisa paga.
 
@@ -31,7 +31,7 @@ Para configurar uma lista [!DNL Google Ads] de recomercialização como uma [!DN
     //googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/?value=0&guid=ON&script=0&data=%ALIAS%
    ```
 
-1. No Audience Manager, [crie um [!DNL URL target]](../../features/destinations/create-url-destination.md) ou edite um URL existente [!DNL destination]. Use as seguintes configurações ao criar o [!DNL destination]:
+1. No Audience Manager, [crie [!DNL URL destination]](../../features/destinations/create-url-destination.md) ou edite um existente [!DNL destination]. Use as seguintes configurações ao criar o [!DNL destination]:
    * Tipo: URL
    * Serializar: Ativado
    * Delimitador: Ponto-e-vírgula (;)
