@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '478'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
@@ -63,11 +63,11 @@ A chamada [!DNL URL] de sincronização de ID de entrada deve conter variáveis 
   </tr> 
   <tr> 
    <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i> </code> </td> 
-   <td colname="col2"> <p>Opcional. Adicione esse parâmetro se estiver usando o Plug-in <a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager para IAB TCF.</a></p> <p><code> gdpr</code> pode ser 0 (RGPD não se aplica) ou 1 (RGPD se aplica). </p> <p> <b>Observação:</b> Esse parâmetro só pode ser usado junto com <code>gdpr_consent</code>.</p></td> 
+   <td colname="col2"> <p>Opcional. Adicione esse parâmetro se estiver usando o Plug-in <a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager para IAB TCF.</a></p> <p><code> gdpr</code> pode ser 0 (o GDPR não se aplica) ou 1 (o GDPR se aplica). </p> <p> <b>Observação:</b> Esse parâmetro só pode ser usado junto com <code>gdpr_consent</code>.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code><i>gdpr_consent=&lt;ENCODED STRING&gt;</i> </code> </td> 
-   <td colname="col2"> <p>Opcional. Adicione esse parâmetro se estiver usando o Plug-in <a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager para IAB TCF.</a></p> <p><code>gdpr_consent</code> é a sequência de caracteres de consentimento do RGPD codificados com base64 e segura para URL (consulte a especificação <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> do</a>IAB). </p> <p> <b>Observação:</b> Esse parâmetro só pode ser usado junto com <code>gdpr</code>.</p> </td> 
+   <td colname="col2"> <p>Opcional. Adicione esse parâmetro se estiver usando o Plug-in <a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager para IAB TCF.</a></p> <p><code>gdpr_consent</code> is the URL-safe base64-encoded GDPR consent string (see <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB specification</a>). </p> <p> <b>Observação:</b> Esse parâmetro só pode ser usado junto com <code>gdpr</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
