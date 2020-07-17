@@ -2,16 +2,16 @@
 description: O Relatórios de uso de Atividade ajuda você a visualização e a rastrear o uso de atividade para a instância do Audience Manager, para que você possa comparar o uso real com o compromisso contratual.
 keywords: activity, usage, reporting, commitment
 seo-description: O Relatórios de uso de Atividade ajuda você a visualização e a rastrear o uso de atividade para a instância do Audience Manager, para que você possa comparar o uso real com o compromisso contratual.
-seo-title: Relatórios de uso de Atividade
+seo-title: Relatórios de uso de atividade
 solution: Audience Manager
-title: Relatórios de uso de Atividade
+title: Relatórios de uso de atividade
 topic: Activity Usage Reporting
 feature: Usage and Billing
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '661'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## Visão geral {#overview}
 
-O [!UICONTROL Activity Usage Report] ajuda a visualização e rastrear o uso da atividade da instância do Audience Manager, fornecendo uma ideia clara de como o uso da atividade se compara ao compromisso contratual.
+O [!UICONTROL Activity Usage Report] ajuda a visualizar e rastrear o uso da atividade da instância do Audience Manager, fornecendo uma ideia clara de como o uso da atividade se compara ao compromisso contratual.
 
 Além disso, você pode baixar o arquivo [!UICONTROL Activity Usage Report] sempre que precisar para manter registros e análise personalizada.
 
