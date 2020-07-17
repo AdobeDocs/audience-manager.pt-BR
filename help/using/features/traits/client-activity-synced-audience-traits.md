@@ -1,21 +1,21 @@
 ---
 description: Essas são características especiais usadas pelas Audiências endereçáveis. A Audiência ativa e as características sincronizadas da fonte de dados estão localizadas em Dados de Audiência > Características > Características de Audiência.
 seo-description: Essas são características especiais usadas pelas Audiências endereçáveis. A Audiência ativa e as características sincronizadas da fonte de dados estão localizadas em Dados de Audiência > Características > Características de Audiência.
-seo-title: Características de Audiência ativas e características sincronizadas da fonte de dados
+seo-title: Características do público-alvo ativo e características sincronizadas da fonte de dados
 solution: Audience Manager
-title: Características de Audiência ativas e características sincronizadas da fonte de dados
+title: Características do público-alvo ativo e características sincronizadas da fonte de dados
 uuid: b4f145ab-f343-4d71-86d1-5d03f7b03809
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '246'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
 
-# Características de Audiência ativas e características sincronizadas da fonte de dados {#active-audience-traits-and-data-source-synced-traits}
+# Características do público-alvo ativo e características sincronizadas da fonte de dados {#active-audience-traits-and-data-source-synced-traits}
 
 Estas são características especiais usadas por [!UICONTROL Addressable Audiences]. [!UICONTROL Active Audience] e [!UICONTROL Data Source Synced Traits] estão localizados em [!UICONTROL Audience Data > Traits > Audience Traits].
 
@@ -41,5 +41,5 @@ Uma [!UICONTROL Active Audience] característica contém todos os dispositivos s
 
 >[!MORELIKETHIS]
 >
->* [Públicos-alvo endereçáveis](../../features/addressable-audiences.md)
+>* [Públicos endereçáveis](../../features/addressable-audiences.md)
 
