@@ -1,27 +1,27 @@
 ---
 description: Para criar Regras de mesclagem de Perfis, reveja e conclua as etapas em cada um dos procedimentos descritos nesta seção.
 seo-description: Para criar Regras de mesclagem de Perfis, reveja e conclua as etapas em cada um dos procedimentos descritos nesta seção.
-seo-title: Introdução às regras de mesclagem de Perfis
+seo-title: Introdução às regras de mesclagem de perfis
 solution: Audience Manager
-title: Introdução às regras de mesclagem de Perfis
+title: Introdução às regras de mesclagem de perfis
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1327'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
 
-# Introdução às regras de mesclagem de Perfis {#getting-started-with-profile-merge-rules}
+# Introdução às regras de mesclagem de perfis {#getting-started-with-profile-merge-rules}
 
 Para criar [!UICONTROL Profile Merge Rules], reveja e conclua as etapas em cada um dos procedimentos descritos nesta seção.
 
 <!-- merge-rules-start.xml -->
 
-## Criar uma fonte de dados entre dispositivos {#create-data-source}
+## Create a Cross-Device Data Source {#create-data-source}
 
 Para criar uma fonte de dados entre dispositivos, vá até **[!UICONTROL Audience Data > Data Sources > Add New]** e conclua as etapas para cada seção descrita aqui. São necessárias permissões de administrador para criar ou editar uma fonte de dados entre dispositivos.
 
@@ -69,7 +69,7 @@ Permissões de administrador são necessárias para criar, editar ou excluir uma
 
 <!-- create-profile-merge-rule.xml -->
 
-**Pré-requisitos:** Uma fonte de dados entre dispositivos é necessária para criar um [!UICONTROL Profile Merge Rule]. Consulte [Criar uma fonte](../manage-datasources.md#create-data-source)de dados.
+**Pré-requisitos:** Uma fonte de dados entre dispositivos é necessária para criar um [!UICONTROL Profile Merge Rule]. See [Create a Data Source](../manage-datasources.md#create-data-source).
 
 >[!TIP]
 >
@@ -167,7 +167,7 @@ var vDil = DIL.create({
 });
 ```
 
-No par de valores chave de namespace, a variável `*`MCORG`*` é a ID da [!DNL Experience Cloud] organização. Se você não tiver essa ID, poderá encontrá-la na [!UICONTROL Administration] seção do [!DNL Experience Cloud] painel. Você precisa de permissões de administrador para visualização deste painel. See [Administration: Core Services](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
+No par de valores chave de namespace, a variável `*`MCORG`*` é a ID da [!DNL Experience Cloud] organização. Se você não tiver essa ID, poderá encontrá-la na [!UICONTROL Administration] seção do [!DNL Experience Cloud] painel. Você precisa de permissões de administrador para visualização deste painel. See [Administration: Core Services](https://docs.adobe.com/content/help/pt-BR/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ### Configurar SDKs
 
