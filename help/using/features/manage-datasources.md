@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -37,7 +37,7 @@ Para concluir a [!UICONTROL Data Source Details] seção:
 1. Forneça um [!UICONTROL integration code]. Geralmente, [!UICONTROL integration codes] são opcionais. Eles são necessários quando você deseja:
 
    * [Crie uma fonte](../features/profile-merge-rules/merge-rules-start.md#create-data-source)de dados entre dispositivos.
-   * Use o Serviço [de identificação do](https://docs.adobe.com/content/help/en/id-service/using/home.html)Adobe Experience Platform.
+   * Use the [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html).
    * Trabalhar com regras [de mesclagem de](../features/profile-merge-rules/merge-rules-start.md)Perfis.
 
 1. Escolha um **[!UICONTROL ID Type]**. [!UICONTROL ID Type] as opções incluem:
