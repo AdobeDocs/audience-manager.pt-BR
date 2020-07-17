@@ -1,9 +1,9 @@
 ---
 description: O relatório de Frequência ideal ajuda você a descobrir o equilíbrio ideal entre o número de impressões e conversões servidas. Ele permite ajustar o número de impressões que você deseja exibir antes de começar a ver a diminuição dos retornos.
 seo-description: O relatório de Frequência ideal ajuda você a descobrir o equilíbrio ideal entre o número de impressões e conversões servidas. Ele permite ajustar o número de impressões que você deseja exibir antes de começar a ver a diminuição dos retornos.
-seo-title: 'Relatório de frequência ideal '
+seo-title: Relatório de frequência ideal
 solution: Audience Manager
-title: 'Relatório de frequência ideal '
+title: Relatório de frequência ideal
 uuid: 50459ce9-39ac-4401-93dd-7526937fc742
 feature: audience optimization reports
 translation-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 3%
 ---
 
 
-# Relatório de frequência ideal {#optimal-frequency-report}
+# Relatório de frequência ideal{#optimal-frequency-report}
 
 O relatório de Frequência ideal ajuda você a descobrir o equilíbrio ideal entre o número de impressões e conversões servidas. Ele permite ajustar o número de impressões que você deseja exibir antes de começar a ver a diminuição dos retornos.
 
