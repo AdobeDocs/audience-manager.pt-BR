@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
@@ -316,7 +316,7 @@ Na solicitação, o `traitAlias` corresponde à chave em um par de valor chave. 
 
 ## Criar Mapeamentos de Destino em Massa {#bulk-create}
 
-A `POST` method that lets you pass in an array of [!UICONTROL cookie] or [!UICONTROL URL] destination mappings.
+Um `POST` método que permite que você passe em uma matriz de mapeamentos de destino [!UICONTROL cookie] ou [!UICONTROL URL] .
 
 <!-- r_bulk_create.xml -->
 
@@ -347,7 +347,7 @@ Todos os valores de solicitação são obrigatórios, a menos que seja indicado 
 
 ### Resposta
 
-A successful response returns the array of created mappings.
+Uma resposta bem-sucedida retorna a matriz de mapeamentos criados.
 
 ```
 [
@@ -398,9 +398,9 @@ A successful response returns the array of created mappings.
 ]
 ```
 
-## Add Multiple Segments to a Destination {#add-segments-dest}
+## Adicionar vários segmentos a um destino {#add-segments-dest}
 
-A `POST` method that lets you map multiple segments to a destination.
+Um `POST` método que permite mapear vários segmentos para um destino.
 
 <!-- r_add_segments_to_destination.xml -->
 
@@ -410,7 +410,7 @@ A `POST` method that lets you map multiple segments to a destination.
 
 ### Solicitação de exemplo
 
-Create multiple destination mappings in an array. Todos os valores de solicitação são obrigatórios, a menos que seja indicado o contrário.
+Crie vários mapeamentos de destino em uma matriz. Todos os valores de solicitação são obrigatórios, a menos que seja indicado o contrário.
 
 ```
 [
@@ -431,7 +431,7 @@ Create multiple destination mappings in an array. Todos os valores de solicitaç
 
 ### Resposta
 
-Returns an array of created mappings.
+Retorna uma matriz de mapeamentos criados.
 
 ```
 [
@@ -584,7 +584,7 @@ Todos os valores de solicitação são obrigatórios, a menos que seja indicado 
 
 >[!MORELIKETHIS]
 >
->* [Destinos](../../../features/destinations/destinations.md)
+>* [Destinos ](../../../features/destinations/destinations.md)
 >* [Serialização do destino](../../../features/destinations/key-value-pairs.md#destination-serialized)
 >* [Explicação dos pares de valor-chave](../../../reference/key-value-pairs-explained.md)
 
