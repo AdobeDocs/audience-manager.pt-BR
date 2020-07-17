@@ -1,19 +1,19 @@
 ---
-seo-title: Como fazer chamadas de API DCS de servidor para servidor
+seo-title: Como fazer chamadas de DCS API de servidor para servidor
 solution: Audience Manager
-title: Como fazer chamadas de API DCS de servidor para servidor
+title: Como fazer chamadas de DCS API de servidor para servidor
 uuid: bdfe3430-e27f-4a5c-88d9-ae164d28f601
 feature: DCS
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
 
-# Como fazer chamadas de API DCS de servidor para servidor {#making-server-to-server-dcs-api-calls}
+# Como fazer chamadas de DCS API de servidor para servidor {#making-server-to-server-dcs-api-calls}
 
 As chamadas exigem o nome do host do servidor DCS regional e a ID do usuário. Se você não tiver as IDs de usuário e região necessárias, consulte [Obter IDs de usuário e regiões de uma resposta](/help/using/api/dcs-intro/dcs-s2s/dcs-aam-ids.md) DCS e/ou [Experience Cloud](/help/using/api/dcs-intro/dcs-s2s/dcs-mcid-ids.md). Depois que você tiver IDs de usuário e região, poderá fazer chamadas de servidor para servidor para o DCS. Consulte esta seção para obter a sintaxe e exemplos.
 
@@ -50,7 +50,7 @@ Uma chamada de amostra é semelhante ao exemplo a seguir.
    <td colname="col2"> <p>Esta parte da chamada contém: </p> <p> 
      <ul id="ul_3EDA9C7BA6794D06BCB07A75A9BD2372"> 
       <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Seu alias de domínio atribuído pelo <span class="keyword"> Audience Manager</span> (por exemplo, <i><code> my_domain.demdex.net</code></i>). </li> 
-      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">O domínio de destino, que é sempre <i><code> demdex.net</code></i>. Consulte <a href="../../../reference/demdex-calls.md">Compreender as chamadas para o domínio Demdex</a>. </li> 
+      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">O domínio de destino, que é sempre <i><code> demdex.net</code></i>. Consulte <a href="../../../reference/demdex-calls.md">Compreensão das chamadas para o domínio Demdex</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -87,4 +87,4 @@ Uma chamada de amostra é semelhante ao exemplo a seguir.
 
 ## Resposta de exemplo {#sample-response}
 
-Consulte [Receber dados do DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
+See [Receive Data From the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
