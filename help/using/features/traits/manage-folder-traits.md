@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -30,7 +30,8 @@ Uma pasta [!UICONTROL folder trait] é criada automaticamente quando você cria 
 1. Na [!UICONTROL Trait Storage] janela, passe o mouse sobre:
 
    * Texto &quot;Todas as características&quot; para adicionar uma nova pasta de nível raiz.
-   * Uma pasta pai existente para adicionar uma nova pasta subordinada.
+   * Uma pasta pai existente para adicionar uma nova pasta secundária.
+
    ![](assets/folder_traits_create.PNG)
 
 1. Clique no ícone + para criar a pasta. Observe que você pode criar um máximo de 2.000 pastas em sua taxonomia. Consulte a documentação de [limites de uso](../../features/administration/usage-limits.md) para obter mais informações.
