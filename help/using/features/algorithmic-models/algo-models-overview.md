@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
@@ -33,11 +33,11 @@ Após a conclusão, esses dados estão disponíveis no Construtor [de](../../fea
 
 Para saber mais sobre [!UICONTROL Look-Alike Modeling], consulte [Entendendo a modelagem](understanding-models.md)semelhante à aparência.
 
-## Audiências preditivas{#predictive-audiences}
+## Públicos preditivos{#predictive-audiences}
 
 [!UICONTROL Predictive Audiences] ajuda a classificar uma audiência desconhecida em personas distintas, em tempo real, usando técnicas avançadas de ciência de dados.
 
-Em um contexto de marketing, uma pessoa é um segmento de audiência definido por visitantes, usuários ou compradores potenciais, que compartilham um conjunto específico de características, como demografia, hábitos de navegação, histórico de compras etc.
+Em um contexto de marketing, uma pessoa é um segmento de público-alvo definido por visitantes, usuários ou possíveis compradores, que compartilham um conjunto específico de características, como demografia, hábitos de navegação, histórico de compras etc.
 
 [!UICONTROL Predictive Audiences] os modelos levam esse conceito mais longe, usando uma máquina de aprendizado Audience Manager para classificar automaticamente audiências desconhecidas em personas diferentes. O Audience Manager consegue isso calculando a propensão de sua audiência desconhecida para um conjunto de audiências conhecidas.
 
