@@ -159,22 +159,22 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
    <td colname="col2"> <p>ID do cliente bloqueado <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Retornado quando a ID do cliente foi identificada como mal-intencionada e adicionada a uma lista de negação. </p> </td> 
+   <td colname="col3"> <p>Retornado quando a ID do cliente foi identificada como mal-intencionada e adicionada a uma lista de bloqueios. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>304 </p> </td> 
    <td colname="col2"> <p>ID da fonte de dados bloqueada <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Retornado quando a ID da fonte de dados foi identificada como maliciosa e adicionada a uma lista de negação </p> </td> 
+   <td colname="col3"> <p>Retornado quando a ID da fonte de dados foi identificada como mal-intencionada e adicionada a uma lista de bloqueios </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>306 </p> </td> 
    <td colname="col2"> <p>ID de dispositivo declarada bloqueada <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>A ID do dispositivo foi identificada como mal-intencionada e adicionada a uma lista de negação Isso pode ocorrer quando recebemos uma quantidade extrema de solicitações <span class="wintitle"> DCS</span> contendo essa ID do dispositivo em um curto período de tempo. </p> </td>
+   <td colname="col3"> <p>A ID do dispositivo foi identificada como mal-intencionada e adicionada a uma lista de bloqueios. Isso pode ocorrer quando recebemos uma quantidade extrema de solicitações <span class="wintitle"> DCS</span> contendo essa ID do dispositivo em um curto período de tempo. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>307 </p> </td> 
    <td colname="col2"> <p>Operação de perfil bloqueada para <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Uma ação de leitura/gravação foi bloqueada porque uma ID foi identificada como maliciosa e adicionada a uma lista de negação. Consulte o código de erro 306. </p> </td> 
+   <td colname="col3"> <p>Uma ação de leitura/gravação foi bloqueada porque uma ID foi identificada como mal-intencionada e adicionada a uma lista de bloqueios Consulte o código de erro 306. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>309 </p> </td> 
