@@ -1,21 +1,21 @@
 ---
 description: Como opção, você pode criptografar arquivos de dados com criptografia PGP ao enviá-los para o Audience Manager.
 seo-description: Como opção, você pode criptografar arquivos de dados com criptografia PGP ao enviá-los para o Audience Manager.
-seo-title: Criptografia PGP de Arquivo para Tipos de Dados de Entrada
+seo-title: Criptografia PGP de arquivo para tipos de dados de entrada
 solution: Audience Manager
-title: Criptografia PGP de Arquivo para Tipos de Dados de Entrada
+title: Criptografia PGP de arquivo para tipos de dados de entrada
 uuid: 89caace1-0259-48fc-865b-d525ec7822f7
 feature: Inbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
 
-# Criptografia PGP de Arquivo para Tipos de Dados de Entrada{#file-pgp-encryption-for-inbound-data-types}
+# Criptografia PGP de arquivo para tipos de dados de entrada{#file-pgp-encryption-for-inbound-data-types}
 
 É possível criptografar arquivos de dados com [!DNL PGP] criptografia ao enviá-los para o Audience Manager.
 
