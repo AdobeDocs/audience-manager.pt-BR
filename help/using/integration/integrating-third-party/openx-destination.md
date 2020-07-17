@@ -1,21 +1,21 @@
 ---
 description: Configure o OpenX como destino e envie dados de segmento de Audience Manager para essa plataforma.
 seo-description: Configure o OpenX como destino e envie dados de segmento de Audience Manager para essa plataforma.
-seo-title: OpenX como um destino de Audience Manager
+seo-title: OpenX como um destino do Audience Manager
 solution: Audience Manager
-title: OpenX como um destino de Audience Manager
+title: OpenX como um destino do Audience Manager
 uuid: 5e86ba73-281c-403b-af06-64a1d427526a
 feature: Third Party Integrations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '695'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# OpenX como um destino de Audience Manager{#openx-as-an-audience-manager-destination}
+# OpenX como um destino do Audience Manager{#openx-as-an-audience-manager-destination}
 
 Configure [!DNL OpenX] como destino e envie dados de segmento de Audience Manager para essa plataforma.
 
@@ -54,7 +54,7 @@ Crie um destino de cookie para [!DNL OpenX] no Audience Manager.
 
 <!-- aam-openx-destination.xml -->
 
-No Audience Manager, um *destino* é qualquer outro sistema (servidor de anúncios, [!DNL DSP]rede de anúncios etc.) com os quais você deseja compartilhar dados. [!UICONTROL Destination Builder] fornece as ferramentas que permitem criar e gerenciar esses processos de delivery de dados. Os recursos de destino do Audience Manager estão localizados em Dados de *Audiência > Destinos*. Para começar, clique **[!UICONTROL Add New Destination]** e siga as etapas abaixo.
+In Audience Manager, a *destination* is any other system (ad server, [!DNL DSP], ad network, etc.) com o qual você deseja compartilhar dados. [!UICONTROL Destination Builder] fornece as ferramentas que permitem criar e gerenciar esses processos de delivery de dados. Os recursos de destino do Audience Manager estão localizados em Dados de *Audiência > Destinos*. Para começar, clique **[!UICONTROL Add New Destination]** e siga as etapas abaixo.
 
 ### Etapa 1: Informações básicas
 
