@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -99,7 +99,7 @@ Rótulos de cabeçalho de coluna definidos.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitRule / segmentRule</span> </p> </td> 
-   <td colname="col2"> <p>A característica real ou regra de segmento usada para coletar dados. Uma solicitação em massa retorna as regras criadas no <span class="keyword"> Audience Manager</span> com o construtor <a href="../../features/traits/about-trait-builder.md"> de regras de</a> características ou o construtor <a href="../../features/segments/segment-builder.md"> de regras de</a>segmento. Você também pode usar essas ferramentas para criar regras e aplicá-las em massa ao atualizar um segmento ou característica. </p> <p>Consulte também <a href="../../reference/bulk-management-tools/bulk-rules.md"> Criar ou atualizar regras de características e regras</a>de segmentos. </p> </td> 
+   <td colname="col2"> <p>A característica real ou regra de segmento usada para coletar dados. Uma solicitação em massa retorna as regras criadas no <span class="keyword"> Audience Manager</span> com o construtor <a href="../../features/traits/about-trait-builder.md"> de regras de</a> características ou o construtor <a href="../../features/segments/segment-builder.md"> de regras de</a>segmento. Você também pode usar essas ferramentas para criar regras e aplicá-las em massa ao atualizar um segmento ou característica. </p> <p>See also, <a href="../../reference/bulk-management-tools/bulk-rules.md"> Create or Update Trait Rules and Segment Rules</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitType</span> </p> </td> 
