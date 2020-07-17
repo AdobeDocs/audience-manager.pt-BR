@@ -1,20 +1,20 @@
 ---
-description: Audiências preditivas ajudam a classificar audiências desconhecidas em personas distintas em tempo real, usando a ciência de dados.
-seo-description: Audiências preditivas ajudam a classificar audiências desconhecidas em personas distintas em tempo real, usando a ciência de dados.
-seo-title: Relatórios de Audiências preditivas
+description: Públicos preditivos ajudam a classificar públicos desconhecidos em personas distintas em tempo real, usando a ciência de dados.
+seo-description: Públicos preditivos ajudam a classificar públicos desconhecidos em personas distintas em tempo real, usando a ciência de dados.
+seo-title: Relatórios dos públicos preditivos
 solution: Audience Manager
-title: Audiências Audience Manager preditivas
+title: Públicos preditivos do Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '630'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# Relatórios de Audiências preditivas
+# Relatórios dos públicos preditivos
 
 Depois de salvar um [!UICONTROL Predictive Audiences] modelo, os start de Audience Manager treinam-no. Em algumas horas, o modelo calculado será start ao analisar audiências nos servidores [de coleta de](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs)dados. O Relatórios estará disponível no dia seguinte.
 
