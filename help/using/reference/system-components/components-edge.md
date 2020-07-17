@@ -1,21 +1,21 @@
 ---
 description: A Audience Manager usa topologias distribuídas e de tecnologia de ponta para atender às demandas colocadas em nossos sistemas por fontes externas.
 seo-description: A Audience Manager usa topologias distribuídas e de tecnologia de ponta para atender às demandas colocadas em nossos sistemas por fontes externas.
-seo-title: Como entender o Edge Data Center
+seo-title: Compreensão do Edge Data Center
 solution: Audience Manager
-title: Como entender o Edge Data Center
+title: Compreensão do Edge Data Center
 uuid: 4177e666-99f4-453d-94dd-058c6182c8d2
 feature: system components
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# Como entender o Edge Data Center{#understanding-the-edge-data-center}
+# Compreensão do Edge Data Center{#understanding-the-edge-data-center}
 
 A Audience Manager usa topologias distribuídas e de tecnologia de ponta para atender às demandas colocadas em nossos sistemas por fontes externas.
 
