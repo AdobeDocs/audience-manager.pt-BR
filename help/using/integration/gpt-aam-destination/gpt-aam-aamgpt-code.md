@@ -1,21 +1,21 @@
 ---
 description: O AamGpt é uma função JavaScript que lê dados de cookies de Audience Manager e envia essas informações para as Tags do Google Publisher.
 seo-description: O AamGpt é uma função JavaScript que lê dados de cookies de Audience Manager e envia essas informações para as Tags do Google Publisher.
-seo-title: Código de Audience Manager para tags do Google Publisher
+seo-title: Código do Audience Manager para Tags do Google Publisher
 solution: Audience Manager
-title: Código de Audience Manager para tags do Google Publisher
+title: Código do Audience Manager para Tags do Google Publisher
 uuid: 24ff5d16-b360-46cc-a4c6-6db34d7fda75
 feature: Third Party Integrations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '116'
-ht-degree: 1%
+ht-degree: 19%
 
 ---
 
 
-# Código de Audience Manager para tags do Google Publisher {#audience-manager-code-for-google-publisher-tags}
+# Código do Audience Manager para Tags do Google Publisher {#audience-manager-code-for-google-publisher-tags}
 
 `AamGpt` é uma [!DNL JavaScript] função que lê os dados de cookies do Audience Manager e envia essas informações para [!DNL Google Publisher Tags].
 
