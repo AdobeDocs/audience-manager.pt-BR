@@ -1,21 +1,21 @@
 ---
 description: Visualização de informações de histórico de trabalho em lote de saída para um destino e um período de tempo especificados.
 seo-description: Visualização de informações de histórico de trabalho em lote de saída para um destino e um período de tempo especificados.
-seo-title: Histórico de Arquivos de Saída
+seo-title: Histórico de arquivos de saída
 solution: Audience Manager
-title: Histórico de Arquivos de Saída
+title: Histórico de arquivos de saída
 uuid: 3621a59d-2bb5-4828-86f6-4c9bfa580764
 feature: inbound and outbound reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
 
-# Histórico de Arquivos de Saída {#outbound-file-history}
+# Histórico de arquivos de saída {#outbound-file-history}
 
 Visualização de informações de histórico de trabalho em lote de saída para um destino e um período de tempo especificados.
 
