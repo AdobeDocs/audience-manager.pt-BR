@@ -1,21 +1,21 @@
 ---
 description: No Construtor de características, o Construtor de Expressões permite criar e testar regras que estabelecem requisitos de qualificação de audiências. As regras consistem em pares de valores chave, como "color == blue" ou "price > 100". Operadores de comparação estabelecem a relação entre chaves e valores. expressões booleanas determinam a relação entre grupos de regras.
 seo-description: No Construtor de características, o Construtor de Expressões permite criar e testar regras que estabelecem requisitos de qualificação de audiências. As regras consistem em pares de valores chave, como "color == blue" ou "price > 100". Operadores de comparação estabelecem a relação entre chaves e valores. expressões booleanas determinam a relação entre grupos de regras.
-seo-title: Gerenciando regras de características
+seo-title: Gerenciamento de regras de características
 solution: Audience Manager
-title: Gerenciando regras de características
+title: Gerenciamento de regras de características
 uuid: 827d4567-2b6f-411e-bd5c-9735c916291a
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Gerenciando regras de características {#managing-trait-rules}
+# Gerenciamento de regras de características {#managing-trait-rules}
 
 Em [!UICONTROL Trait Builder], o [!UICONTROL Expression Builder] permite criar e testar regras que estabelecem requisitos de qualificação de audiência. As regras consistem em pares de valores chave, como `color == blue` ou `price > 100`. Operadores de comparação estabelecem a relação entre chaves e valores. [!DNL Boolean] As expressões determinam a relação entre grupos de regras.
 
