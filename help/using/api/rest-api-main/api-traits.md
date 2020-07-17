@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '58'
-ht-degree: 1%
+ht-degree: 25%
 
 ---
 
@@ -24,4 +24,4 @@ Métodos que permitem trabalhar programaticamente com características.
 >Os [!DNL API] [!DNL Swagger] métodos de características foram regravados e migrados. Consulte:
 >
 >* [Documentos da API do Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
->* [Migração de código da API Audience Manager](../../api/api-swagger-migration.md)
+>* [Migração de código API do Audience Manager](../../api/api-swagger-migration.md)
