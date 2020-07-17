@@ -1,21 +1,21 @@
 ---
 description: Amostras de código e descrições para casos de uso de DIL específicos.
 seo-description: Amostras de código e descrições para casos de uso de DIL específicos.
-seo-title: Casos de uso DIL e exemplos de código
+seo-title: Casos de uso da DIL e exemplos de código
 solution: Audience Manager
-title: Casos de uso DIL e exemplos de código
+title: Casos de uso da DIL e exemplos de código
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
 feature: DIL Implementation
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '920'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
 
-# Casos de uso DIL e exemplos de código{#dil-use-cases-and-code-samples}
+# Casos de uso da DIL e exemplos de código{#dil-use-cases-and-code-samples}
 
 Amostras de código e descrições para casos de uso de DIL específicos.
 
