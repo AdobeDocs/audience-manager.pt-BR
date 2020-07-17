@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1304'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -46,6 +46,7 @@ Para criar um feed de dados:
 1. Para salvar e ativar um feed de dados:
    1. Mova o **[!UICONTROL Availability]** controle deslizante para **[!UICONTROL Active]**.
    1. Clique em **[!UICONTROL Save]**.
+
    >[!NOTE]
    >
    >* Os feeds de dados salvos e ativados não podem ser excluídos.
