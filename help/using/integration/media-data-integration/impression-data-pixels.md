@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 20%
+ht-degree: 21%
 
 ---
 
@@ -99,7 +99,7 @@ Chamadas de evento de impressão aceitam dados formados em pares de valores chav
   </tr> 
    <tr> 
    <td colname="col1"> <code>gdpr</code>  </td> 
-   <td colname="col2"> <p>Relacionado ao <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">plug-in do Audience Manager para IAB TCF.</a></p> <p><code>gdpr</code> pode ser 0 (RGPD não se aplica) ou 1 (RGPD se aplica).</p> <p>O valor padrão é 0.</p><p>Opcional.</p><p>Se <code>gdpr=1</code>, o <code>gdpr_consent</code> parâmetro deve conter o parâmetro de consentimento TC IAB para processar os dados com êxito. Caso contrário, todos os dados serão descartados.</p> </td> 
+   <td colname="col2"> <p>Relacionado ao <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">plug-in do Audience Manager para IAB TCF.</a></p> <p><code>gdpr</code> pode ser 0 (o GDPR não se aplica) ou 1 (o GDPR se aplica).</p> <p>O valor padrão é 0.</p><p>Opcional.</p><p>Se <code>gdpr=1</code>, o <code>gdpr_consent</code> parâmetro deve conter o parâmetro de consentimento TC IAB para processar os dados com êxito. Caso contrário, todos os dados serão descartados.</p> </td> 
   </tr>
    <tr> 
    <td colname="col1"> <code>gdpr_consent</code> </td> 
