@@ -1,16 +1,16 @@
 ---
 description: Com as Regras de mesclagem de Perfis, você obtém controle sobre os conjuntos de dados usados para segmentação e pode público alvo uma pessoa com precisão em vários dispositivos.
 seo-description: Com as Regras de mesclagem de Perfis, você obtém controle sobre os conjuntos de dados usados para segmentação e pode público alvo uma pessoa com precisão em vários dispositivos.
-seo-title: Visão geral das regras de mesclagem de Perfis
+seo-title: Visão geral das regras de mesclagem de perfis
 solution: Audience Manager
-title: Visão geral das regras de mesclagem de Perfis
+title: Visão geral das regras de mesclagem de perfis
 uuid: 9e7988cc-9145-432b-840a-54fbd8657b3b
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '362'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
