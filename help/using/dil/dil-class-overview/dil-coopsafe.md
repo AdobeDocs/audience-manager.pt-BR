@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '540'
-ht-degree: 76%
+ht-degree: 78%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 76%
 
 Uma configuração booleana opcional que determina se DIL envia (ou não) dados ao Adobe Experience Cloud Device Co-op.
 
-## Exigências {#requirements}
+## Requisitos {#requirements}
 
 To use `isCoopSafe` you must:
 
 * Use [!UICONTROL DIL] v6.11 ou superior.
-* Participar do [Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html). Os membros em potencial também devem consultar essa documentação para determinar se `isCoopSafe` responde possíveis dúvidas sobre como os dados são usados para criar o gráfico do dispositivo.
+* Participar do [Experience Cloud Device Co-op](https://docs.adobe.com/content/help/pt-BR/device-co-op/using/home.html). Os membros em potencial também devem consultar essa documentação para determinar se `isCoopSafe` responde possíveis dúvidas sobre como os dados são usados para criar o gráfico do dispositivo.
 
 * Work with your [!DNL Adobe] consultant to set an allowlist or a denylist flag on your Device Co-op account. Não há caminho de autoatendimento para ativar esses sinalizadores.
 
