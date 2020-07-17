@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1191'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
@@ -59,7 +59,7 @@ Para começar, é necessário configurar o serviço de [!DNL Experience Cloud] I
 
 ## Chamadas de cancelamento {#opt-out-calls}
 
-O [!UICONTROL declared ID] processo atende às preferências de visitante do site para recusar a [!DNL Audience Manager] definição de metas por seu site. Quando [!DNL Audience Manager] recebe uma solicitação de recusa, a [!DNL JSON] retornada pelo [!DNL DCS] contém o código de erro 171, com a mensagem `Encountered opt out tag`, em vez da ID do [!DNL Audience Manager] usuário.
+O [!UICONTROL declared ID] processo atende às preferências de visitante do site para recusar a [!DNL Audience Manager] definição de metas por seu site. When [!DNL Audience Manager] receives an opt-out request, the [!DNL JSON] returned by the [!DNL DCS] contains the error code 171, with the message `Encountered opt out tag`, instead of the [!DNL Audience Manager] user ID.
 
 * [!DNL Audience Manager] pode passar por uma [!UICONTROL declared ID] opção de não participação ao lado de uma [!DNL Audience Manager] opção [!UICONTROL UUID] no [!DNL URL].
 * A [!UICONTROL declared ID] opção de não participação é armazenada no [!UICONTROL Perfil Cache Server ([!UICONTROL PCS]) em uma base por parceiro. Não há cancelamento de nível de plataforma usando [!UICONTROL declared IDs]. Além disso, [!DNL Audience Manager] rejeita o usuário daquela região específica na borda (a opção de não participação não atravessa [!DNL DCS] regiões).
@@ -68,16 +68,16 @@ Consulte Privacidade [de](../overview/data-security-and-privacy/data-privacy.md)
 
 ## [!UICONTROL Declared ID] Exemplos de opção de não participação {#opt-out-examples}
 
-É possível fazer solicitações de [!UICONTROL declared ID] recusa com os pares de valor-chave `d_cid` e valor- `d_cid_ic` chave. Os parâmetros herdados como `d_dpid` e `d_dpuuid` ainda funcionam, mas são considerados obsoletos. Consulte [CID substitui DPID e DPUUID](../reference/cid.md). In the examples, *italics* indicates a variable placeholder.
+You can make a [!UICONTROL declared ID] opt-out requests with the `d_cid` and `d_cid_ic` key-value pairs. Os parâmetros herdados como `d_dpid` e `d_dpuuid` ainda funcionam, mas são considerados obsoletos. Consulte [CID substitui DPID e DPUUID](../reference/cid.md). Nos exemplos, *itálico* indica um espaço reservado para variável.
 
 ### Opt-out com [!UICONTROL CID] e [!UICONTROL CID_IC]
 
-Para obter uma descrição e sintaxe, consulte Variáveis e sintaxe [URL para IDs](../features/declared-ids.md#variables-and-syntax)declaradas.
+Para obter uma descrição e sintaxe, consulte [Variáveis e sintaxe de URL para IDs declaradas](../features/declared-ids.md#variables-and-syntax).
 
 <table id="table_159D92242D8F4FCBAC733295DE474CA6"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Opção de não participação usando </th> 
+   <th colname="col1" class="entry"> Recusa de uso </th> 
    <th colname="col2" class="entry"> Amostra de código </th> 
   </tr> 
  </thead>
