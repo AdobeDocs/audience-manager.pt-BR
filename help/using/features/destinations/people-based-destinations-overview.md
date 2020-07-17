@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '922'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -36,7 +36,7 @@ Você pode usar [!DNL People-Based Destinations] para segmentar e público alvo 
 
 ![pbd-overview](assets/pbd-overview.png)
 
-## Availability {#availability}
+## Disponibilidade {#availability}
 
 [!DNL People-Based Destinations] é uma integração de Audience Manager premium. Entre em contato com seu representante da Adobe para aproveitar esse recurso premium.
 
