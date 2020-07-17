@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 2%
+ht-degree: 18%
 
 ---
 
@@ -22,13 +22,13 @@ Visão geral, introdução e métodos de código disponíveis na biblioteca de [
 
 >[!IMPORTANT]
 >
->A partir da versão 8.0 (lançada em agosto de 2018), [!UICONTROL DIL] há uma forte dependência do [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html), versão 3.3 ou superior. Ele depende do [!DNL ID Service] acionamento de sincronizações de ID e destinos de URL. Ocorre um erro se o [!DNL ID Service] estiver ausente, antigo ou não configurado.
+>A partir da versão 8.0 (lançada em agosto de 2018), [!UICONTROL DIL] há uma forte dependência do [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/pt-BR/id-service/using/home.html), versão 3.3 ou superior. Ele depende do [!DNL ID Service] acionamento de sincronizações de ID e destinos de URL. Ocorre um erro se o [!DNL ID Service] estiver ausente, antigo ou não configurado.
 >
 >Recomendamos que você use [!DNL Adobe Experience Platform Launch] para implementar e gerenciar suas [!DNL DIL] bibliotecas e [!DNL Adobe Experience Platform Identity Service] bibliotecas.
 
 No entanto, você também pode baixar o Experience Cloud e [!DNL DIL] as versões mais recentes de nossa página do GitHub. Consulte os links de download abaixo:
 
-* Baixe o serviço de identidade do [Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/id-service/releases)
+* Download the [Adobe Experience Platform Identity Service](https://github.com/Adobe-Marketing-Cloud/id-service/releases)
 * Baixar [DIL](https://github.com/Adobe-Marketing-Cloud/dil/releases)
 
 ## Objetivo do DIL {#purpose-dil}
@@ -48,7 +48,7 @@ Em vez de trabalhar com [!UICONTROL DIL] e configurar [!DNL Audience Manager] ma
 
 ## Chamada de exemplo {#sample-code}
 
-[!UICONTROL DIL] envia dados para [!DNL Audience Manager] uma chamada de evento. Uma chamada de evento é uma solicitação HTTP XML da sua página. Ele usa um `POST` método para enviar dados no corpo da solicitação.
+[!UICONTROL DIL] envia dados para [!DNL Audience Manager] uma chamada de evento. Uma chamada de evento é uma solicitação HTTP XML de sua página. Ele usa um `POST` método para enviar dados no corpo da solicitação.
 
 | Elemento de chamada do Evento | Descrição |
 |--- |--- |
@@ -57,13 +57,13 @@ Em vez de trabalhar com [!UICONTROL DIL] e configurar [!DNL Audience Manager] ma
 
 Consulte também:
 * [Requisitos de prefixo para variáveis-chave](../features/traits/trait-variable-prefixes.md)
-* [Atributos suportados para chamadas de API DCS](../api/dcs-intro/dcs-api-reference/dcs-keys.md)
+* [Atributos compatíveis com chamadas de DCS API](../api/dcs-intro/dcs-api-reference/dcs-keys.md)
 
 ## Links relacionados
 
-* [Casos de uso DIL e exemplos de código](/help/using/dil/dil-use-cases.md)
-* [Métodos DIL de nível de classe](/help/using/dil/dil-class-overview/dil-start.md)
-* [Métodos DIL de nível de instância](/help/using/dil/dil-instance-methods.md)
-* [Módulos DIL](/help/using/dil/dil-modules.md)
-* [Ferramentas DIL](/help/using/dil/dil-tools.md)
+* [Casos de uso da DIL e exemplos de código](/help/using/dil/dil-use-cases.md)
+* [Métodos da DIL em nível de classe ](/help/using/dil/dil-class-overview/dil-start.md)
+* [Métodos da DIL em nível de instância](/help/using/dil/dil-instance-methods.md)
+* [Módulos da DIL](/help/using/dil/dil-modules.md)
+* [Ferramentas da DIL](/help/using/dil/dil-tools.md)
 * [Flash DIL](/help/using/dil/dil-flash.md)
