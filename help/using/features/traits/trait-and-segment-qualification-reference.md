@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ Além disso, consulte População de segmentos em tempo [real e População](#re
 | Características integradas | A qualificação de características ocorre depois que um arquivo de entrada é processado, isto é, o arquivo de entrada é [importado para o Audience Manager](../../faq/faq-inbound-data-ingestion.md) e é quando a qualificação de características acontece. Aguarde aproximadamente 4 horas após criar uma característica integrada antes de carregar um arquivo de entrada para processamento. Para características integradas, o número máximo de qualificações para um perfil de usuário é 1. |
 | Características algorítmicas | Para características algorítmicas, o número máximo de qualificações para um perfil de usuário é 1. |
 | Características da pasta | Uma característica de pasta resume as qualificações de característica das características que ela contém. Ler características [da pasta: Sobre](about-folder-traits.md) para obter mais informações. |
-| Características de Audiência ativas e características sincronizadas da fonte de dados | Uma [!UICONTROL Active Audience] característica contém todos os dispositivos sob gerenciamento na sua conta de Audience Manager. [!UICONTROL Data Source Synced Traits] rastreie todos os usuários associados a uma fonte de dados. Leia mais sobre Características de Audiência [ativas e Características](client-activity-synced-audience-traits.md)sincronizadas da fonte de dados. |
+| Características do público-alvo ativo e características sincronizadas da fonte de dados | Uma [!UICONTROL Active Audience] característica contém todos os dispositivos sob gerenciamento na sua conta de Audience Manager. [!UICONTROL Data Source Synced Traits] rastreie todos os usuários associados a uma fonte de dados. Leia mais sobre Características de Audiência [ativas e Características](client-activity-synced-audience-traits.md)sincronizadas da fonte de dados. |
 
 ## Realizações de características únicas e população de características totais {#unique-trait-realizations}
 
