@@ -92,11 +92,11 @@ As tabelas a seguir são listas e definem as chaves nas seções `Files` e `Summ
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MetadataType</code> </p> </td> 
-   <td colname="col2"> <p>O nome legível para o tipo de dados que seu arquivo contém. Ela se baseia na ID filho no nome do arquivo. </p> <p>Consulte <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Nomear convenções para arquivos</a>de metadados. </p> </td> 
+   <td colname="col2"> <p>O nome legível para o tipo de dados que seu arquivo contém. Ela se baseia na ID filho no nome do arquivo. </p> <p>See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Naming Conventions for Metadata Files</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Parent</code> </p> </td> 
-   <td colname="col2"> <p>O nome legível para o tipo de dados que seu arquivo contém. Ela se baseia na ID pai no nome do arquivo. </p> <p>Consulte <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Nomear convenções para arquivos</a>de metadados. </p> </td> 
+   <td colname="col2"> <p>O nome legível para o tipo de dados que seu arquivo contém. Ela se baseia na ID pai no nome do arquivo. </p> <p>See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Naming Conventions for Metadata Files</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Status</code> </p> </td> 
