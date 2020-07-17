@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1573'
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 
@@ -60,11 +60,11 @@ Com [!UICONTROL Trait Recommendations], você pode melhorar seus workflows, depe
 
 ### Modelos algorítmicos
 
-[!UICONTROL Algorithmic Models] não somente encontra as características mais influentes, como também pontua os usuários com base nessas características e atribui a cada usuário uma pontuação individual. Em seguida, você cria traços algorítmicos para público alvo de seus usuários. Com controles de precisão e alcance no [!UICONTROL Trait Builder], você pode especificar quais usuários entre todos aqueles que têm as características influentes que deseja público alvo.
+[!UICONTROL Algorithmic Models] não somente encontra as características mais influentes, como também pontua os usuários com base nessas características e atribui a cada usuário uma pontuação individual. Em seguida, você cria características algorítmicas para direcionar os usuários. With accuracy and reach controls in the [!UICONTROL Trait Builder], you can specify which users amongst all those who have the influential traits you want to target.
 
-[!UICONTROL Algorithmic Models] permite que você selecione usuários em diferentes níveis de precisão e teste em [!UICONTROL Audience Lab] qual grupo de usuários converte melhor. Consulte o caso de uso detalhado em [Comparar modelos no Laboratório](../../features/audience-lab/audience-lab-use-cases.md#compare-models)de Audiências.
+[!UICONTROL Algorithmic Models] permite que você selecione usuários em diferentes níveis de precisão e teste em [!UICONTROL Audience Lab] qual grupo de usuários converte melhor. Consulte o caso de uso detalhado em [Comparar modelos no Audience Lab](../../features/audience-lab/audience-lab-use-cases.md#compare-models).
 
-No [!UICONTROL Algorithmic Models], o modelo é executado a cada 8 dias e atualiza os usuários qualificados para características algorítmicas.
+In [!UICONTROL Algorithmic Models], the model runs every 8 days and refreshes the users qualified for algorithmic traits.
 
 ### Recomendações de característica
 
@@ -72,9 +72,9 @@ No [!UICONTROL Algorithmic Models], o modelo é executado a cada 8 dias e atuali
 
 Você deve usar [!UICONTROL Trait Recommendations] quando:
 
-* Você precisa de insights rápidos ao criar um segmento;
-* Você está usando os segmentos para campanhas curtas ou quando deseja suprimir rapidamente a audiência que converte;
-* Você está tentando maximizar o alcance.
+* Precisar de insights rápidos ao criar um segmento;
+* Estiver usando os segmentos para campanhas curtas ou quando deseja suprimir rapidamente o público-alvo que converte;
+* Estiver tentando maximizar o alcance.
 
 ## Fluxo de trabalho
 
@@ -94,7 +94,7 @@ Ao criar ou editar um segmento no Construtor [de](segment-builder.md)segmentos, 
 
 >[!IMPORTANT]
 >
->Ao adicionar [!UICONTROL Marketplace] características a um segmento, as características são usadas apenas para a estimativa do segmento, até que você assine o feed de dados correspondente. As características que vêm dos feeds de dados aos quais você não está inscrito são marcadas com um ícone de carrinho de compras na lista de características. Clique no nome da característica para acessar a página de feed de dados e inscrevê-la.
+>Ao adicionar [!UICONTROL Marketplace] características a um segmento, as características são usadas apenas para a estimativa do segmento, até que você assine o feed de dados correspondente. As características que vêm dos feeds de dados aos quais você não está inscrito são marcadas com um ícone de carrinho de compras na lista de características. Clique no nome da característica para ir até a página de feed de dados e assinar.
 >
 >![marketplace-not-subscription](assets/trait-recommendations-marketplace.png)
 >
