@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -45,5 +45,5 @@ Uma chamada de evento envia dados de seu site para [!DNL Audience Manager]. A ch
 
 >[!MORELIKETHIS]
 >
->* [Segmentos: Finalidade, composição e regras](../features/segments/segments-purpose.md)
+>* [Segmentos: finalidade, composição e regras](../features/segments/segments-purpose.md)
 
