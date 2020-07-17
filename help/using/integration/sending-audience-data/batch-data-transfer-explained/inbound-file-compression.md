@@ -1,21 +1,21 @@
 ---
 description: Como opção, você pode compactar arquivos de dados ao enviá-los para o Audience Manager.
 seo-description: Como opção, você pode compactar arquivos de dados ao enviá-los para o Audience Manager.
-seo-title: Compactação de arquivos para arquivos de transferência de dados de entrada
+seo-title: Compactação de arquivos de transferência de dados de entrada
 solution: Audience Manager
-title: Compactação de arquivos para arquivos de transferência de dados de entrada
+title: Compactação de arquivos de transferência de dados de entrada
 uuid: 2a68f69c-60b0-4002-863b-302d2320e356
 feature: Inbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
 
-# Compactação de arquivos para arquivos de transferência de dados de entrada{#file-compression-for-inbound-data-transfer-files}
+# Compactação de arquivos de transferência de dados de entrada{#file-compression-for-inbound-data-transfer-files}
 
 É possível compactar arquivos de dados ao enviá-los para o Audience Manager.
 
