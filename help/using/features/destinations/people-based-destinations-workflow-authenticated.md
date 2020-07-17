@@ -1,20 +1,20 @@
 ---
 description: 'Esta página inclui orientações passo a passo sobre como combinar dados do CRM offline com dados comportamentais em tempo real para usuários autenticados criarem segmentos de audiência e, em seguida, enviarem esses segmentos de audiência para Destinos Baseados em Pessoas. '
 seo-description: 'Esta página inclui orientações passo a passo sobre como combinar dados do CRM offline com dados comportamentais em tempo real para usuários autenticados criarem segmentos de audiência e, em seguida, enviarem esses segmentos de audiência para Destinos Baseados em Pessoas.  '
-seo-title: Fluxo de trabalho C - personalização baseada na Atividade autenticada combinada com dados offline
+seo-title: Fluxo de trabalho C - Personalização baseada na Atividade autenticada combinada com dados offline
 solution: Audience Manager
-title: Fluxo de trabalho C - personalização baseada na Atividade autenticada combinada com dados offline
+title: Fluxo de trabalho C - Personalização baseada na Atividade autenticada combinada com dados offline
 feature: People-Based Destinations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '918'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
 
-# Fluxo de trabalho C - personalização baseada na Atividade autenticada combinada com dados offline {#workflow-c}
+# Fluxo de trabalho C - Personalização baseada na Atividade autenticada combinada com dados offline {#workflow-c}
 
 >[!IMPORTANT]
 >Este artigo contém a documentação do produto destinada a orientá-lo durante a configuração e o uso deste recurso. Nada aqui contido é aconselhamento jurídico. Consulte o seu próprio advogado para obter orientação jurídica.
@@ -73,7 +73,7 @@ Digamos que você tenha criado as duas fontes de dados a seguir.
 
 Em seguida, você deseja qualificar as IDs de CRM abaixo para a característica na tabela.
 
-| DPUUID (CRM ID) | Endereço de email | Endereço de email com hash | Características |
+| DPUUID (CRM ID) | Seu endereço de email | Endereço de email com hash | Característica |
 | -------------------------------------- | --------------------- | ---------------------------------------------------------------- | ------------- |
 | 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 | localização = EUA |
 
