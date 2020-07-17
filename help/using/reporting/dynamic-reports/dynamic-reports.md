@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 5%
+ht-degree: 21%
 
 ---
 
@@ -23,7 +23,7 @@ Relatórios interativos exibem dados de desempenho e sobreposição para caracte
 + [Relatório de sobreposição de característica por característica](trait-trait-overlap-report.md)
 + [Relatório de sobreposição de segmento por característica](segment-trait-overlap-report.md)
 + [Relatório de sobreposição de segmento por segmento](segment-segment-overlap-report.md)
-+ [Relatório de Sinais Não Utilizados](unused-signals.md)
++ [Relatório de sinais não usados](unused-signals.md)
 + [Melhore os tempos de processamento do arquivo de log com tabelas de pesquisa](lookup-tables.md)
 + [Filtrar resultados do relatório com os controles deslizantes de dados](data-sliders.md)
 + [Relatórios de sobreposição: Atualizar agendamento e tamanho mínimo do segmento](overlap-minimum-segment-size.md)
