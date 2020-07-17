@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '944'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
 
-# Índice de IDs em [!DNL Audience Manager] {#index-of-ids-in-audience-manager}
+# Index of IDs in [!DNL Audience Manager] {#index-of-ids-in-audience-manager}
 
 ## Visão geral {#overview}
 
@@ -32,7 +32,7 @@ Para entender os prefixos usados nos exemplos a seguir, consulte Atributos [supo
 
 | ID | Nome e descrição | Uso e exemplos | Local da interface do usuário |
 |---|---|---|---|
-| [!DNL AAM UUID] | [!DNL Adobe Audience Manager Unique User ID], também conhecido como [!UICONTROL Device ID]. Uma ID de dispositivo numérica de 38 dígitos que [!DNL Audience Manager] se associa a cada dispositivo com o qual ele interage. Considere essa ID sempre que vir uma menção de usuários únicos na [!DNL Audience Manager] interface do usuário. O Audience Manager salva essa ID como um domínio [!DNL cookie] de `demdex.net` terceiros. | Em [!DNL DCS] chamadas, `uuid` é precedido pelo `d_` prefixo. <br>Exemplo: `d_uuid = 07955261652886032950143702505894272138` | Você pode filtrar [!DNL traits] ao [!UICONTROL Device ID] criar modelos [semelhantes e](../features/algorithmic-models/create-model.md)criar segmentos [](../features/segments/segment-builder.md). Você também pode filtrar os resultados [!UICONTROL Device ID] ao executar Relatórios [Gerais para Características](../reporting/general-reports.md) e Relatórios de [Tendência para Características](../reporting/trend-reports.md). |
+| [!DNL AAM UUID] | [!DNL Adobe Audience Manager Unique User ID], também conhecido como [!UICONTROL Device ID]. Uma ID de dispositivo numérica de 38 dígitos que [!DNL Audience Manager] se associa a cada dispositivo com o qual ele interage. Considere essa ID sempre que vir uma menção de usuários únicos na [!DNL Audience Manager] interface do usuário. O Audience Manager salva essa ID como um domínio [!DNL cookie] de `demdex.net` terceiros. | Em [!DNL DCS] chamadas, `uuid` é precedido pelo `d_` prefixo. <br>Exemplo: `d_uuid = 07955261652886032950143702505894272138` | É possível filtrar [!DNL traits] ao [!UICONTROL Device ID] criar modelos [semelhantes e](../features/algorithmic-models/create-model.md)criar segmentos [](../features/segments/segment-builder.md). Você também pode filtrar os resultados [!UICONTROL Device ID] ao executar Relatórios [Gerais para Características](../reporting/general-reports.md) e Relatórios de [Tendência para Características](../reporting/trend-reports.md). |
 | [!DNL ImsOrgId] | [!DNL Organization ID]. Essa é a ID que uma empresa recebe ao se inscrever em uma [!DNL Experience Cloud] conta. | `5DC5123F5245B1D20A490D46@AdobeOrg` | Não visível na interface do [!DNL Audience Manager] usuário. Para saber como encontrar sua empresa [!DNL Organization ID], leia [Localizar sua ID](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html#concept_EA8AEE5B02CF46ACBDAD6A8508646255)de organização. |
 | [!DNL PID] | [!DNL Partner ID]. O [!DNL PID] é um ID de empresa em [!DNL Audience Manager]. Audience Manager associa um [!DNL imsOrgId] a um [!DNL PID]. | `1352` | Não visível na interface do [!DNL Audience Manager] usuário. |
 | [!DNL ECID], [!DNL MID] | [!DNL Experience Cloud] ID. A [!DNL Experience Cloud] ID ([!DNL ECID], abreviações herdadas [!DNL MID] ou [!DNL MCID]) é derivada matematicamente de seu [!DNL Organization ID] e do [!DNL Audience Manager] [!UICONTROL Unique User ID]. As long as these IDs remain constant, generating the right [!DNL ECID] for a specific user is simply a math problem. Com o mesmo [!DNL Organization ID] e [!DNL Audience Manager] você recebe o mesmo [!DNL UUID] [!DNL ECID] valor toda vez. Você pode ler mais sobre o [!DNL ECID] na documentação [Cookies e Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html#section-15f69c0bac394b4b9966a23fbc586d17) . | `mid = 08382830887934830189014177072406221371` | Não visível na interface do [!DNL Audience Manager] usuário. |
