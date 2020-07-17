@@ -10,18 +10,18 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '666'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 
-# CID Replaces DPID and DPUUID{#cid-replaces-dpid-and-dpuuid}
+# CID substitui DPID e DPUUID{#cid-replaces-dpid-and-dpuuid}
 
 Atualize seu código para usar `d_cid` ou `d_cid_ic` em vez de `d_dpid` e `d_dpuuid`. As variáveis DPID e DPUUID continuarão funcionando, mas você deve considerá-las obsoletas. Isso inclui variantes DPID e DPUUID sem o `d_ prefix`.
 
 ## DPID e DPUUID: Uma revisão {#dpid-dpuuid-review}
 
-A DPID e a DPUUID são pares de valores chave que contêm uma ID de provedor de dados e uma ID de usuário. Esses valores-chave emparelham as IDs do provedor de link com as IDs do usuário. Eles enviam dados durante chamadas de evento, para eventos de sincronização de entrada e para chamadas de ID. Sem eles, [!DNL Audience Manager]e outros serviços ou recursos, não haveria uma forma de corresponder e sincronizar IDs. Essas variáveis às vezes são expressas com ou sem o `d_` prefixo, conforme mostrado abaixo. Observação: no código, o *itálico* indica um espaço reservado variável.
+A DPID e a DPUUID são pares de valores chave que contêm uma ID de provedor de dados e uma ID de usuário. Esses valores-chave emparelham as IDs do provedor de link com as IDs do usuário. Eles enviam dados durante chamadas de evento, para eventos de sincronização de entrada e para chamadas de ID. Sem eles, [!DNL Audience Manager]e outros serviços ou recursos, não haveria uma forma de corresponder e sincronizar IDs. Essas variáveis às vezes são expressas com ou sem o `d_` prefixo, conforme mostrado abaixo. Note, in the code, *italics* indicates a variable placeholder.
 
 <table id="table_932B4416AE1E44E4A1E98D779D3B1ED5"> 
  <thead> 
@@ -59,7 +59,7 @@ Os pares de valores chave CID e CID_IC substituem DPID e DPUUID. Elas fornecem a
 * O símbolo = separa a chave de seus valores relacionados.
 * O caractere ASCII não imprimível %01 separa os valores.
 
-`d_cid` e `d_cid_ic` use a sintaxe mostrada abaixo. Observação: no código, o *itálico* indica um espaço reservado variável.
+`d_cid` e `d_cid_ic` use a sintaxe mostrada abaixo. Note, in the code, *italics* indicates a variable placeholder.
 
 <table id="table_0C8A4F8FDBC84416B4EB476F67BCFA8E"> 
  <thead> 
