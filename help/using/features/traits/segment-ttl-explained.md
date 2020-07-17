@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Explicação do tempo de vida do segmento e da característica {#segment-time-to-live-explained}
+# Explicação do tempo de vida útil do segmento e da característica {#segment-time-to-live-explained}
 
 Como o intervalo de características [!UICONTROL time-to-live] ([!DNL TTL]) afeta a associação de segmentos.
 
@@ -23,7 +23,7 @@ Como o intervalo de características [!UICONTROL time-to-live] ([!DNL TTL]) afet
 
 ## Tempo de vida
 
-[!DNL TTL] define quanto tempo um visitante do site permanece em um segmento após o último evento de qualificação de característica. [!DNL TTL] é definida em características e não em segmentos. Os Visitantes saem de um segmento se não se qualificarem para uma característica antes do final do [!DNL TTL] intervalo. O padrão [!DNL TTL] para novas características é 120 dias. Quando definido como 0 dias, a característica nunca expira. [Defina o valor](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval) TTL ao criar ou editar uma característica na [!UICONTROL Advanced Options] seção da interface de criação de característica.
+[!DNL TTL] define quanto tempo um visitante do site permanece em um segmento após o último evento de qualificação de característica. [!DNL TTL]O é definido nas características e não em segmentos. Visitors fall out of a segment if they do not qualify for a trait before the end of the [!DNL TTL] interval. O padrão [!DNL TTL] para novas características é 120 dias. Quando definido como 0 dias, a característica nunca expira. [Defina o valor](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval) TTL ao criar ou editar uma característica na [!UICONTROL Advanced Options] seção da interface de criação de característica.
 
 ### Explicação do TTL de 1 dia
 
