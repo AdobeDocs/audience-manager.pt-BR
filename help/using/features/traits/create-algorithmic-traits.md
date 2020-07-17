@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -40,7 +40,7 @@ Em [!UICONTROL Trait Builder], a [!UICONTROL Configuration] seção permite asso
 
 <!-- r_algo_trait_config_section.xml -->
 
-* [Crie um modelo](../../features/algorithmic-models/create-model.md)semelhante à aparência.
+* [Criar um modelo semelhante](../../features/algorithmic-models/create-model.md).
 * Aguarde o e-mail de notificação que informa que o modelo de execução de dados foi concluído.
 * Preencha os campos obrigatórios na seção Informações [](../../features/traits/create-onboarded-rule-based-traits.md) básicas.
 
