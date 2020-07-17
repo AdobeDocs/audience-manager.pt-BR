@@ -1,22 +1,22 @@
 ---
 description: O Audience Analytics permite enviar segmentos do Audience Manager para o Analytics. Para usar esse recurso, crie um destino do Analytics e mapeie os segmentos a ele no Audience Manager.
 seo-description: O Audience Analytics permite enviar segmentos do Audience Manager para o Analytics. Para usar esse recurso, crie um destino do Analytics e mapeie os segmentos a ele no Audience Manager.
-seo-title: Configurar um destino Analytics
+seo-title: Configurar um destino do Analytics
 solution: Audience Manager
-title: Configurar um destino Analytics
+title: Configurar um destino do Analytics
 feature: Integration with Analytics
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '864'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
 
-# Configurar um destino Analytics
+# Configurar um destino do Analytics
 
-## Exigências {#requirements}
+## Requisitos {#requirements}
 
 Para configurar um destino Analytics, o usuário Audience Manager deve ter permissões de administrador. Consulte [Criar usuários](/help/using/features/administration/administration-overview.md#create-users) no Guia de administração. Observe que ter a permissão `CREATE_DESTINATIONS` curinga [](/help/using/features/administration/administration-overview.md#wild-card-permissions) não é suficiente para criar destinos do Analytics.
 Para obter mais requisitos, consulte Pré-requisitos na [Audiência Analytics](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/mc-audiences-aam.html).
