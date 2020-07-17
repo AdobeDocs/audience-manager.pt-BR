@@ -115,7 +115,7 @@ Macros usadas para formatar o conteúdo de um arquivo de dados. Para obter exemp
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID_LIST </code> </p> </td> 
-   <td colname="col2"> <p>Retorna uma lista que contém várias IDs para um parceiro de dados. Isso é útil se você tiver uma organização grande com várias subdivisões ou outros grupos organizacionais com os quais você pode compartilhar dados. Essa macro retorna uma lista das IDs para esses grupos subordinados. </p> </td> 
+   <td colname="col2"> <p>Retorna uma lista que contém várias IDs para um parceiro de dados. Isso é útil se você tiver uma organização grande com várias subdivisões ou outros grupos organizacionais com os quais você pode compartilhar dados. Essa macro retorna uma lista das IDs para esses grupos secundários. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DPID </code> </p> </td> 
@@ -131,7 +131,7 @@ Macros usadas para formatar o conteúdo de um arquivo de dados. Para obter exemp
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MCID </code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Adobe Experience Cloud </span> ID. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Adobe Experience Cloud ID.</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPEN_CURLY_BRACKET </code> </p> </td> 
