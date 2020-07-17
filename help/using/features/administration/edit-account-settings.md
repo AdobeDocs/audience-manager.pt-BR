@@ -1,9 +1,9 @@
 ---
 description: Usuários que não são administradores podem editar seus próprios perfis, inclusive alterar seus endereços de email e redefinir suas senhas.
 seo-description: Usuários que não são administradores podem editar seus próprios perfis, inclusive alterar seus endereços de email e redefinir suas senhas.
-seo-title: Editar suas configurações de conta
+seo-title: Editar as configurações da conta
 solution: Audience Manager
-title: Editar suas configurações de conta
+title: Editar as configurações da conta
 topic: DIL API
 uuid: 5cc04104-65db-4d48-ba13-3f344e03d6df
 feature: Administration
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# Editar suas configurações de conta {#edit-your-account-settings}
+# Editar as configurações da conta {#edit-your-account-settings}
 
 Usuários que não são administradores podem editar seus próprios perfis, inclusive alterar seus endereços de email e redefinir suas senhas.
 
