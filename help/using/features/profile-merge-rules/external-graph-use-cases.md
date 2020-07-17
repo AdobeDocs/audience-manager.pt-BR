@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -129,7 +129,7 @@ Usando o **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adobe Co-O
 
 >[!MORELIKETHIS]
 >
->* [Casos de uso do gráfico de dispositivo de link de Perfil](profile-link-use-case.md)
->* [Casos de uso gerais para regras de mesclagem de Perfis](merge-rule-targeting-options.md)
+>* [Casos de uso do gráfico de dispositivo de link de perfis](profile-link-use-case.md)
+>* [Casos de uso gerais para regras de mesclagem de perfis](merge-rule-targeting-options.md)
 >* [Perguntas frequentes sobre as regras de mesclagem de Perfis](../../faq/faq-profile-merge.md)
 
