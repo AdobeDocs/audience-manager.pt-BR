@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '71'
-ht-degree: 4%
+ht-degree: 39%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 4%
 
 Gerencie a coleta de dados e a criação de audiências com [!UICONTROL rules-based], [!UICONTROL onboarded]ou [!UICONTROL algorithmic] [!UICONTROL folder traits]. Leia as páginas vinculadas abaixo para começar com [!UICONTROL traits]:
 
-* [Página Detalhes da Característica](/help/using/features/traits/trait-details-page.md)
-* [Construtor de perfil](/help/using/features/traits/about-trait-builder.md)
-* [Características da pasta: About](/help/using/features/traits/about-folder-traits.md)
+* [Página de detalhes da característica](/help/using/features/traits/trait-details-page.md)
+* [Construtor de perfil ](/help/using/features/traits/about-trait-builder.md)
+* [Características da pasta: sobre](/help/using/features/traits/about-folder-traits.md)
 * [Armazenamento de características](/help/using/features/traits/trait-storage.md)
-* [Características de Audiência ativas e características sincronizadas da fonte de dados](/help/using/features/traits/client-activity-synced-audience-traits.md)
+* [Características do público-alvo ativo e características sincronizadas da fonte de dados](/help/using/features/traits/client-activity-synced-audience-traits.md)
 * [Referência de qualificação de características e segmentos](/help/using/features/traits/trait-and-segment-qualification-reference.md)
