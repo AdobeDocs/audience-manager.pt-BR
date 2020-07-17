@@ -1,6 +1,9 @@
 ---
 source-git-commit: dee392312d8e0381c714a99b5d537c767107c9bc
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '329'
+ht-degree: 2%
 
 ---
 # Instruções
@@ -27,7 +30,7 @@ translation-type: tm+mt
 + Metadados que descrevem o guia do usuário são armazenados no `TOC.md`. Isso inclui:
    + product - nome do produto/capacidade.
    + nuvem - nuvem à qual este produto pertence.
-   + público-alvo - público-alvo ou arquétipo para o qual o guia é direcionado.
+   + audiência - audiência ou arquétipo para o qual o guia é direcionado.
    + guia do usuário - nome do guia do usuário.
 
 ## Metadados de nível de página
@@ -40,7 +43,7 @@ translation-type: tm+mt
    + título curto - (campo opcional).
    + index - yes / no - a página será indexada pela plataforma de pesquisa da Adobe.
    + traduzir - sim / não - esta página será localizada.
-   + versão - usada principalmente para o AEM e o Campaign, para indicar a versão do produto.
+   + versão - usada principalmente para AEM e Campanha, para indicar a versão do produto.
    + private-feature-pack - usado principalmente para o AEM.
    + beta - este produto está em beta?
    + redirecionamento - pode ser usado para criar uma referência para uma nova página, caso seja necessário.
