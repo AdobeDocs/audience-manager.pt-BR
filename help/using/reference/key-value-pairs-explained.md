@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '280'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -32,7 +32,7 @@ Um par de valores chave consiste em dois elementos de dados relacionados: Uma te
 * `color = green`
 * `price > 100`
 
-## Pares padrão e serializados de valor chave {#standard-serialized-pairs}
+## Standard and Serialized Key-Value Pairs {#standard-serialized-pairs}
 
 Os destinos aceitam dados de valor chave no *`standard`* formato ou *`serialized`* . A formatação padrão organiza os dados em pares de valores chave separados. Cada chave é declarada explicitamente, mesmo quando usada novamente para definir um valor diferente. Por outro lado, a formatação serializada condensa vários valores em um conjunto definido por uma única tecla. Além disso, em um par serializado, um indicador especial é usado para separar os valores dentro do conjunto de valores chave. Finalmente, os valores-chave padrão e serializados podem conter valores únicos ou múltiplos. A tabela a seguir fornece exemplos de formatos padrão e de valores de chave serial.
 
