@@ -2,21 +2,21 @@
 description: Uma visão geral para clientes técnicos e não técnicos que desejam colocar dados de outros sistemas (off-line) no Audience Manager.
 keywords: inbound, batch, batch upload, batch data
 seo-description: Uma visão geral para clientes técnicos e não técnicos que desejam colocar dados de outros sistemas (off-line) no Audience Manager. Para fazer isso, use a opção de carregamento em lote no Audience Manager.
-seo-title: Visão geral do envio de dados em lote para o Audience Manager
+seo-title: Visão geral do processo de envio de dados em lote para o Audience Manager
 solution: Audience Manager
-title: Visão geral do envio de dados em lote para o Audience Manager
+title: Visão geral do processo de envio de dados em lote para o Audience Manager
 uuid: 472583b1-5057-4add-8e3c-5e50762c88e0
 feature: Inbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
 
-# Enviar dados em lote para [!DNL Audience Manager] visão geral {#send-batch-data-to-audience-manager-overview}
+# Send Batch Data to [!DNL Audience Manager] Overview {#send-batch-data-to-audience-manager-overview}
 
 Uma visão geral para clientes técnicos e não técnicos que desejam trazer dados de outros sistemas (off-line) para [!DNL Audience Manager].
 
@@ -26,7 +26,7 @@ Você pode disponibilizar dados de outros sistemas em [!DNL Audience Manager]. N
 
 ## Etapa 1: Sincronizar IDs de usuário
 
-Durante a sincronização, [!DNL Audience Manager] atribui IDs exclusivas aos clientes e seus usuários. Essas IDs são conhecidas como [!UICONTROL Data Provider ID] ([!UICONTROL DPID]) e [!UICONTROL Unique User ID] ([!UICONTROL UUID]), respectivamente. [!DNL Audience Manager] usa o [!UICONTROL DPID] e [!UICONTROL UUID] para identificar usuários e qualificá-los para [!UICONTROL traits], [!UICONTROL segments], grupos de audiências e para relatórios. Além disso, nosso código de coleta de dados ([!UICONTROL DIL]) procura por essas IDs para capturar dados de visitantes do seu site. Quando essa etapa for concluída, [!DNL Audience Manager] e seu repositório offline deverá conter as IDs correspondentes para cada registro de usuário.
+Durante a sincronização, [!DNL Audience Manager] atribui IDs exclusivas a clientes e seus usuários. Essas IDs são conhecidas como [!UICONTROL Data Provider ID] ([!UICONTROL DPID]) e [!UICONTROL Unique User ID] ([!UICONTROL UUID]), respectivamente. [!DNL Audience Manager] usa o [!UICONTROL DPID] e [!UICONTROL UUID] para identificar usuários e qualificá-los para [!UICONTROL traits], [!UICONTROL segments], grupos de audiências e para relatórios. Além disso, nosso código de coleta de dados ([!UICONTROL DIL]) procura por essas IDs para capturar dados de visitantes do seu site. Quando essa etapa for concluída, [!DNL Audience Manager] e seu repositório offline deverá conter as IDs correspondentes para cada registro de usuário.
 
 Considerações importantes sobre esta etapa:
 
