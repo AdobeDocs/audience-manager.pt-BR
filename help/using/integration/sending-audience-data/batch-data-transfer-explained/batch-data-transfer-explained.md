@@ -1,21 +1,21 @@
 ---
 description: Uma visão geral de como o Audience Manager executa uma troca assíncrona de dados em lote com um fornecedor terceirizado.
 seo-description: Uma visão geral de como o Audience Manager executa uma troca assíncrona de dados em lote com um fornecedor terceirizado.
-seo-title: Processo de transferência de dados em lote descrito
+seo-title: Descrição do processo de transferência de dados em lote
 solution: Audience Manager
-title: Processo de transferência de dados em lote descrito
+title: Descrição do processo de transferência de dados em lote
 uuid: a9eee940-151c-44f8-9fe9-8ab47d8fa45c
 feature: null
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
 
-# Processo de transferência de dados em lote descrito {#batch-data-transfer-process-described}
+# Descrição do processo de transferência de dados em lote {#batch-data-transfer-process-described}
 
 Uma visão geral de como [!DNL Audience Manager] executar uma troca assíncrona de dados em lote com um fornecedor terceirizado.
 
