@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -52,7 +52,7 @@ A tabela a seguir define os componentes básicos de uma [!DNL DCS] chamada simpl
    <td colname="col2"> <p>Esta parte da chamada contém: </p> <p> 
      <ul id="ul_3EDA9C7BA6794D06BCB07A75A9BD2372"> 
       <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Seu alias de domínio atribuído pelo <span class="keyword"> Audience Manager</span> (por exemplo, <code> my_domain.demdex.net</code>). </li> 
-      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">O domínio de destino, que é sempre <code> demdex.net</code>. Consulte <a href="../../../reference/demdex-calls.md">Compreender as chamadas para o domínio Demdex</a>. </li> 
+      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">O domínio de destino, que é sempre <code> demdex.net</code>. Consulte <a href="../../../reference/demdex-calls.md">Compreensão das chamadas para o domínio Demdex</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -73,7 +73,7 @@ A tabela a seguir define os componentes básicos de uma [!DNL DCS] chamada simpl
      <ul id="ul_624DC78759F74AD8920220058E54E083"> 
       <li id="li_091E5B4820EC4A93B775433E428E74AB">Inclua dados de sequência de caracteres entre aspas de duplo (por exemplo, <code> age="41 to 55"</code>). </li> 
       <li id="li_C558E3BA6EE34413BBBB962D4CD0D10E">Você pode passar várias teclas em um único valor (por exemplo, <i><code>key</i>=<i>val1,val2,val3</i></code></i>). </li> 
-     </ul> </p> <p>Consulte <a href="../../../api/dcs-intro/dcs-api-reference/dcs-key-format.md"> Formatação de pares de valores-chave em chamadas</a>DCS. </p> </td>
+     </ul> </p> <p>See <a href="../../../api/dcs-intro/dcs-api-reference/dcs-key-format.md"> Formatting Key-Value Pairs in DCS Calls</a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> 
@@ -97,7 +97,7 @@ https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_r
 
 ## Próximas etapas {#dcs-next-steps}
 
-Agora que vocês estão familiarizados com o envio de dados para o [!DNL DCS], é hora de olhar como obter os dados de volta e analisar essa informação. Consulte [Receber dados do DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
+Agora que vocês estão familiarizados com o envio de dados para o [!DNL DCS], é hora de olhar como obter os dados de volta e analisar essa informação. See [Receive Data From the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
 
 >[!MORELIKETHIS]
 >
