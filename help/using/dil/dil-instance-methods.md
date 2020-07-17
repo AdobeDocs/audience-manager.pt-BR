@@ -2,21 +2,21 @@
 description: As APIs DIL de nível de instância permitem que você crie e trabalhe programaticamente com objetos Audience Manager. Os métodos de nível de instância aprimoram a funcionalidade da API estabelecida pelos métodos de nível de classe.
 keywords: create traits;create trait
 seo-description: As APIs DIL de nível de instância permitem que você crie e trabalhe programaticamente com objetos Audience Manager. Os métodos de nível de instância aprimoram a funcionalidade da API estabelecida pelos métodos de nível de classe.
-seo-title: Métodos DIL de nível de instância
+seo-title: Métodos da DIL em nível de instância
 solution: Audience Manager
-title: Métodos DIL de nível de instância
+title: Métodos da DIL em nível de instância
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
 feature: DIL Implementation
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1105'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 
 
-# Métodos DIL de nível de instância{#instance-level-dil-methods}
+# Métodos da DIL em nível de instância{#instance-level-dil-methods}
 
 As [!UICONTROL DIL] APIs de nível de instância permitem criar e trabalhar programaticamente com objetos Audience Manager. Os métodos de nível de instância aprimoram a funcionalidade da API estabelecida pelos métodos de nível de classe.
 
@@ -684,6 +684,7 @@ var dilInstance = DIL.create({
 >
 >* Recomendamos que você defina `useCORSOnly: true` somente quando tiver certeza de que os visitantes do site têm navegadores compatíveis com esse recurso.
 >* Quando `useCORSOnly: true`, [!UICONTROL DIL] não fará chamadas de ID do Internet Explorer versão 9 ou anterior.
+
 >
 
 
