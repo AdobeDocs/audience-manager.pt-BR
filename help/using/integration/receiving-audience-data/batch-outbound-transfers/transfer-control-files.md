@@ -1,21 +1,21 @@
 ---
 description: Os arquivos de controle de transferência (.info) fornecem informações de metadados sobre transferências de arquivos para que os parceiros possam verificar se o Audience Manager tratou transferências de arquivos corretamente.
 seo-description: Os arquivos de controle de transferência (.info) fornecem informações de metadados sobre transferências de arquivos para que os parceiros possam verificar se o Audience Manager tratou transferências de arquivos corretamente.
-seo-title: Arquivos de controle de transferência para transferências de arquivos de registro
+seo-title: Arquivos de controle de transferência para transferências de arquivos de log
 solution: Audience Manager
-title: Arquivos de controle de transferência para transferências de arquivos de registro
+title: Arquivos de controle de transferência para transferências de arquivos de log
 uuid: ef58213e-7b37-4c5a-8556-0de695706793
 feature: Outbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# Arquivos de controle de transferência para transferências de arquivos de registro {#transfer-control-files-for-log-file-transfers}
+# Arquivos de controle de transferência para transferências de arquivos de log {#transfer-control-files-for-log-file-transfers}
 
 Os arquivos de controle de transferência ([!DNL .info]) fornecem informações de metadados sobre transferências de arquivos para que os parceiros possam verificar se o Audience Manager tratou as transferências de arquivos corretamente.
 
