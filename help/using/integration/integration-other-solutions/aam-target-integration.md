@@ -1,21 +1,21 @@
 ---
 description: Essa integração permite enviar segmentos de Audience Manager para o Público alvo.
 seo-description: Essa integração permite enviar segmentos de Audience Manager para o Público alvo.
-seo-title: Integrar Audience Manager com Público alvo
+seo-title: Integrar o Audience Manager ao Target
 solution: Audience Manager
-title: Integrar Audience Manager com Público alvo
+title: Integrar o Audience Manager ao Target
 uuid: c5ca2101-99fb-4178-9839-3ec5b605c040
 feature: Integration with Target
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '154'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
 
-# Integrar o Audience Manager com [!DNL Target] {#integrate-audience-manager-with-target}
+# Integrate Audience Manager With [!DNL Target] {#integrate-audience-manager-with-target}
 
 Essa integração permite que você envie segmentos de Audience Manager para a Adobe [!DNL Target].
 
