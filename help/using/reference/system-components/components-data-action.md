@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '680'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -33,7 +33,7 @@ Os componentes de ação são sistemas e processos que permitem que você mova d
 
 ## Servidor de coleta de dados (DCS) {#dcs}
 
-Consulte Componentes [da coleta de](../../reference/system-components/components-data-collection.md)dados.
+Consulte [Componentes da coleta de dados](../../reference/system-components/components-data-collection.md).
 
 ## SFTP/S3 {#sftp-s3}
 
@@ -150,4 +150,4 @@ O exemplo a seguir contém dados de segmento em tempo real de [!UICONTROL IRIS].
 
 ## Servidor de cache de Perfil (PCS) {#pcs}
 
-Consulte Componentes [da coleta de](../../reference/system-components/components-data-collection.md)dados.
+Consulte [Componentes da coleta de dados](../../reference/system-components/components-data-collection.md).
