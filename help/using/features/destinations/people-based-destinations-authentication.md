@@ -1,20 +1,20 @@
 ---
 description: 'Esta página contém orientações sobre como configurar e gerenciar a integração entre plataformas baseadas em Audience Manager e em pessoas. '
 seo-description: 'Esta página contém orientações sobre como configurar e gerenciar a integração entre plataformas baseadas em Audience Manager e em pessoas. '
-seo-title: Autenticação com plataformas baseadas em pessoas
+seo-title: Autenticação com plataformas com base em pessoas
 solution: Audience Manager
-title: Autenticação com plataformas baseadas em pessoas
+title: Autenticação com plataformas com base em pessoas
 feature: People-Based Destinations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '548'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Autenticação com plataformas baseadas em pessoas {#authentication-with-people-based-platforms}
+# Autenticação com plataformas com base em pessoas {#authentication-with-people-based-platforms}
 
 >[!IMPORTANT]
 >Este artigo contém a documentação do produto destinada a orientá-lo durante a configuração e o uso deste recurso. Nada aqui contido é aconselhamento jurídico. Consulte o seu próprio advogado para obter orientação jurídica.
