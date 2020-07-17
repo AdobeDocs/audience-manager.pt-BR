@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 4%
+ht-degree: 14%
 
 ---
 
@@ -64,18 +64,18 @@ A chamada [!DNL URL] de sincronização de ID de entrada deve conter variáveis 
     </tr> 
   <tr> 
    <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i> </code> </td> 
-   <td colname="col2"> <p><code>gdpr</code> pode ser 0 (RGPD não se aplica) ou 1 (RGPD se aplica).</p><p><b>Observação:</b> <ul><li>Os parâmetros <code>gdpr</code> e <code>gdpr_consent</code> estão sendo implantados gradualmente em URLs de sincronização de ID com parceiros de ativação. Consulte Parceiros de Ativação que suportam IAB TCF no Plug-in <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners">Audience Manager para IAB TCF.</a></li><li>Esse parâmetro só pode ser usado junto com <code>gdpr_consent.</code></li></ul></p></td>
+   <td colname="col2"> <p><code>gdpr</code> pode ser 0 (o GDPR não se aplica) ou 1 (o GDPR se aplica).</p><p><b>Observação:</b> <ul><li>Os parâmetros <code>gdpr</code> e <code>gdpr_consent</code> estão sendo implantados gradualmente em URLs de sincronização de ID com parceiros de ativação. Consulte Parceiros de Ativação que suportam IAB TCF no Plug-in <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners">Audience Manager para IAB TCF.</a></li><li>Esse parâmetro só pode ser usado junto com <code>gdpr_consent.</code></li></ul></p></td>
   </tr> 
     </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code><i>gdpr_consent=&lt;ENCODED STRING&gt;</i> </code> </td> 
-   <td colname="col2"><p><code>gdpr_consent</code> é a sequência de caracteres de consentimento do RGPD codificados com base64 e segura para URL (consulte a especificação <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> do</a>IAB).</p><p><b>Observação:</b> Esse parâmetro só pode ser usado junto com <code>gdpr</code>.</p> </td> 
+   <td colname="col2"><p><code>gdpr_consent</code> is the URL-safe base64-encoded GDPR consent string (see <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB specification</a>).</p><p><b>Observação:</b> Esse parâmetro só pode ser usado junto com <code>gdpr</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!MORELIKETHIS]
 >
->* [Métodos e código da API do Data Collection Server (DCS)](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)
+>* [Métodos e código API do Data Collection Server (DCS) ](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)
 >* [Componentes da coleção de dados](../../reference/system-components/components-data-collection.md)
 
