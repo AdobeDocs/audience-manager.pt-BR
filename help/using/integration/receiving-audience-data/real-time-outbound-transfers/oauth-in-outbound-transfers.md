@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '492'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ A implementação da autenticação [!DNL Adobe Audience Manager] OAuth 2.0 [](h
 
 ![](assets/oauth2-iris.png)
 
-## Exigências {#auth-requirements}
+## Requisitos {#auth-requirements}
 
 Como um [!DNL Audience Manager] parceiro, os seguintes pontos finais são necessários para receber solicitações autenticadas:
 
