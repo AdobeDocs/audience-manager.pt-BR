@@ -10,18 +10,18 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '328'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# Segmentos: Finalidade, composição e regras {#segments-purpose-composition-and-rules}
+# Segmentos: finalidade, composição e regras {#segments-purpose-composition-and-rules}
 
 Descreve [!UICONTROL segments]as partes constituintes e a criação de regras com [!UICONTROL Segment Builder].
 
 ## Finalidade da [!UICONTROL Segments]
 
-Um *`segment`* (ou um *`audience`*) é um conjunto de usuários que compartilham atributos comuns. No Audience Manager, você cria [!UICONTROL segments] com regras do lado do servidor. Essas regras permitem que você crie grupos de audiências com base nos atributos de visitante do site, como:
+A *`segment`* (or an *`audience`*) is a set of users who share common attributes. No Audience Manager, você cria [!UICONTROL segments] com regras do lado do servidor. Essas regras permitem que você crie grupos de audiências com base nos atributos de visitante do site, como:
 
 * Comportamento;
 * Demografia (idade, gênero, rendimento, etc.);
@@ -37,7 +37,7 @@ Ao mapear o Adobe Analytics [!UICONTROL segments] ou conjuntos de relatórios pa
 
 >[!TIP]
 >
->Audience Manager [!UICONTROL segments] são diferentes de [!DNL Adobe Analytics][!UICONTROL segments]. Leia [Como entender segmentos no Analytics e no Audience Manager](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) para obter uma descrição detalhada das diferenças.
+>Audience Manager [!UICONTROL segments] são diferentes de [!DNL Adobe Analytics][!UICONTROL segments]. Read [Understanding Segments in Analytics and Audience Manager](https://docs.adobe.com/content/help/pt-BR/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) for an in-depth description of the differences.
 
 ## Criar com base em regras [!UICONTROL Segments] com [!UICONTROL Segment Builder]
 
