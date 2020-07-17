@@ -1,21 +1,21 @@
 ---
 description: Descreve métodos na namespace DIL.tools. Essas funções de utilitário ajudam a executar tarefas específicas.
 seo-description: Descreve métodos na namespace DIL.tools. Essas funções de utilitário ajudam a executar tarefas específicas.
-seo-title: Ferramentas DIL
+seo-title: Ferramentas da DIL
 solution: Audience Manager
-title: Ferramentas DIL
+title: Ferramentas da DIL
 uuid: 2bc62ce2-16bd-4e80-b493-c816ba643b59
 feature: DIL Implementation
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
 
-# Ferramentas DIL
+# Ferramentas da DIL
 
 Descreve métodos na `DIL.tools` namespace. Essas funções de utilitário ajudam a executar tarefas específicas.
 
