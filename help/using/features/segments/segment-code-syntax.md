@@ -1,21 +1,21 @@
 ---
 description: O Construtor de segmentos permite que você crie regras de características para um segmento usando um editor de código. Clique na guia Expressões de segmentos (Visualização de código) no painel Características para acessar esse recurso.
 seo-description: O Construtor de segmentos permite que você crie regras de características para um segmento usando um editor de código. Clique na guia Expressões de segmentos (Visualização de código) no painel Características para acessar esse recurso.
-seo-title: Sintaxe de código usada no Editor de Expressão de segmentos
+seo-title: Sintaxe de código usada no Editor de expressão de segmentos
 solution: Audience Manager
-title: Sintaxe de código usada no Editor de Expressão de segmentos
+title: Sintaxe de código usada no Editor de expressão de segmentos
 uuid: 7b4b06ca-7879-4501-8ba7-b2b6467b8a3b
 feature: Segments
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 1%
+ht-degree: 11%
 
 ---
 
 
-# Sintaxe de código usada no Editor de Expressão de segmentos {#code-syntax-used-in-the-segment-expression-editor}
+# Sintaxe de código usada no Editor de expressão de segmentos {#code-syntax-used-in-the-segment-expression-editor}
 
 [!UICONTROL Segment Builder] permite que você crie regras de características para um segmento usando um editor de código. Clique na **[!UICONTROL Segment Expressions (Code View)]** guia no [!UICONTROL Traits] painel para acessar esse recurso.
 
@@ -79,8 +79,8 @@ Defina os intervalos de [recenticidade e frequência](../../features/segments/re
 
 >[!MORELIKETHIS]
 >
->* [Idade e frequência](../../features/segments/recency-and-frequency.md)
->* [Expressões booleanas no Construtor de traços e segmentos](../../reference/boolean-expressions-tsb.md)
+>* [Recenticidade e frequência](../../features/segments/recency-and-frequency.md)
+>* [Expressões booleanas no Construtor de características e segmentos](../../reference/boolean-expressions-tsb.md)
 >* [Trabalhar com operadores de comparação no TraitBuilder](../../features/traits/trait-comparison-operators.md)
 >* [Ordem de operações nas Expressões do TraitBuilder](../../features/traits/trait-operator-precedence.md)
 
