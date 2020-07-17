@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -120,5 +120,5 @@ O pop-up do [!UICONTROL Trait-to-Trait Overlap] relatório contém as métricas 
 >* [Formas, cores e tamanhos usados em relatórios dinâmicos](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [Explicação dos ícones e ferramentas do relatório](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
 >* [Relatórios de sobreposição: Atualizar agendamento e tamanho mínimo do segmento](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Amostragem de dados e taxas de erro nos relatórios Audience Manager selecionados...](../../reporting/report-sampling.md)
+>* [Amostragem de dados e taxas de erro em alguns relatórios do Audience Manager...](../../reporting/report-sampling.md)
 >* [Arquivos CSV para relatórios de sobreposição](../../reporting/dynamic-reports/overlap-csv-files.md)
