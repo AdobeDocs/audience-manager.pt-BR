@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 0%
+ht-degree: 16%
 
 ---
 
@@ -36,7 +36,7 @@ Este guia tenta encontrar um equilíbrio entre as descrições gerais e um mergu
 * [Componentes de ação de dados](/help/using/reference/system-components/components-data-action.md)
 * [Componentes da coleção de dados](/help/using/reference/system-components/components-data-collection.md)
 * [Componentes de processamento de dados](/help/using/reference/system-components/components-data-processing.md)
-* [Componentes do Gerenciamento de tags](/help/using/reference/system-components/components-tag-management.md)
-* [Arquitetura Platform: Mapa de fluxo de dados](/help/using/reference/system-components/components-platform-architecture.md)
-* [Como entender o Edge Data Center](/help/using/reference/system-components/components-edge.md)
+* [Componentes do Tag Management](/help/using/reference/system-components/components-tag-management.md)
+* [Arquitetura da plataforma: mapa de fluxo de dados](/help/using/reference/system-components/components-platform-architecture.md)
+* [Compreensão do Edge Data Center](/help/using/reference/system-components/components-edge.md)
 
