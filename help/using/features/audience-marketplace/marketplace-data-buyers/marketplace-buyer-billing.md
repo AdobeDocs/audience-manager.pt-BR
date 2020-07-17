@@ -1,9 +1,9 @@
 ---
 description: Os compradores de dados do Audience Marketplace concordam em relatar todas as impressões de anúncios servidas usando características contidas no feed de dados com um preço por mil impressões de anúncios (CPM). O uso do CPM ocorre no quinto dia de cada mês do calendário e inclui dados do mês anterior. Os assinantes de taxa fixa não precisam relatar o uso.
 seo-description: Os compradores de dados do Audience Marketplace concordam em relatar todas as impressões de anúncios servidas usando características contidas no feed de dados com um preço por mil impressões de anúncios (CPM). O uso do CPM ocorre no quinto dia de cada mês do calendário e inclui dados do mês anterior. Os assinantes de taxa fixa não precisam relatar o uso.
-seo-title: Faturamento para Compradores de Feed de Dados
+seo-title: Faturamento para compradores de feed de dados
 solution: Audience Manager
-title: Faturamento para Compradores de Feed de Dados
+title: Faturamento para compradores de feed de dados
 keywords: Segment-level Reporting, segment-level, segment level
 uuid: d7236667-282b-4160-9909-579721af4016
 feature: Audience Marketplace
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '2027'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Faturamento para Compradores de Feed de Dados {#billing-for-data-feed-buyers}
+# Faturamento para compradores de feed de dados {#billing-for-data-feed-buyers}
 
 Os compradores de dados do Audience Marketplace concordam em relatar todas as impressões de anúncios servidas usando características contidas no feed de dados com um preço por mil impressões de anúncios ([!DNL CPM]). [!DNL CPM] o uso é devido no quinto dia de cada mês e inclui dados do mês anterior. Os assinantes de taxa fixa não precisam relatar o uso.
 
@@ -105,7 +105,7 @@ Para atualizar [!DNL CPM] o uso em massa:
 | Entrada inválida | [!DNL Audience Manager] detectou uma alteração no schema de [!DNL CSV] arquivo, como colunas ausentes ou alterações nos títulos das colunas. | Evite alterar a estrutura da tabela. |
 | Não encontrada | Para [!UICONTROL Segment Level Reporting], não [!DNL Audience Manager] foi possível identificar a combinação [!UICONTROL Segment ID] e [!UICONTROL Destination ID] . Por [!UICONTROL Feed Level Reporting]exemplo, [!DNL Audience Manager] não foi possível identificar a combinação [!UICONTROL Data Provider Name], [!UICONTROL Feed Name]e [!UICONTROL Use Case] . | Para [!UICONTROL Segment Level Reporting], verifique a validade da combinação [!UICONTROL Segment ID] e [!UICONTROL Destination ID] . Para [!UICONTROL Feed Level Reporting], verifique a validade da combinação [!UICONTROL Data Provider Name], [!UICONTROL Feed Name]e [!UICONTROL Use Case] . |
 | Registros de Duplicado encontrados | [!DNL Audience Manager] foram detectados registros de duplicados com valores de impressão diferentes. | Revise o relatório e certifique-se de não relatar valores de uso diferentes para o mesmo feed de dados ou segmento. |
-| Valores não suportados | [!DNL Audience Manager] valores não numéricos detectados na [!DNL Audience Manager] coluna. | Revise o relatório e certifique-se de inserir apenas valores numéricos na [!DNL Audience Manager] coluna. |
+| Valores não suportados | [!DNL Audience Manager] foram detectados valores não numéricos na [!DNL Audience Manager] coluna. | Revise o relatório e certifique-se de inserir apenas valores numéricos na [!DNL Audience Manager] coluna. |
 | Cabeçalhos para campos obrigatórios ausentes | [!DNL Audience Manager] foram detectados cabeçalhos de tabela ausentes para campos obrigatórios. Para [!UICONTROL Segment Level Reporting], os campos obrigatórios são: [!UICONTROL Segment ID], [!UICONTROL Destination ID]. Para [!UICONTROL Feed Level Reporting], os campos obrigatórios são: [!UICONTROL Data Provider Name], [!UICONTROL Data Feed Name],  [!UICONTROL Use Case] | Revise o relatório e verifique se os cabeçalhos da tabela não foram adulterados. |
 
 >[!NOTE]
