@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1170'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -109,7 +109,7 @@ Como lembrete, agora você tem duas fontes de dados:
 | 999999 | DPUUIDs existentes (IDs CRM) |
 | 987654 | Endereços de email em hash |
 
-| DPUUIDs (CRM IDs) | Endereço de email | Endereço de email com hash |
+| DPUUIDs (CRM IDs) | Seu endereço de email | Endereço de email com hash |
 | -------------------------------------- | --------------------- | ---------------------------------------------------------------- |
 | 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 |
 | 67412682083411995725538770443620307584 | `janedoe@email.com` | 16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a |
