@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 1%
+ht-degree: 11%
 
 ---
 
@@ -56,7 +56,7 @@ Você pode criar regras com os seguintes operadores nomeados:
 
 >[!MORELIKETHIS]
 >
->* [Expressões booleanas no Construtor de traços e segmentos](../../reference/boolean-expressions-tsb.md)
+>* [Expressões booleanas no Construtor de características e segmentos](../../reference/boolean-expressions-tsb.md)
 >* [Noções básicas sobre Expressões booleanas no TraitBuilder](../../reference/boolean-expressions-tsb.md)
 >* [Ordem de operações nas Expressões do TraitBuilder](../../features/traits/trait-operator-precedence.md)
 >* [Expressões de amostra com operadores booleanos e de comparação](../../features/traits/trait-expression-samples.md)
