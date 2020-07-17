@@ -1,21 +1,21 @@
 ---
 description: Um resumo da metodologia de amostragem utilizada para alguns relatórios, taxas de erro de amostragem e uma lista de relatórios que retornam informações com base em dados recolhidos.
 seo-description: Um resumo da metodologia de amostragem utilizada para alguns relatórios, taxas de erro de amostragem e uma lista de relatórios que retornam informações com base em dados recolhidos.
-seo-title: Amostragem de dados e taxas de erro em relatórios Audience Manager selecionados
+seo-title: Amostragem de dados e taxas de erro em alguns relatórios do Audience Manager
 solution: Audience Manager
-title: Amostragem de dados e taxas de erro em relatórios Audience Manager selecionados
+title: Amostragem de dados e taxas de erro em alguns relatórios do Audience Manager
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 feature: reporting reference
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
 
-# Amostragem de dados e taxas de erro em relatórios Audience Manager selecionados{#data-sampling-and-error-rates-in-selected-audience-manager-reports}
+# Amostragem de dados e taxas de erro em alguns relatórios do Audience Manager{#data-sampling-and-error-rates-in-selected-audience-manager-reports}
 
 Um resumo da metodologia de amostragem utilizada para alguns relatórios, taxas de erro de amostragem e uma lista de relatórios que retornam informações com base em dados recolhidos.
 
