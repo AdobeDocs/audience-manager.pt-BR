@@ -1,20 +1,20 @@
 ---
 description: Os sinais são a menor unidade de informação do Audience Manager. Elas representam as interações do usuário ou a atividade do usuário em suas propriedades online e são repassadas para o Audience Manager para serem usadas em regras de características.
 seo-description: Os sinais são a menor unidade de informação do Audience Manager. Elas representam as interações do usuário ou a atividade do usuário em suas propriedades online e são repassadas para o Audience Manager para serem usadas em regras de características.
-seo-title: Noções Gerais dos Sinais
-title: Noções Gerais dos Sinais
+seo-title: Compreensão de sinais
+title: Compreensão de sinais
 uuid: 04a0554e-954e-484a-8838-9161ef416872
 feature: Data Explorer
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Noções Gerais dos Sinais
+# Compreensão de sinais
 
 Os sinais são a menor unidade de informação do Audience Manager. Elas representam as interações do usuário ou a atividade do usuário em suas propriedades on-line e são repassadas para o Audience Manager para serem usadas nas regras de características.
 
