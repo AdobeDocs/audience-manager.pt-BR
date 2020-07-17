@@ -1,20 +1,20 @@
 ---
 description: Procure um ou vários sinais, com base em seus respectivos pares de valores chave.
 seo-description: Procure um ou vários sinais, com base em seus respectivos pares de valores chave.
-seo-title: Pesquisar Sinais por Pares de Valor-Chave
-title: Pesquisar Sinais por Pares de Valor-Chave
+seo-title: Pesquisar sinais por pares de valor-chave
+title: Pesquisar sinais por pares de valor-chave
 uuid: 2a38d0d4-4a2e-4ca5-b9ec-af9d4963d876
 feature: Data Explorer
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '312'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# Pesquisar Sinais por Pares de Valor-Chave {#search-signals-by-key-value-pairs}
+# Pesquisar sinais por pares de valor-chave {#search-signals-by-key-value-pairs}
 
 Procure um ou vários sinais, com base em seus respectivos pares de valores chave.
 Para procurar mais de um sinal, clique no botão ![Adicionar](assets/icon_add.png) . Insira os pares de valores chave que deseja pesquisar e use os seguintes filtros para restringir seus resultados.
