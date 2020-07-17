@@ -1,21 +1,21 @@
 ---
 description: Descreve os pares de valores principais comuns de nível de plataforma que você pode usar para usuários públicos alvos com variáveis geográficas em todas as propriedades na sua conta do Audience Manager.
 seo-description: Descreve os pares de valores principais comuns de nível de plataforma que você pode usar para usuários públicos alvos com variáveis geográficas em todas as propriedades na sua conta do Audience Manager.
-seo-title: Geolocalização Com Chaves De Nível Platform
+seo-title: Geolocalização com chaves de nível de plataforma
 solution: Audience Manager
-title: Geolocalização Com Chaves De Nível Platform
+title: Geolocalização com chaves de nível de plataforma
 uuid: c7e4cbfe-e564-404e-a565-bbe5fd2fb519
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '649'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
 
-# Geotargeting With Platform-level Keys {#geotargeting-with-platform-level-keys}
+# Geolocalização com chaves de nível de plataforma {#geotargeting-with-platform-level-keys}
 
 Descreve os pares de valores principais comuns de nível de plataforma que você pode usar para usuários públicos alvos com variáveis geográficas em todas as propriedades na sua conta do Audience Manager.
 
