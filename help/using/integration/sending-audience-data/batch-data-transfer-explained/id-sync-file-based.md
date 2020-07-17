@@ -1,6 +1,6 @@
 ---
 description: Descreve os campos obrigatórios, a sintaxe e as convenções de nomenclatura usadas para sincronização de ID com base em arquivo. Nomeie e organize o conteúdo do arquivo de acordo com essas especificações.
-seo-description: Descreve os campos obrigatórios, a sintaxe e as convenções de nomenclatura usadas para sincronização de ID com base em arquivo. Nomeie e organize o conteúdo do arquivo de acordo com essas especificações.
+seo-description: Descreve os campos obrigatórios, a sintaxe e as convenções de nomenclatura usadas para a sincronização de ID baseada em arquivo. Nomeie e organize o conteúdo do arquivo de acordo com essas especificações.
 seo-title: Requisitos de nome e conteúdo para arquivos de sincronização de ID
 solution: Audience Manager
 title: Requisitos de nome e conteúdo para arquivos de sincronização de ID
@@ -49,11 +49,11 @@ Os nomes de arquivo de ID contêm os seguintes elementos obrigatórios e opciona
   </tr> 
   <tr> 
    <td colname="col1"><code><i>MASTERDPID</i></code> </td> 
-   <td colname="col2"> A ID do provedor de dados mestre é a ID pai dos DPIDs no nome do arquivo. Além disso, a primeira ID de usuário no arquivo de dados corresponde à ID mestre. Os DPIDs subsequentes são outros identificadores que pertencem ao mestre. A sincronização mapeia DPIDs no nome do arquivo para UUIDs no arquivo. </td> 
+   <td colname="col2"> A ID principal do provedor de dados é a ID pai dos DPIDs no nome do arquivo. Além disso, a primeira ID de usuário no arquivo de dados corresponde à ID principal. Os DPIDs subsequentes são outros identificadores que pertencem ao principal. A sincronização mapeia DPIDs no nome do arquivo para UUIDs no arquivo. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>DPID</i></code> </p> </td> 
-   <td colname="col2"> <p>IDs do provedor de dados. Essas IDs representam entidades ou fontes de dados associadas ao DPID mestre. A sincronização mapeia DPIDs no nome do arquivo para UUIDs no arquivo. </p> <p>O número de DPIDs no nome do arquivo deve corresponder ao número de UUIDs no arquivo de dados. Por exemplo, digamos que seu nome de arquivo contenha um DPID mestre e 3 DPIDs. Seu arquivo de dados deve incluir 4 colunas correspondentes de UUIDs, formatadas conforme descrito na seção de conteúdo do arquivo abaixo. </p> </td> 
+   <td colname="col2"> <p>IDs do provedor de dados. Essas IDs representam entidades ou fontes de dados associadas ao DPID principal. A sincronização mapeia DPIDs no nome do arquivo para UUIDs no arquivo. </p> <p>O número de DPIDs no nome do arquivo deve corresponder ao número de UUIDs no arquivo de dados. Por exemplo, digamos que seu nome de arquivo contenha um DPID principal e 3 DPIDs. Seu arquivo de dados deve incluir 4 colunas correspondentes de UUIDs, formatadas conforme descrito na seção de conteúdo do arquivo abaixo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><code><i>timestamp</i></code> </td> 
@@ -102,7 +102,7 @@ abc123 def456 ghi789 xyz987
 
 ## A sincronização corresponde DPUUIDs a UUIDs {#sync-matches-dpuuids-uuids}
 
-A finalidade de um arquivo de sincronização de ID é sincronizar os [DPUUIDs](../../../reference/ids-in-aam.md) de suas próprias Fontes de Dados com [!DNL Audience Manager] UUIDs. A sincronização mapeia os [!DNL DPUUID]s do mestre [!DNL DPID] e [!DNL DPID]dos relacionados para os [!DNL Audience Manager] [!DNL UUID]s. Quando você coloca as IDs no nome e no corpo do arquivo, determina como esses identificadores são mapeados entre si. Por exemplo, pegue os dois arquivos de amostra mostrados aqui:
+A finalidade de um arquivo de sincronização de ID é sincronizar os [DPUUIDs](../../../reference/ids-in-aam.md) de suas próprias Fontes de Dados com [!DNL Audience Manager] UUIDs. A sincronização mapeia os [!DNL DPUUID]s do principal [!DNL DPID] e seus relacionados [!DNL DPID]aos [!DNL Audience Manager] [!DNL UUID]s. Quando você coloca as IDs no nome e no corpo do arquivo, determina como esses identificadores são mapeados entre si. Por exemplo, pegue os dois arquivos de amostra mostrados aqui:
 
 * **Arquivo 1:** `adobe_id_0_12345_1476312152.sync`
 
