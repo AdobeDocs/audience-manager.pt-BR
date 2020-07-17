@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '837'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
@@ -81,12 +81,12 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> disableDestinationPublishingIframe </code> </p> </td> 
    <td colname="col2"> <p>Booleano </p> </td> 
-   <td colname="col3"> <p> <p>Importante:  Este elemento foi descontinuado com o <span class="wintitle"> DIL </span> versão 8.0 (lançado em agosto de 2018). Em vez disso, use a <code> visitor.disableIdSyncs </code> função <a href="https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/disableidsync.html" format="https" scope="external"> </a> no Serviço de identidade do Adobe Experience Platform. </p> </p> <p> Se <code> true </code>, não anexará a IFRAME de publicação de destino ao DOM ou acionará destinos. O padrão é <code> false </code>. </p> </td> 
+   <td colname="col3"> <p> <p>Importante:  Este elemento foi descontinuado com o <span class="wintitle"> DIL </span> versão 8.0 (lançado em agosto de 2018). Em vez disso, use a <code> visitor.disableIdSyncs </code> função <a href="https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/disableidsync.html" format="https" scope="external"> </a> no Adobe Experience Platform Identity Service. </p> </p> <p> Se <code> true </code>, não anexará a IFRAME de publicação de destino ao DOM ou acionará destinos. O padrão é <code> false </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> disableIDSyncs </code> </p> </td> 
    <td colname="col2"> <p>Booleano </p> </td> 
-   <td colname="col3"> <p> <p>Importante:  Este elemento foi descontinuado com o <span class="wintitle"> DIL </span> versão 8.0 (lançado em agosto de 2018). Em vez disso, use a <code> visitor.disableIdSyncs </code> função <a href="https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/disableidsync.html" format="https" scope="external"> </a> no Serviço de identidade do Adobe Experience Platform. </p> </p> <p>Desativa a sincronização de ID. Você deve desativar as sincronizações de ID ao usar o DIL v6.2+ e o Serviço de ID de Visitante. A <code> visitorService </code> função (consulte o código de amostra abaixo) cuida dessa operação. </p> </td> 
+   <td colname="col3"> <p> <p>Importante:  Este elemento foi descontinuado com o <span class="wintitle"> DIL </span> versão 8.0 (lançado em agosto de 2018). Em vez disso, use a <code> visitor.disableIdSyncs </code> função <a href="https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/disableidsync.html" format="https" scope="external"> </a> no Adobe Experience Platform Identity Service. </p> </p> <p>Desativa a sincronização de ID. Você deve desativar as sincronizações de ID ao usar o DIL v6.2+ e o Serviço de ID de Visitante. A <code> visitorService </code> função (consulte o código de amostra abaixo) cuida dessa operação. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> enableErrorReporting </code> </p> </td> 
