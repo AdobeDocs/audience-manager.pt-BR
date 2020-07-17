@@ -1,16 +1,16 @@
 ---
 description: Esses relatórios retornam dados sobre impressões, taxas de cliques e conversões para uma ampla variedade de dimensões de publicidade. Compare as tendências e o volume de suas métricas selecionadas para obter uma ideia melhor do desempenho da sua campanha ao longo do tempo.
 seo-description: Esses relatórios retornam dados sobre impressões, taxas de cliques e conversões para uma ampla variedade de dimensões de publicidade. Compare as tendências e o volume de suas métricas selecionadas para obter uma ideia melhor do desempenho da sua campanha ao longo do tempo.
-seo-title: Relatórios de Análise de tendências e Análise de volumes
+seo-title: Relatórios de análise de tendências e análise de volumes
 solution: Audience Manager
-title: Relatórios de Análise de tendências e Análise de volumes
+title: Relatórios de análise de tendências e análise de volumes
 uuid: 5d124d80-5f54-4970-92cd-2c8eba42efca
 feature: audience optimization reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
