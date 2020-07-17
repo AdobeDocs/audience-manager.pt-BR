@@ -9,13 +9,13 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
 
-# Home page Destinos {#destinations-home}
+# Página inicial Destinos {#destinations-home}
 
 A [!UICONTROL Destination] landing page lista todos os seus destinos [!DNL URL], cookie e servidor para servidor. Ele fornece recursos que permitem criar, editar, procurar e gerar relatórios sobre destinos. A landing page está localizada em **[!UICONTROL Audience Data > Destinations]**.
 
