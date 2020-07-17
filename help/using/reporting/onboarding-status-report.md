@@ -1,9 +1,9 @@
 ---
 description: O Relatório de status onboard verifica as taxas de sucesso e de falha para o processamento de registros nos arquivos de fonte de dados de entrada. Este relatório exibe dados em um gráfico de barras interativo e fornece métricas de resumo em forma tabular. Além disso, ele inclui a opção de arquivos de amostra para um intervalo de tempo fixo e exibe os erros mais comuns para cada tipo de erro. Você pode encontrar esse relatório em Analytics > Relatório de status onboard. Este relatório também está disponível ao criar uma fonte de dados de entrada.
 seo-description: O Relatório de status onboard verifica as taxas de sucesso e de falha para o processamento de registros nos arquivos de fonte de dados de entrada. Este relatório exibe dados em um gráfico de barras interativo e fornece métricas de resumo em forma tabular. Além disso, ele inclui a opção de arquivos de amostra para um intervalo de tempo fixo e exibe os erros mais comuns para cada tipo de erro. Você pode encontrar esse relatório em Analytics > Relatório de status onboard. Este relatório também está disponível ao criar uma fonte de dados de entrada.
-seo-title: Relatório de status onboard
+seo-title: Relatório de status de integração
 solution: Audience Manager
-title: Relatório de status onboard
+title: Relatório de status de integração
 uuid: 6ca8a90a-436b-4fce-adf1-48f3b96b3ed2
 feature: inbound and outbound reports
 translation-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 7%
 ---
 
 
-# Relatório de status onboard{#onboarding-status-report-about}
+# Relatório de status de integração{#onboarding-status-report-about}
 
 O Relatório de status onboard verifica as taxas de sucesso e de falha para o processamento de registros nos arquivos de fonte de dados de entrada. Este relatório exibe dados em um gráfico de barras interativo e fornece métricas de resumo em forma tabular. Além disso, ele inclui a opção de arquivos de amostra para um intervalo de tempo fixo e exibe os erros mais comuns para cada tipo de erro. Você pode encontrar esse relatório em Analytics > Relatório de status onboard. Este relatório também está disponível ao criar uma fonte de dados de entrada.
 
