@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '976'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 8%
 
 ## Metadados de nome de arquivo {#file-name-metadata}
 
-A lista de tabela a seguir e descreve as convenções de nomenclatura de arquivos e as extensões de arquivo usadas em um arquivo .csv sobreposto. In the examples, *italics* indicates a variable placeholder.
+A lista de tabela a seguir e descreve as convenções de nomenclatura de arquivos e as extensões de arquivo usadas em um arquivo .csv sobreposto. Nos exemplos, *itálico* indica um espaço reservado para variável.
 
 <table id="table_C99FCABA365B4AB99620F27D4414E623"> 
  <thead> 
