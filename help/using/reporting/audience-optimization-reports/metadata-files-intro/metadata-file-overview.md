@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '824'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -63,7 +63,7 @@ A tabela a seguir lista os pares de valores chave que contêm dados usados pelos
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Anunciante </p> </td> 
-   <td colname="col2"> <p> <code>d_adsrc = <i>data source ID or integration code</i></code> </p> <p>Essa é a ID da fonte de dados ou o código de integração do anunciante fornecido ao criar uma fonte de dados. Consulte <a href="../../../features/manage-datasources.md#create-data-source"> Criar uma fonte</a>de dados. </p> </td> 
+   <td colname="col2"> <p> <code>d_adsrc = <i>data source ID or integration code</i></code> </p> <p>Essa é a ID da fonte de dados ou o código de integração do anunciante fornecido ao criar uma fonte de dados. See <a href="../../../features/manage-datasources.md#create-data-source"> Create a Data Source</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Unidade de negócio (BU) </p> </td> 
@@ -126,7 +126,7 @@ Em um nome de arquivo:
 
 ![](assets/metadata_file_name.png)
 
-Consulte Convenções [de nomenclatura para arquivos](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)de metadados.
+See [Naming Conventions for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md).
 
 ### Conteúdo do arquivo
 
@@ -134,15 +134,15 @@ Neste exemplo, o conteúdo do arquivo reflete as IDs criativas e de campanha pas
 
 ![](assets/metadata_file_contents.png)
 
-Consulte Formato [de conteúdo para arquivos](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)de metadados.
+See [Content Format for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md).
 
 ### Delivery de arquivo
 
-Depois de nomear e adicionar dados a um arquivo, envie-os para um diretório de armazenamento Amazon S3 fornecido pela [!DNL Audience Manager]. Consulte Métodos de [Delivery para arquivos](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)de metadados.
+Depois de nomear e adicionar dados a um arquivo, envie-os para um diretório de armazenamento Amazon S3 fornecido pela [!DNL Audience Manager]. See [Delivery Methods for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
 
 >[!MORELIKETHIS]
 >
 >* [Arquivos de dados para relatórios de otimização de Audiência](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
->* [Captura de dados de clique de Campanha por meio de chamadas de pixels](../../../integration/media-data-integration/click-data-pixels.md)
+>* [Captura de dados de cliques da campanha via Pixel Calls](../../../integration/media-data-integration/click-data-pixels.md)
 >* [Captura de dados de impressão da campanha via Pixel Calls](../../../integration/media-data-integration/impression-data-pixels.md)
 
