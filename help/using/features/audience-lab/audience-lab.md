@@ -1,9 +1,9 @@
 ---
 description: Crie segmentos de teste mutuamente exclusivos em Grupos de teste de segmento para comparar e medir a eficácia de destinos diferentes. Pode separar um grupo de controle e dividir o seu segmento em percentagens de um todo, a fim de testar a eficácia.
 seo-description: Crie segmentos de teste mutuamente exclusivos em Grupos de teste de segmento para comparar e medir a eficácia de destinos diferentes. Pode separar um grupo de controle e dividir o seu segmento em percentagens de um todo, a fim de testar a eficácia.
-seo-title: Laboratório de Audiência
+seo-title: 'Audience Lab '
 solution: Audience Manager
-title: Laboratório de Audiência
+title: 'Audience Lab '
 topic: DIL API
 uuid: aaee820c-1e78-4fd4-bd8f-2629085d78e9
 feature: Audience Lab
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '587'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
