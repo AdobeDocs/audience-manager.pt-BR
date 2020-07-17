@@ -1,25 +1,25 @@
 ---
 description: Crie e gerencie todas as suas regras de mesclagem a partir do painel. É possível criar um máximo de quatro Regras de mesclagem de Perfis.
 seo-description: Crie e gerencie todas as suas regras de mesclagem a partir do painel. É possível criar um máximo de quatro Regras de mesclagem de Perfis.
-seo-title: Painel de Regras de Mesclagem de Perfis
+seo-title: Painel de regras de mesclagem de perfis
 solution: Audience Manager
-title: Painel de Regras de Mesclagem de Perfis
+title: Painel de regras de mesclagem de perfis
 uuid: d6725218-7b36-4653-9900-d67b5f7702a0
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '220'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
 
-# Painel de Regras de Mesclagem de Perfis {#profile-merge-rules-dashboard}
+# Painel de regras de mesclagem de perfis {#profile-merge-rules-dashboard}
 
-Crie e gerencie todas as suas regras de mesclagem a partir do painel. Você pode criar um máximo de 4 [!UICONTROL Profile Merge Rules].
+Crie e gerencie todas as suas regras de mesclagem a partir do painel. You can create a maximum of 4 [!UICONTROL Profile Merge Rules].
 
-A quarta Regra de mesclagem de Perfis ([!UICONTROL All Cross-Device Profiles]) está disponível somente para clientes que compram o complemento [!UICONTROL People-Based Destinations] .
+A quarta Regra de mesclagem de perfis ([!UICONTROL All Cross-Device Profiles]) está disponível somente para clientes que compram o complemento [!UICONTROL People-Based Destinations].
 
 O [!UICONTROL Profile Merge Rules] painel fornece um espaço de trabalho unificado que permite gerenciar o [!UICONTROL Profile Merge Rules]usuário. O painel está localizado em **[!UICONTROL Audience Data]** > **[!UICONTROL Profile Merge Rules]**. Seu painel de regras pode ser semelhante ao exemplo mostrado abaixo.
 
