@@ -1,15 +1,15 @@
 ---
 description: Este artigo explica como configurar Audiências personalizadas do Twitter para integrações novas e existentes.
 seo-description: Este artigo explica como configurar Audiências personalizadas do Twitter para integrações novas e existentes.
-seo-title: Configure Audiências personalizadas do Twitter como um destino autoatendido baseado em dispositivo
+seo-title: Configure públicos personalizados do Twitter como um destino autoatendido com base em dispositivo
 solution: Audience Manager
-title: Configure Audiências personalizadas do Twitter como um destino autoatendido baseado em dispositivo
+title: Configure públicos personalizados do Twitter como um destino autoatendido com base em dispositivo
 feature: People-Based Destinations
 translation-type: tm+mt
 source-git-commit: 8ff76decc1cbd7f7babd619dd1ce9fe047541337
 workflow-type: tm+mt
 source-wordcount: '553'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
