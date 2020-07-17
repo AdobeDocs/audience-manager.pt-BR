@@ -1,21 +1,21 @@
 ---
 description: Um par de valores chave consiste em elementos relacionados Uma chave, que é uma constante que define o conjunto de dados (por exemplo, gênero, cor, preço) e um valor, que é uma variável que pertence ao conjunto (por exemplo, macho/fêmea, verde, 100). O Construtor de destino envia dados formatados como pares de valores chave.
 seo-description: Um par de valores chave consiste em elementos relacionados Uma chave, que é uma constante que define o conjunto de dados (por exemplo, gênero, cor, preço) e um valor, que é uma variável que pertence ao conjunto (por exemplo, macho/fêmea, verde, 100). O Construtor de destino envia dados formatados como pares de valores chave.
-seo-title: Pares padrão e de valor de chave serial
+seo-title: Pares padrão e de valor-chave serial
 solution: Audience Manager
-title: Pares padrão e de valor de chave serial
+title: Pares padrão e de valor-chave serial
 uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
 feature: Destination Basics
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# Pares padrão e de valor de chave serial {#standard-and-serial-key-value-pairs}
+# Pares padrão e de valor-chave serial {#standard-and-serial-key-value-pairs}
 
 Um par de valores chave consiste em elementos relacionados: Uma tecla, que é uma constante que define o conjunto de dados (por exemplo, gênero, cor, preço) e um valor, que é uma variável que pertence ao conjunto (por exemplo, macho/fêmea, verde, 100). [!UICONTROL Destination Builder] envia dados formatados como pares de valor chave.
 
@@ -27,7 +27,7 @@ Totalmente formado, um conjunto básico de pares de valores chave poderia ser pa
 * `color = green`
 * `price > 100`
 
-## Pares padrão e de valor de chave serial {#standard-serial-key-value-pairs}
+## Pares padrão e de valor-chave serial {#standard-serial-key-value-pairs}
 
 Os destinos aceitam dados de valor chave no *`standard`* formato ou *`serialized`* .
 
