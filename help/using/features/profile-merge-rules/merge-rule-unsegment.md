@@ -1,21 +1,21 @@
 ---
 description: A dessegmentação descreve processos que desqualificam e removem perfis de dispositivos de segmentos. Sua capacidade de remover um perfil de dispositivo de um segmento depende da opção de dispositivo usada para criar uma Regra de mesclagem de Perfis.
 seo-description: A dessegmentação descreve processos que desqualificam e removem perfis de dispositivos de segmentos. Sua capacidade de remover um perfil de dispositivo de um segmento depende da opção de dispositivo usada para criar uma Regra de mesclagem de Perfis.
-seo-title: Regras de mesclagem de Perfis e processos de dessegmentação de dispositivos
+seo-title: Regras de mesclagem de perfis e processos de dessegmentação de dispositivos
 solution: Audience Manager
-title: Regras de mesclagem de Perfis e processos de dessegmentação de dispositivos
+title: Regras de mesclagem de perfis e processos de dessegmentação de dispositivos
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '503'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# Regras de mesclagem de Perfis e processos de dessegmentação de dispositivos {#profile-merge-rules-and-device-un-segmentation-processes}
+# Regras de mesclagem de perfis e processos de dessegmentação de dispositivos {#profile-merge-rules-and-device-un-segmentation-processes}
 
 A dessegmentação descreve processos que desqualificam e removem perfis de dispositivos de segmentos. Sua capacidade de remover um perfil de dispositivo de um segmento depende da opção de dispositivo usada para criar um [!UICONTROL Profile Merge Rule].
 
@@ -51,6 +51,6 @@ Como lembrete, os [!UICONTROL Device Options] estão disponíveis na [!UICONTROL
 
 >[!MORELIKETHIS]
 >
->* [Perguntas frequentes sobre Regras de mesclagem de Perfis e Gráfico de dispositivos](../../faq/faq-profile-merge.md)
+>* [Perguntas frequentes sobre regras de mesclagem de perfis e gráfico de dispositivos](../../faq/faq-profile-merge.md)
 >* [Supressão instantânea entre dispositivos](instant-cross-device-suppression.md)
 
