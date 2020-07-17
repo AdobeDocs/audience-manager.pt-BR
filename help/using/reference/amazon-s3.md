@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Amazon S3: About{#amazon-s-about}
+# Amazon S3: sobre{#amazon-s-about}
 
 Informações sobre o Amazon Simple Armazenamento Service (Amazon S3).
 
