@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '542'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Características da pasta: About {#folder-traits-about}
+# Características da pasta: sobre {#folder-traits-about}
 
 [!UICONTROL Folder traits] permite que você agregação automaticamente as características que residem na mesma pasta e todas as pastas filhas em um segmento direcionável.
 
@@ -68,4 +68,4 @@ Saiba como atribuir [!UICONTROL RBAC] permissões na documentação [](../../fea
 | Tipo de característica | [!UICONTROL Onboarded traits] e [!UICONTROL algorithmic traits] contribuir, no máximo, para a realização da frequência [!UICONTROL folder trait]de um evento. |
 | Mover características entre pastas | Mover uma característica de uma pasta para outra desqualificará essa característica da primeira pasta e a qualificará para a segunda [!UICONTROL folder trait]. Isso significa que, se você excluir ou mover uma característica da pasta, os usuários na população da característica não serão segmentados dos segmentos usando a característica da pasta como uma expressão de segmento. <br> Ao mapear segmentos do Adobe Analytics ou conjuntos de relatórios para a organização do Experience Cloud, o Audience Manager cria automaticamente segmentos e características novos, correspondentes e somente leitura. Não é possível editar ou alterar o local do armazenamento para o Audience Manager. No entanto, qualquer alteração que você efetuar nos segmentos do Adobe Analytics ou nos conjuntos de relatórios mapeados será refletida no Audience Manager. |
 | Variáveis de sistema | [!UICONTROL Folder traits] não pode ser realizado em chamadas de evento usando o `d_sid` parâmetro. |
-| Relatórios | [!UICONTROL Folder traits] são características calculadas automaticamente e não aparecem em **[!UICONTROL Overlap Reports]**. |
+| Relatório | [!UICONTROL Folder traits] são características calculadas automaticamente e não aparecem em **[!UICONTROL Overlap Reports]**. |
