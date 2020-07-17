@@ -1,20 +1,20 @@
 ---
 description: 'Esta página inclui orientações passo a passo sobre como combinar dados do CRM offline com dados comportamentais que você já tem no Audience Manager para criar novos segmentos de audiência e, em seguida, enviar esses segmentos de audiência para Destinos Baseados em Pessoas.  '
 seo-description: 'Esta página inclui orientações passo a passo sobre como combinar dados do CRM offline com dados comportamentais que você já tem no Audience Manager para criar novos segmentos de audiência e, em seguida, enviar esses segmentos de audiência para Destinos Baseados em Pessoas.   '
-seo-title: Fluxo de trabalho A - Personalização com base em toda a Atividade on-line combinada com dados off-line
+seo-title: Fluxo de trabalho A - Personalização com base em toda a Atividade online combinada com dados offline
 solution: Audience Manager
-title: Fluxo de trabalho A - Personalização com base em toda a Atividade on-line combinada com dados off-line
+title: Fluxo de trabalho A - Personalização com base em toda a Atividade online combinada com dados offline
 feature: People-Based Destinations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1180'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
 
-# Fluxo de trabalho A - Personalização com base em toda a Atividade on-line combinada com dados off-line {#workflow-a}
+# Fluxo de trabalho A - Personalização com base em toda a Atividade online combinada com dados offline {#workflow-a}
 
 >[!IMPORTANT]
 >Este artigo contém a documentação do produto destinada a orientá-lo durante a configuração e o uso deste recurso. Nada aqui contido é aconselhamento jurídico. Consulte o seu próprio advogado para obter orientação jurídica.
@@ -78,7 +78,7 @@ Assista ao vídeo abaixo para ver um tutorial em vídeo sobre como criar uma fon
 
 Digamos que você queira corresponder seus [DPUUIDs](../../reference/ids-in-aam.md) existentes aos endereços de email com hash da tabela abaixo (coluna direita) e armazenar os endereços de email com hash na nova fonte de dados criada na [Etapa 1 - Definir configurações](people-based-destinations-workflow-combined.md#configure-data-source-settings)da fonte de dados.
 
-| DPUUID (CRM ID) | Endereço de email | Endereço de email com hash |
+| DPUUID (CRM ID) | Seu endereço de email | Endereço de email com hash |
 | -------------------------------------- | --------------------- | ---------------------------------------------------------------- |
 | 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 |
 | 67412682083411995725538770443620307584 | `janedoe@email.com` | 16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a |
