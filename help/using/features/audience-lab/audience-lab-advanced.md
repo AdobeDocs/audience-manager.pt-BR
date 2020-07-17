@@ -1,16 +1,16 @@
 ---
 description: Este artigo descreve dois recursos que fornecem funcionalidade avançada para o Modelo de alocação de Duplicados do laboratório de Audiências e Retenção de segmentos.
 seo-description: Este artigo descreve dois recursos que fornecem funcionalidade avançada para o Modelo de alocação de Duplicados do laboratório de Audiências e Retenção de segmentos.
-seo-title: Funcionalidade avançada do laboratório de Audiências
+seo-title: Funcionalidade avançada do Audience Lab
 solution: Audience Manager
-title: Funcionalidade avançada do laboratório de Audiências
+title: Funcionalidade avançada do Audience Lab
 uuid: 0f57d634-caa0-40da-81a2-c23fbd299bfd
 feature: Audience Lab
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
