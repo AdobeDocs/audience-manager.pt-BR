@@ -1,21 +1,21 @@
 ---
 description: Este relatório retorna uma contagem de frequência de todas as informações não utilizadas coletadas no inventário e enviadas para o Audience Manager.
 seo-description: Este relatório retorna uma contagem de frequência de todas as informações não utilizadas coletadas no inventário e enviadas para o Audience Manager.
-seo-title: Relatório de Sinais Não Utilizados
+seo-title: Relatório de sinais não usados
 solution: Audience Manager
-title: Relatório de Sinais Não Utilizados
+title: Relatório de sinais não usados
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
 feature: overlap reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 
-# Relatório de Sinais Não Utilizados{#unused-signals-report}
+# Relatório de sinais não usados{#unused-signals-report}
 
 Este relatório retorna uma contagem de frequência de todas as informações não utilizadas coletadas no inventário e enviadas para o Audience Manager. Para acessar esse relatório, navegue até **Analytics > Relatórios de Audiência > Outros relatórios > Sinais** não usados.
 
