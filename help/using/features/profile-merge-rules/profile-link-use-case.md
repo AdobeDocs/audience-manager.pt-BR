@@ -1,21 +1,21 @@
 ---
 description: Recomendações e casos de uso para redefinição de metas de segmentos e qualificação de segmentos personalizados com o gráfico de dispositivo Link de Perfil.
 seo-description: Recomendações e casos de uso para redefinição de metas de segmentos e qualificação de segmentos personalizados com o gráfico de dispositivo Link de Perfil.
-seo-title: Casos de uso do gráfico de dispositivo de link de Perfil
+seo-title: Casos de uso do gráfico de dispositivo de link de perfis
 solution: Audience Manager
-title: Casos de uso do gráfico de dispositivo de link de Perfil
+title: Casos de uso do gráfico de dispositivo de link de perfis
 uuid: bd5567fd-fcd5-40ba-b6f1-035d2ddbcd3a
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
 
-# Casos de uso do gráfico de dispositivo de link de Perfil {#profile-link-device-graph-use-cases}
+# Casos de uso do gráfico de dispositivo de link de perfis {#profile-link-device-graph-use-cases}
 
 Recomendações e casos de uso para o redirecionamento de segmentos e qualificação de segmentos personalizados com o [!UICONTROL Profile Link Device Graph].
 
@@ -50,6 +50,6 @@ Isso [!UICONTROL Profile Merge Rule] permite que os profissionais de marketing o
 >[!MORELIKETHIS]
 >
 >* [Casos de uso do gráfico do dispositivo externo](external-graph-use-cases.md)
->* [Casos de uso gerais para regras de mesclagem de Perfis](merge-rule-targeting-options.md)
+>* [Casos de uso gerais para regras de mesclagem de perfis](merge-rule-targeting-options.md)
 >* [Perguntas frequentes sobre as regras de mesclagem de Perfis](../../faq/faq-profile-merge.md)
 
