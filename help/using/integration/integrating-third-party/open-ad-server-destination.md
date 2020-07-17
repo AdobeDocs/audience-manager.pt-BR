@@ -1,21 +1,21 @@
 ---
 description: Configure o Open Ad Server como destino e envie dados de Audience Manager para essa plataforma.
 seo-description: Configure o Open Ad Server como destino e envie dados de Audience Manager para essa plataforma.
-seo-title: OAS como destino de Audience Manager
+seo-title: OAS como um destino do Audience Manager
 solution: Audience Manager
-title: OAS como destino de Audience Manager
+title: OAS como um destino do Audience Manager
 uuid: 5891a063-5a4b-4ea7-865f-b24e17ca735f
 feature: Third Party Integrations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '656'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# OAS como destino de Audience Manager {#oas-as-an-audience-manager-destination}
+# OAS como um destino do Audience Manager {#oas-as-an-audience-manager-destination}
 
 Configure [!DNL Open Ad Server] como destino e envie dados de Audience Manager para essa plataforma.
 
@@ -46,7 +46,7 @@ A quantidade de dados transmitida depende [!DNL OAS] de quantos segmentos um usu
 
 >[!MORELIKETHIS]
 >
->* [get_aamCookie Code](../../features/destinations/get-aam-cookie-code.md)
+>* [Código get_aamCookie](../../features/destinations/get-aam-cookie-code.md)
 >* [Explicação dos pares de valor-chave](../../reference/key-value-pairs-explained.md)
 
 
@@ -56,7 +56,7 @@ Crie um destino baseado em cookies para [!DNL OAS] no Audience Manager.
 
 <!-- aam-oas-destination-setup.xml -->
 
-No Audience Manager, um *destino* é qualquer outro sistema (servidor de anúncios, [!DNL DSP]rede de anúncios etc.) com os quais você deseja compartilhar dados. [!UICONTROL Destination Builder] fornece as ferramentas que permitem criar e gerenciar esses processos de delivery de dados. Os recursos de destino do Audience Manager estão localizados em Dados de *Audiência > Destinos*. Para começar, clique **[!UICONTROL Add New Destination]** e siga as etapas abaixo.
+In Audience Manager, a *destination* is any other system (ad server, [!DNL DSP], ad network, etc.) com o qual você deseja compartilhar dados. [!UICONTROL Destination Builder] fornece as ferramentas que permitem criar e gerenciar esses processos de delivery de dados. Os recursos de destino do Audience Manager estão localizados em Dados de *Audiência > Destinos*. Para começar, clique **[!UICONTROL Add New Destination]** e siga as etapas abaixo.
 
 ### Etapa 1: Informações básicas
 
