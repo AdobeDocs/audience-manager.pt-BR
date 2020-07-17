@@ -1,21 +1,21 @@
 ---
 description: Descreve métodos na namespace DIL.modules. Esses módulos permitem que você colete dados de forma programática e trabalhe com objetos Audience Manager.
 seo-description: Descreve métodos na namespace DIL.modules. Esses módulos permitem que você colete dados de forma programática e trabalhe com objetos Audience Manager.
-seo-title: Módulos DIL
+seo-title: Módulos da DIL
 solution: Audience Manager
-title: Módulos DIL
+title: Módulos da DIL
 uuid: d4c0d8dd-79f8-448e-b17c-c935415dd449
 feature: DIL Implementation
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '716'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
 
-# Módulos DIL{#dil-modules}
+# Módulos da DIL{#dil-modules}
 
 Descreve métodos na `DIL.modules` namespace. Esses módulos permitem que você colete dados de forma programática e trabalhe com objetos Audience Manager.
 
@@ -157,6 +157,7 @@ dil-google-universal-analytics.xml
    >
    >
 * Não é possível usar `GA.submitUniversalAnalytics();` se você ainda estiver trabalhando com o código de rastreamento de análise herdado do Google (por exemplo, `ga.js` ou `dc.js`). Em vez disso, consulte [GA.init](../dil/dil-modules.md#ga-init) .
+
 >
 
 
