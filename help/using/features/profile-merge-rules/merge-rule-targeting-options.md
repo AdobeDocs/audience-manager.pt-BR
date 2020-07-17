@@ -1,21 +1,21 @@
 ---
 description: As opções de Regras de mesclagem de Perfis permitem que você expanda ou restrinja o foco da audiência em audiências específicas com base nas necessidades ou metas dos negócios. Esses casos de uso geral exploram como usar as opções disponíveis e criar regras de mesclagem para direcionamento individual, doméstico e entre dispositivos.
 seo-description: As opções de Regras de mesclagem de Perfis permitem que você expanda ou restrinja o foco da audiência em audiências específicas com base nas necessidades ou metas dos negócios. Esses casos de uso geral exploram como usar as opções disponíveis e criar regras de mesclagem para direcionamento individual, doméstico e entre dispositivos.
-seo-title: Casos de uso gerais para regras de mesclagem de Perfis
+seo-title: Casos de uso gerais para regras de mesclagem de perfis
 solution: Audience Manager
-title: Casos de uso gerais para regras de mesclagem de Perfis
+title: Casos de uso gerais para regras de mesclagem de perfis
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '997'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# Casos de uso gerais para regras de mesclagem de Perfis {#general-use-cases-for-profile-merge-rules}
+# Casos de uso gerais para regras de mesclagem de perfis {#general-use-cases-for-profile-merge-rules}
 
 [!UICONTROL Profile Merge Rules] permitem que você expanda ou restrinja o foco da audiência em audiências específicas com base em necessidades ou metas comerciais. Esses casos de uso geral exploram como usar as opções disponíveis e criar regras de mesclagem para direcionamento individual, doméstico e entre dispositivos. [!UICONTROL Profile Merge Rules] trabalhar com destinos em tempo real e em lote.
 
@@ -81,7 +81,7 @@ Para saber mais sobre essa opção, consulte Destinos [baseados em](../destinati
 
 ## Opções do Gráfico de dispositivos {#device-graph-options}
 
-A escolha de uma [!UICONTROL device graph] opção para uma [!UICONTROL Profile Merge] regra depende de condições exclusivas de suas propriedades digitais e metas comerciais. Essas orientações gerais podem ajudá-lo a entender quando usar um tipo de gráfico em vez de outro. Observe que você deve ser um membro do Device Co-op [da](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) Adobe Experience Cloud ou ter uma relação contratual com um gráfico de dispositivo externo para usar essas opções. Consulte a tabela abaixo para obter orientações gerais sobre quando escolher uma opção de gráfico de dispositivo. Para casos de uso específicos, consulte Casos [de uso do gráfico de dispositivo de link de](profile-link-use-case.md) Perfil e Casos [de uso do gráfico de dispositivo](external-graph-use-cases.md)externo.
+A escolha de uma [!UICONTROL device graph] opção para uma [!UICONTROL Profile Merge] regra depende de condições exclusivas de suas propriedades digitais e metas comerciais. Essas orientações gerais podem ajudá-lo a entender quando usar um tipo de gráfico em vez de outro. Observe que você deve ser um membro do Device Co-op [da](https://docs.adobe.com/content/help/pt-BR/device-co-op/using/home.html) Adobe Experience Cloud ou ter uma relação contratual com um gráfico de dispositivo externo para usar essas opções. Consulte a tabela abaixo para obter orientações gerais sobre quando escolher uma opção de gráfico de dispositivo. Para casos de uso específicos, consulte Casos [de uso do gráfico de dispositivo de link de](profile-link-use-case.md) Perfil e Casos [de uso do gráfico de dispositivo](external-graph-use-cases.md)externo.
 
 <table id="table_66D9152D4FF040A186003272D456625D"> 
  <thead> 
@@ -118,7 +118,7 @@ Assista ao vídeo abaixo para obter uma visão geral de possíveis casos de uso 
 
 >[!MORELIKETHIS]
 >
->* [Casos de uso do gráfico de dispositivo de link de Perfil](profile-link-use-case.md)
+>* [Casos de uso do gráfico de dispositivo de link de perfis](profile-link-use-case.md)
 >* [Casos de uso do gráfico do dispositivo externo](external-graph-use-cases.md)
 >* [Perguntas frequentes sobre as regras de mesclagem de Perfis](../../faq/faq-profile-merge.md)
 
