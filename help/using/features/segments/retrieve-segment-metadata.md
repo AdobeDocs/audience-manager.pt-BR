@@ -1,21 +1,21 @@
 ---
 description: Quando o Audience Manager envia informações de segmento para um parceiro de dados, identifica esses objetos com IDs numéricas. Como parceiro de dados, quando você compartilha essas informações com seus clientes (ou trabalha com eles), um nome e uma descrição reais fornecem uma melhor experiência para os clientes em relatórios, painéis ou outras interfaces de usuário (UI). Os parceiros de dados podem disponibilizar esses nomes amigáveis para seus clientes com os métodos manuais ou automatizados descritos nesta seção.
 seo-description: Quando o Audience Manager envia informações de segmento para um parceiro de dados, identifica esses objetos com IDs numéricas. Como parceiro de dados, quando você compartilha essas informações com seus clientes (ou trabalha com eles), um nome e uma descrição reais fornecem uma melhor experiência para os clientes em relatórios, painéis ou outras interfaces de usuário (UI). Os parceiros de dados podem disponibilizar esses nomes amigáveis para seus clientes com os métodos manuais ou automatizados descritos nesta seção.
-seo-title: Recuperando metadados do segmento
+seo-title: Recuperação de metadados do segmento
 solution: Audience Manager
-title: Recuperando metadados do segmento
+title: Recuperação de metadados do segmento
 uuid: 719e2c41-8788-4e8a-967a-e367421f9f84
 feature: Segments
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Recuperando metadados do segmento {#retrieving-segment-metadata}
+# Recuperação de metadados do segmento {#retrieving-segment-metadata}
 
 Quando o Audience Manager envia informações de segmento para um parceiro de dados, identifica esses objetos com IDs numéricas. Como parceiro de dados, quando você compartilha essas informações com seus clientes (ou trabalha com eles), um nome e uma descrição reais fornecem uma melhor experiência para os clientes em relatórios, painéis ou outras interfaces de usuário ([!DNL UI]). Os parceiros de dados podem disponibilizar esses nomes amigáveis para seus clientes com os métodos manuais ou automatizados descritos nesta seção.
 
