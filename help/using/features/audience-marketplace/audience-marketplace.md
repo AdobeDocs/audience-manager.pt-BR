@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -32,5 +32,5 @@ Talk to your [!DNL Audience Manager] sales specialist to get started. Eles podem
 
 
 * [Audience Marketplace para provedores de dados](/help/using/features/audience-marketplace/marketplace-data-providers/marketplace-data-providers.md)
-* [Audience Marketplace para Data Buyers](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md)
+* [Audience Marketplace para compradores de dados](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md)
 * [Feeds de dados privados](/help/using/features/audience-marketplace/marketplace-private-feeds.md)
