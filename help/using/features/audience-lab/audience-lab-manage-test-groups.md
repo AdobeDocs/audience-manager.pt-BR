@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1003'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -74,6 +74,7 @@ To create a new [!UICONTROL Segment Test Group]:
    * Os destinos ficam acinzentados se não estiverem disponíveis para um determinado segmento de teste com base em Controles [de exportação de](../../features/data-export-controls.md)dados.
    * Os usuários só verão os destinos aos quais têm acesso com base no Grupo [de usuários](../../features/administration/administration-overview.md) RBAC ao qual pertencem.
    * Por fim, é necessário selecionar uma data de start para o seu grupo de teste. Essa data marca o start do período em que seu grupo de teste será publicado nos destinos. Selecione **Sem data** final para uma comparação indefinida dos segmentos de teste.
+
    >[!NOTE]
    >
    >[!UICONTROL Profile Merge Rules] com um perfil autenticado são suportados apenas em destinos em tempo real. Se um segmento de teste com uma regra de união de perfis dessa configuração for enviado para um destino servidor para servidor baseado em arquivo, o audiência talvez não seja preenchido.
@@ -84,6 +85,7 @@ To create a new [!UICONTROL Segment Test Group]:
 
    * Revise as informações adicionadas nas etapas anteriores e selecione **[!UICONTROL Finalize Group]**.
    * Lembre-se de que, uma vez finalizado, um grupo de teste pode ser duplicado ou excluído, mas não editado.
+
    >[!NOTE]
    >* Você pode salvar os grupos de teste em qualquer momento do processo de criação e retornar ao assistente posteriormente. O status do grupo de teste será exibido **[!UICONTROL Draft]** e o grupo de teste não enviará dados para destinos até que você conclua o grupo de teste do segmento.
    >* Para testes de rascunho, você pode voltar e editar os grupos de teste clicando **[!UICONTROL Edit]** no cartão do grupo de teste na [!UICONTROL Audience Lab] visualização principal.
