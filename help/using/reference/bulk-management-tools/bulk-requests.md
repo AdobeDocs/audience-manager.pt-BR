@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -41,8 +41,9 @@ Para fazer solicitações em massa, abra a [!UICONTROL Bulk Management Tools] pl
    * Sinais derivados
    * Mapeamentos de destino
    * Características algorítmicas, baseadas em regras e a bordo
-   * Segmentos
+   * Segmentos 
    * IDs de pasta de características e segmentos
+
    A [!DNL Audience Manager] API grava dados em massa de volta à [!UICONTROL Request] planilha.
 
 >[!NOTE]
