@@ -1,16 +1,16 @@
 ---
 description: Visualização uma lista das fontes de dados configuradas no momento, adicione novas fontes de dados e edite as fontes existentes.
 seo-description: Visualização uma lista das fontes de dados configuradas no momento, adicione novas fontes de dados e edite as fontes existentes.
-seo-title: Lista e configurações das fontes de dados
+seo-title: Lista e configurações de fontes de dados
 solution: Audience Manager
-title: Lista e configurações das fontes de dados
+title: Lista e configurações de fontes de dados
 uuid: 280a6acd-fef0-4737-a96d-9e22fbc8bfaf
 feature: Data Sources
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1118'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -113,7 +113,7 @@ Marque a caixa de **[!UICONTROL Inbound]** seleção quando sua fonte de dados f
      <ul id="ul_3BC963CE378B4F6CB1861643A4541634"> 
       <li id="li_B86C5E7847424A2B9C094DF02741DDB8"> <b><span class="uicontrol"> ID</span></b>do cliente: Identifica dados de entrada com uma ID do cliente. </li> 
       <li id="li_AD8E440436314902A794CDB11A3D657F"> <b><span class="uicontrol"> ID</span></b>do Audience Manager: Identifica dados de entrada com uma ID <span class="keyword"> Audience Manager</span> . </li> 
-      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> ID</span></b>do Experience Cloud: Identifica dados de entrada com uma ID <span class="keyword"> Experience Cloud</span> . See <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </li> 
+      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> ID</span></b>do Experience Cloud: Identifica dados de entrada com uma ID <span class="keyword"> Experience Cloud</span> . See <a href="https://docs.adobe.com/content/help/pt-BR/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
