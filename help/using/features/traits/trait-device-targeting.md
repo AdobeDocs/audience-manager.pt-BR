@@ -1,21 +1,21 @@
 ---
 description: Descreve os pares de valores principais comuns de nível de plataforma que você pode usar para públicos alvos usuários com variáveis relacionadas a dispositivos em todas as propriedades na sua conta do Audience Manager.
 seo-description: Descreve os pares de valores principais comuns de nível de plataforma que você pode usar para públicos alvos usuários com variáveis relacionadas a dispositivos em todas as propriedades na sua conta do Audience Manager.
-seo-title: Direcionamento de dispositivos com chaves de nível Platform
+seo-title: Direcionamento de dispositivo com chaves de nível de plataforma
 solution: Audience Manager
-title: Direcionamento de dispositivos com chaves de nível Platform
+title: Direcionamento de dispositivo com chaves de nível de plataforma
 uuid: bc048cc5-3df1-49bc-ac78-0ea5d7edd9cc
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
 
-# Device Targeting With Platform-level Keys {#device-targeting-with-platform-level-keys}
+# Direcionamento de dispositivo com chaves de nível de plataforma {#device-targeting-with-platform-level-keys}
 
 Descreve os pares de valores principais comuns de nível de plataforma que você pode usar para públicos alvos usuários com variáveis relacionadas a dispositivos em todas as propriedades na sua conta do Audience Manager.
 
