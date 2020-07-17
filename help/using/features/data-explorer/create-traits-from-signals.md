@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '359'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -46,6 +46,7 @@ Procure sinais específicos e crie traços baseados em regras ou integrados com 
 2. Identifique o(s) sinal(s) que você deseja usar na característica, na lista de resultados.
    * Para criar uma característica a partir de um sinal, clique no link correspondente **[!UICONTROL Create Rule-Based Trait]** ou **[!UICONTROL Create Onboarded Trait]** .
    * Para criar uma característica a partir de vários sinais, clique na caixa de seleção correspondente de cada sinal e, em seguida, clique em **[!UICONTROL Create Trait from Multiple Signals]**.
+
    >[!NOTE]
    >Você só pode criar características a partir de sinais do mesmo tipo. Não é possível criar uma característica com base numa combinação de um sinal em tempo real e um sinal integrado.
    >
