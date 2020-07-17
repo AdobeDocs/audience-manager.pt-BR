@@ -1,21 +1,21 @@
 ---
 description: As APIs de servidor para servidor (S2S) fornecem código e métodos que permitem que você envie e receba dados de usuário do DCS e trabalhe com essas informações em seus próprios sistemas ou aplicativos.
 seo-description: As APIs de servidor para servidor (S2S) fornecem código e métodos que permitem que você envie e receba dados de usuário do DCS e trabalhe com essas informações em seus próprios sistemas ou aplicativos.
-seo-title: APIs DCS para transferências de dados de servidor para servidor
+seo-title: DCS APIs para transferências de dados de servidor para servidor
 solution: Audience Manager
-title: APIs DCS para transferências de dados de servidor para servidor
+title: DCS APIs para transferências de dados de servidor para servidor
 uuid: 8c369166-c8a7-46b0-9913-4c027f5b1df9
 feature: DCS
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '331'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
 
-# APIs DCS para transferências de dados de servidor para servidor{#dcs-apis-for-server-to-server-data-transfers}
+# DCS APIs para transferências de dados de servidor para servidor{#dcs-apis-for-server-to-server-data-transfers}
 
 Os servidores para servidor ([!UICONTROL S2S]) [!DNL API]fornecem código e métodos que permitem que você envie e receba dados [!DNL DCS] do usuário e trabalhe com essas informações em seus próprios sistemas ou aplicativos.
 
@@ -44,11 +44,11 @@ Atualmente, este guia aborda como:
 
 Adicionaremos novos métodos à medida que eles forem sendo disponibilizados. Consulte as seções a seguir para começar.
 
-* [Obter IDs de usuário e regiões de uma resposta DCS](dcs-aam-ids.md)
+* [Obter IDs de usuário e regiões de uma resposta do DCS](dcs-aam-ids.md)
 * [Obter IDs de usuário e regiões por meio da ID de Experience Cloud...](dcs-mcid-ids.md)
-* [Como fazer chamadas de API DCS de servidor para servidor](dcs-s2s-calls.md)
+* [Como fazer chamadas de DCS API de servidor para servidor](dcs-s2s-calls.md)
 
 >[!MORELIKETHIS]
 >
->* [Referência da API DCS](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
+>* [Referência da DCS API ](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
