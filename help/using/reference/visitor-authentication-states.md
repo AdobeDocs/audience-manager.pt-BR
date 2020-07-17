@@ -2,21 +2,21 @@
 description: O status de autenticação do visitante determina se as novas informações de característica são gravadas no perfil autenticado do visitante ou no perfil do dispositivo, de onde os dados foram coletados. O Audience Manager trata os status de autenticação da ID do visitante UNKNOWN e LOGGED_OUT nas chamadas do evento da mesma maneira.
 keywords: dpm.demdex.net
 seo-description: O status de autenticação do visitante determina se as novas informações de característica são gravadas no perfil autenticado do visitante ou no perfil do dispositivo, de onde os dados foram coletados. O Audience Manager trata os status de autenticação da ID do visitante UNKNOWN e LOGGED_OUT nas chamadas do evento da mesma maneira.
-seo-title: Estados de autenticação de Visitante no Audience Manager
+seo-title: Estados de autenticação de visitante no Audience Manager
 solution: Audience Manager
-title: Estados de autenticação de Visitante no Audience Manager
+title: Estados de autenticação de visitante no Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 feature: reference
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
 
-# Estados de autenticação de Visitante no Audience Manager{#visitor-authentication-states-in-audience-manager}
+# Estados de autenticação de visitante no Audience Manager{#visitor-authentication-states-in-audience-manager}
 
 O status de autenticação do visitante determina se as novas informações de característica são gravadas no perfil autenticado do visitante ou no perfil do dispositivo, de onde os dados foram coletados. O Audience Manager trata os status de autenticação da ID do visitante UNKNOWN e LOGGED_OUT nas chamadas do evento da mesma maneira.
 
