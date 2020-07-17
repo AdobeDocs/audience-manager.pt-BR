@@ -1,21 +1,21 @@
 ---
 description: Um arquivo de dados contém dados de impressão, clique ou conversão. Quando formatados corretamente, você pode importar esses dados para o Audience Manager e usá-los nos relatórios de Otimização de Audiência e nos Arquivos de registro acionáveis. Formate os arquivos de dados de acordo com as especificações desta seção.
 seo-description: Um arquivo de dados contém dados de impressão, clique ou conversão. Quando formatados corretamente, você pode importar esses dados para o Audience Manager e usá-los nos relatórios de Otimização de Audiência e nos Arquivos de registro acionáveis. Formate os arquivos de dados de acordo com as especificações desta seção.
-seo-title: Arquivos de dados para relatórios de otimização de Audiência e arquivos de registro acionáveis
+seo-title: Arquivos de dados para Relatórios de otimização de público-alvo e arquivos de registro acionáveis
 solution: Audience Manager
-title: Arquivos de dados para relatórios de otimização de Audiência e arquivos de registro acionáveis
+title: Arquivos de dados para Relatórios de otimização de público-alvo e arquivos de registro acionáveis
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 feature: log files
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '1042'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
 
-# Arquivos de dados para relatórios de otimização de Audiência e arquivos de registro acionáveis {#data-files-for-audience-optimization-reports}
+# Arquivos de dados para Relatórios de otimização de público-alvo e arquivos de registro acionáveis {#data-files-for-audience-optimization-reports}
 
 Um arquivo de dados contém dados de impressão, clique ou conversão. Quando formatados corretamente, você pode importar esses dados para o Audience Manager para visualização nos Relatórios [de otimização de](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) Audiência e criar características usando os dados por meio dos Arquivos [de registro](/help/using/integration/media-data-integration/actionable-log-files.md)acionáveis. Formate seus arquivos de dados de acordo com essas especificações nesta seção.
 
@@ -25,7 +25,7 @@ Um arquivo de dados com nome e formato adequados permite importar dados de impre
 
 Um ficheiro de dados deve ser acompanhado de um ficheiro de metadados. O conteúdo do arquivo de metadados corresponde às informações do arquivo de dados a rótulos relacionados e legíveis por humanos nos menus do relatório. Para obter mais informações, consulte [Visão geral e mapeamentos para arquivos](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)de metadados.
 
-## Como nomear convenções para arquivos de dados {#naming-conventions}
+## Naming Conventions for Data Files {#naming-conventions}
 
 A sintaxe a seguir define a estrutura de um nome de arquivo de dados bem formado. Observação: *itálico* indica um espaço reservado variável que muda dependendo do conteúdo do arquivo.
 
@@ -43,7 +43,7 @@ Dadas estas exigências, nomeie seus arquivos de dados com base em seus conteúd
 * Dados de clique: <pre>click_<i>yyyymmdd</i>.gz</code></pre>
 * Dados de conversão: <pre>conversions_<i>yyyymmdd</i>.gz</code></pre>
 
-## Formato de conteúdo para arquivos de dados {#content-format}
+## Content Format for Data Files {#content-format}
 
 A sintaxe a seguir define a estrutura do conteúdo em um arquivo de dados bem formado. Observação: *itálico* indica um espaço reservado variável e é substituído por um rótulo em um arquivo de dados real.
 
@@ -141,7 +141,7 @@ A tabela abaixo lista e descreve os cabeçalhos de coluna para seu arquivo de da
  </tbody> 
 </table>
 
-## Métodos de Delivery para arquivos de dados {#delivery-methods}
+## Delivery Methods for Data Files {#delivery-methods}
 
 Faça upload de sua impressão, clique ou converta arquivos de dados em um diretório Amazon S3 para sua [!DNL Audience Manager] conta. Consulte esta seção para obter informações sobre caminhos de delivery/diretório, tempos de processamento de arquivos e atualizações.
 
