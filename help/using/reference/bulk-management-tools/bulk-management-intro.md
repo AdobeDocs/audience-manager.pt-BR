@@ -2,21 +2,21 @@
 description: As Ferramentas de Gerenciamento em massa permitem que você crie e gerencie vários objetos de uma só vez com uma única operação. Você pode usar as Ferramentas de Gerenciamento em massa para trabalhar com fontes de dados, sinais derivados, destinos, pastas, segmentos e características.
 keywords: baaam;BAAAM;download baaam
 seo-description: As Ferramentas de Gerenciamento em massa permitem que você crie e gerencie vários objetos de uma só vez com uma única operação. Você pode usar as Ferramentas de Gerenciamento em massa para trabalhar com fontes de dados, sinais derivados, destinos, pastas, segmentos e características.
-seo-title: Introdução ao Gerenciamento em massa
+seo-title: Introdução ao gerenciamento em massa
 solution: Audience Manager
-title: Introdução ao Gerenciamento em massa
+title: Introdução ao gerenciamento em massa
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 feature: baaam
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '710'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
 
-# Getting Started With Bulk Management{#getting-started-with-bulk-management}
+# Introdução ao gerenciamento em massa{#getting-started-with-bulk-management}
 
 O [!DNL Bulk Management Tools] permite que você crie e gerencie vários objetos de uma só vez com uma única operação. Você pode usar [!DNL Bulk Management Tools] para trabalhar com [!UICONTROL data sources], [!UICONTROL derived signals], [!UICONTROL destinations], [!UICONTROL folders], [!UICONTROL models], [!UICONTROL segments]e [!UICONTROL traits].
 
@@ -32,11 +32,11 @@ c_bulk_start.xml
 
 ## Visão geral {#overview}
 
-Este recurso usa uma [!DNL Microsoft Excel] planilha com macros que fazem chamadas seguras e autenticadas para as [!DNL Audience Manager] APIs. A API fornece os métodos e serviços que permitem fazer alterações em massa. Você não precisa saber como codificar ou trabalhar com nossas APIs para usá-lo. A planilha contém cabeçalhos de coluna e guias que executam funções específicas de alteração em massa. Para fazer alterações em massa, basta adicionar os cabeçalhos predefinidos a planilhas específicas, fornecer as informações que deseja alterar em massa e clicar em um botão de ação. A planilha e as APIs fazem o resto do trabalho para você.
+This feature uses a [!DNL Microsoft Excel] spreadsheet with macros that make secure, authenticated calls to the [!DNL Audience Manager] APIs. A API fornece os métodos e serviços que permitem fazer alterações em massa. Você não precisa saber como codificar ou trabalhar com nossas APIs para usá-lo. A planilha contém cabeçalhos de coluna e guias que executam funções específicas de alteração em massa. Para fazer alterações em massa, basta adicionar os cabeçalhos predefinidos a planilhas específicas, fornecer as informações que deseja alterar em massa e clicar em um botão de ação. A planilha e as APIs fazem o resto do trabalho para você.
 
 ## Download {#download}
 
-Baixe a planilha mais recente **[aqui](assets/BAAAM_V2_20200502.xlsm)**.
+Download the latest worksheet **[here](assets/BAAAM_V2_20200502.xlsm)**.
 
 ## Pré-requisitos {#prereqs}
 
@@ -100,11 +100,11 @@ A tabela abaixo lista as operações que você pode executar e os itens que voc�
      <ul id="ul_A7A96F2B1B63430B9A1E1184AC5FA8F2"> 
       <li id="li_E3D9E2E190B04BE685337AC6140C371C"> <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> Fontes de dados</a> </li> 
       <li id="li_B645385E40684FA28770913EAF18CB2C"> <a href="../../features/derived-signals.md"> Sinais derivados</a> </li> 
-      <li id="li_9059F8C4A41A410899BDEFC76D3F5949"> <a href="../../features/destinations/destinations.md"> Destinos</a> </li> 
+      <li id="li_9059F8C4A41A410899BDEFC76D3F5949"> <a href="../../features/destinations/destinations.md">Destinos </a> </li> 
       <li> <a href="../../features/algorithmic-models/understanding-models.md"> Modelos</a> </li> 
       <li id="li_BB5A445150754E53AA38C78461326932"> <a href="../../features/traits/trait-storage.md#trait-storage"> Pastas</a> de características e pastas de segmentos </li> 
-      <li id="li_7A27DBF64E0945CF8AE8C96E8C6EDA09"> <a href="../../features/segments/segments-purpose.md"> Segmentos</a> </li> 
-      <li id="li_A4640A34930040DEA8555EAF0AE2A702"> <a href="../../features/traits/trait-details-page.md"> Características</a> </li> 
+      <li id="li_7A27DBF64E0945CF8AE8C96E8C6EDA09"> <a href="../../features/segments/segments-purpose.md">Segmentos </a> </li> 
+      <li id="li_A4640A34930040DEA8555EAF0AE2A702"> <a href="../../features/traits/trait-details-page.md">Características </a> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
