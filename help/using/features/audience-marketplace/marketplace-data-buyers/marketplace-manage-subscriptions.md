@@ -1,9 +1,9 @@
 ---
 description: O Mercado é onde os compradores de dados vão pesquisar e assinam feeds de dados públicos e privados. Siga estas etapas para assinar um feed de dados público.
 seo-description: O Mercado é onde os compradores de dados vão pesquisar e assinam feeds de dados públicos e privados. Siga estas etapas para assinar um feed de dados público.
-seo-title: Gerenciar Subscrições do Feed de dados
+seo-title: Gerenciar assinaturas do feed de dados
 solution: Audience Manager
-title: Gerenciar Subscrições do Feed de dados
+title: Gerenciar assinaturas do feed de dados
 topic: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 feature: Audience Marketplace
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '2186'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 
-# Gerenciar Subscrições do Feed de dados {#manage-data-feed-subscriptions}
+# Gerenciar assinaturas do feed de dados {#manage-data-feed-subscriptions}
 
 É [!UICONTROL Marketplace] onde os compradores de dados vão pesquisar e assinam feeds de dados públicos e privados. Siga estas etapas para assinar um feed de dados público.
 
@@ -39,12 +39,14 @@ Para assinar um feed de dados público:
 1. Escolha um caso de uso na tabela subscrição e:
    * Mova o **[!UICONTROL Subscription]** controle deslizante para **[!UICONTROL On]**.
    * Clique em **[!UICONTROL Review & Subscribe]**. Isto abre a [!UICONTROL Terms and Conditions] janela.
+
    ![assine](assets/subscribe3.png)
 
 1. Na [!UICONTROL Terms and Conditions] janela:
 
    * **Importante:** Deixe a caixa de **[!UICONTROL ID sync]** seleção marcada. Essa configuração ajuda a melhorar as taxas de correspondência com seu provedor de dados.
    * Marque a caixa de termos e condições e clique **[!UICONTROL Accept]** para concluir o processo de subscrição.
+
    ![assine](assets/subscribe4.png)
 
 ### Próximas etapas
@@ -313,7 +315,7 @@ Esse caso de uso permite que você avalie as características do fornecedor em r
 
 ### Activation
 
-Esse caso de uso permite que você envie dados para um [destino](../../../features/destinations/destinations.md). Em [!DNL Audience Manager], um destino é qualquer sistema de terceiros (servidor de anúncios, [!DNL DSP], [!DNL DMP], troca etc.) com os quais você deseja compartilhar dados. No entanto, com um caso de [!UICONTROL Activation] uso, não é possível executar relatórios de sobreposição nem testar os dados em um modelo algorítmico.
+Esse caso de uso permite que você envie dados para um [destino](../../../features/destinations/destinations.md). Em [!DNL Audience Manager], um destino é qualquer sistema de terceiros (servidor de anúncios, [!DNL DSP], [!DNL DMP], troca etc.) com o qual você deseja compartilhar dados. No entanto, com um caso de [!UICONTROL Activation] uso, não é possível executar relatórios de sobreposição nem testar os dados em um modelo algorítmico.
 
 >[!MORELIKETHIS]
 >
