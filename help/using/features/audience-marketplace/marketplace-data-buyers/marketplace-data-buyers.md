@@ -1,9 +1,9 @@
 ---
 description: Visão geral e fluxo de trabalho para compradores de dados que desejam comprar dados de terceiros de dentro do Audience Manager
 seo-description: Visão geral e fluxo de trabalho para compradores de dados que desejam comprar dados de terceiros de dentro do Audience Manager
-seo-title: Audience Marketplace para Data Buyers
+seo-title: Audience Marketplace para compradores de dados
 solution: Audience Manager
-title: Audience Marketplace para Data Buyers
+title: Audience Marketplace para compradores de dados
 topic: DIL API
 uuid: f505b5f4-4231-4e84-993a-cd64128b540f
 feature: Audience Marketplace
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '748'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
