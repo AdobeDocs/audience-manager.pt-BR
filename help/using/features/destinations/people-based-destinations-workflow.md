@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1379'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -78,8 +78,8 @@ Dependendo do tipo de IDs do cliente que você tem no Audience Manager (consulte
 
 **B) Criar uma nova fonte** de dados. Essa opção se aplica ao cenário em que as IDs do cliente do Audience Manager ([DPUUIDs](../../reference/ids-in-aam.md)) não são endereços de email com hash. Nesse caso, é necessário criar uma nova fonte de dados entre dispositivos e seus endereços de email com hash a bordo. Você pode fazer isso de duas maneiras:
 
-* Use a sincronização de ID baseada em arquivo. Consulte Requisitos de [nome e conteúdo para arquivos](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) de sincronização de ID para obter detalhes sobre a aparência dos arquivos de sincronização de ID. Ao usar esse método, você pode público alvo todos os seus endereços de email com hash do seu [!DNL CRM] banco de dados.
-* Use as IDs [](../declared-ids.md) declaradas para declarar seus endereços de email com hash ao passar em IDs autenticadas do cliente. Ao usar esse método, o Audience Manager, em seu nome, público alvo somente seus endereços de email com hash de usuários que se autenticaram online. Os endereços de e-mail direcionados em canais baseados em pessoas são apenas aqueles nas chamadas declaradas do evento de ID. Outros endereços de email associados à ID do cliente não são ativados em tempo real.
+* Usar a sincronização de ID com base em arquivos. Consulte [Requisitos de nome e conteúdo para arquivos de sincronização de ID](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) para obter detalhes sobre a aparência dos arquivos de sincronização de ID. When using this method, you can target all of your hashed email addresses from your [!DNL CRM] database.
+* Use [declared IDs](../declared-ids.md) to declare your hashed email addresses when passing in authenticated customer IDs. Ao usar esse método, o Audience Manager, em seu nome, público alvo somente seus endereços de email com hash de usuários que se autenticaram online. Os endereços de e-mail direcionados em canais baseados em pessoas são apenas aqueles nas chamadas declaradas do evento de ID. Outros endereços de email associados à ID do cliente não são ativados em tempo real.
 
 ## 6. Usar uma regra de mesclagem de Perfil para segmentação {#use-profile-merge-rules}
 
