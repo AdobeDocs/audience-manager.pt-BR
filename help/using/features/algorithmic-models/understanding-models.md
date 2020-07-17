@@ -191,7 +191,7 @@ A página de resumo do modelo inclui as seguintes seções.
 
 >[!MORELIKETHIS]
 >
->* [Destinos](../../features/destinations/destinations.md)
->* [Características](../../features/traits/trait-details-page.md)
->* [Segmentos](../../features/segments/segments-purpose.md)
+>* [Destinos ](../../features/destinations/destinations.md)
+>* [Características ](../../features/traits/trait-details-page.md)
+>* [Segmentos ](../../features/segments/segments-purpose.md)
 
