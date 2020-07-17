@@ -1,16 +1,16 @@
 ---
 description: Adicione e remova características no Construtor de segmentos para ver as populações de características reais junto com os dados de população de segmentos atuais e estimados. Os dados estimados do tamanho da população ajudam a criar o segmento certo para sua campanha.
 seo-description: Adicione e remova características no Construtor de segmentos para ver as populações de características reais junto com os dados de população de segmentos atuais e estimados. Os dados estimados do tamanho da população ajudam a criar o segmento certo para sua campanha.
-seo-title: Dados de características e preenchimento de segmentos no Construtor de segmentos
+seo-title: Dados de população de características e segmentos no Construtor de segmentos
 solution: Audience Manager
-title: Dados de características e preenchimento de segmentos no Construtor de segmentos
+title: Dados de população de características e segmentos no Construtor de segmentos
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
 feature: Segments
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1250'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -88,7 +88,7 @@ A tabela a seguir define as métricas de população estimadas.
 
 ## Dados de preenchimento de segmento existentes (reais) Definidos {#existing-segment-population}
 
-[!UICONTROL Profile Merge Rules] afetam os números efetivos em tempo real e totais da população. Esses totais variam dependendo se o segmento pertencer a [!UICONTROL Profile Merge Rule] usa ou não uma opção de gráfico de dispositivo. Consulte também, Opções de Regra de Mesclagem de [Perfis Definidas](../../features/profile-merge-rules/merge-rule-definitions.md).
+[!UICONTROL Profile Merge Rules] afetam os números efetivos em tempo real e totais da população. Esses totais variam dependendo se o segmento pertencer a [!UICONTROL Profile Merge Rule] usa ou não uma opção de gráfico de dispositivo. See also, [Profile Merge Rule Options Defined](../../features/profile-merge-rules/merge-rule-definitions.md).
 
 ### Dados de preenchimento de segmento para [!UICONTROL Merge Rules] sem um [!UICONTROL Device Graph Option]
 
@@ -137,6 +137,6 @@ Atualmente, há uma limitação conhecida, pois nosso avaliador de tamanho de se
 
 >[!MORELIKETHIS]
 >
->* [Perguntas frequentes sobre Regras de mesclagem de Perfis e Gráfico de dispositivos](../../faq/faq-profile-merge.md)
+>* [Perguntas frequentes sobre regras de mesclagem de perfis e gráfico de dispositivos](../../faq/faq-profile-merge.md)
 >* [Link de perfil](../profile-merge-rules/merge-rules-overview.md)
 
