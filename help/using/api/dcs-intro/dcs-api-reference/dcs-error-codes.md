@@ -7,10 +7,10 @@ title: Códigos de erros, mensagens e exemplos de DCS
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 11b79d46e7358c736c797bcf0809af4937717fc5
 workflow-type: tm+mt
-source-wordcount: '1509'
-ht-degree: 3%
+source-wordcount: '1518'
+ht-degree: 4%
 
 ---
 
@@ -23,22 +23,22 @@ In the tables below, *italics* represents a variable placeholder.
 
 ## Códigos de erro do sistema {#system-error-codes}
 
-|Código de erro|Mensagem de erro|Descrição|
-|—|—|
-|0|Erro não especificado|Este é um erro catch-all que manipula eventos não cobertos pelos outros manipuladores de erro. A solução de problemas desse erro é difícil. Pode ser causado por uma variedade de ações ou eventos desconhecidos. Se você receber esse erro, tente sua [!DNL DCS] solicitação novamente. Entre em contato com seu [!DNL Adobe] representante se o problema persistir.|
-|1|Não foi possível localizar a configuração para o nome do host: `hostname`|O nome do host enviado na solicitação não foi configurado pela equipe de provisionamento do parceiro. Entre em contato com seu [!DNL Adobe] representante se vir esta mensagem de erro.|
-|2|Valor inválido `d_orgid` (não foi possível localizar uma configuração para esta ID de organização): `ID`|A ID da organização está incorreta. Verifique sua ID e tente a solicitação novamente. Se você não souber ou não possuir a ID da organização, consulte a seção &quot;Página de administração&quot; [Organizações e vinculação](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html) de contas para obter informações sobre como encontrá-la.|
+| Código de erro | Mensagem de erro | Descrição |
+|---|---|---|
+| 0 | Erro não especificado | Este é um erro catch-all que manipula eventos que não são cobertos pelos outros manipuladores de erro. A solução de problemas desse erro é difícil. Pode ser causado por uma variedade de ações ou eventos desconhecidos. Se você receber esse erro, tente sua [!DNL DCS] solicitação novamente. Entre em contato com seu [!DNL Adobe] representante se o problema persistir. |
+| 1 | Não foi possível localizar a configuração para o nome do host: `hostname` | O nome do host enviado na solicitação não foi configurado pela nossa equipe de provisionamento do parceiro. Entre em contato com seu [!DNL Adobe] representante se vir esta mensagem de erro. |
+| 2 | Valor inválido `d_orgid` (não foi possível localizar uma configuração para esta ID de organização): `ID` | A ID da organização está incorreta. Verifique sua ID e tente a solicitação novamente. Se você não souber ou não possuir a ID da organização, consulte a seção &quot;Página de administração&quot; [Organizações e vinculação](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html) de contas para obter informações sobre como encontrá-la. |
 
 ## Códigos de erro de integração {#integration-error-codes}
 
-|Código de erro|Mensagem de erro|Descrição|
-|—|—|
-|100|Não foi possível recuperar o nome do host para a solicitação|Uma [!DNL API] chamada não enviou o cabeçalho do host [!DNL HTTP] na solicitação. Adicione o cabeçalho do host à chamada e tente novamente. A maioria dos navegadores e [!DNL API] clientes faz isso automaticamente. |
-|101|Id inválida [!DNL Experience Cloud] transmitida `ID`|A [!DNL DCS] chamada contém uma ID inválida [!DNL Experience Cloud] . Verifique o par de `d_mid=` chave-valor na string de cabeçalho. Verifique se você está transmitindo a ID [!DNL Experience Cloud] correta e tente a solicitação novamente. |
-|102|Pedido inválido [!DNL AAM ID] transmitido `ID`|A [!DNL DCS] chamada contém uma ID inválida [!DNL Audience Manager] . Verifique o par de `d_uuid=` chave-valor na string de cabeçalho. Verifique se você está transmitindo a ID [!DNL Audience Manager] correta e tente a solicitação novamente. |
-|104|Todas as IDs de cliente são inválidas | Todas as IDs do cliente na sua chamada são inválidas. Verifique suas IDs e tente novamente.|
-|109|Referenciador não `HTTP referer` permitido para parceiro `Partner ID`|O cabeçalho da `HTTP referer` chamada não é permitido para a ID do parceiro na chamada. Verifique se o `HTTP referer` cabeçalho está correto.|
-|111|Foi recebido um `IMS` token inválido|Devolvido para [!DNL Audience Manager] - [!DNL Adobe Target] integrações. O erro é emitido quando uma chamada é feita para o [!DNL DCS], contendo um [!DNL IMS] token inválido. O token pode estar malformado, expirado ou o usuário pode não estar autorizado a acessar o recurso desejado.|
+| Código de erro | Mensagem de erro | Descrição |
+|---|---|---|
+| 100 | Não foi possível recuperar o nome do host para a solicitação | Uma [!DNL API] chamada não enviou o cabeçalho do host [!DNL HTTP] na solicitação. Adicione o cabeçalho do host à chamada e tente novamente. A maioria dos navegadores e [!DNL API] clientes faz isso automaticamente. |
+| 101 | Id [!DNL Experience Cloud] inválida transmitida `ID` | A [!DNL DCS] chamada contém uma ID inválida [!DNL Experience Cloud] . Verifique o par de `d_mid=` chave-valor na string de cabeçalho. Verifique se você está transmitindo a ID [!DNL Experience Cloud] correta e tente a solicitação novamente. |
+| 102 | Solicitação [!DNL AAM ID] transmitida inválida `ID` | A [!DNL DCS] chamada contém uma ID inválida [!DNL Audience Manager] . Verifique o par de `d_uuid=` chave-valor na string de cabeçalho. Verifique se você está transmitindo a ID [!DNL Audience Manager] correta e tente a solicitação novamente. |
+| 104 | Todas as IDs do cliente são inválidas | Todas as IDs do cliente na sua chamada são inválidas. Verifique suas IDs e tente novamente. |
+| 109 | Referenciador não `HTTP referer` permitido para parceiro `Partner ID` | O cabeçalho da `HTTP referer` chamada não é permitido para a ID do parceiro na chamada. Verifique se o `HTTP referer` cabeçalho está correto. |
+| 111 | Token inválido recebido `IMS` | Retornado para [!DNL Audience Manager] - [!DNL Adobe Target] integrações. O erro é emitido quando uma chamada é feita para o [!DNL DCS], contendo um [!DNL IMS] token inválido. O token pode estar malformado, expirado ou o usuário pode não estar autorizado a acessar o recurso desejado. |
 
 ## Códigos de erro de não participação {#opt-out-error-codes}
 
@@ -120,12 +120,12 @@ In the tables below, *italics* represents a variable placeholder.
   <tr> 
    <td colname="col1"> <p>204 </p> </td> 
    <td colname="col2"> <p>Não foi possível executar a migração porque a leitura do perfil falhou para o dispositivo primário </p> </td> 
-   <td colname="col3"> <p>Se você receber esse erro, podemos estar enfrentando problemas de escalabilidade com nosso armazenamento de dados (<span class="wintitle"> PCS</span>). Entre em contato com seu representante da Adobe se o problema persistir. </p> </td> 
+   <td colname="col3"> <p>Se você receber esse erro, podemos estar enfrentando problemas de escalabilidade com nosso armazenamento de dados (<span class="wintitle"> PCS</span>). Entre em contato com seu representante de Adobe se o problema persistir. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>205 </p> </td> 
    <td colname="col2"> <p>Não foi possível executar a migração de <code><i>ID</i></code> para <code><i>ID</i></code>, porque a leitura do perfil falhou para <code><i>ID</i></code> </p> </td>
-   <td colname="col3"> <p>Se você receber esse erro, podemos estar enfrentando problemas de escalabilidade com nosso armazenamento de dados (<span class="wintitle"> PCS</span>). Entre em contato com seu representante da Adobe se o problema persistir. </p> </td> 
+   <td colname="col3"> <p>Se você receber esse erro, podemos estar enfrentando problemas de escalabilidade com nosso armazenamento de dados (<span class="wintitle"> PCS</span>). Entre em contato com seu representante de Adobe se o problema persistir. </p> </td> 
   </tr> 
  </tbody> 
 </table>
