@@ -7,7 +7,7 @@ title: Compartilhamento de públicos entre o Audience Manager e a Adobe Experien
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: 4f76bbd6f7c2f1866954bbbf14e8987dc3384c47
+source-git-commit: abe2a63c2ee9ad1028dac0a69ecb006a0fbdd029
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 3%
@@ -150,6 +150,7 @@ O Audience Manager atualiza os números de relatórios na interface uma vez por 
 ### Diferenças entre Regras de mesclagem de Perfis e Políticas de mesclagem
 
 [[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) no Audience Manager e [[!UICONTROL Merge Policies]](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) no Experience Platform funcionam de forma diferente, e o gráfico de identidade usado para cada um varia. Por isso, são esperadas algumas diferenças entre as populações de segmentos.
+
 
 ### Composição do segmento no Experience Platform
 
