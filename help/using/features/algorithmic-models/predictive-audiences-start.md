@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Públicos preditivos do Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 71e129a39cf85d5f07979ede8f3aa862f93b6512
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '492'
 ht-degree: 8%
 
 ---
@@ -39,9 +39,10 @@ Depois de saber qual fonte de dados você usará, siga as etapas abaixo.
    ![smart-persona-select-audiência](assets/predictive-audiences-audience.png)
 1. Clique **[!UICONTROL Next]** depois de escolher sua audiência.
 1. Preencha os detalhes do modelo:
-   1. **[!UICONTROL Model Name]**: Insira um nome descritivo para o modelo, que o ajudará a identificá-lo posteriormente. Os nomes dos segmentos gerados pelo modelo serão start com o nome do modelo.
-   2. **[!UICONTROL Description]**: Insira uma descrição do modelo que o ajudará a identificar seu caso de uso.
-   3. **[!UICONTROL Data Source]**: Selecione a fonte de dados primária à qual deseja que os [!UICONTROL Predictive Audiences] segmentos deste modelo sejam atribuídos.
+   * **[!UICONTROL Model Name]**: Insira um nome descritivo para o modelo, que o ajudará a identificá-lo posteriormente. Os nomes dos segmentos gerados pelo modelo serão start com o nome do modelo.
+   * **[!UICONTROL Description]**: Insira uma descrição do modelo que o ajudará a identificar seu caso de uso.
+   * **[!UICONTROL Data Source]**: Selecione a fonte de dados primária à qual deseja que os [!UICONTROL Predictive Audiences] segmentos deste modelo sejam atribuídos.
+   * **[!UICONTROL Profile Merge Rule]**: Selecione o [!UICONTROL Profile Merge Rule] a ser atribuído para todos os preditivos [!UICONTROL segments] criados por este modelo. Se sua audiência de público alvo selecionada for uma  [!UICONTROL segment], recomendamos selecionar a mesma audiência [!UICONTROL Profile Merge Rule] da público alvo.
       ![previsão-audiências-salvamento](assets/predictive-audiences-save.png)
 1. Clique em **[!UICONTROL Save]**.
 
