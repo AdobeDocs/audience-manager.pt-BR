@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Públicos preditivos do Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 29a2e0ec7859bec5658218fb5095b7bac74a3371
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 6%
@@ -34,7 +34,7 @@ A tabela de modelos mostra as seguintes informações:
    * **[!UICONTROL Pending]**: o modelo está a ser inicializado e irá produzir resultados em breve em start;
    * **[!UICONTROL Active]**: o modelo está sendo executado com êxito e produzindo resultados;
    * **[!UICONTROL Warning]**: o modelo não produziu resultados devido a dados insuficientes (ou seja, população de linhas de base baixa, perfis de utilizador não são ricos);
-   * **[!UICONTROL Error]**: falha ao executar o modelo. Você deve entrar em contato com seu representante da Adobe.
+   * **[!UICONTROL Error]**: falha ao executar o modelo. Você deve entrar em contato com seu representante de Adobe.
 
 ## Relatório de visão geral do modelo{#model-report}
 
