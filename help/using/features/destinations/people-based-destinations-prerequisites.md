@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Pré-requisitos e considerações
 feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 0ca118abd4e4e8aa3eb8b01123d1f02b712841b2
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 4%
+source-wordcount: '1015'
+ht-degree: 3%
 
 ---
 
@@ -28,7 +28,7 @@ Leia abaixo para obter uma visão geral dos requisitos do cliente que você prec
 
 [!UICONTROL People-Based Destinations] é um recurso premium que aprimora sua experiência com Audience Manager, permitindo ativar seus segmentos de audiência primários em ambientes baseados em pessoas, direcionando sua audiência com ofertas personalizadas em redes sociais ou por meio de marketing por email.
 
-Entre em contato com seu representante da Adobe para aproveitar esse recurso premium.
+Entre em contato com seu representante de Adobe para aproveitar esse recurso premium.
 
 ## Pré-requisitos específicos do parceiro {#partner-prerequisites}
 
@@ -49,6 +49,14 @@ Antes de poder usar [!UICONTROL People-Based Destinations] para enviar seus segm
 Para saber como editar suas permissões de [!DNL LinkedIn Campaign Manager] usuário, consulte [Adicionar, editar e remover permissões de usuário em contas](https://www.linkedin.com/help/lms/answer/5753) de publicidade na documentação do LinkedIn.
 
 Consulte [Como entender e configurar o destino](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) baseado em pessoas do LinkedIn para obter instruções de vídeo.
+
+### [!DNL Google Customer Match]
+
+Antes de poder usar [!UICONTROL People-Based Destinations] para enviar seus segmentos de audiência primários para um [!DNL Google Customer Match] destino, é obrigatório [!DNL Google] adicioná-lo à lista de permissões deles.
+
+Entre em contato com seu [!DNL Google] representante e siga as instruções de lista de permissões descritas em [Usar parceiros de Correspondência de Cliente para fazer upload da documentação dos dados](https://support.google.com/google-ads/answer/7361372?hl=en&amp;ref_topic=6296507) [!DNL Google] .
+
+Depois que esse processo for concluído, você poderá criar seu [!UICONTROL People-Based Destination].
 
 ## Integração de dados {#data-onboarding}
 
@@ -81,7 +89,7 @@ Assista ao vídeo abaixo para entender os requisitos de hash do [!UICONTROL Peop
 
 >[!VIDEO](https://video.tv.adobe.com/v/29003/)
 
-A Adobe Experience Cloud oferece a opção de hash de IDs de clientes pelo [!DNL Adobe Experience Platform Identity Service (ECID)]. Consulte Suporte de hash [SHA256 para setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) para obter informações detalhadas sobre como usar a ECID para hash de IDs de clientes.
+A Adobe Experience Cloud oferece a opção de hash de IDs de clientes por meio do [!DNL Adobe Experience Platform Identity Service (ECID)]. Consulte Suporte de hash [SHA256 para setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) para obter informações detalhadas sobre como usar a ECID para hash de IDs de clientes.
 
 ## Obtendo permissão do usuário {#obtaining-user-permission}
 
