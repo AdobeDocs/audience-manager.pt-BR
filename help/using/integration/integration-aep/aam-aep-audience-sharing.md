@@ -7,7 +7,7 @@ title: Compartilhamento de públicos entre o Audience Manager e a Adobe Experien
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: f9e6aedb408db218c548f469330ece584db75853
+source-git-commit: db4706673b72980652942e23d83ae5cf180972e9
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 3%
@@ -40,7 +40,7 @@ Consulte a tabela abaixo para obter uma visão geral dos casos de uso de compart
 
 | **Caso de uso** | **Adobe Experience Platform** | **Audience Manager** | **Principais serviços** |
 ---------|----------|---------|---------
-| **Compartilhamento de Audiências** | <ul><li>Enriqueça os perfis dos clientes com os dados do Audience Manager</li><li>Usar dados de Audience Manager na segmentação de Experience Platform</li></ul> | <ul><li>Adicionar dados de terceiros a segmentos</li><li>Modelagem algoritmica</li><li>Ativação para destinos adicionais</li></ul> | Use segmentos Experience Platform em outras soluções de Experience Cloud, como Adobe Target ou Analytics. |
+| **Compartilhamento de Audiências** | <ul><li>Enriqueça os perfis dos clientes com dados Audience Manager</li><li>Usar dados de Audience Manager na segmentação de Experience Platform</li></ul> | <ul><li>Adicionar dados de terceiros a segmentos</li><li>Modelagem algoritmica</li><li>Ativação para destinos adicionais</li></ul> | Use segmentos Experience Platform em outras soluções de Experience Cloud, como Adobe Target ou Analytics. |
 
 <br> 
 
@@ -139,7 +139,7 @@ A tabela a seguir descreve como rótulos de exportação de dados específicos m
 | Esse destino pode ser usado para direcionamento de anúncios no site | Anúncios no site |
 | Esse destino pode ser usado para personalização de anúncios no site | Personalização no site |
 
-## Entenda as diferenças entre a população do segmento entre Audience Manager e Experience Platform
+## Entenda as diferenças entre a população do segmento entre Audience Manager e Experience Platform {#aep-aam-segment-population-differences}
 
 Os números de preenchimento do segmento podem variar entre seus segmentos de Audience Manager e Experience Platform. Embora os números de segmentos para audiências semelhantes ou idênticas devam ser próximos, as diferenças nas populações podem ser devidas aos fatores listados abaixo.
 
