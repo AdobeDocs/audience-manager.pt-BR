@@ -8,9 +8,9 @@ title: Feeds de dados do cliente
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 670356016a7d8256af2e475d0aef49e1156f82e6
 workflow-type: tm+mt
-source-wordcount: '1860'
+source-wordcount: '1893'
 ht-degree: 4%
 
 ---
@@ -24,9 +24,13 @@ Informações básicas sobre [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) 
 
 Um arquivo [!UICONTROL CDF] contém os mesmos dados que uma chamada de evento [!DNL Audience Manager] (`/event`) envia para nossos servidores. This includes data like user IDs, [!UICONTROL trait IDs], [!UICONTROL segment IDs], and all the other parameters captured by an event call. Os [!DNL Audience Manager] sistemas internos processam os dados do evento em um [!UICONTROL CDF] arquivo com conteúdo organizado em campos que aparecem em uma ordem definida. [!DNL Audience Manager] tenta gerar [!UICONTROL CDF] arquivos por hora e armazena-os em um bucket seguro e específico do cliente em um [!DNL Amazon S3] servidor. Fornecemos esses arquivos para que você possa trabalhar com [!DNL Audience Manager] dados fora dos limites impostos pela interface do usuário.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Você não deve usar [!UICONTROL CDF] arquivos como proxy para monitorar o tráfego da página, reconciliar discrepâncias de relatório, faturamento etc.
+>Observe as seguintes restrições ao trabalhar com arquivos CDF:
+>
+>* Antes de configurar o delivery de arquivo CDF, verifique se você tem as permissões apropriadas de provedores de dados de terceiros para a exportação de características de terceiros.
+>* Você não deve usar [!UICONTROL CDF] arquivos como proxy para monitorar o tráfego da página, reconciliar discrepâncias de relatório, faturamento etc.
+
 
 ## Introdução {#getting-started}
 
