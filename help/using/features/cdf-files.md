@@ -8,9 +8,9 @@ title: Feeds de dados do cliente
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 translation-type: tm+mt
-source-git-commit: 670356016a7d8256af2e475d0aef49e1156f82e6
+source-git-commit: 9b17925f9759a7f47629032182b367cf612bebbc
 workflow-type: tm+mt
-source-wordcount: '1893'
+source-wordcount: '1922'
 ht-degree: 4%
 
 ---
@@ -28,7 +28,7 @@ Um arquivo [!UICONTROL CDF] contém os mesmos dados que uma chamada de evento [!
 >
 >Observe as seguintes restrições ao trabalhar com arquivos CDF:
 >
->* Antes de configurar o delivery de arquivo CDF, verifique se você tem as permissões apropriadas de provedores de dados de terceiros para a exportação de características de terceiros.
+>* Antes de configurar o delivery de arquivo CDF, verifique se você tem as permissões apropriadas de provedores de dados de terceiros para a exportação de características de terceiros. No momento, o Audience Manager não oferece suporte à funcionalidade na interface do usuário para solicitar permissão de exportação de delivery de arquivos CDF de Provedores de dados de terceiros, portanto, entre em contato com eles independentemente.
 >* Você não deve usar [!UICONTROL CDF] arquivos como proxy para monitorar o tráfego da página, reconciliar discrepâncias de relatório, faturamento etc.
 
 
