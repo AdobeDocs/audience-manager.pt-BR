@@ -1,15 +1,15 @@
 ---
-description: Esta página inclui apenas integrações atuais de servidor para servidor. Para obter mais informações sobre uma integração, consulte sua lista do Adobe Exchange (quando disponível) ou entre em contato com seu consultor da Adobe ou com o Atendimento ao cliente.
-seo-description: Esta página inclui apenas integrações atuais de servidor para servidor. Para obter mais informações sobre uma integração, consulte sua lista do Adobe Exchange (quando disponível) ou entre em contato com seu consultor da Adobe ou com o Atendimento ao cliente.
+description: Esta página inclui apenas integrações atuais de servidor para servidor. Para obter mais informações sobre uma integração, consulte sua lista de troca de Adobe (quando disponível) ou entre em contato com seu consultor de Adobe ou com o Atendimento ao cliente.
+seo-description: Esta página inclui apenas integrações atuais de servidor para servidor. Para obter mais informações sobre uma integração, consulte sua lista de troca de Adobe (quando disponível) ou entre em contato com seu consultor de Adobe ou com o Atendimento ao cliente.
 seo-title: Destinos Adobe Audience Manager Server-to-Server
 keywords: activation; activation partners, destination, destinations
 solution: Audience Manager
 title: Destinos Adobe Audience Manager Server-to-Server
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
+source-git-commit: 8d7935f69b496ec30a135df884756d370b44b7ed
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1116'
 ht-degree: 72%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 72%
 
 # [!DNL Audience Manager] [!UICONTROL Device-based Destinations]
 
-Esta página inclui somente destinos [!DNL Audience Manager] baseados em [](/help/using/features/destinations/add-device-based-destinations.md) dispositivos atuais. Em [!DNL Audience Manager], [!UICONTROL device-based destinations] também são chamados [!UICONTROL server-to-server destinations]. Para obter mais informações sobre uma integração, consulte sua lista do [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (quando disponível) ou entre em contato com seu [!DNL Adobe] Consultor ou Atendimento ao cliente.
+Esta página inclui somente destinos [!DNL Audience Manager] baseados em [](/help/using/features/destinations/add-device-based-destinations.md) dispositivos atuais. Em [!DNL Audience Manager], [!UICONTROL device-based destinations] também são chamados [!UICONTROL server-to-server destinations]. Para obter mais informações sobre uma integração, consulte sua lista de [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (quando disponível) ou entre em contato com seu [!DNL Adobe] Consultor ou Atendimento ao cliente.
 
  
 
@@ -84,7 +84,6 @@ Esta página inclui somente destinos [!DNL Audience Manager] baseados em [](/hel
 | [!DNL FreakOut] | 03/03/2017 | 1xday | Sim | Não | Não | Não |
 | [!DNL Freewheel] | 27/02/2017 | 1xday | Sim | Sim | Não | Sim |
 | [!DNL Gamut Media] | 03/03/2017 | Tempo real |  | Não | Não |  |
-| [!DNL Google AdsWords Display] | 02/08/2018 | Tempo real | Sim | Sim | Não | Sim |
 | [!DNL Google DoubleClick Bid Manager (DBM)] | 24/04/2017 | Tempo real | Sim | Sim | Sim | Sim |
 | [!DNL Google DoubleClick Campaign Manager (DCM fka DFA)] | 24/04/2017 | Tempo real | Sim | Sim | Sim | Sim |
 | [!DNL Google DoubleClick for Publishers (DFP, DFPP)] | 24/04/2017 | Tempo real | Sim | Sim | Sim | Sim |
