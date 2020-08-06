@@ -7,9 +7,9 @@ title: Requisitos de nome e tamanho de arquivo FTP para arquivos de dados de ent
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: b3ff5ca68022cc30632d6b647ffde507533b5ddf
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '894'
 ht-degree: 9%
 
 ---
@@ -35,7 +35,7 @@ Descreve os campos obrigatórios, a sintaxe, as convenções de nomenclatura e o
 
 Para outros formatos de nome de arquivo aceitos, consulte Integrações [](/help/using/integration/sending-audience-data/custom-partner-integrations.md)personalizadas de parceiros.
 
->[!NOTE] {important=&quot;high&quot;}
+>[!NOTE]
 >
 >[!DNL Audience Manager] só processa [!DNL ASCII] e [!DNL UTF-8] codifica arquivos.
 
