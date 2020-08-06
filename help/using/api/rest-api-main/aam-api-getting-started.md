@@ -7,9 +7,9 @@ title: Introdução às REST APIs
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 feature: API
 translation-type: tm+mt
-source-git-commit: 0fd2b2a58274199ecc2fd58738113165c804ceb8
+source-git-commit: f7b9c30f120b24f9294afa4aa6727ce8c4236acf
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1860'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,7 @@ As coisas que você deve e deve fazer ao trabalhar com os [!DNL Audience Manager
 Observe o seguinte ao trabalhar com o código da API [](https://bank.demdex.com/portal/swagger/index.html#/) Audience Manager:
 
 * **Parâmetros de solicitação:** todos os parâmetros de solicitação são obrigatórios, a menos que especificado de outra forma.
-* **Cabeçalhos** de solicitação: ao usar tokens de E/S [da](https://www.adobe.io/) Adobe, você deve fornecer o `x-api-key` cabeçalho. Você pode obter sua [!DNL API] chave seguindo as instruções na página Integração [da conta de](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) serviço.
+* **Cabeçalhos** de solicitação: ao usar tokens de E/S [de](https://www.adobe.io/) Adobe, você deve fornecer o `x-api-key` cabeçalho. Você pode obter sua [!DNL API] chave seguindo as instruções na página Integração [da conta de](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) serviço.
 * **[!DNL JSON]tipo de conteúdo:**Especifique`content-type: application/json`e *especifique*`accept: application/json`no seu código.
 * **Solicitações e respostas:** Envie solicitações como um [!DNL JSON] objeto formatado corretamente. [!DNL Audience Manager] responde com dados [!DNL JSON] formatados. As respostas do servidor podem conter dados solicitados, um código de status ou ambos.
 * **Acesso:** Seu [!DNL Audience Manager] consultor fornecerá uma ID de cliente e uma chave que permite fazer [!DNL API] solicitações.
@@ -40,24 +40,24 @@ Observe o seguinte ao trabalhar com o código da API [](https://bank.demdex.com/
 
 O [!DNL Audience Manager] [!DNL REST APIs] suporta dois métodos de autenticação.
 
-* [Autenticação](#jwt) JWT (Conta de serviço) usando E/S [da Adobe](https://www.adobe.io/). [!DNL Adobe I/O] é o ecossistema e a comunidade de desenvolvedores da Adobe. Ele inclui as ferramentas do desenvolvedor de E/S da [Adobe e APIs](https://www.adobe.io/apis/experienceplatform.html) e [APIs para todos os produtos](https://www.adobe.io/apis.html)da Adobe. Essa é a maneira recomendada de configurar e usar [!DNL Adobe][!DNL APIs].
+* [Autenticação](#jwt) JWT (Conta de serviço) usando E/S [Adobe](https://www.adobe.io/). [!DNL Adobe I/O] é o ecossistema e a comunidade do Adobe. Ele inclui as ferramentas do desenvolvedor de E/S do [Adobe, APIs](https://www.adobe.io/apis/experienceplatform.html) e [APIs para todos os produtos](https://www.adobe.io/apis.html)do Adobe. Essa é a maneira recomendada de configurar e usar [!DNL Adobe][!DNL APIs].
 * [Autenticação OAuth (obsoleta)](#oauth). Embora esse método esteja obsoleto, os clientes com [!DNL OAuth] integrações existentes podem continuar usando esse método.
 
 >[!IMPORTANT]
 >
 >Dependendo do método de autenticação, é necessário ajustar a solicitação [!DNL URLs] de acordo. Consulte a seção [Ambientes](#environments) para obter detalhes sobre os nomes de host que você deve usar.
 
-## [!DNL JWT] ([!DNL Service Account]) Autenticação usando E/S da Adobe {#jwt}
+## [!DNL JWT] ([!DNL Service Account]) Autenticação usando E/S de Adobe {#jwt}
 
-### Visão geral de E/S da Adobe {#adobeio}
+### Visão geral de E/S de Adobe {#adobeio}
 
-[!DNL Adobe I/O] é o ecossistema e a comunidade de desenvolvedores da Adobe. Ele inclui as ferramentas do desenvolvedor de E/S da [Adobe e APIs](https://www.adobe.io/apis/experienceplatform.html) e [APIs para todos os produtos](https://www.adobe.io/apis.html)da Adobe.
+[!DNL Adobe I/O] é o ecossistema e a comunidade do Adobe. Ele inclui as ferramentas do desenvolvedor de E/S do [Adobe, APIs](https://www.adobe.io/apis/experienceplatform.html) e [APIs para todos os produtos](https://www.adobe.io/apis.html)do Adobe.
 
 Essa é a maneira recomendada de configurar e usar [!DNL Adobe][!DNL APIs].
 
 ### Pré-requisitos {#prerequisites}
 
-Antes de configurar a [!DNL JWT] autenticação, verifique se você tem acesso ao [Adobe Developer Console](https://console.adobe.io/) em E/S [da Adobe](https://www.adobe.io/). Entre em contato com o administrador da organização para obter informações sobre solicitações de acesso.
+Antes de configurar a [!DNL JWT] autenticação, verifique se você tem acesso ao [Adobe Developer Console](https://console.adobe.io/) em E/S [do](https://www.adobe.io/)Adobe. Entre em contato com o administrador da organização para obter informações sobre solicitações de acesso.
 
 ### Autenticação
 
@@ -65,8 +65,8 @@ Siga as etapas abaixo para configurar a [!DNL JWT (Service Account)] autenticaç
 
 1. Faça logon no [Adobe Developer Console](https://console.adobe.io/).
 1. Siga as etapas em [Service Account Connection (Conexão](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)de conta de serviço).
-   * Durante a [Etapa 2: Adicione uma API ao seu projeto usando a autenticação](https://www.adobe.io/authentication/auth-methods.html#step-2-add-an-api-to-your-project-using-service-account-authentication)da Conta de serviço, escolha a [!DNL Audience Manager] opção [!DNL API] .
-1. Experimente a conexão fazendo sua primeira [!DNL API] chamada com base nas instruções da [Etapa 3](https://www.adobe.io/authentication/auth-methods.html#step-3-try-it.).
+   * Durante a [Etapa 2: Adicione uma API ao seu projeto usando a autenticação](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)da Conta de serviço, escolha a [!DNL Audience Manager] opção [!DNL API] .
+1. Experimente a conexão fazendo sua primeira [!DNL API] chamada com base nas instruções da [Etapa 3](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
 >[!NOTE]
 >
@@ -178,7 +178,7 @@ Requisitos para chamar [!DNL API] métodos depois de receber um token de autenti
 Para efetuar chamadas em relação aos [!DNL API] métodos disponíveis:
 
 * No `HTTP` cabeçalho, defina `Authorization: Bearer <token>`.
-* Ao usar a Autenticação [](#jwt)JWT (Conta de serviço), é necessário fornecer o `x-api-key` cabeçalho, que será o mesmo de sua `client_id`. Você pode obter seu conteúdo `client_id` da página de integração [de E/S da](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) Adobe.
+* Ao usar a Autenticação [](#jwt)JWT (Conta de serviço), é necessário fornecer o `x-api-key` cabeçalho, que será o mesmo de sua `client_id`. Você pode obter o seu `client_id` da página de integração [de E/S do](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) Adobe.
 * Chame o [!DNL API] método necessário.
 
 ## Parâmetros de [!DNL API] Query opcionais {#optional-api-query-parameters}
