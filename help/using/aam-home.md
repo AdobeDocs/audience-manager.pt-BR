@@ -7,9 +7,9 @@ title: Documentação do produto Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 feature: overview
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: d3184195d6a51ff013a3d1fc8526ca9afd3386c2
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '669'
 ht-degree: 98%
 
 ---
@@ -160,10 +160,10 @@ Este guia de documentação técnica oferece assistência de autoajuda para o Au
      <br> 
      <p> <b>Recursos mais recentes</b> </p> <p> 
      Leia sobre os recursos mais recentes do Audience Manager:</p>
-     <p><ul><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Plug-in de Audience Manager para IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Públicos preditivos</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Relatórios de uso de atividade</a></li>
+     <p><ul><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Correspondência de clientes do Google para destinos baseados em pessoas</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Plug-in de Audience Manager para IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Públicos preditivos</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Relatórios de uso de atividade</a></li>
      <li><a href="/help/using/overview/data-security-and-privacy/data-privacy.md">Visão geral do suporte e da documentação de privacidade da California Consumer Privacy Act (CCPA)</a></li>
      <li><a href="/help/using/features/segments/trait-recommendations.md">Recomendações inteligentes para dados do Audience Marketplace, capacitadas pelo Adobe Sensei</a></li>
-     <li><a href="/help/using/features/profile-merge-rules/merge-rules-overview.md">Aprimoramentos das regras de mesclagem de perfis</a></li></ul><p>
+     </ul><p>
     </td>
   </tr> 
  </tbody> 
