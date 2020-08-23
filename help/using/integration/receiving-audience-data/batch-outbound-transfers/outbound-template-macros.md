@@ -135,7 +135,7 @@ Macros usadas para formatar o conteúdo de um arquivo de dados. Para obter exemp
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPEN_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Insere um caractere { colchetes abertos. </p> </td> 
+   <td colname="col2"> <p>Insere um <code>{</code> caractere de colchetes aberto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPT_OUT </code> </p> </td> 
