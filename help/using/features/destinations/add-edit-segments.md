@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Adicionar ou editar segmentos para destinos de servidor para servidor
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 55925e803e16580e0d9357d973405cf39370a8fd
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '258'
 ht-degree: 8%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 8%
 
 # Adicionar ou editar segmentos para destinos de servidor para servidor {#add-edit-segments}
 
-Você só pode adicionar ou editar segmentos para um destino de servidor para servidor ([!DNL S2S]). Não é possível criar [!DNL S2S] destinos com o [!UICONTROL [Destination Builder](/help/using/features/destinations/destination-builder.md)]. Entre em contato com seu consultor para configurar [!DNL S2S] destinos. Siga estas instruções para adicionar ou editar segmentos para um [!DNL S2S] destino.
+Você só pode adicionar ou editar segmentos para um destino de servidor para servidor ([!DNL S2S]). Não é possível criar [!DNL S2S] destinos com [[!UICONTROL Destination Builder]](/help/using/features/destinations/destination-builder.md). Entre em contato com seu consultor para configurar [!DNL S2S] destinos. Siga estas instruções para adicionar ou editar segmentos para um [!DNL S2S] destino.
 
 <!-- destination-s2s-edit.xml -->
 
