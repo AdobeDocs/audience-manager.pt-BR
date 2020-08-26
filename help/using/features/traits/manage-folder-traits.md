@@ -8,9 +8,9 @@ title: Gerenciar características da pasta
 uuid: 287ac280-bd58-4985-85bd-b6501eb64b7f
 feature: Traits
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 4ea5ba4ebd8cd4c13c99c8272f4b5733ab5fa125
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '362'
 ht-degree: 9%
 
 ---
@@ -36,7 +36,7 @@ Uma pasta [!UICONTROL folder trait] é criada automaticamente quando você cria 
 
 1. Clique no ícone + para criar a pasta. Observe que você pode criar um máximo de 2.000 pastas em sua taxonomia. Consulte a documentação de [limites de uso](../../features/administration/usage-limits.md) para obter mais informações.
 1. Nomeie a pasta e clique em **Salvar**. Por exemplo, uma pasta chamada Eletrônicos terá uma característica de pasta chamada &#39;Características da pasta Eletrônicos&#39;. Você pode visualização e selecionar a nova característica da pasta no painel de características.
-1. A nova característica da pasta é atribuída automaticamente à fonte de dados [!DNL Audience Manager] gerada. Seus usuários com as permissões apropriadas de [!UICONTROL Role-Based Controle de acesso ([!DNL RBAC])] podem alterar a fonte de dados no fluxo de trabalho de características da pasta de edição. Consulte [Editar uma característica](../../features/traits/manage-folder-traits.md#edit-folder-trait)da pasta.
+1. A nova característica da pasta é atribuída automaticamente à fonte de dados [!DNL Audience Manager] gerada. Seus usuários com as permissões apropriadas [!UICONTROL Role-Based Access Control] ([!DNL RBAC]) podem alterar a fonte de dados no fluxo de trabalho de características da pasta de edição. Consulte [Editar uma característica](../../features/traits/manage-folder-traits.md#edit-folder-trait)da pasta.
 
 ## Editar uma característica de pasta {#edit-folder-trait}
 
@@ -63,7 +63,7 @@ Exclua uma característica de pasta excluindo a pasta de armazenamento à qual a
 
 <!-- delete-folder-trait.xml -->
 
-1. **Dados de Audiência > Características** para navegar até o painel **Características** .
+1. **Dados de audiência > Características** para navegar até o painel **Características** .
 1. Na [!UICONTROL Trait Storage] janela, exclua uma pasta passando o mouse sobre ela e clicando no ícone X.
 
    ![Resultado da etapa](assets/folder_traits_create.PNG)
