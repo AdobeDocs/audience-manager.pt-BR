@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Fontes de dados globais
 feature: Data Sources
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: b8b848ad04d1ec07c12e57d94e4f3c6e672dc102
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 5%
+source-wordcount: '444'
+ht-degree: 6%
 
 ---
 
@@ -24,12 +24,12 @@ A tabela a seguir descreve as fontes de dados globais suportadas pelo Audience M
 
 | ID da fonte de dados | Descrição |
 |---|---|
-| 20914 | **ID** de publicidade do Google - **** os GAIDs representam dispositivos que executam o sistema [!DNL Android] operacional. |
-| 20915 | **Apple ID for Advertising** - **** as IDFAs representam dispositivos que executam o sistema operacional [!DNL iOS] . |
-| 121963 | **ID Roku para publicidade** - **** RIDAs representam dispositivos de [!DNL Roku] transmissão. |
-| 389146 | **ID** de anúncio da Microsoft - **** MAIDs representam dispositivos que executam o sistema operacional [!DNL Windows 10] . |
-| 404660 | **Os** DUIDs da Samsung representam TVs [!DNL Samsung] inteligentes. |
-| 488258 | **Os** IDs de publicidade da Amazon Fire TV representam dispositivos em execução [!DNL Amazon Fire OS] |
+| 20914 | **[!DNL Google Advertising ID]** - **[!DNL GAID]** As IDs representam dispositivos que executam o sistema [!DNL Android] operacional. |
+| 20915 | **[!DNL Apple ID For Advertising]** - **[!DNL IDFA]** As IDs representam dispositivos que executam o sistema [!DNL iOS] operacional. |
+| 121963 | **[!DNL Roku ID for Advertising]** - **[!DNL RIDA]** As IDs representam dispositivos de [!DNL Roku] transmissão. |
+| 389146 | **[!DNL Microsoft Advertising ID]** - **[!DNL MAID]** As IDs representam dispositivos que executam o sistema [!DNL Windows 10] operacional. |
+| 404660 | **[!DNL Samsung Tizen IDs for Advertising]** - **[!DNL TIFA]** As IDs representam [!DNL Samsung] TVs inteligentes. |
+| 488258 | **[!DNL Amazon Fire TV Advertising IDs]** representam dispositivos em execução [!DNL Amazon Fire OS] |
 
 ## Importação de dados de fontes de dados globais
 
@@ -41,7 +41,7 @@ A tabela a seguir descreve as fontes de dados globais suportadas pelo Audience M
 
 ## Limitações
 
-Em dispositivos que executam [!DNL iOS] e [!DNL Android] sistemas operacionais, somente aplicativos nativos podem recuperar e usar IDs ([!UICONTROL DAID]s) de publicidade do dispositivo. As Aplicações web em execução em navegadores móveis não têm acesso às IDs de publicidade do dispositivo.
+Em dispositivos que executam [!DNL iOS] e [!DNL Android] sistemas operacionais, somente aplicativos nativos podem recuperar e usar IDs ([!UICONTROL DAID]s) de publicidade do dispositivo. As aplicações web em execução em navegadores móveis não têm acesso às IDs de publicidade do dispositivo.
 
 ## Validação da ID do dispositivo global
 
@@ -52,11 +52,11 @@ Audience Manager validates the device advertising IDs ([!UICONTROL DAID]) import
 
 ## Política de expiração da ID do dispositivo
 
-O Audience Manager descarta automaticamente as IDs de publicidade do dispositivo após 120 dias de inatividade, de modo semelhante aos [AAM](../faq/faq-privacy.md)UUIDs.
+O Audience Manager descarta automaticamente as IDs de publicidade do dispositivo após 120 dias de inatividade, de modo semelhante a [AAM](../faq/faq-privacy.md)UUIDs.
 
 ## Solicitação de novas fontes de dados globais
 
-Para solicitar que novas fontes de dados globais sejam adicionadas ao Audience Manager, entre em contato com a Adobe Consulting ou com o Atendimento ao cliente da Adobe e forneça informações detalhadas sobre as fontes de dados necessárias:
+Para solicitar a adição de novas fontes de dados globais ao Audience Manager, entre em contato com a Adobe Consultoria ou com o Atendimento ao cliente do Adobe e forneça informações detalhadas sobre as fontes de dados necessárias:
 
 * O nome da plataforma solicitada (por exemplo, [!UICONTROL Apple IDFA]);
 * O nome da empresa/organização que gerencia a plataforma (por exemplo, [!UICONTROL Apple Inc.]);
