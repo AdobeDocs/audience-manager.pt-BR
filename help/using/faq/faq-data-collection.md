@@ -8,10 +8,10 @@ uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP address; STFP IP address; FTP address
 feature: Administration
 translation-type: tm+mt
-source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
+source-git-commit: a1e95f421b725cc93fbedc4c001e34e4291bf828
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 91%
+source-wordcount: '1151'
+ht-degree: 85%
 
 ---
 
@@ -21,12 +21,6 @@ ht-degree: 91%
 Perguntas e problemas comuns de coleta e integração de dados.
 
 <br> 
-
-<!-- 
-
-faq_data_collection_integration.xml
-
- -->
 
 **Como posso diferenciar o tráfego de entrada do tráfego do [!DNL DCS] nas exportações de arquivo de log do [!DNL DCS]?**
 
@@ -42,18 +36,39 @@ As características integradas via [!UICONTROL Inbound] são preenchidas pelo [!
 
 Infelizmente, não podemos. Esses IPs são atribuídos dinamicamente, por região geográfica, pelo [!DNL Amazon Web Services]. Por isso, o [!DNL Audience Manager] não controla o intervalo de IPs que podem ser atribuídos a este endereço.
 
-<br> 
+ 
 
-**Você pode me fornecer um endereço IP que posso adicionar a uma lista de permissões para seu servidor sFTP de entrada e de saída?**
+**Você pode me fornecer um endereço IP que posso adicionar a uma lista de permissões para seu servidor SFTP de entrada e saída?**
 
 Sim, veja abaixo.
 
-| Item | Endereço |
+| Servidor | Endereço IP |
+| ---------|----------|
+| ftp-in-gtw.demdex.com | 23.22.232.252; 18.211.109.184 |
+| ftp-out-gtw.demdex.com | 3.233.68.222; 52.3.74.119 |
+
+ 
+
+Os servidores SFTP abaixo estão obsoletos. Nenhuma nova conta será provisionada usando esses servidores.
+
+| Servidor | Endereço IP |
 ---------|----------|
 | ftp-in.demdex.com | 54.225.117.163 |
 | ftp-out.demdex.com | 23.23.188.76 |
 
-<br> 
+ 
+
+**Como faço para configurar minha instância de Audience Manager para usar os novos servidores SFTP?**
+
+Entre em contato com seu [!DNL Audience Manager] consultor ou com o Atendimento ao cliente e eles configurarão suas novas contas SFTP.
+
+ 
+
+**Qual é o método de autenticação compatível com os novos servidores SFTP?**
+
+Os novos servidores SFTP (`ftp-in-gtw` e `ftp-out-gtw`) suportam [!DNL OpenSSH Key-Based Authentication]. Podemos gerar as [!DNL SSH] chaves para você, ou você pode nos fornecer sua própria chave pública.
+
+ 
 
 **Quais são os requisitos de posicionamento de código e carregamento de página para uma Integração de dados do [!UICONTROL DIL]/[!DNL Analytics]?**
 
@@ -73,7 +88,7 @@ Como prática recomendada, configure a integração [!DNL Audience Manager] - [!
 
 Consulte [API da Biblioteca de integração de dados (DIL)](../dil/dil-overview.md).
 
-<br> 
+ 
 
 **Por que minhas variáveis do [!DNL Analytics] estão ausentes em uma chamada de evento do [!DNL Audience Manager]?**
 
@@ -82,7 +97,7 @@ Isso normalmente acontece quando:
 * Você atende à [!UICONTROL DIL] por meio de um sistema de gerenciamento de tags que a carrega de forma assíncrona com outros elementos de código na página.
 * A função `s.t()` é carregada antes da [!UICONTROL DIL].
 
-<br> 
+ 
 
 **Quais versões do [!DNL Analytics] funcionam com a [!UICONTROL DIL]?**
 
