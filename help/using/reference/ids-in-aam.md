@@ -1,16 +1,16 @@
 ---
-description: Consulte este documento para obter a lista completa das IDs de Adobe Audience Manager.
+description: Consulte este documento para obter a lista completa das Adobe Audience Manager IDs.
 keywords: DPID; DPUUID; CID; UUID; uuid; uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid
-seo-description: Consulte este documento para obter a lista completa das IDs de Adobe Audience Manager.
+seo-description: Consulte este documento para obter a lista completa das Adobe Audience Manager IDs.
 seo-title: Índice de IDs no Audience Manager
 solution: Audience Manager
 title: Índice de IDs no Audience Manager
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
 feature: reference
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: b8b848ad04d1ec07c12e57d94e4f3c6e672dc102
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '943'
 ht-degree: 5%
 
 ---
@@ -32,7 +32,7 @@ Para entender os prefixos usados nos exemplos a seguir, consulte Atributos [supo
 
 | ID | Nome e descrição | Uso e exemplos | Local da interface do usuário |
 |---|---|---|---|
-| [!DNL AAM UUID] | [!DNL Adobe Audience Manager Unique User ID], também conhecido como [!UICONTROL Device ID]. Uma ID de dispositivo numérica de 38 dígitos que [!DNL Audience Manager] se associa a cada dispositivo com o qual ele interage. Considere essa ID sempre que vir uma menção de usuários únicos na [!DNL Audience Manager] interface do usuário. O Audience Manager salva essa ID como um domínio [!DNL cookie] de `demdex.net` terceiros. | Em [!DNL DCS] chamadas, `uuid` é precedido pelo `d_` prefixo. <br>Exemplo: `d_uuid = 07955261652886032950143702505894272138` | É possível filtrar [!DNL traits] ao [!UICONTROL Device ID] criar modelos [semelhantes e](../features/algorithmic-models/create-model.md)criar segmentos [](../features/segments/segment-builder.md). Você também pode filtrar os resultados [!UICONTROL Device ID] ao executar Relatórios [Gerais para Características](../reporting/general-reports.md) e Relatórios de [Tendência para Características](../reporting/trend-reports.md). |
+| [!DNL AAM UUID] | [!DNL Adobe Audience Manager Unique User ID], também conhecido como [!UICONTROL Device ID]. Uma ID de dispositivo numérica de 38 dígitos que [!DNL Audience Manager] se associa a cada dispositivo com o qual ele interage. Considere essa ID sempre que vir uma menção de usuários únicos na [!DNL Audience Manager] interface do usuário. O Audience Manager salva essa ID como um domínio [!DNL cookie] de `demdex.net` terceiros. | Em [!DNL DCS] chamadas, `uuid` é precedido pelo `d_` prefixo. <br>Exemplo: `d_uuid = 07955261652886032950143702505894272138` | Você pode filtrar [!DNL traits] ao [!UICONTROL Device ID] criar modelos [semelhantes e](../features/algorithmic-models/create-model.md)criar segmentos [](../features/segments/segment-builder.md). Você também pode filtrar os resultados [!UICONTROL Device ID] ao executar Relatórios [Gerais para Características](../reporting/general-reports.md) e Relatórios de [Tendência para Características](../reporting/trend-reports.md). |
 | [!DNL ImsOrgId] | [!DNL Organization ID]. Essa é a ID que uma empresa recebe ao se inscrever em uma [!DNL Experience Cloud] conta. | `5DC5123F5245B1D20A490D46@AdobeOrg` | Não visível na interface do [!DNL Audience Manager] usuário. Para saber como encontrar sua empresa [!DNL Organization ID], leia [Localizar sua ID](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html#concept_EA8AEE5B02CF46ACBDAD6A8508646255)de organização. |
 | [!DNL PID] | [!DNL Partner ID]. O [!DNL PID] é um ID de empresa em [!DNL Audience Manager]. Audience Manager associa um [!DNL imsOrgId] a um [!DNL PID]. | `1352` | Não visível na interface do [!DNL Audience Manager] usuário. |
 | [!DNL ECID], [!DNL MID] | [!DNL Experience Cloud] ID. A [!DNL Experience Cloud] ID ([!DNL ECID], abreviações herdadas [!DNL MID] ou [!DNL MCID]) é derivada matematicamente de seu [!DNL Organization ID] e do [!DNL Audience Manager] [!UICONTROL Unique User ID]. As long as these IDs remain constant, generating the right [!DNL ECID] for a specific user is simply a math problem. Com o mesmo [!DNL Organization ID] e [!DNL Audience Manager] você recebe o mesmo [!DNL UUID] [!DNL ECID] valor toda vez. Você pode ler mais sobre o [!DNL ECID] na documentação [Cookies e Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html#section-15f69c0bac394b4b9966a23fbc586d17) . | `mid = 08382830887934830189014177072406221371` | Não visível na interface do [!DNL Audience Manager] usuário. |
@@ -56,5 +56,5 @@ As IDs globais de dispositivo são IDs de publicidade de dispositivo, exclusivas
 | [!DNL GAID] | 20914 | [!DNL Google Advertising ID]s são identificadores de dispositivos móveis fornecidos pelos fabricantes de dispositivos Android. Essas IDs representam dispositivos que executam o sistema [!DNL Android] operacional. | O formato consiste estritamente em 32 dígitos hexadecimais minúsculos, exibidos em cinco grupos e separados por hífens, na forma 8-4-4-4-12, para um total de 36 caracteres. <br>Exemplo: `e4fe9bde-caa0-47b6-908d-ffba3fa184f2`. |
 | [!DNL RIDA] | 121963 | [!DNL Roku IDs for Advertising] representam dispositivos [!DNL Roku] de transmissão. | O formato consiste estritamente em 32 dígitos hexadecimais minúsculos, exibidos em cinco grupos e separados por hífens, na forma 8-4-4-4-12, para um total de 36 caracteres. <br>Exemplo: `fcb2a29c-315a-5e6b-bcfd-d889ba19aada`. |
 | [!DNL MAID] | 389146 | [!DNL Microsoft Advertising ID]s são identificadores de dispositivo gerados por [!DNL Windows 10] cada dispositivo, por usuário. | [!DNL MAID]s são formatados como strings alfanuméricas. |
-| [!DNL DUID] | 404660 | [!DNL Samsung DUID]s são identificadores de dispositivo fornecidos por [!DNL Samsung] Smart TVs. | [!DNL Samsung] [!DNL DUID]s são formatados como strings alfanuméricas. |
+| [!DNL TIFA] | 963906 | [!DNL Samsung Tizen IDs for Advertising] são identificadores de dispositivo fornecidos por [!DNL Samsung] Smart TVs. | [!DNL Samsung] [!DNL TIFA] As IDs são formatadas como strings alfanuméricas. |
 | [!DNL Amazon Fire TV Advertising ID] | 488258 | Identificadores de dispositivos que representam dispositivos que executam o sistema [!DNL Fire OS] operacional. | O formato consiste estritamente em 32 dígitos hexadecimais minúsculos, exibidos em cinco grupos e separados por hífens, na forma 8-4-4-4-12, para um total de 36 caracteres. <br>Exemplo: `df07c7dc-cea7-4a89-b328-810ff5acb15d` |
