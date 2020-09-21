@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Públicos preditivos do Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 91ed0e755982375f41ed5eb484fa8e60bbe6f8e5
+source-git-commit: 04c638289878ff79070487d7d8cbb5c9454d93d6
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1023'
 ht-degree: 66%
 
 ---
@@ -106,6 +106,8 @@ No entanto, se você selecionar um [!UICONTROL Profile Merge Rule] baseado apena
 
 Analise cuidadosamente seu caso de uso e decida com quais [!UICONTROL trait] tipos você deseja que o modelo aprenda e que tipo de dados você deseja que o modelo use para classificação.
 
+ 
+
 **Um usuário do público-alvo que não faz parte de nenhuma característica/segmento de persona pode não ser classificado?**
 
 Sim, caso o usuário não tenha nenhuma característica em seu perfil. Nesse caso, o usuário obterá uma pontuação de correspondência de 0 para todas as características/segmentos de persona e, portanto, não será classificado em nenhum dos segmentos preditivos.
@@ -120,7 +122,7 @@ Sim. Como o algoritmo é treinado diariamente, ele aplica as alterações para c
 
 **Posso adicionar características preditivas a segmentos regulares?**
 
-Quando você adiciona uma característica preditiva a um segmento regular, o segmento se torna um segmento preditivo. Consequentemente, todos os perfis associados não são segmentados. Segmentos preditivos só podem ser enviados para destinos em tempo real.
+Quando você adiciona um traço preditivo a um segmento regular, ele se torna um segmento preditivo. Consequentemente, todos os perfis associados não são segmentados. Segmentos preditivos só podem ser enviados para destinos em tempo real.
 
  
 
