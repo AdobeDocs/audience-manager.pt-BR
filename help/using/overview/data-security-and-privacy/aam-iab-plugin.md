@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Plug-in do Audience Manager para a TCF do IAB
 feature: data governance & privacy
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: ff592184ba1785e3448aa449745d0e66ecba955b
 workflow-type: tm+mt
 source-wordcount: '2449'
-ht-degree: 40%
+ht-degree: 39%
 
 ---
 
@@ -66,11 +66,11 @@ Você deve atender aos seguintes pré-requisitos para usar o Plug-in Audience Ma
 1. Você deve usar o Adobe Experience Platform Identity Service (ECID) versão 5 ou mais recente. [Baixe](https://github.com/Adobe-Marketing-Cloud/id-service/releases) a versão mais recente do ECID.
 2. You must be using Audience Manager [!DNL Data Integration Library] (DIL) version 9.0 or newer, downloadable from [here](https://github.com/Adobe-Marketing-Cloud/dil/releases). Leia sobre a [DIL na documentação do Audience Manager](../..//dil/dil-overview.md). Recomendamos usar o [Adobe Launch](https://docs.adobe.com/content/help/pt-BR/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html) para a implementação mais fácil do DIL para o Audience Manager.
 3. Alternatively, if you use [!DNL Server-Side Forwarding] (SSF) to import data into Audience Manager, you must upgrade to the latest version of AppMeasurement. Baixe o AppMeasurement usando o [Gerenciador de código do Analytics](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/code-manager-admin.html).
-4. Você deve usar um Platform de gerenciamento de consentimento (CMP), comercial ou próprio, integrado ao IAB TCF v2.0 e registrado no IAB TCF. Consulte a lista de [CMPs registradas junto à estrutura do IAB](https://iabeurope.eu/cmp-list/).
+4. Você deve estar usando uma Plataforma de Gerenciamento de Consentimento (CMP), comercial ou própria, integrada ao IAB TCF v2.0 e registrada no IAB TCF. Consulte a lista de [CMPs registradas junto à estrutura do IAB](https://iabeurope.eu/cmp-list/).
 
 >[!WARNING]
 >
->Se você estiver usando um Platform de Gerenciamento de Consentimento (CMP) que não suporta IAB TCF v.2.0, o Audience Manager enviará automaticamente o `gdpr=0` parâmetro em sincronizações de ID, mesmo se os visitantes estiverem na União europeia. Para determinar se sua validação do RGPD está ativa, recomendamos que você confirme com seu Platform de gerenciamento de consentimento (CMP) que eles suportam o IAB TCF v2.0.
+>Se você estiver usando uma Plataforma de gerenciamento de consentimento (CMP) que não suporta IAB TCF v.2.0, o Audience Manager enviará automaticamente o `gdpr=0` parâmetro em sincronizações de ID, mesmo se os visitantes estiverem na União europeia. Para determinar se sua validação do RGPD está ativa, recomendamos que você confirme com sua Plataforma de Gerenciamento de Consentimento (CMP) que eles suportam o IAB TCF v2.0.
 
 ## Recomendações e como implementar {#recommendations}
 
@@ -118,13 +118,13 @@ O Audience Manager funciona de forma diferente dependendo se a sequência de car
 
 Também verificamos o consentimento do usuário para todos os destinos com os quais você trabalha no Audience Manager, desde que esses destinos estejam registrados no IAB TCF.
 
-| Quando o usuário *consente*, o Audience Manager: | Quando o usuário *não consente*, o Audience Manager: |
+| When your user *provides* consent, Audience Manager: | Quando o usuário *não consente*, o Audience Manager: |
 |---|---|
 | <ul><li>Executa todos os casos de uso do Audience Manager solicitados.</li><li>Conveys consent to third parties in ID syncs (by passing `gdpr = 1` and the consent string as `gdpr_consent` on ID sync calls).</li><li>Avalia e respeita o consentimento passado dos pixels do servidor de publicidade.</li><li>Respeita sincronizações de ID iniciadas pelo parceiro.</li></ul> | <ul><li>Não armazena dados novos do usuário na sua instância, inclusive IDs de parceiros, sinais, características ou dados de pixel.</li><li>Não inicia sincronizações de ID de terceiros.</li><li>Não respeita sincronizações de ID iniciadas pelo parceiro.</li><li>Opt out o usuário de mais coleta de dados.</li></ul> |
 
 ## Caso de uso do editor {#publisher-use-case}
 
-Ao implementar o Plug-in de Audience Manager para IAB TCF, você não é obrigado a manter o código personalizado para gerenciamento de consentimento em suas propriedades da Web por meio de um mecanismo diferente com a Adobe ou outros fornecedores de terceiros. O caso de uso é descrito na imagem e nas etapas abaixo. Início à esquerda da imagem:
+Ao implementar o Plug-in de Audience Manager para IAB TCF, você não é obrigado a manter o código personalizado para gerenciamento de consentimento em suas propriedades da Web por meio de um mecanismo diferente com o Adobe ou outros fornecedores de terceiros. O caso de uso é descrito na imagem e nas etapas abaixo. Início à esquerda da imagem:
 
 1. Um usuário visita uma de suas propriedades da Web. Desde que você esteja usando as versões mais recentes da ECID e bibliotecas DIL (consulte [Pré-requisitos](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#prerequisites)), o fluxo de aceitação é acionado.
 2. O Audience Manager verifica se o fluxo do IAB se aplica (`isIabContext=true`). Consulte [Recomendações e como implementar](aam-iab-plugin.md#recommendations).
@@ -148,7 +148,7 @@ Ao implementar o Plug-in de Audience Manager para IAB TCF, você não é obrigad
 
 O Audience Manager avalia e respeita o consentimento transmitido em [chamadas de pixel](../../integration/sending-audience-data/real-time-data-integration/pixel-based-data-transfer.md), de acordo com a TCF do IAB.
 
-Os pixels podem ser colocados por clientes Audience Manager em suas páginas de parceiros ou em servidores de anúncios para inclusão na resposta do anúncio. No primeiro caso, o parceiro deve recuperar programaticamente o parâmetro de consentimento e adicioná-lo ao pixel antes de disparar. No segundo caso, que é mais comum e é descrito detalhadamente abaixo, os servidores de anúncios anexam os parâmetros de consentimento que recebem da Plataforma do lado do suprimento (SSP) ou dos servidores de anúncios do editor a todos os pixels.
+Os pixels podem ser colocados pelos clientes do Audience Manager em suas páginas de parceiros ou são colocados nos servidores de anúncios para inclusão na resposta do anúncio. No primeiro caso, o parceiro deve recuperar programaticamente o parâmetro de consentimento e adicioná-lo ao pixel antes de disparar. No segundo caso, que é mais comum e é descrito detalhadamente abaixo, os servidores de anúncios anexam os parâmetros de consentimento que recebem da Plataforma do lado do suprimento (SSP) ou dos servidores de anúncios do editor a todos os pixels.
 
 O Audience Manager usa dois parâmetros para transmitir o consentimento do usuário em chamadas de pixel:
 
