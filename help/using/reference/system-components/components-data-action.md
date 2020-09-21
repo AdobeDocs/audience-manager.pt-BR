@@ -7,7 +7,7 @@ title: Componentes de ação de dados
 uuid: c4c4cc46-8c96-4ef5-8269-571cc5ac9276
 feature: system components
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 3%
@@ -82,7 +82,7 @@ Para otimizar o tráfego entre destinos [!UICONTROL IRIS] e segmentos, [!UICONTR
 
 O exemplo a seguir contém dados de segmento em tempo real de [!UICONTROL IRIS]. Lembre-se de que esses dados são apenas de amostra. Cada cliente pode ter diferentes requisitos de formatação para que o conteúdo possa variar.
 
-```
+```json
 {
     "ProcessTime": "Tue Jul 21 19:12:45 UTC 2015",
     "Client_ID": "111111",
@@ -148,6 +148,6 @@ O exemplo a seguir contém dados de segmento em tempo real de [!UICONTROL IRIS].
 }
 ```
 
-## Servidor de cache de Perfil (PCS) {#pcs}
+## Servidor de cache de perfil (PCS) {#pcs}
 
 Consulte [Componentes da coleta de dados](../../reference/system-components/components-data-collection.md).
