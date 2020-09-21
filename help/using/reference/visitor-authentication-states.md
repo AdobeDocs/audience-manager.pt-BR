@@ -8,9 +8,9 @@ title: Estados de autenticação de visitante no Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 feature: reference
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '440'
 ht-degree: 5%
 
 ---
@@ -24,25 +24,10 @@ A partir do serviço [!DNL Experience Cloud] de ID v1.5+, o `setCustomerID` mét
 
 ## Status da autenticação: DESCONHECIDO {#auth-status-unknown}
 
-<table id="table_E1EA51533FAE4BBFB338D6F6116BC1F9"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Valor da solicitação </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>Leia</b> informações do perfil autenticado </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>Gravar</b> novas características no perfil autenticado </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1" morerows="1"> <p> <code> 0 </code> </p> </td> 
-   <td colname="col2"> <p>Sim, se a Regra de mesclagem de opções autenticadas = "Últimos Perfis autenticados". </p> </td> 
-   <td colname="col3" morerows="1"> <p>Não, os dados de características são adicionados ao perfil do dispositivo. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>Não, se a Regra de mesclagem de opções autenticadas = "Perfis autenticados atuais" ou "Nenhum Perfil autenticado". </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Valor da solicitação | **Leia** informações do perfil autenticado | **Gravar** novas características no perfil autenticado |
+---------|----------|---------
+| 0 | <ul><li>Sim, se a Regra de mesclagem de opções autenticadas = &quot;Últimos Perfis autenticados&quot;.</li><li>Não, se a Regra de mesclagem de opções autenticadas = &quot;Perfis autenticados atuais&quot; ou &quot;Nenhum Perfil autenticado&quot;.</li></ul> | Não, os dados de características são adicionados ao perfil do dispositivo. |
+
 
 Chamada de amostra (o valor da solicitação correspondente ao status de autenticação é destacado):
 
@@ -50,25 +35,9 @@ Chamada de amostra (o valor da solicitação correspondente ao status de autenti
 
 ## Status da autenticação: AUTENTICADO {#auth-status-authenticated}
 
-<table id="table_956ABF96024744308F7773E1F96482B7"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Valor da solicitação </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>Leia</b> informações do perfil autenticado </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>Gravar</b> novas características no perfil autenticado </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1" morerows="1"> <p> <code> 1 </code> </p> </td> 
-   <td colname="col2"> <p>Sim, se a regra de mesclagem de opções autenticadas = "Perfis autenticados atuais" ou "Perfis autenticados pela última vez". </p> </td> 
-   <td colname="col3" morerows="1"> <p>Sim, os dados de características são adicionados ao perfil autenticado. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>Não, se a Regra de mesclagem de opções autenticadas = "Nenhum Perfil autenticado". </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Valor da solicitação | **Leia** informações do perfil autenticado | **Gravar** novas características no perfil autenticado |
+---------|----------|---------
+| 1 | <ul><li>Sim, se a regra de mesclagem de opções autenticadas = &quot;Perfis autenticados atuais&quot; ou &quot;Perfis autenticados pela última vez&quot;.</li><li>Não, se a Regra de mesclagem de opções autenticadas = &quot;Nenhum Perfil autenticado&quot;.</li></ul> | Sim, os dados de características são adicionados ao perfil autenticado. |
 
 Chamada de amostra (o valor da solicitação correspondente ao status de autenticação é destacado):
 
@@ -76,25 +45,9 @@ Chamada de amostra (o valor da solicitação correspondente ao status de autenti
 
 ## Status da autenticação: LOGGED_OUT {#auth-status-logged-out}
 
-<table id="table_783F0CBB0431482AA49F41468FA65B19"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Valor da solicitação </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>Leia</b> informações do perfil autenticado </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>Gravar</b> novas características no perfil autenticado </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1" morerows="1"> <p> <code> 2 </code> </p> </td> 
-   <td colname="col2"> Sim, se a Regra de mesclagem de opções autenticadas = "Últimos Perfis autenticados" </td> 
-   <td colname="col3" morerows="1"> <p>Não, os dados de características são gravados no perfil do dispositivo. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> Não, se a Regra de mesclagem de opções autenticadas = "Perfis autenticados atuais" ou "Nenhum Perfil autenticado" </td> 
-  </tr> 
- </tbody> 
-</table>
+| Valor da solicitação | **Leia** informações do perfil autenticado | **Gravar** novas características no perfil autenticado |
+---------|----------|---------
+| 2 | <ul><li>Sim, se a Regra de mesclagem de opções autenticadas = &quot;Últimos Perfis autenticados&quot;</li><li>Não, se a Regra de mesclagem de opções autenticadas = &quot;Perfis autenticados atuais&quot; ou &quot;Nenhum Perfil autenticado&quot;</li></ul> | Não, os dados de características são gravados no perfil do dispositivo. |
 
 Chamada de amostra (o valor da solicitação correspondente ao status de autenticação é destacado):
 
