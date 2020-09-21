@@ -7,7 +7,7 @@ title: Dicas de solução de problemas para ferramentas de gerenciamento em mass
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
 feature: baaam
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 5%
@@ -78,5 +78,5 @@ A tabela a seguir lista alguns problemas comuns que você pode encontrar ao faze
 
 ## Mensagens de erro
 
-Às vezes, você pode receber mensagens de erro ao fazer alterações em massa. Para interpretar a mensagem de erro, consulte Códigos de [resposta definidos](/help/using/api/rest-api-main/aam-api-getting-started.md) na documentação da API.
+Às vezes, você pode receber mensagens de erro ao fazer alterações em massa. Para interpretar a mensagem de erro, consulte Códigos de [resposta definidos](/help/using/api/rest-api-main/aam-api-getting-started.md#response-codes-defined) na documentação da API.
 
