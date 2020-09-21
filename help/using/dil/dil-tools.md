@@ -7,7 +7,7 @@ title: Ferramentas da DIL
 uuid: 2bc62ce2-16bd-4e80-b493-c816ba643b59
 feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 5%
@@ -37,7 +37,7 @@ r_dil_get_search_referrer.xml
 
 ### Finalidade da `getSearchReferrer`
 
-Na DIL, `getSearchReferrer` retorna os resultados da pesquisa (nomes e palavras-chave) usados para acessar seu site. Você pode passar termos de pesquisa específicos para essa função ou permitir que ela pesquise os mecanismos de pesquisa suportados ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google]e [!DNL Yahoo]) `document.referrer` por padrão.
+No DIL, `getSearchReferrer` retorna os resultados da pesquisa (nomes e palavras-chave) usados para acessar seu site. Você pode passar termos de pesquisa específicos para essa função ou permitir que ela pesquise os mecanismos de pesquisa suportados ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google]e [!DNL Yahoo]) `document.referrer` por padrão.
 
 ### Assinatura da função
 
@@ -174,20 +174,20 @@ Assinatura da função: `DIL.tools.getMetaTags( 1 or more parameters)`
 
 ### Código de exemplo
 
-<pre class="&ldquo;javascript&rdquo;"><code>
+```js
 var dataLib = DIL.create({ 
-     partner: '<i>partnerName'</i>, 
-     containerNSID: <i>containerNSID</i> 
+     partner: 'partnerName', 
+     containerNSID: containerNSID 
 }); 
 
-dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>', '<i>keywords</i>',  '<i>description</i>'), 'c_').submit();
+dataLib.api.signals(DIL.tools.getMetaTags('application', 'keywords',  'description'), 'c_').submit();
 </code></pre>
 
 <pre><code>
 var dataLib = DIL.create({ 
-     partner: <i>`partnerName'</i>, 
-     containerNSID: <i>containerNSID</i> 
+     partner: `partnerName', 
+     containerNSID: containerNSID 
 }); 
 
-dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>','<i>keywords</i>', '<i>description</i>'), 'c_').submit();
-</code></pre>
+dataLib.api.signals(DIL.tools.getMetaTags('application','keywords', 'description'), 'c_').submit();
+```
