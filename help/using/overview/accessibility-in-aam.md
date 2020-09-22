@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Acessibilidade no Audience Manager
 feature: overview
 translation-type: tm+mt
-source-git-commit: 032e01f2483543271680093ae3286bcf3b3b3740
+source-git-commit: 20ec64ba3c934d60f8758777e226344c8586efa3
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Para facilitar o uso [!DNL Audience Manager] para todos, desenvolvemos suporte p
 
    ![destaque de acessibilidade](assets/accesibility-highlight.png)
 
-* As teclas `Return` e `Space` ativam o item selecionado.
+* As teclas `Return` (`Enter`) e `Space` ativam o item selecionado.
 
 ## Classificação de tabela acessível {#table-sorting}
 
@@ -62,6 +62,4 @@ Por exemplo, telas de carregamento incluem uma roleta de carregamento dentro de 
 
 [!DNL Audience Manager] esforça-se para oferecer um grau cada vez maior de acessibilidade, facilitando o uso do produto para todos.
 
-Para saber mais sobre nossas melhorias de acessibilidade e status de conformidade, consulte o Relatório de conformidade de acessibilidade.
-
-Além disso, recomendamos que você use o Formulário [de feedback sobre acessibilidade do](https://www.adobe.com/accessibility/feedback.html) Adobe para enviar sugestões de aprimoramento e problemas de acessibilidade que você pode encontrar. Ficaremos mais do que felizes em levar seus comentários em conta e melhorar [!DNL Audience Manager].
+Recomendamos que você use o Formulário [de Comentários sobre acessibilidade do](https://www.adobe.com/accessibility/feedback.html) Adobe para enviar sugestões de aprimoramento e problemas de acessibilidade que você pode encontrar. Ficaremos mais do que felizes em levar seus comentários em conta e melhorar [!DNL Audience Manager].
