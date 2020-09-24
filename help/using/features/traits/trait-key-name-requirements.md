@@ -7,9 +7,9 @@ title: Requisitos de nome para variáveis-chave
 uuid: fa72e732-895d-4cf6-bea0-66b404c2b059
 feature: Traits
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 4bf32099e964c421d943d9925c74dd0d4d6ee576
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '125'
 ht-degree: 12%
 
 ---
@@ -29,6 +29,6 @@ Em [!UICONTROL Expression Builder], o nome de uma variável principal em um par 
 
 * Nomes de chave inválidos: `123`, `price!123`.
 
-## Prefixando variáveis principais com `c_`
+## Prefixando variáveis principais com c_
 
 O `c_` prefixo é *sempre* necessário se os parâmetros que enviam dados em um URL de chamada de evento usarem essa sintaxe.
