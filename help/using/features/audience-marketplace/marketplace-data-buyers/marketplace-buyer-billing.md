@@ -8,7 +8,7 @@ keywords: Segment-level Reporting, segment-level, segment level
 uuid: d7236667-282b-4160-9909-579721af4016
 feature: Audience Marketplace
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: dac08e9a31cb80b048013d95b7a617e4fb68e2fe
 workflow-type: tm+mt
 source-wordcount: '2027'
 ht-degree: 1%
@@ -30,8 +30,8 @@ Os compradores de dados do Audience Marketplace concordam em relatar todas as im
 
 [!UICONTROL Audience Marketplace] oferta duas maneiras de relatar o uso [!DNL CPM] :
 
-* **relatórios** no nível do segmento: este é o método de relatórios de [!DNL CPM] uso recomendado. Quando você relata o [!DNL CPM] uso no nível do segmento, a seção de relatórios no nível do feed de dados é preenchida automaticamente com as quantias de uso correspondentes, com base nos algoritmos descritos em Atribuição [de custo para feeds](#cost-attribution)de dados do CPM.
-* **relatórios** no nível do feed de dados: esse método exige que você reporte individualmente o [!DNL CPM] uso de cada feed de dados, com base nos algoritmos descritos em Atribuição [de custo para feeds](#cost-attribution)de dados CPM. No entanto, esse método é mais tedioso e propenso a erros do que o relatórios no nível do segmento.
+* **Relatórios** no nível do segmento: este é o método de relatórios de [!DNL CPM] uso recomendado. Quando você relata o [!DNL CPM] uso no nível do segmento, a seção de relatórios no nível do feed de dados é preenchida automaticamente com as quantias de uso correspondentes, com base nos algoritmos descritos em Atribuição [de custo para feeds](#cost-attribution)de dados do CPM.
+* **Relatórios** no nível do feed de dados: esse método exige que você reporte individualmente o [!DNL CPM] uso de cada feed de dados, com base nos algoritmos descritos em Atribuição [de custo para feeds](#cost-attribution)de dados CPM. No entanto, esse método é mais tedioso e propenso a erros do que o relatórios no nível do segmento.
 
 <br> 
 
@@ -104,7 +104,7 @@ Para atualizar [!DNL CPM] o uso em massa:
 | ------------- | -------------| -----|
 | Entrada inválida | [!DNL Audience Manager] detectou uma alteração no schema de [!DNL CSV] arquivo, como colunas ausentes ou alterações nos títulos das colunas. | Evite alterar a estrutura da tabela. |
 | Não encontrada | Para [!UICONTROL Segment Level Reporting], não [!DNL Audience Manager] foi possível identificar a combinação [!UICONTROL Segment ID] e [!UICONTROL Destination ID] . Por [!UICONTROL Feed Level Reporting]exemplo, [!DNL Audience Manager] não foi possível identificar a combinação [!UICONTROL Data Provider Name], [!UICONTROL Feed Name]e [!UICONTROL Use Case] . | Para [!UICONTROL Segment Level Reporting], verifique a validade da combinação [!UICONTROL Segment ID] e [!UICONTROL Destination ID] . Para [!UICONTROL Feed Level Reporting], verifique a validade da combinação [!UICONTROL Data Provider Name], [!UICONTROL Feed Name]e [!UICONTROL Use Case] . |
-| Registros de Duplicado encontrados | [!DNL Audience Manager] foram detectados registros de duplicados com valores de impressão diferentes. | Revise o relatório e certifique-se de não relatar valores de uso diferentes para o mesmo feed de dados ou segmento. |
+| Registros de duplicado encontrados | [!DNL Audience Manager] foram detectados registros de duplicados com valores de impressão diferentes. | Revise o relatório e certifique-se de não relatar valores de uso diferentes para o mesmo feed de dados ou segmento. |
 | Valores não suportados | [!DNL Audience Manager] foram detectados valores não numéricos na [!DNL Audience Manager] coluna. | Revise o relatório e certifique-se de inserir apenas valores numéricos na [!DNL Audience Manager] coluna. |
 | Cabeçalhos para campos obrigatórios ausentes | [!DNL Audience Manager] foram detectados cabeçalhos de tabela ausentes para campos obrigatórios. Para [!UICONTROL Segment Level Reporting], os campos obrigatórios são: [!UICONTROL Segment ID], [!UICONTROL Destination ID]. Para [!UICONTROL Feed Level Reporting], os campos obrigatórios são: [!UICONTROL Data Provider Name], [!UICONTROL Data Feed Name],  [!UICONTROL Use Case] | Revise o relatório e verifique se os cabeçalhos da tabela não foram adulterados. |
 
@@ -113,7 +113,7 @@ Para atualizar [!DNL CPM] o uso em massa:
 
 <br> 
 
-## [!DNL CPM] Práticas recomendadas para o Relatórios
+## [!DNL CPM] Práticas recomendadas para o relatórios
 
 <table id="table_E68FA2130D1C495FAB8982DFB6A31FD9"> 
  <thead> 
@@ -126,11 +126,11 @@ Para atualizar [!DNL CPM] o uso em massa:
   <tr> 
    <td colname="col1"> <p><b>Sempre reportar o número total de impressões</b> </p> </td> 
    <td colname="col2"> <p>Para totais de impressões do CPM: </p>
-   <p> Relate o número total de impressões, sem usar decimais. O Audience Manager calcula automaticamente o CPM com base no número total de relatórios.</p><p>Se precisar reportar 1.234.567 impressões, reportar exatamente assim. Não é necessário dividir o número total de impressões por 1.000 para calcular o CPM.</p><p>As características usadas para otimizar o conteúdo da Web ou do aplicativo (Otimização de conteúdo) usando ferramentas como o Adobe Target ou um destino Analytics não contribuem para os totais de uso dos planos CPM. Geralmente, os provedores de dados são compensados pela Otimização de conteúdo usando planos de taxas fixas.</p><p>Consulte Atribuição <a href="#cost-attribution">de custo para feeds</a> de dados CPM para obter mais informações. </p> </td>
+   <p> Relate o número total de impressões, sem usar decimais. O Audience Manager calcula automaticamente o CPM com base no número total de relatórios.</p><p>Se precisar reportar 1.234.567 impressões, reportar exatamente assim. Não é necessário dividir o número total de impressões por 1.000 para calcular o CPM.</p><p>As características usadas para otimizar o conteúdo da Web ou do aplicativo (Otimização de conteúdo) usando ferramentas como o Adobe Target ou um destino do Analytics não contribuem para os totais de uso dos planos do CPM. Geralmente, os provedores de dados são compensados pela Otimização de conteúdo usando planos de taxas fixas.</p><p>Consulte Atribuição <a href="#cost-attribution">de custo para feeds</a> de dados CPM para obter mais informações. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><b>Manter o intervalo de relatórios mensal</b> </p> </td> 
-   <td colname="col2"> <p>O sistema de relatórios fecha após o dia 5 de cada mês. Se você não reportar o uso do CPM até essa data, deverá adicionar esse valor ao relatório do mês seguinte. Por exemplo, digamos que você use 1000 impressões em outubro, perca o prazo limite do relatórios de outubro e use 1000 impressões em novembro. Nesse caso, você relata o total de outubro e novembro (2000) em dezembro, entre o 1º e o 5º.</p><p><b>Dica</b>: Você deve sempre tentar relatar o uso do CPM do mês anterior entre o primeiro e o quinto dias do mês seguinte.</p><p>Você pode relatar o uso do CPM até o dia 5 do novo mês, mas isso não é recomendado. O uso do CPM do Relatórios antes do dia 5 de cada mês dá ao Audience Manager tempo para verificar e processar os dados.</p> </td>
+   <td colname="col2"> <p>O sistema de relatórios fecha após o dia 5 de cada mês. Se você não reportar o uso do CPM até essa data, deverá adicionar esse valor ao relatório do mês seguinte. Por exemplo, digamos que você use 1000 impressões em outubro, perca o prazo limite do relatórios de outubro e use 1000 impressões em novembro. Nesse caso, você relata o total de outubro e novembro (2000) em dezembro, entre o 1º e o 5º.</p><p><b>Dica</b>: Você deve sempre tentar relatar o uso do CPM do mês anterior entre o primeiro e o quinto dias do mês seguinte.</p><p>Você pode relatar o uso do CPM até o dia 5 do novo mês, mas isso não é recomendado. O uso do CPM do relatórios antes do dia 5 de cada mês dá ao Audience Manager tempo para verificar e processar os dados.</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -170,7 +170,8 @@ O caso de [!UICONTROL Activation] uso permite usar características no feed de d
 Ao [Relatar o uso do CPM no nível](#feed-level-report)do feed de dados, você deve alocar impressões proporcionalmente para cada feed de dados, de acordo com os [!DNL Boolean] operadores usados nas regras de qualificação de características. A tabela a seguir lista como alocar as impressões corretamente por regra Booleana ou tipo de característica.
 
 >[!TIP]
->[Reportar o uso do CPM no nível](#segment-level-report) do segmento para que o relatórios no nível do feed de dados seja feito automaticamente pelo Audience Manager.
+>
+> [Reportar o uso do CPM no nível](#segment-level-report) do segmento para que o relatórios no nível do feed de dados seja feito automaticamente pelo Audience Manager.
 
 <table id="table_BF00FE6740D2459DAFA62F2478492586"> 
  <thead> 
@@ -267,6 +268,6 @@ O detalhamento instantâneo por feed de dados e caso de uso é o seguinte:
 
 ## Alocação de Faturamento e Impressão para Feeds de Dados de Taxa Simples {#billing-flat-fee}
 
-Um feed de dados de taxa fixa cobra uma quantia fixa a cada mês, independentemente de quando os start da subscrição ou quantas impressões você usa. As taxas não são rateadas para uso parcial de mês ou intervalos. Assim como com o faturamento do CPM, a Adobe gerará uma fatura e cobrará uma taxa mensal e fixa para seus feeds de dados inscritos.
+Um feed de dados de taxa fixa cobra uma quantia fixa a cada mês, independentemente de quando os start da subscrição ou quantas impressões você usa. As taxas não são rateadas para uso parcial de mês ou intervalos. Assim como com o faturamento do CPM, o Adobe gerará uma fatura e cobrará uma taxa mensal de taxa fixa para os feeds de dados inscritos.
 
 Por exemplo, digamos que você decidiu ativar certas características em um feed no meio do mês. Você ainda será cobrado na taxa mensal completa, independentemente de quando tiver iniciado a subscrição ou ativado características específicas.
