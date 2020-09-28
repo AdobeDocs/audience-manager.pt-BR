@@ -1,12 +1,12 @@
 ---
-description: A acessibilidade se refere a uma série de recursos que tornam um produto de software utilizável, com o mínimo de esforço possível de usuários com várias deficiências, como visual, auditivo, cognitivo, motor ou outro tipo.
-seo-description: A acessibilidade se refere a uma série de recursos que tornam um produto de software utilizável, com o mínimo de esforço possível de usuários com várias deficiências, como visual, auditivo, cognitivo, motor ou outro tipo.
+description: Acessibilidade refere-se a uma série de recursos que tornam um produto de software utilizável, com o menor esforço possível de usuários com várias deficiências, como visual, auditivo, cognitivo, motor ou outro tipo.
+seo-description: Acessibilidade refere-se a uma série de recursos que tornam um produto de software utilizável, com o menor esforço possível de usuários com várias deficiências, como visual, auditivo, cognitivo, motor ou outro tipo.
 seo-title: Acessibilidade no Audience Manager
 solution: Audience Manager
 title: Acessibilidade no Audience Manager
 feature: overview
 translation-type: tm+mt
-source-git-commit: 20ec64ba3c934d60f8758777e226344c8586efa3
+source-git-commit: 2dc015ccf358724f0caa45265fab962821569d1e
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## Visão geral {#overview}
 
-A acessibilidade se refere a uma série de recursos que tornam um produto de software utilizável, com o mínimo de esforço possível de usuários com várias deficiências, como visual, auditivo, cognitivo, motor ou outro tipo.
+Acessibilidade refere-se a uma série de recursos que tornam um produto de software utilizável, com o menor esforço possível de usuários com várias deficiências, como visual, auditivo, cognitivo, motor ou outro tipo.
 
 A Adobe é líder do setor em acessibilidade e suporta a criação de experiências excelentes na Web, incentivando os desenvolvedores a produzir conteúdo rico e envolvente, acessível a todos os usuários. Para obter mais detalhes sobre compromisso de Adobe com acessibilidade, consulte [Acessibilidade](https://www.adobe.com/accessibility.html)ao Adobe.
 
