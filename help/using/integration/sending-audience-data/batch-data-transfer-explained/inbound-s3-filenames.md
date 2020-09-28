@@ -7,9 +7,9 @@ title: Requisitos de nome e tamanho de arquivo do Amazon S3 para arquivos de dad
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: adab01a81c0002d28c2387a20d8ae284e11a5e41
+source-git-commit: e8eb1c1c7a235c0c9dd32182e522ad0b6e965c61
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '901'
 ht-degree: 7%
 
 ---
@@ -63,14 +63,13 @@ A tabela define os elementos em um nome de [!DNL S3] arquivo.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
-   <td colname="col2"> <p>A ID <span class="term"> do provedor de</span> dados (DPID) é um identificador que informa a <span class="keyword"> Audience Manager</span> se um arquivo de dados contém suas próprias IDs de usuário ou IDs do Android ou iOS. Aceita as seguintes opções: </p> <p> <b>ID do parceiro de dados</b> </p> <p>Esta é uma Audience Manager de ID exclusiva atribuída à sua empresa ou organização. Use essa ID atribuída em um nome de arquivo ao enviar dados que contenham suas próprias IDs de usuário. Por exemplo, <code>...ftp_dpm_21_123456789.sync</code> informa à <span class="keyword"> Audience Manager</span> que um parceiro com ID 21 enviou o arquivo e ele contém IDs de usuário atribuídas por esse parceiro. </p> <p> <b>IDs do Android (GAID)</b> </p> <p> Use a ID 20914 como DPID em um nome de arquivo de dados se o arquivo contiver IDs do Android. Ao usar a ID 20914 como DPID, ainda é necessário identificar sua empresa para a <span class="keyword"> Audience Manager</span>. Isso significa que o nome do arquivo deve usar o <code><i>_DPID_TARGET_DATA_OWNER</i></code> parâmetro para manter sua ID de empresa. Por exemplo, digamos que você esteja transmitindo arquivos com IDs do Android e sua ID do provedor de dados seja 21. Nesse caso, o nome do arquivo seria semelhante <code>...ftp_dpm_20914_21_123456789.sync</code>. Isso informa que o arquivo <span class="keyword"> Audience Manager</span> contém IDs do Android e é de um parceiro identificado pela ID 21. </p> <p> <b>IDs do iOS (IDFA)</b> </p> <p> Use a ID 20915 como DPID em um nome de arquivo de dados se o arquivo contiver IDs do iOS. Ao usar a ID 20915 como DPID, ainda é necessário identificar sua empresa para a <span class="keyword"> Audience Manager</span>. Isso significa que o nome do arquivo deve usar o <code><i>_DPID_TARGET_DATA_OWNER</i></code> parâmetro para manter sua ID de empresa. Por exemplo, digamos que você esteja transmitindo arquivos com IDs do Android e sua ID do provedor de dados seja 21. Nesse caso, o nome do arquivo seria semelhante <code>...ftp_dpm_20915_21_123456789.sync</code>. Isso indica que o arquivo <span class="keyword"> Audience Manager</span> contém IDs do iOS e é de um parceiro identificado pela ID 21. </p> 
-    <!-- 
-     <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
-      <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>Data Partner ID:</b> This is a unique ID Audience Manager assigns to your company or organization. Use this assigned ID in a file name when sending in data that contains your own user IDs. For example, <code>...ftp_dpm_21_123456789.sync</code> tells <span class="keyword"> Audience Manager</span> that a partner with ID 21 sent the file and it contains user IDs assigned by that partner. </li> 
-      <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android IDs (GAID):</b> Use ID 20914 in a data file name if it contains Android ID. For example, <code>...ftp_dpm_20914_21_123456789.sync</code> tells <span class="keyword"> Audience Manager</span> that the data file contains Android IDs only. Note, the ID 21 </li> 
-      <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS IDs (IDFA):</b> Use ID 20915 in a data file name if it contains iOS IDs. For example, <code>...ftp_dpm_20915_123456789.sync</code> tells <span class="keyword"> Audience Manager</span> that the data file contains iOS IDs only. </li> 
-     </ul> 
-    --> <p> <p>Observação:  Não misture tipos de ID em seus arquivos de dados. Por exemplo, se o nome do arquivo incluir o identificador do Android, não coloque IDs do iOS ou suas próprias IDs no arquivo de dados. </p> </p><p>Consulte <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">Fontes de dados globais</a> para obter mais detalhes.</p> <p>Consulte também a <code><i>_DPID_TARGET_DATA_OWNER</i></code> entrada abaixo. </p> </td> 
+   <td colname="col2"> <p>Um lD que informa <span class="keyword"> Audience Manager</span> se um arquivo de dados contém suas próprias IDs de usuário, IDs do Android, IDs do iOS ou outras IDs pertencentes a fontes <a href="/help/using/features/global-data-sources.md"> de dados</a>globais. Aceita as seguintes opções:</p> 
+    <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
+     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>ID da fonte de dados (também conhecida como ID do provedor de dados):</b> Essa é uma ID exclusiva que o Audience Manager atribui a uma fonte de dados (consulte o índice de Audience Manager <a href="/help/using/reference/ids-in-aam.md"> das IDs </a>). Use essa ID atribuída em um nome de arquivo ao enviar dados que contenham suas próprias IDs de usuário. Por exemplo, <code>...ftp_dpm_21_123456789.sync</code> informa ao <span class="keyword"> Audience Manager</span> para os dados integrados às IDs pertencentes à fonte de dados 21. </li> 
+     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>IDs do Android (GAID):</b> Use a ID 20914 em um nome de arquivo de dados se ela contiver IDs do Android. Por exemplo, <code>...ftp_dpm_20914_123456789.sync</code> informa ao <span class="keyword"> Audience Manager</span> que o arquivo de dados contém somente IDs do Android. </li> 
+     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>IDs do iOS (IDFA):</b> Use a ID 20915 em um nome de arquivo de dados se ela contiver IDs do iOS. Por exemplo, <code>...ftp_dpm_20915_123456789.sync</code> informa ao <span class="keyword"> Audience Manager</span> que o arquivo de dados contém somente IDs do iOS. </li>
+     <li> <b>IDs pertencentes a outras fontes</b>de dados globais: Você pode inserir IDs Roku para publicidade (RIDA), IDs de publicidade da Microsoft (MAID) e outras IDs. Use a ID correspondente a cada fonte de dados, conforme descrito no artigo <a href="/help/using/features/global-data-sources.md"></a>de fontes de dados globais.</li> 
+    </ul> <p> <p>Observação:  Não misture tipos de ID em seus arquivos de dados. Por exemplo, se o nome do arquivo incluir o identificador do Android, não coloque IDs do iOS ou suas próprias IDs no arquivo de dados. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
