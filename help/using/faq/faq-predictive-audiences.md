@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Públicos preditivos do Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 04c638289878ff79070487d7d8cbb5c9454d93d6
+source-git-commit: 8e43da4c8b890fc5f8468f3779918dbfbbf960b8
 workflow-type: tm+mt
-source-wordcount: '1023'
-ht-degree: 66%
+source-wordcount: '933'
+ht-degree: 62%
 
 ---
 
@@ -46,14 +46,6 @@ Vá até **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]** e clique na 
 
  
 
-**Por que alguns dos meus visitantes integrados não são classificados?**
-
-Atualmente, a classificação de público-alvo funciona apenas para qualificações em tempo real, exceto para usuários autenticados que foram definidos como parte das [!UICONTROL Profile Merge Rules].
-
-O suporte total para dados integrados será adicionado em uma atualização futura.
-
- 
-
 **Quando posso ver os primeiros resultados produzidos pelo meu modelo?**
 
 Os resultados do modelo de [!UICONTROL Predictive Audiences] estão disponíveis em 24 horas após a criação bem-sucedida do modelo.
@@ -68,12 +60,10 @@ Os modelos de [!UICONTROL Predictive Audiences] podem deixar de produzir resulta
 
 1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough user profiles. We recommend choosing your [!UICONTROL traits] or [!UICONTROL segments] so that each persona has at least a few hundred user profiles.
 1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough data in their user profiles (not enough traits to analyze).
-1. A característica/segmento do público-alvo não tinha nenhum usuário ativo ou integrado nos últimos 30 dias.
+1. A característica/segmento da audiência do público alvo não tem nenhum usuário ativo ou integrado.
 1. Os usuários do público-alvo que estavam ativos ou integrados nos últimos 30 dias não têm dados suficientes nos perfis do usuário (não há características suficientes para analisar).
 1. O segmento de audiência do público alvo usa um segmento diferente [!UICONTROL Profile Merge Rule] daquele escolhido para o modelo.
 1. A fonte de dados de suas características de audiência do público alvo pode não estar incluída na fonte de dados [!UICONTROL Profile Merge Rule] escolhida para o modelo.
-
-Para produzir resultados relevantes, o algoritmo [!UICONTROL Predictive Audiences] avalia as realizações de características e segmentos com base na atividade do usuário em tempo real visualizada pelo [!DNL DCS]. Se você selecionar novas características e segmentos básicos que ainda não têm usuários suficientes, o algoritmo pode levar alguns dias para classificar o público-alvo.
 
 Para obter os melhores resultados, siga as diretrizes sugeridas em [Critérios de seleção para personas](../features/algorithmic-models/predictive-audiences.md#selection-personas) e [Critérios de seleção para público-alvo](../features/algorithmic-models/predictive-audiences.md#selection-audience).
 
