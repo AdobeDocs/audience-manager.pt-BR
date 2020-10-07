@@ -7,7 +7,7 @@ title: Compartilhamento de públicos entre o Audience Manager e a Adobe Experien
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: b3ff5ca68022cc30632d6b647ffde507533b5ddf
+source-git-commit: 74f23fbe753b8efc70b89ccace4a4d2c30067ccc
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 3%
@@ -40,7 +40,7 @@ Consulte a tabela abaixo para obter uma visão geral dos casos de uso de compart
 
 | **Caso de uso** | **Adobe Experience Platform** | **Audience Manager** | **Principais serviços** |
 ---------|----------|---------|---------
-| **Compartilhamento de Audiências** | <ul><li>Enriqueça os perfis dos clientes com dados Audience Manager</li><li>Usar dados de Audience Manager na segmentação de Experience Platform</li></ul> | <ul><li>Adicionar dados de terceiros a segmentos</li><li>Modelagem algoritmica</li><li>Ativação para destinos adicionais</li></ul> | Use segmentos Experience Platform em outras soluções de Experience Cloud, como o Adobe Target ou o Analytics. |
+| **Compartilhamento de audiências** | <ul><li>Enriqueça os perfis dos clientes com os dados do Audience Manager</li><li>Usar dados de Audience Manager na segmentação de Experience Platform</li></ul> | <ul><li>Adicionar dados de terceiros a segmentos</li><li>Modelagem algoritmica</li><li>Ativação para destinos adicionais</li></ul> | Use segmentos Experience Platform em outras soluções de Experience Cloud, como o Adobe Target ou o Analytics. |
 
 <br> 
 
@@ -117,7 +117,8 @@ No processo de compartilhamento de audiência entre Audience Manager e Experienc
 >[!NOTE]
 >
 >Para obter informações mais gerais sobre Controles de exportação de dados, consulte a documentação [Controles de exportação de](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html)dados.
-Este documento fornece uma referência para como os controles de exportação de dados do Audience Manager específicos mapeiam para rótulos de uso de dados e ações de marketing na Plataforma.
+>
+>Este documento fornece uma referência para como os controles de exportação de dados do Audience Manager específicos mapeiam para rótulos de uso de dados e ações de marketing na Plataforma.
 
 ### Controles de exportação de dados para rótulos de uso de dados
 
@@ -147,7 +148,7 @@ Os números de preenchimento do segmento podem variar entre seus segmentos de Au
 
 ### Avaliação de segmentos no Experience Platform
 
-O Audience Manager atualiza os números de relatórios na interface uma vez por dia.   O tempo dessa atualização raramente se alinha com o tempo da avaliação de segmentos no Experience Platform.
+O Audience Manager atualiza os números de relatórios na interface uma vez por dia.   O tempo desta atualização raramente se alinha com o tempo da avaliação de segmentos no Experience Platform.
 
 ### Diferenças entre Regras de mesclagem de Perfis e Políticas de mesclagem
 
