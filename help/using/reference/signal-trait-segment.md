@@ -1,5 +1,5 @@
 ---
-description: Entenda os componentes de um segmento de Audience Manager, as expressões usadas para definir critérios de qualificação de audiência e como os dados são transmitidos em uma chamada de evento.
+description: Entenda os componentes de um segmento do Audience Manager, as expressões usadas para definir critérios de qualificação de público e como os dados são transmitidos em uma chamada de evento.
 seo-description: Descreve os componentes de um segmento de Audience Manager, as expressões usadas para definir critérios de qualificação de audiência e como os dados são transmitidos em uma chamada de evento.
 seo-title: Sinais, características e segmentos
 solution: Audience Manager
@@ -10,14 +10,14 @@ translation-type: tm+mt
 source-git-commit: 8027f278aa2b879b6cb277f44caf4b62dc75e2c3
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 4%
+ht-degree: 10%
 
 ---
 
 
 # [!UICONTROL Signals], [!UICONTROL Traits]e [!UICONTROL Segments] {#signals-traits-and-segments}
 
-Descreve os componentes de uma chamada [!DNL Audience Manager][!UICONTROL segment], as expressões usadas para definir critérios de qualificação de audiência e como os dados são transmitidos em uma chamada de evento.
+Describes the components of an [!DNL Audience Manager] [!UICONTROL segment], the expressions used to set audience qualification criteria, and how data is transmitted in an event call.
 
 ## Composição e finalidade
 
@@ -33,7 +33,7 @@ Use o diagrama abaixo para manter uma nota mental da relação entre [!UICONTROL
 
 ![](assets/signals-traits-segments.png)
 
-**Criar[!UICONTROL Traits]e[!UICONTROL Segment]regras com ferramentas visuais e editores de código**
+**Criar [!UICONTROL Traits] e [!UICONTROL Segment] regras com ferramentas visuais e editores de código**
 
 Os clientes gerenciam [!UICONTROL traits] e [!UICONTROL segments] com ferramentas visuais e editores de código na interface do [!DNL Audience Manager] usuário. As ferramentas visuais permitem criar regras usando recursos de pesquisa, opções de pop-up, menus suspensos e a funcionalidade arrastar e soltar. Os editores de código fornecem aos usuários avançados uma maneira de desenvolver de forma programática os critérios de segmentação de audiência.
 
