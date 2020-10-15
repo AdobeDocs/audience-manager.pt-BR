@@ -1,6 +1,6 @@
 ---
-description: Informações sobre requisitos gerais, autenticação, parâmetros opcionais de query, URLs de solicitação e outras referências.
-seo-description: Informações sobre requisitos gerais, autenticação, parâmetros opcionais de query, URLs de solicitação e outras referências.
+description: Informações sobre requisitos gerais, autenticação, parâmetros opcionais de consulta, URLs de solicitação e outras referências.
+seo-description: Informações sobre requisitos gerais, autenticação, parâmetros opcionais de consulta, URLs de solicitação e outras referências.
 seo-title: Introdução às REST APIs
 solution: Audience Manager
 title: Introdução às REST APIs
@@ -10,14 +10,14 @@ translation-type: tm+mt
 source-git-commit: f7b9c30f120b24f9294afa4aa6727ce8c4236acf
 workflow-type: tm+mt
 source-wordcount: '1860'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 
 # Getting Started with [!DNL REST] [!DNL APIs] {#getting-started-with-rest-apis}
 
-Informações sobre requisitos gerais, autenticação, parâmetros opcionais do query, solicitação [!DNL URLs]e outras referências.
+Information about general requirements, authentication, optional query parameters, request [!DNL URLs], and other references.
 
 <!-- c_rest_api_overview.xml -->
 
@@ -31,7 +31,7 @@ Observe o seguinte ao trabalhar com o código da API [](https://bank.demdex.com/
 
 * **Parâmetros de solicitação:** todos os parâmetros de solicitação são obrigatórios, a menos que especificado de outra forma.
 * **Cabeçalhos** de solicitação: ao usar tokens de E/S [de](https://www.adobe.io/) Adobe, você deve fornecer o `x-api-key` cabeçalho. Você pode obter sua [!DNL API] chave seguindo as instruções na página Integração [da conta de](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) serviço.
-* **[!DNL JSON]tipo de conteúdo:**Especifique`content-type: application/json`e *especifique*`accept: application/json`no seu código.
+* **[!DNL JSON]tipo de conteúdo:** Especifique `content-type: application/json` e *especifique* `accept: application/json` no seu código.
 * **Solicitações e respostas:** Envie solicitações como um [!DNL JSON] objeto formatado corretamente. [!DNL Audience Manager] responde com dados [!DNL JSON] formatados. As respostas do servidor podem conter dados solicitados, um código de status ou ambos.
 * **Acesso:** Seu [!DNL Audience Manager] consultor fornecerá uma ID de cliente e uma chave que permite fazer [!DNL API] solicitações.
 * **Documentação e amostras de código:** O texto em *itálico* representa uma variável fornecida ou transmitida ao criar ou receber [!DNL API] dados. Substitua o texto *em itálico* por seu próprio código, parâmetros ou outras informações necessárias.
