@@ -1,6 +1,6 @@
 ---
-description: Chamadas de Evento enviam informações para o DCS em uma string de URL. Em uma implantação típica de Audience Manager, os clientes usam nosso código de coleta de dados (DIL) JavaScript para enviar dados para o DCS. No entanto, às vezes os clientes não podem colocar nosso código JavaScript em suas páginas. Se políticas de empresa ou outros problemas técnicos impedirem que você coloque nosso código JavaScript em suas páginas, ainda será possível trabalhar com o Audience Manager para enviar e retornar dados do DCS com essas APIs de chamada de evento.
-seo-description: Chamadas de Evento enviam informações para o DCS em uma string de URL. Em uma implantação típica de Audience Manager, os clientes usam nosso código de coleta de dados (DIL) JavaScript para enviar dados para o DCS. No entanto, às vezes os clientes não podem colocar nosso código JavaScript em suas páginas. Se políticas de empresa ou outros problemas técnicos impedirem que você coloque nosso código JavaScript em suas páginas, ainda será possível trabalhar com o Audience Manager para enviar e retornar dados do DCS com essas APIs de chamada de evento.
+description: Chamadas de evento enviam informações para o DCS (sistema de controle distribuído) em uma cadeia de caracteres de URL. Em uma implantação típica do Audience Manager, os clientes usam nosso código de coleta de dados JavaScript (DIL) para enviar dados para o DCS. No entanto, às vezes os clientes não conseguem colocar nosso código JavaScript em suas páginas. Se as políticas da empresa ou outros problemas técnicos impedirem que você coloque nosso código JavaScript nas suas páginas, ainda será possível trabalhar com o Audience Manager para enviar e retornar dados do DCS com essas APIs de chamada de evento.
+seo-description: Chamadas de evento enviam informações para o DCS (sistema de controle distribuído) em uma cadeia de caracteres de URL. Em uma implantação típica do Audience Manager, os clientes usam nosso código de coleta de dados JavaScript (DIL) para enviar dados para o DCS. No entanto, às vezes os clientes não conseguem colocar nosso código JavaScript em suas páginas. Se as políticas da empresa ou outros problemas técnicos impedirem que você coloque nosso código JavaScript nas suas páginas, ainda será possível trabalhar com o Audience Manager para enviar e retornar dados do DCS com essas APIs de chamada de evento.
 seo-title: APIs de chamada de evento DCS
 solution: Audience Manager
 title: APIs de chamada de evento DCS
@@ -10,14 +10,14 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 8%
+ht-degree: 59%
 
 ---
 
 
 # APIs de chamada de evento DCS {#dcs-event-call-apis}
 
-Chamadas de Evento enviam informações para o [!DNL DCS] em uma [!DNL URL] sequência de caracteres. Em uma implantação típica de Audience Manager, os clientes usam nosso código de coleta de [!DNL JavaScript] dados ([!UICONTROL DIL]) para enviar dados para o [!DNL DCS]. No entanto, às vezes os clientes não podem colocar nosso [!DNL JavaScript] código em suas páginas. Se políticas de empresa ou outros problemas técnicos impedirem que você coloque nosso [!DNL JavaScript] código em suas páginas, ainda será possível trabalhar com o Audience Manager para enviar e retornar dados [!DNL DCS] com essas chamadas [!DNL API]de evento.
+Event calls send information to the [!DNL DCS] in a [!DNL URL] string. In a typical Audience Manager deployment, customers use our [!DNL JavaScript] data collection code ([!UICONTROL DIL]) to send data to the [!DNL DCS]. However, sometimes customers cannot put our [!DNL JavaScript] code on their pages. If company policies or other technical issues prevent you from placing our [!DNL JavaScript] code on your pages, you can still work with Audience Manager to send and return data from [!DNL DCS] with these event call [!DNL API]s.
 
 ## Introdução {#dcs-getting-started}
 
