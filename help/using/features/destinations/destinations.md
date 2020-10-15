@@ -1,5 +1,5 @@
 ---
-description: No Audience Manager, um destino é qualquer sistema de terceiros (servidor de anúncios, DSP, rede de anúncios etc.) com o qual você deseja compartilhar dados. Use a ferramenta Construtor de destinos para criar e gerenciar cookies, URL ou destinos de servidor para servidor.
+description: No Audience Manager, um destino é qualquer sistema de terceiros (servidor de anúncios, DSP, rede de anúncios etc.) com o qual você deseja compartilhar dados. Use a ferramenta Destination Builder para criar e gerenciar cookies, URL ou destinos de servidor para servidor.
 keywords: integration code, destination, destination overview, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination
 seo-description: No Audience Manager, um destino é qualquer sistema de terceiros (servidor de anúncios, DSP, rede de anúncios etc.) com o qual você deseja compartilhar dados. O Construtor de destinos é a ferramenta usada para criar e gerenciar cookies, URL ou destinos de servidor para servidor.
 seo-title: 'Destinos '
@@ -11,14 +11,14 @@ translation-type: tm+mt
 source-git-commit: 8027f278aa2b879b6cb277f44caf4b62dc75e2c3
 workflow-type: tm+mt
 source-wordcount: '530'
-ht-degree: 6%
+ht-degree: 14%
 
 ---
 
 
 # [!UICONTROL Destinations] Visão geral {#destinations}
 
-No Audience Manager, um [!UICONTROL destination] é qualquer sistema de terceiros (servidor de anúncios, rede de anúncios [!DNL DSP]etc.) com o qual você deseja compartilhar dados. [!UICONTROL Destination Builder] é a ferramenta que você usa para criar e gerenciar [!UICONTROL cookie], [!DNL URL]ou [!UICONTROL server-to-server destinations].
+In Audience Manager, a [!UICONTROL destination] is any third-party system (ad server, [!DNL DSP], ad network, etc.) com o qual você deseja compartilhar dados. [!UICONTROL Destination Builder] é a ferramenta que você usa para criar e gerenciar [!UICONTROL cookie], [!DNL URL]ou [!UICONTROL server-to-server destinations].
 
 ## Propósito e vantagens {#purposes}
 
