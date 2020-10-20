@@ -1,58 +1,65 @@
 ---
-source-git-commit: 36bf8ad65d249dc9e9ec3e5628ce370d256abf46
+source-git-commit: 84deeb062937c7bf46ee0f6f9516f9d49dbf4df6
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '517'
+ht-degree: 11%
 
 ---
 # Artigo do Contribute
 
-Nós recebemos as contribuições de nossa comunidade e de funcionários da Adobe de fora das equipes de documentação.
+| EXL-PR | EXL | Visualizar | Ativar | Publicado | Ajuda |
+|--- |--- |--- |--- |--- |--- |
+| [![Status da compilação](https://docs.ci.corp.adobe.com/view/exl-pr/job/audience-manager.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/audience-manager.en_pr-exl/lastBuild/) | [![Status da compilação](https://docs.ci.corp.adobe.com/view/exl-pr/job/audience-manager.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/audience-manager.en_exl/lastBuild/lastBuild) | [URL de pré-visualização](https://experienceleague.corp.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=en) | [ativate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [Live URL](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=en) | [Guia de criação](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
-## Código de conduta da Adobe Open Source
+Saudamos as contribuições de nossa comunidade, bem como de funcionários do Adobe de fora das equipes de documentação.
 
-This project has adopted the [Adobe Open Source Code of Conduct](code-of-conduct.md) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Contributing](contributing.md) article.
+## Código de Conduta de Origem Aberta do Adobe
 
-## Sobre suas contribuições para o conteúdo da Adobe
+Este projeto adotou o [Código de conduta de código aberto da Adobe](code-of-conduct.md) ou o [Código de conduta do .NET Foundation](https://dotnetfoundation.org/code-of-conduct). Para obter mais informações, consulte o artigo [Contribuição](contributing.md).
 
-See the [Adobe Docs Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html).
+## Sobre suas contribuições para o conteúdo de Adobe
 
-A forma como você participa depende quem você está e do tipo de alterações que deseja contribuir:
+Consulte o Guia [do colaborador de](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)Adobe Docs.
 
-### Pequenas alterações
+A forma como você contribui depende de quem você é e do tipo de mudanças que você gostaria de contribuir:
 
-If you are contributing minor updates out of the goodness of your heart, visit the article and click the **Edit** link in the article that goes to the GitHub source for the article. Em seguida, use a interface do usuário github para fazer suas atualizações. See the general [Adobe Docs Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) for more information.
+### Alterações menores
 
-Pequenas correções ou esclarecimentos que você enviar para documentação e exemplos de código neste repo são abordados pelos termos de uso da Adobe.
+Se você estiver contribuindo com atualizações secundárias devido à bondade de seu coração, visite o artigo e clique no link **Editar** no artigo que vai para a fonte GitHub do artigo. Em seguida, use a interface do usuário do GitHub para fazer suas atualizações. Consulte o Guia [geral do colaborador de](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) Adobe para obter mais informações.
 
-### Principais alterações ou novos artigos de membros da comunidade
+Pequenas correções ou esclarecimentos que você submete para documentação e exemplos de código neste acordo de recompra são cobertos pelos termos de uso do Adobe.
 
-Se você fizer parte da comunidade da Adobe e quiser criar um novo artigo ou enviar grandes alterações, use a guia Problemas no repositório Git para enviar um problema para iniciar uma conversa com a equipe de documentação. Após concordar com um plano, você precisará trabalhar com um funcionário para ajudar a trazer o novo conteúdo por uma combinação de trabalho em repositórios públicos e privados.
+### Alterações importantes ou novos artigos de membros da comunidade
+
+Se você fizer parte da comunidade do Adobe e quiser criar um novo artigo ou enviar alterações importantes, use a guia Problemas no repositório do Git para enviar um problema ao start de uma conversa com a equipe de documentação. Depois de concordar com um plano, você precisará trabalhar com um funcionário para ajudá-lo a inserir o novo conteúdo por meio de uma combinação de trabalho nos repositórios públicos e privados.
 
 <!--
 If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
 -->
 
-### Principais mudanças dos funcionários da Adobe
+### Grandes mudanças dos funcionários do Adobe
 
-If you are a technical writer, program manager, or developer from the product team for an Adobe Experience Cloud solution and it's your job to contribute to or author technical articles, you should use the private repository [https://git.corp.adobe.com/AdobeDocs](https://git.corp.adobe.com/AdobeDocs). <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
+Se você for um gravador técnico, gerente de programas ou desenvolvedor da equipe de produtos para uma solução Adobe Experience Cloud e seu trabalho for contribuir com ou criar artigos técnicos, deverá usar o repositório privado [https://git.corp.adobe.com/AdobeDocs](https://git.corp.adobe.com/AdobeDocs). <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
 ## Ferramentas e configuração
 
-Os contribuidores da comunidade podem usar a interface do usuário github para edição básica ou forjar o repo para fazer contribuições importantes.
+Os contribuidores comunitários podem usar a interface do usuário do GitHub para a edição básica ou garfo do acordo de recompra para dar contribuições importantes.
 
-See the [Adobe Docs Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) for details.
+Consulte o Guia [do colaborador de](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) Adobe Docs para obter detalhes.
 
-## Como usar o markdown para formatar seu tópico
+## Como usar a marcação para formatar seu tópico
 
-Todos os artigos neste repositório usam o markdown achatado github. Se você não estiver familiarizado com a marcação, consulte:
+Todos os artigos neste repositório usam a marcação com sabor do GitHub. Se não estiver familiarizado com a redução, consulte:
 
-* [Noções básicas de markdown](https://help.github.com/articles/markdown-basics/)
-* [Folha de papel para impressão imprimível](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Noções básicas de marcação](https://help.github.com/articles/markdown-basics/)
+* [Tabuleiro de marcação para impressão](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## Rótulos
 
-No repositório público, rótulos automatizados são atribuídos para extrair solicitações para nos ajudar a gerenciar o fluxo de trabalho de solicitação de extração e ajudar a saber o que está acontecendo com sua solicitação de extração:
+No repositório público, as etiquetas automatizadas são atribuídas para solicitações de baixa automática que nos ajudam a gerenciar o fluxo de trabalho da solicitação de baixa automática e para ajudar você a saber o que está acontecendo com sua solicitação de baixa automática:
 
-* **Alteração enviada para o autor**: O autor foi notificado sobre a solicitação de extração pendente.
-* **pronto para mesclar: Pronto para analisar a equipe de revisão de solicitação de push.**
+* **Alteração enviada ao autor**: O autor foi notificado da solicitação de baixa pendente.
+* **pronto para unir**: Pronto para revisão por nossa equipe de análise de solicitação de baixa automática.
 
 
