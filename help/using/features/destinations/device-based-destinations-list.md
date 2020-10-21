@@ -7,9 +7,9 @@ solution: Audience Manager
 title: Destinos de servidor para servidor Adobe Audience Manager
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: f37464671b9000b0d6c1ae492fc4f35dd327d59d
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1116'
 ht-degree: 72%
 
 ---
@@ -24,7 +24,7 @@ Esta página inclui somente destinos [!DNL Audience Manager] baseados em [](/hel
 * **Última atualização** = Mostra a última data em que houve uma atualização para este [!UICONTROL device-based destination].
 * **Atualizações** = Indica se [!DNL Audience Manager] envia dados em tempo real ou em lote (1xday) para isso [!UICONTROL destination].
 * **Unsegment** = Unsegmentation descreve processos que desqualificam e removem perfis de dispositivos de [!UICONTROL segments]. Sua capacidade de remover um perfil de dispositivo de um dispositivo [!UICONTROL segment] depende da opção de dispositivo usada para criar um [!UICONTROL Profile Merge Rule]. A dessegmentação também é usada no contexto de solicitações de [!DNL GDPR] exclusão. Leia Regras de mesclagem de [Perfis e Processos](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) de dessegmentação de dispositivos e Parceiros de [Audience Manager com recursos](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation)de dessegmentação. [!DNL Audience Manager] envia informações de cancelamento de segmento para o [!UICONTROL destinations] marcador com **Sim** abaixo.
-* **Recebendo sinais[!DNL IAB TCF]de** consentimento = [!DNL Audience Manager Plug-in for IAB TCF] permite encaminhar a [!DNL IAB TC] sequência para parceiros de ativação respeitando as opções de privacidade dos usuários. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
+* **Recebendo sinais [!DNL IAB TCF] de** consentimento = [!DNL Audience Manager Plug-in for IAB TCF] permite encaminhar a [!DNL IAB TC] sequência para parceiros de ativação respeitando as opções de privacidade dos usuários. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
 * **[!DNL ICDS]** = Essa coluna lista os parceiros que oferecem suporte [!UICONTROL Instant Cross-Device Suppression]. Leia sobre a Supressão [](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md)interdispositivo instantânea.
 * **IDs** de dispositivo móvel = Essa coluna lista parceiros que podem receber IDs de dispositivo móvel de [!DNL Audience Manager].
 
@@ -51,7 +51,6 @@ Esta página inclui somente destinos [!DNL Audience Manager] baseados em [](/hel
 | [!DNL AOL ONE] | 02/03/2017 | Tempo real | Sim | Não | Não | Sim |
 | [!DNL AppNexus] | 02/03/2017 | Tempo real | Sim | Não | Sim | Não |
 | [!DNL AppNexus Yieldex] | 10/08/2017 | 1xday | Sim | Não | Não | Não |
-| [!DNL Artsai (formerly Adxcel)] | 27/01/2020 | 1xday | Não | Não | Não | Não |
 | [!DNL Atedra]/[!DNL AdStanding] | 02/03/2017 | Tempo real | Sim | Não | Sim | Não |
 | [!DNL Avocet] | 06/12/2017 | 1xday | Não | Não | Não | Não |
 | [!DNL Bidtellect] | 03/03/2017 | Tempo real | Sim | Não | Não | Não |
@@ -82,7 +81,6 @@ Esta página inclui somente destinos [!DNL Audience Manager] baseados em [](/hel
 | [!DNL EyeView Digital] | 14/06/2018 | 1xday | Sim | Não | Não | Sim |
 | [!DNL Fiksu] | 03/03/2017 | 1xday | Sim | Não | Não | Sim |
 | [!DNL Flashtalking] | 02/03/2017 | 1xday | Não | Não | Não | Não |
-| [!DNL Flybits] | 31/07/2020 | Tempo real | Sim | Não | Sim | Sim |
 | [!DNL FreakOut] | 03/03/2017 | 1xday | Sim | Não | Não | Não |
 | [!DNL Freewheel] | 27/02/2017 | 1xday | Sim | Sim | Não | Sim |
 | [!DNL Gamut Media] | 03/03/2017 | Tempo real |  | Não | Não |  |
