@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Públicos preditivos do Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 1df6e8a76e5eae85483820926474ebc8633d5591
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '1023'
-ht-degree: 66%
+source-wordcount: '895'
+ht-degree: 64%
 
 ---
 
@@ -46,14 +46,6 @@ Vá até **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]** e clique na 
 
  
 
-**Por que alguns dos meus visitantes integrados não são classificados?**
-
-Atualmente, a classificação de público-alvo funciona apenas para qualificações em tempo real, exceto para usuários autenticados que foram definidos como parte das [!UICONTROL Profile Merge Rules].
-
-O suporte total para dados integrados será adicionado em uma atualização futura.
-
- 
-
 **Quando posso ver os primeiros resultados produzidos pelo meu modelo?**
 
 Os resultados do modelo de [!UICONTROL Predictive Audiences] estão disponíveis em 24 horas após a criação bem-sucedida do modelo.
@@ -68,24 +60,22 @@ Os modelos de [!UICONTROL Predictive Audiences] podem deixar de produzir resulta
 
 1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough user profiles. We recommend choosing your [!UICONTROL traits] or [!UICONTROL segments] so that each persona has at least a few hundred user profiles.
 1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough data in their user profiles (not enough traits to analyze).
-1. A característica/segmento do público-alvo não tinha nenhum usuário ativo ou integrado nos últimos 30 dias.
+1. A característica/segmento da audiência do público alvo não tem nenhum usuário ativo ou integrado.
 1. Os usuários do público-alvo que estavam ativos ou integrados nos últimos 30 dias não têm dados suficientes nos perfis do usuário (não há características suficientes para analisar).
-1. O segmento de audiência do público alvo usa um diferente [!UICONTROL Profile Merge Rule] daquele escolhido para o modelo.
+1. O segmento de audiência do público alvo usa um segmento diferente [!UICONTROL Profile Merge Rule] daquele escolhido para o modelo.
 1. A fonte de dados de suas características de audiência do público alvo pode não estar incluída na fonte de dados [!UICONTROL Profile Merge Rule] escolhida para o modelo.
-
-Para produzir resultados relevantes, o algoritmo [!UICONTROL Predictive Audiences] avalia as realizações de características e segmentos com base na atividade do usuário em tempo real visualizada pelo [!DNL DCS]. Se você selecionar novas características e segmentos básicos que ainda não têm usuários suficientes, o algoritmo pode levar alguns dias para classificar o público-alvo.
 
 Para obter os melhores resultados, siga as diretrizes sugeridas em [Critérios de seleção para personas](../features/algorithmic-models/predictive-audiences.md#selection-personas) e [Critérios de seleção para público-alvo](../features/algorithmic-models/predictive-audiences.md#selection-audience).
 
  
 
-**Por que meu modelo está mostrando o[!UICONTROL Error]status?**
+**Por que meu modelo está mostrando o [!UICONTROL Error] status?**
 
 Pode ser uma falha ao executar o modelo. In such cases, please reach out to your [!DNL Adobe] representative.
 
  
 
-**Como posso mudar o[!UICONTROL Profile Merge Rule]para um[!UICONTROL Predictive Audiences][!UICONTROL segment]?**
+**Como posso mudar o [!UICONTROL Profile Merge Rule] para um [!UICONTROL Predictive Audiences][!UICONTROL segment]?**
 
 Crie um novo modelo selecionando as mesmas pessoas e audiências de público alvo do modelo anterior. Durante a criação do modelo, atribua um diferente [!UICONTROL Profile Merge Rule].
 
@@ -96,7 +86,7 @@ Crie um novo modelo selecionando as mesmas pessoas e audiências de público alv
 
  
 
-**O que[!UICONTROL Profile Merge Rule]devo escolher?**
+**O que [!UICONTROL Profile Merge Rule] devo escolher?**
 
 Ao escolher o [!UICONTROL Profile Merge Rule] para o seu modelo, analise cuidadosamente o caso de uso.
 
@@ -105,8 +95,6 @@ Digamos que sua audiência de públicos alvos [!UICONTROL segment] use um [!UICO
 No entanto, se você selecionar um [!UICONTROL Profile Merge Rule] baseado apenas em perfis de dispositivos, nenhum de seus dispositivos cruzados [!UICONTROL traits] se tornará influente e não contribuirá para a colocação de usuários em um preditivo [!UICONTROL segment]. Isso pode afetar negativamente a precisão e o alcance do modelo.
 
 Analise cuidadosamente seu caso de uso e decida com quais [!UICONTROL trait] tipos você deseja que o modelo aprenda e que tipo de dados você deseja que o modelo use para classificação.
-
- 
 
 **Um usuário do público-alvo que não faz parte de nenhuma característica/segmento de persona pode não ser classificado?**
 
@@ -117,12 +105,6 @@ Sim, caso o usuário não tenha nenhuma característica em seu perfil. Nesse cas
 **Um usuário que foi classificado em um dos segmentos preditivos pode ser reclassificado em um segmento diferente do [!UICONTROL Predictive Audiences]?**
 
 Sim. Como o algoritmo é treinado diariamente, ele aplica as alterações para cada persona em termos de pontuação de características. Se um usuário que faz parte de um segmento do [!UICONTROL Predictive Audiences] estiver ativo, as alterações em sua pontuação de característica podem alterar a classificação com base na atividade dos últimos 30 dias.
-
- 
-
-**Posso adicionar características preditivas a segmentos regulares?**
-
-Quando você adiciona um traço preditivo a um segmento regular, ele se torna um segmento preditivo. Consequentemente, todos os perfis associados não são segmentados. Segmentos preditivos só podem ser enviados para destinos em tempo real.
 
  
 
