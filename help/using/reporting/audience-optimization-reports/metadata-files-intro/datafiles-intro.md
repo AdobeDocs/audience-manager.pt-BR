@@ -7,9 +7,9 @@ title: Arquivos de dados para Relatórios de otimização de público-alvo e arq
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 feature: log files
 translation-type: tm+mt
-source-git-commit: ff592184ba1785e3448aa449745d0e66ecba955b
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1042'
 ht-degree: 5%
 
 ---
@@ -29,7 +29,7 @@ Um ficheiro de dados deve ser acompanhado de um ficheiro de metadados. O conteú
 
 A sintaxe a seguir define a estrutura de um nome de arquivo de dados bem formado. Observação: *itálico* indica um espaço reservado variável que muda dependendo do conteúdo do arquivo.
 
-**Sintaxe:** `event type_yyyymmdd`
+**Sintaxe:** <pre><i>tipo de evento</i>_<i>aaaammdd</i></code></pre>
 
 Em um nome de arquivo:
 
@@ -39,15 +39,15 @@ Em um nome de arquivo:
 
 Dadas estas exigências, nomeie seus arquivos de dados com base em seus conteúdos como este:
 
-* Dados de impressão: `impressions_yyyymmdd.gz`
-* Dados de clique: `clicks_yyyymmdd.gz`
-* Dados de conversão: `conversions_yyyymmdd.gz`
+* Dados de impressão: <pre>impressionsions_<i>yyyymmdd</i>.gz</code></pre>
+* Dados de clique: <pre>click_<i>yyyymmdd</i>.gz</code></pre>
+* Dados de conversão: <pre>conversions_<i>yyyymmdd</i>.gz</code></pre>
 
 ## Content Format for Data Files {#content-format}
 
 A sintaxe a seguir define a estrutura do conteúdo em um arquivo de dados bem formado. Observação: *itálico* indica um espaço reservado variável e é substituído por um rótulo em um arquivo de dados real.
 
-**Sintaxe:** `header label 1 | header label 2 ... header label n | version`
+**Sintaxe:** <pre><i>rótulo do cabeçalho 1</i> | Rótulo <i>do cabeçalho 2</i> ... <i>rótulo do cabeçalho n</i> | <i>versão</i></code></pre>
 
 No conteúdo do arquivo:
 
@@ -153,7 +153,7 @@ Faça upload de sua impressão, clique ou converta arquivos de dados em um diret
 
 Os dados são armazenados em uma namespace separada para cada cliente em um [!DNL Amazon S3] diretório. O caminho do arquivo segue a sintaxe mostrada abaixo. Note, *italics* indicates a variable placeholder. Outros elementos são constantes ou teclas e não são alterados.
 
-**Sintaxe:** `.../log_ingestion/pid=AAM ID/dpid=d_src/logs/file type_yyyymmdd`
+**Sintaxe:** <pre>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ tipo <i>de</i>arquivo_<i>yyyymmdd</i></code></pre>
 
 A tabela a seguir define cada um desses elementos em um caminho de delivery de arquivo.
 
