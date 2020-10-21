@@ -7,9 +7,9 @@ title: Criar características algorítmicas
 uuid: 50c2d2d1-f412-479b-bb70-4f139429c388
 feature: Traits
 translation-type: tm+mt
-source-git-commit: aeaf8b14e901b4a39486ba3740f0582c9cf34559
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '322'
 ht-degree: 5%
 
 ---
@@ -29,12 +29,7 @@ Para criar uma característica algorítmica, vá para [!UICONTROL Traits] e siga
 1. Expanda o [!UICONTROL Configuration] painel e clique em **[!UICONTROL Browse All Models]**.
 Isso abre uma nova janela que permite selecionar o modelo que deseja usar com a característica.
 1. Selecione um modelo e clique em **[!UICONTROL Add Selected Model to Trait]**.
-
-   >[!NOTE]
-   > 
-   > Não é possível substituir modelos selecionados por características algorítmicas existentes. Para usar um modelo diferente, é necessário criar um novo traço algorítmico.
-
-   Adicionar o modelo expõe as configurações de alcance e precisão.
+Adicionar o modelo expõe as configurações de alcance e precisão.
 1. Selecione o alcance ou a precisão como sua meta e escolha um valor nos respectivos menus suspensos. Clique **[!UICONTROL Save]** quando concluído.
 
 ## Configurações para características algorítmicas {#configure-settings}
