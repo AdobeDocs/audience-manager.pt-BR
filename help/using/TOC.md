@@ -2,23 +2,21 @@
 product: audience-manager
 solution: Audience Manager
 audience: end-user
-user-guide-title: Guia do Audience Manager
-breadcrumb-title: Guia do Audience Manager
-breadcrumb-url: /docs/audience-manager/user-guide/aam-home.html
-user-guide-description: O Audience Manager oferece serviços líderes de mercado para gestão de dados de público online.
+user-guide-title: Guia do usuário do Audience Manager
+user-guide-description: O Audience Manager proporciona serviços líderes do setor para o gerenciamento online de dados.
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 59eda3fa250fa33ef283f09b0027845431e9517b
+source-git-commit: 7b58619a5208f7a48002d65d7bcbf0af602ba908
 workflow-type: tm+mt
-source-wordcount: '1773'
+source-wordcount: '1769'
 ht-degree: 93%
 
 ---
 
 
-# Guia do Audience Manager {#user-guide}
+# Guia do usuário do Audience Manager {#user-guide}
 
-+ [Guia do Audience Manager](aam-home.md)
++ [Documentação do produto Audience Manager](aam-home.md)
 + Visão geral {#overview}
    + [Visão geral do Audience Manager](overview/aam-overview.md)
    + [Tipos de dados coletados](overview/data-types-collected.md)
@@ -36,7 +34,6 @@ ht-degree: 93%
          + [Gerenciamento de consentimento](overview/data-security-and-privacy/data-privacy-consent.md)
          + [Plug-in do Audience Manager para a TCF do IAB](overview/data-security-and-privacy/aam-iab-plugin.md)
    + [Controle de dados](overview/data-security-and-privacy/data-governance.md)
-   + [Acessibilidade no Audience Manager](overview/accessibility-in-aam.md)
 + Recursos {#features}
    + [Públicos endereçáveis](features/addressable-audiences.md)
    + Administração {#administration}
@@ -78,7 +75,7 @@ ht-degree: 93%
       + [Data Explorer - Visão geral, benefícios e casos de uso](features/data-explorer/data-explorer-overview.md)
       + [Compreensão de sinais](features/data-explorer/data-explorer-understanding-signals.md)
       + [Painel de sinais](features/data-explorer/data-explorer-signals-dashboard.md)
-      + Pesquisa de sinal{#signal-search}
+      + Pesquisa de sinais {#signals-search}
          + [Visão geral da pesquisa de sinais](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md)
          + [Pesquisar sinais por pares de valor-chave](features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md)
          + [Pesquisar sinais por filtros](features/data-explorer/data-explorer-signals-search/data-explorer-search-filters.md)
