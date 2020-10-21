@@ -7,9 +7,9 @@ title: Relatório de variação diária de características
 uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '773'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Este relatório retorna uma lista de características que foram realizadas pelo 
 
 O desvio padrão mede a quantidade de variação ou dispersão em relação à média (ou valor médio/esperado). Um desvio padrão baixo indica que os pontos de dados tendem a estar muito próximos da média. Um desvio padrão alto indica que os pontos de dados estão distribuídos por uma grande variedade de valores.
 
-![relatório de variação de característica diária da captura de tela](assets/daily_trait_variation.png)
+![](assets/daily_trait_variation.png)
 
 Use a [!UICONTROL Date] lista para selecionar uma ou mais datas para seu relatório. Um gráfico de barras codificado por cores é exibido na parte inferior da lista, que fornece um representante visual do intervalo de desvio padrão para todas as características em todas as datas selecionadas. A linha vertical preta indica a média.
 
@@ -56,8 +56,8 @@ Devido a uma reconfiguração da sua loja, você está dividindo a página de sm
 
 Um mês depois, você executa o [!UICONTROL Daily Trait Variation] relatório e nota um grande desvio negativo na `productPage == "smartphones"` característica, embora o número do visitante tenha aumentado, de acordo com as análises do site. Com base nessas informações, você percebe que não atualizou as características [!DNL Audience Manager] para suas novas páginas de produtos, portanto, você sabe que precisa criar as seguintes características:
 
-* `productPage == "samsung"`
-* `productPage == "apple"`
-* `productPage == "huawei"`
+* productPage == &quot;samsung&quot;
+* productPage == &quot;apple&quot;
+* productPage == &quot;huawei&quot;
 
 Depois de fazer isso, você verá sua audiência se qualificando para as características recém-criadas.
