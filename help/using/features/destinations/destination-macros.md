@@ -7,9 +7,9 @@ title: Macros de destino definidas
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: 4bf32099e964c421d943d9925c74dd0d4d6ee576
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '674'
 ht-degree: 3%
 
 ---
@@ -54,9 +54,9 @@ Ao criar um [!DNL URL] destino, você pode inserir as seguintes macros na [!DNL 
     <ul class="simplelist"> 
      <li> <code> %dpid_1%</code> </li> 
     </ul> <p>A macro será substituída <code> 1</code> por <code> CustomerABC</code>. </p> <p> 
-     <!--
-       Based on AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193 
-     --> </p> </td> 
+     <draft-comment>
+       Baseado no AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193 
+     </draft-comment> </p> </td> 
   </tr> 
   <tr>
     <td><p><code>${GDPR}</code></p></td>
@@ -98,7 +98,7 @@ Ao criar um [!DNL URL] destino, você pode inserir as seguintes macros na [!DNL 
 
 As macros `%rnd%` e `%timestamp%` os inserem valores exclusivos em uma [!DNL URL] sequência de caracteres para impedir o armazenamento em cache do navegador.
 
-## Compartilhamento de cache com %rnd% e %timestamp% {#dest-cache-busting}
+## Cache Busting com `%rnd%` e `%timestamp%` {#dest-cache-busting}
 
 <!-- c_dest_cache_busting.xml -->
 
@@ -109,7 +109,7 @@ A eliminação de cache impede que os navegadores salvem e reutilizem conteúdo.
 * `%rnd%`: Insere um número aleatório em um URL.
 * `%timestamp%`: Insere a data/hora do Unix em um URL.
 
-## Comparando %rnd% e %timestamp% {#compare-rnd-timestamp}
+## Comparar `%rnd%` e `%timestamp%` {#compare-rnd-timestamp}
 
 Ambas as macros impedem o cache, mas `%rnd%` podem ser mais eficientes. Por exemplo, com `%timestamp%`, se vários usuários visualizações uma página simultaneamente, eles obterão o mesmo valor de data/hora. Como resultado, as chamadas não [!DNL URL] são exclusivas e várias são contadas apenas uma vez. No entanto, `%rnd%` gera um valor numérico exclusivo para cada chamada (mesmo quando os usuários veem a mesma página simultaneamente). Isso significa que a [!DNL URL] string contém valores diferentes e é contada como exclusiva.
 
