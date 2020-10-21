@@ -1,19 +1,19 @@
 ---
 description: Procure sinais usados e não utilizados recebidos durante períodos de tempo específicos. Para procurar sinais, vá até Dados de Audiência > Sinais > Pesquisar.
 seo-description: Procure sinais usados e não utilizados recebidos durante períodos de tempo específicos. Para procurar sinais, vá até Dados de Audiência > Sinais > Pesquisar.
-seo-title: Pesquisa de sinal
-title: Pesquisa de sinal
+seo-title: 'Pesquisa de sinais '
+title: 'Pesquisa de sinais '
 feature: Data Explorer
 translation-type: tm+mt
-source-git-commit: f420534f6c9e979a01b5fd9150a0d736efd2b87f
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '93'
-ht-degree: 21%
+ht-degree: 29%
 
 ---
 
 
-# Visão geral da pesquisa de sinais {#signal-search}
+# Visão geral da pesquisa de sinais {#signals-search}
 
 Procure sinais usados e não utilizados recebidos durante períodos de tempo específicos. Para procurar sinais, vá até Dados de Audiência > Sinais > Pesquisar.
 
