@@ -8,10 +8,10 @@ title: Solicitações de privacidade de dados
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 feature: data governance & privacy
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 231d8e537cf5b4f29b1c4f284fe1b3ffe6d187a9
 workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 69%
+source-wordcount: '1477'
+ht-degree: 65%
 
 ---
 
@@ -31,13 +31,13 @@ You can submit individual requests to access and delete consumer data from [!DNL
 * Por meio da [Interface do usuário do Privacy Service](https://privacyui.cloud.adobe.io/). Consulte a documentação [aqui](https://docs.adobe.com/content/help/pt-BR/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md).
 * Por meio da **[!DNL Privacy Service API]**. Consulte a documentação [aqui](https://docs.adobe.com/content/help/pt-BR/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)[!DNL API] e a referência da [aqui](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml).
 
-When sending individual data privacy requests, you can submit any [!DNL Audience Manager] identifiers (IDs), as described in the **[Audience Manager Identifiers](data-privacy-ids.md)**section, along with their respective namespace IDs (data source IDs).
+When sending individual data privacy requests, you can submit any [!DNL Audience Manager] identifiers (IDs), as described in the **[Audience Manager Identifiers](data-privacy-ids.md)** section, along with their respective namespace IDs (data source IDs).
 
 O [Privacy Service](https://docs.adobe.com/content/help/pt-BR/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) oferece suporte a dois tipos de solicitações: acesso aos dados e solicitações de exclusão de dados.
 
 ## Solicitações de acesso a dados {#access-data}
 
-Você pode enviar solicitações individuais de acesso aos dados por meio da [Interface do usuário do Privacy Service](https://privacyui.cloud.adobe.io/) (documentação [aqui](https://docs.adobe.com/content/help/pt-BR/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)) ou chamando a [!DNL Privacy Service API] (documentação [aqui](https://docs.adobe.com/content/help/pt-BR/experience-platform/privacy/home.html) e a [!DNL API] referência [aqui ](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)).
+You can send individual data access requests through the [Privacy Service UI](https://privacyui.cloud.adobe.io) (documentation [here](https://docs.adobe.com/content/help/pt-BR/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)) or by calling the Privacy Service API (documentation [here](https://docs.adobe.com/content/help/pt-BR/experience-platform/privacy/home.html) and [!DNL API] reference [here](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)).
 
 A [Interface do usuário do Privacy Service](https://privacyui.cloud.adobe.io/) permite criar novas solicitações de trabalho usando o [!UICONTROL Request Builder] ou fazendo upload de um arquivo [!DNL JSON].
 
@@ -47,7 +47,7 @@ Compreendemos o seu compromisso de atender às suas solicitações de privacidad
 
 ## Solicitações de exclusão de dados {#delete-data}
 
-Você pode enviar solicitações de exclusão de dados por meio da [Interface do usuário do Privacy Service](https://privacyui.cloud.adobe.io/) (documentação [aqui](https://docs.adobe.com/content/help/pt-BR/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)) ou chamando a [!DNL Privacy Service API] (documentação [aqui](https://docs.adobe.com/content/help/pt-BR/experience-platform/privacy/home.html)[!DNL API] e a referência da [aqui](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)).
+You can send data deletion requests through the [Privacy Service UI](https://privacyui.cloud.adobe.io) (documentation [here](https://docs.adobe.com/content/help/pt-BR/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)) or by calling the Privacy Service API (documentation [here](https://docs.adobe.com/content/help/pt-BR/experience-platform/privacy/home.html) and [!DNL API] reference [here](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)).
 
 A [Interface do usuário do Privacy Service](https://privacyui.cloud.adobe.io/) permite criar novas solicitações de trabalho usando o [!UICONTROL Request Builder] ou fazendo upload de um arquivo [!DNL JSON].
 
