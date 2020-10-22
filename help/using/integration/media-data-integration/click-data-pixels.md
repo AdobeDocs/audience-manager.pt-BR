@@ -1,16 +1,16 @@
 ---
-description: 'null'
-seo-description: 'null'
+description: O rastreamento de cliques permite a medição do envolvimento do visitante em toda a campanha, pois registra a atividade baseada em cliques para criações de terceiros.
+seo-description: O rastreamento de cliques permite a medição do envolvimento do visitante em toda a campanha, pois registra a atividade baseada em cliques para criações de terceiros.
 seo-title: Captura de dados de cliques da campanha via Pixel Calls
 solution: Audience Manager
 title: Captura de dados de cliques da campanha via Pixel Calls
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 feature: Integration with Campaign
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 231d8e537cf5b4f29b1c4f284fe1b3ffe6d187a9
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 13%
+source-wordcount: '686'
+ht-degree: 12%
 
 ---
 
@@ -48,7 +48,7 @@ Com base no exemplo acima, o navegador é redirecionado para o seguinte [!DNL UR
 
 ## Macros suportadas
 
-Clique em eventos que suportam as macros listadas na tabela a seguir. Uma macro é uma pequena unidade de código autocontido que é ativada quando a tag do anúncio é carregada para campanha e rastreamento do usuário. As macros serão transmitidas juntamente com o destino [!DNL URL], desde que estejam marcadas com o seguinte formato: `%macro%`. Algumas teclas não têm macros e aceitam um valor de ID codificado. As teclas que aceitam valores codificados são necessárias se você quiser analisar dados nos Relatórios [de otimização de](../../reporting/audience-optimization-reports/audience-optimization-reports.md)Audiência.
+Clique em eventos que suportam as macros listadas na tabela a seguir. Uma macro é uma pequena unidade de código autocontido que é ativada quando a tag do anúncio é carregada para campanha e rastreamento do usuário. As macros serão transmitidas juntamente com o destino [!DNL URL], desde que estejam marcadas com o seguinte formato: `%macro%`. Algumas teclas não têm macros e aceitam um valor de ID codificado. As teclas que aceitam valores codificados são necessárias se você quiser analisar dados nos Relatórios [do](../../reporting/audience-optimization-reports/audience-optimization-reports.md)Audience Optimization.
 
 <table id="table_6EB65C3B7D0E49C59AA6C932549E33FC"> 
  <thead> 
@@ -67,17 +67,17 @@ Clique em eventos que suportam as macros listadas na tabela a seguir. Uma macro 
   <tr> 
    <td colname="col1"> <p> <code> d_adsrc</code> </p> </td> 
    <td colname="col02"> <p>Sem macro. </p> <p>Aceita um valor de ID codificado. </p> </td> 
-   <td colname="col2"> <p>ID do anunciante.</p> <p>Um código de integração para a fonte de dados do anunciante. Observe que isso não está relacionado a fontes de dados Audience Manager.</p> <p> Necessário para relatórios de Otimização <span class="wintitle"> de</span> Audiência. </p> </td> 
+   <td colname="col2"> <p>ID do anunciante.</p> <p>Um código de integração para a fonte de dados do anunciante. Observe que isso não está relacionado a fontes de dados Audience Manager.</p> <p> Obrigatório para relatórios de <span class="wintitle"> Audience Optimization</span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_bu</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_bu%</code> </p> </td> 
-   <td colname="col2"> <p>ID numérica da unidade de negócios. </p> <p> Necessário para relatórios de Otimização <span class="wintitle"> de</span> Audiência. </p> </td> 
+   <td colname="col2"> <p>ID numérica da unidade de negócios. </p> <p> Obrigatório para relatórios de <span class="wintitle"> Audience Optimization</span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_campaign</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_campaign%</code> </p> </td> 
-   <td colname="col2"> <p>ID de campanha numérica do servidor de publicidade. </p> <p> Necessário para relatórios de Otimização <span class="wintitle"> de</span> Audiência. </p> </td> 
+   <td colname="col2"> <p>ID de campanha numérica do servidor de publicidade. </p> <p> Obrigatório para relatórios de <span class="wintitle"> Audience Optimization</span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_creative</code> </p> </td> 
@@ -169,10 +169,10 @@ Com base no exemplo acima, o navegador é redirecionado para o seguinte [!DNL UR
 
 ## Funcionalidade adicional - [!UICONTROL Audience Optimization Reports]
 
-Você pode usar chamadas de pixel para alimentar os Relatórios [de otimização de](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)Audiência. Consulte [Visão geral e mapeamentos para arquivos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) de metadados se desejar usar pixels para alimentar os relatórios.
+Você pode usar chamadas de pixel para alimentar os Relatórios [de](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)Audience Optimization. Consulte [Visão geral e mapeamentos para arquivos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) de metadados se desejar usar pixels para alimentar os relatórios.
 
 
 >[!MORELIKETHIS]
 >
->* [Arquivos de dados e metadados para relatórios de otimização de Audiência](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
+>* [Arquivos de dados e metadados para relatórios Audience Optimization](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
 
