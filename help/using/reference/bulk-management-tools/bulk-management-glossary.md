@@ -7,7 +7,7 @@ title: Glossário de ferramentas de gerenciamento em massa
 uuid: 4658a6bc-9515-4d31-9715-0084760b0cea
 feature: baaam
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: fc13643681eebec17a95607482f2864e81b95820
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 5%
@@ -83,7 +83,7 @@ Rótulos de cabeçalho de coluna definidos.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> startDate</span> </p> </td> 
-   <td colname="col2"> <p>Indica quando um start de segmento pode ser enviado para um destino. Usa o formato <tt>aaaa-mm-dd</tt> . </p> </td> 
+   <td colname="col2"> <p>Indica quando um start de segmento pode ser enviado para um destino. Usa o formato <i>aaaa-mm-dd</i> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> targetKey</span> </p> </td> 
