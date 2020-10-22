@@ -8,9 +8,9 @@ keywords: ID mapping, ID mappings, cookie mappings
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 feature: Usage and Billing
 translation-type: tm+mt
-source-git-commit: 7d2f4b45ac3e45c9b4fcaffa4b5c5324ff03e683
+source-git-commit: fc13643681eebec17a95607482f2864e81b95820
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '576'
 ht-degree: 6%
 
 ---
@@ -22,7 +22,7 @@ O Audience Manager define um limite máximo para o número de características, 
 
 ## Limites de mapeamento de ID {#id-mapping-limits}
 
-A tabela abaixo lista os limites de mapeamento [de](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) ID para IDs de dispositivo. Quando uma ID atinge qualquer um dos limites abaixo, a Audience Manager adiciona novos mapeamentos de ID com base em uma lógica [!DNL FIFO] (primeira entrada, primeira saída), removendo o mapeamento de ID armazenado mais antigo e adicionando o novo. Consulte [Índice de IDs](../../reference/ids-in-aam.md) no Audience Manager para obter detalhes sobre as IDs suportadas pelo Audience Manager.
+A tabela abaixo lista os limites de mapeamento [de](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) ID para IDs de dispositivo. Quando uma ID atinge qualquer um dos limites abaixo, a Audience Manager adiciona novos mapeamentos de ID com base em uma lógica FIFO (primeira entrada, primeira saída), removendo o mapeamento de ID armazenado mais antigo e adicionando o novo. Consulte [Índice de IDs](../../reference/ids-in-aam.md) no Audience Manager para obter detalhes sobre as IDs suportadas pelo Audience Manager.
 
 | Mapeamento de ID | Limite máximo |
 |-----------|-------------- |
@@ -83,7 +83,7 @@ As tabelas listas os limites atuais por tipo de item. Não é possível criar no
 | --------------- | ------------- |
 | Sinais derivados | 50.000. |
 
-### Limite de contas de usuário de Empresa
+### Limite de contas de usuário de empresa
 
 | Item | Limite máximo |
 | ----------- | ------------- |
