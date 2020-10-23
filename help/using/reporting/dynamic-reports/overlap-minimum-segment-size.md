@@ -7,9 +7,9 @@ title: Agendamento de atualização de relatórios de sobreposição e tamanho m
 uuid: 35c1cb39-e28d-4d20-88c9-5ff4fe154e9e
 feature: overlap reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 33d844578c5cd620f9d4c33ec931ae0778aabb07
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '353'
 ht-degree: 5%
 
 ---
@@ -17,19 +17,20 @@ ht-degree: 5%
 
 # Relatórios de sobreposição: Atualizar agendamento e tamanho mínimo do segmento{#overlap-reports-update-schedule-and-minimum-segment-size}
 
-Descreve os requisitos de tamanho e tempo de criação do segmento exigidos pelo processo de atualização do relatório de sobreposição.
+Descreve as características e o tamanho do segmento e os requisitos de tempo de criação exigidos pelo processo de atualização do relatório de sobreposição.
 
 ## Atualizar Programação e Requisitos {#update-schedule}
 
 [!UICONTROL Overlap] os relatórios são atualizados semanalmente no domingo. O pré-processamento do relatório começa no sábado. Isso afeta a forma como segmentos novos ou existentes aparecem em um relatório de sobreposição na segunda-feira. A ser incluído em um relatório de sobreposição:
 
-* Um segmento deve conter no mínimo 70.000 usuários em tempo real nos últimos 14 dias. Leia mais sobre os requisitos [mínimos de Visitante único para características e segmentos](../../reporting/report-sampling.md#data-sampling-ratio).
-* Um segmento deve ter sido criado antes das 12 horas UTC de quinta-feira (2 dias completos antes do início do processo de atualização do relatório de sobreposição semanal).
+* Um segmento deve conter no mínimo 70.000 usuários em tempo real nos últimos 14 dias.
+* Uma característica deve conter 28.000 realizações [](/help/using/features/traits/trait-and-segment-qualification-reference.md) de características únicas durante os últimos 14 dias.
+* Um segmento deve ter sido criado antes das 12h de quinta-feira UTC (2 dias completos antes do início do processo de atualização do relatório de sobreposição semanal).
 * Sua empresa deve ser um [!DNL Audience Manager] cliente completo. Entre em contato com seu [!DNL Audience Manager] consultor ou com o Atendimento ao cliente para saber mais.
 
 ## Tamanho do segmento e/ou Tempo de criação afeta o Relatórios {#segment-size}
 
-Se você não vir um segmento em um dos [!UICONTROL Overlap] relatórios, pode ser porque o segmento não atende a esses requisitos mínimos.
+Se você não vir um segmento em um dos [!UICONTROL Overlap] relatórios, isso pode ocorrer porque o segmento não atende a esses requisitos mínimos.
 
 <table id="table_BE2937C1FA314BBDBD1D026321D6E6B1"> 
  <thead> 
