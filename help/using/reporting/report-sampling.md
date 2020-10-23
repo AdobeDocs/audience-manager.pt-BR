@@ -7,9 +7,9 @@ title: Amostragem de dados e taxas de erro em alguns relatórios do Audience Man
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 feature: reporting reference
 translation-type: tm+mt
-source-git-commit: 33d844578c5cd620f9d4c33ec931ae0778aabb07
+source-git-commit: 397be3f44bf865633140bb45630a78be0a0d2219
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '467'
 ht-degree: 7%
 
 ---
@@ -60,7 +60,7 @@ Erros podem ocorrer em relatórios que geram dados de sobreposição. Um erro é
 
 ## Utilização da metodologia de amostragem Minhash {#minhash}
 
-Com base na metodologia de amostragem do [Minhash](https://en.wikipedia.org/wiki/MinHash) , o Audience Manager usa um novo método para computar os estimadores de características e segmentos sobre um rascunho de dados de um hash de permutação única. Esse novo método produz uma variação menor do que o estimador padrão para o avaliador de similaridade Jaccard. Consulte a seção abaixo para obter os relatórios que usam essa metodologia.
+Com base na metodologia de amostragem do [Minhash](https://en.wikipedia.org/wiki/MinHash) , o Audience Manager usa um novo método para computar os estimadores de características e segmentos sobre um rascunho de dados de um hash de permutação única. Esse novo método produz uma variância menor do que o estimador padrão para similaridade com o Jaccard. Consulte a seção abaixo para obter os relatórios que usam essa metodologia.
 
 <!--
 
