@@ -8,10 +8,10 @@ title: Explicação dos pares de valor-chave
 uuid: f1435742-81ca-4964-8370-accf2f1c47a5
 feature: reference
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 5d6983f5308f1dfd4560ee1b38bcaee3ca6e422f
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 7%
+source-wordcount: '276'
+ht-degree: 6%
 
 ---
 
@@ -34,7 +34,7 @@ Um par de valores chave consiste em dois elementos de dados relacionados: Uma te
 
 ## Standard and Serialized Key-Value Pairs {#standard-serialized-pairs}
 
-Os destinos aceitam dados de valor chave no *`standard`* formato ou *`serialized`* . A formatação padrão organiza os dados em pares de valores chave separados. Cada chave é declarada explicitamente, mesmo quando usada novamente para definir um valor diferente. Por outro lado, a formatação serializada condensa vários valores em um conjunto definido por uma única tecla. Além disso, em um par serializado, um indicador especial é usado para separar os valores dentro do conjunto de valores chave. Finalmente, os valores-chave padrão e serializados podem conter valores únicos ou múltiplos. A tabela a seguir fornece exemplos de formatos padrão e de valores de chave serial.
+Os destinos aceitam dados de valor-chave em *`standard`* ou no *`serialized`* formato. A formatação padrão organiza os dados em pares de valores chave separados. Cada chave é declarada explicitamente, mesmo quando usada novamente para definir um valor diferente. Por outro lado, a formatação serializada condensa vários valores em um conjunto definido por uma única tecla. Além disso, em um par serializado, um indicador especial é usado para separar os valores dentro do conjunto de valores chave. Finalmente, os valores-chave padrão e serializados podem conter valores únicos ou múltiplos. A tabela a seguir fornece exemplos de formatos padrão e de valores de chave serial.
 
 | Formatação | Chave única | Pares de valor-chave |
 |---|---|---|
@@ -54,44 +54,10 @@ Ao trabalhar com dados serializados, você deve especificar os caracteres que se
 
 ## Elementos de valor-chave padrão e serializados {#standard-serialized-key-value-elements}
 
-<table id="table_62B0498441034A719C9DB57276777D40"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Tipo </th> 
-   <th colname="col2" class="entry"> Exemplo </th> 
-   <th colname="col3" class="entry"> Chave </th> 
-   <th colname="col4" class="entry"> Separador de valor-chave </th> 
-   <th colname="col5" class="entry"> Delimitador de valor-chave </th> 
-   <th colname="col6" class="entry"> Separador serial </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <b>Tecla única</b> <p>(padrão) </p> </td> 
-   <td colname="col2"> <code> x=1&amp;x=2 </code> </td> 
-   <td colname="col3"> x </td> 
-   <td colname="col4" morerows="3"> = </td> 
-   <td colname="col5" morerows="1"> &amp; </td> 
-   <td colname="col6" morerows="1"> n/a </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <b>Pares de valor-chave</b> <p>(padrão) </p> </td> 
-   <td colname="col2"> <code> x=1&amp;x=2&amp;y=3&amp;y=4 </code> </td> 
-   <td colname="col3"> x, y </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <b>Tecla única</b> <p>(serial) </p> </td> 
-   <td colname="col2"> <code> x=1;2;3 </code> </td> 
-   <td colname="col3"> x </td> 
-   <td colname="col5"> n/a </td> 
-   <td colname="col6" morerows="1"> ; </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <b>Pares</b> de valor-chave (serial) </td> 
-   <td colname="col2"> <code> x=1;2&amp;y=3;4 </code> </td> 
-   <td colname="col3"> x, y </td> 
-   <td colname="col5"> &amp; </td> 
-  </tr> 
- </tbody> 
-</table>
 
+| Tipo | Exemplo | Chave | Separador de valor-chave | Delimitador de valor-chave | Separador serial |
+---------|----------|---------|---------|----------|---------
+| **Chave** única (padrão) | `x=1&x=2` | `x` | `=` | `&` | n/a |
+| **Pares** de valor-chave (padrão) | `x=1&x=2&y=3&y=4` | `x,y` | `=` | `&` | n/a |
+| **Chave** única (serial) | `x=1;2;3` | `x` | `=` | n/a | `;` |
+| **Pares** de valor-chave (serial) | `x=1;2&y=3;4` | `x,y` | `=` | `&` | `;` |
