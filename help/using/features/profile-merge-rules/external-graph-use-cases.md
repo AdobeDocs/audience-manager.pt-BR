@@ -1,6 +1,6 @@
 ---
-description: Recomendações e casos de uso para prospecção, redefinição de metas e personalização de usuários desconhecidos com um gráfico de dispositivos externo. Um gráfico de dispositivo externo é definido como um gráfico de dispositivo separado do Audience Manager. Isso inclui o Adobe Experience Cloud Device Co-op e outras integrações que a Adobe tem com empresas de gráficos de dispositivo probabilísticos ou determinísticos de terceiros.
-seo-description: Recomendações e casos de uso para prospecção, redefinição de metas e personalização de usuários desconhecidos com um gráfico de dispositivos externo. Um gráfico de dispositivo externo é definido como um gráfico de dispositivo separado do Audience Manager. Isso inclui o Adobe Experience Cloud Device Co-op e outras integrações que a Adobe tem com empresas de gráficos de dispositivo probabilísticos ou determinísticos de terceiros.
+description: Casos de uso e Recommendations para prospecção, redefinição de metas e personalização de usuários desconhecidos com um gráfico de dispositivos externos. Um gráfico de dispositivo externo é definido como um gráfico de dispositivo separado do Audience Manager. Isso inclui o Adobe Experience Cloud Device Co-op e outras integrações que o Adobe tem com empresas de gráficos de dispositivos probabilísticos ou determinísticos de terceiros.
+seo-description: Casos de uso e Recommendations para prospecção, redefinição de metas e personalização de usuários desconhecidos com um gráfico de dispositivos externos. Um gráfico de dispositivo externo é definido como um gráfico de dispositivo separado do Audience Manager. Isso inclui o Adobe Experience Cloud Device Co-op e outras integrações que o Adobe tem com empresas de gráficos de dispositivos probabilísticos ou determinísticos de terceiros.
 seo-title: Casos de uso do gráfico do dispositivo externo
 solution: Audience Manager
 title: Casos de uso do gráfico do dispositivo externo
@@ -17,14 +17,14 @@ ht-degree: 5%
 
 # Casos de uso do gráfico do dispositivo externo {#external-device-graph-use-cases}
 
-Recomendações e casos de uso para prospecção, redefinição de metas e personalização de usuários desconhecidos com um gráfico de dispositivos externo. Um gráfico de dispositivo externo é definido como um gráfico de dispositivo separado do Audience Manager. Isso inclui as integrações [!DNL Adobe Experience Cloud Device Co-op] e outras da Adobe com empresas de gráficos de dispositivo probabilísticos ou determinísticos de terceiros.
+Casos de uso e Recommendations para prospecção, redefinição de metas e personalização de usuários desconhecidos com um gráfico de dispositivos externos. Um gráfico de dispositivo externo é definido como um gráfico de dispositivo separado do Audience Manager. Isso inclui o [!DNL Adobe Experience Cloud Device Co-op] e outras integrações que o Adobe tem com empresas de gráficos de dispositivo probabilísticas ou determinísticas de terceiros.
 
 ## Recomendações {#recommendations}
 
-Considere as opções de gráficos de dispositivos [!DNL Experience Cloud Device Co-op] e de terceiros para campanhas que:
+Considere as opções [!DNL Experience Cloud Device Co-op] e de gráficos de dispositivos de terceiros para campanha que:
 
-* Tenha um nível baixo de autenticação em suas propriedades digitais. Use o [!UICONTROL Profile Link Device Graph option] caso tenha um grande número de usuários autenticados.
-* Público alvo audiências grandes. Os gráficos de dispositivos [!DNL Experience Cloud Device Co-op] e de terceiros contêm dados autenticados e não autenticados.
+* Tenha um nível baixo de autenticação em suas propriedades digitais. Use [!UICONTROL Profile Link Device Graph option] se você tiver um grande número de usuários autenticados.
+* Público alvo audiências grandes. Os gráficos [!DNL Experience Cloud Device Co-op] e de dispositivos de terceiros contêm dados autenticados e não autenticados.
 * Segmentar visitantes autenticados e/ou não autenticados no nível individual e doméstico.
 
 ![](assets/merge-rule-triangle1.png)
@@ -97,33 +97,33 @@ These strategies are designed to bring an unauthenticated or unknown user back t
  </tbody>
 </table> -->
 
-## Definição de meta de dispositivo expandida {#audience-expansion}
+## Definição de metas de dispositivo ampliada {#audience-expansion}
 
-Este caso de uso exemplifica como você pode expandir o tamanho de sua audiência endereçável com personalização precisa entre dispositivos, por meio do [!DNL Adobe Co-Op Device Graph] ou de outro [!DNL External Device Graphs].
+Este caso de uso exemplifica como você pode expandir o tamanho de sua audiência endereçável com personalização precisa entre dispositivos, por meio de [!DNL Adobe Co-Op Device Graph] ou outro [!DNL External Device Graphs].
 
 Digamos que Jane seja dona de três dispositivos que ela usa regularmente para procurar por ofertas de pacotes de férias: seu laptop ([!DNL Device 1]), seu smartphone ([!DNL Device 2]) e seu tablet ([!DNL Device 3]). Ao usar o laptop, Jane procurou por voos, hotéis e tours guiados. Ao usar o smartphone e o tablet, ela só visitou a página inicial da agência de viagens.
 
-Ao usar a regra [!UICONTROL No Cross-Device Profile] + [!UICONTROL Adobe Co-op Device Graph] , a agência de viagens pode unir os três perfis de dispositivos, já que eles estão vinculados ao mesmo proprietário pelo [!UICONTROL Adobe Co-op Device Graph].
+Ao usar a regra [!UICONTROL No Cross-Device Profile] + [!UICONTROL Adobe Co-op Device Graph], a agência de viagens pode unir todos os três perfis de dispositivos, já que eles estão vinculados ao mesmo proprietário por meio de [!UICONTROL Adobe Co-op Device Graph].
 
 ![regra de expansão da audiência](assets/audience-expansion-rule.png)
 
-Em nosso exemplo, as características necessárias para se qualificar para o segmento foram todas coletadas [!DNL Device 1]. Como a Audience Manager qualifica cada perfil de dispositivo que participou da fusão do perfil para um segmento, todos os três perfis de dispositivo da Jane agora são segmentados.
+Em nosso exemplo, as características necessárias para se qualificar para o segmento foram coletadas em [!DNL Device 1]. Como a Audience Manager qualifica cada perfil de dispositivo que participou da fusão do perfil para um segmento, todos os três perfis de dispositivo da Jane agora são segmentados.
 
 Por meio dessa regra, o gráfico de dispositivos expandiu o número de perfis de dispositivos que se qualificam para o segmento de um a três e permitiu que a agência de viagens enviasse uma mensagem consistente para todos os três dispositivos pertencentes à Jane.
 
 ![expansão da audiência](assets/audience-expansion.png)
 
-## Direcionamento avançado entre dispositivos {#advanced-graph-expansion}
+## Definição de metas avançada entre dispositivos {#advanced-graph-expansion}
 
-Este caso de uso mostra como você pode expandir a definição de metas de audiência para visitantes autenticados com dispositivos de um gráfico de dispositivo externo ou do [!DNL Adobe Co-Op Device Graph], usando a regra **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adobe Co-Op Device Graph]** .
+Este caso de uso mostra como você pode expandir a definição de metas de audiência para visitantes autenticados com dispositivos de um gráfico de dispositivo externo ou de [!DNL Adobe Co-Op Device Graph], usando a regra **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adobe Co-Op Device Graph]**.
 
 ![último dispositivo-gráfico](assets/last-device-coop.png)
 
-No exemplo abaixo, a empresa da Acme Inc. quer público alvo de todas as famílias com rendimentos acima de US$ 100.000/ano, que têm [!DNL Acme Inc.] assinantes [!DNL Data Plan A], que usam um [!DNL iPhone 7] dispositivo.
+No exemplo abaixo, a empresa da Acme Inc. quer público alvo todas as famílias com rendimentos acima de US$ 100.000/ano, que têm [!DNL Acme Inc.] assinantes em [!DNL Data Plan A], que usam um dispositivo [!DNL iPhone 7].
 
-John usa seu iPhone 7 no Data Plan A para autenticar no site da Acme Inc. Ao mesmo tempo, o [!DNL Co-Op Device Graph] cluster de John contém dois dispositivos adicionais que ele usa regularmente: seu laptop ([!DNL Device 1]) e seu smartphone secundário [!DNL Device 2] (um [!DNL Samsung S7] ligado [!DNL Data Plan B]).
+John usa seu iPhone 7 no Data Plan A para autenticar no site da Acme Inc. Ao mesmo tempo, o cluster do John [!DNL Co-Op Device Graph] contém dois dispositivos adicionais que ele usa regularmente: seu laptop ([!DNL Device 1]) e seu smartphone secundário, [!DNL Device 2] (a [!DNL Samsung S7] em [!DNL Data Plan B]).
 
-Usando o **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adobe Co-Op Device Graph]**, [!DNL Acme Inc.] é capaz de fornecer mensagens personalizadas para todos os três dispositivos do cluster de gráficos de dispositivos do John, mesmo que apenas um deles se qualifice inicialmente para o segmento.
+Ao usar o **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adobe Co-Op Device Graph]**, o [!DNL Acme Inc.] é capaz de fornecer mensagens personalizadas para todos os três dispositivos do cluster de gráficos de dispositivos do John, mesmo que apenas um deles se qualifice inicialmente para o segmento.
 
 ![expansão avançada de gráficos](assets/advanced-device-graph-expansion.png)
 
@@ -131,5 +131,5 @@ Usando o **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adobe Co-O
 >
 >* [Casos de uso do gráfico de dispositivo de link de perfis](profile-link-use-case.md)
 >* [Casos de uso gerais para regras de mesclagem de perfis](merge-rule-targeting-options.md)
->* [Perguntas frequentes sobre as regras de mesclagem de Perfis](../../faq/faq-profile-merge.md)
+>* [Perguntas frequentes sobre as regras de mesclagem de perfis](../../faq/faq-profile-merge.md)
 
