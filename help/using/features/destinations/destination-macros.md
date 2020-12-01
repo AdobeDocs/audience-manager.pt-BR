@@ -21,7 +21,7 @@ Descreve as macros que podem ser adicionadas a um destino [!DNL URL].
 
 <!-- destination-macros.xml -->
 
-Ao criar um [!DNL URL] destino, você pode inserir as seguintes macros na [!DNL URL] string. Verifique com seu parceiro de dados/destino se a macro está posicionada corretamente no destino [!DNL URL].
+Ao criar um destino [!DNL URL], você pode inserir as seguintes macros na string [!DNL URL]. Verifique com seu parceiro de dados/destino a localização correta da macro no destino [!DNL URL].
 
 >[!NOTE]
 >
@@ -37,31 +37,31 @@ Ao criar um [!DNL URL] destino, você pode inserir as seguintes macros na [!DNL 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> %alias%</code> </p> </td> 
-   <td colname="col2"> <p>Obrigatório. </p> <p>Define o local do valor do segmento mapeado em um URL de destino. Geralmente, essa é a ID <i>do</i>segmento, mas também pode ser o código de integração. </p> </td> 
+   <td colname="col2"> <p>Obrigatório. </p> <p>Define o local do valor do segmento mapeado em um URL de destino. Geralmente, essa é a <i>ID do segmento</i>, mas também pode ser o código de integração. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> %did%</code> </p> </td> 
-   <td colname="col2"> <p>Insere a ID de <span class="keyword"> Audience Manager</span> do usuário no URL de destino. </p> </td> 
+   <td colname="col2"> <p>Insere a ID do Audience Manager<span class="keyword"> do usuário no URL de destino.</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>%dpid_<i>data source id</i>%</code> </p> </td> 
-   <td colname="col2"> <p>A ID <i>da fonte de</i> dados corresponde ao identificador de uma fonte de dados transmitida para a macro. </p> <p>Vejamos como isto funciona num exemplo simples. Nesse caso, temos um parceiro <span class="keyword"> Audience Manager</span> com as seguintes IDs e condições: </p> 
+   <td colname="col2"> <p>O <i>id da fonte de dados</i> corresponde ao identificador de uma fonte de dados transmitida para a macro. </p> <p>Vejamos como isto funciona num exemplo simples. Nesse caso, temos um parceiro <span class="keyword"> Audience Manager</span> com as seguintes IDs e condições: </p> 
     <ul id="ul_697508B437EB4090B121AFA5D519AFBE"> 
      <li id="li_32D9F72A7D1543A892DC7E1529E98A96">ID da fonte de dados: <code> 1</code> </li> 
      <li id="li_099F5B63D2244B5AADA9B26CB6152E6B">Uma ID interna do cliente: <code> CustomerABC</code> </li> 
      <li id="li_0D9FE501C16444DDB388C8E934E5A8C6">ID declarada: O parceiro deseja transmitir esses valores como a ID declarada <code> 1:CustomerABC</code>. </li> 
-    </ul> <p>Para fazer isso com o <code>%dpid_<i>data source id</i>%</code>, o parceiro de <span class="keyword"> Audience Manager</span> formataria a macro desta forma: </p> 
+    </ul> <p>Para fazer isso com <code>%dpid_<i>data source id</i>%</code>, o parceiro <span class="keyword"> Audience Manager</span> formataria a macro da seguinte forma: </p> 
     <ul class="simplelist"> 
      <li> <code> %dpid_1%</code> </li> 
-    </ul> <p>A macro será substituída <code> 1</code> por <code> CustomerABC</code>. </p> </td> 
+    </ul> <p>A macro substituirá <code> 1</code> por <code> CustomerABC</code>. </p> </td> 
   </tr> 
   <tr>
     <td><p><code>${GDPR}</code></p></td>
-    <td><p>Indica se os regulamentos RGPD se aplicam ao visitante ou não. Use essa macro para incluir o consentimento em segmentos enviados para destinos de URL integrados com o IAB. Consulte Plug-in <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager para IAB TCF</a> para obter detalhes.</p></td>
+    <td><p>Indica se os regulamentos RGPD se aplicam ao visitante ou não. Use essa macro para incluir o consentimento em segmentos enviados para destinos de URL integrados com o IAB. Consulte <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Plug-in Audience Manager para IAB TCF</a> para obter detalhes.</p></td>
   </tr>
    <tr>
     <td><code>${GDPR_CONSENT_XXXX}</code></p></td>
-    <td><p>A sequência de caracteres de consentimento (incluindo a ID de fornecedor IAB) coletada quando os visitantes fornecem ou negam o consentimento em seu site. Use essa macro para incluir a sequência de caracteres de consentimento nos segmentos enviados para destinos de URL integrados com IAB. Substitua <code>XXXX</code> pela ID do parceiro de destino. Consulte Plug-in <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager para IAB TCF</a> para obter detalhes. </p></td>
+    <td><p>A sequência de caracteres de consentimento (incluindo a ID de fornecedor IAB) coletada quando os visitantes fornecem ou negam o consentimento em seu site. Use essa macro para incluir a sequência de caracteres de consentimento nos segmentos enviados para destinos de URL integrados com IAB. Substitua <code>XXXX</code> pela ID do parceiro de destino. Consulte <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Plug-in Audience Manager para IAB TCF</a> para obter detalhes. </p></td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> %http_proto%</code> </p> </td> 
@@ -74,11 +74,11 @@ Ao criar um [!DNL URL] destino, você pode inserir as seguintes macros na [!DNL 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> %mcid%</code> </p> </td> 
-   <td colname="col2"> <p>Insere a ID do <span class="keyword"> Experience Cloud</span> no URL de destino. </p> </td> 
+   <td colname="col2"> <p>Insere a ID <span class="keyword"> Experience Cloud</span> no URL de destino. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> %region%</code> </p> </td> 
-   <td colname="col2"> <p>Insere a região <span class="wintitle"> Data Collection Server (DCS)</span> no URL de destino. Para minimizar a latência, quando o visitante faz uma chamada HTTP para o <span class="keyword"> Audience Manager</span>, eles estão sendo redirecionados para o datacenter <span class="wintitle"> DCS</span> mais próximo. Isso é feito por meio do DNS, que é capaz de detectar o local do visitante e direcioná-lo para o data center apropriado. </p> </td> 
+   <td colname="col2"> <p>Insere a região <span class="wintitle"> Data Collection Server (DCS)</span> no URL de destino. Para minimizar a latência, quando o visitante faz uma chamada HTTP para <span class="keyword"> Audience Manager</span>, eles estão sendo redirecionados para o data center <span class="wintitle"> DCS</span> mais próximo. Isso é feito por meio do DNS, que é capaz de detectar o local do visitante e direcioná-lo para o data center apropriado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> %rnd%</code> </p> </td> 
@@ -91,24 +91,24 @@ Ao criar um [!DNL URL] destino, você pode inserir as seguintes macros na [!DNL 
  </tbody> 
 </table>
 
-## Compuração de cache com macros de destino {#destination-cache-busting}
+## Compilação de cache com macros de destino {#destination-cache-busting}
 
-As macros `%rnd%` e `%timestamp%` os inserem valores exclusivos em uma [!DNL URL] sequência de caracteres para impedir o armazenamento em cache do navegador.
+As macros `%rnd%` e `%timestamp%` inserem valores exclusivos em uma sequência [!DNL URL] para impedir o armazenamento em cache do navegador.
 
-## Cache Busting com `%rnd%` e `%timestamp%` {#dest-cache-busting}
+## Compartilhamento de cache com `%rnd%` e `%timestamp%` {#dest-cache-busting}
 
 <!-- c_dest_cache_busting.xml -->
 
 O cache dos navegadores (salvar) solicitava com frequência o conteúdo na memória. Quando uma página é carregada, o conteúdo salvo serve do cache em vez de de um servidor remoto. Esse processo ajuda a manter tempos de download eficientes, pois os dados são fornecidos localmente, em vez de em outro local. No entanto, como o cache não requer uma chamada de servidor, ele pode distorcer o relatórios reduzindo artificialmente o número de solicitações exclusivas.
 
-A eliminação de cache impede que os navegadores salvem e reutilizem conteúdo. Essa técnica usa um código que insere um número aleatório ou carimbo de data e hora em uma string de URL, o que faz com que pareça exclusivo para o navegador. Como resultado, cada `HTTP` chamada é contada como uma solicitação separada para o servidor. Forçar uma nova chamada de servidor para cada solicitação ajuda a manter a precisão do relatórios e a reduzir as discrepâncias. [!DNL Audience Manager] fornece duas macros para o cache busting:
+A eliminação de cache impede que os navegadores salvem e reutilizem conteúdo. Essa técnica usa um código que insere um número aleatório ou carimbo de data e hora em uma string de URL, o que faz com que pareça exclusivo para o navegador. Como resultado, cada chamada `HTTP` é contada como uma solicitação separada para o servidor. Forçar uma nova chamada de servidor para cada solicitação ajuda a manter a precisão do relatórios e a reduzir as discrepâncias. [!DNL Audience Manager] fornece duas macros para o cache busting:
 
 * `%rnd%`: Insere um número aleatório em um URL.
 * `%timestamp%`: Insere a data/hora do Unix em um URL.
 
 ## Comparar `%rnd%` e `%timestamp%` {#compare-rnd-timestamp}
 
-Ambas as macros impedem o cache, mas `%rnd%` podem ser mais eficientes. Por exemplo, com `%timestamp%`, se vários usuários visualizações uma página simultaneamente, eles obterão o mesmo valor de data/hora. Como resultado, as chamadas não [!DNL URL] são exclusivas e várias são contadas apenas uma vez. No entanto, `%rnd%` gera um valor numérico exclusivo para cada chamada (mesmo quando os usuários veem a mesma página simultaneamente). Isso significa que a [!DNL URL] string contém valores diferentes e é contada como exclusiva.
+Ambas as macros impedem o cache, mas `%rnd%` pode ser mais eficiente. Por exemplo, com `%timestamp%`, se vários usuários visualizações uma página simultaneamente, eles obterão o mesmo valor de data/hora. Como resultado, [!DNL URL] não é exclusivo e várias chamadas são contadas apenas uma vez. Entretanto, `%rnd%` gera um valor numérico exclusivo para cada chamada (mesmo quando os usuários veem a mesma página simultaneamente). Isso significa que a string [!DNL URL] contém valores diferentes e é contada como exclusiva.
 
 >[!MORELIKETHIS]
 >
