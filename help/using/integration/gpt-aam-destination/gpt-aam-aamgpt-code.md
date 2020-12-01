@@ -17,15 +17,15 @@ ht-degree: 19%
 
 # Código do Audience Manager para Tags do Google Publisher {#audience-manager-code-for-google-publisher-tags}
 
-`AamGpt` é uma [!DNL JavaScript] função que lê os dados de cookies do Audience Manager e envia essas informações para [!DNL Google Publisher Tags].
+`AamGpt` é uma  [!DNL JavaScript] função que lê os dados de cookies do Audience Manager e envia essas informações para  [!DNL Google Publisher Tags].
 
 >[!NOTE]
 >
->Essa função não é necessária se você tiver seu próprio código para ler dados de cookies de Audience Manager dos cookies [!UICONTROL UUID] e de destino.
+>Essa função não é necessária se você tiver seu próprio código para ler os dados do cookie de Audience Manager dos cookies [!UICONTROL UUID] e de destino.
 
 ## Código de exemplo
 
-Coloque o `AamGpt` código na parte superior da página, idealmente dentro do bloco de `<head>` código. O `AamGpt` código está disponível abaixo:
+Coloque o código `AamGpt` na parte superior da página, idealmente dentro do bloco de código `<head>`. O código `AamGpt` está disponível abaixo:
 
 ```js
 var AamGpt = {  
