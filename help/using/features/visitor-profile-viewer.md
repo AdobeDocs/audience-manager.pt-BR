@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # Visualizador de perfil do visitante {#visitor-profile-viewer}
 
-Use o [!UICONTROL Visitor Profile Viewer] para exibir o estado atual de um perfil de usuário para o navegador atual, incluindo suas características e segmentos. Para cada característica, você pode visualização seus [!UICONTROL SID]nomes, detalhes sobre como as características do visitante foram realizadas (primeiro ou terceiro), a data de realização e a frequência de realização. Para cada segmento, você pode visualização sua data [!UICONTROL SID], nome e a data de associação do segmento. Você também pode visualização o perfil do visitante para outra ID do perfil ([!UICONTROL UUID]). O [!UICONTROL Visitor Profile Viewer] é útil para fins de solução de problemas.
+Use [!UICONTROL Visitor Profile Viewer] para exibir o estado atual de um perfil de usuário para o navegador atual, incluindo suas características e segmentos. Para cada característica, você pode visualização seus [!UICONTROL SID] nomes, detalhes sobre como as características do visitante foram realizadas (primeiro ou terceiro), a data de realização e a frequência das realizações. Para cada segmento, você pode visualização seus [!UICONTROL SID], nome e a data de associação do segmento. Você também pode visualização o perfil do visitante para outra ID do perfil do Audience Manager ([!UICONTROL UUID]). O [!UICONTROL Visitor Profile Viewer] é útil para fins de solução de problemas.
 
 >[!NOTE]
 >
@@ -33,12 +33,12 @@ Traits that are not part of a segment will not appear in the
 
 1. Clique em **[!UICONTROL Tools]** > **[!UICONTROL Visitor Profile Viewer]**.
 
-1. *(Opcional)* Clique no nome da característica para exibi-la no [!UICONTROL Trait Builder].
+1. *(Opcional)* Clique no nome da característica para exibi-la no  [!UICONTROL Trait Builder].
 
    Para obter mais informações, consulte [Características](../features/traits/trait-details-page.md).
 
-1. *(Opcional)* Clique no nome do segmento para exibi-lo no [!UICONTROL Segment Builder].
+1. *(Opcional)* Clique no nome do segmento para exibi-lo no  [!UICONTROL Segment Builder].
 
-   For more information, see [Segments](../features/segments/segments-purpose.md).
+   Para obter mais informações, consulte [Segmentos](../features/segments/segments-purpose.md).
 
-1. *(Condicional)* Na **[!UICONTROL UUID]** caixa, especifique outra ID de perfil de Audience Manager e, em seguida, clique **[!UICONTROL Refresh]** para visualização as características e os segmentos desse usuário.
+1. *(Condicional)* Na  **[!UICONTROL UUID]** caixa, especifique outra ID de perfil de Audience Manager e clique  **[!UICONTROL Refresh]** para visualização as características e os segmentos desse usuário.
