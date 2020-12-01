@@ -29,8 +29,8 @@ t_reports_outbound_history.xml
 
    ![Resultado da etapa](assets/outbound_history.png)
 
-1. Na **[!UICONTROL Search for a Destination]** caixa, digite o start e selecione o destino desejado.
-1. Na **[!UICONTROL Select a Date Range]** caixa, especifique as datas de start e término do relatório e clique em **[!UICONTROL Apply Date Filter]**.
+1. Na caixa **[!UICONTROL Search for a Destination]**, digite o start e selecione o destino desejado.
+1. Na caixa **[!UICONTROL Select a Date Range]**, especifique as datas de start e término do relatório e clique em **[!UICONTROL Apply Date Filter]**.
 
    ![Resultado da etapa](assets/outbound_history_stats.png)
 
@@ -46,11 +46,11 @@ t_reports_outbound_history.xml
  <tbody> 
   <tr> 
    <td colname="col1"> Nome do arquivo de sincronização de dados </td> 
-   <td colname="col2"> <p>Lista de todos os arquivos de saída que <span class="keyword"> a Adobe</span> gerou para este destino que foram processados juntos. </p> </td> 
+   <td colname="col2"> <p>Lista de todos os arquivos de saída <span class="keyword"> Adobe</span> gerados para este destino que foram processados juntos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Êxito </td> 
-   <td colname="col2"> <p>Número de registros enviados com êxito do <span class="keyword"> Audience Manager</span> para o destino. </p> </td> 
+   <td colname="col2"> <p>Número de registros enviados com êxito de <span class="keyword"> Audience Manager</span> para o destino. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Falha </td> 
@@ -58,7 +58,7 @@ t_reports_outbound_history.xml
   </tr> 
   <tr> 
    <td colname="col1"> Registros recebidos </td> 
-   <td colname="col2"> <p>O número total de registros que a <span class="keyword"> Adobe</span> gerou nos arquivos e tentou enviar para o destino. Na maioria dos casos, esse deve ser o número total de arquivos bem-sucedidos e com falha. </p> </td> 
+   <td colname="col2"> <p>O número total de registros <span class="keyword"> Adobe</span> gerados nos arquivos e tentados enviar para o destino. Na maioria dos casos, esse deve ser o número total de arquivos bem-sucedidos e com falha. </p> </td> 
   </tr> 
  </tbody> 
 </table>
