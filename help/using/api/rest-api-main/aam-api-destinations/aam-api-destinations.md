@@ -21,11 +21,11 @@ Métodos que permitem trabalhar programaticamente com recursos de destino.
 
 <!-- c_destinations_api.xml -->
 
-No Audience Manager, o destino é qualquer outro sistema (servidor de anúncios, rede de anúncios, troca, cookie próprio, etc.) [!DNL DSP] com o qual você deseja compartilhar dados.
+No Audience Manager, o destino é qualquer outro sistema (servidor de anúncios, [!DNL DSP], rede de anúncios, troca, cookie próprio, etc.) com o qual você deseja compartilhar dados.
 
 ## Tipos de Destino: URL e cookie {#destination-types}
 
-Lista as variáveis usadas pelo `destinationType` parâmetro. Especifique `push` ou `ADS` para trabalhar com um [!UICONTROL URL] ou [!UICONTROL cookie destination]. Não é possível criar [!UICONTROL server-to-server destinations] com os [!DNL API] métodos de destino disponíveis.
+Lista as variáveis usadas pelo parâmetro `destinationType`. Especifique `push` ou `ADS` para trabalhar com um [!UICONTROL URL] ou [!UICONTROL cookie destination]. Não é possível criar [!UICONTROL server-to-server destinations] com os métodos [!DNL API] de destino disponíveis.
 
 <!-- r_destination_types.xml -->
 
