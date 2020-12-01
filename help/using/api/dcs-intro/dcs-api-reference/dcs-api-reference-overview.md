@@ -15,11 +15,11 @@ ht-degree: 13%
 
 # Visão geral de referência da DCS API
 
-Informações conceituais, descrições e definições para [!DNL DCS API] código, métodos e processos.
+Informações conceituais, descrições e definições para código, métodos e processos [!DNL DCS API].
 
 * [Métodos da DCS API](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
-   Envie dados para o [!DNL DCS API] usando os métodos GET ou POST.
+   Envie dados para [!DNL DCS API] usando métodos GET ou POST.
 
 * [Códigos de erros, mensagens e exemplos de DCS](/help/using/api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
 
