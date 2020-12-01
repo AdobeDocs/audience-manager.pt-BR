@@ -1,6 +1,6 @@
 ---
-description: Envie dados para a API DCS usando os métodos GET ou POST.
-seo-description: Envie dados para a API DCS usando os métodos GET ou POST.
+description: Envie dados para a API DCS usando métodos GET ou POST.
+seo-description: Envie dados para a API DCS usando métodos GET ou POST.
 seo-title: Métodos da DCS API
 solution: Audience Manager
 title: Métodos da DCS API
@@ -17,13 +17,13 @@ ht-degree: 6%
 
 # [!DNL DCS] [!DNL API] Métodos {#dcs-api-methods}
 
-Envie dados para o [!DNL DCS] usando [!DNL API] ou `GET` `POST` métodos.
+Envie dados para [!DNL DCS] [!DNL API] usando os métodos `GET` ou `POST`.
 
-É possível enviar dados para o [!DNL DCS] usando um dos métodos `GET` ou `POST` . Veja as chamadas de amostra abaixo, usando [curl](https://curl.haxx.se/). Em todas as três chamadas de amostra, estamos adicionando os sinais `c_likes = famous popstar` e `c_loves = famous actress` ao perfil do dispositivo `12345678901234567890123456789012345678`.
+Você pode enviar dados para [!DNL DCS] usando um dos métodos `GET` ou `POST`. Observe as chamadas de amostra abaixo, usando [curl](https://curl.haxx.se/). Em todas as três chamadas de amostra, estamos adicionando os sinais `c_likes = famous popstar` e `c_loves = famous actress` ao perfil do dispositivo `12345678901234567890123456789012345678`.
 
 ## Enviar dados via [!DNL GET] {#send-data-via-get}
 
-Observe que o tamanho máximo permitido para `GET` chamadas é de 8K.
+Observe que o tamanho máximo permitido para chamadas `GET` é de 8K.
 
 ```
 curl -i "yourcompany.demdex.net/event?d_uuid=12345678901234567890123456789012345678&d_rtbd=json&c_likes=famous%20popstar&c_loves=famous%20actress"
@@ -31,7 +31,7 @@ curl -i "yourcompany.demdex.net/event?d_uuid=12345678901234567890123456789012345
 
 ## Enviar dados via [!DNL POST] {#send-data-via-post}
 
-Observe os requisitos para o envio de dados usando o `POST` método:
+Observe os requisitos para enviar dados usando o método `POST`:
 
 * O tamanho máximo permitido é 32 K.
 * Defina o tipo de conteúdo como `application/x-www-form-urlencoded`.
