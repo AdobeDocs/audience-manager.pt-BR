@@ -18,19 +18,19 @@ ht-degree: 6%
 
 # Limites de uso {#usage-limits}
 
-O Audience Manager define um limite máximo para o número de características, segmentos, destinos e modelos algorítmicos que você pode criar para uma conta. Os limites se aplicam a esses itens, sejam criados na interface do usuário ou por meio de [!DNL API] métodos programaticamente. Os limites de uso ajudam a proteger a Audience Manager de processos automatizados que podem tentar comprometer nossa interface [!DNL API]de usuário ou de usuário.
+O Audience Manager define um limite máximo para o número de características, segmentos, destinos e modelos algorítmicos que você pode criar para uma conta. Os limites se aplicam a esses itens, seja criados na interface do usuário ou de forma programática pelos métodos [!DNL API]. Os limites de uso ajudam a proteger o Audience Manager de processos automatizados que podem tentar comprometer nossa [!DNL API]s ou interface do usuário.
 
 ## Limites de mapeamento de ID {#id-mapping-limits}
 
-A tabela abaixo lista os limites de mapeamento [de](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) ID para IDs de dispositivo. Quando uma ID atinge qualquer um dos limites abaixo, a Audience Manager adiciona novos mapeamentos de ID com base em uma lógica FIFO (primeira entrada, primeira saída), removendo o mapeamento de ID armazenado mais antigo e adicionando o novo. Consulte [Índice de IDs](../../reference/ids-in-aam.md) no Audience Manager para obter detalhes sobre as IDs suportadas pelo Audience Manager.
+A tabela abaixo lista os limites [de mapeamento de ID](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) para IDs de dispositivo. Quando uma ID atinge qualquer um dos limites abaixo, a Audience Manager adiciona novos mapeamentos de ID com base em uma lógica FIFO (primeira entrada, primeira saída), removendo o mapeamento de ID armazenado mais antigo e adicionando o novo. Consulte [Índice de IDs](../../reference/ids-in-aam.md) no Audience Manager para obter detalhes sobre as IDs suportadas pelo Audience Manager.
 
 | Mapeamento de ID | Limite máximo |
 |-----------|-------------- |
-| ID de anúncio do dispositivo ([DAID](../../reference/ids-in-aam.md)) para ID entre dispositivos ([DPUUID](../../reference/ids-in-aam.md)) | 100 Device Advertising ID ([DAID](../../reference/ids-in-aam.md)) para 1 ID entre dispositivos ([DPUUID](../../reference/ids-in-aam.md)) |
-| ID entre dispositivos ([DPUUID](../../reference/ids-in-aam.md)) para ID de publicidade do dispositivo ([DAID](../../reference/ids-in-aam.md)) | 10 IDs entre dispositivos ([DPUUID](../../reference/ids-in-aam.md)) para 1 ID de anúncio de dispositivo ([DAID](../../reference/ids-in-aam.md)), por cada [DPID](../../reference/ids-in-aam.md) |
+| ID de anúncio do dispositivo ([DAID](../../reference/ids-in-aam.md)) para ID entre dispositivos ([DPUUID](../../reference/ids-in-aam.md)) | 100 IDs de publicidade do dispositivo ([DAID](../../reference/ids-in-aam.md)) em 1 ID entre dispositivos ([DPUUID](../../reference/ids-in-aam.md)) |
+| ID entre dispositivos ([DPUUID](../../reference/ids-in-aam.md)) para ID de anúncio do dispositivo ([DAID](../../reference/ids-in-aam.md)) | 10 IDs entre dispositivos ([DPUUID](../../reference/ids-in-aam.md)) para 1 ID de anúncio do dispositivo ([DAID](../../reference/ids-in-aam.md)), por cada [DPID](../../reference/ids-in-aam.md) |
 | ID do cookie/navegador para a ID do cookie/navegador | IDs de cookie/navegador 1000 para 1 ID de cookie/navegador |
 
-## Limites de item {#item-limits}
+## Limites do Item {#item-limits}
 
 As tabelas listas os limites atuais por tipo de item. Não é possível criar novas características, segmentos, destinos ou [!UICONTROL Algorithmic Models] se você atingir um limite específico para um desses itens. Se você atingir um limite, deverá excluir um item mais antigo antes de criar um novo.
 
@@ -38,18 +38,18 @@ As tabelas listas os limites atuais por tipo de item. Não é possível criar no
 
 | Tipo de característica | Limite máximo |
 | -------------------------- | ------------------------------------- |
-| Características totais | 100,000 |
-| Total de Qualificações de Características | 150,000. Para obter mais informações sobre qualificação de características, consulte Limite de qualificação de características na Referência [de](/help/using/features/traits/trait-and-segment-qualification-reference.md#trait-qualification-limit)qualificações de características. |
+| Características totais | 100 000 |
+| Total de Qualificações de Características | 150.000. Para obter mais informações sobre qualificação de características, consulte Limite de qualificação de características em [Referência de qualificações de características](/help/using/features/traits/trait-and-segment-qualification-reference.md#trait-qualification-limit). |
 | Algorítmico | 50 |
-| Baseada em regras | 100,000 |
-| Onboard | 100,000 |
-| Características da pasta | 2,000 |
+| Baseada em regras | 100 000 |
+| Onboard | 100 000 |
+| Características da pasta | 2 000 |
 
 ### Limites do segmento
 
 | Tipo de segmento | Limite máximo |
 | -------------- | ------------- |
-| Total de segmentos | 20,000 |
+| Total de segmentos | 20 000 |
 
 ### Limites de Destino
 
@@ -65,17 +65,17 @@ As tabelas listas os limites atuais por tipo de item. Não é possível criar no
 
 | Item | Limite máximo |
 | -------- | ----- |
-| Ativo [!UICONTROL Look-Alike Models] | 20. Audience Manager only counts *active* algorithmic models against the limit. |
-| [!UICONTROL Look-Alike Models] tamanho máximo da audiência | 25,000,000.  Observe que esse limite não pode ser aumentado. Você pode diminuir os tamanhos das audiências selecionando menos fontes de dados para o modelo ou selecionando uma janela de retrospectiva mais curta. |
-| Número máximo de características excluídas para um [!UICONTROL Look-Alike Model] | 500. Consulte Exclusão de [características na modelagem](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md)algorítmica. |
-| Naxima [!UICONTROL Predictive Audiences Models] | 10 |
+| Ativo [!UICONTROL Look-Alike Models] | 20. O Audience Manager só conta os modelos algorítmicos *ativos* em relação ao limite. |
+| [!UICONTROL Look-Alike Models] tamanho máximo da audiência | 25.000.000.  Observe que esse limite não pode ser aumentado. Você pode diminuir os tamanhos das audiências selecionando menos fontes de dados para o modelo ou selecionando uma janela de retrospectiva mais curta. |
+| Número máximo de características excluídas para [!UICONTROL Look-Alike Model] | 500. Consulte [Exclusão de características na Modelagem algorítmica](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
+| Naximum [!UICONTROL Predictive Audiences Models] | 10 |
 | Número máximo de personas da linha de base para [!UICONTROL Predictive Audiences Models] | 50 |
 
 ### Limites da pasta
 
 | Item | Limite máximo |
 | ------------- | ------------------ |
-| Pastas de características | 2,000.  Sua estrutura de pastas pode ter no máximo 5 níveis de profundidade. |
+| Pastas de características | 2.000.  Sua estrutura de pastas pode ter no máximo 5 níveis de profundidade. |
 
 ### Limites de Sinais Derivados
 
