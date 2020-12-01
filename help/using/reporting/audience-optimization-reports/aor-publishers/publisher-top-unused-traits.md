@@ -21,31 +21,31 @@ As Características principais não usadas são representadas como um diagrama d
 
 ## Caso de uso {#use-cases}
 
-Com o [!UICONTROL Top Unused Traits] relatório, você pode analisar e comparar o desempenho de características originais e de terceiros que não estão mapeadas no momento para um segmento. Essa visualização pode indicar as melhores características a serem usadas em um segmento de audiência para otimização de campanha ou novas oportunidades líquidas.
+Com o relatório [!UICONTROL Top Unused Traits], você pode analisar e comparar o desempenho de características originais e de terceiros que não estão mapeadas no momento para um segmento. Essa visualização pode indicar as melhores características a serem usadas em um segmento de audiência para otimização de campanha ou novas oportunidades líquidas.
 
 ## Usando o relatório Principais características não usadas {#using-the-report}
 
-Use os **[!UICONTROL Data Provider Type]** controles para alternar entre características de terceiros e de terceiros. Selecione **[!UICONTROL All]** para retornar características originais e de terceiros no relatório.
+Use os controles **[!UICONTROL Data Provider Type]** para alternar entre características de terceiros e de terceiros. Selecione **[!UICONTROL All]** para retornar características de terceiros e originais no relatório.
 
-Com o **[!UICONTROL Impressions]** controle deslizante, é possível selecionar um valor mínimo e máximo para impressões retornadas. Quaisquer características responsáveis por menos ou mais dos limites definidos não serão exibidas no relatório.
+Com o controle deslizante **[!UICONTROL Impressions]**, é possível selecionar um valor mínimo e máximo para impressões retornadas. Quaisquer características responsáveis por menos ou mais dos limites definidos não serão exibidas no relatório.
 
 Use os controles **[!UICONTROL Day Range]** e **[!UICONTROL Date Through]** para ajustar o intervalo de retrospectiva. Observe que apenas o período de 30 dias de análise está disponível para este relatório.
 
-Use a caixa **[!UICONTROL Order]** suspensa para selecionar as propriedades da Web no seu portfólio para as quais deseja retornar informações.
+Use a caixa suspensa **[!UICONTROL Order]** para selecionar as propriedades da Web em seu portfólio para as quais deseja retornar informações.
 
-Na caixa **[!UICONTROL Data Provider]** suspensa, selecione as fontes de dados que contêm as características que você deseja ver no relatório.
+Na caixa suspensa **[!UICONTROL Data Provider]**, selecione as fontes de dados que contêm as características que você deseja ver no relatório.
 
-Use a caixa **[!UICONTROL Traits]** suspensa para selecionar quais características você deseja ver no relatório.
+Use a caixa suspensa **[!UICONTROL Traits]** para selecionar quais características você deseja ver no relatório.
 
 >[!IMPORTANT]
 >
->Ao ativar [!UICONTROL Audience Optimization for Publishers], você deve incluir metadados descritivos para [!UICONTROL Order IDs], conforme descrito na Etapa 3 de [Importar arquivos de dados do Google Ad Manager (antigo DFP) para o Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ao fazer isso, você garante que o relatório detalhe a propriedade da Web como [!UICONTROL Order] não como [!UICONTROL Order ID].
+>Ao ativar [!UICONTROL Audience Optimization for Publishers], você deve incluir metadados descritivos para [!UICONTROL Order IDs], conforme descrito na Etapa 3 de [Importar arquivos de dados do Google Ad Manager (antigo DFP) para Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ao fazer isso, você garante que o relatório detalhe a propriedade da Web como [!UICONTROL Order] em vez de [!UICONTROL Order ID].
 
 ## Interpretação dos resultados {#interpreting-results}
 
 **Relatório de exemplo**
 
-O seu [!UICONTROL Top Unused Traits] relatório pode ser semelhante ao que se segue. Em seu relatório, clique em uma bolha para visualização dos dados subjacentes.
+Seu relatório [!UICONTROL Top Unused Traits] pode ser semelhante ao apresentado abaixo. Em seu relatório, clique em uma bolha para visualização dos dados subjacentes.
 
 Consulte descrições para obter as informações adicionais na tabela abaixo do relatório de amostra.
 
@@ -90,9 +90,9 @@ Consulte descrições para obter as informações adicionais na tabela abaixo do
 
 A posição de suas características em um relatório pode informar muito sobre quais características você pode usar para otimizar segmentos de audiência existentes.
 
-As características situadas acima no eixo Impressões são aquelas que você deseja usar em suas campanhas. Para características com um número baixo de impressões, é improvável que você esteja atingindo essa audiência em sua propriedade da Web, com base em seus [!DNL Google Ad Manager] dados.
+As características situadas acima no eixo Impressões são aquelas que você deseja usar em suas campanhas. Para características com um número baixo de impressões, é improvável que você esteja atingindo essa audiência em sua propriedade da Web, com base nos dados [!DNL Google Ad Manager].
 
-À esquerda do [!UICONTROL Unique Trait Realizations] eixo, procure traços altamente precisos e à direita por traços que possam impulsionar a escala.
+Procure à esquerda do eixo [!UICONTROL Unique Trait Realizations] por características altamente precisas e à direita por características que possam impulsionar a escala.
 
 <table id="table_A29253B30DFA4CD7B3B7C320DE0BDEA4"> 
  <thead> 
