@@ -286,7 +286,7 @@ ht-degree: 93%
 + Guias de implementação e integração {#implementation-integration-guides}
    + [Guias de implementação e integração](integration/implementation-and-integration.md)
    + [Métodos de integração de dados](integration/data-integration-methods.md)
-   + Integre o Google Ad Manager usando Google Publisher Tags (GPT){#integrate-dfp-using-gpt}
+   + Integre o Google Ad Manager usando as tags do Google Publisher (GPT){#integrate-dfp-using-gpt}
       + [Integrar o Google Ad Manager usando a visão geral GPT](integration/gpt-aam-destination/gpt-aam-overview.md)
       + [Envio de segmentos para o Google Ad Manager usando GPT](integration/gpt-aam-destination/gpt-aam-requirements.md)
       + [Criar um destino com GPT](integration/gpt-aam-destination/gpt-aam-create-destination.md)
