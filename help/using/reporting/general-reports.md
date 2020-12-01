@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # Relatórios gerais{#general-reports}
 
-Um [!UICONTROL General] relatório retorna dados de desempenho sobre características, segmentos e destinos.
+Um relatório [!UICONTROL General] retorna dados de desempenho sobre características, segmentos e destinos.
 
 ## Visão geral {#general-reports-overview}
 
@@ -27,9 +27,9 @@ c_general_reports.xml
 
  -->
 
-[!DNL Audience Manager] usa [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]) para estender permissões do grupo de usuários aos [!UICONTROL General] relatórios. Os usuários podem ver apenas as características e os segmentos no relatórios com permissões para a visualização. [!UICONTROL RBAC] permite controlar quais equipes internas de dados de relatórios são capazes de visualização. Por exemplo, uma agência que gerencia diferentes contas de anunciantes pode configurar permissões de grupo de usuários para que uma equipe que gerencia a conta do anunciante A não possa ver os dados de relatórios do anunciante B.
+[!DNL Audience Manager] usa  [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]) para estender permissões de grupo de usuários aos  [!UICONTROL General] relatórios. Os usuários podem ver apenas as características e os segmentos no relatórios com permissões para a visualização. [!UICONTROL RBAC] permite controlar quais equipes internas de dados de relatórios são capazes de visualização. Por exemplo, uma agência que gerencia diferentes contas de anunciantes pode configurar permissões de grupo de usuários para que uma equipe que gerencia a conta do anunciante A não possa ver os dados de relatórios do anunciante B.
 
-Execute um [!UICONTROL General] relatório quando precisar:
+Execute um relatório [!UICONTROL General] quando precisar:
 
 * Analise o desempenho por característica, segmento ou destino.
 * Rastreie impressões (total e exclusiva) em intervalos de 1, 7, 14, 30, 60 e 90 dias.
@@ -38,23 +38,23 @@ Execute um [!UICONTROL General] relatório quando precisar:
 * Identifique características e segmentos de desempenho fortes ou ruins, analise a demanda ou compare os dados de carga/fogo com relatórios de terceiros.
 * Exporte dados (formato .csv) para análise e compartilhamento adicionais.
 
-A ilustração a seguir fornece uma visão geral de alto nível dos elementos-chave no [!UICONTROL General] relatório.
+A ilustração a seguir fornece uma visão geral de alto nível dos elementos principais no relatório [!UICONTROL General].
 
 ![](assets/general_reports.png)
 
 1. Configure as seguintes opções:
 
-   * **Tipo de relatório:** Selecione o tipo de relatório desejado (Características, Segmento ou Destino).
+   * **Tipo de relatório:** selecione o tipo de relatório desejado (Característica, Segmento ou Destino).
 
-   * **Para datas até:** Especifique o intervalo de datas do relatório.
+   * **Para datas até:** especifique o intervalo de datas para o relatório.
 
 2. Procure uma característica, um segmento ou um destino por nome ou ID.
-3. Na lista da pasta, arraste e solte as características, os segmentos ou os destinos que você deseja reportar para o [!UICONTROL Selections] painel no lado direito.
+3. Na lista da pasta, arraste e solte as características, os segmentos ou os destinos que você deseja reportar para o painel [!UICONTROL Selections] no lado direito.
 4. Gere o relatório a ser exibido em uma tabela exportável.
 
-## Executar um relatório geral {#run-general-report}
+## Executar um Relatório Geral {#run-general-report}
 
-Esta seção descreve como executar um [!UICONTROL General] relatório e definir o tempo e outras opções de desempenho.
+Esta seção descreve como executar um relatório [!UICONTROL General] e definir a hora e outras opções de desempenho.
 
 <!-- 
 
@@ -62,29 +62,29 @@ t_run_general_report.xml
 
  -->
 
-1. In the **[!UICONTROL Analytics]** dashboard, click **[!UICONTROL General Reports]**.
-1. Na lista **[!UICONTROL Report Type]** suspensa, selecione o tipo desejado: Característica, segmento ou destino.
-1. *Condicional* Clique na caixa de data para exibir um calendário e, em seguida, selecione a data de término do seu relatório se desejar especificar uma data diferente de hoje.
+1. No painel **[!UICONTROL Analytics]**, clique em **[!UICONTROL General Reports]**.
+1. Na lista suspensa **[!UICONTROL Report Type]**, selecione o tipo desejado: Característica, segmento ou destino.
+1. ** CondicionalClique na caixa de data para exibir um calendário e, em seguida, selecione a data de término do seu relatório se desejar especificar uma data diferente de hoje.
 1. Procure uma característica, um segmento ou um destino por nome ou ID.
-1. Na lista da pasta, arraste e solte as características, os segmentos ou os destinos que você deseja reportar para o [!UICONTROL Selections] painel no lado direito.
+1. Na lista da pasta, arraste e solte as características, os segmentos ou os destinos que você deseja reportar para o painel [!UICONTROL Selections] no lado direito.
 1. Clique em **[!UICONTROL Run Report]**.
 
    Os resultados são exibidos em uma tabela exportável. Clique nos cabeçalhos da coluna para classificar os resultados em ordem crescente ou decrescente.
-1. Selecione o botão de opção desejado na parte superior do relatório para filtrar dados por desempenho ( [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations]ou [!UICONTROL Total Trait Population]) ou por tempo (1, 7, 14, 30, 60 ou intervalo de 90 dias).
+1. Selecione o botão de opção desejado na parte superior do relatório para filtrar dados por desempenho ( [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations] ou [!UICONTROL Total Trait Population]) ou por tempo (1, 7, 14, 30, 60 ou 90 dias de intervalo).
 
    >[!NOTE]
    >
-   >[!UICONTROL Total Trait Realizations] são calculados [!UICONTROL Rule-based Traits] apenas para.
+   >[!UICONTROL Total Trait Realizations] são calculados  [!UICONTROL Rule-based Traits] apenas para.
 
-1. *Clique opcional* **[!UICONTROL Export to CSV]**. Isso exporta os intervalos [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations]e [!UICONTROL Total Trait Population] para todos os intervalos do dia.
+1. *Clique* Opcional  **[!UICONTROL Export to CSV]**. Isso exporta [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations] e [!UICONTROL Total Trait Population] para todos os intervalos de dias.
 
-## Explicação dos resultados gerais dos relatórios {#general-reports-explained}
+## Explicação dos resultados dos relatórios gerais {#general-reports-explained}
 
-Os números no [!UICONTROL General Reports] são gerados diretamente do nosso [!UICONTROL User Profile Store]. Os resultados refletem o número de usuários [!DNL Audience Manager] contidos no backend no momento em que esses números de relatórios foram gerados.
+Os números em [!UICONTROL General Reports] são gerados diretamente de nosso [!UICONTROL User Profile Store]. Os resultados refletem o número de usuários [!DNL Audience Manager] contidos no backend no momento em que esses números de relatórios foram gerados.
 
 * Esses números não incluem IDs de visitante com tráfego excessivo. O tráfego dos bots é filtrado antes de chegar ao nosso sistema de backend. Além disso, algum tráfego de robô é descartado durante uma execução semanal de limpeza no backend.
-* Se os dados onboard por meio do processamento de entrada forem desconectados do [!DNL Audience Manager] UUID e essas IDs incluírem usuários que não estão mais ativos no sistema, essas [!DNL Audience Manager] UIDs inativas nunca chegam ao [!UICONTROL User Profile Store] e não são reportadas.
-* [!UICONTROL Total Trait Realizations] são calculados [!UICONTROL Rule-based Traits] apenas para.
+* Se os dados a bordo por meio do processamento de entrada forem desconectados do [!DNL Audience Manager] UUID, e essas IDs incluírem usuários que não estão mais ativos em nosso sistema, essas UUIDs inativas [!DNL Audience Manager] nunca chegarão ao [!UICONTROL User Profile Store] e não serão reportadas.
+* [!UICONTROL Total Trait Realizations] são calculados  [!UICONTROL Rule-based Traits] apenas para.
 
 ## Resultados gerais de relatórios para características {#general-report-results-traits}
 
