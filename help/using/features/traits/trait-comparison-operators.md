@@ -50,9 +50,9 @@ Você pode criar regras com os seguintes operadores nomeados:
 |---|---|
 | **[!UICONTROL Contains]** | O valor em um par de chave-valor *contém* caracteres especificados por esse operador. |
 | **[!UICONTROL Matcheswords]** | O valor em um par de chave-valor *corresponde* ao padrão especificado por esse operador. |
-| **[!UICONTROL Startswith]** | O valor em um par de valor chave *start com* caracteres especificados por esse operador. |
-| **[!UICONTROL Endswith]** | O valor em um par de valor chave *termina com* os caracteres especificados por esse operador. |
-| **[!UICONTROL Matchesregex]** | O valor em um par de valores chave *corresponde* ao padrão especificado por uma expressão regular. [Saiba mais](../../features/traits/trait-builder-regex.md) sobre como usar expressões regulares no [!UICONTROL Trait Builder]. |
+| **[!UICONTROL Startswith]** | O valor em um par de chave-valor *start com* caracteres especificados por esse operador. |
+| **[!UICONTROL Endswith]** | O valor em um par de chave-valor *termina com* os caracteres especificados por esse operador. |
+| **[!UICONTROL Matchesregex]** | O valor em um par de chave-valor *corresponde* ao padrão especificado por uma expressão regular. [Saiba ](../../features/traits/trait-builder-regex.md) mais sobre como usar expressões regulares no  [!UICONTROL Trait Builder]. |
 
 >[!MORELIKETHIS]
 >
