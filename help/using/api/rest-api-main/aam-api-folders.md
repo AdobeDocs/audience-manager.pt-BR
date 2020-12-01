@@ -23,6 +23,6 @@ Métodos que permitem trabalhar programaticamente com pastas de características
 
 >[!IMPORTANT]
 >
->Os [!DNL API] métodos de pasta foram regravados [!DNL Swagger] e migrados. Consulte:  >
+>Os métodos de pasta [!DNL API] foram regravados com [!DNL Swagger] e migrados. Consulte:  >
 >* [Documentos da API do Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migração de código API do Audience Manager](../../api/api-swagger-migration.md)
