@@ -33,11 +33,11 @@ ht-degree: 13%
   <tr> 
    <td colname="col1"> Parêntese </td> 
    <td colname="col2"> ( ) </td> 
-   <td colname="col3"> As Expressões entre parênteses são sempre avaliadas primeiro e seguem a ordem de precedência. </td> 
+   <td colname="col3"> As expressões entre parênteses são sempre avaliadas primeiro e seguem a ordem de precedência. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Operadores de comparação </td> 
-   <td colname="col2"> &lt; &gt; &lt;= &gt;= </td> 
+   <td colname="col2"> &lt;&gt; &lt;&gt;= </td> 
    <td colname="col3"> Menor que, maior que, menor que/igual a, maior que/igual a é avaliado em seguida. </td> 
   </tr> 
   <tr> 
@@ -46,14 +46,14 @@ ht-degree: 13%
    <td colname="col3"> Igual a, diferente de é avaliado após os operadores anteriores. </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Booleano <span class="wintitle"> E</span> </td> 
+   <td colname="col1">Booleano <span class="wintitle"> AND</span> </td> 
    <td colname="col2"><span class="wintitle"> E</span> </td> 
    <td colname="col3" morerows="1"> n/a </td> 
   </tr> 
   <tr> 
    <td colname="col1">Booleano <span class="wintitle"> OR</span> </td> 
    <td colname="col2"><span class="wintitle"> OU</span> </td> 
-   <td colname="col3" morerows="1"> n/a </td> 
+   <td colname="col3" morerows="1"> n/d </td> 
   </tr> 
  </tbody>
 </table>
