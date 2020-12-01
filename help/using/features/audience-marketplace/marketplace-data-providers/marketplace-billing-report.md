@@ -1,6 +1,6 @@
 ---
-description: Gere um relatório de faturamento de Audience Marketplace para a utilização do feed de dados de visualização para o mês anterior para cada um dos seus assinantes. Você pode criar um relatório para o mês anterior a qualquer momento. No entanto, o relatório é mais preciso quando você o gera no dia 10 do mês atual ou após ele.
-seo-description: Gere um relatório de faturamento de Audience Marketplace para a utilização do feed de dados de visualização para o mês anterior para cada um dos seus assinantes. Você pode criar um relatório para o mês anterior a qualquer momento. No entanto, o relatório é mais preciso quando você o gera no dia 10 do mês atual ou após ele.
+description: Gere um relatório de faturamento de Audience Marketplace para o uso do feed de dados de visualização para o mês anterior para cada um dos assinantes. Você pode criar um relatório para o mês anterior a qualquer momento. No entanto, o relatório é mais preciso quando você o gera no dia 10 do mês atual ou após ele.
+seo-description: Gere um relatório de faturamento de Audience Marketplace para o uso do feed de dados de visualização para o mês anterior para cada um dos assinantes. Você pode criar um relatório para o mês anterior a qualquer momento. No entanto, o relatório é mais preciso quando você o gera no dia 10 do mês atual ou após ele.
 seo-title: Faturamento para provedores de feeds de dados
 solution: Audience Manager
 title: Faturamento para provedores de feeds de dados
@@ -18,16 +18,16 @@ ht-degree: 5%
 
 # Faturamento para provedores de feeds de dados {#billing-for-data-feed-providers}
 
-Gere um relatório de [!DNL Audience Marketplace] faturamento para a utilização do feed de dados de visualização para o mês anterior para cada um dos seus assinantes. Você pode criar um relatório para o mês anterior a qualquer momento. No entanto, o relatório é mais preciso quando você o gera no dia 10 do mês atual ou após ele.
+Gere um relatório de cobrança [!DNL Audience Marketplace] para visualização do uso do feed de dados do mês anterior para cada assinante. Você pode criar um relatório para o mês anterior a qualquer momento. No entanto, o relatório é mais preciso quando você o gera no dia 10 do mês atual ou após ele.
 
-## Download de um Relatório de cobrança {#download-billing-report}
+## Baixar um Relatório de Faturamento {#download-billing-report}
 
 Para baixar um relatório:
 
 1. Vá para **[!UICONTROL Audience Marketplace > Receivables]**.
 1. Clique em **[!UICONTROL Generate Billing Report]**.
 
-## Campos de relatório definidos {#report-fields-defined}
+## Campos de Relatório Definidos {#report-fields-defined}
 
 Um relatório de cobrança contém as seguintes informações.
 
@@ -41,7 +41,7 @@ Um relatório de cobrança contém as seguintes informações.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> PID do provedor de dados</span></b> </p> </td> 
-   <td colname="col2"> <p>Your <span class="keyword"> Audience Manager</span> data provider ID. </p> </td> 
+   <td colname="col2"> <p>Sua ID do provedor de dados <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Nome do provedor de dados</span></b> </p> </td> 
@@ -70,19 +70,19 @@ Um relatório de cobrança contém as seguintes informações.
      <li id="li_3400C6475F6D43D7AF54D9A0ED9C09E0">Segmentos e sobreposição </li> 
      <li id="li_65DFEF1EA6C341ACB5B72FF629F10AFC">Modelagem </li> 
      <li id="li_B84935B93ADE4D299732CE7E099DF7B3">Activation </li> 
-    </ul> <p>Consulte <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types"> Tipos de plano para feeds</a>de dados. </p> </td> 
+    </ul> <p>Consulte <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types"> Tipos de plano para feeds de dados</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Unidade de Medida</span></b> </p> </td> 
    <td colname="col2"> <p>Indica cobranças de CPM ou de taxa fixa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> Preço Lista</span></b> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Preço lista</span></b> </p> </td> 
    <td colname="col2"> <p>A taxa de subscrição para cada feed de dados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Preço Descontado</span></b> </p> </td> 
-   <td colname="col2"> <p>A taxa de subscrição para um feed de dados com desconto. Consulte <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts"> Descontos para provedores</a>de dados. </p> </td> 
+   <td colname="col2"> <p>A taxa de subscrição para um feed de dados com desconto. Consulte <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts"> Descontos para provedores de dados</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Unidades</span></b> </p> </td> 
@@ -94,7 +94,7 @@ Um relatório de cobrança contém as seguintes informações.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Custo total</span></b> </p> </td> 
-   <td colname="col2"> <p>A quantia <span class="keyword"> de Audience Manager</span> paga um comprador. </p> </td> 
+   <td colname="col2"> <p>A quantia <span class="keyword"> Audience Manager</span> cobra um comprador. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Período de Faturamento</span></b> </p> </td> 
@@ -105,19 +105,19 @@ Um relatório de cobrança contém as seguintes informações.
    <td colname="col2"> <p>A data em que um comprador inseriu informações de subscrição/uso. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> Data do Start da Subscrição</span></b> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Data do Start da subscrição</span></b> </p> </td> 
    <td colname="col2"> <p>A data em que um comprador iniciou sua subscrição de feed de dados. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> Data final da Subscrição</span></b> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Data final da subscrição</span></b> </p> </td> 
    <td colname="col2"> <p>A data em que um comprador terminou sua subscrição de feed de dados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Sinalizador</span></b> </p> </td> 
-   <td colname="col2"> <p> <i>Somente</i>para feeds CPM. As opções de sinalizador incluem: </p> 
+   <td colname="col2"> <p> <i>Somente</i> para feeds CPM. As opções de sinalizador incluem: </p> 
     <ul id="ul_509BC73B754A43299F8D719AB0805ABD"> 
-     <li id="li_AB35E33B68EC49A187495DF6B9D86563">0: Indica que um assinante reportou informações de uso ao <span class="keyword"> Audience Manager</span>. </li> 
-     <li id="li_2E4871B127A84EC586A9F3659F52D67E">1: Indica que um assinante não reportou informações de uso ao <span class="keyword"> Audience Manager</span>. </li> 
+     <li id="li_AB35E33B68EC49A187495DF6B9D86563">0: Indica que um assinante relatou informações de uso para <span class="keyword"> Audience Manager</span>. </li> 
+     <li id="li_2E4871B127A84EC586A9F3659F52D67E">1: Indica que um assinante não reportou informações de uso para <span class="keyword"> Audience Manager</span>. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
