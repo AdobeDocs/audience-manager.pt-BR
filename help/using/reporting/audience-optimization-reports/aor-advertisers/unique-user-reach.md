@@ -25,7 +25,7 @@ O relatório de Alcance único do usuário ajuda a encontrar o anunciante, marca
 >
 >Lembre-se:
 >
->* O [!UICONTROL Unique User Reach] relatório exibe informações somente para usuários com níveis de [!UICONTROL Admin] permissão. Seu [!DNL Audience Manager] consultor ou o Atendimento ao cliente podem fornecer à sua conta [!UICONTROL Admin] permissões.
+>* O relatório [!UICONTROL Unique User Reach] exibe informações somente para usuários com [!UICONTROL Admin] níveis de permissão. Seu consultor [!DNL Audience Manager] ou Atendimento ao cliente pode fornecer à sua conta [!UICONTROL Admin] permissões.
    >
    >
 * Períodos de retrospectiva de 7 e 30 dias estão disponíveis somente para domingo.
@@ -33,6 +33,6 @@ O relatório de Alcance único do usuário ajuda a encontrar o anunciante, marca
 
 ## Relatório de exemplo
 
-O seu [!UICONTROL Unique User Reach] relatório pode ser semelhante ao que se segue. Em seu relatório, clique em uma bolha para visualização dos dados subjacentes.
+Seu relatório [!UICONTROL Unique User Reach] pode ser semelhante ao apresentado abaixo. Em seu relatório, clique em uma bolha para visualização dos dados subjacentes.
 
 ![](assets/unique-user-reach.png)
