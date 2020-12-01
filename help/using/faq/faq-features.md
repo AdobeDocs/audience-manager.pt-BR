@@ -48,9 +48,9 @@ Sim. Consulte [Ferramentas de gerenciamento em massa](../reference/bulk-manageme
 
  
 
-**Ao executar uma exportação de ID em massa para um destino, algumas das IDs do cliente estão ausentes. Why does that happen?**
+**Ao executar uma exportação de ID em massa para um destino, algumas das IDs do cliente estão ausentes. Por que isso acontece?**
 
-Quando uma ID de dispositivo (UUID[do](../reference/ids-in-aam.md)AAM) é vinculada a várias IDs CRM ([DPUUIDs](../reference/ids-in-aam.md)), somente o mapeamento mais recente é exportado. É por isso que você pode ver um número menor do que o esperado de IDs de dispositivo sendo exportadas.
+Quando uma ID de dispositivo ([AAM UUID](../reference/ids-in-aam.md)) é vinculada a várias IDs CRM ([DPUUIDs](../reference/ids-in-aam.md)), somente o mapeamento mais recente é exportado. É por isso que você pode ver um número menor do que o esperado de IDs de dispositivo sendo exportadas.
 
  
 
