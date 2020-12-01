@@ -17,17 +17,17 @@ ht-degree: 5%
 
 # Arquivos de dados para Relatórios de otimização de público-alvo e arquivos de registro acionáveis {#data-files-for-audience-optimization-reports}
 
-Um arquivo de dados contém dados de impressão, clique ou conversão. Quando formatados corretamente, você pode importar esses dados para o Audience Manager para visualização nos Relatórios [do](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) Audience Optimization e criar características usando os dados por meio dos Arquivos [de registro](/help/using/integration/media-data-integration/actionable-log-files.md)acionáveis. Formate seus arquivos de dados de acordo com essas especificações nesta seção.
+Um arquivo de dados contém dados de impressão, clique ou conversão. Quando formatados corretamente, você pode importar esses dados para o Audience Manager para visualização-los nos [Relatórios Audience Optimization](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) e criar características usando os dados via [Arquivos de registro acionáveis](/help/using/integration/media-data-integration/actionable-log-files.md). Formate seus arquivos de dados de acordo com essas especificações nesta seção.
 
 ## Visão geral {#overview}
 
-Um arquivo de dados com nome e formato adequados permite importar dados de impressão, clique ou conversão para os Relatórios [do](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)Audience Optimization. Isso é útil ao trabalhar com um parceiro que não está integrado [!DNL Audience Manager] e você deseja trabalhar com seus dados nesse conjunto de relatórios. Esse processo requer arquivos separados para impressão, clique e dados de conversão. Não misture esses eventos em um único arquivo.
+Um arquivo de dados com nome e formato adequados permite importar dados de impressão, clique ou conversão para os [Relatórios de Audience Optimization](../../../reporting/audience-optimization-reports/audience-optimization-reports.md). Isso é útil ao trabalhar com um parceiro que não está integrado com [!DNL Audience Manager] e você deseja trabalhar com seus dados nesse conjunto de relatórios. Esse processo requer arquivos separados para impressão, clique e dados de conversão. Não misture esses eventos em um único arquivo.
 
-Um ficheiro de dados deve ser acompanhado de um ficheiro de metadados. O conteúdo do arquivo de metadados corresponde às informações do arquivo de dados a rótulos relacionados e legíveis por humanos nos menus do relatório. Para obter mais informações, consulte [Visão geral e mapeamentos para arquivos](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)de metadados.
+Um ficheiro de dados deve ser acompanhado de um ficheiro de metadados. O conteúdo do arquivo de metadados corresponde às informações do arquivo de dados a rótulos relacionados e legíveis por humanos nos menus do relatório. Para obter mais informações, consulte [Visão geral e mapeamentos para arquivos de metadados](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
 
-## Naming Conventions for Data Files {#naming-conventions}
+## Como nomear convenções para arquivos de dados {#naming-conventions}
 
-A sintaxe a seguir define a estrutura de um nome de arquivo de dados bem formado. Observação: *itálico* indica um espaço reservado variável que muda dependendo do conteúdo do arquivo.
+A sintaxe a seguir define a estrutura de um nome de arquivo de dados bem formado. Observação: *italics* indica um espaço reservado variável que muda dependendo do conteúdo do arquivo.
 
 **Sintaxe:** <pre><i>tipo de evento</i>_<i>aaaammdd</i></code></pre>
 
@@ -35,27 +35,27 @@ Em um nome de arquivo:
 
 * O tipo de evento indica que o arquivo contém impressões, cliques ou conversões. Crie um arquivo separado para cada tipo de evento.
 * Um sublinhado separa o tipo de evento e um carimbo de data e hora de ano e mês.
-* Antes de carregar, compacte seus arquivos usando gzip e salve-os com a extensão do `.gz` arquivo.
+* Antes de carregar, compacte seus arquivos usando gzip e salve-os com a extensão `.gz` do arquivo.
 
 Dadas estas exigências, nomeie seus arquivos de dados com base em seus conteúdos como este:
 
-* Dados de impressão: <pre>impressionsions_<i>yyyymmdd</i>.gz</code></pre>
-* Dados de clique: <pre>click_<i>yyyymmdd</i>.gz</code></pre>
-* Dados de conversão: <pre>conversions_<i>yyyymmdd</i>.gz</code></pre>
+* Dados de impressão: <pre>impressões_<i>aaaammdd</i>.gz</code></pre>
+* Dados de clique: <pre>click_<i>aaaymmdd</i>.gz</code></pre>
+* Dados de conversão: <pre>conversões_<i>aaaammdd</i>.gz</code></pre>
 
-## Content Format for Data Files {#content-format}
+## Formato de conteúdo para arquivos de dados {#content-format}
 
-A sintaxe a seguir define a estrutura do conteúdo em um arquivo de dados bem formado. Observação: *itálico* indica um espaço reservado variável e é substituído por um rótulo em um arquivo de dados real.
+A sintaxe a seguir define a estrutura do conteúdo em um arquivo de dados bem formado. Observação: *italics* indica um espaço reservado variável e é substituído por um rótulo em um arquivo de dados real.
 
-**Sintaxe:** <pre><i>rótulo do cabeçalho 1</i> | Rótulo <i>do cabeçalho 2</i> ... <i>rótulo do cabeçalho n</i> | <i>versão</i></code></pre>
+**Sintaxe:** <pre><i>etiqueta do cabeçalho 1</i> | etiqueta do  <i>cabeçalho 2</i> ...  <i>rótulo do cabeçalho n</i> |  <i>versão</i></code></pre>
 
 No conteúdo do arquivo:
 
 * Os rótulos do cabeçalho devem aparecer na ordem, conforme mostrado na tabela abaixo. As impressões e os cliques usam os mesmos rótulos. Os arquivos de conversão contêm cabeçalhos adicionais.
-* Se você não tiver dados para uma coluna específica, preencha esse campo com uma `-1`.
+* Se você não tiver dados para uma coluna específica, preencha esse campo com um `-1`.
 
 * Os arquivos *devem* terminar com um número de versão. A versão atual é 1.1.
-* Separe os cabeçalhos e conteúdos dos arquivos com o caractere ASCII 001 não imprimível. Se você não puder usar ASCII 001, separe os cabeçalhos e dados com um delimitador de tabulação. Como esses são caracteres não imprimíveis, o exemplo de sintaxe acima mostra um pipe somente `"|"` para fins de exibição.
+* Separe os cabeçalhos e conteúdos dos arquivos com o caractere ASCII 001 não imprimível. Se você não puder usar ASCII 001, separe os cabeçalhos e dados com um delimitador de tabulação. Como são caracteres não imprimíveis, o exemplo de sintaxe acima mostra um pipe `"|"` somente para fins de exibição.
 
 **Rótulos de campo**
 
@@ -71,11 +71,11 @@ A tabela abaixo lista e descreve os cabeçalhos de coluna para seu arquivo de da
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Carimbo de data e hora </p> </td> 
-   <td colname="col2"> <p>Uma data e hora UTC para impressão, clique ou evento de conversão. Use o <code> yyyy-MM-dd HH:mm:ss</code> formato. </p> </td> 
+   <td colname="col2"> <p>Uma data e hora UTC para impressão, clique ou evento de conversão. Use o formato <code> yyyy-MM-dd HH:mm:ss</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID do usuário </p> </td> 
-   <td colname="col2"> <p>Sua ID de um visitante do site, também conhecida como ID <span class="term"> de usuário exclusiva ou DPUUID do provedor de</span> dados. </p> </td> 
+   <td colname="col2"> <p>Sua ID de um visitante do site, também conhecida como <span class="term"> ID de usuário exclusiva do provedor de dados</span> ou DPUUID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID do anunciante </p> </td> 
@@ -141,19 +141,19 @@ A tabela abaixo lista e descreve os cabeçalhos de coluna para seu arquivo de da
  </tbody> 
 </table>
 
-## Delivery Methods for Data Files {#delivery-methods}
+## Métodos de delivery para arquivos de dados {#delivery-methods}
 
-Faça upload de sua impressão, clique ou converta arquivos de dados em um diretório Amazon S3 da sua [!DNL Audience Manager] conta. Consulte esta seção para obter informações sobre caminhos de delivery/diretório, tempos de processamento de arquivos e atualizações.
+Faça upload de sua impressão, clique ou converta arquivos de dados em um diretório Amazon S3 para sua conta [!DNL Audience Manager]. Consulte esta seção para obter informações sobre caminhos de delivery/diretório, tempos de processamento de arquivos e atualizações.
 
 >[!IMPORTANT]
 >
-> Entre em contato com seu consultor de Audience Manager ou com o Atendimento ao cliente para começar e configurar um [!DNL Amazon S3] diretório para seus arquivos de dados.
+> Entre em contato com seu consultor de Audience Manager ou com o Atendimento ao cliente para começar e configurar um diretório [!DNL Amazon S3] para seus arquivos de dados.
 
 **Sintaxe e exemplos de caminho de delivery**
 
-Os dados são armazenados em uma namespace separada para cada cliente em um [!DNL Amazon S3] diretório. O caminho do arquivo segue a sintaxe mostrada abaixo. Note, *italics* indicates a variable placeholder. Outros elementos são constantes ou teclas e não são alterados.
+Os dados são armazenados em uma namespace separada para cada cliente em um diretório [!DNL Amazon S3]. O caminho do arquivo segue a sintaxe mostrada abaixo. Observação: *italics* indica um espaço reservado variável. Outros elementos são constantes ou teclas e não são alterados.
 
-**Sintaxe:** <pre>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ tipo <i>de</i>arquivo_<i>yyyymmdd</i></code></pre>
+**Sintaxe:** <pre>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>tipo de arquivo</i>_<i>aaaammdd</i></code></pre>
 
 A tabela a seguir define cada um desses elementos em um caminho de delivery de arquivo.
 
@@ -171,7 +171,7 @@ A tabela a seguir define cada um desses elementos em um caminho de delivery de a
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>pid=<i>AAM ID</i></code> </p> </td> 
-   <td colname="col2"> <p>Esse par de valor-chave contém a ID do cliente do <span class="keyword"> Audience Manager</span> . </p> </td> 
+   <td colname="col2"> <p>Este par de valor-chave contém a ID do cliente <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>dpid=<i>d_src</i></code> </p> </td> 
@@ -202,4 +202,4 @@ Para atualizar seus dados, envie um arquivo que contenha todas as impressões, c
 
 ## Próximas etapas {#next-steps}
 
-Revise os requisitos para nomear e criar arquivos de metadados. Para começar, consulte [Visão geral e mapeamentos para arquivos](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)de metadados.
+Revise os requisitos para nomear e criar arquivos de metadados. Para começar, consulte [Visão geral e mapeamentos para arquivos de metadados](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
