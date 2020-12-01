@@ -21,7 +21,7 @@ Descreve os efeitos em usuários segmentados, dados e destinos quando você paus
 
 ## Acesso aos controles Pausar e Excluir
 
-Passe o cursor do mouse sobre o nome de um segmento na lista de segmentos para expor os ícones **[!UICONTROL pause]** e **[!UICONTROL delete]** os ícones (na [!UICONTROL Actions] coluna). Esses recursos afetam os segmentos conforme descrito abaixo.
+Passe o mouse sobre um nome de segmento na lista de segmentos para expor os ícones **[!UICONTROL pause]** e **[!UICONTROL delete]** (na coluna [!UICONTROL Actions]). Esses recursos afetam os segmentos conforme descrito abaixo.
 
 ## Funcionalidade de segmento pausada
 
@@ -46,4 +46,4 @@ Um segmento excluído:
 
 >[!NOTE]
 >
->Também é possível pausar e excluir segmentos usando um [!DNL API] método. Para obter mais informações, consulte [REST APIs](../../api/rest-api-main/rest-api-main.md).
+>Você também pode pausar e excluir segmentos usando um método [!DNL API]. Para obter mais informações, consulte [REST APIs](../../api/rest-api-main/rest-api-main.md).
