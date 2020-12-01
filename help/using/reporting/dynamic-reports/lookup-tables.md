@@ -27,11 +27,11 @@ c_lookup_tables.xml
 
 ## Metadados de arquivos de log aumentam o tamanho do arquivo e o tempo de processamento
 
-Um arquivo de log comum usado pelo [!UICONTROL Delivery Performance] relatório geralmente contém milhares de linhas e dezenas de colunas. Ele consiste em IDs numéricas e informações legíveis para humanos, como nomes para criativos, anunciantes, pedidos de inserção etc.
+Um arquivo de log comum usado pelo relatório [!UICONTROL Delivery Performance] geralmente contém milhares de linhas e dezenas de colunas. Ele consiste em IDs numéricas e informações legíveis para humanos, como nomes para criativos, anunciantes, pedidos de inserção etc.
 
-Essas informações não ID são chamadas *`metadata`* (ou seja, informações sobre outras informações) e são gravadas em cada linha do arquivo de log.
+Essas informações não ID são chamadas de *`metadata`* (ou seja, informações sobre outras informações) e são gravadas em cada linha do arquivo de log.
 
-No entanto, o [!UICONTROL Delivery Performance] relatório funciona principalmente com as IDs no arquivo de log. Os metadados são úteis, mas repetitivos. Isso aumenta o tamanho do arquivo e os tempos de ingestão de dados.
+No entanto, o relatório [!UICONTROL Delivery Performance] funciona principalmente com as IDs no arquivo de log. Os metadados são úteis, mas repetitivos. Isso aumenta o tamanho do arquivo e os tempos de ingestão de dados.
 
 ## Reduza o tamanho do arquivo e o tempo de processamento com tabelas de índice
 
