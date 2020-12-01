@@ -40,7 +40,7 @@ Sim, isso é permitido. Pense no caso de um teste usando um segmento macho assoc
 
 <br> 
 
-**Digamos que um grupo de teste esteja usando um perfil autenticado para a divisão do segmento de teste. O perfil autenticado está vinculado a 4 [UUIDs do Audience Manager](../reference/ids-in-aam.md). Quando o visitante exibe uma característica de conversão de uma das quatro UUIDs, o[!UICONTROL Audience Lab]conta como uma ou quatro conversões?**
+**Digamos que um grupo de teste esteja usando um perfil autenticado para a divisão do segmento de teste. O perfil autenticado está vinculado a 4 [UUIDs do Audience Manager](../reference/ids-in-aam.md). Quando o visitante exibe uma característica de conversão de uma das quatro UUIDs, o [!UICONTROL Audience Lab] conta como uma ou quatro conversões?**
 
 Nesse caso, o [!UICONTROL Audience Lab] só conta uma conversão.
 
