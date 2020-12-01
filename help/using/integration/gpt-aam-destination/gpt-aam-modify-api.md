@@ -15,17 +15,17 @@ ht-degree: 9%
 ---
 
 
-# Modify the GPT `setTargeting` API Call {#modify-the-gpt-settargeting-api-call}
+# Modifique a chamada de API GPT `setTargeting` {#modify-the-gpt-settargeting-api-call}
 
-Adicione uma declaração if para verificar os cookies de Audience Manager antes de chamar o [!DNL Google Publisher Tag] `.setTargeting` método.
+Adicione uma instrução if para verificar os cookies de Audience Manager antes de chamar o método [!DNL Google Publisher Tag] `.setTargeting`.
 
-## Verifique se há cookies de Audience Manager com uma `IF` declaração
+## Verifique se há cookies de Audience Manager com uma instrução `IF`
 
-O `.setTargeting` método obtém dados do cookie de destino do Audience Manager e do cookie de ID de usuário exclusivo ( `aam_uuid`). No entanto, se `.setTargeting` for chamado antes de [!UICONTROL DIL] gravar esses cookies, ou se os cookies estiverem vazios, você poderá ver erros quando a página for carregada. Para ajudar a evitar isso, vincule o `.setTargeting` método em uma `if` declaração que verifique esses cookies. Se não estiverem definidas, esta instrução impedirá `.setTargeting` de chamar a `AamGpt` função.
+O método `.setTargeting` obtém dados do cookie de destino do Audience Manager e do cookie de ID de usuário exclusivo ( `aam_uuid`). No entanto, se `.setTargeting` for chamado antes de [!UICONTROL DIL] gravar esses cookies, ou os cookies estiverem vazios, você poderá ver erros quando a página for carregada. Para ajudar a evitar isso, vincule o método `.setTargeting` em uma instrução `if` que verifique esses cookies. Se não estiverem definidas, esta instrução impedirá que `.setTargeting` chame a função `AamGpt`.
 
 ### `IF` Amostra de código do demonstrativo
 
-Neste exemplo, o nome do cookie de destino do Audience Manager é `Sample`. Você define esse nome ao criar o cookie de destino na interface do usuário do Audience Manager. [!UICONTROL DIL] define o `aam_uuid` cookie e o nome não pode ser alterado.
+Neste exemplo, o nome do cookie de destino do Audience Manager é `Sample`. Você define esse nome ao criar o cookie de destino na interface do usuário do Audience Manager. [!UICONTROL DIL] define o  `aam_uuid` cookie e o nome não pode ser alterado.
 
 ```js
 if(typeof AamGpt.getCookie("Sample") != "undefined"){ 
@@ -38,16 +38,16 @@ if(typeof AamGpt.getCookie("aam_uuid") != "undefined" ){
 
 >[!IMPORTANT]
 >
->Dependendo de como você deseja se integrar com [!DNL Google Ad Manager], você só precisa de algumas das linhas na amostra de código acima:
+>Dependendo de como deseja integrar com [!DNL Google Ad Manager], você só precisa de algumas das linhas na amostra de código acima:
 >
->* Integração do cliente: use somente as linhas 1 a 3.
+>* Integração do cliente: use somente as linhas 1-3.
 >* Integração do servidor: nenhuma das linhas é necessária.
->* Ingest [!DNL Google Ad Manager] arquivos de registro para relatórios em [!DNL Audience Manager]: use somente as linhas 4-6. Esse código insere o valor do `aam_uuid` cookie nos registros para que eles possam ser assimilados para o relatórios.
+>* Ingest [!DNL Google Ad Manager] arquivos de registro para relatórios em [!DNL Audience Manager]: use somente as linhas 4-6. Esse código insere o valor do cookie `aam_uuid` nos registros para que eles possam ser ingeridos para o relatórios.
 
 
 ### `AamGpt` Funções e tipos de dados
 
-Define as variáveis principais usadas na `if` instrução.
+Define as variáveis principais usadas na instrução `if`.
 
 <table id="table_881391C9BDDF4FACAFC37A47B14B31A1"> 
  <thead> 
@@ -61,7 +61,7 @@ Define as variáveis principais usadas na `if` instrução.
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getKey </code> </p> </td> 
    <td colname="col2"> <p>String   </p> </td> 
-   <td colname="col3"> <p>Retorna a chave no par de segmentos de valor chave. Por exemplo, se seu par de valor chave consistiu em <code> color=blue </code>, isso retornará <code> color </code>. </p> </td> 
+   <td colname="col3"> <p>Retorna a chave no par de segmentos de valor chave. Por exemplo, se seu par de chave-valor consistir em <code> color=blue </code>, retornará <code> color </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getValues </code> </p> </td> 
