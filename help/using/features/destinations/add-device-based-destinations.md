@@ -20,7 +20,7 @@ Este artigo explica como configurar novos destinos baseados em dispositivos a pa
 
 >[!IMPORTANT]
 >
->Atualmente, a maioria dos destinos baseados em dispositivos não são elegíveis para o fluxo de trabalho de configuração de autoatendimento. Se o destino baseado em dispositivo que você precisa adicionar não for exibido na lista de destinos, entre em contato com seu consultor da Adobe ou com o Suporte ao cliente para obter assistência.
+>Atualmente, a maioria dos destinos baseados em dispositivos não são elegíveis para o fluxo de trabalho de configuração de autoatendimento. Se o destino baseado no dispositivo que você precisa adicionar não for exibido na lista de destinos, entre em contato com seu consultor de Adobe ou com o Suporte ao cliente para obter assistência.
 
 ## Visão geral {#overview}
 
@@ -30,7 +30,7 @@ O processo de adicionar um novo destino baseado em dispositivo consiste em duas 
 
 Ao criar o primeiro destino baseado em dispositivo com uma plataforma integrada, entre em contato com a Adobe Consulting ou com o Atendimento ao cliente para ativar a sincronização de ID entre o Audience Manager e a plataforma integrada para sua conta. Isso é necessário para a sincronização correta entre o Audience Manager e a plataforma de destino.
 
-## Etapa 1. Autenticar com um Platform de destino {#step1}
+## Etapa 1. Autentique com uma Plataforma de Destino {#step1}
 
 Antes de criar um novo destino baseado em dispositivo, é necessário configurar a integração entre o Audience Manager e a plataforma de destino. Veja como fazer isso:
 
@@ -51,16 +51,16 @@ Depois de configurar a integração da plataforma de destino, você pode criar o
 >Não é possível alterar o nome de um destino baseado em dispositivo existente. Forneça um nome que o ajudará a identificar o destino corretamente.
 
 1. Faça logon em sua conta do Audience Manager, vá para **[!DNL Audience Data > Destinations]** e clique em **[!DNL Create Destination]**.
-1. Na **[!DNL Basic Information]** seção, digite um **[!DNL Name]** e **[!DNL Description]** para seu novo destino e use as configurações na lista abaixo:
+1. Na seção **[!DNL Basic Information]**, digite um **[!DNL Name]** e **[!DNL Description]** para o seu novo destino e use as configurações na lista abaixo:
 
    ![configuração](assets/dbd-new-basic.png)
 
    * **[!DNL Category]**: [!DNL Integrated Platforms];
-   * **[!DNL Type]**: [!DNL Device-Based];
+   * **[!DNL Type]**:  [!DNL Device-Based];
    * **[!DNL Platform]**: selecione a plataforma de destino para a qual deseja enviar segmentos de audiência.
    * **[!DNL Account]**: selecione a conta do anunciante desejada associada à plataforma selecionada.
 1. Clique em **[!DNL Next]**.
-1. Escolha os Rótulos [de Exportação de](/help/using/features/data-export-controls.md#controls-labels) Dados que deseja definir para este destino.
+1. Escolha as [Etiquetas de Exportação de Dados](/help/using/features/data-export-controls.md#controls-labels) que deseja definir para este destino.
 1. Clique em **[!DNL Save]**.
-1. Na **[!DNL Segment Mappings]** seção, selecione os segmentos de audiência que deseja enviar para esse destino.
+1. Na seção **[!DNL Segment Mappings]**, selecione os segmentos de audiência que deseja enviar para esse destino.
 1. Salve o destino.
