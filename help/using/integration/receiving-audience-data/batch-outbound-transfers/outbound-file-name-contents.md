@@ -23,7 +23,7 @@ Descreve os campos obrigatórios, a sintaxe e as convenções usadas para nomear
 
 >[!NOTE]
 >
->Os elementos de estilo (`monospaced text`, *itálico*, colchetes `[ ]` `( )`etc.) neste documento, indique os elementos de código e as opções. Consulte [Convenções de estilo para código e elementos de texto](../../../reference/code-style-elements.md) para obter mais informações.
+>Os elementos de estilo (`monospaced text`, *italics*, colchetes `[ ]` `( )`, etc.) neste documento, indique os elementos de código e as opções. Consulte [Convenções de estilo para código e elementos de texto](../../../reference/code-style-elements.md) para obter mais informações.
 
 ## Elementos de sintaxe e nome de arquivo {#syntax-file-name}
 
@@ -50,19 +50,19 @@ A tabela define os elementos em um nome de arquivo de dados de saída.
    <td colname="col2"> <p>Refere-se aos métodos de transferência de dados. Os métodos de transferência incluem: </p> 
     <ul id="ul_4E0CFC7A34E04E2FA216A07E3654D6EE"> 
      <li id="li_0066B99222A64BE9975AE2E91511FB77">FTP - Transferir usando SFTP </li> 
-     <li id="li_646767FE8AD247B88D0DD5461349F019"> <span class="keyword"> Amazon S3 </span> - Transferência para o <span class="keyword"> Amazon AWS </span> </li> 
+     <li id="li_646767FE8AD247B88D0DD5461349F019"> <span class="keyword"> Amazon S3  </span> - Transferência para o  <span class="keyword"> Amazon AWS  </span> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>DID </i></code> </p> </td> 
-   <td colname="col2"> <p>ID de destino. </p> <p>No <span class="keyword"> Audience Manager </span>, um destino é a instância da integração onde você pode mapear seus segmentos direcionáveis. Os clientes podem ter vários destinos, dependendo das necessidades dos negócios. </p> </td> 
+   <td colname="col2"> <p>ID de destino. </p> <p>Em <span class="keyword"> Audience Manager </span>, um destino é a instância da integração onde você pode mapear seus segmentos direcionáveis. Os clientes podem ter vários destinos, dependendo das necessidades dos negócios. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>MASTER_DPID </i></code> </p> </td> 
    <td colname="col2"> <p>ID do provedor de dados ou da fonte de dados. Essa ID identifica o tipo de ID de usuário presente no conteúdo do arquivo. As chaves mais comuns da ID de usuário são: </p> <p> 
      <ul id="ul_CC22D019ECED4B17A7695708001F2C1B"> 
-      <li id="li_94DAFA169380405981AFEF1B581997E6">2014 - <span class="keyword"> Google Advertiser ID </span> (bruto, sem hash) </li> 
-      <li id="li_DE74BE06331C49CF87606A192D815B96">2015 - <span class="keyword"> Apple ID for Advertisers </span> (bruto, sem hash) </li> 
+      <li id="li_94DAFA169380405981AFEF1B581997E6">2014 - <span class="keyword"> ID de anunciante do Google </span> (bruto, sem hash) </li> 
+      <li id="li_DE74BE06331C49CF87606A192D815B96">2015 - <span class="keyword"> ID da Apple para anunciantes </span> (bruto, sem hash) </li> 
       <li id="li_E0A033FEC3174EF08E93EB7C65266337">ID do fornecedor - IDs de usuário de terceiros (Web/cookie) </li> 
      </ul> </p> <p>Consulte <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">Fontes de dados globais</a> para obter mais detalhes.</p></td> 
   </tr> 
@@ -97,7 +97,7 @@ A tabela define os elementos em um nome de arquivo de dados de saída.
 
 ### Cenário 1
 
-Arquivos enviados para um [!DNL Amazon S3] local, com *`PID_ALIAS="XYZCustomer"`* e com [!DNL Google Advertiser IDs] o conteúdo do arquivo.
+Arquivos enviados para um local [!DNL Amazon S3], com *`PID_ALIAS="XYZCustomer"`* e [!DNL Google Advertiser IDs] no conteúdo do arquivo.
 
 Por exemplo, arquivos incrementais:
 
@@ -116,7 +116,7 @@ Por exemplo, arquivos completos:
 
 ### Cenário 2
 
-Arquivos enviados para o [!DNL FTP] local, sem *`PID_ALIAS`* e com [!DNL Apple Advertiser IDs] o conteúdo do arquivo:
+Arquivos enviados para o local [!DNL FTP], sem *`PID_ALIAS`* e com [!DNL Apple Advertiser IDs] no conteúdo do arquivo:
 
 Por exemplo, arquivos incrementais:
 
@@ -132,7 +132,7 @@ Por exemplo, arquivos completos:
  <li> <code> ftp_1234_20915_full_1486140843000001.sync.gz </code> </li> 
 </ul>
 
-**Cenário 3**: Arquivos enviados para o [!DNL FTP] local, com *`PID_ALIAS="XYZCustomer"`* e com ID de usuário de terceiros no conteúdo do arquivo ( *`Vendor ID=45454`*):
+**Cenário 3**: Arquivos enviados para o  [!DNL FTP] local, com  *`PID_ALIAS="XYZCustomer"`* e com ID de usuário de terceiros no conteúdo do arquivo (  *`Vendor ID=45454`*):
 
 Por exemplo, arquivos incrementais:
 
@@ -157,7 +157,7 @@ Descreve os campos obrigatórios, a sintaxe e as convenções usadas para organi
 
 >[!NOTE]
 >
->Os elementos de estilo (`monospaced text`, *itálico*, colchetes `[ ]` `( )`etc.) neste documento, indique os elementos de código e as opções. Consulte [Convenções de estilo para código e elementos de texto](../../../reference/code-style-elements.md) para obter mais informações.
+>Os elementos de estilo (`monospaced text`, *italics*, colchetes `[ ]` `( )`, etc.) neste documento, indique os elementos de código e as opções. Consulte [Convenções de estilo para código e elementos de texto](../../../reference/code-style-elements.md) para obter mais informações.
 
 ### Sintaxe
 
@@ -191,14 +191,14 @@ A tabela lista variáveis que definem o conteúdo de um arquivo de dados.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>REMOVED_SEGMENT_N </i></code> </p> </td> 
-   <td colname="col2"> <p>A ID de segmento da qual o usuário foi desqualificado. Separe vários segmentos com uma vírgula. Com uma sincronização completa, você pode ignorar os segmentos removidos porque o arquivo de dados conterá a lista completa dos segmentos atuais para o usuário. Geralmente, você deseja saber sobre segmentos aos quais um usuário pertence e não aqueles dos quais ele foi removido. See also <a href="../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md#outbound-data-file-name-syntax-and-examples"> Outbound Data File Name: Syntax and Examples </a>. </p> </td> 
+   <td colname="col2"> <p>A ID de segmento da qual o usuário foi desqualificado. Separe vários segmentos com uma vírgula. Com uma sincronização completa, você pode ignorar os segmentos removidos porque o arquivo de dados conterá a lista completa dos segmentos atuais para o usuário. Geralmente, você deseja saber sobre segmentos aos quais um usuário pertence e não aqueles dos quais ele foi removido. Consulte também <a href="../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md#outbound-data-file-name-syntax-and-examples"> Nome do arquivo de dados de saída: Sintaxe e exemplos </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Exemplo: Formato básico de arquivo
 
-Um arquivo de dados corretamente formatado pode ser semelhante à amostra a seguir. Essa entrada de arquivo indica que um usuário se qualifica para os segmentos 24, 26 e 27. Conforme necessário, um espaço separa as IDs do segmento `UUID` e do segmento. Outro espaço separa os conjuntos de IDs de segmento. Neste exemplo, um usuário pertence aos segmentos 24, 26 e 27. Eles foram removidos dos segmentos 25 e 28.
+Um arquivo de dados corretamente formatado pode ser semelhante à amostra a seguir. Essa entrada de arquivo indica que um usuário se qualifica para os segmentos 24, 26 e 27. Conforme necessário, um espaço separa as `UUID` e as IDs de segmento. Outro espaço separa os conjuntos de IDs de segmento. Neste exemplo, um usuário pertence aos segmentos 24, 26 e 27. Eles foram removidos dos segmentos 25 e 28.
 
 ```
 59767559181262060060278870901087098252  24,26,27  25,28
