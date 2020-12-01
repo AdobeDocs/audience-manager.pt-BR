@@ -19,7 +19,7 @@ ht-degree: 4%
 
 Um par de valores chave consiste em elementos relacionados: Uma tecla, que é uma constante que define o conjunto de dados (por exemplo, gênero, cor, preço) e um valor, que é uma variável que pertence ao conjunto (por exemplo, macho/fêmea, verde, 100). [!UICONTROL Destination Builder] envia dados formatados como pares de valor chave.
 
-## Pares básicos de valor-chave {#basic-key-value-pairs}
+## Pares básicos de valor de chave {#basic-key-value-pairs}
 
 Totalmente formado, um conjunto básico de pares de valores chave poderia ser parecido com estes:
 
@@ -29,10 +29,10 @@ Totalmente formado, um conjunto básico de pares de valores chave poderia ser pa
 
 ## Pares padrão e de valor-chave serial {#standard-serial-key-value-pairs}
 
-Os destinos aceitam dados de valor chave no *`standard`* formato ou *`serialized`* .
+Os destinos aceitam dados de valor chave no formato *`standard`* ou *`serialized`*.
 
-* **Pares padrão de valor chave:** Formata os dados de destino em pares de valores chave separados. Cada chave é declarada explicitamente, mesmo quando usada novamente para definir um valor diferente.
-* **Pares de valor chave serializados:** Condensa vários valores em um único par de valores chave. Em um par serializado de valores chave, um indicador especial separa os valores dentro do conjunto de valores chave.
+* **Pares padrão de valores chave:** Formata os dados de destino em pares separados de valores chave. Cada chave é declarada explicitamente, mesmo quando usada novamente para definir um valor diferente.
+* **Pares serializados de valores chave:** condensa vários valores em um único par de valores chave. Em um par serializado de valores chave, um indicador especial separa os valores dentro do conjunto de valores chave.
 
 Os valores de chave padrão e serializados podem conter valores únicos ou múltiplos. A tabela a seguir fornece exemplos de formatos padrão e de valores de chave serial.
 
@@ -62,9 +62,9 @@ Os valores de chave padrão e serializados podem conter valores únicos ou múlt
 
 Os caracteres que separam valores dentro e entre chaves e valores são conhecidos como *`delimiters`* e *`separators`*. Elas se tornam particularmente importantes quando você envia segmentos para um destino em um formato serial. A serialização permite que você passe vários valores com uma única chave e combine pares de valores chave. Os delimitadores e separadores são definidos da seguinte forma:
 
-* **Separador de valor-chave:** Separa uma chave e um valor em um par de valores chave.
-* **Delimitador de valor-chave:** Separa conjuntos de pares de valores chave.
-* **Separador de série:** Separa vários valores em conjuntos de pares de valores chave serializados.
+* **Separador de valor-chave:** Separa uma chave e um valor em um par de valor-chave.
+* **Delimitador de valor-chave:** Separa conjuntos de pares de valores-chave.
+* **Separador serial:** Separa vários valores em conjuntos de pares de valores chave serializados.
 
 ## Exemplos {#examples}
 
@@ -91,7 +91,7 @@ Com [!UICONTROL Destination Builder] você pode formatar dados de valor chave de
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Vários pares</b> de valores chave (não seriais) </p> </td> 
+   <td colname="col1"> <p> <b>Vários pares</b>  de valores chave (não seriais) </p> </td> 
    <td colname="col2"> <p> <code> X = 1 &amp; X = 2 &amp; Y = 3 &amp; Y = 4 </code> </p> </td> 
    <td colname="col3"> <p>Um conjunto de vários pares de valores chave que passam em valores com conjuntos separados de valores chave. O exemplo contém estes elementos: </p> 
     <ul id="ul_7FB22A43B435463D9F209067FF2C3619"> 
@@ -113,7 +113,7 @@ Com [!UICONTROL Destination Builder] você pode formatar dados de valor chave de
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Vários pares</b> chave-valor (serial) </p> </td> 
+   <td colname="col1"> <p> <b>Vários pares</b>  chave-valor (serial) </p> </td> 
    <td colname="col2"> <p> <code> X = 1 ; 2 &amp; Y = 3 ; 4 </code> </p> </td> 
    <td colname="col3"> <p>Um conjunto de vários pares de valores chave que passam vários valores em chaves separadas. O exemplo contém estes elementos: </p> 
     <ul id="ul_CB50133B2E944818B9F2A0586EF69774"> 
@@ -127,7 +127,7 @@ Com [!UICONTROL Destination Builder] você pode formatar dados de valor chave de
  </tbody> 
 </table>
 
-## Serialização do destino {#destination-serialized}
+## Serialização de Destino {#destination-serialized}
 
 Um destino serializado combina várias características em uma única string e envia essas informações para um destino.
 
@@ -137,4 +137,4 @@ A transmissão de dados serializados ajuda a melhorar a eficiência porque vári
 
 ### Destinos suportados
 
-Em [!DNL Audience Manager], você pode serializar e enviar dados para praticamente qualquer destino com o qual deseja trabalhar. No entanto, antes de usar esse recurso, você precisará saber o destino [!DNL URL] e onde colocar algumas macros obrigatórias ou opcionais. Obtenha as informações sobre a colocação da macro do seu parceiro de destino. Consulte Macros de [destino definidas](../../features/destinations/destination-macros.md#destination-macros-defined) para obter mais informações.
+Em [!DNL Audience Manager], você pode serializar e enviar dados para praticamente qualquer destino com o qual deseja trabalhar. No entanto, antes de usar esse recurso, você precisará saber o destino [!DNL URL] e onde colocar algumas macros obrigatórias ou opcionais. Obtenha as informações sobre a colocação da macro do seu parceiro de destino. Consulte [Macros de destino definidas](../../features/destinations/destination-macros.md#destination-macros-defined) para obter mais informações.
