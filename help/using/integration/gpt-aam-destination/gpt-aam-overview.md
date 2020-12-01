@@ -1,7 +1,7 @@
 ---
 description: Visão geral de como integrar o Google Ad Manager usando o Google Publisher Tags (GPT).
 seo-description: Visão geral de como integrar o Google Ad Manager usando Google Publisher Tags (GPT) no Adobe Audience Manager (AAM).
-seo-title: Integre o Google Ad Manager usando o Google Publisher Tags (GPT) no Adobe Audience Manager (AAM)
+seo-title: Integre o Google Ad Manager usando Google Publisher Tags (GPT) no Adobe Audience Manager (AAM)
 title: Integre o Google Ad Manager usando Google Publisher Tags (GPT)
 feature: Third Party Integrations
 translation-type: tm+mt
@@ -13,17 +13,17 @@ ht-degree: 6%
 ---
 
 
-# Integrate [!DNL Google Ad Manager] (formerly DFP) using Google Publisher Tags (GPT)
+# Integre [!DNL Google Ad Manager] (antigo DFP) usando Google Publisher Tags (GPT)
 
-Os artigos listados abaixo fornecem uma visão geral de como se integrar [!DNL Google Ad Manager] usando o Google Publisher Tags (GPT). Você pode usar uma integração do lado do servidor ou configurar o GPT como destino para enviar dados de segmento de Audience Manager [!DNL Google Ad Manager]. Você também aprenderá as etapas necessárias para assimilar arquivos de [!DNL Google Ad Manager] registro para o relatórios no Audience Manager.
+Os artigos listados abaixo fornecem uma visão geral de como se integrar [!DNL Google Ad Manager] usando o Google Publisher Tags (GPT). Você pode usar uma integração do lado do servidor ou pode configurar o GPT como destino para enviar dados do segmento de Audience Manager para [!DNL Google Ad Manager]. Você também aprenderá as etapas necessárias para assimilar [!DNL Google Ad Manager] arquivos de registro para o relatórios no Audience Manager.
 
 * [Requisitos e métodos de envio de segmentos ao Google Ad Manager usando Google Publisher Tags (GPT)](/help/using/integration/gpt-aam-destination/gpt-aam-requirements.md)
 
-   É possível enviar segmentos qualificados para [!DNL Google Ad Manager] o cliente por meio de uma integração do lado do servidor. Os requisitos e as informações relacionadas sobre ambos os métodos estão listados abaixo.
+   Você pode enviar segmentos qualificados para [!DNL Google Ad Manager] por meio de uma integração do lado do cliente ou do lado do servidor. Os requisitos e as informações relacionadas sobre ambos os métodos estão listados abaixo.
 
 * [Criar um destino com GPT](/help/using/integration/gpt-aam-destination/gpt-aam-create-destination.md)
 
-   Você pode enviar segmentos qualificados para [!DNL Google Ad Manager] o cliente por meio de uma integração do lado do cliente (navegador) ou de uma integração do lado do servidor. Se você escolher a integração do cliente, deverá criar um destino baseado em cookies para as Tags do Google Publisher no Audience Manager.
+   Você pode enviar segmentos qualificados para [!DNL Google Ad Manager] por meio de uma integração do lado do cliente (navegador) ou de uma integração do lado do servidor. Se você escolher a integração do cliente, deverá criar um destino baseado em cookies para as Tags do Google Publisher no Audience Manager.
 
 * [Modificar a chamada da API setTargeting GPT](/help/using/integration/gpt-aam-destination/gpt-aam-modify-api.md)
 
