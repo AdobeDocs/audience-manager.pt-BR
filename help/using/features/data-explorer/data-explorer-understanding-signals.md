@@ -22,20 +22,20 @@ Os sinais são a menor unidade de informação do Audience Manager. Elas represe
 
 * `page = electronics`
 
-O Painel [de](../../features/data-explorer/data-explorer-signals-dashboard.md) Sinais mostra vários tipos de atributos de sinal que podem ser usados para criar novas características. Veja uma visualização detalhada das propriedades de sinal disponíveis:
+O Painel [Sinais](../../features/data-explorer/data-explorer-signals-dashboard.md) mostra vários tipos de atributos de sinal que você pode usar para criar novas características. Veja uma visualização detalhada das propriedades de sinal disponíveis:
 
-* *O par* de valor chave mostra o par de valor chave do sinal recebido por [!DNL Audience Manager].
-* *O tipo* de sinal descreve a categoria de cada sinal. Os sinais se encaixam em uma das seguintes categorias:
-   * [Arquivos](/help/using/integration/media-data-integration/actionable-log-files.md)de registro acionáveis: Sinais em tempo real recebidos dos ficheiros de registro de desempenho da sua mídia;
-   * [!DNL Adobe Analytics]: sinais em tempo real recebidos da sua [!DNL Adobe Analytics] conta;
+* *O* par de valores chave mostra o par de valores chave do sinal recebido por  [!DNL Audience Manager].
+* *O* tipo de sinal descreve a categoria de cada sinal. Os sinais se encaixam em uma das seguintes categorias:
+   * [Arquivos](/help/using/integration/media-data-integration/actionable-log-files.md) de registro acionáveis: Sinais em tempo real recebidos dos ficheiros de registro de desempenho da sua mídia;
+   * [!DNL Adobe Analytics]: sinais em tempo real recebidos da sua  [!DNL Adobe Analytics] conta;
    * Dados gerais em linha: dados em tempo real gerados pela atividade da audiência e não incluídos em arquivos de registro acionáveis e [!DNL Adobe Analytics];
    * Registros a bordo: dados recebidos através de transferências de dados em lote.
-* *A Fonte* do sinal depende do tipo de sinal:
+* *A fonte do sinal* depende do tipo de sinal:
    * Para sinais a bordo, a fonte do sinal é o nome da fonte de dados.
    * Para sinais originários de [!DNL Adobe Analytics], a fonte de dados sempre será um conjunto de relatórios.
    * Para arquivos de registro acionáveis e dados gerais on-line, nenhuma informação sobre a fonte do sinal é exibida.
-* *A Contagem* Total mostra o número total de vezes que um sinal em tempo real foi recebido [!DNL Audience Manager] nos últimos 7 dias.
-* *Incluído em Características* , mostra se o sinal faz parte de qualquer característica. Clique na seta para ver as características que incluem o sinal correspondente. Para sinais que não fazem parte de nenhuma característica, o valor da coluna muda para [!UICONTROL Create Onboarded Trait] ou [!UICONTROL Create Rule-Based Trait].
+* *Total de* contagens mostra o número total de vezes que um sinal em tempo real foi recebido  [!DNL Audience Manager] nos últimos 7 dias.
+* *Incluído nas* Características mostra se o sinal faz parte de qualquer característica. Clique na seta para ver as características que incluem o sinal correspondente. Para sinais que não fazem parte de nenhuma característica, o valor da coluna muda para [!UICONTROL Create Onboarded Trait] ou [!UICONTROL Create Rule-Based Trait].
 
 ## Frequência de atualização de dados de sinal
 
