@@ -19,9 +19,9 @@ ht-degree: 7%
 
 Um resumo da metodologia de amostragem utilizada para alguns relatórios, taxas de erro de amostragem e uma lista de relatórios que retornam informações com base em dados recolhidos.
 
-## Rácio de amostragem de dados {#data-sampling-ratio}
+## Taxa de amostragem de dados {#data-sampling-ratio}
 
-Alguns [!DNL Audience Manager] relatórios exibem resultados com base em um conjunto de amostras da quantidade total de dados disponíveis. A proporção de dados amostrados é de 1:54. Para relatórios que usam dados de amostra, isso significa que seus resultados se baseiam em 1 registro de cada conjunto de 54 registros.
+Alguns relatórios [!DNL Audience Manager] exibem resultados com base em um conjunto de amostras da quantidade total de dados disponíveis. A proporção de dados amostrados é de 1:54. Para relatórios que usam dados de amostra, isso significa que seus resultados se baseiam em 1 registro de cada conjunto de 54 registros.
 
 Esses relatórios usam dados estatísticos de amostra porque precisam de uma grande quantidade de poder de computação para gerar resultados. A amostragem ajuda a equilibrar as demandas computacionais reduzidas, mantendo o desempenho do sistema e fornecendo resultados precisos.
 
@@ -47,20 +47,20 @@ Erros podem ocorrer em relatórios que geram dados de sobreposição. Um erro é
 * Não deveria ter sido incluído em um relatório, mas sim adicionado mesmo assim.
 * Deveria ter sido incluído em um relatório, mas foi deixado de fora.
 
-É importante observar que nossos testes e modelos mostram que a taxa de erro *diminui* em uma proporção inversa ao número de registros no conjunto de dados. Os conjuntos de dados com muitos registros geram menos erros do que os conjuntos com um pequeno número de registros. Vejamos essa afirmação de forma mais quantitativa. Conforme mostrado na tabela a seguir, para um número definido de registros, 95% dos resultados do relatório estarão abaixo de uma taxa de erro específica.
+É importante observar que nossos testes e modelos mostram que a taxa de erro *diminui* em uma proporção inversa ao número de registros em seu conjunto de dados. Os conjuntos de dados com muitos registros geram menos erros do que os conjuntos com um pequeno número de registros. Vejamos essa afirmação de forma mais quantitativa. Conforme mostrado na tabela a seguir, para um número definido de registros, 95% dos resultados do relatório estarão abaixo de uma taxa de erro específica.
 
 | Número de registros | Taxa de erro |
 |--- |--- |
-| 500 - 1,000 | 95% estão abaixo de uma taxa de erro de 42%. |
-| 1,000 - 1,500 | 95% estão abaixo de uma taxa de erro de 34%. |
-| 10,000 - 50,000 | 95% estão abaixo de uma taxa de erro de 14%. |
+| 500 - 1.000 | 95% estão abaixo de uma taxa de erro de 42%. |
+| 1.000 - 1.500 | 95% estão abaixo de uma taxa de erro de 34%. |
+| 10.000 - 50.000 | 95% estão abaixo de uma taxa de erro de 14%. |
 | 50.000 | 95% estão abaixo de uma taxa de erro de 6%. |
-| 100,000 | 95% estão abaixo de uma taxa de erro de 4%. |
+| 100 000 | 95% estão abaixo de uma taxa de erro de 4%. |
 | 500.000 (ou mais) | 95% estão abaixo de uma taxa de erro de 2%. |
 
 ## Utilização da metodologia de amostragem Minhash {#minhash}
 
-Com base na metodologia de amostragem do [Minhash](https://en.wikipedia.org/wiki/MinHash) , o Audience Manager usa um novo método para computar os estimadores de características e segmentos sobre um rascunho de dados de um hash de permutação única. Esse novo método produz uma variância menor do que o estimador padrão para similaridade com o Jaccard. Consulte a seção abaixo para obter os relatórios que usam essa metodologia.
+Com base na metodologia de amostragem [Minhash](https://en.wikipedia.org/wiki/MinHash), o Audience Manager usa um novo método para calcular os estimadores de características e segmentos sobre um rascunho de dados de um hash de permutação única. Esse novo método produz uma variância menor do que o estimador padrão para similaridade com o Jaccard. Consulte a seção abaixo para obter os relatórios que usam essa metodologia.
 
 <!--
 
@@ -72,7 +72,7 @@ Some Audience Manager reports use the minhash sampling methodology to compute tr
 
 ## Relatórios que usam dados de amostra {#reports-using-sampled-data}
 
-Os [!DNL Audience Manager] relatórios que utilizam dados estatísticos amostrados e a metodologia de amostragem Minhash incluem:
+Os relatórios [!DNL Audience Manager] que usam dados estatísticos amostrados e a metodologia de amostragem Minhash incluem:
 
 <!--
 
@@ -87,6 +87,6 @@ Reports that use Minhash sampling methodology:
 
 | Amostragem estatística | Metodologia de amostragem de minhash |
 |--- |--- |
-| [Dados de Audiência](../features/addressable-audiences.md) endereçáveis (dados no nível do cliente e do segmento). | [Relatórios](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) de sobreposição (característica a característica, segmento a característica e segmento a segmento) |
-| A métrica [Total de dispositivos](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) para um [!UICONTROL Profile Merge Rule]. | [Recomendações de característica](/help/using/features/segments/trait-recommendations.md) |
-| [A Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) usa dados de amostra na [!UICONTROL Search] guia e qualquer [!UICONTROL Saved Searches] | [Audience Marketplace Recommendations](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |
+| [Dados de ](../features/addressable-audiences.md) público-alvo endereçáveis (dados no nível do cliente e do segmento). | [Relatórios](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports)  de sobreposição (característica para característica, segmento para característica e segmento para segmento) |
+| A métrica [Total Devices](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) para [!UICONTROL Profile Merge Rule]. | [Recomendações de característica](/help/using/features/segments/trait-recommendations.md) |
+| [O Data ](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) Explorer usa dados de amostra na  [!UICONTROL Search] guia e qualquer  [!UICONTROL Saved Searches] | [Audience Marketplace Recommendations](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |
