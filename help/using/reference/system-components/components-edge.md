@@ -19,7 +19,7 @@ ht-degree: 6%
 
 A Audience Manager usa topologias distribuídas e de tecnologia de ponta para atender às demandas colocadas em nossos sistemas por fontes externas.
 
-## Noções básicas do Edge Data Center {#edge-data-center-basics}
+## Informações básicas sobre o centro de dados Edge {#edge-data-center-basics}
 
 <!-- 
 
@@ -27,15 +27,15 @@ c_compedge.xml
 
  -->
 
-A computação de borda oferece desempenho aprimorado em resposta a demandas difusas de toda a Internet, pois a &quot;borda&quot; em si é um limite global. Isso significa que coloca o processamento [!DNL Audience Manager] dinamicamente mais próximo das fontes de demanda e retorna os dados pelo caminho mais curto possível. A computação de borda ajuda a manter o desempenho do site, o que, por sua vez, preserva a experiência do usuário em seu site. O centro de dados de borda é um gateway chave para mover os dados para dentro e para fora [!DNL Audience Manager].
+A computação de borda oferece desempenho aprimorado em resposta a demandas difusas de toda a Internet, pois a &quot;borda&quot; em si é um limite global. Isso significa que [!DNL Audience Manager] coloca dinamicamente o processamento mais próximo das fontes de demanda e retorna os dados pelo caminho mais curto possível. A computação de borda ajuda a manter o desempenho do site, o que, por sua vez, preserva a experiência do usuário em seu site. O centro de dados de borda é um gateway chave para mover os dados para dentro e para fora de [!DNL Audience Manager].
 
-O centro de dados de [!DNL Audience Manager] borda inclui:
+O centro de dados de borda [!DNL Audience Manager] inclui:
 
-* **Servidores principais:** Estes são os [!DNL Audience Manager] sistemas principais. Eles atualizam e fornecem dados para os servidores de borda.
+* **Servidores principais:** esses são os  [!DNL Audience Manager] sistemas principais. Eles atualizam e fornecem dados para os servidores de borda.
 
-* **Servidores Edge:** Normalmente, são servidores de aplicativos e/ou da Web. Eles ficam na fronteira entre [!DNL Audience Manager] a Internet. Os servidores de borda, como os sistemas [!DNL DCS] ou Akamai, geralmente lidam com dados e solicitações que entram e saem [!DNL Audience Manager].
+* **Servidores de borda:** Geralmente, esses são servidores de aplicativos e/ou da Web. Eles ficam no limite entre [!DNL Audience Manager] e a Internet. Os servidores de borda, como os sistemas [!DNL DCS] ou Akamai, geralmente lidam com dados e solicitações que entram e saem de [!DNL Audience Manager].
 
-* **Balanceadores de Carga:** Gerencie demandas desiguais de computação/processamento inerentes aos aplicativos da Internet. Esses balanceadores impedem que clusters de servidores sejam sobrecarregados enquanto outros permanecem ociosos.
+* **Balanceadores de carga:** gerencie demandas desiguais de computação/processamento inerentes aos aplicativos da Internet. Esses balanceadores impedem que clusters de servidores sejam sobrecarregados enquanto outros permanecem ociosos.
 
 O diagrama a seguir ilustra o ambiente do centro de dados da borda do Audience Manager.
 
@@ -43,4 +43,4 @@ O diagrama a seguir ilustra o ambiente do centro de dados da borda do Audience M
 
 ## Distribuição geográfica e balanceamento de carga {#geo-dist-balance}
 
-Consulte a [!DNL DCS] seção em Componentes [de coleta de](../../reference/system-components/components-data-collection.md)dados.
+Consulte a seção [!DNL DCS] em [Componentes da coleção de dados](../../reference/system-components/components-data-collection.md).
