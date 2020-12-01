@@ -17,7 +17,7 @@ ht-degree: 10%
 
 # Características do público-alvo ativo e características sincronizadas da fonte de dados {#active-audience-traits-and-data-source-synced-traits}
 
-Estas são características especiais usadas por [!UICONTROL Addressable Audiences]. [!UICONTROL Active Audience] e [!UICONTROL Data Source Synced Traits] estão localizados em [!UICONTROL Audience Data > Traits > Audience Traits].
+São características especiais usadas por [!UICONTROL Addressable Audiences]. [!UICONTROL Active Audience] e  [!UICONTROL Data Source Synced Traits] estão localizados em  [!UICONTROL Audience Data > Traits > Audience Traits].
 
 >[!NOTE]
 >
@@ -25,15 +25,15 @@ Estas são características especiais usadas por [!UICONTROL Addressable Audienc
 
 ## Características de Audiência ativas {#active-audience-traits}
 
-Uma [!UICONTROL Active Audience] característica contém todos os dispositivos sob gerenciamento na sua [!DNL Audience Manager] conta. Você pode usar uma característica [!UICONTROL Active Audience Trait] semelhante a outras ao criar ou editar segmentos. Além disso, [Audiências](../../features/addressable-audiences.md) endereçáveis exigem essa característica para gerar dados de sobreposição. Todas as contas têm uma característica [!UICONTROL Active Audience] por padrão. Não é possível eliminar esta característica.
+Uma característica [!UICONTROL Active Audience] contém todos os dispositivos sob gerenciamento em sua conta [!DNL Audience Manager]. Você pode usar [!UICONTROL Active Audience Trait] como outras características ao criar ou editar segmentos. Além disso, [Audiências endereçáveis](../../features/addressable-audiences.md) requer essa característica para gerar dados de sobreposição. Todas as contas têm uma característica [!UICONTROL Active Audience] por padrão. Não é possível eliminar esta característica.
 
 ## Características sincronizadas da fonte de dados {#data-source-synced-traits}
 
-[!UICONTROL Data Source Synced Traits] aparecem na [!UICONTROL Audience Traits] pasta quando você [cria ou edita uma fonte de dados](../../features/manage-datasources.md#create-data-source) e aplicam uma destas configurações:
+[!UICONTROL Data Source Synced Traits] aparecem na  [!UICONTROL Audience Traits] pasta quando você  [cria ou edita uma fonte de ](../../features/manage-datasources.md#create-data-source) dados e aplicam uma destas configurações:
 
 ![](assets/datasource_synced.png)
 
-[!UICONTROL Data Source Synced Traits] rastreie todos os usuários associados a uma fonte de dados. Você pode usar uma característica [!UICONTROL Data Source Synched Trait] semelhante a outras ao criar ou editar segmentos. Quando você cria um [!UICONTROL Data Source Synced Trait], o nome da característica corresponde ao nome usado pela fonte de dados. Edite a fonte de dados para alterar o nome da característica. Essas características não podem ser excluídas.
+[!UICONTROL Data Source Synced Traits] rastreie todos os usuários associados a uma fonte de dados. Você pode usar [!UICONTROL Data Source Synched Trait] como outras características ao criar ou editar segmentos. Quando você cria um [!UICONTROL Data Source Synced Trait], o nome da característica corresponde ao nome usado pela fonte de dados. Edite a fonte de dados para alterar o nome da característica. Essas características não podem ser excluídas.
 
 >[!TIP]
 >
