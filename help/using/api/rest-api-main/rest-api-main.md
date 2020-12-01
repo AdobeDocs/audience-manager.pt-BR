@@ -17,10 +17,10 @@ ht-degree: 4%
 
 # [!DNL REST APIs] {#rest-apis}
 
-[!UICONTROL RESTful APIs] deixe você trabalhar de forma programática com [!DNL Audience Manager].
+[!UICONTROL RESTful APIs] deixe você trabalhar de forma programática com  [!DNL Audience Manager].
 
-Os [!DNL Audience Manager] seguintes padrões [!DNL REST API] ( [!DNL JavaScript Object Notation] JSON[](https://www.json.org/)) para a formatação de dados enviados e recebidos. Uma das principais vantagens do [!DNL JSON] é que ele ajuda a facilitar a gravação, a leitura e a análise dos [!DNL API] query por desenvolvedores e máquinas.
+Os padrões [!DNL Audience Manager] [!DNL REST API] seguem [!DNL JavaScript Object Notation] ([JSON](https://www.json.org/)) para a formatação de dados enviados e recebidos. Uma vantagem principal do [!DNL JSON] é que ele ajuda a facilitar a gravação, leitura e análise dos query [!DNL API] por desenvolvedores e máquinas.
 
-Para simplificar ainda mais seu trabalho, estamos migrando nosso trabalho [!DNL REST APIs] para o [Swagger](https://swagger.io/solutions/api-documentation/). Para obter mais informações, consulte Migração [de código da API de](/help/using/api/api-swagger-migration.md)Audience Manager.
+Para simplificar ainda mais seu trabalho, estamos migrando nosso [!DNL REST APIs] para [Swagger](https://swagger.io/solutions/api-documentation/). Para obter mais informações, consulte [Migração de código da API do Audience Manager](/help/using/api/api-swagger-migration.md).
 
-Examine o material [Introdução](../../api/rest-api-main/aam-api-getting-started.md#getting-started-with-rest-apis) antes de trabalhar com os [!DNL Audience Manager][!DNL API] métodos.
+Examine o material [Introdução](../../api/rest-api-main/aam-api-getting-started.md#getting-started-with-rest-apis) antes de trabalhar com os métodos [!DNL Audience Manager] [!DNL API].
