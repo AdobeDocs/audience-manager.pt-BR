@@ -17,20 +17,20 @@ ht-degree: 1%
 
 # Implementação do Audience Manager {#implementing-audience-manager}
 
-Esta seção descreve e explica os processos relacionados à introdução à plataforma Audience Manager gestão de dados ([!DNL DMP]). Esta seção foi projetada para ajudar equipes de negócios, gerentes de projeto e gerentes de tecnologia a entender o processo de implementação do Audience Manager. A introdução ao Audience Manager pode levar aproximadamente de seis a três meses, dependendo das suas necessidades de coleta de dados.
+Esta seção descreve e explica os processos relacionados à introdução à plataforma de gestão de dados do Audience Manager ([!DNL DMP]). Esta seção foi projetada para ajudar equipes de negócios, gerentes de projeto e gerentes de tecnologia a entender o processo de implementação do Audience Manager. A introdução ao Audience Manager pode levar aproximadamente de seis a três meses, dependendo das suas necessidades de coleta de dados.
 
 Nossas técnicas de implementação ajudam a criar parcerias consultivas com novos clientes. Esse processo foi projetado para:
 
 * Descubra e entenda seus requisitos comerciais;
 * Elaborar um plano acionável para satisfazer essas exigências;
-* Desenvolver soluções personalizadas que ajudem a satisfazer requisitos únicos ou casos de uso;
+* Desenvolver soluções personalizadas para ajudar a satisfazer requisitos únicos ou casos de uso;
 * Certifique-se de que seus dados proprietários sejam importados e disponibilizados no Audience Manager.
 
 Nossas equipes de soluções de parceiros e gerenciamento de contas trabalharão em conjunto com você antes, durante e após o processo de implementação.
 
 O Audience Manager adota uma abordagem em fases para a configuração e implementação.
 
-## Definir fase {#define-phase}
+## Definir Fase {#define-phase}
 
 A fase de definição apresenta você ao nosso projeto Partner Solutions e inicia o processo de gerenciamento do projeto.
 
@@ -118,7 +118,7 @@ A tabela a seguir descreve as principais atividades que ocorrem durante essa fas
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> Localizar destinos </td> 
-   <td colname="col2"> Descubra se o cliente envia dados para outros servidores de anúncios, DSPs, redes ou trocas </td> 
+   <td colname="col2"> Descubra se o cliente envia dados para outros servidores de anúncios, DSP, redes ou trocas </td> 
    <td colname="col3"> Equipes comerciais </td> 
   </tr> 
   <tr valign="top"> 
@@ -137,24 +137,24 @@ A tabela a seguir descreve as principais atividades que ocorrem durante essa fas
 Os resultados desta fase podem incluir:
 
 * Uma estratégia completa de coleta de dados primários, de terceiros e de terceiros;
-* Um plano de ingestão concluído [!DNL CRM] ou data warehouse;
+* Um plano de ingestão de [!DNL CRM] ou data warehouse concluído;
 * Requisitos de segmentação de audiências definidos;
 * uma taxonomia completa dos dados;
 * Um plano de integração de dados desenvolvido por terceiros.
 
-## Fase de construção, teste e comboio {#build-test-train-phase}
+## Fase de construção, ensaio e treino {#build-test-train-phase}
 
 Durante a fase de compilação, teste e treinamento, você revisará a estratégia de coleta de dados e o protótipo com um líder designado de soluções de parceiro.
 
 <!-- c_build_test_train.xml -->
 
-Sua estratégia de coleta de dados será submetida a um teste completo [!DNL QA] . As Soluções de Parceiro rastrearão os erros detectados e coordenarão as resoluções de problemas com nossos engenheiros de sistemas. O treinamento do cliente pode ser start em paralelo a esses outros esforços.
+Sua estratégia de coleta de dados será testada [!DNL QA] de ponta a ponta. As Soluções de Parceiro rastrearão os erros detectados e coordenarão as resoluções de problemas com nossos engenheiros de sistemas. O treinamento do cliente pode ser start em paralelo a esses outros esforços.
 
 A tabela a seguir descreve as principais atividades que ocorrem durante essa fase:
 
 | Atividade | Finalidade/Descrição | Participantes |
 |---|---|---|
-| Preparar uma estratégia de coleta de dados | Trabalhe com as equipes técnicas da Adobe para criar um plano de coleta de dados que atenda às suas necessidades comerciais | Equipes comerciais e técnicas |
+| Preparar uma estratégia de coleta de dados | Trabalhe com equipes técnicas do Adobe para criar um plano de coleta de dados que atenda às suas necessidades comerciais | Equipes comerciais e técnicas |
 | Implantar e testar código | Teste a solução proposta em um ambiente de preparo e execute testes entre navegadores | Equipes técnicas |
 | Verificar a funcionalidade e resolver erros | Examine e comunique resultados, resolva erros e teste novamente | Equipes técnicas |
 | Treinamento do usuário | Fornecer educação e compreensão sobre recursos, ferramentas e relatórios do Audience Manager | Equipes comerciais |
@@ -162,13 +162,13 @@ A tabela a seguir descreve as principais atividades que ocorrem durante essa fas
 Os resultados desta fase podem incluir:
 
 * Um plano de recolha de dados concluído e aceite;
-* Ensaio extremo-a-extremo [!DNL QA] ;
+* Teste de [!DNL QA] completo;
 * Instruções básicas sobre os recursos da interface do usuário do Audience Manager;
 * Aceitação e aprovação.
 
 ## Iniciar, suportar e otimizar a fase {#launch-support-optimize-phase}
 
-Durante a fase de inicialização, suporte e otimização, sua coleta de dados e implementação de protótipos passam do desenvolvimento para um ambiente de produção ao vivo. Continuaremos treinando sobre a familiarização dos produtos e estratégias que podem ajudar a aumentar sua produtividade através da otimização orientada por [!DNL ROI] dados.
+Durante a fase de inicialização, suporte e otimização, sua coleta de dados e implementação de protótipos passam do desenvolvimento para um ambiente de produção ao vivo. Continuaremos treinando sobre familiarização de produtos e estratégias que podem ajudar a aumentar seu [!DNL ROI] por meio da otimização orientada por dados.
 
 <!-- c_launch_support_optimize.xml -->
 
@@ -184,7 +184,7 @@ A tabela a seguir descreve as principais atividades que ocorrem durante essa fas
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> análise e otimização de dados </td> 
+   <td colname="col1"> Análise e otimização de dados </td> 
    <td colname="col2"> Analisar tendências de dados e fornecer recomendações para otimização </td> 
    <td colname="col3"> Equipes comerciais </td> 
   </tr> 
@@ -211,7 +211,7 @@ A tabela a seguir descreve as principais atividades que ocorrem durante essa fas
  </tbody> 
 </table>
 
-As Tarefas para esta fase podem incluir:
+As tarefas para esta fase podem incluir:
 
 * Geração e interpretação de dados do relatório;
 * Compreensão dos relatórios personalizados;
@@ -221,7 +221,7 @@ As Tarefas para esta fase podem incluir:
 
 ## Implementação de código {#code-implementation}
 
-Embora o processo de implantação possa parecer complexo, a implementação do código é tão simples quanto adicionar algumas linhas [!DNL JavaScript] adjacentes à `</body>` tag de fechamento do site.
+Embora o processo de implantação possa parecer complexo, a implementação do código é tão simples quanto adicionar algumas linhas de [!DNL JavaScript] adjacentes à tag `</body>` de fechamento do seu site.
 
 <!-- c_code.xml -->
 
@@ -241,4 +241,4 @@ Nossos esforços colaborativos não param com a implantação final. Depois que 
 
 Os gerentes de conta fornecem serviços contínuos de suporte e consulta após a conclusão do processo de implementação do produto. Você pode esperar reuniões regulares com seu gerente de conta. Essas reuniões garantem que você obtenha o máximo de uso e valor do Audience Manager.
 
-Entre em contato conosco [aqui](https://www.adobe.com/products/audiencemanager.html) para obter mais informações e começar a usar o Audience Manager.
+Entre em contato conosco [here](https://www.adobe.com/products/audiencemanager.html) para obter mais informações e começar a usar o Audience Manager.
