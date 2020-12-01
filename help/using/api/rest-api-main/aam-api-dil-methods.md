@@ -1,6 +1,6 @@
 ---
-description: Métodos que permitem trabalhar de forma programática com a Biblioteca de integração de dados (DIL).
-seo-description: Métodos que permitem trabalhar de forma programática com a Biblioteca de integração de dados (DIL).
+description: Métodos que permitem trabalhar programaticamente com a Data Integration Library (DIL).
+seo-description: Métodos que permitem trabalhar programaticamente com a Data Integration Library (DIL).
 seo-title: Métodos da API da biblioteca de integração de dados
 solution: Audience Manager
 title: Métodos da API da biblioteca de integração de dados
@@ -17,17 +17,17 @@ ht-degree: 14%
 
 # Métodos da API da biblioteca de integração de dados {#data-integration-library-api-methods}
 
-Métodos que permitem trabalhar programaticamente com o [!UICONTROL Data Integration Library] ([!UICONTROL DIL].
+Métodos que permitem trabalhar programaticamente com [!UICONTROL Data Integration Library] ([!UICONTROL DIL].
 
 >[!IMPORTANT]
 >
->A API da Biblioteca de integração de dados foi substituída. Essa API foi usada para gerar DIL, que agora você pode baixar automaticamente aqui: [Download](https://github.com/Adobe-Marketing-Cloud/dil/releases)DIL.
+>A API de Data Integration Library foi substituída. Essa API era usada para gerar DIL, que agora você pode baixar automaticamente aqui: [DIL download](https://github.com/Adobe-Marketing-Cloud/dil/releases).
 
 <!-- c_data_integr_library_api.xml -->
 
 ## Versões de retorno para DIL {#return-version-dil}
 
-Um `GET` método que retorna uma lista de versões pedidas do mais antigo para o mais recente.
+Um método `GET` que retorna uma lista de versões pedidas do mais antigo para o mais recente.
 
 <!-- r_api_return_versions_dil.xml -->
 
@@ -37,7 +37,7 @@ Um `GET` método que retorna uma lista de versões pedidas do mais antigo para o
 
 ### Resposta
 
-Uma solicitação bem-sucedida retorna o código de resposta `["4.0", "4.1"]` como mostrado abaixo.
+Uma solicitação bem-sucedida retorna o código de resposta `["4.0", "4.1"]`, conforme mostrado abaixo.
 
 ```
 ["4.0", "4.1"]
@@ -45,7 +45,7 @@ Uma solicitação bem-sucedida retorna o código de resposta `["4.0", "4.1"]` co
 
 ## Retornar o Schema JSON para a versão {#return-json-schema-version}
 
-Um `GET` método que retorna o [!DNL JSON] schema para a [!UICONTROL DIL] versão. Suporta o uso de alias [!UICONTROL LATEST] para versão para obter a versão mais recente do [!UICONTROL DIL].
+Um método `GET` que retorna o schema [!DNL JSON] para a versão [!UICONTROL DIL]. Suporta o uso do alias [!UICONTROL LATEST] para a versão para obter a versão mais recente de [!UICONTROL DIL].
 
 <!-- r_api_return_json_schema_for_version.xml -->
 
@@ -381,7 +381,7 @@ Uma solicitação bem-sucedida retorna o código de resposta `["4.0", "4.1"]` e 
 
 ## Gerar DIL {#generate-dil}
 
-Um `GET` método que gera com [!UICONTROL DIL] base no corpo da solicitação passado usando a versão especificada de [!UICONTROL DIL]. Se o alias `LATEST` for usado para a versão no URL, a versão mais recente do [!UICONTROL DIL] será gerada.
+Um método `GET` que gera [!UICONTROL DIL] com base no corpo da solicitação passado usando a versão especificada de [!UICONTROL DIL]. Se o alias `LATEST` for usado para a versão no URL, a versão mais recente de [!UICONTROL DIL] será gerada.
 
 <!-- r_api_generate_dil.xml -->
 
@@ -465,4 +465,4 @@ Um `GET` método que gera com [!UICONTROL DIL] base no corpo da solicitação pa
 
 ### Resposta
 
-Uma atualização bem-sucedida retorna o código de resposta `201 created` junto com o [!UICONTROL DIL] [!DNL JavaScript] código.
+Uma atualização bem-sucedida retorna o código de resposta `201 created` junto com o código [!UICONTROL DIL] [!DNL JavaScript].
