@@ -24,14 +24,14 @@ Você também pode ver informações sobre o segmento de linha de base usado par
 
 Os **[!UICONTROL Test Segments]** são preenchidos aleatoriamente com usuários do segmento de linha de base usado para o grupo de teste. A visão geral mostra as porcentagens de usuários alocados para cada segmento de teste.
 
-A **[!UICONTROL Conversion Traits]** unidade do relatórios para os grupos de teste. Para designar uma característica como conversão, ao criar ou editar características no [!UICONTROL Trait Builder], selecione **Conversão** como **[Tipo de evento](../../features/traits/create-onboarded-rule-based-traits.md).**
+Os **[!UICONTROL Conversion Traits]** acionam o relatórios para os grupos de teste. Para designar uma característica como conversão, ao criar ou editar características em [!UICONTROL Trait Builder], selecione **Conversão** como **[Tipo de evento](../../features/traits/create-onboarded-rule-based-traits.md).**
 
-A **[!UICONTROL Destinations]** placa pode ser recolhida. Pressione as setas para abrir ou fechar destinos individuais e obter as seguintes informações para segmentos de teste, agrupados pelos destinos para os quais estão mapeados:
+A placa **[!UICONTROL Destinations]** pode ser recolhida. Pressione as setas para abrir ou fechar destinos individuais e obter as seguintes informações para segmentos de teste, agrupados pelos destinos para os quais estão mapeados:
 
 * o número de dispositivos da população total do segmento base alocada para cada destino.
 * chave de mapeamento;
 * valor do mapeamento;
-* [!DNL URL] &amp; seguro [!DNL URL] para [!DNL URL] destinos.
+* [!DNL URL] &amp; seguro  [!DNL URL] para  [!DNL URL] destinos.
 
 >[!NOTE]
 >
