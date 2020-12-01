@@ -17,13 +17,13 @@ ht-degree: 13%
 
 # Métodos da API de gerenciamento de grupos {#group-management-api-methods}
 
-Restaure [!DNL API] métodos para gerenciar grupos, incluindo criação, atualização, listagem, exclusão de grupos.
+Restaure métodos [!DNL API] para gerenciar grupos, incluindo criação, atualização, listagem e exclusão de grupos.
 
 <!-- c_rest_api_user_man_group.xml -->
 
 ## Criar um grupo {#create-group}
 
-Um `POST` método para criar um novo grupo de usuários.
+Um método `POST` para criar um novo grupo de usuários.
 
 <!-- r_rest_api_group_create.xml -->
 
@@ -54,9 +54,9 @@ Um `POST` método para criar um novo grupo de usuários.
   }
 ```
 
-## Atualizar um grupo {#update-group}
+## Atualizar um Grupo {#update-group}
 
-Um `PUT` método para atualizar um grupo de usuários.
+Um método `PUT` para atualizar um grupo de usuários.
 
 <!--
 r_rest_api_group_update.xml
@@ -89,9 +89,9 @@ r_rest_api_group_update.xml
   }
 ```
 
-## Grupos de Listas {#list-groups}
+## Grupos de listas {#list-groups}
 
-Um `GET` método para lista de grupos de usuários.
+Um método `GET` para lista de grupos de usuários.
 
 <!--
 r_rest_api_group_list.xml
@@ -119,7 +119,7 @@ r_rest_api_group_list.xml
 
 ## Excluir um grupo {#delete-groups}
 
-Um `DELETE` método para excluir um grupo de usuários e remover todos os membros desse grupo.
+Um método `DELETE` para excluir um grupo de usuários e remover todos os membros desse grupo.
 
 <!-- r_rest_api_group_delete.xml -->
 
@@ -127,11 +127,11 @@ Um `DELETE` método para excluir um grupo de usuários e remover todos os membro
 
 `DELETE /api/v1/groups/`*`<groupId>`*
 
-Retorna `204 No Content` se bem-sucedido. Em caso de retornos em conflito `409 Conflict`.
+Retorna `204 No Content` se bem-sucedido. Em caso de conflito, retorna `409 Conflict`.
 
 ## Excluir grupos em massa {#delete-groups-bulk}
 
-Um `DELETE` método para excluir vários grupos em massa e remover todos os membros desse grupo.
+Um método `DELETE` para excluir vários grupos em massa e remover todos os membros desse grupo.
 
 <!-- r_rest_api_group_delete_bulk.xml -->
 
@@ -139,11 +139,11 @@ Um `DELETE` método para excluir vários grupos em massa e remover todos os memb
 
 `DELETE /api/v1/groups/bulk-delete`
 
-Retorna `204 No Content` se bem-sucedido. Em caso de retornos em conflito `409 Conflict`.
+Retorna `204 No Content` se bem-sucedido. Em caso de conflito, retorna `409 Conflict`.
 
-## Lista de todas as permissões de um grupo {#list-permissions-group}
+## Lista de todas as permissões para um grupo {#list-permissions-group}
 
-Um `GET` método para lista os objetos de permissão em um grupo.
+Um método `GET` para lista os objetos de permissão em um grupo.
 
 <!-- r_rest_api_perm_list_group.xml -->
 
@@ -175,9 +175,9 @@ Um `GET` método para lista os objetos de permissão em um grupo.
 
 Retorna `400 Bad Request` se o grupo estiver inacessível.
 
-## Set Permissions for a Group {#set-permissions-group}
+## Definir permissões para um grupo {#set-permissions-group}
 
-Um `PUT` método para atualizar permissões de grupo. Este método substitui as permissões antigas pelas novas permissões.
+Um método `PUT` para atualizar permissões de grupo. Este método substitui as permissões antigas pelas novas permissões.
 
 <!-- r_rest_api_perm_set.xml -->
 
