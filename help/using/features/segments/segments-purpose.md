@@ -17,11 +17,11 @@ ht-degree: 6%
 
 # Segmentos: finalidade, composição e regras {#segments-purpose-composition-and-rules}
 
-Descreve [!UICONTROL segments]as partes constituintes e a criação de regras com [!UICONTROL Segment Builder].
+Descreve [!UICONTROL segments], suas partes constituintes e a criação de regras com [!UICONTROL Segment Builder].
 
-## Finalidade da [!UICONTROL Segments]
+## Finalidade de [!UICONTROL Segments]
 
-A *`segment`* (or an *`audience`*) is a set of users who share common attributes. No Audience Manager, você cria [!UICONTROL segments] com regras do lado do servidor. Essas regras permitem que você crie grupos de audiências com base nos atributos de visitante do site, como:
+Um *`segment`* (ou um *`audience`*) é um conjunto de usuários que compartilham atributos comuns. No Audience Manager, você cria [!UICONTROL segments] com regras do lado do servidor. Essas regras permitem que você crie grupos de audiências com base nos atributos de visitante do site, como:
 
 * Comportamento;
 * Demografia (idade, gênero, rendimento, etc.);
@@ -29,27 +29,27 @@ A *`segment`* (or an *`audience`*) is a set of users who share common attributes
 
 ## [!UICONTROL Segment] Composição
 
-Um Audience Manager [!UICONTROL segment] é uma regra do lado do servidor que consiste em indivíduos ou grupos de características. As características são compostas de elementos de dados chamados pares de valores chave. Junto com as regras definidas no [!UICONTROL segment] nível, esses pares de valores chave contêm os critérios que qualificam visitantes para características e [!UICONTROL segment] associação.
+Um Audience Manager [!UICONTROL segment] é uma regra do lado do servidor que consiste em características individuais ou grupos. As características são compostas de elementos de dados chamados pares de valores chave. Junto com as regras definidas no nível [!UICONTROL segment], esses pares de valores chave contêm os critérios que qualificam visitantes para características e [!UICONTROL segment] associação.
 
-## Considerações sobre o [!UICONTROL Adobe Analytics] mapeamento [!UICONTROL Segment]
+## Considerações sobre o mapeamento [!UICONTROL Adobe Analytics] [!UICONTROL Segment]
 
-Ao mapear o Adobe Analytics [!UICONTROL segments] ou conjuntos de relatórios para a organização do Experience Cloud, o Audience Manager cria automaticamente características e características novas, correspondentes, somente leitura [!UICONTROL segments] . Não é possível editar ou alterar o local do armazenamento do Audience Manager [!UICONTROL segments] . No entanto, qualquer alteração que você efetuar no Adobe Analytics ou nos conjuntos de relatórios mapeados será refletida no Audience Manager. [!UICONTROL segments]
+Ao mapear o Adobe Analytics [!UICONTROL segments] ou conjuntos de relatórios para a organização do Experience Cloud, o Audience Manager cria automaticamente características e [!UICONTROL segments] novas, correspondentes e somente leitura. Não é possível editar ou alterar o local do armazenamento desses [!UICONTROL segments] do Audience Manager. No entanto, qualquer alteração que você efetuar no Adobe Analytics [!UICONTROL segments] mapeado ou nos conjuntos de relatórios será refletida no Audience Manager.
 
 >[!TIP]
 >
->Audience Manager [!UICONTROL segments] são diferentes de [!DNL Adobe Analytics][!UICONTROL segments]. Read [Understanding Segments in Analytics and Audience Manager](https://docs.adobe.com/content/help/pt-BR/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) for an in-depth description of the differences.
+>Audience Manager [!UICONTROL segments] são diferentes de [!DNL Adobe Analytics] [!UICONTROL segments]. Leia [Entendendo segmentos no Analytics e Audience Manager](https://docs.adobe.com/content/help/pt-BR/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) para obter uma descrição detalhada das diferenças.
 
-## Criar com base em regras [!UICONTROL Segments] com [!UICONTROL Segment Builder]
+## Criar [!UICONTROL Segments] com base em regras com [!UICONTROL Segment Builder]
 
-Ao contrário dos pixels tradicionais que disparam em resposta a condições simples de sim/não, [!UICONTROL Segment Builder] permite criar [!UICONTROL segment] requisitos complexos. Como [!UICONTROL traits], [!UICONTROL segments] avalie dados usando [!DNL Boolean] expressão ([!DNL AND], [!DNL OR], [!DNL NOT]), operadores de comparação (maior que, menor que, igual a, etc.) e critérios de recenticidade/frequência. Esses recursos ajudam a criar audiências focalizadas [!UICONTROL segments] relevantes às suas necessidades comerciais.
+Ao contrário dos pixels tradicionais que disparam em resposta a condições simples sim/não, [!UICONTROL Segment Builder] permite que você crie requisitos complexos de [!UICONTROL segment]. Como [!UICONTROL traits], [!UICONTROL segments] avalia os dados usando [!DNL Boolean] expressões ([!DNL AND], [!DNL OR], [!DNL NOT]), operadores de comparação (maior que, menor que, igual a etc.) e critérios de recenticidade/frequência. Esses recursos ajudam a criar audiências focadas [!UICONTROL segments] relevantes para suas necessidades de negócios.
 
 ## Benefícios
 
 [!UICONTROL Segments] melhore os processos padrão de criação/segmentação de audiências com base em pixels, pois eles permitem:
 
-* Crie características relevantes e úteis [!UICONTROL segments] com características próprias e de terceiros.
+* Crie [!UICONTROL segments] relevantes e úteis com características próprias e de terceiros.
 * Crie regras de segmentação sofisticadas e complexas com operadores booleanos, expressões de comparação e critérios de recenticidade/frequência.
-* Enviar [!UICONTROL segment] dados para um parceiro de destino.
+* Envie dados [!UICONTROL segment] para um parceiro de destino.
 * Monitore o desempenho com os relatórios de Audience Manager.
 
 >[!MORELIKETHIS]
