@@ -21,9 +21,9 @@ Métodos de gerenciamento de domínio que permitem criar e gerenciar os domínio
 
 <!-- c_partner_site.xml -->
 
-## Create a New Domain {#create-new-domain}
+## Criar um novo domínio {#create-new-domain}
 
-Um `POST` método que permite criar um novo domínio para (somente destinos de cookie).
+Um método `POST` que permite criar um novo domínio para (somente destinos de cookie).
 
 <!-- r_post_new_partner_site.xml -->
 
@@ -51,9 +51,9 @@ Uma resposta bem-sucedida retorna `201 created` e o site parceiro, incluindo sua
 }
 ```
 
-## Excluir um domínio {#delete-domain}
+## Excluir um Domínio {#delete-domain}
 
-Um `DELETE` método que permite remover um domínio (somente para destinos de cookie).
+Um método `DELETE` que permite remover um domínio (somente para destinos de cookies).
 
 <!-- r_delete_partner_site.xml -->
 
@@ -67,7 +67,7 @@ Uma resposta bem-sucedida retorna `204 no content`. Retorna `404 not found` se o
 
 ## Propriedades de retorno para um domínio {#return-props-domain}
 
-Um `GET` método que retorna detalhes sobre o domínio especificado (somente para destinos de cookie).
+Um método `GET` que retorna detalhes sobre o domínio especificado (somente para destinos de cookie).
 
 <!-- r_get_partner_site.xml -->
 
@@ -77,7 +77,7 @@ Um `GET` método que retorna detalhes sobre o domínio especificado (somente par
 
 ### Resposta
 
-Uma resposta bem-sucedida retorna `200 OK` e dados, como mostrado na amostra abaixo. Retorna `404 Not found` se a ID do site ou o parceiro não for encontrado.
+Uma resposta bem-sucedida retorna `200 OK` e os dados, conforme mostrado na amostra abaixo. Retorna `404 Not found` se a ID do site ou o parceiro não for encontrado.
 
 ```
 {
@@ -89,7 +89,7 @@ Uma resposta bem-sucedida retorna `200 OK` e dados, como mostrado na amostra aba
 
 ## Propriedades de retorno para todos os domínios {#return-props-all-domains}
 
-Um `GET` método que retorna informações sobre todos os domínios (somente para destinos de cookies).
+Um método `GET` que retorna informações sobre todos os domínios (somente para destinos de cookies).
 
 <!-- r_get_partner_sites.xml -->
 
@@ -99,7 +99,7 @@ Um `GET` método que retorna informações sobre todos os domínios (somente par
 
 ### Parâmetros de Query opcionais
 
-Você pode usar esses parâmetros opcionais com [!DNL API] métodos que retornam *todas* as propriedades de um objeto. Defina essas opções na string de solicitação ao passar esse query para o [!DNL API]. Consulte Parâmetros [](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters)opcionais.
+Você pode usar esses parâmetros opcionais com métodos [!DNL API] que retornam *todas* propriedades para um objeto. Defina essas opções na string de solicitação ao passar esse query para [!DNL API]. Consulte [Parâmetros Opcionais](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -134,7 +134,7 @@ Você pode usar esses parâmetros opcionais com [!DNL API] métodos que retornam
 
 ### Resposta
 
-Uma resposta bem-sucedida retorna `200 OK` e dados em uma matriz, como mostrado na amostra abaixo. Retorna `404 Not found` se a ID do site ou o parceiro não for encontrado.
+Uma resposta bem-sucedida retorna `200 OK` e os dados em um storage, como mostrado na amostra abaixo. Retorna `404 Not found` se a ID do site ou o parceiro não for encontrado.
 
 ```
 [
