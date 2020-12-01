@@ -1,6 +1,6 @@
 ---
 title: 'Métodos e código API do Data Collection Server (DCS) '
-seo-title: Métodos e código da API do Servidor de coleta de dados (DCS) para Adobe Audience Manager (AAM)
+seo-title: Métodos e código da API do Data Collection Server (DCS) para Adobe Audience Manager (AAM)
 description: Código, métodos e técnicas que permitem trabalhar programaticamente com os servidores de coleta de dados do Audience Manager (DCS).
 seo-description: Código, métodos e técnicas que permitem trabalhar programaticamente com os servidores de coleta de dados do Audience Manager (DCS).
 feature: DCS
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '169'
-ht-degree: 17%
+ht-degree: 38%
 
 ---
 
@@ -19,7 +19,7 @@ Código, métodos e técnicas que permitem trabalhar programaticamente com os se
 
 * [APIs de chamada de evento DCS](/help/using/api/dcs-intro/dcs-event-calls/dcs-event-calls.md)
 
-   Se políticas de empresa ou outros problemas técnicos impedirem que você coloque nosso código JavaScript em suas páginas, ainda será possível trabalhar com o Audience Manager para enviar e retornar dados do DCS com essas APIs de chamada de evento.
+   Se as políticas da empresa ou outros problemas técnicos impedirem que você coloque nosso código JavaScript nas suas páginas, ainda será possível trabalhar com o Audience Manager para enviar e retornar dados do DCS com essas APIs de chamada de evento.
 
 * [DCS APIs para transferências de dados de servidor para servidor](/help/using/api/dcs-intro/dcs-s2s/dcs-s2s.md)
 
