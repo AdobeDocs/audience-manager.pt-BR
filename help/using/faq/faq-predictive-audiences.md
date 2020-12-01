@@ -58,43 +58,43 @@ Caso o modelo não produza resultados em 24 horas, entre em contato com o repres
 
 Os modelos de [!UICONTROL Predictive Audiences] podem deixar de produzir resultados devido a várias razões:
 
-1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough user profiles. We recommend choosing your [!UICONTROL traits] or [!UICONTROL segments] so that each persona has at least a few hundred user profiles.
-1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough data in their user profiles (not enough traits to analyze).
+1. Nenhuma das personas selecionadas [!UICONTROL traits] / [!UICONTROL segments] tem perfis de usuário suficientes. Recomendamos escolher [!UICONTROL traits] ou [!UICONTROL segments] para que cada pessoa tenha pelo menos algumas centenas de perfis de usuário.
+1. Nenhuma das personas selecionadas [!UICONTROL traits] / [!UICONTROL segments] tem dados suficientes em seus perfis de usuário (características insuficientes para analisar).
 1. A característica/segmento da audiência do público alvo não tem nenhum usuário ativo ou integrado.
 1. Os usuários do público-alvo que estavam ativos ou integrados nos últimos 30 dias não têm dados suficientes nos perfis do usuário (não há características suficientes para analisar).
-1. O segmento de audiência do público alvo usa um segmento diferente [!UICONTROL Profile Merge Rule] daquele escolhido para o modelo.
-1. A fonte de dados de suas características de audiência do público alvo pode não estar incluída na fonte de dados [!UICONTROL Profile Merge Rule] escolhida para o modelo.
+1. O segmento de audiência do público alvo usa um [!UICONTROL Profile Merge Rule] diferente daquele escolhido para o modelo.
+1. A fonte de dados de suas características de audiência do público alvo pode não estar incluída no [!UICONTROL Profile Merge Rule] que você escolheu para o modelo.
 
 Para obter os melhores resultados, siga as diretrizes sugeridas em [Critérios de seleção para personas](../features/algorithmic-models/predictive-audiences.md#selection-personas) e [Critérios de seleção para público-alvo](../features/algorithmic-models/predictive-audiences.md#selection-audience).
 
  
 
-**Por que meu modelo está mostrando o [!UICONTROL Error] status?**
+**Por que meu modelo está mostrando o  [!UICONTROL Error] status?**
 
-Pode ser uma falha ao executar o modelo. In such cases, please reach out to your [!DNL Adobe] representative.
+Pode ser uma falha ao executar o modelo. Nesses casos, entre em contato com seu representante [!DNL Adobe].
 
  
 
-**Como posso mudar o [!UICONTROL Profile Merge Rule] para um [!UICONTROL Predictive Audiences][!UICONTROL segment]?**
+**Como posso mudar o  [!UICONTROL Profile Merge Rule] para um  [!UICONTROL Predictive Audiences] [!UICONTROL segment]?**
 
-Crie um novo modelo selecionando as mesmas pessoas e audiências de público alvo do modelo anterior. Durante a criação do modelo, atribua um diferente [!UICONTROL Profile Merge Rule].
+Crie um novo modelo selecionando as mesmas pessoas e audiências de público alvo do modelo anterior. Durante a criação do modelo, atribua um [!UICONTROL Profile Merge Rule] diferente.
 
 >[!WARNING]
-> Como alternativa, você pode usar o Construtor [de](../features/segments/segment-builder.md) segmentos para criar manualmente um [!UICONTROL segment] com um preditivo existente [!UICONTROL trait] e atribuí-lo a um [!UICONTROL Profile Merge Rule] de sua escolha.
+> Como alternativa, você pode usar [Construtor de segmentos](../features/segments/segment-builder.md) para criar manualmente um [!UICONTROL segment] com um preditivo existente [!UICONTROL trait] e atribuí-lo a um [!UICONTROL Profile Merge Rule] de sua escolha.
 > 
-> No entanto, não recomendamos essa prática, já que a preditiva [!UICONTROL traits] automaticamente herda o [!UICONTROL Profile Merge Rule] modelo ao qual pertence e é construída a partir de influentes [!UICONTROL traits] que cumprem o [!UICONTROL Profile Merge Rule] modelo.
+> No entanto, não recomendamos essa prática, já que [!UICONTROL traits] preditivo herda automaticamente [!UICONTROL Profile Merge Rule] do modelo ao qual eles pertencem, e eles são criados a partir de [!UICONTROL traits] influentes que cumprem com [!UICONTROL Profile Merge Rule] do modelo.
 
  
 
-**O que [!UICONTROL Profile Merge Rule] devo escolher?**
+**O que  [!UICONTROL Profile Merge Rule] devo escolher?**
 
-Ao escolher o [!UICONTROL Profile Merge Rule] para o seu modelo, analise cuidadosamente o caso de uso.
+Ao escolher [!UICONTROL Profile Merge Rule] para seu modelo, analise cuidadosamente seu caso de uso.
 
-Digamos que sua audiência de públicos alvos [!UICONTROL segment] use um [!UICONTROL Profile Merge Rule] baseado em perfis autenticados + [!DNL Device Graph] perfis, e você seleciona o mesmo [!UICONTROL Profile Merge Rule] para o preditivo [!UICONTROL segments]. Nesse caso, tanto o nível do dispositivo quanto o nível entre dispositivos [!UICONTROL traits] serão usados para treinar o modelo e para colocar o usuário em um preditivo [!UICONTROL segment].
+Digamos que sua audiência de público alvo [!UICONTROL segment] usa um [!UICONTROL Profile Merge Rule] baseado em perfis autenticados + [!DNL Device Graph] perfis, e você seleciona o mesmo [!UICONTROL Profile Merge Rule] para o preditivo [!UICONTROL segments]. Nesse caso, tanto o nível do dispositivo quanto o nível entre dispositivos [!UICONTROL traits] serão usados no treinamento do modelo e no posicionamento do usuário em um [!UICONTROL segment] preditivo.
 
-No entanto, se você selecionar um [!UICONTROL Profile Merge Rule] baseado apenas em perfis de dispositivos, nenhum de seus dispositivos cruzados [!UICONTROL traits] se tornará influente e não contribuirá para a colocação de usuários em um preditivo [!UICONTROL segment]. Isso pode afetar negativamente a precisão e o alcance do modelo.
+No entanto, se você selecionar um [!UICONTROL Profile Merge Rule] baseado apenas em perfis de dispositivos, nenhum de seus [!UICONTROL traits] dispositivos cruzados se tornará influente e não contribuirá para a colocação de usuários em um [!UICONTROL segment] preditivo. Isso pode afetar negativamente a precisão e o alcance do modelo.
 
-Analise cuidadosamente seu caso de uso e decida com quais [!UICONTROL trait] tipos você deseja que o modelo aprenda e que tipo de dados você deseja que o modelo use para classificação.
+Analise cuidadosamente seu caso de uso e decida com quais [!UICONTROL trait] tipos você deseja que o modelo aprenda e com que tipo de dados você deseja que o modelo use para classificação.
 
 **Um usuário do público-alvo que não faz parte de nenhuma característica/segmento de persona pode não ser classificado?**
 
