@@ -27,7 +27,7 @@ A equipe de Atendimento ao cliente da Adobe Experience Cloud está aqui para aju
 * [Entre em contato diretamente com a equipe de Atendimento ao cliente](https://helpx.adobe.com/br/contact/enterprise-support.ec.html)
 * [Verifique a disponibilidade e o status das Soluções da Experience Cloud](https://status.adobe.com/)
 
-## Serviço, capacidade e faturamento {#billing}
+## Serviço, capacidade e faturamento  {#billing}
 
 Dependendo da configuração de sua solução, talvez algumas opções descritas neste documento não estejam disponíveis. Como cada conta é única, consulte os valores, datas de vencimento, termos e condições em seu contrato. Se você quiser adicionar ou alterar seu nível de serviço, ou se tiver dúvidas sobre o serviço atual, entre em contato com seu Gerente de contas.
 
