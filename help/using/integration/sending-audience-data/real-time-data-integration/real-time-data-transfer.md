@@ -23,9 +23,9 @@ O processo de ingestão de dados de entrada em tempo real usa uma série de `HTT
 
 Os dados de entrada devem ser formatados como pares de valores chave chamados sinais. Normalmente, cada sinal é mapeado para um segmento criado ou gerenciado pela interface do usuário ou [!DNL API].
 
-## Parâmetros e sintaxe da string de URL {#url-string-syntax}
+## Parâmetros de string de URL e sintaxe {#url-string-syntax}
 
-O [!DNL URL] para uma transferência de dados de entrada deve conter as variáveis descritas abaixo. Lembre-se de [criar características](../../../features/traits/create-onboarded-rule-based-traits.md) e uma estrutura [de](../../../features/traits/trait-storage.md#create-trait-storage-folder) [!DNL Audience Manager] pasta na interface do usuário antes de configurar transferências de dados em tempo real.
+O [!DNL URL] para uma transferência de dados de entrada deve conter as variáveis descritas abaixo. Lembre-se de [criar características](../../../features/traits/create-onboarded-rule-based-traits.md) e uma [estrutura de pastas](../../../features/traits/trait-storage.md#create-trait-storage-folder) na interface do usuário [!DNL Audience Manager] antes de configurar transferências de dados em tempo real.
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ O [!DNL URL] para uma transferência de dados de entrada deve conter as variáve
 
 ### Sintaxe de URL
 
-Durante um processo de ingestão de dados de entrada em tempo real, uma sequência de [!DNL URL] caracteres formatada corretamente usa a seguinte sintaxe:
+Durante um processo de ingestão de dados de entrada em tempo real, uma sequência de caracteres [!DNL URL] formatada corretamente usa a seguinte sintaxe:
 
 ```
 https://client.demdex.net/event?KEY1=VALA&KEY2=VALB&KEY3=VALC
