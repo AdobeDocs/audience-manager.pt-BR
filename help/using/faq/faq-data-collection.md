@@ -44,8 +44,8 @@ Sim, veja abaixo.
 
 | Servidor | Endereço IP |
 | ---------|----------|
-| ftp-in-gtw.demdex.com | 52.3.74.119; 3.233.68.222 |
-| ftp-out-gtw.demdex.com | 23.22.232.252; 18.211.109.184 |
+| ftp-in-gtw.demdex.com | 52.3.74.119; 3 233 68 222 |
+| ftp-out-gtw.demdex.com | 23.22.232.252; 18 211 109 184 |
 
  
 
@@ -60,13 +60,13 @@ Os servidores SFTP abaixo estão obsoletos. Nenhuma nova conta será provisionad
 
 **Como faço para configurar minha instância de Audience Manager para usar os novos servidores SFTP?**
 
-Entre em contato com seu [!DNL Audience Manager] consultor ou com o Atendimento ao cliente e eles configurarão suas novas contas SFTP.
+Entre em contato com seu consultor [!DNL Audience Manager] ou com o Atendimento ao cliente e eles configurarão suas novas contas SFTP.
 
  
 
 **Quais são os métodos de autenticação compatíveis com os novos servidores SFTP?**
 
-Os novos servidores SFTP (`ftp-in-gtw` e `ftp-out-gtw`) suportam [!DNL OpenSSH Key-Based Authentication]. Podemos gerar as [!DNL SSH] chaves para você, ou você pode nos fornecer sua própria chave pública.
+Os novos servidores SFTP (`ftp-in-gtw` e `ftp-out-gtw`) suportam [!DNL OpenSSH Key-Based Authentication]. Podemos gerar as chaves [!DNL SSH] para você, ou você pode nos fornecer sua própria chave pública.
 
  
 
@@ -153,7 +153,7 @@ Sim, o [!DNL Audience Manager] pode fornecer dados coletados para usuários que 
 
 **[!DNL Google Ad Manager]Quero coletar dados em um site e direcionar usuários por meio do em um site diferente. Preciso implantar o código na outra propriedade se não quiser coletar dados desse local?**
 
-Não. Se a coleta de dados no segundo site não for um requisito, não será necessário implantar a DIL lá. As long as you have access to the inventory on the second site via [!DNL Google Ad Manager], you can use the data collection from the initial site and target via [!DNL Google Ad Manager].
+Não. Se a coleta de dados no segundo site não for um requisito, não será necessário implantar a DIL lá. Desde que você tenha acesso ao inventário no segundo site via [!DNL Google Ad Manager], poderá usar a coleta de dados do site e público alvo iniciais por meio de [!DNL Google Ad Manager].
 
 <br> 
 
@@ -165,7 +165,7 @@ Cada provedor traz algo único para a tabela, então a resposta depende do que v
 
 **Como o [!DNL Audience Manager] define cookies e transmite variáveis para o [!DNL Google Ad Manager]?**
 
-[!DNL Audience Manager] define 2 cookies: Um envia variáveis de segmento para a tag de [!DNL Google Ad Manager] anúncio e o outro define a ID de usuário exclusiva (UUID), que também é lida por [!DNL Google Ad Manager]. Adicionar a UUID à tag de publicidade significa que podemos fazer relatórios no nível do usuário e descobrir públicos-alvo.
+[!DNL Audience Manager] define 2 cookies: Um envia variáveis de segmento para a tag do  [!DNL Google Ad Manager] anúncio e o outro define nossa ID de usuário exclusiva (UUID), que também é lida por  [!DNL Google Ad Manager]. Adicionar a UUID à tag de publicidade significa que podemos fazer relatórios no nível do usuário e descobrir públicos-alvo.
 
 <br> 
 
