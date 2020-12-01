@@ -21,11 +21,11 @@ ht-degree: 14%
 
 <!-- c_separator.xml -->
 
-Para obter mais informações sobre sinais derivados, consulte Sinais [derivados](../../features/derived-signals.md).
+Para obter mais informações sobre sinais derivados, consulte [Sinais derivados](../../features/derived-signals.md).
 
 >[!IMPORTANT]
 >
->Os [!DNL API] métodos de sinais derivados foram regravados com [!DNL Swagger] e migrados. Consulte:
+>Os métodos de sinais derivados [!DNL API] foram regravados com [!DNL Swagger] e migrados. Consulte:
 >
 >* [Documentos da API do Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migração de código API do Audience Manager](../../api/api-swagger-migration.md)
