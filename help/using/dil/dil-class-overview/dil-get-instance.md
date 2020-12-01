@@ -29,11 +29,11 @@ Recupera uma instância DIL específica do parceiro.
 | Nome | Tipo | Descrição |
 |---|---|---|
 | `partner` | String   | O nome do parceiro a procurar. |
-| `containerNSID` | Número inteiro | O padrão é `0`. O NSID do container que você está procurando. Opcional. |
+| `containerNSID` | Número inteiro | Os padrões são `0`. O NSID do container que você está procurando. Opcional. |
 
 ## Resposta
 
-Uma correspondência NSID de parceiro e container bem-sucedida retorna uma instância específica do parceiro. [!UICONTROL DIL] Se não houver correspondência, a API retornará (não retornará) um erro com a mensagem, &quot; `The DIL instance with partner <name> and containerNSID <ID> was not found.`&quot;
+Uma correspondência NSID de parceiro e container bem-sucedida retorna uma instância [!UICONTROL DIL] específica do parceiro. Se não houver correspondência, a API retornará (não retornará) um erro com a mensagem &quot; `The DIL instance with partner <name> and containerNSID <ID> was not found.`&quot;
 
 ## Código de exemplo
 
