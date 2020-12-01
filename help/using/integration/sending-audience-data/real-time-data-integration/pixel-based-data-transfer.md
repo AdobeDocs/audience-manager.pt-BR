@@ -24,18 +24,18 @@ Os pixels simples (que podem ser usados para qualificar usuários para caracter�
 Para permitir transferências de dados de entrada, o fornecedor e o cliente:
 
 1. Determine quais características deseja que o fornecedor ou parceiro seja acionado.
-1. Obtenha o pixel para o traço. Na tela lista de características, passe o mouse sobre a **[!UICONTROL Actions]** coluna e clique no **[!UICONTROL Get trait URL]** símbolo da característica desejada.
-1. Forneça o [!DNL URL] para o fornecedor ou parceiro.
+1. Obtenha o pixel para o traço. Na tela de lista de características, passe o mouse sobre a coluna **[!UICONTROL Actions]** e clique no símbolo **[!UICONTROL Get trait URL]** para obter a característica desejada.
+1. Forneça [!DNL URL] ao fornecedor ou parceiro.
 
 ## Exemplos
 
-Esta chamada básica de evento envia a ID de característica 1234 para [!DNL Audience Manager].
+Essa chamada básica de evento envia a ID de característica 1234 para [!DNL Audience Manager].
 
 ```
 https://something.demdex.net/event?d_sid=1234
 ```
 
-Você pode serializar IDs de características em uma chamada de evento para ajudar a reduzir o `HTTP` tráfego da página. Anexar IDs de característica adicionais à string do URL, como mostrado no exemplo a seguir:
+Você pode serializar IDs de características em uma chamada de evento para ajudar a reduzir o tráfego `HTTP` da página. Anexar IDs de característica adicionais à string do URL, como mostrado no exemplo a seguir:
 
 ```
 https://something.demdex.net/event?d_sid=1234,5678,9876,5432
