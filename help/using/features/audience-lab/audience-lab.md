@@ -18,18 +18,18 @@ ht-degree: 4%
 
 # [!UICONTROL Audience Lab] {#audience-lab}
 
-Crie segmentos de teste mutuamente exclusivos [!UICONTROL Segment Test Groups] para comparar e medir a eficácia de diferentes destinos. Pode separar um grupo de controle e dividir o seu segmento em percentagens de um todo, a fim de testar a eficácia.
+Crie segmentos de teste mutuamente exclusivos em [!UICONTROL Segment Test Groups] para comparar e medir a eficácia de destinos diferentes. Pode separar um grupo de controle e dividir o seu segmento em percentagens de um todo, a fim de testar a eficácia.
 
 ## Visão geral {#audience-lab-overview}
 
-[!UICONTROL Audience Lab] usa o Link [do](../../features/profile-merge-rules/merge-rules-overview.md) Perfil para acionar o teste entre dispositivos. Isso ajuda a garantir que o usuário se qualifice para o mesmo segmento de teste e receba o mesmo tratamento em todos os dispositivos. Os segmentos de teste em grupos de teste herdarão a Regra [de mesclagem de](../../features/profile-merge-rules/merge-rules-dashboard.md) Perfis atribuída pelo segmento base.
+[!UICONTROL Audience Lab] usa o teste entre dispositivos  [Perfil ](../../features/profile-merge-rules/merge-rules-overview.md) do Linkto. Isso ajuda a garantir que o usuário se qualifice para o mesmo segmento de teste e receba o mesmo tratamento em todos os dispositivos. Os segmentos de teste em grupos de teste herdarão a [Regra de mesclagem de Perfil](../../features/profile-merge-rules/merge-rules-dashboard.md) que o segmento base atribuiu a ela.
 
-A visualização [!UICONTROL Audience Lab] padrão exibe um cartão para cada um dos grupos de teste. Clique em um cartão para acessar a **[!UICONTROL Test Group]** visualização. Esta visualização inclui as seguintes informações:
+A visualização padrão [!UICONTROL Audience Lab] exibe um cartão para cada um dos grupos de teste. Clique em um cartão para acessar a visualização **[!UICONTROL Test Group]**. Esta visualização inclui as seguintes informações:
 
 * **[Testar informações do grupo](../../features/audience-lab/audience-lab-information-view.md)**
 * **[Relatórios do grupo de teste](../../features/audience-lab/audience-lab-reporting-view.md)**
 
-Você pode criar **até 10 grupos** de teste, cada um com **até 15 segmentos** de teste.
+Você pode criar **até 10 grupos de teste**, cada um com **até 15 segmentos de teste**.
 
 ![](assets/test-groups-view.PNG)
 
@@ -59,19 +59,19 @@ O status de um grupo de teste pode estar ativo, programado, pausado, rascunho ou
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Ativo </span></b> </p> </td> 
-   <td colname="col2"> <p>Um grupo de teste <i>ativo</i> significa que os dados estão sendo enviados para destinos no momento. Pressione <b><span class="uicontrol"> Pause Test (Pausar teste) </span></b> no cartão <b><span class="uicontrol"> </span></b> Test Group (Grupo de teste) para suspender o envio de dados para destinos. </p> </td> 
+   <td colname="col2"> <p>Um grupo de teste <i>ative</i> significa que os dados estão sendo enviados para destinos no momento. Pressione <b><span class="uicontrol"> Pause Test </span></b> no cartão <b><span class="uicontrol"> Test Group </span></b> para suspender o envio de dados para destinos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Programado </span></b> </p> </td> 
-   <td colname="col2"> <p>Um grupo de teste <i>agendado</i> ainda não está ativo, mas não pode mais ser editado. Ele ficará ativo na data de start selecionada no assistente <b>Criar grupos</b> de teste. </p> </td> 
+   <td colname="col2"> <p>Um grupo de teste <i>agendado</i> ainda não está ativo, mas não pode mais ser editado. Ele ficará ativo na data do start selecionado no assistente <b>Criar grupos de teste</b>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Pausado </span></b> </p> </td> 
-   <td colname="col2"> <p>Um grupo de teste <i>pausado</i> não envia dados para destinos no momento. Pressione <b><span class="uicontrol"> Tornar ativo </span></b> no cartão <b><span class="uicontrol"> do Grupo de teste </span></b> para retomar o envio das características. </p> </td> 
+   <td colname="col2"> <p>Um grupo de teste <i>pausado</i> não envia dados para destinos no momento. Pressione <b><span class="uicontrol"> Tornar ativo </span></b> no cartão <b><span class="uicontrol"> Test Group </span></b> para retomar o envio de características. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Rascunho </span></b> </p> </td> 
-   <td colname="col2"> <p>Um grupo de teste de <i>rascunho</i> ainda não está ativo e ainda pode ser editado. Ainda não envia dados para os destinos mapeados. </p> </td> 
+   <td colname="col2"> <p>Um grupo de teste <i>draft</i> ainda não está ativo e ainda pode ser editado. Ainda não envia dados para os destinos mapeados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Concluído </span></b> </p> </td> 
@@ -92,14 +92,14 @@ O status de um grupo de teste pode estar ativo, programado, pausado, rascunho ou
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Editar </span></b> </p> </td>
-   <td colname="col2"> <p>Disponível <b>somente</b> para grupos de teste de rascunho. Permite retomar o assistente <b><span class="uicontrol"> Criar novo grupo de teste </span></b> . </p> </td>
+   <td colname="col2"> <p>Disponível <b>apenas</b> para grupos de teste de rascunho. Permite retomar o assistente <b><span class="uicontrol"> Criar novo grupo de teste </span></b>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Pausar </span></b> </p> </td>
    <td colname="col2"> <p>Disponível para grupos de teste ativos. Permite que você pare de enviar os segmentos de teste para destinos. </p> </td>
   </tr>
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Tornar ativo </span></b> </p> </td>
+   <td colname="col1"> <p> <b><span class="uicontrol"> Tornar ativo  </span></b> </p> </td>
    <td colname="col2"> <p>Disponível para grupos de teste pausados. Permite retomar o envio dos segmentos de teste para destinos. </p> </td>
   </tr>
   <tr> 
