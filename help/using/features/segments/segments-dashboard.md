@@ -17,11 +17,11 @@ ht-degree: 9%
 
 # Visualização da lista de segmentos {#segments-list-view}
 
-O painel [de](https://bank.demdex.com/portal/Segments/SegmentBuilder.ddx#list) segmentos é um espaço de trabalho centralizado para gerenciar seus segmentos de audiência. Você pode ver o [!UICONTROL Segments] painel navegando até **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]**.
+O audiência [painel de segmentos](https://bank.demdex.com/portal/Segments/SegmentBuilder.ddx#list) é um espaço de trabalho centralizado para gerenciar seus segmentos de . Você pode ver o painel [!UICONTROL Segments] navegando até **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]**.
 
 ![painel de segmentos](assets/segments-dashboard.png)
 
-A [!UICONTROL Segments] página contém recursos e ferramentas que ajudam você a:
+A página [!UICONTROL Segments] contém recursos e ferramentas que ajudam você a:
 
 * Criar novos segmentos;
 * Editar e excluir segmentos;
