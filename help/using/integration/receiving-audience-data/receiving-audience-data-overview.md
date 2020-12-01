@@ -1,6 +1,6 @@
 ---
 description: Receba dados de audiência.
-seo-description: Receba dados de audiência (AAM).
+seo-description: Receba dados de audiência do Adobe Audience Manager (AAM).
 seo-title: Recebendo dados de Audiência no Adobe Audience Manager (AAM)
 title: 'Recebendo dados de público-alvo '
 feature: Outbound Data Transfers
@@ -19,7 +19,7 @@ Receba dados de audiência.
 
 * [Sincronização de ID para transferências de dados de saída](id-sync-outbound.md)
 
-   Descreve a sintaxe e os parâmetros usados na chamada HTTP inicial para sincronizar IDs de usuário entre o Audience Manager e um provedor de dados de terceiros. Entre em contato com seu consultor de Adobe Audience Manager antes de tentar a primeira sincronização de ID.
+   Descreve a sintaxe e os parâmetros usados na chamada HTTP inicial para sincronizar IDs de usuário entre o Audience Manager e um provedor de dados de terceiros. Entre em contato com seu consultor da Adobe Audience Manager antes de tentar a primeira sincronização de ID.
 
 * [Transferências de dados de saída em tempo real](real-time-outbound-transfers/real-time-outbound-transfers.md)
 
