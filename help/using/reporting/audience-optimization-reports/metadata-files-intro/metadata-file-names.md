@@ -1,6 +1,6 @@
 ---
-description: Nomeie seu arquivo de metadados de Otimização de Audiência de acordo com essas especificações.
-seo-description: Nomeie seu arquivo de metadados de Otimização de Audiência de acordo com essas especificações.
+description: Nomeie seu arquivo de metadados de Audience Optimization de acordo com essas especificações.
+seo-description: Nomeie seu arquivo de metadados de Audience Optimization de acordo com essas especificações.
 seo-title: Convenções de nomenclatura para arquivos de metadados
 solution: Audience Manager
 title: Convenções de nomenclatura para arquivos de metadados
@@ -17,17 +17,17 @@ ht-degree: 10%
 
 # Convenções de nomenclatura para arquivos de metadados{#naming-conventions-for-metadata-files}
 
-Nomeie seu arquivo de metadados de Otimização de Audiência de acordo com essas especificações.
+Nomeie seu arquivo de metadados de Audience Optimization de acordo com essas especificações.
 
 ## Categorias de sintaxe e ID {#syntax}
 
-A sintaxe a seguir define a estrutura de um nome de arquivo de metadados bem formado. Note, *italics* indicates a variable placeholder. Os outros elementos são constantes e não são alterados.
+A sintaxe a seguir define a estrutura de um nome de arquivo de metadados bem formado. Observação: *italics* indica um espaço reservado variável. Os outros elementos são constantes e não são alterados.
 
 **Sintaxe:** *`yyyymmdd_0_childID`*
 
 >[!NOTE]
 >
->*Não* use extensões de arquivo em seus arquivos de metadados (.txt ou outros).
+>*Não* utilize extensões de arquivo nos arquivos de metadados (.txt ou outros).
 
 <!--In the name syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file contents](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md). These 2 variables seem similar, but they represent different things:-->
 
@@ -43,7 +43,7 @@ No nome do arquivo de metadados, a ID filho é um identificador que classifica o
 1. Disposição
 1. Exchange
 1. Site
-1. Anunciante (se estiver usando códigos de integração em uma fonte [de](../../../features/manage-datasources.md#details)dados)
+1. Anunciante (se estiver usando códigos de integração em uma [fonte de dados](../../../features/manage-datasources.md#details))
 1. Ordem de inserção (E/S)
 1. Vertical (isto é, uma indústria ou categoria de negócios específica como &quot;computadores&quot;, &quot;automóveis&quot;, &quot;bens imobiliários&quot; etc.)
 1. Tático
