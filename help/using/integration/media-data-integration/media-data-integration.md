@@ -28,5 +28,5 @@ ht-degree: 17%
 Para configurar a ingestão de registro, leia os seguintes artigos:
 
 * [Importar arquivos de dados do Google Campaign Manager para o Audience Manager](/help/using/reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
-* [Importar arquivos de dados do Google Ad Manager para o Audience Manager ](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
-* [Registrar arquivos](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) de dados e metadados para configurar a ingestão de registro para arquivos de registro genéricos
+* [Importar arquivos de dados do Google Ad Manager para o Audience Manager  ](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
+* [Dados de registro e ](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) arquivos de metadados para configurar a ingestão de registro para arquivos de registro genéricos
