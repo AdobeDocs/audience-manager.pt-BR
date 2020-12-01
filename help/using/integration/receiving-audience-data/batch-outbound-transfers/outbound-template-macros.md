@@ -19,9 +19,9 @@ ht-degree: 3%
 
 Lista as macros que podem ser usadas para criar modelos de saída. Elas incluem macros de nome de arquivo, macros de cabeçalho e macros de conteúdo.
 
-## Macros de nome de arquivo e cabeçalho de arquivo {#file-name-header-macros}
+## Macros de Nome de Arquivo e Cabeçalho de Arquivo {#file-name-header-macros}
 
-A tabela lista e descreve as macros que podem ser usadas no nome do arquivo e para definir campos de cabeçalho. Para obter exemplos de código, consulte Exemplos [de macro de](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)saída.
+A tabela lista e descreve as macros que podem ser usadas no nome do arquivo e para definir campos de cabeçalho. Para obter exemplos de código, consulte [Exemplos de macro de saída](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
 
 <table id="table_C353AF028E0A4944A8727FD01C94FDB6"> 
  <thead> 
@@ -87,7 +87,7 @@ A tabela lista e descreve as macros que podem ser usadas no nome do arquivo e pa
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TIMESTAMP </code> </p> </td> 
-   <td colname="col2"> <p>Um carimbo de data e hora de 10 dígitos, UTC, Unix. </p> <p>Ele também pode ser formatado como <code> &lt;TIMESTAMP; format="YYYYMMDDhhmmss"&gt; </code> segue as regras de formatação de data/hora do Java. </p> </td> 
+   <td colname="col2"> <p>Um carimbo de data e hora de 10 dígitos, UTC, Unix. </p> <p>Também pode ser formatado como <code> &lt;TIMESTAMP; format="YYYYMMDDhhmmss"&gt; </code> após as regras de formatação de data/hora do Java. </p> </td> 
   </tr>
 
 </tbody> 
@@ -95,7 +95,7 @@ A tabela lista e descreve as macros que podem ser usadas no nome do arquivo e pa
 
 ## Macros de conteúdo {#content-macros}
 
-Macros usadas para formatar o conteúdo de um arquivo de dados. Para obter exemplos de código, consulte Exemplos [de macro de](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)saída.
+Macros usadas para formatar o conteúdo de um arquivo de dados. Para obter exemplos de código, consulte [Exemplos de macro de saída](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
 
 <table id="table_5C6F9678CFF34C5EB67BA1DEA0479F1D"> 
  <thead> 
@@ -107,11 +107,11 @@ Macros usadas para formatar o conteúdo de um arquivo de dados. Para obter exemp
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> CLOSE_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Insere um <code>}</code> caractere colchete fechado. </p> </td> 
+   <td colname="col2"> <p>Insere um caractere <code>}</code> colchete fechado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID </code> </p> </td> 
-   <td colname="col2"> <p> <span class="term"> Identificador de usuário exclusivo do provedor de dados </span>. </p> <p>Essa é a ID do parceiro de dados para o qual você envia dados em um arquivo externo. </p> </td> 
+   <td colname="col2"> <p> <span class="term"> Identificador de usuário exclusivo do provedor de dados  </span>. </p> <p>Essa é a ID do parceiro de dados para o qual você envia dados em um arquivo externo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID_LIST </code> </p> </td> 
@@ -123,7 +123,7 @@ Macros usadas para formatar o conteúdo de um arquivo de dados. Para obter exemp
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DPUUIDS </code> </p> </td> 
-   <td colname="col2"> <p>A saída dessa macro mapeia a ID do provedor de dados (DPID) para IDs de usuário exclusivas relacionadas (DPUUID). Essa macro deve ter uma string de formatação para controlar sua saída. A saída da amostra seria semelhante ao seguinte: </p> <p> <code> "dpids=dpid1,dpid2,...dpid n|maxMappings= n|format=json" </code> </p> <p>A <code> maxMappings </code> configuração determina quantos mapeamentos você deseja que a macro retorne. Quando <code> maxMappings=0 </code>, essa macro retorna todos os mapeamentos para cada DPID especificado. Os dados são classificados por carimbo de data e hora (o mais recente primeiro) e retorna os resultados com o maior carimbo de data e hora primeiro. </p> </td> 
+   <td colname="col2"> <p>A saída dessa macro mapeia a ID do provedor de dados (DPID) para IDs de usuário exclusivas relacionadas (DPUUID). Essa macro deve ter uma string de formatação para controlar sua saída. A saída da amostra seria semelhante ao seguinte: </p> <p> <code> "dpids=dpid1,dpid2,...dpid n|maxMappings= n|format=json" </code> </p> <p>A configuração <code> maxMappings </code> determina quantos mapeamentos você deseja que a macro retorne. Quando <code> maxMappings=0 </code>, essa macro retorna todos os mapeamentos para cada DPID especificado. Os dados são classificados por carimbo de data e hora (o mais recente primeiro) e retorna os resultados com o maior carimbo de data e hora primeiro. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> if(SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST)endif </code> </p> </td> 
@@ -135,7 +135,7 @@ Macros usadas para formatar o conteúdo de um arquivo de dados. Para obter exemp
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPEN_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Insere um <code>{</code> caractere de colchetes aberto. </p> </td> 
+   <td colname="col2"> <p>Insere um caractere <code>{</code> entre chaves aberto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPT_OUT </code> </p> </td> 
@@ -151,7 +151,7 @@ Macros usadas para formatar o conteúdo de um arquivo de dados. Para obter exemp
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OUTPUT_ATTRIBUTE_VALUE </code> </p> </td> 
-   <td colname="col2"> <p>Retorna <code> 1 </code> como um valor estático codificado. </p> </td> 
+   <td colname="col2"> <p>Retorna <code> 1 </code> como um valor estático e codificado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> PID </code> </p> </td> 
@@ -172,14 +172,14 @@ Macros usadas para formatar o conteúdo de um arquivo de dados. Para obter exemp
      <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code> segmentId </code>: ID do segmento. Obsoleto. Use <code> sid </code>. </li> 
      <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code> csegid </code>: ID do segmento do cliente. Obsoleto. Use <code> sid </code>. </li> 
      <li id="li_D85F0A5D16AE4DAFB55C17DBB35EA66E"> <code> sid </code>: ID do segmento </li> 
-     <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code> type </code>: Retorna <code> 5 </code>, um valor estático codificado que identifica dados como dados de segmento. </li> 
+     <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code> type </code>: Retorna  <code> 5 </code>, um valor estático codificado que identifica dados como dados de segmento. </li> 
      <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code> alias </code>: Obsoleto. Não utilizar. </li> 
      <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code> lastUpdateTime </code>: Um carimbo de data e hora Unix que indica a última vez que um segmento foi realizado. </li> 
     </ul> <p>Coloque essas variáveis entre chaves após a macro. Por exemplo, esse código separa os resultados com um caractere de barra vertical "|": <code> &lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator=","&gt; </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SET_ATTRIBUTES </code> </p> </td> 
-   <td colname="col2"> <p>Retorna <code> 1 </code>, como um valor estático codificado. </p> </td> 
+   <td colname="col2"> <p>Retorna <code> 1 </code> como um valor estático e codificado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SYNC_MODE </code> </p> </td> 
@@ -217,7 +217,7 @@ Macros usadas para formatar o conteúdo de um arquivo de dados. Para obter exemp
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> UUID </code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> ID de </span> usuário do Audience Manager. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> ID  </span> do usuário do Audience Manager. </p> </td> 
   </tr> 
  </tbody> 
 </table>
