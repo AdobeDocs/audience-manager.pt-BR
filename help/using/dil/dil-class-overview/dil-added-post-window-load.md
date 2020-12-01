@@ -1,6 +1,6 @@
 ---
-description: Usado para informar ao DIL que ele é carregado depois que a janela é carregada.
-seo-description: Usado para informar ao DIL que ele é carregado depois que a janela é carregada.
+description: Usado para avisar o DIL que é carregado depois que a janela é carregada.
+seo-description: Usado para avisar o DIL que é carregado depois que a janela é carregada.
 seo-title: isAddedPostWindowLoad
 solution: Audience Manager
 title: isAddedPostWindowLoad
@@ -17,7 +17,7 @@ ht-degree: 10%
 
 # isAddedPostWindowLoad{#isaddedpostwindowload}
 
-Usado para informar ao DIL que ele é carregado depois que a janela é carregada.
+Usado para avisar o DIL que é carregado depois que a janela é carregada.
 
 **Assinatura da função:** `isAddedPostWindowLoad: function()`
 
