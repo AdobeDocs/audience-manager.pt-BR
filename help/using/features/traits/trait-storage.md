@@ -23,7 +23,7 @@ As pastas de armazenamentos de características armazenam e ajudam a organizar c
 
 ## Finalidade das pastas de Armazenamento de características
 
-Em [!UICONTROL Trait Builder], as pastas de armazenamentos de características são diretórios que mantêm e organizam características em grupos lógicos criados. Acesse as pastas do armazenamento a partir do [!UICONTROL Traits] painel ou ao criar uma nova característica. Lembre-se, não é possível criar uma nova característica sem atribuí-la a uma pasta de armazenamento.
+Em [!UICONTROL Trait Builder], as pastas de armazenamentos de características são diretórios que mantêm e organizam características em grupos lógicos criados. Acesse as pastas de armazenamentos do painel [!UICONTROL Traits] ou ao criar uma nova característica. Lembre-se, não é possível criar uma nova característica sem atribuí-la a uma pasta de armazenamento.
 
 ![](assets/tb_storage.png)
 
@@ -33,11 +33,11 @@ Este procedimento descreve como criar uma pasta de armazenamentos para suas cara
 
 <!-- t_tb_create_storage.xml -->
 
-Você pode criar uma nova pasta de armazenamentos na seção [!UICONTROL Basic Information] ao configurar uma nova característica. Além disso, as pastas podem ser criadas na [!UICONTROL Trait Storage] seção do painel da [!UICONTROL Traits] lista principal.
+Você pode criar uma nova pasta de armazenamentos na seção [!UICONTROL Basic Information] ao configurar uma nova característica. Além disso, as pastas podem ser criadas na seção [!UICONTROL Trait Storage] do painel de lista [!UICONTROL Traits] principal.
 
 Para criar uma nova pasta de armazenamentos:
 
-1. Na [!UICONTROL Trait Storage] janela, passe o mouse sobre:
+1. Na janela [!UICONTROL Trait Storage], passe o mouse sobre:
    * **[!UICONTROL All Traits]** para adicionar uma nova pasta de nível raiz.
    * Uma pasta pai existente para adicionar uma nova pasta secundária.
 1. Clique no ícone + para criar a pasta.
@@ -49,7 +49,7 @@ Este procedimento descreve como renomear ou excluir uma pasta de armazenamento.
 
 <!-- t_tb_rename_delete_storage.xml -->
 
-É possível renomear ou excluir pastas de armazenamentos da [!UICONTROL Trait Storage] seção do painel principal da [!UICONTROL Traits] lista.
+Você pode renomear ou excluir pastas de armazenamentos da seção [!UICONTROL Trait Storage] do painel de lista principal [!UICONTROL Traits].
 
 * Renomeie uma pasta passando o mouse sobre ela e clicando no ícone de lápis.
-* Exclua uma pasta passando o mouse sobre ela e clicando no ícone **X** .
+* Exclua uma pasta passando o mouse sobre ela e clicando no ícone **X**.
