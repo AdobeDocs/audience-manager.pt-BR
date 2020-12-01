@@ -21,25 +21,25 @@ O relatório de Alcance único do usuário retorna dados em um gráfico de bolha
 
 ## Caso de uso {#use-cases}
 
-Com o [!UICONTROL Unique User Reach] relatório, você pode identificar as propriedades no seu portfólio que atraem um grande volume de usuários únicos.
+Com o relatório [!UICONTROL Unique User Reach], você pode identificar as propriedades no seu portfólio que atraem um grande volume de usuários únicos.
 
-## Usando o Relatório de alcance único {#using-the-report}
+## Usando o Relatório de Alcance Único {#using-the-report}
 
-Use a **[!UICONTROL Dimension Value]** caixa para selecionar as unidades de publicidade que deseja exibir no relatório. Clique em **[!UICONTROL All]** para exibir todas as suas propriedades no gráfico de bolhas.
+Use a caixa **[!UICONTROL Dimension Value]** para selecionar as unidades de publicidade que deseja exibir no relatório. Clique em **[!UICONTROL All]** para exibir todas as suas propriedades no gráfico de bolhas.
 
-Use os controles Intervalo **de** dias e Intervalo de **datas até** para ajustar o intervalo de retrospectiva.
+Use os controles **Intervalo de dias** e **Data até** para ajustar o intervalo de retrospectiva.
 
 ## Interpretação dos resultados {#interpreting-results}
 
 **Relatório de exemplo**
 
-O seu [!UICONTROL Unique User Reach] relatório pode ser semelhante ao que se segue. Em seu relatório, clique em uma bolha para visualização dos dados subjacentes. Consulte as descrições para obter as informações adicionais na tabela abaixo.
+Seu relatório [!UICONTROL Unique User Reach] pode ser semelhante ao apresentado abaixo. Em seu relatório, clique em uma bolha para visualização dos dados subjacentes. Consulte as descrições para obter as informações adicionais na tabela abaixo.
 
 ![](assets/publisher_unique_user_reach.png)
 
 | Item | Descrição |
 |--- |--- |
-| Valor da dimensão | O nome da propriedade da Web. |
-| Tipo de dimensão | O tipo de dimensão do editor. Atualmente, oferecemos suporte apenas à Ad Unit como um tipo de dimensão. |
+| Valor Dimension | O nome da propriedade da Web. |
+| Tipo Dimension | O tipo de dimensão do editor. Atualmente, oferecemos suporte apenas à Ad Unit como um tipo de dimensão. |
 | Impressões | O número de impressões que foram servidas para sua propriedade da Web dentro do intervalo de retrospectiva especificado. |
 | Alcance único | O número exclusivo de usuários que foram alcançados pelas impressões nas propriedades da Web. |
