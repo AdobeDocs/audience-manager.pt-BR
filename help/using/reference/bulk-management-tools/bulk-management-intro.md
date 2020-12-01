@@ -18,7 +18,7 @@ ht-degree: 3%
 
 # Introdução ao gerenciamento em massa{#getting-started-with-bulk-management}
 
-O [!DNL Bulk Management Tools] permite que você crie e gerencie vários objetos de uma só vez com uma única operação. Você pode usar [!DNL Bulk Management Tools] para trabalhar com [!UICONTROL data sources], [!UICONTROL derived signals], [!UICONTROL destinations], [!UICONTROL folders], [!UICONTROL models], [!UICONTROL segments]e [!UICONTROL traits].
+O [!DNL Bulk Management Tools] permite que você crie e gerencie vários objetos de uma só vez com uma única operação. Você pode usar [!DNL Bulk Management Tools] para trabalhar com [!UICONTROL data sources], [!UICONTROL derived signals], [!UICONTROL destinations], [!UICONTROL folders], [!UICONTROL models], [!UICONTROL segments] e [!UICONTROL traits].
 
 <!-- 
 
@@ -28,24 +28,24 @@ c_bulk_start.xml
 
 >[!NOTE]
 >
->[As permissões](../../features/administration/administration-overview.md) de grupo RBAC atribuídas na interface de [!DNL Audience Manager] usuário são respeitadas na [!UICONTROL Bulk Management Tools].
+>[As ](../../features/administration/administration-overview.md) permissões do grupo RBAC atribuídas na interface do  [!DNL Audience Manager] usuário são respeitadas no  [!UICONTROL Bulk Management Tools].
 
 ## Visão geral {#overview}
 
-This feature uses a [!DNL Microsoft Excel] spreadsheet with macros that make secure, authenticated calls to the [!DNL Audience Manager] APIs. A API fornece os métodos e serviços que permitem fazer alterações em massa. Você não precisa saber como codificar ou trabalhar com nossas APIs para usá-lo. A planilha contém cabeçalhos de coluna e guias que executam funções específicas de alteração em massa. Para fazer alterações em massa, basta adicionar os cabeçalhos predefinidos a planilhas específicas, fornecer as informações que deseja alterar em massa e clicar em um botão de ação. A planilha e as APIs fazem o resto do trabalho para você.
+Este recurso usa uma planilha [!DNL Microsoft Excel] com macros que fazem chamadas seguras e autenticadas para as APIs [!DNL Audience Manager]. A API fornece os métodos e serviços que permitem fazer alterações em massa. Você não precisa saber como codificar ou trabalhar com nossas APIs para usá-lo. A planilha contém cabeçalhos de coluna e guias que executam funções específicas de alteração em massa. Para fazer alterações em massa, basta adicionar os cabeçalhos predefinidos a planilhas específicas, fornecer as informações que deseja alterar em massa e clicar em um botão de ação. A planilha e as APIs fazem o resto do trabalho para você.
 
 ## Download {#download}
 
-Download the latest worksheet **[here](assets/BAAAM_V2_20200502.xlsm)**.
+Baixe a planilha mais recente **[aqui](assets/BAAAM_V2_20200502.xlsm)**.
 
 ## Pré-requisitos {#prereqs}
 
-Para usar o [!DNL Bulk Management Tools], é necessário o seguinte:
+Para usar o [!DNL Bulk Management Tools], você precisa do seguinte:
 
 * Seu [!DNL Experience Cloud] logon. Como cliente, você já deve ter essas credenciais.
-* A [!DNL Bulk Management Tools] planilha. [Baixe a planilha](assets/BAAAM_V2_20200502.xlsm) para obter a versão mais recente.
-* [!DNL Microsoft Excel] em execução em [!DNL macOS] ou 64 bits [!DNL Microsoft Windows]. Recomendamos que você use a versão mais recente do [!DNL Microsoft Excel].
-* Ao abrir a planilha, você deve **Ativar macros** para que [!DNL Bulk Management Tools] funcionem.
+* A planilha [!DNL Bulk Management Tools]. [Baixe a ](assets/BAAAM_V2_20200502.xlsm) planilha para obter a versão mais recente.
+* [!DNL Microsoft Excel] em execução em  [!DNL macOS] ou 64 bits  [!DNL Microsoft Windows]. Recomendamos que você use a versão mais recente de [!DNL Microsoft Excel].
+* Ao abrir a planilha, você deve **Ativar macros** para que [!DNL Bulk Management Tools] funcione.
 
 ## Requisitos e opções de autenticação {#auth-reqs}
 
@@ -55,7 +55,7 @@ Alterações em massa exigem autenticação. Antes de executar qualquer ação, 
 
 A segunda versão do [!DNL Bulk Management Tools], lançada em outubro de 2019, simplifica o processo de autenticação. As etapas de autenticação nesta versão são descritas abaixo:
 
-1. Abra a planilha e navegue até a **[!UICONTROL Config]** planilha.
+1. Abra a planilha e navegue até a planilha **[!UICONTROL Config]**.
 2. Siga as etapas descritas na planilha.
    ![](assets/baaam-authentication.png)
 3. Após concluir as etapas, você está autorizado a fazer alterações em massa.
@@ -71,13 +71,13 @@ A autenticação de domínio dá a você a opção de testar solicitações em m
 
 ## Ações e operações {#actions-ops}
 
-A [!UICONTROL Bulk Management Tools] planilha consiste em botões de autenticação, guias de ação, botões de ação e uma **[!UICONTROL Headers]** guia. A **[!UICONTROL Headers]** guia contém os cabeçalhos de coluna pré-formatados usados pelas guias de ação. As guias de ação contêm macros que executam a operação em massa selecionada. Para executar uma operação em massa, copie um conjunto de cabeçalhos na guia de ação apropriada, insira os dados do cabeçalho e clique em um botão de ação.
+A planilha [!UICONTROL Bulk Management Tools] consiste em botões de autenticação, guias de ação, botões de ação e uma guia **[!UICONTROL Headers]**. A guia **[!UICONTROL Headers]** contém os cabeçalhos de coluna pré-formatados usados pelas guias de ação. As guias de ação contêm macros que executam a operação em massa selecionada. Para executar uma operação em massa, copie um conjunto de cabeçalhos na guia de ação apropriada, insira os dados do cabeçalho e clique em um botão de ação.
 
-Após a [autenticação](#auth-reqs), clique em um botão de ação para começar.
+Depois de [autenticar](#auth-reqs), clique em um botão de ação para começar.
 
 ![](assets/baaam-worksheet.png)
 
-A tabela abaixo lista as operações que você pode executar e os itens que você pode manipular com as [!UICONTROL Bulk Management Tools] planilhas.
+A tabela abaixo lista as operações que você pode executar e os itens que você pode manipular com as planilhas [!UICONTROL Bulk Management Tools].
 
 <table id="table_B9B3E09B692E42BAA52FB32C18B00709"> 
  <thead> 
@@ -96,13 +96,13 @@ A tabela abaixo lista as operações que você pode executar e os itens que voc�
       <li id="li_C7D36D2BDF0448CEAF3A5EABE41038E8">Estimativa </li> 
       <li id="li_07A3E94326124A3092362D9896EB7732">Excluir </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>Os objetos que podem ser alterados em massa estão localizados na guia <b><span class="uicontrol"> Cabeçalhos</span></b> e incluem: </p> <p> 
+   <td colname="col2"> <p>Os objetos que você pode alterar em massa estão localizados na guia <b><span class="uicontrol"> Cabeçalhos</span></b> e incluem: </p> <p> 
      <ul id="ul_A7A96F2B1B63430B9A1E1184AC5FA8F2"> 
       <li id="li_E3D9E2E190B04BE685337AC6140C371C"> <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> Fontes de dados</a> </li> 
       <li id="li_B645385E40684FA28770913EAF18CB2C"> <a href="../../features/derived-signals.md"> Sinais derivados</a> </li> 
       <li id="li_9059F8C4A41A410899BDEFC76D3F5949"> <a href="../../features/destinations/destinations.md">Destinos </a> </li> 
       <li> <a href="../../features/algorithmic-models/understanding-models.md"> Modelos</a> </li> 
-      <li id="li_BB5A445150754E53AA38C78461326932"> <a href="../../features/traits/trait-storage.md#trait-storage"> Pastas</a> de características e pastas de segmentos </li> 
+      <li id="li_BB5A445150754E53AA38C78461326932"> <a href="../../features/traits/trait-storage.md#trait-storage"> Pastas </a> de características e pastas de segmentos </li> 
       <li id="li_7A27DBF64E0945CF8AE8C96E8C6EDA09"> <a href="../../features/segments/segments-purpose.md">Segmentos </a> </li> 
       <li id="li_A4640A34930040DEA8555EAF0AE2A702"> <a href="../../features/traits/trait-details-page.md">Características </a> </li> 
      </ul> </p> </td> 
@@ -114,12 +114,12 @@ A tabela abaixo lista as operações que você pode executar e os itens que voc�
 
 Como exemplo, vamos ver como criar várias características de uma só vez. Para criar várias características em uma operação em massa, você:
 
-1. Clique na **[!UICONTROL Headers]** guia e copie todos os rótulos sob a [!UICONTROL Create a Trait] opção.
-2. Clique na **[!UICONTROL Create]** guia e cole os rótulos começando na linha 1, coluna A.
+1. Clique na guia **[!UICONTROL Headers]** e copie todos os rótulos na opção [!UICONTROL Create a Trait].
+2. Clique na guia **[!UICONTROL Create]** e cole os rótulos começando na linha 1, coluna A.
 3. Forneça informações relacionadas a cada cabeçalho de coluna e clique em **[!UICONTROL Create Traits]**. Esta ação solicita que você confirme sua autenticação. Seu trabalho em massa é executado depois que você confirma sua autenticação. Verifique se há uma notificação de status de tarefa no canto inferior esquerdo da planilha.
 
 
 >[!NOTE]
 >
->Ao trabalhar com solicitações grandes, a planilha pode ficar sem resposta e parecer inativa. Nesses casos, deixe-o em paz. A planilha se tornará responsiva quando a solicitação em massa for concluída. Se a planilha não responder por um longo período de tempo, consulte a seção [Solução de](../../reference/bulk-management-tools/bulk-troubleshooting.md)problemas.
+>Ao trabalhar com solicitações grandes, a planilha pode ficar sem resposta e parecer inativa. Nesses casos, deixe-o em paz. A planilha se tornará responsiva quando a solicitação em massa for concluída. Se a planilha não responder por um longo período, consulte a seção [solução de problemas](../../reference/bulk-management-tools/bulk-troubleshooting.md).
 
