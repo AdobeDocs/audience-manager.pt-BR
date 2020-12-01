@@ -19,7 +19,7 @@ ht-degree: 3%
 
 O relatório de Frequência ideal ajuda você a descobrir o equilíbrio ideal entre o número de impressões e conversões servidas. Ele permite ajustar o número de impressões que você deseja exibir antes de começar a ver a diminuição dos retornos.
 
-O relatório tem um intervalo de retrospectiva de 30 dias, a partir da data escolhida no [!UICONTROL Date Through] seletor.
+O relatório tem um intervalo de retrospectiva de 30 dias, a partir da data escolhida no seletor [!UICONTROL Date Through].
 
 O volume de conversão geralmente diminui com compartimentos de frequência de impressão mais altos. Menos usuários veem o maior número de impressões. Isso significa que esses baldes de frequência mais alta têm menos conversões.
 
