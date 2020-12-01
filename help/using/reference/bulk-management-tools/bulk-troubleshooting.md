@@ -29,7 +29,7 @@ O que fazer quando as planilhas retornarem um erro ou sua solicitação em massa
 
 >[!NOTE]
 >
->[As permissões](../../features/administration/administration-overview.md) de grupo RBAC atribuídas na [!DNL Audience Manager] interface do usuário são respeitadas na [!UICONTROL Bulk Management Tools].
+>[As ](../../features/administration/administration-overview.md) permissões do grupo RBAC atribuídas na  [!DNL Audience Manager] interface do usuário são respeitadas no  [!UICONTROL Bulk Management Tools].
 
 Fatores como tráfego intenso de rede, uso do servidor e grandes conjuntos de dados podem causar falha ou tempo limite de uma solicitação em massa. Se houver um problema, a planilha deixará de gravar dados e exibirá uma mensagem de erro. Quando isso acontecer, você deverá:
 
@@ -60,8 +60,8 @@ A tabela a seguir lista alguns problemas comuns que você pode encontrar ao faze
    <td colname="col1"> <b>Longos atrasos</b> </td> 
    <td colname="col2"> 
     <ul id="ul_AA6F414024B2475AB1C0B46DC3FF0B36"> 
-     <li id="li_ECC83AC39D7142519AA9A223DB8FCF23"> <b>Desativar modo</b>de compatibilidade: Verifique se há outras planilhas abertas no modo de compatibilidade do Microsoft Excel. O modo de compatibilidade pode aumentar os tempos de execução. Feche todas as planilhas que possam ter sido abertas nesse modo e tente sua solicitação em massa novamente. </li> 
-     <li id="li_234BFCF563234DE198884F33AB75280D"> <b>Recursos</b>do sistema: Os recursos limitados do sistema contribuem para longos atrasos. Tente fechar todos os outros programas antes de fazer uma solicitação em massa. </li> 
+     <li id="li_ECC83AC39D7142519AA9A223DB8FCF23"> <b>Desativar modo</b> de compatibilidade: Verifique se há outras planilhas abertas no modo de compatibilidade do Microsoft Excel. O modo de compatibilidade pode aumentar os tempos de execução. Feche todas as planilhas que possam ter sido abertas nesse modo e tente sua solicitação em massa novamente. </li> 
+     <li id="li_234BFCF563234DE198884F33AB75280D"> <b>Recursos</b> do sistema: Os recursos limitados do sistema contribuem para longos atrasos. Tente fechar todos os outros programas antes de fazer uma solicitação em massa. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -78,5 +78,5 @@ A tabela a seguir lista alguns problemas comuns que você pode encontrar ao faze
 
 ## Mensagens de erro
 
-Às vezes, você pode receber mensagens de erro ao fazer alterações em massa. Para interpretar a mensagem de erro, consulte Códigos de [resposta definidos](/help/using/api/rest-api-main/aam-api-getting-started.md) na documentação da API.
+Às vezes, você pode receber mensagens de erro ao fazer alterações em massa. Para interpretar a mensagem de erro, consulte [Códigos de resposta definidos](/help/using/api/rest-api-main/aam-api-getting-started.md) na documentação da API.
 
