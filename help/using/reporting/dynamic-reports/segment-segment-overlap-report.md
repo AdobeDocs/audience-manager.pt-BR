@@ -21,7 +21,7 @@ Retorna dados sobre quantos usuários únicos são compartilhados entre seus seg
 
 >[!NOTE]
 >
->Os relatórios de sobreposição em Audience Manager seguem os princípios do RBAC. Você só pode ver segmentos de fontes de dados às quais você tem acesso com base no Grupo [de usuários](/help/using/features/administration/administration-overview.md) RBAC ao qual você pertence.
+>Os relatórios de sobreposição em Audience Manager seguem os princípios do RBAC. Você só pode ver segmentos de fontes de dados às quais você tem acesso com base no [Grupo de usuários RBAC](/help/using/features/administration/administration-overview.md) ao qual você pertence.
 
 <!-- 
 
@@ -31,18 +31,18 @@ c_segment_segment_overlap.xml
 
 ## Visão geral
 
-O [!UICONTROL Segment-to-Segment Overlap] relatório pode ajudá-lo a:
+O relatório [!UICONTROL Segment-to-Segment Overlap] pode ajudá-lo a:
 
 * Identifique segmentos com sobreposição alta ou baixa, dependendo de suas necessidades. Características com alta sobreposição oferecem uma audiência direcionada, mas menos visitantes únicos. Características com baixa sobreposição podem ser úteis para alcançar um conjunto de visitantes maior e único.
 * Encontre sobreposições inesperadas e use essas informações para criar novos segmentos de alto desempenho.
 
 ## Relatório de exemplo
 
-A ilustração a seguir fornece uma visão geral de alto nível do [!UICONTROL Segment-to-Segment Overlap] relatório.
+A ilustração a seguir fornece uma visão geral de alto nível do relatório [!UICONTROL Segment-to-Segment Overlap].
 
 >[!NOTE]
 >
->O [!UICONTROL Segment-to-Segment Overlap] relatório retorna um campo vazio quando compara o mesmo segmento a si mesmo.
+>O relatório [!UICONTROL Segment-to-Segment Overlap] retorna um campo vazio quando compara o mesmo segmento a si mesmo.
 
 ![](assets/segment-to-segment-overlap.png)
 
@@ -58,7 +58,7 @@ r_s2s_data_pop.xml
 
  -->
 
-O pop-up do [!UICONTROL Segment-to-Segment Overlap] relatório contém as métricas abaixo. Observe que a métrica de únicos na tabela representa seus usuários *em tempo* real.
+O pop-up do relatório [!UICONTROL Segment-to-Segment Overlap] contém as métricas abaixo. Observe que a métrica de únicos na tabela representa seus *usuários em tempo real*.
 
 | Métrica | Descrição |
 |---|---|
