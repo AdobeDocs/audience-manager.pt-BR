@@ -17,14 +17,14 @@ ht-degree: 59%
 
 # APIs de chamada de evento DCS {#dcs-event-call-apis}
 
-Event calls send information to the [!DNL DCS] in a [!DNL URL] string. In a typical Audience Manager deployment, customers use our [!DNL JavaScript] data collection code ([!UICONTROL DIL]) to send data to the [!DNL DCS]. However, sometimes customers cannot put our [!DNL JavaScript] code on their pages. If company policies or other technical issues prevent you from placing our [!DNL JavaScript] code on your pages, you can still work with Audience Manager to send and return data from [!DNL DCS] with these event call [!DNL API]s.
+Chamadas de evento enviam informações para [!DNL DCS] em uma sequência [!DNL URL]. Em uma implantação típica de Audience Manager, os clientes usam nosso [!DNL JavaScript] código de coleta de dados ([!UICONTROL DIL]) para enviar dados para [!DNL DCS]. No entanto, às vezes os clientes não podem colocar nosso código [!DNL JavaScript] em suas páginas. Se políticas de empresa ou outros problemas técnicos impedirem que você coloque nosso código [!DNL JavaScript] em suas páginas, ainda será possível trabalhar com o Audience Manager para enviar e retornar dados de [!DNL DCS] com essas chamadas de evento [!DNL API]s.
 
 ## Introdução {#dcs-getting-started}
 
 Esta seção contém informações e referência relacionada que mostram como:
 
-* Faça chamadas para o [!DNL DCS].
-* Receive data from the [!DNL DCS].
+* Faça chamadas para [!DNL DCS].
+* Receba dados de [!DNL DCS].
 * Formate os elementos de dados em suas chamadas.
 * Entenda os parâmetros retornados pelo [!DNL DCS].
 
