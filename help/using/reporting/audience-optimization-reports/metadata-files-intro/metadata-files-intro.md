@@ -1,6 +1,6 @@
 ---
-description: Um arquivo de dados contém dados de impressão, clique ou conversão que você pode usar nos relatórios de Otimização de Audiência e nos Arquivos de log acionáveis. Um arquivo de metadados contém nomes legíveis por humanos que correspondem a várias opções de relatório e itens de menu. Formate seus arquivos de dados e metadados de acordo com as especificações desta seção.
-seo-description: Um arquivo de dados contém dados de impressão, clique ou conversão que você pode usar nos relatórios de Otimização de Audiência e nos Arquivos de log acionáveis. Um arquivo de metadados contém nomes legíveis por humanos que correspondem a várias opções de relatório e itens de menu. Formate seus arquivos de dados e metadados de acordo com as especificações desta seção.
+description: Um arquivo de dados contém dados de impressão, clique ou conversão que você pode usar nos relatórios de Audience Optimization e nos arquivos de registro acionáveis. Um arquivo de metadados contém nomes legíveis por humanos que correspondem a várias opções de relatório e itens de menu. Formate seus arquivos de dados e metadados de acordo com as especificações desta seção.
+seo-description: Um arquivo de dados contém dados de impressão, clique ou conversão que você pode usar nos relatórios de Audience Optimization e nos arquivos de registro acionáveis. Um arquivo de metadados contém nomes legíveis por humanos que correspondem a várias opções de relatório e itens de menu. Formate seus arquivos de dados e metadados de acordo com as especificações desta seção.
 seo-title: Dados de registro e arquivos de metadados
 solution: Audience Manager
 title: Dados de registro e arquivos de metadados
@@ -26,7 +26,7 @@ Um arquivo de metadados contém nomes legíveis por humanos que correspondem a v
 
 >[!IMPORTANT]
 >
->Para usar arquivos de metadados, suas chamadas de evento devem incluir *todos* os parâmetros listados na seção [visão geral e mapeamentos](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) .
+>Para usar arquivos de metadados, suas chamadas de evento devem incluir *all* dos parâmetros listados na seção [visão geral e mapeamentos](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
 
 * [Arquivos de dados para Relatórios de otimização de público-alvo e arquivos de registro acionáveis](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
 * [Visão geral e mapeamentos para arquivos de metadados](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)
