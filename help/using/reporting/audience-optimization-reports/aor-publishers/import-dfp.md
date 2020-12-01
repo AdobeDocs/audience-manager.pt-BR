@@ -21,22 +21,22 @@ Antes do Audience Manager poder habilitar a otimização de público-alvo para e
 
 ## Pré-requisitos para ingestão de log do Google Ad Manager {#prereqs-dfp-ingestion}
 
-Observe que o processo descrito nesta seção deve ser concluído *antes* que você passe para os pré-requisitos para a ativação da ingestão de log.
+Observe que o processo descrito nesta seção deve ser concluído *antes de* você seguir para os pré-requisitos para a ativação de ingestão de log.
 
-Para usar arquivos de registro [!DNL Google Ad Manager] (antigo Google DFP) em [!DNL Audience Manager], primeiro defina nossa ID de usuário [Audience Manager exclusiva (UUID)](../../../reference/ids-in-aam.md) na chamada de tag de anúncio. Ao fazer isso, nossa ID é incluída nos [!DNL Google Ad Manager] registros e podemos corresponder IDs entre [!DNL Google Ad Manager] e [!DNL Audience Manager]. Use [!DNL Audience Manager] o código ou o [!UICONTROL DIL] para definir a [!UICONTROL Audience Management Module] [!DNL Audience Manager] UUID em um cookie primário.
+Para usar os arquivos de log [!DNL Google Ad Manager] (antigo Google DFP) em [!DNL Audience Manager], você deve primeiro definir nossa [ID de usuário exclusiva (UUID)](../../../reference/ids-in-aam.md) Audience Manager na chamada de tag do anúncio. Ao fazer isso, nossa ID é incluída nos registros [!DNL Google Ad Manager] e podemos corresponder IDs entre [!DNL Google Ad Manager] e [!DNL Audience Manager]. Use o código [!DNL Audience Manager] [!UICONTROL DIL] ou [!UICONTROL Audience Management Module] para definir o UUID [!DNL Audience Manager] em um cookie próprio.
 
-Veja como definir a [!DNL Audience Manager] ID na chamada de tag do anúncio, como explicado em nossa documentação:
+Veja como definir a ID [!DNL Audience Manager] na chamada de tag do anúncio, conforme explicado em nossa documentação:
 
 * [Via Google Publisher Tag (GPT)](../../../integration/gpt-aam-destination/gpt-aam-modify-api.md)
 * [Por um destino de cookie](../../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
 
-Você mesmo precisa definir a [!DNL Audience Manager] ID e pode trabalhar com [!DNL Audience Manager] consultoria para verificar se tudo funciona. Você definiu a [!DNL Audience Manager] ID corretamente se:
+É necessário definir a ID [!DNL Audience Manager] você mesmo e pode trabalhar com a consultoria [!DNL Audience Manager] para verificar se tudo funciona. Você definiu a ID [!DNL Audience Manager] corretamente se:
 
 * `'aamid'` é a chave usada como o identificador.
-* O valor da ID de usuário está formatado corretamente como o [!DNL Audience Manager] UUID, conforme descrito em nosso [Índice de IDs no Audience Manager](../../../reference/ids-in-aam.md).
-* Você incluiu o [!DNL Audience Manager] UUID em um campo definido em seus [!DNL Google Ad Manager] logs (por exemplo, CustomTargeting).
+* O valor da ID de usuário está formatado corretamente como o UUID [!DNL Audience Manager], conforme descrito em nosso [Índice de IDs em Audience Manager](../../../reference/ids-in-aam.md).
+* Você incluiu a UUID [!DNL Audience Manager] em um campo definido nos registros [!DNL Google Ad Manager] (por exemplo, CustomTargeting).
 
-## Pré-requisitos para a ativação de ingestão de registro {#prereqs-ingestion-enablement}
+## Pré-requisitos para a Ativação de Ingestão de Log {#prereqs-ingestion-enablement}
 
 <table id="table_C980A9F9B0FB4157B4908A64768B1571"> 
  <thead> 
@@ -49,14 +49,14 @@ Você mesmo precisa definir a [!DNL Audience Manager] ID e pode trabalhar com [!
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Etapa 1 </p> </td> 
-   <td colname="col2"> <p>Confirme se as etapas necessárias para definir o UUID do <span class="keyword"> Audience Manager</span> (descritas acima) foram concluídas antes de passar para a Etapa 2 </p> </td> 
-   <td colname="col3"> <p><span class="keyword"> Atendimento ao cliente ou consultoria do Audience Manager</span> </p> </td> 
+   <td colname="col2"> <p>Confirme se as etapas necessárias para definir o UUID <span class="keyword"> Audience Manager</span> (descritas acima) foram concluídas antes de passar para a Etapa 2 </p> </td> 
+   <td colname="col3"> <p><span class="keyword"> Audiência </span> ManagerAtendimento ao cliente ou consultoria </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Etapa 2 </p> </td> 
    <td colname="col2"> <p>Seu Administrador do Google Ad Manager cria: </p> <p> 
      <ol id="ol_FCFA9B11CFF948A488DF9CB298FC04C4"> 
-      <li id="li_BC946EDCC3324578AEB64EDDA55B5ACA">Uma conta de serviço para assimilar o Google Ad Manager faz logon no <span class="keyword"> Audience Manager</span>. </li> 
+      <li id="li_BC946EDCC3324578AEB64EDDA55B5ACA">Uma conta de serviço para assimilar o Google Ad Manager faz login em <span class="keyword"> Audience Manager</span>. </li> 
       <li id="li_6B2FC7D73A3246419E55C004E17ACA25">Novas credenciais. <p>Observação:  Isso pode exigir um endereço de email exclusivo específico para este projeto e será usado ao fornecer acesso ao Google Armazenamento Bucket. </p> </li> 
       <li id="li_95444B9FD1B34659A9634814B262A681">Uma chave privada (credencial com base em JSON) </li> 
      </ol> </p> </td> 
@@ -83,12 +83,12 @@ Você mesmo precisa definir a [!DNL Audience Manager] ID e pode trabalhar com [!
   </tr> 
   <tr> 
    <td colname="col1"> <p>Etapa 6 </p> </td> 
-   <td colname="col2"> <p>Compile os pré-requisitos em um email para o Atendimento ao cliente do AAM (aamsupport@adobe.com) para iniciar o processo de ingestão de log. Rasgue o email usando o modelo na próxima seção. </p> </td> 
-   <td colname="col3"> <p>Você ou a consultoria <span class="keyword"> Audience Manager</span> em seu nome </p> </td> 
+   <td colname="col2"> <p>Compile os pré-requisitos em um email para AAM Atendimento ao cliente (aamsupport@adobe.com) para iniciar o processo de ingestão de log. Rasgue o email usando o modelo na próxima seção. </p> </td> 
+   <td colname="col3"> <p>Você ou <span class="keyword"> Audience Manager</span> Consultoria em seu nome </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Modelo de e-mail {#email-template}
 
-Para finalizar a ativação de ingestão de registro, envie-nos um email para aamsupport@adobe.com. Use o modelo [de email](assets/enable_dfp_ingestion.txt)anexado.
+Para finalizar a ativação de ingestão de registro, envie-nos um email para aamsupport@adobe.com. Use o [modelo de e-mail anexado](assets/enable_dfp_ingestion.txt).
