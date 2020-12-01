@@ -27,7 +27,7 @@ As planilhas de criação e atualização aceitam um cabeçalho traitRule que pe
 
 >[!NOTE]
 >
->[As permissões](../../features/administration/administration-overview.md) de grupo RBAC atribuídas na [!DNL Audience Manager] interface do usuário são respeitadas na [!UICONTROL Bulk Management Tools].
+>[As ](../../features/administration/administration-overview.md) permissões do grupo RBAC atribuídas na  [!DNL Audience Manager] interface do usuário são respeitadas no  [!UICONTROL Bulk Management Tools].
 
 ## Trabalhar com regras de características {#trait-rules}
 
@@ -35,9 +35,9 @@ Na planilha, a coluna da regra de característica retorna e aceita regras que co
 
 ## Exemplo do construtor de regras {#rule-builder-example}
 
-Vejamos um exemplo que demonstra como usar [!UICONTROL Segment Builder] para criar uma regra que você pode para a planilha em massa. No entanto, este não é um conjunto de instruções passo a passo para essas ferramentas. Em vez disso vamos nos start com uma regra simples que já foi criada. Para obter instruções sobre como usar os construtores de regras, consulte Construtor [de](../../features/segments/segment-builder.md) segmentos e Construtor de [características](../../features/traits/about-trait-builder.md).
+Vejamos um exemplo que demonstra como usar [!UICONTROL Segment Builder] para criar uma regra que você pode para a planilha em massa. No entanto, este não é um conjunto de instruções passo a passo para essas ferramentas. Em vez disso vamos nos start com uma regra simples que já foi criada. Para obter instruções sobre como usar os construtores de regras, consulte [Construtor de segmentos](../../features/segments/segment-builder.md) e [Construtor de características](../../features/traits/about-trait-builder.md).
 
-Com o construtor de regras visuais, criamos uma regra de segmento com 3 características e um [!UICONTROL AND] operador Booliano.
+Com o construtor de regras visuais, criamos uma regra de segmento com 3 características e um operador Booliano [!UICONTROL AND].
 
 ![](assets/visualrule.png)
 
@@ -45,11 +45,11 @@ Clique em **[!UICONTROL Code View]** para obter a versão de texto desta regra.
 
 >[!TIP]
 >
->Clique **[!UICONTROL Validate Expression]** para verificar a lógica de sua regra. Isso ajudará a impedir que você carregue uma regra inválida.
+>Clique em **[!UICONTROL Validate Expression]** para verificar a lógica da regra. Isso ajudará a impedir que você carregue uma regra inválida.
 
 ![](assets/coderule.png)
 
-Cole a regra na [!UICONTROL Bulk Management Tools] planilha e confira as alterações para atualizar as regras de segmento em massa.
+Cole a regra na planilha [!UICONTROL Bulk Management Tools] e confirme suas alterações para atualizar as regras de segmento em massa.
 
 ![](assets/segmentrule.png)
 
