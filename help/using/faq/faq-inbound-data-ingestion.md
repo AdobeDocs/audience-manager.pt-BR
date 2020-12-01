@@ -59,10 +59,10 @@ Consulte [Compactação de arquivos de transferência de dados de entrada](../in
 
 **É possível carregar um arquivo de dados de entrada ([!DNL .sync] ou arquivo [!DNL .overwrite]) antes de implantar o código [!DNL Audience Manager] na produção?**
 
-Sim. As long as you use a [!UICONTROL cross-device data source] to store the CRM data that you upload, Audience Manager always stores the data. In fact, following the [!UICONTROL Profile Merge Rules] enhancements that Audience Manager launched in October 2019 that allow for offline-only use cases, you can upload and action on data without deploying Audience Manager code into production at all. Consulte:
+Sim. Desde que você use um [!UICONTROL cross-device data source] para armazenar os dados do CRM que você carrega, o Audience Manager sempre armazena os dados. Na verdade, após os aprimoramentos [!UICONTROL Profile Merge Rules] que o Audience Manager lançou em outubro de 2019 e permitem casos de uso somente offline, você pode fazer upload e executar ações em dados sem implantar o código Audience Manager na produção. Consulte:
 
 * [Visão geral das melhorias nas Regras de mesclagem de perfis](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* [!UICONTROL People-based Destinations] - [Personalização com base em dados somente offline](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* [!UICONTROL People-based Destinations] -  [Personalização com base em dados somente offline](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br> 
 
@@ -188,7 +188,7 @@ Os carimbos de data e hora são usados para fazer registros e mantê-los. Eles s
 
  
 
-**O que é um[!DNL Data Provider ID (DPID)]e como o obtenho?**
+**O que é um  [!DNL Data Provider ID (DPID)] e como o obtenho?**
 
 O consultor da Adobe atribuirá uma [DPID (ID do provedor de dados)](../reference/ids-in-aam.md) de três ou quatro dígitos à sua fonte de dados específica. Essa ID é exclusiva e não é alterada.
 
@@ -211,7 +211,7 @@ Sim, consulte:
 
 **A chave primária no meu banco de dados de fonte de dados é um endereço de email. Ele é considerado informação pessoal?**
 
-Sim. O [!DNL Audience Manager] não armazena endereços de email no banco de dados. Os Visitantes devem receber uma ID gerada aleatoriamente ou uma versão com hash unidirecional do endereço de email antes de iniciar sincronizações de ID.
+Sim. O [!DNL Audience Manager] não armazena endereços de email no banco de dados. Os visitantes devem receber uma ID gerada aleatoriamente ou uma versão com hash unidirecional do endereço de email antes de iniciar sincronizações de ID.
 
  
 
@@ -227,7 +227,7 @@ Como prática recomendada, recomendamos o [!DNL Amazon S3] porque o processo é 
 
 >[!WARNING]
 >
->Estamos removendo gradualmente o suporte para configurações FTP. While inbound data file ingestion is still supported in existing FTP integrations, we strongly recommend using [!DNL Amazon S3] to onboard offline data for new integrations. Consulte [Requisitos de nome e tamanho de arquivo do Amazon S3 para arquivos de dados de entrada](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) para obter detalhes.
+>Estamos removendo gradualmente o suporte para configurações FTP. Embora a ingestão de arquivos de dados de entrada ainda seja suportada em integrações FTP existentes, recomendamos usar [!DNL Amazon S3] para dados offline integrados para novas integrações. Consulte [Requisitos de nome e tamanho de arquivo do Amazon S3 para arquivos de dados de entrada](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) para obter detalhes.
 
  
 
