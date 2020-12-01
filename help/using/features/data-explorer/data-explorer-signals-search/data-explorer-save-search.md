@@ -16,21 +16,21 @@ ht-degree: 4%
 
 # Salvar critérios de pesquisa {#save-search-criteria}
 
-Otimize os esforços de pesquisa de sinal, salvando até 10 conjuntos de critérios de pesquisa para usar sempre que precisar deles e rastreie-os no [!UICONTROL Signals Dashboard]. O Audience Manager recarregará as pesquisas salvas sempre que você carregar o [!UICONTROL Signals Dashboard].
+Otimize os esforços de pesquisa de sinais salvando até 10 conjuntos de critérios de pesquisa para usar sempre que necessário e rastreie-os no [!UICONTROL Signals Dashboard]. O Audience Manager recarregará as pesquisas salvas toda vez que você carregar o [!UICONTROL Signals Dashboard].
 
 1. Vá para **[!UICONTROL Audience Data > Signals > Search]** e execute um **[!UICONTROL Signals Search]** com os pares de valores chave e/ou os filtros que deseja salvar para pesquisas futuras.
-1. Clique em **[!UICONTROL Save this Search]** uma vez que você obtenha os resultados da pesquisa.
+1. Clique em **[!UICONTROL Save this Search]** depois de obter os resultados da pesquisa.
 
    ![Resultado da etapa](assets/save-search-criteria.png)
 1. Insira um nome sugestivo para a pesquisa, para que você possa identificá-la mais tarde.
-1. (Opcional) Ative a **[!UICONTROL Track this search result in the dashboard]** opção se desejar que o painel de sinais inclua os sinais no conjunto de pesquisa atual.
-1. Select the **[!UICONTROL Default Sorting]** criteria:
+1. (Opcional) Ative a opção **[!UICONTROL Track this search result in the dashboard]** se desejar que o painel de sinais inclua os sinais no conjunto de pesquisa atual.
+1. Selecione os critérios **[!UICONTROL Default Sorting]**:
    * **[!UICONTROL Total Counts]**
    * **[!UICONTROL Key Name]**
-1. Escolha o **[!UICONTROL Default Sorting]** modo:
+1. Escolha o modo **[!UICONTROL Default Sorting]**:
    * **[!UICONTROL Descending]**
    * **[!UICONTROL Ascending]**
-1. Clique em **[!UICONTROL Save]**. Você pode ver sua pesquisa salva na [!UICONTROL Saved Search] seção e usá-la sempre que precisar.
+1. Clique em **[!UICONTROL Save]**. Você pode ver sua pesquisa salva na seção [!UICONTROL Saved Search] e usá-la sempre que precisar.
 
 ![pesquisa salva](assets/saved-search.png)
 
