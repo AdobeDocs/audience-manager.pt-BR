@@ -16,7 +16,7 @@ ht-degree: 81%
 
 # Visão geral de implementação e integração
 
-Work with data from [!DNL Experience Cloud] solutions or other external systems in [!DNL Audience Manager].
+Trabalhe com dados de [!DNL Experience Cloud] soluções ou outros sistemas externos em [!DNL Audience Manager].
 
 * [Métodos de integração de dados](data-integration-methods.md)
 * [Implementação do Audience Manager](implement-audience-manager.md)
