@@ -1,6 +1,6 @@
 ---
-description: Um método GET que retorna o destino para o targetId especificado.
-seo-description: Um método GET que retorna o destino para o targetId especificado.
+description: Um método de GET que retorna o destino para o targetId especificado.
+seo-description: Um método de GET que retorna o destino para o targetId especificado.
 seo-title: Retornar um destino por ID de destino
 solution: Audience Manager
 title: Retornar um destino por ID de destino
@@ -17,7 +17,7 @@ ht-degree: 9%
 
 # Retornar um destino por ID de destino {#return-a-destination-by-destination-id}
 
-Um `GET` método que retorna o destino para o especificado `destinationId`.
+Um método `GET` que retorna o destino para o `destinationId` especificado.
 
 <!-- r_get_all_destinations_order_id.xml -->
 
@@ -27,7 +27,7 @@ Um `GET` método que retorna o destino para o especificado `destinationId`.
 
 >[!NOTE]
 >
->Para preencher o campo, insira o `mappings` campo `includeMappings=true` no URL.
+>Para preencher o campo `mappings` passe em `includeMappings=true` no URL.
 
 ## Resposta
 
@@ -59,7 +59,7 @@ Um `GET` método que retorna o destino para o especificado `destinationId`.
 
 ## Retornar todos os destinos {#return-all-destinations}
 
-Um `GET` método que retorna todos os destinos para o parceiro especificado.
+Um método `GET` que retorna todos os destinos para o parceiro especificado.
 
 <!-- r_get_all_destinations.xml -->
 
@@ -69,7 +69,7 @@ Um `GET` método que retorna todos os destinos para o parceiro especificado.
 
 >[!NOTE]
 >
->* *(Opcional)* Enviar `containsSegment=<sid>` para retornar uma matriz de todos os destinos mapeados para o segmento especificado. Por exemplo, seu query pode ter uma aparência semelhante a esta: `GET .../destinations/?containsSegment=4321`.
+>* *(Opcional)* Transmita  `containsSegment=<sid>` para retornar uma matriz de todos os destinos mapeados para o segmento especificado. Por exemplo, seu query pode ter uma aparência semelhante a esta: `GET .../destinations/?containsSegment=4321`.
    >
    >
 * Não retorna o objeto de destino completo. Obtenha o destino por ordem de dados se precisar de um objeto totalmente preenchido.
@@ -77,7 +77,7 @@ Um `GET` método que retorna todos os destinos para o parceiro especificado.
 
 ### Parâmetros de Query opcionais
 
-Você pode usar esses parâmetros opcionais com métodos de API que retornam *todas* as propriedades de um objeto. Defina essas opções na string de solicitação ao passar esse query para o [!DNL API]. Consulte Parâmetros [](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters)opcionais.
+Você pode usar esses parâmetros opcionais com métodos de API que retornam *todas* as propriedades de um objeto. Defina essas opções na string de solicitação ao passar esse query para [!DNL API]. Consulte [Parâmetros Opcionais](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -144,7 +144,7 @@ Você pode usar esses parâmetros opcionais com métodos de API que retornam *to
 
 ## Retornar um mapeamento de destino com a ID de mapeamento {#return-dest-mapping-id}
 
-Um `GET` método que retorna um mapeamento de destino individual com base no `mappingId`.
+Um método `GET` que retorna um mapeamento de destino individual com base em `mappingId`.
 
 <!-- r_get_destination_trait_data_order.xml -->
 
@@ -181,7 +181,7 @@ Um `GET` método que retorna um mapeamento de destino individual com base no `ma
 
 ## Mapeamentos de destino de retorno {#return-dest-mappings}
 
-Um `GET` método que retorna os mapeamentos de um destino.
+Um método `GET` que retorna os mapeamentos de um destino.
 
 <!-- r_get_destination_mappings.xml -->
 
@@ -253,9 +253,9 @@ Um `GET` método que retorna os mapeamentos de um destino.
 {
 ```
 
-## Retornar todas as plataformas de destino disponíveis {#return-dest-platforms}
+## Devolver Todas as Plataformas de Destino Disponíveis {#return-dest-platforms}
 
-Um `GET` método que retorna todas as plataformas de dispositivos disponíveis para destinos.
+Um método `GET` que retorna todas as plataformas de dispositivos disponíveis para destinos.
 
 <!-- r_get_dest_platforms.xml -->
 
@@ -271,9 +271,9 @@ BROWSER, ANDROID, iOS, ALL
 ]
 ```
 
-## Retornar o histórico de trabalho de destino S2S e S2S em massa {#return-job-history}
+## Devolver S2S e o Histórico de Tarefas de Destino S2S em Massa {#return-job-history}
 
-Um `GET` método que retorna informações do histórico de tarefas de saída [!UICONTROL Server-to-Server] ( [!UICONTROL S2S]) e de destino em massa [!UICONTROL S2S] .
+Um método `GET` que retorna [!UICONTROL Server-to-Server] ( [!UICONTROL S2S]) e [!UICONTROL S2S] informações em massa do histórico de tarefas de destino.
 
 <!-- r_get_job_history.xml -->
 
