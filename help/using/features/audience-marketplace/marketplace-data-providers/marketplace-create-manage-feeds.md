@@ -32,7 +32,7 @@ Para criar um feed de dados:
 1. Forneça uma breve descrição (máximo de 255 caracteres).
 
    Uma boa descrição deve descrever seu feed com precisão. Por exemplo, você pode incluir texto para categorias de marketing, demografia e cobertura geográfica (por exemplo, [!DNL US] ou América do Norte). O texto de descrição é pesquisável e ajuda os compradores a localizar ou avaliar seu feed. Uma boa descrição é uma parte importante para atrair assinantes para o feed de dados.
-1. Selecione uma fonte de dados nas **[!UICONTROL Data Source]** opções. Os feeds de dados são limitados a uma única fonte de dados. Não é possível atribuir várias fontes de dados ao mesmo feed de dados.
+1. Selecione uma fonte de dados nas opções **[!UICONTROL Data Source]**. Os feeds de dados são limitados a uma única fonte de dados. Não é possível atribuir várias fontes de dados ao mesmo feed de dados.
 
    >[!IMPORTANT]
    >
@@ -40,11 +40,11 @@ Para criar um feed de dados:
 
 1. Em [!UICONTROL Plan Types], selecione as opções que deseja usar e clique em **[!UICONTROL Add Plan]**.
 
-   Os feeds podem conter vários planos. Os planos podem conter vários casos de uso. Para obter detalhes, consulte Tipos de [plano para feeds](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types)de dados.
+   Os feeds podem conter vários planos. Os planos podem conter vários casos de uso. Para obter detalhes, consulte [Tipos de Plano para Feeds de Dados](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types).
 
 1. Clique em **[!UICONTROL Save]** para salvar seu feed de dados *sem* ativá-lo.
 1. Para salvar e ativar um feed de dados:
-   1. Mova o **[!UICONTROL Availability]** controle deslizante para **[!UICONTROL Active]**.
+   1. Mova o controle deslizante **[!UICONTROL Availability]** para **[!UICONTROL Active]**.
    1. Clique em **[!UICONTROL Save]**.
 
    >[!NOTE]
@@ -55,17 +55,17 @@ Para criar um feed de dados:
 
 ### Opcional: Criar um feed de dados privados
 
-Na [!UICONTROL Settings] seção, mova o controle deslizante para:
+Na seção [!UICONTROL Settings], mova o controle deslizante para:
 
-* **[!UICONTROL Private]** e **[!UICONTROL Branded]**: A [!UICONTROL Marketplace] lista do comprador mostra o nome do vendedor na coluna do provedor e todos os outros dados estão ocultos.
+* **[!UICONTROL Private]** e  **[!UICONTROL Branded]**: A  [!UICONTROL Marketplace] lista do comprador mostra o nome do vendedor na coluna do provedor e todos os outros dados estão ocultos.
 
-* **[!UICONTROL Private]** e **[!UICONTROL Unbranded]**: A [!UICONTROL Marketplace] lista do comprador mostra somente o nome e a descrição do feed de dados. O nome do provedor de dados é exibido como [!UICONTROL Private Seller].
+* **[!UICONTROL Private]** e  **[!UICONTROL Unbranded]**: A  [!UICONTROL Marketplace] lista do comprador mostra somente o nome e a descrição do feed de dados. O nome do provedor de dados aparece como [!UICONTROL Private Seller].
 
-Para ver a aparência de um feed privado para os compradores, consulte a seção compradores nos Feeds [de dados](../../../features/audience-marketplace/marketplace-private-feeds.md)privados.
+Para ver a aparência de um feed privado para os compradores, consulte a seção compradores em [Feeds de dados privados](../../../features/audience-marketplace/marketplace-private-feeds.md).
 
 ## Desativar o feed de dados de um assinante {#deactivate-data-feed}
 
-Como um provedor [!UICONTROL Audience Marketplace] de dados, você pode revogar o acesso do comprador a um feed de dados inscrito. Você pode desejar remover um comprador de um feed por motivos como atraso no pagamento / não pagamento de taxas ou se ele usar dados de características incorretamente.
+Como um provedor de dados [!UICONTROL Audience Marketplace], você pode revogar o acesso do comprador a um feed de dados assinado. Você pode desejar remover um comprador de um feed por motivos como atraso no pagamento / não pagamento de taxas ou se ele usar dados de características incorretamente.
 
 <!-- marketplace-deactiva4te-subscribers.xml -->
 
@@ -77,23 +77,23 @@ Para revogar um assinante:
    >
    >Os feeds de dados com contas vencidas são marcados com um ícone de triângulo/ponto de exclamação.
 
-1. Na [!UICONTROL Subscribers] coluna, clique no número azul que conta os assinantes desse feed. Isso abre a página de detalhes da subscrição.
-1. Mova o **[!UICONTROL Subscription]** controle deslizante para **[!UICONTROL Off]**. Isso abre uma janela de diálogo de confirmação.
-1. No [!UICONTROL Confirmation] pop, clique **[!UICONTROL Yes]** para desativar uma subscrição ou **[!UICONTROL Cancel]** para encerrar sem fazer alterações na subscrição.
+1. Na coluna [!UICONTROL Subscribers], clique no número azul que conta os assinantes desse feed. Isso abre a página de detalhes da subscrição.
+1. Mova o controle deslizante **[!UICONTROL Subscription]** para **[!UICONTROL Off]**. Isso abre uma janela de diálogo de confirmação.
+1. No pop [!UICONTROL Confirmation], clique em **[!UICONTROL Yes]** para desativar uma subscrição ou em **[!UICONTROL Cancel]** para encerrar sem fazer alterações na subscrição.
 
 ### O que acontece depois que você desativa um assinante
 
-Revogar o acesso a um feed de dados envia um email de notificação para todos os usuários administradores na conta do comprador de dados. O email inclui um anexo que lista características revogadas. Essa lista ajuda os assinantes a localizar e remover características desativadas de seus segmentos e modelos.
+Revogar o acesso a um feed de dados envia um email de notificação para todos os usuários administradores na conta do comprador de dados. O email inclui um anexo que lista características revogadas. Esta lista ajuda os assinantes a localizar e remover características desativadas de seus segmentos e modelos.
 
 ### Faturamento e desativação do feed
 
 Depois de remover o acesso a um feed de dados, os assinantes são responsáveis pelas taxas do mês anterior ou atual, dependendo de quando você desativou o feed.
 
-## Tipos de plano para feeds de dados {#plan-types}
+## Tipos de Plano para Feeds de Dados {#plan-types}
 
-[!DNL Plan types] são componentes essenciais em um feed [!UICONTROL Audience Marketplace] de dados. Como provedor de dados, eles permitem que você crie vários casos de uso e opções de preço para seus feeds. Além disso, pode ser uma boa estratégia criar alguns planos para cada feed de dados. Isso dá aos compradores opções diferentes para escolher quando eles estão procurando dados para modelar ou enviar para um destino.
+[!DNL Plan types] são componentes essenciais em um feed  [!UICONTROL Audience Marketplace] de dados. Como provedor de dados, eles permitem que você crie vários casos de uso e opções de preço para seus feeds. Além disso, pode ser uma boa estratégia criar alguns planos para cada feed de dados. Isso dá aos compradores opções diferentes para escolher quando eles estão procurando dados para modelar ou enviar para um destino.
 
-[Crie um feed](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed) de dados para selecionar [!UICONTROL Plan Types].
+[Crie um ](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed) feed de dados para selecionar  [!UICONTROL Plan Types].
 
 ![](assets/plan_types.png)
 
@@ -101,17 +101,17 @@ Depois de remover o acesso a um feed de dados, os assinantes são responsáveis 
 
 <!-- c_feed_options.xml -->
 
-As [!UICONTROL Use Case] configurações permitem que os vendedores controlem como os compradores podem usar seus dados.
+As configurações [!UICONTROL Use Case] permitem que os vendedores controlem como os compradores podem usar seus dados.
 
 ### Segmentos e sobreposição
 
-Um caso de **[!UICONTROL Segments and Overlap]** uso cria um plano que permite aos compradores comparar os dados de características em um relatório [de sobreposição](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report)característica-a-característica. Além disso, os compradores podem adicionar seus dados aos segmentos e fazer comparações com os relatórios [segmento a característica](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) e [segmento a segmento](../../../reporting/dynamic-reports/segment-segment-overlap-report.md) .
+Um caso de uso **[!UICONTROL Segments and Overlap]** cria um plano que permite aos compradores comparar dados de características em um [relatório de sobreposição de características para características](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report). Além disso, os compradores podem adicionar seus dados aos segmentos e fazer comparações com os relatórios [segmento para característica](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) e [segmento para segmento](../../../reporting/dynamic-reports/segment-segment-overlap-report.md).
 
-Cada feed de dados deve incluir pelo menos um caso de [!UICONTROL Segments and Overlap] uso. Os compradores não podem assinar outros planos em um feed de dados se o feed não contiver um caso de [!UICONTROL Segments and Overlap] uso, seja por si só ou em combinação com outro caso de uso.
+Cada feed de dados deve incluir pelo menos um [!UICONTROL Segments and Overlap] caso de uso. Os compradores não podem assinar outros planos em um feed de dados se o feed não contiver um caso de uso [!UICONTROL Segments and Overlap], seja por si mesmo ou em combinação com outro caso de uso.
 
 As comparações de sobreposição podem ajudar os compradores:
 
-* **Amplie o alcance da audiência:** A baixa sobreposição sugere que suas características contêm usuários que o comprador não viu antes. Como resultado, os compradores podem desejar que essas características adicionem novos usuários aos seus segmentos de audiência.
+* **Estender alcance da audiência:** Baixa sobreposição sugere que suas características contêm usuários que o comprador não viu antes. Como resultado, os compradores podem desejar que essas características adicionem novos usuários aos seus segmentos de audiência.
 * **Aprimorar audiências existentes:** A sobreposição alta sugere que suas características contêm usuários semelhantes àqueles que um comprador já conhece. Como resultado, os compradores podem querer que essas características ajudem a fazer melhorias direcionadas e incrementais para audiências desenvolvidas.
 
 Coloque este caso de uso no preço a seguir:
@@ -121,17 +121,17 @@ Coloque este caso de uso no preço a seguir:
 
 ### Modelagem
 
-Um caso de **[!UICONTROL Modeling]** uso cria um plano que permite aos compradores comparar seus traços com os deles com modelagem [](../../../features/algorithmic-models/understanding-models.md#understanding-models)algorítmica. Os compradores verificam os resultados do modelo para encontrar novas audiências em seus dados que compartilham atributos de conversão semelhantes aos seus. Coloque este caso de uso no preço a seguir:
+Um caso de uso **[!UICONTROL Modeling]** cria um plano que permite aos compradores comparar suas características com as de [modelagem algorítmica](../../../features/algorithmic-models/understanding-models.md#understanding-models). Os compradores verificam os resultados do modelo para encontrar novas audiências em seus dados que compartilham atributos de conversão semelhantes aos seus. Coloque este caso de uso no preço a seguir:
 
 * Unidade de Medida: Taxa fixa
 * Preço: Preço com desconto ou taxa de mercado
 
 ### Activation
 
-Um caso de **[!UICONTROL Activation]** uso permite que os compradores enviem dados para um [destino](../../../features/destinations/destinations.md). Com esse caso de uso, os compradores não podem comparar dados com um relatório de sobreposição ou em um modelo algorítmico. Coloque este caso de uso no preço a seguir:
+Um caso de uso **[!UICONTROL Activation]** permite que os compradores enviem dados para um [destino](../../../features/destinations/destinations.md). Com esse caso de uso, os compradores não podem comparar dados com um relatório de sobreposição ou em um modelo algorítmico. Coloque este caso de uso no preço a seguir:
 
 * Unidade de Medida: [!DNL CPM]
-* Preço: [!DNL CPM] taxa de mercado
+* Preço: Taxa de mercado [!DNL CPM]
 
 ## Opções de Faturamento e Preço {#billing}
 
@@ -147,7 +147,7 @@ As opções de faturamento e preço controlam como os compradores pagam pelos se
  <tbody> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Ciclo de Faturamento</span></b> </td> 
-   <td colname="col2"> <b><span class="uicontrol"> Mensalmente em Arrears</span></b> é a única opção. O ciclo de cobrança termina no décimo dia de cada mês. </td> 
+   <td colname="col2"> <b><span class="uicontrol"> Mensalmente, em </span></b> Arrearse, a única opção. O ciclo de cobrança termina no décimo dia de cada mês. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Unidade de Medida</span></b> </td> 
@@ -164,13 +164,13 @@ As opções de faturamento e preço controlam como os compradores pagam pelos se
  </tbody> 
 </table>
 
-## Notas do plano {#plan-notes}
+## Notas do Plano {#plan-notes}
 
-No **[!UICONTROL Additional Notes]** campo, leve algum tempo para descrever cada plano de dados em um feed. Uma descrição boa e breve ajuda os compradores a entender o conteúdo ou a finalidade de cada plano em um feed de dados. Os compradores podem ler os feeds de dados e as descrições do plano à medida que pesquisam ou avaliam novas fontes de dados.
+No campo **[!UICONTROL Additional Notes]**, leve algum tempo para descrever cada plano de dados em um feed. Uma descrição boa e breve ajuda os compradores a entender o conteúdo ou a finalidade de cada plano em um feed de dados. Os compradores podem ler os feeds de dados e as descrições do plano à medida que pesquisam ou avaliam novas fontes de dados.
 
 ## Gerenciar solicitações de feed de dados privados {#manage-private-requests}
 
-workflows do provedor para gerenciar solicitações de feed privadas de compradores.
+Workflows do provedor para gerenciar solicitações de feed privadas de compradores.
 
 Para revisar, aprovar ou rejeitar solicitações do comprador, vá para [!UICONTROL My Shared Data] e:
 
@@ -178,29 +178,29 @@ Para revisar, aprovar ou rejeitar solicitações do comprador, vá para [!UICONT
 
 1. Clique no nome do feed de dados privados.
 2. Clique em **[!UICONTROL Access Requests]** para revisar todos os compradores que desejam acessar seu feed de dados.
-3. Na [!UICONTROL Allow Access] seção de cada caixa de solicitação, clique na marca de seleção para aprovar uma solicitação ou no X para negar o acesso.
+3. Na seção [!UICONTROL Allow Access] de cada caixa de solicitação, clique na marca de seleção para aprovar uma solicitação ou no X para negar o acesso.
 4. Confirme ou cancele a ação selecionada no pop-up de confirmação.
 
 ## Descontos para provedores de dados {#discounts}
 
-Em [!UICONTROL Audience Marketplace]outros, os descontos permitem reduzir o preço publicado de um feed de dados para assinantes individuais. Você pode oferta de descontos para assinantes que enviaram uma solicitação de subscrição ou para assinantes que solicitaram detalhes sobre um feed de dados. Os descontos se aplicam aos feeds de taxa fixa [!DNL CPM] e aos feeds de taxa fixa. Os descontos podem ser úteis quando você deseja fornecer incentivos subscrições para novos clientes ou recompensar a fidelidade dos clientes.
+Em [!UICONTROL Audience Marketplace], os descontos permitem reduzir o preço publicado de um feed de dados para assinantes individuais. Você pode oferta de descontos para assinantes que enviaram uma solicitação de subscrição ou para assinantes que solicitaram detalhes sobre um feed de dados. Os descontos se aplicam a [!DNL CPM] e feeds de taxa fixa. Os descontos podem ser úteis quando você deseja fornecer incentivos subscrições para novos clientes ou recompensar a fidelidade dos clientes.
 
-## Aplicar descontos a um feed de dados {#apply-discounts}
+## Aplicar Descontos a um Feed de Dados {#apply-discounts}
 
 <!-- marketplace-seller-discounts.xml -->
 
-Para descontar um feed, adicione um valor de desconto como % ao campo de desconto e confirme suas alterações. Os provedores de dados podem excluir feeds de dados de: [!UICONTROL Audience Marketplace]
+Para descontar um feed, adicione um valor de desconto como % ao campo de desconto e confirme suas alterações. Os provedores de dados podem excluir feeds de dados em [!UICONTROL Audience Marketplace] de:
 
 * **[!UICONTROL My Shared Data > Potential Subscribers]**
 * **[!UICONTROL My Shared Data > Details Requests]**
 
-Nesses exemplos, o vendedor adicionou 10% de desconto ao feed de [!UICONTROL Software Audience] dados.
+Nesses exemplos, o vendedor adicionou 10% de desconto ao feed de dados [!UICONTROL Software Audience].
 
 ![](assets/potential_subscribers.png)
 
 ![](assets/detail_requests.png)
 
-## Revisar feeds descontados {#review-discounted-feeds}
+## Revisar feeds contados {#review-discounted-feeds}
 
 Os provedores de dados podem ver todos os seus assinantes e feeds com desconto em **[!UICONTROL Audience Marketplace > My Shared Data > Current Subscribers]**.
 
