@@ -113,6 +113,6 @@ Você pode usar a integração entre [!DNL Facebook] [!DNL WCA] do Audience Mana
 
 Estas duas integrações são complementares; você pode usar ambas para garantir uma melhor cobertura do público-alvo. Como exemplo, o [!DNL WCA] pode ser usado para prospecção quando uma empresas está procurando direcionar visitantes de sites que não registraram uma conta, enquanto o [!DNL People-Based Destinations] pode ajudar você a direcionar clientes existentes que forneceram o endereço de email, mas talvez não visitaram o site.
 
-**A[!DNL People-Based Destinations]integração com[!DNL Facebook]suporte desqualifica os usuários de uma audiência quando eles não se qualificam mais para ela?**
+**A  [!DNL People-Based Destinations] integração com  [!DNL Facebook] suporte desqualifica os usuários de uma audiência quando eles não se qualificam mais para ela?**
 
-Sim, a integração suporta a remoção de usuários do [!DNL Facebook] audiência quando eles não se qualificam mais para eles.
+Sim, a integração oferece suporte à remoção de usuários de [!DNL Facebook] audiências quando eles não se qualificam mais para eles.
