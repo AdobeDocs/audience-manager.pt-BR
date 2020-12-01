@@ -29,7 +29,7 @@ Esses elementos identificam as opções de código e as variáveis usadas na doc
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> <i>variable</i> </code> </p> </td> 
-   <td colname="col2"> <p>As variáveis são exibidas em <i>itálico</i>. Substitua o valor apropriado para o nome da variável. </p> <p>Para maior clareza visual, às vezes as variáveis e outros elementos de código aparecem entre &lt; &gt; colchetes. Não é necessário usar esses símbolos no código. </p> </td> 
+   <td colname="col2"> <p>As variáveis aparecem em <i>italics</i>. Substitua o valor apropriado para o nome da variável. </p> <p>Para maior clareza visual, às vezes as variáveis e outros elementos de código aparecem entre &lt; &gt; colchetes. Não é necessário usar esses símbolos no código. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [optional]</code> </p> </td> 
@@ -37,7 +37,7 @@ Esses elementos identificam as opções de código e as variáveis usadas na doc
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> (this|that) </code> </p> </td> 
-   <td colname="col2"> <p>Os itens entre parênteses indicam uma opção Booliana <span class="wintitle"> OU</span> . </p> </td> 
+   <td colname="col2"> <p>Os itens entre parênteses indicam uma opção Booliana <span class="wintitle"> OU</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> literal</code> </p> </td> 
