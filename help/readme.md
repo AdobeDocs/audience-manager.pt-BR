@@ -13,7 +13,7 @@ ht-degree: 2%
 ## TOC
 
 + `TOC.md` na raiz do guia do usuário, é fornecida a organização dos tópicos contidos no guia para esta solução.
-+ Cada guia do usuário terá seu próprio guia exclusivo `TOC.md`, no qual você pode ordenar todas as páginas/tópicos conforme necessário.
++ Cada guia do usuário terá seu próprio `TOC.md` exclusivo, no qual você pode ordenar todas as páginas/tópicos conforme necessário.
 + A primeira página de todos os guias de usuário é `overview.md`.
 
 ## Guia do usuário
@@ -21,13 +21,13 @@ ht-degree: 2%
 + A introdução ao guia do usuário é chamada de `overview.md`
 + Cada tópico no guia do usuário tem seu próprio diretório distinto.
    + Se houver um tópico no guia chamado *Implementação*, o diretório correspondente será `/implementation`
-+ Todos os ativos de imagem são armazenados `/assets` na raiz do guia do usuário.
-   + Todas as imagens no `/assets` diretório serão localizadas.
-   + Nenhuma imagem no `/no-localize` diretório será localizada (há uma surpresa!). Isso pode ser usado para garantir que, em versões de loc, ativos específicos não sejam reproduzidos desnecessariamente.
++ Todos os ativos de imagem são armazenados em `/assets` na raiz do guia do usuário.
+   + Todas as imagens no diretório `/assets` serão localizadas.
+   + Quaisquer imagens no diretório `/no-localize` não serão localizadas (há uma surpresa!). Isso pode ser usado para garantir que, em versões de loc, ativos específicos não sejam reproduzidos desnecessariamente.
 
 ## Metadados do nível do guia do usuário
 
-+ Metadados que descrevem o guia do usuário são armazenados no `TOC.md`. Isso inclui:
++ Metadados que descrevem o guia do usuário são armazenados em `TOC.md`. Isso inclui:
    + product - nome do produto/capacidade.
    + nuvem - nuvem à qual este produto pertence.
    + audiência - audiência ou arquétipo para o qual o guia é direcionado.
@@ -51,4 +51,4 @@ ht-degree: 2%
 
 ## Mais Informações
 
-Para obter mais instruções de publicação, guias de estilo, amostras e outros recursos, visite o [Collaborative Documentation Repo (Acordo de reporte de documentação colaborativa)](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)
+Para obter mais instruções de publicação, guias de estilo, amostras e outros recursos, visite o [Collaborative Documentation Repo](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)
