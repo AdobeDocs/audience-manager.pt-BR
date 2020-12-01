@@ -14,23 +14,23 @@ ht-degree: 0%
 ---
 
 
-# Acessibilidade no Audience Manager {#accessibility}
+# Acessibilidade em Audience Manager {#accessibility}
 
 ## Visão geral {#overview}
 
 Acessibilidade refere-se a uma série de recursos que tornam um produto de software utilizável, com o menor esforço possível de usuários com várias deficiências, como visual, auditivo, cognitivo, motor ou outro tipo.
 
-A Adobe é líder do setor em acessibilidade e suporta a criação de experiências excelentes na Web, incentivando os desenvolvedores a produzir conteúdo rico e envolvente, acessível a todos os usuários. Para obter mais detalhes sobre compromisso de Adobe com acessibilidade, consulte [Acessibilidade](https://www.adobe.com/accessibility.html)ao Adobe.
+A Adobe é líder do setor em acessibilidade e suporta a criação de experiências excelentes na Web, incentivando os desenvolvedores a produzir conteúdo rico e envolvente, acessível a todos os usuários. Para obter mais detalhes sobre o compromisso de acessibilidade, consulte [Acessibilidade ao Adobe](https://www.adobe.com/accessibility.html).
 
 Os recursos de acessibilidade mais comuns encontrados nos produtos de software são: navegação no teclado, estrutura semântica, contraste suficiente entre elementos de primeiro plano e elementos de plano de fundo, suporte técnico de assistência, rótulos de elementos claros e assim por diante.
 
-Para facilitar o uso [!DNL Audience Manager] para todos, desenvolvemos suporte para vários recursos de acessibilidade.
+Para facilitar o uso do [!DNL Audience Manager] para todos, desenvolvemos suporte para vários recursos de acessibilidade.
 
-## Navegação no teclado {#keyboard-navigation}
+## Navegação do teclado {#keyboard-navigation}
 
 [!DNL Audience Manager] suporta acessibilidade total do teclado:
 
-* A `Tab` tecla e as setas se movem entre elementos individuais da interface do usuário.
+* As teclas `Tab` e as setas se movem entre elementos individuais da interface do usuário.
 
    ![destaque de acessibilidade](assets/accesibility-highlight.png)
 
@@ -38,13 +38,13 @@ Para facilitar o uso [!DNL Audience Manager] para todos, desenvolvemos suporte p
 
 ## Classificação de tabela acessível {#table-sorting}
 
-Os cabeçalhos da tabela são selecionáveis ao navegar pela `Tab` chave e você pode alterar a ordem de classificação pressionando `Space`.
+Os cabeçalhos de tabela são selecionáveis ao navegar pela tecla `Tab` e você pode alterar a ordem de classificação pressionando `Space`.
 
 ![cabeçalhos de tabela de acessibilidade](assets/accessibility-table-headers.png)
 
 ## Suporte para tecnologias de assistência {#assistive-technologies}
 
-Por meio do uso do código semântico e da [ARIA](https://www.w3.org/WAI/standards-guidelines/aria/), os elementos interativos na interface do [!DNL Audience Manager] usuário incluem rótulos correspondentes, nomes acessíveis e funções que identificam a finalidade e o estado atual.
+Por meio do uso do código semântico e [ARIA](https://www.w3.org/WAI/standards-guidelines/aria/), os elementos interativos na interface do usuário [!DNL Audience Manager] incluem rótulos correspondentes, nomes acessíveis e funções que identificam a finalidade e o estado atual.
 
 Isso garante que as tecnologias de assistência, como leitores de tela, possam ler as etiquetas e outras informações para os usuários, para que possam interagir facilmente com os controles do aplicativo.
 
@@ -52,7 +52,7 @@ Todos os elementos interativos na interface do usuário do Audience Manager incl
 
 ## Cores e contraste {#colors-contrast}
 
-A interface do [!DNL Audience Manager] usuário se esforça para fornecer contraste suficiente no aplicativo para garantir uma experiência de visualização acessível para usuários com deficiências visuais ou coloridas baixas.
+A interface do usuário [!DNL Audience Manager] procura fornecer contraste suficiente no aplicativo para garantir uma experiência de visualização acessível para usuários com deficiências visuais ou coloridas baixas.
 
 Por exemplo, telas de carregamento incluem uma roleta de carregamento dentro de uma caixa modal branca, tudo sobre uma sobreposição cinza-escura.
 
@@ -62,4 +62,4 @@ Por exemplo, telas de carregamento incluem uma roleta de carregamento dentro de 
 
 [!DNL Audience Manager] esforça-se para oferecer um grau cada vez maior de acessibilidade, facilitando o uso do produto para todos.
 
-Recomendamos que você use o Formulário [de Comentários sobre acessibilidade do](https://www.adobe.com/accessibility/feedback.html) Adobe para enviar sugestões de aprimoramento e problemas de acessibilidade que você pode encontrar. Ficaremos mais do que felizes em levar seus comentários em conta e melhorar [!DNL Audience Manager].
+Recomendamos que você use o [Formulário de feedback sobre acessibilidade do Adobe](https://www.adobe.com/accessibility/feedback.html) para nos enviar sugestões de aprimoramento e problemas de acessibilidade que você está enfrentando. Ficaremos muito satisfeitos em levar seus comentários em conta e melhorar [!DNL Audience Manager].
