@@ -33,7 +33,7 @@ A lista de tabela a seguir e descreve as convenções de nomenclatura de arquivo
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Arquivo Extensão </p> </td> 
-   <td colname="col2"> <p>Os arquivos de relatório sobrepostos são compactados gzip e têm uma extensão de <code> .gz</code> arquivo. É necessário adicionar a extensão <code> .csv</code> ao arquivo após a descompactação. </p> </td> 
+   <td colname="col2"> <p>Os arquivos de relatório sobrepostos são compactados gzip e têm uma extensão de arquivo <code> .gz</code>. É necessário adicionar a extensão <code> .csv</code> ao arquivo após a descompactação. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nome do arquivo </p> </td> 
@@ -85,7 +85,7 @@ No arquivo, os dados da string são incluídos entre aspas de duplo. Veja os dad
 
 ## Registros de relatório de segmento a segmento {#segment-segment-records}
 
-Um arquivo de dados para seu Relatório [de sobreposição](segment-segment-overlap-report.md) segmento a segmento contém os seguintes registros.
+Um arquivo de dados para seu [Relatório de sobreposição de segmento para segmento](segment-segment-overlap-report.md) contém os seguintes registros.
 
 <table id="table_1BDC7019DF2543069D7AE229C5E2454E"> 
  <thead> 
@@ -144,7 +144,7 @@ Um arquivo de dados para seu Relatório [de sobreposição](segment-segment-over
 
 ## Registros de relatório de segmento para característica {#segment-trait-records}
 
-Um arquivo de dados para seu Relatório [de sobreposição](segment-trait-overlap-report.md) segmento a característica contém os seguintes registros.
+Um arquivo de dados para seu [Relatório de sobreposição entre segmentos](segment-trait-overlap-report.md) contém os seguintes registros.
 
 <table id="table_45270B5D01014AD99921B320D3A32DB6"> 
  <thead> 
@@ -211,7 +211,7 @@ Um arquivo de dados para seu Relatório [de sobreposição](segment-trait-overla
 
 ## Registros de relatório de características a características {#trait-trait-records}
 
-Um arquivo de dados para seu Relatório [de sobreposição](trait-trait-overlap-report.md) de características para características contém os seguintes registros.
+Um arquivo de dados para seu [Relatório de sobreposição de características para características](trait-trait-overlap-report.md) contém os seguintes registros.
 
 <table id="table_603216E6AFE4439A87C91DDFF2989F53"> 
  <thead> 
