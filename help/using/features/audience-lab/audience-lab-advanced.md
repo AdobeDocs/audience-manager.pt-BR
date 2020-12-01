@@ -15,24 +15,24 @@ ht-degree: 1%
 ---
 
 
-# [!DNL Audience Lab] Funcionalidade avançada {#audience-lab-advanced-functionality}
+# [!DNL Audience Lab] Funcionalidade avançada  {#audience-lab-advanced-functionality}
 
 Este artigo descreve dois recursos que fornecem funcionalidade avançada para [!DNL Audience Lab]: [!DNL Duplicate Allocation Template] e [!DNL Segment Holdout].
 
-## Modelo de alocação de Duplicados {#duplicate-allocation-template}
+## Modelo de Alocação de duplicado {#duplicate-allocation-template}
 
 <!-- 
 <p>The <b>Allocation Template</b> represents how you split a test group into test segments and the way the test segments are mapped to destinations. </p>
  -->
 
-Em [!DNL Audience Lab], as [!DNL Allocation Template] seleções que você faz ao criar um grupo de teste são as seguintes:
+Em [!DNL Audience Lab], [!DNL Allocation Template] representa as várias seleções feitas ao criar um grupo de teste:
 
 * A distribuição dos dispositivos entre os segmentos de ensaio;
 * O mapeamento dos segmentos de ensaio para os destinos;
 * As características de conversão usadas para um grupo de teste;
 * O intervalo de datas no qual o grupo de teste publica para os destinos selecionados.
 
-Ao duplicar um modelo de alocação, você pode reutilizar a mesma distribuição de segmentos de teste e destinos para um segmento base diferente, em um novo grupo de teste. Um exemplo de um modelo de alocação está ilustrado abaixo. A imagem é tirada da [!UICONTROL Summary & Finalize] etapa no fluxo de trabalho **Criar grupo** de teste.
+Ao duplicar um modelo de alocação, você pode reutilizar a mesma distribuição de segmentos de teste e destinos para um segmento base diferente, em um novo grupo de teste. Um exemplo de um modelo de alocação está ilustrado abaixo. A imagem é tirada da etapa [!UICONTROL Summary & Finalize] no fluxo de trabalho **Criar grupo de teste**.
 
 ![](assets/allocation_template_3.png)
 
@@ -48,7 +48,7 @@ Crie um grupo de teste inicial e selecione **[!UICONTROL Duplicate Allocation Te
 
    ![](assets/duplicate-allocation-template.png)
 
-2. No [!UICONTROL Create Test Group] assistente, você pode especificar um segmento base e renomear seus segmentos de teste, se desejar.
+2. No assistente [!UICONTROL Create Test Group], você pode especificar um segmento base e renomear seus segmentos de teste, se desejar.
 3. Você *não pode* modificar:
 
    * A distribuição dos dispositivos entre os segmentos de ensaio;
@@ -58,7 +58,7 @@ Crie um grupo de teste inicial e selecione **[!UICONTROL Duplicate Allocation Te
 
 4. Revise as informações adicionadas nas etapas anteriores e selecione **[!UICONTROL Finalize Group]**.
 
-## Retenção do segmento de teste {#test-segment-holdout}
+## Testar Retenção do Segmento {#test-segment-holdout}
 
 >[!NOTE]
 >
@@ -72,13 +72,13 @@ Use esse recurso para impedir que parte da audiência seja incluída no teste. A
 
 ### Uso da Retenção de Segmento de Teste
 
-1. Crie um novo grupo de teste usando o [!UICONTROL Create Test Group] assistente.
-1. Na **[!UICONTROL Allocate Test Segment]** etapa, você pode selecionar uma parte da audiência que será excluída do teste.
+1. Crie um novo grupo de teste usando o assistente [!UICONTROL Create Test Group].
+1. Na etapa **[!UICONTROL Allocate Test Segment]**, é possível selecionar uma parte da audiência que será omitida nos testes.
 
-   ![Item de Lista](assets/test-segment-holdout.png)
+   ![Item de lista](assets/test-segment-holdout.png)
 
 1. Use o controle deslizante para ajustar quantos dispositivos você deseja excluir do teste. Observe como o segmento de teste 1 e o segmento de teste 2 agora somente atingem 70% do total de dispositivos.
 
    ![](assets/test-segment-holdout-selected.png)
 
-1. Siga as outras etapas do **[!UICONTROL Create Test Group]** fluxo de trabalho e selecione **[!UICONTROL Finalize Group]** quando estiver satisfeito com sua seleção. Agora você tem um grupo de teste com parte da audiência retida dos testes.
+1. Siga as etapas restantes no fluxo de trabalho **[!UICONTROL Create Test Group]** e selecione **[!UICONTROL Finalize Group]** quando estiver satisfeito com sua seleção. Agora você tem um grupo de teste com parte da audiência retida dos testes.
