@@ -17,9 +17,9 @@ ht-degree: 12%
 
 # Formatação de pares de valores-chave em chamadas DCS {#formatting-key-value-pairs-in-dcs-calls}
 
-Ao fazer uma chamada, o [!DNL DCS] aceita dados de valor chave em formato padrão ou serializado. Consulte esta seção para obter informações sobre como formatar dados de valores chave padrão e serializados.
+Ao fazer uma chamada, [!DNL DCS] aceita dados de valor chave em formato padrão ou serializado. Consulte esta seção para obter informações sobre como formatar dados de valores chave padrão e serializados.
 
-## Standard and Serialized Key-Value Pairs {#standard-serialized}
+## Pares padrão e serializados de valores chave {#standard-serialized}
 
 <table id="table_A220F9B359F34C6EA7B83618FC22EE3A"> 
  <thead> 
@@ -43,7 +43,7 @@ Ao fazer uma chamada, o [!DNL DCS] aceita dados de valor chave em formato padrã
  </tbody>
 </table>
 
-## Delimitadores e separadores para pares de valores-chave serializados {#delimiters-separators}
+## Delimitadores e separadores para pares de valores chave serializados {#delimiters-separators}
 
 Com pares serializados de valores chave, você deve especificar os marcadores que separam valores dentro e entre essas variáveis. Audience Manager requer os seguintes delimitadores e separadores:
 
