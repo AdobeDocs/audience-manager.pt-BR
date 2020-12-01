@@ -21,7 +21,7 @@ Retorna dados sobre o número de usuários únicos compartilhados entre todas as
 
 >[!NOTE]
 >
->Os relatórios de sobreposição em Audience Manager seguem os princípios do RBAC. Você só pode ver características de fontes de dados às quais você tem acesso com base no Grupo [de usuários](/help/using/features/administration/administration-overview.md) RBAC ao qual você pertence.
+>Os relatórios de sobreposição em Audience Manager seguem os princípios do RBAC. Você só pode ver características de fontes de dados às quais você tem acesso com base no [Grupo de usuários RBAC](/help/using/features/administration/administration-overview.md) ao qual você pertence.
 
 <!-- 
 
@@ -31,7 +31,7 @@ c_overlap_reports.xml
 
 ## Visão geral
 
-O [!UICONTROL Trait-to-Trait Overlap] relatório retorna dados sobre a % de usuários únicos compartilhados entre todas as suas características e suas características de terceiros. Como ferramenta de otimização, este relatório ajuda você a:
+O relatório [!UICONTROL Trait-to-Trait Overlap] retorna dados sobre a % de usuários únicos compartilhados entre todas as suas características e as de terceiros. Como ferramenta de otimização, este relatório ajuda você a:
 
 * Crie segmentos com sobreposição alta ou baixa, dependendo de suas necessidades. Características com alta sobreposição oferecem uma audiência direcionada, mas menos visitantes únicos. Características com baixa sobreposição podem ser úteis para alcançar um conjunto de visitantes maior e único.
 * Validar dados de características de terceiros: Uma forte sobreposição entre características semelhantes de terceiros e originais sugere que a característica do seu parceiro de dados é precisa e confiável. Por outro lado, a baixa sobreposição pode indicar que uma característica de terceiros pode não conter as mesmas informações que a sua própria característica primária, semelhante.
@@ -39,11 +39,11 @@ O [!UICONTROL Trait-to-Trait Overlap] relatório retorna dados sobre a % de usu�
 
 ## Relatório de exemplo
 
-A ilustração a seguir fornece uma visão geral de alto nível dos elementos no [!UICONTROL Trait-to-Trait Overlap] relatório.
+A ilustração a seguir fornece uma visão geral de alto nível dos elementos no relatório [!UICONTROL Trait-to-Trait Overlap].
 
 >[!NOTE]
 >
->O [!UICONTROL Trait-to-Trait Overlap] relatório retorna um campo vazio quando compara o mesmo traço a si mesmo.
+>O relatório [!UICONTROL Trait-to-Trait Overlap] retorna um campo vazio quando compara o mesmo traço a si mesmo.
 
 ![](assets/trait-to-trait-overlap.png)
 
@@ -51,7 +51,7 @@ A ilustração a seguir fornece uma visão geral de alto nível dos elementos no
 
 Selecione um ponto individual para visualização de detalhes de dados em uma janela pop-up. As ações de clique atualizam automaticamente os dados exibidos no relatório.
 
-## Campos de Pop-Pop de Dados de Sobreposição de Característica para Traço Definidos {#field-definitions}
+## Campos de Pop de Dados de Sobreposição de Caracteres a Características Definidos {#field-definitions}
 
 Descreve as métricas exibidas na janela pop-up quando você clica em um ponto de dados individual.
 
@@ -61,7 +61,7 @@ r_t2t_data_pop.xml
 
  -->
 
-O pop-up do [!UICONTROL Trait-to-Trait Overlap] relatório contém as métricas abaixo. Observe que a métrica de únicos na tabela representa seus usuários *em tempo* real.
+O pop-up do relatório [!UICONTROL Trait-to-Trait Overlap] contém as métricas abaixo. Observe que a métrica de únicos na tabela representa seus *usuários em tempo real*.
 
 <table id="table_A2A0CFC47C1A404994B82E6630E711A2"> 
  <thead> 
