@@ -21,7 +21,7 @@ ht-degree: 10%
 
 <!-- inbound-file-compression.xml -->
 
-O Audience Manager suporta compactação gzip (`.gz`) para transferências de dados assíncronas e de entrada.
+O Audience Manager oferece suporte à compactação gzip (`.gz`) para transferências de dados assíncronas e de entrada.
 
 O Audience Manager também suporta arquivos descompactados.
 
@@ -29,19 +29,19 @@ O Audience Manager também suporta arquivos descompactados.
 >
 >Não oferecemos suporte à criptografia em arquivos de entrada compactados usando gzip (`.gz`).
 >
->Para criptografar e compactar arquivos de entrada, use a criptografia [](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)PGP. [!DNL PGP] a criptografia inclui compactação de arquivo.
+>Para criptografar e compactar arquivos de entrada, use [criptografia PGP](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md). [!DNL PGP] a criptografia inclui compactação de arquivo.
 
 ## Compactação Amazon S3
 
-Para o delivery [!DNL Amazon S3], você deve usar `.gz` ou descompactar arquivos. Os arquivos compactados devem ter 1 GB ou menos. Se os arquivos forem maiores, discuta o arquivo e o processo de transferência com o Atendimento ao cliente. Embora [!DNL Audience Manager] possa lidar com arquivos muito grandes, pode haver maneiras de reduzir o tamanho do arquivo ou tornar a transferência de dados mais eficiente.
+Para o delivery para [!DNL Amazon S3], você deve usar `.gz` ou arquivos descompactados. Os arquivos compactados devem ter 1 GB ou menos. Se os arquivos forem maiores, discuta o arquivo e o processo de transferência com o Atendimento ao cliente. Embora [!DNL Audience Manager] possa lidar com arquivos muito grandes, pode haver maneiras de reduzir o tamanho do arquivo ou tornar a transferência de dados mais eficiente.
 
 >[!IMPORTANT]
 >
->Seu [!DNL FTP] cliente deve usar o modo binário para transferir arquivos compactados ou criptografados. Os arquivos compactados ou criptografados enviados no [!DNL ASCII] modo corromperão o arquivo de transferência de dados.
+>Seu cliente [!DNL FTP] deve usar o modo binário para transferir arquivos compactados ou criptografados. Arquivos compactados ou criptografados enviados no modo [!DNL ASCII] corromperão o arquivo de transferência de dados.
 
 ## Práticas recomendadas
 
-* Os arquivos devem ser [!DNL .gzip] compactados (e ter uma extensão de [!DNL .gz] arquivo).
-* O tamanho máximo de arquivo compactado para um arquivo `.gz` compactado é de 1 GB.
+* Os arquivos devem ser compactados [!DNL .gzip] (e ter uma extensão de arquivo [!DNL .gz]).
+* O tamanho máximo de arquivo compactado para um arquivo compactado `.gz` é de 1 GB.
 * Os tamanhos de divisão ideais, para o processamento mais rápido/anterior dos arquivos, são de aproximadamente 1 GB descompactados ou 200 a 300 MB compactados.
 * [!DNL Amazon S3] impõe seu próprio limite de tamanho de arquivo de 5 GB em arquivos carregados.
