@@ -17,11 +17,11 @@ ht-degree: 4%
 
 # CID substitui DPID e DPUUID{#cid-replaces-dpid-and-dpuuid}
 
-Atualize seu código para usar `d_cid` ou `d_cid_ic` em vez de `d_dpid` e `d_dpuuid`. As variáveis DPID e DPUUID continuarão funcionando, mas você deve considerá-las obsoletas. Isso inclui variantes DPID e DPUUID sem o `d_ prefix`.
+Atualize seu código para usar `d_cid` ou `d_cid_ic` em vez de `d_dpid` e `d_dpuuid`. As variáveis DPID e DPUUID continuarão funcionando, mas você deve considerá-las obsoletas. Isso inclui variantes DPID e DPUUID sem `d_ prefix`.
 
 ## DPID e DPUUID: Uma revisão {#dpid-dpuuid-review}
 
-A DPID e a DPUUID são pares de valores chave que contêm uma ID de provedor de dados e uma ID de usuário. Esses valores-chave emparelham as IDs do provedor de link com as IDs do usuário. Eles enviam dados durante chamadas de evento, para eventos de sincronização de entrada e para chamadas de ID. Sem eles, [!DNL Audience Manager]e outros serviços ou recursos, não haveria uma forma de corresponder e sincronizar IDs. Essas variáveis às vezes são expressas com ou sem o `d_` prefixo, conforme mostrado abaixo. Note, in the code, *italics* indicates a variable placeholder.
+A DPID e a DPUUID são pares de valores chave que contêm uma ID de provedor de dados e uma ID de usuário. Esses valores-chave emparelham as IDs do provedor de link com as IDs do usuário. Eles enviam dados durante chamadas de evento, para eventos de sincronização de entrada e para chamadas de ID. Sem eles, [!DNL Audience Manager] e outros serviços ou recursos, não teriam uma forma de corresponder e sincronizar IDs. Essas variáveis às vezes são expressas com ou sem o prefixo `d_`, conforme mostrado abaixo. Observação: no código, *italics* indica um espaço reservado variável.
 
 <table id="table_932B4416AE1E44E4A1E98D779D3B1ED5"> 
  <thead> 
@@ -52,14 +52,14 @@ A DPID e a DPUUID são pares de valores chave que contêm uma ID de provedor de 
 
 Esses pares de valor chave ainda funcionam, mas estão obsoletos. Você deve atualizar seu código para usar CID ou CID_IC.
 
-## CID e CID_IC: About {#cid-cidic-about}
+## CID e CID_IC: Sobre {#cid-cidic-about}
 
 Os pares de valores chave CID e CID_IC substituem DPID e DPUUID. Elas fornecem as mesmas funções que a DPID e a DPUUID, mas são mais eficientes porque incluem a ID do provedor de dados (ou código de integração) e a ID do usuário em um único par de valores chave. Em cada par de valor chave:
 
 * O símbolo = separa a chave de seus valores relacionados.
 * O caractere ASCII não imprimível %01 separa os valores.
 
-`d_cid` e `d_cid_ic` use a sintaxe mostrada abaixo. Note, in the code, *italics* indicates a variable placeholder.
+`d_cid` e  `d_cid_ic` use a sintaxe mostrada abaixo. Observação: no código, *italics* indica um espaço reservado variável.
 
 <table id="table_0C8A4F8FDBC84416B4EB476F67BCFA8E"> 
  <thead> 
@@ -75,16 +75,16 @@ Os pares de valores chave CID e CID_IC substituem DPID e DPUUID. Elas fornecem a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Código de integração da ID do cliente (CID_IC) </p> </td> 
-   <td colname="col2"> <p> <code>d_cid_ic=<i>integration code</i>%01<i>user ID</i></code> </p> <p> Um código <span class="term"> de</span> integração é uma ID alternativa que você pode usar em vez da ID da fonte de dados, atribuída por <span class="keyword"> Audience Manager</span>. Consulte <a href="../features/manage-datasources.md#create-data-source"> Criar uma fonte</a> de dados se precisar configurar um código de integração. </p> </td> 
+   <td colname="col2"> <p> <code>d_cid_ic=<i>integration code</i>%01<i>user ID</i></code> </p> <p> Um <span class="term"> código de integração</span> é uma ID alternativa que você pode usar em vez da ID da Fonte de Dados, atribuída por <span class="keyword"> Audience Manager</span>. Consulte <a href="../features/manage-datasources.md#create-data-source"> Criar uma fonte de dados</a> se precisar configurar um código de integração. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Consulte também Variáveis de [URL e Sintaxe para IDs](../features/declared-ids.md#variables-and-syntax)declaradas.
+Consulte também, [Variáveis de URL e Sintaxe para IDs declaradas](../features/declared-ids.md#variables-and-syntax).
 
 >[!NOTE]
 >
->Você pode usar códigos de integração para suas próprias fontes de dados e para fontes [de dados](../features/datasources-list-and-settings.md#settings-menu-options)compartilhadas globais, às quais você tem acesso. Por exemplo, você pode usar códigos de integração ao trabalhar com fontes de dados de identificadores móveis. Use os seguintes códigos de integração, exatamente como especificado abaixo:
+>Você pode usar códigos de integração para suas próprias fontes de dados e para [fontes de dados compartilhadas](../features/datasources-list-and-settings.md#settings-menu-options) globais, às quais você tem acesso. Por exemplo, você pode usar códigos de integração ao trabalhar com fontes de dados de identificadores móveis. Use os seguintes códigos de integração, exatamente como especificado abaixo:
 
 * **DSID_20914** para GAID, representando dispositivos que executam o sistema operacional Android.
 * **DSID_20915** para IDFA, representando dispositivos que executam o sistema operacional iOS.
@@ -128,7 +128,7 @@ A tabela a seguir fornece exemplos por tipo de evento.
  </tbody> 
 </table>
 
-Cada chamada também pode incluir vários pares de valores `d_cid` e `d_cid_ic` chaves como:
+Cada chamada também pode incluir vários pares de valores chave `d_cid` e `d_cid_ic` como este:
 
 ```
 ...?d_cid=123%01456&d_cid=123%01789&d_cid_ic=543%01333...
@@ -150,11 +150,11 @@ Cada chamada também pode incluir vários pares de valores `d_cid` e `d_cid_ic` 
      <ul id="ul_66DCB63C60914057B2BE21F49D9A36CA"> 
       <li id="li_6D82B4DB40BB4BB0B8FAF5841577FAAC"><code> user ID</code> <code> (dpuuid)</code> </li> 
       <li id="li_D2F94B07B0D84B09A5CDFA48518DDD62"><code> integration code</code> </li> 
-     </ul> </p> <p> <p>Observação: É necessário codificar a ID do usuário e o código de integração em URL <i>antes</i> de concatená-los em uma string. Isso ocorre porque o caractere ASCII %01 que separa as duas variáveis não deve ser capturado na codificação do URL. </p> </p> <p>A codificação de URL garante que as IDs de usuário e os códigos de integração que contêm caracteres reservados ou não seguros, como, mas não limitados a, + ou =, sejam transmitidos corretamente para nossos servidores. </p> <p>Use a tabela <a href="https://www.w3schools.com/tags/ref_urlencode.asp" format="https" scope="external"> de codificação</a> ASCII para referência. </p> </td> 
+     </ul> </p> <p> <p>Observação: Você deve codificar a ID do usuário e o código de integração <i>antes de</i> concatená-los em uma string. Isso ocorre porque o caractere ASCII %01 que separa as duas variáveis não deve ser capturado na codificação do URL. </p> </p> <p>A codificação de URL garante que as IDs de usuário e os códigos de integração que contêm caracteres reservados ou não seguros, como, mas não limitados a, + ou =, sejam transmitidos corretamente para nossos servidores. </p> <p>Use a <a href="https://www.w3schools.com/tags/ref_urlencode.asp" format="https" scope="external"> tabela de codificação ASCII</a> para referência. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Uso de códigos de integração para fontes de dados compartilhadas globais </p> </td> 
-   <td colname="col2"> <p>Você pode usar códigos de integração para suas próprias fontes de dados e para fontes <a href="../features/datasources-list-and-settings.md#settings-menu-options"> de dados globais</a>compartilhadas, às quais você tem acesso. Por exemplo, você pode usar códigos de integração ao trabalhar com fontes de dados de identificadores móveis. Use os seguintes códigos de integração, exatamente como especificado abaixo: </p> <p> 
+   <td colname="col2"> <p>Você pode usar códigos de integração para suas próprias fontes de dados e para <a href="../features/datasources-list-and-settings.md#settings-menu-options"> fontes de dados compartilhadas globais</a>, às quais você tem acesso. Por exemplo, você pode usar códigos de integração ao trabalhar com fontes de dados de identificadores móveis. Use os seguintes códigos de integração, exatamente como especificado abaixo: </p> <p> 
      <ul id="ul_B306EE96A3BD4CE982E113D5E23826CF"> 
       <li id="li_3340C7AFA9AB4105A2CCF3E476EC7552"> <b>DSID_20914</b> para GAID, representando dispositivos que executam o sistema operacional Android. </li> 
       <li id="li_779D9F08021043FCB233A0ABF5160C76"> <b>DSID_20915</b> para IDFA, representando dispositivos que executam o sistema operacional iOS. </li> 
