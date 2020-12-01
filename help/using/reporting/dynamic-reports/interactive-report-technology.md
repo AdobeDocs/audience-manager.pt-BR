@@ -27,7 +27,7 @@ c_report_technology.xml
 
 ## Relatórios interativos usam a tecnologia Tableau
 
-[!DNL Audience Manager] usa o software [Tableau](https://www.tableausoftware.com/) para exibir dados nos relatórios interativos. Com [!DNL Tableau], os [!UICONTROL Delivery and Overlap] relatórios usam dicas visuais e símbolos que ajudam a:
+[!DNL Audience Manager] usa o  [](https://www.tableausoftware.com/) Tableausoftware para exibir dados nos relatórios interativos. Com [!DNL Tableau], os relatórios [!UICONTROL Delivery and Overlap] usam dicas visuais e símbolos que ajudam a:
 
 * Encontre características de alto e baixo desempenho.
 * Características especiais e segmentos com sobreposição de visitante único baixa e alta.
@@ -72,8 +72,8 @@ A tabela a seguir define as formas, os tamanhos e as cores usadas nos relatório
    <td colname="col1"> <b>Cores</b> </td> 
    <td colname="col2"> 
     <ul id="ul_F5D243297F0C4E5A8EDCBD28A548869E"> 
-     <li id="li_332EB873A35440E6BB6093E36A0FAC3D">Os tons vermelhos indicam <i>baixa</i> sobreposição. </li> 
-     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">Os tons verdes indicam <i>alta</i> sobreposição. </li> 
+     <li id="li_332EB873A35440E6BB6093E36A0FAC3D">Os tons vermelhos indicam <i>low</i> sobreposição. </li> 
+     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">Os tons verdes indicam <i>high</i> sobreposição. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
