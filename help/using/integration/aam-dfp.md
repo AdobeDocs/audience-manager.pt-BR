@@ -15,8 +15,8 @@ ht-degree: 0%
 ---
 
 
-# Google Ad Manager (antigo DFP) como um destino de Audience Manager {#dfp-as-an-audience-manager-destination}
+# Google Ad Manager (antigo DFP) como um Destino de Audience Manager {#dfp-as-an-audience-manager-destination}
 
 Configure [!DNL Google Ad Manager] como destino e envie dados de segmento de Audience Manager para essa plataforma.
 
-A documentação desta seção descreveu o método desatualizado de integração com [!DNL Google Ad Manager] e foi removida. Para obter [!DNL Google Ad Manager] integrações, consulte [Integrar o Google Ad Manager usando o Google Publisher Tags (GPT)](../integration/gpt-aam-destination/gpt-aam-requirements.md).
+A documentação nesta seção descreveu o método desatualizado de integração com [!DNL Google Ad Manager] e foi removida. Para obter mais informações sobre as integrações [!DNL Google Ad Manager], consulte [Integrar o Google Ad Manager usando o Google Publisher Tags (GPT)](../integration/gpt-aam-destination/gpt-aam-requirements.md).
