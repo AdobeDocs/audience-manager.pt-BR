@@ -26,7 +26,7 @@ O Audience Manager assimila dados de cookies e de IDs de dispositivos móveis do
 
 ### Especificações de integração
 
-Os Arquivos de Dados de Entrada recebidos da Oracle Data Cloud diferem da sintaxe padrão de nome de arquivo de entrada descrita em [Amazon S3 Name and File Size Requirements for Inbound Data Files](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) and from the default input file content sintaxe descrita em Conteúdo de Arquivo de Dados de [Entrada: Sintaxe, caracteres inválidos, variáveis e exemplos](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md).
+Os arquivos de dados de entrada recebidos da Oracle Data Cloud diferem da sintaxe de nome de arquivo de entrada padrão descrita em [Requisitos de nome e tamanho de arquivo do Amazon S3 para arquivos de dados de entrada](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) e da sintaxe de conteúdo de arquivo de entrada padrão descrita em [Conteúdo de arquivo de dados de entrada: Sintaxe, caracteres inválidos, variáveis e exemplos](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md).
 
 Os elementos destacados abaixo são obrigatórios, além dos campos de implementação padrão para arquivos de dados de entrada. Para obter descrições de todos os outros campos padrão e elementos de nome de arquivo, consulte Sintaxe de nome de arquivo e Sintaxe de conteúdo de arquivo nas duas páginas vinculadas acima.
 
@@ -36,7 +36,7 @@ Os nomes de arquivos ODC são estruturados como:
 
 `ftp_dpm_`**`odc`**`_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
 
-O elemento de nome de `odc` arquivo identifica o arquivo como sendo importado da Oracle Data Cloud e instrui o validador de arquivo de entrada do Audience Manager a processá-lo como tal.
+O elemento `odc` de nome de arquivo identifica o arquivo como sendo importado da Oracle Data Cloud e instrui o validador de arquivo de entrada do Audience Manager para processá-lo como tal.
 
 ### Conteúdo do arquivo
 
@@ -55,4 +55,4 @@ O `ID type` pode ser:
 
 ## Exemplo de arquivo de entrada ODC
 
-Baixe o arquivo [de](/help/using/integration/assets/ftp_dpm_odc_12345_1556223815.sync)amostra. Esse arquivo qualifica vários IDFAs para a ID de característica 38838. Você pode abrir esse arquivo em um editor de texto padrão ou editor de código.
+Baixe o arquivo de amostra [](/help/using/integration/assets/ftp_dpm_odc_12345_1556223815.sync). Esse arquivo qualifica vários IDFAs para a ID de característica 38838. Você pode abrir esse arquivo em um editor de texto padrão ou editor de código.
