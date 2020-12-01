@@ -17,27 +17,27 @@ ht-degree: 3%
 
 # Sobreposição da unidade de anúncio{#ad-unit-overlap}
 
-O **[!UICONTROL Ad Unit Overlap]** relatório é exibido como um gráfico de calor que destaca sobreposições elevadas e baixas entre as suas Unidades de publicidade.
+O relatório **[!UICONTROL Ad Unit Overlap]** é exibido como um gráfico de calor que destaca sobreposições elevadas e baixas entre as suas Unidades de publicidade.
 
 ## Caso de uso {#use-cases}
 
-Com o **[!UICONTROL Ad Unit Overlap]** relatório, você pode obter informações sobre onde sua audiência se sobrepõe nas propriedades da Web. O relatório considera suas 100 principais propriedades relacionadas e mostra a sobreposição entre elas.
+Com o relatório **[!UICONTROL Ad Unit Overlap]**, você pode obter informações sobre onde sua audiência se sobrepõe nas propriedades da Web. O relatório considera suas 100 principais propriedades relacionadas e mostra a sobreposição entre elas.
 
-## Uso do relatório de sobreposição da unidade de publicidade {#using-the-report}
+## Usando o Relatório de sobreposição da unidade de publicidade {#using-the-report}
 
-Use os controles **[!UICONTROL Top N Base Ad Units]** e **[!UICONTROL Top N Overlapping Ad Units]** para selecionar o número desejado de unidades de publicidade para a sobreposição. Você pode selecionar um número máximo de 100 itens para cada um.
+Use os controles **[!UICONTROL Top N Base Ad Units]** e **[!UICONTROL Top N Overlapping Ad Units]** para selecionar o número desejado de unidades de anúncio para a sobreposição. Você pode selecionar um número máximo de 100 itens para cada um.
 
-Use os controles Intervalo **de** dias e Intervalo de **datas até** para ajustar o intervalo de retrospectiva. Observe que os períodos de retrospectiva de 7 e 30 dias só estão disponíveis para datas de domingo.
+Use os controles **Intervalo de dias** e **Data até** para ajustar o intervalo de retrospectiva. Observe que os períodos de retrospectiva de 7 e 30 dias só estão disponíveis para datas de domingo.
 
-Use os controles **[!UICONTROL Base Ad Unit]** e **[!UICONTROL Overlap Ad Unit]** para selecionar qual de suas unidades de publicidade você deseja exibir no relatório de sobreposição.
+Use os controles **[!UICONTROL Base Ad Unit]** e **[!UICONTROL Overlap Ad Unit]** para selecionar quais de suas unidades de publicidade você deseja exibir no relatório de sobreposição.
 
 >[!IMPORTANT]
 >
->Ao ativar [!UICONTROL Audience Optimization for Publishers], você deve incluir metadados descritivos para [!UICONTROL Ad Unit IDs], conforme descrito na Etapa 3 de [Importar arquivos de dados do Google Ad Manager (antigo DFP) para o Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ao fazer isso, você garante que o relatório detalhe a propriedade da Web como [!UICONTROL Ad Unit] não como [!UICONTROL Ad Unit ID].
+>Ao ativar [!UICONTROL Audience Optimization for Publishers], você deve incluir metadados descritivos para [!UICONTROL Ad Unit IDs], conforme descrito na Etapa 3 de [Importar arquivos de dados do Google Ad Manager (antigo DFP) para Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ao fazer isso, você garante que o relatório detalhe a propriedade da Web como [!UICONTROL Ad Unit] em vez de [!UICONTROL Ad Unit ID].
 
 ## Interpretação dos resultados {#interpreting-results}
 
-O seu [!UICONTROL Ad Unit Overlap] relatório pode ser semelhante ao que se segue. Passe o mouse sobre qualquer célula para obter mais informações sobre essa sobreposição específica. Consulte descrições para obter as informações adicionais na tabela abaixo do relatório de amostra.
+Seu relatório [!UICONTROL Ad Unit Overlap] pode ser semelhante ao apresentado abaixo. Passe o mouse sobre qualquer célula para obter mais informações sobre essa sobreposição específica. Consulte descrições para obter as informações adicionais na tabela abaixo do relatório de amostra.
 
 ![](assets/publisher_ad_unit_overlap.png)
 
@@ -67,11 +67,11 @@ O seu [!UICONTROL Ad Unit Overlap] relatório pode ser semelhante ao que se segu
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Contagem exclusiva de sobreposição</span> </p> </td> 
-   <td colname="col2"> <p>A sobreposição entre os usuários que visitaram uma unidade <span class="wintitle"> de anúncios base e uma unidade</span> de anúncios <span class="wintitle"></span>sobreposta. </p> </td> 
+   <td colname="col2"> <p>A sobreposição entre os usuários que visitaram uma <span class="wintitle"> Unidade de anúncios base</span> e <span class="wintitle"> Unidade de publicidade sobreposta</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Porcentagem de sobreposição</span> </p> </td> 
-   <td colname="col2"> <p>A sobreposição entre os usuários que visitaram uma unidade <span class="wintitle"> de anúncios base e uma unidade</span> de anúncios <span class="wintitle"></span>sobreposta. Esta é a Contagem <span class="wintitle"> Únicos de Sobreposição, expressa como uma porcentagem da Unidade</span>de anúncio <span class="wintitle"></span>base. </p> </td> 
+   <td colname="col2"> <p>A sobreposição entre os usuários que visitaram uma <span class="wintitle"> Unidade de anúncios base</span> e <span class="wintitle"> Unidade de publicidade sobreposta</span>. Esta é a <span class="wintitle"> Contagem exclusiva de sobreposição</span>, expressa como uma porcentagem da <span class="wintitle"> Unidade de anúncio base</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
