@@ -21,7 +21,7 @@ Métodos que permitem trabalhar programaticamente com características.
 
 >[!IMPORTANT]
 >
->Os [!DNL API] [!DNL Swagger] métodos de características foram regravados e migrados. Consulte:
+>Os métodos características [!DNL API] foram regravados com [!DNL Swagger] e migrados. Consulte:
 >
 >* [Documentos da API do Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migração de código API do Audience Manager](../../api/api-swagger-migration.md)
