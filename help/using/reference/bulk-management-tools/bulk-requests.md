@@ -27,13 +27,13 @@ t_bulk_requests.xml
 
 >[!NOTE]
 >
->[As permissões](../../features/administration/administration-overview.md) de grupo RBAC atribuídas na [!DNL Audience Manager] interface do usuário são respeitadas na [!UICONTROL Bulk Management Tools].
+>[As ](../../features/administration/administration-overview.md) permissões do grupo RBAC atribuídas na  [!DNL Audience Manager] interface do usuário são respeitadas no  [!UICONTROL Bulk Management Tools].
 
-A [!UICONTROL Request] planilha não tem seu próprio conjunto de cabeçalhos de coluna e você não precisa copiar IDs para nenhuma das colunas. Em vez disso, retorna dados com base no botão de ação que você clica na barra de ferramentas. Além disso, um recurso de relatórios opcional retorna uma contagem de frequência para disparos de pixels e contagem de usuários única para vários intervalos de tempo fixos.
+A planilha [!UICONTROL Request] não tem seu próprio conjunto de cabeçalhos de coluna e você não precisa copiar IDs para nenhuma das colunas. Em vez disso, retorna dados com base no botão de ação que você clica na barra de ferramentas. Além disso, um recurso de relatórios opcional retorna uma contagem de frequência para disparos de pixels e contagem de usuários única para vários intervalos de tempo fixos.
 
-Para fazer solicitações em massa, abra a [!UICONTROL Bulk Management Tools] planilha e:
+Para fazer solicitações em massa, abra a planilha [!UICONTROL Bulk Management Tools] e:
 
-1. Click the **[!UICONTROL Request]** tab.
+1. Clique na guia **[!UICONTROL Request]**.
 2. Na barra de ferramentas na parte superior da planilha, clique em um botão de solicitação correspondente aos dados com os quais você deseja trabalhar. Você pode solicitar:
 
    * Modelos algorítmicos
@@ -44,10 +44,10 @@ Para fazer solicitações em massa, abra a [!UICONTROL Bulk Management Tools] pl
    * Segmentos 
    * IDs de pasta de características e segmentos
 
-   A [!DNL Audience Manager] API grava dados em massa de volta à [!UICONTROL Request] planilha.
+   A API [!DNL Audience Manager] grava dados em massa de volta à planilha [!UICONTROL Request].
 
 >[!NOTE]
 >
->Em seus resultados, as colunas `createTime` e `updateTime` os dados retornam em notação exponencial. Os carimbos de data/hora subjacentes são registrados na hora UNIX UTC. Atualmente, a planilha não pode retornar carimbos de data/hora em um formato legível.
+>Em seus resultados, as colunas `createTime` e `updateTime` retornam dados em notação exponencial. Os carimbos de data/hora subjacentes são registrados na hora UNIX UTC. Atualmente, a planilha não pode retornar carimbos de data/hora em um formato legível.
 
-Se sua atualização em massa retornar um erro ou falhar, consulte [Solução de problemas para ferramentas](../../reference/bulk-management-tools/bulk-troubleshooting.md)de gerenciamento em massa.
+Se sua atualização em massa retornar um erro ou falhar, consulte [Solução de problemas para ferramentas de gerenciamento em massa](../../reference/bulk-management-tools/bulk-troubleshooting.md).
