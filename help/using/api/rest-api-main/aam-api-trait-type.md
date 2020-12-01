@@ -23,13 +23,13 @@ Métodos opcionais que permitem atribuir características a um tipo ou categoria
 
 >[!NOTE]
 >
->Métodos de tipo de característica não atribuem características a categorias usadas pela taxonomia [comum](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods). Pense nisso como rótulos separados da taxonomia comum.
+>Métodos de tipo de característica não atribuem características a categorias usadas pela [taxonomia comum](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods). Pense nisso como rótulos separados da taxonomia comum.
 
-Para referência visual, [!UICONTROL Trait Types] é um controle suspenso localizado na [!DNL UI] parte em **[!UICONTROL Traits > Create new trait > Basic Information]**.
+Para referência visual, [!UICONTROL Trait Types] é um controle suspenso localizado em [!DNL UI] em **[!UICONTROL Traits > Create new trait > Basic Information]**.
 
 ## Criar um novo tipo de característica {#create-trait-type}
 
-Um `POST` método que permite criar um novo tipo de característica.
+Um método `POST` que permite criar um novo tipo de característica.
 
 <!-- r_rest_api_create_trait_type.xml -->
 
@@ -62,7 +62,7 @@ Um `POST` método que permite criar um novo tipo de característica.
 
 ## Propriedades de retorno para um tipo de característica {#return-props}
 
-Um `GET` método que retorna detalhes sobre o tipo de característica especificado.
+Um método `GET` que retorna detalhes sobre o tipo de característica especificado.
 
 <!-- r_rest_api_get_trait_type.xml -->
 
@@ -87,7 +87,7 @@ Um `GET` método que retorna detalhes sobre o tipo de característica especifica
 
 ## Propriedades de retorno para todos os tipos de características {#return-props-all}
 
-Um `GET` método que retorna detalhes sobre todos os seus tipos de características em um storage.
+Um método `GET` que retorna detalhes sobre todos os seus tipos de características em um storage.
 
 <!-- r_rest_api_get_trait_types.xml -->
 
