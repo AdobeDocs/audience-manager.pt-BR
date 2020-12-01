@@ -25,31 +25,31 @@ Compare as tendências e o volume de suas métricas selecionadas para obter uma 
 
 ## Caso de uso {#use-cases}
 
-Use o [!UICONTROL Segment Trend] relatório para validar o desempenho de um segmento ao longo do tempo e para identificar as tendências com base no alto desempenho ou na escala.
+Use o relatório [!UICONTROL Segment Trend] para validar o desempenho de um segmento ao longo do tempo e para identificar as tendências com base no alto desempenho ou na escala.
 
-Com esse relatório, você pode entender quais de suas propriedades da Web mostram um aumento ou falha e solucionar problemas, conforme necessário. Este relatório é o próximo passo após identificar sua audiência de interesse no [!UICONTROL Segment Performance] [!UICONTROL Segment Performance] relatório, para garantir que o desempenho forte ou ruim que você viu na guia seja consistente ao longo do tempo.
+Com esse relatório, você pode entender quais de suas propriedades da Web mostram um aumento ou falha e solucionar problemas, conforme necessário. Este relatório é o próximo passo após identificar sua audiência de interesse no relatório [!UICONTROL Segment Performance], para garantir que o desempenho forte ou ruim que você viu na guia [!UICONTROL Segment Performance] seja consistente ao longo do tempo.
 
 ## Usando o relatório de tendência do segmento {#using-the-report}
 
-Alterne entre **[!UICONTROL Mapped]** e **[!UICONTROL Unmapped]** para selecionar segmentos que estão mapeados para um destino ou não. Selecione **[!UICONTROL All]** para incluir todos os seus segmentos no relatório.
+Alterne entre **[!UICONTROL Mapped]** e **[!UICONTROL Unmapped]** para selecionar segmentos mapeados ou não para um destino. Selecione **[!UICONTROL All]** para incluir todos os seus segmentos no relatório.
 
-Ajuste a janela de olhar para trás com o **[!UICONTROL Date Through]** controle deslizante.
+Ajuste a janela de retrospectiva com o controle deslizante **[!UICONTROL Date Through]**.
 
-Clique em qualquer um dos segmentos sob o **[!UICONTROL Date Through]** controle deslizante para exibir a opção de manter somente esse segmento no relatório ou excluí-lo.
+Clique em qualquer um dos segmentos no controle deslizante **[!UICONTROL Date Through]** para exibir a opção de manter somente esse segmento no relatório ou excluí-lo.
 
-Use a caixa **[!UICONTROL Line Item]** suspensa para selecionar as propriedades no seu portfólio para as quais deseja retornar informações.
+Use a caixa suspensa **[!UICONTROL Line Item]** para selecionar as propriedades em seu portfólio para as quais deseja retornar informações.
 
-Na caixa **[!UICONTROL Segment Data Source]** suspensa, selecione as fontes de dados que contêm os segmentos que você deseja ver no relatório.
+Na caixa suspensa **[!UICONTROL Segment Data Source]**, selecione as fontes de dados que contêm os segmentos que você deseja ver no relatório.
 
-Use a caixa **[!UICONTROL Segment]** suspensa para selecionar quais segmentos você deseja ver no relatório.
+Use a caixa suspensa **[!UICONTROL Segment]** para selecionar quais segmentos você deseja ver no relatório.
 
 >[!IMPORTANT]
 >
->Ao ativar [!UICONTROL Audience Optimization for Publishers], você deve incluir metadados descritivos para [!UICONTROL Line Item] IDs, conforme descrito na Etapa 3 de [Importar arquivos de dados do Google Ad Manager (antigo DFP) para o Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ao fazer isso, você garante que o relatório detalhe a propriedade da Web [!UICONTROL Line Item] em vez da [!UICONTROL Line Item] ID.
+>Ao ativar [!UICONTROL Audience Optimization for Publishers], você deve incluir metadados descritivos para [!UICONTROL Line Item] IDs, conforme descrito na Etapa 3 de [Importar arquivos de dados do Google Ad Manager (antigo DFP) para Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ao fazer isso, você garante que o relatório detalhe a propriedade da Web como [!UICONTROL Line Item] em vez da ID [!UICONTROL Line Item].
 
 ## Interpretação dos resultados {#interpreting-results}
 
-O [!UICONTROL Segment Trend] relatório retorna os dados em um gráfico de linhas somente para um intervalo de 14 dias. Neste exemplo, o relatório mostra impressões e tendências de click-through para um conjunto de segmentos mapeados e não mapeados.
+O relatório [!UICONTROL Segment Trend] retorna dados em um gráfico de linha somente para um intervalo de 14 dias. Neste exemplo, o relatório mostra impressões e tendências de click-through para um conjunto de segmentos mapeados e não mapeados.
 
 Passe o cursor do mouse sobre qualquer linha para obter mais informações sobre essa tendência de segmento específica. Consulte descrições para obter as informações adicionais na tabela abaixo do relatório de amostra.
 
