@@ -62,7 +62,7 @@ Processos que ajudam a manter as informações pessoais seguras. Para obter mais
 
 Processos que ajudam a proteger dados de propriedade de clientes individuais.
 
-**Particionamento de dados de características:**  Seus dados ([!UICONTROL traits], IDs etc.) são particionados pelo cliente. Isso ajuda a evitar a exposição acidental às informações entre clientes diferentes. Por exemplo, os dados de características em cookies são particionados pelo cliente e armazenados em um subdomínio específico do cliente. Eles não podem ser lidos ou usados acidentalmente por outro cliente do Audience Manager. Além disso, os dados de características armazenados no [!UICONTROL Profile Cache Servers (PCS)] também são particionados pelo cliente. Isso evita que outros clientes usem acidentalmente seus dados em uma chamada de evento ou outra solicitação.
+**Particionamento de dados de características:**  seus dados ([!UICONTROL traits]IDs, etc.) são particionados pelo cliente. Isso ajuda a evitar a exposição acidental às informações entre clientes diferentes. Por exemplo, os dados de características em cookies são particionados pelo cliente e armazenados em um subdomínio específico do cliente. Eles não podem ser lidos ou usados acidentalmente por outro cliente do Audience Manager. Além disso, os dados de características armazenados no [!UICONTROL Profile Cache Servers (PCS)] também são particionados pelo cliente. Isso evita que outros clientes usem acidentalmente seus dados em uma chamada de evento ou outra solicitação.
 
 **Particionamento de dados em relatórios:** As IDs do cliente fazem parte da chave de identificação em todas as tabelas de relatórios e os queries de relatório são filtrados pela ID. Isso ajuda a impedir que seus dados apareçam nos relatórios de outro cliente do Audience Manager.
 
@@ -74,7 +74,7 @@ Ambos os métodos são projetados tendo em mente a segurança dos dados de clien
 
 **SFTP:** Para a opção SFTP, a maioria dos clientes opta por fornecer arquivos por meio do protocolo FTP seguro (SFTP), que usa o protocolo SSH (Secure Shell). Esse método garante que os arquivos sejam criptografados enquanto estiverem transitando entre os sistemas do cliente e o sistema da Adobe. Para cada cliente, criamos um local de caixa suspensa aprisionado em nossos servidores SFTP, que está vinculado a uma conta de usuário no sistema. Somente os usuários do sistema interno credenciados e privilegiados do cliente podem acessar esse local da caixa suspensa. Esta prisão nunca é acessível a outros clientes.
 
-**[!UICONTROL Amazon Web Services S3]via HTTPS:**Para a opção delivery S3, recomendamos que todos os clientes configurem seus clientes S3 para usar o método de criptografia HTTPS para transferências de arquivos (esse não é o padrão, portanto, ele deve estar configurado explicitamente). A opção HTTPS é compatível com a ferramenta de linha de comando s3cmd, bem como pelas bibliotecas S3 disponíveis em todas as principais linguagens de programação. Com essa opção HTTPS ativada, os dados do cliente são criptografados enquanto estão em trânsito para nossos sistemas. Para cada cliente, criamos um subdiretório S3 bucket separado que pode ser acessado somente pelas credenciais desse cliente e das de nossos usuários internos do sistema.
+**[!UICONTROL Amazon Web Services S3]via HTTPS:** Para a opção delivery S3, recomendamos que todos os clientes configurem seus clientes S3 para usar o método de criptografia HTTPS para transferências de arquivos (esse não é o padrão, portanto, ele deve estar configurado explicitamente). A opção HTTPS é compatível com a ferramenta de linha de comando s3cmd, bem como pelas bibliotecas S3 disponíveis em todas as principais linguagens de programação. Com essa opção HTTPS ativada, os dados do cliente são criptografados enquanto estão em trânsito para nossos sistemas. Para cada cliente, criamos um subdiretório S3 bucket separado que pode ser acessado somente pelas credenciais desse cliente e das de nossos usuários internos do sistema.
 
 Para adicionar criptografia PGP aos arquivos de dados, consulte [Criptografia PGP de arquivo para tipos de dados de entrada](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md).
 
@@ -92,6 +92,6 @@ Essa política melhora a segurança de dados entre clientes e servidores Adobe [
 
 ### Exemplo {#hsts-example}
 
-Let&#39;s say the `yourcompany.demdex.com` domain sends traffic to the [!DNL DCS] via [!DNL HTTP]. O [!DNL HSTS] atualiza as chamadas para usar [!DNL HTTPS], e todas as chamadas [!DNL DCS] subsequentes provenientes de `yourcompany.demdex.com` usarão [!DNL HTTPS] em vez de [!DNL HTTP].
+Digamos que o domínio `yourcompany.demdex.com` envie tráfego para [!DNL DCS] via [!DNL HTTP]. O [!DNL HSTS] atualiza as chamadas para usar [!DNL HTTPS], e todas as chamadas [!DNL DCS] subsequentes provenientes de `yourcompany.demdex.com` usarão [!DNL HTTPS] em vez de [!DNL HTTP].
 
 Consulte [HTTP Strict Transport Security - Wikipedia](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) para obter mais informações sobre HSTS.
