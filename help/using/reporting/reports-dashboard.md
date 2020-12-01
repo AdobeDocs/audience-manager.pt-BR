@@ -25,22 +25,22 @@ c_dashboard.xml
 
  -->
 
-[!DNL Audience Manager] usa [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]) para estender as permissões do grupo de usuários ao [!UICONTROL Dashboard]. Os usuários podem ver apenas informações sobre o painel que possuem permissões para a visualização. [!UICONTROL RBAC] permite controlar quais equipes internas de dados de relatórios são capazes de visualização.
+[!DNL Audience Manager] usa  [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]) para estender permissões de grupo de usuários ao  [!UICONTROL Dashboard]. Os usuários podem ver apenas informações sobre o painel que possuem permissões para a visualização. [!UICONTROL RBAC] permite controlar quais equipes internas de dados de relatórios são capazes de visualização.
 
 Por exemplo, uma agência que gerencia diferentes contas de anunciantes pode configurar permissões de grupo de usuários para que uma equipe que gerencia a conta do anunciante A não possa ver os dados de relatórios do anunciante B. Este painel pode ser usado para solucionar problemas de delivery de dados.
 
-Por exemplo, se você notar uma queda ou um pico, no total de usuários únicos com o detalhamento do tipo de usuário único (baseado em regras vs. a bordo), você terá um ponto de partida melhor para rastrear um potencial problema de delivery de dados. Se você notar uma queda no total de usuários únicos e em usuários únicos embarcados, poderá acessar o [!UICONTROL On-boarding Status] relatório para ver se houve um problema com um arquivo de entrada.
+Por exemplo, se você notar uma queda ou um pico, no total de usuários únicos com o detalhamento do tipo de usuário único (baseado em regras vs. a bordo), você terá um ponto de partida melhor para rastrear um potencial problema de delivery de dados. Se você notar uma queda no total de usuários únicos e em usuários únicos embarcados, poderá acessar o relatório [!UICONTROL On-boarding Status] para ver se houve um problema com um arquivo de entrada.
 
 **Para acessar o Painel:**
 
-1. In the top navigation menu, click **[!UICONTROL Dashboard]**.
-2. *Opcional* Selecione o período desejado na última data do relatórios na lista suspensa (7 Dias, 14 Dias (o padrão), 30 Dias ou 60 Dias).
+1. No menu de navegação superior, clique em **[!UICONTROL Dashboard]**.
+2. ** OpcionalSelecione o período desejado na última data do relatórios na lista suspensa (7 Dias, 14 Dias (o padrão), 30 Dias ou 60 Dias).
 
    Dependendo do período selecionado, a alteração delta nos painéis [!UICONTROL Largest Traits] > [!UICONTROL Most Changed Traits] e [!UICONTROL Largest Segments] > [!UICONTROL Most Changed Segments] exibe a alteração em visitantes únicos na audiência durante o período que termina hoje em vez do período anterior com o mesmo comprimento. Por exemplo, se você selecionar 7 Dias, o delta compara os visitantes únicos nos sete dias anteriores que terminaram hoje com os visitantes únicos nos sete dias anteriores.
 
    >[!NOTE]
    >
-   >Você pode investigar uma mudança delta que parece fora do comum ao executar um [!UICONTROL Trend] relatório. Por exemplo, se você vir uma alteração extraordinariamente grande do delta durante os últimos sete dias, você poderá executar um [!UICONTROL Trend] relatório dos últimos 14 dias (2 x 7) para entender melhor os números.
+   >Você pode investigar uma alteração delta que parece fora do comum ao executar um relatório [!UICONTROL Trend]. Por exemplo, se você vir uma alteração delta invulgarmente grande durante os últimos sete dias, poderá executar um relatório [!UICONTROL Trend] nos últimos 14 dias (2 x 7) para entender melhor os números.
 
    Dependendo das permissões do usuário conectado, os seguintes painéis são exibidos:
 
@@ -48,9 +48,9 @@ Por exemplo, se você notar uma queda ou um pico, no total de usuários únicos 
    * [Maiores características/Características mais alteradas](../reporting/reports-dashboard.md#largest-traits)
    * [Principais segmentos/segmentos mais alterados](../reporting/reports-dashboard.md#most-changed-segments)
 
-3. *Opcional* Clique **[!UICONTROL Normalize]** acima de qualquer gráfico para mostrar todos os dados na mesma escala. Você também pode passar o mouse sobre qualquer ponto de dados para ver mais informações.
+3. ** OpcionalClique  **[!UICONTROL Normalize]** acima de qualquer gráfico para mostrar todos os dados na mesma escala. Você também pode passar o mouse sobre qualquer ponto de dados para ver mais informações.
 
-## Parceiros únicos {#partner-uniques}
+## Uniques de Parceiro {#partner-uniques}
 
 Permissão necessária para a Visualização: [!UICONTROL View All Traits].
 
@@ -70,7 +70,7 @@ Permissão necessária para a Visualização: [!UICONTROL View Traits].
 
 Esse painel exibe o número de visitantes únicos capturados por várias características.
 
-Use a lista **[!UICONTROL Show]** suspensa para exibir informações sobre diferentes tipos de características: [!UICONTROL All Traits], [!UICONTROL Algorithmic], [!UICONTROL Onboarded]ou [!UICONTROL Rule-Based].
+Use a lista suspensa **[!UICONTROL Show]** para exibir informações sobre diferentes tipos de características: [!UICONTROL All Traits], [!UICONTROL Algorithmic], [!UICONTROL Onboarded] ou [!UICONTROL Rule-Based].
 
 Esse painel contém as seguintes guias:
 
