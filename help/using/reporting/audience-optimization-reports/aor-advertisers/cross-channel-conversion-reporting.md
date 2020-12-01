@@ -1,6 +1,6 @@
 ---
-description: A opção Conversão entre Canais nos relatórios de Otimização de Audiência permite que você atribua conversões offline a impressões ou cliques online oferecidos.
-seo-description: A opção Conversão entre Canais nos relatórios de Otimização de Audiência permite que você atribua conversões offline a impressões ou cliques online oferecidos.
+description: A opção Conversão entre Canais nos relatórios Audience Optimization permite atribuir conversões offline a impressões ou cliques online.
+seo-description: A opção Conversão entre Canais nos relatórios Audience Optimization permite atribuir conversões offline a impressões ou cliques online.
 seo-title: Conversão entre canais
 solution: Audience Manager
 title: Conversão entre canais
@@ -17,13 +17,13 @@ ht-degree: 4%
 
 # Conversão entre canais{#cross-channel-conversion}
 
-A opção Conversão entre Canais nos relatórios de Otimização de Audiência permite que você atribua conversões offline a impressões ou cliques online oferecidos.
+A opção Conversão entre Canais nos relatórios Audience Optimization permite atribuir conversões offline a impressões ou cliques online.
 
-Os [!UICONTROL Cross Channel Conversion] relatórios combinam os resultados da [!DNL Google Campaign Manager] plataforma com características [!DNL Audience Manager] de conversão. Isso permite vincular conversões offline a impressões ou cliques online.
+Os relatórios [!UICONTROL Cross Channel Conversion] combinam os resultados da plataforma [!DNL Google Campaign Manager] com as características de conversão [!DNL Audience Manager]. Isso permite vincular conversões offline a impressões ou cliques online.
 
-Você pode usar o [!UICONTROL Cross Channel Conversion] para os relatórios Desempenho [do](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) segmento e Frequência [](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md) ideal.
+Você pode usar [!UICONTROL Cross Channel Conversion] para os relatórios [Desempenho do segmento](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) e [Frequência ideal](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md).
 
-Para visualização dos [!UICONTROL Cross Channel Conversion] relatórios, selecione o **[!UICONTROL AAM + Ad Server Name]** item na lista **[!UICONTROL Platform]** suspensa.
+Para visualização nos relatórios [!UICONTROL Cross Channel Conversion], selecione o item **[!UICONTROL AAM + Ad Server Name]** na lista suspensa **[!UICONTROL Platform]**.
 
 A tabela a seguir lista considerações importantes ao configurar [!UICONTROL Cross Channel Conversion]:
 
@@ -37,11 +37,11 @@ A tabela a seguir lista considerações importantes ao configurar [!UICONTROL Cr
  <tbody> 
   <tr> 
    <td colname="col01"> <p>Número mínimo de características de conversão </p> </td> 
-   <td colname="col1"> <p>Pelo menos uma característica de conversão deve ser atribuída a uma fonte de dados para que os relatórios de Conversão <span class="wintitle"></span> entre Canais sejam executados. Consulte Informações <a href="../../../features/traits/create-onboarded-rule-based-traits.md"> básicas sobre características</a> para obter mais informações sobre características. </p> </td> 
+   <td colname="col1"> <p>Pelo menos uma característica de conversão deve ser atribuída a uma fonte de dados para que os relatórios <span class="wintitle"> Conversão de Canal cruzado</span> sejam executados. Consulte <a href="../../../features/traits/create-onboarded-rule-based-traits.md"> Informações básicas para Características</a> para obter mais informações sobre características. </p> </td> 
   </tr>
   <tr> 
    <td> <p>Janela de atribuição </p> </td> 
-   <td> <p> <b><span class="uicontrol"> A janela de atribuição do AAM+Google Campaign Manager</span></b> é de 14 dias, o que significa que somente as características de conversão exibidas nas últimas duas semanas são consideradas. </p> </td> 
+   <td> <p> <b><span class="uicontrol"> A janela de atribuição do AAM+Google Campaign </span></b> Manager é de 14 dias, o que significa que somente as características de conversão exibidas nas últimas duas semanas são consideradas. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Metodologia de último toque </p> </td> 
