@@ -23,12 +23,12 @@ Sua empresa pode desejar ofuscar o endereço IP em muitos países devido aos reg
 
 ### Metodologia de ofuscação de IP
 
-Seguindo os princípios de &quot;Privacidade por design&quot;, o Adobe Audience Manager permite que os clientes habilitem a ofuscação de IP da interface do usuário, globalmente em todas as regiões geográficas ou para países específicos. Quando você habilita essa configuração, o último octeto (a última parte) do endereço IP é imediatamente descartado quando o endereço IP é ingerido no Audience Manager. O Audience Manager descarta essa parte do endereço IP antes do processamento (inclusive antes de qualquer pesquisa geográfica ou registro opcional do endereço IP). Por exemplo:
+Seguindo os princípios de &quot;Privacidade por design&quot;, a Adobe Audience Manager permite que os clientes habilitem a ofuscação de IP da interface do usuário, globalmente em todas as regiões geográficas ou para países específicos. Quando você habilita essa configuração, o último octeto (a última parte) do endereço IP é imediatamente descartado quando o endereço IP é ingerido no Audience Manager. O Audience Manager descarta essa parte do endereço IP antes do processamento (inclusive antes de qualquer pesquisa geográfica ou registro opcional do endereço IP). Por exemplo:
 
 * Antes da ofuscação: `255.255.255.255`
 * Após ofuscação: `255.255.255.0`
 
-Consulte também, Coletando endereços IP e ofuscação de endereço IP em nossa seção [Privacidade de](/help/using/overview/data-security-and-privacy/data-privacy.md)dados.
+Consulte também, Coletando endereços IP e ofuscação de endereço IP em nossa [seção Privacidade de dados](/help/using/overview/data-security-and-privacy/data-privacy.md).
 
 ## Requisitos de ofuscação de endereço IP {#ip-obfuscation-requirements}
 
@@ -38,22 +38,22 @@ A ofuscação de endereço IP está disponível somente para contas de administr
 >
 > Devido ao grande volume de dados processados pelo Audience Manager, as alterações de ofuscação de IP podem levar até 4 horas para entrar em vigor, a partir do momento em que você atualiza as configurações.
 
-## Configurar ofuscação de endereço IP {#configure-ip-obfuscation}
+## Configurar a ofuscação de endereço IP {#configure-ip-obfuscation}
 
 Siga as etapas abaixo para configurar a ofuscação do endereço IP.
 
 1. Faça logon no Audience Manager com uma conta de administrador e vá para **Administração > Privacidade**.
 2. Escolha o tipo de ofuscação de IP que deseja usar.
    1. **Ofuscar todos os endereços IP:** selecione essa opção para que o Audience Manager ofusque o último octeto de todos os endereços IP do visitante, independentemente da região de onde eles são originários.
-   2. **Ofuscar endereços IP para países específicos:** selecione essa opção para que o Audience Manager ofusque o último octeto de endereços IP de visitantes para países específicos. Use a **Lista de países** ou o campo **de pesquisa** correspondente para localizar os países para habilitar a ofuscação de IP e clique no ícone + para adicioná-los à lista **Selecionado para ofuscação** . Depois de adicionar todos os países necessários à lista **Selecionados para ofuscação** , clique em **Salvar**.
+   2. **Ofuscar endereços IP de países específicos:** selecione esta opção para que o Audience Manager ofusque o último octeto de endereços IP de visitantes para países específicos. Use a **Lista de Países** ou o campo **Pesquisar** correspondente para localizar os países para habilitar a ofuscação de IP e clique no ícone + para adicioná-los à lista **Selecionada para Ofuscação**. Depois de adicionar todos os países necessários à lista **Selecionados para Ofuscação**, clique em **Salvar**.
 
 ![](assets/ip-obfuscation.png)
 
-## Desativar ofuscação de endereço IP {#disable-ip-obfuscation}
+## Desabilitar ofuscação de endereço IP {#disable-ip-obfuscation}
 
-Para desativar a ofuscação de endereço IP globalmente, vá para **Administração > Privacidade**, selecione **Não ofuscar endereços** IP e clique em **Salvar**.
+Para desativar a ofuscação de endereço IP globalmente, vá para **Administração > Privacidade**, selecione **Não ofuscar endereços IP** e clique em **Guardar**.
 
-Para desativar a ofuscação de endereço IP para países específicos, localize os países na lista **Selecionados para ofuscação** e clique no ícone **X** correspondente. Click **Save** when you&#39;re done.
+Para desativar a ofuscação de endereço IP para países específicos, localize os países na lista **Selecionados para ofuscação** e clique no ícone **X** correspondente. Clique em **Salvar** quando terminar.
 
 ## Conceitos relacionados {#related-concepts}
 
