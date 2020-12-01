@@ -17,7 +17,7 @@ ht-degree: 5%
 
 # Transferências de dados de saída em tempo real {#real-time-outbound-data-transfers}
 
-O processo de transferência de dados em tempo real de saída fornece dados do usuário como uma série de mensagens [!DNL JSON] formatadas para uma plataforma de destino.
+O processo de transferência de dados em tempo real de saída fornece dados do usuário como uma série de mensagens formatadas [!DNL JSON] para uma plataforma de destino.
 
 <!-- c_outbound_json.xml -->
 
@@ -25,13 +25,13 @@ O processo de transferência de dados em tempo real de saída fornece dados do u
 
 Para usar esse método, a plataforma de destino deve atender aos seguintes requisitos:
 
-* Deve fornecer um ponto de extremidade [!DNL URL] que possa ser dimensionado para receber um grande volume de mensagens de Audience Manager;
-* Deve aceitar os dados no [!DNL JSON] formato (`Content-type: application/json`);
-* Tem de aceitar transferências de `HTTPS` dados seguras. [!DNL Audience Manager] não enviará mensagens através do `HTTP` protocolo inseguro.
+* Deve fornecer um terminal [!DNL URL] que possa ser dimensionado para receber um grande volume de mensagens do Audience Manager;
+* Ele deve aceitar dados no formato [!DNL JSON] (`Content-type: application/json`);
+* Ele deve aceitar `HTTPS` transferências de dados seguras. [!DNL Audience Manager] não enviará mensagens através do  `HTTP` protocolo inseguro.
 
 ## Frequência
 
-Esse método de transferência de dados pode enviar dados em tempo quase real, à medida que os usuários se qualificam para segmentos. As mensagens em tempo real só são entregues enquanto o usuário estiver on-line e ativamente visível à rede Audience Manager Edge. Como opção, esse método também pode enviar lotes de dados offline ou integrados com a mesma frequência a cada 24 horas.
+Esse método de transferência de dados pode enviar dados em tempo quase real, à medida que os usuários se qualificam para segmentos. As mensagens em tempo real só são entregues enquanto o usuário estiver online e ativamente visível à rede Audience Manager Edge. Como opção, esse método também pode enviar lotes de dados offline ou integrados com a mesma frequência a cada 24 horas.
 
 ## Transferências em lote
 
@@ -43,11 +43,11 @@ Não há limites de taxa definidos na throughput das mensagens entregues. A defi
 
 ## Respostas Obrigatórias
 
-Por padrão, o servidor de recipient deve retornar o `200 OK` código para indicar o recebimento bem-sucedido. Outros códigos serão interpretados como falhas. Esta resposta é esperada dentro de 3000 milissegundos. Em resposta a uma falha, [!DNL Audience Manager] fará apenas uma tentativa.
+Por padrão, o servidor de recipient deve retornar o código `200 OK` para indicar o recebimento bem-sucedido. Outros códigos serão interpretados como falhas. Esta resposta é esperada dentro de 3000 milissegundos. Em resposta a uma falha, [!DNL Audience Manager] fará apenas uma tentativa.
 
 ## Parâmetros
 
-A tabela a seguir define os elementos no arquivo de [!DNL JSON] dados que você envia para o destino.
+A tabela a seguir define os elementos no arquivo de dados [!DNL JSON] que você envia para o destino.
 
 <table id="table_68475F9D01ED4A44B5909234114AEDE2"> 
  <thead> 
@@ -86,7 +86,7 @@ A tabela a seguir define os elementos no arquivo de [!DNL JSON] dados que você 
   <tr valign="top"> 
    <td colname="col1"><code><i>User_count</i></code> </td> 
    <td colname="col2"> <p>Número inteiro </p> </td> 
-   <td colname="col3"> <p>Número total de usuários na <code> POST</code> solicitação. </p> </td> 
+   <td colname="col3"> <p>O número total de usuários na solicitação <code> POST</code>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Users</i></code> </td> 
@@ -96,7 +96,7 @@ A tabela a seguir define os elementos no arquivo de [!DNL JSON] dados que você 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_UUID</i></code> </td> 
    <td colname="col2"> <p>String   </p> </td> 
-   <td colname="col3"> <p>O UUID <span class="keyword"> Audience Manager</span> . </p> </td> 
+   <td colname="col3"> <p>O UUID <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.DataPartner_UUID</i></code> </td> 
@@ -106,7 +106,7 @@ A tabela a seguir define os elementos no arquivo de [!DNL JSON] dados que você 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_Regions</i></code> </td> 
    <td colname="col2"> Matriz </td> 
-   <td colname="col3"> A ID da região do <span class="keyword"> Audience Manager</span> onde vimos este dispositivo. Por exemplo, se o dispositivo tivesse alguma atividade em Paris (Europa), a ID da região seria <code> 6</code>. Consulte <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">IDs da região do DCS, locais e nomes de host</a>. </td> 
+   <td colname="col3"> A ID da região <span class="keyword"> Audience Manager</span> onde vimos este dispositivo. Por exemplo, se o dispositivo tivesse alguma atividade em Paris (Europa), a ID da região seria <code> 6</code>. Consulte <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">IDs da região do DCS, locais e nomes de host</a>. </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segments</i></code> </td> 
@@ -128,10 +128,10 @@ A tabela a seguir define os elementos no arquivo de [!DNL JSON] dados que você 
     </ul> <p>Os usuários não são segmentados quando: </p> 
     <ul id="ul_E17B080D8DF14D548E1142A9201C1C14"> 
      <li id="li_8352B919A87242E68716FB9EC0443407">Removido de um segmento com base na regra de segmento. </li> 
-     <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Removido de um segmento com base no intervalo <a href="../../../features/traits/segment-ttl-explained.md"></a>de tempo para vida do segmento. </li> 
+     <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Removido de um segmento com base no <a href="../../../features/traits/segment-ttl-explained.md"> intervalo de tempo até a vida do segmento</a>. </li> 
      <li id="li_F48D1052BA2B45108225641292CC748D">Movido para um estado inativo se não tiver sido visto nos últimos 120 dias. </li>
-     <li>Removido devido a uma solicitação de alteração de privacidade (isto é, <span class="keyword"> RGPD</span>)</li>
-    </ul> <p>Todas as IDs de parceiro sincronizadas com uma ID de <span class="keyword"> Audience Manager</span> receberão o sinalizador <code> "Status":"0"</code> quando um usuário não estiver segmentado. </p> </td> 
+     <li>Removido devido a uma solicitação de alteração de privacidade (isto é, <span class="keyword"> GDPR</span>)</li>
+    </ul> <p>Todas as IDs de parceiro sincronizadas com uma ID <span class="keyword"> Audience Manager</span> receberão o sinalizador <code> "Status":"0"</code> quando um usuário não estiver segmentado. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.DateTime</i></code> </td> 
@@ -143,7 +143,7 @@ A tabela a seguir define os elementos no arquivo de [!DNL JSON] dados que você 
 
 ## Segurança
 
-Você pode proteger seu processo de transferência de dados de saída em tempo real [assinando solicitações](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) HTTP usando chaves privadas ou [!DNL Audience Manager] autenticando pelo protocolo [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md) .
+Você pode proteger seu processo de transferência de dados de saída em tempo real assinando solicitações HTTP[ usando chaves privadas ou fazendo ](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) autenticar pelo protocolo [!DNL Audience Manager]OAuth 2.0[.](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md)
 
 ## Solicitação
 
