@@ -17,7 +17,7 @@ ht-degree: 4%
 
 # Módulos da DIL{#dil-modules}
 
-Descreve métodos na `DIL.modules` namespace. Esses módulos permitem que você colete dados de forma programática e trabalhe com objetos Audience Manager.
+Descreve métodos na namespace `DIL.modules`. Esses módulos permitem que você colete dados de forma programática e trabalhe com objetos Audience Manager.
 
 <!-- 
 
@@ -27,13 +27,13 @@ c_dil_mods.xml
 
 ## siteCatalyst.init {#sitecat-init}
 
-Funciona com [!UICONTROL DIL] para enviar elementos de [!DNL Analytics] tags (variáveis, props, eVars etc.) para Audience Manager. Retorna dados em uma lista separada por vírgulas. Disponível na versão 2.6.
+Funciona com [!UICONTROL DIL] para enviar [!DNL Analytics] elementos de tags (variáveis, props, eVars etc.) para Audience Manager. Retorna dados em uma lista separada por vírgulas. Disponível na versão 2.6.
 
 **Assinatura da função:** `DIL.modules.siteCatalyst.init(siteCatalystReportingSuite, dilInstance, trackVars, options)`
 
 >[!NOTE]
 >
->Você deve colocar esse código na página *antes* da `s.t();` função.
+>Você deve colocar esse código na página *antes de* a função `s.t();`.
 
 <!-- 
 
@@ -55,12 +55,12 @@ r_dil_sc_init.xml
   <tr valign="top"> 
    <td colname="col1"> <code> names </code> </td> 
    <td colname="col2"> String   </td> 
-   <td colname="col3"> <p>Uma matriz de strings que contém <span class="keyword"> variáveis Analytics não enumeradas </span> como <code> pageName </code>, <code> channel </code>, <code> campaign </code>, <code> product </code>etc. </p> </td> 
+   <td colname="col3"> <p>Uma matriz de strings que contém variáveis <span class="keyword"> do Analytics </span> não enumeradas, como <code> pageName </code>, <code> channel </code>, <code> campaign </code>, <code> product </code> etc. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> iteratedNames </code> </td> 
    <td colname="col2"> Objeto </td> 
-   <td colname="col3"> <p>Uma matriz de objetos que contém <span class="keyword"> variáveis Analytics enumeradas, </span> como props e evars (por exemplo, <code> prop1 </code>, <code> prop2 </code>, <code> evar3 </code>, <code> evar4 </code>). </p> </td> 
+   <td colname="col3"> <p>Uma matriz de objetos que contém variáveis <span class="keyword"> do Analytics </span> enumeradas, como props e evars (por exemplo, <code> prop1 </code>, <code> prop2 </code>, <code> evar3 </code>, <code> evar4 </code>). </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> maxIndex </code> </td> 
@@ -70,7 +70,7 @@ r_dil_sc_init.xml
   <tr valign="top"> 
    <td colname="col1"> <code> siteCatalystReportingSuite </code> </td> 
    <td colname="col2"> Objeto </td> 
-   <td colname="col3"> <p>Um objeto que representa o <span class="keyword"> objeto Analytics </span> . </p> </td> 
+   <td colname="col3"> <p>Um objeto que representa o objeto <span class="keyword"> do Analytics </span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> dilInstance </code> </td> 
@@ -82,7 +82,7 @@ r_dil_sc_init.xml
    <td colname="col2"> Objeto </td> 
    <td colname="col3"> <p>Opções adicionais: </p> 
     <ul id="ul_F4DFA5351BB5427B8CBF600A0A4A21A9"> 
-     <li id="li_659ECE5E63834A21A2D9698A1444FCA6"> <p> <code> replaceContextDataPeriodsWith </code> </p> <p>Se você não especificar outra coisa, os pontos serão substituídos pelo sublinhado padrão ( _ ). </p> <p>Por exemplo, <code> s.contextData = {abc.def = '123'} </code>resultaria <code> c_contextData_abc_def=123 </code> na string de query de chamada de evento. </p> <p>Essa opção está disponível somente na <span class="wintitle"> DIL </span> versão 5.0 ou posterior. </p> </li> 
+     <li id="li_659ECE5E63834A21A2D9698A1444FCA6"> <p> <code> replaceContextDataPeriodsWith </code> </p> <p>Se você não especificar outra coisa, os pontos serão substituídos pelo sublinhado padrão ( _ ). </p> <p>Por exemplo, <code> s.contextData = {abc.def = '123'} </code>resultaria em <code> c_contextData_abc_def=123 </code> na sequência de query da chamada do evento. </p> <p>Essa opção está disponível somente na versão 5.0 ou posterior do <span class="wintitle"> DIL </span> ou &lt;a0/&gt;. </p> </li> 
      <li id="li_1C969DD8FC2F43A0A9281D9810A70C3A"> <p> <code> filterFromContextVariables </code> </p> <p>Por exemplo, <code> filterFromContextVariables: ['email', 'zip', 'accountNumber'] </code> resultaria na filtragem da matriz de sequências de caracteres da coleta de dados de contexto. Essa opção exclui as Informações pessoais identificáveis (PII). </p> </li> 
     </ul> <p> </p> </td> 
   </tr> 
@@ -91,7 +91,7 @@ r_dil_sc_init.xml
 
 **Dados capturados pelo siteCatalyst.init**
 
-Essa função retorna detalhes sobre as seguintes [!DNL Analytics] propriedades:
+Esta função retorna detalhes sobre as seguintes propriedades [!DNL Analytics]:
 
 * `pageName`
 * `channel`
@@ -134,7 +134,7 @@ DIL.modules.siteCatalyst.init(s, scDil, {
 });
 ```
 
-Para rastrear todos os pontos de [!DNL Analytics] dados monitorados sem a função adicional mostrada acima, chame `siteCatalyst.init` por si mesmo desta forma:
+Para rastrear todos os pontos de dados [!DNL Analytics] monitorados sem a função adicional mostrada acima, chame `siteCatalyst.init` por si mesmo assim:
 
 ```
 DIL.modules.siteCatalyst.init(s, scDil);
@@ -142,7 +142,7 @@ DIL.modules.siteCatalyst.init(s, scDil);
 
 ## GA.submitUniversalAnalytics {#ga-submit-universal-analytics}
 
-A `GA.submitUniversalAnalytics();` função envia dados do Google [!DNL Universal Analytics] para o Audience Manager. Esta [!UICONTROL DIL] função foi projetada para funcionar com `analytics.js`, que é a biblioteca de códigos mais recente para o Google [!DNL Universal Analytics].
+A função `GA.submitUniversalAnalytics();` envia dados de [!DNL Universal Analytics] do Google para o Audience Manager. Esta função [!UICONTROL DIL] foi projetada para funcionar com `analytics.js`, que é a biblioteca de códigos mais recente do Google [!DNL Universal Analytics].
 
 <!-- 
 
@@ -153,10 +153,10 @@ dil-google-universal-analytics.xml
 >[!IMPORTANT]
 >
 >
->* [!DNL Audience Manager] não tem nenhum insight ou controle sobre a biblioteca de `analytics.js` códigos do Google. Você deve verificar se a coleta de dados ainda está funcionando se ou quando o Google lançar novas versões do [!UICONTROL DIL] `analytics.js`.
+>* [!DNL Audience Manager] não tem nenhum insight ou controle sobre a biblioteca de  `analytics.js` códigos do Google. Você deve verificar se a coleta de dados [!UICONTROL DIL] ainda está funcionando se ou quando o Google lançar novas versões do `analytics.js`.
    >
    >
-* Não é possível usar `GA.submitUniversalAnalytics();` se você ainda estiver trabalhando com o código de rastreamento de análise herdado do Google (por exemplo, `ga.js` ou `dc.js`). Em vez disso, consulte [GA.init](../dil/dil-modules.md#ga-init) .
+* Você não poderá usar `GA.submitUniversalAnalytics();` se ainda estiver trabalhando com o código de rastreamento herdado do Google Analytics (por exemplo, `ga.js` ou `dc.js`). Em vez disso, consulte [GA.init](../dil/dil-modules.md#ga-init).
 
 >
 
@@ -166,7 +166,7 @@ dil-google-universal-analytics.xml
 
 **Propriedades**
 
-A `GA.submitUniversalAnalytics();` função aceita as seguintes propriedades.
+A função `GA.submitUniversalAnalytics();` aceita as seguintes propriedades.
 
 <table id="table_8E0C1E4B17D541259E72B88F02BE4503"> 
  <thead> 
@@ -178,22 +178,22 @@ A `GA.submitUniversalAnalytics();` função aceita as seguintes propriedades.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> gaObject </code> </p> </td> 
-   <td colname="col2"> <p>A variável global para sua instância do <span class="keyword"> Google Analytics </span>. Normalmente, isso ocorre <code> ga </code> por padrão, a menos que você tenha personalizado seu código <span class="keyword"> do Google Analytics </span> . </p> </td> 
+   <td colname="col2"> <p>A variável global para sua instância de <span class="keyword"> Google Analytics </span>. Normalmente, isso é <code> ga </code> por padrão, a menos que você tenha personalizado seu código <span class="keyword"> Google Analytics </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> dilInstance </code> </p> </td> 
-   <td colname="col2"> <p>A variável que representa a sua instância do <span class="wintitle"> DIL </span>. </p> </td> 
+   <td colname="col2"> <p>A variável que representa a sua instância de <span class="wintitle"> DIL </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> internalPropertyName </code> </p> </td> 
-   <td colname="col2"> <p> <i>(Opcional)</i> Na <code> analytics.js </code> biblioteca, a propriedade interna é a variável minified <code> 'b' </code>. Essa variável contém <span class="keyword"> dados do Google Analytics </span> . </p> <p>Essa propriedade é opcional, pois não é necessário defini-la a menos que o Google altere o nome de sua variável interna. Por exemplo, se essa variável minified mudou para <code> 'a' </code>, você chamaria <code> GA.submitUniversalAnalytics(); </code> assim: </p> <p> <code> DIL.modules.GAsubmitUniversalAnalytics(ga, DilInstance, 'a'); </code> </p> </td> 
+   <td colname="col2"> <p> <i>(Opcional)</i> Na  <code> analytics.js </code> biblioteca, a propriedade interna é a variável minified  <code> 'b' </code>. Essa variável contém dados <span class="keyword"> Google Analytics </span>. </p> <p>Essa propriedade é opcional, pois não é necessário defini-la a menos que o Google altere o nome de sua variável interna. Por exemplo, se essa variável minified mudou para <code> 'a' </code>, você chamaria <code> GA.submitUniversalAnalytics(); </code> desta forma: </p> <p> <code> DIL.modules.GAsubmitUniversalAnalytics(ga, DilInstance, 'a'); </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Exemplo**
 
-Lembre-se de definir o [!DNL Google Analytics]`ga` objeto primeiro, antes de chamar [!UICONTROL DIL] e `GA.submitUniversalAnalytics();`. Seu código pode ser semelhante a este:
+Lembre-se de definir o objeto [!DNL Google Analytics] `ga` primeiro, antes de chamar [!UICONTROL DIL] e `GA.submitUniversalAnalytics();`. Seu código pode ser semelhante a este:
 
 ```js
 //Instantiate DIL 
@@ -207,7 +207,7 @@ DIL.modules.GA.submitUniversalAnalytics(ga, dilInstance);
 
 ## GA.init {#ga-init}
 
-A `GA.init()` função envia dados da versão herdada/obsoleta de [!DNL Google Analytics] para o Audience Manager.
+A função `GA.init()` envia dados da versão herdada/obsoleta de [!DNL Google Analytics] para o Audience Manager.
 
 <!-- 
 
@@ -217,7 +217,7 @@ r_dil_ga_init.xml
 
 >[!IMPORTANT]
 >
->`GA.init()` funciona somente com o código de rastreamento de análise herdado do Google, `ga.js` ou `dc.js`. Não é possível invocar essa [!UICONTROL DIL] função se você usar `analytics.js`, que é a biblioteca de códigos mais recente para o Google [!DNL Universal Analytics]. [!DNL Audience Manager] clientes que usam [!UICONTROL DIL] e [!DNL Universal Analytics] devem ver [GA.submitUniversalAnalytics](../dil/dil-modules.md#ga-submit-universal-analytics).
+>`GA.init()` funciona somente com o código de rastreamento do Google Analytics herdado  `ga.js` ou  `dc.js`. Não é possível invocar essa função [!UICONTROL DIL] se você usar `analytics.js`, que é a biblioteca de códigos mais recente para o Google [!DNL Universal Analytics]. [!DNL Audience Manager] clientes que usam  [!UICONTROL DIL] e  [!DNL Universal Analytics] devem ver  [GA.submitUniversalAnalytics](../dil/dil-modules.md#ga-submit-universal-analytics).
 
 **Assinatura da função:** `DIL.modules.GA.init(_gaq, dilInstance, trackVars);`
 
@@ -227,7 +227,7 @@ r_dil_ga_init.xml
 |---|---|---|
 | `_gaq` | Matriz | Um storage que contém comandos GA. |
 | `dilInstance` | Objeto | Um objeto que contém a instância DIL. |
-| `trackVars` | Objeto | *(Opcional)* Um objeto que consiste na `names` propriedade. Essa propriedade é uma matriz de nomes de comando GA que você deseja rastrear. |
+| `trackVars` | Objeto | *(Opcional)* Um objeto que consiste na  `names` propriedade. Essa propriedade é uma matriz de nomes de comando GA que você deseja rastrear. |
 
 **Chamadas de função GA suportadas**
 
@@ -241,7 +241,7 @@ Por padrão, `GA.init` captura dados das seguintes funções:
 
 **DIL cria chaves para dados GA**
 
-O Audience Manager aceita dados na forma de pares de valores chave enquanto o GA trabalha com itens em um storage. Para trabalhar com dados GA, [!UICONTROL DIL] cria um par de valores chave automaticamente e forma uma chave como esta: `c_ <key name>`. Além disso, os itens em arrays GA são exibidos em uma ordem específica. Como resultado, você deve fornecer todos os parâmetros nessa ordem, mesmo quando eles não contêm dados. [!UICONTROL DIL] mapeia chaves para os seguintes métodos GA:
+O Audience Manager aceita dados na forma de pares de valores chave enquanto o GA trabalha com itens em um storage. Para trabalhar com dados GA, [!UICONTROL DIL] cria automaticamente um par de valores chave e forma uma chave como esta: `c_ <key name>`. Além disso, os itens em arrays GA são exibidos em uma ordem específica. Como resultado, você deve fornecer todos os parâmetros nessa ordem, mesmo quando eles não contêm dados. [!UICONTROL DIL] mapeia chaves para os seguintes métodos GA:
 
 ```js
 // Tracking Social Interactions 
@@ -302,7 +302,7 @@ _gaq.push([
 ]); 
 ```
 
-Para rastrear todas as métricas GA monitoradas sem a função adicional mostrada acima, chame `GA.init` por si mesmo desta forma:
+Para rastrear todas as métricas GA monitoradas sem a função adicional mostrada acima, chame `GA.init` por si mesmo assim:
 
 `DIL.modules.GA.init(_gaq, dilInstance).submit();`
 
@@ -314,7 +314,7 @@ A chamada de evento de URL para Audience Manager pode ser semelhante a:
 
 >[!MORELIKETHIS]
 >
->* [Código de rastreamento do Google Analytics](https://developers.google.com/analytics/devguides/collection/gajs/methods/)
+>* [Código de rastreamento de Google Analytics](https://developers.google.com/analytics/devguides/collection/gajs/methods/)
 >* [Atualização completa na Web: ga.js/dc.js ao analytics.js](https://developers.google.com/analytics/devguides/collection/upgrade/reference/gajs-analyticsjs)
 >* [Adicionar analytics.js ao seu site](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
 >* [referência dos métodos do objeto ga](https://developers.google.com/analytics/devguides/collection/analyticsjs/ga-object-methods-reference)
