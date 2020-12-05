@@ -7,7 +7,7 @@ title: Gerenciamento de regras de características
 uuid: 827d4567-2b6f-411e-bd5c-9735c916291a
 feature: Traits
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 14c5ac091a27d125c96d17ce750c6e25ad844856
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 1%
@@ -29,13 +29,17 @@ Em [!UICONTROL Trait Builder], o [!UICONTROL Expression Builder] permite que voc
 
 1. Os campos e controles desta seção permitem criar sinais a partir de pares de valores chave e definir a relação entre eles e um operador de comparação. Uma chave, um operador e um valor são necessários.
 1. O [!UICONTROL Data Explorer Options] permite que você preencha retroativamente as realizações de características para seus sinais.
+
    >[!NOTE]
    >
    >Esta opção só está disponível para [!UICONTROL Data Explorer] clientes. Entre em contato com seu consultor de Adobe para obter detalhes.
+
 1. Esta seção mostra uma estimativa das realizações de características dos últimos 7 dias, para os sinais definidos em [!UICONTROL Expression Builder], para traços preenchidos retroativamente e não preenchidos retroativamente.
+
    >[!NOTE]
    >
    >Esta opção só está disponível para [!UICONTROL Data Explorer] clientes. Entre em contato com seu consultor de Adobe para obter detalhes.
+
 1. Os campos de teste permitem validar combinações de regras de sinal ou [!DNL URL]s que você deseja usar ao enviar dados para o Audience Manager.
 
 ## Criar uma regra de características {#create-trait-rule}
@@ -47,18 +51,23 @@ As regras (ou expressões) consistem em indivíduos ou grupos de pares de valore
 Preencha os campos obrigatórios na seção **[!UICONTROL Basic Information]** *antes de* criar regras de características.
 
 1. Expanda a seção **[!UICONTROL Trait Expression]** e digite um nome de chave e valor. Isso cria um *`signal`*.
+
    >[!NOTE]
    >
    >Inclua o prefixo `c_` (ou qualquer outra convenção de nomenclatura) para a variável de chave se as chamadas de evento enviarem dados para [!DNL Audience Manager] usando essa sintaxe.
+
 1. Selecione um operador de comparação [](../../features/traits/trait-comparison-operators.md) na lista suspensa **[!UICONTROL Operator]**. O operador de comparação avalia a relação entre os elementos em um sinal.
+
    >[!NOTE]
    >
    >O operador [!DNL Boolean] [!UICONTROL OR] estabelece a relação entre vários sinais *dentro de* um grupo e não pode ser alterado.
+
 1. Clique em **[!UICONTROL Add Rule]**. A regra salva aparece na área de trabalho de características acima dos campos de entrada de dados.
 
 ### Exemplo {#example-trait-rule}
 
 No exemplo abaixo, um usuário criou uma nova regra de característica com base na ID do produto. Para criar essa regra, o usuário forneceu a chave `productkey` vinculada a um operador igual ( `==`) ao valor `2093`.
+
 ![](assets/tb_sample_rule1.png)
 
 Clicar em **[!UICONTROL Add Rule]** salva e move a característica para a área de trabalho [!UICONTROL Expression Builder].
@@ -75,11 +84,14 @@ Sua característica deve conter pelo menos duas regras antes de você poder cria
 
 1. Mova o cursor sobre a regra que deseja mover para realçá-la.
 1. Passe o mouse sobre a borda da regra realçada.
-Isso automaticamente separa a regra do grupo atual e a move para um novo grupo.
+
+   Isso automaticamente separa a regra do grupo atual e a move para um novo grupo.
+
    >[!NOTE]
    >
    >Arraste uma regra de volta ao grupo original se movê-la não intencionalmente.
-1. Selecione um operador [!DNL Boolean] ( [!UICONTROL AND], [!UICONTROL OR], [!UICONTROL AND NOT]) no menu suspenso para definir a relação entre os grupos de regras.
+
+1. Selecione um operador [!DNL Boolean] ([!UICONTROL AND], [!UICONTROL OR], [!UICONTROL AND NOT]) no menu suspenso para definir a relação entre os grupos de regras.
 
 ## Mover regras entre grupos {#move-rules-between-groups}
 
