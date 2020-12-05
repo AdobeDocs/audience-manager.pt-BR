@@ -1,6 +1,6 @@
 ---
-description: No Construtor de características, o Construtor de Expressões permite criar e testar regras que estabelecem requisitos de qualificação de audiências. As regras consistem em pares de valores chave, como "color == blue" ou "price > 100". Operadores de comparação estabelecem a relação entre chaves e valores. Expressões booleanas determinam a relação entre grupos de regras.
-seo-description: No Construtor de características, o Construtor de Expressões permite criar e testar regras que estabelecem requisitos de qualificação de audiências. As regras consistem em pares de valores chave, como "color == blue" ou "price > 100". Operadores de comparação estabelecem a relação entre chaves e valores. Expressões booleanas determinam a relação entre grupos de regras.
+description: No Construtor de características, o Construtor de Expressões permite criar e testar regras que estabelecem requisitos de qualificação de audiências. As regras consistem em pares de valores chave, como "color == blue" ou "price &gt; 100". Operadores de comparação estabelecem a relação entre chaves e valores. Expressões booleanas determinam a relação entre grupos de regras.
+seo-description: No Construtor de características, o Construtor de Expressões permite criar e testar regras que estabelecem requisitos de qualificação de audiências. As regras consistem em pares de valores chave, como "color == blue" ou "price &gt; 100". Operadores de comparação estabelecem a relação entre chaves e valores. Expressões booleanas determinam a relação entre grupos de regras.
 seo-title: Gerenciamento de regras de características
 solution: Audience Manager
 title: Gerenciamento de regras de características
@@ -9,7 +9,7 @@ feature: Traits
 translation-type: tm+mt
 source-git-commit: 14c5ac091a27d125c96d17ce750c6e25ad844856
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '727'
 ht-degree: 1%
 
 ---
