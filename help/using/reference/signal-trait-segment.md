@@ -1,16 +1,16 @@
 ---
 description: Descreve os componentes de um segmento do Audience Manager, as expressões usadas para definir critérios de qualificação de público e como os dados são transmitidos em uma chamada de evento.
-seo-description: Descreve os componentes de um segmento do Audience Manager, as expressões usadas para definir critérios de qualificação de público e como os dados são transmitidos em uma chamada de evento.
+landing-page-description: Describes components of a segment, expressions used to set audience qualification criteria, and how data is transmitted.
 seo-title: Sinais, características e segmentos
 solution: Audience Manager
 title: Sinais, características e segmentos
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
 feature: reference
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: e6348c85e7df6428802d54b2c90385ce95f50e1a
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 17%
+source-wordcount: '349'
+ht-degree: 11%
 
 ---
 
