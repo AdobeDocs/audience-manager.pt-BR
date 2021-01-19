@@ -7,15 +7,15 @@ title: Requisitos de nome e tamanho de arquivo do Amazon S3 para arquivos de dad
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: f037a12af641da44ed67e62a249c41487da7ac07
+source-git-commit: d6856a54c649d701c3163c1408f84aea256ebdc1
 workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 6%
+source-wordcount: '1051'
+ht-degree: 5%
 
 ---
 
 
-# [!DNL Amazon S3]Requisitos de nome e tamanho de arquivo para arquivos de dados de entrada{#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
+# [!DNL Amazon S3] requisitos de nome e tamanho de arquivo para arquivos de dados de entrada  {#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
 
 Descreve os campos obrigatórios, a sintaxe, as convenções de nomenclatura e os tamanhos de arquivo que você precisa seguir ao enviar dados para [!DNL Audience Manager]. Defina os nomes e tamanhos dos arquivos de acordo com essas especificações quando enviar dados para um diretório [!DNL Audience Manager] / [!DNL Amazon S3].
 
@@ -155,9 +155,14 @@ Considere os números abaixo para o processamento mais rápido/rápido de seus a
  </tbody> 
 </table>
 
+
 >[!NOTE]
 >
 >O processo de validação de dados de entrada marcará os arquivos vazios como inválidos e não os processará.
+
+## Limites de comprimento de linha {#line-limits}
+
+Os arquivos de dados de entrada têm um limite de comprimento de linha de 102400 bytes. As linhas que excedem este limite são excluídas da transferência.
 
 >[!MORELIKETHIS]
 >
