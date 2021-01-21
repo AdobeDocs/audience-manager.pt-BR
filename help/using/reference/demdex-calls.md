@@ -7,7 +7,7 @@ title: Compreender as chamadas ao domínio Demdex
 uuid: c06dae3a-f169-4712-80fb-d6d448dce51a
 feature: reference
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 7286af6dd85a0464ccf52a88139d07cb151783e6
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 15%
