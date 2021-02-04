@@ -1,6 +1,6 @@
 ---
 description: As opções no menu Administração permitem que você crie usuários de Audience Manager e os atribua a grupos. Você também pode visualização de limites (características, segmentos, destinos e modelos).
-keywords: rbac;RBAC;role based;role-based;role-based access controls
+keywords: rbac;RBAC;baseado em função;baseado em função;controles de acesso baseados em função
 seo-description: As opções no menu Administração permitem que você crie usuários de Audience Manager e os atribua a grupos. Você também pode visualização de limites (características, segmentos, destinos e modelos).
 seo-title: Administração
 solution: Audience Manager
@@ -9,10 +9,10 @@ topic: DIL API
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 feature: Administration
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 55cb69bad1f369ed3b58bece54aebdca4b14f7a7
 workflow-type: tm+mt
-source-wordcount: '981'
-ht-degree: 1%
+source-wordcount: '1203'
+ht-degree: 2%
 
 ---
 
@@ -20,6 +20,13 @@ ht-degree: 1%
 # [!UICONTROL Administration] (Controles RBAC)  {#administration}
 
 ![](assets/rbac-controls.png)
+
+>[!IMPORTANT]
+>
+> O gerenciamento de conta de usuário está mudando para [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). Para a migração de usuários do start, exigimos que todos os clientes do Audience Manager para tomar imediatamente as medidas necessárias descritas neste artigo: [migração de usuário Audience Manager para Admin Console](admin-console-migration.md).
+> 
+> Depois que todos os clientes migrarem, as seções de gerenciamento de usuários desse documento desaparecerão.
+
 
 As opções no menu [!UICONTROL Administration] permitem que você crie usuários do Audience Manager e os atribua a grupos. Você também pode visualização de limites (características, segmentos, destinos e modelos).
 
@@ -30,6 +37,12 @@ Os clientes corporativos que usam [!DNL Audience Manager] precisam de uma plataf
 ## Criar usuários {#create-users}
 
 <!-- t_create_users.xml -->
+
+>[!IMPORTANT]
+>
+> O gerenciamento de conta de usuário está mudando para [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Para a migração de usuários do start, exigimos que todos os clientes do Audience Manager para tomar imediatamente as medidas necessárias descritas neste artigo: [migração de usuário Audience Manager para Admin Console](admin-console-migration.md).
+> 
+> Depois que todos os clientes migrarem, a seção de gerenciamento de usuários desse documento desaparecerá.
 
 Crie usuários em [!DNL Audience Manager] e especifique detalhes de usuários, status de logon e atribua usuários a grupos.
 
@@ -54,6 +67,12 @@ Para obter mais informações sobre grupos e permissões, consulte [Criar um Gru
 
 ## Criar um [!UICONTROL Group] {#create-group}
 
+>[!IMPORTANT]
+>
+> O gerenciamento de conta de usuário está mudando para [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Para a migração de usuários do start, recomendamos que todos os clientes do Audience Manager tomem imediatamente as medidas necessárias descritas neste artigo: [migração de usuário Audience Manager para Admin Console](admin-console-migration.md).
+> 
+> Depois que todos os clientes migrarem, esta seção desaparecerá.
+
 Um *grupo* é uma coleção de usuários que compartilham direitos de acesso aos objetos [!UICONTROL destination], [!UICONTROL segment] e [!UICONTROL trait]. É possível limitar grupos somente a objetos únicos ou conceder a eles amplo acesso a combinações de objetos diferentes.
 
 <!-- t_create_groups.xml -->
@@ -61,18 +80,24 @@ Um *grupo* é uma coleção de usuários que compartilham direitos de acesso aos
 Para criar um grupo:
 
 1. Clique em **[!UICONTROL Administration]** > **[!UICONTROL Groups]**.
-1. Clique em ![](assets/icon_add.png) para abrir a página [!UICONTROL Group Settings].
-1. Em [!UICONTROL Group Details]:
+2. Clique em ![](assets/icon_add.png) para abrir a página [!UICONTROL Group Settings].
+3. Em [!UICONTROL Group Details]:
    * Nomeie o grupo.
    * Forneça uma breve descrição do grupo.
-1. Em [!UICONTROL Group Members], clique em um usuário das opções **[!UICONTROL Add Users]** para adicioná-las ao grupo.
-1. Em [!UICONTROL Group Permissions], selecione [característica](../../features/traits/trait-details-page.md), [segment](../../features/segments/segments-purpose.md) ou [destino](../../features/destinations/destinations.md) de **[!UICONTROL Add Object]**.
+4. Em [!UICONTROL Group Members], clique em um usuário das opções **[!UICONTROL Add Users]** para adicioná-las ao grupo.
+5. Em [!UICONTROL Group Permissions], selecione [característica](../../features/traits/trait-details-page.md), [segment](../../features/segments/segments-purpose.md) ou [destino](../../features/destinations/destinations.md) de **[!UICONTROL Add Object]**.
 Isso abre uma janela de permissões para o objeto selecionado.
-1. Marque a caixa de seleção das permissões que você deseja que os membros do grupo tenham.
-1. *(Opcional)* Atribuir  [permissões de curinga ](../../features/administration/administration-overview.md#wild-card-permissions) ao grupo.
-1. Clique em **[!UICONTROL Save Group]**.
+6. Marque a caixa de seleção das permissões que você deseja que os membros do grupo tenham.
+7. *(Opcional)* Atribuir  [permissões de curinga ](../../features/administration/administration-overview.md#wild-card-permissions) ao grupo.
+8. Clique em **[!UICONTROL Save Group]**.
 
 ## Noções básicas sobre [!UICONTROL Wild Card Permissions] {#wild-card-permissions}
+
+>[!IMPORTANT]
+>
+> O gerenciamento de conta de usuário está mudando para [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Para a migração de usuários do start, recomendamos que todos os clientes do Audience Manager tomem imediatamente as medidas necessárias descritas neste artigo: [migração de usuário Audience Manager para Admin Console](admin-console-migration.md).
+> 
+> Depois que todos os clientes migrarem, esta seção desaparecerá.
 
 Simplifique o gerenciamento de direitos de grupo com [!UICONTROL Wild Card Permissions].
 
