@@ -6,10 +6,10 @@ user-guide-title: Guia do usuário do Audience Manager
 user-guide-description: O Audience Manager proporciona serviços líderes do setor para o gerenciamento online de dados.
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 389ffae8d216a4f295a5fe198a27c4d9d48586c6
+source-git-commit: 55cb69bad1f369ed3b58bece54aebdca4b14f7a7
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 93%
+source-wordcount: '1779'
+ht-degree: 92%
 
 ---
 
@@ -38,6 +38,7 @@ ht-degree: 93%
 + Recursos {#features}
    + [Públicos endereçáveis](features/addressable-audiences.md)
    + Administração {#administration}
+      + [Migração de usuário Audience Manager para Admin Console](features/administration/admin-console-migration.md)
       + [Administração](features/administration/administration-overview.md)
       + [Editar as configurações da conta](features/administration/edit-account-settings.md)
       + [Ofuscação de endereço IP](features/administration/ip-obfuscation.md)
