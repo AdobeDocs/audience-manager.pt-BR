@@ -4,12 +4,12 @@ seo-description: Este artigo descreve como as audiências são compartilhadas en
 seo-title: Compartilhamento de públicos entre o Audience Manager e a Adobe Experience Platform
 solution: Audience Manager
 title: Compartilhamento de públicos entre o Audience Manager e a Adobe Experience Platform
-keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
+keywords: Compartilhamento de audiências AEP, segmentos AEP, segmentos de plataforma, compartilhamento de segmentos, compartilhamento de audiências, compartilhamento de segmentos
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: 4bac89ab732f225bd82aceaf9707fda98e796945
+source-git-commit: 62938e95fa9eed3e747fa4dabf8695c5dbefde17
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1504'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
-> Entre em contato com seu representante de vendas de Adobe para desbloquear o acesso a essa funcionalidade.
+> Entre em contato com seu representante de vendas do Adobe para desbloquear o acesso a essa funcionalidade.
 
 ## Visão geral {#overview}
 
@@ -162,7 +162,7 @@ O Audience Manager atualiza os números de relatórios na interface uma vez por 
 
 ### Composição do segmento no Experience Platform
 
-A integração entre a Adobe Experience Platform e a Audience Manager compartilha várias namespaces de identidade padrão [para todos os clientes: ECID, IDFA, GAID, endereços de email com hash (EMAIL_LC_SHA256), AdCloud ID etc. ](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) Se seus segmentos de Experience Platform usarem qualquer uma dessas identidades como identidade primária para os perfis qualificados, os perfis serão contados em características de Audience Manager e segmentos.
+A integração entre a Adobe Experience Platform e a Audience Manager compartilha várias namespaces de identidade padrão [para todos os clientes: ECID, IDFA, GAID, endereços de email com hash (EMAIL_LC_SHA256), AdCloud ID. ](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) Se seus segmentos de Experience Platform usarem qualquer uma dessas identidades como identidade primária para os perfis qualificados, os perfis serão contados em características de Audience Manager e segmentos.
 
 Além disso, o Audience Manager pode registrar as realizações de entrada para quaisquer namespaces de identidade personalizadas que você usa nos segmentos do Experience Platform se:
 * a identidade é marcada como primária *e*
