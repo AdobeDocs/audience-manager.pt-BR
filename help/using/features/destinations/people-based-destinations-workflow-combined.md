@@ -4,11 +4,11 @@ seo-description: 'Esta página inclui orientações passo a passo sobre como com
 seo-title: Fluxo de trabalho A - Personalização com base em toda a Atividade online combinada com dados offline
 solution: Audience Manager
 title: Fluxo de trabalho A - Personalização com base em toda a Atividade online combinada com dados offline
-feature: People-Based Destinations
+feature: Destinos com base em pessoas
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 6e3a06da8149c91a9192b5b3ee582e46fbb1790c
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1181'
 ht-degree: 7%
 
 ---
@@ -86,7 +86,7 @@ Digamos que você queira corresponder seus [DPUUIDs](../../reference/ids-in-aam.
 
  
 
-Você pode vincular até 10 endereços de email com hash a um único [DPUUID](../../reference/ids-in-aam.md). Para fazer isso, separe os endereços de email com hash por vírgula, dentro do arquivo de sincronização.
+Você pode vincular até 10 endereços de email com hash a um único [DPUUID](../../reference/ids-in-aam.md). Para fazer isso, separe os endereços de email com hash com um `<TAB>`, dentro do arquivo de sincronização.
 
 Em nosso exemplo, você agora teria duas fontes de dados.
 
