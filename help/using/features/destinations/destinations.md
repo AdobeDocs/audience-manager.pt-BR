@@ -1,17 +1,17 @@
 ---
 description: No Audience Manager, um destino é qualquer sistema de terceiros (servidor de anúncios, DSP, rede de anúncios etc.) com o qual você deseja compartilhar dados. O Construtor de destinos é a ferramenta usada para criar e gerenciar cookies, URL ou destinos de servidor para servidor.
-keywords: integration code, destination, destination overview, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination
-landing-page-description: A destination is any third-party system, such as ad server or DSP, with which to share data. Use Destination Builder to create and manage cookie, URL, or server-to-server destinations.
+keywords: código de integração, destino, visão geral do destino, destino, destino, destino, destino, destino, destino, destino, destino, destino, destino, destino, destino
+landing-page-description: Um destino é qualquer sistema de terceiros, como servidor de publicidade ou DSP, com o qual compartilhar dados. Use a ferramenta Construtor de destino para criar e gerenciar cookies, URL ou destinos de servidor para servidor.
 seo-title: 'Destinos '
 solution: Audience Manager
-title: 'Destinos '
+title: Destinos
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
-feature: Destination Basics
+feature: Noções básicas sobre o destino
 translation-type: tm+mt
 source-git-commit: e6348c85e7df6428802d54b2c90385ce95f50e1a
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 11%
+source-wordcount: '541'
+ht-degree: 15%
 
 ---
 
