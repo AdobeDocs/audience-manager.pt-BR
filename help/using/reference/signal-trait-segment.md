@@ -1,16 +1,16 @@
 ---
 description: Descreve os componentes de um segmento do Audience Manager, as expressões usadas para definir critérios de qualificação de público e como os dados são transmitidos em uma chamada de evento.
-landing-page-description: Describes components of a segment, expressions used to set audience qualification criteria, and how data is transmitted.
+landing-page-description: Descreve os componentes de um segmento, expressões usadas para definir critérios de qualificação de público-alvo e como os dados são transmitidos.
 seo-title: Sinais, características e segmentos
 solution: Audience Manager
 title: Sinais, características e segmentos
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
-feature: reference
+feature: referência
 translation-type: tm+mt
 source-git-commit: e6348c85e7df6428802d54b2c90385ce95f50e1a
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 11%
+source-wordcount: '367'
+ht-degree: 15%
 
 ---
 
@@ -21,7 +21,7 @@ Descreve os componentes de [!DNL Audience Manager] [!UICONTROL segment], as expr
 
 ## Composição e finalidade
 
-[!DNL Audience Manager] os dados consistem em regras de qualificação  [!UICONTROL signals],  [!UICONTROL traits]e  [!UICONTROL segments]relacionadas. Os elementos de dados e as regras são combinados para criar [!UICONTROL segments]. [!UICONTROL Segments] organize visitantes do site em grupos relacionados. A tabela a seguir define os três componentes principais em [!DNL Audience Manager] [!UICONTROL segment].
+[!DNL Audience Manager] os dados consistem em regras de qualificação  [!UICONTROL signals],  [!UICONTROL traits]e  [!UICONTROL segments]relacionadas. Os elementos de dados e as regras se combinam para criar [!UICONTROL segments]. [!UICONTROL Segments] organize visitantes do site em grupos relacionados. A tabela a seguir define os três componentes principais em [!DNL Audience Manager] [!UICONTROL segment].
 
 | Elemento | Consiste em | Exemplo |
 |---|---|---|
