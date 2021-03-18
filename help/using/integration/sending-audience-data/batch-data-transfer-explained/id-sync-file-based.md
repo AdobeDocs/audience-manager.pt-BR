@@ -7,9 +7,9 @@ title: Requisitos de nome e conteúdo para arquivos de sincronização de ID
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
 feature: Transferência de dados de entrada
 translation-type: tm+mt
-source-git-commit: 02c951f63d8ebeafaf107c4cb9213e9efdb1eafb
+source-git-commit: 67ba527ff8b06ca4f5515ffd1a9114acfabadecb
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '867'
 ht-degree: 6%
 
 ---
@@ -49,7 +49,7 @@ Os nomes de arquivo de ID contêm os seguintes elementos obrigatórios e opciona
   </tr> 
   <tr> 
    <td colname="col1"><code><i>MASTERDPID</i></code> </td> 
-   <td colname="col2"> A ID principal do provedor de dados é a ID principal das DPIDs no nome do arquivo. Além disso, a primeira ID de usuário no arquivo de dados corresponde à ID principal. Os DPIDs subsequentes são outros identificadores que pertencem à principal. A sincronização mapeia DPIDs no nome do arquivo para UUIDs no arquivo. </td> 
+   <td colname="col2"> <p>A ID principal do provedor de dados é a ID principal das DPIDs no nome do arquivo. Além disso, a primeira ID de usuário no arquivo de dados corresponde à ID principal. Os DPIDs subsequentes são outros identificadores que pertencem à principal. A sincronização mapeia DPIDs no nome do arquivo para UUIDs no arquivo.</p> <p>Essa DPID deve conter somente IDs de dispositivo, como AAM UUID, GAID, IDFA e assim por diante. Ele não pode conter DPUUIDs. Isso pode resultar em sincronização incorreta.</p>  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>DPID</i></code> </p> </td> 
