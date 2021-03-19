@@ -5,12 +5,12 @@ seo-title: Visão geral da privacidade de dados
 solution: Audience Manager
 title: Visão geral da privacidade de dados
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
-feature: data governance & privacy
+feature: governança e privacidade de dados
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 78%
+source-wordcount: '489'
+ht-degree: 77%
 
 ---
 
@@ -26,19 +26,19 @@ A documentação de Privacidade de dados descreve a integração e a conformidad
 * Os consumidores recebem conteúdo personalizado, ofertas de produtos com desconto e experiências otimizadas do usuário.
 * As marcas recebem fluxos essenciais de receita compatíveis com vários modelos de negócios online.
 
-Em nosso contínuo apoio a este modelo, [!DNL Audience Manager] continua empenhado em fornecer as ferramentas para ajudá-lo a oferecer transparência e controle aos seus consumidores, além de fornecer anúncios personalizados sujeitos aos [Princípios autorregulatórios da OBA (Online Behavioral Advertising)](https://www.iab.com/news/self-regulatory-principles-for-online-behavioral-advertising/).
+Em nosso contínuo apoio a esse modelo, [!DNL Audience Manager] permanece comprometido a fornecer as ferramentas que ajudarão você a oferecer transparência e controle aos seus consumidores, além de fornecer anúncios personalizados sujeitos aos [Princípios autorregulatórios da OBA (Online Behavioral Advertising)](https://www.iab.com/news/self-regulatory-principles-for-online-behavioral-advertising/).
 
 ## [!DNL GDPR] {#gdpr}
 
-O [Regulamento Geral sobre a Proteção de Dados (GDPR)](https://eugdpr.org/) introduziu vários novos direitos de privacidade de dados para os membros da União Europeia, incluindo o **Direito de acesso** e o **Direito de ser esquecido**. Isso significa que qualquer [!DNL EU] cidadão cujos dados pessoais foram coletados por sua empresa pode solicitar acesso ou excluir seus dados a qualquer momento. O não cumprimento dessas solicitações pode resultar em multas de milhões de dólares para sua organização.
+O [Regulamento Geral sobre a Proteção de Dados (GDPR)](https://gdpr.eu/data-privacy/) introduziu vários novos direitos de privacidade de dados para os membros da União Europeia, incluindo o **Direito de acesso** e o **Direito de ser esquecido**. Isso significa que qualquer [!DNL EU] cidadão cujos dados pessoais tenham sido coletados pela sua empresa pode solicitar acesso ou excluir seus dados a qualquer momento. O não cumprimento dessas solicitações pode resultar em multas de milhões de dólares para sua organização.
 
-Para estar em conformidade com [!DNL GDPR], [!DNL Audience Manager] oferece suporte ao acesso aos dados e às solicitações [a3/>.](data-privacy-requests.md)
+Para estar em conformidade com [!DNL GDPR], [!DNL Audience Manager] oferece suporte ao acesso aos dados e à exclusão de [solicitações](data-privacy-requests.md).
 
 ## [!DNL CCPA] {#ccpa}
 
 A [California Consumer Privacy Act (CCPA)](https://www.caprivacy.org/about), que entrou em vigor em 1º de janeiro de 2020, fornece aos residentes da Califórnia novos direitos sobre suas informações pessoais e impõe responsabilidades de proteção de dados a determinadas entidades que realizam negócios na Califórnia.
 
-[!DNL CCPA]A fornece novos direitos de privacidade de dados para residentes na Califórnia, incluindo o direito de acessar e excluir seus dados pessoais e saber se seus dados pessoais foram vendidos ou divulgados (e para quem). Para estar em conformidade com [!DNL CCPA], [!DNL Audience Manager] suporta [!DNL CCPA] acesso e eliminação [pedidos](data-privacy-requests.md).
+[!DNL CCPA]A fornece novos direitos de privacidade de dados para residentes na Califórnia, incluindo o direito de acessar e excluir seus dados pessoais e saber se seus dados pessoais foram vendidos ou divulgados (e para quem). Para estar em conformidade com [!DNL CCPA], [!DNL Audience Manager] oferece suporte a [!DNL CCPA] acesso e exclusão [solicitações](data-privacy-requests.md).
 
 Consulte o [Centro de privacidade da Adobe](https://www.adobe.com/br/privacy/opt-out.html) para obter mais detalhes.
 
