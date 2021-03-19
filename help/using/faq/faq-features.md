@@ -1,17 +1,17 @@
 ---
 description: Perguntas e problemas comuns relacionados a produtos e funções.
-keywords: audience manager cookies
+keywords: cookies do audience manager
 seo-description: Perguntas e problemas comuns relacionados a produtos e funções.
 seo-title: Perguntas frequentes sobre recursos e funções do produto
 solution: Audience Manager
 title: Perguntas frequentes sobre recursos e funções do produto
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
-feature: Overview
+feature: Visão geral
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 91%
+source-wordcount: '627'
+ht-degree: 89%
 
 ---
 
@@ -48,9 +48,9 @@ Sim. Consulte [Ferramentas de gerenciamento em massa](../reference/bulk-manageme
 
  
 
-**Ao executar uma exportação de ID em massa para um destino, algumas das IDs do cliente estão ausentes. Por que isso acontece?**
+**Ao executar uma exportação de ID em massa para um destino, algumas IDs do cliente estão ausentes. Por que isso acontece?**
 
-Quando uma ID de dispositivo ([AAM UUID](../reference/ids-in-aam.md)) é vinculada a várias IDs CRM ([DPUUIDs](../reference/ids-in-aam.md)), somente o mapeamento mais recente é exportado. É por isso que você pode ver um número menor do que o esperado de IDs de dispositivo sendo exportadas.
+Quando uma ID de dispositivo ([AAM UUID](../reference/ids-in-aam.md)) é vinculada a várias IDs de CRM ([DPUUIDs](../reference/ids-in-aam.md)), somente o mapeamento mais recente é exportado. É por isso que você pode ver um número menor do que o esperado de IDs de dispositivo que estão sendo exportadas.
 
  
 
@@ -68,7 +68,7 @@ Seu feed de dados e todas as características contidas no feed aparecem como sub
 
 **O que é o [!UICONTROL Tag Insertion Manager (TIM)]?**
 
-O Audience Manager usou o [!UICONTROL Tag Insertion Manager] (TIM) para criar e gerenciar o [!UICONTROL data collection code (DIL)]. Esse recurso é obsoleto e foi substituído em primeiro lugar pelo [!UICONTROL Dynamic Tag Manager (DTM)] e depois pelo [!DNL Adobe Experience Platform Launch]. Para obter mais informações, consulte [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) e [Dynamic Tag Management](https://docs.adobe.com/content/help/pt-BR/dtm/using/dtm-home.html).
+O Audience Manager usou o [!UICONTROL Tag Insertion Manager] (TIM) para criar e gerenciar o [!UICONTROL data collection code (DIL)]. Esse recurso é obsoleto e foi substituído em primeiro lugar pelo [!UICONTROL Dynamic Tag Manager (DTM)] e depois pelo [!DNL Adobe Experience Platform Launch]. Para obter mais informações, consulte [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html) e [Dynamic Tag Management](https://docs.adobe.com/content/help/pt-BR/dtm/using/dtm-home.html).
 
  
 
