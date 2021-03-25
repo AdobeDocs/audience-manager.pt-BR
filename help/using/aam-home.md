@@ -5,11 +5,11 @@ seo-title: Documentação técnica do produto Adobe Audience Manager
 solution: Audience Manager
 title: Guia do Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
-feature: overview
+feature: visão geral
 translation-type: tm+mt
-source-git-commit: 04504d4561414f9558a1f1f4db33cbcf535d54af
+source-git-commit: 348881dd2f880ca50140dbe5935cff138944003e
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '653'
 ht-degree: 96%
 
 ---
@@ -32,8 +32,6 @@ Este guia de documentação técnica oferece assistência de autoajuda para o Au
 * Em seguida, leia **Introdução ao Audience Manager** para se familiarizar com os conceitos do Audience Manager. Verifique também os guias de implementação técnica e comercial.
 * Consulte as notas de versão mais recentes do Audience Manager e leia sobre os recursos mais recentes na seção **Notas de versão e recursos mais recentes**.
 * Por fim, você pode explorar mais recursos da Experience Cloud, como fóruns, tutoriais em vídeo, cursos de treinamento presenciais e online na seção **Centro de aprendizado - Recursos recomendados do Audience Manager e da Experience Cloud**.
-
-<br> 
 
 ## Funcionalidade principal do Audience Manager
 
@@ -70,8 +68,6 @@ Este guia de documentação técnica oferece assistência de autoajuda para o Au
    </td>
 </table>
 
-
-<br> 
 
 ## Introdução ao Audience Manager
 
@@ -148,8 +144,6 @@ Este guia de documentação técnica oferece assistência de autoajuda para o Au
 
 -->
 
-<br> 
-
 ## Notas de versão e recursos mais recentes
 
 <table> 
@@ -160,7 +154,7 @@ Este guia de documentação técnica oferece assistência de autoajuda para o Au
      <br> 
      <p> <b>Recursos mais recentes</b> </p> <p> 
      Leia sobre os recursos mais recentes do Audience Manager:</p>
-     <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Migração de usuário Audience Manager para Admin Console</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Correspondência de clientes do Google para destinos baseados em pessoas</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Plug-in de Audience Manager para IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Públicos preditivos</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Relatórios de uso de atividade</a></li>
+     <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Migração do usuário do Audience Manager para o Admin Console</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Correspondência de clientes do Google para destinos com base em pessoas</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Plug-in do Audience Manager para TCF do IAB v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Públicos preditivos</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Relatórios de uso de atividade</a></li>
      </ul></p>
     </td>
   </tr> 
@@ -186,7 +180,6 @@ Read about the latest Audience Manager features:
 
 -->
 
-<br> 
 
 ## Centro de aprendizado - Recursos recomendados do Audience Manager e da Experience Cloud
 
