@@ -5,12 +5,12 @@ seo-title: Glossário
 solution: Audience Manager
 title: Glossário
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
-feature: reference
+feature: referência
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 348881dd2f880ca50140dbe5935cff138944003e
 workflow-type: tm+mt
-source-wordcount: '1186'
-ht-degree: 100%
+source-wordcount: '1187'
+ht-degree: 99%
 
 ---
 
@@ -27,8 +27,6 @@ Use [!UICONTROL Algorithmic Modeling] como meio de estender o alcance além do n
 
 Consulte [Compreensão dos modelos algorítmicos](../features/algorithmic-models/algo-models-overview.md).
 
-<br> 
-
 **BAAAM**
 
 [!UICONTROL Bulk Management Tools]. O [!UICONTROL Bulk Management Tools] no [!DNL Audience Manager] é um conjunto de ferramentas do Microsoft Excel que permite criar, modificar ou excluir vários objetos de uma só vez com uma única operação. É possível trabalhar com fontes de dados, sinais derivados, destinos, pastas, segmentos e características. O recurso usa uma planilha do Microsoft Excel com macros que fazem chamadas seguras e autenticadas para as APIs [!DNL Audience Manager].
@@ -43,15 +41,13 @@ Consulte [Ferramentas de gerenciamento em massa](../reference/bulk-management-to
 
 Consulte [Feeds de dados de clientes](../features/cdf-files.md).
 
-<br> 
-
 **ID do CRM**
 
 A ID do CRM é a ID pela qual os clientes identificam os usuários em seu próprio sistema de CRM. Em vez da ID do CRM, usamos o termo DPUUID no Audience Manager.
 
 Consulte DPUUID no [Índice de IDs no Audience Manager](../reference/ids-in-aam.md).
 
-<br> 
+
 
 **Público-alvo endereçável do cliente**
 
@@ -60,25 +56,25 @@ No [Público-alvo endereçável](/help/using/features/addressable-audiences.md),
    **E**
 * Têm uma sincronização de ID com o destino escolhido, independentemente do tempo de sincronização.
 
-<br> 
+
 
 **Atributos do cliente**
 
 Consulte [Atributos do cliente](https://docs.adobe.com/content/help/pt-BR/core-services/interface/customer-attributes/attributes.html) na documentação do produto [!DNL Experience Cloud Core Services].
 
-<br> 
+
 
 **Taxa de correspondência do cliente**
 
 Público-alvo endereçável do cliente ÷ Público-alvo total do cliente expresso como uma %. Consulte [Público-alvo endereçável](/help/using/features/addressable-audiences.md).
 
-<br> 
+
 
 **Público-alvo total do cliente**
 
 No [Público-alvo endereçável](/help/using/features/addressable-audiences.md), essa métrica representa uma contagem de dispositivos que perceberam uma característica com base em regras em suas propriedades ou uma característica integrada de seus arquivos offline durante a janela de retrospectiva.
 
-<br> 
+
 
 **demdex.net**
 
@@ -86,7 +82,7 @@ Demdex.net é um domínio herdado controlado por [!DNL Adobe]. Ele reflete o nom
 
 Consulte [Compreensão das chamadas para o domínio Demdex](../reference/demdex-calls.md).
 
-<br> 
+
 
 **DAID**
 
@@ -94,19 +90,19 @@ Consulte [Compreensão das chamadas para o domínio Demdex](../reference/demdex-
 
 Consulte o [Índice de IDs no Audience Manager](../reference/ids-in-aam.md).
 
-<br> 
+
 
 **Destino**
 
 No [!DNL Audience Manager], um destino é qualquer outro sistema (servidor de anúncios, DSP, rede de anúncios etc.) com o qual você deseja compartilhar dados. O [!UICONTROL Destination Builder] em nossa interface de usuário fornece as ferramentas que permitem criar e gerenciar esses processos de delivery de dados. Os recursos de destino [!DNL Audience Manager] estão localizados em **[!UICONTROL Audience Data > Destinations]**.
 
-<br> 
+
 
 **DIL**
 
 A [!UICONTROL Data Integration Library] é uma biblioteca de API usada pelo [!DNL Audience Manager] para coletar dados de interação do usuário. Consulte [API da Biblioteca de integração de dados (DIL)](../dil/dil-overview.md).
 
-<br> 
+
 
 **dpm**
 
@@ -118,7 +114,7 @@ A [!UICONTROL Data Integration Library] é uma biblioteca de API usada pelo [!DN
 
 Anteriormente chamada de [!DNL Marketing Cloud] ID (MID ou MCID). A [!DNL Experience Cloud] ID é essencial para o serviço de ID. É um identificador exclusivo e persistente para os visitantes do site. Consulte Cookies e o [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/pt-BR/id-service/using/intro/cookies.html).
 
-<br> 
+
 
 **Característica da pasta**
 
@@ -126,7 +122,7 @@ Agrupamento automático de características dentro da taxonomia de pastas. Cada 
 
 Consulte [Características da pasta: Sobre](../features/traits/about-folder-traits.md).
 
-<br> 
+
 
 **Limite de frequência**
 
@@ -140,7 +136,7 @@ Consulte [Recenticidade e frequência](../features/segments/recency-and-frequenc
 
 ID de anúncio do Google, a ID de dispositivo exclusiva que o Google atribui a dispositivos de hardware que executam o sistema operacional Android. Consulte o [Índice de IDs no Audience Manager](../reference/ids-in-aam.md).
 
-<br> 
+
 
 **GUID**
 
@@ -153,13 +149,13 @@ Consulte o [Índice de IDs no Audience Manager](../reference/ids-in-aam.md).
 
 Identificador para anunciantes, a ID de dispositivo exclusiva que a Apple atribui a seus produtos. Consulte o [Índice de IDs no Audience Manager](../reference/ids-in-aam.md).
 
-<br> 
+
 
 **Entrada**
 
 O processo pelo qual você pode enviar dados do público-alvo de outras fontes para o [!DNL Audience Manager]. Consulte [Envio de dados de público-alvo](/help/using/integration/sending-audience-data/send-audience-data.md).
 
-<br> 
+
 
 **Código de integração**
 
@@ -189,13 +185,13 @@ Consulte [Experience Cloud ID](../reference/aam-glossary.md#e-f).
 
 Consulte [Componentes da coleta de dados](../reference/system-components/components-data-collection.md).
 
-<br> 
+
 
 **Link de perfil**
 
 Consulte [Definição das opções de regra de mesclagem de perfis](../features/profile-merge-rules/merge-rule-definitions.md).
 
-<br> 
+
 
 **Regras de mesclagem de perfis**
 
@@ -217,25 +213,25 @@ Um segmento (ou público-alvo) é um conjunto de usuários que compartilham atri
 
 Consulte [Segmentos: Finalidade, composição e regras](../features/segments/segments-purpose.md).
 
-<br> 
+
 
 **Público-alvo endereçável do segmento**
 
 No [Público-alvo endereçável](/help/using/features/addressable-audiences.md), essa métrica representa o número de usuários que pertenceram ao segmento durante o período de análise do relatório e que têm uma sincronização de ID ativa no site. Os segmentos podem incluir seus próprios dados primários e dados secundários e de terceiros, por meio de características adquiridas no [Audience Marketplace](/help/using/features/audience-marketplace/audience-marketplace.md).
 
-<br> 
+
 
 **População total do segmento**
 
 No [Público-alvo endereçável](/help/using/features/addressable-audiences.md), essa métrica representa uma contagem de todos os dispositivos que eram membros do seu segmento durante o período de análise do relatório.
 
-<br> 
+
 
 **Taxa de correspondência do segmento**
 
 Público-alvo endereçável do segmento ÷ População total do segmento expresso como uma %. Consulte [Público-alvo endereçável](/help/using/features/addressable-audiences.md).
 
-<br> 
+
 
 **Sinal**
 
@@ -243,13 +239,13 @@ Os sinais são as menores unidades de dados no [!DNL Audience Manager] e são ex
 
 Consulte [Sinais, características e segmentos](../reference/signal-trait-segment.md).
 
-<br> 
+
 
 **Característica**
 
 Uma característica é uma combinação de um ou mais sinais. Consulte [Sinais, características e segmentos](../reference/signal-trait-segment.md).
 
-<br> 
+
 
 **População de características**
 
@@ -259,7 +255,7 @@ Consulte [Dados de população de característica e segmento no Criador de segme
 
 O TTL define quantos dias um visitante qualificado permanece em uma característica. O TTL é definido nas características e não em segmentos. Os Visitantes saem de um segmento se não visualizarem uma característica qualificada antes do final do intervalo de TTL. Leia mais na [Explicação de tempo de vida útil de segmento e característica](/help/using/features/traits/segment-ttl-explained.md).
 
-<br> 
+
 
 ## U-V {#u-v}
 
@@ -267,7 +263,7 @@ O TTL define quantos dias um visitante qualificado permanece em uma característ
 
 [!DNL Audience Manager] ID exclusiva do usuário. Consulte o [Índice de IDs no Audience Manager](../reference/ids-in-aam.md).
 
-<br> 
+
 
 **ID de visitante**
 
