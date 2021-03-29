@@ -7,9 +7,9 @@ title: Como o delivery de dados e os tempos de processamento de arquivos afetam 
 uuid: 4b975512-f67e-4749-a7ef-168415597682
 feature: referência
 translation-type: tm+mt
-source-git-commit: c3c2f32dda7535b182ea3638a016fe245ed4894c
+source-git-commit: a696bc03e430e25e2752d84905009645c625d762
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '689'
 ht-degree: 5%
 
 ---
@@ -44,8 +44,6 @@ A tabela a seguir lista e descreve os intervalos de tempo em nossos relatórios 
 | Assimilação de arquivo de entrada (dados offline) | O processamento de arquivos é executado duas vezes por dia. Esses procedimentos assimilam dados e os preparam para entrega. Os tempos de entrega do arquivo variam porque são afetados pela quantidade total de dados do cliente que precisam ser processados. Você deve esperar uma latência máxima de 48 horas entre o momento em que o arquivo é carregado no Audience Manager e até que os dados estejam disponíveis para relatórios e ativação. |
 | Arquivos de saída (exportação) | O processamento e a entrega de arquivos ocorrem uma vez por dia, aproximadamente às 14:00 UTC. Lembre-se de que o processamento e a entrega são afetados pelo número e tamanho total desses arquivos. Em alguns casos, pode haver um atraso no processamento do arquivo por até 24 horas. Quando isso acontecer, o Audience Manager enviará 2 arquivos para um dia específico em vez de 1. Notificaremos nossos clientes nos raros casos em que o Audience Manager tiver que parar de processar um arquivo completamente. Dadas essas condições, é difícil estimar os tempos de delivery para dados de saída. Para determinar se recebeu um conjunto completo de arquivos, verifique o carimbo de data e hora e procure por dias ausentes. Este é um carimbo de data e hora UNIX UTC de 13 dígitos que registra a hora em que o arquivo foi criado. Consulte [Transferências de dados de saída em tempo real](../integration/receiving-audience-data/real-time-outbound-transfers/real-time-outbound-transfers.md). |
 | Arquivos de log do servidor de anúncios | O processamento de arquivos é executado em tempo quase real para assimilar registros de arquivo de log, pois os arquivos por hora estão prontos. O processo para preparar os arquivos para relatórios é executado uma vez por dia. Os tempos de entrega do arquivo variam porque são afetados pela quantidade total de dados do cliente que precisam ser processados. Você deve esperar uma latência máxima de 48 horas entre o momento em que você carrega o arquivo no Audience Manager e o momento em que os dados estão disponíveis para relatórios e ativação. |
-
-{style=&quot;table-layout:auto&quot;}
 
 >[!MORELIKETHIS]
 >
