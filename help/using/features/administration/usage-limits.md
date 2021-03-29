@@ -8,9 +8,9 @@ keywords: Mapeamento de ID, mapeamentos de ID, mapeamentos de cookies
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 feature: Uso e faturamento
 translation-type: tm+mt
-source-git-commit: c3c2f32dda7535b182ea3638a016fe245ed4894c
+source-git-commit: a696bc03e430e25e2752d84905009645c625d762
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '585'
 ht-degree: 6%
 
 ---
@@ -45,8 +45,6 @@ As tabelas listam os limites atuais por tipo de item. Não é possível criar no
 | Integrado | 100.000 |
 | Características da pasta | 2.000 |
 
-{style=&quot;table-layout:auto&quot;}
-
 ### Limites do segmento
 
 | Tipo de segmento | Limite máximo |
@@ -70,10 +68,8 @@ As tabelas listam os limites atuais por tipo de item. Não é possível criar no
 | Ativo [!UICONTROL Look-Alike Models] | 20. O Audience Manager só conta os modelos algorítmicos *ativos* em relação ao limite. |
 | [!UICONTROL Look-Alike Models] tamanho máximo do público-alvo | 25.000.000.  Observe que esse limite não pode ser aumentado. Você pode diminuir os tamanhos do público-alvo selecionando menos fontes de dados para o modelo ou selecionando uma janela de retrospectiva mais curta. |
 | Número máximo de características excluídas para um [!UICONTROL Look-Alike Model] | 500. Consulte [Exclusão de característica na Modelagem algorítmica](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
-| Naxima [!UICONTROL Predictive Audiences Models] | 10º |
+| Máximo [!UICONTROL Predictive Audiences Models] | 10º |
 | Número máximo de personas de linha de base para [!UICONTROL Predictive Audiences Models] | 50º |
-
-{style=&quot;table-layout:auto&quot;}
 
 ### Limites da pasta
 
