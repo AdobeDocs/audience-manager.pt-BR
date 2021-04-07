@@ -1,18 +1,16 @@
 ---
-description: Por que minhas características ou meus segmentos não aparecem na página Relatórios de sobreposição?
-seo-description: Por que minhas características ou meus segmentos não aparecem na página Relatórios de sobreposição?
-seo-title: Por que minhas características ou meus segmentos não aparecem na página Relatórios de sobreposição?
+description: Por que nossos usuários somente leitura podem criar, editar ou excluir características e segmentos?
 solution: Audience Manager
-title: Por que minhas características ou meus segmentos não aparecem na página Relatórios de sobreposição?
-feature: support
+title: Por que nossos usuários somente leitura podem criar, editar ou excluir características e segmentos?
+feature: suporte
+exl-id: 3383d27e-9c12-4925-ace3-c3133727d9b9
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 100%
+source-wordcount: '89'
+ht-degree: 98%
 
 ---
-
 
 # Por que nossos usuários somente leitura podem criar, editar ou excluir características e segmentos?
 
