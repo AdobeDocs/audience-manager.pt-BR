@@ -5,10 +5,11 @@ audience: end-user
 user-guide-title: Guia do usuário do Audience Manager
 user-guide-description: O Audience Manager proporciona serviços líderes do setor para o gerenciamento online de dados.
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
+feature-set: Audience Manager
 translation-type: tm+mt
-source-git-commit: 04504d4561414f9558a1f1f4db33cbcf535d54af
+source-git-commit: 9a1604b28f538a4f9595869345b385870419a6c3
 workflow-type: tm+mt
-source-wordcount: '1781'
+source-wordcount: '1789'
 ht-degree: 92%
 
 ---
@@ -38,7 +39,7 @@ ht-degree: 92%
 + Recursos {#features}
    + [Públicos endereçáveis](features/addressable-audiences.md)
    + Administração {#administration}
-      + [Migração de usuário Audience Manager para Admin Console](features/administration/admin-console-migration.md)
+      + [Migração de usuários do Audience Manager para o Admin Console](features/administration/admin-console-migration.md)
       + [Administração](features/administration/administration-overview.md)
       + [Editar as configurações da conta](features/administration/edit-account-settings.md)
       + [Ofuscação de endereço IP](features/administration/ip-obfuscation.md)
@@ -146,7 +147,7 @@ ht-degree: 92%
       + [Sintaxe de código usada no Editor de expressão de segmentos](features/segments/segment-code-syntax.md)
       + [Dados de população de características e segmentos no Construtor de segmentos](features/segments/segment-builder-data.md)
       + [Recomendações de característica](features/segments/trait-recommendations.md)
-      + [Referência de qualificação de características e segmentos](features/traits/trait-and-segment-qualification-reference.md)
+      + [Referência de qualificação de características e segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-and-segment-qualification-reference.html)
    + Características {#traits}
       + [Visão geral das características](/help/using/features/traits/traits-overview.md)
       + [Página de detalhes da característica](features/traits/trait-details-page.md)
@@ -239,7 +240,7 @@ ht-degree: 92%
          + [Visão geral de referência da DCS API](api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)
          + [Métodos da DCS API](api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
          + [Códigos de erros, mensagens e exemplos de DCS](api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
-         + [Monitoramento e Incluir na lista de bloqueios de ID](api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
+         + [Monitoramento de ID e Incluir na lista de bloqueios](api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
          + [IDs da região do DCS, locais e nomes de host](api/dcs-intro/dcs-api-reference/dcs-regions.md)
          + [Formatação de pares de valores-chave em chamadas DCS](api/dcs-intro/dcs-api-reference/dcs-key-format.md)
          + [Condições de raça e tratamento de erros](api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
@@ -287,8 +288,8 @@ ht-degree: 92%
 + Guias de implementação e integração {#implementation-integration-guides}
    + [Guias de implementação e integração](integration/implementation-and-integration.md)
    + [Métodos de integração de dados](integration/data-integration-methods.md)
-   + Integre o Google Ad Manager usando as tags do Google Publisher (GPT){#integrate-dfp-using-gpt}
-      + [Integrar o Google Ad Manager usando a visão geral GPT](integration/gpt-aam-destination/gpt-aam-overview.md)
+   + Integre o Google Ad Manager usando as Tags do Google Publisher (GPT){#integrate-dfp-using-gpt}
+      + [Integrar o Google Ad Manager usando a visão geral do GPT](integration/gpt-aam-destination/gpt-aam-overview.md)
       + [Envio de segmentos para o Google Ad Manager usando GPT](integration/gpt-aam-destination/gpt-aam-requirements.md)
       + [Criar um destino com GPT](integration/gpt-aam-destination/gpt-aam-create-destination.md)
       + [Modificar a chamada da API setTargeting GPT](integration/gpt-aam-destination/gpt-aam-modify-api.md)
@@ -339,12 +340,12 @@ ht-degree: 92%
          + [Mensagem de amostra para parceiros após o processamento de entrada](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
       + [Integrações personalizadas de parceiros](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Integração com a Adobe Experience Platform {#integration-experience-platform}
-      + [Compartilhamento de segmentos de Experience Platform com Audience Manager e outras soluções de Experience Cloud](integration/integration-aep/aam-aep-audience-sharing.md)
+      + [Compartilhamento de segmento do Experience Platform com o Audience Manager e outras soluções do Experience Cloud](integration/integration-aep/aam-aep-audience-sharing.md)
    + Integração com outras soluções da Experience Cloud {#integration-other-solutions}
-      + [Integrar o Audience Manager com o Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
+      + [Integrar o Audience Manager ao Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Como encaminhar dados do Adobe Analytics para o Audience Manager](integration/integration-other-solutions/audience-management-module.md)
       + [Publicar um segmento do Adobe Analytics no Experience Cloud (abre a documentação do Adobe Analytics)](https://docs.adobe.com/content/help/pt-BR/core-services/interface/audiences/t-publish-audience-segment.html)
-      + [Integrar o Audience Manager ao Adobe Campaign (abre a documentação do Adobe Campaign)](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
+      + [Integrar o Audience Manager com o Adobe Campaign (abre a documentação do Adobe Campaign)](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
 + Referência {#reference}
    + [Visão geral de referência](reference/reference.md)
    + [Amazon S3: sobre](reference/amazon-s3.md)
