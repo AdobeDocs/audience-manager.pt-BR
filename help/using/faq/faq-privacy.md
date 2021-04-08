@@ -5,15 +5,15 @@ seo-title: Perguntas frequentes sobre privacidade e retenção de dados
 solution: Audience Manager
 title: Perguntas frequentes sobre privacidade e retenção de dados
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
-feature: Data Governance and Privacy
+feature: Governança e privacidade de dados
+exl-id: bccf49d7-1a3b-4286-86fb-59e472af4501
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 2afb48afad7978b8901e78060c7dccdb2a7bdf7b
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '762'
 ht-degree: 96%
 
 ---
-
 
 # Perguntas frequentes sobre privacidade e retenção de dados {#privacy-and-data-retention-faq}
 
@@ -64,7 +64,7 @@ A tabela a seguir lista os tempos de retenção para diferentes tipos de dados e
   </tr> 
   <tr> 
    <td colname="col1"> <p>Registros brutos </p> </td> 
-   <td colname="col2"> <p>180 dias (removidos após 180 dias sem atividade). </p> <p>Registros brutos são dados recebidos por um servidor de borda por meio de chamadas HTTP ou de arquivos integrados enviados para o <span class="keyword"> Audience Manager</span>. </p> </td> 
+   <td colname="col2"> <p>60 dias (removidos após 60 dias sem atividade). </p> <p>Registros brutos são dados recebidos por um servidor de borda por meio de chamadas HTTP ou de arquivos integrados enviados para o <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Logs do servidor de anúncios </p> </td> 
@@ -72,7 +72,7 @@ A tabela a seguir lista os tempos de retenção para diferentes tipos de dados e
   </tr> 
   <tr> 
    <td colname="col1"> <p>Perfis em nível de CRM (perfis autenticados) </p> </td> 
-   <td colname="col2"> <p>O intervalo TTL (tempo de vida útil) padrão para perfis em nível de CRM inativos (IDs do cliente) é de 24 meses. No entanto, você pode usar a interface do usuário do Audience Manager para reduzir ou estender o intervalo TTL para perfis inativos no nível do CRM entre um mês e cinco anos. Isso pode ser feito ao criar ou editar uma fonte de dados entre dispositivos.</p> <p>Para obter mais informações, consulte Configurações da fonte de dados em <a href="../features/profile-merge-rules/merge-rules-start.md#settings"> Criar uma fonte de dados entre dispositivos </a>.</p> </td> 
+   <td colname="col2"> <p>O intervalo TTL (tempo de vida útil) padrão para perfis em nível de CRM inativos (IDs do cliente) é de 24 meses. No entanto, você pode usar a interface do usuário do Audience Manager para reduzir ou estender o intervalo TTL para perfis inativos em nível de CRM entre um mês e 5 anos. Isso pode ser feito ao criar ou editar uma fonte de dados entre dispositivos.</p> <p>Para obter mais informações, consulte Configurações da fonte de dados em <a href="../features/profile-merge-rules/merge-rules-start.md#settings"> Criar uma fonte de dados entre dispositivos </a>.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>IDs de dispositivo móvel </p> </td> 
@@ -119,4 +119,3 @@ A tabela abaixo lista as opções de retenção para qualificações de caracter
   </tr> 
  </tbody> 
 </table>
-
