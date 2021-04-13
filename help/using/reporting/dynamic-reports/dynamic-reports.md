@@ -1,23 +1,23 @@
 ---
-description: Relatórios interativos exibem dados de desempenho e sobreposição para características e segmentos. Em vez de usar números organizados em colunas e linhas, esses relatórios retornam dados usando diferentes formas, cores e tamanhos. Além disso, você pode escolher indivíduos ou grupos de pontos de dados e detalhar os resultados do relatório para obter mais detalhes. Essas técnicas de visualização e interatividade de relatório ajudam a facilitar a compreensão de grandes quantidades de dados numéricos.
-seo-description: Relatórios interativos exibem dados de desempenho e sobreposição para características e segmentos. Em vez de usar números organizados em colunas e linhas, esses relatórios retornam dados usando diferentes formas, cores e tamanhos. Além disso, você pode escolher indivíduos ou grupos de pontos de dados e detalhar os resultados do relatório para obter mais detalhes. Essas técnicas de visualização e interatividade de relatório ajudam a facilitar a compreensão de grandes quantidades de dados numéricos.
+description: Relatórios interativos exibem dados de desempenho e sobreposição de características e segmentos. Em vez de usar números organizados em colunas e linhas, esses relatórios retornam dados usando diferentes formas, cores e tamanhos. Além disso, você pode escolher pontos de dados individuais ou grupos e detalhar os resultados do relatório para obter mais detalhes. Essas técnicas de visualização e a interatividade de relatórios ajudam a entender grandes quantidades de dados numéricos.
+seo-description: Relatórios interativos exibem dados de desempenho e sobreposição de características e segmentos. Em vez de usar números organizados em colunas e linhas, esses relatórios retornam dados usando diferentes formas, cores e tamanhos. Além disso, você pode escolher pontos de dados individuais ou grupos e detalhar os resultados do relatório para obter mais detalhes. Essas técnicas de visualização e a interatividade de relatórios ajudam a entender grandes quantidades de dados numéricos.
 seo-title: Relatórios interativos e de sobreposição
 solution: Audience Manager
 title: Relatórios interativos e de sobreposição
 uuid: 486f4251-da24-4253-ab01-9dd1da8715aa
-feature: overlap reports
+feature: Relatórios de sobreposição
+exl-id: 2a29b172-a323-422d-99e0-b00aa16e03dc
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '254'
 ht-degree: 21%
 
 ---
 
-
 # Relatórios interativos e de sobreposição{#interactive-and-overlap-reports}
 
-Relatórios interativos exibem dados de desempenho e sobreposição para características e segmentos. Em vez de usar números organizados em colunas e linhas, esses relatórios retornam dados usando diferentes formas, cores e tamanhos. Além disso, você pode escolher indivíduos ou grupos de pontos de dados e detalhar os resultados do relatório para obter mais detalhes. Essas técnicas de visualização e interatividade de relatório ajudam a facilitar a compreensão de grandes quantidades de dados numéricos.
+Relatórios interativos exibem dados de desempenho e sobreposição de características e segmentos. Em vez de usar números organizados em colunas e linhas, esses relatórios retornam dados usando diferentes formas, cores e tamanhos. Além disso, você pode escolher pontos de dados individuais ou grupos e detalhar os resultados do relatório para obter mais detalhes. Essas técnicas de visualização e a interatividade de relatórios ajudam a entender grandes quantidades de dados numéricos.
 
 + [Tecnologia de relatórios](interactive-report-technology.md)
 + [Relatório de sobreposição de característica por característica](trait-trait-overlap-report.md)
