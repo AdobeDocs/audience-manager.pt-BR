@@ -5,12 +5,12 @@ seo-title: Amostragem de dados e taxas de erro em alguns relatórios do Audience
 solution: Audience Manager
 title: Amostragem de dados e taxas de erro em alguns relatórios do Audience Manager
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
-feature: Referência de relatórios
+feature: Referência do relatório
 exl-id: 0b7f9423-0859-4fa8-926b-e4858eed2294
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '470'
 ht-degree: 7%
 
 ---
