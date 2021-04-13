@@ -4,15 +4,15 @@ seo-description: A Adobe fornece o meio de gerenciar e comunicar as opções de 
 seo-title: Plug-in do Audience Manager para a TCF do IAB
 solution: Audience Manager
 title: Plug-in do Audience Manager para a TCF do IAB
-feature: governança e privacidade de dados
+feature: Governança e privacidade de dados
+exl-id: aa6bc415-e52b-4900-951d-ccf51d907aa2
 translation-type: tm+mt
-source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '2441'
 ht-degree: 40%
 
 ---
-
 
 # [!DNL Audience Manager Plug-in for IAB TCF] {#aam-iab-plugin}
 
