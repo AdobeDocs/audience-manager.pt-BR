@@ -5,15 +5,15 @@ seo-title: Requisitos de nome e conteúdo para arquivos de sincronização de ID
 solution: Audience Manager
 title: Requisitos de nome e conteúdo para arquivos de sincronização de ID
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
-feature: Transferência de dados de entrada
+feature: Transferências de dados de entrada
+exl-id: e6b3a438-f843-4a24-89fd-03ef77d7cf04
 translation-type: tm+mt
-source-git-commit: a696bc03e430e25e2752d84905009645c625d762
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 6%
 
 ---
-
 
 # Requisitos de nome e conteúdo para arquivos de sincronização de ID {#name-and-content-requirements-for-id-synchronization-files}
 
