@@ -1,23 +1,23 @@
 ---
-description: O AamGpt é uma função JavaScript que lê dados de cookies de Audience Manager e envia essas informações para as Tags do Google Publisher.
-seo-description: O AamGpt é uma função JavaScript que lê dados de cookies de Audience Manager e envia essas informações para as Tags do Google Publisher.
+description: O AamGpt é uma função JavaScript que lê dados de cookies do Audience Manager e envia essas informações para as Tags do Google Publisher.
+seo-description: O AamGpt é uma função JavaScript que lê dados de cookies do Audience Manager e envia essas informações para as Tags do Google Publisher.
 seo-title: Código do Audience Manager para Tags do Google Publisher
 solution: Audience Manager
 title: Código do Audience Manager para Tags do Google Publisher
 uuid: 24ff5d16-b360-46cc-a4c6-6db34d7fda75
-feature: Third Party Integrations
+feature: Integração de terceiros
+exl-id: 04e74399-7b6a-400e-a1e6-94fe296e7209
 translation-type: tm+mt
-source-git-commit: c63467dec62ff08c3cd32f19ac2e4675c9ce18e3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '118'
 ht-degree: 19%
 
 ---
 
-
 # Código do Audience Manager para Tags do Google Publisher {#audience-manager-code-for-google-publisher-tags}
 
-`AamGpt` é uma  [!DNL JavaScript] função que lê os dados de cookies do Audience Manager e envia essas informações para  [!DNL Google Publisher Tags].
+`AamGpt` é uma  [!DNL JavaScript] função que lê dados de cookie do Audience Manager e envia essas informações para o  [!DNL Google Publisher Tags].
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ ht-degree: 19%
 
 ## Código de exemplo
 
-Coloque o código `AamGpt` na parte superior da página, idealmente dentro do bloco de código `<head>`. O código `AamGpt` está disponível abaixo:
+Coloque o código `AamGpt` na parte superior da página, idealmente, dentro do bloco de código `<head>`. O código `AamGpt` está disponível abaixo:
 
 ```js
 var AamGpt = {  
