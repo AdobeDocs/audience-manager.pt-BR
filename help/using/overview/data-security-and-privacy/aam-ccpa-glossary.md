@@ -4,15 +4,15 @@ seo-description: Este artigo explica os conceitos e a terminologia usados pela C
 seo-title: Glossário da CCPA
 solution: Audience Manager
 title: Glossário da CCPA
-feature: data governance & privacy
+feature: Governança e privacidade de dados
+exl-id: b3e97e2b-81a4-4b32-9716-5b18c3f8362f
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 100%
+source-wordcount: '546'
+ht-degree: 99%
 
 ---
-
 
 # Glossário da CCPA
 
