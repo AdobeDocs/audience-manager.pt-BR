@@ -5,13 +5,13 @@ seo-title: Sincronização de ID para transferências de dados de entrada
 solution: Audience Manager
 title: Sincronização de ID para transferências de dados de entrada
 uuid: 037e74a6-acfd-4cef-b693-16b7aaa8e976
-feature: Transferências de dados de entrada
+feature: Transferência de dados de entrada
 exl-id: cd9be32f-f443-45bd-a906-ec4c8589f608
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
 source-wordcount: '481'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
