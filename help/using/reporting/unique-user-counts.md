@@ -5,12 +5,12 @@ seo-title: Contagem de usuários únicos em sobreposição e relatórios gerais 
 solution: Audience Manager
 title: Contagem de usuários únicos em sobreposição e relatórios gerais
 uuid: 450f6a8c-f363-43de-b2d8-0a156f14ecae
-feature: Referência de relatórios
+feature: Referência do relatório
 exl-id: 439e7e8e-0c2e-4d3e-8148-61b9d57bf4df
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '174'
 ht-degree: 10%
 
 ---
