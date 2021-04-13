@@ -6,15 +6,15 @@ seo-title: Índice de IDs no Audience Manager
 solution: Audience Manager
 title: Índice de IDs no Audience Manager
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
-feature: referência
+feature: 'Referência '
+exl-id: 1caf3c6a-ebfd-49f1-9ebd-d4604474c070
 translation-type: tm+mt
-source-git-commit: 30d18c32f519930703c46046b0c2a413b222c317
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 5%
 
 ---
-
 
 # Índice de IDs em [!DNL Audience Manager] {#index-of-ids-in-audience-manager}
 
