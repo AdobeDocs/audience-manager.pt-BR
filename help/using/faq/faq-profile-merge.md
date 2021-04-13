@@ -1,20 +1,20 @@
 ---
 description: Respostas a perguntas comuns sobre a Regra de mesclagem de perfis e Gráfico de dispositivos.
-keywords: Organization ID
+keywords: ID da organização
 seo-description: Respostas a perguntas comuns sobre a Regra de mesclagem de perfis e Gráfico de dispositivos.
 seo-title: Perguntas frequentes sobre Regras de mesclagem de perfis e Gráfico de dispositivos
 solution: Audience Manager
 title: Perguntas frequentes sobre Regras de mesclagem de perfis e Gráfico de dispositivos
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
-feature: Profile Merge Rules
+feature: Mesclar perfis
+exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1552'
 ht-degree: 86%
 
 ---
-
 
 # Perguntas frequentes sobre Regras de mesclagem de perfis e Gráfico de dispositivos {#profile-merge-rules-and-device-graph-faq}
 
@@ -261,18 +261,18 @@ Sim. A métrica de população de segmentos inclui os dispositivos adicionais qu
 
 Não.
 
-**Por que vejo uma população de segmentos zero para exportações de segmentos para a Adobe Campaign após 16 de março de 2020?**
+**Por que vejo uma população de segmento zero para exportações de segmento para o Adobe Campaign após 16 de março de 2020?**
 
-No final de 2019, lançamos uma série de melhorias nas Regras de mesclagem de Perfis para melhorar a precisão dos arquivos em lote gerados com IDs de vários dispositivos. Esses aprimoramentos serão rigorosamente respeitados em sua instância do Audience Manager a partir de segunda-feira, 16 de março de 2020. Consequentemente, os segmentos mapeados para um destino usando IDs entre dispositivos pararão de produzir exportações em algumas configurações de Regras de mesclagem de Perfis.
+No final de 2019, lançamos uma série de melhorias nas Regras de mesclagem de perfis para melhorar a precisão dos arquivos em lote gerados com IDs de vários dispositivos. Esses aprimoramentos serão rigorosamente cumpridos na sua instância do Audience Manager, a partir de segunda-feira, 16 de março de 2020. Consequentemente, os segmentos mapeados para um destino usando IDs entre dispositivos não produzirão mais exportações em algumas configurações das Regras de mesclagem de perfis.
 
-Para garantir a integração correta entre a instância do Audience Manager e os destinos usando IDs de vários dispositivos, como a Adobe Campaign, verifique se você atende aos seguintes requisitos:
+Para garantir a integração correta entre a instância do Audience Manager e os destinos usando IDs entre dispositivos, como o Adobe Campaign, verifique se você atende aos seguintes requisitos:
 
-1. Revise a Regra de mesclagem de Perfis usada pelos segmentos mapeados para o destino da ID declarada da Adobe Campaign. A regra de mesclagem de Perfis deve usar a opção [!UICONTROL Last Authenticated Profile], de modo que todos os perfis autenticados possam ser incluídos nas exportações. Se a Regra de mesclagem de Perfis estiver usando uma opção diferente, alterne-a para [!UICONTROL Last Authenticated Profile].
-2. Selecione a fonte de dados da ID declarada da Adobe Campaign nas configurações da Regra de mesclagem de Perfis.
+1. Revise a Regra de mesclagem de perfis usada pelos segmentos mapeados para o destino de ID declarada da Adobe Campaign. A Regra de mesclagem de perfis deve usar a opção [!UICONTROL Last Authenticated Profile] para que todos os perfis autenticados possam ser incluídos nas exportações. Se a Regra de mesclagem de perfis estiver usando uma opção diferente, alterne-a para [!UICONTROL Last Authenticated Profile].
+2. Selecione a fonte de dados da ID declarada da Adobe Campaign nas configurações da Regra de mesclagem de perfis.
 
 >[!NOTE]
 >
-> Aumentamos o limite da Regra de mesclagem de Perfis em 1 para clientes que enfrentam essa situação, para que você possa criar uma Regra de mesclagem de Perfis dedicada para os segmentos mapeados para o destino da ID declarada da Adobe Campaign, sem alterar as Regras de mesclagem de Perfis para outros casos de uso.
+> Aumentamos o limite de Regra de mesclagem de perfis em 1 para clientes que enfrentam essa situação, para que você possa criar uma Regra de mesclagem de perfis dedicada para os segmentos mapeados para o destino de ID declarada da Adobe Campaign, sem alterar as Regras de mesclagem de perfis para outros casos de uso.
 
 >[!MORELIKETHIS]
 >
