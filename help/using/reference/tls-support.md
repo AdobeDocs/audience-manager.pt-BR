@@ -1,29 +1,29 @@
 ---
-description: O Transport Layer Security (TLS) é um protocolo criptográfico usado para estabelecer um canal de comunicações seguro entre dois sistemas. É utilizado para autenticar um ou ambos os sistemas e proteger a confidencialidade e integridade da informação transmitida entre sistemas. Em maio de 2018, havia três versões do protocolo TLS em uso com TLS 1.0, 1.1 e 1.2.
-seo-description: O Transport Layer Security (TLS) é um protocolo criptográfico usado para estabelecer um canal de comunicações seguro entre dois sistemas. É utilizado para autenticar um ou ambos os sistemas e proteger a confidencialidade e integridade da informação transmitida entre sistemas. Em maio de 2018, havia três versões do protocolo TLS em uso com TLS 1.0, 1.1 e 1.2.
+description: A TLS (Transport Layer Security) é um protocolo criptográfico usado para estabelecer um canal de comunicações seguro entre dois sistemas. É utilizado para autenticar um ou ambos os sistemas e proteger a confidencialidade e integridade da informação transmitida entre sistemas. Em maio de 2018, havia três versões do protocolo TLS em uso com TLS 1.0, 1.1 e 1.2.
+seo-description: A TLS (Transport Layer Security) é um protocolo criptográfico usado para estabelecer um canal de comunicações seguro entre dois sistemas. É utilizado para autenticar um ou ambos os sistemas e proteger a confidencialidade e integridade da informação transmitida entre sistemas. Em maio de 2018, havia três versões do protocolo TLS em uso com TLS 1.0, 1.1 e 1.2.
 seo-title: Substituição de TLS 1.0 e 1.1
 solution: Audience Manager
 title: Substituição de TLS 1.0 e 1.1
 uuid: 6a820e63-dd49-4689-9596-940aabba18ec
-feature: reference
+feature: 'Referência '
+exl-id: 857105c1-726a-4d79-bd1c-accb368aef29
 translation-type: tm+mt
-source-git-commit: 5d6983f5308f1dfd4560ee1b38bcaee3ca6e422f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '277'
 ht-degree: 3%
 
 ---
 
-
 # Substituição de TLS 1.0 e 1.1{#tls-deprecation}
 
-O Transport Layer Security (TLS) é um protocolo criptográfico usado para estabelecer um canal de comunicações seguro entre dois sistemas. É utilizado para autenticar um ou ambos os sistemas e proteger a confidencialidade e integridade da informação transmitida entre sistemas. Em maio de 2018, havia três versões do protocolo TLS em uso: TLS 1.0, 1.1 e 1.2.
+A TLS (Transport Layer Security) é um protocolo criptográfico usado para estabelecer um canal de comunicações seguro entre dois sistemas. É utilizado para autenticar um ou ambos os sistemas e proteger a confidencialidade e integridade da informação transmitida entre sistemas. Em maio de 2018, havia três versões do protocolo TLS em uso: TLS 1.0, 1.1 e 1.2.
 
-Em março de 2019, [!DNL Adobe] encerrou o suporte para o protocolo [!DNL TLS 1.0]. A funcionalidade do Adobe Audience Manager não funciona para seus usuários finais que usam navegadores que só suportam [!DNL TLS 1.0].
+Em março de 2019, [!DNL Adobe] encerrou o suporte para o protocolo [!DNL TLS 1.0]. A funcionalidade do Adobe Audience Manager não funciona para os usuários finais que usam navegadores compatíveis apenas com [!DNL TLS 1.0].
 
-Em março de 2020, o [!DNL Adobe] encerrará o suporte ao protocolo [!DNL TLS 1.1]. A funcionalidade do Adobe Audience Manager deixará de funcionar para os usuários finais que usam navegadores que suportam apenas [!DNL TLS 1.1].
+Em março de 2020, [!DNL Adobe] encerrará o suporte ao protocolo [!DNL TLS 1.1]. A funcionalidade do Adobe Audience Manager deixará de funcionar para os usuários finais que usam navegadores compatíveis apenas com [!DNL TLS 1.1].
 
-O Adobe recomenda o uso de [!DNL TLS 1.2], que é, no momento da escrita, a versão mais recente do protocolo. Todos os navegadores modernos usam [!DNL TLS 1.2]. Coletamos para você uma lista de navegadores, versões e suporte a [!DNL TLS]. Para obter mais informações sobre o suporte ao navegador TLS, visite [o link da Wikipedia Transport Layer Security](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers).
+O Adobe recomenda o uso de [!DNL TLS 1.2], que é, no momento da escrita, a versão mais recente do protocolo. Todos os navegadores modernos usam [!DNL TLS 1.2]. Coletamos para você uma lista de navegadores, versões e seu suporte [!DNL TLS]. Para obter mais informações sobre o suporte ao navegador TLS, visite [o link da Wikipédia Transport Layer Security](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers).
 
 <!--
 
