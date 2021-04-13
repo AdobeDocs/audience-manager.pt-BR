@@ -1,21 +1,21 @@
 ---
-description: As opções no menu Administração permitem que você crie usuários de Audience Manager e os atribua a grupos. Você também pode visualização de limites (características, segmentos, destinos e modelos).
-keywords: rbac;RBAC;baseado em função;baseado em função;controles de acesso baseados em função
-seo-description: As opções no menu Administração permitem que você crie usuários de Audience Manager e os atribua a grupos. Você também pode visualização de limites (características, segmentos, destinos e modelos).
+description: As opções no menu Administração permitem criar usuários do Audience Manager e atribuí-los a grupos. Também é possível visualizar limites (características, segmentos, destinos e modelos).
+keywords: rbac; RBAC; baseado em função; baseado em função; controles de acesso baseados em função
+seo-description: As opções no menu Administração permitem criar usuários do Audience Manager e atribuí-los a grupos. Também é possível visualizar limites (características, segmentos, destinos e modelos).
 seo-title: Administração
 solution: Audience Manager
 title: Administração
-topic: DIL API
+topic-edit: DIL API
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
-feature: Administration
+feature: Administração
+exl-id: f23f4294-35d9-4128-bcda-64a3eccbb4e7
 translation-type: tm+mt
-source-git-commit: 55cb69bad1f369ed3b58bece54aebdca4b14f7a7
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1204'
 ht-degree: 2%
 
 ---
-
 
 # [!UICONTROL Administration] (Controles RBAC)  {#administration}
 
@@ -23,16 +23,16 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> O gerenciamento de conta de usuário está mudando para [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). Para a migração de usuários do start, exigimos que todos os clientes do Audience Manager para tomar imediatamente as medidas necessárias descritas neste artigo: [migração de usuário Audience Manager para Admin Console](admin-console-migration.md).
+> O gerenciamento da conta de usuário está sendo transferido para o [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). Para iniciar a migração de usuários, exigimos que todos os clientes do Audience Manager tomem imediatamente as medidas necessárias descritas neste artigo: [Migração de Audience Manager user para Admin Console](admin-console-migration.md).
 > 
-> Depois que todos os clientes migrarem, as seções de gerenciamento de usuários desse documento desaparecerão.
+> Depois que todos os clientes tiverem migrado, as seções de gerenciamento de usuários deste documento desaparecerão.
 
 
-As opções no menu [!UICONTROL Administration] permitem que você crie usuários do Audience Manager e os atribua a grupos. Você também pode visualização de limites (características, segmentos, destinos e modelos).
+As opções no menu [!UICONTROL Administration] permitem criar usuários do Audience Manager e atribuí-los a grupos. Também é possível visualizar limites (características, segmentos, destinos e modelos).
 
-Os clientes corporativos que usam [!DNL Audience Manager] precisam de uma plataforma de gestão de dados para todos os seus dados, mas devem ser capazes de controlar a visibilidade dos diferentes elementos de dados para unidades comerciais específicas. Você pode fazer isso usando permissões de grupo, também conhecido como [!UICONTROL Role-Based Access Control] ([!UICONTROL RBAC]).
+Os clientes corporativos que usam [!DNL Audience Manager] precisam de uma plataforma de gerenciamento de dados para todos os seus dados, mas devem ser capazes de controlar a visibilidade dos diferentes elementos de dados para unidades comerciais específicas. Você pode fazer isso usando permissões de grupo, também conhecidas como [!UICONTROL Role-Based Access Control] ([!UICONTROL RBAC]).
 
-[!DNL Audience Manager] usa grupos para atribuir permissões. As permissões não são atribuídas no nível do usuário. As permissões de grupo estão vinculadas a objetos ([!UICONTROL traits], segmentos etc.) e às ações que você pode executar nesses objetos (edição, visualização etc.). Esses controles também estão disponíveis por meio das APIs REST do Audience Manager. Consulte [Gerenciamento de usuários](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-user.md), [Gerenciamento de grupos](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-group.md) e [Métodos de API do Gerenciamento de permissões](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-permissions.md).
+[!DNL Audience Manager] O usa grupos para atribuir permissões. As permissões não são atribuídas no nível do usuário. As permissões de grupo são vinculadas a objetos ([!UICONTROL traits], segmentos etc.) e às ações que você pode executar nesses objetos (editar, exibir, etc.). Esses controles também estão disponíveis por meio das APIs REST do Audience Manager. Consulte [Gerenciamento de usuários](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-user.md), [Gerenciamento de grupos](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-group.md) e [Métodos de API do Gerenciamento de permissões](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-permissions.md).
 
 ## Criar usuários {#create-users}
 
@@ -40,40 +40,40 @@ Os clientes corporativos que usam [!DNL Audience Manager] precisam de uma plataf
 
 >[!IMPORTANT]
 >
-> O gerenciamento de conta de usuário está mudando para [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Para a migração de usuários do start, exigimos que todos os clientes do Audience Manager para tomar imediatamente as medidas necessárias descritas neste artigo: [migração de usuário Audience Manager para Admin Console](admin-console-migration.md).
+> O gerenciamento da conta de usuário está sendo transferido para o [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Para iniciar a migração de usuários, exigimos que todos os clientes do Audience Manager tomem imediatamente as medidas necessárias descritas neste artigo: [Migração de Audience Manager user para Admin Console](admin-console-migration.md).
 > 
-> Depois que todos os clientes migrarem, a seção de gerenciamento de usuários desse documento desaparecerá.
+> Depois que todos os clientes tiverem migrado, a seção de gerenciamento de usuários deste documento desaparecerá.
 
-Crie usuários em [!DNL Audience Manager] e especifique detalhes de usuários, status de logon e atribua usuários a grupos.
+Crie usuários em [!DNL Audience Manager] e especifique os detalhes do usuário, o status de logon e atribua usuários a grupos.
 
 1. Clique em **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
 1. Clique em ![](assets/icon_add.png) para exibir a página [!UICONTROL Create New User].
 1. Em **[!UICONTROL User Details]**, preencha os campos:
-   * **[!UICONTROL Username]:** Especifique um nome de usuário exclusivo para Audience Manager.
-   * **[!UICONTROL First Name]:** Especifique o nome do usuário.
-   * **[!UICONTROL Last Name]:** Especifique o sobrenome do usuário.
-   * **[!UICONTROL Email Address]:** Especifique o endereço de email do usuário. [!DNL Audience Manager] não envia notificações regulares aos usuários. [!DNL Audience Manager] os administradores têm acesso aos endereços de email dos usuários e podem enviar manualmente os usuários por email, conforme necessário. Por exemplo, se um usuário esquecer sua senha, o endereço de email especificado nesse campo será usado para enviar uma senha temporária e instruções para redefinir a senha.
-   * **[!UICONTROL Phone Number]:** Especifique o número de telefone do usuário.
-   * **[!UICONTROL Is Admin]:** Especifique se este usuário é um  [!DNL Audience Manager] administrador. Os usuários administradores podem gerenciar usuários (criar, editar etc.) e grupos (criar, atribuir permissões etc.). Os usuários não administradores podem controlar somente seus próprios perfis de usuário, incluindo a edição de seus endereços de email e a redefinição de suas próprias senhas. Para obter mais informações, consulte [Editar suas configurações de conta](../../features/administration/edit-account-settings.md).
+   * **[!UICONTROL Username]:** especifique um nome de usuário exclusivo para Audience Manager.
+   * **[!UICONTROL First Name]:** especifique o nome do usuário.
+   * **[!UICONTROL Last Name]:** especifique o sobrenome do usuário.
+   * **[!UICONTROL Email Address]:** especifique o endereço de email do usuário. [!DNL Audience Manager] não envia notificações regulares aos usuários. [!DNL Audience Manager] Os administradores têm acesso aos endereços de email dos usuários e podem enviar emails manualmente aos usuários, conforme necessário. Por exemplo, se um usuário esquecer a senha, o endereço de email especificado nesse campo será usado para enviar uma senha temporária e instruções para redefinir a senha.
+   * **[!UICONTROL Phone Number]:** especifique o número de telefone do usuário.
+   * **[!UICONTROL Is Admin]:** especifique se este usuário é um  [!DNL Audience Manager] administrador. Usuários administradores podem gerenciar usuários (criar, editar etc.) e grupos (criar, atribuir permissões etc.). Usuários não administradores podem controlar somente seus próprios perfis de usuário, incluindo a edição de seus endereços de email e a redefinição de suas próprias senhas. Para obter mais informações, consulte [Editar as configurações da sua conta](../../features/administration/edit-account-settings.md).
 1. Em **[!UICONTROL Login]**, selecione o status desejado:
-   * **[!UICONTROL Active]:Os usuários**  ativos podem acessar  [!DNL Audience Manager] e ter as permissões concedidas pela associação ao grupo.
-   * **[!UICONTROL Deactivated]:Os usuários**  desativados não podem acessar  [!DNL Audience Manager] e não têm permissões. Se você desativar os usuários, as informações deles permanecerão em [!DNL Audience Manager] e você poderá simplesmente reativá-los, se necessário. Se você remover usuários, será necessário recriá-los se eles precisarem usar [!DNL Audience Manager] novamente no futuro.
+   * **[!UICONTROL Active]:**  os usuários ativos podem acessar  [!DNL Audience Manager] e ter as permissões concedidas pela associação a grupos.
+   * **[!UICONTROL Deactivated]:**  os usuários desativados não podem acessar  [!DNL Audience Manager] e não têm permissões. Se você desativar usuários, as informações dele permanecerão em [!DNL Audience Manager] e você poderá simplesmente reativá-los, se necessário. Se você remover usuários, será necessário recriá-los se eles precisarem usar [!DNL Audience Manager] novamente no futuro.
    * **[!UICONTROL Expired]:** A senha de um usuário tem mais de 90 dias.
-   * **[!UICONTROL Pending]:** O usuário tem uma senha temporária, como depois de uma redefinição de senha ou como uma conta totalmente nova, e ainda não definiu uma senha permanente.
-   * **[!UICONTROL Locked Out]:** 5 tentativas incorretas de login bloquearão um usuário.
-1. Em **[!UICONTROL Assigned Groups]**, na lista suspensa, selecione os grupos desejados aos quais você deseja atribuir esse usuário.
-Para obter mais informações sobre grupos e permissões, consulte [Criar um Grupo](../../features/administration/administration-overview.md#create-group).
+   * **[!UICONTROL Pending]:** O usuário tem uma senha temporária, como após uma redefinição de senha ou como uma conta totalmente nova, e ainda não definiu uma senha permanente.
+   * **[!UICONTROL Locked Out]:** 5 tentativas incorretas de logon bloquearão um usuário.
+1. Em **[!UICONTROL Assigned Groups]**, na lista suspensa, selecione os grupos desejados aos quais deseja atribuir esse usuário.
+Para obter mais informações sobre grupos e permissões, consulte [Criar um grupo](../../features/administration/administration-overview.md#create-group).
 1. Clique em **[!UICONTROL Save]**.
 
 ## Criar um [!UICONTROL Group] {#create-group}
 
 >[!IMPORTANT]
 >
-> O gerenciamento de conta de usuário está mudando para [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Para a migração de usuários do start, recomendamos que todos os clientes do Audience Manager tomem imediatamente as medidas necessárias descritas neste artigo: [migração de usuário Audience Manager para Admin Console](admin-console-migration.md).
+> O gerenciamento da conta de usuário está sendo transferido para o [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Para iniciar a migração de usuários, recomendamos que todos os clientes do Audience Manager tomem imediatamente as medidas necessárias descritas neste artigo: [Migração de Audience Manager user para Admin Console](admin-console-migration.md).
 > 
-> Depois que todos os clientes migrarem, esta seção desaparecerá.
+> Depois que todos os clientes tiverem migrado, esta seção desaparecerá.
 
-Um *grupo* é uma coleção de usuários que compartilham direitos de acesso aos objetos [!UICONTROL destination], [!UICONTROL segment] e [!UICONTROL trait]. É possível limitar grupos somente a objetos únicos ou conceder a eles amplo acesso a combinações de objetos diferentes.
+Um *grupo* é uma coleção de usuários que compartilham direitos de acesso a [!UICONTROL destination], [!UICONTROL segment] e [!UICONTROL trait] objetos. É possível limitar grupos a objetos únicos ou conceder a eles amplo acesso a combinações de objetos diferentes.
 
 <!-- t_create_groups.xml -->
 
@@ -84,28 +84,28 @@ Para criar um grupo:
 3. Em [!UICONTROL Group Details]:
    * Nomeie o grupo.
    * Forneça uma breve descrição do grupo.
-4. Em [!UICONTROL Group Members], clique em um usuário das opções **[!UICONTROL Add Users]** para adicioná-las ao grupo.
-5. Em [!UICONTROL Group Permissions], selecione [característica](../../features/traits/trait-details-page.md), [segment](../../features/segments/segments-purpose.md) ou [destino](../../features/destinations/destinations.md) de **[!UICONTROL Add Object]**.
+4. Em [!UICONTROL Group Members], clique em um usuário das opções **[!UICONTROL Add Users]** para adicioná-lo ao grupo.
+5. Em [!UICONTROL Group Permissions], selecione um [característica](../../features/traits/trait-details-page.md), [segmento](../../features/segments/segments-purpose.md) ou [destino](../../features/destinations/destinations.md) de **[!UICONTROL Add Object]**.
 Isso abre uma janela de permissões para o objeto selecionado.
 6. Marque a caixa de seleção das permissões que você deseja que os membros do grupo tenham.
-7. *(Opcional)* Atribuir  [permissões de curinga ](../../features/administration/administration-overview.md#wild-card-permissions) ao grupo.
+7. *(Opcional)* Atribua  [permissões ](../../features/administration/administration-overview.md#wild-card-permissions) curinga ao grupo.
 8. Clique em **[!UICONTROL Save Group]**.
 
-## Noções básicas sobre [!UICONTROL Wild Card Permissions] {#wild-card-permissions}
+## Entendendo [!UICONTROL Wild Card Permissions] {#wild-card-permissions}
 
 >[!IMPORTANT]
 >
-> O gerenciamento de conta de usuário está mudando para [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Para a migração de usuários do start, recomendamos que todos os clientes do Audience Manager tomem imediatamente as medidas necessárias descritas neste artigo: [migração de usuário Audience Manager para Admin Console](admin-console-migration.md).
+> O gerenciamento da conta de usuário está sendo transferido para o [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Para iniciar a migração de usuários, recomendamos que todos os clientes do Audience Manager tomem imediatamente as medidas necessárias descritas neste artigo: [Migração de Audience Manager user para Admin Console](admin-console-migration.md).
 > 
-> Depois que todos os clientes migrarem, esta seção desaparecerá.
+> Depois que todos os clientes tiverem migrado, esta seção desaparecerá.
 
 Simplifique o gerenciamento de direitos de grupo com [!UICONTROL Wild Card Permissions].
 
 <!-- c_wildcard_permissions.xml -->
 
-[!UICONTROL Wild Card Permissions] conceder aos membros do grupo acesso automático a cada fonte de dados associada a uma  [!UICONTROL segment],  [!UICONTROL destination]ou  [!UICONTROL trait]. Por comparação, as permissões regulares permitem que você atribua somente [!UICONTROL data sources] a um desses objetos. E, quando você adiciona novos [!UICONTROL data sources], os membros do grupo não têm acesso a essas novas fontes.
+[!UICONTROL Wild Card Permissions] conceder aos membros do grupo acesso automático a cada fonte de dados associada a uma  [!UICONTROL segment],  [!UICONTROL destination]ou  [!UICONTROL trait]. Por comparação, as permissões regulares somente permitem atribuir [!UICONTROL data sources] específico a um desses objetos. E, quando você adiciona novos [!UICONTROL data sources], os membros do grupo não recebem acesso a essas novas fontes.
 
-É necessário abrir as permissões do grupo e atribuir os novos [!UICONTROL data sources] ao grupo. [!UICONTROL Wild Card Permissions] permite evitar esse processo de  [!UICONTROL data source] atualização manual. Grupos com [!UICONTROL Wild Card Permissions] obtêm acesso a novos [!UICONTROL data sources] sem autorização explícita.
+É necessário abrir as permissões do grupo e atribuir essas novas [!UICONTROL data sources] ao grupo. [!UICONTROL Wild Card Permissions] permite evitar esse processo de  [!UICONTROL data source] atualização manual. Grupos com [!UICONTROL Wild Card Permissions] obtêm acesso a novo [!UICONTROL data sources] sem autorização explícita.
 
 ![](assets/wild-card.png)
 
@@ -114,11 +114,11 @@ Leia abaixo uma descrição do que cada [!UICONTROL wildcard permission] signifi
 **[!UICONTROL Trait]**
 
 * `MAP_ALL_TRAITS_TO_MODELS` - Os usuários podem selecionar  [!UICONTROL traits] como linha de base para  [!UICONTROL models].
-* `EDIT_ALL_TRAITS` - Os usuários podem editar todas as  [!UICONTROL traits] configurações dentro de sua conta de empresa.
-* `VIEW_ALL_TRAITS` - Os usuários podem visualização todas as  [!UICONTROL traits] configurações dentro de sua conta de empresa.
-* `DELETE_ALL_TRAITS` - Os usuários podem excluir todas as  [!UICONTROL traits] configurações dentro de sua conta de empresa.
+* `EDIT_ALL_TRAITS` - Os usuários podem editar todas as  [!UICONTROL traits] configurações na conta da empresa.
+* `VIEW_ALL_TRAITS` - Os usuários podem exibir todas as  [!UICONTROL traits] configurações na conta da empresa.
+* `DELETE_ALL_TRAITS` - Os usuários podem excluir todas as  [!UICONTROL traits] configurações na conta da empresa.
 * `CREATE_ALL_ALGO_TRAITS` - Os usuários podem criar  [!UICONTROL algorithmic traits].
-* `MAP_ALL_TO_SEGMENTS` - Os usuários podem adicionar qualquer uma das  [!UICONTROL traits] pertencentes à sua empresa  [!UICONTROL segments].
+* `MAP_ALL_TO_SEGMENTS` - Os usuários podem adicionar qualquer um dos  [!UICONTROL traits] pertencentes à sua empresa ao  [!UICONTROL segments].
 * `CREATE_ALL_TRAITS` - Os usuários podem criar  [!UICONTROL traits].
 
 **[!UICONTROL Reports]**
@@ -127,57 +127,57 @@ Leia abaixo uma descrição do que cada [!UICONTROL wildcard permission] signifi
 
 **[!UICONTROL Models]**
 
-* `VIEW_MODELS` - Os usuários têm permissão para visualizações  [!UICONTROL models] pertencentes à empresa.
+* `VIEW_MODELS` - Os usuários têm permissão para visualizar  [!UICONTROL models] pertencentes à empresa.
 
 **[!UICONTROL Derived Signals]**
 
-* `VIEW_DERIVED_SIGNALS` - Os usuários podem visualização todas as  [!UICONTROL derived signals] pessoas pertencentes à sua empresa.
+* `VIEW_DERIVED_SIGNALS` - Os usuários podem exibir todos os  [!UICONTROL derived signals] pertencentes à empresa.
 * `CREATE_DERIVED_SIGNALS` - Os usuários podem criar  [!UICONTROL derived signals].
-* `EDIT_DERIVED_SIGNALS` - Os usuários podem editar todas as  [!UICONTROL derived signals] informações pertencentes à sua empresa.
-* `DELETE_DERIVED_SIGNALS` - Os usuários podem excluir qualquer uma das  [!UICONTROL derived signals] empresas.
+* `EDIT_DERIVED_SIGNALS` - Os usuários podem editar todas as  [!UICONTROL derived signals] pertencentes à empresa.
+* `DELETE_DERIVED_SIGNALS` - Os usuários podem excluir qualquer um dos  [!UICONTROL derived signals] pertencentes à empresa.
 
 **[!UICONTROL Destination]**
 
-* `EDIT_ALL_DESTINATIONS` - Os usuários podem editar todas as  [!UICONTROL destinations] configurações dentro de suas contas de empresa.
+* `EDIT_ALL_DESTINATIONS` - Os usuários podem editar todas as  [!UICONTROL destinations] configurações dentro da conta da empresa.
 * `CREATE_DESTINATIONS` - Os usuários podem criar  [!UICONTROL destinations].
-* `VIEW_ALL_DESTINATIONS` - Os usuários podem visualização todas as  [!UICONTROL destinations] configurações dentro de sua conta de empresa.
-* `DELETE_ALL_DESTINATIONS` - Os usuários podem excluir todas as  [!UICONTROL destinations] configurações dentro de sua conta de empresa.
+* `VIEW_ALL_DESTINATIONS` - Os usuários podem visualizar todas as  [!UICONTROL destinations] configurações dentro da conta da empresa.
+* `DELETE_ALL_DESTINATIONS` - Os usuários podem excluir todas as  [!UICONTROL destinations] configurações em sua conta da empresa.
 
 **[!UICONTROL Tags]**
 
-* `VIEW_TAGS` - Os usuários podem fazer tudo (visualização, criar, editar, excluir) em seus  [!UICONTROL Tag Containers]computadores.
+* `VIEW_TAGS` - Os usuários podem fazer tudo (visualizar, criar, editar, excluir) nas suas  [!UICONTROL Tag Containers]páginas.
 
 **[!UICONTROL Audience Lab]**
 
-* `MANAGE_SEGMENT_TEST_GROUPS` - Os usuários podem fazer tudo (visualização, criar, editar, excluir) em seus grupos  [!UICONTROL Audience Lab] de teste.
+* `MANAGE_SEGMENT_TEST_GROUPS` - Os usuários podem fazer tudo (visualizar, criar, editar, excluir) nos grupos  [!UICONTROL Audience Lab] de teste.
 
 **[!UICONTROL Segment]**
 
 * `CREATE_ALL_SEGMENTS` - Os usuários podem criar segmentos.
-* `DELETE_ALL_SEGMENTS` - Os usuários podem excluir todos os segmentos configurados em suas contas de empresa.
+* `DELETE_ALL_SEGMENTS` - Os usuários podem excluir todos os segmentos configurados em sua conta da empresa.
 * `MAP_ALL_TO_DESTINATIONS` - Os usuários podem mapear qualquer um dos segmentos pertencentes à sua empresa para destinos.
-* `EDIT_ALL_SEGMENTS` - Os usuários podem editar todos os segmentos configurados em suas contas de empresa.
-* `MAP_ALL_SEGMENTS_TO_MODELS` - Os usuários podem selecionar segmentos como linha de base para modelos.
-* `VIEW_ALL_SEGMENTS` - Os usuários podem visualização todos os segmentos configurados em suas contas de empresa.
+* `EDIT_ALL_SEGMENTS` - Os usuários podem editar todos os segmentos configurados em sua conta da empresa.
+* `MAP_ALL_SEGMENTS_TO_MODELS` - Os usuários podem selecionar segmentos como linha de base para os modelos.
+* `VIEW_ALL_SEGMENTS` - Os usuários podem visualizar todos os segmentos configurados em sua conta da empresa.
 
 **[!UICONTROL Signals]**
 
-* `VIEW_ALL_SIGNALS` - Os utilizadores podem visualização todos os sinais captados à  [Data Explorer](/help/using/features/data-explorer/data-explorer-overview.md).
+* `VIEW_ALL_SIGNALS` - Os usuários podem visualizar todos os sinais capturados no  [Data Explorer](/help/using/features/data-explorer/data-explorer-overview.md).
 
 ## Casos de uso {#use-cases}
 
-### Monitorando o Acesso do Usuário {#monitoring-user-access}
+### Monitorar o acesso do usuário {#monitoring-user-access}
 
-[!UICONTROL Role-Based Access Control] pode ajudá-lo a monitorar o status de login do usuário, fornecendo uma imagem clara de quem pode acessar a instância do Audience Manager.
+[!UICONTROL Role-Based Access Control] O pode ajudar você a monitorar o status de logon do usuário, fornecendo uma imagem clara de quem pode acessar a instância do Audience Manager.
 
 Dependendo dos requisitos de sua empresa, você pode ativar e desativar as contas de usuário, conforme necessário.
 
-![acesso do usuário ao monitor](assets/monitor-user-access.png)
+![monitorar-usuário-acesso](assets/monitor-user-access.png)
 
 ### Garanta a Proteção de Acesso para [!UICONTROL Data Sources] {#protect-sensitive-data-sources} Sensível
 
 Você pode configurar [!UICONTROL Role-Based Access Control] no nível [!UICONTROL trait], segmento e [!UICONTROL destination] para cada grupo de usuários.
 
-Esse recurso ajuda a gerenciar como seus usuários visualizações, criam, leem, gravam e editam conjuntos de dados específicos, além de impedir que eles acessem conjuntos de dados que não devem estar disponíveis para eles.
+Esse recurso ajuda você a gerenciar a forma como seus usuários visualizam, criam, leem, gravam e editam conjuntos de dados específicos, e até mesmo impede que os usuários acessem conjuntos de dados que não devem estar disponíveis para eles.
 
 ![proteção de acesso](assets/access-protection.png)
