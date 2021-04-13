@@ -5,13 +5,13 @@ seo-title: Requisitos de nome e tamanho de arquivo do Amazon S3 para arquivos de
 solution: Audience Manager
 title: Requisitos de nome e tamanho de arquivo do Amazon S3 para arquivos de dados de entrada
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
-feature: Transferências de dados de entrada
+feature: Transferência de dados de entrada
 exl-id: 428acdb5-fff0-4b70-b15a-e384aed9cc2d
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
 source-wordcount: '1054'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
