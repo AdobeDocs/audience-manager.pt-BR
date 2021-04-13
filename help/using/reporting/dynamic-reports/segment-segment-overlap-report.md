@@ -5,15 +5,15 @@ seo-title: Relatório de sobreposição de segmento por segmento
 solution: Audience Manager
 title: Relatório de sobreposição de segmento por segmento
 uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
-feature: overlap reports
+feature: Relatórios de sobreposição
+exl-id: 43a8ea20-3197-4623-a03a-bfe40e5049cd
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '377'
 ht-degree: 11%
 
 ---
-
 
 # Relatório de sobreposição de segmento por segmento{#segment-to-segment-overlap-report}
 
@@ -21,7 +21,7 @@ Retorna dados sobre quantos usuários únicos são compartilhados entre seus seg
 
 >[!NOTE]
 >
->Os relatórios de sobreposição em Audience Manager seguem os princípios do RBAC. Você só pode ver segmentos de fontes de dados às quais você tem acesso com base no [Grupo de usuários RBAC](/help/using/features/administration/administration-overview.md) ao qual você pertence.
+>Os relatórios de sobreposição em Audience Manager seguem os princípios do RBAC. Você só pode ver segmentos a partir de fontes de dados às quais você tem acesso com base no [Grupo de usuários RBAC](/help/using/features/administration/administration-overview.md) ao qual você pertence.
 
 <!-- 
 
@@ -33,8 +33,8 @@ c_segment_segment_overlap.xml
 
 O relatório [!UICONTROL Segment-to-Segment Overlap] pode ajudá-lo a:
 
-* Identifique segmentos com sobreposição alta ou baixa, dependendo de suas necessidades. Características com alta sobreposição oferecem uma audiência direcionada, mas menos visitantes únicos. Características com baixa sobreposição podem ser úteis para alcançar um conjunto de visitantes maior e único.
-* Encontre sobreposições inesperadas e use essas informações para criar novos segmentos de alto desempenho.
+* Identifique segmentos com sobreposição alta ou baixa, dependendo de suas necessidades. Características com alta sobreposição fornecem um público-alvo direcionado, mas menos visitantes únicos. Características com baixa sobreposição podem ser úteis para alcançar um conjunto de visitantes único e maior.
+* Encontre sobreposições inesperadas e use essas informações para criar segmentos novos e de alto desempenho.
 
 ## Relatório de exemplo
 
@@ -42,15 +42,15 @@ A ilustração a seguir fornece uma visão geral de alto nível do relatório [!
 
 >[!NOTE]
 >
->O relatório [!UICONTROL Segment-to-Segment Overlap] retorna um campo vazio quando compara o mesmo segmento a si mesmo.
+>O relatório [!UICONTROL Segment-to-Segment Overlap] retorna um campo vazio quando compara o mesmo segmento a ele mesmo.
 
 ![](assets/segment-to-segment-overlap.png)
 
-## Detalhar pontos de dados individuais
+## Detalhar em pontos de dados individuais
 
-Selecione um ponto individual para visualização de detalhes de dados em uma janela pop-up. As ações de clique atualizam automaticamente os dados exibidos no relatório.
+Selecione um ponto individual para exibir os detalhes dos dados em uma janela pop-up. As ações de clique atualizam automaticamente os dados exibidos no relatório.
 
-## Campos de Pop de Dados de Sobreposição de Segmento a Segmento Definidos {#fields-defined}
+## Campos de Pop de Dados de Sobreposição de Segmento por Segmento Definidos {#fields-defined}
 
 <!-- 
 
@@ -62,14 +62,14 @@ O pop-up do relatório [!UICONTROL Segment-to-Segment Overlap] contém as métri
 
 | Métrica | Descrição |
 |---|---|
-| **[!UICONTROL Base Segment ID]** | ID numérica exclusiva do segmento que aparece nos resultados do relatório. Aparece como a ID da linha para o segmento. |
+| **[!UICONTROL Base Segment ID]** | ID numérica exclusiva para o segmento exibido nos resultados do relatório. Aparece como a ID da linha para o segmento. |
 | **[!UICONTROL Base Segment Name]** | Nome do segmento que aparece na linha de resultados do relatório. |
-| **[!UICONTROL Overlapping Segment ID]** | ID numérica exclusiva do segmento selecionado ao executar o relatório. Aparece como a ID da coluna do segmento. |
+| **[!UICONTROL Overlapping Segment ID]** | ID numérica exclusiva para o segmento selecionado durante a execução do relatório. Aparece como a ID da coluna do segmento. |
 | **[!UICONTROL Overlapping Segment Name]** | Nome do segmento selecionado ao executar o relatório. Aparece na coluna de resultados do relatório. |
 | **[!UICONTROL Base Segment Uniques]** | O número de visitantes únicos em seu segmento base. |
 | **[!UICONTROL Base Segment Uniques]** | O número de visitantes únicos em seu segmento sobreposto. |
 | **[!UICONTROL Overlapping Uniques]** | O número de visitantes únicos compartilhados entre segmentos comparados. |
-| **[!UICONTROL Overlap %]** | Para obter a % de sobreposição, o Audience Manager usa a seguinte fórmula: Únicos sobrepostos / (Únicos do segmento base + Únicos do segmento sobrepostos - Únicos sobrepostos) |
+| **[!UICONTROL Overlap %]** | Para obter a % de sobreposição, o Audience Manager usa a seguinte fórmula: Sobreposição de únicos / (Únicos de segmento base + Únicos de segmento sobreposto - Únicos sobrepostos) |
 
 
 
@@ -81,3 +81,4 @@ O pop-up do relatório [!UICONTROL Segment-to-Segment Overlap] contém as métri
 >* [Relatórios de sobreposição: Atualizar agendamento e tamanho mínimo do segmento](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
 >* [Amostragem de dados e taxas de erro em alguns relatórios do Audience Manager...](../../reporting/report-sampling.md)
 >* [Arquivos CSV para relatórios de sobreposição](../../reporting/dynamic-reports/overlap-csv-files.md)
+
