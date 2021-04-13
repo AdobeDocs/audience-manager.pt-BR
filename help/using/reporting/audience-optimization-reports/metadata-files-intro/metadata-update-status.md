@@ -1,15 +1,15 @@
 ---
-description: O diretório de status S3 contém um arquivo .info com informações de sucesso e falha sobre seus arquivos carregados. O arquivo contém dados formatados em JSON com resultados de status em uma matriz.
-seo-description: O diretório de status S3 contém um arquivo .info com informações de sucesso e falha sobre seus arquivos carregados. O arquivo contém dados formatados em JSON com resultados de status em uma matriz.
+description: O diretório de status S3 contém um arquivo .info com informações de sucesso e falha sobre seus arquivos carregados. O arquivo contém dados formatados em JSON com o status e resulta em uma matriz.
+seo-description: O diretório de status S3 contém um arquivo .info com informações de sucesso e falha sobre seus arquivos carregados. O arquivo contém dados formatados em JSON com o status e resulta em uma matriz.
 seo-title: Atualizações de status para arquivos de metadados
 solution: Audience Manager
 title: Atualizações de status para arquivos de metadados
 uuid: 56a1e88a-41da-4d51-a21e-2be98cca7fa2
-feature: log files
+feature: Arquivos de registro
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '329'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 # Atualizações de status para arquivos de metadados{#status-updates-for-metadata-files}
 
-O diretório de status S3 contém um arquivo `.info` com informações de sucesso e falha sobre os arquivos carregados. O arquivo contém dados formatados em JSON com resultados de status em uma matriz.
+O diretório de status S3 contém um arquivo `.info` com informações de sucesso e falha sobre os arquivos carregados. O arquivo contém dados formatados em JSON com o status e resulta em uma matriz.
 
-O conteúdo do arquivo `.info` será semelhante a este exemplo.
+O conteúdo do arquivo `.info` será semelhante ao deste exemplo.
 
 ```js
 //sample file path
@@ -60,11 +60,11 @@ O conteúdo do arquivo `.info` será semelhante a este exemplo.
 }
 ```
 
-## Pares de valores de chave de metadados definidos {#key-value-pairs}
+## Pares de valor-chave de metadados definidos {#key-value-pairs}
 
-As tabelas a seguir são listas e definem as chaves nas seções `Files` e `Summary` de um arquivo de status de metadados.
+As tabelas a seguir listam e definem as chaves nas seções `Files` e `Summary` de um arquivo de status de metadados.
 
-**Teclas no storage de arquivos**
+**Chaves no storage de arquivos**
 
 <table id="table_BF23C032FEFA446282E9364E85BE8C9F"> 
  <thead> 
@@ -76,7 +76,7 @@ As tabelas a seguir são listas e definem as chaves nas seções `Files` e `Summ
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> Description</code> </p> </td> 
-   <td colname="col2"> <p>Contém uma breve descrição do motivo da falha no processamento. Este campo fica vazio quando o processamento é bem-sucedido. </p> </td> 
+   <td colname="col2"> <p>Contém uma breve descrição de por que o processamento falhou. Este campo fica vazio quando o processamento é bem-sucedido. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileByteSize</code> </p> </td> 
@@ -92,15 +92,15 @@ As tabelas a seguir são listas e definem as chaves nas seções `Files` e `Summ
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MetadataType</code> </p> </td> 
-   <td colname="col2"> <p>O nome legível para o tipo de dados que seu arquivo contém. Ela se baseia na ID filho no nome do arquivo. </p> <p>Consulte <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Convenções de nomenclatura para arquivos de metadados</a>. </p> </td> 
+   <td colname="col2"> <p>O nome legível para o tipo de dados que seu arquivo contém. Tem como base a ID filho no nome do arquivo. </p> <p>Consulte <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Convenções de nomenclatura para arquivos de metadados</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Parent</code> </p> </td> 
-   <td colname="col2"> <p>O nome legível para o tipo de dados que seu arquivo contém. Ela se baseia na ID pai no nome do arquivo. </p> <p>Consulte <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Convenções de nomenclatura para arquivos de metadados</a>. </p> </td> 
+   <td colname="col2"> <p>O nome legível para o tipo de dados que seu arquivo contém. Tem como base a ID principal no nome do arquivo. </p> <p>Consulte <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Convenções de nomenclatura para arquivos de metadados</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Status</code> </p> </td> 
-   <td colname="col2"> <p>Retorna 2 valores de texto que descrevem o status de processamento do arquivo de metadados: </p> 
+   <td colname="col2"> <p>Retorna 2 valores de texto que descrevem o status de processamento de seu arquivo de metadados: </p> 
     <ul id="ul_3814EBB6B42B4EB294B1ABA5782190B6"> 
      <li id="li_92AAECE7E9A44B1193A1D93ABBCE46B0"> <code> SUCCESS</code> </li> 
      <li id="li_3109F4E254374117A89CB989F221CB18"> <code> FAILURE</code> </li> 
@@ -109,7 +109,7 @@ As tabelas a seguir são listas e definem as chaves nas seções `Files` e `Summ
  </tbody> 
 </table>
 
-**Teclas no objeto de resumo**
+**Chaves no objeto de resumo**
 
 <table id="table_C765A0CDBAA14A2FB5E0D38BDD1D292A"> 
  <thead> 
@@ -133,7 +133,7 @@ As tabelas a seguir são listas e definem as chaves nas seções `Files` e `Summ
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> NumberFailure</code> </p> </td> 
-   <td colname="col2"> <p>O número de arquivos processados sem êxito. </p> </td> 
+   <td colname="col2"> <p>O número de arquivos que foram processados sem êxito. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> NumberSuccess</code> </p> </td> 
@@ -141,19 +141,19 @@ As tabelas a seguir são listas e definem as chaves nas seções `Files` e `Summ
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ProcessingTimeRFC2822</code> </p> </td> 
-   <td colname="col2"> <p>Retorna um carimbo de data e hora legível para os tempos de start de processamento. </p> </td> 
+   <td colname="col2"> <p>Retorna um carimbo de data e hora legível para os horários de início do processamento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ProcessingTimePOSIX</code> </p> </td> 
-   <td colname="col2"> <p>Um carimbo de data e hora UNIX para processamento de start. </p> </td> 
+   <td colname="col2"> <p>Um carimbo de data e hora UNIX para hora de início do processamento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TotalByteSize</code> </p> </td> 
-   <td colname="col2"> <p>Número total de bytes para todos os seus arquivos de metadados do dia. </p> </td> 
+   <td colname="col2"> <p>Número total de bytes para todos os arquivos de metadados do dia. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TotalNumberFiles</code> </p> </td> 
-   <td colname="col2"> <p>O número total de todos os arquivos processados pelo dia. </p> </td> 
+   <td colname="col2"> <p>Número total de todos os arquivos processados pelo dia. </p> </td> 
   </tr> 
  </tbody> 
 </table>
