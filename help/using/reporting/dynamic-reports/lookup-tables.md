@@ -5,12 +5,12 @@ seo-title: Melhore os tempos de processamento do arquivo de log com tabelas de p
 solution: Audience Manager
 title: Melhore os tempos de processamento do arquivo de log com tabelas de pesquisa
 uuid: ffc77618-474b-455e-9c91-15b32fc151a5
-feature: Referência de relatórios
+feature: Referência do relatório
 exl-id: bab51406-21e9-4033-90d4-6100daf6a311
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '504'
 ht-degree: 18%
 
 ---
