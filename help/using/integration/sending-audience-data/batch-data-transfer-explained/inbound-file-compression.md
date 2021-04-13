@@ -5,13 +5,13 @@ seo-title: Compactação de arquivos de transferência de dados de entrada
 solution: Audience Manager
 title: Compactação de arquivos de transferência de dados de entrada
 uuid: 2a68f69c-60b0-4002-863b-302d2320e356
-feature: Transferências de dados de entrada
+feature: Transferência de dados de entrada
 exl-id: 9b3e3bef-2c93-4801-8f4f-04d9d42fd952
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
 source-wordcount: '232'
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
