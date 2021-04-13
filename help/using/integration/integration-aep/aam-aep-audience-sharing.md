@@ -1,21 +1,21 @@
 ---
-description: Este artigo descreve como as audiências são compartilhadas entre o Audience Manager e o Adobe Experience Platform.
-seo-description: Este artigo descreve como as audiências são compartilhadas entre o Audience Manager e o Adobe Experience Platform.
+description: Este artigo descreve como os públicos-alvo são compartilhados entre o Audience Manager e o Adobe Experience Platform.
+seo-description: Este artigo descreve como os públicos-alvo são compartilhados entre o Audience Manager e o Adobe Experience Platform.
 seo-title: Compartilhamento de públicos entre o Audience Manager e a Adobe Experience Platform
 solution: Audience Manager
 title: Compartilhamento de públicos entre o Audience Manager e a Adobe Experience Platform
-keywords: Compartilhamento de audiências AEP, segmentos AEP, segmentos de plataforma, compartilhamento de segmentos, compartilhamento de audiências, compartilhamento de segmentos
-feature: Integration with Platform
+keywords: Compartilhamento de público da AEP, segmentos da AEP, segmentos da plataforma, compartilhamento de segmentos, compartilhamento de público, compartilhamento de segmentos
+feature: Integração da plataforma
+exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
 translation-type: tm+mt
-source-git-commit: 62938e95fa9eed3e747fa4dabf8695c5dbefde17
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1506'
 ht-degree: 2%
 
 ---
 
-
-# Compartilhamento de segmentos de Experience Platform com Audience Manager e outras soluções Experience Cloud {#aam-aep-audience-sharing}
+# Compartilhamento de segmento do Experience Platform com o Audience Manager e outras soluções do Experience Cloud {#aam-aep-audience-sharing}
 
 >[!NOTE]
 >
@@ -23,68 +23,68 @@ ht-degree: 2%
 
 ## Visão geral {#overview}
 
-A funcionalidade de compartilhamento de audiências entre o Audience Manager e o Adobe Experience Platform permite que você compartilhe seus traços e segmentos do Audience Manager para o Adobe Experience Platform e vice-versa. Você precisa de [[!DNL Audience Manager Connector]](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) para ativar o compartilhamento de audiência entre o Audience Manager e o Adobe Experience Platform.
+A funcionalidade de compartilhamento de público-alvo entre o Audience Manager e o Adobe Experience Platform permite compartilhar características e segmentos do Audience Manager com o Adobe Experience Platform e vice-versa. Você precisa do [[!DNL Audience Manager Connector]](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) para ativar o compartilhamento de público-alvo entre o Audience Manager e o Adobe Experience Platform.
 
-Você pode usar características e segmentos de Audience Manager no Experience Platform para adicionar dados de Audience Manager aos perfis do cliente e se beneficiar do serviço de segmentação do Experience Platform [](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md).
+Você pode usar características e segmentos do Audience Manager no Experience Platform para adicionar dados do Audience Manager aos perfis do cliente e se beneficiar do Experience Platform [serviço de segmentação](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md).
 
-No Audience Manager, é possível usar segmentos Experience Platform para casos de uso da Plataforma de Gestão de dados, como:
-* Adicione [dados de terceiros](/help/using/overview/data-types-collected.md#third-party-data) aos seus segmentos;
+No Audience Manager, é possível usar segmentos de Experience Platform para casos de uso da Plataforma de gerenciamento de dados, como:
+* Adicionar [dados de terceiros](/help/using/overview/data-types-collected.md#third-party-data) aos seus segmentos;
 * [Modelagem algoritmica](/help/using/features/algorithmic-models/understanding-models.md);
-* Ative seus segmentos para destinos que ainda não são suportados no catálogo Experience Platform [destinos](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html).
+* Ative seus segmentos para destinos que ainda não são suportados no catálogo de destinos Experience Platform [a1/>.](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html)
 
-Além disso, seus segmentos de Experience Platform são compartilhados com outras soluções de Experience Cloud, por meio de [Principais serviços](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html).
+Além disso, seus segmentos do Experience Platform são compartilhados com outras soluções Experience Cloud, por meio de [Serviços principais](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html).
 
 >[!IMPORTANT]
 >
-> * Você precisa de uma licença de Audience Manager para ativar os casos de uso da Plataforma de Gestão de dados mencionados acima.
-> * Você *não precisa de* uma licença de Audience Manager para compartilhar segmentos de Experience Platform com Adobe Advertising Cloud, Adobe Target, Marketo e outras soluções de Experience Cloud, por meio da integração dos principais serviços.
+> * Você precisa de uma licença do Audience Manager para ativar os casos de uso da Plataforma de gerenciamento de dados mencionados acima.
+> * Você *não precisa de* uma licença do Audience Manager para compartilhar segmentos do Experience Platform com Adobe Advertising Cloud, Adobe Target, Marketo e outras soluções do Experience Cloud, por meio da integração dos Serviços principais.
 
 
 <br> 
 
-Consulte a tabela abaixo para obter uma visão geral dos casos de uso de compartilhamento de audiências:
+Consulte a tabela abaixo para obter uma visão geral dos casos de uso de compartilhamento de público-alvo:
 
 | **Caso de uso** | **Adobe Experience Platform** | **Audience Manager** | **Principais serviços** |
 ---------|----------|---------|---------
-| **Compartilhamento de audiências** | <ul><li>Enriqueça os perfis dos clientes com os dados do Audience Manager</li><li>Usar dados de Audience Manager na segmentação de Experience Platform</li></ul> | <ul><li>Adicionar dados de terceiros a segmentos</li><li>Modelagem algoritmica</li><li>Ativação para destinos adicionais</li></ul> | Use segmentos Experience Platform em outras soluções de Experience Cloud, como Adobe Target, Advertising Cloud ou Marketo. |
+| **Compartilhamento de público** | <ul><li>Enriqueça os perfis do cliente com dados do Audience Manager</li><li>Usar dados de Audience Manager na segmentação de Experience Platform</li></ul> | <ul><li>Adicionar dados de terceiros aos segmentos</li><li>Modelagem algoritmica</li><li>Ativação para destinos adicionais</li></ul> | Use segmentos do Experience Platform em outras soluções do Experience Cloud, como Adobe Target, Advertising Cloud ou Marketo. |
 
 <br> 
 
-## Segmentos e características Audience Manager no Adobe Experience Platform {#aam-segments-traits-in-aep}
+## Segmentos Audience Manager e características no Adobe Experience Platform {#aam-segments-traits-in-aep}
 
-Seus traços e segmentos de Audience Manager aparecem no Experience Platform como **Audiência** no fluxo de trabalho do segmento. Para obter mais informações sobre seus segmentos de Audience Manager e características no Experience Platform, consulte:
+Suas características e segmentos do Audience Manager aparecem no Experience Platform como **Audiences** no fluxo de trabalho do segmento. Para obter mais informações sobre seus segmentos de Audience Manager e características no Experience Platform, consulte:
 
-* [Visão geral do Serviço de segmentação](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
-* [Guia do usuário do Construtor de segmentos de Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
+* [Visão geral do serviço de segmentação](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
+* [Guia do usuário do Experience Platform Segment Builder](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
 * [Conector Audience Manager](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
 
 <br> 
 
-## Segmentos Adobe Experience Platform em Audience Manager {#aep-segments-in-aam}
+## Segmentos Adobe Experience Platform no Audience Manager {#aep-segments-in-aam}
 
 Os segmentos criados no Experience Platform aparecem na interface do Audience Manager como sinais, características e segmentos, com as seguintes regras de composição:
 
-* Sinal: Para cada segmento Experience Platform, você deve ver sinais na forma `segID = segment ID`.
-* Características: A regra de característica é a ID do segmento Experience Platform.
+* Sinal: Para cada segmento de Experience Platform, você deve ver sinais no formato `segID = segment ID`.
+* Característica: A regra de característica é a ID do segmento Experience Platform.
 * Segmento: O segmento consiste na característica descrita acima.
 
 ### Sinais {#aep-segments-as-aam-signals}
 
-Selecione **[!UICONTROL Audience Data > Signals > General Online Data]** e pesquise por `SegId` para localizar sinais que chegam do Experience Platform. Você pode usar essa tela para fins de depuração, para verificar se a integração entre Experience Platform e Audience Manager foi configurada corretamente.
+Selecione **[!UICONTROL Audience Data > Signals > General Online Data]** e pesquise por `SegId` para encontrar sinais que chegam do Experience Platform. Você pode usar essa tela para fins de depuração, para verificar se a integração entre o Experience Platform e o Audience Manager foi configurada corretamente.
 
-![Consulte Sinais de Experience Platform no Audience Manager no painel de Sinais](/help/using/integration/integration-aep/assets/aep-signals-in-aam.png)
+![Consulte Sinais de Experience Platform no Audience Manager no painel Sinais](/help/using/integration/integration-aep/assets/aep-signals-in-aam.png)
 
 ### Características {#aep-segments-as-aam-traits}
 
-O Audience Manager cria automaticamente uma pasta de características chamada **Características do Experience Platform** no armazenamento de características.
+O Audience Manager cria automaticamente uma pasta de características chamada **Experience Platform Traits** no armazenamento de características.
 
-![Características do painel Experience Platform](/help/using/integration/integration-aep/assets/aep-traits-dashboard.png)
+![Características do painel de Experience Platform](/help/using/integration/integration-aep/assets/aep-traits-dashboard.png)
 
-Você pode usar características criadas automaticamente em segmentos ao lado de outras características. Por exemplo, você pode combinar características criadas a partir de segmentos Experience Platform com características de terceiros adquiridas por meio de [Audience Marketplace](/help/using/features/audience-marketplace/audience-marketplace.md).
+Você pode usar características criadas automaticamente em segmentos ao lado de outras características. Por exemplo, você pode misturar características criadas em segmentos de Experience Platform com características de terceiros adquiridas por meio do [Audience Marketplace](/help/using/features/audience-marketplace/audience-marketplace.md).
 
-Para obter um exemplo de uma característica criada automaticamente a partir de um segmento Experience Platform, consulte a captura de tela abaixo:
+Para obter um exemplo de uma característica criada automaticamente a partir de um segmento de Experience Platform, consulte a captura de tela abaixo:
 
-![Traço de Experience Platform](/help/using/integration/integration-aep/assets/aep-trait.png)
+![Característica do Experience Platform](/help/using/integration/integration-aep/assets/aep-trait.png)
 
 
 | Número do item | Nome | Descrição |
@@ -92,89 +92,89 @@ Para obter um exemplo de uma característica criada automaticamente a partir de 
 | 1 | [!UICONTROL Trait Type] | As características criadas a partir de segmentos Experience Platform são criadas como características integradas no Audience Manager. |
 | 2 | [!UICONTROL Data Source] | Criado automaticamente. Todas as características e segmentos criados automaticamente a partir de segmentos de Experience Platform são armazenados na fonte de dados **[!UICONTROL Adobe Experience Platform Audience Sharing]**. |
 | 3 | [!UICONTROL Integration Code] | O código de integração corresponde à ID do segmento no Experience Platform. |
-| 4 | [!UICONTROL Trait Expression] | A expressão característica é `segID = segment ID in Experience Platform`. |
-| 5 | [!UICONTROL Segments with this Trait] | Um segmento criado automaticamente que usa essa característica como composição. |
+| 4 | [!UICONTROL Trait Expression] | A expressão de característica é `segID = segment ID in Experience Platform`. |
+| 5 | [!UICONTROL Segments with this Trait] | Um segmento criado automaticamente que usa essa característica como sua composição. |
 
 <br> 
 
 ### Segmentos {#aep-segments-as-aam-segments}
 
-O Audience Manager cria automaticamente uma pasta de segmento chamada **Experience Platform Segments** no armazenamento do segmento.
+O Audience Manager cria automaticamente uma pasta de segmento chamada **Experience Platform Segments** no armazenamento de segmento.
 
 ![Captura de tela do painel](/help/using/integration/integration-aep/assets/aep-segments-dashboard.png)
 
-Para ver um exemplo de um segmento criado automaticamente a partir de um segmento Experience Platform, consulte a captura de tela abaixo:
+Para obter um exemplo de um segmento criado automaticamente a partir de um segmento de Experience Platform, consulte a captura de tela abaixo:
 
 ![Captura de tela do segmento](/help/using/integration/integration-aep/assets/aep-segment.png)
 
 | Número do item | Nome | Descrição |
 ---------|----------|---------
-| 1 | [!UICONTROL Integration Code] | O código de integração corresponde à ID do segmento no Experience Platform. |
+| 3 | [!UICONTROL Integration Code] | O código de integração corresponde à ID do segmento no Experience Platform. |
 | 2 | [!UICONTROL Data Source] | Criado automaticamente. Todas as características e segmentos criados automaticamente a partir de segmentos de Experience Platform são armazenados na fonte de dados **[!DNL Adobe Experience Platform Audience Sharing]**. |
 | 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** indica que os segmentos criados automaticamente seguem a política de mesclagem configurada no Experience Platform. |
 | 4 | [!UICONTROL Segment Rule] | O segmento consiste na característica descrita na seção [Características](#aep-segments-as-aam-traits). |
 
-## Suporte ao Controle de exportação de dados do Audience Manager em Experience Platform {#aam-data-export-control-in-aep}
+## Suporte ao Controle de exportação de dados do Audience Manager no Experience Platform {#aam-data-export-control-in-aep}
 
-Para impor a conformidade de uso de dados no Experience Platform, todos os conjuntos de dados e campos aplicáveis devem receber os [rótulos de uso de dados](https://docs.adobe.com/content/help/en/experience-platform/data-governance/labels/overview.html) apropriados. Além disso, [políticas de uso de dados](https://docs.adobe.com/content/help/en/experience-platform/data-governance/policies/overview.html) devem ser ativadas para ações de marketing específicas contra esses rótulos, conforme descrito pela estrutura [DULE (Data Usage Labeling and Implementation)](https://docs.adobe.com/content/help/en/experience-platform/data-governance/home.html#dule-framework).
+Para impor a conformidade do uso de dados no Experience Platform, todos os conjuntos de dados e campos aplicáveis devem receber os [rótulos de uso de dados](https://docs.adobe.com/content/help/en/experience-platform/data-governance/labels/overview.html) apropriados. Além disso, [políticas de uso de dados](https://docs.adobe.com/content/help/en/experience-platform/data-governance/policies/overview.html) devem ser habilitadas para ações de marketing específicas em relação a esses rótulos, conforme descrito pela [estrutura DULE (Data Usage Labeling and Enforcement, Rotulagem e aplicação de uso de dados)](https://docs.adobe.com/content/help/en/experience-platform/data-governance/home.html#dule-framework).
 
-No processo de compartilhamento de audiência entre Audience Manager e Experience Platform, todos os Controles de exportação de dados que foram aplicados aos segmentos Audience Manager são traduzidos para rótulos equivalentes e ações de marketing reconhecidas pelo Experience Platform Data Governance, e vice-versa.
+No processo de compartilhamento de público-alvo entre o Audience Manager e o Experience Platform, todos os Controles de exportação de dados que foram aplicados a segmentos do Audience Manager são traduzidos para rótulos e ações de marketing equivalentes reconhecidos pela Governança de dados do Experience Platform, e vice-versa.
 
 >[!NOTE]
 >
->Para obter informações mais gerais sobre os Controles de exportação de dados, consulte a [documentação dos Controles de exportação de dados](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html).
+>Para obter informações mais gerais sobre Controles da exportação de dados, consulte a [documentação sobre Controles da exportação de dados](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html).
 >
->Este documento fornece uma referência para como os controles de exportação de dados do Audience Manager específicos mapeiam para rótulos de uso de dados e ações de marketing na Plataforma.
+>Este documento fornece uma referência para como os Controles de exportação de dados do Audience Manager são mapeados para rótulos de uso de dados e ações de marketing na plataforma.
 
-### Controles de exportação de dados para rótulos de uso de dados
+### Controles da exportação de dados para rótulos de uso de dados
 
-A tabela a seguir descreve como os Controles de exportação de dados específicos mapeiam para rótulos de uso de dados reconhecidos:
+A tabela a seguir descreve como os Controles de exportação de dados específicos são mapeados para rótulos de uso de dados reconhecidos:
 
-| Controle de exportação de dados | Rótulo de uso de dados |
+| Controle da exportação de dados | Rótulo de uso de dados |
 | --- | --- |
-| Não é possível usar com informações de identificação pessoal | C3: Os dados não podem ser combinados ou usados de outra forma com informações diretamente identificáveis |
-| Não pode ser usado para direcionamento de anúncio externo | C5: Os dados não podem ser usados para direcionamento de conteúdo ou anúncios entre sites com base em interesses |
-| Não pode ser usado para direcionamento de anúncio no site | C6: Os dados não podem ser usados para direcionamento de anúncios no site |
-| Não pode ser usado para personalização no site | C7: Os dados não podem ser usados para direcionamento de conteúdo no site |
+| Não pode ser usado com informações de identificação pessoal | C3: Os dados não podem ser combinados ou usados com informações diretamente identificáveis |
+| Não pode ser usado para direcionamento de anúncio externo | C5: Os dados não podem ser usados para direcionamento de conteúdo ou anúncios baseado em interesses entre sites |
+| Não pode ser usado para direcionamento de anúncios no site | C6: Os dados não podem ser usados para o direcionamento de anúncios no site |
+| Não pode ser usado para personalização no site | C7: Os dados não podem ser usados para o direcionamento no site do conteúdo |
 
-### Controles de exportação de dados para ações de marketing
+### Controles da exportação de dados para ações de marketing
 
-A tabela a seguir descreve como rótulos de exportação de dados específicos mapeiam para ações de marketing reconhecidas:
+A tabela a seguir descreve como os Rótulos de exportação de dados específicos mapeiam para ações de marketing reconhecidas:
 
 | Rótulo de exportação de dados | Ação de marketing |
 | --- | --- |
-| Este destino pode permitir uma combinação com informações de identificação pessoal (PII) | Combinar com PII |
-| Esse destino pode ser usado para direcionamento de anúncios fora do site | Definição de metas entre sites |
-| Esse destino pode ser usado para direcionamento de anúncios no site | Anúncios no site |
+| Este destino pode permitir uma combinação com informações pessoalmente identificáveis (PII) | Combinar com PII |
+| Esse destino pode ser usado para direcionamento de anúncios fora do site | Direcionamento entre sites |
+| Esse destino pode ser usado para o direcionamento de anúncios no site | Publicidade no site |
 | Esse destino pode ser usado para personalização de anúncios no site | Personalização no site |
 
-## Entenda as diferenças de população do segmento entre Audience Manager e Experience Platform {#aep-aam-segment-population-differences}
+## Entender as diferenças de população do segmento entre Audience Manager e Experience Platform {#aep-aam-segment-population-differences}
 
-Os números de preenchimento do segmento podem variar entre seus segmentos de Audience Manager e Experience Platform. Embora os números de segmentos para audiências semelhantes ou idênticas devam ser próximos, as diferenças nas populações podem ser devidas aos fatores listados abaixo.
+Os números de população do segmento podem variar entre seus segmentos de Audience Manager e Experience Platform. Embora os números de segmentos para públicos semelhantes ou idênticos devam ser próximos, as diferenças nas populações podem ser devidas aos fatores listados abaixo.
 
-### Avaliação de segmentos no Experience Platform
+### Avaliação de segmento no Experience Platform
 
-O Audience Manager atualiza os números de relatórios na interface uma vez por dia.   O tempo desta atualização raramente se alinha com o tempo da avaliação de segmentos no Experience Platform.
+O Audience Manager atualiza os números dos relatórios na interface uma vez por dia.   O tempo dessa atualização raramente se alinha ao tempo da avaliação de segmento no Experience Platform.
 
-### Diferenças entre Regras de mesclagem de Perfis e Políticas de mesclagem
+### Diferenças entre as Regras de mesclagem de perfis e as Políticas de mesclagem
 
-[[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) no Audience Manager e  [[!UICONTROL Merge Policies]](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) no Experience Platform funcionam de forma diferente, e o gráfico de identidade usado para cada um varia. Por isso, são esperadas algumas diferenças entre as populações de segmentos.
+[[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) em Audience Manager e  [[!UICONTROL Merge Policies]](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) em Experience Platform funcionam de forma diferente, e o gráfico de identidade usado para cada um varia. Por esse motivo, são esperadas algumas diferenças entre as populações de segmentos.
 
 ### Composição do segmento no Experience Platform
 
-A integração entre a Adobe Experience Platform e a Audience Manager compartilha várias namespaces de identidade padrão [para todos os clientes: ECID, IDFA, GAID, endereços de email com hash (EMAIL_LC_SHA256), AdCloud ID. ](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) Se seus segmentos de Experience Platform usarem qualquer uma dessas identidades como identidade primária para os perfis qualificados, os perfis serão contados em características de Audience Manager e segmentos.
+A integração entre o Adobe Experience Platform e o Audience Manager compartilha vários namespaces de identidade padrão [para todos os clientes: ECID, IDFA, GAID, endereços de email com hash (EMAIL_LC_SHA256), AdCloud ID. ](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) Se os segmentos de Experience Platform usarem qualquer uma dessas características como identidade primária para os perfis qualificados, os perfis serão contados em características e segmentos de Audience Manager.
 
-Além disso, o Audience Manager pode registrar as realizações de entrada para quaisquer namespaces de identidade personalizadas que você usa nos segmentos do Experience Platform se:
+Além disso, o Audience Manager pode registrar as realizações recebidas para qualquer namespace de identidade personalizado que você usa nos segmentos de Experience Platform se:
 * a identidade é marcada como primária *e*
 * você já tem uma fonte de dados entre dispositivos correspondente no Audience Manager.
 
 >[!NOTE]
 >
-> Audiências no Experience Platform com identidades destacadas por e-mails brutos nunca aparecem no Audience Manager.
+> Os públicos-alvo no Experience Platform com identidades destacadas em emails brutos nunca aparecem no Audience Manager.
 
-Por exemplo, se você tivesse um segmento de Experience Platform &quot;Todos os meus clientes&quot; e os perfis qualificados fossem IDs de CRM, ECID, IDFA, endereços de email em bruto e com hash, o segmento correspondente no Audience Manager só incluiria perfis com chaves de CRM, ECID, IDFA e endereços de email com hash. A população de segmentos em Audience Manager seria menor que a de Experience Platform.
+Por exemplo, se você tivesse um segmento Experience Platform &quot;Todos os meus clientes&quot; e os perfis qualificados fossem IDs de CRM, ECID, IDFA, endereços de email brutos e com hash, o segmento correspondente no Audience Manager incluiria apenas perfis com hash de IDs de CRM, ECID, IDFA e endereços de email com hash. A população do segmento no Audience Manager seria menor que a do Experience Platform.
 
-![Compartilhamento de segmentos Experience Platform para Audience Manager - composição de segmentos](/help/using/integration/integration-aep/assets/AEP-to-AAM-profiles.png)
+![Compartilhamento de segmento de Experience Platform para Audience Manager - composição de segmento](/help/using/integration/integration-aep/assets/AEP-to-AAM-profiles.png)
 
 <!--
 
@@ -187,6 +187,7 @@ If you created a data source in Audience Manager for the CRM IDs in Experience P
 
 >[!MORELIKETHIS]
 >
->* [Visão geral do Serviço de segmentação](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
->* [Guia do usuário do Construtor de segmentos de Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
+>* [Visão geral do serviço de segmentação](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
+>* [Guia do usuário do Experience Platform Segment Builder](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
 >* [Conector Audience Manager](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
+
