@@ -5,12 +5,12 @@ seo-title: Filtrar resultados do relatório com os controles deslizantes de dado
 solution: Audience Manager
 title: Filtrar resultados do relatório com os controles deslizantes de dados
 uuid: ec486d97-d1d9-469b-b8df-5821f30d10ee
-feature: Referência de relatórios
+feature: Referência do relatório
 exl-id: 876a01c2-e73e-4728-8890-e3f354ad1b86
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '177'
 ht-degree: 11%
 
 ---
