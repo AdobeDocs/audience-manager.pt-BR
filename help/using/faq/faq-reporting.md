@@ -3,17 +3,17 @@ description: Perguntas e problemas comuns relacionados a relatórios.
 seo-description: Perguntas e problemas comuns relacionados a relatórios.
 seo-title: Perguntas frequentes sobre relatórios
 solution: Audience Manager
-title: Perguntas frequentes sobre relatórios
+title: Perguntas frequentes de geração de relatórios
 uuid: 78cd6c86-8a4a-4748-ab71-b6e8d6078c94
-feature: Reporting
+feature: Referência de relatórios
+exl-id: 1e6531b2-bb39-4056-9d5e-164f50955f99
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 100%
+source-wordcount: '704'
+ht-degree: 99%
 
 ---
-
 
 # Perguntas frequentes sobre relatórios {#reporting-faq}
 
