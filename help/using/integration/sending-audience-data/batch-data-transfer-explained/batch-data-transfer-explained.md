@@ -5,13 +5,13 @@ seo-title: Descrição do processo de transferência de dados em lote
 solution: Audience Manager
 title: Descrição do processo de transferência de dados em lote
 uuid: a9eee940-151c-44f8-9fe9-8ab47d8fa45c
-feature: Transferências de dados de entrada
+feature: Transferência de dados de entrada
 exl-id: e02dcc9a-4010-4c01-bd6b-ad04b8029f18
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
