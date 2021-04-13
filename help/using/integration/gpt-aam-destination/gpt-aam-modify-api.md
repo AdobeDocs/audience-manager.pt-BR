@@ -1,27 +1,27 @@
 ---
-description: Adicione uma declaração if para verificar cookies de Audience Manager antes de chamar o método Google Publisher Tag .setTargeting.
-seo-description: Adicione uma declaração if para verificar cookies de Audience Manager antes de chamar o método Google Publisher Tag .setTargeting.
+description: Adicione uma declaração if para verificar os cookies do Audience Manager antes de chamar o método .setTargeting da tag do Google Publisher.
+seo-description: Adicione uma declaração if para verificar os cookies do Audience Manager antes de chamar o método .setTargeting da tag do Google Publisher.
 seo-title: Modificar a chamada da API setTargeting GPT
 solution: Audience Manager
 title: Modificar a chamada da API setTargeting GPT
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
-feature: Third Party Integrations
+feature: Integração de terceiros
+exl-id: cc34b7e8-7bbd-463f-9378-9d3a40c49594
 translation-type: tm+mt
-source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '300'
 ht-degree: 9%
 
 ---
 
+# Modifique a chamada da API GPT `setTargeting` {#modify-the-gpt-settargeting-api-call}
 
-# Modifique a chamada de API GPT `setTargeting` {#modify-the-gpt-settargeting-api-call}
+Adicione uma declaração if para verificar se há cookies de Audience Manager antes de chamar o método [!DNL Google Publisher Tag] `.setTargeting`.
 
-Adicione uma instrução if para verificar os cookies de Audience Manager antes de chamar o método [!DNL Google Publisher Tag] `.setTargeting`.
+## Verifique se há cookies do Audience Manager com uma instrução `IF`
 
-## Verifique se há cookies de Audience Manager com uma instrução `IF`
-
-O método `.setTargeting` obtém dados do cookie de destino do Audience Manager e do cookie de ID de usuário exclusivo ( `aam_uuid`). No entanto, se `.setTargeting` for chamado antes de [!UICONTROL DIL] gravar esses cookies, ou os cookies estiverem vazios, você poderá ver erros quando a página for carregada. Para ajudar a evitar isso, vincule o método `.setTargeting` em uma instrução `if` que verifique esses cookies. Se não estiverem definidas, esta instrução impedirá que `.setTargeting` chame a função `AamGpt`.
+O método `.setTargeting` obtém dados do cookie de destino do Audience Manager e do cookie de ID de usuário exclusivo ( `aam_uuid`). No entanto, se `.setTargeting` for chamado antes de [!UICONTROL DIL] gravar esses cookies, ou se os cookies estiverem vazios, você poderá ver erros quando a página for carregada. Para ajudar a evitar isso, envolva o método `.setTargeting` em uma instrução `if` que verifique esses cookies. Se não estiverem definidas, essa instrução impede que `.setTargeting` chame a função `AamGpt`.
 
 ### `IF` Amostra de código do demonstrativo
 
@@ -38,11 +38,11 @@ if(typeof AamGpt.getCookie("aam_uuid") != "undefined" ){
 
 >[!IMPORTANT]
 >
->Dependendo de como deseja integrar com [!DNL Google Ad Manager], você só precisa de algumas das linhas na amostra de código acima:
+>Dependendo de como você deseja integrar com [!DNL Google Ad Manager], você só precisa de algumas linhas na amostra de código acima:
 >
->* Integração do cliente: use somente as linhas 1-3.
->* Integração do servidor: nenhuma das linhas é necessária.
->* Ingest [!DNL Google Ad Manager] arquivos de registro para relatórios em [!DNL Audience Manager]: use somente as linhas 4-6. Esse código insere o valor do cookie `aam_uuid` nos registros para que eles possam ser ingeridos para o relatórios.
+>* Integração do lado do cliente: use somente as linhas 1-3.
+>* Integração do lado do servidor: nenhuma das linhas é necessária.
+>* Assimilar arquivos de log [!DNL Google Ad Manager] para relatórios em [!DNL Audience Manager]: use somente as linhas 4-6. Este código insere o valor do cookie `aam_uuid` nos logs para que eles possam ser assimilados para relatórios.
 
 
 ### `AamGpt` Funções e tipos de dados
@@ -61,11 +61,11 @@ Define as variáveis principais usadas na instrução `if`.
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getKey </code> </p> </td> 
    <td colname="col2"> <p>String   </p> </td> 
-   <td colname="col3"> <p>Retorna a chave no par de segmentos de valor chave. Por exemplo, se seu par de chave-valor consistir em <code> color=blue </code>, retornará <code> color </code>. </p> </td> 
+   <td colname="col3"> <p>Retorna a chave no par de segmentos de valor chave. Por exemplo, se seu par de valores chave consistiu em <code> color=blue </code>, retorna <code> color </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getValues </code> </p> </td> 
-   <td colname="col2"> <p>Matriz de strings </p> </td> 
+   <td colname="col2"> <p>Matriz de cadeias de caracteres </p> </td> 
    <td colname="col3"> <p>Retorna valores em uma matriz, por exemplo, <code> ["value1","value2"] </code>. </p> </td> 
   </tr> 
   <tr> 
