@@ -1,57 +1,57 @@
 ---
-description: O relatório de Tendência do segmento retorna dados sobre impressões e taxas de cliques de segmentos mapeados e não mapeados ao longo do tempo. Um segmento mapeado é um segmento criado e enviado para um destino para definição de metas. Um segmento não mapeado é um segmento criado, mas não enviado para um destino para definição de metas. Compare as tendências e o volume de suas métricas selecionadas para obter uma ideia melhor de como suas audiências se comportam ao longo do tempo.
-seo-description: O relatório de Tendência do segmento retorna dados sobre impressões e taxas de cliques de segmentos mapeados e não mapeados ao longo do tempo. Um segmento mapeado é um segmento criado e enviado para um destino para definição de metas. Um segmento não mapeado é um segmento criado, mas não enviado para um destino para definição de metas. Compare as tendências e o volume de suas métricas selecionadas para obter uma ideia melhor de como suas audiências se comportam ao longo do tempo.
+description: O relatório de Tendência do segmento retorna dados sobre impressões e taxas de click-through de segmentos mapeados e não mapeados ao longo do tempo. Um segmento mapeado é um segmento criado e enviado para um destino para direcionamento. Um segmento não mapeado é um segmento criado, mas que não foi enviado para um destino para direcionamento. Compare tendências e volumes de suas métricas selecionadas para obter uma imagem melhor de como seus públicos-alvo se comportam ao longo do tempo.
+seo-description: O relatório de Tendência do segmento retorna dados sobre impressões e taxas de click-through de segmentos mapeados e não mapeados ao longo do tempo. Um segmento mapeado é um segmento criado e enviado para um destino para direcionamento. Um segmento não mapeado é um segmento criado, mas que não foi enviado para um destino para direcionamento. Compare tendências e volumes de suas métricas selecionadas para obter uma imagem melhor de como seus públicos-alvo se comportam ao longo do tempo.
 seo-title: Relatório de tendência do segmento
 solution: Audience Manager
 title: Relatório de tendência do segmento
 uuid: f84e8d0a-74e5-430c-b61c-efb696faee93
-feature: audience optimization reports
+feature: Relatórios de otimização de público-alvo
+exl-id: 1fdca05a-b661-4875-88d7-b0893e2ca08f
 translation-type: tm+mt
-source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '612'
 ht-degree: 3%
 
 ---
 
-
 # Relatório de tendência do segmento{#segment-trend-report}
 
-O relatório de Tendência do segmento retorna dados sobre impressões e taxas de cliques de segmentos mapeados e não mapeados ao longo do tempo.
+O relatório de Tendência do segmento retorna dados sobre impressões e taxas de click-through de segmentos mapeados e não mapeados ao longo do tempo.
 
-Um segmento mapeado é um segmento criado e enviado para um destino para definição de metas. Um segmento não mapeado é um segmento criado, mas não enviado para um destino para definição de metas.
+Um segmento mapeado é um segmento criado e enviado para um destino para direcionamento. Um segmento não mapeado é um segmento criado, mas que não foi enviado para um destino para direcionamento.
 
-Compare as tendências e o volume de suas métricas selecionadas para obter uma ideia melhor de como suas audiências se comportam ao longo do tempo.
+Compare tendências e volumes de suas métricas selecionadas para obter uma imagem melhor de como seus públicos-alvo se comportam ao longo do tempo.
 
 ## Caso de uso {#use-cases}
 
-Use o relatório [!UICONTROL Segment Trend] para validar o desempenho de um segmento ao longo do tempo e para identificar as tendências com base no alto desempenho ou na escala.
+Use o relatório [!UICONTROL Segment Trend] para validar o desempenho de um segmento ao longo do tempo e para identificar tendências com base em alto desempenho ou escala.
 
-Com esse relatório, você pode entender quais de suas propriedades da Web mostram um aumento ou falha e solucionar problemas, conforme necessário. Este relatório é o próximo passo após identificar sua audiência de interesse no relatório [!UICONTROL Segment Performance], para garantir que o desempenho forte ou ruim que você viu na guia [!UICONTROL Segment Performance] seja consistente ao longo do tempo.
+Com esse relatório, você pode entender quais de suas propriedades da Web mostram um aumento ou falha e solucionar problemas, conforme necessário. Este relatório é a próxima etapa após identificar seu público-alvo de interesse no relatório [!UICONTROL Segment Performance], para garantir que o desempenho forte ou ruim visualizado na guia [!UICONTROL Segment Performance] seja consistente ao longo do tempo.
 
-## Usando o relatório de tendência do segmento {#using-the-report}
+## Uso do Relatório de tendência do segmento {#using-the-report}
 
-Alterne entre **[!UICONTROL Mapped]** e **[!UICONTROL Unmapped]** para selecionar segmentos mapeados ou não para um destino. Selecione **[!UICONTROL All]** para incluir todos os seus segmentos no relatório.
+Alterne entre **[!UICONTROL Mapped]** e **[!UICONTROL Unmapped]** para selecionar segmentos que estão ou não mapeados para um destino. Selecione **[!UICONTROL All]** para incluir todos os seus segmentos no relatório.
 
 Ajuste a janela de retrospectiva com o controle deslizante **[!UICONTROL Date Through]**.
 
-Clique em qualquer um dos segmentos no controle deslizante **[!UICONTROL Date Through]** para exibir a opção de manter somente esse segmento no relatório ou excluí-lo.
+Clique em qualquer um dos segmentos no controle deslizante **[!UICONTROL Date Through]** para exibir a opção para manter somente esse segmento no relatório ou excluí-lo.
 
-Use a caixa suspensa **[!UICONTROL Line Item]** para selecionar as propriedades em seu portfólio para as quais deseja retornar informações.
+Use a caixa suspensa **[!UICONTROL Line Item]** para selecionar as propriedades no portfólio para as quais deseja retornar informações.
 
-Na caixa suspensa **[!UICONTROL Segment Data Source]**, selecione as fontes de dados que contêm os segmentos que você deseja ver no relatório.
+Na caixa suspensa **[!UICONTROL Segment Data Source]**, selecione as fontes de dados que contêm os segmentos que você deseja visualizar no relatório.
 
-Use a caixa suspensa **[!UICONTROL Segment]** para selecionar quais segmentos você deseja ver no relatório.
+Use a caixa suspensa **[!UICONTROL Segment]** para selecionar quais segmentos você deseja visualizar no relatório.
 
 >[!IMPORTANT]
 >
->Ao ativar [!UICONTROL Audience Optimization for Publishers], você deve incluir metadados descritivos para [!UICONTROL Line Item] IDs, conforme descrito na Etapa 3 de [Importar arquivos de dados do Google Ad Manager (antigo DFP) para Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ao fazer isso, você garante que o relatório detalhe a propriedade da Web como [!UICONTROL Line Item] em vez da ID [!UICONTROL Line Item].
+>Ao ativar [!UICONTROL Audience Optimization for Publishers], você deve incluir metadados descritivos para [!UICONTROL Line Item] IDs, conforme descrito na Etapa 3 de [Importar arquivos de dados do Google Ad Manager (antigo DFP) para o Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ao fazer isso, você garante que o relatório detalhe a propriedade da Web como [!UICONTROL Line Item] em vez da ID [!UICONTROL Line Item].
 
 ## Interpretação dos resultados {#interpreting-results}
 
-O relatório [!UICONTROL Segment Trend] retorna dados em um gráfico de linha somente para um intervalo de 14 dias. Neste exemplo, o relatório mostra impressões e tendências de click-through para um conjunto de segmentos mapeados e não mapeados.
+O relatório [!UICONTROL Segment Trend] retorna dados em um gráfico de linhas somente para um intervalo de 14 dias. Neste exemplo, o relatório mostra impressões e tendências de click-through para um conjunto de segmentos mapeados e não mapeados.
 
-Passe o cursor do mouse sobre qualquer linha para obter mais informações sobre essa tendência de segmento específica. Consulte descrições para obter as informações adicionais na tabela abaixo do relatório de amostra.
+Passe o mouse sobre qualquer linha para obter mais informações sobre essa tendência do segmento específico. Consulte descrições para obter as informações adicionais na tabela abaixo do relatório de amostra.
 
 ![](assets/publisher_segment_trend.png)
 
@@ -77,7 +77,7 @@ Passe o cursor do mouse sobre qualquer linha para obter mais informações sobre
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Cliques</span> </p> </td> 
-   <td colname="col2"> <p>O número de vezes que os membros desta característica clicaram em itens na propriedade da Web. </p> </td> 
+   <td colname="col2"> <p>O número de vezes que membros dessa característica clicaram em itens na propriedade da Web. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Impressões</span> </p> </td> 
@@ -85,10 +85,10 @@ Passe o cursor do mouse sobre qualquer linha para obter mais informações sobre
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> CTR</span> </p> </td> 
-   <td colname="col2"> <p>Índice de click-through. Essa métrica relata a porcentagem de impressões seguidas por cliques. Divida cliques por impressões para obter essa métrica. </p> </td> 
+   <td colname="col2"> <p>Índice de click-through. Essa métrica relata a porcentagem de impressões seguidas pelos cliques. Divida cliques por impressões para obter essa métrica. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Únicos do segmento</span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Segmento único</span> </p> </td> 
    <td colname="col2"> <p>O número de membros do segmento, nos últimos 30 dias. </p> </td> 
   </tr> 
  </tbody> 
