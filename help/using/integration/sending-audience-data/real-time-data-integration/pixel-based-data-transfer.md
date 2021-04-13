@@ -5,13 +5,13 @@ seo-title: Transferências de dados com base em pixels
 solution: Audience Manager
 title: Transferências de dados com base em pixels
 uuid: 8773bfc0-6b8d-4a6a-a8b7-e043744486ab
-feature: Transferências de dados de entrada
+feature: Transferência de dados de entrada
 exl-id: fe9ecb97-4a45-4fbb-855e-01df007144cf
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
