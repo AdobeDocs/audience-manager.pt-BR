@@ -5,13 +5,13 @@ seo-title: Sintaxe de conteúdo do arquivo de dados de entrada, caracteres invá
 solution: Audience Manager
 title: Sintaxe de conteúdo do arquivo de dados de entrada, caracteres inválidos, variáveis e exemplos
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
-feature: Transferências de dados de entrada
+feature: Transferência de dados de entrada
 exl-id: 894f1923-6c78-41d2-b6a2-eebf56eaa29e
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
 source-wordcount: '1196'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -338,7 +338,7 @@ ou
 59767559181262060060278870901087098252 <TAB> ic=52,ic=55
 ```
 
-### Exemplo 5 {#example-5}
+### Exemplo 4 {#example-5}
 
 Use [!UICONTROL trait IDs] para enviar [!UICONTROL trait] informações de qualificação para dispositivos [!DNL Android].
 
