@@ -5,10 +5,10 @@ seo-title: Mensagem de amostra para parceiros após o processamento de entrada
 solution: Audience Manager
 title: Mensagem de amostra para parceiros após o processamento de entrada
 uuid: 69e3a8b3-8465-4f4c-8005-8a9ff15ae19a
-feature: Transferências de dados de entrada
+feature: Transferência de dados de entrada
 exl-id: acfc788f-63e6-445f-a086-0a2cc6c8865b
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
 source-wordcount: '664'
 ht-degree: 3%
