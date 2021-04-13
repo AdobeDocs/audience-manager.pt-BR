@@ -5,25 +5,25 @@ seo-title: Amostragem de dados e taxas de erro em alguns relatórios do Audience
 solution: Audience Manager
 title: Amostragem de dados e taxas de erro em alguns relatórios do Audience Manager
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
-feature: reporting reference
+feature: Referência de relatórios
+exl-id: 0b7f9423-0859-4fa8-926b-e4858eed2294
 translation-type: tm+mt
-source-git-commit: 397be3f44bf865633140bb45630a78be0a0d2219
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '469'
 ht-degree: 7%
 
 ---
-
 
 # Amostragem de dados e taxas de erro em alguns relatórios do Audience Manager{#data-sampling-and-error-rates-in-selected-audience-manager-reports}
 
 Um resumo da metodologia de amostragem utilizada para alguns relatórios, taxas de erro de amostragem e uma lista de relatórios que retornam informações com base em dados recolhidos.
 
-## Taxa de amostragem de dados {#data-sampling-ratio}
+## Proporção de amostragem de dados {#data-sampling-ratio}
 
-Alguns relatórios [!DNL Audience Manager] exibem resultados com base em um conjunto de amostras da quantidade total de dados disponíveis. A proporção de dados amostrados é de 1:54. Para relatórios que usam dados de amostra, isso significa que seus resultados se baseiam em 1 registro de cada conjunto de 54 registros.
+Alguns relatórios [!DNL Audience Manager] exibem resultados com base em um conjunto amostrado da quantidade total de dados disponíveis. A proporção de dados amostrada é de 1:54. Para relatórios que usam dados de amostra, seus resultados são baseados em 1 registro de cada conjunto de 54 registros.
 
-Esses relatórios usam dados estatísticos de amostra porque precisam de uma grande quantidade de poder de computação para gerar resultados. A amostragem ajuda a equilibrar as demandas computacionais reduzidas, mantendo o desempenho do sistema e fornecendo resultados precisos.
+Esses relatórios usam dados estatísticos de amostra porque eles precisam de uma grande quantidade de poder de computação para gerar resultados. A amostragem ajuda a equilibrar as demandas computacionais reduzidas, mantendo o desempenho do sistema e fornecendo resultados precisos.
 
 <!--
 
@@ -44,10 +44,10 @@ Overlap reports ([trait-to-trait](/help/using/reporting/dynamic-reports/trait-tr
 
 Erros podem ocorrer em relatórios que geram dados de sobreposição. Um erro é definido como a porcentagem de registros que:
 
-* Não deveria ter sido incluído em um relatório, mas sim adicionado mesmo assim.
+* Não deveria ter sido incluído num relatório, mas sim adicionado.
 * Deveria ter sido incluído em um relatório, mas foi deixado de fora.
 
-É importante observar que nossos testes e modelos mostram que a taxa de erro *diminui* em uma proporção inversa ao número de registros em seu conjunto de dados. Os conjuntos de dados com muitos registros geram menos erros do que os conjuntos com um pequeno número de registros. Vejamos essa afirmação de forma mais quantitativa. Conforme mostrado na tabela a seguir, para um número definido de registros, 95% dos resultados do relatório estarão abaixo de uma taxa de erro específica.
+É importante observar que nossos testes e modelos mostram que a taxa de erro *diminui* em uma proporção inversa ao número de registros no conjunto de dados. Conjuntos de dados com muitos registros geram menos erros que conjuntos com um pequeno número de registros. Vejamos essa afirmação de forma mais quantitativa. Como mostrado na tabela a seguir, para um número definido de registros, 95% dos resultados do relatório estarão abaixo de uma taxa de erro específica.
 
 | Número de registros | Taxa de erro |
 |--- |--- |
@@ -55,12 +55,12 @@ Erros podem ocorrer em relatórios que geram dados de sobreposição. Um erro é
 | 1.000 - 1.500 | 95% estão abaixo de uma taxa de erro de 34%. |
 | 10.000 - 50.000 | 95% estão abaixo de uma taxa de erro de 14%. |
 | 50.000 | 95% estão abaixo de uma taxa de erro de 6%. |
-| 100 000 | 95% estão abaixo de uma taxa de erro de 4%. |
+| 100.000 | 95% estão abaixo de uma taxa de erro de 4%. |
 | 500.000 (ou mais) | 95% estão abaixo de uma taxa de erro de 2%. |
 
-## Utilização da metodologia de amostragem Minhash {#minhash}
+## Usando a metodologia de amostragem de minhash {#minhash}
 
-Com base na metodologia de amostragem [Minhash](https://en.wikipedia.org/wiki/MinHash), o Audience Manager usa um novo método para calcular os estimadores de características e segmentos sobre um rascunho de dados de um hash de permutação única. Esse novo método produz uma variância menor do que o estimador padrão para similaridade com o Jaccard. Consulte a seção abaixo para obter os relatórios que usam essa metodologia.
+Com base na metodologia de amostragem [Minhash](https://en.wikipedia.org/wiki/MinHash), o Audience Manager usa um novo método para calcular estimativas de características e segmentos sobre um rascunho de dados de hash de uma permutação. Esse novo método produz uma variação menor do que o estimador padrão da similaridade Jaccard. Consulte a seção abaixo para obter os relatórios que usam essa metodologia.
 
 <!--
 
@@ -72,7 +72,7 @@ Some Audience Manager reports use the minhash sampling methodology to compute tr
 
 ## Relatórios que usam dados de amostra {#reports-using-sampled-data}
 
-Os relatórios [!DNL Audience Manager] que usam dados estatísticos amostrados e a metodologia de amostragem Minhash incluem:
+Os relatórios [!DNL Audience Manager] que usam dados estatísticos amostrados e a metodologia de amostragem de Minhash incluem:
 
 <!--
 
@@ -87,6 +87,6 @@ Reports that use Minhash sampling methodology:
 
 | Amostragem estatística | Metodologia de amostragem de minhash |
 |--- |--- |
-| [Dados de ](../features/addressable-audiences.md) público-alvo endereçáveis (dados no nível do cliente e do segmento). | [Relatórios](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports)  de sobreposição (característica para característica, segmento para característica e segmento para segmento) |
-| A métrica [Total Devices](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) para [!UICONTROL Profile Merge Rule]. | [Recomendações de característica](/help/using/features/segments/trait-recommendations.md) |
-| [O Data ](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) Explorer usa dados de amostra na  [!UICONTROL Search] guia e qualquer  [!UICONTROL Saved Searches] | [Audience Marketplace Recommendations](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |
+| [Dados de ](../features/addressable-audiences.md) público-alvo endereçáveis (dados a nível de cliente e segmento). | [Relatórios de sobreposição](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports)  (característica, segmento para característica e segmento para segmento) |
+| A métrica [Total de dispositivos](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) para um [!UICONTROL Profile Merge Rule]. | [Recomendações de característica](/help/using/features/segments/trait-recommendations.md) |
+| [O Data ](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) Explorer usa dados de amostra na  [!UICONTROL Search] guia e em qualquer  [!UICONTROL Saved Searches] | [Audience Marketplace Recommendations](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |
