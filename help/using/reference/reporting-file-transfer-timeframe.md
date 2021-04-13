@@ -5,15 +5,15 @@ seo-title: Como o delivery de dados e os tempos de processamento de arquivos afe
 solution: Audience Manager
 title: Como o delivery de dados e os tempos de processamento de arquivos afetam os relatórios
 uuid: 4b975512-f67e-4749-a7ef-168415597682
-feature: referência
+feature: 'Referência '
+exl-id: d13102c3-fd1b-4c31-8003-9fdc0df36838
 translation-type: tm+mt
-source-git-commit: a696bc03e430e25e2752d84905009645c625d762
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 5%
 
 ---
-
 
 # Como o delivery de dados e os tempos de processamento de arquivos afetam os relatórios{#how-data-delivery-and-file-processing-times-affect-reports}
 
