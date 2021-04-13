@@ -5,49 +5,49 @@ seo-title: Convenções de nomenclatura para arquivos de metadados
 solution: Audience Manager
 title: Convenções de nomenclatura para arquivos de metadados
 uuid: cab55b2a-2e54-45f6-aeea-3735b911f821
-feature: log files
+feature: Arquivos de registro
+exl-id: 7a895c4f-1100-4ba1-947e-abb47307fb40
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '216'
 ht-degree: 10%
 
 ---
-
 
 # Convenções de nomenclatura para arquivos de metadados{#naming-conventions-for-metadata-files}
 
 Nomeie seu arquivo de metadados de Audience Optimization de acordo com essas especificações.
 
-## Categorias de sintaxe e ID {#syntax}
+## Sintaxe e categorias de ID {#syntax}
 
-A sintaxe a seguir define a estrutura de um nome de arquivo de metadados bem formado. Observação: *italics* indica um espaço reservado variável. Os outros elementos são constantes e não são alterados.
+A sintaxe a seguir define a estrutura de um nome de arquivo de metadados bem formado. Observação: *itálico* indica um espaço reservado para variável. Os outros elementos são constantes e não são alterados.
 
 **Sintaxe:** *`yyyymmdd_0_childID`*
 
 >[!NOTE]
 >
->*Não* utilize extensões de arquivo nos arquivos de metadados (.txt ou outros).
+>*Não* use extensões de arquivo em seus arquivos de metadados (.txt ou outros).
 
 <!--In the name syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file contents](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md). These 2 variables seem similar, but they represent different things:-->
 
-* O componente intermediário **0** é tecnicamente a ID pai, que é um campo herdado. O valor deve ser sempre definido como **0**.
-* A ID filho pode ter um valor entre 1 e 10, dependendo da dimensão. Consulte abaixo:
+* O componente do meio **0** é tecnicamente a ID pai, que é um campo herdado. O valor deve ser sempre definido como **0**.
+* A ID secundária pode ter um valor entre 1 e 10, dependendo da dimensão. Consulte abaixo:
 
 ## Dimensões de ID filho {#child-dimension}
 
-No nome do arquivo de metadados, a ID filho é um identificador que classifica o tipo de dados em um arquivo e o coloca em uma hierarquia. Você pode marcar a ID filho no nome do arquivo com as seguintes IDs de categoria:
+No nome do arquivo de metadados, a ID filho é um identificador que classifica o tipo de dados em um arquivo e o coloca em uma hierarquia. Você pode adicionar uma tag à ID filho em nome de arquivo com as seguintes IDs de categoria:
 
 1. Campanha
-1. Creative
+1. Criativo
 1. Disposição
 1. Exchange
 1. Site
 1. Anunciante (se estiver usando códigos de integração em uma [fonte de dados](../../../features/manage-datasources.md#details))
-1. Ordem de inserção (E/S)
-1. Vertical (isto é, uma indústria ou categoria de negócios específica como &quot;computadores&quot;, &quot;automóveis&quot;, &quot;bens imobiliários&quot; etc.)
+1. Ordem de inserção (IO)
+1. Vertical (ou seja, um setor ou categoria de negócios específica como &quot;computadores&quot;, &quot;automóveis&quot;, &quot;bens imóveis&quot; etc.)
 1. Tático
-1. Unidade comercial ou marca
+1. Unidade ou marca comercial
 
 ## Exemplo {#example}
 
