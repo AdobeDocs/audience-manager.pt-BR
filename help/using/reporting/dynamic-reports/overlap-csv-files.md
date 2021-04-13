@@ -1,27 +1,27 @@
 ---
-description: É possível requisitar um arquivo .csv para um Relatório de sobreposição quando ele alcança o limite de 1 milhão. Um relatório pode ter atingido esse limite quando você vê uma mensagem de "Erro inesperado". Entre em contato com o Atendimento ao cliente para solicitar um arquivo .csv compactado, que pode ser importado e usado em seu próprio sistema de banco de dados. Os arquivos estão disponíveis para relatórios de sobreposição segmento a segmento, segmento a característica e característica a característica.
-seo-description: É possível requisitar um arquivo .csv para um Relatório de sobreposição quando ele alcança o limite de 1 milhão. Um relatório pode ter atingido esse limite quando você vê uma mensagem de "Erro inesperado". Entre em contato com o Atendimento ao cliente para solicitar um arquivo .csv compactado, que pode ser importado e usado em seu próprio sistema de banco de dados. Os arquivos estão disponíveis para relatórios de sobreposição segmento a segmento, segmento a característica e característica a característica.
+description: É possível requisitar um arquivo .csv para um Relatório de sobreposição quando ele alcança o limite de 1 milhão. Um relatório pode ter atingido esse limite quando você vê uma mensagem de "Ocorreu um erro inesperado". Entre em contato com o Atendimento ao cliente para solicitar um arquivo .csv compactado, com o qual você pode importar e trabalhar em seu próprio sistema de banco de dados. Os arquivos estão disponíveis para relatórios de sobreposição de segmento por segmento, segmento por característica e característica por característica.
+seo-description: É possível requisitar um arquivo .csv para um Relatório de sobreposição quando ele alcança o limite de 1 milhão. Um relatório pode ter atingido esse limite quando você vê uma mensagem de "Ocorreu um erro inesperado". Entre em contato com o Atendimento ao cliente para solicitar um arquivo .csv compactado, com o qual você pode importar e trabalhar em seu próprio sistema de banco de dados. Os arquivos estão disponíveis para relatórios de sobreposição de segmento por segmento, segmento por característica e característica por característica.
 seo-title: Arquivos CSV para relatórios de sobreposição
 solution: Audience Manager
 title: Arquivos CSV para relatórios de sobreposição
 uuid: 047e440e-00c5-4d06-a809-51d776326cd6
-feature: overlap reports
+feature: Relatórios de sobreposição
+exl-id: 759c39cb-64ec-47dd-a3a4-027408aa6b5e
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '978'
 ht-degree: 9%
 
 ---
 
-
 # Arquivos CSV para relatórios de sobreposição{#csv-files-for-overlap-reports}
 
-É possível requisitar um arquivo .csv para um Relatório de sobreposição quando ele alcança o limite de 1 milhão. Um relatório pode ter atingido esse limite quando você vê uma mensagem de &quot;Erro inesperado&quot;. Entre em contato com o Atendimento ao cliente para solicitar um arquivo .csv compactado, que pode ser importado e usado em seu próprio sistema de banco de dados. Os arquivos estão disponíveis para relatórios de sobreposição segmento a segmento, segmento a característica e característica a característica.
+É possível requisitar um arquivo .csv para um Relatório de sobreposição quando ele alcança o limite de 1 milhão. Um relatório pode ter atingido esse limite quando você vê uma mensagem de &quot;Ocorreu um erro inesperado&quot;. Entre em contato com o Atendimento ao cliente para solicitar um arquivo .csv compactado, com o qual você pode importar e trabalhar em seu próprio sistema de banco de dados. Os arquivos estão disponíveis para relatórios de sobreposição de segmento por segmento, segmento por característica e característica por característica.
 
-## Metadados de nome de arquivo {#file-name-metadata}
+## Metadados do nome do arquivo {#file-name-metadata}
 
-A lista de tabela a seguir e descreve as convenções de nomenclatura de arquivos e as extensões de arquivo usadas em um arquivo .csv sobreposto. Nos exemplos, *itálico* indica um espaço reservado para variável.
+A tabela a seguir descreve as convenções de nomenclatura de arquivos e as extensões de arquivo usadas em um arquivo .csv de sobreposição. Nos exemplos, *itálico* indica um espaço reservado para variável.
 
 <table id="table_C99FCABA365B4AB99620F27D4414E623"> 
  <thead> 
@@ -33,7 +33,7 @@ A lista de tabela a seguir e descreve as convenções de nomenclatura de arquivo
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Arquivo Extensão </p> </td> 
-   <td colname="col2"> <p>Os arquivos de relatório sobrepostos são compactados gzip e têm uma extensão de arquivo <code> .gz</code>. É necessário adicionar a extensão <code> .csv</code> ao arquivo após a descompactação. </p> </td> 
+   <td colname="col2"> <p>Os arquivos de relatório de sobreposição são compactados por gzip e têm uma extensão de arquivo <code> .gz</code>. Você deve adicionar a extensão <code> .csv</code> ao arquivo após a descompactação. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nome do arquivo </p> </td> 
@@ -54,7 +54,7 @@ A lista de tabela a seguir e descreve as convenções de nomenclatura de arquivo
   </tr> 
   <tr> 
    <td colname="col1"> <p>Vários arquivos </p> </td> 
-   <td colname="col2"> <p>Nós incrementamos o último dígito no nome do arquivo se um relatório contiver vários arquivos. </p> </td> 
+   <td colname="col2"> <p>Aumentamos o último dígito no nome do arquivo se um relatório contiver vários arquivos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Exemplos </p> </td> 
@@ -74,7 +74,7 @@ A lista de tabela a seguir e descreve as convenções de nomenclatura de arquivo
 
 ## Conteúdo do arquivo {#file-contents}
 
-No arquivo, os dados da string são incluídos entre aspas de duplo. Veja os dados de simulação abaixo. Isso foi truncado para brevidade e para se ajustar à tela.
+No arquivo , os dados da string são colocados entre aspas duplas. Veja os dados do modelo abaixo. Isso foi truncado por motivos de brevidade e para caber na tela.
 
 ```js
 //File header
@@ -83,9 +83,9 @@ No arquivo, os dados da string são incluídos entre aspas de duplo. Veja os dad
 "123456","segmentA","654321","segmentB","30","yyyy-mm-dd","98765",...
 ```
 
-## Registros de relatório de segmento a segmento {#segment-segment-records}
+## Registros de relatório de segmento por segmento {#segment-segment-records}
 
-Um arquivo de dados para seu [Relatório de sobreposição de segmento para segmento](segment-segment-overlap-report.md) contém os seguintes registros.
+Um arquivo de dados para seu [Relatório de sobreposição de segmento por segmento](segment-segment-overlap-report.md) contém os seguintes registros.
 
 <table id="table_1BDC7019DF2543069D7AE229C5E2454E"> 
  <thead> 
@@ -97,15 +97,15 @@ Um arquivo de dados para seu [Relatório de sobreposição de segmento para segm
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> segment_id1</code> </p> </td> 
-   <td colname="col2"> <p>A ID do segmento que você está comparando ao segmento da linha de base. </p> </td> 
+   <td colname="col2"> <p>A ID do segmento que você está comparando com o segmento da linha de base. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> segment_name1</code> </p> </td> 
-   <td colname="col2"> <p>O nome do segmento que você está comparando aos segmentos da linha de base. </p> </td> 
+   <td colname="col2"> <p>O nome do segmento que você está comparando com os segmentos da linha de base. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> segment_id2</code> </p> </td> 
-   <td colname="col2"> <p>A ID do segmento de linha de base. O segmento de linha de base é o segmento que você deseja comparar com outros segmentos. </p> </td> 
+   <td colname="col2"> <p>A ID do seu segmento de linha de base. O segmento de linha de base é o segmento que você deseja comparar com outros segmentos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> segment_name2</code> </p> </td> 
@@ -125,26 +125,26 @@ Um arquivo de dados para seu [Relatório de sobreposição de segmento para segm
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> segment_uniques1</code> </p> </td> 
-   <td colname="col2"> <p>O número de usuários únicos no segmento que você está comparando ao segmento da linha de base. </p> </td> 
+   <td colname="col2"> <p>O número de usuários únicos no segmento que você está comparando com o segmento da linha de base. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> segment_uniques2</code> </p> </td> 
-   <td colname="col2"> <p>O número de usuários únicos no segmento da linha de base. </p> </td> 
+   <td colname="col2"> <p>O número de usuários únicos no segmento de linha de base. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> overlap_uniques</code> </p> </td> 
-   <td colname="col2"> <p>Uma contagem total da sobreposição de usuários únicos entre o segmento da linha de base e os outros segmentos selecionados para comparação. </p> </td> 
+   <td colname="col2"> <p>Uma contagem total da sobreposição de usuários únicos entre o segmento de linha de base e os outros segmentos selecionados para comparação. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Overlap_perc</code> </p> </td> 
-   <td colname="col2"> <p>A % sobreposição de usuários únicos entre o segmento da linha de base e os outros segmentos selecionados para comparação. </p> </td> 
+   <td colname="col2"> <p>A % sobreposição de usuários únicos entre o segmento de linha de base e os outros segmentos selecionados para comparação. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Registros de relatório de segmento para característica {#segment-trait-records}
 
-Um arquivo de dados para seu [Relatório de sobreposição entre segmentos](segment-trait-overlap-report.md) contém os seguintes registros.
+Um arquivo de dados para seu [Relatório de sobreposição de segmento por característica](segment-trait-overlap-report.md) contém os seguintes registros.
 
 <table id="table_45270B5D01014AD99921B320D3A32DB6"> 
  <thead> 
@@ -209,9 +209,9 @@ Um arquivo de dados para seu [Relatório de sobreposição entre segmentos](segm
  </tbody> 
 </table>
 
-## Registros de relatório de características a características {#trait-trait-records}
+## Registros do relatório de características {#trait-trait-records}
 
-Um arquivo de dados para seu [Relatório de sobreposição de características para características](trait-trait-overlap-report.md) contém os seguintes registros.
+Um arquivo de dados para seu [Relatório de sobreposição de característica](trait-trait-overlap-report.md) contém os seguintes registros.
 
 <table id="table_603216E6AFE4439A87C91DDFF2989F53"> 
  <thead> 
@@ -223,19 +223,19 @@ Um arquivo de dados para seu [Relatório de sobreposição de características p
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> overlap_trait_id</code> </p> </td> 
-   <td colname="col2"> <p>A ID do traço que você está comparando ao traço da linha de base. </p> </td> 
+   <td colname="col2"> <p>A ID da característica que você está comparando com a característica da linha de base. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> overlap_trait_name</code> </p> </td> 
-   <td colname="col2"> <p>O nome do traço que você está comparando ao traço da linha de base. </p> </td> 
+   <td colname="col2"> <p>O nome da característica que você está comparando com a característica da linha de base. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> base_trait_id</code> </p> </td> 
-   <td colname="col2"> <p>A ID do seu traço de linha de base. O traço da linha de base é o traço que você deseja comparar com outras características. </p> </td> 
+   <td colname="col2"> <p>A ID da sua característica de linha de base. A característica da linha de base é a característica que você deseja comparar com outras características. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> base_trait_name</code> </p> </td> 
-   <td colname="col2"> <p>O nome do traço da linha de base que você está comparando com outras características. </p> </td> 
+   <td colname="col2"> <p>O nome da característica da linha de base que você está comparando com outras características. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> dataprovider_type</code> </p> </td> 
