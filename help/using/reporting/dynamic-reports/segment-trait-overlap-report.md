@@ -5,15 +5,15 @@ seo-title: Relatório de sobreposição de segmento por característica
 solution: Audience Manager
 title: Relatório de sobreposição de segmento por característica
 uuid: a6b3dd21-332e-449f-aa01-2beb47f1794e
-feature: overlap reports
+feature: Relatórios de sobreposição
+exl-id: 7ce3dd2d-ab22-46f8-90bf-a32222df2e76
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '832'
 ht-degree: 5%
 
 ---
-
 
 # Relatório de sobreposição de segmento por característica{#segment-to-trait-overlap-report}
 
@@ -31,7 +31,7 @@ c_segment_trait_overlap.xml
 
 ## Visão geral
 
-Como uma ferramenta de otimização, os relatórios [!UICONTROL Segment to Trait Overlap] ajudam a criar segmentos altamente focados ou a expandir o alcance dos segmentos. Por exemplo, é possível criar segmentos focados e características com alta sobreposição para atingir uma audiência específica. No entanto, muitas sobreposições podem significar menos usuários únicos (menos alcance). Executar este relatório para ajudar a expandir o alcance, removendo características com muita sobreposição de segmentos e substituindo-as por características que têm menos sobreposição.
+Como ferramenta de otimização, os relatórios [!UICONTROL Segment to Trait Overlap] ajudam a criar segmentos altamente focados ou a expandir o alcance do segmento. Por exemplo, você pode criar segmentos focados e características com alta sobreposição para atingir um público-alvo específico. No entanto, muitas sobreposições podem significar menos usuários únicos (menos alcance). Executar esse relatório para ajudar a expandir o alcance removendo características com muita sobreposição de segmentos e substituindo-as por características que têm menos sobreposição.
 
 ### Relatório de exemplo
 
@@ -39,9 +39,9 @@ A ilustração a seguir fornece uma visão geral de alto nível do relatório [!
 
 ![](assets/segment-to-trait-overlap.png)
 
-### Detalhar pontos de dados individuais
+### Detalhar em pontos de dados individuais
 
-Selecione um ponto individual para visualização de detalhes de dados em uma janela pop-up. As ações de clique atualizam automaticamente os dados exibidos no relatório.
+Selecione um ponto individual para exibir os detalhes dos dados em uma janela pop-up. As ações de clique atualizam automaticamente os dados exibidos no relatório.
 
 ## Comparação de segmentos com características {#comparing-segments-to-traits}
 
@@ -53,22 +53,22 @@ c_compare_s2t.xml
 
  -->
 
-### Comparando características e únicos de segmentos: Um exemplo
+### Comparação de características e únicos de segmentos: Um exemplo
 
-À primeira vista, pode parecer ilógico comparar segmentos a características e tentar tirar conclusões dos resultados. Afinal, segmentos e características são diferentes, então como os dados derivados de itens diferentes podem ter significado? Entretanto, neste caso, não estamos comparando características e segmentos, mas o número de visitantes únicos compartilhados entre eles. A contagem de visitantes exclusivos compartilhados fornece o valor comum que torna possível a comparação entre um segmento e uma característica.
+À primeira vista, pode parecer ilógico comparar segmentos a características e tentar tirar conclusões dos resultados. Afinal, segmentos e características são diferentes, então como os dados derivados de itens diferentes podem ter significado? No entanto, nesse caso, não estamos comparando características e segmentos, mas o número de visitantes únicos compartilhados entre eles. A contagem de visitantes únicos compartilhados fornece o valor comum que torna possível uma comparação de características de um segmento.
 
-O diagrama a seguir ilustra a relação entre uma característica e o segmento ao qual ela pertence. Neste caso, temos um traço com 10 visitantes e um segmento com 1.000 visitantes. Eles compartilham três visitantes únicos em comum.
+O diagrama a seguir ilustra a relação entre uma característica e o segmento ao qual ela pertence. Nesse caso, temos uma característica com 10 visitantes e um segmento com 1.000 visitantes. Eles compartilham três visitantes únicos em comum.
 
 ![](assets/s2t.png)
 
-A contagem exclusiva de visitantes é o valor comum e constante compartilhado entre essas diferentes classes de objetos. Como resultado, você pode determinar a relação de visitante exclusiva entre eles da seguinte forma:
+A contagem de visitantes únicos é o valor comum e constante compartilhado entre essas diferentes classes de objetos. Como resultado, você pode determinar a relação de visitante único entre eles da seguinte maneira:
 
 * A característica compartilha 30% de seus visitantes únicos com o segmento (3/10 = 0,30).
 * O segmento compartilha 0,3% de seus visitantes únicos com a característica (3/1. 000 = 0,003)
 
-### Encontrar valor em comparação entre segmento e característica
+### Localizar valor no segmento para comparações de características
 
-Analisar a sobreposição entre características e segmentos pode ajudar a estimar o conjunto de visitantes disponível total (previsão) ou localizar segmentos ineficientes com sobreposição excessiva.
+Observar a sobreposição entre características e segmentos pode ajudar a estimar o conjunto de visitantes disponíveis (previsão) ou encontrar segmentos ineficientes com sobreposição excessiva.
 
 <table id="table_5B211EF95216426299EB20253A5A9C1B"> 
  <thead> 
@@ -80,18 +80,18 @@ Analisar a sobreposição entre características e segmentos pode ajudar a estim
  <tbody> 
   <tr> 
    <td colname="col1"><b>Previsão</b> </td> 
-   <td colname="col2"> <p>Para determinar o pool de visitantes disponível, soma a diferença entre o total da característica (menos sobreposição) e o total do segmento (menos sobreposição). </p> <p>Essa combinação segmento-característica pode atingir até 1004 novos usuários. </p> </td> 
+   <td colname="col2"> <p>Para determinar o conjunto de visitantes disponível, some a diferença entre o total de características (menos sobreposição) e o total do segmento (menos sobreposição). </p> <p>Essa combinação de características de segmento pode alcançar até 1004 novos usuários. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b>Localizar segmentos ineficientes</b> </td> 
-   <td colname="col2"> <p>Se uma característica faz parte de um grupo <span class="wintitle"> AND</span> em uma definição de segmento, os visitantes exclusivos que têm essa característica já estão no segmento e não estão disponíveis para adição ao segmento. Você pode usar esse relatório para encontrar características relevantes com baixa sobreposição e adicioná-las à definição do segmento, aumentando o alcance desse pool de audiências de segmentos. </p> </td> 
+   <td colname="col1"><b>Encontrar segmentos ineficientes</b> </td> 
+   <td colname="col2"> <p>Se uma característica faz parte de um grupo <span class="wintitle"> AND</span> em uma definição de segmento, os visitantes únicos que têm essa característica já estão no segmento e não estão disponíveis para adição ao segmento. Você pode usar esse relatório para encontrar características relevantes com baixa sobreposição e adicioná-las à definição do segmento, aumentando assim o alcance desse público-alvo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Como entender os Filtros de dados no relatório de sobreposição entre segmentos e características {#data-filters-s2t-report}
+## Como entender os filtros de dados no relatório de sobreposição de segmento por característica {#data-filters-s2t-report}
 
-Descreve como os controles deslizantes % de sobreposição exclusiva de características e segmentos funcionam.
+Descreve como funcionam os % de controles deslizantes de sobreposição de característica e segmento exclusivo.
 
 <!-- 
 
@@ -99,21 +99,21 @@ r_s2t_sliders.xml
 
  -->
 
-O relatório [!UICONTROL Segment-to-Trait overlap] permite que você use dois controles deslizantes para filtrar dados pela % de sobreposição por característica ou segmento.
+O relatório [!UICONTROL Segment-to-Trait overlap] permite usar dois controles deslizantes para filtrar dados pela % de sobreposição por característica ou segmento.
 
-* **[!UICONTROL Filter Trait Uniques %:]** Dados de filtros por % de visitantes únicos compartilhados entre a característica e o segmento.
-* **[!UICONTROL Filter Segment Uniques Overlap %:]** Dados de filtros por % de visitantes únicos compartilhados entre o segmento e a característica.
+* **[!UICONTROL Filter Trait Uniques %:]** Filtra os dados pela % de visitantes únicos compartilhados entre a característica e o segmento.
+* **[!UICONTROL Filter Segment Uniques Overlap %:]** Filtra os dados pela % de visitantes únicos compartilhados entre o segmento e a característica.
 
 ### Exemplo
 
-O diagrama a seguir ilustra a diferença entre os únicos de característica % e os únicos de segmento %. Nesse caso, a característica e o segmento compartilham 3 visitantes únicos. Como proporções:
+O diagrama a seguir ilustra a diferença entre as características únicas % e as % únicas do segmento. Nesse caso, a característica e o segmento compartilham três visitantes únicos. Como proporções:
 
 * A característica compartilha 30% de seus visitantes únicos com o segmento (3/10 = 0,30).
 * O segmento compartilha 0,3% de seus visitantes únicos com a característica (3/1. 000 = 0,003)
 
 ![](assets/s2t.png)
 
-## Campos de Pop de Dados Segmento para Caractere Definidos {#fields-defined}
+## Campos de Pop de Dados de Segmento para Característica Definidos {#fields-defined}
 
 Descreve as métricas exibidas na janela pop-up quando você clica em um ponto de dados individual.
 
@@ -135,27 +135,27 @@ O pop-up do relatório [!UICONTROL Segment-to-Trait Overlap] contém as métrica
  <tbody> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> ID do segmento</span></b> </td> 
-   <td colname="col2"> ID numérica exclusiva do segmento. </td> 
+   <td colname="col2"> ID numérica exclusiva para o segmento. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Fonte de Dados de Características  </span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> Fonte de dados da característica  </span></b> </td> 
    <td colname="col2"> Nome do proprietário da característica. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> Tipo de fonte de dados</span></b> </td> 
    <td colname="col2">Define o tipo de provedor ao qual uma característica pertence. Pode ser: 
     <ul id="ul_0477C04A33FD4F5D998B98984E6554D3"> 
-     <li id="li_50FCA48EDB5843AB8FB6C34ED2C0067D">Primeiro partido (seu próprio traço). </li> 
-     <li id="li_4F6148EDAEFE43FA8D505944E9FE3855">Terceiros (de um parceiro/fornecedor externo de dados). </li> 
+     <li id="li_50FCA48EDB5843AB8FB6C34ED2C0067D">Primários (sua própria característica). </li> 
+     <li id="li_4F6148EDAEFE43FA8D505944E9FE3855">Terceiros (de um parceiro/fornecedor de dados externo). </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> ID da característica</span></b> </td> 
-   <td colname="col2"> ID numérica exclusiva da característica. </td> 
+   <td colname="col2"> ID numérica exclusiva para a característica. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> Nome da característica</span></b> </td> 
-   <td colname="col2"> Nome do traço. </td> 
+   <td colname="col2"> Nome da característica. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> % de sobreposição de características únicas</span></b> </td> 
@@ -163,14 +163,14 @@ O pop-up do relatório [!UICONTROL Segment-to-Trait Overlap] contém as métrica
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> % de sobreposição de segmentos únicos</span></b> </td> 
-   <td colname="col2"> % de visitantes únicos compartilhados por um segmento com uma característica. </td> 
+   <td colname="col2"> % de visitantes únicos que um segmento compartilha com uma característica. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Sobreposição de únicos</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> Sobreposição de Uniques</span></b> </td> 
    <td colname="col2"> Número de visitantes únicos compartilhados entre o segmento e a característica. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Únicos do segmento</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> Segmento único</span></b> </td> 
    <td colname="col2"> Número de visitantes únicos no segmento. </td> 
   </tr> 
   <tr> 
@@ -188,3 +188,4 @@ O pop-up do relatório [!UICONTROL Segment-to-Trait Overlap] contém as métrica
 >* [Relatórios de sobreposição: Atualizar agendamento e tamanho mínimo do segmento](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
 >* [Amostragem de dados e taxas de erro em alguns relatórios do Audience Manager...](../../reporting/report-sampling.md)
 >* [Arquivos CSV para relatórios de sobreposição](../../reporting/dynamic-reports/overlap-csv-files.md)
+
