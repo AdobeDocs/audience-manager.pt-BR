@@ -5,10 +5,10 @@ seo-title: Requisitos de nome e tamanho de arquivo FTP para arquivos de dados de
 solution: Audience Manager
 title: Requisitos de nome e tamanho de arquivo FTP para arquivos de dados de entrada
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
-feature: Transferências de dados de entrada
+feature: Transferência de dados de entrada
 exl-id: 9c889214-7075-4392-9ed5-f07b91e7b50a
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 8%
