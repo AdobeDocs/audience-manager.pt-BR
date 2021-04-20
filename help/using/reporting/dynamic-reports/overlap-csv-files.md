@@ -5,7 +5,7 @@ seo-title: Arquivos CSV para relatórios de sobreposição
 solution: Audience Manager
 title: Arquivos CSV para relatórios de sobreposição
 uuid: 047e440e-00c5-4d06-a809-51d776326cd6
-feature: Relatórios de sobreposição
+feature: Overlap Reports
 exl-id: 759c39cb-64ec-47dd-a3a4-027408aa6b5e
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

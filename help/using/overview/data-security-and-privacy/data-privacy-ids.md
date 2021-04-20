@@ -5,7 +5,7 @@ seo-title: Identificadores do Audience Manager (IDs)
 solution: Audience Manager
 keywords: Interface do usuário do GDPR, API do GDPR, CCPA, privacidade, AAM ID
 title: Identificadores do Audience Manager (IDs)
-feature: Governança e privacidade de dados
+feature: Data Governance & Privacy
 exl-id: 5f18ed0a-c875-4596-a4d1-f9a7fe871d1b
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

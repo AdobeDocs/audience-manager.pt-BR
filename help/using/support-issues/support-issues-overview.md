@@ -4,7 +4,7 @@ seo-description: Esta seção inclui os principais problemas relatados ao Atendi
 seo-title: Visão geral de problemas de suporte
 solution: Audience Manager
 title: Visão geral de problemas de suporte
-feature: Suporte
+feature: Support
 exl-id: 9d2d5473-f3cc-45f5-a573-b0faeafbfe05
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

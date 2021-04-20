@@ -5,7 +5,7 @@ seo-title: Integração de dados de entrada em tempo real
 solution: Audience Manager
 title: Integração de dados de entrada em tempo real
 uuid: 96f292bb-608c-41d3-8baa-a58ecb411db0
-feature: Transferência de dados de entrada
+feature: Inbound Data Transfers
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt

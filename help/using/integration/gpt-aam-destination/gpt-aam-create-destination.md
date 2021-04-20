@@ -5,7 +5,7 @@ seo-title: Criar um destino com GPT
 solution: Audience Manager
 title: Criar um destino com GPT
 uuid: e3bbf327-a7e0-48da-bc84-8f531b7f6750
-feature: Integração de terceiros
+feature: Third-party Integration
 exl-id: 26373826-de06-49e5-82fd-bb6588a73fb9
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

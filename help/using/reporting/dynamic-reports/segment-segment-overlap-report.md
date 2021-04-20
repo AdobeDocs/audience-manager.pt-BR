@@ -5,7 +5,7 @@ seo-title: Relatório de sobreposição de segmento por segmento
 solution: Audience Manager
 title: Relatório de sobreposição de segmento por segmento
 uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
-feature: Relatórios de sobreposição
+feature: Overlap Reports
 exl-id: 43a8ea20-3197-4623-a03a-bfe40e5049cd
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

@@ -6,7 +6,7 @@ seo-title: Métodos da DIL em nível de instância
 solution: Audience Manager
 title: Métodos da DIL em nível de instância
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
-feature: Implementação de DIL
+feature: DIL Implementation
 translation-type: tm+mt
 source-git-commit: e40233ace5cb74743db7d0f9f90707fa596a7e79
 workflow-type: tm+mt

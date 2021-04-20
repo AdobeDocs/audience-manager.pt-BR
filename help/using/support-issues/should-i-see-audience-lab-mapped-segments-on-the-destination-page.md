@@ -4,7 +4,7 @@ seo-description: Por que os segmentos mapeados do Audience Lab não aparecem na 
 seo-title: Por que os segmentos mapeados do Audience Lab não aparecem na página de detalhes do destino.
 solution: Audience Manager
 title: Devo ver meus segmentos do Audience Lab mapeados na página de detalhes do destino?
-feature: Suporte
+feature: Support
 exl-id: 7f35b824-7acd-415f-92a9-62c2a3d08526
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

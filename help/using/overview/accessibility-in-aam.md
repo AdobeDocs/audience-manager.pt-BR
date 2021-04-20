@@ -4,7 +4,7 @@ seo-description: Acessibilidade refere-se a uma série de recursos que tornam um
 seo-title: Acessibilidade no Audience Manager
 solution: Audience Manager
 title: Acessibilidade no Audience Manager
-feature: Visão geral
+feature: Overview
 exl-id: 45fd53e6-b8e1-49b4-99a3-c78adc90c707
 translation-type: tm+mt
 source-git-commit: 15e36d2847627b5e5ccef11f8073ce5124f14815

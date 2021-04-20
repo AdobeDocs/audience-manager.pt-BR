@@ -4,7 +4,7 @@ seo-description: 'Os Destinos com base em pessoas oferecem várias estratégias 
 seo-title: Diretrizes de implementação de destinos com base em pessoas
 solution: Audience Manager
 title: Diretrizes de implementação
-feature: Destinos com base em pessoas
+feature: People-based Destinations
 exl-id: 224334d5-419c-4bb1-b76c-ce996a543b7a
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

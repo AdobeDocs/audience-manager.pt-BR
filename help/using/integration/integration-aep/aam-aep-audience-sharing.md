@@ -5,7 +5,7 @@ seo-title: Compartilhamento de públicos entre o Audience Manager e a Adobe Expe
 solution: Audience Manager
 title: Compartilhamento de públicos entre o Audience Manager e a Adobe Experience Platform
 keywords: Compartilhamento de público da AEP, segmentos da AEP, segmentos da plataforma, compartilhamento de segmentos, compartilhamento de público, compartilhamento de segmentos
-feature: Integração da plataforma
+feature: Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

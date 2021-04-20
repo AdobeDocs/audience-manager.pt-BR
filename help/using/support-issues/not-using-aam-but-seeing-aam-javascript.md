@@ -4,7 +4,7 @@ seo-description: Não estamos usando, mas estamos vendo chamadas Javascript do A
 seo-title: Não estamos usando o Audience Manager, mas estamos vendo chamadas Javascript do Audience Manager no depurador Javascript - Por quê?
 solution: Audience Manager
 title: Não estamos usando o Audience Manager, mas estamos vendo chamadas Javascript do Audience Manager no depurador Javascript - Por quê?
-feature: Suporte
+feature: Support
 exl-id: f409e326-17b3-40ee-8570-8d99119fe337
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

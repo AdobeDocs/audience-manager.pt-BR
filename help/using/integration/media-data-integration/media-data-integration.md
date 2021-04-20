@@ -5,7 +5,7 @@ seo-title: 'Integração de dados de mídia '
 solution: Audience Manager
 title: 'Integração de dados de mídia '
 uuid: 6f6bbd03-084b-4226-8809-3b00b467606f
-feature: Integração do Adobe Campaign
+feature: Adobe Campaign Integration
 exl-id: ca4906a7-0c39-49bc-9505-d76a61ec9eac
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

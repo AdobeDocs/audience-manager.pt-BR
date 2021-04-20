@@ -5,7 +5,7 @@ seo-title: Parceiros de tecnologia Adobe Audience Manager
 keywords: ativação; parceiros de ativação, destino, destinos
 solution: Audience Manager
 title: Parceiros de tecnologia Adobe Audience Manager
-feature: Integração de terceiros
+feature: Third-party Integration
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt

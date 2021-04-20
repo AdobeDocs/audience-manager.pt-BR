@@ -5,7 +5,7 @@ seo-title: Definição das opções da regra de mesclagem de perfis
 solution: Audience Manager
 title: Definição das opções da regra de mesclagem de perfis
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
-feature: Mesclar perfis
+feature: Profile Merge
 exl-id: 682d2540-c764-4f5a-a946-5d0e18c66c00
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
