@@ -6,7 +6,7 @@ uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
 feature: Noções básicas sobre o destino
 exl-id: b37c829b-66be-4c31-8198-bc032371279e
 translation-type: tm+mt
-source-git-commit: f9f5cb5f83f095ad8cac01447ef0c360f0acd5fc
+source-git-commit: fe6e2883e67e70b362d31e19b28df4b586de7b8a
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Pares padrão e de valor-chave serial {#standard-and-serial-key-value-pairs}
 
-Um par de valores chave consiste em elementos relacionados: Uma chave, que é uma constante que define o conjunto de dados (por exemplo, gênero, cor, preço) e um valor, que é uma variável que pertence ao conjunto (por exemplo, masculino/feminino, verde, 100). [!UICONTROL Destination Builder] envia dados formatados como pares de valores chave.
+Um par de valores chave consiste em elementos relacionados: Uma chave, que é uma constante que define o conjunto de dados (por exemplo: gênero, cor, preço) e um valor, que é uma variável que pertence ao conjunto (por exemplo, masculino/feminino, verde, 100). [!UICONTROL Destination Builder] envia dados formatados como pares de valores chave.
 
 ## Pares básicos de valor-chave {#basic-key-value-pairs}
 
