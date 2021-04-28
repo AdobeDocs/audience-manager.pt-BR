@@ -5,13 +5,13 @@ seo-title: Compartilhamento de públicos entre o Audience Manager e a Adobe Expe
 solution: Audience Manager
 title: Compartilhamento de públicos entre o Audience Manager e a Adobe Experience Platform
 keywords: Compartilhamento de público da AEP, segmentos da AEP, segmentos da plataforma, compartilhamento de segmentos, compartilhamento de público, compartilhamento de segmentos
-feature: Platform Integration
+feature: Integração da plataforma
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 8dabdc08a58ece28162c70aefb392ff36f5fbc89
 workflow-type: tm+mt
-source-wordcount: '1506'
-ht-degree: 2%
+source-wordcount: '1465'
+ht-degree: 3%
 
 ---
 
@@ -109,9 +109,9 @@ Para obter um exemplo de um segmento criado automaticamente a partir de um segme
 
 | Número do item | Nome | Descrição |
 ---------|----------|---------
-| 3 | [!UICONTROL Integration Code] | O código de integração corresponde à ID do segmento no Experience Platform. |
+| 1 | [!UICONTROL Integration Code] | O código de integração corresponde à ID do segmento no Experience Platform. |
 | 2 | [!UICONTROL Data Source] | Criado automaticamente. Todas as características e segmentos criados automaticamente a partir de segmentos de Experience Platform são armazenados na fonte de dados **[!DNL Adobe Experience Platform Audience Sharing]**. |
-| 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** indica que os segmentos criados automaticamente seguem a política de mesclagem configurada no Experience Platform. |
+| 1 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** indica que os segmentos criados automaticamente seguem a política de mesclagem configurada no Experience Platform. |
 | 4 | [!UICONTROL Segment Rule] | O segmento consiste na característica descrita na seção [Características](#aep-segments-as-aam-traits). |
 
 ## Suporte ao Controle de exportação de dados do Audience Manager no Experience Platform {#aam-data-export-control-in-aep}
@@ -164,17 +164,13 @@ O Audience Manager atualiza os números dos relatórios na interface uma vez por
 
 A integração entre o Adobe Experience Platform e o Audience Manager compartilha vários namespaces de identidade padrão [para todos os clientes: ECID, IDFA, GAID, endereços de email com hash (EMAIL_LC_SHA256), AdCloud ID. ](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) Se os segmentos de Experience Platform usarem qualquer uma dessas características como identidade primária para os perfis qualificados, os perfis serão contados em características e segmentos de Audience Manager.
 
-Além disso, o Audience Manager pode registrar as realizações recebidas para qualquer namespace de identidade personalizado que você usa nos segmentos de Experience Platform se:
-* a identidade é marcada como primária *e*
-* você já tem uma fonte de dados entre dispositivos correspondente no Audience Manager.
-
 >[!NOTE]
 >
 > Os públicos-alvo no Experience Platform com identidades destacadas em emails brutos nunca aparecem no Audience Manager.
 
-Por exemplo, se você tivesse um segmento Experience Platform &quot;Todos os meus clientes&quot; e os perfis qualificados fossem IDs de CRM, ECID, IDFA, endereços de email brutos e com hash, o segmento correspondente no Audience Manager incluiria apenas perfis com hash de IDs de CRM, ECID, IDFA e endereços de email com hash. A população do segmento no Audience Manager seria menor que a do Experience Platform.
+Por exemplo, se você tivesse um segmento Experience Platform &quot;Todos os meus clientes&quot; e os perfis qualificados fossem IDs de CRM, ECID, IDFA, endereços de email brutos e com hash, o segmento correspondente no Audience Manager incluiria apenas perfis com hash ECID, IDFA e endereços de email com hash. A população do segmento no Audience Manager seria menor que a do Experience Platform.
 
-![Compartilhamento de segmento de Experience Platform para Audience Manager - composição de segmento](/help/using/integration/integration-aep/assets/AEP-to-AAM-profiles.png)
+![Compartilhamento de segmento de Experience Platform para Audience Manager - composição de segmento](assets/AEP-to-AAM-profiles.png)
 
 <!--
 
