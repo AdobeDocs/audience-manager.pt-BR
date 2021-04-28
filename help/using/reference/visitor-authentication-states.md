@@ -6,13 +6,13 @@ seo-title: Estados de autenticação de visitante no Audience Manager
 solution: Audience Manager
 title: Estados de autenticação de visitante no Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
-feature: Reference
+feature: 'Referência '
 exl-id: 55aec28d-02f6-4e6d-9be1-4ce40deb8dc3
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: c3c829ef1335d1e073b719f8252103fa578bb4e6
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 5%
+source-wordcount: '391'
+ht-degree: 7%
 
 ---
 
@@ -24,25 +24,9 @@ A partir de [!DNL Experience Cloud] serviço de ID v1.5+, o método `setCustomer
 
 ## Status de autenticação: DESCONHECIDO {#auth-status-unknown}
 
-<table id="table_E1EA51533FAE4BBFB338D6F6116BC1F9"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Valor da solicitação </p> </th> 
-   <th colname="col2" class="entry"> <p> <b></b> Ler informações do perfil autenticado </p> </th> 
-   <th colname="col3" class="entry"> <p> <b></b> Gravar novas características no perfil autenticado </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1" morerows="1"> <p> <code> 0 </code> </p> </td> 
-   <td colname="col2"> <p>Sim, se a Regra de mesclagem de opções autenticadas = "Últimos perfis autenticados". </p> </td> 
-   <td colname="col3" morerows="1"> <p>Não, os dados de característica são adicionados ao perfil do dispositivo. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>Não, se a Regra de mesclagem de opções autenticadas = "Perfis atuais autenticados" ou "Sem perfil autenticado". </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Valor da solicitação | Ler informações do perfil autenticado | Gravar novas características no perfil autenticado |
+|---|---|---|
+| 0 | <ul><li>Sim, se o [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Last Authenticated Profiles].</li><li>Não, se o [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Current Authenticated Profiles] ou [!UICONTROL No Authenticated Profile].</li></ul> | Não, os dados de característica são adicionados ao perfil do dispositivo. |
 
 Exemplo de chamada (o valor da solicitação correspondente ao status de autenticação é destacado):
 
@@ -50,25 +34,9 @@ Exemplo de chamada (o valor da solicitação correspondente ao status de autenti
 
 ## Status de autenticação: AUTENTICADO {#auth-status-authenticated}
 
-<table id="table_956ABF96024744308F7773E1F96482B7"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Valor da solicitação </p> </th> 
-   <th colname="col2" class="entry"> <p> <b></b> Ler informações do perfil autenticado </p> </th> 
-   <th colname="col3" class="entry"> <p> <b></b> Gravar novas características no perfil autenticado </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1" morerows="1"> <p> <code> 1 </code> </p> </td> 
-   <td colname="col2"> <p>Sim, se a Regra de mesclagem de opções autenticadas = "Perfis atuais autenticados" ou "Últimos perfis autenticados". </p> </td> 
-   <td colname="col3" morerows="1"> <p>Sim, os dados de característica são adicionados ao perfil autenticado. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>Não, se a Regra de mesclagem de opções autenticadas = "Sem perfil autenticado". </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Valor da solicitação | Ler informações do perfil autenticado | Gravar novas características no perfil autenticado |
+|---|---|---|
+| 1 | <ul><li>Sim, se [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Current Authenticated Profiles] ou [!UICONTROL Last Authenticated Profiles].</li><li>Não, se o [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL No Authenticated Profile].</li></ul> | Sim, os dados de característica são adicionados ao perfil autenticado. |
 
 Exemplo de chamada (o valor da solicitação correspondente ao status de autenticação é destacado):
 
@@ -76,25 +44,9 @@ Exemplo de chamada (o valor da solicitação correspondente ao status de autenti
 
 ## Status de autenticação: LOGGED_OUT {#auth-status-logged-out}
 
-<table id="table_783F0CBB0431482AA49F41468FA65B19"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Valor da solicitação </p> </th> 
-   <th colname="col2" class="entry"> <p> <b></b> Ler informações do perfil autenticado </p> </th> 
-   <th colname="col3" class="entry"> <p> <b></b> Gravar novas características no perfil autenticado </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1" morerows="1"> <p> <code> 2 </code> </p> </td> 
-   <td colname="col2"> Sim, se a Regra de mesclagem de opções autenticadas = "Últimos perfis autenticados" </td> 
-   <td colname="col3" morerows="1"> <p>Não, os dados de características são gravados no perfil do dispositivo. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> Não, se a Regra de mesclagem de opções autenticadas = "Perfis atuais autenticados" ou "Sem perfil autenticado" </td> 
-  </tr> 
- </tbody> 
-</table>
+| Valor da solicitação | Ler informações do perfil autenticado | Gravar novas características no perfil autenticado |
+|---|---|---|
+| 2 | <ul><li>Sim, se o [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Last Authenticated Profiles].</li><li>Não, se o [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Current Authenticated Profiles] ou [!UICONTROL No Authenticated Profile].</li></ul> | Não, os dados de características são gravados no perfil do dispositivo. |
 
 Exemplo de chamada (o valor da solicitação correspondente ao status de autenticação é destacado):
 
