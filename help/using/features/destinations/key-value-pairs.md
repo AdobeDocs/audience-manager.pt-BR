@@ -1,14 +1,14 @@
 ---
-description: Um [!DNL key-value pair] consiste em elementos relacionados. Uma chave, que é uma constante que define o conjunto de dados (por exemplo, gênero, cor, preço) e um valor, que é uma variável que pertence ao conjunto (por exemplo, masculino/feminino, verde, 100). O Construtor de destinos envia dados formatados como pares de valores chave.
+description: Um [!DNL key-value pair] consiste em [!DNL related elements]. Uma chave, que é uma constante que define o conjunto de dados (por exemplo, gênero, cor, preço) e um valor, que é uma variável que pertence ao conjunto (por exemplo, masculino/feminino, verde, 100). O Construtor de destinos envia dados formatados como pares de valores chave.
 solution: Audience Manager
 title: Padrão e serial [!DNL Key-value pairs]
 uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
 feature: Noções básicas sobre o destino
 exl-id: b37c829b-66be-4c31-8198-bc032371279e
 translation-type: tm+mt
-source-git-commit: fe6e2883e67e70b362d31e19b28df4b586de7b8a
+source-git-commit: 0dfe96a4644c61fb5bc22e4791bfd09c574dcf34
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '547'
 ht-degree: 2%
 
 ---
