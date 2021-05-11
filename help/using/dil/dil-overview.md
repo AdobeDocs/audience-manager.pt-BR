@@ -6,15 +6,15 @@ keywords: 'dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil,
 solution: Audience Manager
 title: Como entender a DIL (Data Integration Library, biblioteca de integração de dados)
 uuid: 77b12f35-81e4-4639-ada6-bf982f27b36e
-feature: DIL Implementation
+feature: Implementação de DIL
+exl-id: f194a422-27ed-4a74-9583-8de3b6786caf
 translation-type: tm+mt
-source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
+source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 16%
+source-wordcount: '496'
+ht-degree: 17%
 
 ---
-
 
 # Entendendo o [!DNL Data Integration Library] (DIL){#understanding-the-data-integration-library-dil}
 
@@ -43,8 +43,6 @@ No entanto, você também pode baixar as versões mais recentes do Experience Cl
 [!UICONTROL DIL] O código está disponível para download  **[aqui](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Observe que a partir da versão 8.0 (lançada em agosto de 2018), [!UICONTROL DIL] tem uma forte dependência no [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html), versão 3.3 ou superior. Ele depende do [!DNL ID Service] para acionar sincronizações de ID e [!DNL URL destinations]. Ocorre um erro se o [!DNL ID Service] estiver ausente, antigo ou não estiver configurado.
 
 Em vez de trabalhar com [!UICONTROL DIL] e configurar [!DNL Audience Manager] manualmente, recomendamos que você use [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html). [!DNL Adobe Experience Platform Launch] O é a ferramenta de implementação recomendada porque simplifica a implantação de código, o posicionamento e o gerenciamento de versão. Leia mais sobre a [extensão do Audience Manager](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html) em [!DNL Adobe Experience Platform Launch].
-
-[!DNL Adobe Experience Platform Launch] é o sucessor do  [Adobe Dynamic Tag Manager](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html)  ([!DNL DTM]).
 
 ## Exemplo de chamada {#sample-code}
 
