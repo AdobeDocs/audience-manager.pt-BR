@@ -1,16 +1,16 @@
 ---
-description: Esta página ilustra o processo de criação de pixels de público-alvo personalizado (WCA) para o site do Facebook com o objetivo de enviar segmentos de público-alvo de Audience Manager com base na Web para o Facebook, para segmentação de anúncios online com transparência aprimorada.
-seo-description: Esta página ilustra o processo de criação de pixels de público-alvo personalizado (WCA) para o site do Facebook com o objetivo de enviar segmentos de público-alvo de Audience Manager com base na Web para o Facebook, para segmentação de anúncios online com transparência aprimorada.
+description: Esta página ilustra o processo de criação de pixels de público-alvo personalizado (WCA) para o site da Facebook com o objetivo de enviar segmentos de público-alvo de Audience Manager com base na Web para o Facebook, para segmentação de anúncios online com transparência aprimorada.
+seo-description: Esta página ilustra o processo de criação de pixels de público-alvo personalizado (WCA) para o site da Facebook com o objetivo de enviar segmentos de público-alvo de Audience Manager com base na Web para o Facebook, para segmentação de anúncios online com transparência aprimorada.
 seo-title: Integração WCA com o Facebook
 solution: Audience Manager
 title: Integração WCA com o Facebook
-feature: Third-party Integration
+feature: Integração de terceiros
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 6%
+source-wordcount: '855'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ Esta página ilustra o processo de criação de [!DNL Facebook Website Custom Au
 
 ## Visão geral {#overview}
 
-[Públicos-alvo personalizados do site do Facebook (WCA) ](https://www.facebook.com/business/help/449542958510885)  permite que você crie uma lista de pessoas que visitaram determinadas páginas ou realizaram ações específicas em seu site. [!DNL Audience Manager] permite a ativação no  [!DNL WCA] uso de  [!DNL URL] destinos, com os quais você pode configurar uma integração personalizada baseada em pixels para enviar públicos baseados na Web  [!DNL Facebook] para o para direcionamento.
+[Públicos-alvo personalizados do site da facebook (WCA) ](https://www.facebook.com/business/help/449542958510885)  permite criar uma lista de pessoas que visitaram determinadas páginas ou realizaram ações específicas em seu site. [!DNL Audience Manager] permite a ativação no  [!DNL WCA] uso de  [!DNL URL] destinos, com os quais você pode configurar uma integração personalizada baseada em pixels para enviar públicos baseados na Web  [!DNL Facebook] para o para direcionamento.
 
 ![Integração WCA com o Facebook](/help/using/integration/assets/facebook-wca-integration.png)
 
@@ -35,7 +35,7 @@ Esta página ilustra o processo de criação de [!DNL Facebook Website Custom Au
 3. [!DNL Adobe Experience Platform Identity Service] ([!DNL ECID]) Versão 4.1.0 ou mais recente. Baixe a versão mais recente **[aqui](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**.
 4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) versão 9.0 ou mais recente, disponível para download  **[aqui](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Como alternativa, se você usar [Encaminhamento pelo lado do servidor (SSF)](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html) para importar dados para [!DNL Audience Manager], deverá usar o AppMeasurement versão 2.12 ou mais recente. Baixe [!DNL AppMeasurement] usando o [Gerenciador de código do Analytics](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html).
 
-Recomendamos instalar ou atualizar as bibliotecas nas etapas 3 e 4 usando [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html) ou [Gerenciamento dinâmico de tags do Adobe](https://docs.adobe.com/content/help/pt-BR/dtm/using/dtm-home.html).
+Recomendamos instalar ou atualizar as bibliotecas nas etapas 3 e 4 usando [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html).
 
 ## Etapa 1 - Criar um [!UICONTROL Facebook Destination] em [!DNL Audience Manager] {#step-1-create-facebook-destination}
 
