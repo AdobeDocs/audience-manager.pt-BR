@@ -7,9 +7,9 @@ title: Códigos de erros, mensagens e exemplos de DCS
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 exl-id: 485e5ce2-143e-4d18-b157-c243c5a510ad
-source-git-commit: 1be86de9322df6b764ee3870fa82ddb2bb8b06ec
+source-git-commit: 38c4c46709491656071f4a958e9f0de26d42dd74
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1547'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,7 @@ Nas tabelas abaixo, *itálico* representa um espaço reservado de variável.
 | 0 | Erro não especificado | Este é um erro genérico que trata eventos não cobertos pelos outros manipuladores de erro. A solução de problemas desse erro é difícil. Isso pode ser causado por uma variedade de ações ou eventos desconhecidos. Se receber esse erro, tente sua solicitação [!DNL DCS] novamente. Entre em contato com seu representante [!DNL Adobe] se o problema persistir. |
 | 1 | Não foi possível localizar a configuração para o nome de host: `hostname` | O nome do host enviado na solicitação não foi configurado pela equipe de provisionamento do parceiro. Entre em contato com seu representante [!DNL Adobe] se esta mensagem de erro for exibida. |
 | 2 | Valor `d_orgid` inválido (não foi possível localizar uma configuração para esta ID de organização): `ID` | A ID da organização está incorreta. Verifique sua ID e tente a solicitação novamente. Se você não souber ou não possuir a ID da organização, consulte a seção &quot;Página do administrador&quot; [Organizações e vinculação de contas](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html) para obter informações sobre como encontrá-la. |
-| 10 | Não é possível avaliar características | As características da solicitação foram parcialmente avaliadas ou não foram avaliadas. |
+| 10 | Não é possível avaliar características | As características da solicitação foram parcialmente avaliadas ou não foram avaliadas. Entre em contato com seu representante [!DNL Adobe] se o problema persistir. |
 
 ## Códigos de erro de integração {#integration-error-codes}
 
