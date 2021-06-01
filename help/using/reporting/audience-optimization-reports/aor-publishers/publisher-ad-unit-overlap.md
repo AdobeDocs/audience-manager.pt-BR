@@ -5,9 +5,8 @@ seo-title: Sobreposição da unidade de anúncio
 solution: Audience Manager
 title: Sobreposição da unidade de anúncio
 uuid: e4467e81-acbf-474e-b501-89d57395651f
-feature: Audience Optimization Reports
+feature: Relatórios de otimização de público-alvo
 exl-id: 08b219c6-bf0c-4473-9459-83b3657dfb15
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '435'
