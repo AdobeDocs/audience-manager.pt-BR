@@ -5,9 +5,8 @@ seo-title: Relatórios de sobreposição Atualizar agendamento e tamanho mínimo
 solution: Audience Manager
 title: Relatórios de sobreposição Atualizar agendamento e tamanho mínimo do segmento
 uuid: 35c1cb39-e28d-4d20-88c9-5ff4fe154e9e
-feature: Overlap Reports
+feature: Relatórios de sobreposição
 exl-id: 89fa9d92-8676-4706-9fab-22c35763b218
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '355'
@@ -54,6 +53,6 @@ Se você não vir um segmento em um dos relatórios [!UICONTROL Overlap], pode s
 >[!MORELIKETHIS]
 >
 >* [Relatório de sobreposição de característica por característica](../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report)
->* [Relatório de sobreposição de segmento por característica](../../reporting/dynamic-reports/segment-trait-overlap-report.md)
->* [Relatório de sobreposição de segmento por segmento](../../reporting/dynamic-reports/segment-segment-overlap-report.md)
+* [Relatório de sobreposição de segmento por característica](../../reporting/dynamic-reports/segment-trait-overlap-report.md)
+* [Relatório de sobreposição de segmento por segmento](../../reporting/dynamic-reports/segment-segment-overlap-report.md)
 
