@@ -5,15 +5,14 @@ seo-title: isCoopSafe
 solution: Audience Manager
 title: isCoopSafe
 uuid: c5362a38-93c0-4edb-bdcb-106e43f33a92
-feature: DIL Implementation
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: Implementação de DIL
+exl-id: 33dca495-6923-4966-9ec3-8b0fd2f17649
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 78%
+source-wordcount: '542'
+ht-degree: 77%
 
 ---
-
 
 # isCoopSafe{#iscoopsafe}
 
@@ -21,12 +20,12 @@ Uma configuração booleana opcional que determina se DIL envia (ou não) dados 
 
 ## Requisitos {#requirements}
 
-Para usar `isCoopSafe`, você deve:
+Para usar `isCoopSafe` você deve:
 
 * Use [!UICONTROL DIL] v6.11 ou superior.
 * Participar do [Experience Cloud Device Co-op](https://docs.adobe.com/content/help/pt-BR/device-co-op/using/home.html). Os membros em potencial também devem consultar essa documentação para determinar se `isCoopSafe` responde possíveis dúvidas sobre como os dados são usados para criar o gráfico do dispositivo.
 
-* Trabalhe com seu consultor [!DNL Adobe] para definir uma lista de permissões ou um sinalizador de  lista de bloqueios na sua conta do Device Co-op. Não há caminho de autoatendimento para ativar esses sinalizadores.
+* Trabalhe com seu consultor [!DNL Adobe] para definir um sinalizador de  de lista de permissões ou lista de bloqueios na conta do Device Co-op. Não há um caminho de autoatendimento para habilitar esses sinalizadores.
 
 ## Casos de uso {#use-cases}
 
@@ -42,11 +41,11 @@ Para usar `isCoopSafe`, você deve:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Visitantes autenticados</b> </p> </td> 
-   <td colname="col2"> <p>Adicione <code> isCoopSafe </code> ao seu código de DIL <span class="wintitle"> para controlar como os dados de visitantes autenticados que têm ou não acordos de termo de uso são usados pelo Device Co-op para criar o gráfico de dispositivos.</span> </p> </td> 
+   <td colname="col2"> <p>Adicione <code> isCoopSafe </code> ao seu código <span class="wintitle"> DIL </span> para controlar como os dados para visitantes autenticados que aceitaram ou não os contratos de termos de uso são usados pelo Device Co-op para criar o gráfico do dispositivo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>DIL em sites de terceiros</b> </p> </td> 
-   <td colname="col2"> <p>Adicione <code> isCoopSafe </code> ao seu código <span class="wintitle"> DIL </span> para uso em sites de terceiros onde você: </p> <p> 
+   <td colname="col2"> <p>Adicione <code> isCoopSafe </code> ao código <span class="wintitle"> DIL </span> para uso em sites de terceiros nos quais você: </p> <p> 
      <ul id="ul_C27BB26510314834A2A7CD99D46DA4AC"> 
       <li id="li_4E6AE574F18646F09C0CF4553EEA1A9E">Não pode garantir que os visitantes autenticados aceitaram ou não os contratos de termos de uso. </li> 
       <li id="li_26D0561BF32B4278B0A6B5082C17FED8">Precisa controlar como os dados são usados pelo Device Co-op para criar o gráfico do dispositivo. </li> 
@@ -67,7 +66,7 @@ As opções booleanas determinam como os dados do cliente são usados ou não pe
 
 **Amostra de código**
 
-Defina isso quando DIL for instanciado.
+Defina isso quando o DIL for instanciado.
 
 ```js
 var dilInstance = DIL.create({ 
@@ -118,11 +117,11 @@ Essas APIs permitem que você substitua o status de `isCoopSafe`. Elas são nece
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> dilInstance.api.setAsCoopSafe(); </code> </p> </td> 
-   <td colname="col2"> <p>Define o parâmetro POST <code> d_coop_safe=1 </code> em todas as chamadas subsequentes do evento. </p> </td> 
+   <td colname="col2"> <p>Define o parâmetro POST <code> d_coop_safe=1 </code> em todas as chamadas de evento subsequentes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> dilInstance.api.setAsCoopUnsafe(); </code> </p> </td> 
-   <td colname="col2"> <p>Define o parâmetro POST <code> d_coop_unsafe=1 </code> em todas as chamadas subsequentes do evento. </p> </td> 
+   <td colname="col2"> <p>Define o parâmetro POST <code> d_coop_unsafe=1 </code> em todas as chamadas de evento subsequentes. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -132,4 +131,3 @@ Essas APIs permitem que você substitua o status de `isCoopSafe`. Elas são nece
 Wiki page https://wiki.corp.adobe.com/x/RCfFTg
 
  -->
-
