@@ -3,9 +3,8 @@ description: Envie dados de público-alvo de outras fontes para o Audience Manag
 seo-description: Enviar dados do público-alvo de outras fontes para o Adobe Audience Manager (AAM).
 seo-title: Envio de dados de público-alvo no Adobe Audience Manager (AAM)
 title: Envio de dados de público-alvo
-feature: Inbound Data Transfers
+feature: Transferência de dados de entrada
 exl-id: 164a7bef-3cef-4b68-973f-6179149a68ef
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '93'
