@@ -5,9 +5,8 @@ seo-title: Casos de uso do gráfico do dispositivo externo
 solution: Audience Manager
 title: Casos de uso do gráfico do dispositivo externo
 uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
-feature: Profile Merge
+feature: Mesclar perfis
 exl-id: 657aecfd-7fa3-466e-8331-c49cc921e3a9
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '553'
@@ -19,7 +18,7 @@ ht-degree: 5%
 
 Recommendations e casos de uso para prospecção, redirecionamento e personalização para usuários desconhecidos com um gráfico de dispositivos externo. Um gráfico de dispositivos externo é definido como um gráfico de dispositivos separado do Audience Manager. Isso inclui o [!DNL Adobe Experience Cloud Device Co-op] e outras integrações que o Adobe tem com empresas de gráficos de dispositivos determinísticos ou probabilísticos de terceiros.
 
-## Recomendações {#recommendations}
+## Recomendações   {#recommendations}
 
 Considere as [!DNL Experience Cloud Device Co-op] e as opções de gráfico de dispositivos de terceiros para campanhas que:
 
@@ -130,6 +129,6 @@ Ao usar **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adobe Co-Op
 >[!MORELIKETHIS]
 >
 >* [Casos de uso do gráfico de dispositivo de link de perfis](profile-link-use-case.md)
->* [Casos de uso gerais para regras de mesclagem de perfis](merge-rule-targeting-options.md)
->* [Perguntas frequentes sobre as regras de mesclagem de perfis](../../faq/faq-profile-merge.md)
+* [Casos de uso gerais para regras de mesclagem de perfis](merge-rule-targeting-options.md)
+* [Perguntas frequentes sobre as regras de mesclagem de perfis](../../faq/faq-profile-merge.md)
 
