@@ -5,9 +5,8 @@ seo-title: Relatórios de otimização de público-alvo
 solution: Audience Manager
 title: Relatórios de otimização de público-alvo
 uuid: b06efa28-f56a-4b72-978e-e0c067f54798
-feature: Audience Optimization Reports
+feature: Relatórios de otimização de público-alvo
 exl-id: 673267fb-5655-4cc2-ac2c-c717ea5830fc
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '214'
