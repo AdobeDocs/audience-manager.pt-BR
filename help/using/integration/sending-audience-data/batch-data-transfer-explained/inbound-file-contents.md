@@ -5,9 +5,8 @@ seo-title: Sintaxe de conteúdo do arquivo de dados de entrada, caracteres invá
 solution: Audience Manager
 title: Sintaxe de conteúdo do arquivo de dados de entrada, caracteres inválidos, variáveis e exemplos
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
-feature: Inbound Data Transfers
+feature: Transferência de dados de entrada
 exl-id: 894f1923-6c78-41d2-b6a2-eebf56eaa29e
-translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
 source-wordcount: '1196'
