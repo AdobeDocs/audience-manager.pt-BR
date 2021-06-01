@@ -7,7 +7,6 @@ title: Componentes do Tag Management
 uuid: e5059478-6ba7-4e1a-afec-e41ad7a27750
 feature: 'Componentes do sistema '
 exl-id: 064e3653-7658-422c-9dd5-2252806e8f09
-translation-type: tm+mt
 source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
 workflow-type: tm+mt
 source-wordcount: '349'
@@ -41,7 +40,7 @@ O portal do cliente é a interface do usuário principal para gerenciamento de t
 
 O contêiner [!UICONTROL DIL] ajuda a implantar [!DNL Audience Manager] código de coleta de dados no seu site. [!UICONTROL TIM] é o Gerenciador de inserção de tag obsoleto. Ele não é mais usado por [!DNL Audience Manager]. Em vez disso, use a extensão [!DNL Audience Manager] em [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html) para configurar e gerar o código do contêiner inserido em páginas do inventário.
 
-## Consulte da Biblioteca de integração de dados (DIL) {#dil}
+## Biblioteca de integração de dados (DIL) {#dil}
 
 A [Data Information Library](../../dil/dil-overview.md) (DIL) é um módulo de API autocontido que coleta dados do seu site. [!UICONTROL DIL] ajuda a eliminar a necessidade de gravar um código especial para coleta de dados, integração, leitura de valores de cookies e recuperação de dados da página. [!UICONTROL DIL] O executa essas ações automaticamente. Além disso, [!UICONTROL DIL] é compacto. É uma biblioteca de códigos autocontida que ajuda a reduzir a quantidade de código necessária para coletar informações. Por fim, [!UICONTROL DIL] ajuda a integrar [!DNL Audience Manager] com outros produtos no Experience Cloud [!DNL Adobe].
 
