@@ -8,7 +8,6 @@ title: Introdução ao gerenciamento em massa
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 feature: BAAAM
 exl-id: 5603146e-7172-4181-90ad-4606129176dd
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '715'
@@ -34,7 +33,7 @@ c_bulk_start.xml
 
 Esse recurso usa uma planilha [!DNL Microsoft Excel] com macros que fazem chamadas seguras e autenticadas para as APIs [!DNL Audience Manager]. A API fornece os métodos e serviços que permitem fazer alterações em massa. Não é necessário saber como codificar ou trabalhar com as APIs para usá-las. A planilha contém cabeçalhos e guias de coluna que executam funções específicas de alteração em massa. Para fazer alterações em massa, basta adicionar os cabeçalhos predefinidos a planilhas específicas, fornecer as informações que deseja alterar em massa e clicar em um botão de ação. A planilha e as APIs fazem o resto do trabalho para você.
 
-## Download {#download}
+## Baixar {#download}
 
 Baixe a planilha mais recente **[aqui](assets/BAAAM_V2_20200502.xlsm)**.
 
