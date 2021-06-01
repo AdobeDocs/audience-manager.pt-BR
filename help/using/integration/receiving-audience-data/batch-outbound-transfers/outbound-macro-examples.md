@@ -1,31 +1,30 @@
 ---
-description: Exemplos de como algumas macros comuns são usadas para criar modelos de arquivos de saída.
-seo-description: Exemplos de como algumas macros comuns são usadas para criar modelos de arquivos de saída.
+description: Exemplos de como algumas das macros comuns são usadas para criar modelos de arquivo de saída.
+seo-description: Exemplos de como algumas das macros comuns são usadas para criar modelos de arquivo de saída.
 seo-title: Exemplos de macro de saída
 solution: Audience Manager
 title: Exemplos de macro de saída
 uuid: 823d85d4-d683-45cf-9e60-c12b7d52a498
-feature: Outbound Data Transfers
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: Transferências de dados de saída
+exl-id: 7e3f2b25-7b7c-47fe-aa62-7ebd4e25f9ba
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '337'
 ht-degree: 9%
 
 ---
 
-
 # Exemplos de macro de saída {#outbound-macro-examples}
 
-Exemplos de como algumas macros comuns são usadas para criar modelos de arquivos de saída.
+Exemplos de como algumas das macros comuns são usadas para criar modelos de arquivo de saída.
 
 >[!NOTE]
 >
->Nas tabelas, o tipo **negrito** identifica cada macro com a respectiva saída relacionada. Para os exemplos de formato, os símbolos `<` `>` foram adicionados para ajudar a separar visualmente cada macro.
+>Nas tabelas, o tipo **negrito** identifica cada macro com sua saída relacionada. Para os exemplos de formato, os símbolos `<` `>` foram adicionados para ajudar a separar visualmente cada macro.
 
 ## Macros de nome de arquivo {#file-name-macros}
 
-Para obter uma lista de macros e definições disponíveis, consulte [Macros de Modelo de Saída](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
+Para obter uma lista de macros e definições disponíveis, consulte [Macros de modelo de saída](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
 <table id="table_B5073597219B470298EE614902DACAE8"> 
  <thead> 
@@ -73,7 +72,7 @@ Para obter uma lista de macros e definições disponíveis, consulte [Macros de 
 
 ## Macros de linha de cabeçalho {#header-macros}
 
-Para obter uma lista de macros e definições disponíveis, consulte [Macros de Modelo de Saída](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
+Para obter uma lista de macros e definições disponíveis, consulte [Macros de modelo de saída](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
 <table id="table_ABC31B3D660D47969E111EBC734D5BBC"> 
  <thead> 
@@ -92,7 +91,7 @@ Para obter uma lista de macros e definições disponíveis, consulte [Macros de 
 
 ## Macros de conteúdo de arquivo {#file-content-macros}
 
-Para obter uma lista de macros e definições disponíveis, consulte [Macros de Modelo de Saída](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
+Para obter uma lista de macros e definições disponíveis, consulte [Macros de modelo de saída](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
 <table id="table_408C6DD2B9D54550B003EAC93562E64F"> 
  <thead> 
@@ -129,7 +128,7 @@ Para obter uma lista de macros e definições disponíveis, consulte [Macros de 
        {"AdvertiserId":"&lt;PIDALIAS&gt;",&nbsp;"DataCenterId":&nbsp;2,"TDID":"&lt;DP_UUID&gt;", "Data":[&lt;SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;"&lt;CLOSE_CURLY_BRACKET&gt;}; separator=","&gt;&lt;if(SEGMENT_LIST&nbsp;&amp;&amp;&nbsp;REMOVED_SEGMENT_LIST)&gt;&lt;COMMA&gt;&lt;endif&gt; &lt;REMOVED_SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;", "TtlInMinutes":0&lt;CLOSE_CURLY_BRACKET&gt;};&nbsp;separator=","&gt;]}
      </code></p><p><b>Saída:</b></p> <p>
      <code>//First&nbsp;example {"AdvertiserId":"12345",&nbsp;"DataCenterId":&nbsp;2, "TDID":"dfd215e4-8d6b-4fdb-90b9-fab4456f2c9d","Data":[{"Name":"4321"}]} //Second&nbsp;example {"AdvertiserId":"12345",&nbsp;"DataCenterId":&nbsp;2,"TDID":"9099e8fe-abab-5114-abaa-28bdaa0539ca","Data":[{"Name":"4321"},{"Name":"987","TtlInMinutes":0}, {"Name":"654","TtlInMinutes":0}]} 
-     </code></p> <p> <p>Observação:  No primeiro exemplo, a macro retorna somente dados para <code> SEGMENT_LIST </code> porque <code> REMOVED_SEGMENT_LIST </code> está vazia. O segundo exemplo retorna dados para ambas as macros. </p> </p> </td> 
+     </code></p> <p> <p>Observação:  No primeiro exemplo, a macro retorna apenas dados para <code> SEGMENT_LIST </code> porque <code> REMOVED_SEGMENT_LIST </code> está vazia. O segundo exemplo retorna dados para ambas as macros. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SET_ATTRIBUTES </code> </p> </td> 
@@ -148,12 +147,12 @@ Para obter uma lista de macros e definições disponíveis, consulte [Macros de 
 
 ### `DPUUID` Exemplos
 
-Para ajudá-lo a entender como a macro `DPUUID` gera dados, vamos supor que tenhamos 2 `DPID`s mapeados para `DPUUID`s, conforme mostrado abaixo:
+Para entender como a macro `DPUUID` gera os dados, vamos supor que tenhamos 2 `DPID`s mapeados para `DPUUID`s conforme mostrado abaixo:
 
 * DPID `1111` mapeia para DPUUIDs `AAAA` (carimbo de data e hora = 1) e `BBBB` (carimbo de data e hora = 2).
 * DPID `2222` mapeia para DPUUID `CCCC`.
 
-Dadas essas condições, a tabela a seguir enumera algumas sequências de caracteres de formato possíveis e sua saída.
+Dadas essas condições, a tabela a seguir enumera algumas sequências de formato possíveis e sua saída.
 
 <table id="table_6A6D94F994C1475BB09126BA0B815B1F"> 
  <thead> 
@@ -165,19 +164,19 @@ Dadas essas condições, a tabela a seguir enumera algumas sequências de caract
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Retornar todos os mapeamentos para um único DPID </p> </td> 
+   <td colname="col1"> <p>Retornar todos os mapeamentos para uma única DPID </p> </td> 
    <td colname="col2"> <p> <code> &lt;DPUUIDS; format="dpids=1111|maxMappings=0|format=json"&gt; </code> </p> </td> 
    <td colname="col3"> <p> <code> [["1111","AAAA"],["1111","BBBB"]] </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Retorna um máximo de 1 mapeamento para todos os DPIDs </p> </td> 
+   <td colname="col1"> <p>Retorna um mapeamento máximo de 1 para todas as DPIDs </p> </td> 
    <td colname="col2"> <p> <code> &lt;DPUUIDS; format="dpids=1111,2222|maxMappings=1|format=json"&gt; </code> </p> </td> 
-   <td colname="col3"> <p> <code> [["1111","BBBB"],["2222","CCCC"]] </code> </p> <p>Para DPID <code> 1111 </code>, a macro mapeia para DPUUID <code> BBBB </code> somente porque essa ID tem um carimbo de data e hora maior. </p> </td> 
+   <td colname="col3"> <p> <code> [["1111","BBBB"],["2222","CCCC"]] </code> </p> <p>Para DPID <code> 1111 </code>, a macro mapeia para DPUUID <code> BBBB </code> somente porque essa ID tem o carimbo de data e hora maior. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Retorna um máximo de 2 mapeamentos para um único DPID </p> </td> 
+   <td colname="col1"> <p>Retorna no máximo 2 mapeamentos para uma única DPID </p> </td> 
    <td colname="col2"> <p> <code> &lt;DPUUIDS; format="dpids=2222|maxMappings=2|format=json"&gt; </code> </p> </td> 
-   <td colname="col3"> <p> <code> [["2222","CCCC"]] </code> </p> <p>Embora <code> maxMappings=2 </code>, essa macro retorne apenas 1 DPID para o mapeamento DPUUID, pois o DPID especificado tem apenas uma DPUUID. </p> </td> 
+   <td colname="col3"> <p> <code> [["2222","CCCC"]] </code> </p> <p>Mesmo que <code> maxMappings=2 </code>, essa macro retorne apenas 1 DPID para o mapeamento DPUUID, pois a DPID especificada tem apenas uma DPUUID. </p> </td> 
   </tr> 
  </tbody> 
 </table>
