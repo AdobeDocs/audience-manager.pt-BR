@@ -4,9 +4,8 @@ seo-description: 'Esta página inclui orientações passo a passo sobre como cri
 seo-title: Fluxo de trabalho B - Personalização com base em dados somente offline
 solution: Audience Manager
 title: Fluxo de trabalho B - Personalização com base em dados somente offline
-feature: People-based Destinations
+feature: Destinos com base em pessoas
 exl-id: d980de26-3133-4ae3-80c2-8c3bf2480bbd
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '1172'
