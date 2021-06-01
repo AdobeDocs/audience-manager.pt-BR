@@ -4,15 +4,14 @@ seo-description: Informações para ajudar você a entrar em contato com a Adobe
 seo-title: Contato e informações legais
 solution: Audience Manager
 title: Contato e informações legais
-feature: Support
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: Suporte
+exl-id: 02c80394-c5ed-4963-8543-4585c0c289c6
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '287'
 ht-degree: 100%
 
 ---
-
 
 # Contato e informações legais {#legal-contact}
 
@@ -27,7 +26,7 @@ A equipe de Atendimento ao cliente da Adobe Experience Cloud está aqui para aju
 * [Entre em contato diretamente com a equipe de Atendimento ao cliente](https://helpx.adobe.com/br/contact/enterprise-support.ec.html)
 * [Verifique a disponibilidade e o status das Soluções da Experience Cloud](https://status.adobe.com/)
 
-## Serviço, capacidade e faturamento  {#billing}
+## Serviço, capacidade e faturamento {#billing}
 
 Dependendo da configuração de sua solução, talvez algumas opções descritas neste documento não estejam disponíveis. Como cada conta é única, consulte os valores, datas de vencimento, termos e condições em seu contrato. Se você quiser adicionar ou alterar seu nível de serviço, ou se tiver dúvidas sobre o serviço atual, entre em contato com seu Gerente de contas.
 
