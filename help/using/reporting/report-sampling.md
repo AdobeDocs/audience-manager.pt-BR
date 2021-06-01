@@ -5,9 +5,8 @@ seo-title: Amostragem de dados e taxas de erro em alguns relatórios do Audience
 solution: Audience Manager
 title: Amostragem de dados e taxas de erro em alguns relatórios do Audience Manager
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
-feature: Reporting Reference
+feature: Referência de relatórios
 exl-id: 0b7f9423-0859-4fa8-926b-e4858eed2294
-translation-type: tm+mt
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
 source-wordcount: '469'
@@ -58,7 +57,7 @@ Erros podem ocorrer em relatórios que geram dados de sobreposição. Um erro é
 | 100.000 | 95% estão abaixo de uma taxa de erro de 4%. |
 | 500.000 (ou mais) | 95% estão abaixo de uma taxa de erro de 2%. |
 
-## Usando a metodologia de amostragem de minhash {#minhash}
+## Utilização da metodologia de amostragem de minhash {#minhash}
 
 Com base na metodologia de amostragem [Minhash](https://en.wikipedia.org/wiki/MinHash), o Audience Manager usa um novo método para calcular estimativas de características e segmentos sobre um rascunho de dados de hash de uma permutação. Esse novo método produz uma variação menor do que o estimador padrão da similaridade Jaccard. Consulte a seção abaixo para obter os relatórios que usam essa metodologia.
 
