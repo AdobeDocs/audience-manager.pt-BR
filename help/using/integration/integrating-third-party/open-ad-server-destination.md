@@ -5,9 +5,8 @@ seo-title: OAS como um destino do Audience Manager
 solution: Audience Manager
 title: OAS como um destino do Audience Manager
 uuid: 5891a063-5a4b-4ea7-865f-b24e17ca735f
-feature: Third-party Integration
+feature: Integração de terceiros
 exl-id: cf919c27-691f-424b-be83-040f03e34455
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '658'
@@ -47,7 +46,7 @@ A quantidade de dados passada para [!DNL OAS] depende de quantos segmentos um us
 >[!MORELIKETHIS]
 >
 >* [Código get_aamCookie](../../features/destinations/get-aam-cookie-code.md)
->* [Explicação dos pares de valor-chave](../../reference/key-value-pairs-explained.md)
+* [Explicação dos pares de valor-chave](../../reference/key-value-pairs-explained.md)
 
 
 ## Criar um Destino OAS {#oas-dest-setup}
