@@ -5,9 +5,8 @@ seo-title: Segmentar para sobreposição de unidade de anúncio
 solution: Audience Manager
 title: Segmentar para sobreposição de unidade de anúncio
 uuid: aaa20163-58aa-42c9-8f72-a1dfb0d20e57
-feature: Audience Optimization Reports
+feature: Relatórios de otimização de público-alvo
 exl-id: 6c7cf2e6-8ed4-42de-92ee-0df90940f441
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '423'
