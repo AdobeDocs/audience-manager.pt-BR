@@ -5,7 +5,6 @@ audience: end-user
 user-guide-title: Guia do usuário do Audience Manager
 user-guide-description: Saiba como o Audience Manager permite coletar informações comercialmente relevantes sobre visitantes do site, criar segmentos comercializáveis e veicular anúncios e conteúdo direcionados ao público certo.
 feature-set: Audience Manager
-translation-type: tm+mt
 source-git-commit: bd049d293eeddf9c3454ea8dc183f84f5c7df59a
 workflow-type: tm+mt
 source-wordcount: '1806'
@@ -219,7 +218,7 @@ ht-degree: 91%
       + [Tecnologia de relatórios](reporting/dynamic-reports/interactive-report-technology.md)
    + [Relatório de status de integração](reporting/onboarding-status-report.md)
    + [Histórico de arquivos de saída](reporting/outbound-history-report.md)
-   + [Contagem de usuários únicos em relatórios gerais e de sobreposição](reporting/unique-user-counts.md)
+   + [Contagem de usuários únicos em sobreposição e relatórios gerais](reporting/unique-user-counts.md)
    + [Amostragem de dados e taxas de erro em alguns relatórios do Audience Manager](reporting/report-sampling.md)
 + Código API e SDK {#api-and-sdk-code}
    + [Visão geral do código API e SDK](api/api.md)
@@ -331,7 +330,7 @@ ht-degree: 91%
          + [Visão geral do processo de envio de dados em lote para o Audience Manager](integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)
          + [Sincronização de ID para transferências de dados de entrada](integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)
          + [Requisitos de nome e conteúdo para arquivos de sincronização de ID](integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
-         + [Conteúdo do arquivo de dados de entrada: sintaxe, caracteres inválidos, variáveis e exemplos](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
+         + [Conteúdo do arquivo de dados de entrada: Sintaxe, caracteres inválidos, variáveis e exemplos](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
          + [Requisitos de nome e tamanho de arquivo do Amazon S3 para arquivos de dados de entrada](integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
          + [Requisitos de nome e tamanho de arquivo FTP para arquivos de dados de entrada](integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
          + [Criptografia PGP de arquivo para tipos de dados de entrada](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)
@@ -368,7 +367,7 @@ ht-degree: 91%
    + [Explicação dos pares de valor-chave](reference/key-value-pairs-explained.md)
    + [Requisitos de senha, contas bloqueadas e senhas esquecidas](reference/password-requirements.md)
    + [Sinais, características e segmentos](reference/signal-trait-segment.md)
-   + [Navegadores compatíveis](reference/supported-browsers.md)
+   + [Navegadores compatíveis ](reference/supported-browsers.md)
    + Componentes do sistema {#system-components}
       + [Visão geral dos componentes do sistema](reference/system-components/components-overview.md)
       + [Componentes-chave no sistema do Audience Manager](reference/system-components/components-stack.md)
@@ -387,11 +386,11 @@ ht-degree: 91%
    + [Visão geral das perguntas frequentes do Audience Manager](faq/faq-overview.md)
    + [Perguntas frequentes sobre API](faq/faq-api.md)
    + [Perguntas frequentes sobre o Audience Lab](faq/faq-audience-lab.md)
-   + [Perguntas frequentes sobre o feed de dados do cliente](faq/faq-cdf.md)
+   + [Perguntas frequentes sobre o Feed de dados do cliente](faq/faq-cdf.md)
    + [Perguntas frequentes sobre coleta de dados e integração de produtos](faq/faq-data-collection.md)
    + [Perguntas frequentes sobre assimilação de dados de entrada do cliente](faq/faq-inbound-data-ingestion.md)
    + [Perguntas frequentes sobre privacidade e retenção de dados](faq/faq-privacy.md)
-   + [Perguntas frequentes sobre destinos com base em pessoas](faq/faq-people-based-destinations.md)
+   + [Perguntas frequentes sobre Destinos com base em pessoas](faq/faq-people-based-destinations.md)
    + [Perguntas frequentes sobre recursos e funções do produto](faq/faq-features.md)
    + [Perguntas frequentes sobre Regras de mesclagem de perfis e Gráfico de dispositivos](faq/faq-profile-merge.md)
    + [Perguntas frequentes sobre Públicos preditivos](faq/faq-predictive-audiences.md)
