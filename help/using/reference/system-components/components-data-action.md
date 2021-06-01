@@ -5,9 +5,8 @@ seo-title: Componentes de ação de dados
 solution: Audience Manager
 title: Componentes de ação de dados
 uuid: c4c4cc46-8c96-4ef5-8269-571cc5ac9276
-feature: System Components
+feature: 'Componentes do sistema '
 exl-id: 8065c19f-1930-4164-a952-1686aa5cb622
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '682'
