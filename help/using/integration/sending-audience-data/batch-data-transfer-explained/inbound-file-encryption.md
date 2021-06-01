@@ -5,9 +5,8 @@ seo-title: Criptografia PGP de arquivo para tipos de dados de entrada
 solution: Audience Manager
 title: Criptografia PGP de arquivo para tipos de dados de entrada
 uuid: 89caace1-0259-48fc-865b-d525ec7822f7
-feature: Inbound Data Transfers
+feature: Transferência de dados de entrada
 exl-id: 5f97a326-4840-4350-bbe8-bc8ce32b0a2e
-translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
 source-wordcount: '192'
