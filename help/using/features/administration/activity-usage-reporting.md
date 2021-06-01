@@ -5,9 +5,8 @@ seo-description: Os Relatórios de uso de atividade ajudam a visualizar e rastre
 seo-title: Relatórios de uso de atividade
 solution: Audience Manager
 title: Relatórios de uso de atividade
-feature: Usage and Billing
+feature: Uso e faturamento
 exl-id: 0c5f04c6-d008-4817-9c67-cd39350b3aaf
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '668'
