@@ -4,15 +4,14 @@ seo-description: O Atendimento ao Cliente está preparado para ajudar você a re
 seo-title: Se houver um problema
 solution: Audience Manager
 title: Se houver um problema
-feature: Support
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: Suporte
+exl-id: 2f7b9dbe-7aac-41b0-aab8-3b703d7a2441
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '414'
 ht-degree: 100%
 
 ---
-
 
 # Se houver um problema {#problem}
 
