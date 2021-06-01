@@ -5,9 +5,8 @@ seo-title: Relatório de tendência do segmento
 solution: Audience Manager
 title: Relatório de tendência do segmento
 uuid: f84e8d0a-74e5-430c-b61c-efb696faee93
-feature: Audience Optimization Reports
+feature: Relatórios de otimização de público-alvo
 exl-id: 1fdca05a-b661-4875-88d7-b0893e2ca08f
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '612'
