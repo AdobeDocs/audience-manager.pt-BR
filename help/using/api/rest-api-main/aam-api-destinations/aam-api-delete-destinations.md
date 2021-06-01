@@ -1,23 +1,22 @@
 ---
-description: métodos DELETE e POST que permitem remover destinos e mapeamentos de segmentos.
-seo-description: métodos DELETE e POST que permitem remover destinos e mapeamentos de segmentos.
+description: Métodos DELETE e POST que permitem remover destinos e mapeamentos de segmento.
+seo-description: Métodos DELETE e POST que permitem remover destinos e mapeamentos de segmento.
 seo-title: Excluir destinos
 solution: Audience Manager
 title: Excluir destinos
 uuid: 38fb2228-e564-49a3-9930-3139f8799a8f
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: eaac3908-75ab-42d2-93bd-e8979f8b2427
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 7%
+source-wordcount: '119'
+ht-degree: 8%
 
 ---
 
-
 # Excluir destinos {#delete-destinations}
 
-`DELETE` e  `POST` métodos que permitem remover destinos e mapeamentos de segmentos.
+`DELETE` e  `POST` métodos que permitem remover destinos e mapeamentos de segmento.
 
 <!-- r_delete_destinations_all.xml -->
 
@@ -27,12 +26,12 @@ Um método `DELETE` que remove um destino.
 
 >[!NOTE]
 >
->Você deve remover todos os mapeamentos de segmentos antes de poder excluir um destino.
+>Você deve remover todos os mapeamentos de segmento antes de excluir um destino.
 
 * Solicitação: `DELETE https://api.demdex.com/v1/destinations/`*`<destinationId>`*
 * Resposta: Retorna o código `204 No Content` se bem-sucedido.
 
-## Destinos de Exclusão em Massa
+## Destinos de exclusão em massa
 
 Remova vários destinos com este método `POST`. Transmita IDs de destino ( `destinationId`) com uma matriz no corpo da solicitação.
 
