@@ -5,14 +5,13 @@ title: Como fazer chamadas de DCS API de servidor para servidor
 uuid: bdfe3430-e27f-4a5c-88d9-ae164d28f601
 feature: DCS
 description: Sintaxe de chamada, exemplo e parâmetros ao fazer chamadas de DCS API de servidor para servidor
-translation-type: tm+mt
-source-git-commit: e40233ace5cb74743db7d0f9f90707fa596a7e79
+exl-id: 977f4dfe-0beb-43c8-b64e-df4042427474
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 9%
 
 ---
-
 
 # Como fazer chamadas de DCS API de servidor para servidor {#making-server-to-server-dcs-api-calls}
 
