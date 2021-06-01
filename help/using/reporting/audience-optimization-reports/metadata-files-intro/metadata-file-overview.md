@@ -5,9 +5,8 @@ seo-title: Visão geral e mapeamentos para arquivos de metadados
 solution: Audience Manager
 title: Visão geral e mapeamentos para arquivos de metadados
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
-feature: Log Files
+feature: Arquivos de registro
 exl-id: 8c59ab80-f04a-42df-891e-a187ecd0219f
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '843'
@@ -143,6 +142,6 @@ Depois de nomear e adicionar dados a um arquivo, você os envia para um diretór
 >[!MORELIKETHIS]
 >
 >* [Arquivos de dados para relatórios do Audience Optimization](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
->* [Captura de dados de cliques da campanha via Pixel Calls](../../../integration/media-data-integration/click-data-pixels.md)
->* [Captura de dados de impressão da campanha via Pixel Calls](../../../integration/media-data-integration/impression-data-pixels.md)
+* [Captura de dados de cliques da campanha via Pixel Calls](../../../integration/media-data-integration/click-data-pixels.md)
+* [Captura de dados de impressão da campanha via Pixel Calls](../../../integration/media-data-integration/impression-data-pixels.md)
 
