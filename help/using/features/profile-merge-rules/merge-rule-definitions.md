@@ -5,9 +5,8 @@ seo-title: Definição das opções da regra de mesclagem de perfis
 solution: Audience Manager
 title: Definição das opções da regra de mesclagem de perfis
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
-feature: Profile Merge
+feature: Mesclar perfis
 exl-id: 682d2540-c764-4f5a-a946-5d0e18c66c00
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '1031'
@@ -23,7 +22,7 @@ Crie um [!UICONTROL Profile Merge Rule] fazendo uma seleção entre as opções 
 
 ![configuração de regras de mesclagem de perfis](assets/profile-merge-rule-setup.png)
 
-## [!UICONTROL Profile Merge Rule] Visão geral das opções  {#overview}
+## [!UICONTROL Profile Merge Rule] Visão geral das opções {#overview}
 
 [!UICONTROL Profile Merge Rules] permitir diversas combinações de regras, cada uma delas orientada para casos de uso específicos. Consulte a tabela abaixo para obter detalhes sobre quando usar cada combinação de regras.
 
