@@ -2,9 +2,8 @@
 description: Por que nossos usuários somente leitura podem criar, editar ou excluir características e segmentos?
 solution: Audience Manager
 title: Por que nossos usuários somente leitura podem criar, editar ou excluir características e segmentos?
-feature: Support
+feature: Suporte
 exl-id: 3383d27e-9c12-4925-ace3-c3133727d9b9
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '89'
