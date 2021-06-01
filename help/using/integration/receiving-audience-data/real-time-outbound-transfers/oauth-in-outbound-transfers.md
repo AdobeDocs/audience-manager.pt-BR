@@ -5,15 +5,14 @@ seo-title: Integração do OAuth 2.0 para transferências de saída em tempo rea
 solution: Audience Manager
 title: Integração do OAuth 2.0 para transferências de saída em tempo real
 uuid: a39e370c-b3bd-4b06-a1af-60a024ee7ee4
-feature: Outbound Data Transfers
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: Transferências de dados de saída
+exl-id: eef3a3ae-1a3f-47e9-aab6-abf878e4cb77
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '495'
 ht-degree: 2%
 
 ---
-
 
 # [!DNL OAuth 2.0] Integração para transferências de saída em tempo real{#oauth-integration-for-real-time-outbound-transfers}
 
@@ -21,31 +20,31 @@ Ao publicar segmentos no destino do parceiro por meio de uma integração de ser
 
 ## Fluxo de autenticação {#auth-flow}
 
-A implementação de autenticação [!DNL Adobe Audience Manager] [OAuth 2.0](https://tools.ietf.org/html/rfc6749#section-4.4) baseia-se no fluxo de concessão de Credenciais do Cliente e segue estas etapas:
+A implementação de autenticação [!DNL Adobe Audience Manager] [OAuth 2.0](https://tools.ietf.org/html/rfc6749#section-4.4) é baseada no fluxo de concessão de Credenciais de Cliente e segue estas etapas:
 
 1. Você deve nos fornecer:
-   * O terminal [!DNL OAuth 2.0] que gera o token de autenticação.
+   * O ponto de extremidade [!DNL OAuth 2.0] que gera o token de autenticação.
    * As credenciais usadas para gerar um token.
-1. Um consultor [!DNL Audience Manager] configura [destino](../../../features/destinations/destinations.md) usando as informações fornecidas.
-1. Quando um segmento é mapeado para esse destino, nosso sistema de transferência de dados em tempo real, [IRIS](../../../reference/system-components/components-data-action.md#iris), faz uma solicitação `POST` ao ponto final do token para trocar as credenciais por um token do portador.
-1. Para cada solicitação de publicação de segmento ao terminal do parceiro, [!UICONTROL IRIS] usa o token do portador para autenticação.
+1. Um consultor [!DNL Audience Manager] configura o [destino](../../../features/destinations/destinations.md) usando as informações fornecidas.
+1. Depois que um segmento é mapeado para esse destino, nosso sistema de transferência de dados em tempo real, [IRIS](../../../reference/system-components/components-data-action.md#iris), faz uma solicitação `POST` ao endpoint do token para trocar as credenciais de um token portador.
+1. Para cada solicitação de publicação de segmento para o endpoint do parceiro, [!UICONTROL IRIS] usa o token portador para autenticar.
 
 ![](assets/oauth2-iris.png)
 
 ## Requisitos {#auth-requirements}
 
-Como parceiro [!DNL Audience Manager], os seguintes pontos finais são necessários para receber solicitações autenticadas:
+Como parceiro [!DNL Audience Manager], os seguintes endpoints são necessários para receber solicitações autenticadas:
 
-### Ponto de extremidade 1 usado pelo IRIS para obter um token do portador
+### Ponto de extremidade 1 usado pelo IRIS para obter um token portador
 
-Esse terminal aceitará as credenciais fornecidas na etapa 1 e gerará um token de portador que será usado em solicitações subsequentes.
+Esse terminal aceitará as credenciais fornecidas na etapa 1 e gerará um token portador que será usado em solicitações subsequentes.
 
 * O ponto de extremidade deve aceitar solicitações `HTTP POST`.
-* O ponto de extremidade deve aceitar e observar o cabeçalho [!DNL Authorization]. O valor deste cabeçalho será: `Basic <credentials_provided_by_partner>`.
-* O ponto de extremidade deve observar o cabeçalho [!DNL Content-type] e validar se seu valor é `application/x-www-form-urlencoded ; charset=UTF-8`.
+* O ponto de extremidade deve aceitar e examinar o cabeçalho [!DNL Authorization]. O valor desse cabeçalho será: `Basic <credentials_provided_by_partner>`.
+* O endpoint deve examinar o cabeçalho [!DNL Content-type] e validar se seu valor é `application/x-www-form-urlencoded ; charset=UTF-8`.
 * O corpo da solicitação será `grant_type=client_credentials`.
 
-### Exemplo de solicitação feita pelo Audience Manager para o ponto de extremidade do parceiro para obter um token do portador
+### Exemplo de solicitação feita pelo Audience Manager para o endpoint do parceiro para obter um token do portador
 
 ```
 POST /oauth2/token HTTP/1.1
@@ -59,7 +58,7 @@ Accept-Encoding: gzip
 grant_type=client_credentials
 ```
 
-### Exemplo de resposta do ponto de extremidade do parceiro
+### Exemplo de resposta do endpoint do parceiro
 
 ```
 HTTP/1.1 200 OK
@@ -72,13 +71,13 @@ Content-Length: 121
 {"token_type":"Bearer","access_token":"glIbBVohK8d86alDEnllPWi6IpjZvJC6kwBRuuawts6YMkw4tZkt84rEZYU2ZKHCQP3TT7PnzCQPI0yY"}
 ```
 
-### Ponto de extremidade 2 usado pelo IRIS para publicar segmentos usando o token do portador
+### Endpoint 2 usado pelo IRIS para publicar segmentos usando o token portador
 
-[!DNL Audience Manager] envia dados para esse terminal em tempo quase real, à medida que os usuários se qualificam para segmentos. Além disso, esse método pode enviar lotes de dados offline ou integrados com uma frequência de até 24 horas.
+[!DNL Audience Manager] envia dados para esse terminal em tempo quase real, à medida que os usuários se qualificam para segmentos. Além disso, esse método pode enviar lotes de dados offline ou integrados com a mesma frequência a cada 24 horas.
 
-O token do portador gerado pelo ponto de extremidade 1 é usado para emitir solicitações para esse ponto de extremidade. O [!DNL Audience Manager] sistema de transferência de dados em tempo real, [IRIS](../../../reference/system-components/components-data-action.md#iris), constrói uma solicitação HTTPS normal e inclui um cabeçalho de Autorização. O valor deste cabeçalho será: Portador `<bearer token from step 1>`.
+O token portador gerado pelo ponto de extremidade 1 é usado para emitir solicitações para esse ponto de extremidade. O [!DNL Audience Manager] sistema de transferência de dados em tempo real, [IRIS](../../../reference/system-components/components-data-action.md#iris), constrói uma solicitação HTTPS normal e inclui um cabeçalho de Autorização. O valor desse cabeçalho será: Portador `<bearer token from step 1>`.
 
-### Exemplo de resposta do ponto de extremidade do parceiro
+### Exemplo de resposta do endpoint do parceiro
 
 ```
 GET /segments/aam HTTP/1.1
@@ -119,4 +118,4 @@ As credenciais apresentadas pelo parceiro e os tokens obtidos por [!DNL Audience
 
 ### [!DNL SSL] é obrigatório
 
-[!DNL SSL] deve ser usada para manter um processo de autenticação seguro. Todas as solicitações, incluindo as usadas para obter e usar os tokens, devem usar os pontos finais `HTTPS`.
+[!DNL SSL] deve ser usada para manter um processo de autenticação seguro. Todas as solicitações, incluindo as usadas para obter e usar os tokens, devem usar pontos de extremidade `HTTPS`.
