@@ -4,9 +4,8 @@ seo-description: Públicos preditivos ajudam a classificar públicos desconhecid
 seo-title: Gerenciamento de públicos-alvo preditivos
 solution: Audience Manager
 title: Introdução aos públicos preditivos
-feature: Algorithmic Models
+feature: Modelos algorítmicos
 exl-id: beb314de-f679-4397-8e14-2dd6576243fd
-translation-type: tm+mt
 source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656
 workflow-type: tm+mt
 source-wordcount: '574'
