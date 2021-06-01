@@ -5,9 +5,8 @@ seo-title: Painel de relatórios
 solution: Audience Manager
 title: Painel de relatórios
 uuid: 350eee2d-72f7-42a7-916b-60f9a362c5cf
-feature: Reporting Reference
+feature: Referência de relatórios
 exl-id: 1ca0280a-d67b-46f7-9c58-effc5be4e38f
-translation-type: tm+mt
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
 source-wordcount: '659'
