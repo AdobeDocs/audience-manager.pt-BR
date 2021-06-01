@@ -5,9 +5,8 @@ seo-title: Requisitos de senha, contas bloqueadas e senhas esquecidas
 solution: Audience Manager
 title: Requisitos de senha, contas bloqueadas e senhas esquecidas
 uuid: bca892eb-3577-4382-8110-131f78d23069
-feature: Reference
+feature: 'Referência '
 exl-id: beeb65e3-b715-49a8-b14b-ce3fff96a5cd
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '310'
@@ -81,5 +80,5 @@ Clique no link **[!UICONTROL Forgot password]** da página de logon para redefin
 >[!MORELIKETHIS]
 >
 >* [Segurança de dados](../overview/data-security-and-privacy/data-security.md)
->* [Segurança de dados](../overview/data-security-and-privacy/data-privacy.md)
+* [Segurança de dados](../overview/data-security-and-privacy/data-privacy.md)
 
