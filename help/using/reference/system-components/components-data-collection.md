@@ -5,9 +5,8 @@ seo-title: Componentes da coleção de dados
 solution: Audience Manager
 title: Componentes da coleção de dados
 uuid: 51bb1719-5ff2-4bc7-8eb1-98795e05d08f
-feature: System Components
+feature: 'Componentes do sistema '
 exl-id: 7ae407f1-f1e4-4545-baa2-bcca40aad76f
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '764'
@@ -85,7 +84,7 @@ O [!UICONTROL PCS] libera características se elas estiverem inativas por 17 dia
 
 Esses sistemas de servidor lidam com solicitações de privacidade e de recusa do usuário. As informações do cookie do usuário não são coletadas no arquivo de log se um usuário recusou a coleta de dados. Para obter mais informações sobre nossas políticas de privacidade, consulte o [Centro de privacidade do Adobe](https://www.adobe.com/pt/privacy/advertising-services.html).
 
-## Consulte da Biblioteca de integração de dados (DIL) {#dil}
+## Biblioteca de integração de dados (DIL) {#dil}
 
 [!UICONTROL DIL] é o código inserido na página para a coleta de dados. Consulte a [API do DIL](../../dil/dil-overview.md) para obter mais informações sobre os serviços e métodos disponíveis.
 
