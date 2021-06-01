@@ -7,10 +7,10 @@ title: Compartilhamento de públicos entre o Audience Manager e a Adobe Experien
 keywords: Compartilhamento de público da AEP, segmentos da AEP, segmentos da plataforma, compartilhamento de segmentos, compartilhamento de público, compartilhamento de segmentos
 feature: Integração da plataforma
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-source-git-commit: 8dabdc08a58ece28162c70aefb392ff36f5fbc89
+source-git-commit: 6900b56b4e0258ed0c4ddf94ef7b1f2c7e48a50d
 workflow-type: tm+mt
-source-wordcount: '1465'
-ht-degree: 3%
+source-wordcount: '1480'
+ht-degree: 2%
 
 ---
 
@@ -39,15 +39,13 @@ Além disso, seus segmentos do Experience Platform são compartilhados com outra
 > * Você *não precisa de* uma licença do Audience Manager para compartilhar segmentos do Experience Platform com Adobe Advertising Cloud, Adobe Target, Marketo e outras soluções do Experience Cloud, por meio da integração dos Serviços principais.
 
 
-<br> 
-
 Consulte a tabela abaixo para obter uma visão geral dos casos de uso de compartilhamento de público-alvo:
 
 | **Caso de uso** | **Adobe Experience Platform** | **Audience Manager** | **Principais serviços** |
----------|----------|---------|---------
+---------|----------|---------|---------|
 | **Compartilhamento de público** | <ul><li>Enriqueça os perfis do cliente com dados do Audience Manager</li><li>Usar dados de Audience Manager na segmentação de Experience Platform</li></ul> | <ul><li>Adicionar dados de terceiros aos segmentos</li><li>Modelagem algoritmica</li><li>Ativação para destinos adicionais</li></ul> | Use segmentos do Experience Platform em outras soluções do Experience Cloud, como Adobe Target, Advertising Cloud ou Marketo. |
 
-<br> 
+{style=&quot;table-layout:auto&quot;}
 
 ## Segmentos Audience Manager e características no Adobe Experience Platform {#aam-segments-traits-in-aep}
 
@@ -56,8 +54,6 @@ Suas características e segmentos do Audience Manager aparecem no Experience Pla
 * [Visão geral do serviço de segmentação](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
 * [Guia do usuário do Experience Platform Segment Builder](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
 * [Conector Audience Manager](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
-
-<br> 
 
 ## Segmentos Adobe Experience Platform no Audience Manager {#aep-segments-in-aam}
 
@@ -87,14 +83,14 @@ Para obter um exemplo de uma característica criada automaticamente a partir de 
 
 
 | Número do item | Nome | Descrição |
----------|----------|---------
+---------|----------|---------|
 | 1 | [!UICONTROL Trait Type] | As características criadas a partir de segmentos Experience Platform são criadas como características integradas no Audience Manager. |
 | 2 | [!UICONTROL Data Source] | Criado automaticamente. Todas as características e segmentos criados automaticamente a partir de segmentos de Experience Platform são armazenados na fonte de dados **[!UICONTROL Adobe Experience Platform Audience Sharing]**. |
 | 3 | [!UICONTROL Integration Code] | O código de integração corresponde à ID do segmento no Experience Platform. |
 | 4 | [!UICONTROL Trait Expression] | A expressão de característica é `segID = segment ID in Experience Platform`. |
 | 5 | [!UICONTROL Segments with this Trait] | Um segmento criado automaticamente que usa essa característica como sua composição. |
 
-<br> 
+{style=&quot;table-layout:auto&quot;}
 
 ### Segmentos {#aep-segments-as-aam-segments}
 
@@ -107,11 +103,13 @@ Para obter um exemplo de um segmento criado automaticamente a partir de um segme
 ![Captura de tela do segmento](/help/using/integration/integration-aep/assets/aep-segment.png)
 
 | Número do item | Nome | Descrição |
----------|----------|---------
+---------|----------|---------|
 | 1 | [!UICONTROL Integration Code] | O código de integração corresponde à ID do segmento no Experience Platform. |
 | 2 | [!UICONTROL Data Source] | Criado automaticamente. Todas as características e segmentos criados automaticamente a partir de segmentos de Experience Platform são armazenados na fonte de dados **[!DNL Adobe Experience Platform Audience Sharing]**. |
 | 1 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** indica que os segmentos criados automaticamente seguem a política de mesclagem configurada no Experience Platform. |
 | 4 | [!UICONTROL Segment Rule] | O segmento consiste na característica descrita na seção [Características](#aep-segments-as-aam-traits). |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Suporte ao Controle de exportação de dados do Audience Manager no Experience Platform {#aam-data-export-control-in-aep}
 
@@ -136,6 +134,8 @@ A tabela a seguir descreve como os Controles de exportação de dados específic
 | Não pode ser usado para direcionamento de anúncios no site | C6: Os dados não podem ser usados para o direcionamento de anúncios no site |
 | Não pode ser usado para personalização no site | C7: Os dados não podem ser usados para o direcionamento no site do conteúdo |
 
+{style=&quot;table-layout:auto&quot;}
+
 ### Controles da exportação de dados para ações de marketing
 
 A tabela a seguir descreve como os Rótulos de exportação de dados específicos mapeiam para ações de marketing reconhecidas:
@@ -146,6 +146,8 @@ A tabela a seguir descreve como os Rótulos de exportação de dados específico
 | Esse destino pode ser usado para direcionamento de anúncios fora do site | Direcionamento entre sites |
 | Esse destino pode ser usado para o direcionamento de anúncios no site | Publicidade no site |
 | Esse destino pode ser usado para personalização de anúncios no site | Personalização no site |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Entender as diferenças de população do segmento entre Audience Manager e Experience Platform {#aep-aam-segment-population-differences}
 
