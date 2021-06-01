@@ -5,9 +5,8 @@ seo-title: Alcance único do usuário
 solution: Audience Manager
 title: Alcance único do usuário
 uuid: 897245ab-af6e-42a0-b653-96703b65c764
-feature: Audience Optimization Reports
+feature: Relatórios de otimização de público-alvo
 exl-id: 1b7ddafd-40b8-4c64-97e9-ecc7ffdd9efa
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '259'
