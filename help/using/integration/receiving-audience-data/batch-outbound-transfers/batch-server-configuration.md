@@ -4,27 +4,26 @@ seo-description: Antes de enviar dados em lote para provedores de conteúdo de t
 seo-title: Configurar integração de dados em lote
 solution: Audience Manager
 title: Configurar integração de transferência de dados em lote
-feature: Outbound Data Transfers
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: Transferências de dados de saída
+exl-id: 0ed0f6bc-d4dd-4c6b-bc44-ea5c4ebe600b
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
-
 
 # Configurar integração de transferência de dados em lote
 
 Antes de enviar dados em lote para provedores de conteúdo de terceiros, é necessário configurar a integração entre o Audience Manager e o provedor de conteúdo de terceiros. Você pode fazer isso de duas maneiras:
 
-## Solicite configuração de assistência por meio do seu consultor de Adobe {#config-consultant}
+## Solicite configuração de assistência por meio do consultor do Adobe {#config-consultant}
 
-Se você estiver trabalhando com um consultor de Adobe, ele cuidará do processo de configuração para você.
+Se você estiver trabalhando com um consultor do Adobe, ele cuidará do processo de configuração para você.
 
-## Solicite a configuração de assistência através do Suporte ao Cliente Adobe {#config-support}
+## Solicitar configuração de assistência por meio do Suporte ao cliente do Adobe {#config-support}
 
-Se você não estiver trabalhando com um consultor de Adobe, ainda será possível obter a integração da transferência em lote configurada pelo Suporte ao cliente. Entre em contato com o Suporte ao cliente para obter detalhes.
+Se não estiver trabalhando com um consultor do Adobe, você ainda poderá obter a integração de transferência em lote configurada pelo Suporte ao cliente. Entre em contato com o Suporte ao cliente para obter mais detalhes.
 
 >[!IMPORTANT]
 >
