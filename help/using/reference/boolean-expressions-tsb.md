@@ -5,9 +5,8 @@ seo-title: Expressões booleanas no Construtor de características e segmentos
 solution: Audience Manager
 title: Expressões booleanas no Construtor de características e segmentos
 uuid: 14f02d3f-4c84-41fe-bc91-b34f0d49574a
-feature: Reference
+feature: 'Referência '
 exl-id: 44bc0385-2cce-4173-9833-b9a30fb6edae
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '555'
@@ -83,5 +82,5 @@ O operador [!UICONTROL AND NOT] é útil quando é mais fácil definir um públi
 >[!MORELIKETHIS]
 >
 >* [Trabalhar com operadores de comparação no TraitBuilder](../features/traits/trait-comparison-operators.md)
->* [Ordem de operações nas expressões do TraitBuilder](../features/traits/trait-operator-precedence.md)
+* [Ordem de operações nas expressões do TraitBuilder](../features/traits/trait-operator-precedence.md)
 
