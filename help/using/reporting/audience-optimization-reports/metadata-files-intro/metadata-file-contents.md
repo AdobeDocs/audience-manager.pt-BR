@@ -5,9 +5,8 @@ seo-title: Formato de conteúdo para arquivos de metadados
 solution: Audience Manager
 title: Formato de conteúdo para arquivos de metadados
 uuid: 9ba44738-3e17-40c7-9e8c-5abd8361e16d
-feature: Log Files
+feature: Arquivos de registro
 exl-id: 1aed39f4-f893-4f25-b041-e198895e338a
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '306'
