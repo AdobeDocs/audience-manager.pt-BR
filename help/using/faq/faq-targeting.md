@@ -5,15 +5,14 @@ seo-title: Perguntas frequentes sobre direcionamento
 solution: Audience Manager
 title: Perguntas frequentes sobre direcionamento
 uuid: ee96ef71-b903-4953-afc4-8ec8e48bd49e
-feature: Match Rates
-translation-type: tm+mt
-source-git-commit: 27ce94084e35ffa770858027d12235ca9f1f8430
+feature: Taxas de correspondência
+exl-id: e5f761fd-dfc8-4859-a81e-89abbd7f2914
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '922'
 ht-degree: 100%
 
 ---
-
 
 # Perguntas frequentes sobre direcionamento {#targeting-faq}
 
