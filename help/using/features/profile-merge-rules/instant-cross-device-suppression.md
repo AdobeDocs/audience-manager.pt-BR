@@ -4,9 +4,8 @@ seo-description: A Supressão instantânea entre dispositivos é a capacidade de
 seo-title: Supressão instantânea entre dispositivos
 title: Supressão instantânea entre dispositivos
 uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
-feature: Profile Merge
+feature: Mesclar perfis
 exl-id: b9686210-e1aa-4f0a-a549-27d29c94e963
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '831'
