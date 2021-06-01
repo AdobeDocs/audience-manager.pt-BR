@@ -3,9 +3,8 @@ description: Use as opções do menu Analytics para exibir o painel e vários re
 seo-description: Use as opções do menu Analytics para exibir o painel e vários relatórios no Adobe Audience Manager (AAM).
 seo-title: Visão geral dos relatórios no Adobe Audience Manager (AAM)
 title: Visão geral dos relatórios
-feature: Reporting Reference
+feature: Referência de relatórios
 exl-id: 8b0e34be-7a78-426c-a295-5e58a3462d64
-translation-type: tm+mt
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
 source-wordcount: '414'
@@ -43,7 +42,7 @@ Para obter informações descrevendo os intervalos de tempo em que o Audience Ma
 
    Um [!UICONTROL Trend report] retorna dados de tendência em [!UICONTROL traits] e [!UICONTROL segments].
 
-* [Contagem de usuários únicos em relatórios gerais e de sobreposição](/help/using/reporting/unique-user-counts.md)
+* [Contagem de usuários únicos em sobreposição e relatórios gerais](/help/using/reporting/unique-user-counts.md)
 
    Descreve a variação nos totais de usuário únicos entre relatórios para o mesmo [!UICONTROL trait] e período de tempo.
 
