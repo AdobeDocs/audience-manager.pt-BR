@@ -5,9 +5,8 @@ seo-title: Importar arquivos de dados do Google Ad Manager para o Audience Manag
 solution: Audience Manager
 title: Importar arquivos de dados do Google Ad Manager para o Audience Manager
 uuid: c685f34f-3e50-4c4b-99fa-d8bbafe0b268
-feature: Audience Optimization Reports
+feature: Relatórios de otimização de público-alvo
 exl-id: 62b72dd1-e664-4c6a-8c0a-f7a662d62a47
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '570'
