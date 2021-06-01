@@ -7,7 +7,6 @@ title: Compartilhamento de públicos entre o Audience Manager e a Adobe Experien
 keywords: Compartilhamento de público da AEP, segmentos da AEP, segmentos da plataforma, compartilhamento de segmentos, compartilhamento de público, compartilhamento de segmentos
 feature: Integração da plataforma
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-translation-type: tm+mt
 source-git-commit: 8dabdc08a58ece28162c70aefb392ff36f5fbc89
 workflow-type: tm+mt
 source-wordcount: '1465'
