@@ -2,27 +2,26 @@
 description: APIs e kits de ferramentas que permitem trabalhar programaticamente com o Audience Manager.
 seo-description: APIs e kits de ferramentas que permitem trabalhar programaticamente com o Audience Manager.
 seo-title: 'Código API e SDK '
-keywords: api, api, api, api, api, api, api, api, api, api
+keywords: 'api, api, api, api, api, api, api, api, api, api, api '
 solution: Audience Manager
 title: 'Código API e SDK '
 uuid: bf801e84-f914-4efd-8807-c4972474894a
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: db3d1f3b-9a39-4ff7-a301-1236d3b33fc2
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 39%
+source-wordcount: '85'
+ht-degree: 35%
 
 ---
 
+# [!DNL API] e  [!DNL SDK] código  {#api-and-sdk-code}
 
-# [!DNL API] e  [!DNL SDK] Código  {#api-and-sdk-code}
-
-[!DNL API]s e kits de ferramentas que permitem trabalhar de forma programática com  [!DNL Audience Manager].
+[!DNL API]s e kits de ferramentas que permitem a você trabalhar programaticamente com o  [!DNL Audience Manager].
 
 >[!NOTE]
 >
->Esses recursos não são suportados por nossos [!DNL API]s:
+>Esses recursos não são compatíveis com nossos [!DNL API]s:
 >
 >* [!UICONTROL General],  [!UICONTROL Trend]e  [!UICONTROL Interactive] relatórios.
 >* Funcionalidade [!DNL Tag Insertion Manager] ([!DNL TIM]) obsoleta.
