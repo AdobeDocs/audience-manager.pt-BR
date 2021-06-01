@@ -1,19 +1,18 @@
 ---
-description: Crie destinos com esses métodos RESTful API.
-seo-description: Crie destinos com esses métodos RESTful API.
+description: Crie destinos com esses métodos de API RESTful.
+seo-description: Crie destinos com esses métodos de API RESTful.
 seo-title: Criar destinos
 solution: Audience Manager
 title: Criar destinos
 uuid: 12f04151-ad0e-4cb6-8f3b-b5c427dc2cef
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: bae0f304-0ff3-4c5f-b432-19aef61d9d10
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '356'
 ht-degree: 9%
 
 ---
-
 
 # Criar destinos {#create-destinations}
 
@@ -21,9 +20,9 @@ Crie destinos com esses métodos [!UICONTROL RESTful API].
 
 <!-- c_create_destinations.xml -->
 
-## Tipos de Destino Suportados: URL e somente cookie
+## Tipos de Destino Suportados: Somente URL e cookie
 
-Os métodos disponíveis `POST` permitem que você crie [!UICONTROL URL] e [!UICONTROL cookie destinations] apenas. Atualmente, não é possível criar [!UICONTROL server-to-server destinations] com esses métodos [!DNL REST API]. No entanto, os métodos de destino relacionados `GET` permitem que você recupere informações sobre [!UICONTROL server-to-server destinations] criadas na interface do usuário.
+Os métodos disponíveis `POST` permitem criar somente [!UICONTROL URL] e [!UICONTROL cookie destinations]. No momento, não é possível criar [!UICONTROL server-to-server destinations] com esses métodos [!DNL REST API]. No entanto, os métodos `GET` de destino relacionados permitem recuperar informações sobre [!UICONTROL server-to-server destinations] criadas na interface do usuário.
 
 ## Criar um destino de URL não serial {#create-nonserial-dest}
 
@@ -37,7 +36,7 @@ Um método `POST` que permite criar um destino que aceita segmentos compostos de
 
 ### Solicitação de exemplo
 
-Essa solicitação cria um único destino. Todos os valores de solicitação são obrigatórios, a menos que seja indicado o contrário.
+Essa solicitação cria um único destino. Todos os valores de solicitação são obrigatórios, a menos que indicado de outra forma.
 
 ```
 { 
@@ -78,7 +77,7 @@ Uma solicitação bem-sucedida retorna `201 created` e o destino.
 } 
 ```
 
-## Criar um Destino de URL Serializado {#create-serial-url-dest}
+## Criar um destino de URL serializado {#create-serial-url-dest}
 
 Um método `POST` que permite criar um destino que aceita vários valores associados a uma única chave (por exemplo, `color=blue, red, green`).
 
@@ -90,7 +89,7 @@ Um método `POST` que permite criar um destino que aceita vários valores associ
 
 ### Solicitação de exemplo
 
-Especifique o [!DNL URL] e o delimitador seguro para o par de valor chave passado para o destino. Todos os valores de solicitação são obrigatórios, a menos que seja indicado o contrário.
+Especifique o [!DNL URL] seguro e o delimitador para o par de valores chave enviado para o destino. Todos os valores de solicitação são obrigatórios, a menos que indicado de outra forma.
 
 ```
 { 
@@ -146,7 +145,7 @@ Um método `POST` que permite criar um [!UICONTROL cookie destination] que aceit
 
 ### Solicitação de exemplo
 
-Todos os valores de solicitação são obrigatórios, a menos que seja indicado o contrário.
+Todos os valores de solicitação são obrigatórios, a menos que indicado de outra forma.
 
 ```
 { 
@@ -203,7 +202,7 @@ Uma atualização bem-sucedida retorna o código de resposta `201 created` e o d
 } 
 ```
 
-## Criar um destino de cookie: Chave única, Serializada {#create-cookie-dest-single-serial}
+## Criar um destino de cookie: Chave Única, {#create-cookie-dest-single-serial} Serializada
 
 Um método `POST` que permite criar um destino que aceita vários valores associados a uma única chave (por exemplo, `color=blue, red, green`).
 
@@ -215,7 +214,7 @@ Um método `POST` que permite criar um destino que aceita vários valores associ
 
 ### Solicitação de exemplo
 
-Todos os valores de solicitação são obrigatórios, a menos que seja indicado o contrário.
+Todos os valores de solicitação são obrigatórios, a menos que indicado de outra forma.
 
 ```
 { 
@@ -274,7 +273,7 @@ Uma atualização bem-sucedida retorna o código de resposta `201 created` e o d
 }
 ```
 
-## Criar um destino de cookie: Multi-Key, Não Serializado {#create-cookie-dest-multi}
+## Criar um destino de cookie: Múltiplas Chave, Não Serializada {#create-cookie-dest-multi}
 
 Um método `POST` que permite criar um destino que aceita segmentos que contêm várias chaves com valores diferentes (por exemplo, `gender=male; gender=female; color=blue; color=red`).
 
@@ -286,7 +285,7 @@ Um método `POST` que permite criar um destino que aceita segmentos que contêm 
 
 ### Solicitação de exemplo
 
-Todos os valores de solicitação são obrigatórios, a menos que seja indicado o contrário.
+Todos os valores de solicitação são obrigatórios, a menos que indicado de outra forma.
 
 ```
 { 
@@ -341,7 +340,7 @@ Uma atualização bem-sucedida retorna o código de resposta `201 created` e o d
 }
 ```
 
-## Criar um destino de cookie: Multi-Chave, Serializado {#create-cookie-dest-multi-serial}
+## Criar um destino de cookie: Multi-Chave, Serializada {#create-cookie-dest-multi-serial}
 
 Um método `POST` que permite criar um destino que aceita segmentos que contêm várias chaves e valores (por exemplo, `gender=male, female; color=blue, red, green`).
 
@@ -353,7 +352,7 @@ Um método `POST` que permite criar um destino que aceita segmentos que contêm 
 
 ### Solicitação de exemplo
 
-Todos os valores de solicitação são obrigatórios, a menos que seja indicado o contrário.
+Todos os valores de solicitação são obrigatórios, a menos que indicado de outra forma.
 
 ```
 { 
@@ -413,6 +412,6 @@ Uma atualização bem-sucedida retorna o código de resposta `201 created` e o d
 >[!MORELIKETHIS]
 >
 >* [Destinos ](../../../features/destinations/destinations.md)
->* [Serialização do destino](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [Explicação dos pares de valor-chave](../../../reference/key-value-pairs-explained.md)
+* [Serialização de Destino](../../../features/destinations/key-value-pairs.md#destination-serialized)
+* [Explicação dos pares de valor-chave](../../../reference/key-value-pairs-explained.md)
 
