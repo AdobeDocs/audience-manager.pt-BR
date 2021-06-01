@@ -1,23 +1,22 @@
 ---
-description: Métodos de gerenciamento de domínio que permitem criar e gerenciar os domínios para os quais deseja enviar dados (somente para destinos de cookie).
-seo-description: Métodos de gerenciamento de domínio que permitem criar e gerenciar os domínios para os quais deseja enviar dados (somente para destinos de cookie).
+description: Métodos de gerenciamento de domínio que permitem criar e gerenciar os domínios para os quais deseja enviar dados (somente para destinos de cookies).
+seo-description: Métodos de gerenciamento de domínio que permitem criar e gerenciar os domínios para os quais deseja enviar dados (somente para destinos de cookies).
 seo-title: Métodos da API de gerenciamento de domínio
 solution: Audience Manager
 title: Métodos da API de gerenciamento de domínio
 uuid: f2f08bc5-ea42-4171-9a43-0b20976f0cb0
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: f9907f6e-d553-4771-945b-2fddb3c9ce2f
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '365'
 ht-degree: 6%
 
 ---
 
-
 # Métodos da API de gerenciamento de domínio {#domain-management-api-methods}
 
-Métodos de gerenciamento de domínio que permitem criar e gerenciar os domínios para os quais deseja enviar dados (somente para destinos de cookie).
+Métodos de gerenciamento de domínio que permitem criar e gerenciar os domínios para os quais deseja enviar dados (somente para destinos de cookies).
 
 <!-- c_partner_site.xml -->
 
@@ -51,7 +50,7 @@ Uma resposta bem-sucedida retorna `201 created` e o site parceiro, incluindo sua
 }
 ```
 
-## Excluir um Domínio {#delete-domain}
+## Excluir um domínio {#delete-domain}
 
 Um método `DELETE` que permite remover um domínio (somente para destinos de cookies).
 
@@ -65,7 +64,7 @@ Um método `DELETE` que permite remover um domínio (somente para destinos de co
 
 Uma resposta bem-sucedida retorna `204 no content`. Retorna `404 not found` se o site parceiro não puder ser encontrado.
 
-## Propriedades de retorno para um domínio {#return-props-domain}
+## Retornar propriedades para um domínio {#return-props-domain}
 
 Um método `GET` que retorna detalhes sobre o domínio especificado (somente para destinos de cookie).
 
@@ -77,7 +76,7 @@ Um método `GET` que retorna detalhes sobre o domínio especificado (somente par
 
 ### Resposta
 
-Uma resposta bem-sucedida retorna `200 OK` e os dados, conforme mostrado na amostra abaixo. Retorna `404 Not found` se a ID do site ou o parceiro não for encontrado.
+Uma resposta bem-sucedida retorna `200 OK` e os dados, como mostrado na amostra abaixo. Retorna `404 Not found` se a ID do site ou o parceiro não for encontrado.
 
 ```
 {
@@ -87,7 +86,7 @@ Uma resposta bem-sucedida retorna `200 OK` e os dados, conforme mostrado na amos
 }
 ```
 
-## Propriedades de retorno para todos os domínios {#return-props-all-domains}
+## Retornar propriedades para todos os domínios {#return-props-all-domains}
 
 Um método `GET` que retorna informações sobre todos os domínios (somente para destinos de cookies).
 
@@ -97,9 +96,9 @@ Um método `GET` que retorna informações sobre todos os domínios (somente par
 
 `GET https://api.demdex.com/v1/partner-sites/`
 
-### Parâmetros de Query opcionais
+### Parâmetros de consulta opcionais
 
-Você pode usar esses parâmetros opcionais com métodos [!DNL API] que retornam *todas* propriedades para um objeto. Defina essas opções na string de solicitação ao passar esse query para [!DNL API]. Consulte [Parâmetros Opcionais](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+Você pode usar esses parâmetros opcionais com métodos [!DNL API] que retornam *todas* propriedades para um objeto. Defina essas opções na cadeia de caracteres de solicitação ao passar essa consulta para [!DNL API]. Consulte [Parâmetros opcionais](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -111,30 +110,30 @@ Você pode usar esses parâmetros opcionais com métodos [!DNL API] que retornam
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"><code> page</code> </td> 
-   <td colname="col2"> Retorna os resultados por número de página. Numerando start em 0. </td> 
+   <td colname="col2"> Retorna os resultados por número de página. A numeração começa em 0. </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code> pageSize</code> </td> 
-   <td colname="col2"> Define o número de resultados de resposta retornados pela solicitação (10 é padrão). </td>
+   <td colname="col2"> Define o número de resultados de resposta retornados pela solicitação (10 é o padrão). </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> sortBy</code> </td> 
-   <td colname="col2"> Classifica e retorna os resultados de acordo com a propriedade JSON especificada. </td>
+   <td colname="col2"> Classifica e retorna resultados de acordo com a propriedade JSON especificada. </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> descending</code> </td>
-   <td colname="col2"> Classifica e retorna os resultados em ordem decrescente. Crescente é padrão. </td>
+   <td colname="col2"> Classifica e retorna resultados em ordem decrescente. Crescente é padrão. </td>
   </tr>
   <tr valign="top">
    <td colname="col1"><code> search</code> </td>
-   <td colname="col2">Retorna os resultados com base na string especificada que você deseja usar como parâmetro de pesquisa. Por exemplo, digamos que você queira encontrar resultados para todos os modelos que têm a palavra "Teste" em qualquer um dos campos de valor desse item. Sua solicitação de amostra pode ser semelhante a: <p><code> `GET` `https://api.demdex.com/v1/models/?search=Test`</code>. </p> <p>Você pode pesquisar qualquer valor retornado por um método "obter tudo". </p> </td>
+   <td colname="col2">Retorna resultados com base na string especificada que você deseja usar como parâmetro de pesquisa. Por exemplo, digamos que você queira encontrar resultados para todos os modelos que têm a palavra "Teste" em qualquer um dos campos de valor para esse item. Sua solicitação de amostra pode ter esta aparência: <p><code> `GET` `https://api.demdex.com/v1/models/?search=Test`</code>. </p> <p>Você pode pesquisar qualquer valor retornado por um método "obter tudo". </p> </td>
   </tr> 
  </tbody> 
 </table>
 
 ### Resposta
 
-Uma resposta bem-sucedida retorna `200 OK` e os dados em um storage, como mostrado na amostra abaixo. Retorna `404 Not found` se a ID do site ou o parceiro não for encontrado.
+Uma resposta bem-sucedida retorna `200 OK` e os dados em uma matriz, como mostrado na amostra abaixo. Retorna `404 Not found` se a ID do site ou o parceiro não for encontrado.
 
 ```
 [
