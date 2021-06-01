@@ -4,9 +4,8 @@ seo-description: 'Leia abaixo uma visão geral dos requisitos do cliente que voc
 seo-title: Pré-requisitos e considerações de destinos com base em pessoas
 solution: Audience Manager
 title: Pré-requisitos e considerações
-feature: People-based Destinations
+feature: Destinos com base em pessoas
 exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '1017'
@@ -48,7 +47,7 @@ Antes de usar [!UICONTROL People-Based Destinations] para enviar segmentos de p�
 
 Para saber como editar suas permissões de usuário [!DNL LinkedIn Campaign Manager], consulte [Adicionar, editar e remover permissões de usuário em contas publicitárias](https://www.linkedin.com/help/lms/answer/5753) na documentação do LinkedIn.
 
-Consulte [Como entender e configurar o destino com base em pessoas do LinkedIn](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) para obter instruções de vídeo.
+Consulte [Entendendo e configurando o destino baseado em pessoas do LinkedIn](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) para obter instruções de vídeo.
 
 ### [!DNL Google Customer Match] {#gcm}
 
