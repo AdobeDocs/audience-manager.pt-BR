@@ -5,9 +5,8 @@ seo-title: Melhore os tempos de processamento do arquivo de log com tabelas de p
 solution: Audience Manager
 title: Melhore os tempos de processamento do arquivo de log com tabelas de pesquisa
 uuid: ffc77618-474b-455e-9c91-15b32fc151a5
-feature: Reporting Reference
+feature: Referência de relatórios
 exl-id: bab51406-21e9-4033-90d4-6100daf6a311
-translation-type: tm+mt
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
 source-wordcount: '503'
@@ -55,9 +54,9 @@ Aqui está o mesmo arquivo de log com os metadados removidos. O arquivo é menor
 
 | ID de usuário | ID do anúncio | ID do pedido | ID do anunciante |
 |---|---|---|---|
-| 3 | 111º | 456 | 27º |
+| 1 | 111º | 456 | 27º |
 | 2 | 111º | 456 | 27º |
-| 3 | 111º | 456 | 27º |
+| 1 | 111º | 456 | 27º |
 | 4 | 222 | 789 | 14. |
 | 5 | 222 | 789 | 14. |
 
