@@ -1,20 +1,19 @@
 ---
 description: Perguntas frequentes sobre como trazer dados offline para o Audience Manager.
-keywords: ftp or s3;s3 or ftp
+keywords: ftp ou s3;s3 ou ftp
 seo-description: Perguntas frequentes sobre como trazer dados offline para o Audience Manager.
 seo-title: Perguntas frequentes sobre assimilação de dados de entrada do cliente
 solution: Audience Manager
 title: Perguntas frequentes sobre assimilação de dados de entrada do cliente
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
-feature: Onboarding Offline Data
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: Integração de dados offline
+exl-id: 48eef5f1-0655-4dac-9ab4-74b11c705c13
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '1355'
+source-wordcount: '1364'
 ht-degree: 91%
 
 ---
-
 
 # Perguntas frequentes sobre assimilação de dados de entrada do cliente {#inbound-customer-data-ingestion-faq}
 
@@ -59,7 +58,7 @@ Consulte [Compactação de arquivos de transferência de dados de entrada](../in
 
 **É possível carregar um arquivo de dados de entrada ([!DNL .sync] ou arquivo [!DNL .overwrite]) antes de implantar o código [!DNL Audience Manager] na produção?**
 
-Sim. Desde que você use um [!UICONTROL cross-device data source] para armazenar os dados do CRM que você carrega, o Audience Manager sempre armazena os dados. Na verdade, após os aprimoramentos [!UICONTROL Profile Merge Rules] que o Audience Manager lançou em outubro de 2019 e permitem casos de uso somente offline, você pode fazer upload e executar ações em dados sem implantar o código Audience Manager na produção. Consulte:
+Sim. Desde que você use um [!UICONTROL cross-device data source] para armazenar os dados do CRM que você carrega, o Audience Manager sempre armazena os dados. Na verdade, após os aprimoramentos [!UICONTROL Profile Merge Rules] lançados pelo Audience Manager em outubro de 2019 que permitem casos de uso somente offline, você pode fazer upload e executar ações em dados sem implantar o código Audience Manager na produção. Consulte:
 
 * [Visão geral das melhorias nas Regras de mesclagem de perfis](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
 * [!UICONTROL People-based Destinations] -  [Personalização com base em dados somente offline](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
@@ -188,7 +187,7 @@ Os carimbos de data e hora são usados para fazer registros e mantê-los. Eles s
 
  
 
-**O que é um  [!DNL Data Provider ID (DPID)] e como o obtenho?**
+**O que é um  [!DNL Data Provider ID (DPID)] e como faço para obtê-lo?**
 
 O consultor da Adobe atribuirá uma [DPID (ID do provedor de dados)](../reference/ids-in-aam.md) de três ou quatro dígitos à sua fonte de dados específica. Essa ID é exclusiva e não é alterada.
 
@@ -227,7 +226,7 @@ Como prática recomendada, recomendamos o [!DNL Amazon S3] porque o processo é 
 
 >[!WARNING]
 >
->Estamos removendo gradualmente o suporte para configurações FTP. Embora a ingestão de arquivos de dados de entrada ainda seja suportada em integrações FTP existentes, recomendamos usar [!DNL Amazon S3] para dados offline integrados para novas integrações. Consulte [Requisitos de nome e tamanho de arquivo do Amazon S3 para arquivos de dados de entrada](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) para obter detalhes.
+>Estamos removendo gradualmente o suporte para configurações FTP. Embora a assimilação de arquivos de dados de entrada ainda seja compatível em integrações FTP existentes, recomendamos usar [!DNL Amazon S3] para dados offline integrados para novas integrações. Consulte [Requisitos de nome e tamanho de arquivo do Amazon S3 para arquivos de dados de entrada](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) para obter detalhes.
 
  
 
