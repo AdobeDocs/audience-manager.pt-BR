@@ -5,9 +5,8 @@ seo-title: Introdução às regras de mesclagem de perfis
 solution: Audience Manager
 title: Introdução às regras de mesclagem de perfis
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
-feature: Profile Merge
+feature: Mesclar perfis
 exl-id: 11f397dd-1f23-4b14-be6f-60ce8b77ab12
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '1306'
@@ -31,7 +30,7 @@ Para criar uma fonte de dados entre dispositivos, vá para **[!UICONTROL Audienc
 >
 >Consulte [Configurações da fonte de dados e Opções de menu](../datasources-list-and-settings.md#settings-menu-options) para obter descrições desses diferentes controles.
 
-## Detalhes da fonte de dados {#details}
+## Detalhes da Fonte de Dados {#details}
 
 Para concluir a seção [!UICONTROL Data Source Details]:
 
