@@ -5,9 +5,8 @@ seo-title: Regras de mesclagem de perfis e processos de dessegmentação de disp
 solution: Audience Manager
 title: Regras de mesclagem de perfis e processos de dessegmentação de dispositivos
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
-feature: Profile Merge
+feature: Mesclar perfis
 exl-id: ff3da607-5c25-45b2-ac27-071c22d518a0
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '505'
@@ -51,6 +50,6 @@ Como lembrete, [!UICONTROL Device Options] estão disponíveis na seção [!UICO
 
 >[!MORELIKETHIS]
 >
->* [Perguntas frequentes sobre regras de mesclagem de perfis e gráfico de dispositivos](../../faq/faq-profile-merge.md)
->* [Supressão instantânea entre dispositivos](instant-cross-device-suppression.md)
+>* [Perguntas frequentes sobre Regras de mesclagem de perfis e Gráfico de dispositivos](../../faq/faq-profile-merge.md)
+* [Supressão instantânea entre dispositivos](instant-cross-device-suppression.md)
 
