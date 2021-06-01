@@ -6,14 +6,13 @@ solution: Audience Manager
 title: Métodos da API de sinais derivados
 uuid: 698019bc-d7f6-41e0-a78a-1ab0bf0e65a0
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: 69f26b7b-ce96-4ec6-9155-4abd7c8338b1
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 14%
+source-wordcount: '122'
+ht-degree: 15%
 
 ---
-
 
 # Métodos da API de sinais derivados {#derived-signals-api-methods}
 
@@ -25,7 +24,8 @@ Para obter mais informações sobre sinais derivados, consulte [Sinais derivados
 
 >[!IMPORTANT]
 >
->Os métodos de sinais derivados [!DNL API] foram regravados com [!DNL Swagger] e migrados. Consulte:
+>Os métodos [!DNL API] de sinais derivados foram reescritos com [!DNL Swagger] e migrados. Consulte:
 >
->* [Documentos da API do Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
+>* [Documentação da API do Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migração de código API do Audience Manager](../../api/api-swagger-migration.md)
+
