@@ -4,9 +4,8 @@ seo-description: 'Esta página inclui orientações passo a passo sobre como com
 seo-title: Fluxo de trabalho A - Personalização com base em toda a Atividade online combinada com dados offline
 solution: Audience Manager
 title: Fluxo de trabalho A - Personalização com base em toda a Atividade online combinada com dados offline
-feature: People-based Destinations
+feature: Destinos com base em pessoas
 exl-id: 1f906955-8fe7-4cce-95d6-0e4275d523e8
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '1181'
