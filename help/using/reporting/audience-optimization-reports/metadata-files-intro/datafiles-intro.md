@@ -5,9 +5,8 @@ seo-title: Arquivos de dados para Relatórios de otimização de público-alvo e
 solution: Audience Manager
 title: Arquivos de dados para Relatórios de otimização de público-alvo e arquivos de registro acionáveis
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
-feature: Log Files
+feature: Arquivos de registro
 exl-id: 0da2c1d3-5ff8-40dd-b831-21d8941688ce
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '1044'
