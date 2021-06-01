@@ -5,9 +5,8 @@ seo-title: Visão geral das regras de mesclagem de perfis
 solution: Audience Manager
 title: Visão geral das regras de mesclagem de perfis
 uuid: 9e7988cc-9145-432b-840a-54fbd8657b3b
-feature: Profile Merge
+feature: Mesclar perfis
 exl-id: 5d1f5bea-0fca-4684-a2b4-585d9e38d9ef
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '364'
