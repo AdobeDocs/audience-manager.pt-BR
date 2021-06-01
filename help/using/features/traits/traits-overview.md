@@ -1,23 +1,22 @@
 ---
-description: Gerencie a coleta de dados e a criação de audiências com base em regras, integradas, algorítmicas ou características de pastas.
-seo-description: Gerencie a coleta de dados e a criação de audiências com base em regras, integradas, algorítmicas ou características de pastas.
-keywords: trait; traits; trait overview
+description: Gerencie a coleta de dados e a criação de públicos-alvo com características integradas, algorítmicas ou de pastas com base em regras.
+seo-description: Gerencie a coleta de dados e a criação de públicos-alvo com características integradas, algorítmicas ou de pastas com base em regras.
+keywords: característica; Características; visão geral de características
 seo-title: Visão geral das características
 solution: Audience Manager
 title: Visão geral das características
-feature: Traits
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 'Características '
+exl-id: 89f79f63-82f3-43cc-b22c-4c45d83e5002
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 39%
+source-wordcount: '76'
+ht-degree: 38%
 
 ---
 
-
 # [!UICONTROL Traits] Visão geral {#traits-overview}
 
-Gerencie a coleta de dados e a criação de audiências com [!UICONTROL rules-based], [!UICONTROL onboarded], [!UICONTROL algorithmic] ou [!UICONTROL folder traits]. Leia as páginas vinculadas abaixo para começar com [!UICONTROL traits]:
+Gerencie a coleta de dados e a criação de públicos-alvo com [!UICONTROL rules-based], [!UICONTROL onboarded], [!UICONTROL algorithmic] ou [!UICONTROL folder traits]. Leia as páginas vinculadas abaixo para começar a usar [!UICONTROL traits]:
 
 * [Página de detalhes da característica](/help/using/features/traits/trait-details-page.md)
 * [Construtor de perfil ](/help/using/features/traits/about-trait-builder.md)
