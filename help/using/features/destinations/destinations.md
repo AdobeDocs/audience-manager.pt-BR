@@ -8,7 +8,6 @@ title: Destinos
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
 feature: Noções básicas sobre o destino
 exl-id: f880bb18-057a-494d-82bf-69fc9f34781f
-translation-type: tm+mt
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '541'
