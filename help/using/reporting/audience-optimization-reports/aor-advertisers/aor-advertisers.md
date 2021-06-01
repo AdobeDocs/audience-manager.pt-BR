@@ -5,9 +5,8 @@ seo-title: Otimização de público-alvo para anunciantes
 solution: Audience Manager
 title: Otimização de público-alvo para anunciantes
 uuid: 852d550e-3c7f-4750-9abc-365c3a6f7883
-feature: Audience Optimization Reports
+feature: Relatórios de otimização de público-alvo
 exl-id: 13595778-3d3a-4c83-a84f-4bc3af1ee367
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '454'
@@ -27,7 +26,7 @@ Você pode enviar dados para [!DNL Audience Manager] para uso nesses relatórios
 
 * Arquivos de dados: Se quiser usar esses relatórios para analisar seus próprios dados ou dados de uma fonte não integrada a [!DNL Audience Manager], será necessário criar e carregar dados e arquivos de metadados para esses dados. Para obter mais informações, consulte [Arquivos de dados para relatórios do Audience Optimization](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) e [Arquivos de dados e metadados para relatórios do Audience Optimization](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md).
 
-## [!UICONTROL Role-Based Access Controls] (RBAC)  {#rbac}
+## [!UICONTROL Role-Based Access Controls] (RBAC) {#rbac}
 
 O tipo de relatórios que você pode visualizar depende do grupo [!UICONTROL RBAC] ao qual você está atribuído. Consulte [Administração](../../../features/administration/administration-overview.md) e [Criar um grupo](../../../features/administration/administration-overview.md#create-group) para obter mais informações.
 
