@@ -5,9 +5,8 @@ seo-title: Assimilação de dados de entrada em tempo real
 solution: Audience Manager
 title: Assimilação de dados de entrada em tempo real
 uuid: 43cb0ebc-6c36-4391-bbfb-6b203d63c69a
-feature: Inbound Data Transfers
+feature: Transferência de dados de entrada
 exl-id: d243c74c-3a29-4dbf-a4c7-43ea526a9d7b
-translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
 source-wordcount: '198'
