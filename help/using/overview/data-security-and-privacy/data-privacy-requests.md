@@ -6,9 +6,8 @@ solution: Audience Manager
 keywords: Interface do usuário do GDPR, API do GDPR, CCPA, privacidade
 title: Solicitações de privacidade de dados
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
-feature: Data Governance & Privacy
+feature: Governança e privacidade de dados
 exl-id: a1fc9c21-3417-4899-a585-92ad2cb25362
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '1486'
