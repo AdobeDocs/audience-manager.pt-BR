@@ -5,9 +5,8 @@ seo-title: 'Integração de dados de mídia '
 solution: Audience Manager
 title: 'Integração de dados de mídia '
 uuid: 6f6bbd03-084b-4226-8809-3b00b467606f
-feature: Adobe Campaign Integration
+feature: Integração do Adobe Campaign
 exl-id: ca4906a7-0c39-49bc-9505-d76a61ec9eac
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '149'
@@ -28,5 +27,5 @@ Você pode capturar dados de campanhas de mídia usando chamadas de pixel para o
 Para configurar a assimilação de log, leia os seguintes artigos:
 
 * [Importar arquivos de dados do Google Campaign Manager para o Audience Manager](/help/using/reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
-* [Importar arquivos de dados do Google Ad Manager para o Audience Manager  ](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
+* [Importar arquivos de dados do Google Ad Manager para o Audience Manager ](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
 * [Dados de registro e ](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) arquivos de metadados para configurar a assimilação de log para arquivos de log genéricos
