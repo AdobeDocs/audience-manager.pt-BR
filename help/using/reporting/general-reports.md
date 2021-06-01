@@ -5,9 +5,8 @@ seo-title: Relatórios gerais no Audience Manager
 solution: Audience Manager
 title: Relatórios gerais
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
-feature: General & Trend Reports
+feature: Relatórios gerais e de tendências
 exl-id: dc16a821-b776-4a04-af60-4b8c914253dd
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '869'
