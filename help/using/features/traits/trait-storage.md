@@ -1,41 +1,40 @@
 ---
-description: As pastas de armazenamentos de características armazenam e ajudam a organizar características.
-seo-description: As pastas de armazenamentos de características armazenam e ajudam a organizar características.
+description: As pastas de armazenamento de características armazenam e ajudam a organizar características.
+seo-description: As pastas de armazenamento de características armazenam e ajudam a organizar características.
 seo-title: Armazenamento de características
 solution: Audience Manager
 title: Armazenamento de características
 uuid: e72685ee-0c64-44a4-a8e2-d6ee5c968ba0
-feature: Traits
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 'Características '
+exl-id: 97d9951e-a339-4dd9-8a67-b7884752533b
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 5%
+source-wordcount: '225'
+ht-degree: 6%
 
 ---
 
-
 # Armazenamento de características {#trait-storage}
 
-As pastas de armazenamentos de características armazenam e ajudam a organizar características.
+As pastas de armazenamento de características armazenam e ajudam a organizar características.
 
 <!-- c_tb_storage.xml -->
 
-## Finalidade das pastas de Armazenamento de características
+## Finalidade das pastas de armazenamento de características
 
-Em [!UICONTROL Trait Builder], as pastas de armazenamentos de características são diretórios que mantêm e organizam características em grupos lógicos criados. Acesse as pastas de armazenamentos do painel [!UICONTROL Traits] ou ao criar uma nova característica. Lembre-se, não é possível criar uma nova característica sem atribuí-la a uma pasta de armazenamento.
+Em [!UICONTROL Trait Builder], as pastas de armazenamento de características são diretórios que mantêm e organizam características em grupos lógicos criados. Acesse as pastas de armazenamento no painel [!UICONTROL Traits] ou ao criar uma nova característica. Lembre-se, não é possível criar uma nova característica sem atribuí-la a uma pasta de armazenamento.
 
 ![](assets/tb_storage.png)
 
-## Criar uma pasta de Armazenamento de características {#create-trait-storage-folder}
+## Criar uma pasta de armazenamento de características {#create-trait-storage-folder}
 
-Este procedimento descreve como criar uma pasta de armazenamentos para suas características.
+Este procedimento descreve como criar uma pasta de armazenamento para suas características.
 
 <!-- t_tb_create_storage.xml -->
 
-Você pode criar uma nova pasta de armazenamentos na seção [!UICONTROL Basic Information] ao configurar uma nova característica. Além disso, as pastas podem ser criadas na seção [!UICONTROL Trait Storage] do painel de lista [!UICONTROL Traits] principal.
+Você pode criar uma nova pasta de armazenamento na seção [!UICONTROL Basic Information] ao configurar uma nova característica. Além disso, as pastas podem ser criadas na seção [!UICONTROL Trait Storage] do painel principal da lista [!UICONTROL Traits].
 
-Para criar uma nova pasta de armazenamentos:
+Para criar uma nova pasta de armazenamento:
 
 1. Na janela [!UICONTROL Trait Storage], passe o mouse sobre:
    * **[!UICONTROL All Traits]** para adicionar uma nova pasta de nível raiz.
@@ -43,13 +42,13 @@ Para criar uma nova pasta de armazenamentos:
 1. Clique no ícone + para criar a pasta.
 1. Nomeie a pasta e clique em **[!UICONTROL Save]**.
 
-## Renomear ou excluir uma pasta de Armazenamento de característica {#rename-delete-trait-storage-folder}
+## Renomear ou excluir uma pasta de armazenamento de características {#rename-delete-trait-storage-folder}
 
 Este procedimento descreve como renomear ou excluir uma pasta de armazenamento.
 
 <!-- t_tb_rename_delete_storage.xml -->
 
-Você pode renomear ou excluir pastas de armazenamentos da seção [!UICONTROL Trait Storage] do painel de lista principal [!UICONTROL Traits].
+Você pode renomear ou excluir pastas de armazenamento da seção [!UICONTROL Trait Storage] do painel principal da lista [!UICONTROL Traits].
 
-* Renomeie uma pasta passando o mouse sobre ela e clicando no ícone de lápis.
-* Exclua uma pasta passando o mouse sobre ela e clicando no ícone **X**.
+* Renomeie uma pasta ao passar o mouse sobre ela e clicar no ícone de lápis.
+* Exclua uma pasta ao passar o mouse sobre ela e clicar no ícone **X**.
