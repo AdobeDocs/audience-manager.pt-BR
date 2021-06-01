@@ -5,15 +5,14 @@ seo-title: dexGetQSVars
 solution: Audience Manager
 title: dexGetQSVars
 uuid: 6d21c7a4-43f8-456b-8831-47343dbb047e
-feature: DIL Implementation
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: Implementação de DIL
+exl-id: 814268bc-4387-4e06-ae94-eda86993a967
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '75'
 ht-degree: 17%
 
 ---
-
 
 # dexGetQSVars{#dexgetqsvars}
 
@@ -33,7 +32,7 @@ r_dil_get_dexqsvars.xml
 |---|---|---|
 | `variableName` | String   | O nome da variável para a qual você deseja obter um valor. |
 | `partner` | String   | O nome do parceiro a procurar. |
-| `containerNSID` | Número inteiro | O [!DNL NSID] do container que você está procurando. Os padrões são `0`. |
+| `containerNSID` | Número inteiro | O [!DNL NSID] do contêiner que você está procurando. Os padrões são `0`. |
 
 **Resposta**
 
