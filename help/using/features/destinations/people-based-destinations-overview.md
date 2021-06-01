@@ -1,12 +1,11 @@
 ---
-description: 'Use destinos com base em pessoas para enviar segmentos de público-alvo primários para ambientes com base em pessoas. Esses ambientes são ecossistemas fechados pertencentes a uma entidade que controla o conteúdo que está sendo exibido dentro dele. Eles incluem plataformas sociais, como o Facebook, e outras plataformas que dependem de contas de clientes para personalizar o conteúdo exibido. '
-seo-description: 'Use destinos com base em pessoas para enviar segmentos de público-alvo primários para ambientes com base em pessoas. Esses ambientes são ecossistemas fechados pertencentes a uma entidade que controla o conteúdo que está sendo exibido dentro dele. Eles incluem plataformas sociais, como o Facebook, e outras plataformas que dependem de contas de clientes para personalizar o conteúdo exibido.  '
+description: 'Use destinos com base em pessoas para enviar segmentos de público-alvo primários para ambientes com base em pessoas. Esses ambientes são ecossistemas fechados pertencentes a uma entidade que controla o conteúdo que está sendo exibido dentro dele. Eles incluem plataformas sociais, como Facebook, e outras plataformas que dependem de contas de clientes para personalizar o conteúdo exibido. '
+seo-description: 'Use destinos com base em pessoas para enviar segmentos de público-alvo primários para ambientes com base em pessoas. Esses ambientes são ecossistemas fechados pertencentes a uma entidade que controla o conteúdo que está sendo exibido dentro dele. Eles incluem plataformas sociais, como Facebook, e outras plataformas que dependem de contas de clientes para personalizar o conteúdo exibido.  '
 seo-title: Visão geral dos destinos com base em pessoas e casos de uso
 solution: Audience Manager
 title: Visão geral e casos de uso
-feature: People-based Destinations
+feature: Destinos com base em pessoas
 exl-id: 2edbda3b-e2a3-4a92-965b-206a21764cc8
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '924'
