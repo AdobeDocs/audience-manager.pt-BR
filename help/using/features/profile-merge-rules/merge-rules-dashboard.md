@@ -5,9 +5,8 @@ seo-title: Painel de regras de mesclagem de perfis
 solution: Audience Manager
 title: Painel de regras de mesclagem de perfis
 uuid: d6725218-7b36-4653-9900-d67b5f7702a0
-feature: Profile Merge
+feature: Mesclar perfis
 exl-id: c6fcbe47-3010-4b7c-a70e-205bf69b4c54
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '222'
