@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Por que minhas características ou meus segmentos não aparecem na página Relatórios de sobreposição?
 feature: Suporte
 exl-id: 8341ee38-fc46-4a4b-9c9e-4ce2edb9a2fb
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 2643bebea8618124d5c96906e8dc89e21024d51a
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 100%
@@ -28,4 +28,4 @@ Um requisito de visitante único mínimo precisa ser atendido para que uma carac
 * Para características: 28000 durante um período de 14 dias
 * Para segmentos: 70000 usuários em tempo real por um período de 14 dias
 
-Mais detalhes podem ser encontrados na página [Amostragem de dados e taxas de erro em alguns relatórios do Audience Manager](..//reporting/report-sampling.md).
+Mais detalhes podem ser encontrados na página [Amostragem de dados e taxas de erro em alguns relatórios do Audience Manager](../reporting/report-sampling.md).
