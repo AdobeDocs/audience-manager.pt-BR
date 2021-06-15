@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Fluxo de trabalho B - Personalização com base em dados somente offline
 feature: Destinos com base em pessoas
 exl-id: d980de26-3133-4ae3-80c2-8c3bf2480bbd
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 87c3169083f0dc66490e6a8c808e16371f1d78c0
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1173'
 ht-degree: 6%
 
 ---
@@ -32,7 +32,7 @@ Independentemente de suas IDs de cliente do Audience Manager existentes ([DPUUID
 
 ### Exemplo
 
-Você deseja qualificar as IDs do cliente da tabela abaixo para as IDs de característica integradas correspondentes. Considere que seus [DPUUIDs](../../reference/ids-in-aam.md) são armazenados em uma fonte de dados com a ID 99999, e sua ID de parceiro do Audience Manager é 123.
+Você deseja qualificar as IDs do cliente da tabela abaixo para as IDs de característica integradas correspondentes. Considere que seus [DPUUIDs](../../reference/ids-in-aam.md) são armazenados em uma fonte de dados com a ID 99999, e a ID da fonte de dados do Audience Manager é 123.
 
 | ID do cliente (DPUUID) | ID de característica integrada |
 | -------------------------------------- | ------------------- |
