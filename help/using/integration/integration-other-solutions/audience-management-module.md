@@ -8,7 +8,7 @@ title: Implementar o módulo Gerenciamento de público-alvo
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 feature: Integração do Adobe Analytics
 exl-id: af2449cd-5fc8-454a-adce-0da7cae80548
-source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
+source-git-commit: 8fc6c96bf9e8216ef4458989c87f1f93ea9f0347
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 4%
@@ -36,7 +36,7 @@ Há dois métodos para implementar o encaminhamento de dados de [!DNL Adobe Anal
 
 ### Implementação usando [!DNL Adobe Experience Platform Launch]
 
-[!DNL Adobe] O recomenda usar a extensão  [](https://docs.adobe.com/content/help/en/launch/using/overview.html) Launch para preparar  [!DNL Adobe Analytics] e  [!DNL Audience Manager] ativar as propriedades. Nesse caso, não é necessário copiar manualmente qualquer código. Em vez disso, você deve ativar o compartilhamento de dados na extensão [!DNL Analytics Launch], conforme mostrado na imagem abaixo. Consulte também a documentação [Adobe Analytics Extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager).
+[!DNL Adobe] O recomenda usar a extensão  [](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en) Launch para preparar  [!DNL Adobe Analytics] e  [!DNL Audience Manager] ativar as propriedades. Nesse caso, não é necessário copiar manualmente qualquer código. Em vez disso, você deve ativar o compartilhamento de dados na extensão [!DNL Analytics Launch], conforme mostrado na imagem abaixo. Consulte também a documentação [Adobe Analytics Extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager).
 
 >[!TIP]
 >
