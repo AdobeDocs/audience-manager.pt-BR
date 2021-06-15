@@ -6,7 +6,7 @@ title: Supressão instantânea entre dispositivos
 uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
 feature: Mesclar perfis
 exl-id: b9686210-e1aa-4f0a-a549-27d29c94e963
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 2643bebea8618124d5c96906e8dc89e21024d51a
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 15%
@@ -67,4 +67,4 @@ Lembre-se desses aspectos relacionados ao processamento:
 Lembre-se destes aspectos relacionados ao tempo:
 
 * Um segmento será armazenado no [Edge](../../reference/system-components/components-edge.md) pelo mesmo período de tempo em que um perfil de dispositivo é armazenado no [!UICONTROL Edge], ou seja, 14 dias desde a última interação em tempo real. Leia mais sobre a retenção de dados em nossas [Perguntas frequentes sobre a retenção de dados](../../faq/faq-privacy.md#data-retention-faq).
-* Leva aproximadamente 24 horas para a operação de cancelamento de segmentos se propagar pelas regiões [!DNL DCS]. Leia mais sobre nossas [!DNL DCS] regiões [aqui](../..//reference/system-components/components-data-collection.md) e [aqui](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+* Leva aproximadamente 24 horas para a operação de cancelamento de segmentos se propagar pelas regiões [!DNL DCS]. Leia mais sobre nossas [!DNL DCS] regiões [aqui](../../reference/system-components/components-data-collection.md) e [aqui](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
