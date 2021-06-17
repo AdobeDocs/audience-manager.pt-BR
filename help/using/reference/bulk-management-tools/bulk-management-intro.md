@@ -8,9 +8,9 @@ title: Introdução ao gerenciamento em massa
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 feature: BAAAM
 exl-id: 5603146e-7172-4181-90ad-4606129176dd
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 911eab2d661907c6f1e2ffc08603d994bd346395
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '719'
 ht-degree: 4%
 
 ---
@@ -35,7 +35,7 @@ Esse recurso usa uma planilha [!DNL Microsoft Excel] com macros que fazem chamad
 
 ## Baixar {#download}
 
-Baixe a planilha mais recente **[aqui](assets/BAAAM_V2_20200502.xlsm)**.
+Baixe a planilha mais recente **[aqui](assets/BAAAM_V2_20210609.xlsm)** (última atualização em junho de 2021).
 
 ## Pré-requisitos {#prereqs}
 
