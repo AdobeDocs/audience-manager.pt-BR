@@ -8,7 +8,7 @@ title: Públicos endereçáveis
 uuid: 3eb1335a-6949-452b-b77a-697c22856cb3
 feature: Taxas de correspondência
 exl-id: 2728e4a8-522c-423f-a6ef-e4dd624f69e5
-source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '1827'
 ht-degree: 1%
@@ -47,7 +47,7 @@ O recurso [!UICONTROL Addressable Audience] transforma esse conceito abstrato em
 As três métricas que você pode ver na página de aterrissagem [!UICONTROL Addressable Audiences] representam:
 
 | Métrica | Descrição |
----------|----------|
+|---------|----------|
 | **[!UICONTROL Addressable Audience (Device)]** | Essa métrica representa o [!UICONTROL Customer Addressable Audience] (descrito na tabela acima) *nos últimos 30 dias.* |
 | **[!UICONTROL Match Rate]** | Essa métrica representa o [!UICONTROL Addressable Audience Match Rate] (descrito na tabela acima) *para os últimos 30 dias*. |
 | **[!UICONTROL Lifetime Addressable Audience (Device)]** | Uma contagem de todos os dispositivos que interagiram com todos os [!DNL Audience Manager] clientes no nível da plataforma durante o período de análise do relatório e que podem ser correspondidos a esse [!UICONTROL destination]. Consulte [Métricas de nível de plataforma](/help/using/features/addressable-audiences.md#platform-level-metrics) para obter mais informações. |
