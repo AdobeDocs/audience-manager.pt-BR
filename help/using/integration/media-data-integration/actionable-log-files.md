@@ -8,7 +8,7 @@ title: Arquivo de registro acionável
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Arquivos de registro
 exl-id: bd499931-4e02-4f64-82ba-46ef7c4ffd3c
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '1611'
 ht-degree: 3%
@@ -176,7 +176,7 @@ A tabela lista os sinais acionáveis dos arquivos de log [!DNL Google Ad Manager
 
 
 | Nome do cabeçalho no arquivo de log | Sinal | Descrição |
----------|----------|---------
+|---------|----------|---------|
 | `LineItemId` | `d_lineitem` | A ID numérica do item de linha do Gerenciador de publicidade entregue |
 | `OrderId` | `d_orderid` | A ID numérica do pedido do Gerenciador de anúncios que continha o item de linha fornecido e o anúncio. |
 | `CreativeId` | `d_creative` | A ID numérica para o anúncio do Gerenciador de publicidade fornecido. |
