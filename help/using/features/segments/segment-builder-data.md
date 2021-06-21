@@ -7,7 +7,7 @@ title: Dados de população de características e segmentos no Construtor de seg
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
 feature: 'Segmentos '
 exl-id: f8953d10-8a31-4c07-8d96-169c30a21de0
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 2%
@@ -28,7 +28,7 @@ A tabela a seguir define as métricas da população de características:
 
 
 | Métrica | Descrição |
----------|----------|
+|---------|----------|
 | [!UICONTROL Total Trait Population] | O número de IDs exclusivas que têm a característica selecionada em seu perfil. |
 
 
@@ -122,7 +122,7 @@ A tabela a seguir define as métricas de população real e total quando seus se
 
 
 | Coluna A | Coluna B |
----------|----------|
+|---------|----------|
 | [!UICONTROL Real-Time Population (Existing) ] | O número real de dispositivos vistos em tempo real com perfis atuais que, quando mesclados com até 100 outros perfis de dispositivo conectados pelo gráfico de dispositivos, contém as características para se qualificar para o segmento no momento em que foi visto pelo Audience Manager. |
 | [!UICONTROL Total Population (Existing)] | O número total de dispositivos com perfis que, quando mesclados com até 100 outros perfis de dispositivo conectados pelo gráfico de dispositivos, eram qualificados para o segmento. |
 
