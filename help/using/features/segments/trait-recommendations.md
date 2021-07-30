@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Recomendações de característica
 feature: 'Segmentos '
 exl-id: 7ef862a9-7354-49fb-9af0-925d827a5165
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 432b12c4d4fb567d1a0bcaa9d12baaac5e3ae0f7
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 8%
@@ -170,7 +170,7 @@ Se as mesmas características A e B tiverem 400.000 [!UICONTROL UUID]s que se qu
 Use a tabela abaixo como um guia detalhado para traçar similaridade. Este guia é baseado nas pontuações de similaridade observadas na maioria das características.
 
 | [!UICONTROL Trait Similarity Score] | Significância |
----------|----------|
+|---------|----------|
 | 0.1 e superior | Alta semelhança entre características |
 | 0.03 - 0.1 | Similaridade média entre características |
 | 0.01 - 0.03 | Baixa semelhança entre características |
