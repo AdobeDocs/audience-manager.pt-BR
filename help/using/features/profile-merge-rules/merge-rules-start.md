@@ -7,9 +7,9 @@ title: Introdução às regras de mesclagem de perfis
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 feature: Mesclar perfis
 exl-id: 11f397dd-1f23-4b14-be6f-60ce8b77ab12
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: b8c8f35376c5a8a85fa4eeace7b447385ee9f339
 workflow-type: tm+mt
-source-wordcount: '1306'
+source-wordcount: '1315'
 ht-degree: 4%
 
 ---
@@ -115,7 +115,7 @@ Para garantir a integração correta entre a instância do Audience Manager e os
 >
 > Se você atingiu o número máximo de [!UICONTROL Profile Merge Rules] e precisa de assistência para configurá-los com base nas instruções acima, entre em contato com o Atendimento ao cliente.
 
-## Configurar o código da regra de mesclagem {#configure-merge-rule-code}
+## Configurar código de regra de mesclagem {#configure-merge-rule-code}
 
 Siga estas instruções para configurar o código [!UICONTROL Adobe Experience Platform Identity Service], [!UICONTROL DIL] e [!DNL SDK] móvel para funcionar com suas regras de mesclagem.
 
@@ -172,7 +172,7 @@ No par de valores chave do namespace, a variável `*`MCORG`*` é a [!DNL Experie
 
 Consulte a seção [Configurar SDKs](#configure-sdks-legacy-dil) abaixo.
 
-## DIL legado {#legacy-dil}
+## DIL herdado {#legacy-dil}
 
 Se você ainda não estiver usando [!DNL Adobe Experience Platform Identity Service], você realmente deve. Mas, entendemos que mover-se para um novo código requer um pensamento cuidadoso e testes. Nesses casos, verifique sua função `DIL.create` para verificar se ela está configurada corretamente, como mostrado na amostra de código abaixo.
 
@@ -224,7 +224,7 @@ Verifique os métodos em seu código [!DNL SDK] que permitem passar [!UICONTROL 
  </tbody>
 </table>
 
-Consulte também [Métodos do Audience Manager para Android](hhttps://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) e [Métodos do Audience Manager para iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/aam-methods.html).
+Consulte também [Métodos do Audience Manager para Android](https://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) e [Métodos do Audience Manager para iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/aam-methods.html).
 
 >[!MORELIKETHIS]
 >
