@@ -8,9 +8,9 @@ title: Ambiente beta
 uuid: de4a1a46-cfa4-4f64-8569-48a7650fd8cf
 feature: 'Referência '
 exl-id: a6a5e1c2-29a2-40bf-972c-87fb8716a394
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 6eefe6ac6db011e99a02cfc38abfe773a8f62e0d
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '348'
 ht-degree: 4%
 
 ---
@@ -21,25 +21,21 @@ O ambiente beta é para testar sua implementação de Audience Manager. As alter
 
 ## Visão geral
 
-O ambiente beta é uma réplica exata do ambiente de produção, sem recursos experimentais ou não lançados. Suas credenciais de logon do ambiente de produção são válidas no ambiente beta.
+A funcionalidade no ambiente beta é uma réplica exata do ambiente de produção, sem nenhum recurso experimental ou não lançado. Suas credenciais de logon do ambiente de produção são válidas no ambiente beta.
 
 **Atualizar Programação**
 
 O ambiente beta é atualizado no final de cada mês durante horários fora do horário de pico.
 
+>[!IMPORTANT]
+>
+>Observe que os dados do cliente ([signal, traits and segments](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=en)) não são sincronizados entre os ambientes de produção e beta.
+
 **Tráfego de saída**
 
 O tráfego de saída não está habilitado para o ambiente beta.
 
-<!-- 
-
-Added re: AAM-30826.
-
- -->
-
 ## Endpoints
-
-
 
 | Serviço | URL/Nome de host | Como obter acesso |
 |--- |--- | --- |
@@ -48,7 +44,7 @@ Added re: AAM-30826.
 | Interface do usuário | `https://bank-beta.demdex.com` | As credenciais do ambiente de produção são válidas para o ambiente beta. |
 | API | `https://api-beta.demdex.com/...` | As credenciais do ambiente de produção são válidas para o ambiente beta. Recomendamos que você crie um usuário genérico da API, [consulte os detalhes](../api/rest-api-main/aam-api-getting-started.md#requirements). |
 
-## Acessar o DCS no ambiente beta {#access-dcs-beta-environment}
+## Acesso ao DCS no ambiente beta {#access-dcs-beta-environment}
 
 1. Faça uma chamada DCS, usando o comando curl [](https://curl.haxx.se/docs/manpage.html). O Curl é uma ferramenta para transferir dados de ou para um servidor, usando um de vários protocolos compatíveis.
 
