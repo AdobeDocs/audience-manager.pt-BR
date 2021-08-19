@@ -8,10 +8,10 @@ keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d
 uuid: 0b98ed11-314b-4500-afde-45a041112150
 feature: DCS
 exl-id: 1bdd7dcd-9411-4b0a-a236-059eb5faf00d
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 5%
+source-wordcount: '839'
+ht-degree: 4%
 
 ---
 
@@ -80,7 +80,7 @@ Todos esses itens são opcionais, a menos que você deseje uma resposta do [!DNL
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
-   <td colname="col2"> <p>Desative o uso de cookies de terceiros para cumprir com as regulamentações de proteção infantil. Esse parâmetro é definido dinamicamente pelo Adobe Adobe Experience Platform Identity Service e depende da configuração <code> idSyncDisable3rdPartySyncing</code>. Consulte <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/coppa.html" format="https" scope="external"> Suporte à lei COPPA no serviço de identidade da Adobe Experience Platform</a>. </p> </td>
+   <td colname="col2"> <p>Desative o uso de cookies de terceiros para cumprir com as regulamentações de proteção infantil. Esse parâmetro é definido dinamicamente pelo Adobe Adobe Experience Platform Identity Service e depende da configuração <code> idSyncDisable3rdPartySyncing</code>. Consulte <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/coppa.html" format="https" scope="external"> Suporte à lei COPPA no serviço de identidade da Adobe Experience Platform</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cts=1</code> </p> <p><code> d_cts=2</code> </p> </td> 
@@ -122,7 +122,7 @@ Todos esses itens são opcionais, a menos que você deseje uma resposta do [!DNL
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p>Especifica o conjunto de ID de Experience Cloud e é usado pelo serviço de ID <span class="keyword"> Experience Cloud</span>. Para obter mais informações sobre a ECID, consulte Cookies <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> e o serviço de identidade do Experience Cloud</a>. </p> </td> 
+   <td colname="col2"> <p>Especifica o conjunto de ID de Experience Cloud e é usado pelo serviço de ID <span class="keyword"> Experience Cloud</span>. Para obter mais informações sobre a ECID, consulte Cookies <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> e o serviço de identidade do Experience Cloud</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_nsid</code> </p> </td> 
