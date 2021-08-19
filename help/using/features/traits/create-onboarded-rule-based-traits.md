@@ -8,9 +8,9 @@ title: Criar características integradas ou com base em regras
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
 feature: 'Características '
 exl-id: cad318ee-93b2-4afa-8a2f-a67b068eec0a
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '381'
 ht-degree: 8%
 
 ---
@@ -60,7 +60,7 @@ Em [!UICONTROL Trait Builder], as configurações [!UICONTROL Basic Information]
   </tr>
    <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Tipo de evento</span></b> </td> 
-   <td colname="col2"> Atribui a característica a um tipo ou categoria, normalmente de acordo com a função (por exemplo, conversão, visitante do site, parceiro, exibição de página etc.). Opcional. <p> Para saber como criar características de conversão, consulte <a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Criação de características de conversão em Audience Manager video</a>. </p></td> 
+   <td colname="col2"> Atribui a característica a um tipo ou categoria, normalmente de acordo com a função (por exemplo, conversão, visitante do site, parceiro, exibição de página etc.). Opcional. <p> Para saber como criar características de conversão, consulte <a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Criação de características de conversão em Audience Manager video</a>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Código de integração</span></b> </td> 
@@ -81,7 +81,7 @@ Em [!UICONTROL Trait Builder], as configurações [!UICONTROL Basic Information]
  </tbody> 
 </table>
 
-## Defina um [!UICONTROL Trait] Intervalo de expiração {#set-expiration-interval}
+## Definir um Intervalo de Expiração [!UICONTROL Trait] {#set-expiration-interval}
 
 Em [!UICONTROL Trait Builder], o [!UICONTROL Advanced Options] permite que você defina um intervalo de tempo de vida ([!DNL TTL]) para um [!UICONTROL trait]. [!DNL TTL] define quantos dias um visitante qualificado permanece em um  [!UICONTROL trait] (120 dias é padrão). Quando definido como 0, a associação [!UICONTROL trait] nunca expira.
 
