@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Guia do usuário do Audience Manager
 user-guide-description: Saiba como o Audience Manager permite coletar informações comercialmente relevantes sobre visitantes do site, criar segmentos comercializáveis e veicular anúncios e conteúdo direcionados ao público certo.
 feature-set: Audience Manager
-source-git-commit: cf9368d4690b61066646054543cc60d390eea021
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1809'
+source-wordcount: '1805'
 ht-degree: 90%
 
 ---
@@ -342,8 +342,8 @@ ht-degree: 90%
    + Integração com outras soluções da Experience Cloud {#integration-other-solutions}
       + [Integrar o Audience Manager ao Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Como encaminhar dados do Adobe Analytics para o Audience Manager](integration/integration-other-solutions/audience-management-module.md)
-      + [Publicar um segmento do Adobe Analytics no Experience Cloud (abre a documentação do Adobe Analytics)](https://docs.adobe.com/content/help/pt-BR/core-services/interface/audiences/t-publish-audience-segment.html)
-      + [Integrar o Audience Manager com o Adobe Campaign (abre a documentação do Adobe Campaign)](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
+      + [Publicar um segmento do Adobe Analytics no Experience Cloud (abre a documentação do Adobe Analytics)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [Integrar o Audience Manager com o Adobe Campaign (abre a documentação do Adobe Campaign)](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
 + Referência {#reference}
    + [Visão geral de referência](reference/reference.md)
    + [Amazon S3: sobre](reference/amazon-s3.md)
