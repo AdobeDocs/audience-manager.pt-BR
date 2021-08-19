@@ -8,10 +8,10 @@ title: Gerenciar fontes de dados
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 feature: Fontes de dados
 exl-id: 1c20988e-4a09-4d56-b454-d48b75eed1ce
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 6%
+source-wordcount: '378'
+ht-degree: 3%
 
 ---
 
@@ -36,7 +36,7 @@ Para concluir a seção [!UICONTROL Data Source Details]:
 1. Forneça um [!UICONTROL integration code]. Geralmente, [!UICONTROL integration codes] são opcionais. Eles são necessários quando você deseja:
 
    * [Criar uma fonte de dados entre dispositivos](../features/profile-merge-rules/merge-rules-start.md#create-data-source).
-   * Use o [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html).
+   * Use o [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
    * Trabalhe com [Regras de mesclagem de perfis](../features/profile-merge-rules/merge-rules-start.md).
 
 1. Escolha um **[!UICONTROL ID Type]**. [!UICONTROL ID Type] as opções incluem:
@@ -61,7 +61,7 @@ Essas configurações determinam como um [!UICONTROL data source] é identificad
 1. Marque uma caixa de seleção [!UICONTROL Data Source Setting] para aplicar uma opção a [!UICONTROL data source].
 2. Clique em **[!UICONTROL Save]**.
 
-## Excluir uma Fonte de Dados {#delete-data-source}
+## Excluir uma fonte de dados {#delete-data-source}
 
 <!-- t_datasource_delete.xml -->
 
@@ -72,7 +72,7 @@ Exclua um [!UICONTROL data source] que não é mais necessário.
 >Observe as seguintes restrições:
 >
 >* Não é possível excluir um [Público-alvo ativo ou Característica sincronizada da fonte de dados](../features/traits/client-activity-synced-audience-traits.md).
->* Para clientes que usam o Adobe Analytics: O Audience Manager não permite excluir fontes de dados criadas automaticamente a partir de seus [!DNL Analytics] conjuntos de relatórios. Use o [Serviço Principal](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services-landing.html) para desmapear essas fontes de dados.
+>* Para clientes que usam o Adobe Analytics: O Audience Manager não permite excluir fontes de dados criadas automaticamente a partir de seus [!DNL Analytics] conjuntos de relatórios. Use o [Serviço Principal](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services-landing.html) para desmapear essas fontes de dados.
 
 
 1. Clique em **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**.
