@@ -8,9 +8,9 @@ title: Implementar o módulo Gerenciamento de público-alvo
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 feature: Integração do Adobe Analytics
 exl-id: af2449cd-5fc8-454a-adce-0da7cae80548
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 8c96c2f987ab0f235bdfb8ba5eb4a7d55fa57d0b
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '533'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ Siga as etapas neste tutorial para encaminhar [!DNL Analytics] dados para [!DNL 
 Além de ativar as extensões ou implementar o código descrito neste documento, você também deve:
 
 * Implemente o [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
-* Ative [Encaminhamento pelo lado do servidor](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html) para conjuntos de relatórios no [!UICONTROL Adobe Analytics Admin Console].
+* Ative [Encaminhamento pelo lado do servidor](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) para conjuntos de relatórios no [!UICONTROL Adobe Analytics Admin Console].
 
 ## Implementação {#implementation}
 
