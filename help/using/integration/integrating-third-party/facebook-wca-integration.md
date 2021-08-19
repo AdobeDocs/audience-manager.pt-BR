@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Integração WCA com o Facebook
 feature: Integração de terceiros
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
-source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 5%
+source-wordcount: '851'
+ht-degree: 4%
 
 ---
 
@@ -32,7 +32,7 @@ Esta página ilustra o processo de criação de [!DNL Facebook Website Custom Au
 1. [!DNL Facebook Ad Account]
 2. [!DNL Audience Manager] segmentos, prontos para atribuir ao novo  [!DNL Facebook] destino. Aqui está [como criar um segmento](/help/using/features/segments/segment-builder.md) na interface do usuário [!DNL Audience Manager].
 3. [!DNL Adobe Experience Platform Identity Service] ([!DNL ECID]) Versão 4.1.0 ou mais recente. Baixe a versão mais recente **[aqui](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**.
-4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) versão 9.0 ou mais recente, disponível para download  **[aqui](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Como alternativa, se você usar [Encaminhamento pelo lado do servidor (SSF)](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html) para importar dados para [!DNL Audience Manager], deverá usar o AppMeasurement versão 2.12 ou mais recente. Baixe [!DNL AppMeasurement] usando o [Gerenciador de código do Analytics](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html).
+4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) versão 9.0 ou mais recente, disponível para download  **[aqui](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Como alternativa, se você usar [Encaminhamento pelo lado do servidor (SSF)](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) para importar dados para [!DNL Audience Manager], deverá usar o AppMeasurement versão 2.12 ou mais recente. Baixe [!DNL AppMeasurement] usando o [Gerenciador de código do Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html).
 
 Recomendamos instalar ou atualizar as bibliotecas nas etapas 3 e 4 usando [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html).
 
