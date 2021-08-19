@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Públicos preditivos do Audience Manager
 feature: Modelos algorítmicos
 exl-id: 57eaeb09-0e0e-4ce9-9b25-f1a27f4f35ce
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1505'
 ht-degree: 8%
 
 ---
@@ -60,7 +60,7 @@ Como comerciante, eu desejo prever em qual fase de jornada do cliente meus visit
 
 Como empresa de mídia, eu quero categorizar meu público-alvo, para que eu possa vender meu espaço publicitário por preços premium, oferecendo aos meus visitantes anúncios relevantes.
 
-## Como os modelos [!UICONTROL Predictive Audiences] funcionam {#how-predictive-audiences-models-work}
+## Como funcionam os modelos [!UICONTROL Predictive Audiences] {#how-predictive-audiences-models-work}
 
 Ao criar um modelo [!UICONTROL Predictive Audiences], você passa por três etapas:
 
@@ -86,14 +86,14 @@ Ao selecionar o público-alvo, analise seu caso de uso e decida quais tipos de I
 
 Como prática recomendada, recomendamos escolher um [!UICONTROL Profile Merge Rule] que tenha a mesma configuração que seu público-alvo [!UICONTROL Profile Merge Rule], ou que inclua o tipo de perfil (perfil do dispositivo ou perfil autenticado) do seu público-alvo.
 
-### [!UICONTROL Predictive Audiences] Fase de treinamento do modelo  {#model-training}
+### [!UICONTROL Predictive Audiences] Fase de treinamento do modelo {#model-training}
 
 Antes que o algoritmo possa classificar seu público primário nas personas certas, ele precisa treinar seus dados.
 
 Para cada persona definida, o algoritmo analisa seu respectivo público-alvo e avalia qualquer atividade de característica integrada e/ou em tempo real para seus usuários nos últimos 30 dias.
 Essa etapa ocorre uma vez a cada 24 horas, para levar em conta as alterações no público-alvo próprio.
 
-### [!UICONTROL Predictive Audiences] Fase de classificação do modelo  {#model-classification}
+### [!UICONTROL Predictive Audiences] Fase de classificação do modelo {#model-classification}
 
 Para a classificação de público-alvo em tempo real e em lote, o modelo verifica primeiro se um usuário pertence ao público-alvo. Se o usuário se qualificar para o público-alvo e não pertencer a nenhuma das personas, o modelo atribui a ele uma pontuação de qualificação de persona.
 
@@ -122,11 +122,11 @@ Ao configurar seus modelos [!UICONTROL Predictive Audiences], lembre-se das segu
 
 ## [!UICONTROL Data Export Controls] {#dec}
 
-Segmentos preditivos criados por modelos [!UICONTROL Predictive Audiences] herdam os [Controles da exportação de dados](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html) das seguintes fontes de dados primários:
+Segmentos preditivos criados por modelos [!UICONTROL Predictive Audiences] herdam os [Controles da exportação de dados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) das seguintes fontes de dados primários:
 
 1. A fonte de dados primária escolhida ao criar o modelo.
 1. As fontes de dados primárias do público-alvo. Especificamente, os controles de exportação de dados do [!UICONTROL traits] ou [!UICONTROL segments] que compõem seu público-alvo.
-1. O [Data Export Controls](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html) do [!UICONTROL Profile Merge Rule] que você selecionou para o modelo.
+1. O [Data Export Controls](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) do [!UICONTROL Profile Merge Rule] que você selecionou para o modelo.
 
 As [!UICONTROL traits] e [!UICONTROL segments] preditivas recém-criadas terão as mesmas restrições de privacidade que a união das fontes de dados primárias descritas acima.
 
@@ -146,6 +146,6 @@ Selecionar um [!UICONTROL Profile Merge Rule] que usa dados de dispositivo e dad
 
 ## [!UICONTROL Role-Based Access Controls] {#rbac}
 
-As características e os segmentos que você escolhe para personas e classificação de público-alvo estão sujeitos aos Controles de acesso com base em função do Audience Manager [.](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html)
+As características e os segmentos que você escolhe para personas e classificação de público-alvo estão sujeitos aos Controles de acesso com base em função do Audience Manager [.](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html)
 
-Os usuários do Audience Manager só podem selecionar características ou segmentos para personas e públicos-alvo, que têm [permissão para visualizar](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions).
+Os usuários do Audience Manager só podem selecionar características ou segmentos para personas e públicos-alvo, que têm [permissão para visualizar](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions).
