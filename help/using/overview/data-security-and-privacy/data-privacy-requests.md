@@ -8,10 +8,10 @@ title: Solicitações de privacidade de dados
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 feature: Governança e privacidade de dados
 exl-id: a1fc9c21-3417-4899-a585-92ad2cb25362
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1486'
-ht-degree: 65%
+source-wordcount: '1482'
+ht-degree: 64%
 
 ---
 
@@ -44,7 +44,7 @@ Para ver a aparência de um arquivo válido [!DNL JSON], é possível [ baixar u
 
 Compreendemos o seu compromisso de atender às suas solicitações de privacidade de dados dentro do período definido pela legislação.
 
-## Solicitações de exclusão de dados {#delete-data}
+## Solicitações de exclusão de dados  {#delete-data}
 
 Você pode enviar solicitações de exclusão de dados por meio da [interface do usuário do Privacy Service](https://privacyui.cloud.adobe.io) (documentação [aqui](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)) ou chamando a API do Privacy Service (documentação [aqui](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) e [!DNL API] referência [aqui](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)).
 
@@ -97,8 +97,8 @@ A recusa global representa uma opção de não participação em [!DNL Audience 
    <td colname="col1"> <p>Dispositivos móveis </p> </td> 
    <td colname="col2"> <p>Consulte as configurações de recusa e privacidade para: </p> <p> 
      <ul id="ul_78042D6D302F4119A2439BF71F228288"> 
-      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://docs.adobe.com/content/help/pt-BR/mobile-services/android/gdpr-privacy-android/privacy.html" format="https" scope="external"> Dispositivos Android </a> </li> 
-      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://docs.adobe.com/content/help/pt-BR/mobile-services/ios/privacy-gdpr-ios/privacy.html" format="https" scope="external"> Dispositivos iOS </a> </li> 
+      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://experienceleague.adobe.com/docs/mobile-services/android/gdpr-privacy-android/privacy.html" format="https" scope="external"> Dispositivos Android </a> </li> 
+      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://experienceleague.adobe.com/docs/mobile-services/ios/privacy-gdpr-ios/privacy.html" format="https" scope="external"> Dispositivos iOS </a> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -162,7 +162,7 @@ Seguindo uma opção de recusa em nível de parceiro com uma chamada de ID de di
 * Os parceiros de destino recebem a solicitação de cancelamento de segmentos para a ID do dispositivo. O cancelamento de segmentos funciona para destinos [em tempo real](data-privacy-requests.md#aam-partners-with-unsegmentation) e em lote.
 * Nenhum dado histórico é excluído.
 
-## [!DNL Audience Manager] Parceiros com recursos de cancelamento de segmentos  {#aam-partners-with-unsegmentation}
+## [!DNL Audience Manager] Parceiros com recursos de cancelamento de segmentos {#aam-partners-with-unsegmentation}
 
 Para ajudar você a automatizar as solicitações de privacidade de dados do consumidor, [!DNL Audience Manager] tentará notificar os parceiros de ativação sobre solicitações de exclusão dos titulares de dados, enviando a eles informações não segmentadas (ou removendo segmentos).
 
