@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Migração de usuários do Audience Manager para o Admin Console
 feature: Administração
 exl-id: d9069cc1-87fa-47b7-ad0c-d69ee37fc91e
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 3%
@@ -25,8 +25,8 @@ Os benefícios de usar o [!DNL Admin Console] incluem:
 | Benefícios | Descrição |
 |---|---|
 | Logon único em soluções | [!DNL Audience Manager] Os usuários do podem fazer logon no  [!DNL Experience Cloud] e em todas as outras soluções usando o  [!DNL Adobe ID] ou  [!DNL Enterprise ID]. Esse logon permite o acesso a soluções integradas e serviços principais em [!DNL Experience Cloud]. Após a migração, os usuários que tentarem fazer logon por meio de logons antigos (`bank.demdex.com`) serão redirecionados para `experiencecloud.adobe.com`. |
-| Gerenciar usuários e grupos | Quando a migração estiver concluída, [!DNL Audience Manager] os administradores gerenciarão usuários e grupos exclusivamente no [[!DNL Admin Console]](http://adminconsole.adobe.com/enterprise/). |
-| Gerenciar produtos e serviços | No [[!DNL Admin Console]](http://adminconsole.adobe.com/enterprise/), os administradores podem: <ul><li>Criar, atualizar e remover usuários</li><li>Conceder acesso a soluções e serviços</li></ul> |
+| Gerenciar usuários e grupos | Quando a migração estiver concluída, [!DNL Audience Manager] os administradores gerenciarão usuários e grupos exclusivamente no [[!DNL Admin Console]](https://adminconsole.adobe.com/enterprise/). |
+| Gerenciar produtos e serviços | No [[!DNL Admin Console]](https://adminconsole.adobe.com/enterprise/), os administradores podem: <ul><li>Criar, atualizar e remover usuários</li><li>Conceder acesso a soluções e serviços</li></ul> |
 
 Para facilitar a migração de usuários, pedimos a todos os [!DNL Audience Manager] administradores que comecem a migrar suas contas de usuário para [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) o mais rápido possível, seguindo as etapas descritas neste artigo.
 
