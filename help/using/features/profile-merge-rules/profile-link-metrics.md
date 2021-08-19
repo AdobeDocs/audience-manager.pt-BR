@@ -7,9 +7,9 @@ title: Métricas de relatório para regras de mesclagem de perfis
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
 feature: Mesclar perfis
 exl-id: 2af59c60-2448-44af-90d2-eccc52f7ff02
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '829'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 ## Mesclar métricas de regras {#merge-rule-metrics}
 
-Os relatórios retornam dados em gráficos de barras lado a lado quando suas regras de mesclagem usam dados do [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html) ou outros gráficos de dispositivos de terceiros aos quais você pode ter acesso em [!DNL Audience Manager]. Isso permite comparar seus dados autenticados e primários com os dados entre dispositivos fornecidos pelo [!UICONTROL Experience Cloud Device Co-op] ou outro gráfico de dispositivos de terceiros. Para obter informações sobre dados retornados pelo [!UICONTROL Device Co-op], consulte [O Gráfico de dispositivos: Processos internos e saída](https://docs.adobe.com/content/help/en/device-co-op/using/device-graph/device-graph-overview.html). Esses dados são atualizados diariamente.
+Os relatórios retornam dados em gráficos de barras lado a lado quando suas regras de mesclagem usam dados do [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html) ou outros gráficos de dispositivos de terceiros aos quais você pode ter acesso em [!DNL Audience Manager]. Isso permite comparar seus dados autenticados e primários com os dados entre dispositivos fornecidos pelo [!UICONTROL Experience Cloud Device Co-op] ou outro gráfico de dispositivos de terceiros. Para obter informações sobre dados retornados pelo [!UICONTROL Device Co-op], consulte [O Gráfico de dispositivos: Processos internos e saída](https://experienceleague.adobe.com/docs/device-co-op/using/device-graph/device-graph-overview.html). Esses dados são atualizados diariamente.
 
 <table id="table_A7FB2F9804F84AC8A6DD05C0E6EE7555"> 
  <thead> 
@@ -35,7 +35,7 @@ Os relatórios retornam dados em gráficos de barras lado a lado quando suas reg
    <td colname="col2"> <p>Mostra: </p> 
     <ul id="ul_7F7373919A4A49028EF4BF7B28D9F8E9"> 
      <li id="li_FE2F93C496D64ED8928B3E522C9585EA"> <span class="wintitle"> Pessoas</span> ativas: O número de pessoas que autenticaram seu site nos últimos 60 dias. </li> 
-     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> Entre dispositivos</span>: O número total de  <a href="merge-rules-start.md#create-data-source"> </a> IDs entre dispositivos armazenadas na Fonte  <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/manage-datasources.html"> de </a> dados do Perfil  <a href="merge-rule-definitions.md">  </a> Autenticado selecionado durante o tempo de vida em que a fonte de dados existia. </li> 
+     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> Entre dispositivos</span>: O número total de  <a href="merge-rules-start.md#create-data-source"> </a> IDs entre dispositivos armazenadas na Fonte  <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html"> de </a> dados do Perfil  <a href="merge-rule-definitions.md">  </a> Autenticado selecionado durante o tempo de vida em que a fonte de dados existia. </li> 
      <li id="li_F2F07B6A326C4A18B79A0CF2C47D9677"> <span class="wintitle"> % de Pessoas</span> Ativas: Mostra  <span class="wintitle"> Pessoas Ativas </span> como %. </li> 
     </ul> <p> <span class="wintitle"> Atividade </span> autenticada Permite comparar as fontes de dados por atividade, volume e porcentagem. Ele pode ajudá-lo a encontrar uma fonte de dados que tenha muitas pessoas e uma alta porcentagem de usuários ativos. Ou você pode ter valor na comparação das fontes de dados com a alta proporção de usuários ativos em comparação ao tamanho total do público-alvo. Por exemplo, às vezes, uma fonte de dados com números de vida total baixos e alta atividade são mais valiosas do que aquelas com resultados de vida útil alta e números de atividade baixos. </p> <p> <p>Observação: As métricas <span class="wintitle"> Atividade autenticada</span> contêm apenas dados <span class="wintitle"> Link de perfil</span>. Este relatório não inclui dados do <span class="wintitle"> Gráfico de dispositivos</span>. </p> </p> </td> 
   </tr> 
