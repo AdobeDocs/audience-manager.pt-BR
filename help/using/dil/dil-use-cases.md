@@ -7,9 +7,9 @@ title: Casos de uso da DIL e exemplos de código
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
 feature: Implementação de DIL
 exl-id: 001710be-b377-460a-9e29-7268d25a6305
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '920'
 ht-degree: 3%
 
 ---
@@ -243,5 +243,5 @@ Para enviar o tráfego do arquivo `dil.js` no GTM:
 >
 >* [Centro de ajuda do Google Tag Manager](https://support.google.com/tagmanager#topic=3441530)
 >* [Sinais](../dil/dil-instance-methods.md#signals)
-* [Requisitos de prefixo para variáveis-chave](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/traits/trait-variable-prefixes.html#prefix-requirements-for-key-variables)
+* [Requisitos de prefixo para variáveis-chave](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-variable-prefixes.html#prefix-requirements-for-key-variables)
 
