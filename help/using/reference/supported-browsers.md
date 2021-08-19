@@ -7,10 +7,10 @@ title: 'Navegadores compatíveis '
 uuid: dffecdb5-d94d-4001-8f2a-9d1d77ce2213
 feature: 'Referência '
 exl-id: 5fcb1a64-5e45-4973-9e20-7d4d07071cbf
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 100%
+ht-degree: 79%
 
 ---
 
@@ -28,7 +28,7 @@ A Adobe aceita a versão principal mais recente destes navegadores:
 
 * **Google Chrome**
 
-   Obtenha a versão mais recente do Chrome em [https://www.google.com/intl/pt/chrome/](https://www.google.com/intl/pt/chrome/).
+   Obtenha a versão mais recente do Chrome em [https://www.google.com/chrome](https://www.google.com/chrome).
 
 * **Microsoft Edge**
 
@@ -38,10 +38,10 @@ A Adobe aceita a versão principal mais recente destes navegadores:
 
 * **Mozilla Firefox**
 
-   Obtenha a versão mais recente do Firefox em [http://www.mozilla.com/pt-BR/firefox](http://www.mozilla.com/pt-BR/firefox).
+   Obtenha a versão mais recente do Firefox em [https://www.mozilla.com/en-US/firefox](https://www.mozilla.com/en-US/firefox).
 
 * **Safari**
 
-   Obtenha a versão mais recente do Safari em [http://www.apple.com/br/safari/](http://www.apple.com/br/safari/).
+   Obtenha a versão mais recente do Safari em [https://www.apple.com/safari/download](https://www.apple.com/safari/download).
 
 Outros navegadores podem funcionar, mas não têm o suporte das nossas equipes técnicas e de produtos. Se tiver problema para trabalhar com o [!DNL Audience Manager], verifique se você está usando um navegador atualizado e compatível.
