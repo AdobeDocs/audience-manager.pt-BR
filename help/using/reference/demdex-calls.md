@@ -7,10 +7,10 @@ title: Compreender as chamadas ao domínio Demdex
 uuid: c06dae3a-f169-4712-80fb-d6d448dce51a
 feature: 'Referência '
 exl-id: dcd5ed86-4ff1-4f63-9c9f-edf11c229a30
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 15%
+source-wordcount: '361'
+ht-degree: 9%
 
 ---
 
@@ -21,10 +21,10 @@ ht-degree: 15%
 | Elemento de chamada | Descrição |
 |---|---|
 | `demdex.net` | Este é um domínio herdado controlado por [!DNL Adobe]. Ele reflete o nome original de pré-aquisição de [!DNL Audience Manager] ([!DNL Demdex]). [!DNL Adobe] adquirido [!DNL Demdex] em 2011 e reclassificou a empresa como [!DNL Audience Manager]. É difícil alterar esse domínio porque ele está profundamente entrelaçado com [!DNL Audience Manager], [!DNL Adobe Experience Cloud ID Service] e nossa base de usuários instalada. Você pode ver outros prefixos anexados a chamadas `demdex.net` herdadas (por exemplo, `dcs.demdex.net`, `fast.demdex.net`, etc.). Independentemente do prefixo, uma chamada para `something.demdex.net` é sempre uma chamada para [!DNL Adobe] e não para algum domínio desconhecido ou suspeito de terceiros. |
-| `dpm` | [!DNL DPM] é uma abreviação de  [!DNL Data Provider Match]. Informa aos sistemas internos [!DNL Adobe] que uma chamada de [!DNL Audience Manager] ou [!DNL Adobe Experience Cloud ID Service] está transmitindo os dados do cliente para sincronização ou solicitando uma ID. Essa é a chamada `demdex.net` mais comum que você verá em [!DNL Audience Manager] ou [!DNL Adobe Experience Cloud ID Service]. <br><br>[!DNL DPM] noções básicas de chamada: <ul><li>[!DNL Audience Manager]: Uma  [!DNL DPM] chamada de  [!DNL Audience Manager] envia dados para o  [!DNL Data Collection Servers] e o  [!DNL Profile Cache Servers]. Consulte [Componentes da coleta de dados](../reference/system-components/components-data-collection.md).</li><li>[!DNL Adobe Experience Cloud ID Service]: Uma  [!DNL DPM] chamada do  [!DNL Adobe Experience Cloud ID Service] é uma solicitação de uma ID de visitante. Consulte [Cookies e o serviço de identidade da Adobe Experience Platform](https://docs.adobe.com/content/help/pt-BR/id-service/using/intro/cookies.html) e [Como o serviço de identidade da Adobe Experience Platform solicita e define IDs](https://docs.adobe.com/content/help/en/id-service/using/intro/id-request.html).</li></ul><br>Observação:  [!DNL Adobe Experience Cloud ID Service] Os clientes do podem alterar o  [!DNL DPM] prefixo no nome do domínio. Consulte [audienceManager Server e audienceManagerServerSecure](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/subdomain-config.html). |
+| `dpm` | [!DNL DPM] é uma abreviação de  [!DNL Data Provider Match]. Informa aos sistemas internos [!DNL Adobe] que uma chamada de [!DNL Audience Manager] ou [!DNL Adobe Experience Cloud ID Service] está transmitindo os dados do cliente para sincronização ou solicitando uma ID. Essa é a chamada `demdex.net` mais comum que você verá em [!DNL Audience Manager] ou [!DNL Adobe Experience Cloud ID Service]. <br><br>[!DNL DPM] noções básicas de chamada: <ul><li>[!DNL Audience Manager]: Uma  [!DNL DPM] chamada de  [!DNL Audience Manager] envia dados para o  [!DNL Data Collection Servers] e o  [!DNL Profile Cache Servers]. Consulte [Componentes da coleta de dados](../reference/system-components/components-data-collection.md).</li><li>[!DNL Adobe Experience Cloud ID Service]: Uma  [!DNL DPM] chamada do  [!DNL Adobe Experience Cloud ID Service] é uma solicitação de uma ID de visitante. Consulte [Cookies e o serviço de identidade da Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html) e [Como o serviço de identidade da Adobe Experience Platform solicita e define IDs](https://experienceleague.adobe.com/docs/id-service/using/intro/id-request.html).</li></ul><br>Observação:  [!DNL Adobe Experience Cloud ID Service] Os clientes do podem alterar o  [!DNL DPM] prefixo no nome do domínio. Consulte [audienceManager Server e audienceManagerServerSecure](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/subdomain-config.html). |
 
 >[!MORELIKETHIS]
 >
->* [Serviço de identidade da Adobe Experience Platform](https://docs.adobe.com/content/help/en/id-service/using/home.html)
->* [Cookies do Audience Manager](https://docs.adobe.com/content/help/pt-BR/core-services/interface/ec-cookies/cookies-am.html)
+>* [Serviço de identidade da Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/home.html)
+>* [Cookies do Audience Manager](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html)
 
