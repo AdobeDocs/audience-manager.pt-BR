@@ -7,9 +7,9 @@ title: Códigos de erros, mensagens e exemplos de DCS
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 exl-id: 485e5ce2-143e-4d18-b157-c243c5a510ad
-source-git-commit: 38c4c46709491656071f4a958e9f0de26d42dd74
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1545'
 ht-degree: 4%
 
 ---
@@ -26,7 +26,7 @@ Nas tabelas abaixo, *itálico* representa um espaço reservado de variável.
 |---|---|---|
 | 0 | Erro não especificado | Este é um erro genérico que trata eventos não cobertos pelos outros manipuladores de erro. A solução de problemas desse erro é difícil. Isso pode ser causado por uma variedade de ações ou eventos desconhecidos. Se receber esse erro, tente sua solicitação [!DNL DCS] novamente. Entre em contato com seu representante [!DNL Adobe] se o problema persistir. |
 | 1 | Não foi possível localizar a configuração para o nome de host: `hostname` | O nome do host enviado na solicitação não foi configurado pela equipe de provisionamento do parceiro. Entre em contato com seu representante [!DNL Adobe] se esta mensagem de erro for exibida. |
-| 2 | Valor `d_orgid` inválido (não foi possível localizar uma configuração para esta ID de organização): `ID` | A ID da organização está incorreta. Verifique sua ID e tente a solicitação novamente. Se você não souber ou não possuir a ID da organização, consulte a seção &quot;Página do administrador&quot; [Organizações e vinculação de contas](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html) para obter informações sobre como encontrá-la. |
+| 2 | Valor `d_orgid` inválido (não foi possível localizar uma configuração para esta ID de organização): `ID` | A ID da organização está incorreta. Verifique sua ID e tente a solicitação novamente. Se você não souber ou não possuir a ID da organização, consulte a seção &quot;Página do administrador&quot; [Organizações e vinculação de contas](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html) para obter informações sobre como encontrá-la. |
 | 10 | Não é possível avaliar características | As características da solicitação foram parcialmente avaliadas ou não foram avaliadas. Entre em contato com seu representante [!DNL Adobe] se o problema persistir. |
 
 ## Códigos de erro de integração {#integration-error-codes}
@@ -40,7 +40,7 @@ Nas tabelas abaixo, *itálico* representa um espaço reservado de variável.
 | 109 | O referenciador `HTTP referer` não é permitido para o parceiro `Partner ID` | O cabeçalho `HTTP referer` na chamada não é permitido para a ID do parceiro na chamada. Verifique se o cabeçalho `HTTP referer` está correto. |
 | 111 | Token `IMS` inválido recebido | Retornado para [!DNL Audience Manager] - [!DNL Adobe Target] integrações. O erro é lançado quando uma chamada é feita para o [!DNL DCS], contendo um token [!DNL IMS] inválido. O token pode estar malformado, expirado ou o usuário pode não estar autorizado a acessar o recurso desejado. |
 
-## Códigos de erro de rejeição {#opt-out-error-codes}
+## Códigos de erro de não participação {#opt-out-error-codes}
 
 <table id="table_A50C284AB84F48A79B01223D991884A2"> 
  <thead> 
@@ -86,7 +86,7 @@ Nas tabelas abaixo, *itálico* representa um espaço reservado de variável.
  </tbody> 
 </table>
 
-## Códigos de erro de recuperação de perfil {#profile-retrieval-error-codes}
+## Códigos de erro da recuperação de perfis {#profile-retrieval-error-codes}
 
 <table id="table_CFF2252A3CC54960802905454A867D7A"> 
  <thead> 
