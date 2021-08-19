@@ -8,14 +8,14 @@ title: Perguntas frequentes sobre Regras de mesclagem de perfis e Gráfico de di
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
 feature: Mesclar perfis
 exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1550'
 ht-degree: 86%
 
 ---
 
-# Perguntas frequentes sobre Regras de mesclagem de perfis e Gráfico de dispositivos {#profile-merge-rules-and-device-graph-faq}
+# Perguntas frequentes sobre Regras de mesclagem de perfis e Gráfico de dispositivos{#profile-merge-rules-and-device-graph-faq}
 
 Respostas a perguntas comuns sobre a Regra de mesclagem de perfis e Gráfico de dispositivos.
 
@@ -112,7 +112,7 @@ Sim.
 
 **As estimativas de tamanho de segmento incluem dispositivos que se qualificam para um segmento com base nas conexões fornecidas por uma [!UICONTROL Profile Merge Rule] que usa uma opção de gráfico de dispositivos?**
 
-Não. Consulte as definições para a [!UICONTROL Estimated Real-Time Population] e [!UICONTROL Estimated Total Population] em [Dados de população de características e segmentos](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/features/segments/segment-builder-data.html).
+Não. Consulte as definições para a [!UICONTROL Estimated Real-Time Population] e [!UICONTROL Estimated Total Population] em [Dados de população de características e segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html).
 
  
 
