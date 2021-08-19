@@ -8,10 +8,10 @@ title: IDs declaradas
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 feature: Sincronizações de ID
 exl-id: a480671a-797d-405d-905d-98ab4ef71369
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1191'
-ht-degree: 10%
+source-wordcount: '1183'
+ht-degree: 9%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 10%
 
 Como [!UICONTROL declared IDs] funciona, configure procedimentos, exemplos de código e variáveis.
 
-## [!UICONTROL Declared ID] Direcionamento {#declared-id-targeting}
+## [!UICONTROL Declared ID] Definição de meta {#declared-id-targeting}
 
 Troque e sincronize as IDs de usuário com [!DNL Audience Manager] de dispositivos ou navegadores que não usam ou aceitam mecanismos de armazenamento persistentes, como [!DNL cookies] de terceiros.
 
-## Finalidade de [!UICONTROL Declared ID] Direcionamento {#declared-id-targeting-purpose}
+## Finalidade da segmentação [!UICONTROL Declared ID] {#declared-id-targeting-purpose}
 
 Alguns navegadores e a maioria dos dispositivos móveis não aceitam [!DNL cookies] de terceiros. Isso dificulta a retenção de informações sobre visitantes do site ou a atribuição de IDs persistentes. Para resolver esse problema, [!DNL Audience Manager] usa [!UICONTROL DIL] para permitir que você passe [!UICONTROL declared IDs] em uma chamada de evento. Além disso, um [!UICONTROL declared ID] pode agir como uma ID universal que se aplica ao mesmo usuário em todas as soluções no [!DNL Experience Cloud]. A tabela a seguir descreve o processo de direcionamento/correspondência da ID:
 
@@ -37,7 +37,7 @@ Alguns navegadores e a maioria dos dispositivos móveis não aceitam [!DNL cooki
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Chamada de evento</b> </td> 
-   <td colname="col2"> <p>Para funcionar, você precisa do <span class="wintitle"> DIL </span> e do código <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external"> do Adobe Experience Platform Identity Service </a> na página. <span class="wintitle"> O DIL  </span> obtém IDs  <span class="wintitle"> declaradas  </span> da  <code> setVisitorID </code> função fornecida pelo serviço de identidade da  <span class="keyword"> Adobe Experience Platform  </span> e as transmite para o  <span class="keyword"> Audience Manager  </span>. </p> </td> 
+   <td colname="col2"> <p>Para funcionar, você precisa do <span class="wintitle"> DIL </span> e do código <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html" format="https" scope="external"> do Adobe Experience Platform Identity Service </a> na página. <span class="wintitle"> O DIL  </span> obtém IDs  <span class="wintitle"> declaradas  </span> da  <code> setVisitorID </code> função fornecida pelo serviço de identidade da  <span class="keyword"> Adobe Experience Platform  </span> e as transmite para o  <span class="keyword"> Audience Manager  </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>ID da correspondência</b> </td> 
@@ -56,7 +56,7 @@ Alguns navegadores e a maioria dos dispositivos móveis não aceitam [!DNL cooki
 
 Para começar, você precisa configurar o serviço de ID [!DNL Experience Cloud] e [!UICONTROL DIL] nas páginas do site que deseja usar para a coleta de dados. Consulte [DIL create](../dil/dil-class-overview/dil-create.md#dil-create) e [Variáveis de ID declaradas](../features/declared-ids.md#declared-id-variables).
 
-## Chamadas de rejeição {#opt-out-calls}
+## Chamadas de cancelamento {#opt-out-calls}
 
 O processo [!UICONTROL declared ID] respeita as preferências do visitante do site para recusar o [!DNL Audience Manager] direcionamento por seu site. Quando [!DNL Audience Manager] recebe uma solicitação de recusa, o [!DNL JSON] retornado pelo [!DNL DCS] contém o código de erro 171, com a mensagem `Encountered opt out tag`, em vez da [!DNL Audience Manager] ID do usuário.
 
@@ -65,7 +65,7 @@ O processo [!UICONTROL declared ID] respeita as preferências do visitante do si
 
 Consulte [Privacidade de dados](../overview/data-security-and-privacy/data-privacy.md) para obter mais informações sobre a recusa da coleta de dados.
 
-## [!UICONTROL Declared ID] Exemplos de rejeição  {#opt-out-examples}
+## [!UICONTROL Declared ID] Exemplos de rejeição {#opt-out-examples}
 
 Você pode fazer solicitações de recusa [!UICONTROL declared ID] com os pares de valores chave `d_cid` e `d_cid_ic` . Os parâmetros herdados como `d_dpid` e `d_dpuuid` ainda funcionam, mas são considerados obsoletos. Consulte [CID substitui DPID e DPUUID](../reference/cid.md). Nos exemplos, *itálico* indica um espaço reservado para variável.
 
@@ -151,7 +151,7 @@ Em cada par de valor-chave:
  </tbody> 
 </table>
 
-## Chamadas de evento de exemplo {#sample-event-calls}
+## Exemplos de chamadas de evento {#sample-event-calls}
 
 Considerando esses pares de valores chave e sua sintaxe necessária, você faria chamadas de evento como mostrado abaixo.
 
@@ -184,7 +184,7 @@ Descreve as variáveis de configuração usadas para passar [!UICONTROL declared
 
 ## [!UICONTROL DIL] O usa o  [!DNL Adobe Experience Platform Identity Service] para enviar  [!UICONTROL Declared IDs] {#dil-id-service-pass-declared-ids}
 
-Quando usado com o [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html), não é mais necessário transmitir [!UICONTROL declared IDs] com as variáveis `dpid` e `dpuuid` obsoletas. Em vez disso, as versões atuais de [!UICONTROL DIL] dependem da função `visitorService` para obter [!UICONTROL declared IDs] da função `setCustomerIDs` no [!UICONTROL Adobe Experience Platform Identity Service]. Para obter mais informações, consulte [IDs do cliente e Estados de autenticação](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). Você chamaria `visitorService` em `DIL.create` conforme mostrado abaixo.
+Quando usado com o [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html), não é mais necessário transmitir [!UICONTROL declared IDs] com as variáveis `dpid` e `dpuuid` obsoletas. Em vez disso, as versões atuais de [!UICONTROL DIL] dependem da função `visitorService` para obter [!UICONTROL declared IDs] da função `setCustomerIDs` no [!UICONTROL Adobe Experience Platform Identity Service]. Para obter mais informações, consulte [IDs do cliente e Estados de autenticação](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html). Você chamaria `visitorService` em `DIL.create` conforme mostrado abaixo.
 
 ```js
 var vDil = DIL.create({
@@ -195,7 +195,7 @@ var vDil = DIL.create({
 });
 ```
 
-No par de valores chave `namespace`, `MCORG` é a [!DNL Experience Cloud] ID da organização. Se não tiver essa ID, você poderá encontrá-la na seção [!UICONTROL Administration] do painel [!DNL Experience Cloud]. Você precisa de permissões de administrador para exibir este painel. Consulte [Administração: Principais serviços](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html).
+No par de valores chave `namespace`, `MCORG` é a [!DNL Experience Cloud] ID da organização. Se não tiver essa ID, você poderá encontrá-la na seção [!UICONTROL Administration] do painel [!DNL Experience Cloud]. Você precisa de permissões de administrador para exibir este painel. Consulte [Administração: Principais serviços](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html).
 
 ## Funções obsoletas {#deprecated-functions}
 
