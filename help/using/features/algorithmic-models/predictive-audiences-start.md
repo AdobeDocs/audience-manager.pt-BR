@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Introdução aos públicos preditivos
 feature: Modelos algorítmicos
 exl-id: beb314de-f679-4397-8e14-2dd6576243fd
-source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '572'
 ht-degree: 7%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 7%
 
 ## Criar um modelo de Predictive Audiences {#create-predictive-audiences}
 
-Antes de criar um modelo [!UICONTROL Predictive Audiences], é necessário decidir a fonte de dados primária à qual deseja atribuir suas características e segmentos [!UICONTROL Predictive Audiences]. Você pode usar uma fonte de dados primária existente ou criar uma nova. Consulte [Gerenciar fontes de dados](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/manage-datasources.html) para obter detalhes sobre como criar uma nova fonte de dados primária.
+Antes de criar um modelo [!UICONTROL Predictive Audiences], é necessário decidir a fonte de dados primária à qual deseja atribuir suas características e segmentos [!UICONTROL Predictive Audiences]. Você pode usar uma fonte de dados primária existente ou criar uma nova. Consulte [Gerenciar fontes de dados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html) para obter detalhes sobre como criar uma nova fonte de dados primária.
 
 Depois de saber qual fonte de dados você usará, siga as etapas abaixo.
 
@@ -59,6 +59,6 @@ O Audience Manager não suporta a edição de modelos [!UICONTROL Predictive Aud
 
 5. Quando terminar de editar um modelo, clique em **[!UICONTROL Save]**.
 
-## Excluir públicos preditivos {#delete-predictive-audiences}
+## Exclusão de públicos preditivos {#delete-predictive-audiences}
 
 Para excluir um modelo [!UICONTROL Predictive Audiences], vá para **[!UICONTROL Audience Data]** > **[!UICONTROL Models]**, localize o modelo que deseja excluir e clique no ícone **[!UICONTROL Delete]**.
