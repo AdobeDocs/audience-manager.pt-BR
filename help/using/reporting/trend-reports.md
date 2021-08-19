@@ -7,9 +7,9 @@ title: Relatórios de tendências
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
 feature: Relatórios gerais e de tendências
 exl-id: 3373f413-cc8f-49c7-9b4e-34b39e0efc38
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '651'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ A ilustração a seguir fornece uma visão geral de alto nível de elementos-cha
 1. Na lista de pastas, arraste e solte as características ou segmentos que deseja relatar no painel [!UICONTROL Selections] no lado direito.
 1. Gere o relatório para exibir os dados em formato gráfico ou exporte-o para o formato CSV.
 
-## Executar um Relatório de Tendência {#run-trend-report}
+## Executar um relatório de tendência {#run-trend-report}
 
 Este procedimento descreve como executar um relatório [!UICONTROL Trend].
 
@@ -79,7 +79,7 @@ t_working_with_trend_reports.xml
 
 1. (Opcional) Passe o mouse sobre características ou segmentos individuais para exibir o número de visitas e a data de cada ponto de dados. Você pode clicar nos cabeçalhos da coluna na tabela para classificar os resultados em ordem crescente ou decrescente.
 
-## Resultados de relatório de tendência para características {#trend-report-results-traits}
+## Resultados de relatório de tendências para características {#trend-report-results-traits}
 
 Os filtros abaixo estão disponíveis quando você executa um [!UICONTROL Trend Report] e seleciona **[!UICONTROL Trait]** como o tipo de relatório.
 
@@ -101,9 +101,9 @@ Zeroes indicam que [!DNL Audience Manager] não coletou dados do dia. As entrada
 
 Assista ao vídeo abaixo para obter uma análise detalhada de como as métricas entre dispositivos funcionam.
 
->[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
+>[!VIDEO](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
-## Resultados de relatório de tendência para segmentos {#segment-report-results-traits}
+## Resultados de relatório de tendências para segmentos {#segment-report-results-traits}
 
 Os filtros abaixo estão disponíveis quando você executa um [!UICONTROL Trend Report] e seleciona **[!UICONTROL Segments]** como o tipo de relatório.
 
