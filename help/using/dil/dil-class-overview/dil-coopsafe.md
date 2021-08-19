@@ -7,10 +7,10 @@ title: isCoopSafe
 uuid: c5362a38-93c0-4edb-bdcb-106e43f33a92
 feature: Implementação de DIL
 exl-id: 33dca495-6923-4966-9ec3-8b0fd2f17649
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 77%
+source-wordcount: '540'
+ht-degree: 76%
 
 ---
 
@@ -23,7 +23,7 @@ Uma configuração booleana opcional que determina se DIL envia (ou não) dados 
 Para usar `isCoopSafe` você deve:
 
 * Use [!UICONTROL DIL] v6.11 ou superior.
-* Participar do [Experience Cloud Device Co-op](https://docs.adobe.com/content/help/pt-BR/device-co-op/using/home.html). Os membros em potencial também devem consultar essa documentação para determinar se `isCoopSafe` responde possíveis dúvidas sobre como os dados são usados para criar o gráfico do dispositivo.
+* Participar do [Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html). Os membros em potencial também devem consultar essa documentação para determinar se `isCoopSafe` responde possíveis dúvidas sobre como os dados são usados para criar o gráfico do dispositivo.
 
 * Trabalhe com seu consultor [!DNL Adobe] para definir um sinalizador de  de lista de permissões ou lista de bloqueios na conta do Device Co-op. Não há um caminho de autoatendimento para habilitar esses sinalizadores.
 
@@ -103,7 +103,7 @@ Os parâmetros de POST informam o [!DNL Experience Cloud] Device Co-op se é pos
  </tbody> 
 </table>
 
-## APIs pós-instanciamento  {#post-instantiation}
+## APIs pós-instanciamento {#post-instantiation}
 
 Essas APIs permitem que você substitua o status de `isCoopSafe`. Elas são necessárias, pois permitem que você altere um status de pós-instanciamento/pós-login de um visitante em um site ou em um aplicativo de página simples no qual a página não é atualizada. Por exemplo, é necessário chamar essas APIs se um usuário se autentica no seu site ou aplicativo e, posteriormente, aceita uma política de termos de uso que permite ao Device Co-op usar seus dados.
 
