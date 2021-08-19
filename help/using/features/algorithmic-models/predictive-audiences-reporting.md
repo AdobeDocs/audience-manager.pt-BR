@@ -6,16 +6,16 @@ solution: Audience Manager
 title: Relatórios dos públicos preditivos
 feature: Modelos algorítmicos
 exl-id: 43a4272c-d9be-47f6-9b81-15472b0366ab
-source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '629'
 ht-degree: 6%
 
 ---
 
 # Relatórios dos públicos preditivos
 
-Depois de salvar um modelo [!UICONTROL Predictive Audiences], o Audience Manager inicia o treinamento. Dentro de algumas horas, o modelo calculado começará a analisar públicos-alvo nos [Servidores de coleta de dados](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs). Os relatórios estarão disponíveis no dia seguinte.
+Depois de salvar um modelo [!UICONTROL Predictive Audiences], o Audience Manager inicia o treinamento. Dentro de algumas horas, o modelo calculado começará a analisar públicos-alvo nos [Servidores de coleta de dados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs). Os relatórios estarão disponíveis no dia seguinte.
 
 Para ver os resultados da sua classificação [!UICONTROL Predictive Audiences], vá para **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** e clique no modelo na lista.
 
@@ -35,7 +35,7 @@ A tabela de modelos mostra as seguintes informações:
    * **[!UICONTROL Warning]**: o modelo não conseguiu produzir resultados, devido a dados insuficientes (ou seja, baixa população de linhas de base, os perfis de usuário não são ricos);
    * **[!UICONTROL Error]**: falha ao executar o modelo. Você deve entrar em contato com o representante do Adobe.
 
-## Relatório de Visão Geral do Modelo{#model-report}
+## Relatório de Visão geral do modelo{#model-report}
 
 Depois de escolher um modelo, a página de relatórios será carregada. Na parte superior da página, você pode ver os 5 maiores segmentos preditivos, com base em 1 dia de realização em tempo real, pelos quais o modelo classificou seu público alvo. A categoria **[!UICONTROL Other]** inclui o restante das personas, que não foram incluídas nos 5 maiores segmentos preditivos.
 
