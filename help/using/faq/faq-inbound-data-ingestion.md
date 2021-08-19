@@ -8,14 +8,14 @@ title: Perguntas frequentes sobre assimilação de dados de entrada do cliente
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 feature: Integração de dados offline
 exl-id: 48eef5f1-0655-4dac-9ab4-74b11c705c13
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 91%
+source-wordcount: '1360'
+ht-degree: 89%
 
 ---
 
-# Perguntas frequentes sobre assimilação de dados de entrada do cliente {#inbound-customer-data-ingestion-faq}
+# Perguntas frequentes sobre assimilação de dados de entrada do cliente{#inbound-customer-data-ingestion-faq}
 
 Perguntas frequentes sobre como trazer dados offline para o Audience Manager.
 
@@ -60,8 +60,8 @@ Consulte [Compactação de arquivos de transferência de dados de entrada](../in
 
 Sim. Desde que você use um [!UICONTROL cross-device data source] para armazenar os dados do CRM que você carrega, o Audience Manager sempre armazena os dados. Na verdade, após os aprimoramentos [!UICONTROL Profile Merge Rules] lançados pelo Audience Manager em outubro de 2019 que permitem casos de uso somente offline, você pode fazer upload e executar ações em dados sem implantar o código Audience Manager na produção. Consulte:
 
-* [Visão geral das melhorias nas Regras de mesclagem de perfis](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* [!UICONTROL People-based Destinations] -  [Personalização com base em dados somente offline](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* [Visão geral das melhorias nas Regras de mesclagem de perfis](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
+* [!UICONTROL People-based Destinations] -  [Personalização com base em dados somente offline](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br> 
 
