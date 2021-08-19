@@ -8,9 +8,9 @@ title: Estados de autenticação de visitante no Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 feature: 'Referência '
 exl-id: 55aec28d-02f6-4e6d-9be1-4ce40deb8dc3
-source-git-commit: c3c829ef1335d1e073b719f8252103fa578bb4e6
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '387'
 ht-degree: 7%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 O status de autenticação do visitante no Audience Manager determina se as novas informações de característica são gravadas no perfil autenticado do visitante ou no perfil do dispositivo, onde os dados foram coletados. O Audience Manager lida com os status de autenticação da ID de visitante UNKNOWN e LOGGED_OUT em chamadas de evento da mesma maneira.
 
-A partir de [!DNL Experience Cloud] serviço de ID v1.5+, o método `setCustomerID` inclui o objeto `AuthState` opcional. `AuthState` O identifica visitantes de acordo com seu status  [de autenticação](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] O lida com as características realizadas de forma diferente, dependendo do status de autenticação passado na chamada e da Regra de mesclagem de  [perfis ](../features/profile-merge-rules/merge-rules-dashboard.md) usada para segmentação.
+A partir de [!DNL Experience Cloud] serviço de ID v1.5+, o método `setCustomerID` inclui o objeto `AuthState` opcional. `AuthState` O identifica visitantes de acordo com seu status  [de autenticação](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] O lida com as características realizadas de forma diferente, dependendo do status de autenticação passado na chamada e da Regra de mesclagem de  [perfis ](../features/profile-merge-rules/merge-rules-dashboard.md) usada para segmentação.
 
 ## Status de autenticação: DESCONHECIDO {#auth-status-unknown}
 
@@ -57,5 +57,5 @@ Exemplo de chamada (o valor da solicitação correspondente ao status de autenti
 
 >[!MORELIKETHIS]
 >
->* [Estados de autenticação e IDs do cliente](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)
+>* [Estados de autenticação e IDs do cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)
 
