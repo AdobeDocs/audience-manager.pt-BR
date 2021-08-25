@@ -1,15 +1,15 @@
 ---
 description: Esta página inclui apenas integrações atuais de servidor para servidor. Para obter mais informações sobre uma integração, consulte a listagem de Adobe Exchange (quando disponível) ou entre em contato com seu consultor de Adobe ou com o Atendimento ao cliente.
-seo-description: Esta página inclui apenas integrações atuais de servidor para servidor. Para obter mais informações sobre uma integração, consulte a listagem de Adobe Exchange (quando disponível) ou entre em contato com seu consultor de Adobe ou com o Atendimento ao cliente.
-seo-title: Parceiros de tecnologia Adobe Audience Manager
+seo-description: This page includes current server-to-server integrations only. For more information on an integration refer to its Adobe Exchange listing (where available) or contact your Adobe Consultant or Customer Care.
+seo-title: Adobe Audience Manager Technology Partners
 keywords: ativação; parceiros de ativação, destino, destinos
 solution: Audience Manager
 title: Parceiros de tecnologia Adobe Audience Manager
-feature: Integração de terceiros
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+feature: Third-party Integration
+source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 59%
+source-wordcount: '1149'
+ht-degree: 61%
 
 ---
 
@@ -157,7 +157,7 @@ Esta página inclui apenas Audience Manager [integrações de servidor para serv
 | TubeMogul | 03/03/2017 | Sim | Não | Sim | Não |
 | Turn / Amobile | 03/03/2027 | Não | Não | Não | Sim |
 | Twenga | 10/29/2018 | Sim | Não | Não | Não |
-| Públicos-alvo personalizados da twitter | 02/27/2017 | Sim | Não | Sim | Não |
+| Públicos-alvo personalizados do twitter | 02/27/2017 | Sim | Não | Sim | Não |
 | Sublinhado | 07/11/2017 | Não | Não | Não | Não |
 | Verve | 06/15/2017 | Sim | Não | Não | Sim |
 | VideoAmp | 03/03/2017 | Não | Não | Não | Não |
