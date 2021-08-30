@@ -1,15 +1,15 @@
 ---
 description: O Audience Analytics permite enviar segmentos do Audience Manager para o Analytics. Para usar esse recurso, crie um destino do Analytics e mapeie os segmentos a ele no Audience Manager.
-seo-description: O Audience Analytics permite enviar segmentos do Audience Manager para o Analytics. Para usar esse recurso, crie um destino do Analytics e mapeie os segmentos a ele no Audience Manager.
-seo-title: Configurar um destino do Analytics
+seo-description: Audience Analytics lets you send Audience Manager segments to Analytics. To use this feature, you create an Analytics destination and map segments to it in Audience Manager.
+seo-title: Configure an Analytics Destination
 solution: Audience Manager
 title: Configurar um destino do Analytics
-feature: Integração do Adobe Analytics
+feature: Adobe Analytics Integration
 exl-id: f3ead057-04d1-40cd-8e3d-d0934d85cdb4
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 089a41b0176f2453e4f301c877dd6b020f726562
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 9%
+source-wordcount: '807'
+ht-degree: 5%
 
 ---
 
@@ -24,7 +24,7 @@ Para obter mais requisitos, consulte Pré-requisitos em [Audience Analytics](htt
 
 | Tipo de destino do Analytics | Descrição |
 |---|---|
-| Padrão | O nome desse destino padrão é &quot;Adobe Analytics&quot;, que pode ser editado. As IDs de conjunto de relatórios mapeadas aparecem no armazenamento de pastas para suas características e segmentos do Audience Manager. <br>  O Audience Manager cria um destino automaticamente se sua conta tiver:  <br>  <ul><li>Satisfaz os requisitos descritos na documentação [Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html).</li><li>Um [conjunto de relatórios](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html) no Analytics.</li><li>[Mapeado um conjunto de relatórios para uma organização](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html).</li></ul> |
+| Padrão | O nome desse destino padrão é &quot;Adobe Analytics&quot;, que pode ser editado. As IDs de conjunto de relatórios mapeadas aparecem no armazenamento de pastas para suas características e segmentos do Audience Manager. <br>  O Audience Manager cria um destino automaticamente se sua conta tiver:  <br>  <ul><li>Satisfaz os requisitos descritos na documentação [Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html).</li><li>Um [conjunto de relatórios](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html) no Analytics.</li></ul> |
 | Novo | Para criar novos destinos do Analytics, vá para Dados de público-alvo > Destinos > Criar novo destino e siga as etapas para cada seção descrita abaixo. |
 
 ## Etapa 1: Fornecer informações básicas
