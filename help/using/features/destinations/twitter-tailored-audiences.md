@@ -6,16 +6,16 @@ solution: Audience Manager
 title: Configurar públicos-alvo personalizados do Twitter como um destino baseado em dispositivo de autoatendimento
 feature: People-based Destinations
 exl-id: 13b36469-3f61-47b1-9355-ca329de1fb24
-source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
+source-git-commit: 8023bfe1e4ea415867e1233f143627ff179cce42
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '531'
 ht-degree: 1%
 
 ---
 
 # Configure [!DNL Twitter Custom Audiences] como um destino baseado em dispositivo de autoatendimento {#configure-twitter}
 
-Este artigo explica como configurar uma integração com [Twitter Custom Audiences](https://business.twitter.com/en/targeting/tailored-audiences.html).
+Este artigo explica como configurar uma integração com [Twitter Custom Audiences](https://business.twitter.com/en/help/campaign-setup/campaign-targeting/custom-audiences.html).
 
 ## Pré-requisitos {#prerequisites}
 
@@ -35,7 +35,10 @@ Antes de adicionar o destino baseado em dispositivo, é necessário vincular o A
 
 1. Faça logon na sua conta do Audience Manager e vá para **[!DNL Administration > Integrated Accounts]**. Se você tiver uma integração configurada anteriormente com uma plataforma de destino, ela deverá ser exibida nesta página. Caso contrário, a página ficará vazia.
 1. Clique em **[!DNL Add Account]**.
-1. Selecione [!DNL Twitter Custom Audiences] e clique em **[!DNL Confirm]** para ser redirecionado para a página de autenticação.                     ![plataformas integradas](assets/dbd-integrated-platforms.png)
+1. Selecione [!DNL Twitter Custom Audiences] e clique em **[!DNL Confirm]** para ser redirecionado para a página de autenticação.
+
+   ![plataformas integradas](assets/dbd-integrated-platforms.png)
+
 1. Depois de autenticar, você será redirecionado para o Audience Manager, onde deverá ver suas contas de anunciante associadas. Selecione a conta do anunciante que deseja usar e clique em **[!DNL Confirm]**.
 
 ### Etapa 2: Criar um novo destino com base em dispositivo {#step2-create-new-destination}
