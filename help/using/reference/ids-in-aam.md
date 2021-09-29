@@ -1,16 +1,16 @@
 ---
 description: Consulte este documento para obter a lista completa de Adobe Audience Manager IDs.
 keywords: DPID; DPUUID; CID; UUID; uuid; uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid
-seo-description: Consulte este documento para obter a lista completa de Adobe Audience Manager IDs.
-seo-title: Índice de IDs no Audience Manager
+seo-description: Refer to this document for the complete list of Adobe Audience Manager IDs.
+seo-title: Index of IDs in Audience Manager
 solution: Audience Manager
 title: Índice de IDs no Audience Manager
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
-feature: 'Referência '
+feature: Reference
 exl-id: 1caf3c6a-ebfd-49f1-9ebd-d4604474c070
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: e408c118870fb331c40758be8a7e6b38690aeb5f
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '994'
 ht-degree: 5%
 
 ---
@@ -57,3 +57,5 @@ As IDs globais de dispositivos são IDs de publicidade de dispositivos, exclusiv
 | [!DNL MAID] | 389146 | [!DNL Microsoft Advertising ID]s são identificadores de dispositivos gerados pelo  [!DNL Windows 10] em uma base por dispositivo e por usuário. | [!DNL MAID]s são formatadas como strings alfanuméricas. |
 | [!DNL TIFA] | 963906 | [!DNL Samsung Tizen IDs for Advertising] são identificadores de dispositivos fornecidos por TVs  [!DNL Samsung] inteligentes. | [!DNL Samsung] [!DNL TIFA] As IDs são formatadas como strings alfanuméricas. |
 | [!DNL Amazon Fire TV Advertising ID] | 488258 | Identificadores de dispositivo que representam dispositivos que executam o sistema operacional [!DNL Fire OS]. | O formato consiste estritamente em 32 dígitos hexadecimais minúsculos, exibidos em cinco grupos e separados por hífens, no formato 8-4-4-4-12, para um total de 36 caracteres. <br>Exemplo: `df07c7dc-cea7-4a89-b328-810ff5acb15d` |
+| [!DNL LGUDID] | 1171485 | Identificadores de dispositivo que representam dispositivos que executam o sistema operacional [!DNL LG webOS]. | O formato consiste estritamente em 32 dígitos hexadecimais minúsculos, exibidos em cinco grupos e separados por hífens, no formato 8-4-4-4-12, para um total de 36 caracteres. <br>Exemplo: `095f142a-ace8-ac5d-b86a-92c8be18b197` |
+| [!DNL Vizio IFA] | 1171489 | Identificadores de dispositivo que representam dispositivos que executam o sistema operacional Vizio Smart TV. | [!DNL Vizio IFA] As IDs são formatadas como strings alfanuméricas. <br>Exemplo: `7XCBNROQJQPYW`. |
