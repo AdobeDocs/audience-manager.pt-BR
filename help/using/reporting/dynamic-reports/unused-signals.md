@@ -1,15 +1,15 @@
 ---
 description: Este relatório retorna uma contagem de frequência de todas as informações não utilizadas coletadas no inventário e enviadas para o Audience Manager.
-seo-description: Este relatório retorna uma contagem de frequência de todas as informações não utilizadas coletadas no inventário e enviadas para o Audience Manager.
-seo-title: Relatório de sinais não usados
+seo-description: This report returns a frequency count of all the unused information collected on your inventory and sent to Audience Manager.
+seo-title: Unused Signals Report
 solution: Audience Manager
 title: Relatório de sinais não usados
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
-feature: Relatórios de sobreposição
+feature: Overlap Reports
 exl-id: ab5cb5ad-4305-4463-8f56-237b5a2f1f9e
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 8fd148df6c19a5d8331faf66c671f91686954a77
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '599'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ Este relatório retorna uma contagem de frequência de todas as informações n�
 
 Um sinal é a informação do seu site transmitida para [!DNL Audience Manager] na forma de [pares de valores chave](../../reference/key-value-pairs-explained.md) (por exemplo, `color=blue, price>100, gender=female`, etc.).
 
-Os sinais não usados consistem em dados coletados, mas não mapeados para uma característica. O relatório [!UICONTROL Unused Signals] mostra os dados em uma tabela por data, chave, valor e contagem de frequência. Qualquer sinal não mapeado transmitido para [!DNL Audience Manager] pelo menos 100 vezes em um dia se qualifica para o relatório [!UICONTROL Unused Signals].
+Os sinais não usados consistem em dados coletados, mas não mapeados para uma característica. O relatório [!UICONTROL Unused Signals] mostra os dados em uma tabela por data, chave, valor e contagem de frequência. Qualquer sinal não mapeado transmitido para [!DNL Audience Manager] pelo menos 100 vezes em um dia se qualifica para o relatório [!UICONTROL Unused Signals]. Os sinais não utilizados são guardados durante 45 dias e depois eliminados.
 
 Revise este relatório para ajudar a identificar sinais órfãos que podem ser mapeados para características novas ou existentes.
 
