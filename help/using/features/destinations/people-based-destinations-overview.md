@@ -1,14 +1,14 @@
 ---
 description: 'Use destinos com base em pessoas para enviar segmentos de público-alvo primários para ambientes com base em pessoas. Esses ambientes são ecossistemas fechados pertencentes a uma entidade que controla o conteúdo que está sendo exibido dentro dele. Eles incluem plataformas sociais, como Facebook, e outras plataformas que dependem de contas de clientes para personalizar o conteúdo exibido. '
-seo-description: 'Use destinos com base em pessoas para enviar segmentos de público-alvo primários para ambientes com base em pessoas. Esses ambientes são ecossistemas fechados pertencentes a uma entidade que controla o conteúdo que está sendo exibido dentro dele. Eles incluem plataformas sociais, como Facebook, e outras plataformas que dependem de contas de clientes para personalizar o conteúdo exibido.  '
-seo-title: Visão geral dos destinos com base em pessoas e casos de uso
+seo-description: Use people-based destinations to send first-party audience segments to people-based environments. These environments are closed ecosystems belonging to one entity that controls the content that is being displayed within it. They include social platforms such as Facebook, and other platforms that rely on customer accounts to personalize the displayed content.
+seo-title: People-Based Destinations Overview and Use Cases
 solution: Audience Manager
 title: Visão geral e casos de uso
-feature: Destinos com base em pessoas
+feature: People-based Destinations
 exl-id: 2edbda3b-e2a3-4a92-965b-206a21764cc8
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: ab3361a0a54a7200d2f0c03a82ae6ef61a755be9
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '863'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Use [!DNL People-Based Destinations] para enviar segmentos de público-alvo prim
 
 ## Visão geral {#overview}
 
-[!DNL People-Based Destinations] permitem aplicar a segmentação em dados online e offline para criar segmentos de público com base em identificadores  [com hash](people-based-destinations-prerequisites.md#hashing-requirements), como endereços de email ou números de telefone. Em seguida, é possível enviar esses segmentos para &quot;jardins instalados&quot;, como [!DNL Facebook], onde é possível direcionar seu público-alvo nas plataformas sociais. [!DNL People-Based Destinations] O pode ajudá-lo a:
+[!DNL People-Based Destinations] permitem aplicar a segmentação em dados online e offline para criar segmentos de público-alvo com base em identificadores  [com hash](people-based-destinations-prerequisites.md#hashing-requirements), como endereços de email. Em seguida, é possível enviar esses segmentos para &quot;jardins instalados&quot;, como [!DNL Facebook], onde é possível direcionar seu público-alvo nas plataformas sociais. [!DNL People-Based Destinations] O pode ajudá-lo a:
 
 * Direcione públicos offline e online em plataformas como [!DNL Facebook], com base em endereços de email com hash;
 * Complementar os recursos existentes de definição de metas de dispositivos e cookies do Audience Manager;
