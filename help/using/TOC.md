@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Guia do usuário do Audience Manager
 user-guide-description: Saiba como o Audience Manager permite coletar informações comercialmente relevantes sobre visitantes do site, criar segmentos comercializáveis e veicular anúncios e conteúdo direcionados ao público certo.
 feature-set: Audience Manager
-source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
+source-git-commit: 73d1dd1fdc799d7cbe7605d6d084966f76efe38c
 workflow-type: tm+mt
 source-wordcount: '1805'
-ht-degree: 90%
+ht-degree: 89%
 
 ---
 
@@ -286,9 +286,9 @@ ht-degree: 90%
 + Guias de implementação e integração {#implementation-integration-guides}
    + [Guias de implementação e integração](integration/implementation-and-integration.md)
    + [Métodos de integração de dados](integration/data-integration-methods.md)
-   + Integre o Google Ad Manager usando as Tags do Google Publisher (GPT){#integrate-dfp-using-gpt}
+   + Integrar o Google Ad Manager usando as Tags do editor da Google (GPT){#integrate-dfp-using-gpt}
       + [Integrar o Google Ad Manager usando a visão geral do GPT](integration/gpt-aam-destination/gpt-aam-overview.md)
-      + [Envio de segmentos para o Google Ad Manager usando GPT](integration/gpt-aam-destination/gpt-aam-requirements.md)
+      + [Envio de segmentos ao Google Ad Manager com GPT](integration/gpt-aam-destination/gpt-aam-requirements.md)
       + [Criar um destino com GPT](integration/gpt-aam-destination/gpt-aam-create-destination.md)
       + [Modificar a chamada da API setTargeting GPT](integration/gpt-aam-destination/gpt-aam-modify-api.md)
       + [Código do Audience Manager para Tags do Google Publisher](integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
@@ -339,7 +339,7 @@ ht-degree: 90%
       + [Integrações personalizadas de parceiros](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Integração com a Adobe Experience Platform {#integration-experience-platform}
       + [Compartilhamento de segmento do Experience Platform com o Audience Manager e outras soluções do Experience Cloud](integration/integration-aep/aam-aep-audience-sharing.md)
-   + Integração com outras soluções da Experience Cloud {#integration-other-solutions}
+   + Integração com outros aplicativos do Experience Cloud {#integration-other-solutions}
       + [Integrar o Audience Manager ao Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Como encaminhar dados do Adobe Analytics para o Audience Manager](integration/integration-other-solutions/audience-management-module.md)
       + [Publicar um segmento do Adobe Analytics no Experience Cloud (abre a documentação do Adobe Analytics)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)
