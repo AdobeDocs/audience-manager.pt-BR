@@ -8,9 +8,9 @@ title: Feeds de dados do cliente
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 exl-id: 118c4225-3b57-4a02-ae05-2fcbf3e5d743
-source-git-commit: 08916acd6081031382713737f77ceed8ab1a4e91
+source-git-commit: e85dea581e1e7fee2fce0854dc094ed763df8160
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '1914'
 ht-degree: 3%
 
 ---
@@ -146,12 +146,11 @@ Lista e define a estrutura de dados de um [!UICONTROL CDF] arquivo. Isso inclui 
       <li id="li_B9DA15DCB6A445D781B8753C1C4262B0">Ctrl + a (ASCII) <code> 001</code> ou <code> ^A</code>) separa dados em campos individuais com um indicador de espaço não imprimível. </li> 
       <li id="li_E68D0CC065B34AC9AF91F166CAA2A67C">Ctrl + b (ASCII) <code> 002</code> ou <code> ^B</code>) separa dados de uma matriz e solicita parâmetros. </li> 
       <li id="li_6C32D927FEF04CDE9887374E8C2688E7">Ctrl + c (ASCII <code> 003</code> ou <code> ^C</code>) define pares de valores chave. </li> 
-      <li> Separador de nova linha (/N)</li>
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Sequência do campo </p> </td> 
-   <td colname="col2"> <p> <p>Importante: <span class="keyword"> Audience Manager</span> reserva o direito de adicionar novos campos ao final do arquivo CDF em versões futuras. Isso significa que o design técnico do seu sistema de análise de arquivos não deve assumir um número fixo de colunas (embora possa assumir uma ordem fixa para as colunas existentes). </p> </p> <p>Os dados no arquivo CDF são exibidos na ordem mostrada abaixo. </p> <p> 
+   <td colname="col2"> <p> <p>Importante: <span class="keyword"> Audience Manager</span> reserva o direito de adicionar novos campos ao final do arquivo CDF em versões futuras. Isso significa que o design técnico do seu sistema de análise de arquivos não deve assumir um número fixo de colunas (embora possa assumir uma ordem fixa para as colunas existentes).</p> </p> <p>Os dados no arquivo CDF são exibidos na ordem mostrada abaixo. /N pode aparecer no lugar de qualquer um desses campos, indicando um valor nulo.</p> <p> 
      <ol id="ol_1FDF4A7F089448ED8A724378C23009C8"> 
       <li id="li_CB97D90B54EB4F95861583D4A5F660C7">Hora do evento </li> 
       <li id="li_C44E8CCB1A964B7A941FD772FB8A7608">Dispositivo </li> 
