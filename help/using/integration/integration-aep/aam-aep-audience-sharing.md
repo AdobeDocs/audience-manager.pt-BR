@@ -4,9 +4,10 @@ solution: Audience Manager
 title: Compartilhamento de segmento do Experience Platform com o Audience Manager e outras soluções do Experience Cloud
 keywords: Compartilhamento de público da AEP, segmentos da AEP, segmentos da plataforma, compartilhamento de segmento, compartilhamento de público, compartilhamento de segmentos AAM compartilhamento de segmentos da AEP
 feature: Platform Integration
-source-git-commit: f0df41e71340d08e873d8d7e33b481987110c58d
+exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
+source-git-commit: aaaed3930a1e7af4724cc01bda74b83edec98385
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1522'
 ht-degree: 1%
 
 ---
@@ -152,11 +153,15 @@ Os números de população do segmento podem variar entre seus segmentos de Audi
 
 ### Avaliação de segmento no Experience Platform
 
-O Audience Manager atualiza os números dos relatórios na interface uma vez por dia.   O tempo dessa atualização raramente se alinha ao tempo da avaliação de segmento no Experience Platform.
+O Audience Manager atualiza os números dos relatórios na interface uma vez por dia. O tempo dessa atualização raramente se alinha ao tempo da avaliação de segmento no Experience Platform.
 
 ### Diferenças entre as Regras de mesclagem de perfis e as Políticas de mesclagem
 
 [[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) em Audience Manager e [[!UICONTROL Merge Policies]](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/merge-policies.html) no Experience Platform funcionam de forma diferente, e o gráfico de identidade usado para cada um varia. Por esse motivo, são esperadas algumas diferenças entre as populações de segmentos.
+
+>[!NOTE]
+>
+> Ao compartilhar segmentos do Experience Platform para o Audience Manager, a organização da plataforma [política de mesclagem padrão](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=en#default-merge-policy) tem precedência sobre a [política de mesclagem usada pelo segmento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#merge-policies) compartilhado com o Audience Manager. Por exemplo, se a política de mesclagem do segmento compartilhado permitir [Compilação de ID](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=en#configure), mas a política de mesclagem padrão da organização não, isso pode resultar em diferenças de população entre a Plataforma e o Audience Manager.
 
 ### Composição do segmento no Experience Platform
 
