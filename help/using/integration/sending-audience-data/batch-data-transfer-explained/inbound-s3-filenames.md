@@ -7,9 +7,9 @@ title: Requisitos de nome e tamanho de arquivo do Amazon S3 para arquivos de dad
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 feature: Inbound Data Transfers
 exl-id: 428acdb5-fff0-4b70-b15a-e384aed9cc2d
-source-git-commit: 3e25db0fc74a0b125f4f0ecd0f45f3fb877be099
+source-git-commit: 7721083fd538f0b74f72cfc78981e2cc76777790
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1105'
 ht-degree: 4%
 
 ---
@@ -72,7 +72,7 @@ A tabela define os elementos em um [!DNL S3] nome do arquivo.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
-   <td colname="col2"> <p>Este campo informa ao Audience Manager para qual fonte de dados integrar dados. Esse campo é obrigatório se você definir a DPID como uma ID do Android ou iOS ou outra ID pertencente a fontes de dados globais. Isso permite que o Audience Manager vincule os dados do arquivo à sua organização. <br> Essa fonte de dados de destino precisa ser de propriedade de sua empresa. Para fins de compartilhamento de dados de terceiros, para assimilar dados em uma fonte de dados de destino pertencente a outra empresa, é necessário ter um mapeamento de acesso entre a empresa e a fonte de dados de destino. Entre em contato com o consultor do Adobe ou com o Suporte ao cliente para configurar o mapeamento.</p> <p>Por exemplo: </p> 
+   <td colname="col2"> <p>Este campo informa ao Audience Manager para qual fonte de dados integrar dados. Esse campo é obrigatório se você definir a DPID como uma ID do Android ou iOS ou outra ID pertencente a fontes de dados globais. Isso permite que o Audience Manager vincule os dados do arquivo à sua organização. <br> Essa fonte de dados de destino precisa ser de propriedade de sua empresa. Para fins de compartilhamento de dados de terceiros, para assimilar dados em uma fonte de dados de destino pertencente a outra empresa, é necessário ter um mapeamento de acesso entre a empresa e a fonte de dados de destino. Entre em contato com o consultor do Adobe ou com o Suporte ao cliente para configurar o mapeamento.</p> <p><b>Observação importante:</b> Você <i>não</i> é necessário solicitar um mapeamento para os relacionamentos de compartilhamento de dados existentes (para fontes de dados do target pertencentes a outras empresas nas quais você integrou dados antes de 14 de março de 2022). O mapeamento também não é necessário ao integrar dados em fontes de dados de destino que pertencem ao seu PID. </p> <p>Por exemplo: </p> 
     <ul> 
      <li> <code>...ftp_dpm_33_21_1234567890.sync</code> informa ao Audience Manager que você está qualificando as IDs do cliente pertencentes à fonte de dados 33 para características ou sinais pertencentes à fonte de dados 21. </li> 
      <li> <b>IDs do Android (GAID):</b> <code>...ftp_dpm_20914_21_1234567890.sync</code> tell <span class="keyword"> Audience Manager</span> que o arquivo de dados contém somente IDs do Android e as IDs devem se qualificar para as características pertencentes à fonte de dados 21.</li> 
