@@ -1,16 +1,16 @@
 ---
 description: Este artigo explica os conceitos e a terminologia usados pelo Regulamento Geral sobre a Proteção de Dados (GDPR) e como o Adobe Audience Manager, como Processador de dados, trata de vários requisitos do GDPR.
-seo-description: Este artigo explica os conceitos e a terminologia usados pelo Regulamento Geral sobre a Proteção de Dados (GDPR) e como o Adobe Audience Manager, como Processador de dados, trata de vários requisitos do GDPR.
-seo-title: Glossário do GDPR
+seo-description: This article explains the concepts and terminology used by the European General Data Protection Regulation (GDPR), and how Adobe Audience Manager, as a Data Processor, addresses various GDPR requirements.
+seo-title: GDPR Glossary
 solution: Audience Manager
 title: Glossário do GDPR
 uuid: e52cad27-6a44-45ee-8524-6080adb86cc8
-feature: Governança e privacidade de dados
+feature: Data Governance & Privacy
 exl-id: 36930703-745e-4fbd-ad18-ba9efb77eb7e
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 8bee593d0359f87f030840f87d70025dd5ea33ed
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 99%
+source-wordcount: '693'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ Este artigo explica os conceitos e a terminologia usados pelo Regulamento Geral 
 
 O GDPR entrou em vigor em 25 de maio de 2018, com o objetivo principal de oferecer aos indivíduos na UE (titulares de dados) mais controle dos seus dados pessoais, simplificando simultaneamente o ambiente regulamentar para as empresas internacionais através de uma melhor uniformização da regulamentação na UE. Como parte da preparação para o GDPR da Adobe, a equipe do Adobe Audience Manager aprimorou os serviços e processos necessários para dar suporte ao acesso e excluir solicitações dos titulares de dados, seus consumidores.
 
-Leia também as [Perguntas frequentes do GDPR da Experience Cloud](https://docs.adobe.com/content/help/pt-BR/experience-platform/privacy/home.html#!api-specification/markdown/narrative/gdpr/gdpr-faq.md) para compreender melhor como o GDPR funciona na Experience Cloud.
+Leia também sobre o GDPR na seção [Visão geral das regras de privacidade](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=en) para entender melhor como o GDPR funciona no Experience Cloud.
 
 ## Glossário do GDPR {#gdpr-glossay}
 
@@ -58,7 +58,7 @@ Familiarize-se com os principais termos usados em relação ao GDPR. Destacamos 
 
  
 
-**Identificadores do Audience Manager (IDs):** o Adobe Audience Manager armazena vários tipos de IDs. A página [Identificadores do Audience Manager](data-privacy-ids.md) fornece um resumo dessas IDs, suas fontes de dados correspondentes e descrições resumidas. Ao enviar solicitações para o [Adobe Experience Platform Privacy Service](https://docs.adobe.com/content/help/pt-BR/experience-platform/privacy/home.html), consulte essas IDs para fazer solicitações de exclusão ou acesso para titulares de dados.
+**Identificadores do Audience Manager (IDs):** o Adobe Audience Manager armazena vários tipos de IDs. A página [Identificadores do Audience Manager](data-privacy-ids.md) fornece um resumo dessas IDs, suas fontes de dados correspondentes e descrições resumidas. Ao enviar solicitações para o [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en), consulte essas IDs para fazer solicitações de exclusão ou acesso para titulares de dados.
 
  
 

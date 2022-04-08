@@ -5,9 +5,9 @@ title: Compartilhamento de segmento do Experience Platform com o Audience Manage
 keywords: Compartilhamento de público da AEP, segmentos da AEP, segmentos da plataforma, compartilhamento de segmento, compartilhamento de público, compartilhamento de segmentos AAM compartilhamento de segmentos da AEP
 feature: Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-source-git-commit: aaaed3930a1e7af4724cc01bda74b83edec98385
+source-git-commit: 8bee593d0359f87f030840f87d70025dd5ea33ed
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1516'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 A funcionalidade de compartilhamento de público-alvo entre o Audience Manager e o Adobe Experience Platform permite compartilhar características e segmentos do Audience Manager com o Adobe Experience Platform e vice-versa. Você precisa do [[!DNL Audience Manager Connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html) para permitir o compartilhamento de público-alvo entre o Audience Manager e o Adobe Experience Platform.
 
-Você pode usar características e segmentos do Audience Manager no Experience Platform para adicionar dados do Audience Manager aos perfis do cliente e se beneficiar do Experience Platform [serviço de segmentação](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md).
+Você pode usar características e segmentos do Audience Manager no Experience Platform para adicionar dados do Audience Manager aos perfis do cliente e se beneficiar do Experience Platform [serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en).
 
 No Audience Manager, é possível usar segmentos de Experience Platform para casos de uso da Plataforma de gerenciamento de dados, como:
 * Adicionar [dados de terceiros](/help/using/overview/data-types-collected.md#third-party-data) aos seus segmentos;
@@ -143,7 +143,7 @@ A tabela a seguir descreve como os Rótulos de exportação de dados específico
 | Este destino pode permitir uma combinação com informações pessoalmente identificáveis (PII) | Combinar com PII |
 | Esse destino pode ser usado para direcionamento de anúncios fora do site | Direcionamento entre sites |
 | Esse destino pode ser usado para o direcionamento de anúncios no site | Publicidade no site |
-| Esse destino pode ser usado para personalização de anúncios no site | Personalização no site |
+| Esse destino pode ser usado para personalização de anúncios no site | Personalization no site |
 
 {style=&quot;table-layout:auto&quot;}
 
