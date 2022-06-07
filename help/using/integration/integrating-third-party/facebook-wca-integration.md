@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Integração WCA com o Facebook
 feature: Third-party Integration
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
-source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
+source-git-commit: 8780083474d68717fe3bd4dc632d96da89929122
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ Esta página ilustra o processo de criação [!DNL Facebook Website Custom Audie
 
 ## Visão geral {#overview}
 
-[Públicos-alvo personalizados do site da facebook (WCA)](https://www.facebook.com/business/help/449542958510885) O permite criar uma lista de pessoas que visitaram determinadas páginas ou realizaram ações específicas no seu site. [!DNL Audience Manager] habilita a ativação no [!DNL WCA] usar [!DNL URL] destinos , com os quais você pode configurar uma integração personalizada baseada em pixels para enviar públicos baseados na Web para o [!DNL Facebook] para direcionamento.
+[Públicos-alvo personalizados do site da facebook (WCA)](https://www.facebook.com/business/help/610516375684216?id=2469097953376494) O permite criar uma lista de pessoas que visitaram determinadas páginas ou realizaram ações específicas no seu site. [!DNL Audience Manager] habilita a ativação no [!DNL WCA] usar [!DNL URL] destinos , com os quais você pode configurar uma integração personalizada baseada em pixels para enviar públicos baseados na Web para o [!DNL Facebook] para direcionamento.
 
 ![Integração WCA com o Facebook](/help/using/integration/assets/facebook-wca-integration.png)
 
