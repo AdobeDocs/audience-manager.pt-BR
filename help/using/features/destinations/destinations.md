@@ -1,7 +1,7 @@
 ---
-description: Descubra as vantagens, os tipos e os usos dos destinos - qualquer sistema de terceiros, como um servidor de anúncios ou DSP, em que você compartilha dados. Use o Construtor de destinos para criar e gerenciar cookies, URL ou destinos de servidor para servidor.
+description: Descubra as vantagens, os tipos e os usos dos destinos — qualquer sistema de terceiros, como um servidor de anúncios ou DSP, em que você compartilha dados. Use o Construtor de destino para criar e gerenciar cookies, URLs ou destinos de servidor para servidor.
 keywords: código de integração, destino, visão geral do destino, destino, destino, destino, destino, destino, destino, destino, destino, destino, destino, destino, destino, destino
-landing-page-description: Descubra as vantagens, os tipos e os usos dos destinos - qualquer sistema de terceiros, como um servidor de anúncios ou DSP, em que você compartilha dados. Use o Construtor de destinos para criar e gerenciar cookies, URL ou destinos de servidor para servidor.
+landing-page-description: Descubra as vantagens, os tipos e os usos dos destinos — qualquer sistema de terceiros, como um servidor de anúncios ou DSP, em que você compartilha dados. Use o Construtor de destino para criar e gerenciar cookies, URLs ou destinos de servidor para servidor.
 seo-title: Destinations
 solution: Audience Manager
 title: 'Destinos '
@@ -11,7 +11,7 @@ exl-id: f880bb18-057a-494d-82bf-69fc9f34781f
 source-git-commit: 865800eb076811db38aec8e98714ad9712804f77
 workflow-type: tm+mt
 source-wordcount: '539'
-ht-degree: 3%
+ht-degree: 15%
 
 ---
 
