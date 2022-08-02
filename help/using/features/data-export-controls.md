@@ -7,9 +7,9 @@ title: Controles da exportação de dados
 uuid: de7f3608-c0cb-4049-973a-8be54525c600
 feature: Data Export Controls
 exl-id: 4369c210-bcf1-48cc-a9bb-0d122f6c03d4
-source-git-commit: c7a6de018a0ddd782eecec0844c4f5c824431119
+source-git-commit: 26aa0a210a045b40b2329844324315a092947188
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '876'
 ht-degree: 1%
 
 ---
@@ -90,7 +90,7 @@ Além disso, pelo menos um rótulo de exportação deve corresponder a um contro
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Não pode ser usado para direcionamento de anúncios fora do site</span></b> </td> 
    <td colname="col2"> <b><span class="uicontrol"> Esse destino pode ser usado para direcionamento de anúncios fora do site</span></b> </td> 
-   <td colname="col3">Essas restrições são usadas geralmente com a opção Quando selecionada, não é possível: 
+   <td colname="col3">Quando selecionada, não é possível: 
     <ul id="ul_B9352FF5282C481BA3A24C581217A156"> 
      <li id="li_0F89583A603D4CD8804724954CFD52C6">Adicione características a segmentos mapeados a destinos que redirecionam usuários em outros sites. </li> 
      <li id="li_ABDD8BEDE9AF411695C7BDF9AE522BA7">Mapeie segmentos criados com uma característica da fonte de dados para destinos que redirecionam usuários em outros sites. </li> 
