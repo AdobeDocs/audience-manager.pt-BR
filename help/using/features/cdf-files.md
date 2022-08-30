@@ -8,9 +8,9 @@ title: Feeds de dados do cliente
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 exl-id: 118c4225-3b57-4a02-ae05-2fcbf3e5d743
-source-git-commit: e85dea581e1e7fee2fce0854dc094ed763df8160
+source-git-commit: 89137248aa47573f5b65e387a152f651419da827
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '1989'
 ht-degree: 3%
 
 ---
@@ -48,6 +48,10 @@ As seções abaixo e o [Perguntas frequentes sobre o Feed de dados do cliente](.
 
 Lista e define os elementos de dados e as matrizes em uma [!UICONTROL CDF] por ordem de aparência. As definições incluem tipos de dados, mas essas informações não fazem parte de um [!UICONTROL CDF] arquivo.
 
+>[!IMPORTANT]
+>
+>Os pixels do evento são excluídos por padrão nas configurações CDF. Certifique-se de especificar em sua solicitação para o atendimento ao cliente se desejar que os pixels do evento sejam incluídos em seus arquivos CDF. Cada pixel do evento será preenchido como uma linha exclusiva em seus arquivos CDF.
+
 ## Definições {#definitions}
 
 A [!UICONTROL CDF] O arquivo inclui alguns ou todos os campos definidos abaixo. Para obter informações sobre a organização interna do arquivo, consulte [Estrutura do arquivo de feed de dados do cliente](#cdf-file-structure).
@@ -78,7 +82,7 @@ A [!UICONTROL CDF] O arquivo inclui alguns ou todos os campos definidos abaixo. 
   <tr> 
    <td colname="col1"> <p><code> Container ID</code> </p> </td> 
    <td colname="col2"> <p>Numérico </p> </td> 
-   <td colname="col3"> <p>A ID do contêiner que aciona sincronizações de ID. </p> </td> 
+   <td colname="col3"> <p>A ID do contêiner que aciona sincronizações de ID. Esse campo só é preenchido se você definir a ID do contêiner na variável <i>d_nsid</i> na implementação do site. Caso contrário, o valor padrão de 0 não será incluído nos arquivos CDF. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> Realized Traits</code> </p> </td> 
