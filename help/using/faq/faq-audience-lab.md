@@ -1,28 +1,22 @@
 ---
 description: Perguntas frequentes sobre o recurso Audience Lab.
-seo-description: Perguntas frequentes sobre o recurso Audience Lab.
-seo-title: Perguntas frequentes sobre o Audience Lab
+seo-description: Frequently asked questions about the Audience Lab feature.
+seo-title: Audience Lab FAQ
 solution: Audience Manager
 title: Perguntas frequentes sobre o Audience Lab
 uuid: b1daf99d-af60-4f65-987d-794a6d45d566
-feature: 'Audience Lab '
+feature: Audience Lab
 exl-id: 25bdabb5-2ba8-45d2-81ca-05c0590d7d96
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 98%
+source-wordcount: '325'
+ht-degree: 94%
 
 ---
 
 # Perguntas frequentes sobre o Audience Lab{#audience-lab-faq}
 
 Perguntas frequentes sobre o recurso Audience Lab.
-
-<!-- 
-
-audience-lab-faq.xml
-
- -->
 
 <br> 
 
@@ -54,6 +48,6 @@ Nesse caso, o [!UICONTROL Audience Lab] conta três conversões, uma para cada d
 
 Consulte [Criar grupo de teste de segmento](../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) para obter informações sobre como usar o [!UICONTROL Audience Lab] com privilégios [!UICONTROL RBAC].
 
-**É possível usar o [!UICONTROL Audience Lab] em conjunto com o [!UICONTROL Profile Link Device Graph] e Gráficos de dispositivos externos ([Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html), Gráfico de dispositivos Tapad, Gráfico de dispositivos Liveramp)?**
+**Posso usar [!UICONTROL Audience Lab] em conjunto com a [!UICONTROL Profile Link Device Graph] e Gráficos de dispositivos externos (Gráfico de dispositivos Tapad, Gráfico de dispositivos Liveramp)?**
 
 Por enquanto, o [!UICONTROL Audience Lab] só pode dividir populações de segmentos pelos dispositivos conectados a um dispositivo qualificado ao usar o [!UICONTROL Profile Link Device Graph]. Estamos trabalhando para adicionar suporte ao [!UICONTROL Audience Lab] para os outros gráficos de dispositivos e informaremos quando isso for possível.
