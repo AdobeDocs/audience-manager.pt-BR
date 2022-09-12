@@ -1,26 +1,26 @@
 ---
 description: Um arquivo de dados contém dados de impressão, clique ou conversão. Quando formatados corretamente, é possível importar esses dados para o Audience Manager e usá-los nos relatórios do Audience Optimization e nos Arquivos de registro acionáveis. Formate os arquivos de dados de acordo com as especificações desta seção.
-seo-description: Um arquivo de dados contém dados de impressão, clique ou conversão. Quando formatados corretamente, é possível importar esses dados para o Audience Manager e usá-los nos relatórios do Audience Optimization e nos Arquivos de registro acionáveis. Formate os arquivos de dados de acordo com as especificações desta seção.
-seo-title: Arquivos de dados para Relatórios de otimização de público-alvo e arquivos de registro acionáveis
+seo-description: A data file contains impression, click, or conversion data. When formatted properly, you can import this data into Audience Manager and use it in the Audience Optimization reports and for Actionable Log Files. Format your data files according to the specifications in this section.
+seo-title: Data Files for Audience Optimization Reports and Actionable Log Files
 solution: Audience Manager
 title: Arquivos de dados para Relatórios de otimização de público-alvo e arquivos de registro acionáveis
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
-feature: Arquivos de registro
+feature: Log Files
 exl-id: 0da2c1d3-5ff8-40dd-b831-21d8941688ce
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: db90a6f1aaf85b10e31e93e316c257b7c3a904aa
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Arquivos de dados para Relatórios de otimização de público-alvo e arquivos de registro acionáveis {#data-files-for-audience-optimization-reports}
 
-Um arquivo de dados contém dados de impressão, clique ou conversão. Quando formatados corretamente, você pode importar esses dados para o Audience Manager para exibi-los nos [Relatórios do Audience Optimization](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) e criar características usando os dados via [Arquivos de registro acionáveis](/help/using/integration/media-data-integration/actionable-log-files.md). Formate os arquivos de dados de acordo com essas especificações nesta seção.
+Um arquivo de dados contém dados de impressão, clique ou conversão. Quando formatados corretamente, é possível importar esses dados para o Audience Manager para exibi-los na [Relatórios do Audience Optimization](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) e criar características usando os dados via [Arquivos de registro acionáveis](/help/using/integration/media-data-integration/actionable-log-files.md). Formate os arquivos de dados de acordo com essas especificações nesta seção.
 
 ## Visão geral {#overview}
 
-Um arquivo de dados corretamente nomeado e formatado permite importar dados de impressão, clique ou conversão para os [Relatórios do Audience Optimization](../../../reporting/audience-optimization-reports/audience-optimization-reports.md). Isso é útil ao trabalhar com um parceiro que não está integrado com [!DNL Audience Manager] e você deseja trabalhar com seus dados nesse conjunto de relatórios. Esse processo requer arquivos separados para dados de impressão, clique e conversão. Não misture esses eventos em um único arquivo.
+Um arquivo de dados corretamente nomeado e formatado permite importar dados de impressão, clique ou conversão para a [Relatórios do Audience Optimization](../../../reporting/audience-optimization-reports/audience-optimization-reports.md). Isso é útil ao trabalhar com um parceiro que não está integrado ao [!DNL Audience Manager] e você deseja trabalhar com seus dados nesse conjunto de relatórios. Esse processo requer arquivos separados para dados de impressão, clique e conversão. Não misture esses eventos em um único arquivo.
 
 Um arquivo de dados deve ser acompanhado por um arquivo de metadados. O conteúdo do arquivo de metadados corresponde às informações do arquivo de dados aos rótulos relacionados e legível nos menus de relatório. Para obter mais informações, consulte [Visão geral e mapeamentos para arquivos de metadados](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
 
@@ -34,26 +34,26 @@ Em um nome de arquivo:
 
 * O tipo de evento indica que o arquivo contém impressões, cliques ou conversões. Crie um arquivo separado para cada tipo de evento.
 * Um sublinhado separa o tipo de evento e um carimbo de data e hora de mês de ano.
-* Antes de fazer upload, compacte seus arquivos usando gzip e salve-os com a extensão `.gz` do arquivo.
+* Antes de fazer upload, compacte seus arquivos usando gzip e salve-os com a `.gz` extensão de arquivo.
 
 Considerando esses requisitos, nomeie os arquivos de dados com base em seus conteúdos da seguinte forma:
 
 * Dados de impressão: <pre>impressões_<i>aaaammdd</i>.gz</code></pre>
-* Dados de clique: <pre>clicks_<i>aaaammdd</i>.gz</code></pre>
+* Dados de clique: <pre>cliques_<i>aaaammdd</i>.gz</code></pre>
 * Dados de conversão: <pre>conversões_<i>aaaammdd</i>.gz</code></pre>
 
 ## Formato de conteúdo para arquivos de dados {#content-format}
 
 A sintaxe a seguir define a estrutura do conteúdo no arquivo de dados bem formado. Observação: *itálico* indica um espaço reservado para variável e é substituído por um rótulo em um arquivo de dados real.
 
-**Sintaxe:** <pre><i>rótulo do cabeçalho 1</i>  | rótulo do  <i>cabeçalho 2</i> ... rótulo do  <i>cabeçalho n</i>  |  <i>versão</i></code></pre>
+**Sintaxe:** <pre><i>rótulo de cabeçalho 1</i> | <i>etiqueta do cabeçalho 2</i> ... <i>rótulo do cabeçalho n</i> | <i>version</i></code></pre>
 
 No conteúdo do arquivo:
 
 * Os rótulos do cabeçalho devem aparecer na ordem mostrada na tabela abaixo. Impressões e cliques usam os mesmos rótulos. Os arquivos de conversão contêm cabeçalhos extras.
-* Se não tiver dados para uma coluna específica, preencha esse campo com um `-1`.
+* Se você não tiver dados para uma coluna específica, preencha esse campo com uma `-1`.
 
-* Os arquivos *devem* terminar com um número de versão. A versão atual é a 1.1.
+* Arquivos *must* terminar com um número de versão. A versão atual é a 1.1.
 * Separe os cabeçalhos e conteúdos do arquivo com o caractere ASCII 001 não imprimível. Se não for possível usar ASCII 001, separe os cabeçalhos e dados com um delimitador de tabulação. Como esses são caracteres não imprimíveis, o exemplo de sintaxe acima mostra uma barra vertical `"|"` somente para fins de exibição.
 
 **Rótulos de campo**
@@ -70,15 +70,15 @@ A tabela abaixo lista e descreve os cabeçalhos da coluna para seu arquivo de da
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Carimbo de data e hora </p> </td> 
-   <td colname="col2"> <p>Uma data e hora UTC para o evento de impressão, clique ou conversão. Use o formato <code> yyyy-MM-dd HH:mm:ss</code>. </p> </td> 
+   <td colname="col2"> <p>Uma data e hora UTC para o evento de impressão, clique ou conversão. Use o <code> yyyy-MM-dd HH:mm:ss</code> formato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>User-ID </p> </td> 
-   <td colname="col2"> <p>Sua ID para um visitante do site, também conhecido como <span class="term"> ID de usuário exclusiva do provedor de dados</span> ou DPUUID. </p> </td> 
+   <td colname="col2"> <p>Sua ID de um visitante do site, também conhecida como <span class="term"> ID de usuário exclusiva do provedor de dados</span> ou DPUUID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Anunciante-ID </p> </td> 
-   <td colname="col2"> <p>A ID da fonte de dados ou o código de integração do seu anunciante. </p> </td> 
+   <td colname="col2"> <p>A ID da fonte de dados ou o código de integração do anunciante. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>BU-ID </p> </td> 
@@ -142,17 +142,17 @@ A tabela abaixo lista e descreve os cabeçalhos da coluna para seu arquivo de da
 
 ## Métodos de delivery para arquivos de dados {#delivery-methods}
 
-Carregue seus arquivos de dados de impressão, clique ou conversão em um diretório Amazon S3 para sua conta [!DNL Audience Manager]. Consulte esta seção para obter informações sobre caminhos de entrega/diretório, tempos de processamento de arquivos e atualizações.
+Carregue seus arquivos de dados de impressão, clique ou conversão para um diretório Amazon S3 para sua [!DNL Audience Manager] conta. Consulte esta seção para obter informações sobre caminhos de entrega/diretório, tempos de processamento de arquivos e atualizações.
 
 >[!IMPORTANT]
 >
-> Entre em contato com seu consultor do Audience Manager ou com o Atendimento ao cliente para começar e configurar um diretório [!DNL Amazon S3] para seus arquivos de dados.
+> Entre em contato com seu consultor do Audience Manager ou com o Atendimento ao cliente para começar e configurar um [!DNL Amazon S3] para seus arquivos de dados.
 
 **Sintaxe e exemplos do caminho de entrega**
 
-Os dados são armazenados em um namespace separado para cada cliente em um diretório [!DNL Amazon S3]. O caminho do arquivo segue a sintaxe mostrada abaixo. Observação: *itálico* indica um espaço reservado para variável. Outros elementos são constantes ou chaves e não são alterados.
+Os dados são armazenados em um namespace separado para cada cliente em um [!DNL Amazon S3] diretório. O caminho do arquivo segue a sintaxe mostrada abaixo. Observação: *itálico* indica um espaço reservado para variável. Outros elementos são constantes ou chaves e não são alterados.
 
-**Sintaxe:** <pre>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>tipo de arquivo</i>_<i>aaaammdd</i></code></pre>
+**Sintaxe:** <pre>.../log_ingestion/pid= <i>ID de AAM</i>/dpid= <i>d_src</i>/logs/ <i>tipo de arquivo</i>_<i>aaaammdd</i></code></pre>
 
 A tabela a seguir define cada um desses elementos em um caminho de entrega de arquivo.
 
@@ -170,7 +170,7 @@ A tabela a seguir define cada um desses elementos em um caminho de entrega de ar
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>pid=<i>AAM ID</i></code> </p> </td> 
-   <td colname="col2"> <p>Esse par de valores chave contém sua ID do cliente <span class="keyword"> Audience Manager</span>. </p> </td> 
+   <td colname="col2"> <p>Esse par de valor-chave contém seu <span class="keyword"> Audience Manager</span> ID do cliente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>dpid=<i>d_src</i></code> </p> </td> 
