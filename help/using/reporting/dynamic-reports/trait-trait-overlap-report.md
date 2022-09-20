@@ -1,16 +1,16 @@
 ---
 description: Retorna dados sobre o número de usuários únicos compartilhados entre todas as suas características originais e de terceiros.
-seo-description: Retorna dados sobre o número de usuários únicos compartilhados entre todas as suas características originais e de terceiros.
-seo-title: Relatório de sobreposição de característica por característica
+seo-description: Returns data on the number of unique users shared among all your first and third-party traits.
+seo-title: Trait-to-Trait Overlap Report
 solution: Audience Manager
 title: Relatório de sobreposição de característica por característica
 uuid: 7fb3fc9e-0e0b-492a-9c3a-04356afb19c7
-feature: Relatórios de sobreposição
+feature: Overlap Reports
 exl-id: cbc933bb-f2af-4ad0-8eb9-cbec1ee952e0
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 6cc1351c3a84d4d2219f33ef6175f182b9641377
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 8%
+source-wordcount: '497'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +20,7 @@ Retorna dados sobre o número de usuários únicos compartilhados entre todas as
 
 >[!NOTE]
 >
->Os relatórios de sobreposição em Audience Manager seguem os princípios do RBAC. Você só pode ver características de fontes de dados às quais tem acesso com base no [Grupo de usuários RBAC](/help/using/features/administration/administration-overview.md) ao qual pertence.
+>Os relatórios de sobreposição em Audience Manager seguem os princípios do RBAC. Você só pode ver características de fontes de dados às quais tem acesso com base no [Grupo de usuários RBAC](/help/using/features/administration/administration-overview.md) a que você pertence.
 
 <!-- 
 
@@ -30,7 +30,7 @@ c_overlap_reports.xml
 
 ## Visão geral
 
-O relatório [!UICONTROL Trait-to-Trait Overlap] retorna dados sobre a % de usuários únicos compartilhados entre todas suas características e suas características de terceiros. Como ferramenta de otimização, este relatório ajuda a:
+O [!UICONTROL Trait-to-Trait Overlap] retorna dados sobre a % de usuários únicos compartilhados entre todas as suas características e características de terceiros. Como ferramenta de otimização, este relatório ajuda a:
 
 * Crie segmentos com sobreposição alta ou baixa, dependendo de suas necessidades. Características com alta sobreposição fornecem um público-alvo direcionado, mas menos visitantes únicos. Características com baixa sobreposição podem ser úteis para alcançar um conjunto de visitantes único e maior.
 * Validar dados de características de terceiros: A forte sobreposição entre características semelhantes originais e de terceiros sugere que a característica do seu parceiro de dados é precisa e confiável. Por outro lado, a baixa sobreposição pode indicar que uma característica de terceiros pode não conter realmente as mesmas informações que sua própria característica primária semelhante.
@@ -38,11 +38,15 @@ O relatório [!UICONTROL Trait-to-Trait Overlap] retorna dados sobre a % de usu�
 
 ## Relatório de exemplo
 
-A ilustração a seguir fornece uma visão geral de alto nível dos elementos no relatório [!UICONTROL Trait-to-Trait Overlap].
+A ilustração a seguir fornece uma visão geral de alto nível dos elementos na [!UICONTROL Trait-to-Trait Overlap] relatório.
 
 >[!NOTE]
 >
->O relatório [!UICONTROL Trait-to-Trait Overlap] retorna um campo vazio quando compara a mesma característica a si mesmo.
+>O [!UICONTROL Trait-to-Trait Overlap] relatório retorna um campo vazio quando compara a mesma característica a si mesmo.
+
+>[!NOTE]
+>
+>As características da pasta não estão disponíveis para comparação nos relatórios de sobreposição de característica por característica. Ao criar um segmento utilizando uma característica de pasta específica, é possível realizar análises através do [relatório de sobreposição de segmento por característica](/help/using/reporting/dynamic-reports/segment-trait-overlap-report.md).
 
 ![](assets/trait-to-trait-overlap.png)
 
@@ -60,7 +64,7 @@ r_t2t_data_pop.xml
 
  -->
 
-O pop-up do relatório [!UICONTROL Trait-to-Trait Overlap] contém as métricas abaixo. Observe que a métrica de únicos na tabela representa seus *usuários em tempo real*.
+O pop-up para o [!UICONTROL Trait-to-Trait Overlap] contém as métricas abaixo. Observe que a métrica de únicos na tabela representa a *usuários em tempo real*.
 
 <table id="table_A2A0CFC47C1A404994B82E6630E711A2"> 
  <thead> 
@@ -116,9 +120,9 @@ O pop-up do relatório [!UICONTROL Trait-to-Trait Overlap] contém as métricas 
 >[!MORELIKETHIS]
 >
 >* [Filtrar resultados do relatório com os controles deslizantes de dados](../../reporting/dynamic-reports/data-sliders.md)
-* [Formas, cores e tamanhos usados em relatórios dinâmicos](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
-* [Explicação dos ícones e ferramentas do relatório](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
-* [Relatórios de sobreposição: Atualizar agendamento e tamanho mínimo do segmento](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
-* [Amostragem de dados e taxas de erro em alguns relatórios do Audience Manager...](../../reporting/report-sampling.md)
-* [Arquivos CSV para relatórios de sobreposição](../../reporting/dynamic-reports/overlap-csv-files.md)
+>* [Formas, cores e tamanhos usados em relatórios dinâmicos](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
+>* [Explicação dos ícones e ferramentas do relatório](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
+>* [Relatórios de sobreposição: Atualizar agendamento e tamanho mínimo do segmento](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
+>* [Amostragem de dados e taxas de erro em alguns relatórios do Audience Manager...](../../reporting/report-sampling.md)
+>* [Arquivos CSV para relatórios de sobreposição](../../reporting/dynamic-reports/overlap-csv-files.md)
 
