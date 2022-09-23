@@ -1,20 +1,20 @@
 ---
 description: Perguntas e problemas comuns relacionados a relatórios.
-seo-description: Perguntas e problemas comuns relacionados a relatórios.
-seo-title: Perguntas frequentes sobre relatórios
+seo-description: Common reporting-related questions and issues.
+seo-title: Reporting FAQ
 solution: Audience Manager
-title: Perguntas frequentes de geração de relatórios
+title: Perguntas frequentes sobre relatórios
 uuid: 78cd6c86-8a4a-4748-ab71-b6e8d6078c94
-feature: Referência de relatórios
+feature: Reporting Reference
 exl-id: 1e6531b2-bb39-4056-9d5e-164f50955f99
-source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
+source-git-commit: 3bddd51582f3f8c46908dba5c5ac1938cb480013
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 99%
+source-wordcount: '695'
+ht-degree: 100%
 
 ---
 
-# Perguntas frequentes sobre relatórios {#reporting-faq}
+# Perguntas frequentes sobre relatórios{#reporting-faq}
 
 Perguntas e problemas comuns relacionados a relatórios.
 
@@ -45,7 +45,7 @@ Para ajudar a reduzir a demanda computacional, esses relatórios omitem dados es
 
 **Se eu executar uma campanha de marketing por email, como posso determinar se os usuários redirecionados vêm para o meu site a partir dessa campanha ou de outras fontes?**
 
-Anexe uma sequência de consulta específica da campanha ao URL da seção do site que você deseja monitorar. Em seguida, configure uma regra de característica para capturar essa variável. Por exemplo, se o URL passar em uma ID de campanha como essa, `www.test123.com/electronics?campaign=123`, crie uma regra de característica para capturar esses dados da variável `h_referer` com uma regra de característica que procura um cabeçalho como `h_referer = 'campaign=123'`).
+Anexe uma sequência de consulta específica da campanha ao URL da seção do site que você deseja monitorar. Em seguida, configure uma regra de característica para capturar essa variável. Por exemplo, se o URL passar em uma ID de campanha como essa, `www.test123.com/electronics?campaign=123`, crie uma regra de característica para capturar esses dados da variável `h_referer` com uma regra de característica que procura um cabeçalho como `h_referer = 'campaign=123'`.
 
 <br> 
 
