@@ -5,9 +5,9 @@ title: Compartilhamento de segmento do Experience Platform com o Audience Manage
 keywords: Compartilhamento de público da AEP, segmentos da AEP, segmentos da plataforma, compartilhamento de segmento, compartilhamento de público, compartilhamento de segmentos AAM compartilhamento de segmentos da AEP
 feature: Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-source-git-commit: 14e0ddd00d3a25674090ea9dbe485c77ad1d2aed
+source-git-commit: 0245dd11de31c3139c5df5dc78100f0d3935aa2e
 workflow-type: tm+mt
-source-wordcount: '1862'
+source-wordcount: '1901'
 ht-degree: 1%
 
 ---
@@ -41,9 +41,9 @@ Consulte a tabela abaixo para obter uma visão geral dos casos de uso de compart
 
 {style=&quot;table-layout:auto&quot;}
 
-## Introdução - Como ativar o compartilhamento de dados entre o Audience Manager e o Experience Platform {#enable-data-sharing-aam-aep}
+## Segmentos e características do Audience Manager no Adobe Experience Platform {#aam-segments-traits-in-aep}
 
-As duas seções abaixo indicam como ativar o compartilhamento de dados entre o Audience Manager e o Experience Platform.
+As seções abaixo descrevem como habilitar o compartilhamento de dados de Audience Manager para Experience Platform e como usar características e segmentos de Audience Manager no Experience Platform.
 
 ### Ative o compartilhamento de dados do Audience Manager para o Experience Platform {#enable-aam-to-aep-data}
 
@@ -58,6 +58,17 @@ Para enviar segmentos e características de Audience Manager para Experience Pla
 >
 >![Captura de tela mostrando as opções Select all segments e Select all traits desmarcadas no workflow para se conectar ao conector de origem do Audience Manager.](/help/using/integration/integration-aep/assets/select-all-segments-traits-unchecked.png)
 
+### Usar características e segmentos do Audience Manager no Experience Platform {#use-aam-data-in-aep}
+
+Após configurar o conector de origem do Audience Manager para importar características e segmentos do Audience Manager, seus dados do Audience Manager aparecem no Experience Platform como **Públicos-alvo** no fluxo de trabalho do segmento. Para obter mais informações sobre seus segmentos de Audience Manager e características no Experience Platform, leia:
+
+* [Visão geral do serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#audiences)
+* [Guia do usuário do Experience Platform Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#audiences)
+
+## Segmentos Adobe Experience Platform no Audience Manager {#aep-segments-in-aam}
+
+As seções abaixo descrevem como ativar o compartilhamento de dados do Experience Platform para o Audience Manager e como usar os segmentos do Experience Platform no Audience Manager.
+
 ### Ative o compartilhamento de dados do Experience Platform para o Audience Manager {#enable-aep-to-aam-data}
 
 >[!NOTE]
@@ -68,14 +79,7 @@ Para enviar segmentos do Experience Platform para o Audience Manager, você deve
 
 Certifique-se de compartilhar planos para os dados que vão de Plataforma para Audience Manager, para garantir que a conexão esteja configurada corretamente. Por exemplo, se você precisar que dados regionais sejam compartilhados para segmentos enviados para a Adobe Target, essas informações precisarão ser comunicadas no ticket. A conexão de compartilhamento de dados do Experience Platform para o Audience Manager é configurada no prazo de seis dias úteis após o envio da solicitação.
 
-## Segmentos e características do Audience Manager no Adobe Experience Platform {#aam-segments-traits-in-aep}
-
-Após configurar o conector de origem do Audience Manager para importar características e segmentos do Audience Manager, seus dados do Audience Manager aparecem no Experience Platform como **Públicos-alvo** no fluxo de trabalho do segmento. Para obter mais informações sobre seus segmentos de Audience Manager e características no Experience Platform, leia:
-
-* [Visão geral do serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#audiences)
-* [Guia do usuário do Experience Platform Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#audiences)
-
-## Segmentos Adobe Experience Platform no Audience Manager {#aep-segments-in-aam}
+### Usar segmentos de Experience Platform no Audience Manager {#use-aep-data-in-aam}
 
 Os segmentos criados no Experience Platform aparecem na interface do Audience Manager como sinais, características e segmentos, com as seguintes regras de composição:
 
