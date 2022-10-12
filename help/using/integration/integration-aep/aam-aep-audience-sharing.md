@@ -1,22 +1,18 @@
 ---
-description: Este artigo descreve como os públicos-alvo são compartilhados entre o Audience Manager e o Adobe Experience Platform
+description: Saiba como habilitar o compartilhamento de dados e como os públicos-alvo são compartilhados entre o Audience Manager e o Adobe Experience Platform
 solution: Audience Manager
 title: Compartilhamento de segmento do Experience Platform com o Audience Manager e outras soluções do Experience Cloud
 keywords: Compartilhamento de público da AEP, segmentos da AEP, segmentos da plataforma, compartilhamento de segmento, compartilhamento de público, compartilhamento de segmentos AAM compartilhamento de segmentos da AEP
 feature: Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-source-git-commit: 8bee593d0359f87f030840f87d70025dd5ea33ed
+source-git-commit: 14e0ddd00d3a25674090ea9dbe485c77ad1d2aed
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1862'
 ht-degree: 1%
 
 ---
 
 # Compartilhamento de segmento do Experience Platform com o Audience Manager e outras soluções do Experience Cloud
-
->[!NOTE]
->
-> Entre em contato com seu representante de vendas do Adobe para desbloquear o acesso a essa funcionalidade.
 
 ## Visão geral {#overview}
 
@@ -45,13 +41,39 @@ Consulte a tabela abaixo para obter uma visão geral dos casos de uso de compart
 
 {style=&quot;table-layout:auto&quot;}
 
+## Introdução - Como ativar o compartilhamento de dados entre o Audience Manager e o Experience Platform {#enable-data-sharing-aam-aep}
+
+As duas seções abaixo indicam como ativar o compartilhamento de dados entre o Audience Manager e o Experience Platform.
+
+### Ative o compartilhamento de dados do Audience Manager para o Experience Platform {#enable-aam-to-aep-data}
+
+Para enviar segmentos e características de Audience Manager para Experience Platform, você deve configurar o conector de origem do Audience Manager no catálogo de origens do Experience Platform. Este é um fluxo de trabalho de autoatendimento que não requer o envolvimento das equipes de Atendimento ao cliente ou de engenharia do Adobe. Para configurar o conector de origem do Audience Manager, leia:
+
+* [Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
+* [Criar uma conexão de origem do Adobe Audience Manager na interface do usuário](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/audience-manager.html?lang=en)
+
+>[!IMPORTANT]
+>
+>O Adobe incentiva os clientes a configurar a conexão sem selecionar o **[!UICONTROL Select all segments]** e **[!UICONTROL Select all traits]** , conforme mostrado abaixo. A assimilação de populações de segmentos de Audience Manager consideráveis afeta diretamente a contagem total de perfis ao enviar um segmento de Audience Manager para a Platform pela primeira vez usando a fonte de Audience Manager. Isso significa que a seleção de todos os segmentos pode levar a uma contagem de Perfis além do seu direito de uso de licença.
+>
+>![Captura de tela mostrando as opções Select all segments e Select all traits desmarcadas no workflow para se conectar ao conector de origem do Audience Manager.](/help/using/integration/integration-aep/assets/select-all-segments-traits-unchecked.png)
+
+### Ative o compartilhamento de dados do Experience Platform para o Audience Manager {#enable-aep-to-aam-data}
+
+>[!NOTE]
+>
+> Entre em contato com o Gerente de sucesso do cliente do Adobe ou com o Atendimento ao cliente para desbloquear o acesso a essa funcionalidade.
+
+Para enviar segmentos do Experience Platform para o Audience Manager, você deve entrar em contato com o Atendimento ao cliente ou com o Gerente de sucesso do cliente. As equipes de Atendimento ao cliente e Gerenciamento de suporte ao cliente devem registrar um ticket (consulte ticket modelo AAM-52354) para habilitar a conexão da Plataforma ao Audience Manager.
+
+Certifique-se de compartilhar planos para os dados que vão de Plataforma para Audience Manager, para garantir que a conexão esteja configurada corretamente. Por exemplo, se você precisar que dados regionais sejam compartilhados para segmentos enviados para a Adobe Target, essas informações precisarão ser comunicadas no ticket. A conexão de compartilhamento de dados do Experience Platform para o Audience Manager é configurada no prazo de seis dias úteis após o envio da solicitação.
+
 ## Segmentos e características do Audience Manager no Adobe Experience Platform {#aam-segments-traits-in-aep}
 
-Suas características e segmentos do Audience Manager aparecem no Experience Platform como **Públicos-alvo** no fluxo de trabalho do segmento. Para obter mais informações sobre seus segmentos de Audience Manager e características no Experience Platform, consulte:
+Após configurar o conector de origem do Audience Manager para importar características e segmentos do Audience Manager, seus dados do Audience Manager aparecem no Experience Platform como **Públicos-alvo** no fluxo de trabalho do segmento. Para obter mais informações sobre seus segmentos de Audience Manager e características no Experience Platform, leia:
 
 * [Visão geral do serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#audiences)
 * [Guia do usuário do Experience Platform Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#audiences)
-* [Conector Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
 
 ## Segmentos Adobe Experience Platform no Audience Manager {#aep-segments-in-aam}
 
@@ -143,7 +165,7 @@ A tabela a seguir descreve como os Rótulos de exportação de dados específico
 | Este destino pode permitir uma combinação com informações pessoalmente identificáveis (PII) | Combinar com PII |
 | Esse destino pode ser usado para direcionamento de anúncios fora do site | Direcionamento entre sites |
 | Esse destino pode ser usado para o direcionamento de anúncios no site | Publicidade no site |
-| Esse destino pode ser usado para personalização de anúncios no site | Personalization no site |
+| Esse destino pode ser usado para personalização de anúncios no site | Personalização no site |
 
 {style=&quot;table-layout:auto&quot;}
 
