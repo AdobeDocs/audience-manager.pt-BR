@@ -1,13 +1,14 @@
 ---
 description: Saiba mais sobre os componentes de um segmento e as expressões usadas para definir critérios de qualificação de público-alvo. Encontre também informações sobre como os dados são transmitidos.
 landing-page-description: Saiba mais sobre os componentes de um segmento e as expressões usadas para definir critérios de qualificação de público-alvo. Encontre também informações sobre como os dados são transmitidos.
+short-description: Learn about the components of a segment and the expressions used to set audience qualification criteria. Also find information about how data is transmitted.
 seo-title: Signals, Traits, and Segments
 solution: Audience Manager
 title: Sinais, características e segmentos
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
 feature: Reference
 exl-id: ec33f2c3-1589-4c02-a85a-db0d72467f32
-source-git-commit: 865800eb076811db38aec8e98714ad9712804f77
+source-git-commit: 5d62ecabfe66faa024f8e89149e47dd76d1bba86
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 16%
