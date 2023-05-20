@@ -37,7 +37,7 @@ ht-degree: 91%
 + Recursos {#features}
    + [Públicos endereçáveis](features/addressable-audiences.md)
    + Administração {#administration}
-      + [Migração de usuários do Audience Manager para o Admin Console](features/administration/admin-console-migration.md)
+      + [Migração de usuário do Audience Manager para o Admin Console](features/administration/admin-console-migration.md)
       + [Administração](features/administration/administration-overview.md)
       + [Editar as configurações da conta](features/administration/edit-account-settings.md)
       + [Ofuscação de endereço IP](features/administration/ip-obfuscation.md)
@@ -112,7 +112,7 @@ ht-degree: 91%
          + [Adicionar novos destinos com base em dispositivo](features/destinations/add-device-based-destinations.md)
          + [Lista de destinos com base em dispositivo do Audience Manager](/help/using/features/destinations/device-based-destinations-list.md)
          + [Adicionar ou editar segmentos para destinos de servidor para servidor](features/destinations/add-edit-segments.md)
-         + [Configurar públicos-alvo personalizados do Twitter como um destino baseado em dispositivo de autoatendimento](features/destinations/twitter-tailored-audiences.md)
+         + [Configure os Públicos-alvo personalizados do Twitter como um destino autoatendido com base em dispositivo](features/destinations/twitter-tailored-audiences.md)
       + Destinos personalizados {#custom-destinations}
          + [Configurar um destino de URL](features/destinations/create-url-destination.md)
          + [Configurar um destino de cookie](features/destinations/create-cookie-destination.md)
@@ -190,7 +190,7 @@ ht-degree: 91%
          + [Conversão entre canais](reporting/audience-optimization-reports/aor-advertisers/cross-channel-conversion-reporting.md)
       + Otimização de público-alvo para editores {#audience-optimization-publishers}
          + [Visão geral da otimização de público-alvo para editores](reporting/audience-optimization-reports/aor-publishers/aor-publishers.md)
-         + [Importar arquivos de dados do Google Ad Manager (antigo DFP) para o Audience Manager](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
+         + [Importação de arquivos de dados do Google Ad Manager (antigo DFP) para o Audience Manager](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
          + [Relatório de desempenho do segmento](reporting/audience-optimization-reports/aor-publishers/publisher-segment-performance.md)
          + [Relatório de tendência do segmento](reporting/audience-optimization-reports/aor-publishers/publisher-segment-trends.md)
          + [Características principais não usadas](reporting/audience-optimization-reports/aor-publishers/publisher-top-unused-traits.md)
@@ -238,7 +238,7 @@ ht-degree: 91%
          + [Visão geral de referência da DCS API](api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)
          + [Métodos da DCS API](api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
          + [Códigos de erros, mensagens e exemplos de DCS](api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
-         + [Monitoramento de ID e Incluir na lista de bloqueios](api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
+         + [Monitoramento e Incluir na lista de bloqueios de ID](api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
          + [IDs da região do DCS, locais e nomes de host](api/dcs-intro/dcs-api-reference/dcs-regions.md)
          + [Formatação de pares de valores-chave em chamadas DCS](api/dcs-intro/dcs-api-reference/dcs-key-format.md)
          + [Condições de raça e tratamento de erros](api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
@@ -285,9 +285,9 @@ ht-degree: 91%
 + Guias de implementação e integração {#implementation-integration-guides}
    + [Guias de implementação e integração](integration/implementation-and-integration.md)
    + [Métodos de integração de dados](integration/data-integration-methods.md)
-   + Integrar o Google Ad Manager usando as Tags do editor da Google (GPT){#integrate-dfp-using-gpt}
-      + [Integrar o Google Ad Manager usando a visão geral do GPT](integration/gpt-aam-destination/gpt-aam-overview.md)
-      + [Envio de segmentos ao Google Ad Manager com GPT](integration/gpt-aam-destination/gpt-aam-requirements.md)
+   + Integrar o Google Ad Manager usando as Tags do Google Publisher (GPT){#integrate-dfp-using-gpt}
+      + [Integrar o Google Ad Manager usando a Visão geral do GPT](integration/gpt-aam-destination/gpt-aam-overview.md)
+      + [Envio de segmentos ao Google Ad Manager usando GPT](integration/gpt-aam-destination/gpt-aam-requirements.md)
       + [Criar um destino com GPT](integration/gpt-aam-destination/gpt-aam-create-destination.md)
       + [Modificar a chamada da API setTargeting GPT](integration/gpt-aam-destination/gpt-aam-modify-api.md)
       + [Código do Audience Manager para Tags do Google Publisher](integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
@@ -312,7 +312,7 @@ ht-degree: 91%
          + [Integração do OAuth 2.0 para transferências de saída em tempo real](integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md)
       + Transferências de dados de saída em lote {#batch-outbound-data-transfers}
          + [Visão geral de transferências de dados de saída em lote](integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md)
-         + [Configurar integração de transferência de dados em lote](integration/receiving-audience-data/batch-outbound-transfers/batch-server-configuration.md)
+         + [Configurar a integração da transferência de dados em lote](integration/receiving-audience-data/batch-outbound-transfers/batch-server-configuration.md)
          + [Nome do arquivo de dados de saída: sintaxe e exemplos](integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
          + [Arquivos de controle de transferência para transferências de arquivos de log](integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
          + [Macros de modelo de saída](integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
@@ -337,9 +337,9 @@ ht-degree: 91%
          + [Mensagem de amostra para parceiros após o processamento de entrada](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
       + [Integrações personalizadas de parceiros](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Integração com a Adobe Experience Platform {#integration-experience-platform}
-      + [Compartilhamento de segmento do Experience Platform com o Audience Manager e outras soluções do Experience Cloud](integration/integration-aep/aam-aep-audience-sharing.md)
-   + Integração com outros aplicativos do Experience Cloud {#integration-other-solutions}
-      + [Integrar o Audience Manager ao Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
+      + [compartilhamento de segmento Experience Platform com Audience Manager e outras soluções Experience Cloud](integration/integration-aep/aam-aep-audience-sharing.md)
+   + Integração com outros aplicativos Experience Cloud {#integration-other-solutions}
+      + [Integrar o Audience Manager com o Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Como encaminhar dados do Adobe Analytics para o Audience Manager](integration/integration-other-solutions/audience-management-module.md)
       + [Publicar um segmento do Adobe Analytics no Experience Cloud (abre a documentação do Adobe Analytics)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)
       + [Integrar o Audience Manager com o Adobe Campaign (abre a documentação do Adobe Campaign)](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)

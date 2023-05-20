@@ -1,15 +1,15 @@
 ---
 description: Não estamos usando o Audience Manager, mas estamos vendo chamadas Javascript do Audience Manager no depurador Javascript - Por quê?
-seo-description: Não estamos usando, mas estamos vendo chamadas Javascript do Audience Manager no depurador Javascript - Por quê?
-seo-title: Não estamos usando o Audience Manager, mas estamos vendo chamadas Javascript do Audience Manager no depurador Javascript - Por quê?
+seo-description: We are not using  but we are seeing Audience Manager Javascript calls in the Javascript debugger - Why?
+seo-title: We are not using Audience Manager but we are seeing Audience Manager Javascript calls in the Javascript debugger - Why?
 solution: Audience Manager
 title: Não estamos usando o Audience Manager, mas estamos vendo chamadas Javascript do Audience Manager no depurador Javascript - Por quê?
-feature: Suporte
+feature: Support
 exl-id: f409e326-17b3-40ee-8570-8d99119fe337
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 92%
+source-wordcount: '148'
+ht-degree: 90%
 
 ---
 

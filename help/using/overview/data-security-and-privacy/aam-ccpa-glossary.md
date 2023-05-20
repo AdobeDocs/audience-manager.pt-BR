@@ -1,15 +1,15 @@
 ---
 description: Este artigo explica os conceitos e a terminologia usados pela California Consumer Privacy Act (CCPA) e como o Adobe Audience Manager atende a vários requisitos da CCPA.
-seo-description: Este artigo explica os conceitos e a terminologia usados pela California Consumer Privacy Act (CCPA) e como o Adobe Audience Manager atende a vários requisitos da CCPA.
-seo-title: Glossário da CCPA
+seo-description: This article explains the concepts and terminology used by the California Consumer Privacy Act (CCPA), and how Adobe Audience Manager addresses various CCPA requirements.
+seo-title: CCPA Glossary
 solution: Audience Manager
 title: Glossário da CCPA
-feature: Governança e privacidade de dados
+feature: Data Governance & Privacy
 exl-id: b3e97e2b-81a4-4b32-9716-5b18c3f8362f
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 99%
+source-wordcount: '517'
+ht-degree: 100%
 
 ---
 
@@ -52,6 +52,5 @@ Familiarize-se com os termos principais usados relacionados à CCPA. Destacamos 
  
 
 >[!MORELIKETHIS]
-[Visão geral da privacidade de dados](/help/using/overview/data-security-and-privacy/data-privacy.md)>
 >
-
+>[Visão geral da privacidade de dados](/help/using/overview/data-security-and-privacy/data-privacy.md)

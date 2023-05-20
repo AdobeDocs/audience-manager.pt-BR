@@ -22,7 +22,7 @@ Este artigo explica os conceitos e a terminologia usados pelo Regulamento Geral 
 
 O GDPR entrou em vigor em 25 de maio de 2018, com o objetivo principal de oferecer aos indivíduos na UE (titulares de dados) mais controle dos seus dados pessoais, simplificando simultaneamente o ambiente regulamentar para as empresas internacionais através de uma melhor uniformização da regulamentação na UE. Como parte da preparação para o GDPR da Adobe, a equipe do Adobe Audience Manager aprimorou os serviços e processos necessários para dar suporte ao acesso e excluir solicitações dos titulares de dados, seus consumidores.
 
-Leia também sobre o GDPR na seção [Visão geral das regras de privacidade](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=en) para entender melhor como o GDPR funciona no Experience Cloud.
+Leia também sobre o GDPR na [Visão geral das regras de privacidade](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=en) para compreender melhor como o GDPR funciona no Experience Cloud.
 
 ## Glossário do GDPR {#gdpr-glossay}
 

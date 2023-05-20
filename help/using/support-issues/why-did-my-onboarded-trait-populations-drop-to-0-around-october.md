@@ -1,14 +1,14 @@
 ---
 description: Por volta de 14 de outubro de 2019, notei que minhas populações de características integradas do gráfico de ID de dispositivo caíram para 0, mas antes elas eram muito maiores.
-seo-description: Por volta de 14 de outubro de 2019, notei que minhas populações de características integradas do gráfico de ID de dispositivo caíram para 0, mas antes elas eram muito maiores.
-seo-title: Por que minhas populações de características integradas caíram para 0 por volta de 15 de outubro?
+seo-description: Around October 14th, 2019 I noticed that my onboarded trait populations for the Device ID graph have dropped to 0, where previously they were much higher.
+seo-title: Why did my Onboarded trait populations drop to 0 around October 15th?
 solution: Audience Manager
 title: Por que minhas populações de características integradas caíram para 0 por volta de 15 de outubro?
-feature: Suporte
+feature: Support
 exl-id: e93cee15-7d05-4f81-8f14-a3e03f214542
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '195'
 ht-degree: 100%
 
 ---

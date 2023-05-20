@@ -1,20 +1,20 @@
 ---
 description: Perguntas e problemas comuns relacionados ao direcionamento.
-seo-description: Perguntas e problemas comuns relacionados ao direcionamento.
-seo-title: Perguntas frequentes sobre direcionamento
+seo-description: Common targeting-related questions and issues.
+seo-title: Targeting FAQ
 solution: Audience Manager
 title: Perguntas frequentes sobre direcionamento
 uuid: ee96ef71-b903-4953-afc4-8ec8e48bd49e
-feature: Taxas de correspondência
+feature: Match Rates
 exl-id: e5f761fd-dfc8-4859-a81e-89abbd7f2914
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '913'
 ht-degree: 100%
 
 ---
 
-# Perguntas frequentes sobre direcionamento {#targeting-faq}
+# Perguntas frequentes sobre direcionamento{#targeting-faq}
 
 Perguntas e problemas comuns relacionados ao direcionamento.
 

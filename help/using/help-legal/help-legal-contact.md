@@ -1,14 +1,14 @@
 ---
 description: Informações para ajudar você a entrar em contato com a Adobe e compreender as questões jurídicas relativas ao uso deste produto e documentação.
-seo-description: Informações para ajudar você a entrar em contato com a Adobe e compreender as questões jurídicas relativas ao uso deste produto e documentação.
-seo-title: Contato e informações legais
+seo-description: Information to help you contact Adobe and to understand the legal issues concerning your use of this product and documentation.
+seo-title: Contact and Legal Information
 solution: Audience Manager
 title: Contato e informações legais
-feature: Suporte
+feature: Support
 exl-id: 02c80394-c5ed-4963-8543-4585c0c289c6
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '262'
 ht-degree: 100%
 
 ---

@@ -1,7 +1,7 @@
 ---
 description: Esta seção descreve como analisar uma resposta do DCS para recuperar as IDs de visitante e de região necessárias para fazer chamadas em tempo real para o DCS.
-seo-description: Esta seção descreve como analisar uma resposta do DCS para recuperar as IDs de visitante e de região necessárias para fazer chamadas em tempo real para o DCS.
-seo-title: Obter IDs de usuário e regiões de uma resposta do DCS
+seo-description: This section describes how to parse a DCS response to retrieve the visitor and region IDs required to make real-time calls to the DCS.
+seo-title: Get User IDs and Regions From a DCS Response
 solution: Audience Manager
 title: Obter IDs de usuário e regiões de uma resposta do DCS
 uuid: 08036045-3b26-4d40-8e94-7d0884048683
@@ -9,23 +9,23 @@ feature: DCS
 exl-id: 3c0c5e57-2d59-4938-9bbd-761495142c31
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 17%
+source-wordcount: '214'
+ht-degree: 16%
 
 ---
 
 # Obter IDs de usuário e regiões de uma resposta do DCS {#get-user-ids-and-regions-from-a-dcs-response}
 
-Esta seção descreve como analisar uma resposta [!DNL DCS] para recuperar as IDs de visitante e de região necessárias para fazer chamadas em tempo real para o [!DNL DCS].
+Esta seção descreve como analisar uma [!DNL DCS] para recuperar as IDs de visitante e região necessárias para fazer chamadas em tempo real para o [!DNL DCS].
 
 ## IDs de usuário e região {#user-region-ids}
 
-Uma resposta [!DNL DCS] contém dados sobre os visitantes do site. Você precisa do visitante e da ID da região antes de poder fazer chamadas de servidor para servidor para o [!DNL DCS].
+A [!DNL DCS] A resposta do contém dados sobre os visitantes do site. Você precisa da ID de visitante e região antes de fazer chamadas de servidor para servidor para o [!DNL DCS].
 
 * A ID de usuário é necessária para identificar e associar dados a um visitante específico.
-* A ID da região é necessária porque está vinculada a um nome de servidor regional, que você precisa enviar dados para o [!DNL DCS]. O [!DNL DCS] armazena informações em data centers que são geograficamente os mais próximos aos visitantes do site. Consulte [IDs da região do DCS, locais e nomes de host](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+* A ID da região é necessária porque está vinculada a um nome de servidor regional, que você precisa enviar para o [!DNL DCS]. A variável [!DNL DCS] O armazena informações em data centers geograficamente mais próximos dos visitantes do site. Consulte [IDs da região do DCS, locais e nomes de host](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
-Esses parâmetros são descritos abaixo. O código em *itálico* representa um espaço reservado de variável.
+Esses parâmetros são descritos abaixo. Código no *itálico* representa um espaço reservado para variável.
 
 <table id="table_822C02D5978348DCB7153001882D397C"> 
  <thead> 
@@ -51,7 +51,7 @@ Esses parâmetros são descritos abaixo. O código em *itálico* representa um e
 
 ## Resposta de exemplo {#sample-response}
 
-Esta resposta simples mostra o `UUID` e a região `ID`. Observação: trata-se apenas de dados de amostra. Seus arquivos de log podem ser mais longos e complexos.
+Essa resposta simples mostra o `UUID` e região `ID`. Observe que esses são apenas dados de amostra. Os arquivos de log podem ser mais longos e complexos.
 
 ```js
 {
@@ -64,4 +64,4 @@ Esta resposta simples mostra o `UUID` e a região `ID`. Observação: trata-se a
 
 ## Próximas etapas {#next-steps}
 
-Depois de ter o ID do usuário e o nome do servidor regional, você pode começar a enviar e receber dados [!DNL DCS]. Consulte [Efetuar chamadas de API DCS](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md).
+Depois de ter a ID de usuário e o nome do servidor regional, você pode começar a enviar e receber [!DNL DCS] dados. Consulte [Como fazer chamadas de DCS API](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md).

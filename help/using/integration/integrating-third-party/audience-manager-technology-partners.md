@@ -1,5 +1,5 @@
 ---
-description: Esta página inclui apenas integrações atuais de servidor para servidor. Para obter mais informações sobre uma integração, consulte a listagem de Adobe Exchange (quando disponível) ou entre em contato com seu consultor de Adobe ou com o Atendimento ao cliente.
+description: Esta página inclui somente integrações atuais de servidor para servidor. Para obter mais informações sobre uma integração, consulte a lista Adobe Exchange (quando disponível) ou entre em contato com seu consultor de Adobe ou com o Atendimento ao cliente.
 seo-description: This page includes current server-to-server integrations only. For more information on an integration refer to its Adobe Exchange listing (where available) or contact your Adobe Consultant or Customer Care.
 seo-title: Adobe Audience Manager Technology Partners
 keywords: ativação; parceiros de ativação, destino, destinos
@@ -14,161 +14,161 @@ ht-degree: 61%
 ---
 
 
-# Parceiros de ativação do Audience Manager
+# Parceiros de ativação de Audience Manager
 
-Esta página inclui apenas Audience Manager [integrações de servidor para servidor](/help/using/features/destinations/add-edit-segments.md) atuais.  Para obter mais informações sobre uma integração, consulte a listagem [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (quando disponível) ou entre em contato com seu consultor Adobe ou com o Atendimento ao cliente.
-
-<br> 
-
-* **Atualizado**  = Mostra a última data em que houve uma atualização para este parceiro de ativação.
-* **Unsegment**  = Unsegmentation descreve processos que desqualificam e removem perfis de dispositivos de segmentos. Sua capacidade de remover um perfil de dispositivo de um segmento depende da opção de dispositivo usada para criar uma Regra de mesclagem de perfis. O cancelamento de segmentos também é usado no contexto de solicitações de exclusão do GDPR Leia [Regras de mesclagem de perfis e Processos de cancelamento de segmentos de dispositivos](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) e [Parceiros de Audience Manager com recursos de cancelamento de segmentação](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation). O Audience Manager envia informações de cancelamento de segmentos para os destinos marcados com Sim abaixo.
-* **Recebendo sinais de consentimento da TCF do IAB**  = o Plug-in do Audience Manager para a TCF do IAB permite encaminhar a cadeia de caracteres do TC do IAB para parceiros de ativação, respeitando as opções de privacidade dos usuários. Leia o [Plug-in do Audience Manager para TCF do IAB](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners).
-* **ICDS**  = esta coluna lista os parceiros que oferecem suporte à Supressão instantânea entre dispositivos. Leia [Supressão instantânea entre dispositivos](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
-* **IDs de dispositivo móvel**  = essa coluna lista os parceiros que podem receber IDs de dispositivo móvel do Audience Manager.
+Esta página inclui o Audience Manager atual [integrações servidor para servidor](/help/using/features/destinations/add-edit-segments.md) somente.  Para obter mais informações sobre uma integração, consulte as [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (quando disponível) ou entre em contato com seu Consultor Adobe ou com o Atendimento ao cliente.
 
 <br> 
 
-| Integração | Atualizado | Cancelar segmento | Recebendo sinais de consentimento da TCF do IAB | ICDS | IDs de dispositivo móvel |
+* **Atualizado** = Mostra a última data em que houve uma atualização para esse parceiro de ativação.
+* **Remover segmento** = O cancelamento de segmentação descreve processos que desqualificam e removem perfis de dispositivos de segmentos. Sua capacidade de remover um perfil de dispositivo de um segmento depende da opção de dispositivo usada para criar uma Regra de mesclagem de perfis. O cancelamento de segmentos também é usado no contexto de solicitações de exclusão do GDPR Read [Regras de mesclagem de perfis e processos de cancelamento de segmentação de dispositivos](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) e [Parceiros Audience Manager Com Recursos De Cancelamento De Segmentação](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation). O Audience Manager envia informações de cancelamento de segmentos para os destinos marcados com Sim abaixo.
+* **Recebimento de sinais de consentimento da TCF do IAB** = O Plug-in do Audience Manager para a TCF do IAB permite encaminhar a string do TC do IAB para parceiros de ativação, respeitando as opções de privacidade dos usuários. Ler [Plug-in do Audience Manager para a TCF do IAB](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners).
+* **ICDS** = Essa coluna lista os parceiros que oferecem suporte à Supressão instantânea entre dispositivos. Ler [Supressão instantânea entre dispositivos](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
+* **IDs de dispositivo móvel** = Essa coluna lista os parceiros que podem receber IDs de dispositivos móveis do Audience Manager.
+
+<br> 
+
+| Integração | Atualizado | Remover segmento | Recebimento de sinais de consentimento da TCF do IAB | ICDS | IDs de dispositivo móvel |
 |---------------------------------------------------|------------|-----------|-----------------------------------|------|-------------------|
-| Insights do 4C | 09/26/2018 | Sim | Não | Não | Sim |
-| 4info | 02/09/2017 | Não | Não | Não | Sim |
-| AcuityAds | 02/09/2017 | Sim | Não | Sim | Não |
-| Adara | 02/17/2017 | Sim | Não | Não | Não |
-| Mobilidade viciosa | 02/22/2017 | Sim | Não | Sim | Sim |
-| Adelphic | 02/22/2017 | Não | Não | Não | Sim |
-| AdForm | 02/22/2017 | Sim | Não | Sim | Sim |
-| AdGear | 02/22/2017 | Sim | Não | Sim | Não |
-| Adikteev | 01/26/2018 | Sim | Não | Não | Sim |
-| Adswizz | 10/09/2017 | Sim | Não | Não | Sim |
-| Adtheorent | 02/22/2017 | Sim | Não | Não | Sim |
-| Afinio | 04/03/2018 | Sim | Não | Não | Sim |
-| Aki | 06/21/2018 | Não | Não | Não | Sim |
-| Amazon Advertising | 06/15/2017 | Sim | Não | Não | Não |
-| AOL AdLearning | 03/02/2017 | Não | Não | Não | Sim |
-| AOL ONE | 03/02/2017 | Sim | Não | Não | Sim |
-| AppNexus | 03/02/2017 | Sim | Não | Sim | Não |
-| AppNexus Yieldex | 08/10/2017 | Sim | Não | Não | Não |
-| Atedra/AdPermanent | 03/02/2017 | Sim | Não | Sim | Não |
-| Evitar | 12/06/2017 | Não | Não | Não | Não |
+| 4C Insights | 26/09/2018 | Sim | Não | Não | Sim |
+| 4info | 09/02/2017 | Não | Não | Não | Sim |
+| AcuityAds | 09/02/2017 | Sim | Não | Sim | Não |
+| Adara | 17/02/2017 | Sim | Não | Não | Não |
+| Mobilidade viciante | 22/02/2017 | Sim | Não | Sim | Sim |
+| Adélfico | 22/02/2017 | Não | Não | Não | Sim |
+| FormulárioAnúncio | 22/02/2017 | Sim | Não | Sim | Sim |
+| AdGear | 22/02/2017 | Sim | Não | Sim | Não |
+| Adikteev | 26/01/2018 | Sim | Não | Não | Sim |
+| Adswizz | 09/10/2017 | Sim | Não | Não | Sim |
+| Adtheorent | 22/02/2017 | Sim | Não | Não | Sim |
+| Afinio | 03/04/2018 | Sim | Não | Não | Sim |
+| Aki | 21/06/2018 | Não | Não | Não | Sim |
+| Amazon Advertising | 15/06/2017 | Sim | Não | Não | Não |
+| AOL AdLearn | 02/03/2017 | Não | Não | Não | Sim |
+| AOL ONE | 02/03/2017 | Sim | Não | Não | Sim |
+| AppNexus | 02/03/2017 | Sim | Não | Sim | Não |
+| AppNexus Yieldex | 10/08/2017 | Sim | Não | Não | Não |
+| Atedra/AdStanding | 02/03/2017 | Sim | Não | Sim | Não |
+| Avocet | 06/12/2017 | Não | Não | Não | Não |
 | Bidtellect | 03/03/2017 | Sim | Não | Não | Não |
-| Cera de abelhas | 05/25/2018 | Não | Não | Não | Sim |
-| Tela de marca | 03/03/2017 | Não | Não | Não | Não |
+| Cera de abelhas | 25/05/2018 | Não | Não | Não | Sim |
+| Brandscreen | 03/03/2017 | Não | Não | Não | Não |
 | Brightroll | 03/03/2017 | Não | Sim | Não | Não |
-| Botão | 12/18/2017 | Sim | Não | Não | Sim |
-| Troca C1 | 02/27/2017 | Sim | Não | Não | Não |
-| Celtra | 02/27/2017 | Sim | Não | Não | Sim |
-| Centro | 02/27/2017 | Não | Não | Não | Sim |
-| ChoiceStream | 02/27/2017 | Não | Não | Não | Não |
-| Clearstream.tv | 02/27/2017 | Sim | Não | Não | Não |
-| Plataforma AMP coletiva | 02/27/2017 | Não | Não | Não | Não |
-| Critério | 02/27/2017 | Não | Sim | Não | Sim |
-| Crosswise | 02/27/2017 | Sim | Não | Não | Não |
-| D.A.C. AudienceOne | 02/27/2017 | Sim | Não | Não | Não |
-| DataXu | 20/11/2017 | Não | Não | Não | Sim |
-| Digilante | 03/02/2017 |  | Não | Não | Não |
-| DistritoM | 03/02/2017 | Sim | Não | Não | Não |
-| DoubleVerify | 09/06/2017 | Sim | Não | Não | Não |
-| Drawbridge | 03/02/2017 | Não | Não | Não | Sim |
-| Destilaria (FKA Media6) | 03/02/2017 | Sim | Não | Não | Sim |
-| Epsilon Conversor | 03/03/2017 | Não | Não | Não | Não |
-| Exponencial | 02/27/2017 | Sim | Não | Sim | Não |
-| Marketing por Eyereturn | 04/11/2017 | Sim | Não | Não | Não |
-| EyeView Digital | 06/14/2018 | Sim | Não | Não | Sim |
+| Botão | 18/12/2017 | Sim | Não | Não | Sim |
+| Exchange C1 | 27/02/2017 | Sim | Não | Não | Não |
+| Celtra | 27/02/2017 | Sim | Não | Não | Sim |
+| Centro | 27/02/2017 | Não | Não | Não | Sim |
+| ChoiceStream | 27/02/2017 | Não | Não | Não | Não |
+| Clearstream.tv | 27/02/2017 | Sim | Não | Não | Não |
+| Plataforma AMP coletiva | 27/02/2017 | Não | Não | Não | Não |
+| Critério | 27/02/2017 | Não | Sim | Não | Sim |
+| Transversalmente | 27/02/2017 | Sim | Não | Não | Não |
+| D.A.C. AudienceOne | 27/02/2017 | Sim | Não | Não | Não |
+| DataXu | 11/20/2017 | Não | Não | Não | Sim |
+| Digilante | 02/03/2017 |  | Não | Não | Não |
+| DistrictM | 02/03/2017 | Sim | Não | Não | Não |
+| DuploVerificar | 06/09/2017 | Sim | Não | Não | Não |
+| Drawbridge | 02/03/2017 | Não | Não | Não | Sim |
+| Delillery (FKA Media6) | 02/03/2017 | Sim | Não | Não | Sim |
+| Epsilon Conversant | 03/03/2017 | Não | Não | Não | Não |
+| Exponencial | 27/02/2017 | Sim | Não | Sim | Não |
+| Marketing de retorno ocular | 11/04/2017 | Sim | Não | Não | Não |
+| EyeView Digital | 14/06/2018 | Sim | Não | Não | Sim |
 | Fiksu | 03/03/2017 | Sim | Não | Não | Sim |
-| Flashtalk | 03/02/2017 | Não | Não | Não | Não |
-| FreakOut | 03/03/2017 | Sim | Não | Não | Não |
-| Freewheel | 02/27/2017 | Sim | Sim | Não | Sim |
-| Mídia de gamut | 03/03/2017 |  | Não | Não |  |
-| Exibição do Google AdsWords | 08/02/2018 | Sim | Sim | Não | Sim |
-| Gerenciador de lances do Google DoubleClick (DBM) | 04/24/2017 | Sim | Sim | Sim | Sim |
-| Gerenciador de campanha do Google DoubleClick (DCM Fka DFA) | 04/24/2017 | Sim | Sim | Sim | Sim |
-| Google DoubleClick for Publishers (DFP, DFPP) | 04/24/2017 | Sim | Sim | Sim | Sim |
-| GumGum | 06/02/2017 | Sim | Não | Não | Não |
-| Intercâmbio de índice (anteriormente chamado de Mídia em Casale) | 03/03/2017 | Sim | Não | Não | Não |
+| Flashtalk | 02/03/2017 | Não | Não | Não | Não |
+| Surpresa | 03/03/2017 | Sim | Não | Não | Não |
+| Freewheel | 27/02/2017 | Sim | Sim | Não | Sim |
+| Gamut Media | 03/03/2017 |  | Não | Não |  |
+| Exibição do Google AdsWords | 02/08/2018 | Sim | Sim | Não | Sim |
+| Google DoubleClick Bid Manager (DBM) | 24/04/2017 | Sim | Sim | Sim | Sim |
+| Google DoubleClick Campaign Manager (DCM fka DFA) | 24/04/2017 | Sim | Sim | Sim | Sim |
+| Google DoubleClick for Publishers (DFP, DFP) | 24/04/2017 | Sim | Sim | Sim | Sim |
+| Gomagoma | 02/06/2017 | Sim | Não | Não | Não |
+| Index Exchange (anteriormente Casale Media) | 03/03/2017 | Sim | Não | Não | Não |
 | Mídia infecciosa | 03/03/2017 | Sim | Não | Sim | Não |
-| inMobi | 03/30/2017 | Sim | Não | Não | Sim |
-| Innovid | 03/02/2017 | Sim | Não | Não | Não |
-| iPinYou | 07/11/2017 | Não | Não | Não | Não |
-| Jampp | 05/11/2017 | Sim | Não | Não | Sim |
-| Jivox | 08/30/2017 | Não | Não | Não | Não |
+| inMobi | 30/03/2017 | Sim | Não | Não | Sim |
+| Innovid | 02/03/2017 | Sim | Não | Não | Não |
+| FixarVocê | 11/07/2017 | Não | Não | Não | Não |
+| Jampp | 11/05/2017 | Sim | Não | Não | Sim |
+| Jivox | 30/08/2017 | Não | Não | Não | Não |
 | Suco móvel | 03/03/2017 | Sim | Não | Não | Sim |
-| Krux | 06/30/2017 | Não | Não | Não | Sim |
-| Liftoff.io | 11/09/2017 | Sim | Não | Não | Sim |
-| LiveIntent | 07/17/2017 | Sim | Não | Não | Não |
-| LiveRail | 01/20/2017 |  | Não | Não |  |
-| Logicad | 06/22/2017 | Não | Não | Não | Não |
-| Lotame | 06/30/2017 | Sim | Não | Não | Sim |
-| MaxPoint Interativo | 02/27/2017 | Não | Não | Não | Não |
-| MediaMath | 02/27/2017 | Sim | Não | Não | Sim |
-| Anúncios do Microsoft Bing | 05/30/2017 | Sim | Sim | Sim | Não |
-| Mídia do milênio | 02/27/2017 | Não | Não | Não | Sim |
-| China da plataforma | 08/06/2018 | Sim | Não | Não | Sim |
-| E/S narrativa | 01/12/2018 | Sim | Não | Não | Sim |
-| Toque nativo | 03/02/2017 | Sim | Não | Não | Sim |
-| Nativo | 02/27/2017 | Sim | Não | Não | Não |
-| Mail.ru | 04/29/2019 | Sim | Não | Não | Sim |
-| Profissionais móveis | 05/25/2018 | Sim | Não | Não | Sim |
-| Agrupamento | 03/02/2017 | Não | Não | Não | Não |
-| Neustar | 03/28/2017 | Sim | Não | Não | Não |
-| OnAd | 02/13/2017 | Sim | Não | Sim | Não |
-| OneSpot | 06/19/2017 | Sim | Não | Não | Sim |
-| OpenX | 07/26/2018 | Sim | Não | Não | Sim |
-| Opera Mediaworks | 02/13/2017 | Sim | Não | Não | Sim |
-| Cefaleia | 04/03/2017 | Sim | Não | Não | Não |
-| OwnerIQ | 02/13/2017 | Sim | Não | Sim | Não |
-| Plataforma 161 | 11/28/2018 | Sim | Não | Não | Sim |
-| PocketMath | 02/22/2017 | Sim | Não | Não | Sim |
-| Powerlinks | 05/17/2017 | Sim | Não | Não | Não |
-| Publicar | 02/13/2017 | Sim | Não | Não | Não |
-| Pulsepoint | 02/13/2017 | Sim | Não | Não | Não |
-| PushSpring | 08/28/2017 | Sim | Não | Não | Sim |
-| Quantcast | 02/13/2017 | Sim | Não | Não | Não |
-| RhythmOne / RadiumOne | 02/13/2017 | Sim | Não | Não | Sim |
-| Remerge | 05/31/2017 | Sim | Não | Sim | Sim |
-| Refazer | 02/17/2017 | Sim | Não | Não | Não |
-| RevJet | 02/17/2017 | Não | Não | Não | Não |
-| Combustível de Foguete | 02/17/2017 | Sim | Não | Sim | Sim |
-| Rubicon |  | Sim | Sim | Não |  |
-| EXECUTAR | 02/17/2017 | Sim | Não | Não | Não |
-| Sabio Mobile | 02/17/2017 | Não | Não | Não | Sim |
-| Simpli.fi | 02/17/2017 | Não | Não | Não | Sim |
-| Hub de público-alvo do Sizmek | 02/17/2017 | Sim | Não | Não |  |
-| Slickoffers | 09/04/2018 | Sim | Não | Não | Sim |
-| Smart Adserver | 07/31/2017 | Sim | Não | Sim | Sim |
-| Logicad de redes de mídia da So-net |  | Sim | Não | Não |  |
-| Sonobi | 03/28/2017 | Sim | Não | Sim | Não |
+| Krux | 30/06/2017 | Não | Não | Não | Sim |
+| Liftoff.io | 09/11/2017 | Sim | Não | Não | Sim |
+| LiveIntent | 17/07/2017 | Sim | Não | Não | Não |
+| LiveRail | 20/01/2017 |  | Não | Não |  |
+| Logicad | 22/06/2017 | Não | Não | Não | Não |
+| Lotame | 30/06/2017 | Sim | Não | Não | Sim |
+| MaxPoint Interativo | 27/02/2017 | Não | Não | Não | Não |
+| MediaMath | 27/02/2017 | Sim | Não | Não | Sim |
+| Microsoft Bing Ads | 30/05/2017 | Sim | Sim | Sim | Não |
+| Millennial Media | 27/02/2017 | Não | Não | Não | Sim |
+| mPlatform China | 06/08/2018 | Sim | Não | Não | Sim |
+| E/S narrativa | 12/01/2018 | Sim | Não | Não | Sim |
+| Toque nativo | 02/03/2017 | Sim | Não | Não | Sim |
+| Nativo | 27/02/2017 | Sim | Não | Não | Não |
+| Mail.ru | 29/04/2019 | Sim | Não | Não | Sim |
+| Profissionais móveis | 25/05/2018 | Sim | Não | Não | Sim |
+| Netmining | 02/03/2017 | Não | Não | Não | Não |
+| Neustar | 28/03/2017 | Sim | Não | Não | Não |
+| OnAd | 13/02/2017 | Sim | Não | Sim | Não |
+| OneSpot | 19/06/2017 | Sim | Não | Não | Sim |
+| OpenX | 26/07/2018 | Sim | Não | Não | Sim |
+| Opera Mediaworks | 13/02/2017 | Sim | Não | Não | Sim |
+| Outbrain | 03/04/2017 | Sim | Não | Não | Não |
+| OwnerIQ | 13/02/2017 | Sim | Não | Sim | Não |
+| Plataforma 161 | 28/11/2018 | Sim | Não | Não | Sim |
+| PocketMath | 22/02/2017 | Sim | Não | Não | Sim |
+| Powerlinks | 17/05/2017 | Sim | Não | Não | Não |
+| Pubmatic | 13/02/2017 | Sim | Não | Não | Não |
+| Pulsepoint | 13/02/2017 | Sim | Não | Não | Não |
+| PushSpring | 28/08/2017 | Sim | Não | Não | Sim |
+| Quantcast | 13/02/2017 | Sim | Não | Não | Não |
+| Ritmo um / Raio um | 13/02/2017 | Sim | Não | Não | Sim |
+| Mesclar | 31/05/2017 | Sim | Não | Sim | Sim |
+| Ressoar | 17/02/2017 | Sim | Não | Não | Não |
+| RevJet | 17/02/2017 | Não | Não | Não | Não |
+| RocketFuel | 17/02/2017 | Sim | Não | Sim | Sim |
+| Rubicão |  | Sim | Sim | Não |  |
+| EXECUÇÃO | 17/02/2017 | Sim | Não | Não | Não |
+| Sabio Mobile | 17/02/2017 | Não | Não | Não | Sim |
+| Simpli.fi | 17/02/2017 | Não | Não | Não | Sim |
+| Hub de público-alvo Sizmek | 17/02/2017 | Sim | Não | Não |  |
+| Slickdeal | 04/09/2018 | Sim | Não | Não | Sim |
+| Adserver inteligente | 31/07/2017 | Sim | Não | Sim | Sim |
+| So-net Media Networks Logicad |  | Sim | Não | Não |  |
+| Sonobi | 28/03/2017 | Sim | Não | Sim | Não |
 | SpecificMedia | 03/03/2017 | Não | Não | Não | Não |
-| SpongeCell | 03/03/2017 | Sim | Não | Sim | Sim |
-| SpotX | 03/16/2018 | Não | Sim | Não | Sim |
-| Stroer | 03/03/2017 | Sim | Não | Não | Não |
-| DomingoSky | 03/03/2017 | Sim | Não | Sim | Não |
-| StartApp | 05/25/2018 | Sim | Não | Não | Sim |
-| Supernave/ScaleOut | 03/03/2017 | Sim | Não | Não | Não |
-| Survata | 08/09/2017 | Sim | Não | Não | Sim |
-| Taboola | 08/03/2017 | Não | Sim | Não | Não |
+| CélulaEsponja | 03/03/2017 | Sim | Não | Sim | Sim |
+| SpotX | 16/03/2018 | Não | Sim | Não | Sim |
+| Armazenar | 03/03/2017 | Sim | Não | Não | Não |
+| SundaySky | 03/03/2017 | Sim | Não | Sim | Não |
+| StartApp | 25/05/2018 | Sim | Não | Não | Sim |
+| Supernavio/ScaleOut | 03/03/2017 | Sim | Não | Não | Não |
+| Survata | 09/08/2017 | Sim | Não | Não | Sim |
+| Tabóola | 03/08/2017 | Não | Sim | Não | Não |
 | Tapad | 03/03/2017 | Não | Não | Não | Sim |
-| Telaria | 04/25/2019 | Sim | Não | Não | Sim |
-| Sistemas Telológicos | 03/03/2017 | Sim | Não | Não | Não |
-| A Mesa de Comércio | 03/03/2017 | Sim | Sim | Sim | Sim |
-| Tempo Real do Thnk | 02/05/2016 |  | Não | Não |  |
-| Vídeo Tremor | 03/03/2017 | Sim | Não | Não | Não |
-| Triplo aumento | 03/03/2017 | Não | Sim | Não | Não |
-| TrueX | 01/11/2018 | Sim | Não | Não | Sim |
+| Telaria | 25/04/2019 | Sim | Não | Não | Sim |
+| Sistemas Telógicos | 03/03/2017 | Sim | Não | Não | Não |
+| A Trade Desk | 03/03/2017 | Sim | Sim | Sim | Sim |
+| Tempo real de graças | 05/02/2016 |  | Não | Não |  |
+| Vídeo de tremor | 03/03/2017 | Sim | Não | Não | Não |
+| Aumento triplo | 03/03/2017 | Não | Sim | Não | Não |
+| TrueX | 11/01/2018 | Sim | Não | Não | Sim |
 | TubeMogul | 03/03/2017 | Sim | Não | Sim | Não |
-| Turn / Amobile | 03/03/2027 | Não | Não | Não | Sim |
-| Twenga | 10/29/2018 | Sim | Não | Não | Não |
-| Públicos-alvo personalizados do twitter | 02/27/2017 | Sim | Não | Sim | Não |
-| Sublinhado | 07/11/2017 | Não | Não | Não | Não |
-| Verve | 06/15/2017 | Sim | Não | Não | Sim |
+| Girar / Amobe | 03/03/2027 | Não | Não | Não | Sim |
+| Twenga | 29/10/2018 | Sim | Não | Não | Não |
+| Públicos-alvo personalizados do twitter | 27/03/2017 | Sim | Não | Sim | Não |
+| Sublinhar | 11/07/2017 | Não | Não | Não | Não |
+| Verve | 15/06/2017 | Sim | Não | Não | Sim |
 | VideoAmp | 03/03/2017 | Não | Não | Não | Não |
 | Videologia | 03/03/2017 | Não | Não | Não | Não |
-| VisualIQ | 03/24/2017 | Sim | Não | Não | Não |
-| Wikibuy | 08/04/2018 | Sim | Não | Não | Sim |
-| X+1 | 02/05/2016 |  | Não | Não |  |
+| VisualIQ | 24/03/2017 | Sim | Não | Não | Não |
+| Wikibuy | 04/08/2018 | Sim | Não | Não | Sim |
+| X+1 | 05/02/2016 |  | Não | Não |  |
 | Xaxis | 03/03/2017 | Sim | Não | Não | Não |
 | Yahoo DataX | 03/03/2017 | Sim | Sim | Sim | Sim |
 | Yahoo! Japão | 03/03/2017 | Não | Não | Não | Não |
-| Yandex | 11/28/2018 | Sim | Não | Não | Sim |
-| Yieldex | 08/21/2017 | Sim | Não | Não | Não |
-| RendimentoMo | 03/03/2017 | Não | Não | Não | Não |
-| Yume | 05/31/2017 | Não | Não | Não | Não |
+| Yandex | 28/11/2018 | Sim | Não | Não | Sim |
+| Yieldex | 21/08/2017 | Sim | Não | Não | Não |
+| YieldMo | 03/03/2017 | Não | Não | Não | Não |
+| Yume | 31/05/2017 | Não | Não | Não | Não |

@@ -20,11 +20,11 @@ Recommendations e casos de uso para prospecção, redirecionamento e personaliza
 
 ## Recomendações   {#recommendations}
 
-Considere as opções de gráficos de dispositivos de terceiros para campanhas que:
+Considere opções de gráficos de dispositivos de terceiros para campanhas que:
 
 * Ter um baixo nível de autenticação em suas propriedades digitais. Use o [!UICONTROL Profile Link Device Graph option] se você tiver um grande número de usuários autenticados.
-* Direcione grandes públicos-alvo. Os gráficos de dispositivos de terceiros contêm dados autenticados e não autenticados.
-* Segmentar visitantes autenticados e/ou não autenticados no nível individual e doméstico.
+* Direcione públicos-alvo grandes. Os gráficos de dispositivos de terceiros contêm dados autenticados e não autenticados.
+* Segmente visitantes autenticados e/ou não autenticados no nível individual e doméstico.
 
 ![](assets/merge-rule-triangle1.png)
 <!-- 
@@ -112,23 +112,23 @@ Through this rule, the device graph has expanded the number of device profiles w
 
 ![audience-expansion](assets/audience-expansion.png) -->
 
-## Direcionamento entre dispositivos avançado {#advanced-graph-expansion}
+## Direcionamento avançado entre dispositivos {#advanced-graph-expansion}
 
-Este caso de uso mostra como você pode expandir o direcionamento de público-alvo para visitantes autenticados com dispositivos de um gráfico de dispositivos externo, usando a variável **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]** regra.
+Este caso de uso mostra como expandir o direcionamento de público-alvo para visitantes autenticados com dispositivos de um gráfico de dispositivos externo usando o **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]** regra.
 
 ![gráfico do último dispositivo](assets/last-profile-link.png)
 
-No exemplo abaixo, a empresa Acme Inc. deseja direcionar todas as famílias com rendimentos acima de US$ 100.000/ano, que têm [!DNL Acme Inc.] assinantes em [!DNL Data Plan A], que usam um [!DNL iPhone 7] dispositivo.
+No exemplo abaixo, a empresa Acme Inc. deseja direcionar todas as famílias com renda acima de US$ 100.000/ano que tenham [!DNL Acme Inc.] assinantes em [!DNL Data Plan A], que utilizam um [!DNL iPhone 7] dispositivo.
 
-John usa seu iPhone 7 no Data Plan A para autenticar no site da Acme Inc. Ao mesmo tempo, a do John [!DNL Profile Link Device Graph] O cluster contém dois dispositivos adicionais que ele usa regularmente: seu laptop ([!DNL Device 1]) e seu smartphone secundário, [!DNL Device 2] a) [!DNL Samsung S7] on [!DNL Data Plan B]).
+John usa seu iPhone 7 no Data Plan A para autenticar no site da Acme Inc. Ao mesmo tempo, o [!DNL Profile Link Device Graph] contém dois dispositivos adicionais que ele usa regularmente: seu notebook ([!DNL Device 1]), e seu smartphone secundário, [!DNL Device 2] a) [!DNL Samsung S7] em [!DNL Data Plan B]).
 
-Ao usar a variável **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]**, [!DNL Acme Inc.] O é capaz de enviar mensagens personalizadas para todos os três dispositivos do cluster de gráficos de dispositivos do John, mesmo que apenas um deles se qualifique inicialmente para o segmento.
+Ao usar o **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]**, [!DNL Acme Inc.] O é capaz de enviar mensagens personalizadas para todos os três dispositivos do cluster de gráficos de dispositivos de John, mesmo que apenas um deles se qualifique inicialmente para o segmento.
 
-![expansão avançada de gráfico](assets/advanced-device-graph-expansion.png)
+![advanced-graph-expansion](assets/advanced-device-graph-expansion.png)
 
 >[!MORELIKETHIS]
 >
 >* [Casos de uso do gráfico de dispositivo de link de perfis](profile-link-use-case.md)
 >* [Casos de uso gerais para regras de mesclagem de perfis](merge-rule-targeting-options.md)
->* [Perguntas frequentes sobre as regras de mesclagem de perfis](../../faq/faq-profile-merge.md)
+>* [Perguntas frequentes sobre Regras de mesclagem de perfis](../../faq/faq-profile-merge.md)
 

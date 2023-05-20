@@ -1,20 +1,20 @@
 ---
 description: Perguntas frequentes sobre os arquivos do Feed de dados do cliente (CDF).
-seo-description: Perguntas frequentes sobre os arquivos do Feed de dados do cliente (CDF).
-seo-title: Perguntas frequentes sobre o Feed de dados do cliente
+seo-description: Frequently asked questions about Customer Data Feed (CDF) files.
+seo-title: Customer Data Feed FAQ
 solution: Audience Manager
 title: Perguntas frequentes sobre o Feed de dados do cliente
 uuid: 7183b3e2-e999-4e1e-892f-2bab335c13b6
-feature: Feeds de dados do cliente
+feature: Customer Data Feeds
 exl-id: a948accc-6bec-4748-bcc8-2b77acf6b96a
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '447'
 ht-degree: 100%
 
 ---
 
-# Perguntas frequentes sobre o Feed de dados do cliente {#customer-data-feed-faq}
+# Perguntas frequentes sobre o Feed de dados do cliente{#customer-data-feed-faq}
 
 Perguntas frequentes sobre os arquivos do Feed de dados do cliente (CDF).
 

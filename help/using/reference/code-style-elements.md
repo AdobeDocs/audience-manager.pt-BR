@@ -1,22 +1,22 @@
 ---
-description: Esses elementos identificam as opções de código e as variáveis usadas na documentação de ajuda. Geralmente, você não incluiria esses símbolos ou elementos de estilo em seu código ou arquivos de dados. São apenas indicadores visuais.
-seo-description: Esses elementos identificam as opções de código e as variáveis usadas na documentação de ajuda. Geralmente, você não incluiria esses símbolos ou elementos de estilo em seu código ou arquivos de dados. São apenas indicadores visuais.
-seo-title: Convenções de estilo para elementos de código e texto
+description: Esses elementos identificam as opções de código e variáveis usadas na documentação de ajuda. Geralmente, esses símbolos ou elementos de estilo não são incluídos nos arquivos de código ou de dados. Eles são apenas indicadores visuais.
+seo-description: These elements identify code options and variables used throughout the help documentation. Generally, you would not include these symbols or style elements in your code or data files. They're visual indicators only.
+seo-title: Style Conventions for Code and Text Elements
 solution: Audience Manager
 title: Convenções de estilo para elementos de código e texto
 uuid: 7605604d-bc76-4063-ba92-52c88bd69e3c
-feature: 'Referência '
+feature: Reference
 exl-id: 12f9b802-b645-4fc3-96ea-3d16b1f4890a
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 10%
+source-wordcount: '170'
+ht-degree: 8%
 
 ---
 
 # Convenções de estilo para elementos de código e texto{#style-conventions-for-code-and-text-elements}
 
-Esses elementos identificam as opções de código e as variáveis usadas na documentação de ajuda. Geralmente, você não incluiria esses símbolos ou elementos de estilo em seu código ou arquivos de dados. São apenas indicadores visuais.
+Esses elementos identificam as opções de código e variáveis usadas na documentação de ajuda. Geralmente, esses símbolos ou elementos de estilo não são incluídos nos arquivos de código ou de dados. Eles são apenas indicadores visuais.
 
 <table id="table_EBEF9490D90041BD8B7ABE3AF1AF35B6"> 
  <thead> 
@@ -36,15 +36,15 @@ Esses elementos identificam as opções de código e as variáveis usadas na doc
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> (this|that) </code> </p> </td> 
-   <td colname="col2"> <p>Os itens entre parênteses indicam uma opção booleana <span class="wintitle"> OU</span>. </p> </td> 
+   <td colname="col2"> <p>Os itens entre parênteses indicam um valor booleano <span class="wintitle"> OU</span> escolha. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> literal</code> </p> </td> 
-   <td colname="col2"> <p>Inclua texto ou código exatamente como mostrado. </p> </td> 
+   <td colname="col2"> <p>Incluir texto ou código exatamente como mostrado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> &lt; &gt;</code> </p> </td> 
-   <td colname="col2"> <p>Às vezes, as variáveis e outros elementos de código são exibidos entre &lt; &gt; colchetes. Eles são usados para melhorar a clareza em blocos de código longos. A menos que seja especificado, não inclua esses símbolos em um nome de arquivo de dados ou em seu conteúdo. </p> </td> 
+   <td colname="col2"> <p>Às vezes, as variáveis e outros elementos de código aparecem entre &lt; &gt; colchetes. Eles são usados para melhorar a clareza em blocos de código longos. A menos que seja especificado, não inclua esses símbolos em um nome de arquivo de dados ou seu conteúdo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

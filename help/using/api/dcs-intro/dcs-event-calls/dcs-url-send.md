@@ -1,7 +1,7 @@
 ---
 description: Comece aqui para obter informações sobre como fazer chamadas /event para o DCS. Esta seção inclui informações sobre sintaxe de chamada, parâmetros, formatação e um exemplo de solicitação.
-seo-description: Comece aqui para obter informações sobre como fazer chamadas /event para o DCS. Esta seção inclui informações sobre sintaxe de chamada, parâmetros, formatação e um exemplo de solicitação.
-seo-title: Enviar dados para o DCS
+seo-description: Start here for information about making /event calls to the DCS. This section includes information about call syntax, parameters, formatting, and a request example.
+seo-title: Send Data to the DCS
 solution: Audience Manager
 title: Enviar dados para o DCS
 uuid: 024e307d-bfcb-46cf-ac3a-fc71df0248fe
@@ -9,22 +9,22 @@ feature: DCS
 exl-id: 8a6798c3-aafd-48c8-acd7-a0e29e04dc8e
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '392'
 ht-degree: 6%
 
 ---
 
 # Enviar dados para o DCS {#send-data-to-the-dcs}
 
-Comece aqui para obter informações sobre como fazer chamadas `/event` para o [!DNL DCS]. Esta seção inclui informações sobre sintaxe de chamada, parâmetros, formatação e um exemplo de solicitação.
+Comece aqui para obter informações sobre como criar `/event` chamadas para o [!DNL DCS]. Esta seção inclui informações sobre sintaxe de chamada, parâmetros, formatação e um exemplo de solicitação.
 
 >[!NOTE]
 >
->No código e exemplos, *itálico* representa um espaço reservado de variável. Substitua um valor real para o espaço reservado ao enviar dados para [!DNL DCS] por este método.
+>No código e em exemplos, *itálico* representa um espaço reservado para variável. Substitua um valor real para o espaço reservado ao enviar dados para o [!DNL DCS] com este método.
 
 ## Sintaxe de chamada {#dcs-call-syntax}
 
-Uma string básica `URL` que envia dados para o [!DNL DCS] usa a sintaxe mostrada abaixo.
+Um elemento `URL` sequência de caracteres que envia dados para o [!DNL DCS] O usa a sintaxe mostrada abaixo.
 
 ```js
 https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_cb=callback
@@ -32,11 +32,11 @@ https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_
 
 >[!NOTE]
 >
->Você também pode enviar dados para o [!DNL DCS] usando o método `POST`. A sintaxe de chamada é descrita em [Métodos de API DCS](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md).
+>Também é possível enviar dados para o [!DNL DCS] usando o `POST` método. A sintaxe da chamada é descrita em [Métodos da DCS API](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md).
 
 ## Parâmetros de chamada {#dcs-call-parameters}
 
-A tabela a seguir define os componentes básicos de uma chamada [!DNL DCS] simples.
+A tabela a seguir define os componentes básicos de uma [!DNL DCS] chame.
 
 <table id="table_5F6A5B324EB848168543386516FBF384"> 
  <thead> 
@@ -64,15 +64,15 @@ A tabela a seguir define os componentes básicos de uma chamada [!DNL DCS] simpl
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> key</code> </p> </td> 
-   <td colname="col2"> <p>Um identificador exclusivo no par de valores chave. </p> <p>Esses pares de valores chave usam um prefixo específico para identificar o tipo de dados que você está enviando para o <span class="wintitle"> DCS</span>. Para obter mais informações, consulte <a href="../../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> Atributos compatíveis para chamadas de API DCS</a>. </p> </td> 
+   <td colname="col2"> <p>Um identificador exclusivo no par de valor-chave. </p> <p>Esses pares de valores chave usam um prefixo específico para identificar o tipo de dados que você está enviando para o <span class="wintitle"> DCS</span>. Para obter mais informações, consulte <a href="../../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> Atributos compatíveis com chamadas de DCS API</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> val</code> </p> </td> 
    <td colname="col2"> <p>Um valor de variável que pertence a um conjunto definido por uma chave no par de valores chave. </p> <p>Ao trabalhar com valores: </p> <p> 
      <ul id="ul_624DC78759F74AD8920220058E54E083"> 
-      <li id="li_091E5B4820EC4A93B775433E428E74AB">Insira dados da sequência de caracteres entre aspas duplas (por exemplo, <code> age="41 to 55"</code>). </li> 
-      <li id="li_C558E3BA6EE34413BBBB962D4CD0D10E">Você pode passar várias chaves em um único valor (por exemplo, <i><code>key</i>=<i>val1,val2,val3</i></code></i>). </li> 
-     </ul> </p> <p>Consulte <a href="../../../api/dcs-intro/dcs-api-reference/dcs-key-format.md"> Formatando pares de valores-chave em chamadas DCS</a>. </p> </td>
+      <li id="li_091E5B4820EC4A93B775433E428E74AB">Coloque os dados da string entre aspas duplas (por exemplo, <code> age="41 to 55"</code>). </li> 
+      <li id="li_C558E3BA6EE34413BBBB962D4CD0D10E">É possível passar várias chaves em um único valor (por exemplo, <i><code>key</i>=<i>val1,val2,val3</i></code></i>). </li> 
+     </ul> </p> <p>Consulte <a href="../../../api/dcs-intro/dcs-api-reference/dcs-key-format.md"> Formatação de pares de valores-chave em chamadas DCS</a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> 
@@ -81,14 +81,14 @@ A tabela a seguir define os componentes básicos de uma chamada [!DNL DCS] simpl
       <li id="li_4B6B29499D444E31808DE0A9AA0442D0"> <code> d_rtbd=json</code> </li> 
       <li id="li_3430CD0438604B83BE6437E6EC480816"> <code>d_cb=<i>callback</i></code> </li>
      </ul> </p> </td> 
-   <td colname="col2"> <p>Parâmetros de resposta opcionais. </p> <p> Nenhuma delas é necessária para enviar dados para o <span class="wintitle"> DCS</span>. No entanto, se você quiser que o <span class="wintitle"> DCS</span> retorne uma resposta, deverá incluir <code> d_rtbd=json</code> em sua solicitação. </p> <p>Consulte <a href="../../../api/dcs-intro/dcs-api-reference/dcs-keys.md#d-attributes"> d_ Pares de valor-chave definidos</a>. </p> </td> 
+   <td colname="col2"> <p>Parâmetros de resposta opcionais. </p> <p> Nenhum deles é necessário para enviar dados para o <span class="wintitle"> DCS</span>. No entanto, se você quiser que o <span class="wintitle"> DCS</span> para retornar uma resposta, você deve incluir <code> d_rtbd=json</code> em sua solicitação. </p> <p>Consulte <a href="../../../api/dcs-intro/dcs-api-reference/dcs-keys.md#d-attributes"> d_ Pares de valor-chave definidos</a>. </p> </td> 
   </tr>
  </tbody>
 </table>
 
 ## Exemplo de chamada {#dcs-sample-call}
 
-Este exemplo mostra a empresa ficcional [!DNL Acme, Inc.] enviando dados para [!DNL DCS] por meio de uma chamada [!DNL HTTP]. Observe que esta chamada inclui os parâmetros opcionais `d_dst=1`, `d_rtbd=json` e `d_cb=callback`. Isso indica que [!DNL Acme] deseja receber uma resposta [!DNL JSON] do [!DNL DCS] com uma função de retorno de chamada. Lembrem-se, isto é apenas um exemplo. Não corte e cole este código.
+Este exemplo mostra a empresa fictícia [!DNL Acme, Inc.] envio de dados para o [!DNL DCS] por meio de um [!DNL HTTP] chame. Observe que esta chamada inclui os parâmetros opcionais `d_dst=1`, `d_rtbd=json`, e `d_cb=callback`. Isso indica que [!DNL Acme] deseja receber um [!DNL JSON] resposta do [!DNL DCS] com uma função de retorno de chamada. Lembrem-se, isso é apenas um exemplo. Não recorte e cole esse código.
 
 ```js
 https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback
@@ -96,7 +96,7 @@ https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_r
 
 ## Próximas etapas {#dcs-next-steps}
 
-Agora que você está familiarizado com o envio de dados para o [!DNL DCS], é hora de examinar como obter dados de volta e analisar essas informações. Consulte [Receber dados do DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
+Agora que você está familiarizado com o envio de dados para o [!DNL DCS], é hora de examinar como obter dados dele e analisar essas informações. Consulte [Receber dados do DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
 
 >[!MORELIKETHIS]
 >

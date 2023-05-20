@@ -1,21 +1,21 @@
 ---
 description: Trabalhar com dados das soluções da Experience Cloud ou outros sistemas externos no Audience Manager.
-seo-description: Trabalhar com dados das soluções da Experience Cloud ou outros sistemas externos no Audience Manager.
-seo-title: Trabalhar com dados das soluções da Experience Cloud ou outros sistemas externos no Audience Manager.
+seo-description: Work with data from Experience Cloud solutions or other external systems in Audience Manager.
+seo-title: Work with data from Experience Cloud solutions or other external systems in Audience Manager.
 solution: Audience Manager
 title: Guias de implementação e integração
-feature: Integração de terceiros
+feature: Third-party Integration
 exl-id: 6e3cccdd-10af-4b17-9ddb-c4faf63f0a50
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 79%
+source-wordcount: '47'
+ht-degree: 70%
 
 ---
 
-# Visão geral da implementação e integração
+# Visão geral de implementação e integração
 
-Trabalhe com dados de [!DNL Experience Cloud] soluções ou outros sistemas externos em [!DNL Audience Manager].
+Trabalhar com dados de [!DNL Experience Cloud] soluções ou outros sistemas externos em [!DNL Audience Manager].
 
 * [Métodos de integração de dados](data-integration-methods.md)
 * [Implementação do Audience Manager](implement-audience-manager.md)

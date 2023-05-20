@@ -1,20 +1,20 @@
 ---
 description: Esta página descreve as informações fornecidas diretamente pelos nossos parceiros, conforme elas ficam disponíveis, juntamente com qualquer implicação relacionada à prática do Audience Manager. As principais implicações para os parceiros que fizeram estas atualizações são o resultado do GDPR (Regulamento Geral sobre a Proteção de Dados), que entrou em vigor em 25 de maio de 2018 e da nova Estrutura de transparência e consentimento do RGPD do IAB (Estrutura do IAB).
-seo-description: Esta página descreve as informações fornecidas diretamente pelos nossos parceiros, conforme elas ficam disponíveis, juntamente com qualquer implicação relacionada à prática do Audience Manager. As principais implicações para os parceiros que fizeram estas atualizações são o resultado do GDPR (Regulamento Geral sobre a Proteção de Dados), que entrou em vigor em 25 de maio de 2018 e da nova Estrutura de transparência e consentimento do RGPD do IAB (Estrutura do IAB).
-seo-title: Considerações sobre o GDPR para destinos
+seo-description: This page outlines information provided directly by our partners, as it becomes available, along with any implications related to your Audience Manager practice. Key implications for partners making these updates are the result of GDPR (General Data Protection Regulation), which went into effect on May 25th, 2018 and the new IAB GDPR Transparency & Consent Framework (IAB Framework).
+seo-title: GDPR Considerations for Destinations
 solution: Audience Manager
 title: Considerações sobre o GDPR para destinos
 uuid: e8a40060-086c-4f03-b48c-9c903acb7891
-feature: Governança e privacidade de dados
+feature: Data Governance & Privacy
 exl-id: ff2aa030-94cd-45dc-a9a2-283b38ab5e46
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '297'
 ht-degree: 96%
 
 ---
 
-# Considerações sobre o GDPR para destinos {#gdpr-considerations-for-destinations}
+# Considerações sobre o GDPR para destinos{#gdpr-considerations-for-destinations}
 
 Esta página descreve as informações fornecidas diretamente pelos nossos parceiros, conforme elas ficam disponíveis, juntamente com qualquer implicação relacionada à prática do Audience Manager. As principais implicações para os parceiros que fizeram estas atualizações são o resultado do GDPR (Regulamento Geral sobre a Proteção de Dados), que entrou em vigor em 25 de maio de 2018 e da nova Estrutura de transparência e consentimento do RGPD do IAB (Estrutura do IAB).
 

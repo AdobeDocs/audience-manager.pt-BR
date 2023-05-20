@@ -1,15 +1,15 @@
 ---
 description: Respostas a perguntas ou problemas comuns relacionados à privacidade ou aos dados.
-seo-description: Respostas a perguntas ou problemas comuns relacionados à privacidade ou aos dados.
-seo-title: Perguntas frequentes sobre privacidade e retenção de dados
+seo-description: Answers to common privacy- and data-related questions or issues.
+seo-title: Privacy and Data Retention FAQ
 solution: Audience Manager
 title: Perguntas frequentes sobre privacidade e retenção de dados
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
-feature: Governança e privacidade de dados
+feature: Data Governance & Privacy
 exl-id: bccf49d7-1a3b-4286-86fb-59e472af4501
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '742'
 ht-degree: 83%
 
 ---
@@ -55,11 +55,11 @@ A tabela a seguir lista os tempos de retenção para diferentes tipos de dados e
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Servidores de back-end </p> </td> 
-   <td colname="col2"> <p>120 dias </p> <p> O Audience Manager exclui os dados do usuário de nossos servidores de back-end 120 dias após a última visualização de um usuário na plataforma do Audience Manager. Se <span class="keyword"> Audience Manager</span> registrar a atividade do usuário dentro desse ciclo de 120 dias, manteremos esses dados por mais 120 dias. </p> </td> 
+   <td colname="col2"> <p>120 dias </p> <p> O Audience Manager exclui os dados do usuário de nossos servidores de back-end 120 dias após a última visualização de um usuário na plataforma do Audience Manager. Se <span class="keyword"> Audience Manager</span> registra a atividade do usuário dentro desse ciclo de 120 dias. Manteremos esses dados por mais 120 dias. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Servidores de borda </p> </td> 
-   <td colname="col2"> <p> 14 dias </p> <p>O Audience Manager exclui os dados do usuário de nossos servidores de borda 14 dias após a última visualização de um usuário na plataforma do Audience Manager. Se <span class="keyword"> Audience Manager</span> registrar a atividade do usuário dentro desse ciclo de 14 dias, manteremos esses dados por mais 14 dias. Se o usuário se tornar ativo novamente após o ciclo de 14 dias, haverá um atraso entre essa primeira visualização de página nova e quando o usuário se tornar acionável. Leva de 6 a 18 horas para que o perfil completo volte ao centro da borda após mais de 14 dias de inatividade. </p> </td> 
+   <td colname="col2"> <p> 14 dias </p> <p>O Audience Manager exclui os dados do usuário de nossos servidores de borda 14 dias após a última visualização de um usuário na plataforma do Audience Manager. Se <span class="keyword"> Audience Manager</span> O registra a atividade do usuário nesse ciclo de 14 dias. Manteremos esses dados por mais 14 dias. Se o usuário se tornar ativo novamente após o ciclo de 14 dias, haverá um atraso entre essa primeira visualização de página nova e quando o usuário se tornar acionável. Leva de 6 a 18 horas para que o perfil completo volte ao centro da borda após mais de 14 dias de inatividade. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Registros brutos </p> </td> 
@@ -71,7 +71,7 @@ A tabela a seguir lista os tempos de retenção para diferentes tipos de dados e
   </tr> 
   <tr> 
    <td colname="col1"> <p>Perfis em nível de CRM (perfis autenticados) </p> </td> 
-   <td colname="col2"> <p>O intervalo TTL (tempo de vida útil) padrão para perfis em nível de CRM inativos (IDs do cliente) é de 24 meses. No entanto, você pode usar a interface do usuário do Audience Manager para reduzir ou estender o intervalo TTL para perfis inativos em nível de CRM entre um mês e 5 anos. Isso pode ser feito ao criar ou editar uma fonte de dados entre dispositivos.</p> <p>Para obter mais informações, consulte Configurações da fonte de dados em <a href="../features/profile-merge-rules/merge-rules-start.md#settings"> Criar uma fonte de dados entre dispositivos </a>.</p> </td> 
+   <td colname="col2"> <p>O intervalo TTL (tempo de vida útil) padrão para perfis em nível de CRM inativos (IDs do cliente) é de 24 meses. No entanto, você pode usar a interface do usuário do Audience Manager para reduzir ou estender o intervalo TTL para perfis inativos em nível de CRM entre um mês e cinco anos. Isso pode ser feito ao criar ou editar uma fonte de dados entre dispositivos.</p> <p>Para obter mais informações, consulte Configurações da fonte de dados em <a href="../features/profile-merge-rules/merge-rules-start.md#settings"> Criar uma fonte de dados entre dispositivos </a>.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>IDs de dispositivo móvel </p> </td> 

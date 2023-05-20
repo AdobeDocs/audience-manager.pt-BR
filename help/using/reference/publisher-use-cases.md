@@ -1,20 +1,20 @@
 ---
 description: Uma análise de algumas necessidades comuns de editores atendidas pelo Adobe Audience Manager.
-seo-description: Uma análise de algumas necessidades comuns de editores atendidas pelo Adobe Audience Manager.
-seo-title: Casos de uso do editor
+seo-description: A look at some common publisher needs met by Adobe Audience Manager.
+seo-title: Publisher Use Cases
 solution: Audience Manager
 title: Casos de uso do editor
 uuid: 5f571d60-d902-4958-b5d3-8d09ddda42c7
-feature: 'Referência '
+feature: Reference
 exl-id: 974652de-59c0-46db-ac64-ba701985e409
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '615'
 ht-degree: 100%
 
 ---
 
-# Casos de uso do editor {#publisher-use-cases}
+# Casos de uso do editor{#publisher-use-cases}
 
 Uma análise de algumas necessidades comuns de editores atendidas pelo Adobe Audience Manager.
 

@@ -1,21 +1,21 @@
 ---
-description: Informações sobre a integração do Audience Manager em tempo real.
-seo-description: Informações sobre a integração do Audience Manager em tempo real.
-seo-title: Integração de dados de entrada em tempo real
+description: Informações sobre a integração Audience Manager em tempo real.
+seo-description: Information about the Real-Time Audience Manager integration.
+seo-title: Real-Time Inbound Data Integration
 solution: Audience Manager
 title: Integração de dados de entrada em tempo real
 uuid: 96f292bb-608c-41d3-8baa-a58ecb411db0
-feature: Transferência de dados de entrada
+feature: Inbound Data Transfers
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 41%
+source-wordcount: '22'
+ht-degree: 36%
 
 ---
 
 
 # Integração de dados de entrada em tempo real {#real-time-inbound-data-integration}
 
-Informações sobre a integração do Audience Manager em tempo real.
+Informações sobre a integração Audience Manager em tempo real.
 
 <!-- c_rt_data_int.xml -->

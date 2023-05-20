@@ -1,14 +1,14 @@
 ---
 description: O Atendimento ao Cliente está preparado para ajudar você a resolver qualquer problema que possa surgir. Forneça o máximo possível de informações ao entrar em contato com o Atendimento ao cliente. Elas ajudarão a equipe a entender e resolver seu problema.
-seo-description: O Atendimento ao Cliente está preparado para ajudar você a resolver qualquer problema que possa surgir. Forneça o máximo possível de informações ao entrar em contato com o Atendimento ao cliente. Elas ajudarão a equipe a entender e resolver seu problema.
-seo-title: Se houver um problema
+seo-description: Customer Care is prepared to help you solve any issues that might arise. Provide as much of this information as you can when contacting Customer Care. This will help the team understand and resolve your issue.
+seo-title: If There's a Problem
 solution: Audience Manager
 title: Se houver um problema
-feature: Suporte
+feature: Support
 exl-id: 2f7b9dbe-7aac-41b0-aab8-3b703d7a2441
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '373'
 ht-degree: 100%
 
 ---

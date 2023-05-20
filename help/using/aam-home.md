@@ -18,7 +18,7 @@ ht-degree: 88%
 
 Este guia de documentação técnica oferece assistência de autoajuda para o Audience Manager, um serviço líder do setor para gestão de dados de públicos online. Nossos produtos e serviços proporcionam aos anunciantes e editores as ferramentas necessárias para controlar e aproveitar seus ativos de dados com o objetivo de ajudar a aumentar o sucesso das vendas.
 
-## Uso deste guia
+## Usando este guia
 
 * Explore o conteúdo por tópico e subtópico na **navegação à esquerda**.
 * Use o campo de **pesquisa** na parte superior da página se você souber o que está procurando.
@@ -87,7 +87,7 @@ Este guia de documentação técnica oferece assistência de autoajuda para o Au
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
      <li><a href="/help/using/api/rest-api-main/aam-api-getting-started.md">Introdução às REST APIs</a></li>
      <li><a href="/help/using/api/dcs-intro/dcs-event-calls/dcs-event-calls.md">Introdução à DCS API</a></li>
-     <li><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html">Adicionar a extensão Audience Manager em Tags do Adobe Experience Platform</a></li>
+     <li><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html">Adicionar a extensão Audience Manager nas Tags do Adobe Experience Platform</a></li>
     <li><a href="https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager">Adicionar o Audience Manager ao seu aplicativo</a></li>
      </ul> </p>
     </td>
@@ -151,7 +151,7 @@ Este guia de documentação técnica oferece assistência de autoajuda para o Au
      Consulte as <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html" format="https" scope="external">Notas de versão da Experience Cloud</a> para obter novos recursos e correções.</p> 
      <p> <b>Recursos mais recentes</b> </p> <p> 
      Leia sobre os recursos mais recentes do Audience Manager:</p>
-     <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Migração do usuário do Audience Manager para o Admin Console</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Correspondência de clientes do Google para destinos com base em pessoas</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Plug-in do Audience Manager para TCF do IAB v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Públicos preditivos</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Relatórios de uso de atividade</a></li>
+     <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Migração de usuário do Audience Manager para o Admin Console</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Correspondência de cliente do Google para destinos com base em pessoas</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Plug-in Audience Manager para TCF do IAB v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Públicos preditivos</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Relatórios de uso de atividade</a></li>
      </ul></p>
     </td>
   </tr> 

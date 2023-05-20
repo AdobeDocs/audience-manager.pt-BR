@@ -1,7 +1,7 @@
 ---
 description: Perguntas e problemas comuns da API.
-seo-description: Perguntas e problemas comuns da API.
-seo-title: Perguntas frequentes sobre API
+seo-description: Common API questions and issues.
+seo-title: API FAQ
 solution: Audience Manager
 title: Perguntas frequentes sobre API
 uuid: 8222ebf0-b50e-4f48-8021-dbfca2828b7c
@@ -9,12 +9,12 @@ feature: API
 exl-id: 9a51220e-3f53-4911-876b-16e968d44d0f
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '237'
 ht-degree: 100%
 
 ---
 
-# Perguntas frequentes sobre API {#api-faq}
+# Perguntas frequentes sobre API{#api-faq}
 
 Perguntas e problemas comuns da API.
 

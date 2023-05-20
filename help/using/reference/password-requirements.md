@@ -1,20 +1,20 @@
 ---
 description: O Audience Manager pode ser configurado para expirar as senhas a cada 30 dias. Entre em contato com seu consultor do Audience Manager ou com o Atendimento ao cliente se quiser ativar a expiração da senha. Consulte esta seção para obter os requisitos de senha e como recuperar uma senha perdida ou esquecida.
-seo-description: O Audience Manager pode ser configurado para expirar as senhas a cada 30 dias. Entre em contato com seu consultor do Audience Manager ou com o Atendimento ao cliente se quiser ativar a expiração da senha. Consulte esta seção para obter os requisitos de senha e como recuperar uma senha perdida ou esquecida.
-seo-title: Requisitos de senha, contas bloqueadas e senhas esquecidas
+seo-description: Audience Manager can be configured to expire passwords every 30-days. Talk to your Audience Manager consultant or Customer Care if you want to enable password expiry. Refer to this section for password requirements and how to recover a lost or forgotten password.
+seo-title: Password Requirements, Locked Accounts, and Forgotten Passwords
 solution: Audience Manager
 title: Requisitos de senha, contas bloqueadas e senhas esquecidas
 uuid: bca892eb-3577-4382-8110-131f78d23069
-feature: 'Referência '
+feature: Reference
 exl-id: beeb65e3-b715-49a8-b14b-ce3fff96a5cd
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '260'
 ht-degree: 100%
 
 ---
 
-# Requisitos de senha, contas bloqueadas e senhas esquecidas {#password-requirements-locked-accounts-and-forgotten-passwords}
+# Requisitos de senha, contas bloqueadas e senhas esquecidas{#password-requirements-locked-accounts-and-forgotten-passwords}
 
 O Audience Manager pode ser configurado para expirar as senhas a cada 30 dias. Entre em contato com seu consultor do Audience Manager ou com o Atendimento ao cliente se quiser ativar a expiração da senha. Consulte esta seção para obter os requisitos de senha e como recuperar uma senha perdida ou esquecida.
 
@@ -80,5 +80,5 @@ Clique no link **[!UICONTROL Forgot password]** da página de logon para redefin
 >[!MORELIKETHIS]
 >
 >* [Segurança de dados](../overview/data-security-and-privacy/data-security.md)
-* [Segurança de dados](../overview/data-security-and-privacy/data-privacy.md)
+>* [Segurança de dados](../overview/data-security-and-privacy/data-privacy.md)
 

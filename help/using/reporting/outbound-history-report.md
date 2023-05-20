@@ -1,22 +1,22 @@
 ---
-description: Exibir informações do histórico de tarefas em lote de saída para um destino e um período de tempo especificados.
-seo-description: Exibir informações do histórico de tarefas em lote de saída para um destino e um período de tempo especificados.
-seo-title: Histórico de arquivos de saída
+description: Exibir informações históricas de trabalho em lotes de saída para um destino e um período de tempo especificados.
+seo-description: View outbound batch job history information for a specified destination and time period.
+seo-title: Outbound File History
 solution: Audience Manager
 title: Histórico de arquivos de saída
 uuid: 3621a59d-2bb5-4828-86f6-4c9bfa580764
-feature: Relatórios de entrada e saída
+feature: Inbound and Outbound Reports
 exl-id: 8072c44f-bc9a-4b40-99d9-8cb87bb58d98
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 7%
+source-wordcount: '152'
+ht-degree: 6%
 
 ---
 
 # Histórico de arquivos de saída {#outbound-file-history}
 
-Exibir informações do histórico de tarefas em lote de saída para um destino e um período de tempo especificados.
+Exibir informações históricas de trabalho em lotes de saída para um destino e um período de tempo especificados.
 
 <!-- 
 
@@ -28,8 +28,8 @@ t_reports_outbound_history.xml
 
    ![Resultado da etapa](assets/outbound_history.png)
 
-1. Na caixa **[!UICONTROL Search for a Destination]**, comece a digitar e selecione o destino desejado.
-1. Na caixa **[!UICONTROL Select a Date Range]**, especifique as datas de início e término do relatório e clique em **[!UICONTROL Apply Date Filter]**.
+1. No **[!UICONTROL Search for a Destination]** digite e selecione o destino desejado.
+1. No **[!UICONTROL Select a Date Range]** especifique as datas de início e término para seu relatório e clique em **[!UICONTROL Apply Date Filter]**.
 
    ![Resultado da etapa](assets/outbound_history_stats.png)
 
@@ -44,20 +44,20 @@ t_reports_outbound_history.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Nome do arquivo de sincronização de dados </td> 
-   <td colname="col2"> <p>Lista de todos os arquivos de saída <span class="keyword"> Adobe</span> gerados para esse destino que foram processados juntos. </p> </td> 
+   <td colname="col1"> Nome do Arquivo de Sincronização de Dados </td> 
+   <td colname="col2"> <p>Lista de todos os arquivos de saída que <span class="keyword"> Adobe</span> gerados para este destino que foram processados juntos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Êxito </td> 
-   <td colname="col2"> <p>Número de registros que foram enviados com êxito de <span class="keyword"> Audience Manager</span> para o destino. </p> </td> 
+   <td colname="col1"> Bem-sucedido </td> 
+   <td colname="col2"> <p>Número de registros enviados com êxito do <span class="keyword"> Audience Manager</span> para o destino. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Falha </td> 
-   <td colname="col2"> <p>Número de registros que não puderam ser enviados para o destino. </p> </td> 
+   <td colname="col2"> <p>Número de registros que não puderam ser enviados ao destino. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Registros recebidos </td> 
-   <td colname="col2"> <p>Número total de registros <span class="keyword"> Adobe</span> gerados nos arquivos e tentados enviar para o destino. Na maioria dos casos, esse deve ser o número total de arquivos bem-sucedidos e arquivos com falha. </p> </td> 
+   <td colname="col2"> <p>Número total de registros <span class="keyword"> Adobe</span> gerado nos arquivos e tentou enviar para o destino. Na maioria dos casos, esse deve ser o número total de arquivos bem-sucedidos e com falha. </p> </td> 
   </tr> 
  </tbody> 
 </table>

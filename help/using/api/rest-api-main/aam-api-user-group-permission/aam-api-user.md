@@ -1,7 +1,7 @@
 ---
-description: Renda os métodos da API para gerenciar usuários, incluindo criar, atualizar, listar, excluir e retornar objetos do usuário.
-seo-description: Renda os métodos da API para gerenciar usuários, incluindo criar, atualizar, listar, excluir e retornar objetos do usuário.
-seo-title: Métodos da API de gerenciamento de usuários
+description: Métodos da API Rest para gerenciar usuários, incluindo criação, atualização, listagem, exclusão e retorno de objetos de usuário.
+seo-description: Rest API methods to manage users, including creating, updating, listing, deleting, and returning user objects.
+seo-title: User Management API Methods
 solution: Audience Manager
 title: Métodos da API de gerenciamento de usuários
 uuid: 6e1f2c35-bb9d-4166-b7d4-d9c5518a61ad
@@ -9,20 +9,20 @@ feature: API
 exl-id: c015c42c-63c7-4392-9fef-f48dc787a56f
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 7%
+source-wordcount: '347'
+ht-degree: 6%
 
 ---
 
 # Métodos da API de gerenciamento de usuários {#user-management-api-methods}
 
-Rastreie métodos [!DNL API] para gerenciar usuários, incluindo criar, atualizar, listar, excluir e retornar objetos do usuário.
+Rest [!DNL API] métodos para gerenciar usuários, incluindo criação, atualização, listagem, exclusão e retorno de objetos de usuário.
 
 <!-- c_rest_api_user_man_user.xml -->
 
 ## Criar um usuário {#create-user}
 
-Um método `POST` para criar um novo usuário.
+A `POST` para criar um novo usuário.
 
 <!-- r_rest_api_user_create.xml -->
 
@@ -30,7 +30,7 @@ Um método `POST` para criar um novo usuário.
 
 `POST /api/v1/users/`
 
-### Corpo da solicitação de amostra
+### Exemplo de corpo da solicitação
 
 ```
 { 
@@ -65,13 +65,13 @@ Um método `POST` para criar um novo usuário.
 }
 ```
 
-Se `isAdmin` for definido como true, o usuário será criado como um administrador parceiro. Essa propriedade também permite saber se um usuário é um administrador parceiro.
+Se `isAdmin` for definido como true, o usuário será criado como um administrador parceiro. Essa propriedade também permite saber se um usuário é um administrador de parceiros.
 
-Retorna `409 Conflict` se o nome de usuário já estiver sendo usado.
+Devoluções `409 Conflict` se o nome de usuário já estiver sendo usado.
 
-## Atualizar um Usuário {#update-user}
+## Atualizar um usuário {#update-user}
 
-Um método `PUT` para atualizar um usuário.
+A `PUT` para atualizar um usuário.
 
 <!-- r_rest_api_user_update.xml -->
 
@@ -79,7 +79,7 @@ Um método `PUT` para atualizar um usuário.
 
 `PUT /api/v1/users/`*`<userId>`*
 
-### Corpo da solicitação de amostra
+### Exemplo de corpo da solicitação
 
 ```
 { 
@@ -110,23 +110,23 @@ Um método `PUT` para atualizar um usuário.
 }
 ```
 
-Retorna `409 Conflict` se o nome de usuário já estiver sendo usado.
+Devoluções `409 Conflict` se o nome de usuário já estiver sendo usado.
 
 ## Atualizar Usuário Conectado {#update-logged-in-user}
 
-Um método `PUT` para atualizar o usuário conectado no momento.
+A `PUT` para atualizar o usuário conectado no momento.
 
 <!-- r_rest_api_user_update_self.xml -->
 
 >[!NOTE]
 >
->Embora a maioria dos métodos [!DNL API] só possa ser chamada por administradores de parceiros, esse método pode ser chamado por usuários não administradores.
+>Considerando que a maioria [!DNL API] Os métodos só podem ser chamados por administradores parceiros. Esse método pode ser chamado por usuários não administradores.
 
 ### Solicitação
 
 `PUT /self/update`
 
-### Corpo da solicitação de amostra
+### Exemplo de corpo da solicitação
 
 ```
 {  
@@ -153,49 +153,49 @@ Um método `PUT` para atualizar o usuário conectado no momento.
 }
 ```
 
-Retorna `409 Conflict` se o nome de usuário já estiver sendo usado.
+Devoluções `409 Conflict` se o nome de usuário já estiver sendo usado.
 
-## Atualizar senha de usuário conectado {#update-logged-in-user-pw}
+## Atualizar Senha do Usuário Conectado {#update-logged-in-user-pw}
 
-Um método `PUT` para atualizar o usuário conectado no momento.
+A `PUT` para atualizar o usuário conectado no momento.
 
 <!-- r_rest_api_user_password.xml -->
 
 >[!NOTE]
 >
->Embora a maioria dos métodos [!DNL API] só possa ser chamada por administradores de parceiros, esse método pode ser chamado por usuários não administradores.
+>Considerando que a maioria [!DNL API] Os métodos só podem ser chamados por administradores parceiros. Esse método pode ser chamado por usuários não administradores.
 
 ### Solicitação
 
 `POST /users/self/update-password`
 
-### Corpo da solicitação de amostra
+### Exemplo de corpo da solicitação
 
 ```
 { "oldPassword" : "old password", "newPassword" : "new password" }
 ```
 
-Retorna `200 OK` se bem-sucedido. Retorna `400 Bad Request` se algo estiver errado com uma das senhas.
+Devoluções `200 OK` se for bem-sucedido. Devoluções `400 Bad Request` se algo estiver errado com uma senha.
 
-## Redefinir senha de usuário conectado {#reset-logged-in-user-pw}
+## Redefinir Senha do Usuário Conectado {#reset-logged-in-user-pw}
 
-Um método `PUT` para redefinir o usuário conectado no momento. [!UICONTROL Audience Management] envia ao usuário uma senha gerada pelo sistema.
+A `PUT` para redefinir o usuário conectado no momento. [!UICONTROL Audience Management] envia ao usuário uma senha gerada pelo sistema.
 
 <!-- r_rest_api_user_password_reset.xml -->
 
 >[!NOTE]
 >
->Embora a maioria dos métodos [!DNL API] só possa ser chamada por administradores de parceiros, esse método pode ser chamado por usuários não administradores.
+>Considerando que a maioria [!DNL API] Os métodos só podem ser chamados por administradores parceiros. Esse método pode ser chamado por usuários não administradores.
 
 ### Solicitação
 
 `POST /self/reset-password`
 
-Retorna `200 OK` se bem-sucedido.
+Devoluções `200 OK` se for bem-sucedido.
 
 ## Retornar objeto de usuário para uma ID de usuário {#return-user-object-for-id}
 
-Um método `Get` para retornar o objeto do usuário para uma ID de usuário.
+A `Get` método para retornar o objeto do usuário para uma ID de usuário.
 
 <!-- r_rest_api_user_get_user_obj.xml -->
 
@@ -223,13 +223,13 @@ Um método `Get` para retornar o objeto do usuário para uma ID de usuário.
 
 ## Retornar objeto de usuário para usuário conectado {#return-user-object-for-logged-in-user}
 
-Um método `Get` para retornar o objeto do usuário para o usuário conectado no momento.
+A `Get` método para retornar o objeto do usuário conectado no momento.
 
 <!-- r_rest_api_user_get_self.xml -->
 
 >[!NOTE]
 >
->Embora a maioria dos métodos [!DNL API] só possa ser chamada por administradores de parceiros, esse método pode ser chamado por usuários não administradores.
+>Considerando que a maioria [!DNL API] Os métodos só podem ser chamados por administradores parceiros. Esse método pode ser chamado por usuários não administradores.
 
 ### Solicitação
 
@@ -253,9 +253,9 @@ Um método `Get` para retornar o objeto do usuário para o usuário conectado no
 }
 ```
 
-## Listar usuários {#list-users}
+## Listar Usuários {#list-users}
 
-Um método `GET` para listar usuários.
+A `GET` para listar usuários.
 
 <!-- r_rest_api_user_list.xml -->
 
@@ -289,7 +289,7 @@ Esta consulta retorna uma lista de todos os usuários nos grupos especificados.
 
 ## Excluir um usuário {#delete-users}
 
-Um método `DELETE` para excluir um usuário.
+A `DELETE` para excluir um usuário.
 
 <!-- r_rest_api_user_delete.xml -->
 
@@ -297,11 +297,11 @@ Um método `DELETE` para excluir um usuário.
 
 `DELETE /api/v1/users/`*`<user_id>`*
 
-Retorna `204 No Content` se bem-sucedido. Em caso de conflito, retorna `409 Conflict`.
+Devoluções `204 No Content` se for bem-sucedido. Em caso de retornos de conflito `409 Conflict`.
 
 ## Excluir usuários em massa {#delete-users-bulk}
 
-Um método `POST` para excluir vários usuários em massa.
+A `POST` para excluir vários usuários em massa.
 
 <!-- r_rest_api_user_delete_bulk.xml -->
 
@@ -309,7 +309,7 @@ Um método `POST` para excluir vários usuários em massa.
 
 `POST /api/v1/users/bulk-delete`
 
-### Corpo da solicitação de amostra
+### Exemplo de corpo da solicitação
 
 ```
 {[<user_id_1>, <user_id_2>, ...]}

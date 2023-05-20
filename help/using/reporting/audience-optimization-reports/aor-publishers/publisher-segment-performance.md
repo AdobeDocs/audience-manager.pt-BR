@@ -1,53 +1,53 @@
 ---
-description: O relatório de Desempenho do segmento compara segmentos mapeados e não mapeados por impressões e Únicos de segmentos em tempo real. Um segmento mapeado é um segmento criado e enviado para um destino para direcionamento. Um segmento não mapeado é um segmento criado, mas que não foi enviado para um destino para direcionamento. A comparação desses diferentes tipos de segmentos dentro e entre relatórios ajuda a otimizar campanhas existentes e encontrar segmentos ignorados que você pode enviar para um destino para direcionamento.
-seo-description: O relatório de Desempenho do segmento compara segmentos mapeados e não mapeados por impressões e Únicos de segmentos em tempo real. Um segmento mapeado é um segmento criado e enviado para um destino para direcionamento. Um segmento não mapeado é um segmento criado, mas que não foi enviado para um destino para direcionamento. A comparação desses diferentes tipos de segmentos dentro e entre relatórios ajuda a otimizar campanhas existentes e encontrar segmentos ignorados que você pode enviar para um destino para direcionamento.
-seo-title: Relatório de desempenho do segmento
+description: O relatório de Desempenho do segmento compara segmentos mapeados e não mapeados por impressões e Únicos do segmento em tempo real. Um segmento mapeado é um segmento que você cria e envia para um destino para direcionamento. Um segmento não mapeado é um segmento que você criou, mas que não enviou a um destino para direcionamento. A comparação desses diferentes tipos de segmentos nos relatórios e entre eles ajuda a otimizar campanhas existentes e encontrar segmentos ignorados que você pode enviar para um destino para direcionamento.
+seo-description: The Segment Performance report compares mapped and unmapped segments by impressions and Real-Time Segment Uniques. A mapped segment is a segment you create and send to a destination for targeting. An unmapped segment is a segment that you've created but have not sent to a destination for targeting. Comparing these different segment types within and between reports helps you optimize existing campaigns and find overlooked segments that you may want to send to a destination for targeting.
+seo-title: Segment Performance Report
 solution: Audience Manager
 title: Relatório de desempenho do segmento para editores
 uuid: c9a1e9ad-4f3f-4334-a3ff-0f241c7303c4
-feature: Relatórios de otimização de público-alvo
+feature: Audience Optimization Reports
 exl-id: 0cc10399-5737-4d82-a1f6-9561e024054d
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '644'
 ht-degree: 2%
 
 ---
 
 # Relatório de desempenho do segmento{#segment-performance-report}
 
-O relatório de Desempenho do segmento compara segmentos mapeados e não mapeados por impressões e Únicos de segmentos em tempo real.
+O relatório de Desempenho do segmento compara segmentos mapeados e não mapeados por impressões e Únicos do segmento em tempo real.
 
-Um segmento mapeado é um segmento criado e enviado para um destino para direcionamento. Um segmento não mapeado é um segmento criado, mas que não foi enviado para um destino para direcionamento.
+Um segmento mapeado é um segmento que você cria e envia para um destino para direcionamento. Um segmento não mapeado é um segmento que você criou, mas que não enviou a um destino para direcionamento.
 
-A comparação desses diferentes tipos de segmentos dentro e entre relatórios ajuda a otimizar campanhas existentes e encontrar segmentos ignorados que você pode enviar para um destino para direcionamento.
+A comparação desses diferentes tipos de segmentos nos relatórios e entre eles ajuda a otimizar campanhas existentes e encontrar segmentos ignorados que você pode enviar para um destino para direcionamento.
 
 ## Casos de uso {#use-cases}
 
-Com o relatório [!UICONTROL Segment Performance], você pode:
+Com o [!UICONTROL Segment Performance] relatório, é possível:
 
-* Identifique segmentos de público-alvo mapeados que estejam proporcionando escala ou desempenho.
+* Identifique segmentos de público mapeados que estão impulsionando a escala ou o desempenho.
 * Identifique segmentos não mapeados para apresentar em campanhas futuras, com base na contribuição de um público-alvo para o desempenho anterior.
 
-## Usando o Relatório de desempenho do segmento {#using-segment-performance-report}
+## Uso do relatório de desempenho do segmento {#using-segment-performance-report}
 
-Alterne entre **[!UICONTROL Mapped]** e **[!UICONTROL Unmapped]** para selecionar segmentos que estão ou não mapeados para um destino. Selecione **[!UICONTROL All]** para incluir todos os seus segmentos no relatório.
+Alternar entre **[!UICONTROL Mapped]** e **[!UICONTROL Unmapped]** para selecionar segmentos mapeados para um destino ou não. Selecionar **[!UICONTROL All]** para incluir todos os segmentos no relatório.
 
-Use os controles **Intervalo de dia** e **Até** para ajustar o intervalo de análise. Observe que os períodos de retrospectiva de 7 dias e 30 dias só estão disponíveis para datas de domingo.
+Use o **Intervalo de dias** e **Data Até** para ajustar o intervalo de retrospectiva. Observe que os períodos retroativos de 7 dias e 30 dias só estão disponíveis para datas domingo.
 
-Use a caixa suspensa **[!UICONTROL Line Item]** para selecionar as propriedades da Web para as quais deseja retornar informações.
+Use o **[!UICONTROL Line Item]** para selecionar as propriedades da web para as quais deseja retornar informações.
 
-Na caixa suspensa **[!UICONTROL Segment Data Source]**, selecione as fontes de dados que contêm os segmentos que você deseja visualizar no relatório.
+No **[!UICONTROL Segment Data Source]** selecione as fontes de dados que contêm os segmentos que você deseja ver no relatório.
 
-Use a caixa suspensa **[!UICONTROL Segment]** para selecionar quais segmentos você deseja visualizar no relatório.
+Use o **[!UICONTROL Segment]** para selecionar quais segmentos você deseja ver no relatório.
 
 >[!IMPORTANT]
 >
->Ao ativar [!UICONTROL Audience Optimization for Publishers], você deve incluir metadados descritivos para [!UICONTROL Line Item IDs], conforme descrito na Etapa 3 de [Importar arquivos de dados do Google Ad Manager (antigo DFP) para o Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ao fazer isso, você garante que o relatório detalhe a propriedade da Web como [!UICONTROL Line Item] em vez de [!UICONTROL Line Item ID].
+>Ao ativar [!UICONTROL Audience Optimization for Publishers], você deve incluir metadados descritivos para [!UICONTROL Line Item IDs], conforme descrito na Etapa 3 do [Importação de arquivos de dados do Google Ad Manager (antigo DFP) para o Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ao fazer isso, você garante que o relatório detalhe a propriedade da Web como [!UICONTROL Line Item] em vez de [!UICONTROL Line Item ID].
 
 ## Interpretação dos resultados {#interpreting-results}
 
-Seu relatório [!UICONTROL Segment Performance] pode ser semelhante ao abaixo. No seu relatório, clique em uma bolha para visualizar os dados subjacentes. Consulte descrições para obter as informações adicionais na tabela abaixo do relatório de amostra.
+Seu [!UICONTROL Segment Performance] relatório pode ser semelhante ao abaixo. No relatório, clique em uma bolha para visualizar os dados subjacentes. Consulte as descrições para obter as informações adicionais na tabela abaixo do relatório de amostra.
 
 ![](assets/publisher_segment_performance.png)
 
@@ -61,38 +61,38 @@ Seu relatório [!UICONTROL Segment Performance] pode ser semelhante ao abaixo. N
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Segmento </p> </td> 
-   <td colname="col2"> <p>O nome alfanumérico atribuído a este segmento. </p> </td> 
+   <td colname="col2"> <p>O nome alfanumérico que você atribuiu a este segmento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID do segmento </p> </td> 
-   <td colname="col2"> <p>A ID exclusiva deste segmento. </p> </td> 
+   <td colname="col2"> <p>O identificador exclusivo deste segmento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Item de linha </p> </td> 
+   <td colname="col1"> <p>Item da linha </p> </td> 
    <td colname="col2"> <p>A propriedade da Web para a qual você está vendo este relatório. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Cliques </p> </td> 
-   <td colname="col2"> <p>O número de vezes que membros dessa característica clicaram em itens na propriedade da Web. </p> </td> 
+   <td colname="col2"> <p>O número de vezes que os membros dessa característica clicaram em itens em sua propriedade da Web. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Impressões </p> </td> 
-   <td colname="col2"> <p>O número de vezes que membros dessa característica foram expostos ao seu inventário. </p> </td> 
+   <td colname="col2"> <p>O número de vezes que os membros desta característica foram expostos ao inventário. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>CTR </p> </td> 
-   <td colname="col2"> <p>Índice de click-through. </p> <p>Essa métrica relata a porcentagem de impressões seguidas pelos cliques. Divida cliques por impressões para obter essa métrica. </p> </td> 
+   <td colname="col2"> <p>Índice de click-through. </p> <p>Essa métrica retransmite a porcentagem de impressões seguida de cliques. Dividir cliques por impressões para obter essa métrica. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>População de segmentos em tempo real </p> </td> 
-   <td colname="col2"> <p>O número real de visitantes únicos vistos em tempo real para o intervalo de tempo especificado e que foram qualificados para o segmento no momento em que foram vistos por <span class="keyword"> Audience Manager</span>. </p> </td> 
+   <td colname="col1"> <p>Preenchimento de segmentos em tempo real </p> </td> 
+   <td colname="col2"> <p>O número real de visitantes únicos vistos em tempo real pelo intervalo de tempo especificado e que foram qualificados para o segmento no momento em que foram vistos por <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Como ler os resultados do segmento mapeado {#read-mapped-segment}
 
-A posição dos segmentos mapeados em um relatório pode informar muito sobre quais segmentos estão funcionando bem e onde você pode precisar fazer alguns ajustes.
+A posição dos segmentos mapeados em um relatório pode informar muito sobre quais segmentos estão apresentando um bom desempenho e onde talvez seja necessário fazer alguns ajustes.
 
 Para ler o relatório, é útil dividir os resultados em quatro seções com linhas imaginárias (em vermelho) e as categorias mostradas no relatório de amostra abaixo. Os rótulos no exemplo podem ajudar você a entender o desempenho do segmento e como responder a esses resultados.
 
@@ -100,7 +100,7 @@ Para ler o relatório, é útil dividir os resultados em quatro seções com lin
 
 ## Como ler os resultados do segmento não mapeado {#read-unmapped-segment}
 
-Olhar os segmentos não mapeados em um relatório [!UICONTROL Segment Performance] é uma ótima maneira de encontrar novos segmentos que você não considerou para o direcionamento. Na verdade, alguns desses segmentos podem ter desempenho superior aos segmentos mapeados.
+Análise de segmentos não mapeados em uma [!UICONTROL Segment Performance] O relatório é uma ótima maneira de encontrar novos segmentos que você não considerou para direcionamento. Na verdade, alguns desses segmentos podem ter um desempenho melhor do que os segmentos mapeados.
 
 Para ler este relatório, é útil dividir os resultados em quatro seções com linhas imaginárias (em vermelho) e categorias mostradas no relatório de amostra abaixo.
 

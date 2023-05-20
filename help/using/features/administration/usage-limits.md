@@ -1,80 +1,80 @@
 ---
-description: O Audience Manager define um limite máximo para o número de características, segmentos, destinos e modelos algorítmicos que você pode criar para uma conta. Os limites se aplicam a esses itens, independentemente de serem criados na interface do usuário ou por meio de métodos de API. Os limites de uso ajudam a proteger o Audience Manager de processos automatizados que podem tentar comprometer nossas APIs ou interface do usuário.
-seo-description: O Audience Manager define um limite máximo para o número de características, segmentos, destinos e modelos algorítmicos que você pode criar para uma conta. Os limites se aplicam a esses itens, independentemente de serem criados na interface do usuário ou por meio de métodos de API. Os limites de uso ajudam a proteger o Audience Manager de processos automatizados que podem tentar comprometer nossas APIs ou interface do usuário.
-seo-title: Limites de uso
+description: O Audience Manager define um limite máximo no número de características, segmentos, destinos e modelos algorítmicos que você pode criar para uma conta. Os limites se aplicam a esses itens, sejam eles criados na interface do usuário ou programaticamente por meio de métodos de API. Os limites de uso ajudam a proteger o Audience Manager de processos automatizados que podem tentar comprometer nossas APIs ou a interface do usuário.
+seo-description: Audience Manager sets a maximum limit on the number of traits, segments, destinations, and algorithmic models that you can create for an account. Limits apply to these items whether created in the user interface or programmatically through API methods. Usage limits help protect Audience Manager from automated processes that may attempt to compromise our APIs or user interface.
+seo-title: Usage Limits
 solution: Audience Manager
 title: Limites de uso
-keywords: Mapeamento de ID, mapeamentos de ID, mapeamentos de cookies
+keywords: Mapeamento de ID, mapeamentos de ID, mapeamentos de cookie
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
-feature: Uso e faturamento
+feature: Usage and Billing
 exl-id: 8d29e231-d369-44ad-8e89-e6a4c83175f2
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 6%
+source-wordcount: '522'
+ht-degree: 7%
 
 ---
 
 # Limites de uso {#usage-limits}
 
-O Audience Manager define um limite máximo para o número de características, segmentos, destinos e modelos algorítmicos que você pode criar para uma conta. Os limites se aplicam a esses itens, sejam eles criados na interface do usuário ou por meio de métodos [!DNL API] programaticamente. Os limites de uso ajudam a proteger o Audience Manager de processos automatizados que podem tentar comprometer nossa [!DNL API]s ou interface do usuário.
+O Audience Manager define um limite máximo no número de características, segmentos, destinos e modelos algorítmicos que você pode criar para uma conta. Os limites se aplicam a esses itens, sejam eles criados na interface do usuário ou programaticamente por meio do [!DNL API] métodos. Os limites de uso ajudam a proteger o Audience Manager de processos automatizados que podem tentar comprometer nossa [!DNL API]s ou interface do usuário.
 
 ## Limites de mapeamento de ID {#id-mapping-limits}
 
-A tabela abaixo lista os limites [ID mapping](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) para IDs de dispositivo. Quando uma ID atinge qualquer um dos limites abaixo, o Audience Manager adiciona novos mapeamentos de ID com base em uma lógica FIFO (primeiro a entrar, primeiro a sair), removendo o mapeamento de ID armazenado mais antigo e adicionando o novo. Consulte [Índice de IDs](../../reference/ids-in-aam.md) no Audience Manager para obter detalhes sobre as IDs suportadas pelo Audience Manager.
+A tabela abaixo lista os [Mapeamento de ID](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) limites para IDs de dispositivo. Quando uma ID atinge qualquer um dos limites abaixo, o Audience Manager adiciona novos mapeamentos de ID com base em uma lógica FIFO (primeiro a entrar, primeiro a sair), removendo o mapeamento de ID armazenado mais antigo e adicionando o novo. Consulte [Índice de IDs](../../reference/ids-in-aam.md) em Audience Manager para obter detalhes sobre as IDs compatíveis com o Audience Manager.
 
 | Mapeamento de ID | Limite máximo |
 |-----------|-------------- |
-| ID de publicidade do dispositivo ([DAID](../../reference/ids-in-aam.md)) para ID entre dispositivos ([DPUUID](../../reference/ids-in-aam.md)) | 100 IDs de publicidade de dispositivo ([DAID](../../reference/ids-in-aam.md)) para 1 ID entre dispositivos ([DPUUID](../../reference/ids-in-aam.md)) |
-| ID entre dispositivos ([DPUUID](../../reference/ids-in-aam.md)) para ID de publicidade do dispositivo ([DAID](../../reference/ids-in-aam.md)) | 10 IDs entre dispositivos ([DPUUID](../../reference/ids-in-aam.md)) para 1 ID de anúncio do dispositivo ([DAID](../../reference/ids-in-aam.md)), de acordo com cada [DPID](../../reference/ids-in-aam.md) |
-| ID do cookie/navegador para cookie/ID do navegador | IDs de cookie/navegador 1000 para 1 cookie/ID de navegador |
+| ID de publicidade do dispositivo ([DAID](../../reference/ids-in-aam.md)) para a ID entre dispositivos ([DPUUID](../../reference/ids-in-aam.md)) | 100 IDs de publicidade de dispositivos ([DAID](../../reference/ids-in-aam.md)) para 1 ID entre dispositivos ([DPUUID](../../reference/ids-in-aam.md)) |
+| ID entre dispositivos ([DPUUID](../../reference/ids-in-aam.md)) para a ID de publicidade do dispositivo ([DAID](../../reference/ids-in-aam.md)) | 10 IDs entre dispositivos ([DPUUID](../../reference/ids-in-aam.md)) para 1 ID de anúncio de dispositivo ([DAID](../../reference/ids-in-aam.md)), por cada [DPID](../../reference/ids-in-aam.md) |
+| ID de cookie/navegador para cookie/ID do navegador | 1000 IDs de cookie/navegador para 1 ID de cookie/navegador |
 
-## Limites de item {#item-limits}
+## Limites de Item {#item-limits}
 
-As tabelas listam os limites atuais por tipo de item. Não é possível criar novas características, segmentos, destinos ou [!UICONTROL Algorithmic Models] se você atingir um limite específico para um desses itens. Se você atingir um limite, deverá excluir um item mais antigo antes de criar um novo.
+As tabelas listam os limites atuais por tipo de item. Não é possível criar novas características, segmentos, destinos ou [!UICONTROL Algorithmic Models] se atingir um limite específico para um desses itens. Se você atingir um limite, exclua um item mais antigo antes de criar um novo.
 
-### Limites da característica
+### Limites de características
 
 | Tipo de característica | Limite máximo |
 | -------------------------- | ------------------------------------- |
-| Total de características | 100.000 |
-| Total de qualificações de característica | 150.000. Para obter mais informações sobre qualificação de característica, consulte Limite de qualificação de característica em [Referência de qualificações de característica](/help/using/features/traits/trait-and-segment-qualification-reference.md#trait-qualification-limit). |
+| Características totais | 100,000 |
+| Total de qualificações de características | 150,000. Para obter mais informações sobre qualificação de característica, consulte Limite de qualificação de característica em [Referência de qualificações de característica](/help/using/features/traits/trait-and-segment-qualification-reference.md#trait-qualification-limit). |
 | Algorítmico | 50 |
-| Baseado em regras | 100.000 |
-| Integrado | 100.000 |
-| Características da pasta | 2.000 |
+| Baseado em regras | 100,000 |
+| Integrado | 100,000 |
+| Características de pasta | 2,000 |
 
-### Limites do segmento
+### Limites de segmento
 
 | Tipo de segmento | Limite máximo |
 | -------------- | ------------- |
-| Total de segmentos | 20.000 |
+| Total de segmentos | 20,000 |
 
 ### Limites de destino
 
 | Tipo de destino | Limite máximo |
 | ------------------ | ------------- |
-| Destinos totais | 1.000 |
+| Total de destinos | 1.000 |
 | Cookie | 1.000 |
 | URL | 1.000 |
 | S2S | 100 |
 | Adobe Analytics | 10 |
 
-### Limites de modelo algorítmico
+### Limites do modelo algorítmico
 
 | Item | Limite máximo |
 | -------- | ----- |
-| Ativo [!UICONTROL Look-Alike Models] | 20. O Audience Manager só conta os modelos algorítmicos *ativos* em relação ao limite. |
-| [!UICONTROL Look-Alike Models] tamanho máximo do público-alvo | 25.000.000.  Observe que esse limite não pode ser aumentado. Você pode diminuir os tamanhos do público-alvo selecionando menos fontes de dados para o modelo ou selecionando uma janela de retrospectiva mais curta. |
-| Número máximo de características excluídas para um [!UICONTROL Look-Alike Model] | 500. Consulte [Exclusão de característica na Modelagem algorítmica](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
-| Máximo [!UICONTROL Predictive Audiences Models] | 10º |
-| Número máximo de personas de linha de base para [!UICONTROL Predictive Audiences Models] | 50º |
+| Ativo [!UICONTROL Look-Alike Models] | 20. Audience Manager conta apenas *ativo* modelos algorítmicos em relação ao limite. |
+| [!UICONTROL Look-Alike Models] tamanho máximo do público | 25,000,000.  Observe que esse limite não pode ser aumentado. Você pode diminuir o tamanho dos públicos selecionando menos fontes de dados para o modelo ou uma janela de retrospectiva mais curta. |
+| Número máximo de características excluídas de um [!UICONTROL Look-Alike Model] | 500. Consulte [Exclusão de característica no modelo algorítmico](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
+| Máximo [!UICONTROL Predictive Audiences Models] | 10 |
+| Número máximo de perfis da linha de base para [!UICONTROL Predictive Audiences Models] | 50 |
 
-### Limites da pasta
+### Limites de pasta
 
 | Item | Limite máximo |
 | ------------- | ------------------ |
-| Pastas de características | 2.000.  Sua estrutura de pastas pode ter no máximo 5 níveis de profundidade. |
+| Pastas de características | 2,000.  A estrutura de pastas pode ter no máximo 5 níveis de profundidade. |
 
 ### Limites de sinais derivados
 
@@ -88,12 +88,12 @@ As tabelas listam os limites atuais por tipo de item. Não é possível criar no
 | ----------- | ------------- |
 | Número máximo de contas de usuário para uma empresa | 1.000. |
 
-## Uso do monitor {#monitor-usage}
+## Monitorar uso {#monitor-usage}
 
-Você pode ver o uso e os limites da sua conta acessando **[!UICONTROL Administration > Limits]**. O Access requer permissões de administrador.
+Você pode ver o uso e os limites da sua conta acessando **[!UICONTROL Administration > Limits]**. O acesso exige permissões de administrador.
 
 ![imagem de limites de uso](assets/usage-limits.png)
 
-## Aumentar limites de item {#increase-item-limits}
+## Aumentar Limites de Itens {#increase-item-limits}
 
-Os limites padrão listados aqui devem fornecer capacidade suficiente para as necessidades de sua empresa. Se sua organização atingir esses limites de maneira consistente, entre em contato com seu representante de conta para discutir um aumento.
+Os limites padrão listados aqui devem fornecer capacidade suficiente para suas necessidades comerciais. Se sua organização atingir esses limites de forma consistente, entre em contato com o representante de conta para saber sobre um aumento.

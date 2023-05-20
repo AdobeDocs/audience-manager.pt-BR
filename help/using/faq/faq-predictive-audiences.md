@@ -1,14 +1,14 @@
 ---
 description: Públicos preditivos ajudam a classificar públicos desconhecidos em personas distintas em tempo real, usando a ciência de dados.
-seo-description: Públicos preditivos ajudam a classificar públicos desconhecidos em personas distintas em tempo real, usando a ciência de dados.
-seo-title: Perguntas frequentes sobre Públicos preditivos
+seo-description: Predictive Audiences help you classify unknown audiences into distinct personas in real-time, using data science.
+seo-title: Predictive Audiences FAQ
 solution: Audience Manager
 title: Perguntas frequentes sobre Públicos preditivos
-feature: Modelos algorítmicos
+feature: Algorithmic Models
 exl-id: 21073970-8457-470b-89fc-724a118a18d2
 source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '949'
 ht-degree: 59%
 
 ---
@@ -57,43 +57,43 @@ Caso o modelo não produza resultados em 24 horas, entre em contato com o repres
 
 Os modelos de [!UICONTROL Predictive Audiences] podem deixar de produzir resultados devido a várias razões:
 
-1. Nenhuma das personas selecionadas [!UICONTROL traits] / [!UICONTROL segments] tem perfis de usuário suficientes. Recomendamos escolher [!UICONTROL traits] ou [!UICONTROL segments] para que cada persona tenha pelo menos algumas centenas de perfis de usuário.
-1. Nenhuma das personas selecionadas [!UICONTROL traits] / [!UICONTROL segments] tem dados suficientes em seus perfis do usuário (características insuficientes para analisar).
-1. A característica/segmento do público-alvo não tem usuários ativos ou integrados.
+1. Nenhum dos perfis selecionados [!UICONTROL traits] / [!UICONTROL segments] tem perfis de usuário suficientes. Recomendamos escolher o seu [!UICONTROL traits] ou [!UICONTROL segments] para que cada persona tenha pelo menos algumas centenas de perfis de usuário.
+1. Nenhum dos perfis selecionados [!UICONTROL traits] / [!UICONTROL segments] têm dados suficientes nos perfis do usuário (características insuficientes para analisar).
+1. A característica/segmento do público-alvo não tem nenhum usuário ativo ou integrado.
 1. Os usuários do público-alvo que estavam ativos ou integrados nos últimos 30 dias não têm dados suficientes nos perfis do usuário (não há características suficientes para analisar).
-1. O segmento de público-alvo usa um [!UICONTROL Profile Merge Rule] diferente daquele escolhido para o modelo.
-1. A fonte de dados das características do público-alvo de destino pode não estar incluída no [!UICONTROL Profile Merge Rule] que você escolheu para o modelo.
+1. O segmento do público-alvo usa um segmento diferente [!UICONTROL Profile Merge Rule] do modelo escolhido.
+1. A fonte de dados das características do público-alvo pode não ser incluída no [!UICONTROL Profile Merge Rule] que você escolheu para o modelo.
 
 Para obter os melhores resultados, siga as diretrizes sugeridas em [Critérios de seleção para personas](../features/algorithmic-models/predictive-audiences.md#selection-personas) e [Critérios de seleção para público-alvo](../features/algorithmic-models/predictive-audiences.md#selection-audience).
 
  
 
-**Por que meu modelo está mostrando o  [!UICONTROL Error] status?**
+**Por que meu modelo está mostrando o [!UICONTROL Error] Status?**
 
-Pode ser uma falha ao executar o modelo. Nesses casos, entre em contato com seu representante [!DNL Adobe].
+Pode ser uma falha ao executar o modelo. Nesses casos, entre em contato com o [!DNL Adobe] representante.
 
  
 
-**Como posso alterar o  [!UICONTROL Profile Merge Rule] para um  [!UICONTROL Predictive Audiences] [!UICONTROL segment]?**
+**Como posso alterar o [!UICONTROL Profile Merge Rule] para um [!UICONTROL Predictive Audiences] [!UICONTROL segment]?**
 
-Crie um novo modelo selecionando as mesmas personas e o público-alvo do modelo anterior. Durante a criação do modelo, atribua um [!UICONTROL Profile Merge Rule] diferente.
+Crie um novo modelo selecionando as mesmas personas e público alvo do modelo anterior. Durante a criação do modelo, atribua um valor diferente [!UICONTROL Profile Merge Rule].
 
 >[!WARNING]
-> Como alternativa, você pode usar [Construtor de segmentos](../features/segments/segment-builder.md) para criar manualmente um [!UICONTROL segment] com um [!UICONTROL trait] preditivo existente e atribuí-lo um [!UICONTROL Profile Merge Rule] de sua escolha.
+> Como alternativa, você pode usar [Construtor de segmentos](../features/segments/segment-builder.md) para criar manualmente uma [!UICONTROL segment] com uma preditiva existente [!UICONTROL trait] e atribua a ele um [!UICONTROL Profile Merge Rule] de sua escolha.
 > 
-> No entanto, não recomendamos essa prática, pois [!UICONTROL traits] preditivo herda automaticamente [!UICONTROL Profile Merge Rule] do modelo ao qual pertencem e são criadas a partir de [!UICONTROL traits] influentes que estão em conformidade com [!UICONTROL Profile Merge Rule] do modelo.
+> No entanto, não recomendamos esta prática, uma vez que [!UICONTROL traits] herdar automaticamente a variável [!UICONTROL Profile Merge Rule] do modelo a que pertencem, e que são construídos a partir de fontes influentes [!UICONTROL traits] que cumpram os requisitos [!UICONTROL Profile Merge Rule] do modelo.
 
  
 
-**O que  [!UICONTROL Profile Merge Rule] devo escolher?**
+**O que [!UICONTROL Profile Merge Rule] devo escolher?**
 
-Ao escolher [!UICONTROL Profile Merge Rule] para seu modelo, analise cuidadosamente seu caso de uso.
+Ao escolher a variável [!UICONTROL Profile Merge Rule] para seu modelo, analise detalhadamente seu caso de uso.
 
-Considere que seu público-alvo [!UICONTROL segment] usa um [!UICONTROL Profile Merge Rule] com base em perfis autenticados + [!DNL Device Graph] perfis e você seleciona o mesmo [!UICONTROL Profile Merge Rule] para o preditivo [!UICONTROL segments]. Nesse caso, tanto o nível do dispositivo quanto o nível entre dispositivos [!UICONTROL traits] serão usados no treinamento do modelo e no posicionamento do usuário em um [!UICONTROL segment] preditivo.
+Digamos que seu público-alvo [!UICONTROL segment] usa um [!UICONTROL Profile Merge Rule] com base em perfis autenticados + [!DNL Device Graph] perfis e você selecionar o mesmo [!UICONTROL Profile Merge Rule] para a previsão [!UICONTROL segments]. Nesse caso, o nível do dispositivo e o nível entre dispositivos [!UICONTROL traits] será utilizado no treinamento do modelo e na colocação do usuário em uma função [!UICONTROL segment].
 
-No entanto, se você selecionar um [!UICONTROL Profile Merge Rule] baseado apenas em perfis de dispositivo, nenhum de seus [!UICONTROL traits] entre dispositivos se tornará influente e não contribuirá para a colocação de usuários em um [!UICONTROL segment] preditivo. Isso pode afetar negativamente a precisão e o alcance do modelo.
+No entanto, se você selecionar um [!UICONTROL Profile Merge Rule] com base apenas em perfis de dispositivo, nenhum dos seus [!UICONTROL traits] tornar-se-ão influentes e não contribuirão para a colocação dos utilizadores [!UICONTROL segment]. Isso pode afetar negativamente a precisão e o alcance do modelo.
 
-Analise seu caso de uso com cuidado e decida quais tipos [!UICONTROL trait] você deseja que o modelo aprenda e com que tipo de dados você deseja que o modelo use para classificação.
+Analise seu caso de uso com cuidado e decida qual [!UICONTROL trait] tipos com os quais você deseja que o modelo aprenda e que tipo de dados você deseja que o modelo use para classificação.
 
 **Um usuário do público-alvo que não faz parte de nenhuma característica/segmento de persona pode não ser classificado?**
 
@@ -113,11 +113,11 @@ Sim, você pode ver todas as características influentes de todas as linhas de b
 
  
 
-**Posso alterar o tempo de vida (TTL) para características preditivas?**
+**Posso alterar o TTL (time to live) para características preditivas?**
 
-O TTL de característica preditiva é definido como 0 (duração) e não pode ser alterado. [!UICONTROL Predictive Audiences] O só pode cancelar segmentos de usuários de segmentos preditivos quando eles se qualificam para o segmento base ou são reclassificados em um segmento preditivo diferente.
+O TTL da característica preditiva está definido como 0 (duração) e não pode ser alterado. [!UICONTROL Predictive Audiences] O só pode dessegmentar usuários de segmentos preditivos quando eles se qualificam para o segmento base ou são reclassificados em um segmento preditivo diferente.
 
-Se necessário, é possível contornar essa funcionalidade criando um novo segmento que contém uma característica preditiva e uma característica de atividade com um TTL especificado.
+Se necessário, você pode contornar essa funcionalidade criando um novo segmento que contenha uma característica preditiva e uma característica de atividade com um TTL especificado.
 
  
 

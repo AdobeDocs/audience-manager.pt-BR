@@ -1,14 +1,14 @@
 ---
 description: Diretrizes de disponibilidade do GDPR para clientes do Audience Manager
-seo-description: Diretrizes de disponibilidade do GDPR para clientes do Audience Manager
-seo-title: Diretrizes de disponibilidade do GDPR para clientes do Audience Manager
+seo-description: GDPR Readiness Guidance for Audience Manager Customers
+seo-title: GDPR Readiness Guidance for Audience Manager Customers
 solution: Audience Manager
 title: Diretrizes de disponibilidade do GDPR para clientes do Audience Manager
-feature: Governança e privacidade de dados
+feature: Data Governance & Privacy
 exl-id: 353b9035-20f3-41ff-819c-71f161e6b1e1
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '461'
 ht-degree: 99%
 
 ---

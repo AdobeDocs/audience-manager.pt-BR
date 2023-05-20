@@ -5,7 +5,7 @@ seo-title: Data Collection and Product Integration FAQ
 solution: Audience Manager
 title: Perguntas frequentes sobre coleta de dados e integração de produtos
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
-keywords: SFTP; Endereço SFTP; Endereço IP STFP; Endereço FTP
+keywords: SFTP, endereço SFTP, endereço IP STFP, endereço FTP
 feature: Administration
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
 source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
@@ -37,18 +37,18 @@ Infelizmente, não podemos. Esses IPs são atribuídos dinamicamente, por regiã
 
  
 
-**Você pode me fornecer um endereço IP que eu posso adicionar a uma lista de permissões para seu servidor SFTP de entrada e de saída?**
+**Você pode me fornecer um endereço IP que eu possa adicionar a uma lista de permissões para seu servidor SFTP de entrada e saída?**
 
 Sim, veja abaixo.
 
 | Servidor | Endereço IP |
 | ---------|----------|
-| ftp-in-gtw.demdex.com | 52.3.74.119; 3 233 68 222 |
+| ftp-in-gtw.demdex.com | 52.3.74.119; 3.233.68.222 |
 | ftp-out-gtw.demdex.com | 23.22.232.252; 18.211.109.184 |
 
  
 
-Os servidores SFTP abaixo estão obsoletos. Nenhuma nova conta será provisionada usando esses servidores.
+Os servidores SFTP abaixo estão obsoletos. Nenhuma conta nova será provisionada usando esses servidores.
 
 | Servidor | Endereço IP |
 |---------|----------|
@@ -59,7 +59,7 @@ Os servidores SFTP abaixo estão obsoletos. Nenhuma nova conta será provisionad
 
 **Como configurar minha instância do Audience Manager para usar os novos servidores SFTP?**
 
-Entre em contato com seu [!DNL Audience Manager] consultor ou do Atendimento ao cliente e eles configurarão suas novas contas SFTP.
+Entre em contato com [!DNL Audience Manager] ou Atendimento ao cliente, e eles configurarão suas novas contas SFTP.
 
  
 
@@ -83,7 +83,7 @@ Como prática recomendada, configure a integração [!DNL Audience Manager] - [!
 
 * Coloque a [!UICONTROL DIL] diretamente no `s_code`.
 
-* Servir [!UICONTROL DIL] e `s_code` through [!DNL Adobe Experience Platform Tags].
+* Atendimento [!UICONTROL DIL] e a variável `s_code` até [!DNL Adobe Experience Platform Tags].
 
 Consulte [API da Biblioteca de integração de dados (DIL)](../dil/dil-overview.md).
 
@@ -152,7 +152,7 @@ Sim, o [!DNL Audience Manager] pode fornecer dados coletados para usuários que 
 
 **[!DNL Google Ad Manager]Quero coletar dados em um site e direcionar usuários por meio do em um site diferente. Preciso implantar o código na outra propriedade se não quiser coletar dados desse local?**
 
-Não. Se a coleta de dados no segundo site não for um requisito, não será necessário implantar a DIL lá. Contanto que você tenha acesso ao inventário no segundo site por meio de [!DNL Google Ad Manager], é possível usar a coleta de dados do site inicial e do target por meio de [!DNL Google Ad Manager].
+Não. Se a coleta de dados no segundo site não for um requisito, não será necessário implantar a DIL lá. Contanto que você tenha acesso ao inventário no segundo site via [!DNL Google Ad Manager], você poderá usar a coleta de dados do site inicial e do target via [!DNL Google Ad Manager].
 
 <br> 
 
@@ -164,7 +164,7 @@ Cada provedor traz algo único para a tabela, então a resposta depende do que v
 
 **Como o [!DNL Audience Manager] define cookies e transmite variáveis para o [!DNL Google Ad Manager]?**
 
-[!DNL Audience Manager] define 2 cookies: Um envia variáveis de segmento para a [!DNL Google Ad Manager] e o outro define a ID de usuário exclusiva (UUID), que também é lida por [!DNL Google Ad Manager]. Adicionar a UUID à tag de publicidade significa que podemos fazer relatórios no nível do usuário e descobrir públicos-alvo.
+[!DNL Audience Manager] O define 2 cookies: um envia variáveis de segmento para o [!DNL Google Ad Manager] A tag de publicidade e a outra definem a nossa ID de usuário exclusiva (UUID), que também é lida pelo [!DNL Google Ad Manager]. Adicionar a UUID à tag de publicidade significa que podemos fazer relatórios no nível do usuário e descobrir públicos-alvo.
 
 <br> 
 
@@ -208,8 +208,8 @@ Geralmente, leva até 24 horas para um perfil do usuário sincronizar entre regi
 
  
 
-**O que acontece com as chaves inativas de acesso do usuário do Amazon S3?**
+**O que acontece com chaves de acesso de usuário inativas do Amazon S3?**
 
-O Adobe fornece aos clientes do Audience Manager chaves de acesso do usuário para o Audience Manager [!DNL Amazon S3] baldes. Por motivos de segurança, as chaves são automaticamente desativadas após 100 dias de inatividade.
+O Adobe fornece aos clientes do Audience Manager chaves de acesso do usuário para o Audience Manager [!DNL Amazon S3] compartimentos. Por motivos de segurança, as chaves são automaticamente desativadas após 100 dias de inatividade.
 
-Para reativar suas chaves de acesso ou solicitar novas chaves, entre em contato com o Suporte ao cliente.
+Para reativar suas chaves de acesso ou solicitar novas, entre em contato com o Suporte ao cliente.

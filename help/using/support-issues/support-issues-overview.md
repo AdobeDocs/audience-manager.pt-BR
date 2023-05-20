@@ -1,14 +1,14 @@
 ---
 description: Esta seção inclui os principais problemas relatados ao Atendimento ao cliente do Audience Manager.
-seo-description: Esta seção inclui os principais problemas relatados ao Atendimento ao cliente do Audience Manager.
-seo-title: Visão geral de problemas de suporte
+seo-description: This section includes the top issues reported to Audience Manager Customer Care.
+seo-title: Support Issues Overview
 solution: Audience Manager
 title: Visão geral de problemas de suporte
-feature: Suporte
+feature: Support
 exl-id: 9d2d5473-f3cc-45f5-a573-b0faeafbfe05
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '102'
 ht-degree: 100%
 
 ---

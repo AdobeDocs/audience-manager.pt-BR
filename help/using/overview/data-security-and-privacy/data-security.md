@@ -1,15 +1,15 @@
 ---
 description: O Audience Manager leva a segurança e a privacidade dos dados muito a sério. Trabalhamos para proteger nossos sistemas e seus valiosos dados.
-seo-description: O Audience Manager leva a segurança e a privacidade dos dados muito a sério. Trabalhamos para proteger nossos sistemas e seus valiosos dados.
-seo-title: Segurança de dados no Audience Manager
+seo-description: Audience Manager takes data security and privacy very seriously. We work to keep our systems secure and protect your valuable data.
+seo-title: Data Security in Audience Manager
 solution: Audience Manager
 title: Segurança de dados no Audience Manager
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
-feature: Governança e privacidade de dados
+feature: Data Governance & Privacy
 exl-id: 94b70250-dca3-4c50-b4dd-bc37178a587e
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '999'
 ht-degree: 98%
 
 ---
@@ -65,7 +65,7 @@ Processos que ajudam a proteger dados de propriedade de clientes individuais.
 
 **Particionamento de dados em relatórios:** As IDs do cliente fazem parte da chave de identificação em todas as tabelas de relatórios e os queries de relatório são filtrados pela ID. Isso ajuda a impedir que seus dados apareçam nos relatórios de outro cliente do Audience Manager.
 
-## Transferências S2S (Servidor para servidor de entrada) {#inbound-s2s}
+## Transferências S2S (Servidor para servidor de entrada)  {#inbound-s2s}
 
 O Adobe Audience Manager oferece suporte a dois métodos principais de transferência de arquivos de dados integrados S2S para nossos sistemas:
 
@@ -91,6 +91,6 @@ Essa política melhora a segurança de dados entre clientes e servidores Adobe [
 
 ### Exemplo {#hsts-example}
 
-Digamos que o domínio `yourcompany.demdex.com` envia tráfego para o [!DNL DCS] via [!DNL HTTP]. O [!DNL HSTS] atualiza as chamadas para usar [!DNL HTTPS], e todas as chamadas [!DNL DCS] subsequentes provenientes de `yourcompany.demdex.com` usarão [!DNL HTTPS] em vez de [!DNL HTTP].
+Digamos que o `yourcompany.demdex.com` o domínio envia tráfego para o [!DNL DCS] via [!DNL HTTP]. O [!DNL HSTS] atualiza as chamadas para usar [!DNL HTTPS], e todas as chamadas [!DNL DCS] subsequentes provenientes de `yourcompany.demdex.com` usarão [!DNL HTTPS] em vez de [!DNL HTTP].
 
 Consulte [HTTP Strict Transport Security - Wikipedia](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) para obter mais informações sobre HSTS.

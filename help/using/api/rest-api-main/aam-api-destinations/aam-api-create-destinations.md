@@ -1,7 +1,7 @@
 ---
 description: Crie destinos com esses métodos de API RESTful.
-seo-description: Crie destinos com esses métodos de API RESTful.
-seo-title: Criar destinos
+seo-description: Create destinations with these RESTful API methods.
+seo-title: Create Destinations
 solution: Audience Manager
 title: Criar destinos
 uuid: 12f04151-ad0e-4cb6-8f3b-b5c427dc2cef
@@ -9,24 +9,24 @@ feature: API
 exl-id: bae0f304-0ff3-4c5f-b432-19aef61d9d10
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '346'
 ht-degree: 9%
 
 ---
 
 # Criar destinos {#create-destinations}
 
-Crie destinos com esses métodos [!UICONTROL RESTful API].
+Criar destinos com estes [!UICONTROL RESTful API] métodos.
 
 <!-- c_create_destinations.xml -->
 
-## Tipos de Destino Suportados: Somente URL e cookie
+## Tipos de destino suportados: somente URL e cookie
 
-Os métodos disponíveis `POST` permitem criar somente [!UICONTROL URL] e [!UICONTROL cookie destinations]. No momento, não é possível criar [!UICONTROL server-to-server destinations] com esses métodos [!DNL REST API]. No entanto, os métodos `GET` de destino relacionados permitem recuperar informações sobre [!UICONTROL server-to-server destinations] criadas na interface do usuário.
+As opções disponíveis `POST` Os métodos permitem criar [!UICONTROL URL] e [!UICONTROL cookie destinations] somente. Atualmente, não é possível criar [!UICONTROL server-to-server destinations] com estes [!DNL REST API] métodos. No entanto, o destino `GET` permitem recuperar informações sobre [!UICONTROL server-to-server destinations] criado na interface do usuário.
 
 ## Criar um destino de URL não serial {#create-nonserial-dest}
 
-Um método `POST` que permite criar um destino que aceita segmentos compostos de pares de valores chave únicos (por exemplo, `gender=male` ou `gender=female`).
+A `POST` que permite criar um destino que aceite segmentos compostos de pares de valores chave únicos (por exemplo, `gender=male` ou `gender=female`).
 
 <!-- r_create_nonserial_destination.xml -->
 
@@ -36,7 +36,7 @@ Um método `POST` que permite criar um destino que aceita segmentos compostos de
 
 ### Solicitação de exemplo
 
-Essa solicitação cria um único destino. Todos os valores de solicitação são obrigatórios, a menos que indicado de outra forma.
+Esta solicitação cria um único destino. Todos os valores de solicitação são obrigatórios, salvo indicação contrária.
 
 ```
 { 
@@ -79,7 +79,7 @@ Uma solicitação bem-sucedida retorna `201 created` e o destino.
 
 ## Criar um destino de URL serializado {#create-serial-url-dest}
 
-Um método `POST` que permite criar um destino que aceita vários valores associados a uma única chave (por exemplo, `color=blue, red, green`).
+A `POST` que permite criar um destino que aceita vários valores associados a uma única chave (por exemplo, `color=blue, red, green`).
 
 <!-- r_create_serial_url_destination.xml -->
 
@@ -89,7 +89,7 @@ Um método `POST` que permite criar um destino que aceita vários valores associ
 
 ### Solicitação de exemplo
 
-Especifique o [!DNL URL] seguro e o delimitador para o par de valores chave enviado para o destino. Todos os valores de solicitação são obrigatórios, a menos que indicado de outra forma.
+Especificar o [!DNL URL] e delimitador do par de valores chave passado para o destino. Todos os valores de solicitação são obrigatórios, salvo indicação contrária.
 
 ```
 { 
@@ -133,9 +133,9 @@ Uma atualização bem-sucedida retorna o código de resposta `201 created` e o d
 }
 ```
 
-## Criar um destino de cookie: Chave única, não serializada {#create-cookie-dest-single}
+## Criar um destino de cookie: chave única, não serializado {#create-cookie-dest-single}
 
-Um método `POST` que permite criar um [!UICONTROL cookie destination] que aceita segmentos compostos de pares de valores chave únicos (por exemplo, `gender=male` ou `gender=female`).
+A `POST` que permite criar um [!UICONTROL cookie destination] que aceita segmentos compostos de pares de valores chave únicos (por exemplo, `gender=male` ou `gender=female`).
 
 <!-- r_cookie_destination_singlekey_noserial.xml -->
 
@@ -145,7 +145,7 @@ Um método `POST` que permite criar um [!UICONTROL cookie destination] que aceit
 
 ### Solicitação de exemplo
 
-Todos os valores de solicitação são obrigatórios, a menos que indicado de outra forma.
+Todos os valores de solicitação são obrigatórios, salvo indicação contrária.
 
 ```
 { 
@@ -202,9 +202,9 @@ Uma atualização bem-sucedida retorna o código de resposta `201 created` e o d
 } 
 ```
 
-## Criar um destino de cookie: Chave Única, {#create-cookie-dest-single-serial} Serializada
+## Criar um destino de cookie: chave única, serializado {#create-cookie-dest-single-serial}
 
-Um método `POST` que permite criar um destino que aceita vários valores associados a uma única chave (por exemplo, `color=blue, red, green`).
+A `POST` que permite criar um destino que aceita vários valores associados a uma única chave (por exemplo, `color=blue, red, green`).
 
 <!-- r_cookie_destination_singlekey_serial.xml -->
 
@@ -214,7 +214,7 @@ Um método `POST` que permite criar um destino que aceita vários valores associ
 
 ### Solicitação de exemplo
 
-Todos os valores de solicitação são obrigatórios, a menos que indicado de outra forma.
+Todos os valores de solicitação são obrigatórios, salvo indicação contrária.
 
 ```
 { 
@@ -273,9 +273,9 @@ Uma atualização bem-sucedida retorna o código de resposta `201 created` e o d
 }
 ```
 
-## Criar um destino de cookie: Múltiplas Chave, Não Serializada {#create-cookie-dest-multi}
+## Criar um destino de cookie: várias chaves, não serializado {#create-cookie-dest-multi}
 
-Um método `POST` que permite criar um destino que aceita segmentos que contêm várias chaves com valores diferentes (por exemplo, `gender=male; gender=female; color=blue; color=red`).
+A `POST` que permite criar um destino que aceite segmentos que contenham várias chaves com valores diferentes (por exemplo, `gender=male; gender=female; color=blue; color=red`).
 
 <!-- r_create_cookie_multikey_noserial.xml -->
 
@@ -285,7 +285,7 @@ Um método `POST` que permite criar um destino que aceita segmentos que contêm 
 
 ### Solicitação de exemplo
 
-Todos os valores de solicitação são obrigatórios, a menos que indicado de outra forma.
+Todos os valores de solicitação são obrigatórios, salvo indicação contrária.
 
 ```
 { 
@@ -340,9 +340,9 @@ Uma atualização bem-sucedida retorna o código de resposta `201 created` e o d
 }
 ```
 
-## Criar um destino de cookie: Multi-Chave, Serializada {#create-cookie-dest-multi-serial}
+## Criar um destino de cookie: multichave, serializado {#create-cookie-dest-multi-serial}
 
-Um método `POST` que permite criar um destino que aceita segmentos que contêm várias chaves e valores (por exemplo, `gender=male, female; color=blue, red, green`).
+A `POST` que permite criar um destino que aceite segmentos que contenham várias chaves e valores (por exemplo, `gender=male, female; color=blue, red, green`).
 
 <!-- r_cookie_destination_multikey_serial.xml -->
 
@@ -352,7 +352,7 @@ Um método `POST` que permite criar um destino que aceita segmentos que contêm 
 
 ### Solicitação de exemplo
 
-Todos os valores de solicitação são obrigatórios, a menos que indicado de outra forma.
+Todos os valores de solicitação são obrigatórios, salvo indicação contrária.
 
 ```
 { 
@@ -412,6 +412,6 @@ Uma atualização bem-sucedida retorna o código de resposta `201 created` e o d
 >[!MORELIKETHIS]
 >
 >* [Destinos ](../../../features/destinations/destinations.md)
-* [Serialização de Destino](../../../features/destinations/key-value-pairs.md#destination-serialized)
-* [Explicação dos pares de valor-chave](../../../reference/key-value-pairs-explained.md)
+>* [Serialização de destino](../../../features/destinations/key-value-pairs.md#destination-serialized)
+>* [Explicação dos pares de valor-chave](../../../reference/key-value-pairs-explained.md)
 

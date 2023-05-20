@@ -1,5 +1,5 @@
 ---
-description: Descreve os pares de valores-chave comuns no nível da plataforma que podem ser usados para direcionar usuários com variáveis relacionadas ao dispositivo em todas as propriedades da sua conta do Audience Manager.
+description: Descreve os pares de valores chave comuns em nível de plataforma que você pode usar para direcionar usuários com variáveis relacionadas ao dispositivo em todas as propriedades na sua conta Audience Manager.
 seo-description: Describes the common platform-level key-value pairs you can use to target users with device-related variables across all properties in your Audience Manager account.
 seo-title: Device Targeting With Platform-level Keys
 solution: Audience Manager
@@ -18,21 +18,21 @@ ht-degree: 5%
 
 >[!WARNING]
 >
->A Google atualizou a funcionalidade de [!DNL Google Chrome] e tudo [!DNL Chromium]navegadores baseados em para minimizar as informações coletadas pelo `User-Agent` cabeçalho.
->A partir de março de 2023, o Audience Manager oferecerá suporte a essas atualizações aproveitando [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en). Para continuar usando as informações de características fornecidas por meio da `User-Agent` cabeçalho, você deve usar [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) e ativar [Dicas de cliente do agente de usuário de alta criptografia](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en).
->Estas atualizações não são suportadas pela [DIL](../../../using/dil/dil-overview.md), portanto, clientes do Audience Manager que usam [!DNL DIL] não poderá coletar informações de características por meio do `User-Agent` cabeçalho.
+>A Google atualizou a funcionalidade do [!DNL Google Chrome] e todos [!DNL Chromium]navegadores baseados em para minimizar as informações coletadas por meio do `User-Agent` cabeçalho.
+>A partir de março de 2023, o Audience Manager oferecerá suporte a essas atualizações utilizando [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en). Para continuar usando as informações de características fornecidas por meio do `User-Agent` cabeçalho, você deve usar [SDK da Web](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) e habilitar [Dicas do cliente de usuário-agente de alta entropia](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en).
+>Estas atualizações não são suportadas pela [DIL](../../../using/dil/dil-overview.md), para que os clientes do Audience Manager que usam [!DNL DIL] O não poderá coletar informações de características por meio do `User-Agent` cabeçalho.
 
-Descreve os pares de valores-chave comuns no nível da plataforma que podem ser usados para direcionar usuários com variáveis relacionadas ao dispositivo em todas as propriedades da sua conta do Audience Manager.
+Descreve os pares de valores chave comuns em nível de plataforma que você pode usar para direcionar usuários com variáveis relacionadas ao dispositivo em todas as propriedades na sua conta Audience Manager.
 
-## Finalidade das variáveis no nível da plataforma {#platform-variables}
+## Finalidade das variáveis de nível de plataforma {#platform-variables}
 
 <!-- c_tb_device_targeting.xml -->
 
-As variáveis de nível de plataforma permitem que você pegue os dados transmitidos de um site específico e os disponibilize para direcionamento em todas as propriedades em seu [!DNL Audience Manager] conta. Essas variáveis são formadas por [pares de valor-chave](../../reference/key-value-pairs-explained.md) com o prefixo `d_` conforme mostrado abaixo.
+As variáveis de nível de plataforma permitem pegar os dados transmitidos de um site específico e disponibilizá-los para direcionamento em todas as propriedades no [!DNL Audience Manager] conta. Essas variáveis são formadas por [pares de valor-chave](../../reference/key-value-pairs-explained.md) com a chave com o prefixo `d_` conforme mostrado abaixo.
 
-## Chaves de nível de plataforma definidas pelo Agente do usuário {#keys-user-agent}
+## Chaves de nível de plataforma definidas pelo agente do usuário {#keys-user-agent}
 
-O [!UICONTROL Data Collection Servers] extrair os valores dessas chaves do [cabeçalho do agente do usuário](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) em `HTTP` solicitações. Os valores representam informações no nível do dispositivo da variável [!UICONTROL Device Atlas] banco de dados. Os sinais na tabela abaixo estão disponíveis, como extraído do exemplo do agente do usuário. [Baixe uma lista das chaves mais comuns](assets/device_keys.csv), de acordo com [!UICONTROL Device Atlas] medidas.
+A variável [!UICONTROL Data Collection Servers] extraia os valores dessas chaves da variável [cabeçalho do agente do usuário](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) in `HTTP` solicitações. Os valores representam informações de nível de dispositivo do [!UICONTROL Device Atlas] banco de dados. Os sinais na tabela abaixo estão disponíveis, conforme extraído do exemplo do agente do usuário. [Baixar uma lista das chaves mais comuns](assets/device_keys.csv), segundo [!UICONTROL Device Atlas] medições.
 
 | [!DNL Signal] | [!DNL Type] | [!DNL Example] |
 |---|---|---|
@@ -50,7 +50,7 @@ O [!UICONTROL Data Collection Servers] extrair os valores dessas chaves do [cabe
 
 >[!NOTE]
 >
->Mesmo que um ou mais sinais não possam ser recuperados do cabeçalho do agente do usuário, os outros sinais ainda serão passados para o [!UICONTROL Data Collection Servers].
+>Mesmo se um ou mais sinais não puderem ser recuperados do cabeçalho do agente do usuário, os outros sinais ainda serão passados para o [!UICONTROL Data Collection Servers].
 
 >[!MORELIKETHIS]
 >

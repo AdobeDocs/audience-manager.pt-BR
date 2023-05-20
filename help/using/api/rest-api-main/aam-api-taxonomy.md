@@ -1,7 +1,7 @@
 ---
-description: Métodos que permitem visualizar a taxonomia Audience Manager comum. Este sistema de classificação opcional organiza características em categorias padrão do setor.
-seo-description: Métodos que permitem visualizar a taxonomia Audience Manager comum. Este sistema de classificação opcional organiza características em categorias padrão do setor.
-seo-title: Métodos da API taxonômica
+description: Métodos que permitem visualizar a taxonomia comum de Audience Manager. Esse esquema de classificação opcional organiza as características em categorias padrão do setor.
+seo-description: Methods that let you view the Audience Manager common taxonomy. This optional classification scheme organizes traits into industry standard categories.
+seo-title: Taxonomic API Methods
 solution: Audience Manager
 title: Métodos da API taxonômica
 uuid: 4ee29ba5-e9ba-4498-a6ee-7343227dd7ba
@@ -9,24 +9,24 @@ feature: API
 exl-id: 8bc6dcbb-7f5b-4a7b-998d-025eaf76c409
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 8%
+source-wordcount: '173'
+ht-degree: 6%
 
 ---
 
 # Métodos da API taxonômica {#taxonomic-api-methods}
 
-Métodos que permitem visualizar a taxonomia Audience Manager comum. Este sistema de classificação opcional organiza características em categorias padrão do setor.
+Métodos que permitem visualizar a taxonomia comum de Audience Manager. Esse esquema de classificação opcional organiza as características em categorias padrão do setor.
 
 <!-- c_rest_api_taxonomy.xml -->
 
 >[!NOTE]
 >
->Não é possível criar novas categorias taxonômicas ou classificar características com esses métodos. Para classificar uma característica, especifique o `categoryId` apropriado com um método de criação ou atualização de característica.
+>Não é possível criar novas categorias taxonômicas ou classificar características com esses métodos. Para classificar uma característica, especifique o `categoryId` com um método de criação ou atualização de característica.
 
 ## Retornar uma taxonomia específica {#return-specific-taxonomy}
 
-Um método `GET` que retorna detalhes sobre a categoria taxonômica especificada.
+A `GET` método que retorna detalhes sobre a categoria taxonômica especificada.
 
 <!-- r_rest_api_taxonomy.xml -->
 
@@ -36,7 +36,7 @@ Um método `GET` que retorna detalhes sobre a categoria taxonômica especificada
 
 ### Resposta
 
-Uma resposta bem-sucedida retorna `200 OK` e a categoria para a ID especificada. Uma solicitação malsucedida retornará `404 No Content` se a ID não existir.
+Uma resposta bem-sucedida retorna `200 OK` e a categoria da ID especificada. Uma solicitação malsucedida retorna `404 No Content` se a ID não existir.
 
 ```
 {
@@ -49,9 +49,9 @@ Uma resposta bem-sucedida retorna `200 OK` e a categoria para a ID especificada.
 }
 ```
 
-## Retornar todas as Categorias Taxonômicas {#return-all-taxonomy-categories}
+## Retornar todas as categorias taxonômicas {#return-all-taxonomy-categories}
 
-Um método `GET` que retorna uma lista das categorias de nível superior em uma matriz.
+A `GET` método que retorna uma lista das categorias de nível superior em uma matriz.
 
 <!-- r_rest_api_taxonomies.xml -->
 
@@ -61,7 +61,7 @@ Um método `GET` que retorna uma lista das categorias de nível superior em uma 
 
 ### Resposta
 
-Truncado para brevidade.
+Truncado por brevidade.
 
 ```
 [
@@ -92,9 +92,9 @@ Truncado para brevidade.
 ]
 ```
 
-## Subcategorias Taxonômicas de Retorno {#return-taxonomy-sub-categories}
+## Retornar subcategorias taxonômicas {#return-taxonomy-sub-categories}
 
-Um método `GET` que retorna subcategorias para a categoria principal especificada em uma matriz.
+A `GET` método que retorna subcategorias para a categoria principal especificada em uma matriz.
 
 <!-- r_rest_api_taxonomy_sub.xml -->
 
@@ -104,7 +104,7 @@ Um método `GET` que retorna subcategorias para a categoria principal especifica
 
 ### Resposta
 
-Uma resposta bem-sucedida retorna `200 OK` e a categoria para a ID especificada. Uma solicitação malsucedida retornará `404 No Content` se a ID não existir. Truncado para brevidade.
+Uma resposta bem-sucedida retorna `200 OK` e a categoria da ID especificada. Uma solicitação malsucedida retorna `404 No Content` se a ID não existir. Truncado por brevidade.
 
 ```
 [

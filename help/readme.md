@@ -7,29 +7,29 @@ ht-degree: 2%
 ---
 # Instruções
 
-**Observação: Esta página (ou qualquer página readme.md) não será publicada na documentação voltada para o cliente**
+**Observação: esta página (ou qualquer página readme.md) não será publicada na documentação voltada para o cliente**
 
-## Índice
+## TOC
 
 + `TOC.md` na raiz do guia do usuário fornece a organização dos tópicos contidos no guia desta solução.
-+ Cada guia do usuário terá seu próprio `TOC.md` exclusivo, no qual é possível ordenar todas as páginas/tópicos, conforme necessário.
++ Cada guia do usuário terá sua própria `TOC.md`, na qual é possível ordenar todas as páginas/tópicos, conforme necessário.
 + A primeira página de todos os guias do usuário é `overview.md`.
 
 ## Guia do usuário
 
 + A introdução ao guia do usuário é chamada `overview.md`
 + Cada tópico no guia do usuário tem seu próprio diretório distinto.
-   + Se houver um tópico no guia chamado *Implementation*, o diretório correspondente será `/implementation`
-+ Todos os ativos de imagem são armazenados em `/assets` na raiz do guia do usuário.
-   + Todas as imagens no diretório `/assets` serão localizadas.
-   + Nenhuma imagem no diretório `/no-localize` será localizada (há uma surpresa). Isso pode ser usado para garantir versões in loc que os ativos específicos não sejam reproduzidos desnecessariamente.
+   + Se houver um tópico no guia chamado *Implementação*, o diretório correspondente é `/implementation`
++ Todos os ativos de imagem são armazenados no `/assets` na raiz do guia do usuário.
+   + Todas as imagens no `/assets` diretório será localizado.
+   + Qualquer imagem na variável `/no-localize` o diretório não será localizado (há uma surpresa!). Isso pode ser usado para garantir versões in loc que os ativos específicos não serão reproduzidos desnecessariamente.
 
 ## Metadados do guia do usuário
 
 + Os metadados que descrevem o guia do usuário são armazenados no `TOC.md`. Isso inclui:
    + produto - nome do produto/recurso.
    + nuvem - nuvem à qual este produto pertence.
-   + público-alvo - público-alvo ou arquétipo no qual o guia é direcionado.
+   + público-alvo: público-alvo ou arquétipo no qual o guia é direcionado.
    + guia do usuário - nome do guia do usuário.
 
 ## Metadados de página
@@ -37,17 +37,17 @@ ht-degree: 2%
 + Os metadados necessários para descrever um documento são armazenados como parte de cada página individual. Isso inclui:
    + título - título da página.
    + descrição - descrição da página.
-   + seo-title - título alternativo seo.
-   + seo-description - título alternativo para fins de SEO.
+   + título SEO - título alternativo SEO.
+   + descrição SEO - título alternativo para fins de SEO.
    + abreviado - (campo opcional).
    + index - sim/não - a página será indexada pela plataforma de pesquisa Adobe.
-   + traduzir - sim/não - esta página será localizada.
+   + traduzir - sim/não - essa página será localizada.
    + versão - usada principalmente para AEM e Campaign, para indicar a versão do produto.
    + private-feature-pack - usado principalmente para AEM.
    + beta - este produto é beta?
    + redirecionar - pode ser usado para criar uma referência para uma nova página, se necessário.
-   + doc-type: referência (padrão) / solução de problemas / desenvolvedor / tutorial / kb / whitepaper.
+   + doc-type: reference (default) / troubleshooting / developer / tutorial / kb / whitepaper.
 
 ## Mais Informações
 
-Para obter mais instruções de publicação, guias de estilos, amostras e outros recursos, visite o [Collaborative Documentation Repo](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)
+Para obter mais instruções de publicação, guias de estilos, amostras e outros recursos, visite o [Repo de documentação colaborativa](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)
