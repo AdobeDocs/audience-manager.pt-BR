@@ -7,10 +7,10 @@ title: Guia do Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 feature: Overview
 exl-id: a47bf8ba-4ec0-4b3b-ad20-4afb7c9f924b
-source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
+source-git-commit: 79ce9c05c9168e3bcecabc11db3f9585a5b5ef6c
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 88%
+source-wordcount: '602'
+ht-degree: 87%
 
 ---
 
@@ -88,7 +88,7 @@ Este guia de documentação técnica oferece assistência de autoajuda para o Au
      <li><a href="/help/using/api/rest-api-main/aam-api-getting-started.md">Introdução às REST APIs</a></li>
      <li><a href="/help/using/api/dcs-intro/dcs-event-calls/dcs-event-calls.md">Introdução à DCS API</a></li>
      <li><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html">Adicionar a extensão Audience Manager nas Tags do Adobe Experience Platform</a></li>
-    <li><a href="https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager">Adicionar o Audience Manager ao seu aplicativo</a></li>
+    <li><a href="https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/data-management/aam-dil-extension.html?lang=en">Adicionar o Audience Manager ao seu aplicativo</a></li>
      </ul> </p>
     </td>
 
@@ -117,7 +117,7 @@ Este guia de documentação técnica oferece assistência de autoajuda para o Au
      <li><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html">Getting Started with REST APIs</a></li>
      <li><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-event-calls/dcs-event-calls.html">Get started with the DCS API</a></li>
      <li><a href="https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html">Add the Audience Manager extension to Adobe Experience Platform Launch</a></li>
-    <li><a href="https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager">Add Audience Manager to your app</a></li>
+    <li><a href="https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/data-management/aam-dil-extension.html?lang=en">Add Audience Manager to your app</a></li>
      </ul> </p>
     </td>
    <td colname="col2">  <p> <b>Collaborative Documentation</b> </p>
