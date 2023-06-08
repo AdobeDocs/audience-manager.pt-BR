@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Guia do usuário do Audience Manager
 user-guide-description: Saiba como usar o Adobe Audience Manager para coletar informações comercialmente relevantes sobre visitantes do site e criar segmentos comercializáveis. Você também encontra detalhes sobre como fornecer publicidade e conteúdo direcionados ao público-alvo certo.
 feature-set: Audience Manager
-source-git-commit: e50aab600f0bf197b1356ba77ac86efb4456979a
+source-git-commit: 27581b03b71d5254f24d7e46646abce82f9e4df2
 workflow-type: tm+mt
-source-wordcount: '1813'
-ht-degree: 91%
+source-wordcount: '1827'
+ht-degree: 90%
 
 ---
 
@@ -16,6 +16,7 @@ ht-degree: 91%
 # Guia do usuário do Audience Manager {#user-guide}
 
 + [Guia do Audience Manager](aam-home.md)
++ [Guia de evolução do Audience Manager para Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
 + Visão geral {#overview}
    + [Visão geral do Audience Manager](overview/aam-overview.md)
    + [Tipos de dados coletados](overview/data-types-collected.md)
@@ -198,7 +199,7 @@ ht-degree: 91%
          + [Segmentar para sobreposição de unidade de anúncio](reporting/audience-optimization-reports/aor-publishers/publisher-segment-ad-unit-overlap.md)
          + [Alcance único do usuário](reporting/audience-optimization-reports/aor-publishers/publisher-unique-reach.md)
       + Arquivos de dados e metadados para Relatórios de otimização de público-alvo e arquivos de registro acionáveis {#data-and-metadata-files}
-         + [ Dados de registro e arquivos de metadados](reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
+         + [Dados de registro e arquivos de metadados](reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
          + [Arquivos de dados para Relatórios de otimização de público-alvo e arquivos de registro acionáveis](reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
          + [Visão geral e mapeamentos para arquivos de metadados](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)
          + [Convenções de nomenclatura para arquivos de metadados](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
@@ -402,7 +403,7 @@ ht-degree: 91%
    + [Contato e informações legais](/help/using/help-legal/help-legal-contact.md)
 + Principais problemas de suporte ao cliente {#top-support-issues}
    + [Visão geral](/help/using/support-issues/support-issues-overview.md)
-   + [Por que minhas populações de características integradas caíram para 0 por volta de 15 de outubro? ](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
+   + [Por que minhas populações de características integradas caíram para 0 por volta de 15 de outubro?](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
    + [Por que minhas características ou meus segmentos não aparecem na página Relatórios de sobreposição?](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
    + [Por que nossos usuários somente leitura podem criar, editar ou excluir características e segmentos?](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
    + [Não somos clientes do Audience Manager, mas vemos as chamadas do Javascript do Audience Manager em nosso site](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
