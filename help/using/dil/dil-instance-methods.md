@@ -8,14 +8,22 @@ title: Métodos da DIL em nível de instância
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
 feature: DIL Implementation
 exl-id: 0342439d-708e-461c-b155-a3ee423f5437
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
 workflow-type: tm+mt
-source-wordcount: '1075'
-ht-degree: 15%
+source-wordcount: '1153'
+ht-degree: 14%
 
 ---
 
 # Métodos da DIL em nível de instância{#instance-level-dil-methods}
+
+>[!WARNING]
+>
+>A partir de julho de 2023, a Adobe interrompeu o desenvolvimento do [!DNL Data Integration Library (DIL)] e a variável [!DNL DIL] extensão.
+><br><br>
+>Os clientes existentes podem continuar usando seus [!DNL DIL] execução. No entanto, o Adobe não estará em desenvolvimento [!DNL DIL] além deste ponto. Os clientes são incentivados a avaliar [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) para a sua estratégia de recolha de dados a longo prazo.
+><br><br>
+>Os clientes que desejam implementar novas integrações de coleta de dados após julho de 2023 devem usar [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) em vez disso.
 
 O nível da instância [!UICONTROL DIL] As APIs permitem criar e trabalhar programaticamente com objetos Audience Manager. Os métodos de nível de instância aprimoram a funcionalidade da API estabelecida pelos métodos de nível de classe.
 
@@ -54,7 +62,6 @@ r_dil_signals.xml
 >
 >* Você pode encadear outras chamadas de API a esse método.
 >* Se a biblioteca JavaScript do Adobe Experience Cloud estiver na página, `submit()` O aguarda a nuvem definir um cookie antes de enviar uma solicitação.
-
 
 **Chaves de solicitação reservadas**
 
@@ -685,7 +692,6 @@ var dilInstance = DIL.create({
 >* Quando `useCORSOnly: true`, [!UICONTROL DIL] O não fará chamadas de ID do Internet Explorer versão 9 ou posterior.
 >
 
-
 ## useImageRequest {#useimagerequest}
 
 Altera o tipo de solicitação para imagem `<img>` do script `<src>`.
@@ -725,4 +731,3 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >* [Criar DIL](../dil/dil-class-overview/dil-create.md#dil-create)
 >* [Serviço de identidade da Adobe Experience Platform: UseCORSOnly](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/use-cors-only.html)
 >* [Suporte ao CORS no serviço de identidade da Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/reference/cors.html)
-

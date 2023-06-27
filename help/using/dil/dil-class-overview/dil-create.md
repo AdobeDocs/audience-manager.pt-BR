@@ -7,14 +7,22 @@ title: Criar DIL
 uuid: 6e054600-703c-4a97-af2a-8207c50013db
 feature: DIL Implementation
 exl-id: 0bef149c-4458-43d6-affe-6d79fe1fca46
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 11%
+source-wordcount: '878'
+ht-degree: 10%
 
 ---
 
 # método de criação DIL{#dil-create}
+
+>[!WARNING]
+>
+>A partir de julho de 2023, a Adobe interrompeu o desenvolvimento do [!DNL Data Integration Library (DIL)] e a variável [!DNL DIL] extensão.
+><br><br>
+>Os clientes existentes podem continuar usando seus [!DNL DIL] execução. No entanto, o Adobe não estará em desenvolvimento [!DNL DIL] além deste ponto. Os clientes são incentivados a avaliar [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) para a sua estratégia de recolha de dados a longo prazo.
+><br><br>
+>Os clientes que desejam implementar novas integrações de coleta de dados após julho de 2023 devem usar [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) em vez disso.
 
 ## Criar DIL {#dil-create-new}
 

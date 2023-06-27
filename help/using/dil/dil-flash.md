@@ -7,14 +7,22 @@ title: Flash DIL
 uuid: 65833cfd-768e-4b16-95c5-debd8411df38
 feature: DIL Implementation
 exl-id: e530d893-db26-4411-8df7-9bb2df84b68e
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 4%
+source-wordcount: '698'
+ht-degree: 3%
 
 ---
 
 # Flash DIL{#flash-dil}
+
+>[!WARNING]
+>
+>A partir de julho de 2023, a Adobe interrompeu o desenvolvimento do [!DNL Data Integration Library (DIL)] e a variável [!DNL DIL] extensão.
+><br><br>
+>Os clientes existentes podem continuar usando seus [!DNL DIL] execução. No entanto, o Adobe não estará em desenvolvimento [!DNL DIL] além deste ponto. Os clientes são incentivados a avaliar [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) para a sua estratégia de recolha de dados a longo prazo.
+><br><br>
+>Os clientes que desejam implementar novas integrações de coleta de dados após julho de 2023 devem usar [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) em vez disso.
 
 Colete dados enviados de arquivos FLA para o Analytics e trabalhe com essas informações no Audience Manager.
 
@@ -142,7 +150,6 @@ r_flash_dil_actionscript.xml
 >
 >* Requer o Adobe [!UICONTROL AppMeasurement] [!DNL AS] versão da biblioteca 3.5.2 ou superior.
 
-
 ```js
 import com.omniture.AppMeasurement; // Omit this line if it already exists in the code 
 import com.adobe.am.DIL; 
@@ -160,4 +167,3 @@ s.loadModule(d);
 >* [Sinais, características e segmentos](../reference/signal-trait-segment.md)
 >* [Explicação dos pares de valor-chave](../reference/key-value-pairs-explained.md)
 >* [Requisitos de prefixo para variáveis-chave](../features/traits/trait-variable-prefixes.md)
-

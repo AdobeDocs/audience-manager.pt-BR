@@ -7,14 +7,22 @@ title: Módulos da DIL
 uuid: d4c0d8dd-79f8-448e-b17c-c935415dd449
 feature: DIL Implementation
 exl-id: 4685bcbb-a63b-4613-bc94-54de9881966e
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '771'
 ht-degree: 4%
 
 ---
 
 # Módulos da DIL{#dil-modules}
+
+>[!WARNING]
+>
+>A partir de julho de 2023, a Adobe interrompeu o desenvolvimento do [!DNL Data Integration Library (DIL)] e a variável [!DNL DIL] extensão.
+><br><br>
+>Os clientes existentes podem continuar usando seus [!DNL DIL] execução. No entanto, o Adobe não estará em desenvolvimento [!DNL DIL] além deste ponto. Os clientes são incentivados a avaliar [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) para a sua estratégia de recolha de dados a longo prazo.
+><br><br>
+>Os clientes que desejam implementar novas integrações de coleta de dados após julho de 2023 devem usar [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) em vez disso.
 
 Descreve métodos na variável `DIL.modules` namespace. Esses módulos permitem coletar dados de forma programática e trabalhar com objetos Audience Manager.
 
@@ -156,7 +164,6 @@ dil-google-universal-analytics.xml
 >
 >* Você não pode usar `GA.submitUniversalAnalytics();` se você ainda estiver trabalhando com o código de rastreamento de análise herdado do Google (por exemplo, `ga.js` ou `dc.js`). Consulte [GA.init](../dil/dil-modules.md#ga-init) em vez disso.
 >
-
 
 **Assinatura da Função:** `DIL.modules.GA.submitUniversalAnalytics(gaObject, dilInstance, internalPropertyName);`
 
@@ -314,4 +321,3 @@ A chamada de evento de URL para o Audience Manager pode ser semelhante a:
 >* [Atualização completa para a Web: ga.js/dc.js para analytics.js](https://developers.google.com/analytics/devguides/collection/upgrade)
 >* [Adicionar analytics.js ao seu site](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
 >* [Referência de métodos de objeto ga](https://developers.google.com/analytics/devguides/collection/analyticsjs/ga-object-methods-reference)
-
