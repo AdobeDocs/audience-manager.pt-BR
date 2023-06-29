@@ -7,7 +7,7 @@ title: Flash DIL
 uuid: 65833cfd-768e-4b16-95c5-debd8411df38
 feature: DIL Implementation
 exl-id: e530d893-db26-4411-8df7-9bb2df84b68e
-source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
+source-git-commit: fcf13cf39f688f8aafd2b1020ddfe4583d67e14f
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 3%
@@ -19,9 +19,9 @@ ht-degree: 3%
 >[!WARNING]
 >
 >A partir de julho de 2023, a Adobe interrompeu o desenvolvimento do [!DNL Data Integration Library (DIL)] e a variável [!DNL DIL] extensão.
-><br><br>
+><br>
 >Os clientes existentes podem continuar usando seus [!DNL DIL] execução. No entanto, o Adobe não estará em desenvolvimento [!DNL DIL] além deste ponto. Os clientes são incentivados a avaliar [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) para a sua estratégia de recolha de dados a longo prazo.
-><br><br>
+><br>
 >Os clientes que desejam implementar novas integrações de coleta de dados após julho de 2023 devem usar [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) em vez disso.
 
 Colete dados enviados de arquivos FLA para o Analytics e trabalhe com essas informações no Audience Manager.
