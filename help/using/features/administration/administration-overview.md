@@ -8,9 +8,9 @@ title: Administração
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 feature: Administration
 exl-id: f23f4294-35d9-4128-bcda-64a3eccbb4e7
-source-git-commit: 8ef6e8eb4351c24b55703b1788c68c580f199fc8
+source-git-commit: c29e581c736e03066df7d0698d4ea384e14db467
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1187'
 ht-degree: 2%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 2%
 > O gerenciamento de conta de usuário está sendo transferido para a [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). Para iniciar a migração de usuários, exigimos que todos os clientes do Audience Manager adotem imediatamente as medidas necessárias descritas neste artigo: [Migração de usuário do Audience Manager para o Admin Console](admin-console-migration.md).
 > 
 > Depois que todos os clientes tiverem migrado, as seções de gerenciamento de usuários deste documento desaparecerão.
+
+>[!IMPORTANT]
+>
+> Antes que você possa usar [!DNL RBAC], esse recurso deve ser ativado pelo Adobe para sua organização. Entre em contato com a equipe de conta para solicitar [!DNL RBAC] ativação ou entre em contato com o Atendimento ao cliente.
 
 
 As opções no âmbito do [!UICONTROL Administration] permite criar usuários do Audience Manager e atribuí-los a grupos. Também é possível visualizar limites (características, segmentos, destinos e modelos).
@@ -41,6 +45,7 @@ Clientes empresariais que usam o [!DNL Audience Manager] precisam de uma platafo
 > O gerenciamento de conta de usuário está sendo transferido para a [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). Para iniciar a migração de usuários, exigimos que todos os clientes do Audience Manager adotem imediatamente as medidas necessárias descritas neste artigo: [Migração de usuário do Audience Manager para o Admin Console](admin-console-migration.md).
 > 
 > Depois que todos os clientes tiverem migrado, a seção Gerenciamento de usuários deste documento desaparecerá.
+> 
 Criar usuários no [!DNL Audience Manager] e especificar detalhes do usuário, status de login e atribuir usuários a grupos.
 
 1. Clique em **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
