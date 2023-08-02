@@ -5,10 +5,10 @@ solution: Audience Manager
 title: Ofuscação de endereço IP
 feature: Data Governance & Privacy
 exl-id: 8c976d1e-f4ba-4892-bd68-d4e74bdb4d9b
-source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
+source-git-commit: ae074cdeb8dcf6f6a224c2ede5f3bb704b28f49f
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 16%
+source-wordcount: '518'
+ht-degree: 14%
 
 ---
 
@@ -28,6 +28,10 @@ Seguindo os princípios de &quot;Privacidade por design&quot;, o Adobe Audience 
 * Após ofuscação: `255.255.255.0`
 
 Consulte também Coleta de endereços IP e Ofuscação de endereço IP em nossa [seção Privacidade de dados](/help/using/overview/data-security-and-privacy/data-privacy.md).
+
+### Precedência de ofuscação de IP {#precedence}
+
+[Ofuscação de IP em nível de fluxo de dados](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#create) tem precedência sobre qualquer opção de ofuscação de IP definida no Audience Manager e é aplicada a todos os endereços IP. Qualquer pesquisa de geolocalização feita pelo Audience Manager é afetada pelo nível de fluxo de dados [!UICONTROL IP obfuscation] opção. Uma pesquisa de geolocalização no Audience Manager, com base em um IP totalmente ofuscado, resultará em uma região desconhecida e todos os segmentos baseados nos dados de geolocalização resultantes não serão realizados.
 
 ## Requisitos de ofuscação de endereço IP {#ip-obfuscation-requirements}
 
