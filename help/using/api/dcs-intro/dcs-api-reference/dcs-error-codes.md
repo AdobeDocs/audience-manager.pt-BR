@@ -4,7 +4,7 @@ title: Códigos de erros, mensagens e exemplos de DCS
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 exl-id: 485e5ce2-143e-4d18-b157-c243c5a510ad
-source-git-commit: dbb557928a296d3dd5f0646644e2ca0cdc11dfdc
+source-git-commit: 5044a38c751abace922008f00b9ff463ea9c7e57
 workflow-type: tm+mt
 source-wordcount: '1520'
 ht-degree: 4%
@@ -199,13 +199,13 @@ Nas tabelas abaixo, *itálico* representa um espaço reservado para variável.
    <tr> 
    <td colname="col1"> <p>313 </p> </td> 
    <td colname="col2"> <p>A ID de CMP não está presente no GCL</p> </td> 
-   <td colname="col3"> <p>Quando <code>gdpr=1</code> e a string TC do IAB for gerada por uma ID do CMP que não esteja presente na versão em cache do Audience Manager da Lista CMP Global no momento da avaliação, o Plug-in do Audience Manager para TCF do IAB descarta a string TC do IAB e processa a solicitação como de costume. A macro da TCF do IAB v2.0 ${GDPR} está definida como 0 e a macro ${GDPR_CONSENT_XXX} está vazia.</p>
+   <td colname="col3"> <p>Quando <code>gdpr=1</code> e a string TC do IAB for gerada por uma ID do CMP que não esteja presente na versão em cache do Audience Manager da Lista CMP Global no momento da avaliação, o Plug-in do Audience Manager para TCF do IAB descarta a string TC do IAB e processa a solicitação como de costume. O IAB TCF v2.2 ${GDPR} A macro está definida como 0 e o valor ${GDPR_CONSENT_XXX} macro está vazia.</p>
    </td>
   </tr>
    <tr> 
    <td colname="col1"> <p>314 </p> </td> 
    <td colname="col2"> <p>A ID CMP está marcada como excluída no GCL</p> </td> 
-   <td colname="col3"> <p>Quando <code>gdpr=1</code> e a cadeia de caracteres IAB TC é gerada por uma CMP marcada como excluída em nossa versão em cache da Lista CMP global, o Plug-in do Audience Manager para TCF do IAB descarta a cadeia de caracteres TC e processa a solicitação como de costume, se o tempo de avaliação ultrapassar o tempo de exclusão da Lista CMP global. A macro da TCF do IAB v2.0 ${GDPR} está definida como 0 e a macro ${GDPR_CONSENT_XXX} está vazia.</p></td>
+   <td colname="col3"> <p>Quando <code>gdpr=1</code> e a cadeia de caracteres IAB TC é gerada por uma CMP marcada como excluída em nossa versão em cache da Lista CMP global, o Plug-in do Audience Manager para TCF do IAB descarta a cadeia de caracteres TC e processa a solicitação como de costume, se o tempo de avaliação ultrapassar o tempo de exclusão da Lista CMP global. O IAB TCF v2.2 ${GDPR} A macro está definida como 0 e o valor ${GDPR_CONSENT_XXX} macro está vazia.</p></td>
   </tr>
    <tr> 
    <td colname="col1"> <p>315 </p> </td> 

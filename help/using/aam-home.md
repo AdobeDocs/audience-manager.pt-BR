@@ -7,7 +7,7 @@ title: Guia do Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 feature: Overview
 exl-id: a47bf8ba-4ec0-4b3b-ad20-4afb7c9f924b
-source-git-commit: 79ce9c05c9168e3bcecabc11db3f9585a5b5ef6c
+source-git-commit: 5044a38c751abace922008f00b9ff463ea9c7e57
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 87%
@@ -151,7 +151,7 @@ Este guia de documentação técnica oferece assistência de autoajuda para o Au
      Consulte as <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html" format="https" scope="external">Notas de versão da Experience Cloud</a> para obter novos recursos e correções.</p> 
      <p> <b>Recursos mais recentes</b> </p> <p> 
      Leia sobre os recursos mais recentes do Audience Manager:</p>
-     <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Migração de usuário do Audience Manager para o Admin Console</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Correspondência de cliente do Google para destinos com base em pessoas</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Plug-in Audience Manager para TCF do IAB v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Públicos preditivos</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Relatórios de uso de atividade</a></li>
+     <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Migração de usuário do Audience Manager para o Admin Console</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Correspondência de cliente do Google para destinos com base em pessoas</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Plug-in Audience Manager para TCF do IAB v2.2</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Públicos preditivos</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Relatórios de uso de atividade</a></li>
      </ul></p>
     </td>
   </tr> 
