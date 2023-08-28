@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Guia do usuário do Audience Manager
 user-guide-description: Saiba como usar o Adobe Audience Manager para coletar informações comercialmente relevantes sobre visitantes do site e criar segmentos comercializáveis. Você também encontra detalhes sobre como fornecer publicidade e conteúdo direcionados ao público-alvo certo.
 feature-set: Audience Manager
-source-git-commit: f4babbb632279cf213116e004551e5c77869ab78
+source-git-commit: 7302fafa537ad15144a64cc96f7150c5b0233c12
 workflow-type: tm+mt
-source-wordcount: '1825'
+source-wordcount: '1835'
 ht-degree: 90%
 
 ---
@@ -336,6 +336,7 @@ ht-degree: 90%
          + [Criptografia PGP de arquivo para tipos de dados de entrada](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)
          + [Compactação de arquivos de transferência de dados de entrada](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
          + [Mensagem de amostra para parceiros após o processamento de entrada](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
+         + [Aproveite as permissões de bucket entre contas do Amazon S3 para seus arquivos de entrada](integration/sending-audience-data/batch-data-transfer-explained/authorize-s3-inbound.md)
       + [Integrações personalizadas de parceiros](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Integração com a Adobe Experience Platform {#integration-experience-platform}
       + [compartilhamento de segmento Experience Platform com Audience Manager e outras soluções Experience Cloud](integration/integration-aep/aam-aep-audience-sharing.md)
