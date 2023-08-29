@@ -3,7 +3,7 @@ description: Para enviar dados do seu próprio bucket do Amazon S3 para o Audien
 solution: Audience Manager
 title: Aproveite as permissões de bucket entre contas do Amazon S3 para seus arquivos de entrada
 feature: Inbound Data Transfers
-source-git-commit: ff023fb57e2653ca65323313a37852d379e4b00c
+source-git-commit: 17cee6971ca1d5cda8f272558a46220227fc51f7
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -24,6 +24,6 @@ Para fazer isso, siga as etapas descritas abaixo.
 >[!NOTE]
 >
 >Ao transferir dados de entrada para o bucket do Audience Manager Amazon S3, use o `bucket-owner-full-control` [lista de controle de acesso](https://docs.aws.amazon.com/AmazonS3/latest/userguide/about-object-ownership.html) para que o Audience Manager processe os dados corretamente.
-><br>
->Exemplo do comando Amazon Web Services: `aws s3 cp <user_s3_uri> <AAM_s3_uri> --acl bucket-owner-full-control`.
+>
+>Exemplo do comando Amazon Web Services: `aws s3 cp <user_s3_uri> <AAM_s3_uri> --acl bucket-owner-full-control`
 
