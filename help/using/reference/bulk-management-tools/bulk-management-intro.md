@@ -8,16 +8,21 @@ title: Introdução ao gerenciamento em massa
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 feature: BAAAM
 exl-id: 5603146e-7172-4181-90ad-4606129176dd
-source-git-commit: 911eab2d661907c6f1e2ffc08603d994bd346395
+source-git-commit: 6b4796db4fc336180d72d4971b4f267fcc42d398
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '705'
 ht-degree: 3%
 
 ---
 
+
 # Introdução ao gerenciamento em massa{#getting-started-with-bulk-management}
 
 A variável [!DNL Bulk Management Tools] O permite criar e gerenciar vários objetos de uma só vez com uma única operação. Você pode usar [!DNL Bulk Management Tools] para trabalhar com [!UICONTROL data sources], [!UICONTROL derived signals], [!UICONTROL destinations], [!UICONTROL folders], [!UICONTROL models], [!UICONTROL segments], e [!UICONTROL traits].
+
+>[!IMPORTANT]
+>
+>As Ferramentas de gerenciamento em massa não são uma oferta de Adobe oficialmente compatível. A solução de problemas e o suporte por meio do Atendimento ao cliente serão tratados caso a caso.
 
 <!-- 
 

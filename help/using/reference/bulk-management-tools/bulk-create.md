@@ -7,9 +7,9 @@ title: Criação em massa
 uuid: 1e09bcfa-783e-4e9b-9ead-147f8d1381c8
 feature: BAAAM
 exl-id: 7828fc95-24eb-4a80-bdb8-0d9adea43d8f
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '288'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 1%
 # Criação em massa{#bulk-create}
 
 A criação em massa permite construir várias fontes de dados, sinais derivados, segmentos, características e outros itens com uma única operação. Siga estas instruções para fazer uma solicitação de criação em massa.
+
+>[!IMPORTANT]
+>
+>As Ferramentas de gerenciamento em massa não são uma oferta de Adobe oficialmente compatível. A solução de problemas e o suporte por meio do Atendimento ao cliente serão tratados caso a caso.
 
 <!-- 
 

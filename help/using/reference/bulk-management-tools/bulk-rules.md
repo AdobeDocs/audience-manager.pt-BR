@@ -7,9 +7,9 @@ title: Criar ou atualizar regras de características e regras de segmento
 uuid: bdd5f8f1-bb83-4844-b681-654e45ace3e1
 feature: BAAAM
 exl-id: 9b697606-5534-4e6e-a3f2-b1a4c26bb707
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '342'
 ht-degree: 8%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 8%
 # Criar ou atualizar regras de características e regras de segmento{#create-or-update-trait-rules-and-segment-rules}
 
 As planilhas criar e atualizar aceitam um cabeçalho de regra de característica que permite aplicar várias regras em uma única operação. Siga estas instruções para fazer solicitações de regra em massa.
+
+>[!IMPORTANT]
+>
+>As Ferramentas de gerenciamento em massa não são uma oferta de Adobe oficialmente compatível. A solução de problemas e o suporte por meio do Atendimento ao cliente serão tratados caso a caso.
 
 <!-- 
 

@@ -7,16 +7,20 @@ title: Solicitações em massa
 uuid: 0192d26a-4cea-4e12-9fea-388b92b382f1
 feature: BAAAM
 exl-id: a0597bf4-79c8-404d-ba3b-a92c6b5c9c06
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 2%
+source-wordcount: '253'
+ht-degree: 1%
 
 ---
 
 # Solicitações em massa{#bulk-requests}
 
 Uma solicitação em massa retorna dados que você pode usar com os diferentes cabeçalhos nas planilhas Atualizar, Criar, Estimar e Excluir.
+
+>[!IMPORTANT]
+>
+>As Ferramentas de gerenciamento em massa não são uma oferta de Adobe oficialmente compatível. A solução de problemas e o suporte por meio do Atendimento ao cliente serão tratados caso a caso.
 
 <!-- 
 

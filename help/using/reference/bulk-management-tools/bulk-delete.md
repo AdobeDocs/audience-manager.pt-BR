@@ -7,9 +7,9 @@ title: Exclusão em massa
 uuid: 679cde46-09fb-45c6-b84d-47e00e0e7c0a
 feature: BAAAM
 exl-id: 3ff530dd-66d0-4dd3-a6e6-afe4a9cb5ba4
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '258'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 1%
 # Exclusão em massa{#bulk-delete}
 
 A exclusão em massa permite remover vários segmentos, características, pastas, sinais derivados, fontes de dados, modelos e destinos com uma única operação. Siga estas instruções para fazer uma solicitação de exclusão em massa.
+
+>[!IMPORTANT]
+>
+>As Ferramentas de gerenciamento em massa não são uma oferta de Adobe oficialmente compatível. A solução de problemas e o suporte por meio do Atendimento ao cliente serão tratados caso a caso.
 
 <!-- 
 

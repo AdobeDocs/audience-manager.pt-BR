@@ -7,9 +7,9 @@ title: Estimativas em massa
 uuid: 63b2f06a-8ba0-47a2-bd0b-8039b2d4c95d
 feature: BAAAM
 exl-id: 8da0b48e-6fa4-43c9-a149-a39e465ac366
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '199'
 ht-degree: 2%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 2%
 # Estimativas em massa{#bulk-estimates}
 
 Uma estimativa em massa retorna dados de tamanho de segmento com base em regras de segmento. Siga estas instruções para fazer uma solicitação de estimativa em massa.
+
+>[!IMPORTANT]
+>
+>As Ferramentas de gerenciamento em massa não são uma oferta de Adobe oficialmente compatível. A solução de problemas e o suporte por meio do Atendimento ao cliente serão tratados caso a caso.
 
 <!-- 
 
