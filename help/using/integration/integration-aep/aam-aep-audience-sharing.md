@@ -3,9 +3,9 @@ description: Saiba como habilitar o compartilhamento de dados e como os público
 solution: Audience Manager
 title: compartilhamento de segmento Experience Platform com Audience Manager e outras soluções Experience Cloud
 keywords: Compartilhamento de público-alvo da AEP, segmentos da AEP, segmentos da Platform, compartilhamento de segmento, compartilhamento de público-alvo, segmentos compartilhados, compartilhamento de segmento da AEP no AAM
-feature: Platform Integration
+feature: Experience Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-source-git-commit: f0e5541e4a72d81ab9c587a8daaed6af5e2b89d9
+source-git-commit: d21d0574ee0338dbd5e11c60e0d64042182aa18b
 workflow-type: tm+mt
 source-wordcount: '1953'
 ht-degree: 1%
@@ -33,7 +33,6 @@ Além disso, seus segmentos de Experience Platform são compartilhados para outr
 >
 > * Você precisa de uma licença de Audience Manager para habilitar os casos de uso da Plataforma de gerenciamento de dados mencionados acima.
 > * Você *não precisam* uma licença de Audience Manager para compartilhar segmentos de Experience Platform com a Adobe Advertising Cloud, Adobe Target, Marketo e outras soluções de Experience Cloud, por meio da integração dos Serviços principais.
-
 
 Consulte a tabela abaixo para obter uma visão geral dos casos de uso de compartilhamento de público-alvo:
 
@@ -221,4 +220,3 @@ If you created a data source in Audience Manager for the CRM IDs in Experience P
 >* [Visão geral do serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#audiences)
 >* [Guia do usuário do Construtor de segmentos do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#audiences)
 >* [Conector Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
-
