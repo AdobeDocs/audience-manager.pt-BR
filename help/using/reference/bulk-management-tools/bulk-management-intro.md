@@ -8,10 +8,10 @@ title: Introdução ao gerenciamento em massa
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 feature: BAAAM
 exl-id: 5603146e-7172-4181-90ad-4606129176dd
-source-git-commit: 6b4796db4fc336180d72d4971b4f267fcc42d398
+source-git-commit: e8d81f648f5a46495193fe6631c8a7f73e290493
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 3%
+source-wordcount: '708'
+ht-degree: 1%
 
 ---
 
@@ -47,7 +47,7 @@ Baixar a planilha mais recente **[aqui](assets/BAAAM_V2_20210609.xlsm)** (últim
 Para usar o [!DNL Bulk Management Tools], você precisa do seguinte:
 
 * Seu [!DNL Experience Cloud] fazer logon. Como cliente do, você já deve ter essas credenciais.
-* A variável [!DNL Bulk Management Tools] planilha. [Baixar a planilha](assets/BAAAM_V2_20200502.xlsm) para obter a versão mais recente.
+* A variável [!DNL Bulk Management Tools] planilha. [Baixar a planilha](assets/BAAAM_V2_20210609.xlsm) para obter a versão mais recente.
 * [!DNL Microsoft Excel] em execução [!DNL macOS] ou 64 bits [!DNL Microsoft Windows]. Recomendamos que você use a versão mais recente do [!DNL Microsoft Excel].
 * Ao abrir a planilha, você deve **Ativar macros** para o [!DNL Bulk Management Tools] para trabalhar.
 
@@ -70,7 +70,7 @@ Ao fazer alterações em massa, ainda será necessário confirmar que você est�
 
 A autenticação de domínio oferece a opção de testar solicitações em massa ou aplicá-las diretamente à conta de produção. Fazer alterações em massa no ambiente beta não afetará sua conta de produção. As alterações na produção entram em vigor imediatamente. A planilha de gerenciamento em massa permite que você trabalhe nos seguintes ambientes:
 
-* Beta 
+* Beta
 * Produção
 
 ## Ações e operações {#actions-ops}
@@ -104,11 +104,11 @@ A tabela abaixo lista as operações que podem ser executadas e os itens que pod
      <ul id="ul_A7A96F2B1B63430B9A1E1184AC5FA8F2"> 
       <li id="li_E3D9E2E190B04BE685337AC6140C371C"> <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> Fontes de dados</a> </li> 
       <li id="li_B645385E40684FA28770913EAF18CB2C"> <a href="../../features/derived-signals.md"> Sinais derivados</a> </li> 
-      <li id="li_9059F8C4A41A410899BDEFC76D3F5949"> <a href="../../features/destinations/destinations.md">Destinos </a> </li> 
+      <li id="li_9059F8C4A41A410899BDEFC76D3F5949"> <a href="../../features/destinations/destinations.md"> Destinos</a> </li> 
       <li> <a href="../../features/algorithmic-models/understanding-models.md"> Modelos</a> </li> 
       <li id="li_BB5A445150754E53AA38C78461326932"> <a href="../../features/traits/trait-storage.md#trait-storage"> Pastas de características</a> e pastas de segmento </li> 
-      <li id="li_7A27DBF64E0945CF8AE8C96E8C6EDA09"> <a href="../../features/segments/segments-purpose.md">Segmentos </a> </li> 
-      <li id="li_A4640A34930040DEA8555EAF0AE2A702"> <a href="../../features/traits/trait-details-page.md">Características </a> </li> 
+      <li id="li_7A27DBF64E0945CF8AE8C96E8C6EDA09"> <a href="../../features/segments/segments-purpose.md"> Segmentos</a> </li> 
+      <li id="li_A4640A34930040DEA8555EAF0AE2A702"> <a href="../../features/traits/trait-details-page.md"> Características</a> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
