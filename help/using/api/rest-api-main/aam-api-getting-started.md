@@ -7,10 +7,10 @@ title: Introdução às REST APIs
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 feature: API
 exl-id: f7d5e52d-ad21-4020-a299-d440f954c51a
-source-git-commit: 8bee593d0359f87f030840f87d70025dd5ea33ed
+source-git-commit: 16421f8f15a8aa8c1a561b0b6682091bf78683ce
 workflow-type: tm+mt
-source-wordcount: '1910'
-ht-degree: 3%
+source-wordcount: '2551'
+ht-degree: 1%
 
 ---
 
@@ -18,13 +18,7 @@ ht-degree: 3%
 
 Informações sobre requisitos gerais, autenticação, parâmetros opcionais de consulta, solicitação [!DNL URLs]e outras referências.
 
-<!-- c_rest_api_overview.xml -->
-
-## Requisitos da API e recomendações {#api-requirements-recommendations}
-
-Coisas que você deve e deve fazer ao trabalhar com a [!DNL Audience Manager] [!DNL API]s
-
-<!-- aam-api-requirements.xml -->
+## Requisitos da API e Recommendations {#api-requirements-recommendations}
 
 Observe o seguinte ao trabalhar com o [API AUDIENCE MANAGER](https://bank.demdex.com/portal/swagger/index.html#/) código:
 
@@ -37,16 +31,189 @@ Observe o seguinte ao trabalhar com o [API AUDIENCE MANAGER](https://bank.demdex
 
 ## Autenticação {#authentication}
 
-A variável [!DNL Audience Manager] [!DNL REST APIs] O suporta dois métodos de autenticação.
+A variável [!DNL Audience Manager] [!DNL REST APIs] oferecem suporte a três métodos de autenticação.
 
-* [Autenticação JWT (conta de serviço)](#jwt) usar [Adobe Developer](https://www.adobe.io/). [!DNL Adobe Developer] é um ecossistema de desenvolvedores e comunidade do Adobe. Inclui [APIs para todos os produtos Adobe](https://www.adobe.io/apis.html). Essa é a maneira recomendada de configurar e usar o [!DNL Adobe] [!DNL APIs].
-* [Autenticação OAuth (obsoleto)](#oauth). Embora esse método esteja obsoleto, os clientes com [!DNL OAuth] as integrações podem continuar usando esse método.
+* [!BADGE Recomendado]{type=positive}[Autenticação de servidor para servidor OAuth](#oauth-adobe-developer) usar [console do desenvolvedor de Adobe](https://www.adobe.io/). [!DNL Adobe Developer] é um ecossistema de desenvolvedores e comunidade do Adobe. Inclui [APIs para todos os produtos Adobe](https://developer.adobe.com/apis/). Essa é a maneira recomendada de configurar e usar o [!DNL Adobe] [!DNL APIs]. Leia mais sobre [Autenticação de servidor para servidor OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/) na documentação do desenvolvedor do Adobe.
+* [!BADGE Obsoleto]{type=negative}[Autenticação JWT (conta de serviço)](#jwt) usar [console do desenvolvedor de Adobe](https://www.adobe.io/). [!DNL Adobe Developer] é um ecossistema de desenvolvedores e comunidade do Adobe. Inclui [APIs para todos os produtos Adobe](https://developer.adobe.com/apis/).
+* [!BADGE Obsoleto]{type=negative}[Autenticação OAuth herdada](#oauth-deprecated). Embora esse método esteja obsoleto, os clientes com [!DNL OAuth] as integrações podem continuar usando esse método.
 
 >[!IMPORTANT]
 >
 >Dependendo do método de autenticação, é necessário ajustar a solicitação [!DNL URLs] em conformidade. Consulte a [Ambientes](#environments) para obter detalhes sobre os nomes de host que você deve usar.
 
-## [!DNL JWT] ([!DNL Service Account]) Autenticação usando o Adobe Developer {#jwt}
+## Autenticação de servidor para servidor OAuth usando Adobe Developer {#oauth-adobe-developer}
+
+Esta seção aborda como coletar as credenciais necessárias para autenticar chamadas de API de Audience Manager, conforme descrito no fluxograma abaixo. Você pode coletar a maioria das credenciais necessárias na configuração inicial única. No entanto, o token de acesso deve ser atualizado a cada 24 horas.
+
+![diagrama de fluxo de autenticação Audience Manager.](/help/using/api/rest-api-main/assets/aam-authentication-flow.png)
+
+### Visão geral do Adobe Developer {#developer-overview}
+
+[!DNL Adobe Developer] é um ecossistema de desenvolvedores e comunidade do Adobe. Inclui [APIs para todos os produtos Adobe](https://developer.adobe.com/apis).
+
+Essa é a maneira recomendada de configurar e usar o [!DNL Adobe] [!DNL APIs].
+
+### Pré-requisitos {#prerequisites-server-to-server}
+
+Antes de configurar [!DNL OAuth Server-to-Server] autenticação, verifique se você tem acesso à [Console do Adobe Developer](https://developer.adobe.com/console/home) in [Adobe Developer](https://developer.adobe.com/). Entre em contato com o administrador da organização para obter solicitações de acesso.
+
+### Autenticação {#oauth}
+
+Siga as etapas abaixo para configurar [!DNL OAuth Server-to-Server] autenticação usando [!DNL Adobe Developer]:
+
+1. Faça logon no [Console do Adobe Developer](https://developer.adobe.com/console/home).
+1. Siga as etapas na guia [Guia de implementação de credenciais do OAuth de servidor para servidor](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/).
+   * Durante [Etapa 2: adicionar uma API ao projeto usando a autenticação da conta de serviço](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md), escolha o [!DNL Audience Manager] [!DNL API] opção.
+1. Experimente a conexão fazendo seu primeiro [!DNL API] chame com base nas instruções de [Etapa 3](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
+
+>[!NOTE]
+>
+>Para configurar e trabalhar com o [!DNL Audience Manager] [!DNL REST APIs] de forma automatizada, você pode girar os segredos do cliente de forma programática. Consulte [a documentação do desenvolvedor](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#rotating-client-secrets-programmatically) para obter instruções detalhadas.
+
+### Adicionar a API do Audience Manager a um projeto {#add-aam-api-to-project}
+
+Ir para [Console do Adobe Developer](https://www.adobe.com/go/devs_console_ui) e faça logon com sua Adobe ID. Em seguida, siga as etapas descritas no tutorial em [criação de um projeto vazio](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty/) na documentação do Console do Adobe Developer.
+
+Depois de criar um novo projeto, selecione **[!UICONTROL Add API]** no **[!UICONTROL Project Overview]** tela.
+
+>[!TIP]
+>
+>Se você tiver sido provisionado para várias organizações, use o seletor de organizações no canto superior direito da interface para garantir que está na organização necessária.
+
+![Tela do Developer Console com a opção Adicionar API realçada.](/help/using/api/rest-api-main/assets/add-api.png)
+
+A variável **[!UICONTROL Add an API]** é exibida. Selecione o ícone de produto do Adobe Experience Cloud e escolha **[!UICONTROL Audience Manager API]** antes de selecionar **[!UICONTROL Next]**.
+
+![Selecione Audience Manager API.](/help/using/api/rest-api-main/assets/audience-manager-api.png)
+
+>[!TIP]
+>
+>Selecione o **[!UICONTROL View docs]** opção para navegar em uma janela de navegador separada até a conclusão [Documentação de referência da API do Audience Manager](https://bank.demdex.com/portal/swagger/index.html#).
+
+### Selecione o tipo de autenticação de servidor para servidor OAuth {#select-oauth-server-to-server}
+
+Em seguida, selecione o tipo de autenticação para gerar tokens de acesso e acessar a API Audience Manager.
+
+>[!IMPORTANT]
+>
+>Selecione o **[!UICONTROL OAuth Server-to-Server]** como esse será o único método compatível a partir de agora. A variável **[!UICONTROL Service Account (JWT)]** está obsoleto. Embora as integrações que usam o método de autenticação JWT continuem a funcionar até 1º de janeiro de 2025, a Adobe recomenda que você migre as integrações existentes para o novo método servidor para servidor OAuth antes dessa data.
+
+![Selecione o método de autenticação OAuth.](/help/using/api/rest-api-main/assets/select-oauth-authentication-method.png)
+
+### Selecione os perfis de produto para sua integração {#select-product-profiles}
+
+No **[!UICONTROL Configure API]** selecione os perfis de produto desejados. A conta de serviço da sua integração terá acesso aos recursos detalhados por meio dos perfis de produto selecionados aqui.
+
+![Selecione perfis de produto para sua integração.](/help/using/api/rest-api-main/assets/select-product-profiles.png)
+
+Selecionar **[!UICONTROL Save configured API]** quando estiver pronto.
+
+### Coletar credenciais {#gather-credentials}
+
+Depois que a API for adicionada ao projeto, o **[!UICONTROL Audience Manager API]** A página do projeto exibe as seguintes credenciais que são necessárias em todas as chamadas para as APIs Audience Manager:
+
+![Informações de integração após adicionar uma API no Console do desenvolvedor.](/help/using/api/rest-api-main/assets/api-integration-information.png)
+
+* `{API_KEY}` ([!UICONTROL Client ID])
+* `{ORG_ID}` ([!UICONTROL Organization ID])
+
+## Gerar um token de acesso {#generate-access-token}
+
+A próxima etapa é gerar um `{ACCESS_TOKEN}` credencial para uso em chamadas de API Audience Manager. Ao contrário dos valores de `{API_KEY}` e `{ORG_ID}`, um novo token deve ser gerado a cada 24 horas para continuar usando as APIs Audience Manager. Selecionar **[!UICONTROL Generate access token]**, conforme mostrado abaixo.
+
+![Mostrar como gerar um token de acesso](/help/using/api/rest-api-main/assets/generate-acces-token.gif)
+
+## Testar uma chamada de API {#test-api-call}
+
+Depois de obter o token do portador de autenticação, execute uma chamada de API para testar se agora é possível acessar APIs de Audience Manager.
+
+1. Navegue até a [Documentação de referência da API](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_).
+2. Selecionar **[!UICONTROL Authorize]** e cole o token de acesso obtido na [gerar token de acesso](#generate-access-token) etapa.
+
+   ![Autorizar chamadas de API](/help/using/api/rest-api-main/assets/authorize-api-calls.gif)
+
+3. Execute uma chamada de GET para o `/datasources` endpoint da API para recuperar uma lista de todas as fontes de dados disponíveis globalmente, conforme indicado na [Documentação de referência da API](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_). Selecionar **[!UICONTROL Try it out]**, seguido por **[!UICONTROL Execute]**, conforme mostrado abaixo.
+
+   ![Executar chamadas de API](/help/using/api/rest-api-main/assets/perform-api-calls.gif)
+
+
+>[!BEGINSHADEBOX]
+
+>[!BEGINTABS]
+
+>[!TAB solicitação de API]
+
+```shell
+curl -X 'GET' \
+  'https://api.demdex.com/v1/datasources/' \
+  -H 'accept: application/json' \
+  -H 'Authorization: Bearer your-access-token'
+```
+
+
+>[!TAB Resposta da API em caso de uso do token de portador correto]
+
+
+Ao usar um token de acesso funcional, o endpoint da API retorna uma resposta 200, juntamente com um corpo de resposta que inclui todas as fontes de dados globais às quais sua organização tem acesso.
+
+```json
+[
+  {
+    "pid": 1794,
+    "name": "testdatasource1",
+    "description": "Test data source",
+    "status": "ACTIVE",
+    "integrationCode": "test_ds1",
+    "dataExportRestrictions": [],
+    "updateTime": 1595340792000,
+    "crUID": 0,
+    "upUID": 15910,
+    "linkNamespace": false,
+    "type": "GENERAL",
+    "subIdType": "CROSS_DEVICE_PERSON",
+    "inboundS2S": true,
+    "outboundS2S": true,
+    "useAudienceManagerVisitorID": false,
+    "allowDataSharing": true,
+    "masterDataSourceIdProvider": true,
+    "uniqueTraitIntegrationCodes": false,
+    "uniqueSegmentIntegrationCodes": false,
+    "marketingCloudVisitorIdVersion": 0,
+    "idType": "CROSS_DEVICE",
+    "samplingEndTime": 1596550392825,
+    "allowDeviceGraphSharing": false,
+    "supportsAuthenticatedProfile": true,
+    "deviceGraph": false,
+    "authenticatedProfileName": "testdatasource1",
+    "deviceGraphName": "",
+    "customNamespaceId": 29769,
+    "customNamespaceCode": "silviu_ds1",
+    "customerProfileDataRetention": 62208000,
+    "samplingStartTime": 1595340792825,
+    "dataSourceId": 29769,
+    "containerIds": [],
+    "samplingEnabled": false
+  },
+  {
+    "pid": 1794,
+    "name": "AAM Test Company Audiences",
+    "description": "Automatically generated trait data source",
+    "status": "ACTIVE",
+    "integrationCode": "adobe-provided",
+    "dataExportRestrictions": [
+      "PII"
+    ],
+
+    [...]
+```
+
+>[!ENDTABS]
+
+>[!ENDSHADEBOX]
+
+## [!BADGE Obsoleto]{type=negative}[!DNL JWT] ([!DNL Service Account]) Autenticação usando o Adobe Developer {#jwt}
+
++++ Exibir informações sobre o obsoleto [!DNL JWT] ([!DNL Service Account]) para obter tokens de autenticação.
 
 ### Visão geral do Adobe Developer {#adobeio}
 
@@ -83,7 +250,11 @@ Siga as etapas abaixo para criar uma conta de usuário técnico e adicioná-la a
 
 1. Faça logon na sua conta Audience Manager e [adicionar a conta de usuário técnico](../../features/administration/administration-overview.md#create-group) ao grupo de usuários que fará as chamadas de API.
 
-## [!DNL OAuth] Autenticação (obsoleta) {#oauth}
++++
+
+## [!BADGE Obsoleto]{type=negative}[!DNL OAuth] Autenticação (obsoleta) {#oauth-deprecated}
+
++++ Visualizar informações sobre o legado obsoleto [!DNL OAuth] Método de autenticação para obtenção de tokens de autenticação.
 
 >[!WARNING]
 > [!DNL Audience Manager] [!UICONTROL REST API] autenticação e renovação de token via [!DNL OAuth 2.0] O agora está obsoleto.
@@ -125,7 +296,7 @@ Transmita uma solicitação de token com o seu [!DNL JSON] cliente. Ao criar a s
 * Converta a ID do cliente e o segredo em uma sequência de caracteres codificada na base 64. Separe a ID e o segredo com dois pontos durante o processo de conversão. Por exemplo, as `testId : testSecret` converter em `dGVzdElkOnRlc3RTZWNyZXQ=`.
 * Transmite no [!DNL HTTP] [!DNL headers] `Authorization:Basic <base-64 clientID:clientSecret>` e `Content-Type: application/x-www-form-urlencoded` . Por exemplo, seu cabeçalho pode ter esta aparência: <br/>`Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/>`Content-Type: application/x-www-form-urlencoded`
 * Configure o corpo da solicitação da seguinte maneira:
-   <br/> `grant_type=password&username=<your-AudienceManager-user-name>&password=<your-AudienceManager-password>`
+  <br/> `grant_type=password&username=<your-AudienceManager-user-name>&password=<your-AudienceManager-password>`
 
 #### Etapa 3: Receber o token
 
@@ -182,6 +353,8 @@ A variável [!DNL JSON] A resposta contém o novo token de acesso. A resposta de
 
 A variável [!DNL Audience Manager] [!UICONTROL REST API] suporta código de autorização e autenticação implícita. Para usar esses métodos de acesso, os usuários precisam fazer logon no `https://api.demdex.com/oauth/authorize` para obter acesso e atualizar tokens.
 
++++
+
 ## Tornar autenticado [!DNL API] Solicitações {#authenticated-api-requests}
 
 Requisitos de chamada [!DNL API] após receber um token de autenticação.
@@ -206,7 +379,7 @@ Você pode usar esses parâmetros opcionais com [!DNL API] métodos que retornam
 | `descending` | Classifica e retorna resultados em ordem decrescente. `ascending` é o padrão. |
 | `search` | Retorna resultados com base na cadeia de caracteres especificada que você deseja usar como parâmetro de pesquisa. Por exemplo, digamos que você queira encontrar resultados para todos os modelos que têm a palavra &quot;Teste&quot; em qualquer um dos campos de valor para esse item. Seu exemplo de solicitação pode ser semelhante a:   `GET https://aam.adobe.io/v1/models/?search=Test`.  Você pode pesquisar qualquer valor retornado por um &quot;[!DNL get all]&quot;. |
 | `folderId` | Retorna todas as IDs para [!UICONTROL traits] dentro da pasta especificada. Não disponível para todos os métodos. |
-| `permissions` | Retorna uma lista de segmentos com base na permissão especificada. `READ` é o padrão. As permissões incluem:<ul><li>`READ` : Retorna e exibe informações sobre um segmento.</li><li>`WRITE` : Uso  `PUT`  para atualizar um segmento.</li><li>`CREATE` : Uso  `POST`  para criar um segmento.</li><li>`DELETE` : Excluir um segmento. Requer acesso a características subjacentes, se houver. Por exemplo, você precisará de direitos para excluir as características que pertencem a um segmento se desejar removê-lo.</li></ul><br>Especifique várias permissões com pares de valor-chave separados. Por exemplo, para retornar uma lista de segmentos com  `READ`  e  `WRITE`  somente permissões, transmitir  `"permissions":"READ"`, `"permissions":"WRITE"` . |
+| `permissions` | Retorna uma lista de segmentos com base na permissão especificada. `READ` é o padrão. As permissões incluem:<ul><li>`READ` : Retorna e exibe informações sobre um segmento.</li><li>`WRITE` : Uso  `PUT`  para atualizar um segmento.</li><li>`CREATE` : Uso  `POST`  para criar um segmento.</li><li>`DELETE` : excluir um segmento. Requer acesso a características subjacentes, se houver. Por exemplo, você precisará de direitos para excluir as características que pertencem a um segmento se desejar removê-lo.</li></ul><br>Especifique várias permissões com pares de valor-chave separados. Por exemplo, para retornar uma lista de segmentos com  `READ`  e  `WRITE`  somente permissões, transmitir  `"permissions":"READ"`, `"permissions":"WRITE"` . |
 | `includePermissions` | ([!DNL Boolean]) Defina como `true` para retornar suas permissões para o segmento. O padrão é `false`. |
 
 ### Uma Observação Sobre As Opções De Página
@@ -301,4 +474,3 @@ Novas versões desses [!DNL API]Os s são lançados regularmente. Uma nova vers�
 >* [Autenticação OAuth](../../api/rest-api-main/aam-api-getting-started.md#oauth)
 >* [OAuth 2.0](https://oauth.net/2/)
 >* [OAuth 2 simplificado](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
-
