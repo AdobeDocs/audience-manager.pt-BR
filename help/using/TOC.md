@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Guia do usuário do Audience Manager
 user-guide-description: Saiba como usar o Adobe Audience Manager para coletar informações comercialmente relevantes sobre visitantes do site e criar segmentos comercializáveis. Você também encontra detalhes sobre como fornecer publicidade e conteúdo direcionados ao público-alvo certo.
 feature-set: Audience Manager
-source-git-commit: 7302fafa537ad15144a64cc96f7150c5b0233c12
+source-git-commit: 95028ac2131dda5a483c9d12007dcd38369d5b6f
 workflow-type: tm+mt
-source-wordcount: '1835'
-ht-degree: 90%
+source-wordcount: '1827'
+ht-degree: 25%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 90%
       + [Visão geral da privacidade de dados](overview/data-security-and-privacy/data-privacy.md)
       + [Solicitações de privacidade de dados](overview/data-security-and-privacy/data-privacy-requests.md)
       + Referência de privacidade de dados {#data-privacy-reference}
-         + [Identificadores do Audience Manager](overview/data-security-and-privacy/data-privacy-ids.md)
+         + [Identificadores Audience Manager](overview/data-security-and-privacy/data-privacy-ids.md)
          + [Glossário da CCPA](overview/data-security-and-privacy/aam-ccpa-glossary.md)
          + [Glossário do GDPR](overview/data-security-and-privacy/aam-gdpr-glossary.md)
          + [Considerações sobre o GDPR para destinos](overview/data-security-and-privacy/aam-gdpr-partners.md)
@@ -36,24 +36,24 @@ ht-degree: 90%
    + [Controle de dados](overview/data-security-and-privacy/data-governance.md)
    + [Acessibilidade no Audience Manager](/help/using/overview/accessibility-in-aam.md)
 + Recursos {#features}
-   + [Públicos endereçáveis](features/addressable-audiences.md)
+   + [Públicos-alvo endereçáveis](features/addressable-audiences.md)
    + Administração {#administration}
       + [Migração de usuário do Audience Manager para o Admin Console](features/administration/admin-console-migration.md)
-      + [Administração](features/administration/administration-overview.md)
+      + [API de](features/administration/administration-overview.md)
       + [Editar as configurações da conta](features/administration/edit-account-settings.md)
       + [Ofuscação de endereço IP](features/administration/ip-obfuscation.md)
       + [Limites de uso](features/administration/usage-limits.md)
       + [Relatórios de uso de atividade](features/administration/activity-usage-reporting.md)
    + Modelos algorítmicos {#algorithmic-models}
-      + [Visão geral dos modelos algorítmicos](features/algorithmic-models/algo-models-overview.md)
+      + [Visão geral de Modelos algorítmicos](features/algorithmic-models/algo-models-overview.md)
       + Modelo de semelhanças {#look-alike-modeling}
          + [Como entender a modelagem semelhante](features/algorithmic-models/understanding-models.md)
          + [Criar um modelo semelhante](features/algorithmic-models/create-model.md)
-         + [Modelagem semelhante: Exclusão de características](features/algorithmic-models/trait-exclusion-algo-models.md)
+         + [Modelagem semelhante: Exclusão de característica](features/algorithmic-models/trait-exclusion-algo-models.md)
       + Públicos preditivos {#predictive-audiences}
          + [Visão geral dos públicos preditivos](features/algorithmic-models/predictive-audiences.md)
          + [Introdução aos públicos preditivos](features/algorithmic-models/predictive-audiences-start.md)
-         + [Relatórios dos públicos preditivos](features/algorithmic-models/predictive-audiences-reporting.md)
+         + [Relatórios de públicos preditivos](features/algorithmic-models/predictive-audiences-reporting.md)
    + Audience Lab {#audience-lab}
       + [Visão geral do Audience Lab](features/audience-lab/audience-lab.md)
       + [Gerenciar grupos de teste](features/audience-lab/audience-lab-manage-test-groups.md)
@@ -71,8 +71,8 @@ ht-degree: 90%
          + [Audience Marketplace para compradores de dados](features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md)
          + [Gerenciar assinaturas do feed de dados](features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md)
          + [Faturamento para compradores de feed de dados](features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
-      + [Feeds de dados privados](features/audience-marketplace/marketplace-private-feeds.md)
-   + [Feeds de dados do cliente](features/cdf-files.md)
+      + [os feeds de dados privados](features/audience-marketplace/marketplace-private-feeds.md)
+   + [Feeds de dados de clientes](features/cdf-files.md)
    + Data Explorer {#data-explorer}
       + [Data Explorer - Visão geral, benefícios e casos de uso](features/data-explorer/data-explorer-overview.md)
       + [Compreensão de sinais](features/data-explorer/data-explorer-understanding-signals.md)
@@ -85,7 +85,7 @@ ht-degree: 90%
          + [Filtrar resultados de pesquisa](features/data-explorer/data-explorer-signals-search/data-explorer-filter-results.md)
          + [Salvar critérios de pesquisa](features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md)
       + [Criar características de sinais](features/data-explorer/create-traits-from-signals.md)
-      + [Realizações da característica de preenchimento retroativo](features/data-explorer/data-explorer-trait-backfill.md)
+      + [Realizações de características de preenchimento retroativo](features/data-explorer/data-explorer-trait-backfill.md)
       + [Operadores lógicos compatíveis](features/data-explorer/data-explorer-supported-operators.md)
    + [Controles da exportação de dados](features/data-export-controls.md)
    + Fontes de dados {#data-sources}
@@ -106,14 +106,15 @@ ht-degree: 90%
             + [Visão geral da implementação](features/destinations/people-based-destinations-workflow.md)
             + [Fluxo de trabalho A - Personalização com base em toda a Atividade online combinada com dados offline](features/destinations/people-based-destinations-workflow-combined.md)
             + [Fluxo de trabalho B - Personalização com base em dados somente offline](features/destinations/people-based-destinations-workflow-offline.md)
-            + [Fluxo de trabalho C - Personalização baseada na Atividade autenticada combinada com dados offline](features/destinations/people-based-destinations-workflow-authenticated.md)
+            + [Fluxo de trabalho C - Personalização com base na Atividade autenticada combinada com dados offline](features/destinations/people-based-destinations-workflow-authenticated.md)
          + [Autenticação com plataformas com base em pessoas](features/destinations/people-based-destinations-authentication.md)
          + [Públicos compartilháveis](/help/using/features/destinations/people-based-destinations-reporting.md)
       + Destinos com base em dispositivo (servidor para servidor) {#device-based}
          + [Adicionar novos destinos com base em dispositivo](features/destinations/add-device-based-destinations.md)
-         + [Lista de destinos com base em dispositivo do Audience Manager](/help/using/features/destinations/device-based-destinations-list.md)
+         + [Lista de destinos com base em dispositivo Audience Manager](/help/using/features/destinations/device-based-destinations-list.md)
          + [Adicionar ou editar segmentos para destinos de servidor para servidor](features/destinations/add-edit-segments.md)
          + [Configure os Públicos-alvo personalizados do Twitter como um destino autoatendido com base em dispositivo](features/destinations/twitter-tailored-audiences.md)
+         + [Configure a Amazon Advertising como um Destino baseado em dispositivo de autoatendimento](features/destinations/amazon-advertising.md)
       + Destinos personalizados {#custom-destinations}
          + [Configurar um destino de URL](features/destinations/create-url-destination.md)
          + [Configurar um destino de cookie](features/destinations/create-cookie-destination.md)
@@ -128,16 +129,16 @@ ht-degree: 90%
       + [Visão geral das regras de mesclagem de perfis](features/profile-merge-rules/merge-rules-overview.md)
       + [Introdução às regras de mesclagem de perfis](features/profile-merge-rules/merge-rules-start.md)
       + [Painel de regras de mesclagem de perfis](features/profile-merge-rules/merge-rules-dashboard.md)
-      + [Definição das opções da regra de mesclagem de perfis](features/profile-merge-rules/merge-rule-definitions.md)
+      + [Definição das Opções de Regra de Mesclagem de Perfis](features/profile-merge-rules/merge-rule-definitions.md)
       + [Casos de uso gerais para regras de mesclagem de perfis](features/profile-merge-rules/merge-rule-targeting-options.md)
-      + [Casos de uso do gráfico de dispositivo de link de perfis](features/profile-merge-rules/profile-link-use-case.md)
+      + [Casos de uso do gráfico de dispositivos de link de perfis](features/profile-merge-rules/profile-link-use-case.md)
       + [Casos de uso do gráfico do dispositivo externo](features/profile-merge-rules/external-graph-use-cases.md)
       + [Métricas de relatório para regras de mesclagem de perfis](features/profile-merge-rules/profile-link-metrics.md)
       + [Regras de mesclagem de perfis e processos de dessegmentação de dispositivos](features/profile-merge-rules/merge-rule-unsegment.md)
       + [Supressão instantânea entre dispositivos](features/profile-merge-rules/instant-cross-device-suppression.md)
    + Segmentos {#segments}
       + [Segmentos: finalidade, composição e regras](features/segments/segments-purpose.md)
-      + [Visualização da lista de segmentos](features/segments/segments-dashboard.md)
+      + [Exibição da lista de segmentos](features/segments/segments-dashboard.md)
       + [Visualização do resumo do segmento](features/segments/segment-summary-view.md)
       + [Recuperação de metadados do segmento](features/segments/retrieve-segment-metadata.md)
       + [Segmentos pausados e excluídos](features/segments/paused-deleted-segments.md)
@@ -145,7 +146,7 @@ ht-degree: 90%
       + [Construtor de segmentos](features/segments/segment-builder.md)
       + [Sintaxe de código usada no Editor de expressão de segmentos](features/segments/segment-code-syntax.md)
       + [Dados de população de características e segmentos no Construtor de segmentos](features/segments/segment-builder-data.md)
-      + [Recomendações de característica](features/segments/trait-recommendations.md)
+      + [Recommendations de características](features/segments/trait-recommendations.md)
       + [Referência de qualificação de características e segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-and-segment-qualification-reference.html)
    + Características {#traits}
       + [Visão geral das características](/help/using/features/traits/traits-overview.md)
@@ -168,20 +169,20 @@ ht-degree: 90%
       + [Requisitos de nome para variáveis-chave](features/traits/trait-key-name-requirements.md)
       + [Explicação do tempo de vida útil do segmento e da característica](features/traits/segment-ttl-explained.md)
       + [Requisitos de prefixo para variáveis-chave](features/traits/trait-variable-prefixes.md)
-      + [Geolocalização com chaves de nível de plataforma](features/traits/trait-geotarget-keys.md)
+      + [Geotargeting com chaves de nível de plataforma](features/traits/trait-geotarget-keys.md)
       + [Direcionamento de dispositivo com chaves de nível de plataforma](features/traits/trait-device-targeting.md)
       + [Expressões de amostra com operadores booleanos e de comparação](features/traits/trait-expression-samples.md)
-      + [Referência de qualificação de características e segmentos](features/traits/trait-and-segment-qualification-reference.md)
+      + [Referência de qualificação de característica e segmento](features/traits/trait-and-segment-qualification-reference.md)
    + [Visualizador de perfil do visitante](features/visitor-profile-viewer.md)
 + Relatório {#reporting}
    + [Visão geral dos relatórios](reporting/reports-overview.md)
    + [Painel de relatórios](reporting/reports-dashboard.md)
    + [Relatórios gerais](reporting/general-reports.md)
-   + [Relatórios de tendências](reporting/trend-reports.md)
+   + [Relatórios de tendência](reporting/trend-reports.md)
    + Relatórios de otimização de público-alvo {#audience-optimization-reports}
-      + [Relatórios de otimização de público-alvo](reporting/audience-optimization-reports/audience-optimization-reports.md)
+      + [Relatórios Audience Optimization](reporting/audience-optimization-reports/audience-optimization-reports.md)
       + Otimização de público-alvo para anunciantes {#audience-optimization-advertisers}
-         + [Visão geral da Otimização de público-alvo para anunciantes](reporting/audience-optimization-reports/aor-advertisers/aor-advertisers.md)
+         + [Visão geral do Audience Optimization para anunciantes](reporting/audience-optimization-reports/aor-advertisers/aor-advertisers.md)
          + [Importar arquivos de dados do Google Campaign Manager para o Audience Manager](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
          + [Relatório de desempenho do segmento](reporting/audience-optimization-reports/aor-advertisers/segment-performance.md)
          + [Relatórios de análise de tendências e análise de volumes](reporting/audience-optimization-reports/aor-advertisers/trend-analysis-volume-analysis.md)
@@ -190,7 +191,7 @@ ht-degree: 90%
          + [Características de conversão relatadas](reporting/audience-optimization-reports/aor-advertisers/reported-conversion-traits.md)
          + [Conversão entre canais](reporting/audience-optimization-reports/aor-advertisers/cross-channel-conversion-reporting.md)
       + Otimização de público-alvo para editores {#audience-optimization-publishers}
-         + [Visão geral da otimização de público-alvo para editores](reporting/audience-optimization-reports/aor-publishers/aor-publishers.md)
+         + [Visão geral do Audience Optimization para editores](reporting/audience-optimization-reports/aor-publishers/aor-publishers.md)
          + [Importação de arquivos de dados do Google Ad Manager (antigo DFP) para o Audience Manager](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
          + [Relatório de desempenho do segmento](reporting/audience-optimization-reports/aor-publishers/publisher-segment-performance.md)
          + [Relatório de tendência do segmento](reporting/audience-optimization-reports/aor-publishers/publisher-segment-trends.md)
@@ -200,14 +201,14 @@ ht-degree: 90%
          + [Alcance único do usuário](reporting/audience-optimization-reports/aor-publishers/publisher-unique-reach.md)
       + Arquivos de dados e metadados para Relatórios de otimização de público-alvo e arquivos de registro acionáveis {#data-and-metadata-files}
          + [Dados de registro e arquivos de metadados](reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
-         + [Arquivos de dados para Relatórios de otimização de público-alvo e arquivos de registro acionáveis](reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
+         + [Arquivos de dados para relatórios Audience Optimization e arquivos de registro acionáveis](reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
          + [Visão geral e mapeamentos para arquivos de metadados](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)
          + [Convenções de nomenclatura para arquivos de metadados](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
          + [Formato de conteúdo para arquivos de metadados](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)
          + [Métodos de delivery para arquivos de metadados](reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)
       + [Relatório de variação diária de características](reporting/audience-optimization-reports/daily-trait-variation-report.md)
    + Relatórios interativos e de sobreposição {#interactive-and-overlap-reports}
-      + [Visão geral dos relatórios interativos e de sobreposição](reporting/dynamic-reports/dynamic-reports.md)
+      + [Visão geral de relatórios interativos e de sobreposição](reporting/dynamic-reports/dynamic-reports.md)
       + [Relatório de sobreposição de característica por característica](reporting/dynamic-reports/trait-trait-overlap-report.md)
       + [Relatório de sobreposição de segmento por característica](reporting/dynamic-reports/segment-trait-overlap-report.md)
       + [Relatório de sobreposição de segmento por segmento](reporting/dynamic-reports/segment-segment-overlap-report.md)
@@ -216,14 +217,14 @@ ht-degree: 90%
       + [Filtrar resultados do relatório com os controles deslizantes de dados](reporting/dynamic-reports/data-sliders.md)
       + [Relatórios de sobreposição: Atualizar agendamento e tamanho mínimo do segmento](reporting/dynamic-reports/overlap-minimum-segment-size.md)
       + [Arquivos CSV para relatórios de sobreposição](reporting/dynamic-reports/overlap-csv-files.md)
-      + [Tecnologia de relatórios](reporting/dynamic-reports/interactive-report-technology.md)
-   + [Relatório de status de integração](reporting/onboarding-status-report.md)
+      + [Tecnologia de relatório](reporting/dynamic-reports/interactive-report-technology.md)
+   + [Relatório de status onboard](reporting/onboarding-status-report.md)
    + [Histórico de arquivos de saída](reporting/outbound-history-report.md)
-   + [Contagem de usuários únicos em sobreposição e relatórios gerais](reporting/unique-user-counts.md)
-   + [Amostragem de dados e taxas de erro em alguns relatórios do Audience Manager](reporting/report-sampling.md)
+   + [Contagem de usuários únicos em relatórios gerais e de sobreposição](reporting/unique-user-counts.md)
+   + [Amostragem de dados e taxas de erro em relatórios de Audience Manager selecionados](reporting/report-sampling.md)
 + Código API e SDK {#api-and-sdk-code}
    + [Visão geral do código API e SDK](api/api.md)
-   + [Migração de código API do Audience Manager](api/api-swagger-migration.md)
+   + [Migração de código API Audience Manager](api/api-swagger-migration.md)
    + Métodos e código API do Data Collection Server (DCS) {#dcs}
       + [Métodos e código API DCS](api/dcs-intro/dcs-intro.md)
       + Chamadas de evento DCS {#dcs-event-calls}
@@ -233,7 +234,7 @@ ht-degree: 90%
       + DCS APIs {#dcs-apis}
          + [DCS APIs para transferências de dados de servidor para servidor](api/dcs-intro/dcs-s2s/dcs-s2s.md)
          + [Obter IDs de usuário e regiões de uma resposta do DCS](api/dcs-intro/dcs-s2s/dcs-aam-ids.md)
-         + [Obter IDs de usuário e regiões por meio do Adobe Experience Platform Identity Service](api/dcs-intro/dcs-s2s/dcs-mcid-ids.md)
+         + [Obter IDs de usuário e regiões por meio do serviço de identidade da Adobe Experience Platform](api/dcs-intro/dcs-s2s/dcs-mcid-ids.md)
          + [Como fazer chamadas de DCS API de servidor para servidor](api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)
       + Referência da DCS API {#dcs-api-reference}
          + [Visão geral de referência da DCS API](api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)
@@ -245,11 +246,11 @@ ht-degree: 90%
          + [Condições de raça e tratamento de erros](api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
          + [Atributos compatíveis com chamadas de DCS API](api/dcs-intro/dcs-api-reference/dcs-keys.md)
    + REST APIs {#rest-apis}
-      + [Visão geral de REST APIs](api/rest-api-main/rest-api-main.md)
+      + [Visão geral das REST APIs](api/rest-api-main/rest-api-main.md)
       + [Introdução às REST APIs](api/rest-api-main/aam-api-getting-started.md)
       + [Métodos de API algorítmicos](api/rest-api-main/aam-api-algo-methods.md)
-      + [Métodos da API da biblioteca de integração de dados](api/rest-api-main/aam-api-dil-methods.md)
-      + [Métodos da API de fontes de dados](api/rest-api-main/aam-api-data-sources.md)
+      + [Métodos da API do Data Integration Library](api/rest-api-main/aam-api-dil-methods.md)
+      + [Métodos de API de fontes de dados](api/rest-api-main/aam-api-data-sources.md)
       + [Métodos da API de sinais derivados](api/rest-api-main/aam-api-derived-signals.md)
       + Métodos da API de destino {#destination-api-methods}
          + [Visão geral dos métodos da API de destino](api/rest-api-main/aam-api-destinations/aam-api-destinations.md)
@@ -270,32 +271,32 @@ ht-degree: 90%
       + [Métodos da API da região DCS](api/rest-api-main/aam-api-dcs-regions.md)
    + [Código SDK](api/aam-sdk.md)
 + Consulte API da Biblioteca de integração de dados (DIL) {#dil-api}
-   + [Como entender a DIL (Data Integration Library, biblioteca de integração de dados)](dil/dil-overview.md)
+   + [Como entender a Data Integration Library (DIL)](dil/dil-overview.md)
    + Métodos da DIL em nível de classe {#class-level-dil-methods}
-      + [Introdução às DIL APIs em nível de classe](dil/dil-class-overview/dil-start.md)
-      + [Criar DIL](dil/dil-class-overview/dil-create.md)
+      + [Introdução às APIs de DIL de nível de classe](dil/dil-class-overview/dil-start.md)
+      + [criar DIL](dil/dil-class-overview/dil-create.md)
       + [getDil](dil/dil-class-overview/dil-get-instance.md)
       + [dexGetQSVars](dil/dil-class-overview/dil-get-dexqsvars.md)
       + [isAddedPostWindowLoad](dil/dil-class-overview/dil-added-post-window-load.md)
-   + [Métodos da DIL em nível de instância](dil/dil-instance-methods.md)
-   + [Módulos da DIL](dil/dil-modules.md)
-   + [Ferramentas da DIL](dil/dil-tools.md)
-   + [Casos de uso da DIL e exemplos de código](dil/dil-use-cases.md)
-   + [Flash DIL](dil/dil-flash.md)
-   + [Notas de versão da DIL](/help/using/dil/dil-release-notes.md)
+   + [Métodos de DIL em nível de instância](dil/dil-instance-methods.md)
+   + [Módulos DIL](dil/dil-modules.md)
+   + [Ferramentas DIL](dil/dil-tools.md)
+   + [Casos de uso do DIL e exemplos de código](dil/dil-use-cases.md)
+   + [DIL do Flash](dil/dil-flash.md)
+   + [Notas de versão do DIL](/help/using/dil/dil-release-notes.md)
 + Guias de implementação e integração {#implementation-integration-guides}
    + [Guias de implementação e integração](integration/implementation-and-integration.md)
    + [Métodos de integração de dados](integration/data-integration-methods.md)
    + Integrar o Google Ad Manager usando as Tags do Google Publisher (GPT){#integrate-dfp-using-gpt}
       + [Integrar o Google Ad Manager usando a Visão geral do GPT](integration/gpt-aam-destination/gpt-aam-overview.md)
       + [Envio de segmentos ao Google Ad Manager usando GPT](integration/gpt-aam-destination/gpt-aam-requirements.md)
-      + [Criar um destino com GPT](integration/gpt-aam-destination/gpt-aam-create-destination.md)
+      + [Criar um destino GPT](integration/gpt-aam-destination/gpt-aam-create-destination.md)
       + [Modificar a chamada da API setTargeting GPT](integration/gpt-aam-destination/gpt-aam-modify-api.md)
-      + [Código do Audience Manager para Tags do Google Publisher](integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
+      + [Código Audience Manager para tags do Google Publisher](integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
    + Integração com destinos de terceiros {#integrating-third-party}
-      + [Integração WCA com o Facebook](/help/using/integration/integrating-third-party/facebook-wca-integration.md)
-      + [OAS como um destino do Audience Manager](integration/integrating-third-party/open-ad-server-destination.md)
-      + [OpenX como um destino do Audience Manager](integration/integrating-third-party/openx-destination.md)
+      + [Integração WCA com o facebook](/help/using/integration/integrating-third-party/facebook-wca-integration.md)
+      + [OAS como um destino de Audience Manager](integration/integrating-third-party/open-ad-server-destination.md)
+      + [OpenX como um destino de Audience Manager](integration/integrating-third-party/openx-destination.md)
       + [Google Ad Manager (antigo DFP) como um destino de Audience Manager](integration/aam-dfp.md)
       + [Enviar segmentos para uma Lista de remarketing do Google AdWords](integration/integrating-third-party/rlsa-integration.md)
    + [Implementação do Audience Manager](integration/implement-audience-manager.md)
@@ -318,19 +319,19 @@ ht-degree: 90%
          + [Arquivos de controle de transferência para transferências de arquivos de log](integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
          + [Macros de modelo de saída](integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
          + [Exemplos de macro de saída](integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)
-         + [Potencializar as permissões de bucket entre contas do Amazon S3 para seus arquivos de saída](integration/receiving-audience-data/batch-outbound-transfers/authorize-s3-cross-bucket.md)
+         + [Aproveite as permissões de bucket entre contas do Amazon S3 para seus arquivos de saída](integration/receiving-audience-data/batch-outbound-transfers/authorize-s3-cross-bucket.md)
    + Envio de dados de público-alvo {#sending-audience-data}
-      + [Envio de dados de público-alvo](integration/sending-audience-data/send-audience-data.md)
+      + [Enviar dados de público-alvo](integration/sending-audience-data/send-audience-data.md)
       + Integração de dados de entrada em tempo real {#real-time-inbound-data-integration}
          + [Especificações técnicas para transferências de dados de entrada em tempo real](integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md)
          + [Transferências de dados com base em pixels](integration/sending-audience-data/real-time-data-integration/pixel-based-data-transfer.md)
          + [Assimilação de dados de entrada em tempo real](integration/sending-audience-data/real-time-data-integration/real-time-data-transfer.md)
       + Processo de transferência de dados em lote {#batch-data-transfer-process}
          + [Descrição do processo de transferência de dados em lote](integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
-         + [Visão geral do processo de envio de dados em lote para o Audience Manager](integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)
+         + [Visão geral do envio de dados em lote para o Audience Manager](integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)
          + [Sincronização de ID para transferências de dados de entrada](integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)
          + [Requisitos de nome e conteúdo para arquivos de sincronização de ID](integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
-         + [Conteúdo do arquivo de dados de entrada: Sintaxe, caracteres inválidos, variáveis e exemplos](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
+         + [Conteúdo do arquivo de dados de entrada: sintaxe, caracteres inválidos, variáveis e exemplos](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
          + [Requisitos de nome e tamanho de arquivo do Amazon S3 para arquivos de dados de entrada](integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
          + [Requisitos de nome e tamanho de arquivo FTP para arquivos de dados de entrada](integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
          + [Criptografia PGP de arquivo para tipos de dados de entrada](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)
@@ -346,32 +347,32 @@ ht-degree: 90%
       + [Publicar um segmento do Adobe Analytics no Experience Cloud (abre a documentação do Adobe Analytics)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)
       + [Integrar o Audience Manager com o Adobe Campaign (abre a documentação do Adobe Campaign)](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
 + Referência {#reference}
-   + [Visão geral de referência](reference/reference.md)
+   + [Visão geral da referência](reference/reference.md)
    + [Amazon S3: sobre](reference/amazon-s3.md)
    + [Casos de uso do anunciante](reference/advertiser-use-cases.md)
    + [Casos de uso do editor](reference/publisher-use-cases.md)
-   + [Ambiente beta](reference/beta-environment.md)
+   + [Ambiente Beta](reference/beta-environment.md)
    + [Expressões booleanas no Construtor de características e segmentos](reference/boolean-expressions-tsb.md)
    + Ferramentas de gerenciamento em massa {#bulk-management-tools}
       + [Introdução ao gerenciamento em massa](reference/bulk-management-tools/bulk-management-intro.md)
       + [Solicitações em massa](reference/bulk-management-tools/bulk-requests.md)
       + [Atualizações em massa](reference/bulk-management-tools/bulk-updates.md)
-      + [Criação em massa](reference/bulk-management-tools/bulk-create.md)
+      + [Criar em massa](reference/bulk-management-tools/bulk-create.md)
       + [Estimativas em massa](reference/bulk-management-tools/bulk-estimates.md)
       + [Exclusão em massa](reference/bulk-management-tools/bulk-delete.md)
       + [Criar ou atualizar regras de características e regras de segmento](reference/bulk-management-tools/bulk-rules.md)
       + [Dicas de solução de problemas para ferramentas de gerenciamento em massa](reference/bulk-management-tools/bulk-troubleshooting.md)
       + [Glossário de ferramentas de gerenciamento em massa](reference/bulk-management-tools/bulk-management-glossary.md)
    + [CID substitui DPID e DPUUID](reference/cid.md)
-   + [Como o delivery de dados e os tempos de processamento de arquivos afetam os relatórios](reference/reporting-file-transfer-timeframe.md)
+   + [Como a entrega de dados e os tempos de processamento de arquivos afetam os relatórios](reference/reporting-file-transfer-timeframe.md)
    + [Índice de IDs no Audience Manager](reference/ids-in-aam.md)
    + [Explicação dos pares de valor-chave](reference/key-value-pairs-explained.md)
    + [Requisitos de senha, contas bloqueadas e senhas esquecidas](reference/password-requirements.md)
    + [Sinais, características e segmentos](reference/signal-trait-segment.md)
-   + [Navegadores compatíveis ](reference/supported-browsers.md)
+   + [Navegadores compatíveis](reference/supported-browsers.md)
    + Componentes do sistema {#system-components}
       + [Visão geral dos componentes do sistema](reference/system-components/components-overview.md)
-      + [Componentes-chave no sistema do Audience Manager](reference/system-components/components-stack.md)
+      + [Componentes-chave no sistema Audience Manager](reference/system-components/components-stack.md)
       + [Componentes de ação de dados](reference/system-components/components-data-action.md)
       + [Componentes da coleção de dados](reference/system-components/components-data-collection.md)
       + [Componentes de processamento de dados](reference/system-components/components-data-processing.md)
@@ -379,12 +380,12 @@ ht-degree: 90%
       + [Arquitetura da plataforma: mapa de fluxo de dados](reference/system-components/components-platform-architecture.md)
       + [Compreensão do Edge Data Center](reference/system-components/components-edge.md)
    + [Convenções de estilo para elementos de código e texto](reference/code-style-elements.md)
-   + [Fusos horários no Audience Manager](reference/aam-time-zones.md)
+   + [Fusos horários em Audience Manager](reference/aam-time-zones.md)
    + [Substituição de TLS 1.0 e 1.1](reference/tls-support.md)
    + [Compreender as chamadas ao domínio Demdex](reference/demdex-calls.md)
    + [Estados de autenticação de visitante no Audience Manager](reference/visitor-authentication-states.md)
 + Perguntas frequentes {#faqs}
-   + [Visão geral das perguntas frequentes do Audience Manager](faq/faq-overview.md)
+   + [Visão geral das perguntas frequentes sobre o Audience Manager](faq/faq-overview.md)
    + [Perguntas frequentes sobre API](faq/faq-api.md)
    + [Perguntas frequentes sobre o Audience Lab](faq/faq-audience-lab.md)
    + [Perguntas frequentes sobre o Feed de dados do cliente](faq/faq-cdf.md)
@@ -408,7 +409,7 @@ ht-degree: 90%
    + [Por que minhas características ou meus segmentos não aparecem na página Relatórios de sobreposição?](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
    + [Por que nossos usuários somente leitura podem criar, editar ou excluir características e segmentos?](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
    + [Não somos clientes do Audience Manager, mas vemos as chamadas do Javascript do Audience Manager em nosso site](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
-   + [Devo ver meus segmentos do Audience Lab do Audience Manager mapeados na página de detalhes do destino?](/help/using/support-issues/should-i-see-audience-lab-mapped-segments-on-the-destination-page.md)
+   + [Devo ver meus segmentos do Audience Manager Audience Lab mapeados na página de detalhes do destino?](/help/using/support-issues/should-i-see-audience-lab-mapped-segments-on-the-destination-page.md)
 + Atualizações de documentação {#documentation-updates}
    + [Atualizações de documentação de 2021](docs-updates/docs-2021.md)
    + [Atualizações de documentação de 2020](docs-updates/docs-2020.md)
