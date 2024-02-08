@@ -7,9 +7,9 @@ title: Introdução às REST APIs
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 feature: API
 exl-id: f7d5e52d-ad21-4020-a299-d440f954c51a
-source-git-commit: 16421f8f15a8aa8c1a561b0b6682091bf78683ce
+source-git-commit: 622664170f2a76039bcf2333bde43ce9e60b6af2
 workflow-type: tm+mt
-source-wordcount: '2551'
+source-wordcount: '2558'
 ht-degree: 1%
 
 ---
@@ -382,6 +382,8 @@ Você pode usar esses parâmetros opcionais com [!DNL API] métodos que retornam
 | `permissions` | Retorna uma lista de segmentos com base na permissão especificada. `READ` é o padrão. As permissões incluem:<ul><li>`READ` : Retorna e exibe informações sobre um segmento.</li><li>`WRITE` : Uso  `PUT`  para atualizar um segmento.</li><li>`CREATE` : Uso  `POST`  para criar um segmento.</li><li>`DELETE` : excluir um segmento. Requer acesso a características subjacentes, se houver. Por exemplo, você precisará de direitos para excluir as características que pertencem a um segmento se desejar removê-lo.</li></ul><br>Especifique várias permissões com pares de valor-chave separados. Por exemplo, para retornar uma lista de segmentos com  `READ`  e  `WRITE`  somente permissões, transmitir  `"permissions":"READ"`, `"permissions":"WRITE"` . |
 | `includePermissions` | ([!DNL Boolean]) Defina como `true` para retornar suas permissões para o segmento. O padrão é `false`. |
 
+{style="table-layout:auto"}
+
 ### Uma Observação Sobre As Opções De Página
 
 Quando as informações da página *não é* especificada, a solicitação retorna simples [!DNL JSON] resulta em uma matriz. Se as informações da página *é* especificada, a lista retornada é encapsulada em uma variável [!DNL JSON] objeto que contém informações sobre o resultado total e a página atual. O exemplo de solicitação usando opções de página pode ser semelhante a:
@@ -400,7 +402,7 @@ A tabela a seguir lista a solicitação [!DNL URLs] usado para transmitir [!DNL 
 
 Dependendo do método de autenticação usado, é necessário ajustar a solicitação [!DNL URLs] de acordo com as tabelas abaixo.
 
-### Solicitação [!DNL URLs] para [!DNL JWT] Autenticação {#request-urls-jwt}
+### Solicitação [!DNL URLs] para o [!BADGE Recomendado]{type=positive}[!BADGE Obsoleto]{type=negative}[!DNL JWT] Autenticação por meio do Adobe Developer {#request-urls-jwt}
 
 | [!DNL API] Métodos | Solicitação [!DNL URL] |
 |--- |--- |
@@ -416,7 +418,9 @@ Dependendo do método de autenticação usado, é necessário ajustar a solicita
 | [!DNL Trait Types] | `https://aam.adobe.io/v1/customer-trait-types` |
 | [!DNL Taxonomy] | `https://aam.adobe.io/v1/taxonomies/0/` |
 
-### Solicitação [!DNL URLs] para [!DNL OAuth] Autenticação (obsoleta) {#request-urls-oauth}
+{style="table-layout:auto"}
+
+### Solicitação [!DNL URLs] para o [!BADGE Obsoleto]{type=negative}[!DNL OAuth] Autenticação {#request-urls-oauth}
 
 | [!DNL API] Métodos | Solicitação [!DNL URL] |
 |--- |--- |
@@ -431,6 +435,8 @@ Dependendo do método de autenticação usado, é necessário ajustar a solicita
 | [!DNL Traits] | `https://api.demdex.com/v1/traits/` |
 | [!DNL Trait Types] | `https://api.demdex.com/v1/customer-trait-types` |
 | [!DNL Taxonomy] | `https://api.demdex.com/v1/taxonomies/0/` |
+
+{style="table-layout:auto"}
 
 ## Ambientes {#environments}
 
