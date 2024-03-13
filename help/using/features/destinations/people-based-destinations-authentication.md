@@ -6,12 +6,13 @@ solution: Audience Manager
 title: Autenticação com plataformas com base em pessoas
 feature: People-based Destinations
 exl-id: d3e136d0-2b06-412a-9b9b-75b661c9aa14
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 1809e9ee0b19a8ffb4bec38162f728d543d13701
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
+
 
 # Autenticação com plataformas com base em pessoas {#authentication-with-people-based-platforms}
 
