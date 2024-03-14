@@ -3,7 +3,7 @@ title: Configurar uma fonte de dados para fluxos de trabalho de email com hash
 description: Saiba como criar uma fonte de dados para armazenar emails com hash para fluxos de trabalho de email com hash.
 solution: Audience Manager
 feature: Data Sources
-source-git-commit: 903c2602f759e0d507e45f1db4cbc880a599c32e
+source-git-commit: b88f180808ec9723a2a5324441733f6383f6302d
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
@@ -29,4 +29,5 @@ Siga as etapas abaixo para criar e configurar uma fonte de dados para emails com
    >Essa opção rotula apenas a fonte de dados como contendo dados com hash com esse algoritmo específico. O Audience Manager não faz o hash dos dados nesta etapa. Verifique se os endereços de email que você planeja armazenar nessa fonte de dados já estão com o hash [!DNL SHA256] algoritmo. Caso contrário, você não poderá usá-lo para workflows de email com hash.
 
    ![Imagem da interface do Audience Manager mostrando a seção de configurações da fonte de dados.](../features/assets/data-source-settings.png)
+
 
