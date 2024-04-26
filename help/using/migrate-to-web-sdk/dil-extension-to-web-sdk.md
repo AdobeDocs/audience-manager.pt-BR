@@ -1,7 +1,7 @@
 ---
 title: Migração da extensão de tag do Audience Manager para a extensão de tag do SDK da Web
 description: Entenda as etapas para atualizar a biblioteca de coleção de dados para o Audience Manager da extensão de tag Audience Manager para a extensão de tag do SDK da Web
-source-git-commit: 1cf6a80bd5b7f583ea2511becf415b430ce2889e
+source-git-commit: c80f39c4001d2bcfa94012b9f4ffa720806487d4
 workflow-type: tm+mt
 source-wordcount: '1309'
 ht-degree: 0%
@@ -153,3 +153,4 @@ Depois que a implementação de tag for totalmente migrada para o SDK da Web, vo
 +++
 
 Neste ponto, a implementação do Audience Manager é totalmente migrada para o SDK da Web e está preparada para mudar para o Real-Time CDP no futuro.
+
