@@ -9,13 +9,13 @@ exl-id: 367bad0f-d7d6-4dd5-9717-85ac6eda47ab
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
 # Página inicial Destinos {#destinations-home}
 
-A variável [!UICONTROL Destination] A página de aterrissagem lista todos os [!DNL URL], cookie e destinos de servidor para servidor. Ele fornece recursos que permitem criar, editar, pesquisar e relatar destinos. A landing page está localizada em **[!UICONTROL Audience Data > Destinations]**.
+A página de aterrissagem do [!UICONTROL Destination] lista todos os seus destinos do [!DNL URL], cookie e servidor para servidor. Ele fornece recursos que permitem criar, editar, pesquisar e relatar destinos. A página de aterrissagem está localizada em **[!UICONTROL Audience Data > Destinations]**.
 
 ## Página inicial padrão {#default-landing-page}
 
@@ -26,7 +26,7 @@ A landing page padrão lista seus destinos de acordo com o tipo. Você pode filt
 * **Todos**: mostra todos os tipos de destinos.
 * **Adobe Experience Cloud**: mostra destinos que enviam dados para outras soluções da Adobe Experience Cloud. Atualmente, a única opção compatível é o Adobe Analytics. Consulte [Configurar um destino do Analytics](/help/using/features/destinations/create-analytics-destination.md).
 * **Plataformas integradas**: mostra destinos com base em pessoas e em dispositivos (também chamados de destinos de servidor para servidor).
-* **Personalizado**: mostra destinos de cookie e URL.
+* **Personalizado**: mostra destinos de cookies e URL.
 
 
 ![](assets/destinations-landing.png)
@@ -35,6 +35,6 @@ A landing page padrão lista seus destinos de acordo com o tipo. Você pode filt
 
 Para ver os dados de público-alvo e as taxas de correspondência do seu destino de servidor para servidor, selecione **[!UICONTROL Integrated Platforms > Device-Based]**.
 
-Para obter mais informações sobre as informações exibidas, consulte [Interface de públicos-alvo endereçáveis](/help/using/features/addressable-audiences.md#addressable-audience-interface).
+Para obter mais informações sobre as informações exibidas, consulte [Interface de Públicos Endereçáveis](/help/using/features/addressable-audiences.md#addressable-audience-interface).
 
 ![](/help/using/features/assets/addressable-audiences-landing.png)

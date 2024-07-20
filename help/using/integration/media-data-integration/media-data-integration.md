@@ -10,11 +10,11 @@ exl-id: ca4906a7-0c39-49bc-9505-d76a61ec9eac
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '120'
-ht-degree: 19%
+ht-degree: 2%
 
 ---
 
-# Integração de dados de mídia  {#media-data-integration}
+# Integração de dados de mídia {#media-data-integration}
 
 Você pode capturar dados de campanhas de mídia usando chamadas de pixel para Audience Manager (geralmente chamadas de pixel criativo) ou assimilando arquivos de log. Leia os artigos nesta seção para entender o processo.
 
@@ -27,5 +27,5 @@ Você pode capturar dados de campanhas de mídia usando chamadas de pixel para A
 Para configurar a assimilação de log, leia os seguintes artigos:
 
 * [Importar arquivos de dados do Google Campaign Manager para o Audience Manager](/help/using/reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
-* [Importar arquivos de dados do Google Ad Manager para o Audience Manager ](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
-* [Dados de registro e arquivos de metadados](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) para configurar a assimilação de log para arquivos de log genéricos
+* [Importar arquivos de dados do Google Ad Manager para o Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
+* [Arquivos de Dados e Metadados de Log](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) para configurar a assimilação de log para arquivos de log genéricos

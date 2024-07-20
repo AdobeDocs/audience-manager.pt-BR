@@ -10,17 +10,17 @@ exl-id: 994da89c-c9db-4cd5-b2bc-cfda231e5f2d
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 
 # Segmentos pausados e excluídos {#paused-and-deleted-segments}
 
-Descreve os efeitos em usuários, dados e destinos segmentados quando você pausa ou exclui um segmento ativo usando [!UICONTROL Segment Builder].
+Descreve os efeitos em usuários, dados e destinos segmentados quando você pausa ou exclui um segmento ativo usando o [!UICONTROL Segment Builder].
 
 ## Acesso aos controles Pausar e Excluir
 
-Passe o mouse sobre um nome de segmento na lista de segmentos para expor **[!UICONTROL pause]** e **[!UICONTROL delete]** ícones (na caixa [!UICONTROL Actions] coluna). Esses recursos afetam os segmentos conforme descrito abaixo.
+Passe o mouse sobre um nome de segmento na lista de segmentos para expor os ícones **[!UICONTROL pause]** e **[!UICONTROL delete]** (na coluna [!UICONTROL Actions]). Esses recursos afetam os segmentos conforme descrito abaixo.
 
 ## Funcionalidade de segmento pausado
 
@@ -45,4 +45,4 @@ Um segmento excluído:
 
 >[!NOTE]
 >
->Também é possível pausar e excluir segmentos usando um [!DNL API] método. Para obter mais informações, consulte [REST APIs](../../api/rest-api-main/rest-api-main.md).
+>Também é possível pausar e excluir segmentos usando um método [!DNL API]. Para obter mais informações, consulte [REST APIs](../../api/rest-api-main/rest-api-main.md).

@@ -10,7 +10,7 @@ exl-id: 12f9b802-b645-4fc3-96ea-3d16b1f4890a
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 8%
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,7 @@ Esses elementos identificam as opções de código e variáveis usadas na docume
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> (this|that) </code> </p> </td> 
-   <td colname="col2"> <p>Os itens entre parênteses indicam um valor booleano <span class="wintitle"> OU</span> escolha. </p> </td> 
+   <td colname="col2"> <p>Os itens entre parênteses indicam uma opção booleana <span class="wintitle"> OR</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> literal</code> </p> </td> 

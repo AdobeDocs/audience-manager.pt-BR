@@ -10,13 +10,13 @@ exl-id: 90700479-4a8e-4a07-81ef-2e9d8a1d9f15
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '161'
-ht-degree: 13%
+ht-degree: 3%
 
 ---
 
 # Ordem de operações no Construtor de características {#order-of-operations-in-trait-builder}
 
-[!UICONTROL Trait Builder] avalia as expressões de acordo com a ordem de operações listada abaixo, de alta a baixa precedência. Os elementos de característica definidos por operadores de alta precedência são avaliados primeiro, antes de outros operadores de precedência. Esta seção classifica cada operador de acordo com a precedência, de cima para baixo.
+[!UICONTROL Trait Builder] avalia expressões de acordo com a ordem de operações listada abaixo, de alta a baixa precedência. Os elementos de característica definidos por operadores de alta precedência são avaliados primeiro, antes de outros operadores de precedência. Esta seção classifica cada operador de acordo com a precedência, de cima para baixo.
 
 <!-- c_tb_operator_precedence.xml -->
 
@@ -45,12 +45,12 @@ ht-degree: 13%
    <td colname="col3"> Equal to, not equal to são avaliados após os operadores anteriores. </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Booleano <span class="wintitle"> E</span> </td> 
+   <td colname="col1">Booleano <span class="wintitle"> AND</span> </td> 
    <td colname="col2"><span class="wintitle"> E</span> </td> 
    <td colname="col3" morerows="1"> n/a </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Booleano <span class="wintitle"> OU</span> </td> 
+   <td colname="col1">Booleano <span class="wintitle"> OR</span> </td> 
    <td colname="col2"><span class="wintitle"> OU</span> </td> 
    <td colname="col3" morerows="1"> n/a </td> 
   </tr> 
@@ -59,6 +59,5 @@ ht-degree: 13%
 
 >[!MORELIKETHIS]
 >
->* [Trabalhar com expressões booleanas (AND, OR, NOT) no TraitBuilder](../../reference/boolean-expressions-tsb.md)
->* [Trabalhar com operadores de comparação no TraitBuilder](../../features/traits/trait-comparison-operators.md)
-
+>* [Trabalhando com expressões booleanas (AND, OR, NOT) no TraitBuilder](../../reference/boolean-expressions-tsb.md)
+>* [Trabalhando com Operadores de Comparação no TraitBuilder](../../features/traits/trait-comparison-operators.md)

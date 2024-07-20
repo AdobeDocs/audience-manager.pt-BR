@@ -9,22 +9,22 @@ feature: Inbound Data Transfers
 exl-id: d243c74c-3a29-4dbf-a4c7-43ea526a9d7b
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 5%
+source-wordcount: '169'
+ht-degree: 1%
 
 ---
 
 # Assimilação de dados de entrada em tempo real {#real-time-inbound-data-ingestion}
 
-O processo de assimilação de dados de entrada em tempo real usa uma série de `HTTP` solicitações do navegador de um usuário para transmitir dados para o Audience Manager.
+O processo de assimilação de dados de entrada em tempo real usa uma série de `HTTP` solicitações do navegador de um usuário para enviar dados para o Audience Manager.
 
 <!-- c_rt_inbound_real_time.xml -->
 
-Os dados de entrada devem ser formatados como pares de valores chave chamados sinais. Normalmente, cada sinal é mapeado para um segmento criado ou gerenciado pela interface do usuário ou [!DNL API].
+Os dados de entrada devem ser formatados como pares de valores chave chamados sinais. Normalmente, cada sinal é mapeado para um segmento criado ou gerenciado através da interface de usuário ou [!DNL API].
 
 ## Parâmetros e sintaxe da string de URL {#url-string-syntax}
 
-A variável [!DNL URL] para uma transferência de dados de entrada deve conter as variáveis descritas abaixo. Lembre-se de [criar características](../../../features/traits/create-onboarded-rule-based-traits.md) e uma [estrutura de pastas](../../../features/traits/trait-storage.md#create-trait-storage-folder) no [!DNL Audience Manager] Interface antes de configurar transferências de dados em tempo real.
+O [!DNL URL] para uma transferência de dados de entrada deve conter as variáveis descritas abaixo. Lembre-se de [criar características](../../../features/traits/create-onboarded-rule-based-traits.md) e uma [estrutura de pastas](../../../features/traits/trait-storage.md#create-trait-storage-folder) na interface do usuário do [!DNL Audience Manager] antes de configurar transferências de dados em tempo real.
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ A variável [!DNL URL] para uma transferência de dados de entrada deve conter a
 
 ### Sintaxe do URL
 
-Durante um processo de assimilação de dados de entrada em tempo real, uma [!DNL URL] A sequência de caracteres usa a seguinte sintaxe:
+Durante um processo de assimilação de dados de entrada em tempo real, uma cadeia de caracteres [!DNL URL] formatada corretamente usa a seguinte sintaxe:
 
 ```
 https://client.demdex.net/event?KEY1=VALA&KEY2=VALB&KEY3=VALC

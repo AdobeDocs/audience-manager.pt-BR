@@ -9,8 +9,8 @@ feature: Overlap Reports
 exl-id: 7ce3dd2d-ab22-46f8-90bf-a32222df2e76
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 5%
+source-wordcount: '831'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ Retorna dados sobre o número de usuários únicos compartilhados entre uma cara
 
 >[!NOTE]
 >
->Os relatórios de Sobreposição no Audience Manager seguem os princípios do RBAC. Você só pode ver segmentos e características de fontes de dados às quais você tem acesso com base no [Grupo de usuários RBAC](/help/using/features/administration/administration-overview.md) a que você pertence.
+>Os relatórios de Sobreposição no Audience Manager seguem os princípios do RBAC. Você só pode ver segmentos e características de fontes de dados às quais você tem acesso com base no [Grupo de Usuários RBAC](/help/using/features/administration/administration-overview.md) ao qual você pertence.
 
 <!-- 
 
@@ -30,11 +30,11 @@ c_segment_trait_overlap.xml
 
 ## Visão geral
 
-Como ferramenta de otimização, a variável [!UICONTROL Segment to Trait Overlap] Os relatórios do ajudam a criar segmentos altamente focados ou expandir o alcance do segmento. Por exemplo, você pode criar segmentos e características focalizados com alta sobreposição para alcançar um público específico. No entanto, muitas sobreposições podem significar menos usuários únicos (menos alcance). Executar este relatório para ajudar a expandir o alcance, removendo características com muita sobreposição de segmento e substituindo-as por características com menos sobreposição.
+Como ferramenta de otimização, os relatórios do [!UICONTROL Segment to Trait Overlap] ajudam a criar segmentos altamente focalizados ou expandir o alcance dos segmentos. Por exemplo, você pode criar segmentos e características focalizados com alta sobreposição para alcançar um público específico. No entanto, muitas sobreposições podem significar menos usuários únicos (menos alcance). Executar este relatório para ajudar a expandir o alcance, removendo características com muita sobreposição de segmento e substituindo-as por características com menos sobreposição.
 
 ### Exemplo de relatório
 
-A ilustração a seguir fornece uma visão geral de alto nível da [!UICONTROL Segment-to-Trait Overlap] relatório.
+A ilustração a seguir fornece uma visão geral de alto nível do relatório [!UICONTROL Segment-to-Trait Overlap].
 
 ![](assets/segment-to-trait-overlap.png)
 
@@ -82,8 +82,8 @@ Observar a sobreposição entre características e segmentos pode ajudar a estim
    <td colname="col2"> <p>Para determinar o pool de visitantes disponível, some a diferença entre o total da característica (menos sobreposição) e o total do segmento (menos sobreposição). </p> <p>Essa combinação de segmento e característica pode chegar a até 1.004 novos usuários. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b>Encontrar segmentos ineficientes</b> </td> 
-   <td colname="col2"> <p>Se uma característica fizer parte de um <span class="wintitle"> E</span> em uma definição de segmento, os visitantes únicos que têm essa característica já estão no segmento e não estão disponíveis para adição ao segmento. Você pode usar esse relatório para encontrar características relevantes com baixa sobreposição e adicioná-las à definição do segmento, aumentando assim o alcance desse pool de público-alvo do segmento. </p> </td> 
+   <td colname="col1"><b>Encontrar Segmentos Ineficientes</b> </td> 
+   <td colname="col2"> <p>Se uma característica fizer parte de um grupo <span class="wintitle"> AND</span> em uma definição de segmento, os visitantes únicos que têm essa característica já estarão no segmento e não estarão disponíveis para adição ao segmento. Você pode usar esse relatório para encontrar características relevantes com baixa sobreposição e adicioná-las à definição do segmento, aumentando assim o alcance desse pool de público-alvo do segmento. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -98,7 +98,7 @@ r_s2t_sliders.xml
 
  -->
 
-A variável [!UICONTROL Segment-to-Trait overlap] relatório permite usar dois controles deslizantes para filtrar dados pelo % de sobreposição por característica ou segmento.
+O relatório [!UICONTROL Segment-to-Trait overlap] permite usar dois controles deslizantes para filtrar dados pela % de sobreposição por característica ou segmento.
 
 * **[!UICONTROL Filter Trait Uniques %:]** Filtra os dados pela % de visitantes únicos compartilhados entre a característica e o segmento.
 * **[!UICONTROL Filter Segment Uniques Overlap %:]** Filtra os dados pela % de compartilhamento de visitantes únicos entre o segmento e a característica.
@@ -122,7 +122,7 @@ r_s2t_data_pop.xml
 
  -->
 
-O pop-up para o [!UICONTROL Segment-to-Trait Overlap] contém as métricas abaixo. Observe que a métrica única na tabela representa seus *usuários em tempo real*.
+O pop-up para o relatório [!UICONTROL Segment-to-Trait Overlap] contém as métricas abaixo. Observe que a métrica única na tabela representa seus *usuários em tempo real*.
 
 <table id="table_4AF72754276242FFB11543635B43AD90"> 
  <thead> 
@@ -137,11 +137,11 @@ O pop-up para o [!UICONTROL Segment-to-Trait Overlap] contém as métricas abaix
    <td colname="col2"> ID numérica exclusiva do segmento. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Fonte de dados de características </span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> Source de dados de características </span></b> </td> 
    <td colname="col2"> Nome do proprietário da característica. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Tipo de fonte de dados</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> Tipo de Source de Dados</span></b> </td> 
    <td colname="col2">Define o tipo de provedor ao qual uma característica pertence. Pode ser: 
     <ul id="ul_0477C04A33FD4F5D998B98984E6554D3"> 
      <li id="li_50FCA48EDB5843AB8FB6C34ED2C0067D">Primário (sua própria característica). </li> 
@@ -157,19 +157,19 @@ O pop-up para o [!UICONTROL Segment-to-Trait Overlap] contém as métricas abaix
    <td colname="col2"> Nome da característica. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> % de sobreposição de únicos de características</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> Sobreposição de Características Exclusivas %</span></b> </td> 
    <td colname="col2"> % de visitantes únicos que uma característica compartilha com o segmento. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> % de sobreposição de únicos do segmento</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> Sobreposição de Únicas de Segmento %</span></b> </td> 
    <td colname="col2"> % de visitantes únicos que um segmento compartilha com uma característica. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Sobrepor únicos</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> Únicos de sobreposição</span></b> </td> 
    <td colname="col2"> Número de visitantes únicos compartilhados entre o segmento e a característica. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Únicos do segmento</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> Segmentos únicos</span></b> </td> 
    <td colname="col2"> Número de visitantes únicos no segmento. </td> 
   </tr> 
   <tr> 
@@ -183,8 +183,7 @@ O pop-up para o [!UICONTROL Segment-to-Trait Overlap] contém as métricas abaix
 >
 >* [Filtrar resultados do relatório com os controles deslizantes de dados](../../reporting/dynamic-reports/data-sliders.md)
 >* [Formas, Cores e Tamanhos Usados em Relatórios Interativos](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
->* [Explicação dos ícones e ferramentas de relatório](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
+>* [Explicação dos Ícones e Ferramentas do Relatório](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
 >* [Relatórios de sobreposição: Atualizar agendamento e tamanho mínimo do segmento](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Amostragem de dados e taxas de erro em alguns relatórios do Audience Manager...](../../reporting/report-sampling.md)
+>* [Amostragem de Dados e Taxas de Erro em Relatórios de Audience Manager Selecionados...](../../reporting/report-sampling.md)
 >* [Arquivos CSV para relatórios de sobreposição](../../reporting/dynamic-reports/overlap-csv-files.md)
-

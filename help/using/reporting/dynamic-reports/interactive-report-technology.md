@@ -3,18 +3,18 @@ description: Descreve o software subjacente que alimenta os relatórios interati
 seo-description: Describes the underlying software that powers the interactive reports and the data update schedule.
 seo-title: Report Technology
 solution: Audience Manager
-title: Tecnologia de relatórios
+title: Tecnologia de relatório
 uuid: 5f3d815b-e1e6-42f2-b848-ac035a5aa77d
 feature: Overlap Reports
 exl-id: 59d875d6-a630-4795-93a7-1d432860f0a1
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 3%
+source-wordcount: '255'
+ht-degree: 0%
 
 ---
 
-# Tecnologia de relatórios{#report-technology}
+# Tecnologia de relatório{#report-technology}
 
 Descreve o software subjacente que alimenta os relatórios interativos e o agendamento de atualização de dados.
 
@@ -26,7 +26,7 @@ c_report_technology.xml
 
 ## Relatórios interativos usam a tecnologia Tableau
 
-[!DNL Audience Manager] usos [Tableau](https://www.tableausoftware.com/) para exibir dados nos relatórios interativos. Com [!DNL Tableau], o [!UICONTROL Delivery and Overlap] Os relatórios usam dicas visuais e símbolos que ajudam a:
+[!DNL Audience Manager] usa o software [Tableau](https://www.tableausoftware.com/) para exibir dados nos relatórios interativos. Com o [!DNL Tableau], os relatórios do [!UICONTROL Delivery and Overlap] usam dicas visuais e símbolos que ajudam a:
 
 * Encontre características de alto e baixo desempenho.
 * Características e segmentos pontuais com sobreposição baixa e alta de visitantes únicos.
@@ -71,8 +71,8 @@ A tabela a seguir define as formas, os tamanhos e as cores usadas nos relatório
    <td colname="col1"> <b>Cores</b> </td> 
    <td colname="col2"> 
     <ul id="ul_F5D243297F0C4E5A8EDCBD28A548869E"> 
-     <li id="li_332EB873A35440E6BB6093E36A0FAC3D">Sombras vermelhas indicam <i>baixa</i> sobreposição. </li> 
-     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">Óculos de cor verde indicam <i>alta</i> sobreposição. </li> 
+     <li id="li_332EB873A35440E6BB6093E36A0FAC3D">Sombras vermelhas indicam sobreposição <i>baixa</i>. </li> 
+     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">Os tons verdes indicam uma sobreposição de <i>alta</i>. </li> 
     </ul> </td> 
   </tr> 
   <tr> 

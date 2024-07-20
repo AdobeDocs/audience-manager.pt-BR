@@ -10,7 +10,7 @@ exl-id: 22335e8d-35cf-4014-803a-efdd35552ef2
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 
@@ -26,6 +26,6 @@ Para saber como criar traços de conversão no Audience Manager, assista ao víd
 
 ## Exemplo de relatório
 
-Seu [!UICONTROL Reported Conversion Traits] relatório pode ser semelhante ao abaixo:
+O relatório [!UICONTROL Reported Conversion Traits] pode ser semelhante ao mostrado abaixo:
 
 ![](assets/reported-conversion-traits.png)

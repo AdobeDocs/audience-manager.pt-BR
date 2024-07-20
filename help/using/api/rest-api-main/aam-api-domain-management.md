@@ -9,8 +9,8 @@ feature: API
 exl-id: f9907f6e-d553-4771-945b-2fddb3c9ce2f
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 5%
+source-wordcount: '340'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ Métodos de gerenciamento de domínio que permitem criar e gerenciar os domínio
 
 ## Criar um novo domínio {#create-new-domain}
 
-A `POST` que permite criar um novo domínio para (somente destinos de cookies).
+Um método `POST` que permite criar um novo domínio para (somente destinos de cookies).
 
 <!-- r_post_new_partner_site.xml -->
 
@@ -40,7 +40,7 @@ A `POST` que permite criar um novo domínio para (somente destinos de cookies).
 
 ### Resposta
 
-Uma resposta bem-sucedida retorna `201 created` e o site do parceiro, incluindo sua ID exclusiva.
+Uma resposta bem-sucedida retorna `201 created` e o site parceiro, incluindo sua ID exclusiva.
 
 ```
 {
@@ -52,7 +52,7 @@ Uma resposta bem-sucedida retorna `201 created` e o site do parceiro, incluindo 
 
 ## Excluir um domínio {#delete-domain}
 
-A `DELETE` que permite remover um domínio (somente para destinos de cookies).
+Um método `DELETE` que permite remover um domínio (somente para destinos de cookies).
 
 <!-- r_delete_partner_site.xml -->
 
@@ -62,11 +62,11 @@ A `DELETE` que permite remover um domínio (somente para destinos de cookies).
 
 ### Resposta
 
-Uma resposta bem-sucedida retorna `204 no content`. Devoluções `404 not found` se o site do parceiro não puder ser encontrado.
+Uma resposta bem-sucedida retorna `204 no content`. Retorna `404 not found` se o site parceiro não for encontrado.
 
 ## Retornar propriedades de um domínio {#return-props-domain}
 
-A `GET` que retorna detalhes sobre o domínio especificado (somente para destinos de cookies).
+Um método `GET` que retorna detalhes sobre o domínio especificado (somente para destinos de cookies).
 
 <!-- r_get_partner_site.xml -->
 
@@ -76,7 +76,7 @@ A `GET` que retorna detalhes sobre o domínio especificado (somente para destino
 
 ### Resposta
 
-Uma resposta bem-sucedida retorna `200 OK` e dados como mostrado na amostra abaixo. Devoluções `404 Not found` se a ID do site ou o parceiro não for encontrado.
+Uma resposta bem-sucedida retorna `200 OK` e dados como mostrado na amostra abaixo. Retorna `404 Not found` se a ID do site ou o parceiro não for encontrado.
 
 ```
 {
@@ -88,7 +88,7 @@ Uma resposta bem-sucedida retorna `200 OK` e dados como mostrado na amostra abai
 
 ## Propriedades de retorno para todos os domínios {#return-props-all-domains}
 
-A `GET` que retorna informações sobre todos os domínios (somente para destinos de cookies).
+Um método `GET` que retorna informações sobre todos os domínios (somente para destinos de cookies).
 
 <!-- r_get_partner_sites.xml -->
 
@@ -98,7 +98,7 @@ A `GET` que retorna informações sobre todos os domínios (somente para destino
 
 ### Parâmetros de consulta opcionais
 
-Você pode usar esses parâmetros opcionais com [!DNL API] métodos que retornam *all* propriedades de um objeto. Defina essas opções na string de solicitação ao transmitir essa consulta para o [!DNL API]. Consulte [Parâmetros opcionais](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+Você pode usar esses parâmetros opcionais com métodos [!DNL API] que retornam *todas* as propriedades de um objeto. Defina essas opções na cadeia de caracteres de solicitação ao passar essa consulta para o [!DNL API]. Consulte [Parâmetros Opcionais](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -133,7 +133,7 @@ Você pode usar esses parâmetros opcionais com [!DNL API] métodos que retornam
 
 ### Resposta
 
-Uma resposta bem-sucedida retorna `200 OK` e dados em uma matriz, conforme mostrado na amostra abaixo. Devoluções `404 Not found` se a ID do site ou o parceiro não for encontrado.
+Uma resposta bem-sucedida retorna `200 OK` e dados em uma matriz, como mostrado na amostra abaixo. Retorna `404 Not found` se a ID do site ou o parceiro não for encontrado.
 
 ```
 [

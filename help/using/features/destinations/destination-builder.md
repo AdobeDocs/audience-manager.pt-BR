@@ -8,32 +8,32 @@ feature: Destination Basics
 exl-id: 0923bea3-fb23-45c0-bbb7-5a74f46bf45b
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 4%
+source-wordcount: '268'
+ht-degree: 1%
 
 ---
 
 # Construtor de destinos {#destination-builder}
 
-[!UICONTROL Destination Builder] permite criar ou configurações baseadas em cookies [!DNL URL] destinos. Não é possível criar relatórios de servidor para servidor ([!DNL S2S]) destinos com [!UICONTROL Destination Builder], mas você pode gerenciar os mapeamentos de segmento. Entre em contato com seu consultor para configurar um [!DNL S2S] destino. [!UICONTROL Destination Builder] está localizado em **[!UICONTROL Audience Data > Destinations]**.
+[!UICONTROL Destination Builder] permite criar destinos com base em cookies ou [!DNL URL]. Não é possível criar destinos servidor a servidor ([!DNL S2S]) com [!UICONTROL Destination Builder], mas você pode gerenciar os mapeamentos de segmentos. Contate seu consultor para configurar um destino do [!DNL S2S]. [!UICONTROL Destination Builder] está localizado em **[!UICONTROL Audience Data > Destinations]**.
 
 ## Configurações do Construtor de destinos {#destination-builder-settings}
 
 <!-- destination-builder.xml -->
 
-[!UICONTROL Destination Builder] O consiste nas seguintes seções e configurações:
+[!UICONTROL Destination Builder] consiste nas seguintes seções e configurações:
 
-| [!UICONTROL Destination Builder] Seção | Propósito |
+| Seção [!UICONTROL Destination Builder] | Propósito |
 |--- |--- |
-| Informações básicas | Usado para nomear o destino, descrevê-lo e selecionar o tipo de destino ([!DNL URL] ou [!DNL cookie]) e plataforma (todos, [!DNL Android], navegador ou [!DNL iOS]). |
-| Configuração | Inclui controles para: <br/><ul><li>Transmissão de dados de valor-chave para [!DNL URL] destinos. Você pode enviar dados como pares de valores-chave individuais ou serializados. Para obter mais detalhes, consulte [Serialização de destino](../../features/destinations/key-value-pairs.md#destination-serialized) e [Pares padrão e de valor-chave serial](../../features/destinations/key-value-pairs.md). </li><li>Elementos de um destino de cookie, como nome do cookie, domínio, tamanho, intervalo de expiração, formato de dados etc.</li></ul> |
-| Mapeamentos de segmentos | Permite: <br/><ul><li>Procure, adicione e gerencie segmentos associados a todos os tipos de destino. </li><li>Definir prioridades de entrega em segmentos individuais (para [!DNL cookie]somente segmentos com base em ).</li></ul> |
+| Informações básicas | Usado para nomear o destino, descrevê-lo e selecionar o tipo de destino ([!DNL URL] ou [!DNL cookie]) e a plataforma (todos, [!DNL Android], navegador ou [!DNL iOS]). |
+| Configuração | Inclui controles para: <br/><ul><li>Passando dados de valor-chave para [!DNL URL] destinos. Você pode enviar dados como pares de valores-chave individuais ou serializados. Para obter detalhes, consulte [Serialização de Destino](../../features/destinations/key-value-pairs.md#destination-serialized) e [Pares de Valor-Chave Padrão e Serial](../../features/destinations/key-value-pairs.md). </li><li>Elementos de um destino de cookie, como nome do cookie, domínio, tamanho, intervalo de expiração, formato de dados etc.</li></ul> |
+| Mapeamentos de segmentos | Permite a você: <br/><ul><li>Procure, adicione e gerencie segmentos associados a todos os tipos de destino. </li><li>Defina as prioridades de entrega em segmentos individuais (somente para segmentos baseados em [!DNL cookie]).</li></ul> |
 
 ## Métodos de delivery de dados {#data-delivery-methods}
 
-Enviar informações a um destino fazendo o seu envio por meio de uma [!DNL URL] string, gravando em um navegador [!DNL cookie]ou por meio de transferências de dados offline de servidor para servidor.
+Envie informações para um destino passando-as por uma cadeia de caracteres [!DNL URL], gravando em um navegador [!DNL cookie] ou por meio de transferências de dados offline de servidor para servidor.
 
-* [!DNL URL] Os destinos com base em cookies transmitem dados de forma síncrona, conforme um usuário age em uma página.
+* [!DNL URL] e destinos com base em cookies transmitem dados de forma síncrona, conforme um usuário age em uma página.
 * A transmissão de dados de servidor para servidor é assíncrona e pode ocorrer muito depois que um usuário sai da página. O tipo de delivery selecionado depende dos requisitos da empresa e de como um parceiro de dados específico deseja ou pode receber dados.
 
-Consulte [Como escolher um tipo de destino](../../features/destinations/destinations.md) para obter mais informações.
+Consulte [Como Escolher um Tipo de Destino](../../features/destinations/destinations.md) para obter mais informações.

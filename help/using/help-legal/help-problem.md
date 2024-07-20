@@ -8,7 +8,7 @@ feature: Support
 exl-id: 2f7b9dbe-7aac-41b0-aab8-3b703d7a2441
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '370'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ No caso de problemas técnicos ou para registrar de um erro, entre em contato co
 
 * **Telefone:** 1-800-497-0335
 
-   Para ver os números de chamada gratuita fora dos Estados Unidos, consulte o site com os [números de contato regionais do Atendimento ao cliente](https://helpx.adobe.com/br/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html). Quando for solicitado que você selecione uma opção para seu produto, pressione 4 para entrar em contato com a equipe do [!DNL Audience Manager].
+  Para ver os números de chamada gratuita fora dos Estados Unidos, consulte o site com os [números de contato regionais do Atendimento ao cliente](https://helpx.adobe.com/br/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html). Quando for solicitado que você selecione uma opção para seu produto, pressione 4 para entrar em contato com a equipe do [!DNL Audience Manager].
 
 * **Email:** amsupport@adobe.com
 

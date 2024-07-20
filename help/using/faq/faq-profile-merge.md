@@ -10,8 +10,8 @@ feature: Profile Merge
 exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
 source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 82%
+source-wordcount: '1583'
+ht-degree: 81%
 
 ---
 
@@ -21,7 +21,7 @@ Respostas a perguntas comuns sobre a Regra de mesclagem de perfis e Gráfico de 
 
 <!-- profile-merge-faq.xml -->
 
-## Noções básicas sobre o Gráfico de dispositivos {#device-graph-basics}
+## Noções básicas do gráfico de dispositivos {#device-graph-basics}
 
 **O que é um gráfico de dispositivos?**
 
@@ -31,7 +31,7 @@ Um gráfico de dispositivos é um conjunto de mapeamentos de ID que define grupo
 
 **O que é um gráfico de dispositivos externo?**
 
-Um gráfico de dispositivos externo é qualquer gráfico de dispositivos no [!DNL Audience Manager] que não foi criado exclusivamente a partir de suas próprias fontes de dados entre dispositivos. Por exemplo, ao criar um [Regra de mesclagem de perfis](../features/profile-merge-rules/merge-rules-start.md) e escolha as opções de gráfico de dispositivos de terceiros, você está trabalhando com um gráfico de dispositivos externo. Consulte [Opções de dispositivos](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
+Um gráfico de dispositivos externo é qualquer gráfico de dispositivos no [!DNL Audience Manager] que não foi criado exclusivamente a partir de suas próprias fontes de dados entre dispositivos. Por exemplo, ao criar uma [Regra de mesclagem de perfis](../features/profile-merge-rules/merge-rules-start.md) e escolher as opções de gráfico de dispositivos de terceiros, você está trabalhando com um gráfico de dispositivos externo. Consulte [Opções de dispositivos](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
 
  
 
@@ -266,7 +266,7 @@ No final de 2019, lançamos uma série de melhorias nas Regras de mesclagem de p
 
 Para garantir a integração correta entre sua instância do Audience Manager e destinos usando IDs entre dispositivos, como o Adobe Campaign, verifique se você atende aos seguintes requisitos:
 
-1. Revise a Regra de mesclagem de perfis usada pelos segmentos mapeados para o destino da sua ID declarada do Adobe Campaign. A Regra de mesclagem de perfis deve usar o [!UICONTROL Last Authenticated Profile] para que todos os perfis autenticados pudessem ser incluídos nas exportações. Se sua Regra de mesclagem de perfis estiver usando uma opção diferente, alterne-a para [!UICONTROL Last Authenticated Profile].
+1. Revise a Regra de mesclagem de perfis usada pelos segmentos mapeados para o destino da sua ID declarada do Adobe Campaign. A Regra de Mesclagem de Perfis deve usar a opção [!UICONTROL Last Authenticated Profile] para que todos os perfis autenticados possam ser incluídos nas exportações. Se sua Regra de Mesclagem de Perfis estiver usando uma opção diferente, alterne-a para [!UICONTROL Last Authenticated Profile].
 2. Selecione a fonte de dados ID declarada da Adobe Campaign nas configurações da Regra de mesclagem de perfis.
 
 >[!NOTE]
@@ -276,4 +276,3 @@ Para garantir a integração correta entre sua instância do Audience Manager e 
 >[!MORELIKETHIS]
 >
 >* [Link de perfil](../features/profile-merge-rules/profile-link-use-case.md)
-

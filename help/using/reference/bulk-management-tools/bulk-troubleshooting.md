@@ -9,8 +9,8 @@ feature: BAAAM
 exl-id: 4f1c501c-2e28-4ce5-829f-4d81d10cdccd
 source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 3%
+source-wordcount: '410'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ O que fazer quando as planilhas retornarem um erro ou sua solicitação em massa
 
 >[!NOTE]
 >
->[Permissões de grupo RBAC](../../features/administration/administration-overview.md) atribuído no [!DNL Audience Manager] A interface do usuário do é respeitada na [!UICONTROL Bulk Management Tools].
+>As [permissões do grupo RBAC](../../features/administration/administration-overview.md) atribuídas na interface do usuário [!DNL Audience Manager] são honradas no [!UICONTROL Bulk Management Tools].
 
 Fatores como tráfego pesado de rede, uso de servidor e grandes conjuntos de dados podem causar falha ou tempo limite de uma solicitação em massa. Se houver um problema, a planilha parará de gravar dados e exibirá uma mensagem de erro. Quando isso acontecer, você deverá:
 
@@ -54,19 +54,19 @@ A tabela a seguir lista alguns problemas comuns que você pode encontrar ao faze
   <tr> 
    <td colname="col1"> <b>Erro de autenticação</b> </td> 
    <td colname="col2"> 
-    <b>Atualização para a versão mais recente do Microsoft Excel</b>: Quando uma nova versão do Microsoft Excel é lançada e você está usando uma versão mais antiga, pode ocorrer um erro de autenticação na planilha de Gerenciamento em massa. Atualize para a versão mais recente do Microsoft Excel para resolver o erro de autenticação.
+    <b>Atualização para a versão mais recente do Microsoft Excel</b>: quando uma nova versão do Microsoft Excel é lançada e você está usando uma versão mais antiga, pode ocorrer um erro de autenticação na planilha de Gerenciamento em Massa. Atualize para a versão mais recente do Microsoft Excel para resolver o erro de autenticação.
 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Atrasos longos</b> </td> 
    <td colname="col2"> 
     <ul id="ul_AA6F414024B2475AB1C0B46DC3FF0B36"> 
-     <li id="li_ECC83AC39D7142519AA9A223DB8FCF23"> <b>Desativar modo de compatibilidade</b>: verifique se outras planilhas estão abertas no modo de compatibilidade do Microsoft Excel. O modo de compatibilidade pode aumentar os tempos de execução. Feche todas as planilhas que você pode ter aberto neste modo e tente sua solicitação em massa novamente. </li> 
+     <li id="li_ECC83AC39D7142519AA9A223DB8FCF23"> <b>Desativar modo de compatibilidade</b>: verifique se há outras planilhas abertas no modo de compatibilidade do Microsoft Excel. O modo de compatibilidade pode aumentar os tempos de execução. Feche todas as planilhas que você pode ter aberto neste modo e tente sua solicitação em massa novamente. </li> 
      <li id="li_234BFCF563234DE198884F33AB75280D"> <b>Recursos do sistema</b>: recursos limitados do sistema contribuem para longos atrasos. Tente fechar todos os outros programas antes de fazer uma solicitação em massa. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>Sem resposta</b> </td> 
+   <td colname="col1"> <b>Nenhuma resposta</b> </td> 
    <td colname="col2">Se você clicar em um botão de ação e nada acontecer: 
     <ul id="ul_142E63CDD556414AB639E51734FEDBCF"> 
      <li id="li_DBB6C819603D46B5AECC9C854FDAFDF1">Verifique se você tem o conjunto correto de cabeçalhos para a ação de seleção. </li> 
@@ -79,4 +79,4 @@ A tabela a seguir lista alguns problemas comuns que você pode encontrar ao faze
 
 ## Mensagens de erro
 
-Às vezes, você pode receber mensagens de erro ao fazer alterações em massa. Para interpretar a mensagem de erro, consulte [Códigos de resposta definidos](/help/using/api/rest-api-main/aam-api-getting-started.md) em nossa documentação de API.
+Às vezes, você pode receber mensagens de erro ao fazer alterações em massa. Para interpretar a mensagem de erro, consulte [Códigos de resposta definidos](/help/using/api/rest-api-main/aam-api-getting-started.md) na documentação da API.

@@ -1,5 +1,5 @@
 ---
-description: É possível requisitar um arquivo .csv para um Relatório de sobreposição quando ele alcança o limite de 1 milhão. Um relatório pode ter atingido esse limite ao receber a mensagem "Ocorreu um erro inesperado". Entre em contato com o Atendimento ao cliente para solicitar um arquivo .csv compactado, que pode ser importado e usado no seu próprio sistema de banco de dados. Os arquivos estão disponíveis para relatórios de sobreposição de segmento por segmento, segmento por característica e característica por característica.
+description: É possível solicitar um arquivo .csv para um Relatório de sobreposição quando ele atinge o limite de 1 milhão. Um relatório pode ter atingido esse limite ao receber a mensagem "Ocorreu um erro inesperado". Entre em contato com o Atendimento ao cliente para solicitar um arquivo .csv compactado, que pode ser importado e usado no seu próprio sistema de banco de dados. Os arquivos estão disponíveis para relatórios de sobreposição de segmento por segmento, segmento por característica e característica por característica.
 seo-description: You can request a .csv file for an Overlap Report when that report reaches its 1-million record limit. A report may have reached this limit when you see an "Unexpected error has occurred" message. Contact Customer Care to request a compressed .csv file, which you can import and work with in your own database system. Files are available for segment-to-segment, segment-to-trait, and trait-to-trait overlap reports.
 seo-title: CSV Files for Overlap Reports
 solution: Audience Manager
@@ -9,14 +9,14 @@ feature: Overlap Reports
 exl-id: 759c39cb-64ec-47dd-a3a4-027408aa6b5e
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 7%
+source-wordcount: '909'
+ht-degree: 2%
 
 ---
 
 # Arquivos CSV para relatórios de sobreposição{#csv-files-for-overlap-reports}
 
-É possível requisitar um arquivo .csv para um Relatório de sobreposição quando ele alcança o limite de 1 milhão. Um relatório pode ter atingido esse limite ao receber a mensagem &quot;Ocorreu um erro inesperado&quot;. Entre em contato com o Atendimento ao cliente para solicitar um arquivo .csv compactado, que pode ser importado e usado no seu próprio sistema de banco de dados. Os arquivos estão disponíveis para relatórios de sobreposição de segmento por segmento, segmento por característica e característica por característica.
+É possível solicitar um arquivo .csv para um Relatório de sobreposição quando ele atinge o limite de 1 milhão. Um relatório pode ter atingido esse limite ao receber a mensagem &quot;Ocorreu um erro inesperado&quot;. Entre em contato com o Atendimento ao cliente para solicitar um arquivo .csv compactado, que pode ser importado e usado no seu próprio sistema de banco de dados. Os arquivos estão disponíveis para relatórios de sobreposição de segmento por segmento, segmento por característica e característica por característica.
 
 ## Metadados do nome do arquivo {#file-name-metadata}
 
@@ -31,8 +31,8 @@ A tabela a seguir lista e descreve as convenções de nomenclatura de arquivo e 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Arquivo Extensão </p> </td> 
-   <td colname="col2"> <p>Os arquivos de relatório de sobreposição são compactados por gzip e têm um <code> .gz</code> extensão de arquivo. É necessário adicionar o <code> .csv</code> ao arquivo após a descompactação. </p> </td> 
+   <td colname="col1"> <p>Extensão de arquivo </p> </td> 
+   <td colname="col2"> <p>Os arquivos de relatório de sobreposição são compactados por gzip e têm uma extensão de arquivo <code> .gz</code>. Você deve adicionar a extensão <code> .csv</code> ao arquivo após a descompactação. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nome do arquivo </p> </td> 
@@ -40,7 +40,7 @@ A tabela a seguir lista e descreve as convenções de nomenclatura de arquivo e 
      <ul id="ul_D69D320A1AE94361B75D2AB47F90C4D1"> 
       <li id="li_FFB104975D104050AB67FEEC903C6E2E">Arquivos de segmento por segmento: <code>S2S_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
       <li id="li_7DEC51D693FB4377840D652AF40386EF">Arquivos de segmento para característica: <code>S2T_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
-      <li id="li_CCB35A2BCB714E518AB279D453740623">Arquivos de característica por característica: <code>T2T_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
+      <li id="li_CCB35A2BCB714E518AB279D453740623">Arquivos de característica para característica: <code>T2T_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -84,7 +84,7 @@ No arquivo, os dados da cadeia de caracteres são colocados entre aspas duplas. 
 
 ## Registros do relatório de segmento por segmento {#segment-segment-records}
 
-Um arquivo de dados para o [Relatório de sobreposição de segmento por segmento](segment-segment-overlap-report.md) contém os seguintes registros.
+Um arquivo de dados para o seu [Relatório de Sobreposição de Segmento por Segmento](segment-segment-overlap-report.md) contém os registros a seguir.
 
 <table id="table_1BDC7019DF2543069D7AE229C5E2454E"> 
  <thead> 
@@ -112,7 +112,7 @@ Um arquivo de dados para o [Relatório de sobreposição de segmento por segment
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>Você pode obter relatórios para intervalos de retrospectiva de 7 e 30 dias. A variável <code> rangeid</code> corresponde aos intervalos de tempo mostrados abaixo. </p> <p> 
+   <td colname="col2"> <p>Você pode obter relatórios para intervalos de retrospectiva de 7 e 30 dias. O <code> rangeid</code> corresponde aos intervalos de tempo mostrados abaixo. </p> <p> 
      <ul id="ul_129D6CB0EB6F48F28440D22DA257D1A4"> 
       <li id="li_5FC34516A437459F854C81B1CE353B89"> <code> 7</code>: 7 dias </li> 
       <li id="li_2CECC5039DAF4796BCCF27DACC3754A3"> <code> 30</code>: 30 dias </li> 
@@ -143,7 +143,7 @@ Um arquivo de dados para o [Relatório de sobreposição de segmento por segment
 
 ## Registros do relatório de segmento por característica {#segment-trait-records}
 
-Um arquivo de dados para o [Relatório de sobreposição de segmento por característica](segment-trait-overlap-report.md) contém os seguintes registros.
+Um arquivo de dados para o seu [Relatório de Sobreposição de Segmento por Característica](segment-trait-overlap-report.md) contém os registros a seguir.
 
 <table id="table_45270B5D01014AD99921B320D3A32DB6"> 
  <thead> 
@@ -175,7 +175,7 @@ Um arquivo de dados para o [Relatório de sobreposição de segmento por caracte
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>Você pode obter relatórios para intervalos de retrospectiva de 7 e 30 dias. A variável <code> rangeid</code> corresponde aos intervalos de tempo mostrados abaixo. </p> <p> 
+   <td colname="col2"> <p>Você pode obter relatórios para intervalos de retrospectiva de 7 e 30 dias. O <code> rangeid</code> corresponde aos intervalos de tempo mostrados abaixo. </p> <p> 
      <ul id="ul_4B07DFF4A226428A930E22B5FF73E1D0"> 
       <li id="li_4BD0F8AE64C74D7BBE2298F19E2F5328"> <code> 7</code>: 7 dias </li> 
       <li id="li_7C0C0D2CD9144C4CAF00EDEA90929104"> <code> 30</code>: 30 dias </li> 
@@ -210,7 +210,7 @@ Um arquivo de dados para o [Relatório de sobreposição de segmento por caracte
 
 ## Registros do relatório de característica por característica {#trait-trait-records}
 
-Um arquivo de dados para o [Relatório de sobreposição de característica por característica](trait-trait-overlap-report.md) contém os seguintes registros.
+Um arquivo de dados para o seu [Relatório de Sobreposição de Característica por Característica](trait-trait-overlap-report.md) contém os registros a seguir.
 
 <table id="table_603216E6AFE4439A87C91DDFF2989F53"> 
  <thead> 
@@ -250,7 +250,7 @@ Um arquivo de dados para o [Relatório de sobreposição de característica por 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>Você pode obter relatórios para intervalos de retrospectiva de 7 e 30 dias. A variável <code> rangeid</code> corresponde aos intervalos de tempo mostrados abaixo. </p> <p> 
+   <td colname="col2"> <p>Você pode obter relatórios para intervalos de retrospectiva de 7 e 30 dias. O <code> rangeid</code> corresponde aos intervalos de tempo mostrados abaixo. </p> <p> 
      <ul id="ul_BC2C41B90F864522B075EFDED33537EC"> 
       <li id="li_929639F70A1A4039BA19332562B71845"> <code> 7</code>: 7 dias </li> 
       <li id="li_1C489A4B755D4444AD5FAAF0B492F412"> <code> 30</code>: 30 dias </li> 

@@ -4,18 +4,18 @@ keywords: sandbox
 seo-description: The beta environment is for testing your Audience Manager implementation. Changes made in beta do not affect production data. Contact your Audience Manager Partner Solutions representative if you're interested in using the beta environment.
 seo-title: Beta Environment
 solution: Audience Manager
-title: Ambiente beta
+title: Ambiente do Beta
 uuid: de4a1a46-cfa4-4f64-8569-48a7650fd8cf
 feature: Reference
 exl-id: a6a5e1c2-29a2-40bf-972c-87fb8716a394
 source-git-commit: fce39268f1c8c4dd1b7ff21b61a9830a20fa0b4e
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 3%
+source-wordcount: '362'
+ht-degree: 2%
 
 ---
 
-# Ambiente beta {#beta-environment}
+# Ambiente do Beta {#beta-environment}
 
 O ambiente beta é usado para testar a implementação de Audience Manager. As alterações feitas na versão beta não afetam os dados de produção. Entre em contato com o representante de soluções de parceiros Audience Manager se estiver interessado em usar o ambiente beta.
 
@@ -23,19 +23,19 @@ O ambiente beta é usado para testar a implementação de Audience Manager. As a
 
 A funcionalidade no ambiente beta é uma réplica exata do ambiente de produção, sem recursos experimentais ou não lançados. Suas credenciais de logon do ambiente de produção são válidas no ambiente beta.
 
-**Atualizar programação**
+**Atualizar Calendário**
 
 O ambiente beta é atualizado no final de cada mês fora do horário de pico.
 
 >[!IMPORTANT]
 >
->Observe que os dados do cliente ([sinais, características e segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=en)) não é sincronizado entre os ambientes de produção e beta.
+>Observe que os dados do cliente ([sinais, características e segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=en)) não são sincronizados entre os ambientes de produção e beta.
 
 ## Tráfego de entrada
 
 O ambiente beta oferece suporte ao tráfego de entrada somente para fins de validação de nome de arquivo e sintaxe de conteúdo. Como não há mapeamento de ID ocorrendo no ambiente beta, os clientes não verão populações de segmentos.
 
-Por conseguinte, a [!UICONTROL Onboarding Status] a página sempre informará [!UICONTROL No matching AAM ID] após a assimilação de arquivos no ambiente beta.
+Consequentemente, a página [!UICONTROL Onboarding Status] sempre relatará [!UICONTROL No matching AAM ID] na assimilação de arquivos no ambiente beta.
 
 Recomendamos que todos os clientes executem qualquer teste de entrada em seus ambientes de produção.
 
@@ -47,14 +47,14 @@ O tráfego de saída não está ativado para o ambiente beta.
 
 | Serviço | URL/Nome do host | Como obter acesso |
 |--- |--- | --- |
-| S3 | Entre em contato com seu representante de soluções de parceiros Audience Manager ou com o Atendimento ao cliente | Entre em contato com o representante de soluções de parceiros Audience Manager ou com o Atendimento ao cliente para configurar um bucket do Amazon S3 para sua instância beta. Leia sobre o [vantagens de usar o Amazon S3](../reference/amazon-s3.md). |
-| DCS | `https://dcs-beta.demdex.net/...` | Consulte [Acesso ao DCS no ambiente beta](../reference/beta-environment.md#access-dcs-beta-environment). |
+| S3 | Entre em contato com seu representante de soluções de parceiros Audience Manager ou com o Atendimento ao cliente | Entre em contato com o representante de soluções de parceiros Audience Manager ou com o Atendimento ao cliente para configurar um bucket do Amazon S3 para sua instância beta. Leia sobre as [vantagens de usar o Amazon S3](../reference/amazon-s3.md). |
+| DCS | `https://dcs-beta.demdex.net/...` | Consulte [Acessando o DCS no Ambiente Beta](../reference/beta-environment.md#access-dcs-beta-environment). |
 | Interface do usuário | `https://bank-beta.demdex.com` | Suas credenciais de ambiente de produção são válidas para o ambiente beta. |
-| API | `https://api-beta.demdex.com/...` | Suas credenciais de ambiente de produção são válidas para o ambiente beta. Recomendamos que você crie um usuário de API genérico, [ver detalhes](../api/rest-api-main/aam-api-getting-started.md#requirements). |
+| API | `https://api-beta.demdex.com/...` | Suas credenciais de ambiente de produção são válidas para o ambiente beta. Recomendamos que você crie um usuário de API genérico, [veja os detalhes](../api/rest-api-main/aam-api-getting-started.md#requirements). |
 
-## Acesso ao DCS no ambiente beta {#access-dcs-beta-environment}
+## Acesso ao DCS no ambiente do Beta {#access-dcs-beta-environment}
 
-1. Fazer uma chamada DCS usando o curl [comando](https://curl.haxx.se/docs/manpage.html). O Curl é uma ferramenta para transferir dados de ou para um servidor, usando um dos vários protocolos compatíveis.
+1. Fazer uma chamada DCS, usando o curl [command](https://curl.haxx.se/docs/manpage.html). O Curl é uma ferramenta para transferir dados de ou para um servidor, usando um dos vários protocolos compatíveis.
 
    Por exemplo:
 

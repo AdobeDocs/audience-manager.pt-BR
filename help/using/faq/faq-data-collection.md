@@ -10,8 +10,8 @@ feature: Administration
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
 source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
 workflow-type: tm+mt
-source-wordcount: '1198'
-ht-degree: 80%
+source-wordcount: '1211'
+ht-degree: 78%
 
 ---
 
@@ -59,13 +59,13 @@ Os servidores SFTP abaixo estão obsoletos. Nenhuma conta nova será provisionad
 
 **Como configurar minha instância do Audience Manager para usar os novos servidores SFTP?**
 
-Entre em contato com [!DNL Audience Manager] ou Atendimento ao cliente, e eles configurarão suas novas contas SFTP.
+Entre em contato com o consultor do [!DNL Audience Manager] ou com o Atendimento ao cliente, que configurará suas novas contas SFTP.
 
  
 
-**Quais são os métodos de autenticação compatíveis com os novos servidores SFTP?**
+**Quais são os métodos de autenticação com suporte para os novos servidores SFTP?**
 
-Os novos servidores SFTP (`ftp-in-gtw` e `ftp-out-gtw`) suporte [!DNL OpenSSH Key-Based Authentication]. Podemos gerar o [!DNL SSH] ou você pode nos fornecer sua própria chave pública.
+Os novos servidores SFTP (`ftp-in-gtw` e `ftp-out-gtw`) oferecem suporte a [!DNL OpenSSH Key-Based Authentication]. Podemos gerar as chaves [!DNL SSH] para você ou você pode nos fornecer sua própria chave pública.
 
  
 
@@ -83,7 +83,7 @@ Como prática recomendada, configure a integração [!DNL Audience Manager] - [!
 
 * Coloque a [!UICONTROL DIL] diretamente no `s_code`.
 
-* Atendimento [!UICONTROL DIL] e a variável `s_code` até [!DNL Adobe Experience Platform Tags].
+* Atenda a [!UICONTROL DIL] e a `s_code` até [!DNL Adobe Experience Platform Tags].
 
 Consulte [API da Biblioteca de integração de dados (DIL)](../dil/dil-overview.md).
 
@@ -150,9 +150,9 @@ Sim, o [!DNL Audience Manager] pode fornecer dados coletados para usuários que 
 
 <br> 
 
-**[!DNL Google Ad Manager]Quero coletar dados em um site e direcionar usuários por meio do em um site diferente. Preciso implantar o código na outra propriedade se não quiser coletar dados desse local?**
+**Desejo coletar dados em um site e direcionar usuários via [!DNL Google Ad Manager] em um site diferente. Preciso implantar o código na outra propriedade se não quiser coletar dados desse local?**
 
-Não. Se a coleta de dados no segundo site não for um requisito, não será necessário implantar a DIL lá. Contanto que você tenha acesso ao inventário no segundo site via [!DNL Google Ad Manager], você poderá usar a coleta de dados do site inicial e do target via [!DNL Google Ad Manager].
+Não. Se a coleta de dados no segundo site não for um requisito, não será necessário implantar a DIL lá. Se você tiver acesso ao inventário no segundo site via [!DNL Google Ad Manager], poderá usar a coleta de dados do site inicial e direcionar via [!DNL Google Ad Manager].
 
 <br> 
 
@@ -162,9 +162,9 @@ Cada provedor traz algo único para a tabela, então a resposta depende do que v
 
 <br> 
 
-**Como o [!DNL Audience Manager] define cookies e transmite variáveis para o [!DNL Google Ad Manager]?**
+**Como o [!DNL Audience Manager] define cookies e transmite variáveis para [!DNL Google Ad Manager]?**
 
-[!DNL Audience Manager] O define 2 cookies: um envia variáveis de segmento para o [!DNL Google Ad Manager] A tag de publicidade e a outra definem a nossa ID de usuário exclusiva (UUID), que também é lida pelo [!DNL Google Ad Manager]. Adicionar a UUID à tag de publicidade significa que podemos fazer relatórios no nível do usuário e descobrir públicos-alvo.
+[!DNL Audience Manager] define 2 cookies: um envia variáveis de segmento para a marca de anúncio [!DNL Google Ad Manager] e o outro define a ID de usuário exclusiva (UUID), que também é lida por [!DNL Google Ad Manager]. Adicionar a UUID à tag de publicidade significa que podemos fazer relatórios no nível do usuário e descobrir públicos-alvo.
 
 <br> 
 
@@ -210,6 +210,6 @@ Geralmente, leva até 24 horas para um perfil do usuário sincronizar entre regi
 
 **O que acontece com chaves de acesso de usuário inativas do Amazon S3?**
 
-O Adobe fornece aos clientes do Audience Manager chaves de acesso do usuário para o Audience Manager [!DNL Amazon S3] compartimentos. Por motivos de segurança, as chaves são automaticamente desativadas após 100 dias de inatividade.
+O Adobe fornece aos clientes do Audience Manager chaves de acesso do usuário para os buckets do Audience Manager [!DNL Amazon S3]. Por motivos de segurança, as chaves são automaticamente desativadas após 100 dias de inatividade.
 
 Para reativar suas chaves de acesso ou solicitar novas, entre em contato com o Suporte ao cliente.

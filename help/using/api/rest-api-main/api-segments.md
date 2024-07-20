@@ -9,8 +9,8 @@ feature: API
 exl-id: c2ba9992-5d0f-46f7-861d-ae279b37674f
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 25%
+source-wordcount: '43'
+ht-degree: 13%
 
 ---
 
@@ -20,8 +20,7 @@ Métodos que permitem trabalhar programaticamente com segmentos.
 
 >[!IMPORTANT]
 >
->O segmento [!DNL API] Os métodos do foram regravados com [!DNL Swagger] e migrados. Consulte:
+>Os métodos de segmento [!DNL API] foram regravados com [!DNL Swagger] e migrados. Consulte:
 >
 >* [Documentação da API do Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migração de código API do Audience Manager](../../api/api-swagger-migration.md)
-

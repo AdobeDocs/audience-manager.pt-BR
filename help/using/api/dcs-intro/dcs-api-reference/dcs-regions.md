@@ -9,14 +9,14 @@ feature: DCS
 exl-id: 9b12946c-89f1-4f6f-adb9-961e15a0b816
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 10%
+source-wordcount: '234'
+ht-degree: 0%
 
 ---
 
 # IDs da região do DCS, locais e nomes de host {#dcs-region-ids-locations-and-host-names}
 
-A política regional [!DNL DCS] O nome do host do servidor é necessário para fazer chamadas para o [!DNL DCS]. Isso ocorre porque a variável [!DNL DCS] O armazena informações em data centers geograficamente próximos aos visitantes do site. Suas consultas funcionarão se você enviá-las para o local errado [!DNL DCS], mas essas chamadas são ineficientes e podem atrasar a resposta. Para tornar um [!DNL DCS] , associe a ID da região ao nome de host regional correspondente e forme sua query com o nome de host apropriado.
+O nome de host do servidor regional [!DNL DCS] é necessário para fazer chamadas para o [!DNL DCS]. Isso ocorre porque o [!DNL DCS] armazena informações em data centers geograficamente próximos aos visitantes do site. Suas consultas funcionarão se você enviá-las para o [!DNL DCS] errado, mas essas chamadas são ineficientes e podem atrasar a resposta. Para fazer uma solicitação [!DNL DCS], associe a ID da região ao nome de host regional correspondente e forme sua query com o nome de host apropriado.
 
 <table id="table_643212E4F9C64DFF9443904B01D89CB3"> 
  <thead> 
@@ -28,46 +28,46 @@ A política regional [!DNL DCS] O nome do host do servidor é necessário para f
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>ID3 </p> </td> 
+   <td colname="col1"> <p>ID 3 </p> </td> 
    <td colname="col2"> <p>Sudeste Asiático (Cingapura) </p> </td> 
    <td colname="col3"> <p> <code> apse.demdex.net</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>ID4 </p> </td> 
+   <td colname="col1"> <p>ID 4 </p> </td> 
    <td colname="col2"> <p>América do Sul (São Paulo, Brasil) </p> </td> 
    <td colname="col3"> <p> <code> sae.demdex.net</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>ID6 </p> </td> 
+   <td colname="col1"> <p>ID 6 </p> </td> 
    <td colname="col2"> <p>Europa (Dublin, Irlanda) </p> </td> 
    <td colname="col3"> <p> <code> irl1.demdex.net</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>ID7 </p> </td> 
+   <td colname="col1"> <p>ID 7 </p> </td> 
    <td colname="col2"> <p>Leste dos EUA (Virgínia, EUA) </p> </td> 
    <td colname="col3"> <p> <code> use.demdex.net</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>ID8 </p> </td> 
+   <td colname="col1"> <p>ID 8 </p> </td> 
    <td colname="col2"> <p>Pacífico Sul/Oceania (Sydney, Austrália) </p> </td> 
    <td colname="col3"> <p> <code> apse2.demdex.net</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>ID9 </p> </td> 
+   <td colname="col1"> <p>ID 9 </p> </td> 
    <td colname="col2"> <p>Oeste dos EUA (Oregon, EUA) </p> </td> 
    <td colname="col3"> <p> <code> usw2.demdex.net</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>ID11 </p> </td> 
+   <td colname="col1"> <p>ID 11 </p> </td> 
    <td colname="col2"> <p>Ásia (Tóquio, Japão) </p> </td> 
    <td colname="col3"> <p> <code> tyo3.demdex.net</code> </p> </td> 
   </tr>
   <tr> 
-   <td colname="col1"> <p>ID12 </p> </td> 
+   <td colname="col1"> <p>ID 12 </p> </td> 
    <td colname="col2"> <p>Índia </p> </td> 
    <td colname="col3"> <p> <code> ind1.demdex.net</code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Também é possível usar [!DNL API] métodos para obter uma lista dos [!DNL DCS] regiões. Consulte [Métodos da API da região DCS](../../../api/rest-api-main/aam-api-dcs-regions.md).
+Você também pode usar métodos [!DNL API] para obter uma lista das regiões [!DNL DCS] disponíveis. Consulte [Métodos de API da região DCS](../../../api/rest-api-main/aam-api-dcs-regions.md).

@@ -9,17 +9,17 @@ feature: API
 exl-id: 2c5d0567-9d48-48b5-b261-2b00a3070b2f
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '79'
 ht-degree: 2%
 
 ---
 
 # [!DNL REST APIs] {#rest-apis}
 
-[!UICONTROL RESTful APIs] permitem que você trabalhe programaticamente com [!DNL Audience Manager].
+O [!UICONTROL RESTful APIs] permite que você trabalhe programaticamente com o [!DNL Audience Manager].
 
-A variável [!DNL Audience Manager] [!DNL REST API] segue [!DNL JavaScript Object Notation] ([JSON](https://www.json.org/)) para formatar dados enviados e recebidos. Uma vantagem principal de [!DNL JSON] é que ajuda a tornar [!DNL API] consultas fáceis de escrever, ler e analisar por desenvolvedores e máquinas.
+O [!DNL Audience Manager] [!DNL REST API] segue os padrões [!DNL JavaScript Object Notation] ([JSON](https://www.json.org/)) para formatação de dados enviados e recebidos. Uma vantagem principal do [!DNL JSON] é que ele ajuda a facilitar a gravação, leitura e análise de consultas do [!DNL API] por desenvolvedores e computadores.
 
-Para simplificar ainda mais seu trabalho, estamos migrando nossos [!DNL REST APIs] para [Swagger](https://swagger.io/solutions/api-documentation/). Para obter mais informações, consulte [Migração de código API Audience Manager](/help/using/api/api-swagger-migration.md).
+Para simplificar ainda mais seu trabalho, estamos migrando nosso [!DNL REST APIs] para o [Swagger](https://swagger.io/solutions/api-documentation/). Para obter mais informações, consulte [Migração de código API Audience Manager](/help/using/api/api-swagger-migration.md).
 
-Revise o [Introdução](../../api/rest-api-main/aam-api-getting-started.md#getting-started-with-rest-apis) material antes de trabalhar com o [!DNL Audience Manager] [!DNL API] métodos.
+Revise o material de [Introdução](../../api/rest-api-main/aam-api-getting-started.md#getting-started-with-rest-apis) antes de trabalhar com os métodos [!DNL Audience Manager] [!DNL API].

@@ -10,7 +10,7 @@ exl-id: 8da0b48e-6fa4-43c9-a149-a39e465ac366
 source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
 source-wordcount: '199'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -30,19 +30,19 @@ t_bulk_estimates.xml
 
 >[!NOTE]
 >
->[Permissões de grupo RBAC](../../features/administration/administration-overview.md) atribuído no [!DNL Audience Manager] A interface do usuário do é respeitada na [!UICONTROL Bulk Management Tools].
+>As [permissões do grupo RBAC](../../features/administration/administration-overview.md) atribuídas na interface do usuário [!DNL Audience Manager] são honradas no [!UICONTROL Bulk Management Tools].
 
-Para fazer atualizações em massa, abra o [!UICONTROL Bulk Management Tools] planilha e:
+Para fazer atualizações em massa, abra a planilha [!UICONTROL Bulk Management Tools] e:
 
-1. Clique em **[!UICONTROL Headers]** e copie a guia [!UICONTROL Estimate Segment Size] cabeçalho.
-2. Clique em **[!UICONTROL Estimate]** guia.
+1. Clique na guia **[!UICONTROL Headers]** e copie o cabeçalho [!UICONTROL Estimate Segment Size].
+2. Clique na guia **[!UICONTROL Estimate]**.
 3. Cole o cabeçalho da estimativa na primeira linha da planilha da estimativa.
 4. Cole ou digite os dados que deseja alterar em uma coluna correspondente com base no rótulo do cabeçalho.
 5. Na barra de ferramentas da planilha, clique no botão Criar que corresponda ao item que você está atualizando.
-Essa ação abre a variável [!UICONTROL Account Information] caixa de diálogo.
-6. Forneça os [informações de logon](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) e clique em **[!UICONTROL Submit]**.
+Esta ação abre a caixa de diálogo [!UICONTROL Account Information].
+6. Forneça as [informações de logon](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) necessárias e clique em **[!UICONTROL Submit]**.
 
-Essa ação cria uma [!UICONTROL Response] na planilha que contém os dados de tamanho estimado do segmento. Antes de inserir dados, sua planilha de estimativa em massa deve ser semelhante ao seguinte:
+Esta ação cria uma coluna [!UICONTROL Response] na planilha que contém os dados de tamanho estimado do segmento. Antes de inserir dados, sua planilha de estimativa em massa deve ser semelhante ao seguinte:
 
 ![](assets/estimate.png)
-Se a atualização em massa retornar um erro ou falhar, consulte [Solução de problemas para ferramentas de gerenciamento em massa](../../reference/bulk-management-tools/bulk-troubleshooting.md).
+Se a atualização em massa retornar um erro ou falhar, consulte [Solução de problemas das Ferramentas de Gerenciamento em Massa](../../reference/bulk-management-tools/bulk-troubleshooting.md).

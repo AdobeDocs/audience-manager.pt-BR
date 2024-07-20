@@ -9,8 +9,8 @@ feature: Overlap Reports
 exl-id: 2a29b172-a323-422d-99e0-b00aa16e03dc
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 27%
+source-wordcount: '181'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 27%
 
 Os relatórios interativos exibem o desempenho e os dados de sobreposição para características e segmentos. Em vez de usar números organizados em colunas e linhas, esses relatórios retornam dados usando diferentes formas, cores e tamanhos. Além disso, você pode escolher pontos de dados individuais ou grupos de e detalhar os resultados do relatório para obter mais detalhes. Essas técnicas de visualização e interatividade de relatórios ajudam a facilitar a compreensão de grandes quantidades de dados numéricos.
 
-+ [Tecnologia de relatórios](interactive-report-technology.md)
++ [Tecnologia de relatório](interactive-report-technology.md)
 + [Relatório de sobreposição de característica por característica](trait-trait-overlap-report.md)
 + [Relatório de sobreposição de segmento por característica](segment-trait-overlap-report.md)
 + [Relatório de sobreposição de segmento por segmento](segment-segment-overlap-report.md)

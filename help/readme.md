@@ -1,7 +1,7 @@
 ---
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '326'
 ht-degree: 2%
 
 ---
@@ -12,17 +12,17 @@ ht-degree: 2%
 ## TOC
 
 + `TOC.md` na raiz do guia do usuário fornece a organização dos tópicos contidos no guia desta solução.
-+ Cada guia do usuário terá sua própria `TOC.md`, na qual é possível ordenar todas as páginas/tópicos, conforme necessário.
++ Cada guia do usuário terá seu próprio `TOC.md` exclusivo, no qual você pode ordenar todas as páginas/tópicos, conforme necessário.
 + A primeira página de todos os guias do usuário é `overview.md`.
 
 ## Guia do usuário
 
 + A introdução ao guia do usuário é chamada `overview.md`
 + Cada tópico no guia do usuário tem seu próprio diretório distinto.
-   + Se houver um tópico no guia chamado *Implementação*, o diretório correspondente é `/implementation`
-+ Todos os ativos de imagem são armazenados no `/assets` na raiz do guia do usuário.
-   + Todas as imagens no `/assets` diretório será localizado.
-   + Qualquer imagem na variável `/no-localize` o diretório não será localizado (há uma surpresa!). Isso pode ser usado para garantir versões in loc que os ativos específicos não serão reproduzidos desnecessariamente.
+   + Se houver um tópico no guia chamado *Implementação*, o diretório correspondente será `/implementation`
++ Todos os ativos de imagem são armazenados em `/assets`, na raiz do guia do usuário.
+   + Todas as imagens no diretório `/assets` serão localizadas.
+   + Nenhuma imagem no diretório `/no-localize` será localizada (há uma surpresa). Isso pode ser usado para garantir versões in loc que os ativos específicos não serão reproduzidos desnecessariamente.
 
 ## Metadados do guia do usuário
 
@@ -50,4 +50,4 @@ ht-degree: 2%
 
 ## Mais Informações
 
-Para obter mais instruções de publicação, guias de estilos, amostras e outros recursos, visite o [Repo de documentação colaborativa](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)
+Para obter mais instruções de publicação, guias de estilos, amostras e outros recursos, visite o [Repositório de documentação colaborativa](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)

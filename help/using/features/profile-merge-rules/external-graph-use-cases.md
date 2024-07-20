@@ -9,8 +9,8 @@ feature: Profile Merge
 exl-id: 657aecfd-7fa3-466e-8331-c49cc921e3a9
 source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 8%
+source-wordcount: '294'
+ht-degree: 4%
 
 ---
 
@@ -114,21 +114,20 @@ Through this rule, the device graph has expanded the number of device profiles w
 
 ## Direcionamento avançado entre dispositivos {#advanced-graph-expansion}
 
-Este caso de uso mostra como expandir o direcionamento de público-alvo para visitantes autenticados com dispositivos de um gráfico de dispositivos externo usando o **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]** regra.
+Este caso de uso mostra como é possível expandir o direcionamento de público-alvo para visitantes autenticados com dispositivos de um gráfico de dispositivos externo usando a regra **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]**.
 
-![gráfico do último dispositivo](assets/last-profile-link.png)
+![último-gráfico-de-dispositivo](assets/last-profile-link.png)
 
-No exemplo abaixo, a empresa Acme Inc. deseja direcionar todas as famílias com renda acima de US$ 100.000/ano que tenham [!DNL Acme Inc.] assinantes em [!DNL Data Plan A], que utilizam um [!DNL iPhone 7] dispositivo.
+No exemplo abaixo, a empresa Acme Inc. deseja direcionar todos os domicílios com renda superior a US$ 100.000/ano, que têm [!DNL Acme Inc.] assinantes em [!DNL Data Plan A], que usam um dispositivo [!DNL iPhone 7].
 
-John usa seu iPhone 7 no Data Plan A para autenticar no site da Acme Inc. Ao mesmo tempo, o [!DNL Profile Link Device Graph] contém dois dispositivos adicionais que ele usa regularmente: seu notebook ([!DNL Device 1]), e seu smartphone secundário, [!DNL Device 2] a) [!DNL Samsung S7] em [!DNL Data Plan B]).
+John usa seu iPhone 7 no Data Plan A para autenticar no site da Acme Inc. Ao mesmo tempo, o cluster [!DNL Profile Link Device Graph] de John contém dois dispositivos adicionais que ele usa regularmente: seu laptop ([!DNL Device 1]) e seu smartphone secundário, [!DNL Device 2] (um [!DNL Samsung S7] em [!DNL Data Plan B]).
 
-Ao usar o **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]**, [!DNL Acme Inc.] O é capaz de enviar mensagens personalizadas para todos os três dispositivos do cluster de gráficos de dispositivos de John, mesmo que apenas um deles se qualifique inicialmente para o segmento.
+Ao usar o **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]**, o [!DNL Acme Inc.] pode entregar mensagens personalizadas para todos os três dispositivos do cluster de gráficos de dispositivos de John, mesmo que apenas um deles se qualifique inicialmente para o segmento.
 
-![advanced-graph-expansion](assets/advanced-device-graph-expansion.png)
+![expansão de gráfico avançado](assets/advanced-device-graph-expansion.png)
 
 >[!MORELIKETHIS]
 >
 >* [Casos de uso do gráfico de dispositivo de link de perfis](profile-link-use-case.md)
 >* [Casos de uso gerais para regras de mesclagem de perfis](merge-rule-targeting-options.md)
->* [Perguntas frequentes sobre Regras de mesclagem de perfis](../../faq/faq-profile-merge.md)
-
+>* [Perguntas frequentes sobre Regras de Mesclagem de Perfis](../../faq/faq-profile-merge.md)

@@ -10,8 +10,8 @@ feature: Onboarding Offline Data
 exl-id: 48eef5f1-0655-4dac-9ab4-74b11c705c13
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 89%
+source-wordcount: '1343'
+ht-degree: 86%
 
 ---
 
@@ -36,7 +36,7 @@ Recomendamos o seguinte:
 
 * Trabalhe com seu provedor de dados para formatar o arquivo de dados de entrada diário de acordo com as especificações da Adobe. Consulte a documentação a seguir para conhecer os requisitos de sintaxe e nome de arquivo:
    * [Requisitos de nome e conteúdo para arquivos de sincronização de ID](../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
-   * [Conteúdo do arquivo de dados de entrada: Sintaxe, caracteres inválidos, variáveis e exemplos](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
+   * [Conteúdo do arquivo de dados de entrada: sintaxe, caracteres inválidos, variáveis e exemplos](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
    * [Requisitos de nome e tamanho de arquivo do Amazon S3 para arquivos de dados de entrada](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 * Trabalhe com o consultor da [!DNL Adobe] para transferir um arquivo de dados de teste para a [!DNL Adobe] para verificação de formato.
 * Trabalhe com o consultor da [!DNL Adobe] para produzir uma taxonomia adequada para interpretar o conteúdo do arquivo de dados.
@@ -58,10 +58,10 @@ Consulte [Compactação de arquivos de transferência de dados de entrada](../in
 
 **É possível carregar um arquivo de dados de entrada ([!DNL .sync] ou arquivo [!DNL .overwrite]) antes de implantar o código [!DNL Audience Manager] na produção?**
 
-Sim. Contanto que você use um [!UICONTROL cross-device data source] para armazenar os dados do CRM que você carrega, o Audience Manager sempre armazena os dados. Com efeito, na sequência [!UICONTROL Profile Merge Rules] melhorias que o Audience Manager lançou em outubro de 2019 e que permitem casos de uso somente offline, você pode fazer upload e executar ações em dados sem implantar o código Audience Manager na produção. Consulte:
+Sim. Desde que você use um [!UICONTROL cross-device data source] para armazenar os dados do CRM que você carrega, o Audience Manager sempre armazena os dados. Na verdade, após os [!UICONTROL Profile Merge Rules] aprimoramentos do Audience Manager iniciados em outubro de 2019 que permitem casos de uso somente offline, você pode fazer upload e executar ações em dados sem implantar o código do Audience Manager na produção. Consulte:
 
 * [Visão geral das melhorias nas Regras de mesclagem de perfis](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* [!UICONTROL People-based Destinations] - [Personalização com base em dados somente offline](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* [!UICONTROL People-based Destinations] - [Personalization com base em dados somente offline](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br> 
 
@@ -154,9 +154,9 @@ Os arquivos FTP são removidos após serem processados. Os arquivos [!DNL S3] s�
 
 * **Total:** um arquivo completo substitui todos os perfis de visitante existentes e os substitui pelos dados do arquivo. Os arquivos completos são identificados pela tag `.overwrite` anexada ao nome do arquivo. Você pode usar um arquivo `.overwrite` para redefinir características do visitante ou remover características obsoletas.
 
-   >[!NOTE]
-   >
-   >Os arquivos [!DNL .overwrite] substituem apenas os dados do perfil do [!DNL Audience Manager] associados a esse provedor de dados. Em outras palavras, todos os dados do [!DNL Audience Manager] associados ao visitante permanecem intactos depois que um arquivo [!DNL .overwrite] é processado.
+  >[!NOTE]
+  >
+  >Os arquivos [!DNL .overwrite] substituem apenas os dados do perfil do [!DNL Audience Manager] associados a esse provedor de dados. Em outras palavras, todos os dados do [!DNL Audience Manager] associados ao visitante permanecem intactos depois que um arquivo [!DNL .overwrite] é processado.
 
 * **Incremental:** um arquivo incremental anexa novos dados aos perfis de visitantes existentes. Os arquivos incrementais são identificados pela tag `.sync` anexada ao nome do arquivo. Enviar um arquivo incremental não apaga nem substitui perfis existentes.
 
@@ -187,7 +187,7 @@ Os carimbos de data e hora são usados para fazer registros e mantê-los. Eles s
 
  
 
-**O que é uma [!DNL Data Provider ID (DPID)] e como faço para obtê-la?**
+**O que é um [!DNL Data Provider ID (DPID)] e como obtê-lo?**
 
 O consultor da Adobe atribuirá uma [DPID (ID do provedor de dados)](../reference/ids-in-aam.md) de três ou quatro dígitos à sua fonte de dados específica. Essa ID é exclusiva e não é alterada.
 
@@ -226,7 +226,7 @@ Como prática recomendada, recomendamos o [!DNL Amazon S3] porque o processo é 
 
 >[!WARNING]
 >
->Estamos removendo gradualmente o suporte para configurações FTP. Embora a assimilação de arquivos de dados de entrada ainda seja suportada em integrações FTP existentes, recomendamos usar [!DNL Amazon S3] para dados offline integrados para novas integrações. Consulte [Requisitos de nome e tamanho de arquivo do Amazon S3 para arquivos de dados de entrada](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) para obter detalhes.
+>Estamos removendo gradualmente o suporte para configurações FTP. Embora a assimilação de arquivos de dados de entrada ainda seja suportada em integrações FTP existentes, recomendamos o uso do [!DNL Amazon S3] para dados offline integrados para novas integrações. Consulte [Requisitos de nome e tamanho de arquivo do Amazon S3 para arquivos de dados de entrada](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) para obter detalhes.
 
  
 
@@ -247,4 +247,3 @@ Depende. O [!DNL Audience Manager] lê até 119.000 entradas da fila do [!DNL Am
 >[!MORELIKETHIS]
 >
 >* [Descrição do processo de transferência de dados em lote](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
-

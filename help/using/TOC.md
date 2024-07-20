@@ -19,7 +19,7 @@ ht-degree: 24%
 + [Guia de evolução para o Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
 + Migrar para o SDK da Web{#migrate-to-web-sdk}
    + [Migração da extensão de tag do Adobe Audience Manager para a extensão de tag do SDK da Web](migrate-to-web-sdk/dil-extension-to-web-sdk.md)
-   + [Migrar da biblioteca JavaScript do AppMeasurement para a biblioteca JavaScript do SDK da Web](migrate-to-web-sdk/appmeasurement-to-web-sdk.md)
+   + [Migração da biblioteca JavaScript do AppMeasurement para a biblioteca JavaScript do SDK da Web](migrate-to-web-sdk/appmeasurement-to-web-sdk.md)
 + Visão geral {#overview}
    + [Visão geral do Audience Manager](overview/aam-overview.md)
    + [Tipos de dados coletados](overview/data-types-collected.md)
@@ -93,8 +93,8 @@ ht-degree: 24%
    + [Controles da exportação de dados](features/data-export-controls.md)
    + Fontes de dados {#data-sources}
       + [Lista e configurações de fontes de dados](features/datasources-list-and-settings.md)
-      + [Criar uma fonte de dados](features/manage-datasources.md)
-      + [Configurar uma fonte de dados para fluxos de trabalho de email com hash](features/create-data-source-hashed-emails.md)
+      + [Criar uma Source de dados](features/manage-datasources.md)
+      + [Configurar uma Source de dados para fluxos de trabalho de email com hash](features/create-data-source-hashed-emails.md)
       + [Fontes de dados globais](features/global-data-sources.md)
    + [IDs declaradas](features/declared-ids.md)
    + [Sinais derivados](features/derived-signals.md)
@@ -108,9 +108,9 @@ ht-degree: 24%
          + [Pré-requisitos e considerações](features/destinations/people-based-destinations-prerequisites.md)
          + Guia de implementação {#implementation-guide}
             + [Visão geral da implementação](features/destinations/people-based-destinations-workflow.md)
-            + [Fluxo de trabalho A - Personalização com base em toda a Atividade online combinada com dados offline](features/destinations/people-based-destinations-workflow-combined.md)
-            + [Fluxo de trabalho B - Personalização com base em dados somente offline](features/destinations/people-based-destinations-workflow-offline.md)
-            + [Fluxo de trabalho C - Personalização com base na Atividade autenticada combinada com dados offline](features/destinations/people-based-destinations-workflow-authenticated.md)
+            + [Fluxo de trabalho A - Personalization com base em toda a atividade online combinada com dados offline](features/destinations/people-based-destinations-workflow-combined.md)
+            + [Fluxo de trabalho B - Personalization com base em dados somente offline](features/destinations/people-based-destinations-workflow-offline.md)
+            + [Fluxo de trabalho C - Personalization com base na Atividade autenticada combinada com dados offline](features/destinations/people-based-destinations-workflow-authenticated.md)
          + [Autenticação com plataformas com base em pessoas](features/destinations/people-based-destinations-authentication.md)
          + [Públicos compartilháveis](/help/using/features/destinations/people-based-destinations-reporting.md)
       + Destinos com base em dispositivo (servidor para servidor) {#device-based}
@@ -118,7 +118,7 @@ ht-degree: 24%
          + [Lista de destinos com base em dispositivo Audience Manager](/help/using/features/destinations/device-based-destinations-list.md)
          + [Adicionar ou editar segmentos para destinos de servidor para servidor](features/destinations/add-edit-segments.md)
          + [Configure os Públicos-alvo personalizados do Twitter como um destino autoatendido com base em dispositivo](features/destinations/twitter-tailored-audiences.md)
-         + [Configure a Amazon Advertising como um Destino baseado em dispositivo de autoatendimento](features/destinations/amazon-advertising.md)
+         + [Configurar o Amazon Advertising como um destino baseado em dispositivo de autoatendimento](features/destinations/amazon-advertising.md)
       + Destinos personalizados {#custom-destinations}
          + [Configurar um destino de URL](features/destinations/create-url-destination.md)
          + [Configurar um destino de cookie](features/destinations/create-cookie-destination.md)
@@ -156,7 +156,7 @@ ht-degree: 24%
       + [Visão geral das características](/help/using/features/traits/traits-overview.md)
       + [Página de detalhes da característica](features/traits/trait-details-page.md)
       + [Painel de características](features/traits/trait-dashboard.md)
-      + [Características do público-alvo ativo e características sincronizadas da fonte de dados](features/traits/client-activity-synced-audience-traits.md)
+      + [Características do público-alvo ativo e características sincronizadas do Source de dados](features/traits/client-activity-synced-audience-traits.md)
       + [Características da pasta: sobre](features/traits/about-folder-traits.md)
       + [Gerenciar características da pasta](features/traits/manage-folder-traits.md)
       + Construtor de perfil {#trait-builder}
@@ -291,7 +291,7 @@ ht-degree: 24%
 + Guias de implementação e integração {#implementation-integration-guides}
    + [Guias de implementação e integração](integration/implementation-and-integration.md)
    + [Métodos de integração de dados](integration/data-integration-methods.md)
-   + Integrar o Google Ad Manager usando as Tags do Google Publisher (GPT){#integrate-dfp-using-gpt}
+   + Integre o Google Ad Manager usando o Google Publisher Tags (GPT){#integrate-dfp-using-gpt}
       + [Integrar o Google Ad Manager usando a Visão geral do GPT](integration/gpt-aam-destination/gpt-aam-overview.md)
       + [Envio de segmentos ao Google Ad Manager usando GPT](integration/gpt-aam-destination/gpt-aam-requirements.md)
       + [Criar um destino GPT](integration/gpt-aam-destination/gpt-aam-create-destination.md)
@@ -335,7 +335,7 @@ ht-degree: 24%
          + [Visão geral do envio de dados em lote para o Audience Manager](integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)
          + [Sincronização de ID para transferências de dados de entrada](integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)
          + [Requisitos de nome e conteúdo para arquivos de sincronização de ID](integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
-         + [Conteúdo do arquivo de dados de entrada: sintaxe, caracteres inválidos, variáveis e exemplos](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
+         + [Conteúdo do arquivo de dados de entrada: sintaxe, caracteres inválidos, variáveis e   Exemplos](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
          + [Requisitos de nome e tamanho de arquivo do Amazon S3 para arquivos de dados de entrada](integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
          + [Requisitos de nome e tamanho de arquivo FTP para arquivos de dados de entrada](integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
          + [Criptografia PGP de arquivo para tipos de dados de entrada](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)
@@ -345,17 +345,17 @@ ht-degree: 24%
       + [Integrações personalizadas de parceiros](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Integração com a Adobe Experience Platform {#integration-experience-platform}
       + [compartilhamento de segmento Experience Platform com Audience Manager e outras soluções Experience Cloud](integration/integration-aep/aam-aep-audience-sharing.md)
-   + Integração com outros aplicativos Experience Cloud {#integration-other-solutions}
+   + Integração com Outros Aplicativos Experience Cloud {#integration-other-solutions}
       + [Integrar o Audience Manager com o Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Como encaminhar dados do Adobe Analytics para o Audience Manager](integration/integration-other-solutions/audience-management-module.md)
-      + [Publicar um segmento do Adobe Analytics no Experience Cloud (abre a documentação do Adobe Analytics)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [Segmento Publish e Adobe Analytics para o Experience Cloud (abre a documentação do Adobe Analytics)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)
       + [Integrar o Audience Manager com o Adobe Campaign (abre a documentação do Adobe Campaign)](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
 + Referência {#reference}
    + [Visão geral da referência](reference/reference.md)
    + [Amazon S3: sobre](reference/amazon-s3.md)
    + [Casos de uso do anunciante](reference/advertiser-use-cases.md)
    + [Casos de uso do editor](reference/publisher-use-cases.md)
-   + [Ambiente Beta](reference/beta-environment.md)
+   + [Ambiente do Beta](reference/beta-environment.md)
    + [Expressões booleanas no Construtor de características e segmentos](reference/boolean-expressions-tsb.md)
    + Ferramentas de gerenciamento em massa {#bulk-management-tools}
       + [Introdução ao gerenciamento em massa](reference/bulk-management-tools/bulk-management-intro.md)
@@ -382,7 +382,7 @@ ht-degree: 24%
       + [Componentes de processamento de dados](reference/system-components/components-data-processing.md)
       + [Componentes do Tag Management](reference/system-components/components-tag-management.md)
       + [Arquitetura da plataforma: mapa de fluxo de dados](reference/system-components/components-platform-architecture.md)
-      + [Compreensão do Edge Data Center](reference/system-components/components-edge.md)
+      + [Noções básicas sobre o data center da Edge](reference/system-components/components-edge.md)
    + [Convenções de estilo para elementos de código e texto](reference/code-style-elements.md)
    + [Fusos horários em Audience Manager](reference/aam-time-zones.md)
    + [Substituição de TLS 1.0 e 1.1](reference/tls-support.md)

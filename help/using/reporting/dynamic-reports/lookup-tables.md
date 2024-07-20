@@ -10,7 +10,7 @@ exl-id: bab51406-21e9-4033-90d4-6100daf6a311
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 18%
+ht-degree: 13%
 
 ---
 
@@ -26,11 +26,11 @@ c_lookup_tables.xml
 
 ## Os metadados do arquivo de log aumentam o tamanho do arquivo e o tempo de processamento
 
-Um arquivo de log típico usado pelo [!UICONTROL Delivery Performance] O relatório do geralmente contém milhares de linhas e dezenas de colunas. Ele consiste em IDs numéricas e informações legíveis por humanos, como nomes de criadores, anunciantes, pedidos de inserção etc.
+Um arquivo de log típico usado pelo relatório [!UICONTROL Delivery Performance] geralmente contém milhares de linhas e dezenas de colunas. Ele consiste em IDs numéricas e informações legíveis por humanos, como nomes de criadores, anunciantes, pedidos de inserção etc.
 
-Essas informações não-ID são chamadas de *`metadata`* (ou seja, informações sobre outras informações) e são gravadas em cada linha do arquivo de log.
+Essas informações não ID são chamadas de *`metadata`* (ou seja, informações sobre outras informações) e são gravadas em cada linha do arquivo de log.
 
-No entanto, a [!UICONTROL Delivery Performance] O relatório do funciona principalmente com as IDs no arquivo de log do. Os metadados são úteis, mas repetitivos. Ele aumenta o tamanho do arquivo e o tempo de assimilação dos dados.
+No entanto, o relatório [!UICONTROL Delivery Performance] funciona principalmente com as IDs no arquivo de log. Os metadados são úteis, mas repetitivos. Ele aumenta o tamanho do arquivo e o tempo de assimilação dos dados.
 
 ## Reduza o tamanho do arquivo e o tempo de processamento com tabelas de índice
 
@@ -40,7 +40,7 @@ Para ajudar a melhorar o desempenho, o arquivo de dados principal deve conter ap
 
 Digamos que você tenha um arquivo de dados semelhante ao abaixo.
 
-| ID de usuário | ID do anúncio | Nome do anúncio | ID do pedido | Nome da Ordem | ID do anunciante | Nome do anunciante |
+| ID de usuário | ID do anúncio | Nome do anúncio | ID do pedido | Nome do pedido | ID de anunciante | Nome do anunciante |
 |---|---|---|---|---|---|---|
 | 1 | 111 | Sapato A | 456 | Tênis | 27 | Empresa A |
 | 2 | 111 | Sapato A | 456 | Tênis | 27 | Empresa A |
@@ -52,7 +52,7 @@ Digamos que você tenha um arquivo de dados semelhante ao abaixo.
 
 Aqui está o mesmo arquivo de log com os metadados removidos. O arquivo é menor e mais fácil de processar quando consiste apenas em IDs.
 
-| ID de usuário | ID do anúncio | ID do pedido | ID do anunciante |
+| ID de usuário | ID do anúncio | ID do pedido | ID de anunciante |
 |---|---|---|---|
 | 1 | 111 | 456 | 27 |
 | 2 | 111 | 456 | 27 |
@@ -64,7 +64,7 @@ Aqui está o mesmo arquivo de log com os metadados removidos. O arquivo é menor
 
 O arquivo de pesquisa abaixo contém os metadados e pode ser vinculado ao arquivo principal com a ID do anúncio. Observe o tamanho também. Em vez de repetir cada anunciante várias vezes, você precisa apenas de uma referência para cada um.
 
-| ID do anúncio | Nome do anúncio | Nome da Ordem | Nome do anunciante |
+| ID do anúncio | Nome do anúncio | Nome do pedido | Nome do anunciante |
 |---|---|---|---|
 | 111 | Sapato A | Tênis | Empresa A |
 | 222 | Sapato B | Caminhada | Empresa B |

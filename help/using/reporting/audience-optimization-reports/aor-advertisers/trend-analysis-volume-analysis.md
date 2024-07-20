@@ -10,30 +10,30 @@ exl-id: f8e6c7a4-c4f8-465f-a32c-681a07e6e6f5
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '169'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
-# [!UICONTROL Trend Analysis] e [!UICONTROL Volume Analysis] Relatórios{#trend-analysis-and-volume-analysis-reports}
+# Relatórios de [!UICONTROL Trend Analysis] e [!UICONTROL Volume Analysis]{#trend-analysis-and-volume-analysis-reports}
 
 Esses relatórios retornam dados sobre impressões, taxas de click-through e conversões para uma ampla variedade de dimensões de publicidade. Compare as tendências e o volume das métricas selecionadas para obter uma imagem melhor do desempenho da campanha ao longo do tempo.
 
-## Amostra [!UICONTROL Trend Analysis] Relatório {#sample-trend-analysis}
+## Exemplo de relatório [!UICONTROL Trend Analysis] {#sample-trend-analysis}
 
-A variável [!UICONTROL Trend Analysis] O relatório retorna dados em um gráfico de linhas somente para um intervalo de 14 dias. Neste exemplo, o relatório mostra tendências de impressão, click-through e conversão para um conjunto de segmentos mapeados.
+O relatório [!UICONTROL Trend Analysis] retorna dados em um gráfico de linhas somente para um intervalo de 14 dias. Neste exemplo, o relatório mostra tendências de impressão, click-through e conversão para um conjunto de segmentos mapeados.
 
 ![](assets/trend-analysis.png)
 
-## Amostra [!UICONTROL Volume Analysis] Relatório {#sample-volume-analysis}
+## Exemplo de relatório [!UICONTROL Volume Analysis] {#sample-volume-analysis}
 
-A variável [!UICONTROL Volume Analysis] O relatório retorna dados em um gráfico de barras para o intervalo de datas selecionado. Neste exemplo, o relatório mostra impressões, click-throughs e conversões por volume para um conjunto de segmentos mapeados.
+O relatório [!UICONTROL Volume Analysis] retorna dados em um gráfico de barras para o intervalo de datas selecionado. Neste exemplo, o relatório mostra impressões, click-throughs e conversões por volume para um conjunto de segmentos mapeados.
 
 >[!NOTE]
 >
->Os períodos retroativos de 7 dias e 30 dias só estão disponíveis para domingo **[!UICONTROL Date Through]** datas.
+>Os períodos retroativos de 7 dias e 30 dias só estão disponíveis para datas de domingo **[!UICONTROL Date Through]**.
 
 ![](assets/volume-analysis.png)
 
 >[!TIP]
 >
->Para obter informações sobre segmentos mapeados e não mapeados, consulte [Relatório de desempenho do segmento](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) documentação.
+>Para obter informações sobre segmentos mapeados e não mapeados, consulte a documentação do [Relatório de desempenho do segmento](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md).

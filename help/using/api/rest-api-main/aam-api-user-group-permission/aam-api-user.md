@@ -10,19 +10,19 @@ exl-id: c015c42c-63c7-4392-9fef-f48dc787a56f
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 6%
+ht-degree: 1%
 
 ---
 
 # Métodos da API de gerenciamento de usuários {#user-management-api-methods}
 
-Rest [!DNL API] métodos para gerenciar usuários, incluindo criação, atualização, listagem, exclusão e retorno de objetos de usuário.
+Restaure [!DNL API] métodos para gerenciar usuários, incluindo criação, atualização, listagem, exclusão e retorno de objetos de usuário.
 
 <!-- c_rest_api_user_man_user.xml -->
 
 ## Criar um usuário {#create-user}
 
-A `POST` para criar um novo usuário.
+Um método `POST` para criar um novo usuário.
 
 <!-- r_rest_api_user_create.xml -->
 
@@ -65,13 +65,13 @@ A `POST` para criar um novo usuário.
 }
 ```
 
-Se `isAdmin` for definido como true, o usuário será criado como um administrador parceiro. Essa propriedade também permite saber se um usuário é um administrador de parceiros.
+Se `isAdmin` estiver definido como verdadeiro, o usuário será criado como administrador parceiro. Essa propriedade também permite saber se um usuário é um administrador de parceiros.
 
-Devoluções `409 Conflict` se o nome de usuário já estiver sendo usado.
+Retorna `409 Conflict` se o nome de usuário já estiver em uso.
 
 ## Atualizar um usuário {#update-user}
 
-A `PUT` para atualizar um usuário.
+Um método `PUT` para atualizar um usuário.
 
 <!-- r_rest_api_user_update.xml -->
 
@@ -110,17 +110,17 @@ A `PUT` para atualizar um usuário.
 }
 ```
 
-Devoluções `409 Conflict` se o nome de usuário já estiver sendo usado.
+Retorna `409 Conflict` se o nome de usuário já estiver em uso.
 
 ## Atualizar Usuário Conectado {#update-logged-in-user}
 
-A `PUT` para atualizar o usuário conectado no momento.
+Um método `PUT` para atualizar o usuário conectado no momento.
 
 <!-- r_rest_api_user_update_self.xml -->
 
 >[!NOTE]
 >
->Considerando que a maioria [!DNL API] Os métodos só podem ser chamados por administradores parceiros. Esse método pode ser chamado por usuários não administradores.
+>Embora a maioria dos métodos [!DNL API] possa ser chamada apenas por administradores parceiros, esse método pode ser chamado por usuários não administradores.
 
 ### Solicitação
 
@@ -153,17 +153,17 @@ A `PUT` para atualizar o usuário conectado no momento.
 }
 ```
 
-Devoluções `409 Conflict` se o nome de usuário já estiver sendo usado.
+Retorna `409 Conflict` se o nome de usuário já estiver em uso.
 
 ## Atualizar Senha do Usuário Conectado {#update-logged-in-user-pw}
 
-A `PUT` para atualizar o usuário conectado no momento.
+Um método `PUT` para atualizar o usuário conectado no momento.
 
 <!-- r_rest_api_user_password.xml -->
 
 >[!NOTE]
 >
->Considerando que a maioria [!DNL API] Os métodos só podem ser chamados por administradores parceiros. Esse método pode ser chamado por usuários não administradores.
+>Embora a maioria dos métodos [!DNL API] possa ser chamada apenas por administradores parceiros, esse método pode ser chamado por usuários não administradores.
 
 ### Solicitação
 
@@ -175,27 +175,27 @@ A `PUT` para atualizar o usuário conectado no momento.
 { "oldPassword" : "old password", "newPassword" : "new password" }
 ```
 
-Devoluções `200 OK` se for bem-sucedido. Devoluções `400 Bad Request` se algo estiver errado com uma senha.
+Retorna `200 OK` em caso de sucesso. Retorna `400 Bad Request` se algo estiver errado com uma das senhas.
 
 ## Redefinir Senha do Usuário Conectado {#reset-logged-in-user-pw}
 
-A `PUT` para redefinir o usuário conectado no momento. [!UICONTROL Audience Management] envia ao usuário uma senha gerada pelo sistema.
+Um método `PUT` para redefinir o usuário conectado no momento. [!UICONTROL Audience Management] envia ao usuário uma senha gerada pelo sistema.
 
 <!-- r_rest_api_user_password_reset.xml -->
 
 >[!NOTE]
 >
->Considerando que a maioria [!DNL API] Os métodos só podem ser chamados por administradores parceiros. Esse método pode ser chamado por usuários não administradores.
+>Embora a maioria dos métodos [!DNL API] possa ser chamada apenas por administradores parceiros, esse método pode ser chamado por usuários não administradores.
 
 ### Solicitação
 
 `POST /self/reset-password`
 
-Devoluções `200 OK` se for bem-sucedido.
+Retorna `200 OK` em caso de sucesso.
 
 ## Retornar objeto de usuário para uma ID de usuário {#return-user-object-for-id}
 
-A `Get` método para retornar o objeto do usuário para uma ID de usuário.
+Um método `Get` para retornar o objeto de usuário para uma ID de Usuário.
 
 <!-- r_rest_api_user_get_user_obj.xml -->
 
@@ -223,13 +223,13 @@ A `Get` método para retornar o objeto do usuário para uma ID de usuário.
 
 ## Retornar objeto de usuário para usuário conectado {#return-user-object-for-logged-in-user}
 
-A `Get` método para retornar o objeto do usuário conectado no momento.
+Um método `Get` para retornar o objeto do usuário conectado no momento.
 
 <!-- r_rest_api_user_get_self.xml -->
 
 >[!NOTE]
 >
->Considerando que a maioria [!DNL API] Os métodos só podem ser chamados por administradores parceiros. Esse método pode ser chamado por usuários não administradores.
+>Embora a maioria dos métodos [!DNL API] possa ser chamada apenas por administradores parceiros, esse método pode ser chamado por usuários não administradores.
 
 ### Solicitação
 
@@ -255,7 +255,7 @@ A `Get` método para retornar o objeto do usuário conectado no momento.
 
 ## Listar Usuários {#list-users}
 
-A `GET` para listar usuários.
+Um método `GET` para listar usuários.
 
 <!-- r_rest_api_user_list.xml -->
 
@@ -289,7 +289,7 @@ Esta consulta retorna uma lista de todos os usuários nos grupos especificados.
 
 ## Excluir um usuário {#delete-users}
 
-A `DELETE` para excluir um usuário.
+Método `DELETE` para excluir usuário.
 
 <!-- r_rest_api_user_delete.xml -->
 
@@ -297,11 +297,11 @@ A `DELETE` para excluir um usuário.
 
 `DELETE /api/v1/users/`*`<user_id>`*
 
-Devoluções `204 No Content` se for bem-sucedido. Em caso de retornos de conflito `409 Conflict`.
+Retorna `204 No Content` em caso de sucesso. Em caso de conflito retorna `409 Conflict`.
 
 ## Excluir usuários em massa {#delete-users-bulk}
 
-A `POST` para excluir vários usuários em massa.
+Um método `POST` para excluir vários usuários em massa.
 
 <!-- r_rest_api_user_delete_bulk.xml -->
 

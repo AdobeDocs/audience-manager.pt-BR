@@ -9,8 +9,8 @@ feature: Log Files
 exl-id: 7a895c4f-1100-4ba1-947e-abb47307fb40
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 8%
+source-wordcount: '205'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ Nomeie seu arquivo de metadados de Audience Optimization de acordo com essas esp
 
 ## Sintaxe e categorias de ID {#syntax}
 
-A sintaxe a seguir define a estrutura de um nome de arquivo de metadados bem formado. Observação: *itálico* indica um espaço reservado para variável. Os outros elementos são constantes e não são alterados.
+A sintaxe a seguir define a estrutura de um nome de arquivo de metadados bem formado. Observe que *itálico* indica um espaço reservado para variável. Os outros elementos são constantes e não são alterados.
 
 **Sintaxe:** *`yyyymmdd_0_childID`*
 
@@ -30,7 +30,7 @@ A sintaxe a seguir define a estrutura de um nome de arquivo de metadados bem for
 
 <!--In the name syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file contents](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md). These 2 variables seem similar, but they represent different things:-->
 
-* O componente do meio **0** tecnicamente é a ID principal, que é um campo herdado. O valor deve ser sempre definido como **0**.
+* Tecnicamente, o componente intermediário **0** é a ID pai, que é um campo herdado. O valor deve ser sempre definido como **0**.
 * A ID secundária pode ter um valor entre 1 e 10, dependendo da dimensão. Consulte abaixo:
 
 ## Dimensões da ID secundária {#child-dimension}
@@ -42,7 +42,7 @@ No nome do arquivo de metadados, a ID secundária é um identificador que classi
 1. Posicionamento
 1. Exchange
 1. Site
-1. Anunciante (se estiver usando códigos de integração em um [fonte de dados](../../../features/manage-datasources.md#details))
+1. Anunciante (se estiver usando códigos de integração em uma [fonte de dados](../../../features/manage-datasources.md#details))
 1. Ordem de inserção (IO)
 1. Vertical (ou seja, uma indústria específica ou categoria de negócios como &quot;computadores&quot;, &quot;automóveis&quot;, &quot;imóveis&quot; etc.)
 1. Tático

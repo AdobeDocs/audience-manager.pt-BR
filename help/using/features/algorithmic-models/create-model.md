@@ -10,8 +10,8 @@ feature: Algorithmic Models
 exl-id: 8b7c4f57-f2c8-46f1-8924-5513fd6ede04
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 1%
+source-wordcount: '633'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ Descreve as etapas obrigatórias e opcionais que permitem criar um [!UICONTROL L
 
 ## Seção Construtor de modelos
 
-[!UICONTROL Model Builder] consiste na [!UICONTROL Basic Information] e [!UICONTROL Configuration] seções. Para criar um modelo, preencha os campos obrigatórios nessas duas seções. Salve seu modelo para iniciar o algoritmo. [!DNL Audience Manager] O envia uma notificação automática após a conclusão da primeira execução de dados. Após receber o email, você pode ir para [Construtor de características](../../features/traits/about-trait-builder.md) e criar características algorítmicas.
+[!UICONTROL Model Builder] consiste nas seções [!UICONTROL Basic Information] e [!UICONTROL Configuration]. Para criar um modelo, preencha os campos obrigatórios nessas duas seções. Salve seu modelo para iniciar o algoritmo. [!DNL Audience Manager] envia a você uma notificação automática após a conclusão da primeira execução de dados. Após receber o email, você pode acessar o [Construtor de características](../../features/traits/about-trait-builder.md) e criar características algorítmicas.
 
 >[!NOTE]
 >
@@ -30,26 +30,25 @@ Descreve as etapas obrigatórias e opcionais que permitem criar um [!UICONTROL L
 >* *Não* crie modelos com outras características ou segmentos algorítmicos.
 >* A notificação por email automatizada é enviada apenas uma vez (após a primeira execução de dados).
 
-
 ## Criar o modelo
 
-Siga as etapas abaixo para criar uma [!UICONTROL Look-Alike Model]:
+Siga as etapas abaixo para criar um [!UICONTROL Look-Alike Model]:
 
-1. Ir para **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** e clique em **[!UICONTROL Add New]** no [!UICONTROL Look-Alike Modeling] seção.
-   ![look-like-add](assets/look-alike-add.png)
-1. No [Informações básicas](../../features/algorithmic-models/create-model.md#basic-information) seção
+1. Vá para **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** e clique em **[!UICONTROL Add New]** na seção [!UICONTROL Look-Alike Modeling].
+   ![adicionar-semelhante](assets/look-alike-add.png)
+1. Na seção [Informações Básicas](../../features/algorithmic-models/create-model.md#basic-information)
    * Nomeie o modelo.
    * *(Opcional)* Forneça uma breve descrição sobre o modelo.
-   * Definir o status do modelo como **[!UICONTROL Active]** ou **[!UICONTROL Inactive]**. Modelos inativos não serão executados e não produzirão dados.
-      ![básico semelhante](assets/look-alike-basic.png)
-1. No [Configuração](../../features/algorithmic-models/create-model.md#configuration) seção:
-   * Clique em **[!UICONTROL Browse All Traits]** ou **[!UICONTROL Browse All Segments]** para selecionar uma característica ou segmento que deseja modelar. Procure características por nome, ID, descrição ou fonte de dados. Clique em uma pasta enquanto pesquisa para limitar os resultados a essa pasta e suas subpastas. Também é possível filtrar características por tipo de característica ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded], e [!UICONTROL Algorithmic]) ou tipo de população ([ID do dispositivo](../../reference/ids-in-aam.md) e [ID entre dispositivos](../../reference/ids-in-aam.md)).
-      ![características de navegação](assets/browse-traits.png)
+   * Defina o status do modelo para **[!UICONTROL Active]** ou **[!UICONTROL Inactive]**. Modelos inativos não serão executados e não produzirão dados.
+     ![sósia-básica](assets/look-alike-basic.png)
+1. Na seção [Configuração](../../features/algorithmic-models/create-model.md#configuration):
+   * Clique em **[!UICONTROL Browse All Traits]** ou **[!UICONTROL Browse All Segments]** para selecionar uma característica ou segmento em relação ao qual deseja modelar. Procure características por nome, ID, descrição ou fonte de dados. Clique em uma pasta enquanto pesquisa para limitar os resultados a essa pasta e suas subpastas. Você também pode filtrar características por tipo de característica ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded] e [!UICONTROL Algorithmic]) ou tipo de população ([ID de Dispositivo](../../reference/ids-in-aam.md) e [ID entre Dispositivos](../../reference/ids-in-aam.md)).
+     ![características de navegação](assets/browse-traits.png)
    * Escolha um período retroativo de 30, 60 ou 90 dias. Isso define um intervalo de tempo para o modelo.
-   * A variável [!UICONTROL TraitWeight] algoritmo é selecionado por padrão.
-   * Selecione uma fonte de dados na [!UICONTROL Available Data] lista.
+   * O algoritmo [!UICONTROL TraitWeight] é selecionado por padrão.
+   * Selecione uma fonte de dados na lista [!UICONTROL Available Data].
    * Clique em **[!UICONTROL Save]** quando terminar.
-      ![configuração semelhante](assets/look-alike-configuration.png)
+     ![configuração semelhante](assets/look-alike-configuration.png)
 
 Assista ao vídeo abaixo para obter uma visão detalhada de como as métricas entre dispositivos funcionam.
 
@@ -59,7 +58,7 @@ Assista ao vídeo abaixo para obter uma visão detalhada de como as métricas en
 
 <!-- r_model_basic.xml -->
 
-Entrada [!UICONTROL Model Builder], o [!UICONTROL Basic Information] As configurações do permitem criar modelos novos ou editar modelos existentes. Para criar um novo modelo, forneça um nome e siga para a [!UICONTROL Configuration] configurações. O campo de descrição é opcional.
+No [!UICONTROL Model Builder], as configurações de [!UICONTROL Basic Information] permitem criar modelos novos ou editar modelos existentes. Para criar um novo modelo, forneça um nome e siga para as configurações de [!UICONTROL Configuration]. O campo de descrição é opcional.
 
 | Campo | Descrição |
 |---|---|
@@ -69,13 +68,13 @@ Entrada [!UICONTROL Model Builder], o [!UICONTROL Basic Information] As configur
 
 ## Configuração {#configuration}
 
-Entrada [!UICONTROL Model Builder], o [!UICONTROL Configuration] permite adicionar características ou segmentos ao modelo. Nesta seção, selecione uma característica ou segmento de linha de base, um período retroativo e dados de suas fontes de dados originais e de terceiros.
+Em [!UICONTROL Model Builder], a seção [!UICONTROL Configuration] permite adicionar características ou segmentos ao modelo. Nesta seção, selecione uma característica ou segmento de linha de base, um período retroativo e dados de suas fontes de dados originais e de terceiros.
 
 <!-- r_model_configuration.xml -->
 
 ### Pré-requisitos
 
-Preencha os campos obrigatórios na [!UICONTROL Basic Information] primeiro.
+Preencha primeiro os campos obrigatórios na seção [!UICONTROL Basic Information].
 
 ![](assets/lam_exclude_traits_numbered.png)
 
@@ -88,24 +87,24 @@ Preencha os campos obrigatórios na [!UICONTROL Basic Information] primeiro.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b>Selecione uma característica ou um segmento da linha de base (1)</b> </p> </td> 
-   <td colname="col2"> <p>Clique no botão de característica ou segmento para ver uma lista de todas as características ou segmentos. O segmento ou característica selecionado se torna a linha de base que os algoritmos do sistema usam para modelagem. </p> <p> <p><b>Nota</b>: selecione uma característica integrada, uma característica com base em regras ou um segmento como linha de base. Caso contrário, seus modelos não serão executados. </p> </p> </td> 
+   <td colname="col1"> <p><b>Selecione uma Característica ou um Segmento de Linha de Base (1)</b> </p> </td> 
+   <td colname="col2"> <p>Clique no botão de característica ou segmento para ver uma lista de todas as características ou segmentos. O segmento ou característica selecionado se torna a linha de base que os algoritmos do sistema usam para modelagem. </p> <p> <p><b>Observação</b>: selecione uma característica integrada, uma característica com base em regras ou um segmento como linha de base. Caso contrário, seus modelos não serão executados. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Selecionar período de retrospectiva (2)</b> </p> </td> 
+   <td colname="col1"> <p><b>Selecionar Período de Retrospectiva (2)</b> </p> </td> 
    <td colname="col2"> <p>Define um intervalo de tempo para o modelo. Com base em sua seleção, o algoritmo inclui e avalia dados dos últimos 30, 60 ou 90 dias. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Selecionar algoritmo (3)</b> </p> </td> 
-   <td colname="col2"> <p>No momento, o Construtor de modelos trabalha com nossos <span class="keyword"> Peso da característica</span> somente algoritmo. <span class="keyword"> Audience Manager</span> O pode adicionar outras funções algorítmicas em versões subsequentes. </p> </td>
+   <td colname="col2"> <p>No momento, o Construtor de Modelos funciona somente com nosso algoritmo <span class="keyword"> de Peso da Característica</span> proprietário. <span class="keyword"> Audience Manager</span> pode adicionar outras funções algorítmicas em versões subsequentes. </p> </td>
   </tr>
   <tr> 
-   <td colname="col1"> <p><b>Selecionar modelo de dados da fonte de dados (4)</b> </p> </td> 
+   <td colname="col1"> <p><b>Selecionar Dados de Modelo do Data Source (4)</b> </p> </td> 
    <td colname="col2"> <p>Permite selecionar a fonte de dados própria e de terceiros que você deseja usar no modelo. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Exclusões (5)</b> </p> </td> 
-   <td colname="col2"> <p>É possível excluir características das fontes de dados selecionadas para modelagem. Use o <span class="wintitle"> Exclusões</span> listar e ler <a href="../../features/algorithmic-models/trait-exclusion-algo-models.md"> Modelos algorítmicos: exclusão de característica</a> para saber mais. </p> </td>
+   <td colname="col2"> <p>É possível excluir características das fontes de dados selecionadas para modelagem. Use a lista <span class="wintitle"> Exclusões</span> e leia <a href="../../features/algorithmic-models/trait-exclusion-algo-models.md"> Modelos Algorítmicos: Exclusão de Característica</a> para saber mais. </p> </td>
   </tr> 
  </tbody>
 </table>
@@ -117,4 +116,3 @@ Assista ao vídeo abaixo para saber como criar um modelo semelhante próprio, pa
 >[!MORELIKETHIS]
 >
 >* [Noções básicas sobre TraitWeight](../../features/algorithmic-models/understanding-models.md#understanding-traitweight)
-

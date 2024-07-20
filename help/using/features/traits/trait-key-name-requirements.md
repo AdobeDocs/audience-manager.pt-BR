@@ -9,8 +9,8 @@ feature: Traits
 exl-id: 5d1e5842-bebc-4d75-958f-078ba0061dfa
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 9%
+source-wordcount: '105'
+ht-degree: 0%
 
 ---
 
@@ -22,12 +22,12 @@ Este artigo descreve as convenções de nomenclatura usadas pela variável princ
 
 <!-- c_tb_key_name_requirements.xml -->
 
-Entrada [!UICONTROL Expression Builder], o nome de uma variável principal em um par de valores chave pode consistir em qualquer número de dígitos seguido por 1 (ou mais) letras, um traço, um sublinhado e dígitos adicionais.
+Em [!UICONTROL Expression Builder], o nome de uma variável de chave em um par de valor-chave pode consistir em qualquer número de dígitos seguido por 1 (ou mais) letras, um traço, um sublinhado e dígitos adicionais.
 
 * Nomes de chave válidos: `price123`, `123price`, `price-123`, `c_price123`.
 
 * Nomes de chave inválidos: `123`, `price!123`.
 
-## Prefixar variáveis-chave com `c_`
+## Prefixando variáveis-chave com `c_`
 
-A variável `c_` o prefixo é *sempre* necessário se os parâmetros que enviam dados em um URL de chamada de evento usarem essa sintaxe.
+O prefixo `c_` é *always* necessário se os parâmetros que enviam dados em uma URL de chamada de evento usarem essa sintaxe.

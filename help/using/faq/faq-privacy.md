@@ -9,8 +9,8 @@ feature: Data Governance & Privacy
 exl-id: bccf49d7-1a3b-4286-86fb-59e472af4501
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 83%
+source-wordcount: '754'
+ht-degree: 82%
 
 ---
 
@@ -55,11 +55,11 @@ A tabela a seguir lista os tempos de retenção para diferentes tipos de dados e
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Servidores de back-end </p> </td> 
-   <td colname="col2"> <p>120 dias </p> <p> O Audience Manager exclui os dados do usuário de nossos servidores de back-end 120 dias após a última visualização de um usuário na plataforma do Audience Manager. Se <span class="keyword"> Audience Manager</span> registra a atividade do usuário dentro desse ciclo de 120 dias. Manteremos esses dados por mais 120 dias. </p> </td> 
+   <td colname="col2"> <p>120 dias </p> <p> O Audience Manager exclui os dados do usuário de nossos servidores de back-end 120 dias após a última visualização de um usuário na plataforma do Audience Manager. Se o Audience Manager <span class="keyword"> </span> registrar a atividade do usuário dentro desse ciclo de 120 dias, nós manteremos esses dados por mais 120 dias. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Servidores de borda </p> </td> 
-   <td colname="col2"> <p> 14 dias </p> <p>O Audience Manager exclui os dados do usuário de nossos servidores de borda 14 dias após a última visualização de um usuário na plataforma do Audience Manager. Se <span class="keyword"> Audience Manager</span> O registra a atividade do usuário nesse ciclo de 14 dias. Manteremos esses dados por mais 14 dias. Se o usuário se tornar ativo novamente após o ciclo de 14 dias, haverá um atraso entre essa primeira visualização de página nova e quando o usuário se tornar acionável. Leva de 6 a 18 horas para que o perfil completo volte ao centro da borda após mais de 14 dias de inatividade. </p> </td> 
+   <td colname="col2"> <p> 14 dias </p> <p>O Audience Manager exclui os dados do usuário de nossos servidores de borda 14 dias após a última visualização de um usuário na plataforma do Audience Manager. Se o Audience Manager <span class="keyword"> </span> registrar a atividade do usuário nesse ciclo de 14 dias, nós manteremos esses dados por mais 14 dias. Se o usuário se tornar ativo novamente após o ciclo de 14 dias, haverá um atraso entre essa primeira visualização de página nova e quando o usuário se tornar acionável. Leva de 6 a 18 horas para que o perfil completo volte ao centro da borda após mais de 14 dias de inatividade. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Registros brutos </p> </td> 

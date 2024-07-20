@@ -9,14 +9,14 @@ feature: Inbound Data Transfers
 exl-id: acfc788f-63e6-445f-a086-0a2cc6c8865b
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 2%
+source-wordcount: '636'
+ht-degree: 0%
 
 ---
 
 # Mensagem de amostra para parceiros após o processamento de entrada{#sample-message-to-partners-after-inbound-processing}
 
-Sempre que uma entrada [!UICONTROL Server-to-Server] for processado, um recibo será enviado por email para soluções de parceiros e, se configurado, para o parceiro.
+Sempre que um arquivo de entrada [!UICONTROL Server-to-Server] é processado, um recibo é enviado por email para soluções de parceiros e, se configurado, para o parceiro.
 
 <!-- r_inbound_message.xml -->
 
@@ -25,7 +25,7 @@ O exemplo a seguir é um exemplo de mensagem de email. A tabela abaixo da mensag
 <table id="table_F579C2278A044213BFCEF97F3BEC2C0C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>De: aam-noreply@adobe.com </b> </p> <p> <b>Assunto: Resultado Do Processamento De Servidor Para Servidor Do Adobe Audience Manager:</b> </p> <p> <b>Prezado parceiro de Adobe: (ID:7)</b> <b></b> </p> <p> <b>Recebemos sua entrega de arquivos do Adobe Audience Manager Server para servidor</b> </p> <p> <b>Nome do arquivo:</b> <i></i> </p> <p> <b> s3n://&lt;<i>nome_do_bucket&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806402.sync</b> </p> <p> <b> s3n://&lt;<i>nome_do_bucket&gt;</i>/2018-05-16/ftp_dpm_7_901_1368655202.sync </b> </p> <p> <b>s3n://&lt;<i>nome_do_bucket&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784804.sync </b> </p> <p> <b>s3n://&lt;<i>nome_do_bucket&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806403.sync </b> </p> <p> <b>s3n://&lt;<i>nome_do_bucket&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784802.sync </b> </p> <p> <b>s3n://&lt;<i>nome_do_bucket&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784803.sync </b> </p> <p> <b>s3n://&lt;<i>nome_do_bucket&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806404.sync</b> </p> <p> <b>Registros recebidos: 40669900</b> </p> <p><b>Erros de Formato: 0</b> </p> <p> <b>ID de AAM inválida: 112 </b> </p> <p> <b>Nenhuma ID de AAM correspondente: 0 </b> </p> <p> <b>Nenhuma característica realizada: 26730823 </b> </p> <p> <b>Registros processados: 40669900 </b> </p> <p> <b>Registros armazenados: 13938958 </b> </p> <p> <b>Total de dispositivos: 21 </b> </p> <p> <b>Total de sinais: 918878926 </b> </p> <p> <b>Total de sinais não utilizados: 660348376 </b> </p> <p> <b>Total de características realizadas: 258086908 </b> </p> <p> <b>Total de características removidas: 0 </b> </p> <p> <b>Total de características que falharam na validação: 0 </b> </p> <p> <b>Total de usuários com características com falha na validação: 0 </b> </p> <p> <b>Hora de início do trabalho: 2018-05-17 18:07:49 </b> </p> <p> <b>Hora de término do trabalho: 05/2018 17 18:45:02</b> </p> </td> 
+   <td colname="col1"> <p> <b>De: aam-noreply@adobe.com </b> </p> <p> <b>Assunto: Resultado Do Processamento De Servidor Para Servidor Do Adobe Audience Manager:</b> </p> <p> <b>Prezado Parceiro de Adobe: (ID:7)</b> <b></b> </p> <p> <b>Recebemos sua entrega de arquivos de Servidor para Servidor do Adobe Audience Manager</b> </p> <p> <b>Nome do arquivo:</b> <i></i> </p> <p> <b> s3n://&lt;<i>nome_do_bucket&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806402.sync</b> </p> <p> <b> s3n://&lt;<i>nome_do_bucket&gt;</i>/2018-05-16/ftp_dpm_7_901_1368655202.sync </b> </p> <p> <b>s3n://&lt;<i>nome_do_bucket&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784804.sync </b> </p> <p> <b>s3n://&lt;<i>nome_do_bucket&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806403.sync </b> </p> <p> <b>s3n://&lt;<i>nome_do_bucket&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784802.sync </b> </p> <p> <b>s3n://&lt;<i>nome_do_bucket&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784803.sync </b> </p> <p> <b>s3n://&lt;<i>nome_do_bucket&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806404.sync</b> </p> <p> <b>Registros recebidos: 40669900</b> </p> <p><b>Erros de Formato: 0</b> </p> <p> <b>ID inválida do AAM: 112 </b> </p> <p> <b>Nenhuma identificação de AAM correspondente: 0 </b> </p> <p> <b>Nenhuma Característica Realizada: 26730823 </b> </p> <p> <b>Registros processados: 40669900 </b> </p> <p> <b>Registros Armazenados: 13938958 </b> </p> <p> <b>Total de dispositivos: 21 </b> </p> <p> <b>Total de sinais: 918878926 </b> </p> <p> <b>Total de sinais não utilizados: 660348376 </b> </p> <p> <b>Total de características realizadas: 258086908 </b> </p> <p> <b>Total de características removidas: 0 </b> </p> <p> <b>Total de características com falha na validação: 0 </b> </p> <p> <b>Total de usuários com características que falharam na validação: 0 </b> </p> <p> <b>Hora de início do trabalho: 17/05/2018 18:07:49 </b> </p> <p> <b>Hora de término do trabalho: 17/05/2018 18:45:02</b> </p> </td> 
   </tr> 
  </tbody> 
 </table>

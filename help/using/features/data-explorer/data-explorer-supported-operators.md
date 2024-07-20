@@ -9,7 +9,7 @@ exl-id: 5e405390-1c19-4e43-b3f9-598e8aa6bd99
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 8%
+ht-degree: 4%
 
 ---
 
@@ -33,7 +33,7 @@ Use os seguintes operadores lógicos compatíveis para procurar pares de valores
 
 ### Operadores Nomeados
 
-| Operador | Avalia para [!DNL True] Quando |
+| Operador | Avalia para [!DNL True] quando |
 |---|---|
 | **[!UICONTROL Contains]** | O valor em um par de valor-chave *contém* caracteres especificados por este operador. |
 | **[!UICONTROL Startswith]** | O valor em um par de valor-chave *começa com* caracteres especificados por este operador. |
@@ -41,4 +41,4 @@ Use os seguintes operadores lógicos compatíveis para procurar pares de valores
 
 ## Operadores compatíveis com preenchimento retroativo de características e estimativa {#supported-operators-backfilling}
 
-É possível preencher retroativamente características que incluem expressões contendo qualquer um dos operadores compatíveis com o [!UICONTROL Signal Search]. Além desses operadores, o preenchimento retroativo de características e a estimativa também suportam a [!UICONTROL AND], [!UICONTROL OR], e [!UICONTROL AND NOT] operadores lógicos, usados para combinar pares de valores chave nas expressões de características preenchidas retroativamente.
+Você pode usar o preenchimento retroativo de características que incluem expressões contendo qualquer um dos operadores com suporte no [!UICONTROL Signal Search]. Além desses operadores, o preenchimento retroativo de características e a estimativa também oferecem suporte aos operadores lógicos [!UICONTROL AND], [!UICONTROL OR] e [!UICONTROL AND NOT], usados para combinar pares de valores chave nas expressões de características com preenchimento retroativo.

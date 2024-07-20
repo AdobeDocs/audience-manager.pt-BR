@@ -8,8 +8,8 @@ feature: People-based Destinations
 exl-id: 56506bf0-45f1-49df-81ac-10f57a2487eb
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1159'
-ht-degree: 94%
+source-wordcount: '1161'
+ht-degree: 93%
 
 ---
 
@@ -78,9 +78,9 @@ Desde que o endereço de email tenha hash e seja assimilado corretamente, não d
 
 O Audience Manager pode coletar e enviar até 10 emails por usuário para plataformas de destino, mas os endereços de email precisam ser capturados por meio de arquivos de sincronização. Depois que o Audience Manager envia os endereços de email para as plataformas de destino, cabe às plataformas corresponder os endereços de email à sua base de usuários. Algumas plataformas podem ter gráficos adicionais de endereço de email para corresponder a endereços enviados do Audience Manager para perfis do usuário.
 
-**Posso usar [!DNL People-Based Destinations] in [!DNL Audience Lab]?**
+**Posso usar [!DNL People-Based Destinations] em [!DNL Audience Lab]?**
 
-Não. Atualmente, todas as [!DNL People-Based Destinations] os destinos são excluídos de [!DNL Audience Lab]. Tendo em conta [!DNL People-Based Destinations] e as plataformas do lado da demanda usarem IDs diferentes, não será possível testar e medir o desempenho com públicos divididos uniformemente entre eles.
+Não. Atualmente, todos os destinos [!DNL People-Based Destinations] estão excluídos de [!DNL Audience Lab]. Considerando que [!DNL People-Based Destinations] e as plataformas do lado da demanda usam IDs diferentes, você não pode testar e medir o desempenho com públicos divididos uniformemente entre eles.
 
 ## Controles da exportação de dados {#data-export-controls}
 
@@ -116,6 +116,6 @@ Você pode usar a integração entre [!DNL Facebook] [!DNL WCA] do Audience Mana
 
 Estas duas integrações são complementares; você pode usar ambas para garantir uma melhor cobertura do público-alvo. Como exemplo, o [!DNL WCA] pode ser usado para prospecção quando uma empresas está procurando direcionar visitantes de sites que não registraram uma conta, enquanto o [!DNL People-Based Destinations] pode ajudar você a direcionar clientes existentes que forneceram o endereço de email, mas talvez não visitaram o site.
 
-**O faz [!DNL People-Based Destinations] integração com [!DNL Facebook] oferecer suporte à desqualificação de usuários de um público-alvo quando eles não se qualificam mais para ele?**
+**A integração do [!DNL People-Based Destinations] com o [!DNL Facebook] oferece suporte à desqualificação de usuários de um público-alvo quando eles não se qualificam mais para ele?**
 
-Sim, a integração permite remover usuários do [!DNL Facebook] públicos-alvo quando não se qualificam mais para eles.
+Sim, a integração permite a remoção de usuários de públicos-alvo do [!DNL Facebook] quando eles não se qualificam mais para eles.

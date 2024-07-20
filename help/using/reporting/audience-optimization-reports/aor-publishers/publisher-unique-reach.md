@@ -10,7 +10,7 @@ exl-id: 7f92547e-3bb0-4df1-953e-1c26e91b4e0c
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '287'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -20,19 +20,19 @@ O relatório Alcance de usuário único retorna dados em um gráfico de bolhas. 
 
 ## Caso de uso {#use-cases}
 
-Com o [!UICONTROL Unique User Reach] identifique as propriedades em seu portfólio que atraem um alto volume de usuários únicos.
+Com o relatório [!UICONTROL Unique User Reach], você pode identificar as propriedades em seu portfólio que atraem um alto volume de usuários únicos.
 
 ## Uso do Relatório de alcance único {#using-the-report}
 
-Use o **[!UICONTROL Dimension Value]** para selecionar as unidades de anúncio que deseja exibir no relatório. Clique em **[!UICONTROL All]** para exibir todas as suas propriedades no gráfico de bolhas.
+Use a caixa **[!UICONTROL Dimension Value]** para selecionar as unidades de anúncio que deseja exibir no relatório. Clique em **[!UICONTROL All]** para exibir todas as suas propriedades no gráfico de bolhas.
 
-Use o **Intervalo de dias** e **Data Até** para ajustar o intervalo de retrospectiva.
+Use os controles **Intervalo de Dias** e **De Data até** para ajustar o intervalo de retrospectiva.
 
 ## Interpretação dos resultados {#interpreting-results}
 
-**Exemplo de relatório**
+**Relatório de Exemplo**
 
-Seu [!UICONTROL Unique User Reach] relatório pode ser semelhante ao abaixo. No relatório, clique em uma bolha para visualizar os dados subjacentes. Consulte as descrições para obter informações adicionais na tabela abaixo.
+O relatório [!UICONTROL Unique User Reach] pode ser semelhante ao mostrado abaixo. No relatório, clique em uma bolha para visualizar os dados subjacentes. Consulte as descrições para obter informações adicionais na tabela abaixo.
 
 ![](assets/publisher_unique_user_reach.png)
 

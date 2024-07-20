@@ -9,8 +9,8 @@ feature: Third-party Integration
 exl-id: 8f8a6881-d616-4d0e-aeaa-bf3bb3a172f9
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 1%
+source-wordcount: '996'
+ht-degree: 0%
 
 ---
 
@@ -66,7 +66,7 @@ A tabela a seguir descreve as principais atividades que ocorrem durante essa fas
    <td colname="col3"> Equipes técnicas e comerciais </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> Relatórios de status e chamadas da equipe do projeto </td> 
+   <td colname="col1"> Relatórios de status e chamadas de equipe do projeto </td> 
    <td colname="col2"> Estabelecer e manter uma comunicação clara sobre os planos e o progresso </td> 
    <td colname="col3"> Equipes técnicas e comerciais </td> 
   </tr> 
@@ -136,7 +136,7 @@ A tabela a seguir descreve as principais atividades que ocorrem durante essa fas
 Os resultados desta fase podem incluir:
 
 * Uma estratégia de coleta de dados primários, secundários e de terceiros concluída;
-* Um concluído [!DNL CRM] ou plano de assimilação do data warehouse;
+* Um [!DNL CRM] ou plano de assimilação de data warehouse concluído;
 * Requisitos definidos de segmentação do público-alvo;
 * uma taxonomia de dados concluída;
 * Um plano de integração de dados de terceiros desenvolvido.
@@ -147,7 +147,7 @@ Durante as fases de criação, teste e treinamento, você analisará a estratég
 
 <!-- c_build_test_train.xml -->
 
-Sua estratégia de coleta de dados será completamente testada [!DNL QA] testes. As soluções de parceiros rastrearão bugs detectados e coordenarão as resoluções de problemas com nossos engenheiros de sistemas. O treinamento do cliente pode começar em paralelo a essas outras iniciativas.
+Sua estratégia de coleta de dados será submetida a testes completos do [!DNL QA]. As soluções de parceiros rastrearão bugs detectados e coordenarão as resoluções de problemas com nossos engenheiros de sistemas. O treinamento do cliente pode começar em paralelo a essas outras iniciativas.
 
 A tabela a seguir descreve as principais atividades que ocorrem durante essa fase:
 
@@ -161,13 +161,13 @@ A tabela a seguir descreve as principais atividades que ocorrem durante essa fas
 Os resultados desta fase podem incluir:
 
 * Um plano de recolha de dados completo e aceite;
-* De ponta a ponta [!DNL QA] ensaios;
+* Teste completo de [!DNL QA];
 * Instrução básica sobre os recursos da interface do usuário do Audience Manager;
 * Aceitação e aprovação.
 
 ## Fase de inicialização, suporte e otimização {#launch-support-optimize-phase}
 
-Durante a fase de lançamento, suporte e otimização, sua coleta de dados e implementação prototipada movem-se do desenvolvimento para um ambiente de produção ativo. Continuaremos treinando sobre a familiarização e as estratégias do produto que podem ajudar a aumentar o seu [!DNL ROI] por meio de otimização orientada por dados.
+Durante a fase de lançamento, suporte e otimização, sua coleta de dados e implementação prototipada movem-se do desenvolvimento para um ambiente de produção ativo. Continuaremos treinando sobre familiarização e estratégias de produtos que podem ajudar a aumentar o seu [!DNL ROI] por meio de otimização orientada por dados.
 
 <!-- c_launch_support_optimize.xml -->
 
@@ -220,9 +220,9 @@ As tarefas desta fase podem incluir:
 
 ## Implementação de código {#code-implementation}
 
-O Audience Manager usa a Data Integration Library ([!DNL DIL]), para receber dados de público-alvo.
+O Audience Manager usa a Data Integration Library ([!DNL DIL]) para receber dados de público-alvo.
 
-Para obter instruções detalhadas sobre como usar [!DNL DIL], consulte [Obter e implementar o código DIL](../dil/dil-overview.md).
+Para obter instruções detalhadas sobre como usar o [!DNL DIL], consulte [Obtendo e Implementando o Código DIL](../dil/dil-overview.md).
 
 ### Participantes
 
@@ -234,4 +234,4 @@ Nossos esforços de colaboração não param com a implantação final. Após a 
 
 Os gerentes de conta fornecem suporte contínuo e serviços de consultoria após a conclusão do processo de implementação do produto. Você pode ter reuniões regulares com seu gerente de conta da. Essas reuniões garantem que você obtenha a quantidade máxima de uso e valor do Audience Manager.
 
-Entre em contato [aqui](https://www.adobe.com/products/audiencemanager.html) para obter mais informações e começar a usar o Audience Manager.
+Contate-nos [aqui](https://www.adobe.com/products/audiencemanager.html) para obter mais informações e para começar a usar o Audience Manager.

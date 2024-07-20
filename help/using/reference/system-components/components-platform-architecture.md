@@ -10,7 +10,7 @@ exl-id: 6543df7d-aac5-4181-87a8-bc47edd2e951
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -26,10 +26,10 @@ c_compmap.xml
 
  -->
 
-No mapa, a caixa cinza contém [!DNL Audience Manager] sistemas. Alguns componentes são completamente internos e outros ficam no limite entre [!DNL Audience Manager] e no mundo exterior. Como um [!DNL Audience Manager] cliente, os componentes internos geralmente são transparentes ou inacessíveis. No entanto, às vezes você pode se envolver com esses sistemas por meio da interface do usuário ou de integrações de dados. Os sistemas na borda da caixa coletam e enviam dados entre [!DNL Audience Manager] e no mundo exterior.
+No mapa, a caixa cinza contém [!DNL Audience Manager] sistemas. Alguns componentes são completamente internos e outros ficam no limite entre [!DNL Audience Manager] e o mundo exterior. Como cliente do [!DNL Audience Manager], os componentes internos geralmente são transparentes ou inacessíveis. No entanto, às vezes você pode se envolver com esses sistemas por meio da interface do usuário ou de integrações de dados. Os sistemas na borda da caixa coletam e enviam dados entre [!DNL Audience Manager] e o mundo exterior.
 
-As cores definem o tipo de dados que fluem para dentro e para fora [!DNL Audience Manager]. Verde são os dados do cliente, azul são os dados do cliente (pessoas que visitam o site) e laranja são os dados usados para os relatórios.
+As cores definem o tipo de dados que fluem para dentro e para fora de [!DNL Audience Manager]. Verde são os dados do cliente, azul são os dados do cliente (pessoas que visitam o site) e laranja são os dados usados para os relatórios.
 
-Para obter descrições e resumos do sistema, consulte os dados [ação](../../reference/system-components/components-data-action.md), [coleção](../../reference/system-components/components-data-collection.md), [processando](../../reference/system-components/components-data-processing.md), e [gerenciamento de tags](../../reference/system-components/components-tag-management.md) seções.
+Para obter descrições e resumos do sistema, consulte as seções [ação](../../reference/system-components/components-data-action.md), [coleção](../../reference/system-components/components-data-collection.md), [processamento](../../reference/system-components/components-data-processing.md) e [gerenciamento de tags](../../reference/system-components/components-tag-management.md) de dados.
 
 ![](assets/flowmap.png)

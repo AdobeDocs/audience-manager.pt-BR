@@ -9,8 +9,8 @@ feature: System Components
 exl-id: 064e3653-7658-422c-9dd5-2252806e8f09
 source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 3%
+source-wordcount: '306'
+ht-degree: 1%
 
 ---
 
@@ -26,9 +26,9 @@ c_comptag.xml
 
 Audience Manager contém os seguintes componentes:
 
-* [Portal do cliente](../../reference/system-components/components-tag-management.md#client-portal)
+* [Portal do Cliente](../../reference/system-components/components-tag-management.md#client-portal)
 * [Contêiner de DIL/TIM](../../reference/system-components/components-tag-management.md#dil-tim)
-* [Biblioteca de informações de dados (DIL)](../../reference/system-components/components-tag-management.md#dil)
+* [Biblioteca de Informações de Dados (DIL)](../../reference/system-components/components-tag-management.md#dil)
 * [Akamai](../../reference/system-components/components-tag-management.md#akamai)
 * [Banco de Dados de Controle](../../reference/system-components/components-tag-management.md#control-database)
 
@@ -38,15 +38,15 @@ O portal do cliente é a principal interface do usuário para gerenciamento de t
 
 ## Contêiner de DIL/TIM {#dil-tim}
 
-A variável [!UICONTROL DIL] o contêiner ajuda a implantar [!DNL Audience Manager] código de coleta de dados para seu site. [!UICONTROL TIM] O é o Gerenciador de inserção de tag obsoleto. Não é mais usado por [!DNL Audience Manager]. Em vez disso, use o [!DNL Audience Manager] extensão no [Tags do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html) para configurar e gerar o código de contêiner que você coloca nas páginas do inventário.
+O contêiner [!UICONTROL DIL] ajuda a implantar o código de coleta de dados [!DNL Audience Manager] em seu site. [!UICONTROL TIM] é o Gerenciador de Inserção de Marca obsoleto. Ele não é mais usado por [!DNL Audience Manager]. Em vez disso, você usa a extensão [!DNL Audience Manager] em [Tags do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html) para configurar e gerar o código de contêiner que você coloca nas páginas do inventário.
 
 ## Biblioteca de integração de dados (DIL) {#dil}
 
-A variável [Biblioteca de informações de dados](../../dil/dil-overview.md) (DIL) é um módulo de API independente que coleta dados do seu site. [!UICONTROL DIL] O ajuda a eliminar a necessidade de gravar código especial para coleta de dados, integração, leitura de valores de cookie e recuperação de dados de página. [!UICONTROL DIL] O executa essas ações automaticamente. Além disso, [!UICONTROL DIL] é compacto. É uma biblioteca de código independente que ajuda a reduzir a quantidade de código necessária para coletar informações. Por último, [!UICONTROL DIL] ajuda a integrar [!DNL Audience Manager] com outros produtos na [!DNL Adobe] Experience Cloud.
+A [Biblioteca de Informações de Dados](../../dil/dil-overview.md) (DIL) é um módulo de API independente que coleta dados do seu site. O [!UICONTROL DIL] ajuda a eliminar a necessidade de gravar código especial para coleta de dados, integração, leitura de valores de cookie e recuperação de dados de página. O [!UICONTROL DIL] executa essas ações automaticamente. Além disso, o [!UICONTROL DIL] é compacto. É uma biblioteca de código independente que ajuda a reduzir a quantidade de código necessária para coletar informações. Finalmente, o [!UICONTROL DIL] ajuda a integrar o [!DNL Audience Manager] com outros produtos no Experience Cloud [!DNL Adobe].
 
 ## Akamai {#akamai}
 
-[!DNL Audience Manager] usos [Akamai](https://www.akamai.com/us/en/about/) para hospedar e entregar o código de contêiner de nossa própria plataforma de gerenciamento de tags conhecida como [!UICONTROL TIM (Tag Insertion Manager)]. No entanto, a implantação de código com [!UICONTROL TIM] foi eliminado progressivamente em favor de [!DNL Adobe Experience Platform Tags].
+[!DNL Audience Manager] usa o [Akamai](https://www.akamai.com/us/en/about/) para hospedar e entregar o código de contêiner de nossa própria plataforma de gerenciamento de tags conhecida como [!UICONTROL TIM (Tag Insertion Manager)]. No entanto, a implantação de código com [!UICONTROL TIM] foi removida em favor de [!DNL Adobe Experience Platform Tags].
 
 ## Banco de Dados de Controle {#control-database}
 

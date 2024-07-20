@@ -10,22 +10,22 @@ exl-id: 752781af-aa67-4978-bd7f-95739dbfcddc
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '114'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
 # Painel de características {#traits-dashboard}
 
-O painel de características é um espaço de trabalho centralizado para gerenciar características. Você pode ver [!UICONTROL Traits] painel navegando até **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]**.
+O painel de características é um espaço de trabalho centralizado para gerenciar características. Você pode ver o painel [!UICONTROL Traits] navegando até **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]**.
 
 ![](assets/traits-dashboard.png)
 
 <!-- c_tb_dashboard.xml -->
 
-A variável [!UICONTROL Traits] O painel de controle contém recursos e ferramentas que ajudam a:
+O painel [!UICONTROL Traits] contém recursos e ferramentas que ajudam você a:
 
 1. Veja todas as suas características e detalhes relacionados em uma tabela com colunas que você pode classificar.
-2. Revisar e trabalhar com [Características do público-alvo ativo e características sincronizadas da fonte de dados](../../features/traits/client-activity-synced-audience-traits.md).
+2. Revise e trabalhe com [Características do público-alvo ativo e Características sincronizadas do Data Source](../../features/traits/client-activity-synced-audience-traits.md).
 3. Crie, edite e exclua características.
 4. Exibir e gerenciar pastas de armazenamento de características.
 5. Procure características por nome, ID, descrição ou fonte de dados. Clique em uma pasta enquanto pesquisa para limitar os resultados a essa pasta e suas subpastas.

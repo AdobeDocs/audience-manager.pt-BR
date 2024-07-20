@@ -9,7 +9,7 @@ feature: Reference
 exl-id: 9e2ee3d3-01b2-4038-abda-fedf0f16f163
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1157'
 ht-degree: 98%
 
 ---
@@ -52,7 +52,7 @@ Consulte DPUUID no [Índice de IDs no Audience Manager](../reference/ids-in-aam.
 
 No [Público-alvo endereçável](/help/using/features/addressable-audiences.md), essa métrica representa dispositivos que:
 * Perceberam uma característica com base em regras ou integrada durante a janela de retrospectiva
-   **E**
+  **E**
 * Têm uma sincronização de ID com o destino escolhido, independentemente do tempo de sincronização.
 
 

@@ -9,8 +9,8 @@ feature: API
 exl-id: ab8d6421-ba6a-4eac-9b2b-dbd0a1ef2a64
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 15%
+source-wordcount: '75'
+ht-degree: 6%
 
 ---
 
@@ -22,7 +22,6 @@ Métodos que permitem trabalhar programaticamente com pastas de características
 
 >[!IMPORTANT]
 >
->A pasta [!DNL API] Os métodos do foram regravados com [!DNL Swagger] e migrados. Consulte:  >
+>Os métodos da pasta [!DNL API] foram regravados com [!DNL Swagger] e migrados. Consulte: >
 >* [Documentação da API do Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migração de código API do Audience Manager](../../api/api-swagger-migration.md)
-

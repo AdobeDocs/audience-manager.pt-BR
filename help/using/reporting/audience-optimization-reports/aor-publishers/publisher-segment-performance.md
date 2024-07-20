@@ -9,8 +9,8 @@ feature: Audience Optimization Reports
 exl-id: 0cc10399-5737-4d82-a1f6-9561e024054d
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 2%
+source-wordcount: '645'
+ht-degree: 1%
 
 ---
 
@@ -24,30 +24,30 @@ A comparação desses diferentes tipos de segmentos nos relatórios e entre eles
 
 ## Casos de uso {#use-cases}
 
-Com o [!UICONTROL Segment Performance] relatório, é possível:
+Com o relatório [!UICONTROL Segment Performance], você pode:
 
 * Identifique segmentos de público mapeados que estão impulsionando a escala ou o desempenho.
 * Identifique segmentos não mapeados para apresentar em campanhas futuras, com base na contribuição de um público-alvo para o desempenho anterior.
 
 ## Uso do relatório de desempenho do segmento {#using-segment-performance-report}
 
-Alternar entre **[!UICONTROL Mapped]** e **[!UICONTROL Unmapped]** para selecionar segmentos mapeados para um destino ou não. Selecionar **[!UICONTROL All]** para incluir todos os segmentos no relatório.
+Alterne entre **[!UICONTROL Mapped]** e **[!UICONTROL Unmapped]** para selecionar segmentos que estão mapeados para um destino ou não. Selecione **[!UICONTROL All]** para incluir todos os seus segmentos no relatório.
 
-Use o **Intervalo de dias** e **Data Até** para ajustar o intervalo de retrospectiva. Observe que os períodos retroativos de 7 dias e 30 dias só estão disponíveis para datas domingo.
+Use os controles **Intervalo de Dias** e **De Data até** para ajustar o intervalo de retrospectiva. Observe que os períodos retroativos de 7 dias e 30 dias só estão disponíveis para datas domingo.
 
-Use o **[!UICONTROL Line Item]** para selecionar as propriedades da web para as quais deseja retornar informações.
+Use a caixa suspensa **[!UICONTROL Line Item]** para selecionar as propriedades da Web para as quais deseja retornar informações.
 
-No **[!UICONTROL Segment Data Source]** selecione as fontes de dados que contêm os segmentos que você deseja ver no relatório.
+Na caixa suspensa **[!UICONTROL Segment Data Source]**, selecione as fontes de dados que contêm os segmentos que você deseja ver no relatório.
 
-Use o **[!UICONTROL Segment]** para selecionar quais segmentos você deseja ver no relatório.
+Use a caixa suspensa **[!UICONTROL Segment]** para selecionar quais segmentos você deseja ver no relatório.
 
 >[!IMPORTANT]
 >
->Ao ativar [!UICONTROL Audience Optimization for Publishers], você deve incluir metadados descritivos para [!UICONTROL Line Item IDs], conforme descrito na Etapa 3 do [Importação de arquivos de dados do Google Ad Manager (antigo DFP) para o Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ao fazer isso, você garante que o relatório detalhe a propriedade da Web como [!UICONTROL Line Item] em vez de [!UICONTROL Line Item ID].
+>Ao habilitar [!UICONTROL Audience Optimization for Publishers], você deve incluir metadados descritivos para [!UICONTROL Line Item IDs], conforme descrito na Etapa 3 de [Importar arquivos de dados do Google Ad Manager (antigo DFP) para o Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ao fazer isso, você garante que o relatório detalhe a propriedade da Web como [!UICONTROL Line Item] em vez de [!UICONTROL Line Item ID].
 
 ## Interpretação dos resultados {#interpreting-results}
 
-Seu [!UICONTROL Segment Performance] relatório pode ser semelhante ao abaixo. No relatório, clique em uma bolha para visualizar os dados subjacentes. Consulte as descrições para obter as informações adicionais na tabela abaixo do relatório de amostra.
+O relatório [!UICONTROL Segment Performance] pode ser semelhante ao mostrado abaixo. No relatório, clique em uma bolha para visualizar os dados subjacentes. Consulte as descrições para obter as informações adicionais na tabela abaixo do relatório de amostra.
 
 ![](assets/publisher_segment_performance.png)
 
@@ -81,11 +81,11 @@ Seu [!UICONTROL Segment Performance] relatório pode ser semelhante ao abaixo. N
   </tr> 
   <tr> 
    <td colname="col1"> <p>CTR </p> </td> 
-   <td colname="col2"> <p>Índice de click-through. </p> <p>Essa métrica retransmite a porcentagem de impressões seguida de cliques. Dividir cliques por impressões para obter essa métrica. </p> </td> 
+   <td colname="col2"> <p>Taxa de cliques. </p> <p>Essa métrica retransmite a porcentagem de impressões seguida de cliques. Dividir cliques por impressões para obter essa métrica. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Preenchimento de segmentos em tempo real </p> </td> 
-   <td colname="col2"> <p>O número real de visitantes únicos vistos em tempo real pelo intervalo de tempo especificado e que foram qualificados para o segmento no momento em que foram vistos por <span class="keyword"> Audience Manager</span>. </p> </td> 
+   <td colname="col2"> <p>O número real de visitantes únicos vistos em tempo real para o intervalo de tempo especificado e que foram qualificados para o segmento no momento em que foram vistos por <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -100,7 +100,7 @@ Para ler o relatório, é útil dividir os resultados em quatro seções com lin
 
 ## Como ler os resultados do segmento não mapeado {#read-unmapped-segment}
 
-Análise de segmentos não mapeados em uma [!UICONTROL Segment Performance] O relatório é uma ótima maneira de encontrar novos segmentos que você não considerou para direcionamento. Na verdade, alguns desses segmentos podem ter um desempenho melhor do que os segmentos mapeados.
+Analisar segmentos não mapeados em um relatório do [!UICONTROL Segment Performance] é uma ótima maneira de encontrar novos segmentos que você não considerou para segmentação. Na verdade, alguns desses segmentos podem ter um desempenho melhor do que os segmentos mapeados.
 
 Para ler este relatório, é útil dividir os resultados em quatro seções com linhas imaginárias (em vermelho) e categorias mostradas no relatório de amostra abaixo.
 

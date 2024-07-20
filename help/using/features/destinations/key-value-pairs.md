@@ -1,20 +1,20 @@
 ---
-description: A [!DNL key-value pair] consiste em [!DNL related elements]. Uma chave, que é uma constante que define o conjunto de dados (por exemplo, gênero, cor, preço) e um valor, que é uma variável que pertence ao conjunto (por exemplo, masculino/feminino, verde, 100). O Construtor de destinos envia dados formatados como pares de valores chave.
+description: A [!DNL key-value pair] consiste de [!DNL related elements]. Uma chave, que é uma constante que define o conjunto de dados (por exemplo, gênero, cor, preço) e um valor, que é uma variável que pertence ao conjunto (por exemplo, masculino/feminino, verde, 100). O Construtor de destinos envia dados formatados como pares de valores chave.
 solution: Audience Manager
-title: Padrão e serial [!DNL Key-value pairs]
+title: Padrão e Serial [!DNL Key-value pairs]
 uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
 feature: Destination Basics
 exl-id: b37c829b-66be-4c31-8198-bc032371279e
 source-git-commit: 0dfe96a4644c61fb5bc22e4791bfd09c574dcf34
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 2%
+source-wordcount: '560'
+ht-degree: 0%
 
 ---
 
 # Pares padrão e de valor-chave serial {#standard-and-serial-key-value-pairs}
 
-Um par de valores chave consiste em elementos relacionados: uma chave, que é uma constante que define o conjunto de dados (por exemplo: gênero, cor, preço) e um valor, que é uma variável que pertence ao conjunto (por exemplo, masculino/feminino, verde, 100). [!UICONTROL Destination Builder] O envia dados formatados como pares de valores chave.
+Um par de valores chave consiste em elementos relacionados: uma chave, que é uma constante que define o conjunto de dados (por exemplo: gênero, cor, preço) e um valor, que é uma variável que pertence ao conjunto (por exemplo, masculino/feminino, verde, 100). [!UICONTROL Destination Builder] envia dados formatados como pares de valores chave.
 
 ## Pares básicos de valor-chave {#basic-key-value-pairs}
 
@@ -26,10 +26,10 @@ Totalmente formado, um conjunto básico de par de valor-chave pode se parecer co
 
 ## Pares padrão e de valor-chave serial {#standard-serial-key-value-pairs}
 
-Os destinos aceitam dados de valores-chave no *`standard`* ou *`serialized`* formato.
+Os destinos aceitam dados de valores-chave no formato *`standard`* ou *`serialized`*.
 
-* **Pares padrão de valor-chave:** Formata os dados de destino em pares de valores chave separados. Cada chave é declarada explicitamente, mesmo quando usada novamente para definir um valor diferente.
-* **Pares de valor-chave serializados:** Condensa vários valores em um único par de valores chave. Em um par de valor-chave serializado, um indicador especial separa os valores no conjunto de valor-chave.
+* **Pares de valor-chave padrão:** Formata os dados de destino em pares de valor-chave separados. Cada chave é declarada explicitamente, mesmo quando usada novamente para definir um valor diferente.
+* **Pares de valor-chave serializados:** Condensa vários valores em um único par de valor-chave. Em um par de valor-chave serializado, um indicador especial separa os valores no conjunto de valor-chave.
 
 Os valores-chave padrão e serializados podem conter um ou vários valores. A tabela a seguir fornece exemplos de formatos de valor-chave padrão e serial.
 
@@ -59,9 +59,9 @@ Os valores-chave padrão e serializados podem conter um ou vários valores. A ta
 
 Os caracteres que separam valores dentro e entre chaves e valores são conhecidos como *`delimiters`* e *`separators`*. Isso se torna particularmente importante quando você envia segmentos para um destino em um formato serial. A serialização permite transmitir vários valores com uma única chave e combinar pares de valores chave. Os delimitadores e separadores são definidos do seguinte modo:
 
-* **Separador de valor-chave:** Separa uma chave e um valor em um par de valor-chave.
-* **Delimitador de valor-chave:** Separa conjuntos de pares de valores chave.
-* **Separador serial:** Separa vários valores em conjuntos de pares de valores-chave serializados.
+* **Separador de valor-chave:** separa uma chave e um valor em um par de valor-chave.
+* **Delimitador de valor-chave:** separa conjuntos de pares de valor-chave.
+* **Separador serial:** separa vários valores em conjuntos de pares de valores-chave serializados.
 
 ## Exemplos {#examples}
 
@@ -77,7 +77,7 @@ Com [!UICONTROL Destination Builder] você pode formatar dados de valores-chave 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Tecla única padrão</b> </p> </td> 
+   <td colname="col1"> <p> <b>Chave única padrão</b> </p> </td> 
    <td colname="col2"> <p> <code> X = 1 &amp; X = 2 </code> </p> </td> 
    <td colname="col3"> <p>Um conjunto simples de pares de valores chave. O exemplo contém estes elementos: </p> 
     <ul id="ul_28C0CB005B264373926CA5D7418EE845"> 
@@ -88,7 +88,7 @@ Com [!UICONTROL Destination Builder] você pode formatar dados de valores-chave 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Vários pares de valor-chave</b> (não serial) </p> </td> 
+   <td colname="col1"> <p> <b>Vários pares de valor-chave</b> (não-serial) </p> </td> 
    <td colname="col2"> <p> <code> X = 1 &amp; X = 2 &amp; Y = 3 &amp; Y = 4 </code> </p> </td> 
    <td colname="col3"> <p>Um conjunto de vários pares de valores chave que transmitem valores com conjuntos separados de valores chave. O exemplo contém estes elementos: </p> 
     <ul id="ul_7FB22A43B435463D9F209067FF2C3619"> 
@@ -134,4 +134,4 @@ A transmissão de dados serializada ajuda a melhorar a eficiência, pois várias
 
 ### Destinos suportados
 
-Entrada [!DNL Audience Manager], você pode serializar e enviar dados para praticamente qualquer destino com o qual deseje trabalhar. No entanto, antes de usar esse recurso, será necessário conhecer o destino [!DNL URL] e onde colocar algumas macros obrigatórias ou opcionais. Obtenha as informações sobre posicionamento de macro do parceiro de destino. Consulte [Macros de destino definidas](../../features/destinations/destination-macros.md#destination-macros-defined) para obter mais informações.
+No [!DNL Audience Manager], você pode serializar e enviar dados para praticamente qualquer destino com o qual deseje trabalhar. No entanto, antes de usar este recurso, você precisará saber o destino [!DNL URL] e onde colocar algumas macros obrigatórias ou opcionais. Obtenha as informações sobre posicionamento de macro do parceiro de destino. Consulte [Macros de destino definidas](../../features/destinations/destination-macros.md#destination-macros-defined) para obter mais informações.

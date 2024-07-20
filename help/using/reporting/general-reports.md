@@ -9,14 +9,14 @@ feature: General & Trend Reports
 exl-id: dc16a821-b776-4a04-af60-4b8c914253dd
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 1%
+source-wordcount: '860'
+ht-degree: 0%
 
 ---
 
 # Relatórios gerais{#general-reports}
 
-A [!UICONTROL General] O relatório do retorna dados de desempenho sobre características, segmentos e destinos.
+Um relatório do [!UICONTROL General] retorna dados de desempenho sobre características, segmentos e destinos.
 
 ## Visão geral {#general-reports-overview}
 
@@ -26,9 +26,9 @@ c_general_reports.xml
 
  -->
 
-[!DNL Audience Manager] usos [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]) para estender permissões de grupo de usuários para o [!UICONTROL General] relatórios. Os usuários podem ver somente essas características e segmentos nos relatórios que têm permissão para visualizar. [!UICONTROL RBAC] A funcionalidade permite controlar quais dados de relatório as equipes internas podem visualizar. Por exemplo, uma agência que gerencia diferentes contas de anunciante pode configurar permissões de grupo de usuários para que uma equipe que gerencia a conta do Anunciante A não possa ver os dados de relatório do Anunciante B.
+[!DNL Audience Manager] usa [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]) para estender permissões de grupo de usuários aos relatórios [!UICONTROL General]. Os usuários podem ver somente essas características e segmentos nos relatórios que têm permissão para visualizar. A funcionalidade [!UICONTROL RBAC] permite controlar quais dados de relatório as equipes internas podem exibir. Por exemplo, uma agência que gerencia diferentes contas de anunciante pode configurar permissões de grupo de usuários para que uma equipe que gerencia a conta do Anunciante A não possa ver os dados de relatório do Anunciante B.
 
-Executar um [!UICONTROL General] relatar quando for necessário:
+Execute um relatório [!UICONTROL General] quando precisar:
 
 * Revise o desempenho por característica, segmento ou destino.
 * Rastrear impressões (total e exclusivas) em intervalos de 1, 7, 14, 30, 60 e 90 dias.
@@ -37,23 +37,23 @@ Executar um [!UICONTROL General] relatar quando for necessário:
 * Identifique características e segmentos de desempenho fortes ou ruins, analise a demanda ou compare dados de carga/disparo com relatórios de terceiros.
 * Exporte dados (formato .csv) para análise e compartilhamento adicional.
 
-A ilustração a seguir fornece uma visão geral de alto nível dos principais elementos da [!UICONTROL General] relatório.
+A ilustração a seguir fornece uma visão geral de alto nível dos principais elementos do relatório [!UICONTROL General].
 
 ![](assets/general_reports.png)
 
 1. Configure as seguintes opções:
 
-   * **Tipo de relatório:** Selecione o tipo de relatório desejado (Característica, Segmento ou Destino).
+   * **Tipo de Relatório:** Selecione o tipo de relatório desejado (Característica, Segmento ou Destino).
 
    * **Para Datas Até:** Especifique o intervalo de datas do relatório.
 
 2. Procure uma característica, segmento ou destino por nome ou ID.
-3. Na lista de pastas, arraste e solte as características, os segmentos ou os destinos que deseja relatar na [!UICONTROL Selections] no lado direito.
+3. Na lista de pastas, arraste e solte as características, os segmentos ou os destinos que deseja relatar no painel [!UICONTROL Selections] no lado direito.
 4. Gere o relatório a ser exibido em uma tabela exportável.
 
 ## Executar um Relatório Geral {#run-general-report}
 
-Esta seção descreve como executar uma [!UICONTROL General] relatar e definir tempo e outras opções de desempenho.
+Esta seção descreve como executar um relatório [!UICONTROL General] e definir opções de tempo e outras opções de desempenho.
 
 <!-- 
 
@@ -61,49 +61,49 @@ t_run_general_report.xml
 
  -->
 
-1. No **[!UICONTROL Analytics]** painel, clique em **[!UICONTROL General Reports]**.
-1. No **[!UICONTROL Report Type]** selecione o tipo desejado: Característica, Segmento ou Destino.
+1. No painel **[!UICONTROL Analytics]**, clique em **[!UICONTROL General Reports]**.
+1. Na lista suspensa **[!UICONTROL Report Type]**, selecione o tipo desejado: Característica, Segmento ou Destino.
 1. *Condicional* Clique na caixa de data para exibir um calendário e, em seguida, selecione a data de término do relatório se desejar especificar uma data diferente de hoje.
 1. Procure uma característica, segmento ou destino por nome ou ID.
-1. Na lista de pastas, arraste e solte as características, os segmentos ou os destinos que deseja relatar na [!UICONTROL Selections] no lado direito.
+1. Na lista de pastas, arraste e solte as características, os segmentos ou os destinos que deseja relatar no painel [!UICONTROL Selections] no lado direito.
 1. Clique em **[!UICONTROL Run Report]**.
 
    Os resultados são exibidos em uma tabela exportável. Clique nos cabeçalhos da coluna para classificar os resultados em ordem crescente ou decrescente.
-1. Selecione o botão de opção desejado na parte superior do relatório para filtrar dados por desempenho ( [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations]ou [!UICONTROL Total Trait Population]) ou por hora (intervalo de 1, 7, 14, 30, 60 ou 90 dias).
+1. Selecione o botão de opção desejado na parte superior do relatório para filtrar dados por desempenho ( [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations] ou [!UICONTROL Total Trait Population]) ou por tempo (intervalo de 1, 7, 14, 30, 60 ou 90 dias).
 
    >[!NOTE]
    >
-   >[!UICONTROL Total Trait Realizations] são calculados para [!UICONTROL Rule-based Traits] somente.
+   >[!UICONTROL Total Trait Realizations] são calculados somente para [!UICONTROL Rule-based Traits].
 
-1. *Opcional* Clique em **[!UICONTROL Export to CSV]**. Isso exporta o [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations], e [!UICONTROL Total Trait Population] para todos os intervalos de dias.
+1. *Opcional* Clique em **[!UICONTROL Export to CSV]**. Isso exporta o [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations] e [!UICONTROL Total Trait Population] para todos os intervalos de dias.
 
 ## Explicação dos resultados de relatórios gerais {#general-reports-explained}
 
-Os números no [!UICONTROL General Reports] são gerados diretamente de nosso [!UICONTROL User Profile Store]. Os resultados refletem o número de usuários que [!DNL Audience Manager] contido no back-end no momento em que esses números de relatório foram gerados.
+Os números no [!UICONTROL General Reports] são gerados diretamente de nosso [!UICONTROL User Profile Store]. Os resultados refletem o número de usuários que [!DNL Audience Manager] continha no back-end no momento em que esses números de relatórios foram gerados.
 
 * Esses números não incluem IDs de visitante com tráfego excessivo. O tráfego de bots é filtrado antes de chegar ao nosso sistema de back-end. Além disso, parte do tráfego de bot é descartada durante uma execução de trabalho de limpeza semanal no back-end.
-* Se você integrar os dados por meio do processamento de entrada, desativou o [!DNL Audience Manager] UUID e essas IDs incluem usuários que não estão mais ativos em nosso sistema, esses usuários inativos [!DNL Audience Manager] Os UUIDs nunca alcançam o [!UICONTROL User Profile Store] e não são relatados.
-* [!UICONTROL Total Trait Realizations] são calculados para [!UICONTROL Rule-based Traits] somente.
+* Se você integrar dados por meio do processamento de entrada destacando o UUID do [!DNL Audience Manager] e essas IDs incluírem usuários que não estão mais ativos em nosso sistema, esses UUIDs inativos do [!DNL Audience Manager] nunca chegarão ao [!UICONTROL User Profile Store] e não serão relatados.
+* [!UICONTROL Total Trait Realizations] são calculados somente para [!UICONTROL Rule-based Traits].
 
 ## Resultados de relatórios gerais para características {#general-report-results-traits}
 
-Os filtros abaixo estão disponíveis ao executar um relatório Geral e selecionar **[!UICONTROL Trait]** como o tipo de relatório.
+Os filtros abaixo estão disponíveis quando você executa um relatório Geral e seleciona **[!UICONTROL Trait]** como o tipo de relatório.
 
 Ao filtrar os resultados por [!UICONTROL Device ID]:
 
-* [!UICONTROL Unique Trait Realizations] é o número de visitantes de dispositivos anônimos que adicionaram a característica aos perfis dentro do intervalo de tempo selecionado.
-* [!UICONTROL Total Trait Realization] é o número total de realizações de características anônimas no intervalo de tempo selecionado.
-* [!UICONTROL Total Trait Population] é o número de visitantes de dispositivos anônimos que têm essa característica em seus perfis.
+* [!UICONTROL Unique Trait Realizations] é o número de visitantes de dispositivos anônimos que adicionaram a característica a seus perfis dentro do intervalo de tempo selecionado.
+* [!UICONTROL Total Trait Realization] é o número total de realizações de características anônimas dentro do intervalo de tempo selecionado.
+* [!UICONTROL Total Trait Population] é o número de visitantes de dispositivos anônimos que possuem essa característica em seus perfis.
 
-![geral-relatório-características-dispositivo](assets/general-report-traits-deviceid.png)
+![dispositivo de características de relatório geral](assets/general-report-traits-deviceid.png)
 
 Ao filtrar os resultados por [!UICONTROL Cross-Device ID]:
 
 * [!UICONTROL Unique Trait Realizations] é o número de visitantes autenticados que adicionaram a característica ao perfil, dentro do intervalo de tempo selecionado.
 * [!UICONTROL Total Trait Realization] é o número total de realizações de características autenticadas dentro do intervalo de tempo selecionado.
-* [!UICONTROL Total Trait Population] é o número de visitantes autenticados que têm essa característica no perfil.
+* [!UICONTROL Total Trait Population] é o número de visitantes autenticados que possuem esta característica no perfil.
 
-![geral-relatório-características-entre-dispositivos](assets/general-report-traits-cross-device.png)
+![características-gerais-de-relatório-entre-dispositivos](assets/general-report-traits-cross-device.png)
 
 <!-- 
 ### Unique Trait Realizations
@@ -125,7 +125,7 @@ The illustration below shows the results of running a general report for the Tra
 
 ## Resultados de relatórios gerais para segmentos {#general-report-results-segments}
 
-As métricas abaixo estão disponíveis ao executar um relatório Geral e selecionar **[!UICONTROL Segment]** como o tipo de relatório:
+As métricas abaixo estão disponíveis quando você executa um relatório Geral e seleciona **[!UICONTROL Segment]** como o tipo de relatório:
 
 ### Preenchimento de segmentos em tempo real
 
@@ -137,7 +137,7 @@ Essa métrica representa o número total de UUIDs de Audience Manager qualificad
 
 >[!NOTE]
 >
->Selecionar **[!UICONTROL Include Destination Mappings]** para ver um detalhamento da população do segmento para destinos ativados.
+>Selecione **[!UICONTROL Include Destination Mappings]** para ver um detalhamento da população do segmento para destinos ativados.
 
 A ilustração abaixo mostra os resultados da execução de um relatório geral para o tipo de relatório Segmento.
 
@@ -145,13 +145,13 @@ A ilustração abaixo mostra os resultados da execução de um relatório geral 
 
 ## Resultados de relatórios gerais para destinos {#general-report-results-destinations}
 
-As métricas abaixo estão disponíveis ao executar um relatório Geral e selecionar **[!UICONTROL Destination]** como o tipo de relatório:
+As métricas abaixo estão disponíveis quando você executa um relatório Geral e seleciona **[!UICONTROL Destination]** como o tipo de relatório:
 
-**Preenchimento de segmentos em tempo real**
+**População de segmentos em tempo real**
 
 Essa métrica representa o número real de visitantes únicos vistos em tempo real pelo intervalo de tempo especificado e que foram qualificados para o segmento no momento em que foram vistos pelo Audience Manager.
 
-**População total do segmento**
+**População Total de Segmentos**
 
 Essa métrica representa o número total de UUIDs de Audience Manager pertencentes a um segmento dentro do período de retrospectiva, que foram enviados para um destino.
 

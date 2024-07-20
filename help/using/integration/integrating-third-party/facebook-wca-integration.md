@@ -13,9 +13,9 @@ ht-degree: 1%
 
 ---
 
-# [!DNL Facebook WCA] Integração {#facebook-wca-integration}
+# Integração do [!DNL Facebook WCA] {#facebook-wca-integration}
 
-Esta página ilustra o processo de criação [!DNL Facebook Website Custom Audiences] ([!DNL WCA]) pixels para envio com base na Web [!DNL Audience Manager] segmentos de público-alvo para [!DNL Facebook], para direcionamento de anúncios online com mais transparência.
+Esta página ilustra o processo de criação de [!DNL Facebook Website Custom Audiences] ([!DNL WCA]) pixels para enviar segmentos de público-alvo [!DNL Audience Manager] baseados na Web para [!DNL Facebook], para direcionamento de anúncios online com transparência aprimorada.
 
 >[!IMPORTANT]
 >
@@ -23,32 +23,32 @@ Esta página ilustra o processo de criação [!DNL Facebook Website Custom Audie
 
 ## Visão geral {#overview}
 
-[Públicos-alvo personalizados de sites da facebook (WCA)](https://www.facebook.com/business/help/610516375684216?id=2469097953376494) O permite criar uma lista de pessoas que visitaram determinadas páginas ou executaram ações específicas no site. [!DNL Audience Manager] habilita a ativação no [!DNL WCA] usar [!DNL URL] destinos, com os quais você pode configurar uma integração personalizada baseada em pixel para enviar públicos-alvo baseados na web para o [!DNL Facebook] para direcionamento.
+[O WCA (Públicos-alvo personalizados do site) do Facebook](https://www.facebook.com/business/help/610516375684216?id=2469097953376494) permite criar uma lista de pessoas que visitaram determinadas páginas ou realizaram ações específicas no site. O [!DNL Audience Manager] habilita a ativação no [!DNL WCA] usando destinos do [!DNL URL], com os quais você pode configurar uma integração personalizada baseada em pixels para enviar públicos baseados na Web para o [!DNL Facebook] para direcionamento.
 
 ![Integração WCA com o Facebook](/help/using/integration/assets/facebook-wca-integration.png)
 
 >[!IMPORTANT]
 >
-> Esse recurso exige que você selecione a variável [!UICONTROL Website] público-alvo para a opção de plataformas sociais no [Destinos do URL](/help/using/features/destinations/create-url-destination.md). Plataformas sociais exigem que as informações do referenciador sejam desmascaradas quando enviadas para sua plataforma. Esteja ciente de que isso significa que a plataforma/parceiro de destino poderá visualizar as informações no seu referenciador [!DNL URL].
+> Esse recurso exige que você selecione a opção [!UICONTROL Website] público-alvo para plataformas sociais em [destinos de URL](/help/using/features/destinations/create-url-destination.md). Plataformas sociais exigem que as informações do referenciador sejam desmascaradas quando enviadas para sua plataforma. Esteja ciente de que isso significa que a plataforma/parceiro de destino poderá visualizar informações no referenciador [!DNL URL].
 
 ## Pré-requisitos {#prerequisites}
 
 1. [!DNL Facebook Ad Account]
-2. [!DNL Audience Manager] segmentos, prontos para atribuir aos novos [!DNL Facebook] destino. Aqui está [como criar um segmento](/help/using/features/segments/segment-builder.md) no [!DNL Audience Manager] IU.
-3. [!DNL Adobe Experience Platform Identity Service] ([!DNL ECID]) Versão 4.1.0 ou mais recente. Baixar a versão mais recente **[aqui](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**.
-4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) versão 9.0 ou mais recente, disponível para download em **[aqui](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Como alternativa, se você usar [Encaminhamento pelo lado do servidor (SSF)](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) para importar dados para o [!DNL Audience Manager], você deve usar a versão 2.12 ou mais recente do AppMeasurement. Baixar [!DNL AppMeasurement] usando o [Gerenciador de código do Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html).
+2. [!DNL Audience Manager] segmentos, prontos para atribuir ao seu novo destino [!DNL Facebook]. Veja [como criar um segmento](/help/using/features/segments/segment-builder.md) na interface do usuário do [!DNL Audience Manager].
+3. [!DNL Adobe Experience Platform Identity Service] ([!DNL ECID]) Versão 4.1.0 ou mais recente. Baixe a última versão **[aqui](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**.
+4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) versão 9.0 ou mais recente, disponível para download de **[aqui](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Como alternativa, se você usar o [Encaminhamento pelo Lado do Servidor (SSF)](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) para importar dados para o [!DNL Audience Manager], deverá usar a versão 2.12 ou mais recente do AppMeasurement. Baixe [!DNL AppMeasurement] usando o [Analytics Code Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html).
 
-Recomendamos instalar ou atualizar as bibliotecas nas etapas 3 e 4 usando [Tags do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
+Recomendamos instalar ou atualizar as bibliotecas nas etapas 3 e 4 usando as [Tags do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
 
-## Etapa 1 - Criar um [!UICONTROL Facebook Destination] in [!DNL Audience Manager] {#step-1-create-facebook-destination}
+## Etapa 1 - Criar um [!UICONTROL Facebook Destination] em [!DNL Audience Manager] {#step-1-create-facebook-destination}
 
-Criar um novo [!UICONTROL URL Destination] in [!DNL Audience Manager] e nomeie-o [!DNL Facebook Website Custom Audiences]. Use as configurações abaixo ao criar o destino. Você também pode consultar a [Configurar um destino de URL](/help/using/features/destinations/create-url-destination.md) página.
+Crie um novo [!UICONTROL URL Destination] em [!DNL Audience Manager] e nomeie-o [!DNL Facebook Website Custom Audiences]. Use as configurações abaixo ao criar o destino. Você também pode consultar a página [Configurar um destino de URL](/help/using/features/destinations/create-url-destination.md).
 
 ### Informações básicas
 
 * **[!UICONTROL Category]**: Personalizado
 * **[!UICONTROL Type]**: [!DNL URL]
-* Selecione o **[!UICONTROL Auto-fill Destination Mapping]** e selecione **[!UICONTROL Segment ID]**.
+* Marque a caixa de seleção **[!UICONTROL Auto-fill Destination Mapping]** e selecione **[!UICONTROL Segment ID]**.
 
 ### [!UICONTROL Data Export Labels]
 
@@ -60,57 +60,57 @@ Selecione a opção **[!UICONTROL This destination may enable a combination with
 
 ### Configuração
 
-* **[!UICONTROL URL type]**: Selecionar **[!UICONTROL Website audience for social platforms]**. Selecionando este [!UICONTROL URL Type] opção, [!DNL Audience Manager] não obscurece o referenciador [!DNL URL] informações ao acionar um [!DNL Facebook WCA] pixel.
-* **[!UICONTROL Serialize]**: Selecionar **[!UICONTROL Enable]**.
-* No **[!UICONTROL Base URL]** e **[!UICONTROL Secure URL]** insira o [!DNL Facebook WCA] pixel.
+* **[!UICONTROL URL type]**: Selecione **[!UICONTROL Website audience for social platforms]**. Ao selecionar esta opção [!UICONTROL URL Type], [!DNL Audience Manager] não obscurece as informações do referenciador [!DNL URL] ao disparar um pixel [!DNL Facebook WCA].
+* **[!UICONTROL Serialize]**: Selecione **[!UICONTROL Enable]**.
+* Nos campos **[!UICONTROL Base URL]** e **[!UICONTROL Secure URL]**, insira o pixel [!DNL Facebook WCA].
 * **[!UICONTROL Delimiter]**: `,`
 
-Base [!DNL URL] exemplo: `https://www.facebook.com/tr/?id=XXXXXXXXX&ev=Adobe-Audience-Manager-Segment&cd[segID]=%ALIAS%&noscript=1`
+Exemplo de base [!DNL URL]: `https://www.facebook.com/tr/?id=XXXXXXXXX&ev=Adobe-Audience-Manager-Segment&cd[segID]=%ALIAS%&noscript=1`
 
-Exemplo de pixel disparado da página. Este exemplo mostra um usuário que se qualifica para três [!DNL Audience Manager] com as IDs 3401321, 2993399, 3263410:
+Exemplo de pixel disparado da página. Este exemplo mostra um usuário que se qualifica para três [!DNL Audience Manager] segmentos, com as IDs 3401321, 2993399, 3263410:
 
 `https://www.facebook.com/tr/?id=6876666666662303&ev=Adobe-Audience-Manager-Segment&cd[segID]=3401321,2993399,3263410&noscript=1`
 
 | Parâmetro | Descrição |
 |---------|----------|
-| `id` | Seu [!DNL Facebook] ID de pixel, que você pode encontrar na variável [!DNL Facebook Ad Manager] ao criar pixels de público. |
-| `ev` | Evento. Esse é um valor arbitrário, que aparecerá no campo [!DNL Facebook Ad Manager] assim que o pixel começar a ser acionado no site. Consulte a [!UICONTROL Include] item em [Etapa 3](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience), para obter mais informações. |
-| `cd[segID]` | Um parâmetro adicional, que começará a ser preenchido dentro do [!DNL Facebook Ad Manager] assim que o pixel começar a ser acionado no site. `segID` também é arbitrária. |
-| `%ALIAS%` | Um [!DNL Audience Manager] macro, que será substituída dinamicamente pela variável [!DNL Audience Manager] [!UICONTROL segment] IDs para as quais o visitante do site se qualifica, delimitadas por vírgula , |
+| `id` | Sua ID de [!DNL Facebook] pixels, que você pode encontrar na interface do usuário [!DNL Facebook Ad Manager] ao criar pixels de público. |
+| `ev` | Evento. Este é um valor arbitrário, que aparecerá na interface do usuário do [!DNL Facebook Ad Manager] quando o pixel começar a ser acionado no site. Consulte o item [!UICONTROL Include] em [Etapa 3](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience), para obter mais informações. |
+| `cd[segID]` | Um parâmetro adicional, que começará a ser preenchido na interface do usuário do [!DNL Facebook Ad Manager] quando o pixel começar a ser acionado no site. `segID` também é arbitrário. |
+| `%ALIAS%` | Uma macro [!DNL Audience Manager], que será substituída dinamicamente pelas IDs [!DNL Audience Manager] [!UICONTROL segment] para as quais o visitante do site se qualifica, delimitadas por vírgula , |
 
-Seu [!UICONTROL URL destination] A configuração do deve parecer com a imagem abaixo:
+A configuração do [!UICONTROL URL destination] deve ser semelhante à imagem abaixo:
 
 ![Configuração de destino](/help/using/integration/assets/facebook-wca.png)
 
-Salve o [!UICONTROL destination]. Em seguida, você pode prosseguir para a **Mapeamentos de segmentos** etapa.
+Salve o [!UICONTROL destination]. Em seguida, você pode prosseguir para a etapa **Mapeamentos de segmentos**.
 
 ## Etapa 2 - Mapeamentos de segmentos - Mapear segmento para destino {#step-2-segment-mappings}
 
-No [Configurar destino de URL](/help/using/features/destinations/create-url-destination.md) fluxo de trabalho, mapeie o segmento aplicável para o segmento recém-criado [!UICONTROL destination]. Observe que o valor de mapeamento é preenchido automaticamente com [!DNL Audience Manager] [!UICONTROL segment ID].
+No fluxo de trabalho [Configurar destino da URL](/help/using/features/destinations/create-url-destination.md), mapeie o segmento aplicável para o [!UICONTROL destination] recém-criado. Observe que o valor de mapeamento é preenchido automaticamente com o [!DNL Audience Manager] [!UICONTROL segment ID].
 
 Informe uma data final, se aplicável; caso contrário, deixe em branco se não houver uma data final.
 
-## Etapa 3 - Criar um [!UICONTROL Audience] no prazo de [!DNL Facebook Ads Manager] {#step-3-create-audience}
+## Etapa 3 - Criar um [!UICONTROL Audience] em [!DNL Facebook Ads Manager] {#step-3-create-audience}
 
-Consulte [Criar um público-alvo personalizado do site](https://www.facebook.com/business/help/666509013483225) no [!DNL Facebook] documentação de ajuda. Selecione o [!UICONTROL Create Audience] opções na tabela abaixo:
+Consulte [Criar um público-alvo personalizado do site](https://www.facebook.com/business/help/666509013483225) na documentação de ajuda do [!DNL Facebook]. Selecione as opções de [!UICONTROL Create Audience] na tabela abaixo:
 
 | Item | Descrição |
 |---------|----------|
 | Tráfego no site | Combinação Personalizada |
-| Incluir | <ul><li>Selecionar **[!UICONTROL Event]** > Selecionar **[!UICONTROL Adobe-Audience-Manager-Segment]**. Este era o valor de `ev` no pixel de exemplo na etapa 1. Observe que se o pixel ainda não tiver sido acionado, a variável **[!UICONTROL Event]** ou **[!UICONTROL Adobe-Audience-Manager-Segment]** pode não aparecer na variável [!DNL Facebook] interface do usuário.</li><li>Adicionar um parâmetro: Selecionar `segID`.</li><li><p>Selecione o **contém** operador.</p><p>Isso é importante, considerando que os visitantes podem se qualificar para vários segmentos, pode haver vários [!UICONTROL segment IDs] no parâmetro pixel. Uso de &quot;iguais&quot; (`=`) pode não qualificar seus visitantes para o público-alvo e você observará um volume menor.</p></li><li>Adicione um valor: insira o [!DNL Audience Manager] ID do segmento.</li></ul> |
+| Incluir | <ul><li>Selecione **[!UICONTROL Event]** > Selecionar **[!UICONTROL Adobe-Audience-Manager-Segment]**. Este era o valor do parâmetro `ev` no pixel de exemplo na etapa 1. Observe que, se o pixel ainda não for acionado, a opção **[!UICONTROL Event]** ou **[!UICONTROL Adobe-Audience-Manager-Segment]** pode não aparecer na interface do usuário [!DNL Facebook].</li><li>Adicionar um parâmetro: Selecione `segID`.</li><li><p>Selecione o operador **contains**.</p><p>Isso é importante, considerando que os visitantes podem se qualificar para vários segmentos, pode haver vários [!UICONTROL segment IDs] no parâmetro de pixel. O uso do operador equals (`=`) pode não qualificar seus visitantes para o público-alvo, e você observará um volume menor.</p></li><li>Adicionar um valor: insira a ID de segmento [!DNL Audience Manager].</li></ul> |
 | Adicionar nova condição | Configuração opcional. |
 | No último | Configuração opcional. |
-| Nome do público | Recomendamos que você use o mesmo [!DNL Audience Manager] nome do segmento para fins de consistência, a menos que você esteja adicionando condições adicionais a este público-alvo. |
+| Nome do público | Recomendamos usar o mesmo nome de segmento [!DNL Audience Manager] para consistência, a menos que você esteja adicionando condições adicionais a esse público-alvo. |
 
-## Etapa 4 - Atribuir a [!UICONTROL Audience] para um [!UICONTROL Campaign] in [!DNL Facebook Ads Manager] {#step-4-assign-audience-to-campaign}
+## Etapa 4 - Atribuir o [!UICONTROL Audience] a um [!UICONTROL Campaign] em [!DNL Facebook Ads Manager] {#step-4-assign-audience-to-campaign}
 
-Depois de criar o [!DNL Custom Audience], atribua-o a uma campanha publicitária. Crie uma nova campanha ou edite uma existente e você descobrirá que o público recém-criado está listado na [!DNL Facebook] interface do usuário. Sua campanha publicitária terá como alvo os usuários que viram o pixel disparar em seus navegadores ao visitar seu site, se [!DNL Audience Manager] O os inclui no segmento.
+Depois de criar o [!DNL Custom Audience], atribua-o a uma campanha publicitária. Crie uma nova campanha ou edite uma existente e você descobrirá que o público recém-criado está listado na interface do usuário do [!DNL Facebook]. Sua campanha publicitária será direcionada aos usuários que viram o pixel disparar em seus navegadores ao visitar seu site, se [!DNL Audience Manager] incluí-los no segmento.
 
 ## Resumo {#summary}
 
-Agora que você atribuiu a sua [!DNL Audience Manager] segmento para o [!DNL Facebook WCA] destino, [!DNL Audience Manager] acionará seletivamente o [!DNL Facebook WCA] pixel para usuários de um determinado segmento com a respectiva ID de segmento no pixel para preencher a [!DNL Facebook Audience]. Tal resulta num aumento gradual da [!DNL Facebook Audience] quanto mais a tag for acionada para o público aplicável no site.
+Agora que você atribuiu o segmento [!DNL Audience Manager] ao destino [!DNL Facebook WCA], o [!DNL Audience Manager] acionará seletivamente o pixel [!DNL Facebook WCA] para os usuários de um determinado segmento com a respectiva ID de segmento no pixel para preencher o [!DNL Facebook Audience]. Isso resulta em um aumento gradual no [!DNL Facebook Audience], quanto mais a tag é acionada para o público aplicável no site.
 
 >[!NOTE]
 >
-> Se um usuário sair do estado [!DNL Audience Manager] segmento, no momento, não há como [!DNL Audience Manager] para informar [!DNL Facebook] para remover o usuário do [!DNL Custom Audience].
+> Se um usuário cai fora do segmento [!DNL Audience Manager], atualmente não há como [!DNL Audience Manager] informar [!DNL Facebook] para remover o usuário do [!DNL Custom Audience].
 >

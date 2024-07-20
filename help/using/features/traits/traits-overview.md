@@ -10,17 +10,17 @@ exl-id: 89f79f63-82f3-43cc-b22c-4c45d83e5002
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '60'
-ht-degree: 43%
+ht-degree: 3%
 
 ---
 
-# [!UICONTROL Traits] Visão geral {#traits-overview}
+# Visão geral do [!UICONTROL Traits] {#traits-overview}
 
-Gerenciar a coleta de dados e a criação de público com o [!UICONTROL rules-based], [!UICONTROL onboarded], [!UICONTROL algorithmic] ou [!UICONTROL folder traits]. Leia as páginas vinculadas abaixo para começar a usar o [!UICONTROL traits]:
+Gerencie a coleta de dados e a criação de público com [!UICONTROL rules-based], [!UICONTROL onboarded], [!UICONTROL algorithmic] ou [!UICONTROL folder traits]. Leia as páginas vinculadas abaixo para começar a usar o [!UICONTROL traits]:
 
 * [Página de detalhes da característica](/help/using/features/traits/trait-details-page.md)
-* [Construtor de perfil ](/help/using/features/traits/about-trait-builder.md)
+* [Construtor de perfil](/help/using/features/traits/about-trait-builder.md)
 * [Características da pasta: sobre](/help/using/features/traits/about-folder-traits.md)
 * [Armazenamento de características](/help/using/features/traits/trait-storage.md)
-* [Características do público-alvo ativo e características sincronizadas da fonte de dados](/help/using/features/traits/client-activity-synced-audience-traits.md)
-* [Referência de qualificação de características e segmentos](/help/using/features/traits/trait-and-segment-qualification-reference.md)
+* [Características do público-alvo ativo e características sincronizadas do Source de dados](/help/using/features/traits/client-activity-synced-audience-traits.md)
+* [Referência de qualificação de característica e segmento](/help/using/features/traits/trait-and-segment-qualification-reference.md)

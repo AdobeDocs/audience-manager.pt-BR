@@ -9,8 +9,8 @@ feature: Log Files
 exl-id: 1aed39f4-f893-4f25-b041-e198895e338a
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 4%
+source-wordcount: '299'
+ht-degree: 1%
 
 ---
 
@@ -20,21 +20,21 @@ Formate o conteúdo do arquivo de metadados Audience Optimization de acordo com 
 
 ## Sintaxe {#syntax}
 
-A sintaxe a seguir define a estrutura do conteúdo bem formado em um arquivo de metadados. Observação: *itálico* indica um espaço reservado para variável.
+A sintaxe a seguir define a estrutura do conteúdo bem formado em um arquivo de metadados. Observe que *itálico* indica um espaço reservado para variável.
 
-**Sintaxe:**  *ID de conteúdo* | *name* | *-1*
+**Sintaxe:** *ID de conteúdo* | *nome* | *-1*
 
 <!--In the contents syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file name](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md). These 2 variables seem similar, but they represent different things. In the file name, the parent ID corresponds to a category like "campaign" (ID 1), "placement" (ID 3), or "tactic" (ID 9), etc. In the file body:-->
 
-A terceira coluna **-1** tecnicamente é a ID principal, que é um campo herdado. O valor deve ser sempre definido como **-1**.
+A terceira coluna **-1** é tecnicamente a ID Pai, que é um campo herdado. O valor deve ser sempre definido como **-1**.
 
 >[!NOTE]
 >
->Observe que é necessário um arquivo de metadados por dimensão, portanto, vários arquivos de metadados são esperados no bucket. As dimensões estão listadas no artigo [Convenções de nomenclatura para o arquivo de metadados](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension).
+>Observe que é necessário um arquivo de metadados por dimensão, portanto, vários arquivos de metadados são esperados no bucket. As dimensões estão listadas no artigo [Convenções de nomenclatura para arquivo de metadados](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension).
 
-**Separar entradas de arquivo com ^a (control-A ou ASCII 001)**
+**Separar Entradas de Arquivo com ^a (control-A ou ASCII 001)**
 
-Uso `^a` (control-A ou ASCII 001) para separar o conteúdo nos arquivos de metadados. Como esses são caracteres não imprimíveis, o exemplo de sintaxe acima mostra uma barra vertical &quot;|&quot; somente para fins de exibição.
+Use `^a` (control-A ou ASCII 001) para separar o conteúdo em seus arquivos de metadados. Como esses são caracteres não imprimíveis, o exemplo de sintaxe acima mostra uma barra vertical &quot;|&quot; somente para fins de exibição.
 
 Se necessário, você pode baixar o arquivo de exemplo - [20181105_0_1](assets/20181105_0_1.zip). Descompacte-o e edite-o no editor de sua escolha e ajuste de acordo com o conteúdo real dos metadados, pois ele já contém o delimitador necessário.
 
@@ -44,7 +44,7 @@ Se necessário, você pode baixar o arquivo de exemplo - [20181105_0_1](assets/2
 
 ## Exemplos {#examples}
 
-Vamos ver como você estruturaria o conteúdo em um arquivo de metadados. Parte dessa estrutura depende da dimensão. As dimensões estão listadas no artigo [Convenções de nomenclatura para o arquivo de metadados](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension).
+Vamos ver como você estruturaria o conteúdo em um arquivo de metadados. Parte dessa estrutura depende da dimensão. As dimensões estão listadas no artigo [Convenções de nomenclatura para arquivo de metadados](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension).
 
 **Campaign**
 
@@ -61,7 +61,7 @@ Neste exemplo, o título do arquivo é 20180921_0_1 e as três colunas no arquiv
 333 Campaign C -1
 ```
 
-**Creative**
+**Criativo**
 
 Neste exemplo, o título do arquivo é 20180827_0_2 e as três colunas no arquivo são: ID de criação, Nome e ID principal.
 

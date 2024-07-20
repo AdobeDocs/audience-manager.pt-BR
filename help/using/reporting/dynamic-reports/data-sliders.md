@@ -10,7 +10,7 @@ exl-id: 876a01c2-e73e-4728-8890-e3f354ad1b86
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 9%
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ c_reach_slider.xml
 
  -->
 
-**Definir um intervalo inferior/superior para resultados do relatório com os controles deslizantes de dados**
+**Definir um Intervalo Inferior/Superior para Resultados de Relatório com os Controles Deslizantes de Dados**
 
 Os controles deslizantes do relatório permitem definir limites para os dados retornados por um relatório interativo. Mova o controle deslizante esquerdo para excluir dados abaixo de um valor específico. Mova o controle deslizante direito para excluir dados acima de um valor específico. O relatório atualiza e retorna dados que estão dentro do intervalo desejado. Use os controles deslizantes para:
 
@@ -33,5 +33,4 @@ Os controles deslizantes do relatório permitem definir limites para os dados re
 
 >[!MORELIKETHIS]
 >
->* [Como entender os filtros de dados no relatório de sobreposição de segmento por característica](../../reporting/dynamic-reports/segment-trait-overlap-report.md#data-filters-s2t-report)
-
+>* [Entendendo os Filtros de Dados no Relatório de Sobreposição de Segmento por Característica](../../reporting/dynamic-reports/segment-trait-overlap-report.md#data-filters-s2t-report)

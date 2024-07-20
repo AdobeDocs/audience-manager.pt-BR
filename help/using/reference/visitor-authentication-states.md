@@ -10,8 +10,8 @@ feature: Reference
 exl-id: 55aec28d-02f6-4e6d-9be1-4ce40deb8dc3
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 6%
+source-wordcount: '315'
+ht-degree: 2%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 6%
 
 O status de autenticação do visitante no Audience Manager determina se as novas informações de característica são gravadas no perfil autenticado do visitante ou no perfil do dispositivo, de onde os dados foram coletados. O Audience Manager lida da mesma forma com os status de autenticação de ID de visitante UNKNOWN e LOGGED_OUT em chamadas de evento.
 
-Começando com [!DNL Experience Cloud] serviço de ID v1.5+, o `setCustomerID` inclui a variável opcional `AuthState` objeto. `AuthState` O identifica visitantes de acordo com seus [status de autenticação](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] O lida com as características realizadas de forma diferente, dependendo do status de autenticação transmitido na chamada e do [Regra de mesclagem de perfis](../features/profile-merge-rules/merge-rules-dashboard.md) é usada para segmentação.
+A partir do serviço de ID do [!DNL Experience Cloud] v1.5+, o método `setCustomerID` inclui o objeto `AuthState` opcional. `AuthState` identifica visitantes de acordo com seu [status de autenticação](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] lida com as características realizadas de forma diferente, dependendo do status de autenticação passado na chamada e da [Regra de mesclagem de perfis](../features/profile-merge-rules/merge-rules-dashboard.md) que você usa para segmentação.
 
 ## Status de autenticação: DESCONHECIDO {#auth-status-unknown}
 
 | Valor da solicitação | Ler informações do perfil autenticado | Gravar novas características no perfil autenticado |
 |---|---|---|
-| 0 | <ul><li>Sim, se a variável [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Last Authenticated Profiles].</li><li>Não, se a variável [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Current Authenticated Profiles] ou [!UICONTROL No Authenticated Profile].</li></ul> | Não, os dados de características são adicionados ao perfil do dispositivo. |
+| 0 | <ul><li>Sim, se o [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Last Authenticated Profiles].</li><li>Não, se [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Current Authenticated Profiles] ou [!UICONTROL No Authenticated Profile].</li></ul> | Não, os dados de características são adicionados ao perfil do dispositivo. |
 
 Exemplo de chamada (o valor da solicitação correspondente ao status de autenticação é realçado):
 
@@ -35,7 +35,7 @@ Exemplo de chamada (o valor da solicitação correspondente ao status de autenti
 
 | Valor da solicitação | Ler informações do perfil autenticado | Gravar novas características no perfil autenticado |
 |---|---|---|
-| 1 | <ul><li>Sim, se a variável [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Current Authenticated Profiles] ou [!UICONTROL Last Authenticated Profiles].</li><li>Não, se a variável [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL No Authenticated Profile].</li></ul> | Sim, os dados de características são adicionados ao perfil autenticado. |
+| 1 | <ul><li>Sim, se o [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Current Authenticated Profiles] ou [!UICONTROL Last Authenticated Profiles].</li><li>Não, se o [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL No Authenticated Profile].</li></ul> | Sim, os dados de características são adicionados ao perfil autenticado. |
 
 Exemplo de chamada (o valor da solicitação correspondente ao status de autenticação é realçado):
 
@@ -45,7 +45,7 @@ Exemplo de chamada (o valor da solicitação correspondente ao status de autenti
 
 | Valor da solicitação | Ler informações do perfil autenticado | Gravar novas características no perfil autenticado |
 |---|---|---|
-| 2 | <ul><li>Sim, se a variável [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Last Authenticated Profiles].</li><li>Não, se a variável [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Current Authenticated Profiles] ou [!UICONTROL No Authenticated Profile].</li></ul> | Não, os dados de características são gravados no perfil do dispositivo. |
+| 2 | <ul><li>Sim, se o [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Last Authenticated Profiles].</li><li>Não, se [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Current Authenticated Profiles] ou [!UICONTROL No Authenticated Profile].</li></ul> | Não, os dados de características são gravados no perfil do dispositivo. |
 
 Exemplo de chamada (o valor da solicitação correspondente ao status de autenticação é realçado):
 
@@ -53,9 +53,8 @@ Exemplo de chamada (o valor da solicitação correspondente ao status de autenti
 
 >[!NOTE]
 >
->[!DNL Audience Manager] O executa uma sincronização de ID entre [CID e UUID](../reference/ids-in-aam.md) nos três casos.
+>[!DNL Audience Manager] executa uma sincronização de ID entre [CID e UUID](../reference/ids-in-aam.md) nos três casos.
 
 >[!MORELIKETHIS]
 >
 >* [Estados de autenticação e IDs do cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)
-

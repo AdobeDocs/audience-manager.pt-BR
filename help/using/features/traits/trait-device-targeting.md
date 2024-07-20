@@ -9,8 +9,8 @@ feature: Traits
 exl-id: 85c848e0-a4cf-49b5-9fe9-56f8c565f665
 source-git-commit: b299783b993c5d4a1c7738eca82932c20f377ee7
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 5%
+source-wordcount: '264'
+ht-degree: 1%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 5%
 
 >[!WARNING]
 >
->A Google atualizou a funcionalidade do [!DNL Google Chrome] e todos [!DNL Chromium]navegadores baseados em para minimizar as informações coletadas por meio do `User-Agent` cabeçalho.
->A partir de março de 2023, o Audience Manager oferecerá suporte a essas atualizações utilizando [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en). Para continuar usando as informações de características fornecidas por meio do `User-Agent` cabeçalho, você deve usar [SDK da Web](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) e habilitar [Dicas do cliente de usuário-agente de alta entropia](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en).
->Estas atualizações não são suportadas pela [DIL](../../../using/dil/dil-overview.md), para que os clientes do Audience Manager que usam [!DNL DIL] O não poderá coletar informações de características por meio do `User-Agent` cabeçalho.
+>A Google atualizou a funcionalidade de [!DNL Google Chrome] e de todos os navegadores baseados em [!DNL Chromium] para minimizar as informações coletadas por meio do cabeçalho `User-Agent`.
+>A partir de março de 2023, o Audience Manager oferecerá suporte a essas atualizações utilizando o [SDK da Web do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en). Para continuar usando as informações de características fornecidas pelo cabeçalho `User-Agent`, você deve usar o [SDK da Web](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) e habilitar as [Client Hints de Agente do Usuário de Alta Entropia](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en).
+>Não há suporte para estas atualizações no [DIL](../../../using/dil/dil-overview.md), portanto, os clientes do Audience Manager que usam [!DNL DIL] não poderão coletar informações de características por meio do cabeçalho `User-Agent`.
 
 Descreve os pares de valores chave comuns em nível de plataforma que você pode usar para direcionar usuários com variáveis relacionadas ao dispositivo em todas as propriedades na sua conta Audience Manager.
 
@@ -28,11 +28,11 @@ Descreve os pares de valores chave comuns em nível de plataforma que você pode
 
 <!-- c_tb_device_targeting.xml -->
 
-As variáveis de nível de plataforma permitem pegar os dados transmitidos de um site específico e disponibilizá-los para direcionamento em todas as propriedades no [!DNL Audience Manager] conta. Essas variáveis são formadas por [pares de valor-chave](../../reference/key-value-pairs-explained.md) com a chave com o prefixo `d_` conforme mostrado abaixo.
+As variáveis de nível de plataforma permitem que você obtenha dados transmitidos de um site específico e os disponibilize para direcionamento em todas as propriedades da sua conta do [!DNL Audience Manager]. Essas variáveis são formadas por [pares de valores chave](../../reference/key-value-pairs-explained.md) com a chave prefixada por `d_`, como mostrado abaixo.
 
 ## Chaves de nível de plataforma definidas pelo agente do usuário {#keys-user-agent}
 
-A variável [!UICONTROL Data Collection Servers] extraia os valores dessas chaves da variável [cabeçalho do agente do usuário](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) in `HTTP` solicitações. Os valores representam informações de nível de dispositivo do [!UICONTROL Device Atlas] banco de dados. Os sinais na tabela abaixo estão disponíveis, conforme extraído do exemplo do agente do usuário. [Baixar uma lista das chaves mais comuns](assets/device_keys.csv), segundo [!UICONTROL Device Atlas] medições.
+O [!UICONTROL Data Collection Servers] extrai os valores dessas chaves do [cabeçalho do agente do usuário](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) em `HTTP` solicitações. Os valores representam informações de nível de dispositivo do banco de dados [!UICONTROL Device Atlas]. Os sinais na tabela abaixo estão disponíveis, conforme extraído do exemplo do agente do usuário. [Baixe uma lista das chaves mais comuns](assets/device_keys.csv), de acordo com as [!UICONTROL Device Atlas] medidas.
 
 | [!DNL Signal] | [!DNL Type] | [!DNL Example] |
 |---|---|---|
@@ -55,4 +55,3 @@ A variável [!UICONTROL Data Collection Servers] extraia os valores dessas chave
 >[!MORELIKETHIS]
 >
 >* [Requisitos de prefixo para variáveis-chave](../../features/traits/trait-variable-prefixes.md)
-

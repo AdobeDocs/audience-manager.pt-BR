@@ -10,17 +10,17 @@ exl-id: 4fd1aab1-2dc2-4de9-97be-58e79825db40
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '280'
-ht-degree: 5%
+ht-degree: 0%
 
 ---
 
 # Arquivos de controle de transferência para transferências de arquivos de log {#transfer-control-files-for-log-file-transfers}
 
-Controle de transferência ([!DNL .info]) os arquivos fornecem informações de metadados sobre transferências de arquivos para que os parceiros possam verificar se o Audience Manager manipulou as transferências de arquivos corretamente.
+Os arquivos de controle de transferência ([!DNL .info]) fornecem informações de metadados sobre transferências de arquivos para que os parceiros possam verificar se o Audience Manager tratou as transferências de arquivos corretamente.
 
-[!DNL Audience Manager] envia um arquivo de controle de transferência para um parceiro com cada transferência de arquivo. Devido à natureza multithread da [!DNL FTP] editor, o arquivo de controle de transferência pode ser enviado antes que os arquivos reais sejam transferidos.
+[!DNL Audience Manager] envia um arquivo de controle de transferência para um parceiro com cada transferência de arquivo. Devido à natureza de vários threads do editor [!DNL FTP], o arquivo de controle de transferência pode ser enviado antes que a transferência dos arquivos reais seja concluída.
 
-Os metadados na variável [!DNL .info] o arquivo permite aos parceiros:
+Os metadados no arquivo [!DNL .info] permitem aos parceiros:
 
 * Determinar quando um ciclo de transferência completo está concluído (o número total de arquivos na sequência foi entregue);
 * Determinar se determinado arquivo na sequência está completo/correto (examinando o tamanho do arquivo em bytes e o número total de linhas);
@@ -28,7 +28,7 @@ Os metadados na variável [!DNL .info] o arquivo permite aos parceiros:
 
 ## Convenções de nomenclatura de arquivos {#file-naming-conventions}
 
-O arquivo de controle de transferência tem o mesmo nome que a raiz do lote/sequência com um [!DNL .info] extensão de arquivo.s
+O arquivo de controle de transferência tem o mesmo nome que a raiz do lote/sequência com uma extensão de arquivo [!DNL .info].
 
 Por exemplo, se o primeiro arquivo na sequência fosse nomeado como: [!DNL ftp_12345_67890_full_1500727351632-1.sync], o arquivo de controle seria nomeado como [!DNL ftp_12345_67890_iter_1500727351632.info].
 
@@ -77,7 +77,7 @@ Por exemplo, se o primeiro arquivo na sequência fosse nomeado como: [!DNL ftp_1
 
 >[!NOTE]
 >
-> Os números totais do lote excluem os [!DNL .info] próprio arquivo. Ou seja, os totais não incluem a [!DNL .info] arquivo, seu tamanho em bytes ou sua contagem de linhas.
+> Os números totais do lote são exclusivos do próprio arquivo [!DNL .info]. Ou seja, os totais não incluem o arquivo [!DNL .info], seu tamanho em bytes ou sua contagem de linhas.
 >
 > Os tamanhos de bytes de arquivos e contagens de linhas incluem linhas/linhas de cabeçalho e espaçador (em branco). Para obter a contagem de linhas/linhas de dados reais, subtraia os cabeçalhos.
 >

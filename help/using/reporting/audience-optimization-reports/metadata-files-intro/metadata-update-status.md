@@ -8,7 +8,7 @@ uuid: 56a1e88a-41da-4d51-a21e-2be98cca7fa2
 feature: Log Files
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '297'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Atualizações de status para arquivos de metadados{#status-updates-for-metadata-files}
 
-O diretório de status S3 contém um `.info` arquivo com informações de sucesso e falha sobre seus arquivos carregados. O arquivo contém dados formatados em JSON com status que resulta em uma matriz.
+O diretório de status S3 contém um arquivo `.info` com informações de êxito e falha sobre seus arquivos carregados. O arquivo contém dados formatados em JSON com status que resulta em uma matriz.
 
-O conteúdo do `.info` O arquivo será semelhante a este exemplo.
+O conteúdo do arquivo `.info` será semelhante ao deste exemplo.
 
 ```js
 //sample file path
@@ -61,9 +61,9 @@ O conteúdo do `.info` O arquivo será semelhante a este exemplo.
 
 ## Pares de valores-chave de metadados definidos {#key-value-pairs}
 
-As tabelas a seguir listam e definem as chaves na variável `Files` e `Summary` seções de um arquivo de status de metadados.
+As tabelas a seguir listam e definem as chaves nas seções `Files` e `Summary` de um arquivo de status de metadados.
 
-**Chaves na matriz de arquivos**
+**Chaves na Matriz de Arquivos**
 
 <table id="table_BF23C032FEFA446282E9364E85BE8C9F"> 
  <thead> 
@@ -83,11 +83,11 @@ As tabelas a seguir listam e definem as chaves na variável `Files` e `Summary` 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
-   <td colname="col2"> <p>A soma de verificação MD 5 do arquivo de metadados carregado no <code> meta</code> diretório. </p> </td> 
+   <td colname="col2"> <p>A soma de verificação MD 5 do arquivo de metadados carregado no diretório <code> meta</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileName</code> </p> </td> 
-   <td colname="col2"> <p>O nome do arquivo de metadados carregado no <code> meta</code> diretório. </p> </td> 
+   <td colname="col2"> <p>O nome do arquivo de metadados carregado para o diretório <code> meta</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MetadataType</code> </p> </td> 
@@ -108,7 +108,7 @@ As tabelas a seguir listam e definem as chaves na variável `Files` e `Summary` 
  </tbody> 
 </table>
 
-**Chaves no Objeto de resumo**
+**Chaves no Objeto de Resumo**
 
 <table id="table_C765A0CDBAA14A2FB5E0D38BDD1D292A"> 
  <thead> 
@@ -120,7 +120,7 @@ As tabelas a seguir listam e definem as chaves na variável `Files` e `Summary` 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> Day</code> </p> </td> 
-   <td colname="col2"> <p>Data de processamento do arquivo em <code><i>yyyy-mm-dd</i></code> formato. </p> </td> 
+   <td colname="col2"> <p>Data de processamento do arquivo no formato <code><i>yyyy-mm-dd</i></code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> GlobalStatus</code> </p> </td> 

@@ -8,7 +8,7 @@ feature: Algorithmic Models
 exl-id: c6e92db0-129f-489e-8cf0-600e0e09698b
 source-git-commit: 37823ae54e106e32aa195a6b69e0f1ebfc322f09
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ Este artigo fornece respostas às perguntas mais frequentes sobre [!UICONTROL Lo
 
 ## Perguntas {#questions}
 
-**Por que estou pegando um apartamento? [!UICONTROL Accuracy & Reach] gráfico?**
+**Por que estou obtendo um gráfico [!UICONTROL Accuracy & Reach] simples?**
 
-A bemol [!UICONTROL Accuracy & Reach] gráfico significa que quase todos os usuários receberam a mesma pontuação pelo modelo. Isso pode acontecer quando você inclui a característica de visitante do site nas fontes de dados em que você executou o modelo. Para evitar isso, remova a característica genérica da entrada do modelo durante a etapa de criação do modelo usando o [!UICONTROL Exclusions] campo.
+Um gráfico [!UICONTROL Accuracy & Reach] simples significa que quase todos os usuários receberam a mesma pontuação pelo modelo. Isso pode acontecer quando você inclui a característica de visitante do site nas fontes de dados em que você executou o modelo. Para evitar isso, remova a característica genérica da entrada do modelo durante a etapa de criação do modelo usando o campo [!UICONTROL Exclusions].
 
  
 
@@ -53,13 +53,13 @@ Alguns milhares de usuários devem ser suficientes para executar o modelo, visto
 
 **Quais fontes de dados de terceiros devo escolher para meu modelo?**
 
-Use fontes de dados que tenham pelo menos alguma sobreposição com sua característica/segmento de linha de base, mas que, ao mesmo tempo, tragam usuários adicionais. Você também deve considerar o custo associado a cada feed de dados. Os modelos de custo e preço variam entre os provedores de dados na [!UICONTROL Audience Marketplace].
+Use fontes de dados que tenham pelo menos alguma sobreposição com sua característica/segmento de linha de base, mas que, ao mesmo tempo, tragam usuários adicionais. Você também deve considerar o custo associado a cada feed de dados. Os modelos de custo e preço variam entre os provedores de dados em [!UICONTROL Audience Marketplace].
 
  
 
 **Custa usar dados de terceiros para modelagem?**
 
-Depende do modelo de preços do feed de dados selecionado. Alguns feeds permitem modelagem sem custo, enquanto outros cobram uma taxa. Consulte [Faturamento para compradores de feed de dados](../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md) para obter detalhes.
+Depende do modelo de preços do feed de dados selecionado. Alguns feeds permitem modelagem sem custo, enquanto outros cobram uma taxa. Consulte [Faturamento para compradores de feeds de dados](../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md) para obter detalhes.
 
  
 
@@ -69,6 +69,6 @@ Atualmente, você pode criar até 20 modelos algorítmicos e 50 características
 
  
 
-**Qual é a frequência de atualização do treinamento de modelo e o público de características algorítmicas?**
+**Qual é a frequência de atualização do treinamento de modelo e da população de características algorítmicas?**
 
 O modelo é reciclado uma vez a cada 8 dias, juntamente com a atualização da população de características algorítmicas.

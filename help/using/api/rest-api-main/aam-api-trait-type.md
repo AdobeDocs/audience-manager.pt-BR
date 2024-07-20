@@ -10,7 +10,7 @@ exl-id: d450f9ce-2abb-4a8b-b8db-2962b84fb341
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 9%
+ht-degree: 3%
 
 ---
 
@@ -22,13 +22,13 @@ Métodos opcionais que permitem atribuir características a um tipo ou categoria
 
 >[!NOTE]
 >
->Os métodos do tipo de característica não atribuem características a categorias usadas pelo [taxonomia comum](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods). Pense nisso como rótulos separados da taxonomia comum.
+>Os métodos de tipo de característica não atribuem características a categorias usadas pela [taxonomia comum](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods). Pense nisso como rótulos separados da taxonomia comum.
 
-Para referência visual, [!UICONTROL Trait Types] é um controle suspenso localizado na [!DNL UI] em **[!UICONTROL Traits > Create new trait > Basic Information]**.
+Para referência visual, [!UICONTROL Trait Types] é um controle suspenso localizado em [!DNL UI] em **[!UICONTROL Traits > Create new trait > Basic Information]**.
 
 ## Criar um novo tipo de característica {#create-trait-type}
 
-A `POST` que permite criar um novo tipo de característica.
+Um método `POST` que permite criar um novo tipo de característica.
 
 <!-- r_rest_api_create_trait_type.xml -->
 
@@ -61,7 +61,7 @@ A `POST` que permite criar um novo tipo de característica.
 
 ## Propriedades de retorno para um tipo de característica {#return-props}
 
-A `GET` que retorna detalhes sobre o tipo de característica especificado.
+Um método `GET` que retorna detalhes sobre o tipo de característica especificado.
 
 <!-- r_rest_api_get_trait_type.xml -->
 
@@ -86,7 +86,7 @@ A `GET` que retorna detalhes sobre o tipo de característica especificado.
 
 ## Propriedades de retorno para todos os tipos de características {#return-props-all}
 
-A `GET` que retorna detalhes sobre todos os tipos de características em uma matriz.
+Um método `GET` que retorna detalhes sobre todos os seus tipos de características em uma matriz.
 
 <!-- r_rest_api_get_trait_types.xml -->
 

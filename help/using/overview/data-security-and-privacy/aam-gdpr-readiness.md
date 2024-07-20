@@ -9,11 +9,11 @@ exl-id: 353b9035-20f3-41ff-819c-71f161e6b1e1
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
-# Diretrizes de disponibilidade do GDPR para clientes do Audience Manager (Controladores de dados) {#gdpr-readiness-guidance}
+# Diretrizes de disponibilidade do GDPR para clientes do Audience Manager (controladores de dados) {#gdpr-readiness-guidance}
 
 O Audience Manager recomenda ser proativo nas áreas de controle de dados e disponibilidade organizacional. Dessa forma, os dados do seu consumidor são organizados para processos relacionados a solicitações de acesso ou exclusão, suas equipes são habilitadas e capacitadas a gerenciar essas solicitações e os consumidores (Titular dos dados) têm uma experiência positiva e diferenciada com sua marca.
 

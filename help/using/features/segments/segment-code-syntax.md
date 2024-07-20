@@ -10,13 +10,13 @@ exl-id: 64fa6f03-cef9-4187-866f-28c54f45f72e
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '297'
-ht-degree: 10%
+ht-degree: 4%
 
 ---
 
 # Sintaxe de código usada no Editor de expressão de segmentos {#code-syntax-used-in-the-segment-expression-editor}
 
-[!UICONTROL Segment Builder] permite criar regras de características para um segmento usando um editor de código. Clique em **[!UICONTROL Segment Expressions (Code View)]** na guia [!UICONTROL Traits] painel para acessar esse recurso.
+[!UICONTROL Segment Builder] permite que você crie regras de características para um segmento usando um editor de código. Clique na guia **[!UICONTROL Segment Expressions (Code View)]** no painel [!UICONTROL Traits] para acessar esse recurso.
 
 ## Sintaxe de código do Construtor de expressões
 
@@ -29,11 +29,11 @@ FREQUENCY([<traitID1>T,<traitID2>T]<Recency Operator><Numeric Value>D)
 
 >[!NOTE]
 >
->Por padrão, [!DNL Boolean] [!UICONTROL OR] as condições se aplicam a várias características *no prazo de* uma expressão.
+>Por padrão, as condições [!DNL Boolean] [!UICONTROL OR] se aplicam a várias características *dentro* de uma expressão.
 
 ### Associar segmentos com operadores booleanos
 
-Para construir grupos de segmentos, coloque a função de frequência entre parênteses e defina a relação *entre* cada expressão com um [!DNL Boolean] operador ([!UICONTROL AND], [!UICONTROL OR], e [!UICONTROL NOT]).
+Para compilar grupos de segmentos, envolva a função de frequência entre parênteses e defina a relação *entre* cada expressão com um operador [!DNL Boolean] ([!UICONTROL AND], [!UICONTROL OR] e [!UICONTROL NOT]).
 
 ### Parâmetros
 
@@ -44,13 +44,13 @@ Para construir grupos de segmentos, coloque a função de frequência entre par�
 | Nome ou variável | Descrição |
 |---|---|
 | `FREQUENCY` | Um literal que deve preceder a expressão. |
-| ` [`&lt;`traitID`>`T]` | Uma matriz de IDs de característica seguidas pela letra `T`. Separe várias características com uma vírgula. Por exemplo, `[123T, 456T]`. |
-| ` <Recency Operator><Numeric Value>D` | *(Opcional)* Define regras de recenticidade nas características do segmento. A carta `D` indica a recenticidade em dias. |
+| ` [`&lt;`traitID`>`T]` | Uma matriz de IDs de características seguida pela letra `T`. Separe várias características com uma vírgula. Por exemplo, `[123T, 456T]`. |
+| ` <Recency Operator><Numeric Value>D` | *(Opcional)* Define regras de recenticidade nas características do segmento. A letra `D` indica recenticidade em dias. |
 | ` <Frequency Operator><Numeric Value>` | Define regras de frequência nas características no segmento. |
 
 ### Operadores de recenticidade e frequência permitidos
 
-Definir [recenticidade e frequência](../../features/segments/recency-and-frequency.md) intervalos com um operador de comparação e um número inteiro. [!UICONTROL Segment Builder] O usa expressões padrão como &lt; (menor que), > (maior que), == (igual) etc. No entanto, os tipos de operadores permitidos variam ao definir a recenticidade ou a frequência. A tabela abaixo lista os operadores de recenticidade/frequência permitidos.
+Defina intervalos de [recenticidade e frequência](../../features/segments/recency-and-frequency.md) com um operador de comparação e um inteiro. [!UICONTROL Segment Builder] usa expressões padrão como &lt; (menor que), > (maior que), == (igual), etc. No entanto, os tipos de operadores permitidos variam ao definir a recenticidade ou a frequência. A tabela abaixo lista os operadores de recenticidade/frequência permitidos.
 
 <table id="table_2F92617CB472442BA5639E24DB4E43D3"> 
  <thead> 
@@ -80,6 +80,5 @@ Definir [recenticidade e frequência](../../features/segments/recency-and-freque
 >
 >* [Recenticidade e frequência](../../features/segments/recency-and-frequency.md)
 >* [Expressões booleanas no Construtor de características e segmentos](../../reference/boolean-expressions-tsb.md)
->* [Trabalhar com operadores de comparação no TraitBuilder](../../features/traits/trait-comparison-operators.md)
->* [Ordem de operações nas expressões do TraitBuilder](../../features/traits/trait-operator-precedence.md)
-
+>* [Trabalhando com Operadores de Comparação no TraitBuilder](../../features/traits/trait-comparison-operators.md)
+>* [Ordem de operação nas expressões do TraitBuilder](../../features/traits/trait-operator-precedence.md)

@@ -11,25 +11,24 @@ exl-id: db3d1f3b-9a39-4ff7-a301-1236d3b33fc2
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '69'
-ht-degree: 36%
+ht-degree: 0%
 
 ---
 
-# [!DNL API] e [!DNL SDK] Código {#api-and-sdk-code}
+# Código [!DNL API] e [!DNL SDK] {#api-and-sdk-code}
 
 [!DNL API]s e kits de ferramentas que permitem trabalhar programaticamente com o [!DNL Audience Manager].
 
 >[!NOTE]
 >
->Esses recursos não são compatíveis com nossos [!DNL API]s:
+>Estes recursos não são suportados pelo nosso [!DNL API]s:
 >
->* [!UICONTROL General], [!UICONTROL Trend], e [!UICONTROL Interactive] relatórios.
->* Obsoleto [!DNL Tag Insertion Manager] ([!DNL TIM]).
-
+>* Relatórios de [!UICONTROL General], [!UICONTROL Trend] e [!UICONTROL Interactive].
+>* Funcionalidade [!DNL Tag Insertion Manager] ([!DNL TIM]) obsoleta.
 
 Detalhes:
 
-* [Migração de código API do Audience Manager](api-swagger-migration.md)
+* [Migração de código API Audience Manager](api-swagger-migration.md)
 * [APIs de chamada de evento DCS](dcs-intro/dcs-event-calls/dcs-event-calls.md)
 * [DCS APIs para transferências de dados de servidor para servidor](dcs-intro/dcs-s2s/dcs-s2s.md)
 * [Métodos da DCS API](dcs-intro/dcs-api-reference/dcs-api-methods.md)

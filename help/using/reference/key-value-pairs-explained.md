@@ -10,8 +10,8 @@ feature: Reference
 exl-id: de4e6fdb-2d6d-4fed-9255-9438b42b2570
 source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 6%
+source-wordcount: '268'
+ht-degree: 3%
 
 ---
 
@@ -33,7 +33,7 @@ Um par de valor-chave consiste em dois elementos de dados relacionados: uma chav
 
 ## Pares de valor-chave padrão e serializados {#standard-serialized-pairs}
 
-Os destinos aceitam dados de valores-chave no *`standard`* ou *`serialized`* formato. A formatação padrão organiza os dados em pares de valores chave separados. Cada chave é declarada explicitamente, mesmo quando usada novamente para definir um valor diferente. Por outro lado, a formatação serializada condensa vários valores em um conjunto definido por uma única chave. Além disso, em um par serializado, um indicador especial é usado para separar os valores no conjunto de valores chave. Finalmente, valores-chave padrão e serializados podem conter um ou vários valores. A tabela a seguir fornece exemplos de formatos de valor-chave padrão e serial.
+Os destinos aceitam dados de valores-chave no formato *`standard`* ou *`serialized`*. A formatação padrão organiza os dados em pares de valores chave separados. Cada chave é declarada explicitamente, mesmo quando usada novamente para definir um valor diferente. Por outro lado, a formatação serializada condensa vários valores em um conjunto definido por uma única chave. Além disso, em um par serializado, um indicador especial é usado para separar os valores no conjunto de valores chave. Finalmente, valores-chave padrão e serializados podem conter um ou vários valores. A tabela a seguir fornece exemplos de formatos de valor-chave padrão e serial.
 
 | Formatação | Tecla única | Pares de valor-chave |
 |---|---|---|
@@ -44,12 +44,12 @@ Os destinos aceitam dados de valores-chave no *`standard`* ou *`serialized`* for
 
 ## Chaves, delimitadores e separadores {#keys-delimiters-separators}
 
-Ao trabalhar com dados serializados, você deve especificar os caracteres que separam valores *no prazo de* e *entre* os pares chave-valor. Os elementos em pares de valor-chave são definidos da seguinte maneira:
+Ao trabalhar com dados serializados, você deve especificar os caracteres que separam os valores *dentro* e *entre* os pares de valores chave. Os elementos em pares de valor-chave são definidos da seguinte maneira:
 
-* **Chave:** Um identificador exclusivo no par de valor-chave.
-* **Delimitador de valor:** Separa pares de valor-chave individuais.
-* **Separador de valor-chave:** Separa uma chave dos valores em um par de valores chave.
-* **Separador serial:** Separa valores individuais em pares de valores chave serializados.
+* **Chave:** um identificador exclusivo no par chave-valor.
+* **Delimitador de valor:** separa pares de valor-chave individuais.
+* **Separador de valor-chave:** separa uma chave dos valores em um par de valor-chave.
+* **Separador serial:** separa valores individuais em pares de valores chave serializados.
 
 ## Elementos de valor-chave padrão e serializados {#standard-serialized-key-value-elements}
 

@@ -9,8 +9,8 @@ feature: Reporting Reference
 exl-id: 1e6531b2-bb39-4056-9d5e-164f50955f99
 source-git-commit: 3bddd51582f3f8c46908dba5c5ac1938cb480013
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 100%
+source-wordcount: '705'
+ht-degree: 95%
 
 ---
 
@@ -45,7 +45,7 @@ Para ajudar a reduzir a demanda computacional, esses relatórios omitem dados es
 
 **Se eu executar uma campanha de marketing por email, como posso determinar se os usuários redirecionados vêm para o meu site a partir dessa campanha ou de outras fontes?**
 
-Anexe uma sequência de consulta específica da campanha ao URL da seção do site que você deseja monitorar. Em seguida, configure uma regra de característica para capturar essa variável. Por exemplo, se o URL passar em uma ID de campanha como essa, `www.test123.com/electronics?campaign=123`, crie uma regra de característica para capturar esses dados da variável `h_referer` com uma regra de característica que procura um cabeçalho como `h_referer = 'campaign=123'`.
+Anexe uma sequência de consulta específica da campanha ao URL da seção do site que você deseja monitorar. Em seguida, configure uma regra de característica para capturar essa variável. Por exemplo, se a URL passar em uma ID de campanha como esta, `www.test123.com/electronics?campaign=123`, crie uma regra de característica para capturar esses dados da variável `h_referer` com uma regra de característica que procura um cabeçalho como `h_referer = 'campaign=123'`.
 
 <br> 
 

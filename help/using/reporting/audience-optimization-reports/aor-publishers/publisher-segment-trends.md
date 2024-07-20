@@ -9,8 +9,8 @@ feature: Audience Optimization Reports
 exl-id: 1fdca05a-b661-4875-88d7-b0893e2ca08f
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 2%
+source-wordcount: '537'
+ht-degree: 0%
 
 ---
 
@@ -24,31 +24,31 @@ Compare as tendências e o volume das métricas selecionadas para obter uma imag
 
 ## Caso de uso {#use-cases}
 
-Use o [!UICONTROL Segment Trend] relatório para validar o desempenho de um segmento ao longo do tempo e apontar tendências com base no desempenho ou na escala forte.
+Use o relatório [!UICONTROL Segment Trend] para validar o desempenho de um segmento ao longo do tempo e apontar tendências com base no desempenho ou na escala forte.
 
-Com esse relatório, você pode entender quais de suas propriedades da Web mostram um aumento decrescente ou com falha e solucionar problemas, conforme necessário. Este relatório é a próxima etapa depois de identificar o público-alvo de interesse na [!UICONTROL Segment Performance] relatório, para garantir que o desempenho forte ou ruim que você viu no [!UICONTROL Segment Performance] é consistente ao longo do tempo.
+Com esse relatório, você pode entender quais de suas propriedades da Web mostram um aumento decrescente ou com falha e solucionar problemas, conforme necessário. Este relatório é a próxima etapa depois de identificar o público-alvo de interesse no relatório [!UICONTROL Segment Performance], para garantir que o desempenho forte ou ruim observado na guia [!UICONTROL Segment Performance] seja consistente ao longo do tempo.
 
 ## Uso do Relatório de Tendência de Segmento {#using-the-report}
 
-Alternar entre **[!UICONTROL Mapped]** e **[!UICONTROL Unmapped]** para selecionar segmentos mapeados para um destino ou não. Selecionar **[!UICONTROL All]** para incluir todos os segmentos no relatório.
+Alterne entre **[!UICONTROL Mapped]** e **[!UICONTROL Unmapped]** para selecionar segmentos que estão mapeados para um destino ou não. Selecione **[!UICONTROL All]** para incluir todos os seus segmentos no relatório.
 
-Ajuste a janela retrospectiva com a **[!UICONTROL Date Through]** controle deslizante.
+Ajuste a janela retrospectiva com o controle deslizante **[!UICONTROL Date Through]**.
 
-Clique em qualquer um dos segmentos na **[!UICONTROL Date Through]** controle deslizante para ativar a opção para manter somente esse segmento no relatório ou excluí-lo.
+Clique em qualquer um dos segmentos abaixo do controle deslizante **[!UICONTROL Date Through]** para exibir a opção para manter somente esse segmento no relatório ou excluí-lo.
 
-Use o **[!UICONTROL Line Item]** para selecionar as propriedades no portfólio para as quais deseja retornar informações.
+Use a caixa suspensa **[!UICONTROL Line Item]** para selecionar as propriedades no portfólio para as quais deseja retornar informações.
 
-No **[!UICONTROL Segment Data Source]** selecione as fontes de dados que contêm os segmentos que você deseja ver no relatório.
+Na caixa suspensa **[!UICONTROL Segment Data Source]**, selecione as fontes de dados que contêm os segmentos que você deseja ver no relatório.
 
-Use o **[!UICONTROL Segment]** para selecionar quais segmentos você deseja ver no relatório.
+Use a caixa suspensa **[!UICONTROL Segment]** para selecionar quais segmentos você deseja ver no relatório.
 
 >[!IMPORTANT]
 >
->Ao ativar [!UICONTROL Audience Optimization for Publishers], você deve incluir metadados descritivos para [!UICONTROL Line Item] IDs, conforme descrito na Etapa 3 do [Importação de arquivos de dados do Google Ad Manager (antigo DFP) para o Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ao fazer isso, você garante que o relatório detalhe a propriedade da Web como [!UICONTROL Line Item] em vez de [!UICONTROL Line Item] ID.
+>Ao habilitar [!UICONTROL Audience Optimization for Publishers], você deve incluir metadados descritivos para [!UICONTROL Line Item] IDs, conforme descrito na Etapa 3 de [Importar arquivos de dados do Google Ad Manager (antigo DFP) para o Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ao fazer isso, você garante que o relatório detalhe a propriedade da Web como [!UICONTROL Line Item] em vez da ID [!UICONTROL Line Item].
 
 ## Interpretação dos resultados {#interpreting-results}
 
-A variável [!UICONTROL Segment Trend] O relatório retorna dados em um gráfico de linhas somente para um intervalo de 14 dias. Neste exemplo, o relatório mostra tendências de impressão e click-through para um conjunto de segmentos mapeados e não mapeados.
+O relatório [!UICONTROL Segment Trend] retorna dados em um gráfico de linhas somente para um intervalo de 14 dias. Neste exemplo, o relatório mostra tendências de impressão e click-through para um conjunto de segmentos mapeados e não mapeados.
 
 Passe o mouse sobre qualquer linha para obter mais informações sobre essa tendência de segmento específica. Consulte as descrições para obter as informações adicionais na tabela abaixo do relatório de amostra.
 
@@ -71,7 +71,7 @@ Passe o mouse sobre qualquer linha para obter mais informações sobre essa tend
    <td colname="col2"> <p>O identificador exclusivo deste segmento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Item da linha</span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Item de linha</span> </p> </td> 
    <td colname="col2"> <p>A propriedade da Web para a qual você está vendo este relatório. </p> </td> 
   </tr> 
   <tr> 
@@ -84,10 +84,10 @@ Passe o mouse sobre qualquer linha para obter mais informações sobre essa tend
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> CTR</span> </p> </td> 
-   <td colname="col2"> <p>Índice de click-through. Essa métrica retransmite a porcentagem de impressões seguida de cliques. Divida os cliques por impressões para obter essa métrica. </p> </td> 
+   <td colname="col2"> <p>Taxa de cliques. Essa métrica retransmite a porcentagem de impressões seguida de cliques. Divida os cliques por impressões para obter essa métrica. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Únicos do segmento</span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Segmentos únicos</span> </p> </td> 
    <td colname="col2"> <p>O número de membros do segmento nos últimos 30 dias. </p> </td> 
   </tr> 
  </tbody> 

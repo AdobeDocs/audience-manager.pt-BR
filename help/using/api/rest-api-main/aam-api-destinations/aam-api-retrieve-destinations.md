@@ -10,13 +10,13 @@ exl-id: c0850e71-7830-4635-b773-e9a28ab5bd68
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '332'
-ht-degree: 7%
+ht-degree: 2%
 
 ---
 
 # Retornar um destino por ID de destino {#return-a-destination-by-destination-id}
 
-A `GET` que retorna o destino para o item especificado `destinationId`.
+Um método `GET` que retorna o destino do `destinationId` especificado.
 
 <!-- r_get_all_destinations_order_id.xml -->
 
@@ -26,7 +26,7 @@ A `GET` que retorna o destino para o item especificado `destinationId`.
 
 >[!NOTE]
 >
->Para preencher o `mappings` campo de aprovação `includeMappings=true` no URL.
+>Para preencher a passagem de campo `mappings` em `includeMappings=true` na URL.
 
 ## Resposta
 
@@ -58,7 +58,7 @@ A `GET` que retorna o destino para o item especificado `destinationId`.
 
 ## Retornar todos os destinos {#return-all-destinations}
 
-A `GET` que retorna todos os destinos para o parceiro especificado.
+Um método `GET` que retorna todos os destinos para o parceiro especificado.
 
 <!-- r_get_all_destinations.xml -->
 
@@ -68,14 +68,13 @@ A `GET` que retorna todos os destinos para o parceiro especificado.
 
 >[!NOTE]
 >
->* *(Opcional)* Passar em `containsSegment=<sid>` para retornar uma matriz de todos os destinos mapeados para o segmento especificado. Por exemplo, sua query pode ser semelhante a esta: `GET .../destinations/?containsSegment=4321`.
+>* *(Opcional)* Transmita em `containsSegment=<sid>` para retornar uma matriz de todos os destinos mapeados para o segmento especificado. Por exemplo, sua consulta pode ser semelhante a esta: `GET .../destinations/?containsSegment=4321`.
 >
 >* Não retorna o objeto de destino completo. Obtenha o destino por ordem de dados se precisar de um objeto totalmente preenchido.
 
-
 ### Parâmetros de consulta opcionais
 
-Você pode usar esses parâmetros opcionais com métodos de API que retornam *all* propriedades de um objeto. Defina essas opções na string de solicitação ao transmitir essa consulta para o [!DNL API]. Consulte [Parâmetros opcionais](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+Você pode usar esses parâmetros opcionais com métodos de API que retornam *todas* as propriedades de um objeto. Defina essas opções na cadeia de caracteres de solicitação ao passar essa consulta para o [!DNL API]. Consulte [Parâmetros Opcionais](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -95,7 +94,7 @@ Você pode usar esses parâmetros opcionais com métodos de API que retornam *al
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> sortBy</code> </td>
-   <td colname="col2">Classifica e retorna resultados de acordo com os valores especificados <span class="keyword"> JSON</span> propriedade. </td>
+   <td colname="col2">Classifica e retorna resultados de acordo com a propriedade <span class="keyword"> JSON</span> especificada. </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> descending</code> </td>
@@ -142,7 +141,7 @@ Você pode usar esses parâmetros opcionais com métodos de API que retornam *al
 
 ## Retornar um mapeamento de destino com a ID de mapeamento {#return-dest-mapping-id}
 
-A `GET` que retorna um mapeamento de destino individual com base na variável `mappingId`.
+Um método `GET` que retorna um mapeamento de destino individual com base no `mappingId`.
 
 <!-- r_get_destination_trait_data_order.xml -->
 
@@ -179,7 +178,7 @@ A `GET` que retorna um mapeamento de destino individual com base na variável `m
 
 ## Mapeamentos de destino de retorno {#return-dest-mappings}
 
-A `GET` método que retorna os mapeamentos para um destino.
+Um método `GET` que retorna os mapeamentos para um destino.
 
 <!-- r_get_destination_mappings.xml -->
 
@@ -253,7 +252,7 @@ A `GET` método que retorna os mapeamentos para um destino.
 
 ## Retornar todas as plataformas de destino disponíveis {#return-dest-platforms}
 
-A `GET` que retorna todas as plataformas de dispositivo disponíveis para destinos.
+Um método `GET` que retorna todas as plataformas de dispositivo disponíveis para destinos.
 
 <!-- r_get_dest_platforms.xml -->
 
@@ -271,7 +270,7 @@ BROWSER, ANDROID, iOS, ALL
 
 ## Retornar Histórico de Trabalhos de Destino S2S e S2S em Massa {#return-job-history}
 
-A `GET` método que retorna a saída [!UICONTROL Server-to-Server] ( [!UICONTROL S2S]) e em massa [!UICONTROL S2S] informações do histórico do trabalho de destino.
+Um método `GET` que retorna informações de histórico de trabalho de destino [!UICONTROL Server-to-Server] de saída ( [!UICONTROL S2S]) e em massa [!UICONTROL S2S].
 
 <!-- r_get_job_history.xml -->
 

@@ -10,7 +10,7 @@ exl-id: 036d16c7-1546-4539-a318-455b98e10026
 source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
 source-wordcount: '364'
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ Rótulos de cabeçalho de coluna definidos.
 
 >[!NOTE]
 >
->[Permissões de grupo RBAC](../../features/administration/administration-overview.md) atribuído no [!DNL Audience Manager] A interface do usuário do é respeitada na [!UICONTROL Bulk Management Tools].
+>As [permissões do grupo RBAC](../../features/administration/administration-overview.md) atribuídas na interface do usuário [!DNL Audience Manager] são honradas no [!UICONTROL Bulk Management Tools].
 
 <table id="table_2C2BC2FB3EFC443C9A5AE18EFC6FABFD"> 
  <thead> 
@@ -42,11 +42,11 @@ Rótulos de cabeçalho de coluna definidos.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> dataSourceId</span> </p> </td> 
-   <td colname="col2"> <p>A ID de um <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> fonte de dados</a> você deseja retornar ou atribuir em massa. </p> </td> 
+   <td colname="col2"> <p>A ID de uma fonte de dados <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"></a> que você deseja retornar ou atribuir em massa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="term"> dedSignalId</span> </p> </td> 
-   <td colname="col2"> <p>A <a href="../../features/derived-signals.md"> sinal derivado</a> ID. </p> </td> 
+   <td colname="col1"> <p> <span class="term"> derivouSignalId</span> </p> </td> 
+   <td colname="col2"> <p>Um ID </a> de sinal derivado <a href="../../features/derived-signals.md">. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> descrição</span> </p> </td> 
@@ -54,7 +54,7 @@ Rótulos de cabeçalho de coluna definidos.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> destinationId</span> </p> </td> 
-   <td colname="col2"> <p>A ID do <a href="../../features/destinations/destinations.md"> destino</a> que deseja mapear ou excluir. </p> </td> 
+   <td colname="col2"> <p>A ID do <a href="../../features/destinations/destinations.md"> destino</a> que você deseja mapear ou excluir. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> destinationMappingId</span> </p> </td> 
@@ -65,7 +65,7 @@ Rótulos de cabeçalho de coluna definidos.
    <td colname="col2"> <p>A ID do segmento ou pasta de características. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="term"> name</span> </p> </td> 
+   <td colname="col1"> <p> <span class="term"> nome</span> </p> </td> 
    <td colname="col2"> <p>O nome do objeto com o qual você está trabalhando. </p> </td> 
   </tr> 
   <tr> 
@@ -78,31 +78,31 @@ Rótulos de cabeçalho de coluna definidos.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceKey</span> </p> </td> 
-   <td colname="col2"> <p>Os sinais são bits de dados passados para o <span class="keyword"> Audience Manager</span> com base na atividade do usuário. Estes são transmitidos como <a href="../../reference/key-value-pairs-explained.md"> pares de valor-chave</a>. A chave de origem é uma constante que não é alterada. Isso ajuda a categorizar o valor de origem que pode ser alterado. Consulte <a href="../../features/derived-signals.md"> Sinais derivados</a>. </p> </td> 
+   <td colname="col2"> <p>Os sinais são bits de dados passados para <span class="keyword"> Audience Manager</span> com base na atividade do usuário. Eles são transmitidos como <a href="../../reference/key-value-pairs-explained.md"> pares de valor-chave</a>. A chave de origem é uma constante que não é alterada. Isso ajuda a categorizar o valor de origem que pode ser alterado. Consulte <a href="../../features/derived-signals.md"> Sinais derivados</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceValue</span> </p> </td> 
-   <td colname="col2"> <p>O valor de origem é uma variável transmitida como parte a <a href="../../reference/key-value-pairs-explained.md"> par de valor-chave</a>. </p> </td> 
+   <td colname="col2"> <p>O valor de origem é uma variável passada como parte de um <a href="../../reference/key-value-pairs-explained.md"> par de valor-chave</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="term"> startDate</span> </p> </td> 
-   <td colname="col2"> <p>Indica quando um segmento pode começar a ser enviado para um destino. Usos <i>aaaa-mm-dd</i> formato. </p> </td> 
+   <td colname="col1"> <p> <span class="term">startDate</span> </p> </td> 
+   <td colname="col2"> <p>Indica quando um segmento pode começar a ser enviado para um destino. Usa o formato <i>aaaa-mm-dd</i>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="term"> targetKey</span> </p> </td> 
+   <td colname="col1"> <p> <span class="term">targetKey</span> </p> </td> 
    <td colname="col2">A chave usada no sinal derivado. Consulte <a href="../../features/derived-signals.md"> Sinais derivados</a>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="term"> targetValue</span> </p> </td> 
+   <td colname="col1"> <p> <span class="term">targetValue</span> </p> </td> 
    <td colname="col2"> <p>O valor passado com uma chave de sinal derivada. Consulte <a href="../../features/derived-signals.md"> Sinais derivados</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitAlias</span> </p> </td> 
-   <td colname="col2"> <p>Uma ID passada para um destino não baseado em cookie. Para um destino baseado em cookies, essa é a chave em uma <a href="../../reference/key-value-pairs-explained.md"> par de valor-chave</a>. </p> </td> 
+   <td colname="col2"> <p>Uma ID passada para um destino não baseado em cookie. Para um destino baseado em cookie, esta é a chave em um <a href="../../reference/key-value-pairs-explained.md"> par de valor-chave</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitRule / segmentRule</span> </p> </td> 
-   <td colname="col2"> <p>A característica real ou regra de segmento usada para coletar dados. Uma solicitação em massa retorna as regras criadas no <span class="keyword"> Audience Manager</span> com o <a href="../../features/traits/about-trait-builder.md"> construtor de regras de características</a> ou o <a href="../../features/segments/segment-builder.md"> construtor de regras de segmento</a>. Também é possível usar essas ferramentas para criar regras e aplicá-las em massa ao atualizar um segmento ou característica. </p> <p>Consulte também, <a href="../../reference/bulk-management-tools/bulk-rules.md"> Criar ou atualizar regras de características e regras de segmento</a>. </p> </td> 
+   <td colname="col2"> <p>A característica real ou regra de segmento usada para coletar dados. Uma solicitação em massa retorna as regras criadas em <span class="keyword"> Audience Manager</span> com o <a href="../../features/traits/about-trait-builder.md"> construtor de regras de características</a> ou o <a href="../../features/segments/segment-builder.md"> construtor de regras de segmentos</a>. Também é possível usar essas ferramentas para criar regras e aplicá-las em massa ao atualizar um segmento ou característica. </p> <p>Consulte também <a href="../../reference/bulk-management-tools/bulk-rules.md"> Criar ou atualizar regras de características e regras de segmento</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitType</span> </p> </td> 
@@ -119,7 +119,7 @@ Rótulos de cabeçalho de coluna definidos.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> valueAlias</span> </p> </td> 
-   <td colname="col2"> <p>A chave em uma <a href="../../reference/key-value-pairs-explained.md"> par de valor-chave</a> enviado para um destino de cookie. </p> </td> 
+   <td colname="col2"> <p>A chave em um <a href="../../reference/key-value-pairs-explained.md"> par de valor-chave</a> passada para um destino de cookie. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -10,25 +10,25 @@ exl-id: 5f97a326-4840-4350-bbe8-bc8ce32b0a2e
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 8%
+ht-degree: 0%
 
 ---
 
 # Criptografia PGP de arquivo para tipos de dados de entrada{#file-pgp-encryption-for-inbound-data-types}
 
-É possível criptografar arquivos de dados com [!DNL PGP] ao enviá-los para o Audience Manager.
+Você pode criptografar arquivos de dados com criptografia [!DNL PGP] ao enviá-los para o Audience Manager.
 
 <!-- c_encryption.xml -->
 
 >[!IMPORTANT]
 >
->[!DNL PGP] A criptografia inclui compactação de arquivo. Ao enviar [!DNL PGP] os arquivos de entrada criptografados garantem que você não [compactar](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) eles usando o gzip (`.gz`).
+>A criptografia [!DNL PGP] inclui compactação de arquivo. Ao enviar [!DNL PGP] arquivos de entrada criptografados, certifique-se de não [compactá-los](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) usando gzip (`.gz`).
 >
->[!DNL PGP] arquivos de entrada criptografados que também são [compactado](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) são inválidos no Audience Manager.
+>[!DNL PGP] arquivos de entrada criptografados que também estão [compactados](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) são inválidos em Audience Manager.
 
 Siga as etapas descritas abaixo para criptografar arquivos de dados de entrada.
 
-1. Baixe o [chave pública Audience Manager](./assets/adobe_pgp.pub).
+1. Baixe a [chave pública de Audience Manager](./assets/adobe_pgp.pub).
 2. Importe a chave pública para o armazenamento confiável.
 
    Por exemplo, se você usar [!DNL GPG], o comando pode ser semelhante ao seguinte:
@@ -51,8 +51,8 @@ Siga as etapas descritas abaixo para criptografar arquivos de dados de entrada.
 
    `gpg --recipient "Adobe AudienceManager" --cipher-algo AES --output $output.gpg --encrypt $inbound`
 
-   Todos os dados criptografados devem usar `.pgp` ou `.gpg` como a extensão do arquivo (por exemplo, `ftp_dpm_100_123456789.sync.pgp` ou `ftp_dpm_100_123456789.overwrite.gpg`).
+   Todos os dados criptografados devem usar `.pgp` ou `.gpg` como extensão de arquivo (por exemplo, `ftp_dpm_100_123456789.sync.pgp` ou `ftp_dpm_100_123456789.overwrite.gpg`).
 
    >[!NOTE]
    >
-   >O Audience Manager suporta apenas o [!DNL Advanced Encryption Standard (AES)] algoritmo de criptografia de dados. O Audience Manager suporta qualquer tamanho de chave.
+   >O Audience Manager dá suporte apenas ao algoritmo de criptografia de dados [!DNL Advanced Encryption Standard (AES)]. O Audience Manager suporta qualquer tamanho de chave.

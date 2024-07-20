@@ -10,37 +10,37 @@ exl-id: eaac3908-75ab-42d2-93bd-e8979f8b2427
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '104'
-ht-degree: 6%
+ht-degree: 0%
 
 ---
 
 # Excluir destinos {#delete-destinations}
 
-`DELETE` e `POST` métodos que permitem remover destinos e mapeamentos de segmentos.
+Métodos `DELETE` e `POST` que permitem remover destinos e mapeamentos de segmentos.
 
 <!-- r_delete_destinations_all.xml -->
 
 ## Excluir um destino
 
-A `DELETE` que remove um destino.
+Um método `DELETE` que remove um destino.
 
 >[!NOTE]
 >
 >Você deve remover todos os mapeamentos de segmentos antes de excluir um destino.
 
 * Solicitação: `DELETE https://api.demdex.com/v1/destinations/`*`<destinationId>`*
-* Resposta: Código de retorno `204 No Content` se for bem-sucedido.
+* Resposta: Retorna o código `204 No Content` em caso de sucesso.
 
 ## Destinos de exclusão em massa
 
-Remover vários destinos com este `POST` método. Transmitir IDs de destino ( `destinationId`) com uma matriz no corpo da solicitação.
+Remova vários destinos com este método `POST`. Transmita IDs de destino ( `destinationId`) com uma matriz no corpo da solicitação.
 
 * Solicitação: `POST https://api.demdex.com/v1/destinations/bulk-delete/`
-* Resposta: Código de retorno `204 No Content` se for bem-sucedido.
+* Resposta: Retorna o código `204 No Content` em caso de sucesso.
 
 ## Excluir mapeamentos de destino por ID de mapeamento de segmento
 
-A `POST` método que remove os mapeamentos de destino de acordo com a ID de segmento especificada.
+Um método `POST` que remove mapeamentos de destino de acordo com a ID de segmento especificada.
 
 * Solicitação: `DELETE https://api.demdex.com/v1/destinations/` *`<destinationId>`*`/segments/`*`<mappingId>`*
-* Resposta: Código de retorno `204 No Content` se for bem-sucedido.
+* Resposta: Retorna o código `204 No Content` em caso de sucesso.

@@ -10,20 +10,19 @@ feature: Traits
 exl-id: 6c1ee14c-6f78-4e45-9b88-24ace8400079
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 2%
+source-wordcount: '250'
+ht-degree: 0%
 
 ---
 
 # Visualizador de perfil do visitante {#visitor-profile-viewer}
 
-Use o [!UICONTROL Visitor Profile Viewer] para exibir o estado atual de um perfil de usuário para o navegador atual, incluindo suas características e segmentos. Para cada característica, é possível visualizar sua [!UICONTROL SID], nome, detalhes sobre como as características do visitante foram realizadas (primárias ou de terceiros), a data de realização e a frequência de realizações. Para cada segmento, é possível visualizar suas [!UICONTROL SID], nome e a data de associação do segmento. Você também pode visualizar o perfil do visitante para outra ID de perfil do Audience Manager ([!UICONTROL UUID]). A variável [!UICONTROL Visitor Profile Viewer] O é útil para fins de solução de problemas.
+Use o [!UICONTROL Visitor Profile Viewer] para exibir o estado atual de um perfil de usuário para o navegador atual, incluindo suas características e segmentos. Para cada característica, você pode visualizar sua [!UICONTROL SID], nome, detalhes sobre como as características do visitante foram realizadas (próprias ou de terceiros), a data de realização e a frequência de realizações. Para cada segmento, você pode visualizar seu [!UICONTROL SID], seu nome e a data de associação do segmento. Você também pode exibir o perfil do visitante para outra ID de perfil de Audience Manager ([!UICONTROL UUID]). O [!UICONTROL Visitor Profile Viewer] é útil para fins de solução de problemas.
 
 >[!NOTE]
 >
->* O acesso exige [!UICONTROL Administrator] permissões.
+>* O acesso requer [!UICONTROL Administrator] permissões.
 >* Há um atraso de 24 horas antes de as informações sobre segmentos realizados e características integradas serem exibidas na interface do usuário do.
-
 
 <!-- 
 Traits that are not part of a segment will not appear in the
@@ -32,12 +31,12 @@ Traits that are not part of a segment will not appear in the
 
 1. Clique em **[!UICONTROL Tools]** > **[!UICONTROL Visitor Profile Viewer]**.
 
-1. *(Opcional)* Clique no nome da característica para exibi-la na caixa [!UICONTROL Trait Builder].
+1. *(Opcional)* Clique no nome da característica para exibi-la em [!UICONTROL Trait Builder].
 
    Para obter mais informações, consulte [Características](../features/traits/trait-details-page.md).
 
-1. *(Opcional)* Clique no nome do segmento para exibi-lo na [!UICONTROL Segment Builder].
+1. *(Opcional)* Clique no nome do segmento para exibi-lo em [!UICONTROL Segment Builder].
 
    Para obter mais informações, consulte [Segmentos](../features/segments/segments-purpose.md).
 
-1. *(Condicional)* No **[!UICONTROL UUID]** especifique outra ID de perfil de Audience Manager e clique em **[!UICONTROL Refresh]** para visualizar as características e os segmentos desse usuário.
+1. *(Condicional)* Na caixa **[!UICONTROL UUID]**, especifique outra ID de perfil de Audience Manager e clique em **[!UICONTROL Refresh]** para exibir as características e os segmentos desse usuário.

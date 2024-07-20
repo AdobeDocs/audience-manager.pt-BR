@@ -3,18 +3,18 @@ description: O Audience Manager recebe uma enorme quantidade de dados todos os d
 seo-description: Audience Manager receives a tremendous amount of data every day. This affects the amount of time it takes to process your data and generate report results. The content in this section describes how these time intervals affect your Audience Manager account. Also, the time frames and schedules described here are general guidelines only. These schedules do not constitute Service-Level Agreements (SLAs) or commitments related to data delivery. Adobe reserves the right to change the time frames and schedules at any time without notice.
 seo-title: How Data Delivery and File Processing Times Affect Reports
 solution: Audience Manager
-title: Como o delivery de dados e os tempos de processamento de arquivos afetam os relatórios
+title: Como a entrega de dados e os tempos de processamento de arquivos afetam os relatórios
 uuid: 4b975512-f67e-4749-a7ef-168415597682
 feature: Reference
 exl-id: d13102c3-fd1b-4c31-8003-9fdc0df36838
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 4%
+source-wordcount: '605'
+ht-degree: 1%
 
 ---
 
-# Como o delivery de dados e os tempos de processamento de arquivos afetam os relatórios{#how-data-delivery-and-file-processing-times-affect-reports}
+# Como a entrega de dados e os tempos de processamento de arquivos afetam os relatórios{#how-data-delivery-and-file-processing-times-affect-reports}
 
 O Audience Manager recebe uma enorme quantidade de dados todos os dias. Isso afeta o tempo necessário para processar seus dados e gerar resultados de relatório. O conteúdo desta seção descreve como esses intervalos de tempo afetam sua conta Audience Manager. Além disso, os cronogramas e cronogramas descritos aqui são somente diretrizes gerais. Esses cronogramas não constituem Contratos de nível de serviço (SLAs) nem compromissos relacionados à entrega de dados. A Adobe reserva-se o direito de alterar os cronogramas e horários a qualquer momento sem aviso prévio.
 
@@ -31,12 +31,12 @@ A tabela a seguir lista e descreve os intervalos de tempo em nossos relatórios 
 
 | Tipo de dados | Descrição |
 |---|---|
-| Dados em tempo real | Os números em tempo real de hoje são para as horas 00:00 a 23:59:59 UTC de ontem. |
-| Dados de Relatório Geral | Os dados na variável [Relatórios gerais](../reporting/general-reports.md#general-reports-overview) depende da conclusão bem-sucedida de outros processos de trabalho e da quantidade de dados recebidos para um determinado dia. Na maioria das vezes, [!UICONTROL General Report] Os dados do devem ser atualizados todos os dias até às 18h00 (UTC). |
+| Dados em tempo real | Os números em tempo real para hoje são para as horas 00:00 a 23:59:59 UTC de ontem. |
+| Dados de Relatório Geral | Os dados nos [Relatórios Gerais](../reporting/general-reports.md#general-reports-overview) dependem da conclusão bem-sucedida de outros processos de trabalho e da quantidade de dados recebidos em um dia específico. Na maioria das vezes, os dados do [!UICONTROL General Report] devem ser atualizados todos os dias às 18:00 UTC. |
 
 ## Transferências de arquivos de entrada e saída {#inbound-outbound-file-transfers}
 
-[!DNL Audience Manager] processa e envia informações de entrada e saída [!UICONTROL Server-to-Server (S2S)] transferências de arquivos de acordo com os agendamentos descritos nesta seção. Dadas essas programações e os tempos limite, você pode ver discrepâncias com novos segmentos entre os números de segmento em tempo real e total.
+O [!DNL Audience Manager] processa e envia transferências de arquivos [!UICONTROL Server-to-Server (S2S)] de entrada e saída de acordo com os agendamentos descritos nesta seção. Dadas essas programações e os tempos limite, você pode ver discrepâncias com novos segmentos entre os números de segmento em tempo real e total.
 
 | Tipo de arquivo | Descrição |
 |---|---|
@@ -47,4 +47,3 @@ A tabela a seguir lista e descreve os intervalos de tempo em nossos relatórios 
 >[!MORELIKETHIS]
 >
 >* [Perguntas frequentes sobre assimilação de dados de entrada do cliente](../faq/faq-inbound-data-ingestion.md)
-

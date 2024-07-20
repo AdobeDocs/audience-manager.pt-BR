@@ -10,13 +10,13 @@ exl-id: ff2d9ff6-7d5b-4a0d-b831-5d9bc79b32a1
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '223'
-ht-degree: 11%
+ht-degree: 4%
 
 ---
 
 # Formatação de pares de valores-chave em chamadas DCS {#formatting-key-value-pairs-in-dcs-calls}
 
-Ao fazer uma chamada, a variável [!DNL DCS] aceita dados de valores-chave em formato padrão ou serializado. Consulte esta seção para obter informações sobre como formatar dados de valor-chave padrão e serializados.
+Ao fazer uma chamada, o [!DNL DCS] aceita dados de valores-chave em formato padrão ou serializado. Consulte esta seção para obter informações sobre como formatar dados de valor-chave padrão e serializados.
 
 ## Pares de valor-chave padrão e serializados {#standard-serialized}
 
@@ -71,6 +71,5 @@ Com pares de valores chave serializados, você deve especificar os marcadores qu
 >[!MORELIKETHIS]
 >
 >* [Enviar dados para o DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md)
->* [Prefixos de valores-chave e variáveis compatíveis com o DCS](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md)
+>* [Prefixos e Variáveis de Valor-Chave com Suporte do DCS](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md)
 >* [Explicação dos pares de valor-chave](../../../reference/key-value-pairs-explained.md)
-

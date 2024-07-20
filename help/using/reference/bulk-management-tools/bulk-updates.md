@@ -11,7 +11,7 @@ exl-id: ef01c7d0-5af1-4db7-9859-1087c1fef684
 source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -31,25 +31,25 @@ t_bulk_updates.xml
 
 >[!NOTE]
 >
->[Permissões de grupo RBAC](../../features/administration/administration-overview.md) atribuído no [!DNL Audience Manager] A interface do usuário do é respeitada na [!UICONTROL Bulk Management Tools].
+>As [permissões do grupo RBAC](../../features/administration/administration-overview.md) atribuídas na interface do usuário [!DNL Audience Manager] são honradas no [!UICONTROL Bulk Management Tools].
 
-Para fazer atualizações em massa, abra o [!UICONTROL Bulk Management Tools] planilha e:
+Para fazer atualizações em massa, abra a planilha [!UICONTROL Bulk Management Tools] e:
 
-1. Clique em **[!UICONTROL Headers]** e copie os cabeçalhos de atualização do item que deseja editar.
-2. Clique em **[!UICONTROL Update]** guia.
+1. Clique na guia **[!UICONTROL Headers]** e copie os cabeçalhos de atualização para o item que deseja editar.
+2. Clique na guia **[!UICONTROL Update]**.
 3. Cole os cabeçalhos de atualização na primeira linha da planilha de atualização. Observe o seguinte:
 
    * Ao atualizar uma pasta, todos os cabeçalhos são obrigatórios.
    * Ao atualizar segmentos ou características, você só precisa da ID de segmento (SID) e do elemento de cabeçalho que precisa ser alterado. Excluir cabeçalhos não utilizados.
 
 4. Cole ou digite os dados que deseja alterar em uma coluna correspondente com base no rótulo do cabeçalho.
-5. Na barra de ferramentas da planilha, clique em um botão de atualização que corresponda ao item que você está atualizando.
-Essa ação abre a variável [!UICONTROL Account Information] caixa de diálogo.
+5. Na barra de ferramentas da planilha, clique em um botão de atualização que corresponda à        item que você está atualizando.
+Esta ação abre a caixa de diálogo [!UICONTROL Account Information].
 
-6. Forneça os [informações de logon](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) e clique em **[!UICONTROL Submit]**.
+6. Forneça as [informações de logon](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) necessárias e clique em **[!UICONTROL Submit]**.
 
-   A planilha cria uma [!UICONTROL Results] coluna. A variável [!UICONTROL Results] A coluna retorna a resposta JSON para uma operação bem-sucedida. Consulte a [REST APIs](../../api/rest-api-main/rest-api-main.md) para obter exemplos. Antes de inserir dados, sua planilha de atualização em massa deve ser semelhante ao seguinte:
+   A planilha cria uma coluna [!UICONTROL Results]. A coluna [!UICONTROL Results] retorna a resposta JSON para uma operação bem-sucedida. Consulte as [REST APIs](../../api/rest-api-main/rest-api-main.md) para obter exemplos. Antes de inserir dados, sua planilha de atualização em massa deve ser semelhante ao seguinte:
 
 ![](assets/update.png)
 
-Se a atualização em massa retornar um erro ou falhar, consulte [Solução de problemas para ferramentas de gerenciamento em massa](../../reference/bulk-management-tools/bulk-troubleshooting.md).
+Se a atualização em massa retornar um erro ou falhar, consulte [Solução de problemas das Ferramentas de Gerenciamento em Massa](../../reference/bulk-management-tools/bulk-troubleshooting.md).

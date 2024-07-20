@@ -7,8 +7,8 @@ feature: Data Governance & Privacy
 exl-id: 8c976d1e-f4ba-4892-bd68-d4e74bdb4d9b
 source-git-commit: ae074cdeb8dcf6f6a224c2ede5f3bb704b28f49f
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 14%
+source-wordcount: '509'
+ht-degree: 12%
 
 ---
 
@@ -27,15 +27,15 @@ Seguindo os princípios de &quot;Privacidade por design&quot;, o Adobe Audience 
 * Antes da ofuscação: `255.255.255.255`
 * Após ofuscação: `255.255.255.0`
 
-Consulte também Coleta de endereços IP e Ofuscação de endereço IP em nossa [seção Privacidade de dados](/help/using/overview/data-security-and-privacy/data-privacy.md).
+Consulte também Coleta e ofuscação de endereço IP na nossa [seção Privacidade de dados](/help/using/overview/data-security-and-privacy/data-privacy.md).
 
 ### Precedência de ofuscação de IP {#precedence}
 
-[Ofuscação de IP em nível de fluxo de dados](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#create) tem precedência sobre qualquer opção de ofuscação de IP definida no Audience Manager e é aplicada a todos os endereços IP. Qualquer pesquisa de geolocalização feita pelo Audience Manager é afetada pelo nível de fluxo de dados [!UICONTROL IP obfuscation] opção. Uma pesquisa de geolocalização no Audience Manager, com base em um IP totalmente ofuscado, resultará em uma região desconhecida e todos os segmentos baseados nos dados de geolocalização resultantes não serão realizados.
+[Ofuscação de IP em nível de sequência de dados](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#create) tem prioridade sobre qualquer opção de ofuscação de IP definida no Audience Manager e é aplicada a todos os endereços IP. Qualquer pesquisa de geolocalização feita por Audience Manager é afetada pela opção [!UICONTROL IP obfuscation] no nível de sequência de dados. Uma pesquisa de geolocalização no Audience Manager, com base em um IP totalmente ofuscado, resultará em uma região desconhecida e todos os segmentos baseados nos dados de geolocalização resultantes não serão realizados.
 
 ## Requisitos de ofuscação de endereço IP {#ip-obfuscation-requirements}
 
-A ofuscação de endereço IP está disponível somente para contas de administrador do Audience Manager. Consulte [Criar usuários](/help/using/features/administration/administration-overview.md#create-users) para entender como atribuir privilégios de administrador a um usuário.
+A ofuscação de endereço IP está disponível somente para contas de administrador do Audience Manager. Consulte [Criar Usuários](/help/using/features/administration/administration-overview.md#create-users) para entender como atribuir privilégios de administrador a um usuário.
 
 >[!NOTE]
 >
@@ -45,18 +45,18 @@ A ofuscação de endereço IP está disponível somente para contas de administr
 
 Siga as etapas abaixo para configurar a ofuscação do endereço IP.
 
-1. Efetue login no Audience Manager com uma conta de administrador e vá para **Administração > Privacidade**.
+1. Faça logon no Audience Manager com uma conta de administrador e vá para **Administração > Privacidade**.
 2. Escolha o tipo de ofuscação de IP que deseja usar.
-   1. **Ofuscar todos os endereços IP:** selecione essa opção para que o Audience Manager ofusque o último octeto de todos os endereços IP de visitantes, independentemente da região de onde eles são originários.
-   2. **Ofuscar endereços IP de países específicos:** selecione essa opção para fazer com que o Audience Manager ofusque o último octeto de endereços IP de visitantes de países específicos. Use o **Lista de países** ou o correspondente **Pesquisar** para localizar os países para ativar a ofuscação de IP e clique no ícone + para adicioná-los à **Selecionado para ofuscação** lista. Depois de adicionar todos os países necessários à **Selecionado para ofuscação** clique em **Salvar**.
+   1. **Ofuscar todos os endereços IP:** selecione esta opção para fazer com que o Audience Manager ofusque o último octeto de todos os endereços IP de visitantes, independentemente da região de onde eles são originários.
+   2. **Ofuscar endereços IP para países específicos:** selecione esta opção para fazer com que o Audience Manager ofusque o último octeto de endereços IP de visitantes para países específicos. Use o campo **Lista de Países** ou o campo **Pesquisa** correspondente para localizar os países para os quais habilitar a ofuscação de IP e clique no ícone + para adicioná-los à lista **Selecionados para Ofuscação**. Depois de adicionar todos os países necessários à lista **Selecionado para ofuscação**, clique em **Salvar**.
 
 ![](assets/ip-obfuscation.png)
 
 ## Desativar ofuscação de endereço IP {#disable-ip-obfuscation}
 
-Para desativar a ofuscação de endereço IP globalmente, acesse **Administração > Privacidade**, selecione **Não ofuscar endereços IP** e clique em **Salvar**.
+Para desabilitar a ofuscação de endereço IP globalmente, vá para **Administração > Privacidade**, selecione **Não ofuscar endereços IP** e clique em **Salvar**.
 
-Para desativar a ofuscação de endereço IP para países específicos, encontre os países na **Selecionado para ofuscação** e, em seguida, clique nos respectivos **X** ícone. Clique em **Salvar** quando terminar.
+Para desabilitar a ofuscação de endereço IP para países específicos, localize os países na lista **Selecionado para ofuscação** e clique no ícone **X** correspondente. Clique em **Salvar** quando terminar.
 
 ## Conceitos relacionados {#related-concepts}
 

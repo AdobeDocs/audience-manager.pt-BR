@@ -10,24 +10,24 @@ feature: Traits
 exl-id: cad318ee-93b2-4afa-8a2f-a67b068eec0a
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 7%
+source-wordcount: '356'
+ht-degree: 2%
 
 ---
 
-# Crie[!UICONTROL Rules-Based] ou [!UICONTROL Onboarded Traits] {#create-rules-based-or-onboarded-traits}
+# Criar [!UICONTROL Rules-Based] ou [!UICONTROL Onboarded Traits] {#create-rules-based-or-onboarded-traits}
 
-Descreve as etapas de configuração e os recursos específicos do [!UICONTROL rules-based] e [!UICONTROL onboarded] processo de criação de características.
+Descreve as etapas de configuração e os recursos específicos do processo de criação de características [!UICONTROL rules-based] e [!UICONTROL onboarded].
 
 <!-- c_tb_rules_traits.xml -->
 
 ## Informações básicas para características {#basics}
 
-Entrada [!UICONTROL Trait Builder], o [!UICONTROL Basic Information] permitem criar novos arquivos ou editar arquivos existentes [!UICONTROL traits]. A variável [!UICONTROL Basic Information] as mesmas configurações para [!UICONTROL rules-based], [!UICONTROL onboarded] e [!UICONTROL algorithmic traits]. Para criar um novo [!UICONTROL trait], forneça um nome (evite caracteres especiais), uma [!UICONTROL data source]e selecione um [!UICONTROL storage folder]. Outro [!UICONTROL Basic Information] Os campos são opcionais.
+Em [!UICONTROL Trait Builder], as configurações de [!UICONTROL Basic Information] permitem criar um novo [!UICONTROL traits] ou editar um  existente. As configurações de [!UICONTROL Basic Information] são as mesmas para [!UICONTROL rules-based], [!UICONTROL onboarded] e [!UICONTROL algorithmic traits]. Para criar um novo [!UICONTROL trait], forneça um nome (evite caracteres especiais), um [!UICONTROL data source], e selecione um [!UICONTROL storage folder]. Outros campos [!UICONTROL Basic Information] são opcionais.
 
 <!-- c_tb_basics.xml -->
 
-![create-trait](assets/create-trait.png)
+![criar-característica](assets/create-trait.png)
 
 ### Campos de informações básicas definidos
 
@@ -48,19 +48,19 @@ Entrada [!UICONTROL Trait Builder], o [!UICONTROL Basic Information] permitem cr
        <li id="li_579302FE34B64FE0AE3C751012839229">Hífens </li> 
        <li id="li_44890F738CC64E449CC2545D701ECBC7">Guias </li> 
        <li id="li_C203837501A94342923C99A7DAD1ED61">Símbolo de barra ou barra vertical </li> 
-      </ul> </p> </p> <p>Isso ajuda a reduzir erros de processamento ao configurar um <a href="../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> transferência de arquivo de dados de entrada</a>. </p> </td> 
+      </ul> </p> </p> <p>Isso ajuda a reduzir erros de processamento ao configurar uma <a href="../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> transferência de arquivo de dados de entrada</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> Descrição</span></b> </td> 
+   <td colname="col1"> <b><span class="uicontrol">Descrição</span></b> </td> 
    <td colname="col2"> Algumas palavras para ajudar a descrever o propósito ou a função da característica. Opcional. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> Fonte de dados</span></b> </td> 
+   <td colname="col1"> <b><span class="uicontrol"> Data Source</span></b> </td> 
    <td colname="col2"> Associa a característica a um provedor de dados específico. Obrigatório. <p>Use o primeiro menu suspenso para filtrar entre fontes de dados de Audience Manager, conjuntos de relatórios do Adobe Analytics ou ambos. Em seguida, use o segundo menu suspenso para escolher a fonte de dados.</p><p> Se você não estiver usando conjuntos de relatórios do Adobe Analytics, o seletor de tipo de fonte de dados será desativado e assumirá como padrão apenas as fontes de dados de Audience Manager.</p>  </td> 
   </tr>
    <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Tipo de evento</span></b> </td> 
-   <td colname="col2"> Atribui a característica a um tipo ou categoria, geralmente de acordo com a função (por exemplo, conversão, visitante do site, parceiro, exibição de página etc.). Opcional. <p> Para saber como criar características de conversão, consulte a <a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Vídeo Criação de características de conversão no Audience Manager</a>. </p></td> 
+   <td colname="col2"> Atribui a característica a um tipo ou categoria, geralmente de acordo com a função (por exemplo, conversão, visitante do site, parceiro, exibição de página etc.). Opcional. <p> Para saber como criar características de conversão, consulte o <a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">vídeo Criação de características de conversão no Audience Manager</a>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Código de integração</span></b> </td> 
@@ -71,30 +71,29 @@ Entrada [!UICONTROL Trait Builder], o [!UICONTROL Basic Information] permitem cr
    <td colname="col2"> Observações gerais sobre uma característica. Opcional. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> Armazenar em</span></b> </td> 
+   <td colname="col1"> <b><span class="uicontrol"> Armazenamento Em</span></b> </td> 
    <td colname="col2"> Determina a qual pasta de armazenamento a característica pertence. Obrigatório. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> Categoria de dados</span></b> </td> 
+   <td colname="col1"> <b><span class="uicontrol"> Categoria de Dados</span></b> </td> 
    <td colname="col2"> Classifica as características de acordo com categorias comumente compreendidas. <p>Observação: as características pertencem apenas a uma única categoria. Opcional. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Defina um [!UICONTROL Trait] Intervalo de expiração {#set-expiration-interval}
+## Definir um intervalo de expiração de [!UICONTROL Trait] {#set-expiration-interval}
 
-Entrada [!UICONTROL Trait Builder], o [!UICONTROL Advanced Options] permite definir um tempo de vida útil ([!DNL TTL]) para um [!UICONTROL trait]. [!DNL TTL] define quantos dias um visitante qualificado permanece em uma [!UICONTROL trait] (120 dias é o padrão). Quando definido como 0, [!UICONTROL trait] a associação nunca expira.
+Em [!UICONTROL Trait Builder], o [!UICONTROL Advanced Options] permite que você defina um intervalo ([!DNL TTL]) de tempo de vida para um [!UICONTROL trait]. [!DNL TTL] define quantos dias um visitante qualificado permanece em um [!UICONTROL trait] (120 dias é o padrão). Quando definido como 0, a associação [!UICONTROL trait] nunca expira.
 
 <!-- t_tb_ttl.xml -->
 
-### Defina o TTL para um [!UICONTROL trait]
+### Definir o TTL para um [!UICONTROL trait]
 
-1. Expanda a [!UICONTROL Advanced Options] e insira um número para definir uma [!DNL TTL] valor para o [!UICONTROL trait].
+1. Expanda a seção [!UICONTROL Advanced Options] e insira um número para definir um valor de [!DNL TTL] para [!UICONTROL trait].
 1. Clique em **[!UICONTROL Save]**.
 
    ![](assets/TTL.png)
 
 >[!MORELIKETHIS]
 >
->* [Explicação do tempo de vida do segmento](../../features/traits/segment-ttl-explained.md)
-
+>* [Explicação sobre o tempo de vida do segmento](../../features/traits/segment-ttl-explained.md)

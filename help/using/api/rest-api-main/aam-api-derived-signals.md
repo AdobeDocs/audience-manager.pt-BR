@@ -9,8 +9,8 @@ feature: API
 exl-id: 69f26b7b-ce96-4ec6-9155-4abd7c8338b1
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 15%
+source-wordcount: '88'
+ht-degree: 6%
 
 ---
 
@@ -24,8 +24,7 @@ Para obter mais informações sobre sinais derivados, consulte [Sinais derivados
 
 >[!IMPORTANT]
 >
->Os sinais derivados [!DNL API] Os métodos do foram regravados com [!DNL Swagger] e migrados. Consulte:
+>Os métodos [!DNL API] de sinais derivados foram regravados com [!DNL Swagger] e migrados. Consulte:
 >
 >* [Documentação da API do Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migração de código API do Audience Manager](../../api/api-swagger-migration.md)
-

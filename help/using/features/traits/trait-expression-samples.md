@@ -9,26 +9,26 @@ feature: Traits
 exl-id: 68041d61-7942-4c2f-9e78-f2b2f803ef59
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 10%
+source-wordcount: '193'
+ht-degree: 3%
 
 ---
 
 # Expressões de amostra com operadores booleanos e de comparação {#sample-expressions-with-boolean-and-comparison-operators}
 
-Exemplos que você pode consultar para criar expressões no [!UICONTROL Expression Builder] editor de código.
+Exemplos que você pode consultar para criar expressões no editor de código [!UICONTROL Expression Builder].
 
 ## Visão geral de amostras de código {#code-samples-overview}
 
 <!-- r_tb_expression_samples.xml -->
 
-Crie suas próprias regras de características com a [!UICONTROL Expression Builder] editor de código. Os exemplos a seguir podem ajudar você a começar. Alguns exemplos apresentam como prefácio o *`key`* variável com `c_` para identificá-la como uma variável definida pelo usuário. Inclua o `c_` prefixo (ou qualquer outra convenção de nomenclatura) para *`key`* se suas chamadas de evento enviarem dados para o [!DNL Audience Manager] usando essa sintaxe.
+Crie suas próprias regras de características com o editor de código do [!UICONTROL Expression Builder]. Os exemplos a seguir podem ajudar você a começar. Alguns dos exemplos apresentam a variável *`key`* como `c_` como uma variável definida pelo usuário. Inclua o prefixo `c_` (ou qualquer outra convenção de nomenclatura) para a variável *`key`* se suas chamadas de evento enviarem dados para [!DNL Audience Manager] usando essa sintaxe.
 
 ## Expressões booleanas {#boolean-expressions}
 
 ### Exemplo AND
 
-A regra estabelece requisitos de qualificação de característica usando booleano [!UICONTROL AND] operadores.
+A regra estabelece requisitos de qualificação de característica usando operadores booleanos [!UICONTROL AND].
 
 <table id="table_7C5E23EC9E0F43B182EA9771D7BB6E87"> 
  <thead> 
@@ -51,7 +51,7 @@ A regra estabelece requisitos de qualificação de característica usando boolea
 
 ### Exemplo OR
 
-Essa regra estabelece requisitos de qualificação de características usando [!DNL Boolean] [!UICONTROL OR] e [!UICONTROL AND] operadores.
+Esta regra estabelece requisitos de qualificação de característica usando operadores [!DNL Boolean] [!UICONTROL OR] e [!UICONTROL AND].
 
 <table id="table_6E8BA5EE1D7F4DCC9A92074D0C2C050E"> 
  <thead> 
@@ -63,7 +63,7 @@ Essa regra estabelece requisitos de qualificação de características usando [!
  <tbody> 
   <tr> 
    <td colname="col1"><code>(a== "1" OR b=="1") AND (c=="new")</code> </td> 
-   <td colname="col2"> Atender às condições definidas pelas variáveis <code><i>a </i></code> ou <code><i>b </i></code> e <code><i>c </i></code>. </td> 
+   <td colname="col2"> Atenda às condições definidas pelas variáveis <code><i>a </i></code> ou <code><i>b </i></code> e <code><i>c </i></code>. </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,5 +1,5 @@
 ---
-description: Esta página inclui somente integrações atuais de servidor para servidor. Para obter mais informações sobre uma integração, consulte a lista Adobe Exchange (quando disponível) ou entre em contato com seu consultor de Adobe ou com o Atendimento ao cliente.
+description: Esta página inclui somente integrações atuais de servidor para servidor. Para obter mais informações sobre uma integração, consulte a lista de Adobe Exchange (quando disponível) ou entre em contato com seu consultor de Adobe ou com o Atendimento ao cliente.
 seo-description: This page includes current server-to-server integrations only. For more information on an integration refer to its Adobe Exchange listing (where available) or contact your Adobe Consultant or Customer Care.
 seo-title: Adobe Audience Manager Server-to-Server Destinations
 keywords: ativação; parceiros de ativação, destino, destinos
@@ -16,15 +16,15 @@ ht-degree: 46%
 
 # [!DNL Audience Manager] [!UICONTROL Device-based Destinations]
 
-Esta página inclui a atual [!DNL Audience Manager] [destinos com base em dispositivo](/help/using/features/destinations/add-device-based-destinations.md) somente. Entrada [!DNL Audience Manager], [!UICONTROL device-based destinations] também são chamados [!UICONTROL server-to-server destinations]. Para obter mais informações sobre uma integração, consulte sua [Adobe Exchange](https://exchange.adobe.com/experiencecloud.html) (se disponível) ou entre em contato com seu [!DNL Adobe] Consultor ou Atendimento ao cliente.
+Esta página inclui somente os [!DNL Audience Manager] [destinos com base em dispositivo](/help/using/features/destinations/add-device-based-destinations.md) atuais. Em [!DNL Audience Manager], [!UICONTROL device-based destinations] também são chamados de [!UICONTROL server-to-server destinations]. Para obter mais informações sobre uma integração, consulte sua lista [Adobe Exchange](https://exchange.adobe.com/experiencecloud.html) (quando disponível) ou entre em contato com seu Consultor do [!DNL Adobe] ou com o Atendimento ao Cliente.
 
 
 * **Última atualização** = Mostra a última data em que houve uma atualização para este [!UICONTROL device-based destination].
 * **Atualizações** = Indica se [!DNL Audience Manager] envia dados em tempo real ou em lote (1xday) para este [!UICONTROL destination].
-* **Remover segmento** = O cancelamento de segmentação descreve processos que desqualificam e removem perfis de dispositivo do [!UICONTROL segments]. Sua capacidade de remover um perfil de dispositivo de um [!UICONTROL segment] depende da opção de dispositivo usada para criar um [!UICONTROL Profile Merge Rule]. O cancelamento de segmentos também é usado no contexto de [!DNL GDPR] solicitações de exclusão. Ler [Regras de mesclagem de perfis e processos de cancelamento de segmentação de dispositivos](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) e [Parceiros Audience Manager Com Recursos De Cancelamento De Segmentação](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation). [!DNL Audience Manager] envia informações de cancelamento de segmentos para o [!UICONTROL destinations] marcado com **Sim** abaixo.
-* **Recebendo [!DNL IAB TCF] sinais de consentimento** = O [!DNL Audience Manager Plug-in for IAB TCF] permite encaminhar o [!DNL IAB TC] parceiros de ativação, respeitando as opções de privacidade dos usuários. Ler [Plug-in do Audience Manager para a TCF do IAB](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
-* **[!DNL ICDS]** = Essa coluna lista os parceiros que oferecem suporte [!UICONTROL Instant Cross-Device Suppression]. Ler sobre [Supressão instantânea entre dispositivos](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
-* **IDs de dispositivo móvel** = Essa coluna lista os parceiros que podem receber IDs de dispositivos móveis do [!DNL Audience Manager].
+* **Desfazer segmento** = O cancelamento de segmentos descreve processos que desqualificam e removem perfis de dispositivo de [!UICONTROL segments]. Sua capacidade de remover um perfil de dispositivo de um [!UICONTROL segment] depende da opção de dispositivo usada para criar um [!UICONTROL Profile Merge Rule]. O cancelamento de segmentos também é usado no contexto de [!DNL GDPR] solicitações de exclusão. Leia [Regras de Mesclagem de Perfis e Processos de Cancelamento de Segmentação de Dispositivo](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) e [Parceiros Audience Manager com Recursos de Cancelamento de Segmentação](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation). [!DNL Audience Manager] envia informações de cancelamento de segmentos para o [!UICONTROL destinations] marcado com **Sim** abaixo.
+* **Recebendo [!DNL IAB TCF] sinais de consentimento** = O [!DNL Audience Manager Plug-in for IAB TCF] permite que você encaminhe a sequência de caracteres [!DNL IAB TC] para parceiros de ativação, respeitando as opções de privacidade dos usuários. Ler o [Plug-in de Audience Manager para a TCF do IAB](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
+* **[!DNL ICDS]** = Esta coluna lista os parceiros que oferecem suporte a [!UICONTROL Instant Cross-Device Suppression]. Leia sobre [Supressão Instantânea Entre Dispositivos](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
+* **IDs de Dispositivo Móvel** = Esta coluna lista os parceiros que podem receber IDs de dispositivo móvel de [!DNL Audience Manager].
 
 
 | Integração | Última atualização | Atualizações | Remover segmento | Recebendo [!DNL IAB TCF] sinais de consentimento | [!DNL ICDS] | IDs de dispositivo móvel |
@@ -48,7 +48,7 @@ Esta página inclui a atual [!DNL Audience Manager] [destinos com base em dispos
 | [!DNL AOL ONE] | 03/02/2017 | Tempo real | Sim | Não | Não | Sim |
 | [!DNL AppNexus] | 03/02/2017 | Tempo real | Sim | Não | Sim | Sim |
 | [!DNL AppNexus Yieldex] | 08/10/2017 | 1xday | Sim | Não | Não | Não |
-| [!DNL Artsai] (antigo [!DNL Adxcel]) | 01/27/2020 | 1xday | Não | Não | Não | Sim |
+| [!DNL Artsai] (anteriormente [!DNL Adxcel]) | 01/27/2020 | 1xday | Não | Não | Não | Sim |
 | [!DNL Atedra]/[!DNL AdStanding] | 03/02/2017 | Tempo real | Sim | Não | Sim | Não |
 | [!DNL Avocet] | 12/06/2017 | 1xday | Não | Não | Não | Não |
 | [!DNL Bidtellect] | 03/03/2017 | Tempo real | Sim | Não | Não | Não |
