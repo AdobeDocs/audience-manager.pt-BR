@@ -8,7 +8,7 @@ title: Gerenciar fontes de dados
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 feature: Data Sources
 exl-id: 1c20988e-4a09-4d56-b454-d48b75eed1ce
-source-git-commit: 6ec76227dd8c7581550c3d95e24fc5b6a4b01093
+source-git-commit: e41dddd022b6fa02cab3e16bd21536d41584975f
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Exclua um [!UICONTROL data source] que você não precisa mais.
 >Observe as seguintes restrições:
 >
 >* Você não pode excluir uma [Característica sincronizada do Ative Audience ou Data Source](../features/traits/client-activity-synced-audience-traits.md).
->* Para clientes que usam o Adobe Analytics: o Audience Manager não permite excluir fontes de dados criadas automaticamente a partir dos conjuntos de relatórios do [!DNL Analytics]. Use o [Serviço Principal](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services-landing.html) para desmapear essas fontes de dados.
+>* Para clientes que usam o Adobe Analytics: o Audience Manager não permite excluir fontes de dados criadas automaticamente a partir dos conjuntos de relatórios do [!DNL Analytics]. Use o [Serviço Principal](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes) para desmapear essas fontes de dados.
 
 1. Clique em **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**.
 1. Marque a caixa de seleção ao lado de uma ou mais fontes de dados.
