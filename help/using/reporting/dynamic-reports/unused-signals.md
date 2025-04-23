@@ -1,5 +1,5 @@
 ---
-description: Este relatório retorna uma contagem de frequência de todas as informações não utilizadas coletadas em seu inventário e enviadas ao Audience Manager.
+description: Este relatório retorna uma contagem de frequência de todas as informações não utilizadas coletadas em seu inventário e enviadas à Audience Manager.
 seo-description: This report returns a frequency count of all the unused information collected on your inventory and sent to Audience Manager.
 seo-title: Unused Signals Report
 solution: Audience Manager
@@ -7,16 +7,16 @@ title: Relatório de sinais não usados
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
 feature: Overlap Reports
 exl-id: ab5cb5ad-4305-4463-8f56-237b5a2f1f9e
-source-git-commit: 8fd148df6c19a5d8331faf66c671f91686954a77
+source-git-commit: 9c980b8fd5c3cb6ba7b3031726da726ee5caeec6
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '623'
 ht-degree: 1%
 
 ---
 
 # Relatório de sinais não usados{#unused-signals-report}
 
-Este relatório retorna uma contagem de frequência de todas as informações não utilizadas coletadas em seu inventário e enviadas ao Audience Manager. Para acessar este relatório, navegue até **Analytics > Relatórios de público-alvo > Outros relatórios > Sinais não utilizados**.
+Este relatório retorna uma contagem de frequência de todas as informações não utilizadas coletadas em seu inventário e enviadas à Audience Manager. Para acessar este relatório, navegue até **Analytics > Relatórios de público-alvo > Outros relatórios > Sinais não utilizados**.
 
 >[!NOTE]
 >
@@ -28,7 +28,9 @@ Este relatório retorna uma contagem de frequência de todas as informações n�
 
 Um sinal são informações do seu site passadas para [!DNL Audience Manager] na forma de [pares de valores-chave](../../reference/key-value-pairs-explained.md) (por exemplo, `color=blue, price>100, gender=female` etc.).
 
-Os sinais não utilizados consistem em dados que você coleta, mas que não foram mapeados para uma característica. O relatório [!UICONTROL Unused Signals] mostra dados em uma tabela por data, chave, valor e contagem de frequência. Qualquer sinal não mapeado passado para [!DNL Audience Manager] pelo menos 100 vezes por dia é qualificado para o relatório [!UICONTROL Unused Signals]. Os sinais não utilizados são armazenados por 45 dias e depois descartados.
+Os sinais não utilizados consistem em dados que você coleta, mas que não foram mapeados para uma característica. O relatório [!UICONTROL Unused Signals] mostra dados em uma tabela por data, chave, valor e contagem de frequência. Qualquer sinal não mapeado passado para [!DNL Audience Manager] pelo menos 100 vezes por dia é qualificado para o relatório [!UICONTROL Unused Signals].
+
+Os sinais não utilizados são armazenados por 45 dias e depois descartados. O relatório de sinais não usados mostra dados dos últimos 10 dias.
 
 Revise este relatório para ajudar a identificar sinais órfãos que podem ser mapeados para características novas ou existentes.
 
