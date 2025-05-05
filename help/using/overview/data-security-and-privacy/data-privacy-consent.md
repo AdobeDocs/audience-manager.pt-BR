@@ -31,11 +31,11 @@ O Audience Manager oferece ferramentas para ajudar você a obter os consentiment
 
 ## Serviço de aceitação da Experience Cloud
 
-O [Serviço de aceitação da Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html) permite configurar os protocolos para o visitante a fim de determinar se você pode adicionar um cookie no dispositivo ou no navegador de pessoas físicas durante visitas ao site.
+O [Serviço de aceitação da Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=pt-BR) permite configurar os protocolos para o visitante a fim de determinar se você pode adicionar um cookie no dispositivo ou no navegador de pessoas físicas durante visitas ao site.
 
 É uma extensão do [!DNL Experience Cloud ID (ECID) Service], desenvolvida para controlar se e quais soluções da Experience Cloud podem criar cookies nas páginas da web para os visitantes ante do consentimento do usuário.
 
-O [Serviço de aceitação da Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html) também permite que você defina protocolos para integrar à sua Plataforma de gerenciamento de consentimento (CMP) e aos sistemas existentes como parte de um projeto maior.
+O [Serviço de aceitação da Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=pt-BR) também permite que você defina protocolos para integrar à sua Plataforma de gerenciamento de consentimento (CMP) e aos sistemas existentes como parte de um projeto maior.
 
 ## Gerenciamento de aceitação/Obtenção de consentimento
 

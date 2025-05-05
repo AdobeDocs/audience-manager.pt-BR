@@ -43,9 +43,9 @@ Consulte o [Centro de privacidade da Adobe](https://www.adobe.com/br/privacy/opt
 
 ## Conformidade com os regulamentos {#compliance}
 
-O [!DNL Audience Manager] ajuda você a cumprir suas obrigações com determinadas normas de privacidade, por meio de ferramentas de privacidade como o [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en), para acessar dados e excluir solicitações.
+O [!DNL Audience Manager] ajuda você a cumprir suas obrigações com determinadas normas de privacidade, por meio de ferramentas de privacidade como o [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR), para acessar dados e excluir solicitações.
 
-Este serviço fornece uma [!DNL RESTful API] e a interface do usuário para ajudar você a gerenciar solicitações de dados do consumidor. Com o [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en), você pode enviar solicitações para acessar e excluir dados pessoais, com base em uma solicitação individual do consumidor, ajudando a automatizar essa parte das suas obrigações de conformidade.
+Este serviço fornece uma [!DNL RESTful API] e a interface do usuário para ajudar você a gerenciar solicitações de dados do consumidor. Com o [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR), você pode enviar solicitações para acessar e excluir dados pessoais, com base em uma solicitação individual do consumidor, ajudando a automatizar essa parte das suas obrigações de conformidade.
 
 Enquanto as solicitações de acesso e exclusão de dados são tratadas pelo Privacy Service, [as solicitações de recusa](data-privacy-requests.md#opt-out-requests) são feitas por meio da [DCS API](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md). Consulte [Solicitações de privacidade de dados](data-privacy-requests.md) para obter detalhes.
 

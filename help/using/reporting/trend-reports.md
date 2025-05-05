@@ -101,7 +101,7 @@ Zeros indicam que [!DNL Audience Manager] não coletou dados para esse dia. Entr
 
 Assista ao vídeo abaixo para obter uma visão detalhada de como as métricas entre dispositivos funcionam.
 
->[!VIDEO](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
+>[!VIDEO](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html?lang=pt-BR)
 
 ## Resultados do relatório de tendências para segmentos {#segment-report-results-traits}
 

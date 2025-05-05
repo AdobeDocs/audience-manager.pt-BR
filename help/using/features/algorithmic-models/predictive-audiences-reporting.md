@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Relatórios de públicos preditivos
 
-Depois que você salvar um modelo [!UICONTROL Predictive Audiences], o Audience Manager começará a treiná-lo. Em algumas horas, o modelo computado iniciará a análise de públicos-alvo nos [Servidores de Coleta de Dados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs). Os relatórios estarão disponíveis no dia seguinte.
+Depois que você salvar um modelo [!UICONTROL Predictive Audiences], o Audience Manager começará a treiná-lo. Em algumas horas, o modelo computado iniciará a análise de públicos-alvo nos [Servidores de Coleta de Dados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html?lang=pt-BR#dcs-pcs). Os relatórios estarão disponíveis no dia seguinte.
 
 Para ver os resultados da sua classificação do [!UICONTROL Predictive Audiences], vá para **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** e clique no seu modelo na lista.
 

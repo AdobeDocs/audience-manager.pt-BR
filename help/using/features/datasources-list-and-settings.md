@@ -112,7 +112,7 @@ Marque a caixa de seleção **[!UICONTROL Inbound]** quando a fonte de dados tiv
      <ul id="ul_3BC963CE378B4F6CB1861643A4541634"> 
       <li id="li_B86C5E7847424A2B9C094DF02741DDB8"> <b><span class="uicontrol"> ID do cliente </span></b>: identifica dados de entrada com uma ID do cliente. </li> 
       <li id="li_AD8E440436314902A794CDB11A3D657F"> <b><span class="uicontrol"> ID do Audience Manager </span></b>: identifica dados de entrada com um ID do Audience Manager <span class="keyword">.</span> </li> 
-      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> ID do Experience Cloud </span></b>: identifica dados de entrada com um ID do Experience Cloud <span class="keyword">. </span> Consulte Cookies <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> e a ID de Experience Cloud </a>. </li> 
+      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> ID do Experience Cloud </span></b>: identifica dados de entrada com um ID do Experience Cloud <span class="keyword">. </span> Consulte Cookies <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=pt-BR" format="https" scope="external"> e a ID de Experience Cloud </a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 

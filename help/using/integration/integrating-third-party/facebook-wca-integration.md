@@ -36,9 +36,9 @@ Esta página ilustra o processo de criação de [!DNL Facebook Website Custom Au
 1. [!DNL Facebook Ad Account]
 2. [!DNL Audience Manager] segmentos, prontos para atribuir ao seu novo destino [!DNL Facebook]. Veja [como criar um segmento](/help/using/features/segments/segment-builder.md) na interface do usuário do [!DNL Audience Manager].
 3. [!DNL Adobe Experience Platform Identity Service] ([!DNL ECID]) Versão 4.1.0 ou mais recente. Baixe a última versão **[aqui](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**.
-4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) versão 9.0 ou mais recente, disponível para download de **[aqui](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Como alternativa, se você usar o [Encaminhamento pelo Lado do Servidor (SSF)](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) para importar dados para o [!DNL Audience Manager], deverá usar a versão 2.12 ou mais recente do AppMeasurement. Baixe [!DNL AppMeasurement] usando o [Analytics Code Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html).
+4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) versão 9.0 ou mais recente, disponível para download de **[aqui](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Como alternativa, se você usar o [Encaminhamento pelo Lado do Servidor (SSF)](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=pt-BR) para importar dados para o [!DNL Audience Manager], deverá usar a versão 2.12 ou mais recente do AppMeasurement. Baixe [!DNL AppMeasurement] usando o [Analytics Code Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=pt-BR).
 
-Recomendamos instalar ou atualizar as bibliotecas nas etapas 3 e 4 usando as [Tags do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
+Recomendamos instalar ou atualizar as bibliotecas nas etapas 3 e 4 usando as [Tags do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=pt-BR).
 
 ## Etapa 1 - Criar um [!UICONTROL Facebook Destination] em [!DNL Audience Manager] {#step-1-create-facebook-destination}
 

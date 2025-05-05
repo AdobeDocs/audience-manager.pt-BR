@@ -37,7 +37,7 @@ Alguns navegadores e a maioria dos dispositivos móveis não aceitam o [!DNL coo
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Chamada de evento</b> </td> 
-   <td colname="col2"> <p>Para funcionar, você precisa do código <span class="wintitle"> DIL </span> e do <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform Identity Service </a> na página. O <span class="wintitle"> DIL </span> obtém <span class="wintitle"> IDs declaradas </span> da função <code> setVisitorID </code> fornecida pelo <span class="keyword"> Adobe Experience Platform Identity Service </span> e transmite-as para o <span class="keyword"> Audience Manager </span>. </p> </td> 
+   <td colname="col2"> <p>Para funcionar, você precisa do código <span class="wintitle"> DIL </span> e do <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR" format="https" scope="external"> Adobe Experience Platform Identity Service </a> na página. O <span class="wintitle"> DIL </span> obtém <span class="wintitle"> IDs declaradas </span> da função <code> setVisitorID </code> fornecida pelo <span class="keyword"> Adobe Experience Platform Identity Service </span> e transmite-as para o <span class="keyword"> Audience Manager </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Identificação de Correspondência</b> </td> 
@@ -184,7 +184,7 @@ Descreve as variáveis de configuração usadas para passar [!UICONTROL declared
 
 ## [!UICONTROL DIL] usa [!DNL Adobe Experience Platform Identity Service] para Passar [!UICONTROL Declared IDs] {#dil-id-service-pass-declared-ids}
 
-Quando usado com o [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html), você não precisa mais transmitir [!UICONTROL declared IDs] com as variáveis `dpid` e `dpuuid` obsoletas. Em vez disso, as versões atuais de [!UICONTROL DIL] dependem da função `visitorService` para obter [!UICONTROL declared IDs] da função `setCustomerIDs` em [!UICONTROL Adobe Experience Platform Identity Service]. Para obter mais informações, consulte [IDs do cliente e Estados de autenticação](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html). Você chamaria `visitorService` em `DIL.create` como mostrado abaixo.
+Quando usado com o [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR), você não precisa mais transmitir [!UICONTROL declared IDs] com as variáveis `dpid` e `dpuuid` obsoletas. Em vez disso, as versões atuais de [!UICONTROL DIL] dependem da função `visitorService` para obter [!UICONTROL declared IDs] da função `setCustomerIDs` em [!UICONTROL Adobe Experience Platform Identity Service]. Para obter mais informações, consulte [IDs do cliente e Estados de autenticação](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=pt-BR). Você chamaria `visitorService` em `DIL.create` como mostrado abaixo.
 
 ```js
 var vDil = DIL.create({
@@ -195,7 +195,7 @@ var vDil = DIL.create({
 });
 ```
 
-No par de valor-chave `namespace`, `MCORG` é a sua ID da organização [!DNL Experience Cloud]. Se você não tiver essa ID, poderá encontrá-la na seção [!UICONTROL Administration] do painel [!DNL Experience Cloud]. Você precisa de permissões de administrador para visualizar este painel. Consulte [Introdução aos serviços da Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/services/getting-started).
+No par de valor-chave `namespace`, `MCORG` é a sua ID da organização [!DNL Experience Cloud]. Se você não tiver essa ID, poderá encontrá-la na seção [!UICONTROL Administration] do painel [!DNL Experience Cloud]. Você precisa de permissões de administrador para visualizar este painel. Consulte [Introdução aos serviços da Experience Cloud](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/services/getting-started).
 
 ## Funções obsoletas {#deprecated-functions}
 

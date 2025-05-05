@@ -111,7 +111,7 @@ Um arquivo [!UICONTROL CDF] inclui alguns ou todos os campos definidos abaixo. P
   <tr> 
    <td colname="col1"> <p><code> MCDevice </code> </p> </td> 
    <td colname="col2"> <p>String   </p> </td> 
-   <td colname="col3"> <p>A Experience Cloud <span class="keyword"> ID (MID) atribuída ao visitante do site. </span> Consulte também Cookies do <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> e o Serviço de Identidade do Adobe Experience Platform</a>. </p> </td> 
+   <td colname="col3"> <p>A Experience Cloud <span class="keyword"> ID (MID) atribuída ao visitante do site. </span> Consulte também Cookies do <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=pt-BR" format="https" scope="external"> e o Serviço de Identidade do Adobe Experience Platform</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> All Segments</code> </p> </td> 
@@ -163,7 +163,7 @@ Lista e define a estrutura de dados de um arquivo [!UICONTROL CDF]. Isso inclui 
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">Parâmetros da solicitação </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Referenciador </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">Endereço IP </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">ID de dispositivo Experience Cloud (ou MID). Consulte também Cookies do <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> e o Serviço de identidade da Adobe Experience Platform</a> </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">ID de dispositivo Experience Cloud (ou MID). Consulte também Cookies do <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=pt-BR" format="https" scope="external"> e o Serviço de identidade da Adobe Experience Platform</a> </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">Todos os segmentos </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">Todas as características </li> 
      </ol> </p> <p>Para obter descrições dos campos, consulte <a href="#cdf-defined"> Conteúdo do feed de dados do cliente definido</a>. </p> </td> 

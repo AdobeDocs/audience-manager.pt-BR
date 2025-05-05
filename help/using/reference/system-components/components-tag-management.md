@@ -38,7 +38,7 @@ O portal do cliente é a principal interface do usuário para gerenciamento de t
 
 ## Contêiner de DIL/TIM {#dil-tim}
 
-O contêiner [!UICONTROL DIL] ajuda a implantar o código de coleta de dados [!DNL Audience Manager] em seu site. [!UICONTROL TIM] é o Gerenciador de Inserção de Marca obsoleto. Ele não é mais usado por [!DNL Audience Manager]. Em vez disso, você usa a extensão [!DNL Audience Manager] em [Tags do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html) para configurar e gerar o código de contêiner que você coloca nas páginas do inventário.
+O contêiner [!UICONTROL DIL] ajuda a implantar o código de coleta de dados [!DNL Audience Manager] em seu site. [!UICONTROL TIM] é o Gerenciador de Inserção de Marca obsoleto. Ele não é mais usado por [!DNL Audience Manager]. Em vez disso, você usa a extensão [!DNL Audience Manager] em [Tags do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html?lang=pt-BR) para configurar e gerar o código de contêiner que você coloca nas páginas do inventário.
 
 ## Biblioteca de integração de dados (DIL) {#dil}
 

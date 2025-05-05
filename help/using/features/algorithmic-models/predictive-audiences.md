@@ -122,11 +122,11 @@ Ao configurar seus modelos do [!UICONTROL Predictive Audiences], lembre-se das s
 
 ## [!UICONTROL Data Export Controls] {#dec}
 
-Os segmentos preditivos criados por modelos [!UICONTROL Predictive Audiences] herdam os [Controles da Exportação de Dados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) das seguintes fontes de dados primárias:
+Os segmentos preditivos criados por modelos [!UICONTROL Predictive Audiences] herdam os [Controles da Exportação de Dados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=pt-BR) das seguintes fontes de dados primárias:
 
 1. A fonte de dados primária escolhida ao criar o modelo.
 1. As fontes de dados primárias do público-alvo. Especificamente, os controles de exportação de dados do [!UICONTROL traits] ou [!UICONTROL segments] que compõem o público-alvo.
-1. Os [Controles da Exportação de Dados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) de [!UICONTROL Profile Merge Rule] que você selecionou para o modelo.
+1. Os [Controles da Exportação de Dados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=pt-BR) de [!UICONTROL Profile Merge Rule] que você selecionou para o modelo.
 
 A [!UICONTROL traits] preditiva recém-criada e a [!UICONTROL segments] terão as mesmas restrições de privacidade que a união das fontes de dados primárias descritas acima.
 
@@ -146,6 +146,6 @@ Selecionar um [!UICONTROL Profile Merge Rule] que use dados de dispositivo e dad
 
 ## [!UICONTROL Role-Based Access Controls] {#rbac}
 
-As características e os segmentos que você escolher para classificação de personas e público-alvo estão sujeitos aos [Controles de acesso com base em função](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html) do Audience Manager.
+As características e os segmentos que você escolher para classificação de personas e público-alvo estão sujeitos aos [Controles de acesso com base em função](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=pt-BR) do Audience Manager.
 
-Os usuários do Audience Manager só podem selecionar características ou segmentos para personas e públicos-alvo, que têm [permissão para visualizar](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions).
+Os usuários do Audience Manager só podem selecionar características ou segmentos para personas e públicos-alvo, que têm [permissão para visualizar](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=pt-BR#wild-card-permissions).

@@ -82,7 +82,7 @@ Você mesmo precisa definir a ID do [!DNL Audience Manager] e pode trabalhar com
   </tr> 
   <tr> 
    <td colname="col1"> <p>Etapa 6 </p> </td> 
-   <td colname="col2"> <p>Para compilar os pré-requisitos e abrir um tíquete de suporte, siga as instruções detalhadas <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html">aqui</a> para iniciar o processo de assimilação de log. </p> </td> 
+   <td colname="col2"> <p>Para compilar os pré-requisitos e abrir um tíquete de suporte, siga as instruções detalhadas <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html?lang=pt-BR">aqui</a> para iniciar o processo de assimilação de log. </p> </td> 
    <td colname="col3"> <p>Você ou a <span class="keyword"> Audience Manager</span> Consultando em seu nome </p> </td> 
   </tr> 
  </tbody> 
