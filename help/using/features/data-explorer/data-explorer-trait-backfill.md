@@ -51,7 +51,7 @@ Quando terminar de criar a característica, você verá suas realizações preen
 
 Assista ao vídeo abaixo para obter uma apresentação em vídeo sobre como preencher características.
 
->[!VIDEO](https://video.tv.adobe.com/v/25169/)
+>[!VIDEO](https://video.tv.adobe.com/v/30832?captions=por_br)
 
 ## Latência de preenchimento retroativo de característica {#trait-backfilling-latency}
 

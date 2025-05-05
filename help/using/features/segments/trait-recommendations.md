@@ -21,11 +21,11 @@ Obtenha recomendações de características dinâmicas à medida que cria seus s
 
 Comece assistindo ao vídeo [!UICONTROL Trait Recommendations] abaixo e depois leia para obter mais informações. A demonstração de vídeo mostra como trabalhar com recomendações de suas características próprias, bem como com recomendações de características de feeds de dados do [!UICONTROL Audience Marketplace] nos quais *você já está inscrito*.
 
->[!VIDEO](https://video.tv.adobe.com/v/26228/)
+>[!VIDEO](https://video.tv.adobe.com/v/40844?captions=por_br)
 
 O próximo vídeo descreve o fluxo de trabalho para [!UICONTROL Marketplace Recommendations], mostrando como adicionar características aos seus segmentos, com base nas recomendações dos feeds de dados em [!UICONTROL Audience Marketplace]. Estas recomendações são baseadas nos feeds de dados que *você não assinou*.
 
->[!VIDEO](https://video.tv.adobe.com/v/29363/)
+>[!VIDEO](https://video.tv.adobe.com/v/32755?captions=por_br)
 
 ## Visão geral
 

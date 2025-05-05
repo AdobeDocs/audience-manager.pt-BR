@@ -114,7 +114,7 @@ Preencha primeiro os campos obrigatórios na seção [!UICONTROL Basic Informati
 
 Assista ao vídeo abaixo para saber como criar um modelo semelhante próprio, para que você possa encontrar mais de seus próprios visitantes que se parecem com seus conversores.
 
->[!VIDEO](https://video.tv.adobe.com/v/23504/)
+>[!VIDEO](https://video.tv.adobe.com/v/30831?captions=por_br)
 
 >[!MORELIKETHIS]
 >
