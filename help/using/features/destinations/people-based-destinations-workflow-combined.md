@@ -160,6 +160,7 @@ Para criar novos segmentos de público, use o [Construtor de segmentos](../segme
    * **[!UICONTROL Type]**: Baseado Em Pessoas;
    * **[!UICONTROL Platform]**: selecione a plataforma com base em pessoas para a qual você deseja enviar segmentos de público-alvo;
    * **[!UICONTROL Account]**: selecione a conta de anunciante desejada associada à plataforma selecionada.
+
      ![criar-destino](assets/pbd-create-destination.png)
 1. Clique em **[!UICONTROL Next]**.
 1. Escolha o **[!UICONTROL Data Export Labels]** que deseja definir para este destino.
