@@ -223,7 +223,7 @@ Verifique os métodos no código [!DNL SDK] que permitem passar [!UICONTROL decl
  </tbody>
 </table>
 
-Consulte também [Métodos de Audience Manager para Android](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) e [Métodos de Audience Manager para iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html).
+Consulte também [Métodos de Audience Manager para Android](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html?lang=pt-BR) e [Métodos de Audience Manager para iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html?lang=pt-BR).
 
 >[!MORELIKETHIS]
 >

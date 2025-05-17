@@ -97,8 +97,8 @@ A recusa global representa uma opção de não participação em [!DNL Audience 
    <td colname="col1"> <p>Dispositivos móveis </p> </td> 
    <td colname="col2"> <p>Consulte as configurações de recusa e privacidade para: </p> <p> 
      <ul id="ul_78042D6D302F4119A2439BF71F228288"> 
-      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://experienceleague.adobe.com/docs/mobile-services/android/gdpr-privacy-android/privacy.html" format="https" scope="external"> Dispositivos Android </a> </li> 
-      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://experienceleague.adobe.com/docs/mobile-services/ios/privacy-gdpr-ios/privacy.html" format="https" scope="external"> Dispositivos iOS </a> </li> 
+      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://experienceleague.adobe.com/docs/mobile-services/android/gdpr-privacy-android/privacy.html?lang=pt-BR" format="https" scope="external"> Dispositivos Android </a> </li> 
+      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://experienceleague.adobe.com/docs/mobile-services/ios/privacy-gdpr-ios/privacy.html?lang=pt-BR" format="https" scope="external"> Dispositivos iOS </a> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
