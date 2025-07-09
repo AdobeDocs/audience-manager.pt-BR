@@ -5,13 +5,13 @@ title: Otimização do Audience Marketplace
 feature: Audience Marketplace
 hide: true
 hidefromtoc: true
-source-git-commit: a03953af94e98d1aabfc9cb6cd1af82f42080d91
+exl-id: 92d4d043-3cc1-4a59-926f-c29709d9bc63
+source-git-commit: e9b8f102b5a123ba4a9f6e9c9a29e331d803d293
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---
-
 
 # Otimização do Audience Marketplace {#audience-marketplace-optimization}
 
@@ -19,7 +19,7 @@ A Adobe está aprimorando o Audience Marketplace para melhorar a visibilidade do
 
 Durante esse processo, estamos removendo provedores de dados que não estão sendo usados ativamente. A otimização também removerá características fornecidas por esses provedores de dados. Esse processo foi projetado para simplificar o mercado e melhorar o desempenho geral para todos os usuários.
 
-**Linha do tempo:** os provedores de dados serão removidos no final de julho de 2025.
+**Linha do Tempo:** os provedores de dados serão removidos durante agosto de 2025.
 
 ## O que está mudando {#what-changes}
 
@@ -121,4 +121,4 @@ Se você tiver um forte caso comercial para manter um provedor de dados específ
 
 ### Quando as alterações entrarão em vigor?
 
-Os provedores de dados selecionados para remoção serão removidos no final de julho de 2025.
+Os provedores de dados selecionados para remoção serão removidos durante agosto de 2025.
