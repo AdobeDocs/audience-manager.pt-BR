@@ -49,4 +49,4 @@ Depois que um provedor de serviços de viagem adiciona novos destinos ao site de
 
 Um dos recursos mais eficientes do Audience Manager é a capacidade de integrar dados offline e uni-los aos seus dados online. No vídeo abaixo, saiba como usar o [!UICONTROL Data Explorer] para validar que você criou todas as características necessárias para aproveitar esses dados integrados.
 
->[!VIDEO](https://video.tv.adobe.com/v/25149/)
+>[!VIDEO](https://video.tv.adobe.com/v/30834?captions=por_br)

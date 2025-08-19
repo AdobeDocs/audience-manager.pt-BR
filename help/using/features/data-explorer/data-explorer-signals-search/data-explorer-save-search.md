@@ -35,4 +35,4 @@ Otimize os esforços de pesquisa de sinais salvando até 10 conjuntos de critér
 
 Assista ao vídeo abaixo para saber como salvar pesquisas de sinal.
 
->[!VIDEO](https://video.tv.adobe.com/v/25147/)
+>[!VIDEO](https://video.tv.adobe.com/v/30964?captions=por_br)

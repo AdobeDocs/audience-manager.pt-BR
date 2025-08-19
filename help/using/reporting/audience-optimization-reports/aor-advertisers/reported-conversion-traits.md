@@ -22,7 +22,7 @@ As características de conversão para grupos de conversão podem mudar de execu
 
 Para saber como criar características de conversão no Audience Manager, assista ao vídeo abaixo:
 
->[!VIDEO](https://video.tv.adobe.com/v/23431/)
+>[!VIDEO](https://video.tv.adobe.com/v/30830?captions=por_br)
 
 ## Exemplo de relatório
 
