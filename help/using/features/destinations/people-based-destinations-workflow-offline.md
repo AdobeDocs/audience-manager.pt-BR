@@ -22,17 +22,17 @@ Esta página inclui orientação passo a passo sobre como criar segmentos de pú
 
 ## Etapa 1 - Características offline integradas {#step-1-onboard-traits}
 
-A primeira etapa para criar segmentos de público-alvo neste cenário é trazer os dados offline do cliente para o Audience Manager.
+A primeira etapa para criar segmentos de público-alvo neste cenário é trazer os dados offline do cliente para a Audience Manager.
 
 >[!IMPORTANT]
 >
 > Antes de continuar, verifique se a atividade do cliente que você está prestes a integrar já está definida no Audience Manager com as [características integradas](../traits/trait-and-segment-qualification-reference.md) correspondentes.
 
-Independentemente de suas IDs de cliente do Audience Manager existentes ([DPUUIDs](../../reference/ids-in-aam.md)) serem emails com hash ou não, você deve realizar a integração de características na fonte de dados que contém suas [DPUUIDs](../../reference/ids-in-aam.md).
+Independentemente de suas IDs de cliente da Audience Manager ([DPUUIDs](../../reference/ids-in-aam.md)) serem emails com hash ou não, você deve realizar a integração de características na fonte de dados que contém suas [DPUUIDs](../../reference/ids-in-aam.md).
 
 ### Exemplo
 
-Você deseja qualificar as IDs do cliente da tabela abaixo para as IDs de característica integradas correspondentes. Considere que seus [DPUUIDs](../../reference/ids-in-aam.md) estão armazenados em uma fonte de dados com a ID 999999 e sua ID de fonte de dados Audience Manager é 123.
+Você deseja qualificar as IDs do cliente da tabela abaixo para as IDs de característica integradas correspondentes. Considere que seus [DPUUIDs](../../reference/ids-in-aam.md) estão armazenados em uma fonte de dados com a ID 999999 e a ID da fonte de dados do Audience Manager é 123.
 
 | ID do cliente (DPUUID) | ID de característica integrada |
 | -------------------------------------- | ------------------- |
@@ -74,14 +74,14 @@ Nesse caso, é necessário rotular a fonte de dados correspondente dessa maneira
 
 Nesse caso, você precisa criar uma nova fonte de dados entre dispositivos que armazenará seus endereços de email com hash. Veja como fazer isso:
 
-1. Faça logon em sua conta do Audience Manager, vá para **[!UICONTROL Audience Data]** -> **[!UICONTROL Data Sources]** e clique em **[!UICONTROL Add New]**.
+1. Faça logon em sua conta da Audience Manager, vá para **[!UICONTROL Audience Data]** -> **[!UICONTROL Data Sources]** e clique em **[!UICONTROL Add New]**.
 1. Insira um **[!UICONTROL Name]** e **[!UICONTROL Description]** para sua nova fonte de dados.
 1. No menu suspenso **[!UICONTROL ID Type]**, selecione **[!UICONTROL Cross Device]**.
 1. Na seção **[!UICONTROL Data Source Settings]**, selecione as opções **[!UICONTROL Inbound]** e **[!UICONTROL Outbound]** e habilite a opção **[!UICONTROL Share associated cross-device IDs in people-based destinations]**.
 1. Use o menu suspenso para selecionar o rótulo **[!UICONTROL Emails(SHA256, lowercased)]** para esta fonte de dados.
    >[!IMPORTANT]
    >
-   >Essa opção rotula apenas a fonte de dados como contendo dados com hash com esse algoritmo específico. O Audience Manager não faz o hash dos dados nesta etapa. Verifique se os endereços de email que você planeja armazenar nesta fonte de dados já foram atribuídos a hash com o algoritmo [!DNL SHA256]. Caso contrário, você não poderá usá-lo para [!DNL People-Based Destinations].
+   >Essa opção rotula apenas a fonte de dados como contendo dados com hash com esse algoritmo específico. A Audience Manager não faz o hash dos dados nesta etapa. Verifique se os endereços de email que você planeja armazenar nesta fonte de dados já foram atribuídos a hash com o algoritmo [!DNL SHA256]. Caso contrário, você não poderá usá-lo para [!DNL People-Based Destinations].
 
    ![pbd-datasource-settings](assets/pbd-ds-config.png)
 
@@ -91,7 +91,7 @@ Nesse caso, você precisa criar uma nova fonte de dados entre dispositivos que a
 
 Assista ao vídeo abaixo para obter um tutorial em vídeo sobre como criar uma fonte de dados para [!UICONTROL People-Based Destinations].
 
->[!VIDEO](https://video.tv.adobe.com/v/32578?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/)
 
 ## Etapa 3 - Corresponder DPUUIDs a Endereços de email com hash por meio da Sincronização de ID com base em arquivo {#match-ids-emails}
 
@@ -143,7 +143,7 @@ Após criar o arquivo de sincronização de ID, é necessário carregá-lo em um
 
 A próxima etapa é criar uma nova regra de mesclagem que ajudará você a criar os segmentos de público-alvo para enviar ao seu [!DNL People-Based Destinations].
 
-1. Faça logon em sua conta Audience Manager e vá para **[!UICONTROL Audience Data]** -> **[!UICONTROL Profile Merge Rules]**.
+1. Faça logon em sua conta da Audience Manager e vá para **[!UICONTROL Audience Data]** -> **[!UICONTROL Profile Merge Rules]**.
 2. Clique em [!UICONTROL Add New Rule].
 3. Insira uma regra de mesclagem de perfis **[!UICONTROL Name]** e **[!UICONTROL Description]**.
 4. Na seção **[!UICONTROL Profile Merge Rule Setup]**, selecione a regra **[!UICONTROL All Cross-Device Profiles]** na lista **[!UICONTROL Cross-Device Options]**.
@@ -156,7 +156,7 @@ Para criar novos segmentos a partir de dados somente offline, use o [Construtor 
 
 ## Etapa 6 - Configurar a autenticação da plataforma baseada em pessoas {#configure-authentication}
 
-1. Faça logon em sua conta Audience Manager e vá para **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**. Se você tiver uma integração configurada anteriormente com uma plataforma social, deverá vê-la listada nesta página. Caso contrário, a página ficará vazia.
+1. Faça logon em sua conta do Audience Manager e vá para **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**. Se você tiver uma integração configurada anteriormente com uma plataforma social, deverá vê-la listada nesta página. Caso contrário, a página ficará vazia.
    ![integração baseada em pessoas](assets/pbd-config.png)
 1. Clique em **[!UICONTROL Add Account]**.
 1. Use o menu suspenso **[!UICONTROL People-Based Platform]** para selecionar a plataforma com a qual deseja configurar a integração.
@@ -171,13 +171,12 @@ Para criar novos segmentos a partir de dados somente offline, use o [Construtor 
 
 ## Etapa 7 - Criar um destino com base em pessoas {#create-destination}
 
-1. Faça logon em sua conta Audience Manager, vá para **[!UICONTROL Audience Data]** > **[!UICONTROL Destinations]** e clique em **[!UICONTROL Create Destination]**.
+1. Faça logon em sua conta do Audience Manager, vá para **[!UICONTROL Audience Data]** > **[!UICONTROL Destinations]** e clique em **[!UICONTROL Create Destination]**.
 1. Na seção **[!UICONTROL Basic Information]**, insira um **[!UICONTROL Name]** e **[!UICONTROL Description]** para sua nova fonte de dados e use as seguintes configurações:
    * **[!UICONTROL Category]**: Plataformas Integradas;
    * **[!UICONTROL Type]**: Baseado Em Pessoas;
    * **[!UICONTROL Platform]**: selecione a plataforma com base em pessoas para a qual você deseja enviar segmentos de público-alvo;
    * **[!UICONTROL Account]**: selecione a conta de anunciante desejada associada à plataforma selecionada.
-
      ![criar-destino](assets/pbd-create-destination.png)
 1. Clique em **[!UICONTROL Next]**.
 1. Escolha o **[!UICONTROL Data Export Labels]** que deseja definir para este destino.

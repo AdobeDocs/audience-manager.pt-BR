@@ -18,7 +18,7 @@ Informações conceituais, descrições e definições para [!DNL DCS API] códi
 
 * [Métodos da DCS API](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
-  Enviar dados para [!DNL DCS API] usando os métodos GET ou POST.
+  Enviar dados para o [!DNL DCS API] usando os métodos GET ou POST.
 
 * [Códigos de erros, mensagens e exemplos de DCS](/help/using/api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
 

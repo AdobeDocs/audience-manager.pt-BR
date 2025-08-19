@@ -28,7 +28,7 @@ Respostas a perguntas ou problemas comuns relacionados à privacidade ou aos dad
 
 **Como o Audience Manager usa cookies e quais cookies ele define?**
 
-Consulte [Cookies do Audience Manager](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html?lang=pt-BR).
+Consulte [Cookies do Audience Manager](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html).
 
 **Os clientes do Audience Manager nos EUA podem direcionar usuários em propriedades da UE?**
 
@@ -55,11 +55,11 @@ A tabela a seguir lista os tempos de retenção para diferentes tipos de dados e
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Servidores de back-end </p> </td> 
-   <td colname="col2"> <p>120 dias </p> <p> O Audience Manager exclui os dados do usuário de nossos servidores de back-end 120 dias após a última visualização de um usuário na plataforma do Audience Manager. Se o Audience Manager <span class="keyword"> </span> registrar a atividade do usuário dentro desse ciclo de 120 dias, nós manteremos esses dados por mais 120 dias. </p> </td> 
+   <td colname="col2"> <p>120 dias </p> <p> O Audience Manager exclui os dados do usuário de nossos servidores de back-end 120 dias após a última visualização de um usuário na plataforma do Audience Manager. Se o <span class="keyword"> Audience Manager</span> registrar a atividade do usuário dentro desse ciclo de 120 dias, nós manteremos esses dados por mais 120 dias. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Servidores de borda </p> </td> 
-   <td colname="col2"> <p> 14 dias </p> <p>O Audience Manager exclui os dados do usuário de nossos servidores de borda 14 dias após a última visualização de um usuário na plataforma do Audience Manager. Se o Audience Manager <span class="keyword"> </span> registrar a atividade do usuário nesse ciclo de 14 dias, nós manteremos esses dados por mais 14 dias. Se o usuário se tornar ativo novamente após o ciclo de 14 dias, haverá um atraso entre essa primeira visualização de página nova e quando o usuário se tornar acionável. Leva de 6 a 18 horas para que o perfil completo volte ao centro da borda após mais de 14 dias de inatividade. </p> </td> 
+   <td colname="col2"> <p> 14 dias </p> <p>O Audience Manager exclui os dados do usuário de nossos servidores de borda 14 dias após a última visualização de um usuário na plataforma do Audience Manager. Se o <span class="keyword"> Audience Manager</span> registrar a atividade do usuário nesse ciclo de 14 dias, nós manteremos esses dados por mais 14 dias. Se o usuário se tornar ativo novamente após o ciclo de 14 dias, haverá um atraso entre essa primeira visualização de página nova e quando o usuário se tornar acionável. Leva de 6 a 18 horas para que o perfil completo volte ao centro da borda após mais de 14 dias de inatividade. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Registros brutos </p> </td> 

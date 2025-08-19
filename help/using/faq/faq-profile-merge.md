@@ -37,7 +37,7 @@ Um gráfico de dispositivos externo é qualquer gráfico de dispositivos no [!DN
 
 **Quais são alguns casos de uso comuns para usar um gráfico de dispositivos externo em uma [!UICONTROL Profile Merge Rule]?**
 
-O principal objetivo de usar um gráfico de dispositivos em uma [!UICONTROL Profile Merge Rule] é avaliar e qualificar vários dispositivos pertencentes a uma única pessoa ou residência para um segmento específico. O próprio segmento pode ter vários usos, como direcionar um público-alvo de prospetos com um anúncio veiculado por um DSP ou personalizar a experiência de um cliente no site por meio de uma plataforma de personalização no site. Consulte [Casos de uso do gráfico do dispositivos externo](../features/profile-merge-rules/external-graph-use-cases.md).
+O principal objetivo de usar um gráfico de dispositivos em uma [!UICONTROL Profile Merge Rule] é avaliar e qualificar vários dispositivos pertencentes a uma única pessoa ou residência para um segmento específico. O próprio segmento pode ter vários usos, como direcionar um público-alvo de prospetos com um anúncio veiculado por uma DSP ou personalizar a experiência de um cliente no site por meio de uma plataforma de personalização no site. Consulte [Casos de uso do gráfico do dispositivos externo](../features/profile-merge-rules/external-graph-use-cases.md).
 
  
 
@@ -112,7 +112,7 @@ Sim.
 
 **As estimativas de tamanho de segmento incluem dispositivos que se qualificam para um segmento com base nas conexões fornecidas por uma [!UICONTROL Profile Merge Rule] que usa uma opção de gráfico de dispositivos?**
 
-Não. Consulte as definições para a [!UICONTROL Estimated Real-Time Population] e [!UICONTROL Estimated Total Population] em [Dados de população de características e segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=pt-BR).
+Não. Consulte as definições para a [!UICONTROL Estimated Real-Time Population] e [!UICONTROL Estimated Total Population] em [Dados de população de características e segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html).
 
  
 
@@ -262,7 +262,7 @@ Não.
 
 **Por que vejo uma população de segmento zero para exportações de segmento para o Adobe Campaign após 16 de março de 2020?**
 
-No final de 2019, lançamos uma série de melhorias nas Regras de mesclagem de perfis para melhorar a precisão dos arquivos em lote gerados com IDs entre dispositivos. Esses aprimoramentos serão estritamente honrados na instância do Audience Manager a partir de segunda-feira, 16 de março de 2020. Consequentemente, os segmentos mapeados para um destino usando IDs de vários dispositivos deixarão de produzir exportações em algumas configurações de Regras de mesclagem de perfis.
+No final de 2019, lançamos uma série de melhorias nas Regras de mesclagem de perfis para melhorar a precisão dos arquivos em lote gerados com IDs entre dispositivos. Esses aprimoramentos serão estritamente honrados em sua instância do Audience Manager a partir de segunda-feira, 16 de março de 2020. Consequentemente, os segmentos mapeados para um destino usando IDs de vários dispositivos deixarão de produzir exportações em algumas configurações de Regras de mesclagem de perfis.
 
 Para garantir a integração correta entre sua instância do Audience Manager e destinos usando IDs entre dispositivos, como o Adobe Campaign, verifique se você atende aos seguintes requisitos:
 

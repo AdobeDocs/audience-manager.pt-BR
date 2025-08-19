@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Crie novas características de todos os sinais, incluindo aquelas que já são usadas em características, e capture públicos-alvo futuros que se qualifiquem após a criação de características. Assista ao vídeo para obter uma demonstração rápida ou leia para obter informações detalhadas:
 
->[!VIDEO](https://video.tv.adobe.com/v/30832/?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/25169/?quality=12)
 
 ## Criar características no painel de sinais {#create-traits-from-signal-dashboard}
 

@@ -1,5 +1,5 @@
 ---
-description: Obtenha uma visão geral dos sinais não utilizados recebidos pelo Audience Manager nos últimos sete dias e identifique novas características em potencial. Os sinais não utilizados atingem o Audience Manager das suas propriedades online, mas não são usados em nenhuma das suas características existentes. Para exibir o Painel de sinais, vá para Dados de público-alvo > Sinais. O Painel de sinais mostra insights acionáveis com base nos sinais não usados mais ativos.
+description: Obtenha uma visão geral dos sinais não utilizados recebidos pelo Audience Manager nos últimos sete dias e identifique novas características em potencial. Os sinais não usados chegam ao Audience Manager pelas suas propriedades online, mas não são usados em nenhuma das suas características existentes. Para exibir o Painel de sinais, vá para Dados de público-alvo > Sinais. O Painel de sinais mostra insights acionáveis com base nos sinais não usados mais ativos.
 seo-description: Get an overview of the unused signals received by Audience Manager in the past 7 days and identify potential new traits. Unused signals reach Audience Manager from your online properties, but are not used in any of your existing traits. To view the Signals Dashboard, go to Audience Data > Signals. The Signals Dashboard shows you actionable insights based on your most active unused signals.
 seo-title: Signals Dashboard
 title: Painel de sinais
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Painel de sinais {#signals-dashboard}
 
-Obtenha uma visão geral dos sinais não utilizados recebidos pelo Audience Manager nos últimos sete dias e identifique novas características em potencial. Os sinais não utilizados atingem o Audience Manager das suas propriedades online, mas não são usados em nenhuma das suas características existentes. Para exibir o [!UICONTROL Signals Dashboard], vá para [!UICONTROL Audience Data] > [!UICONTROL Signals]. O [!UICONTROL Signals Dashboard] mostra insights acionáveis com base nos sinais não usados mais ativos.
+Obtenha uma visão geral dos sinais não utilizados recebidos pelo Audience Manager nos últimos sete dias e identifique novas características em potencial. Os sinais não usados chegam ao Audience Manager pelas suas propriedades online, mas não são usados em nenhuma das suas características existentes. Para exibir o [!UICONTROL Signals Dashboard], vá para [!UICONTROL Audience Data] > [!UICONTROL Signals]. O [!UICONTROL Signals Dashboard] mostra insights acionáveis com base nos sinais não usados mais ativos.
 
 >[!IMPORTANT]
 >

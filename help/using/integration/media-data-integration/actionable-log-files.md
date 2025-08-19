@@ -1,5 +1,5 @@
 ---
-description: Arquivos de registro acionáveis permitem capturar sinais de mídia de arquivos de registro de servidor de anúncios para criar características no Audience Manager. Capture impressões, cliques e conversões de servidores de anúncios como características sem precisar anexar pixels.
+description: Os arquivos de registro acionáveis permitem capturar sinais de mídia de arquivos de registro do servidor de anúncios para criar características no Audience Manager. Capture impressões, cliques e conversões de servidores de anúncios como características sem precisar anexar pixels.
 keywords: logs acionáveis, alf, ALF
 seo-description: Actionable Log Files allow you to capture media signals from ad server log files to create traits in Audience Manager. Capture impressions, clicks, and conversions from ad servers as traits without having to append pixels.
 seo-title: Actionable Log Files
@@ -17,11 +17,11 @@ ht-degree: 2%
 
 # Arquivo de registro acionável {#actionable-log-files}
 
-O [!UICONTROL Actionable Log Files] permite capturar dados de mídia de arquivos de log do servidor de anúncios e usar os dados para criar características no Audience Manager. Capture impressões, cliques e conversões de servidores de anúncios como características sem precisar acrescentar [pixels](../../integration/media-data-integration/impression-data-pixels.md).
+O [!UICONTROL Actionable Log Files] permite capturar dados de mídia de arquivos de log do servidor de anúncios e usá-los para criar características no Audience Manager. Capture impressões, cliques e conversões de servidores de anúncios como características sem precisar acrescentar [pixels](../../integration/media-data-integration/impression-data-pixels.md).
 
 >[!NOTE]
 >
->Estilos de texto (`monospaced text`, *itálico*, colchetes `[ ]` `( )` etc.) neste documento indique elementos e opções de código. Consulte [Convenções de estilo para código e elementos de texto](../../reference/code-style-elements.md) para obter mais informações.
+>Os estilos de texto (`monospaced text`, *itálico*, colchetes `[ ]` `( )` etc.) neste documento indicam elementos de código e opções. Consulte [Convenções de estilo para código e elementos de texto](../../reference/code-style-elements.md) para obter mais informações.
 
 ## Propósito {#purpose}
 
@@ -31,8 +31,8 @@ O [!UICONTROL Actionable Log Files] simplifica a maneira de capturar impressões
 
 Para começar a usar o [!UICONTROL Actionable Log Files], você precisa importar os dados de log para o [!DNL Audience Manager]. Os links a seguir ajudarão você a começar:
 
-* Para logs do [!UICONTROL Google Campaign Manager], consulte [Importar arquivos de dados do Google Campaign Manager para o Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *and*, entre em contato com seu consultor do [!DNL Audience Manager].
-* Para logs do [!UICONTROL Google Ad Manager] (antigo Google DFP), consulte [Importar arquivos de dados do Google Ad Manager para o Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) *and*, entre em contato com o consultor do [!DNL Audience Manager].
+* Para logs do [!UICONTROL Google Campaign Manager], consulte [Importar arquivos de dados do Google Campaign Manager para o Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *and*. Entre em contato com seu consultor do [!DNL Audience Manager].
+* Para logs do [!UICONTROL Google Ad Manager] (antigo Google DFP), consulte [Importar Arquivos de Dados do Google Ad Manager para o Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) *and*, entre em contato com o consultor do [!DNL Audience Manager].
 * Para outros logs do servidor de anúncios, consulte [Arquivos de Dados e Metadados](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) *e*. Entre em contato com o consultor do [!DNL Audience Manager].
 
 Se você já estiver importando dados de log para o [!DNL Audience Manager], peça ao seu consultor do [!DNL Audience Manager] ou ao [Atendimento ao cliente](https://helpx.adobe.com/br/contact/enterprise-support.ec.html) para habilitar o [!UICONTROL Actionable Log Files] para você.
@@ -41,7 +41,7 @@ Se você já estiver importando dados de log para o [!DNL Audience Manager], pe�
 
 >[!IMPORTANT]
 >
-> At the end of 2019, [!UICONTROL Actionable Log Files] began to expand availability to new ad servers. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/br/contact/enterprise-support.ec.html) to get started.
+> At the end of 2019, [!UICONTROL Actionable Log Files] began to expand availability to new ad servers. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to get started.
 
 -->
 
@@ -62,7 +62,7 @@ Os sinais são as [menores unidades de dados](../../reference/signal-trait-segme
 >[!IMPORTANT]
 >
 >[!UICONTROL Actionable Log Files] têm suporte para os seguintes servidores de anúncios:
-> <br>
+>> <br>
 >
 > * [Gerente de campanha do Google](#dcm-logs-signals)
 > * [Gerenciador de Anúncios do Google](#ad-manager-logs-signals)
@@ -110,7 +110,7 @@ A tabela lista os sinais acionáveis de [!DNL Google Campaign Manager] arquivos 
   <tr> 
    <td colname="col1"> <p> <code>Advertiser Group ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_adsrc</code> </p> </td> 
-   <td colname="col3"><p>Um código de integração para a fonte de dados do anunciante. Observe que isso não está relacionado às fontes de dados Audience Manager.</p> <p>Este campo mapeia para a ID de grupo do anunciante do gerente de campanha do Google. </p> </td> 
+   <td colname="col3"><p>Um código de integração para a fonte de dados do anunciante. Observe que isso não está relacionado às fontes de dados do Audience Manager.</p> <p>Este campo mapeia para a ID de grupo do anunciante do gerente de campanha do Google. </p> </td> 
    <td colname="col4"> <p> <code> 134243</code> </p> </td> 
   </tr> 
   <tr> 
@@ -188,7 +188,7 @@ A tabela lista os sinais acionáveis de [!DNL Google Ad Manager] arquivos de log
 | `LineItemId` | `d_lineitem` | A ID numérica do item de linha entregue do Gerenciador de publicidade |
 | `OrderId` | `d_orderid` | A ID numérica da ordem do Gerenciador de anúncios que continha o item de linha entregue e o criativo. |
 | `CreativeId` | `d_creative` | A ID numérica do criativo entregue do Ad Manager. |
-| `-` | `d_event` | Indica o tipo de evento. O Audience Manager lê o tipo de evento do nome do arquivo de registro do Ad Manager e o transforma em um sinal acionável. Os valores aceitos são: <br> <ul><li>d_event = imp para impressões.</li><li>d_event = clique para cliques.</li><li>d_event = conv para conversões e atividades.</li></ul> |
+| `-` | `d_event` | Indica o tipo de evento. O Audience Manager lê o tipo de evento do nome do arquivo de log do Ad Manager e o transforma em um sinal acionável. Os valores aceitos são: <br> <ul><li>d_event = imp para impressões.</li><li>d_event = clique para cliques.</li><li>d_event = conv para conversões e atividades.</li></ul> |
 | `-` | `d_src` | A ID da fonte de dados usada para capturar os dados do Ad Manager. Consulte [Como Criar uma Source de Dados](/help/using/features/manage-datasources.md). |
 
 Os sinais descritos na tabela são capturados no Audience Manager como uma chamada HTTP em tempo real. O exemplo de chamada abaixo contém informações sobre um evento de conversão do Google Ad Manager. As chamadas não precisam necessariamente incluir todos os sinais na chamada de exemplo.
@@ -207,9 +207,9 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 <br> 
 
-### Sinais acionáveis de logs de servidor de anúncios do Adobe Advertising Cloud, Flashtalk e Sizmek {#generic-logs-signals}
+### Sinais acionáveis de logs de servidor de anúncios da Adobe Advertising Cloud, Flashtalk e Sizmek {#generic-logs-signals}
 
-Primeiro, você deve depositar os logs do servidor de anúncios em nossos buckets do Amazon S3. Para fazer isso, leia os [Arquivos de Dados para os Relatórios de Audience Optimization e os Arquivos de Log Acionáveis](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) *e* e entre em contato com seu consultor do [!DNL Audience Manager]. A tabela lista os sinais acionáveis dos arquivos de log do servidor de anúncios:
+Primeiro, você deve depositar os logs do servidor de anúncios em nossos buckets do Amazon S3. Para fazer isso, leia os [Arquivos de Dados para Relatórios do Audience Optimization e os Arquivos de Log Acionáveis](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) *e* e contate seu consultor do [!DNL Audience Manager]. A tabela lista os sinais acionáveis dos arquivos de log do servidor de anúncios:
 
 <table id="table_A5A2A10D471C4C9D8DCD88F9C017040C"> 
  <thead> 
@@ -241,7 +241,7 @@ Primeiro, você deve depositar os logs do servidor de anúncios em nossos bucket
   <tr> 
    <td colname="col1"> <p> <code>Advertiser-ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_adsrc</code> </p> </td> 
-   <td colname="col3"> <p>Um código de integração para a fonte de dados do anunciante. Observe que este campo não está relacionado a <a href="../../features/datasources-list-and-settings.md">fontes de dados Audience Manager.</a></p></td> 
+   <td colname="col3"> <p>Um código de integração para a fonte de dados do anunciante. Observe que este campo não está relacionado a <a href="../../features/datasources-list-and-settings.md">fontes de dados do Audience Manager.</a></p></td> 
    <td colname="col4"> <p> <code> 134243</code> </p> </td> 
   </tr> 
   <tr> 
@@ -329,9 +329,9 @@ Redirecione usuários que viram o creative 123, mas não clicaram ou converteram
 
 4. Mapeie o segmento [!DNL Retarget Users] para um destino e direcione usuários no destino com o creative 456.
 
-### Use a atividade de Floodlight do Google Campaign Manager nos Relatórios de Audience Optimization ou no Audience Lab
+### Usar a atividade do Google Campaign Manager Floodlight nos Relatórios do Audience Optimization ou no Audience Lab
 
-[As marcas Floodlight](https://support.google.com/dcm/partner/answer/4293719?hl=en) permitem que anunciantes rastreiem conversões de usuário. Com o [!UICONTROL Actionable Log Files], você pode acompanhar as [!DNL Google Campaign Manager] conversões nos [Relatórios de Audience Optimization](../../reporting/audience-optimization-reports/audience-optimization-reports.md) ou no [Audience Lab](../../features/audience-lab/audience-lab.md):
+[As marcas Floodlight](https://support.google.com/dcm/partner/answer/4293719?hl=en) permitem que anunciantes rastreiem conversões de usuário. Com o [!UICONTROL Actionable Log Files], você pode acompanhar as [!DNL Google Campaign Manager] conversões nos [Relatórios do Audience Optimization](../../reporting/audience-optimization-reports/audience-optimization-reports.md) ou no [Audience Lab](../../features/audience-lab/audience-lab.md):
 
 1. Crie uma característica e use a seguinte regra de característica para capturar uma conversão dos logs do servidor de publicidade:
 

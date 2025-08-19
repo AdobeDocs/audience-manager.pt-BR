@@ -47,7 +47,7 @@ Com base no exemplo acima, o navegador é redirecionado para o seguinte [!DNL UR
 
 ## Macros suportadas
 
-Os eventos de clique suportam as macros listadas na tabela a seguir. Uma macro é uma pequena unidade de código independente que é ativada quando a tag de anúncio é carregada para rastreamento de campanha e usuário. As macros serão transmitidas com o destino [!DNL URL], desde que estejam marcadas com o seguinte formato: `%macro%`. Algumas chaves não têm macros e aceitam um valor de ID embutido em código. As chaves que aceitam valores codificados são necessárias se você quiser analisar dados nos [Relatórios de Audience Optimization](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
+Os eventos de clique suportam as macros listadas na tabela a seguir. Uma macro é uma pequena unidade de código independente que é ativada quando a tag de anúncio é carregada para rastreamento de campanha e usuário. As macros serão transmitidas com o destino [!DNL URL], desde que estejam marcadas com o seguinte formato: `%macro%`. Algumas chaves não têm macros e aceitam um valor de ID embutido em código. As chaves que aceitam valores codificados são necessárias se você quiser analisar dados nos [Relatórios do Audience Optimization](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
 
 <table id="table_6EB65C3B7D0E49C59AA6C932549E33FC"> 
  <thead> 
@@ -66,17 +66,17 @@ Os eventos de clique suportam as macros listadas na tabela a seguir. Uma macro �
   <tr> 
    <td colname="col1"> <p> <code> d_adsrc</code> </p> </td> 
    <td colname="col02"> <p>Sem macro. </p> <p>Aceita um valor de ID codificado. </p> </td> 
-   <td colname="col2"> <p>ID do anunciante.</p> <p>Um código de integração para a fonte de dados do anunciante. Observe que isso não está relacionado às fontes de dados Audience Manager.</p> <p> Obrigatório para relatórios de <span class="wintitle"> Audience Optimization</span>. </p> </td> 
+   <td colname="col2"> <p>ID do anunciante.</p> <p>Um código de integração para a fonte de dados do anunciante. Observe que isso não está relacionado às fontes de dados do Audience Manager.</p> <p> Necessário para <span class="wintitle"> relatórios do Audience Optimization</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_bu</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_bu%</code> </p> </td> 
-   <td colname="col2"> <p>ID numérica da unidade de negócios. </p> <p> Obrigatório para relatórios de <span class="wintitle"> Audience Optimization</span>. </p> </td> 
+   <td colname="col2"> <p>ID numérica da unidade de negócios. </p> <p> Necessário para <span class="wintitle"> relatórios do Audience Optimization</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_campaign</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_campaign%</code> </p> </td> 
-   <td colname="col2"> <p>ID numérica da campanha do servidor de publicidade. </p> <p> Obrigatório para relatórios de <span class="wintitle"> Audience Optimization</span>. </p> </td> 
+   <td colname="col2"> <p>ID numérica da campanha do servidor de publicidade. </p> <p> Necessário para <span class="wintitle"> relatórios do Audience Optimization</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_creative</code> </p> </td> 
@@ -96,7 +96,7 @@ Os eventos de clique suportam as macros listadas na tabela a seguir. Uma macro �
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Experience Cloud</span> ID (ECID). Para obter mais informações sobre a ECID, consulte <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=pt-BR" format="https" scope="external"> Cookies e a ID de Experience Cloud </a>. </p> <p>Opcional. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Experience Cloud </span> ID (ECID). Para obter mais informações sobre a ECID, consulte <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies e a Experience Cloud ID</a>. </p> <p>Opcional. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_placement</code> </p> </td> 
@@ -121,7 +121,7 @@ Os eventos de clique suportam as macros listadas na tabela a seguir. Uma macro �
   <tr> 
    <td colname="col1"> <p> <code> d_src</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_src%</code> </p> </td> 
-   <td colname="col2"> <p>DPID da origem de onde o Audience Manager extrai os metadados. </p> <p>Obrigatório. </p> </td> 
+   <td colname="col2"> <p>DPID da origem da qual o Audience Manager extrai os metadados. </p> <p>Obrigatório. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_uuid</code> </p> </td> 
@@ -168,9 +168,9 @@ Com base no exemplo acima, o navegador é redirecionado para o seguinte [!DNL UR
 
 ## Funcionalidade adicional - [!UICONTROL Audience Optimization Reports]
 
-Você pode usar chamadas de pixel para acionar os [Relatórios de Audience Optimization](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). Consulte [Visão geral e mapeamentos para arquivos de metadados](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) se desejar usar pixels para potencializar os relatórios.
+Você pode usar chamadas de pixel para acionar os [Relatórios do Audience Optimization](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). Consulte [Visão geral e mapeamentos para arquivos de metadados](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) se desejar usar pixels para potencializar os relatórios.
 
 
 >[!MORELIKETHIS]
 >
->* [Arquivos de dados e metadados para relatórios de Audience Optimization](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
+>* [Arquivos de dados e metadados para relatórios do Audience Optimization](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)

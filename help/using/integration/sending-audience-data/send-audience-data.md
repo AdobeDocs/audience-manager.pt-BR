@@ -1,5 +1,5 @@
 ---
-description: Envie dados do público-alvo de outras fontes para o Audience Manager.
+description: Envie dados do público-alvo de outras fontes para a Audience Manager.
 seo-description: Send audience data from other sources to Adobe Audience Manager (AAM).
 seo-title: Sending Audience Data in Adobe Audience Manager (AAM)
 title: Enviar dados de público-alvo
@@ -14,11 +14,11 @@ ht-degree: 15%
 
 # Enviar dados de público-alvo
 
-Envie dados do público-alvo de outras fontes para o Audience Manager.
+Envie dados do público-alvo de outras fontes para a Audience Manager.
 
 * [Integração de dados de entrada em tempo real](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md)
 
-  Informações sobre a integração Audience Manager em tempo real.
+  Informações sobre a integração do Real-Time Audience Manager.
 
 * [Descrição do processo de transferência de dados em lote](/help/using/integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
 

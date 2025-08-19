@@ -56,11 +56,11 @@ Em [!UICONTROL Trait Builder], as configurações de [!UICONTROL Basic Informati
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Data Source</span></b> </td> 
-   <td colname="col2"> Associa a característica a um provedor de dados específico. Obrigatório. <p>Use o primeiro menu suspenso para filtrar entre fontes de dados de Audience Manager, conjuntos de relatórios do Adobe Analytics ou ambos. Em seguida, use o segundo menu suspenso para escolher a fonte de dados.</p><p> Se você não estiver usando conjuntos de relatórios do Adobe Analytics, o seletor de tipo de fonte de dados será desativado e assumirá como padrão apenas as fontes de dados de Audience Manager.</p>  </td> 
+   <td colname="col2"> Associa a característica a um provedor de dados específico. Obrigatório. <p>Use o primeiro menu suspenso para filtrar entre fontes de dados do Audience Manager, conjuntos de relatórios do Adobe Analytics ou ambos. Em seguida, use o segundo menu suspenso para escolher a fonte de dados.</p><p> Se você não estiver usando conjuntos de relatórios do Adobe Analytics, o seletor de tipo de origem de dados será desativado e assumirá como padrão apenas as origens de dados do Audience Manager.</p>  </td> 
   </tr>
    <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Tipo de evento</span></b> </td> 
-   <td colname="col2"> Atribui a característica a um tipo ou categoria, geralmente de acordo com a função (por exemplo, conversão, visitante do site, parceiro, exibição de página etc.). Opcional. <p> Para saber como criar características de conversão, consulte o <a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html?lang=pt-BR">vídeo Criação de características de conversão no Audience Manager</a>. </p></td> 
+   <td colname="col2"> Atribui a característica a um tipo ou categoria, geralmente de acordo com a função (por exemplo, conversão, visitante do site, parceiro, exibição de página etc.). Opcional. <p> Para saber como criar características de conversão, assista ao vídeo <a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Criação de características de conversão no Audience Manager</a>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Código de integração</span></b> </td> 

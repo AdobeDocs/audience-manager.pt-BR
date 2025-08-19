@@ -25,7 +25,7 @@ O exemplo a seguir é um exemplo de mensagem de email. A tabela abaixo da mensag
 <table id="table_F579C2278A044213BFCEF97F3BEC2C0C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>De: aam-noreply@adobe.com </b> </p> <p> <b>Assunto: Resultado Do Processamento De Servidor Para Servidor Do Adobe Audience Manager:</b> </p> <p> <b>Prezado Parceiro de Adobe: (ID:7)</b> <b></b> </p> <p> <b>Recebemos sua entrega de arquivos de Servidor para Servidor do Adobe Audience Manager</b> </p> <p> <b>Nome do arquivo:</b> <i></i> </p> <p> <b> s3n://&lt;<i>nome_do_bucket&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806402.sync</b> </p> <p> <b> s3n://&lt;<i>nome_do_bucket&gt;</i>/2018-05-16/ftp_dpm_7_901_1368655202.sync </b> </p> <p> <b>s3n://&lt;<i>nome_do_bucket&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784804.sync </b> </p> <p> <b>s3n://&lt;<i>nome_do_bucket&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806403.sync </b> </p> <p> <b>s3n://&lt;<i>nome_do_bucket&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784802.sync </b> </p> <p> <b>s3n://&lt;<i>nome_do_bucket&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784803.sync </b> </p> <p> <b>s3n://&lt;<i>nome_do_bucket&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806404.sync</b> </p> <p> <b>Registros recebidos: 40669900</b> </p> <p><b>Erros de Formato: 0</b> </p> <p> <b>ID inválida do AAM: 112 </b> </p> <p> <b>Nenhuma identificação de AAM correspondente: 0 </b> </p> <p> <b>Nenhuma Característica Realizada: 26730823 </b> </p> <p> <b>Registros processados: 40669900 </b> </p> <p> <b>Registros Armazenados: 13938958 </b> </p> <p> <b>Total de dispositivos: 21 </b> </p> <p> <b>Total de sinais: 918878926 </b> </p> <p> <b>Total de sinais não utilizados: 660348376 </b> </p> <p> <b>Total de características realizadas: 258086908 </b> </p> <p> <b>Total de características removidas: 0 </b> </p> <p> <b>Total de características com falha na validação: 0 </b> </p> <p> <b>Total de usuários com características que falharam na validação: 0 </b> </p> <p> <b>Hora de início do trabalho: 17/05/2018 18:07:49 </b> </p> <p> <b>Hora de término do trabalho: 17/05/2018 18:45:02</b> </p> </td> 
+   <td colname="col1"> <p> <b>De: aam-noreply@adobe.com </b> </p> <p> <b>Assunto: Resultado Do Processamento De Servidor Para Servidor Do Adobe Audience Manager:</b> </p> <p> <b>Prezado Parceiro da Adobe: (ID:7)</b> <b></b> </p> <p> <b>Recebemos sua entrega de arquivos de Servidor para Servidor do Adobe Audience Manager</b> </p> <p> <b>Nome do arquivo:</b> <i></i> </p> <p> <b> s3n://&lt;<i>nome_do_bucket&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806402.sync</b> </p> <p> <b> s3n://&lt;<i>nome_do_bucket&gt;</i>/2018-05-16/ftp_dpm_7_901_1368655202.sync </b> </p> <p> <b>s3n://&lt;<i>nome_do_bucket&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784804.sync </b> </p> <p> <b>s3n://&lt;<i>nome_do_bucket&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806403.sync </b> </p> <p> <b>s3n://&lt;<i>nome_do_bucket&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784802.sync </b> </p> <p> <b>s3n://&lt;<i>nome_do_bucket&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784803.sync </b> </p> <p> <b>s3n://&lt;<i>nome_do_bucket&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806404.sync</b> </p> <p> <b>Registros recebidos: 40669900</b> </p> <p><b>Erros de Formato: 0</b> </p> <p> <b>ID de AAM inválida: 112 </b> </p> <p> <b>Nenhuma AAM ID Correspondente: 0 </b> </p> <p> <b>Nenhuma Característica Realizada: 26730823 </b> </p> <p> <b>Registros processados: 40669900 </b> </p> <p> <b>Registros Armazenados: 13938958 </b> </p> <p> <b>Total de dispositivos: 21 </b> </p> <p> <b>Total de sinais: 918878926 </b> </p> <p> <b>Total de sinais não utilizados: 660348376 </b> </p> <p> <b>Total de características realizadas: 258086908 </b> </p> <p> <b>Total de características removidas: 0 </b> </p> <p> <b>Total de características com falha na validação: 0 </b> </p> <p> <b>Total de usuários com características que falharam na validação: 0 </b> </p> <p> <b>Hora de início do trabalho: 17/05/2018 18:07:49 </b> </p> <p> <b>Hora de término do trabalho: 17/05/2018 18:45:02</b> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -46,7 +46,7 @@ A tabela a seguir contém linhas correspondentes às linhas na mensagem de email
   </tr> 
   <tr> 
    <td colname="col1"> Registros recebidos </td> 
-   <td colname="col2"> <p>Número total de Adobe de registros recebidos em todos os arquivos. Na maioria dos casos, esse deve ser o número total de linhas nos arquivos de entrada. </p> </td> 
+   <td colname="col2"> <p>Número total de registros que o Adobe recebeu em todos os arquivos. Na maioria dos casos, esse deve ser o número total de linhas nos arquivos de entrada. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Erros de formato </td> 
@@ -54,10 +54,10 @@ A tabela a seguir contém linhas correspondentes às linhas na mensagem de email
   </tr> 
   <tr> 
    <td colname="col1"> ID de AAM inválida </td> 
-   <td colname="col2"> <p>Número de UUIDs de Audience Manager que não correspondem ao formato de 38 dígitos esperado. Ou os UUIDs de Audience Manager enviados no arquivo não são números. </p> </td> 
+   <td colname="col2"> <p>Número de UUIDs do Audience Manager que não correspondem ao formato de 38 dígitos esperado. Ou os UUIDs do Audience Manager enviados no arquivo não são números. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Nenhuma ID de AAM correspondente </td> 
+   <td colname="col1"> Nenhuma AAM ID correspondente </td> 
    <td colname="col2"> <p>Número total de usuários para os quais o Audience Manager não conseguiu localizar um UUID correspondente. Esses arquivos não foram sincronizados com a ID, portanto, o Audience Manager não pode pesquisar a UUID. </p> </td> 
   </tr> 
   <tr> 
@@ -66,11 +66,11 @@ A tabela a seguir contém linhas correspondentes às linhas na mensagem de email
   </tr> 
   <tr> 
    <td colname="col1"> Registros processados </td> 
-   <td colname="col2"> <p>Número total de Audience Manager de registros processados. Na maioria dos casos, esse número deve ser o mesmo que "Registros recebidos". </p> </td> 
+   <td colname="col2"> <p>Número total de registros processados pelo Audience Manager. Na maioria dos casos, esse número deve ser o mesmo que "Registros recebidos". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Registros armazenados </td> 
-   <td colname="col2"> <p>Número de registros que resultaram nos dados a serem carregados no sistema = Registros Processados - Erros de Formato - IDs AAM inválidas - Nenhuma ID AAM correspondente - Nenhuma Característica Realizada. </p> </td> 
+   <td colname="col2"> <p>Número de registros que resultaram nos dados a serem carregados no sistema = Registros processados - Erros de formato - IDs inválidas do AAM - ID não correspondente do AAM - Nenhuma característica realizada. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Total de dispositivos </td> 
@@ -82,11 +82,11 @@ A tabela a seguir contém linhas correspondentes às linhas na mensagem de email
   </tr> 
   <tr> 
    <td colname="col1"> Total de sinais não utilizados </td> 
-   <td colname="col2"> <p>Número total de sinais não utilizados para todos os usuários em todos os arquivos de entrada (pares de chave/valor que não mapearam para características de Audience Manager). Na maioria dos casos, isso significa que o Audience Manager não tem regras definidas para o sinal. </p> </td> 
+   <td colname="col2"> <p>Número total de sinais não utilizados para todos os usuários em todos os arquivos de entrada (pares de chave/valor que não mapearam para características do Audience Manager). Na maioria dos casos, isso significa que o Audience Manager não tem regras definidas para o sinal. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Total de características realizadas </td> 
-   <td colname="col2"> <p>Número de características de Audience Manager para todos os usuários em todos os arquivos de entrada com base nos sinais. </p> </td> 
+   <td colname="col2"> <p>Número de características do Audience Manager para todos os usuários em todos os arquivos de entrada com base nos sinais. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Total de características removidas </td> 

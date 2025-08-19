@@ -20,7 +20,7 @@ Rótulos de cabeçalho de coluna definidos.
 
 >[!IMPORTANT]
 >
->As Ferramentas de gerenciamento em massa não são uma oferta de Adobe oficialmente compatível. A solução de problemas e o suporte por meio do Atendimento ao cliente serão tratados caso a caso.
+>As Ferramentas de gerenciamento em massa não são uma oferta oficialmente compatível com o Adobe. A solução de problemas e o suporte por meio do Atendimento ao cliente serão tratados caso a caso.
 
 <!-- 
 
@@ -46,7 +46,7 @@ Rótulos de cabeçalho de coluna definidos.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> derivouSignalId</span> </p> </td> 
-   <td colname="col2"> <p>Um ID </a> de sinal derivado <a href="../../features/derived-signals.md">. </p> </td> 
+   <td colname="col2"> <p>Um ID <a href="../../features/derived-signals.md"> de sinal derivado </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> descrição</span> </p> </td> 
@@ -78,7 +78,7 @@ Rótulos de cabeçalho de coluna definidos.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceKey</span> </p> </td> 
-   <td colname="col2"> <p>Os sinais são bits de dados passados para <span class="keyword"> Audience Manager</span> com base na atividade do usuário. Eles são transmitidos como <a href="../../reference/key-value-pairs-explained.md"> pares de valor-chave</a>. A chave de origem é uma constante que não é alterada. Isso ajuda a categorizar o valor de origem que pode ser alterado. Consulte <a href="../../features/derived-signals.md"> Sinais derivados</a>. </p> </td> 
+   <td colname="col2"> <p>Os sinais são bits de dados passados para o <span class="keyword"> Audience Manager</span> com base na atividade do usuário. Eles são transmitidos como <a href="../../reference/key-value-pairs-explained.md"> pares de valor-chave</a>. A chave de origem é uma constante que não é alterada. Isso ajuda a categorizar o valor de origem que pode ser alterado. Consulte <a href="../../features/derived-signals.md"> Sinais derivados</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceValue</span> </p> </td> 
@@ -115,7 +115,7 @@ Rótulos de cabeçalho de coluna definidos.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> url</span> </p> </td> 
-   <td colname="col2"> <p>Pixel acionado por DIL quando um usuário se qualifica para um segmento. </p> </td> 
+   <td colname="col2"> <p>Pixel acionado pelo DIL quando um usuário se qualifica para um segmento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> valueAlias</span> </p> </td> 

@@ -32,7 +32,7 @@ No [!UICONTROL Marketplace], as ferramentas de relatórios permitem rastrear o u
 
 >[!TIP]
 >
->Use o **[Localizador de Público-Alvo do Adobe](https://www.adobe-audience-finder.com/)** para encontrar feeds de dados de alta qualidade nos quais você pode se inscrever. Volte para a interface de usuário do [!DNL Audience Manager] ou use a [API de Audience Marketplace](https://bank.demdex.com/portal/swagger/index.html#/Audience_Marketplace_Buyer_API) para assinar os feeds encontrados.
+>Use o **[Adobe Audience Finder](https://www.adobe-audience-finder.com/)** para encontrar feeds de dados de alta qualidade nos quais você pode se inscrever. Em seguida, volte para a interface de usuário do [!DNL Audience Manager] ou use a [API do Comprador do Audience Marketplace](https://bank.demdex.com/portal/swagger/index.html#/Audience_Marketplace_Buyer_API) para assinar os feeds encontrados.
 
 ![visão geral-do-marketplace](assets/buyer-marketplace-overview.png)
 

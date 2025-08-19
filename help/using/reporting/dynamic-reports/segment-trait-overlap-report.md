@@ -20,7 +20,7 @@ Retorna dados sobre o número de usuários únicos compartilhados entre uma cara
 
 >[!NOTE]
 >
->Os relatórios de Sobreposição no Audience Manager seguem os princípios do RBAC. Você só pode ver segmentos e características de fontes de dados às quais você tem acesso com base no [Grupo de Usuários RBAC](/help/using/features/administration/administration-overview.md) ao qual você pertence.
+>Os relatórios de sobreposição no Audience Manager seguem os princípios do RBAC. Você só pode ver segmentos e características de fontes de dados às quais você tem acesso com base no [Grupo de Usuários RBAC](/help/using/features/administration/administration-overview.md) ao qual você pertence.
 
 <!-- 
 
@@ -185,5 +185,5 @@ O pop-up para o relatório [!UICONTROL Segment-to-Trait Overlap] contém as mét
 >* [Formas, Cores e Tamanhos Usados em Relatórios Interativos](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [Explicação dos Ícones e Ferramentas do Relatório](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
 >* [Relatórios de sobreposição: Atualizar agendamento e tamanho mínimo do segmento](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Amostragem de Dados e Taxas de Erro em Relatórios de Audience Manager Selecionados...](../../reporting/report-sampling.md)
+>* [Amostragem de Dados e Taxas de Erro em Relatórios Selecionados do Audience Manager...](../../reporting/report-sampling.md)
 >* [Arquivos CSV para relatórios de sobreposição](../../reporting/dynamic-reports/overlap-csv-files.md)

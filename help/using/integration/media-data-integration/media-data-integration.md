@@ -1,5 +1,5 @@
 ---
-description: Você pode capturar dados de campanhas de mídia usando chamadas de pixel para Audience Manager (geralmente chamadas de pixel criativo) ou assimilando arquivos de log.
+description: Você pode capturar dados de campanhas de mídia usando chamadas de pixel para o Audience Manager (geralmente chamadas de pixelização do criativo) ou assimilando arquivos de log.
 seo-description: You can capture data from media campaigns using pixel calls to Audience Manager (often called pixeling the creative) or by ingesting log files.
 seo-title: Media Data Integration
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 # Integração de dados de mídia {#media-data-integration}
 
-Você pode capturar dados de campanhas de mídia usando chamadas de pixel para Audience Manager (geralmente chamadas de pixel criativo) ou assimilando arquivos de log. Leia os artigos nesta seção para entender o processo.
+Você pode capturar dados de campanhas de mídia usando chamadas de pixel para o Audience Manager (geralmente chamadas de pixelização do criativo) ou assimilando arquivos de log. Leia os artigos nesta seção para entender o processo.
 
 <!-- c_camp_data_int.xml -->
 

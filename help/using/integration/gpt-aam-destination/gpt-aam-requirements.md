@@ -20,38 +20,38 @@ Você pode enviar segmentos qualificados para o [!DNL Google Ad Manager] (antigo
 
 ## Integração do cliente {#client-side-integration}
 
-Para uma integração no lado do cliente, é necessário configurar um destino [!DNL GPT] no Audience Manager. Considere os seguintes pontos quando quiser configurar [!DNL GPT] como um destino Audience Manager:
+Para uma integração no lado do cliente, é necessário configurar um destino [!DNL GPT] no Audience Manager. Considere os seguintes pontos quando quiser configurar [!DNL GPT] como um destino do Audience Manager:
 
-* **Adicionar [!UICONTROL DIL]:** Implante o código [!UICONTROL Data Integration Library (DIL)] em todas as páginas que deseja direcionar. [!UICONTROL DIL] grava dados de segmento de Audience Manager e IDs de usuário em cookies que são usados por [!DNL GPT] para direcionamento.
+* **Adicionar [!UICONTROL DIL]:** Implante o código [!UICONTROL Data Integration Library (DIL)] em todas as páginas que deseja direcionar. [!UICONTROL DIL] grava dados de segmento e IDs de usuário do Audience Manager em cookies que são usados por [!DNL GPT] para direcionamento.
 
 * **Criar um [!UICONTROL Cookie Destination]:** [!DNL GPT] deve ser configurado como um destino baseado em cookie no Audience Manager.
 
-* **Implementar código de verificação de cookie:** Adicione o método de API [!DNL GPT] `.setTargeting` ao nosso [código de verificação de cookie](../../integration/gpt-aam-destination/gpt-aam-modify-api.md) recomendado. Este código ajuda a evitar erros procurando cookies AAM válidos antes que o método `.setTargeting` seja chamado.
+* **Implementar código de verificação de cookie:** Adicione o método de API [!DNL GPT] `.setTargeting` ao nosso [código de verificação de cookie](../../integration/gpt-aam-destination/gpt-aam-modify-api.md) recomendado. Este código ajuda a evitar erros procurando cookies válidos do AAM antes que o método `.setTargeting` seja chamado.
 
-* **Adicionar a Função `AamGpt`:** O código `AamGpt` captura dados de cookies Audience Manager e os envia para [!DNL GPT]. Coloque o [Código de Audience Manager das Tags do Google Publisher](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md) ( `AamGpt`) na parte superior da página ou dentro do bloco de código `<head>`.
+* **Adicionar a Função `AamGpt`:** o código `AamGpt` captura dados de cookies do Audience Manager e os envia para [!DNL GPT]. Coloque o [Código Audience Manager das Tags do Google Publisher](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md) ( `AamGpt`) na parte superior da página ou dentro do bloco de código `<head>`.
 
   >[!NOTE]
   >
-  >A função `AamGpt` não é necessária se você usar seu próprio código para ler dados do cookie Audience Manager.
+  >A função `AamGpt` não é necessária se você usar seu próprio código para ler dados de cookies do Audience Manager.
 
-* **Enviar logs de entrega para Audience Manager:** Se desejar um relatório de entrega de segmento (opcional), forneça ao Audience Manager um log diário que contenha dados de entrega no nível de impressão. Os dados podem estar em um formato bruto, mas cada registro deve conter o Audience Manager `UUID`. O Audience Manager pode recebê-los via [!DNL FTP].
+* **Enviar logs de entrega para o Audience Manager:** Se desejar um relatório de entrega de segmento (opcional), forneça à Audience Manager um log diário que contenha dados de entrega no nível de impressão. Os dados podem estar em um formato bruto, mas cada registro deve conter o Audience Manager `UUID`. A Audience Manager pode recebê-los via [!DNL FTP].
 
 ### Somente os segmentos qualificados são enviados para GPT
 
-A quantidade de dados passada para [!DNL GPT] depende de quantos segmentos um usuário específico se qualifica. Por exemplo, digamos que você configure segmentos de 100 Audience Manager. Se um visitante do site se qualificar para cinco deles, então apenas esses cinco segmentos serão enviados para [!DNL GPT] (não todos os 100).
+A quantidade de dados passada para [!DNL GPT] depende de quantos segmentos um usuário específico se qualifica. Por exemplo, digamos que você configure 100 segmentos do Audience Manager. Se um visitante do site se qualificar para cinco deles, então apenas esses cinco segmentos serão enviados para [!DNL GPT] (não todos os 100).
 
 >[!NOTE]
 >
->Não há limites para o número de valores-chave que você pode enviar, mas a solicitação [!DNL Google] [!DNL URL] tem limites para o número de caracteres que ela pode aceitar. Consulte [Definição de direcionamento e tamanhos com GPT](https://support.google.com/dfp_premium/bin/answer.py?hl=en&amp;answer=1697712).
+>Não há limites para o número de valores-chave que você pode enviar, mas a solicitação [!DNL Google] [!DNL URL] tem limites para o número de caracteres que ela pode aceitar. Consulte [Definição de direcionamento e tamanhos com GPT](https://support.google.com/dfp_premium/bin/answer.py?hl=en&answer=1697712).
 
 ## Integração do lado do servidor {#server-side-integration}
 
-Entre em contato com seu consultor de Audience Manager ou com o Atendimento ao cliente se quiser configurar uma integração do lado do servidor com o [!DNL Google Ad Manager], usando o [!DNL GPT]. Você precisará fornecer a ID de rede e a ID de link de público-alvo da sua conta do [!DNL Google Ad Manager].
+Entre em contato com o consultor da Audience Manager ou com o Atendimento ao cliente se quiser configurar uma integração do lado do servidor com o [!DNL Google Ad Manager], usando o [!DNL GPT]. Você precisará fornecer a ID de rede e a ID de link de público-alvo da sua conta do [!DNL Google Ad Manager].
 
 >[!IMPORTANT]
 >
->Se suas páginas da Web estiverem executando a biblioteca [Accelerated Media Pages](https://www.ampproject.org/) ([!DNL AMP]), você deverá usar a integração do lado do servidor com o Audience Manager. Se você estiver no [!DNL AMP] e tiver uma integração do lado do cliente com o [!DNL AMP], deverá migrar para a integração do lado do servidor. Entre em contato com seu consultor do Audience Manager ou com o Atendimento ao cliente para discutir a migração.
+>Se suas páginas da Web estiverem executando a biblioteca [Accelerated Media Pages](https://www.ampproject.org/) ([!DNL AMP]), você deverá usar a integração do lado do servidor com o Audience Manager. Se você estiver no [!DNL AMP] e tiver uma integração do lado do cliente com o [!DNL AMP], deverá migrar para a integração do lado do servidor. Entre em contato com seu consultor da Audience Manager ou com o Atendimento ao cliente para discutir a migração.
 
 >[!MORELIKETHIS]
 >
->* [Guia de Referência de API GPT](https://support.google.com/dfp_premium/bin/answer.py?hl=en&amp;answer=1650154)
+>* [Guia de Referência de API GPT](https://support.google.com/dfp_premium/bin/answer.py?hl=en&answer=1650154)

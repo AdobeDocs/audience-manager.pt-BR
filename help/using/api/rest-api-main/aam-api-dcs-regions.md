@@ -16,7 +16,7 @@ ht-degree: 3%
 
 # Métodos da API da região DCS {#dcs-region-api-methods}
 
-Métodos que permitem listar programaticamente regiões do Audience Manager [!DNL DCS].
+Métodos que permitem listar programaticamente as regiões [!DNL DCS] do Audience Manager.
 
 <!-- c_rest_api_regions.xml -->
 

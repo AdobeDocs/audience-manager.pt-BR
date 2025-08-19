@@ -33,7 +33,7 @@ Ao criar o primeiro destino baseado em dispositivo com uma plataforma integrada,
 
 Antes de criar um novo destino baseado em dispositivo, é necessário configurar a integração entre o Audience Manager e a plataforma de destino. Veja como fazer isso:
 
-1. Faça logon em sua conta Audience Manager e vá para **[!DNL Administration > Integrated Accounts]**. Se você tiver uma integração configurada anteriormente com uma plataforma de destino, deverá vê-la listada nesta página. Caso contrário, a página ficará vazia.
+1. Faça logon em sua conta da Audience Manager e vá para **[!DNL Administration > Integrated Accounts]**. Se você tiver uma integração configurada anteriormente com uma plataforma de destino, deverá vê-la listada nesta página. Caso contrário, a página ficará vazia.
 1. Clique em **[!DNL Add Account]**.
 1. Selecione a plataforma de destino com a qual você deseja autenticar e clique em **[!DNL Confirm]** para ser redirecionado para a página de autenticação da plataforma selecionada.
 
@@ -49,7 +49,7 @@ Após configurar a integração da plataforma de destino, é possível criar o n
 >
 >Não é possível alterar o nome de um destino existente baseado em dispositivo. Forneça um nome que ajudará a identificar o destino corretamente.
 
-1. Faça logon em sua conta Audience Manager, vá para **[!DNL Audience Data > Destinations]** e clique em **[!DNL Create Destination]**.
+1. Faça logon em sua conta da Audience Manager, vá para **[!DNL Audience Data > Destinations]** e clique em **[!DNL Create Destination]**.
 1. Na seção **[!DNL Basic Information]**, insira um **[!DNL Name]** e **[!DNL Description]** para seu novo destino e use as configurações da lista abaixo:
 
    ![configuração](assets/dbd-new-basic.png)

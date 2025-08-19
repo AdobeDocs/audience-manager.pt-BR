@@ -64,7 +64,7 @@ O [!UICONTROL Cross-Device Options] permite selecionar usuários autenticados e 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Nenhum Perfil Entre Dispositivos</span></b> </p> </td> 
-   <td colname="col2"> <p>Instrui <span class="keyword"> Audience Manager</span> a não usar os dados coletados de usuários autenticados. </p> </td> 
+   <td colname="col2"> <p>Instrui o <span class="keyword"> Audience Manager</span> a não usar os dados coletados de usuários autenticados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Perfis Autenticados Atuais</span></b> </p> </td> 
@@ -72,7 +72,7 @@ O [!UICONTROL Cross-Device Options] permite selecionar usuários autenticados e 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Últimos perfis autenticados</span></b> </p> </td> 
-   <td colname="col2"> <p>Instrui <span class="keyword"> Audience Manager</span> a ler dados do perfil autenticado do usuário que fez logon pela última vez no dispositivo. </p> <p>Quando selecionado, o Audience Manager <span class="keyword"> </span> não gravará novos dados de características no perfil autenticado se o usuário for anônimo. Após a autenticação, os novos dados de características são gravados no perfil autenticado do usuário. </p> </td>
+   <td colname="col2"> <p>Instrui o <span class="keyword"> Audience Manager</span> a ler dados do perfil autenticado do usuário que fez logon pela última vez no dispositivo. </p> <p>Quando selecionado, o <span class="keyword"> Audience Manager</span> não gravará novos dados de características no perfil autenticado se o usuário for anônimo. Após a autenticação, os novos dados de características são gravados no perfil autenticado do usuário. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Todos os perfis entre dispositivos</span></b> </p> </td> 
@@ -99,15 +99,15 @@ O [!UICONTROL Device Options] permite selecionar o tipo de *`device profile`* us
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Nenhum Perfil de Dispositivo</span></b> </p> </td> 
-   <td colname="col2"> <p>Instrui <span class="keyword"> Audience Manager</span> a não usar as características contidas no perfil anônimo para segmentação. </p> </td> 
+   <td colname="col2"> <p>Instrui o <span class="keyword"> Audience Manager</span> a não usar as características contidas no perfil anônimo para segmentação. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Perfil de dispositivo</span></b> </p> </td> 
-   <td colname="col2"> <p>Instrui <span class="keyword"> Audience Manager</span> a usar o perfil de dispositivo anônimo para segmentação. </p> </td> 
+   <td colname="col2"> <p>Instrui o <span class="keyword"> Audience Manager</span> a usar o perfil de dispositivo anônimo para segmentação. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Gráfico do dispositivo de vinculação de perfis</span></b> </p> </td> 
-   <td colname="col2"> <p>Instrui o Audience Manager <span class="keyword"> </span> a ler os perfis do dispositivo atual e de até 100 outros dispositivos nos quais o usuário autenticou. Este gráfico de dispositivos foi criado com base nos seus próprios dados primários em <span class="keyword"> Audience Manager</span>. É ideal para clientes que têm um alto nível de autenticação em suas propriedades digitais. O gráfico de dispositivos <span class="wintitle"> Link de Perfil</span> é atualizado em tempo real. Esta opção está disponível quando você seleciona <b><span class="uicontrol"> Perfil Autenticado Atual</span></b> ou <b><span class="uicontrol"> Último Perfil Autenticado</span></b>. Ao usar essa opção, você só pode escolher um único perfil autenticado (<span class="keyword"> Audience Manager</span> acinzenta automaticamente os outros). Consulte também <a href="profile-link-use-case.md"> Casos de uso do gráfico de dispositivo de link de perfil</a>. </p> </td>
+   <td colname="col2"> <p>Instrui o <span class="keyword"> Audience Manager</span> a ler os perfis do dispositivo atual e de até 100 outros dispositivos nos quais o usuário autenticou. Este gráfico de dispositivos foi criado com base nos seus próprios dados primários no <span class="keyword"> Audience Manager</span>. É ideal para clientes que têm um alto nível de autenticação em suas propriedades digitais. O gráfico de dispositivos <span class="wintitle"> Link de Perfil</span> é atualizado em tempo real. Esta opção está disponível quando você seleciona <b><span class="uicontrol"> Perfil Autenticado Atual</span></b> ou <b><span class="uicontrol"> Último Perfil Autenticado</span></b>. Ao usar esta opção, você só pode escolher um único perfil autenticado (<span class="keyword"> Audience Manager</span> esmaece automaticamente os outros). Consulte também <a href="profile-link-use-case.md"> Casos de uso do gráfico de dispositivo de link de perfil</a>. </p> </td>
   </tr>
 
 <tr> 
@@ -116,14 +116,14 @@ O [!UICONTROL Device Options] permite selecionar o tipo de *`device profile`* us
      <ul id="ul_5BA0D940BA15484FADF134A5A73815D5"> 
       <li id="li_389ACEBBF79A47499B6119B0F9CB3B5D"> Dados probabilísticos e/ou determinísticos. </li> 
       <li id="li_E8606D3871A145A68E87BDC3554AC4EF">Dados a nível da pessoa ou do agregado familiar. </li> 
-     </ul> </p> <p>Para usar essas opções, você deve ser um cliente de um gráfico de dispositivos que já esteja integrado ao Audience Manager <span class="keyword"> </span>. Entre em contato com o gerente da conta para obter mais informações ou para começar. </p> </td>
+     </ul> </p> <p>Para usar essas opções, você deve ser um cliente de um gráfico de dispositivos que já esteja integrado ao <span class="keyword"> Audience Manager</span>. Entre em contato com o gerente da conta para obter mais informações ou para começar. </p> </td>
   </tr>
  </tbody>
 </table>
 
 ## [!UICONTROL External Merge Policies] {#external-merge-policies}
 
-Os segmentos de público-alvo que foram criados automaticamente a partir de outras soluções do [!DNL Experience Cloud], com base nas regras de mesclagem definidas fora do [!DNL Audience Manager], são marcados como usando um [!UICONTROL External Merge Policy]. Por exemplo, consulte [Compartilhamento de público-alvo entre Audience Manager e Adobe Experience Platform](../../integration/integration-aep/aam-aep-audience-sharing.md).
+Os segmentos de público-alvo que foram criados automaticamente a partir de outras soluções do [!DNL Experience Cloud], com base nas regras de mesclagem definidas fora do [!DNL Audience Manager], são marcados como usando um [!UICONTROL External Merge Policy]. Por exemplo, consulte [Compartilhamento de público-alvo entre a Audience Manager e a Adobe Experience Platform](../../integration/integration-aep/aam-aep-audience-sharing.md).
 
 >[!MORELIKETHIS]
 >

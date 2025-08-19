@@ -24,7 +24,7 @@ As opções do [!UICONTROL Profile Merge Rules] permitem expandir ou estreitar o
 
 ## Direcionamento de dispositivo {#device-personalization}
 
-Esse cenário se aplica aos profissionais de marketing que desejam avaliar um único perfil de dispositivo para um segmento de público-alvo definido no Audience Manager, a fim de fornecer uma experiência consistente para o dispositivo usando plataformas de direcionamento que oferecem suporte a IDs de dispositivo (DSP, plataformas de personalização no site e outras plataformas de direcionamento baseadas em dispositivo), sem considerar a autenticação de usuário.
+Esse cenário se aplica aos profissionais de marketing que desejam avaliar um único perfil de dispositivo para um segmento de público-alvo definido no Audience Manager, a fim de fornecer uma experiência consistente para o dispositivo usando plataformas de direcionamento que oferecem suporte a IDs de dispositivo (DSPs, plataformas de personalização no site e outras plataformas de direcionamento baseadas em dispositivo), sem considerar a autenticação do usuário.
 
 Para criar uma regra que segmente apenas perfis de dispositivo, selecione **[!UICONTROL No Cross-Device Profile]** + **[!UICONTROL Device Profile]**.
 
@@ -46,7 +46,7 @@ A equipe de marketing da loja pode usar a regra **[!UICONTROL Current Authentica
 
 ![atual-sem-dispositivo](assets/current-no-device.png)
 
-Ao usar essa regra, o Audience Manager ignora completamente o perfil do dispositivo, qualificando a ID de CRM do John para o segmento e não qualificando a ID de CRM da Jane.
+Ao usar essa regra, o Audience Manager ignora completamente o perfil do dispositivo, qualificando a ID de CRM de John para o segmento e não qualificando a ID de CRM de Jane.
 
 ![direcionamento-compartilhado-dispositivo](assets/shared-device-targeting.png)
 
@@ -58,7 +58,7 @@ Este caso de uso abrange o gerenciamento de identidade do agregado. Uma empresa 
 
 Vamos considerar um segmento feito de famílias com renda superior a US$ 100.000/ano, que contenha pelo menos um dispositivo que seja um [!DNL iPhone 7] em [!DNL Data Plan B]. Temos dois perfis domésticos (perfis entre dispositivos), cada um conectado a dois perfis de dispositivos diferentes. As características necessárias para se qualificar para o segmento são distribuídas pelos perfis do dispositivo e entre dispositivos.
 
-O Audience Manager mescla cada par de dispositivos + perfis entre dispositivos para ver se o conjunto mesclado de características se qualifica para o segmento. Como o Audience Manager avalia cada perfil incluído na mesclagem, um perfil de dispositivo e um perfil doméstico podem ser segmentados.
+O Audience Manager mescla cada par de dispositivos + perfis entre dispositivos para ver se o conjunto mesclado de características se qualifica para o segmento. Como o Audience Manager avalia cada perfil que foi incluído na mesclagem, um perfil de dispositivo e um perfil doméstico podem ser segmentados.
 
 O vínculo entre o dispositivo e o perfil doméstico permite que o Audience Manager qualifique [!DNL Household 2] para o segmento, mas não [!DNL Household 1]. De [!DNL Household 2], somente [!DNL Device 3] se qualifica para o segmento. Este [!UICONTROL Profile Merge Rule] habilitou o profissional de marketing a fornecer uma mensagem de marketing consistente para um dispositivo individual ([!DNL Device 3]) e para a família maior ([!DNL Household 2]).
 
@@ -72,7 +72,7 @@ O vínculo entre o dispositivo e o perfil doméstico permite que o Audience Mana
 
 Este cenário de direcionamento está disponível somente para clientes que compraram o complemento [!DNL People-Based Destinations]. Essa regra permite que os profissionais de marketing acessem os clientes com base em seus próprios dados autenticados.
 
-Digamos que um varejista online queira alcançar os clientes existentes por meio de plataformas sociais e mostrar ofertas personalizadas com base em seus pedidos anteriores. Com o [!UICONTROL People-Based Destinations], eles podem assimilar endereços de email com hash de seu próprio [!DNL CRM] no Audience Manager, criar segmentos a partir de dados offline e enviar esses segmentos para as plataformas sociais nas quais desejam anunciar, usando esse identificador com hash e otimizando seus gastos com publicidade.
+Digamos que um retailer online queira alcançar os clientes existentes por meio de plataformas sociais e mostrar ofertas personalizadas com base em seus pedidos anteriores. Com o [!UICONTROL People-Based Destinations], eles podem assimilar endereços de email com hash de seu próprio [!DNL CRM] na Audience Manager, criar segmentos a partir de dados offline e enviar esses segmentos para as plataformas sociais nas quais desejam anunciar, usando esse identificador com hash e otimizando seus gastos com publicidade.
 
 Para saber mais sobre esta opção, consulte [Destinos com base em pessoas](../destinations/people-based-destinations-overview.md).
 
@@ -101,7 +101,7 @@ Escolher uma opção [!UICONTROL device graph] para uma regra [!UICONTROL Profil
   </tr> 
   <tr> 
    <td colname="col1"> <p>Opções do gráfico do dispositivo externo </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> As regras de Mesclagem de Perfis</span> criadas com qualquer gráfico de dispositivos externo integrado ao Audience Manager <span class="keyword"> </span> são ideais para: </p> <p> 
+   <td colname="col2"> <p><span class="wintitle"> As regras de Mesclagem de Perfis</span> criadas com qualquer gráfico de dispositivos externo integrado ao <span class="keyword"> Audience Manager</span> são ideais para: </p> <p> 
      <ul id="ul_D76D773988604A619FA4A3BF37F910F0"> 
       <li id="li_969A0755A9E34CBEB2F7331C137B9A26">Propriedades digitais que têm um baixo nível de autenticação do cliente. </li> 
       <li id="li_AC78C8B4AD5340FFAC44FE851096C6A6">Campanhas de marca amplas e de alto alcance. </li> 
@@ -113,7 +113,7 @@ Escolher uma opção [!UICONTROL device graph] para uma regra [!UICONTROL Profil
 
 Assista ao vídeo abaixo para obter uma visão geral dos possíveis casos de uso do [!UICONTROL Profile Merge Rules].
 
->[!VIDEO](https://video.tv.adobe.com/v/32575?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/28975/)
 
 >[!MORELIKETHIS]
 >

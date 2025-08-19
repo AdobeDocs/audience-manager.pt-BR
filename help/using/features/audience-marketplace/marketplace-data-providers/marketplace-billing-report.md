@@ -1,5 +1,5 @@
 ---
-description: Gere um relatório de faturamento Audience Marketplace para exibir o uso do feed de dados do mês anterior para cada um dos assinantes. Você pode criar um relatório para o mês anterior a qualquer momento. No entanto, o relatório é mais preciso ao gerá-lo no dia 10 ou depois do mês atual.
+description: Gere um relatório de faturamento do Audience Marketplace para exibir o uso do feed de dados do mês anterior para cada um dos assinantes. Você pode criar um relatório para o mês anterior a qualquer momento. No entanto, o relatório é mais preciso ao gerá-lo no dia 10 ou depois do mês atual.
 seo-description: Generate an Audience Marketplace billing report to view data feed usage for the previous month for each of your subscribers. You can create a report for the previous month at any time. However, the report is more accurate when you generate it on or after the 10th day of the current month.
 seo-title: Billing for Data Feed Providers
 solution: Audience Manager
@@ -72,7 +72,7 @@ Um relatório de faturamento contém as informações a seguir.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Unidade de Medida</span></b> </p> </td> 
-   <td colname="col2"> <p>Indica o CPM ou faturamento de taxa fixa. </p> </td> 
+   <td colname="col2"> <p>Indica o faturamento de CPM ou taxa única. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Preço de Lista</span></b> </p> </td> 
@@ -92,7 +92,7 @@ Um relatório de faturamento contém as informações a seguir.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Custo total</span></b> </p> </td> 
-   <td colname="col2"> <p>O valor <span class="keyword"> Audience Manager</span> fatura um comprador. </p> </td> 
+   <td colname="col2"> <p>O valor <span class="keyword"> que o Audience Manager</span> cobra de um comprador. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Período de Cobrança</span></b> </p> </td> 
@@ -112,10 +112,10 @@ Um relatório de faturamento contém as informações a seguir.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Sinalizador</span></b> </p> </td> 
-   <td colname="col2"> <p> <i>Somente para feeds CPM</i>. As opções de sinalizador incluem: </p> 
+   <td colname="col2"> <p> <i>Somente para feeds do CPM</i>. As opções de sinalizador incluem: </p> 
     <ul id="ul_509BC73B754A43299F8D719AB0805ABD"> 
-     <li id="li_AB35E33B68EC49A187495DF6B9D86563">0: Indica que um assinante relatou informações de uso para <span class="keyword"> Audience Manager</span>. </li> 
-     <li id="li_2E4871B127A84EC586A9F3659F52D67E">1: Indica que um assinante não relatou informações de uso para <span class="keyword"> Audience Manager</span>. </li> 
+     <li id="li_AB35E33B68EC49A187495DF6B9D86563">0: Indica que um assinante relatou informações de uso ao <span class="keyword"> Audience Manager</span>. </li> 
+     <li id="li_2E4871B127A84EC586A9F3659F52D67E">1: Indica que um assinante não relatou informações de uso ao <span class="keyword"> Audience Manager</span>. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -123,6 +123,6 @@ Um relatório de faturamento contém as informações a seguir.
 
 >[!MORELIKETHIS]
 >
->* [Alocação de impressão e cobrança para os feeds de dados do CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
+>* [Alocação de impressão e cobrança para feeds de dados do CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
 >* [Alocação de impressão e cobrança para feeds de dados de taxa fixa](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
 >* [Como relatar o uso do CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)

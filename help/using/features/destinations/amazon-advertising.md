@@ -19,18 +19,18 @@ Este artigo explica como configurar uma integração com o [Amazon Advertising](
 Antes de configurar o destino do [!DNL Amazon Advertising], verifique se você atende aos seguintes pré-requisitos.
 
 * Sua conta [!DNL Amazon] deve ser qualificada para publicidade.
-* Ao criar o primeiro destino [!DNL Amazon Advertising] na sua instância do Audience Manager, entre em contato com a Adobe Consulting ou com o Atendimento ao cliente para habilitar a sincronização de ID [!DNL Amazon] (Data Source ID = 139200) para sua conta. Isso é necessário para a sincronização correta entre Audience Manager e [!DNL Amazon].
+* Ao criar o primeiro destino [!DNL Amazon Advertising] na instância do Audience Manager, entre em contato com a Adobe Consulting ou com o Atendimento ao cliente para habilitar a sincronização de ID [!DNL Amazon] (Data Source ID = 139200) para sua conta. Isso é necessário para a sincronização correta entre o Audience Manager e o [!DNL Amazon].
 * Depois que os novos públicos do provedor de dados forem criados, você deverá [atualizar seus metadados](https://advertising.amazon.com/API/docs/en-us/data-provider/openapi#tag/Metadata/paths/~1v2~1dp~1audiencemetadata~1%7BaudienceId%7D/put) e adicionar o **[!DNL audience fees]**. Para esta operação, você pode usar a [API do Amazon Ads](https://advertising.amazon.com/API/docs/en-us/guides/onboarding/apply-for-access) ou a [Interface do usuário do Amazon Advertising](https://advertising.amazon.com/).
 
 ## Adicionar um novo destino [!DNL Amazon Advertising] {#add-new-amazon-destination}
 
-Esta seção descreve as etapas que devem ser seguidas ao configurar um novo destino baseado em dispositivo para [!DNL Amazon Advertising]. Este cenário pressupõe que você não tenha nenhum destino [!DNL Amazon Advertising] existente configurado por meio de seu consultor de Adobe ou do Atendimento ao cliente.
+Esta seção descreve as etapas que devem ser seguidas ao configurar um novo destino baseado em dispositivo para [!DNL Amazon Advertising]. Este cenário pressupõe que você não tenha nenhum destino [!DNL Amazon Advertising] existente configurado por meio de seu consultor da Adobe ou do Atendimento ao cliente.
 
 ### Etapa 1. Autenticar com [!DNL Amazon Advertising] {#step1-authenticate-with-amazon}
 
 Antes de adicionar o destino baseado em dispositivo, é necessário vincular o Audience Manager e sua conta do [!DNL Amazon Advertising]. Veja como fazer isso:
 
-1. Faça logon em sua conta Audience Manager e vá para **[!UICONTROL Administration > Integrated Accounts]**. Se você tiver uma integração configurada anteriormente com uma plataforma de destino, deverá vê-la listada nesta página. Caso contrário, a página ficará vazia.
+1. Faça logon em sua conta da Audience Manager e vá para **[!UICONTROL Administration > Integrated Accounts]**. Se você tiver uma integração configurada anteriormente com uma plataforma de destino, deverá vê-la listada nesta página. Caso contrário, a página ficará vazia.
 1. Selecione **[!UICONTROL Add Account]**.
 1. Selecione [!UICONTROL Amazon Data Provider].
 
@@ -40,7 +40,7 @@ Antes de adicionar o destino baseado em dispositivo, é necessário vincular o A
 
    ![plataformas integradas](assets/dbd-amazon-with-options.png)
 
-1. Após a autenticação, você é redirecionado para o Audience Manager, onde deve ver suas contas de anunciante associadas. Selecione a conta de anunciante que deseja usar e clique em **[!UICONTROL Confirm]**. Ao fazer isso, você autorizou o acesso do Audience Manager para enviar atualizações para seus públicos.
+1. Após a autenticação, você é redirecionado para o Audience Manager, onde deve ver suas contas de anunciante associadas. Selecione a conta de anunciante que deseja usar e clique em **[!UICONTROL Confirm]**. Ao fazer isso, você autorizou o acesso para que o Audience Manager envie atualizações para seus públicos.
 
 ### Etapa 2: Criar um novo destino com base em dispositivo {#step2-create-new-destination}
 
@@ -50,7 +50,7 @@ Depois de vincular o Audience Manager e sua conta do [!DNL Amazon Advertising], 
 >
 >Não é possível alterar o nome de um destino existente baseado em dispositivo. Forneça um nome que ajudará a identificar o destino corretamente.
 
-1. Faça logon em sua conta Audience Manager, vá para **[!UICONTROL Audience Data > Destinations]** e selecione **[!UICONTROL Create Destination]**.
+1. Faça logon em sua conta do Audience Manager, vá para **[!UICONTROL Audience Data > Destinations]** e selecione **[!UICONTROL Create Destination]**.
 1. Na seção **[!UICONTROL Basic Information]**, digite um **[!UICONTROL Name]** e **[!UICONTROL Description]** para o novo destino e use as configurações abaixo:
 
    ![configuração](assets/dbd-new-account-amazon.png)
@@ -63,7 +63,7 @@ Depois de vincular o Audience Manager e sua conta do [!DNL Amazon Advertising], 
 
 ## Considerações sobre taxas de correspondência {#match-rates-considerations}
 
-A integração entre o Audience Manager e o [!DNL Amazon Advertising] dá suporte a preenchimentos retroativos de público-alvo histórico. Todas as qualificações de segmento são enviadas para [!DNL Amazon] quando você cria o destino.
+A integração entre o Audience Manager e o [!DNL Amazon Advertising] oferece suporte a preenchimentos retroativos de público-alvo histórico. Todas as qualificações de segmento são enviadas para [!DNL Amazon] quando você cria o destino.
 
 ## Solução de problemas {#troubleshooting}
 

@@ -3,7 +3,7 @@ description: O Audience Manager usa o Tempo universal coordenado (UTC) em toda a
 seo-description: Audience Manager uses Coordinated Universal Time (UTC) across its entire UI.
 seo-title: Time Zones in Audience Manager
 solution: Audience Manager
-title: Fusos horários em Audience Manager
+title: Fusos horários no Audience Manager
 uuid: ff4710a9-edee-470c-9ab0-85c1789a2837
 feature: Reference
 exl-id: bb89cf76-dd43-454b-aaa8-8e5415493ecc
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Fusos horários em Audience Manager{#time-zones-in-audience-manager}
+# Fusos horários no Audience Manager{#time-zones-in-audience-manager}
 
 O Audience Manager usa o Tempo universal coordenado (UTC) em toda a interface do usuário.
 

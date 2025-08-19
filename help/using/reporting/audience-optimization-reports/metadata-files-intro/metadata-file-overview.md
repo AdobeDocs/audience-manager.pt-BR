@@ -1,5 +1,5 @@
 ---
-description: Um arquivo de metadados vincula IDs numéricas a nomes que você pode ler e entender. Os relatórios de Audience Optimization exibem nomes legíveis nos vários menus de opções do relatório.
+description: Um arquivo de metadados vincula IDs numéricas a nomes que você pode ler e entender. Os relatórios do Audience Optimization exibem nomes legíveis nos vários menus de opções do relatório.
 seo-description: A metadata file links numeric IDs with names you can read and understand. The Audience Optimization reports display readable names in the various report options menus.
 seo-title: Overview and Mappings for Metadata Files
 solution: Audience Manager
@@ -16,11 +16,11 @@ ht-degree: 2%
 
 # Visão geral e mapeamentos para arquivos de metadados{#overview-and-mappings-for-metadata-files}
 
-Um arquivo de metadados vincula IDs numéricas a nomes que você pode ler e entender. Os relatórios de Audience Optimization exibem nomes legíveis nos vários menus de opções do relatório.
+Um arquivo de metadados vincula IDs numéricas a nomes que você pode ler e entender. Os relatórios do Audience Optimization exibem nomes legíveis nos vários menus de opções do relatório.
 
 ## Visão geral {#overview}
 
-Uma análise dos metadados e como eles são usados. Um arquivo de metadados deve ser acompanhado por um arquivo de dados. O conteúdo do arquivo de metadados corresponde às informações do arquivo de dados a rótulos relacionados e legíveis nos menus do relatório. Para obter mais informações, consulte [Arquivos de Dados para Relatórios Audience Optimization e Arquivos de Log Acionáveis](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md).
+Uma análise dos metadados e como eles são usados. Um arquivo de metadados deve ser acompanhado por um arquivo de dados. O conteúdo do arquivo de metadados corresponde às informações do arquivo de dados a rótulos relacionados e legíveis nos menus do relatório. Para obter mais informações, consulte [Arquivos de Dados para Relatórios do Audience Optimization e Arquivos de Log Acionáveis](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md).
 
 ### Os Arquivos De Metadados Contêm Dados Sobre Outros Dados
 
@@ -38,7 +38,7 @@ No entanto, um arquivo de metadados formatado corretamente pode vincular essa cr
 
 ### Quando você precisa de um arquivo de metadados
 
-Primeiro, um arquivo de metadados e todos os parâmetros listados abaixo são necessários em uma chamada de evento quando você deseja usar os [Relatórios de Audience Optimization](../../../reporting/audience-optimization-reports/audience-optimization-reports.md).
+Primeiro, um arquivo de metadados e todos os parâmetros listados abaixo são necessários em uma chamada de evento quando você deseja usar os [Relatórios do Audience Optimization](../../../reporting/audience-optimization-reports/audience-optimization-reports.md).
 
 Segundo, você precisará de um arquivo de metadados se estiver enviando seus próprios dados para o [!DNL Audience Manager] ou se quiser ver os dados nos relatórios de outros provedores com os quais não estamos integrados. Por exemplo, [!DNL Audience Manager] tem uma integração com o [Gerenciador de Campanha](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) (DCM) de clique duplo da Google. Devido a esta relação, [!DNL Audience Manager] pode associar IDs a nomes e descrições usados pelas opções de relatório. Sem uma integração, ainda podemos assimilar dados, mas as opções do relatório mostrarão IDs numéricas em vez do nome descritivo.
 
@@ -119,7 +119,7 @@ O nome do arquivo é baseado nas IDs criativas, de campanha e de fonte de dados.
 
 Em um nome de arquivo:
 
-* A chave da fonte de dados muda de `d_src` para `dpid`.
+* A chave da fonte de dados muda de `dpid` para `d_src`.
 
 * As IDs criativas e de campanha representam uma categoria em vez de um identificador real.
 
@@ -129,7 +129,7 @@ Consulte [Convenções de nomenclatura para arquivos de metadados](../../../repo
 
 ### Conteúdo do arquivo
 
-Neste exemplo, o conteúdo do arquivo reflete as IDs criativas e de campanha passadas na chamada de evento. O novo elemento aqui é um nome legível. Depois de processado, o nome neste arquivo aparecerá como uma opção no menu Criativo de um relatório [!UICONTROL Audience Optimization].
+Neste exemplo, o conteúdo do arquivo reflete as IDs criativas e de campanha passadas na chamada de evento. O novo elemento aqui é um nome legível. Depois de processado, o nome neste arquivo aparecerá como uma opção no menu Creative de um relatório [!UICONTROL Audience Optimization].
 
 ![conteúdo de um arquivo de metadados](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_file_contents.png)
 
@@ -141,6 +141,6 @@ Depois de nomear e adicionar dados a um arquivo, você os envia para um diretór
 
 >[!MORELIKETHIS]
 >
->* [Arquivos de dados para Relatórios Audience Optimization](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
+>* [Arquivos de Dados para Relatórios do Audience Optimization](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
 >* [Captura de dados de cliques da campanha via Pixel Calls](../../../integration/media-data-integration/click-data-pixels.md)
 >* [Captura de dados de impressão da campanha via Pixel Calls](../../../integration/media-data-integration/impression-data-pixels.md)

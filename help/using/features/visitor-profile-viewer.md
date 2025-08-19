@@ -1,5 +1,5 @@
 ---
-description: Use o Visualizador de perfil do visitante para exibir o estado atual de um perfil de usuário para o navegador atual, incluindo suas características e segmentos. Para cada característica, você pode visualizar seu SID, nome, detalhes sobre como as características do visitante foram realizadas (próprio ou de terceiros), a data de realização e a frequência de realizações. Para cada segmento, você pode exibir o SID, o nome e a data de associação do segmento. Você também pode exibir o perfil do visitante para outra ID de perfil de Audience Manager (UUID). O Visualizador de perfil do visitante é útil para fins de solução de problemas.
+description: Use o Visualizador de perfil do visitante para exibir o estado atual de um perfil de usuário para o navegador atual, incluindo suas características e segmentos. Para cada característica, você pode visualizar seu SID, nome, detalhes sobre como as características do visitante foram realizadas (próprio ou de terceiros), a data de realização e a frequência de realizações. Para cada segmento, você pode exibir o SID, o nome e a data de associação do segmento. Você também pode exibir o perfil do visitante de outra ID de perfil da Audience Manager (UUID). O Visualizador de perfil do visitante é útil para fins de solução de problemas.
 keywords: local;parâmetro de local
 seo-description: Use the Visitor Profile Viewer to display the current state of a user profile for the current browser, including its traits and segments. For each trait, you can view its SID, name, details about how visitor traits were realized (first- or third-party), the realization date, and the frequency of realizations. For each segment, you can view its SID, name, and the segment membership date. You can also view the visitor profile for another Audience Manager profile ID (UUID). The Visitor Profile Viewer is helpful for troubleshooting purposes.
 seo-title: Visitor Profile Viewer
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Visualizador de perfil do visitante {#visitor-profile-viewer}
 
-Use o [!UICONTROL Visitor Profile Viewer] para exibir o estado atual de um perfil de usuário para o navegador atual, incluindo suas características e segmentos. Para cada característica, você pode visualizar sua [!UICONTROL SID], nome, detalhes sobre como as características do visitante foram realizadas (próprias ou de terceiros), a data de realização e a frequência de realizações. Para cada segmento, você pode visualizar seu [!UICONTROL SID], seu nome e a data de associação do segmento. Você também pode exibir o perfil do visitante para outra ID de perfil de Audience Manager ([!UICONTROL UUID]). O [!UICONTROL Visitor Profile Viewer] é útil para fins de solução de problemas.
+Use o [!UICONTROL Visitor Profile Viewer] para exibir o estado atual de um perfil de usuário para o navegador atual, incluindo suas características e segmentos. Para cada característica, você pode visualizar sua [!UICONTROL SID], nome, detalhes sobre como as características do visitante foram realizadas (próprias ou de terceiros), a data de realização e a frequência de realizações. Para cada segmento, você pode visualizar seu [!UICONTROL SID], seu nome e a data de associação do segmento. Você também pode exibir o perfil do visitante para outra ID de perfil do Audience Manager ([!UICONTROL UUID]). O [!UICONTROL Visitor Profile Viewer] é útil para fins de solução de problemas.
 
 >[!NOTE]
 >
@@ -39,4 +39,4 @@ Traits that are not part of a segment will not appear in the
 
    Para obter mais informações, consulte [Segmentos](../features/segments/segments-purpose.md).
 
-1. *(Condicional)* Na caixa **[!UICONTROL UUID]**, especifique outra ID de perfil de Audience Manager e clique em **[!UICONTROL Refresh]** para exibir as características e os segmentos desse usuário.
+1. *(Condicional)* Na caixa **[!UICONTROL UUID]**, especifique outra ID de perfil do Audience Manager e clique em **[!UICONTROL Refresh]** para exibir as características e os segmentos desse usuário.

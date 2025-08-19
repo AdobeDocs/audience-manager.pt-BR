@@ -106,11 +106,11 @@ Macros usadas para formatar o conteúdo de um arquivo de dados. Para exemplos de
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> CLOSE_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Insere uma chave de fechamento <code>&rbrace;</code> caractere. </p> </td> 
+   <td colname="col2"> <p>Insere uma chave de fechamento <code>}</code> caractere. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID </code> </p> </td> 
-   <td colname="col2"> <p> Identificador De Usuário Exclusivo </span> Do Provedor De Dados <span class="term">. </p> <p>Essa é a ID do parceiro de dados para o qual você envia dados em um arquivo de saída. </p> </td> 
+   <td colname="col2"> <p> Identificador De Usuário Exclusivo <span class="term"> Do Provedor De Dados </span>. </p> <p>Essa é a ID do parceiro de dados para o qual você envia dados em um arquivo de saída. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID_LIST </code> </p> </td> 
@@ -130,11 +130,11 @@ Macros usadas para formatar o conteúdo de um arquivo de dados. Para exemplos de
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MCID </code> </p> </td> 
-   <td colname="col2"> <p> ID </span> do Adobe Experience Cloud <span class="keyword">. </p> </td> 
+   <td colname="col2"> <p> ID <span class="keyword"> do Adobe Experience Cloud </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPEN_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Insere uma chave de abertura <code>&lbrace;</code> caractere. </p> </td> 
+   <td colname="col2"> <p>Insere uma chave de abertura <code>{</code> caractere. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPT_OUT </code> </p> </td> 
@@ -217,7 +217,7 @@ Macros usadas para formatar o conteúdo de um arquivo de dados. Para exemplos de
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> UUID </code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> ID de usuário. </p> </td> 
+   <td colname="col2"> <p> ID de usuário do <span class="keyword"> Audience Manager </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

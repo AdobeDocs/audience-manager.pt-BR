@@ -26,7 +26,7 @@ A parte superior da página de detalhes do segmento hospeda as ferramentas que v
 1. **[!UICONTROL Add New]**: Use esta opção para ativar o [!UICONTROL Segment Builder] e criar novos segmentos.
 2. **[!UICONTROL Edit]**: Use esta opção para alterar a configuração do segmento atual.
 3. **[!UICONTROL Duplicate]**: use essa opção para criar uma cópia do segmento atual.
-4. **[!UICONTROL Delete]**: Use esta opção para remover o segmento atual da sua conta Audience Manager.
+4. **[!UICONTROL Delete]**: Use esta opção para remover o segmento atual de sua conta do Audience Manager.
 5. **[!UICONTROL Marketplace Recommendations]**: Use esta opção para localizar segmentos semelhantes ao que você está visualizando, a partir de [!UICONTROL Audience Marketplace] feeds de dados para os quais você não tem assinatura. Consulte [Audience Marketplace para Compradores de Dados](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) para saber como navegar no Marketplace e encontrar segmentos semelhantes.
 
 ![informações-básicas-de-segmento](assets/basic-segment-information.png)
@@ -49,7 +49,7 @@ Abaixo das ferramentas de gerenciamento de segmentos, você pode encontrar as se
    >O Audience Manager só exibirá o relatório [!UICONTROL Identity Type Breakdown] se você tiver IDs entre dispositivos qualificadas para o segmento.
 
    Assista ao vídeo abaixo para obter uma visão geral do [!UICONTROL Identity Type Breakdown].
-   >[!VIDEO](https://video.tv.adobe.com/v/32079?captions=por_br)
+   >[!VIDEO](https://video.tv.adobe.com/v/27977/)
 
 4. **[!UICONTROL Segment Rules]:** Lista as características no segmento junto com as regras de qualificação.
 5. **[!UICONTROL Destination Mappings]:** Lista os mapeamentos de destino do segmento.

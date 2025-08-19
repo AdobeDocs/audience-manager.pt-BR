@@ -1,5 +1,5 @@
 ---
-description: Descreve os pares de valores chave comuns em nível de plataforma que você pode usar para direcionar usuários com variáveis relacionadas ao dispositivo em todas as propriedades na sua conta Audience Manager.
+description: Descreve os pares de valores chave comuns em nível de plataforma que você pode usar para direcionar usuários com variáveis relacionadas ao dispositivo em todas as propriedades na sua conta do Audience Manager.
 seo-description: Describes the common platform-level key-value pairs you can use to target users with device-related variables across all properties in your Audience Manager account.
 seo-title: Device Targeting With Platform-level Keys
 solution: Audience Manager
@@ -19,10 +19,10 @@ ht-degree: 1%
 >[!WARNING]
 >
 >A Google atualizou a funcionalidade de [!DNL Google Chrome] e de todos os navegadores baseados em [!DNL Chromium] para minimizar as informações coletadas por meio do cabeçalho `User-Agent`.
->A partir de março de 2023, o Audience Manager oferecerá suporte a essas atualizações utilizando o [SDK da Web do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR). Para continuar usando as informações de características fornecidas pelo cabeçalho `User-Agent`, você deve usar o [SDK da Web](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR) e habilitar as [Client Hints de Agente do Usuário de Alta Entropia](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=pt-BR).
->Não há suporte para estas atualizações no [DIL](../../../using/dil/dil-overview.md), portanto, os clientes do Audience Manager que usam [!DNL DIL] não poderão coletar informações de características por meio do cabeçalho `User-Agent`.
+>>A partir de março de 2023, o Audience Manager oferecerá suporte a essas atualizações aproveitando o [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en). Para continuar usando as informações de características fornecidas pelo cabeçalho `User-Agent`, você deve usar o [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) e habilitar as [Client Hints de Agente do Usuário de Alta Entropia](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en).
+>>Não há suporte para estas atualizações no [DIL](../../../using/dil/dil-overview.md), portanto, os clientes do Audience Manager que usam o [!DNL DIL] não poderão coletar informações de características por meio do cabeçalho `User-Agent`.
 
-Descreve os pares de valores chave comuns em nível de plataforma que você pode usar para direcionar usuários com variáveis relacionadas ao dispositivo em todas as propriedades na sua conta Audience Manager.
+Descreve os pares de valores chave comuns em nível de plataforma que você pode usar para direcionar usuários com variáveis relacionadas ao dispositivo em todas as propriedades na sua conta do Audience Manager.
 
 ## Finalidade das variáveis de nível de plataforma {#platform-variables}
 

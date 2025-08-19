@@ -1,5 +1,5 @@
 ---
-description: Código exigido pelo DART Enterprise (e outros tipos de destino) para capturar o valor da ID de usuário exclusiva (UUID) do Audience Manager.
+description: Código exigido pelo DART Enterprise (e outros tipos de destino) para capturar o valor da ID de usuário exclusiva (UUID) da Audience Manager.
 seo-description: Code required by DART Enterprise (and other destination types) to capture the Audience Manager unique user ID (UUID) value.
 seo-title: get_aamCookie Code
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Código `get_aamCookie` {#get-aamcookie-code}
 
-Código exigido por [!DNL DART Enterprise] (e outros tipos de destino) para capturar o valor da ID de usuário exclusiva do Audience Manager ([!DNL UUID]).
+Código exigido por [!DNL DART Enterprise] (e outros tipos de destino) para capturar o valor da ID de usuário exclusiva ([!DNL UUID]) do Audience Manager.
 
 Defina essa função na parte superior da página, idealmente no bloco de código `<head>`.
 

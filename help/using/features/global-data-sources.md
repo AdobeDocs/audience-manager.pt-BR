@@ -17,9 +17,9 @@ ht-degree: 4%
 
 ## Visão geral
 
-As fontes de dados globais são acessíveis a todos os clientes do Audience Manager e contêm IDs de anúncios de dispositivos geradas por fabricantes de dispositivos como [!DNL Apple], [!DNL Samsung], [!DNL Microsoft], [!DNL Roku] e [!DNL Android]. Essas IDs são disponibilizadas pelos fabricantes para fins de publicidade. Os clientes do Audience Manager podem usar fontes de dados globais para sincronizar IDs de dispositivos e importar ou exportar dados extraídos desses mapeamentos.
+As fontes de dados globais podem ser acessadas por todos os clientes da Audience Manager e contêm IDs de anúncios de dispositivos geradas por fabricantes de dispositivos como [!DNL Apple], [!DNL Samsung], [!DNL Microsoft], [!DNL Roku] e [!DNL Android]. Essas IDs são disponibilizadas pelos fabricantes para fins de publicidade. Os clientes do Audience Manager podem usar fontes de dados globais para sincronizar IDs de dispositivos e importar ou exportar dados extraídos desses mapeamentos.
 
-A tabela a seguir descreve as fontes de dados globais suportadas pelo Audience Manager.
+A tabela a seguir descreve as fontes de dados globais suportadas pela Audience Manager.
 
 | ID do Source de dados | Descrição |
 |---|---|
@@ -38,7 +38,7 @@ Você pode importar IDs de dispositivo de fontes de dados globais por meio de [t
 
 >[!IMPORTANT]
 >
->Ao enviar dados para o Audience Manager usando uma ID de dispositivo global, certifique-se de usar a fonte de dados correspondente para a ID de dispositivo em questão. Exemplo: para importar dados de [!DNL Apple IDFA], use a ID de fonte de dados 20915.
+>Ao enviar dados para a Audience Manager usando uma ID de dispositivo global, use a fonte de dados correspondente para a ID de dispositivo em questão. Exemplo: para importar dados de [!DNL Apple IDFA], use a ID de fonte de dados 20915.
 
 ## Limitações
 
@@ -46,18 +46,18 @@ Em dispositivos que executam os sistemas operacionais [!DNL iOS] e [!DNL Android
 
 ## Validação global da ID do dispositivo
 
-O Audience Manager valida as IDs de publicidade de dispositivos ([!UICONTROL DAID]) importadas por clientes, com base em seus formatos, para garantir que correspondam ao formato padrão determinado pelos fabricantes. Consulte o [Índice de IDs no Audience Manager](../reference/ids-in-aam.md) para obter um mapeamento detalhado de IDs de anúncios de dispositivos para fontes de dados globais e o formato adequado para cada ID. Verifique se você está importando IDs de dispositivo no formato correto, com base no tipo de dispositivo. O Audience Manager rejeita IDs de dispositivo que não atendem ao formato correto e retorna uma mensagem de erro para indicar que a ID foi rejeitada.
+O Audience Manager valida as IDs de publicidade de dispositivos ([!UICONTROL DAID]) importadas por clientes, com base em seus formatos, para garantir que correspondam ao formato padrão determinado pelos fabricantes. Consulte o [Índice de IDs no Audience Manager](../reference/ids-in-aam.md) para obter um mapeamento detalhado de IDs de anúncios de dispositivos para fontes de dados globais e o formato adequado para cada ID. Verifique se você está importando IDs de dispositivo no formato correto, com base no tipo de dispositivo. O Audience Manager rejeita IDs de dispositivo que não estão em conformidade com o formato correto e retorna uma mensagem de erro para indicar que a ID foi rejeitada.
 
 * As mensagens de erro para transferências de dados em lote estão descritas aqui: [Termos e definições do relatório de status onboard](../reporting/onboarding-status-report.md#report-terms-conditions).
 * As mensagens de erro para transferências de dados em tempo real estão descritas aqui: [Códigos de erro DCS, mensagens e exemplos](../api/dcs-intro/dcs-api-reference/dcs-error-codes.md).
 
 ## Política de Expiração de ID de Dispositivo
 
-O Audience Manager descarta automaticamente as IDs de publicidade do dispositivo após 120 dias de inatividade, de modo semelhante à [UUID de AAM](../faq/faq-privacy.md)s.
+O Audience Manager descarta automaticamente as IDs de publicidade do dispositivo após 120 dias de inatividade, de modo semelhante à [UUID do AAM](../faq/faq-privacy.md)s.
 
 ## Solicitação de novas fontes de dados globais
 
-Para solicitar que novas fontes de dados globais sejam adicionadas ao Audience Manager, entre em contato com o Atendimento ao cliente da Adobe Consulting ou do Adobe e forneça informações detalhadas sobre as fontes de dados necessárias:
+Para solicitar que novas fontes de dados globais sejam adicionadas à Audience Manager, entre em contato com o Atendimento ao cliente da Adobe Consulting ou da Adobe e forneça informações detalhadas sobre as fontes de dados necessárias:
 
 * O nome da plataforma solicitada (por exemplo, [!UICONTROL Apple IDFA]);
 * O nome da empresa/organização que gerencia a plataforma (por exemplo, [!UICONTROL Apple Inc.]);

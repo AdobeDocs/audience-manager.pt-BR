@@ -20,9 +20,9 @@ O relatório Características de conversão mostra todas as características rot
 
 As características de conversão para grupos de conversão podem mudar de execução de relatório para execução de relatório. O relatório exibe as características de conversão por grupo de conversão para a data de relatório selecionada.
 
-Para saber como criar traços de conversão no Audience Manager, assista ao vídeo abaixo:
+Para saber como criar características de conversão no Audience Manager, assista ao vídeo abaixo:
 
->[!VIDEO](https://video.tv.adobe.com/v/30830?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/23431/)
 
 ## Exemplo de relatório
 

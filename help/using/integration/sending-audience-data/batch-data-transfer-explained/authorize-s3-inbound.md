@@ -17,7 +17,7 @@ Para enviar dados do seu próprio bucket do Amazon S3 para o Audience Manager, p
 
 Para fazer isso, siga as etapas descritas abaixo.
 
-1. Entre em contato com o Atendimento ao cliente e solicite um método alternativo para enviar arquivos ao Audience Manager.
+1. Entre em contato com o Atendimento ao cliente e solicite um método alternativo de envio de arquivos para a Audience Manager.
 2. Forneça ao Atendimento ao cliente o [!DNL Amazon Resource Name (ARN)] para uma função na sua conta do Amazon S3 que você usará para enviar arquivos. _Esta função deve ser criada antes de você entrar em contato com o Atendimento ao Cliente_. Após a configuração ser concluída, o Atendimento ao cliente fornecerá a você o [!DNL Amazon Resource Name (ARN)] para a função recém-criada.
 3. Edite as permissões de sua função existente do Amazon S3 para assumir a função fornecida pelo Atendimento ao cliente.
 

@@ -28,7 +28,7 @@ Os detalhes técnicos do cancelamento de segmentação em tempo real estão desc
 
 ## Não Direcionar Depois De Convertido {#do-not-target-once}
 
-Verifique se os usuários já converteram (compraram um produto, compraram uma assinatura etc.) O não verá as mesmas mensagens que tinham antes da conversão. Você pode obter isso usando a lógica [!UICONTROL AND NOT] da seguinte maneira.
+Verifique se os usuários que já converteram (compraram um produto, adquiriram uma assinatura etc.) não verão as mesmas mensagens que antes da conversão. Você pode obter isso usando a lógica [!UICONTROL AND NOT] da seguinte maneira.
 
 1. Crie um segmento usando duas características e use a lógica [!UICONTROL AND NOT], conforme mostrado na imagem abaixo. Você deve usar uma característica com base em regras para definir o evento de conversão para que o cancelamento de segmentos seja acionado em tempo real. Leia mais sobre como [criar características com base em regras](../traits/create-onboarded-rule-based-traits.md).
 2. Mapeie o segmento para qualquer número de destinos de servidor para servidor em tempo real. Leia sobre como adicionar segmentos a [destinos de servidor para servidor](../destinations/add-edit-segments.md).

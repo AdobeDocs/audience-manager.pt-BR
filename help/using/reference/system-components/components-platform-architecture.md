@@ -1,5 +1,5 @@
 ---
-description: Este mapa contém os principais sistemas de Audience Manager. Ele representa visualmente como os dados fluem para dentro, fora e entre componentes Audience Manager.
+description: Este mapa contém os principais sistemas Audience Manager. Ele representa visualmente como os dados fluem para, fora de e entre componentes do Audience Manager.
 seo-description: This map contains the major Audience Manager systems. It visually represents how data flows into, out of, and among Audience Manager components.
 seo-title: Platform Architecture  Data Flow Map
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Arquitetura da plataforma: mapa de fluxo de dados{#platform-architecture-data-flow-map}
 
-Este mapa contém os principais sistemas de Audience Manager. Ele representa visualmente como os dados fluem para dentro, fora e entre componentes Audience Manager.
+Este mapa contém os principais sistemas Audience Manager. Ele representa visualmente como os dados fluem para, fora de e entre componentes do Audience Manager.
 
 ## Como ler este mapa {#compmap}
 

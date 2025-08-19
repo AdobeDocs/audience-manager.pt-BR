@@ -191,7 +191,7 @@ Não, não confie nos [!UICONTROL General Reports] e nos [!UICONTROL Trend Repor
 
 Os relatórios calculam as populações com base nos registros de perfis não autenticados (UUIDs) que vemos no backend no momento em que os relatórios são gerados.
 
-Em uma primeira chamada para o [!DNL DCS], as IDs declaradas *não* estão vinculadas a qualquer UUID (ou seja, nenhum [cookie demdex](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html?lang=pt-BR) está presente no lado do cliente). O [!DNL DCS] gerará aleatoriamente uma UUID e definirá um cookie [!DNL demdex] e o transmitirá na chamada de resposta, mas ele não transmitirá a UUID para o backend.
+Em uma primeira chamada para o [!DNL DCS], as IDs declaradas *não* estão vinculadas a qualquer UUID (ou seja, nenhum [cookie demdex](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html) está presente no lado do cliente). O [!DNL DCS] gerará aleatoriamente uma UUID e definirá um cookie [!DNL demdex] e o transmitirá na chamada de resposta, mas ele não transmitirá a UUID para o backend.
 
 >[!NOTE]
 >

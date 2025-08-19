@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Criptografia PGP de arquivo para tipos de dados de entrada{#file-pgp-encryption-for-inbound-data-types}
 
-Você pode criptografar arquivos de dados com criptografia [!DNL PGP] ao enviá-los para o Audience Manager.
+Você pode criptografar arquivos de dados com criptografia [!DNL PGP] ao enviá-los para a Audience Manager.
 
 <!-- c_encryption.xml -->
 
@@ -24,11 +24,11 @@ Você pode criptografar arquivos de dados com criptografia [!DNL PGP] ao enviá-
 >
 >A criptografia [!DNL PGP] inclui compactação de arquivo. Ao enviar [!DNL PGP] arquivos de entrada criptografados, certifique-se de não [compactá-los](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) usando gzip (`.gz`).
 >
->[!DNL PGP] arquivos de entrada criptografados que também estão [compactados](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) são inválidos em Audience Manager.
+>[!DNL PGP] arquivos de entrada criptografados que também estão [compactados](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) são inválidos no Audience Manager.
 
 Siga as etapas descritas abaixo para criptografar arquivos de dados de entrada.
 
-1. Baixe a [chave pública de Audience Manager](./assets/adobe_pgp.pub).
+1. Baixe a [chave pública do Audience Manager](./assets/adobe_pgp.pub).
 2. Importe a chave pública para o armazenamento confiável.
 
    Por exemplo, se você usar [!DNL GPG], o comando pode ser semelhante ao seguinte:
@@ -55,4 +55,4 @@ Siga as etapas descritas abaixo para criptografar arquivos de dados de entrada.
 
    >[!NOTE]
    >
-   >O Audience Manager dá suporte apenas ao algoritmo de criptografia de dados [!DNL Advanced Encryption Standard (AES)]. O Audience Manager suporta qualquer tamanho de chave.
+   >O Audience Manager dá suporte apenas ao algoritmo de criptografia de dados [!DNL Advanced Encryption Standard (AES)]. O Audience Manager é compatível com qualquer tamanho de chave.

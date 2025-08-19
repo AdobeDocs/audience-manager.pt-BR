@@ -1,9 +1,9 @@
 ---
-description: Descreve métodos no namespace DIL.modules. Esses módulos permitem coletar dados de forma programática e trabalhar com objetos Audience Manager.
+description: Descreve métodos no namespace DIL.modules. Esses módulos permitem coletar dados de forma programática e trabalhar com objetos do Audience Manager.
 seo-description: Describes methods in the DIL.modules namespace. These modules let you programmatically collect data and work with Audience Manager objects.
 seo-title: DIL Modules
 solution: Audience Manager
-title: Módulos DIL
+title: Módulos do DIL
 uuid: d4c0d8dd-79f8-448e-b17c-c935415dd449
 feature: DIL Implementation
 exl-id: 4685bcbb-a63b-4613-bc94-54de9881966e
@@ -14,17 +14,17 @@ ht-degree: 3%
 
 ---
 
-# Módulos DIL{#dil-modules}
+# Módulos do DIL{#dil-modules}
 
 >[!WARNING]
 >
->A partir de julho de 2023, o Adobe descontinuou o desenvolvimento da extensão [!DNL Data Integration Library (DIL)] e [!DNL DIL].
+>A partir de julho de 2023, a Adobe descontinuou o desenvolvimento do [!DNL Data Integration Library (DIL)] e da extensão [!DNL DIL].
 >
->Os clientes existentes podem continuar usando a implementação [!DNL DIL]. Entretanto, o Adobe não desenvolverá [!DNL DIL] além deste ponto. Os clientes são incentivados a avaliar o [SDK da Web do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR) para sua estratégia de coleta de dados de longo prazo.
+>Os clientes existentes podem continuar usando a implementação [!DNL DIL]. Entretanto, a Adobe não desenvolverá [!DNL DIL] além deste ponto. Os clientes são incentivados a avaliar o [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) para sua estratégia de coleta de dados de longo prazo.
 >
->Os clientes que desejam implementar novas integrações de coleção de dados após julho de 2023 devem usar o [SDK da Web do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR).
+>Os clientes que desejam implementar novas integrações de coleta de dados após julho de 2023 devem usar o [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en).
 
-Descreve métodos no namespace `DIL.modules`. Esses módulos permitem coletar dados de forma programática e trabalhar com objetos Audience Manager.
+Descreve métodos no namespace `DIL.modules`. Esses módulos permitem coletar dados de forma programática e trabalhar com objetos do Audience Manager.
 
 <!-- 
 
@@ -34,7 +34,7 @@ c_dil_mods.xml
 
 ## siteCatalyst.init {#sitecat-init}
 
-Funciona com [!UICONTROL DIL] para enviar elementos de tag [!DNL Analytics] (variáveis, props, eVars etc.) para Audience Manager. Retorna dados em uma lista separada por vírgulas. Disponível na versão 2.6.
+Funciona com [!UICONTROL DIL] para enviar elementos de tag [!DNL Analytics] (variáveis, props, eVars etc.) para a Audience Manager. Retorna dados em uma lista separada por vírgulas. Disponível na versão 2.6.
 
 **Assinatura da Função:** `DIL.modules.siteCatalyst.init(siteCatalystReportingSuite, dilInstance, trackVars, options)`
 
@@ -62,7 +62,7 @@ r_dil_sc_init.xml
   <tr valign="top"> 
    <td colname="col1"> <code> names </code> </td> 
    <td colname="col2"> String   </td> 
-   <td colname="col3"> <p>Uma matriz de cadeias de caracteres que contém variáveis </span> do Analytics <span class="keyword"> não enumeradas como <code> pageName </code>, <code> channel </code>, <code> campaign </code>, <code> product </code>, etc. </p> </td> 
+   <td colname="col3"> <p>Uma matriz de cadeias de caracteres que contém variáveis <span class="keyword"> do Analytics </span> não enumeradas como <code> pageName </code>, <code> channel </code>, <code> campaign </code>, <code> product </code>, etc. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> iteratedNames </code> </td> 
@@ -77,7 +77,7 @@ r_dil_sc_init.xml
   <tr valign="top"> 
    <td colname="col1"> <code> siteCatalystReportingSuite </code> </td> 
    <td colname="col2"> Objeto </td> 
-   <td colname="col3"> <p>Um objeto que representa o objeto </span> do Analytics <span class="keyword">. </p> </td> 
+   <td colname="col3"> <p>Um objeto que representa o objeto <span class="keyword"> do Analytics </span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> dilInstance </code> </td> 
@@ -149,7 +149,7 @@ DIL.modules.siteCatalyst.init(s, scDil);
 
 ## GA.submitUniversalAnalytics {#ga-submit-universal-analytics}
 
-A função `GA.submitUniversalAnalytics();` envia dados do [!DNL Universal Analytics] da Google para o Audience Manager. Esta função [!UICONTROL DIL] foi projetada para funcionar com `analytics.js`, que é a biblioteca de códigos mais recente do Google [!DNL Universal Analytics].
+A função `GA.submitUniversalAnalytics();` envia dados do [!DNL Universal Analytics] do Google para o Audience Manager. Esta função [!UICONTROL DIL] foi projetada para funcionar com `analytics.js`, que é a biblioteca de códigos mais recente do Google [!DNL Universal Analytics].
 
 <!-- 
 
@@ -160,7 +160,7 @@ dil-google-universal-analytics.xml
 >[!IMPORTANT]
 >
 >
->* [!DNL Audience Manager] não tem nenhum insight nem controle sobre a biblioteca de códigos `analytics.js` do Google. Você deve verificar se a coleta de dados do [!UICONTROL DIL] ainda está funcionando se ou quando a Google lançar novas versões do `analytics.js`.
+>* [!DNL Audience Manager] não tem nenhuma insight ou controle sobre a biblioteca de códigos Google `analytics.js`. Você deve verificar se a coleta de dados do [!UICONTROL DIL] ainda está funcionando se ou quando a Google lançar novas versões do `analytics.js`.
 >
 >* Você não pode usar `GA.submitUniversalAnalytics();` se ainda estiver trabalhando com o código de rastreamento de análise herdado do Google (por exemplo, `ga.js` ou `dc.js`). Consulte [GA.init](../dil/dil-modules.md#ga-init).
 >
@@ -181,15 +181,15 @@ A função `GA.submitUniversalAnalytics();` aceita as seguintes propriedades.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> gaObject </code> </p> </td> 
-   <td colname="col2"> <p>A variável global da sua instância de <span class="keyword"> Google Analytics </span>. Isso geralmente é <code> ga </code> por padrão, a menos que você tenha personalizado seu código <span class="keyword"> Google Analytics </span>. </p> </td> 
+   <td colname="col2"> <p>A variável global da sua instância do <span class="keyword"> Google Analytics </span>. Isso geralmente é <code> ga </code> por padrão, a menos que você tenha personalizado seu código <span class="keyword"> do Google Analytics </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> dilInstance </code> </p> </td> 
-   <td colname="col2"> <p>A variável que representa a instância do DIL <span class="wintitle"> </span>. </p> </td> 
+   <td colname="col2"> <p>A variável que representa sua instância do <span class="wintitle"> DIL </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> internalPropertyName </code> </p> </td> 
-   <td colname="col2"> <p> <i>(Opcional)</i> Na biblioteca <code> analytics.js </code>, a propriedade interna é a variável minificada <code> 'b' </code>. Esta variável contém dados de <span class="keyword"> Google Analytics </span>. </p> <p>Essa propriedade é opcional porque você não precisa defini-la, a menos que o Google altere o nome de sua variável interna. Por exemplo, se essa variável minificada mudasse para <code> 'a' </code>, você chamaria <code> GA.submitUniversalAnalytics(); </code> desta forma: </p> <p> <code> DIL.modules.GAsubmitUniversalAnalytics(ga, DilInstance, 'a'); </code> </p> </td> 
+   <td colname="col2"> <p> <i>(Opcional)</i> Na biblioteca <code> analytics.js </code>, a propriedade interna é a variável minificada <code> 'b' </code>. Esta variável contém dados <span class="keyword"> do Google Analytics </span>. </p> <p>Essa propriedade é opcional porque você não precisa defini-la, a menos que o Google altere o nome de sua variável interna. Por exemplo, se essa variável minificada mudasse para <code> 'a' </code>, você chamaria <code> GA.submitUniversalAnalytics(); </code> desta forma: </p> <p> <code> DIL.modules.GAsubmitUniversalAnalytics(ga, DilInstance, 'a'); </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -210,7 +210,7 @@ DIL.modules.GA.submitUniversalAnalytics(ga, dilInstance);
 
 ## GA.init {#ga-init}
 
-A função `GA.init()` envia dados da versão herdada/obsoleta de [!DNL Google Analytics] para o Audience Manager.
+A função `GA.init()` envia dados da versão herdada/obsoleta de [!DNL Google Analytics] para a Audience Manager.
 
 <!-- 
 
@@ -229,7 +229,7 @@ r_dil_ga_init.xml
 | Nome | Tipo | Descrição |
 |---|---|---|
 | `_gaq` | Matriz | Um array que contém comandos do GA. |
-| `dilInstance` | Objeto | Um objeto que contém a instância DIL. |
+| `dilInstance` | Objeto | Um objeto que contém a instância do DIL. |
 | `trackVars` | Objeto | *(Opcional)* Um objeto que consiste na propriedade `names`. Essa propriedade é uma matriz de nomes de comando do GA que você deseja rastrear. |
 
 **Chamadas de Função GA com Suporte**
@@ -242,7 +242,7 @@ Por padrão, `GA.init` captura dados das seguintes funções:
 * `_setAccount`
 * `_trackSocial`
 
-**DIL Cria Chaves para Dados do GA**
+**A DIL cria chaves para dados de disponibilidade geral**
 
 O Audience Manager aceita dados na forma de pares de valores chave, enquanto o GA funciona com itens em uma matriz. Para trabalhar com dados do GA, o [!UICONTROL DIL] cria automaticamente um par de valores chave e forma uma chave como esta: `c_ <key name>`. Além disso, os itens nos arrays GA aparecem em uma ordem específica. Como resultado, você deve fornecer todos os parâmetros nessa ordem, mesmo quando eles não contêm dados. [!UICONTROL DIL] mapeia chaves para os seguintes métodos do GA:
 

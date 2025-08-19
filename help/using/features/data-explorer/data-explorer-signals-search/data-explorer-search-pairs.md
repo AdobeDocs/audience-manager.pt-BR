@@ -38,7 +38,7 @@ Esta pesquisa retornará apenas resultados qualificados para todos os três filt
 
 ## Sinais excluídos da pesquisa de sinal {#excluded-signals}
 
-As variáveis principais usadas por Audience Manager e prefixadas pelos prefixos `d_` e `h_` não são exibidas por [!UICONTROL Signals Search]. Consulte [Requisitos de prefixo para variáveis-chave](../../traits/trait-variable-prefixes.md) para obter detalhes.
+As variáveis principais usadas pelo Audience Manager e prefixadas pelos prefixos `d_` e `h_` não são exibidas por [!UICONTROL Signals Search]. Consulte [Requisitos de prefixo para variáveis-chave](../../traits/trait-variable-prefixes.md) para obter detalhes.
 
 ## Distinção entre maiúsculas e minúsculas e preenchimento automático de pesquisa {#case-insensitivity}
 

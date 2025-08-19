@@ -40,7 +40,7 @@ Ao criar um destino [!DNL URL], você pode inserir as seguintes macros na cadeia
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> %did%</code> </p> </td> 
-   <td colname="col2"> <p>Insere a ID do Audience Manager</span> do <span class="keyword"> usuário na URL de destino. </p> </td> 
+   <td colname="col2"> <p>Insere a ID do <span class="keyword"> Audience Manager</span> do usuário na URL de destino. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>%dpid_<i>data source id</i>%</code> </p> </td> 
@@ -56,11 +56,11 @@ Ao criar um destino [!DNL URL], você pode inserir as seguintes macros na cadeia
   </tr> 
   <tr>
     <td><p><code>${GDPR}</code></p></td>
-    <td><p>Indica se as regulamentações do GDPR se aplicam ao visitante ou não. Use essa macro para incluir consentimento nos segmentos enviados para destinos de URL integrados ao IAB. Consulte <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Plug-in de Audience Manager para TCF do IAB</a> para obter detalhes.</p></td>
+    <td><p>Indica se as regulamentações do GDPR se aplicam ao visitante ou não. Use essa macro para incluir consentimento nos segmentos enviados para destinos de URL integrados ao IAB. Consulte <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Plug-in do Audience Manager para TCF do IAB</a> para obter detalhes.</p></td>
   </tr>
    <tr>
     <td><code>${GDPR_CONSENT_XXXX}</code></p></td>
-    <td><p>A cadeia de consentimento (incluindo a ID do fornecedor do IAB) coletada quando os visitantes fornecem ou negam consentimento em seu site. Use essa macro para incluir a string de consentimento nos segmentos enviados para destinos de URL integrados ao IAB. Substitua <code>XXXX</code> pela ID do parceiro de destino. Consulte <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Plug-in de Audience Manager para TCF do IAB</a> para obter detalhes. </p></td>
+    <td><p>A cadeia de consentimento (incluindo a ID do fornecedor do IAB) coletada quando os visitantes fornecem ou negam consentimento em seu site. Use essa macro para incluir a string de consentimento nos segmentos enviados para destinos de URL integrados ao IAB. Substitua <code>XXXX</code> pela ID do parceiro de destino. Consulte <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Plug-in do Audience Manager para TCF do IAB</a> para obter detalhes. </p></td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> %http_proto%</code> </p> </td> 
@@ -73,7 +73,7 @@ Ao criar um destino [!DNL URL], você pode inserir as seguintes macros na cadeia
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> %mcid%</code> </p> </td> 
-   <td colname="col2"> <p>Insere a ID do Experience Cloud</span> <span class="keyword"> na URL de destino. </p> </td> 
+   <td colname="col2"> <p>Insere a ID do <span class="keyword"> Experience Cloud</span> na URL de destino. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> %region%</code> </p> </td> 

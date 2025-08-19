@@ -14,7 +14,7 @@ ht-degree: 14%
 
 ---
 
-# Importação de arquivos de dados do Google Ad Manager (antigo DFP) para o Audience Manager{#import-dfp-data-files-into-audience-manager}
+# Importar arquivos de dados do Google Ad Manager (antigo DFP) para o Audience Manager{#import-dfp-data-files-into-audience-manager}
 
 Antes do Audience Manager poder habilitar a otimização de público-alvo para editores, você deve garantir que todos os pré-requisitos descritos neste artigo sejam atendidos. Entre em contato com o Atendimento ao cliente após verificar todos os pré-requisitos.
 
@@ -22,7 +22,7 @@ Antes do Audience Manager poder habilitar a otimização de público-alvo para e
 
 Observe que o processo descrito nesta seção deve ser concluído *antes* de você seguir para os pré-requisitos para a habilitação da assimilação de log.
 
-Para usar os arquivos de log do [!DNL Google Ad Manager] (antigo Google DFP) em [!DNL Audience Manager], você deve primeiro definir nossa [ID de Usuário Exclusiva (UUID)](../../../reference/ids-in-aam.md) de Audience Manager na chamada de tag de anúncio. Ao fazer isso, nossa ID é incluída nos logs do [!DNL Google Ad Manager] e podemos corresponder IDs entre [!DNL Google Ad Manager] e [!DNL Audience Manager]. Use o código [!DNL Audience Manager] [!UICONTROL DIL] ou [!UICONTROL Audience Management Module] para definir a UUID [!DNL Audience Manager] em um cookie próprio.
+Para usar os arquivos de log do [!DNL Google Ad Manager] (antigo Google DFP) em [!DNL Audience Manager], primeiro você deve definir nossa [ID de Usuário Exclusivo (UUID) da Audience Manager](../../../reference/ids-in-aam.md) na chamada de tag de publicidade. Ao fazer isso, nossa ID é incluída nos logs do [!DNL Google Ad Manager] e podemos corresponder IDs entre [!DNL Google Ad Manager] e [!DNL Audience Manager]. Use o código [!DNL Audience Manager] [!UICONTROL DIL] ou [!UICONTROL Audience Management Module] para definir a UUID [!DNL Audience Manager] em um cookie próprio.
 
 Veja como definir a ID do [!DNL Audience Manager] na chamada de tag de publicidade, conforme explicado em nossa documentação:
 
@@ -48,14 +48,14 @@ Você mesmo precisa definir a ID do [!DNL Audience Manager] e pode trabalhar com
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Etapa 1 </p> </td> 
-   <td colname="col2"> <p>Confirme se as etapas necessárias para definir a UUID do Audience Manager <span class="keyword"> </span> (descritas acima) foram concluídas antes de passar para a Etapa 2 </p> </td> 
-   <td colname="col3"> <p><span class="keyword"> Audience Manager</span> Atendimento ao cliente ou consultoria </p> </td> 
+   <td colname="col2"> <p>Confirme se as etapas necessárias para definir a UUID <span class="keyword"> do Audience Manager </span> (descritas acima) foram concluídas antes de passar para a Etapa 2 </p> </td> 
+   <td colname="col3"> <p>Consultoria ou Atendimento ao cliente do <span class="keyword"> Audience Manager</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Etapa 2 </p> </td> 
    <td colname="col2"> <p>O administrador do Google Ad Manager cria: </p> <p> 
      <ol id="ol_FCFA9B11CFF948A488DF9CB298FC04C4"> 
-      <li id="li_BC946EDCC3324578AEB64EDDA55B5ACA">Uma conta de serviço para assimilação de logs do Google Ad Manager no Audience Manager <span class="keyword"> </span>. </li> 
+      <li id="li_BC946EDCC3324578AEB64EDDA55B5ACA">Uma conta de serviço para assimilar logs do Google Ad Manager no <span class="keyword"> Audience Manager</span>. </li> 
       <li id="li_6B2FC7D73A3246419E55C004E17ACA25">Novas credenciais. <p>Observação: isso pode exigir um endereço de e-mail exclusivo específico para esse projeto e será usado ao provisionar o acesso ao Google Storage Bucket. </p> </li> 
       <li id="li_95444B9FD1B34659A9634814B262A681">Uma chave privada (credencial baseada em JSON) </li> 
      </ol> </p> </td> 
@@ -82,8 +82,8 @@ Você mesmo precisa definir a ID do [!DNL Audience Manager] e pode trabalhar com
   </tr> 
   <tr> 
    <td colname="col1"> <p>Etapa 6 </p> </td> 
-   <td colname="col2"> <p>Para compilar os pré-requisitos e abrir um tíquete de suporte, siga as instruções detalhadas <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html?lang=pt-BR">aqui</a> para iniciar o processo de assimilação de log. </p> </td> 
-   <td colname="col3"> <p>Você ou a <span class="keyword"> Audience Manager</span> Consultando em seu nome </p> </td> 
+   <td colname="col2"> <p>Para compilar os pré-requisitos e abrir um tíquete de suporte, siga as instruções detalhadas <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html">aqui</a> para iniciar o processo de assimilação de log. </p> </td> 
+   <td colname="col3"> <p>Você ou a <span class="keyword"> Audience Manager</span> Consulting em seu nome </p> </td> 
   </tr> 
  </tbody> 
 </table>

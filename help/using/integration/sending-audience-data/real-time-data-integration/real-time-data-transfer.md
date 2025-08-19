@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # Assimilação de dados de entrada em tempo real {#real-time-inbound-data-ingestion}
 
-O processo de assimilação de dados de entrada em tempo real usa uma série de `HTTP` solicitações do navegador de um usuário para enviar dados para o Audience Manager.
+O processo de assimilação de dados de entrada em tempo real usa uma série de `HTTP` solicitações do navegador de um usuário para transmitir dados para o Audience Manager.
 
 <!-- c_rt_inbound_real_time.xml -->
 

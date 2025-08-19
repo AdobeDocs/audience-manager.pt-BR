@@ -88,7 +88,7 @@ Os relatórios de seus [!UICONTROL Addressable Audiences] e [Destinos](../featur
 * [!UICONTROL Last 90 Days]
 * [!UICONTROL Lifetime]
 
-Todas as datas e intervalos de datas estão definidos no fuso horário [!DNL UTC]. Consulte [Fusos horários em Audience Manager](../reference/aam-time-zones.md).
+Todas as datas e intervalos de datas estão definidos no fuso horário [!DNL UTC]. Consulte [Fusos horários no Audience Manager](../reference/aam-time-zones.md).
 
 ## Dados em intervalos de datas {#date-range-intervals}
 
@@ -127,7 +127,7 @@ Essas métricas retornam dados sobre a associação [!UICONTROL segment]. Eles a
 
 | Métrica | Descrição |
 |---|---|
-| [!UICONTROL Segment Addressable Audience] | O número de usuários que pertenceram a [!UICONTROL segment] durante o período de análise do relatório e que têm uma sincronização de ID ativa no site. Os segmentos podem incluir seus próprios dados primários e dados secundários e de terceiros, via [!UICONTROL traits] adquiridos no [Audience Marketplace](../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md).<br><br>Dica: quando usada com o período retroativo de um dia, essa métrica pode ajudá-lo a entender o estado atual do seu [!UICONTROL segments]. Isso ocorre porque a métrica [!UICONTROL Segment Addressable Audience] representa os usuários que permaneceram em um [!UICONTROL segment] durante o dia anterior. Combine isso com o fato de que o [!DNL Audience Manager] atualiza [!UICONTROL Addressable Audiences] diariamente, a combinação dessa métrica e do período de lookback fornece o instantâneo mais atualizado do seu [!UICONTROL segments]. |
+| [!UICONTROL Segment Addressable Audience] | O número de usuários que pertenceram a [!UICONTROL segment] durante o período de análise do relatório e que têm uma sincronização de ID ativa no site. Os segmentos podem incluir seus próprios dados primários e dados secundários e de terceiros, via [!UICONTROL traits] adquiridos na [Audience Marketplace](../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md).<br><br>Dica: quando usada com o período retroativo de um dia, essa métrica pode ajudá-lo a entender o estado atual do seu [!UICONTROL segments]. Isso ocorre porque a métrica [!UICONTROL Segment Addressable Audience] representa os usuários que permaneceram em um [!UICONTROL segment] durante o dia anterior. Combine isso com o fato de que o [!DNL Audience Manager] atualiza [!UICONTROL Addressable Audiences] diariamente, a combinação dessa métrica e do período de lookback fornece o instantâneo mais atualizado do seu [!UICONTROL segments]. |
 | [!UICONTROL Total Segment Population] | Uma contagem de todos os dispositivos que eram membros de seu [!UICONTROL segment] durante o período de análise do relatório. |
 | [!UICONTROL Segment Match Rate] | [!UICONTROL Segment Addressable Audience] ÷ [!UICONTROL Total Segment Population] expresso como uma porcentagem. |
 

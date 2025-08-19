@@ -22,11 +22,11 @@ O [!UICONTROL Predictive Audiences] ajuda você a classificar um público-alvo d
 
 Em um contexto de marketing, uma pessoa é um segmento de público-alvo definido por visitantes, usuários ou possíveis compradores, que compartilham um conjunto específico de características, como demografia, hábitos de navegação, histórico de compras etc.
 
-Os modelos de [!UICONTROL Predictive Audiences] levam esse conceito um passo além, permitindo que você use os recursos de aprendizado de máquina do Audience Manager para classificar públicos desconhecidos em personas distintas. O Audience Manager ajuda você a fazer isso calculando a propensão do público primário desconhecido para um conjunto de públicos originais conhecidos.
+Os modelos de [!UICONTROL Predictive Audiences] levam esse conceito um passo além, permitindo que você use os recursos de aprendizado de máquina do Audience Manager para classificar públicos desconhecidos em personas distintas. O Audience Manager ajuda você a fazer isso calculando a propensão do seu público primário desconhecido para um conjunto de públicos originais conhecidos.
 
 Ao criar um modelo [!UICONTROL Predictive Audiences], a primeira etapa é escolher as características ou os segmentos da linha de base pelos quais você deseja que seu público-alvo seja classificado. Essas características ou segmentos definirão suas personalidades.
 
-Durante a fase de avaliação, o modelo cria um novo segmento [!UICONTROL Predictive Audiences] para cada característica ou segmento definido como linha de base. Na próxima vez que o Audience Manager vir um visitante de seu público-alvo que não esteja classificado para uma persona (não se qualificou para nenhuma de suas características ou segmentos de linha de base), o modelo [!UICONTROL Predictive Audiences] determinará a qual dos segmentos preditivos o visitante deve pertencer e adicionará o visitante a esse segmento.
+Durante a fase de avaliação, o modelo cria um novo segmento [!UICONTROL Predictive Audiences] para cada característica ou segmento definido como linha de base. Na próxima vez que o Audience Manager vir um visitante de seu público-alvo de destino que não esteja classificado para uma persona (não se qualificou para nenhuma de suas características ou segmentos de linha de base), o modelo [!UICONTROL Predictive Audiences] determinará a qual dos segmentos preditivos o visitante deve pertencer e adicionará o visitante a esse segmento.
 
 Você pode identificar os segmentos preditivos criados pelo modelo, na página [!UICONTROL Segments]. Cada modelo [!UICONTROL Predictive Audiences] tem sua própria pasta na pasta [!UICONTROL Predictive Audiences], e você pode ver os segmentos de cada modelo clicando na pasta do modelo.
 
@@ -34,7 +34,7 @@ Você pode identificar os segmentos preditivos criados pelo modelo, na página [
 
 ## Casos de uso {#use-cases}
 
-Para ajudá-lo a entender melhor como e quando você pode usar o [!UICONTROL Predictive Audiences], veja alguns casos de uso que os clientes do Audience Manager podem resolver usando esse recurso.
+Para ajudá-lo a entender melhor como e quando você pode usar o [!UICONTROL Predictive Audiences], veja alguns casos de uso que os clientes da Audience Manager podem resolver usando este recurso.
 
 ### Caso de uso #1
 
@@ -122,11 +122,11 @@ Ao configurar seus modelos do [!UICONTROL Predictive Audiences], lembre-se das s
 
 ## [!UICONTROL Data Export Controls] {#dec}
 
-Os segmentos preditivos criados por modelos [!UICONTROL Predictive Audiences] herdam os [Controles da Exportação de Dados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=pt-BR) das seguintes fontes de dados primárias:
+Os segmentos preditivos criados por modelos [!UICONTROL Predictive Audiences] herdam os [Controles da Exportação de Dados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) das seguintes fontes de dados primárias:
 
 1. A fonte de dados primária escolhida ao criar o modelo.
 1. As fontes de dados primárias do público-alvo. Especificamente, os controles de exportação de dados do [!UICONTROL traits] ou [!UICONTROL segments] que compõem o público-alvo.
-1. Os [Controles da Exportação de Dados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=pt-BR) de [!UICONTROL Profile Merge Rule] que você selecionou para o modelo.
+1. Os [Controles da Exportação de Dados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) de [!UICONTROL Profile Merge Rule] que você selecionou para o modelo.
 
 A [!UICONTROL traits] preditiva recém-criada e a [!UICONTROL segments] terão as mesmas restrições de privacidade que a união das fontes de dados primárias descritas acima.
 
@@ -146,6 +146,6 @@ Selecionar um [!UICONTROL Profile Merge Rule] que use dados de dispositivo e dad
 
 ## [!UICONTROL Role-Based Access Controls] {#rbac}
 
-As características e os segmentos que você escolher para classificação de personas e público-alvo estão sujeitos aos [Controles de acesso com base em função](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=pt-BR) do Audience Manager.
+As características e os segmentos que você escolher para classificação de personas e público estão sujeitos aos [Controles de Acesso com Base em Função](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html) da Audience Manager.
 
-Os usuários do Audience Manager só podem selecionar características ou segmentos para personas e públicos-alvo, que têm [permissão para visualizar](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=pt-BR#wild-card-permissions).
+Os usuários do Audience Manager só podem selecionar características ou segmentos para personas e públicos-alvo, que têm [permissão para visualizar](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions).

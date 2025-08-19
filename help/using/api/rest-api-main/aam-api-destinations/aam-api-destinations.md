@@ -20,7 +20,7 @@ Métodos que permitem trabalhar programaticamente com recursos de destino.
 
 <!-- c_destinations_api.xml -->
 
-No Audience Manager, um destino é qualquer outro sistema (servidor de anúncios, [!DNL DSP], rede de anúncios, exchange, seu próprio cookie próprio, etc.) com o qual você deseja compartilhar dados.
+No Audience Manager, um destino é qualquer outro sistema (servidor de anúncios, [!DNL DSP], rede de anúncios, exchange, cookie próprio etc.) com o qual você deseja compartilhar dados.
 
 ## Tipos de destino: URL e cookie {#destination-types}
 

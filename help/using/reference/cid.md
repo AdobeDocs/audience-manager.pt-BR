@@ -74,7 +74,7 @@ Os pares de valores-chave CID e CID_IC substituem DPID e DPUUID. Elas fornecem a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Código de integração de ID do cliente (CID_IC) </p> </td> 
-   <td colname="col2"> <p> <code>d_cid_ic=<i>integration code</i>%01<i>user ID</i></code> </p> <p> Um código de integração <span class="term"> </span> é uma ID alternativa que você pode usar em vez da ID de Source de Dados, atribuída por <span class="keyword"> Audience Manager</span>. Consulte <a href="../features/manage-datasources.md#create-data-source"> Criar um Source de dados</a> se precisar configurar um código de integração. </p> </td> 
+   <td colname="col2"> <p> <code>d_cid_ic=<i>integration code</i>%01<i>user ID</i></code> </p> <p> Um código de integração <span class="term"> </span> é uma ID alternativa que você pode usar em vez da ID do Data Source, atribuída pelo <span class="keyword"> Audience Manager</span>. Consulte <a href="../features/manage-datasources.md#create-data-source"> Criar um Source de dados</a> se precisar configurar um código de integração. </p> </td> 
   </tr> 
  </tbody> 
 </table>

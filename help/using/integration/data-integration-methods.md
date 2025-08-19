@@ -31,13 +31,13 @@ Antes de começar o processo de integração, lembre-se de [criar característic
 
 ## Casos de uso de integração {#integration-use-cases}
 
-Um resumo de caso de uso dos métodos de integração de dados Audience Manager, juntamente com as vantagens e desvantagens de cada um.
+Um resumo dos casos de uso dos métodos de integração de dados da Audience Manager, juntamente com as vantagens e desvantagens de cada um.
 
 ### Integrações [!DNL Server-to-Server] em tempo real
 
 <!-- c_int_types_use_cases.xml -->
 
-Uma integração de dados [!DNL server-to-server] em tempo real sincroniza rapidamente os dados do usuário entre servidores Audience Manager e outro sistema de direcionamento. Na maioria dos casos, a troca de dados ocorre em segundos ou minutos, dependendo da taxa de atualização do sistema de direcionamento. No entanto, observe que o sistema de destino determina esse intervalo de atualização, não o Audience Manager. Além disso, a taxa de atualização pode variar entre sistemas diferentes. Uma integração em tempo real do [!UICONTROL server-to-server] é o tipo de integração preferencial para trocas de dados. O Audience Manager usa esse método sempre que os parceiros de direcionamento puderem oferecer suporte a ele.
+Uma integração de dados do [!DNL server-to-server] em tempo real sincroniza rapidamente os dados do usuário entre os servidores do Audience Manager e outro sistema de direcionamento. Na maioria dos casos, a troca de dados ocorre em segundos ou minutos, dependendo da taxa de atualização do sistema de direcionamento. No entanto, observe que o sistema de destino determina esse intervalo de atualização, não o Audience Manager. Além disso, a taxa de atualização pode variar entre sistemas diferentes. Uma integração em tempo real do [!UICONTROL server-to-server] é o tipo de integração preferencial para trocas de dados. A Audience Manager usa esse método sempre que os parceiros de direcionamento puderem oferecer suporte a ele.
 
 <table id="simpletable_5307DEC378E5486CB92A354287F33AD8"> 
  <tr class="strow">
@@ -47,7 +47,7 @@ Uma integração de dados [!DNL server-to-server] em tempo real sincroniza rapid
     <li id="li_1737EBB1AD8844BD87E736BB4D8080EF">Permite qualificar usuários para segmentos sem vê-los novamente na página, em um reprodutor de vídeo etc. </li>
     <li id="li_1C1F346CB7BD40508AA5A6918C6B8514"> Reduz o número de chamadas HTTP da página. Menos chamadas ajuda a preservar a experiência do usuário. </li>
     <li id="li_046BF4568B104F53A0E5372568C957CD">Ajuda com o direcionamento sensível ao tempo para que você possa agir rapidamente em um usuário qualificado. </li>
-    <li id="li_70F7AB19AC5D4A9AB80216A2B05163B8">Útil ao mudar para DSP para direcionamento externo. </li>
+    <li id="li_70F7AB19AC5D4A9AB80216A2B05163B8">Útil ao mudar para uma DSP para direcionamento externo. </li>
    </ul></td>
  </tr>
  <tr class="strow">
@@ -86,7 +86,7 @@ As chamadas em tempo real trocam dados com o Audience Manager imediatamente, à 
  </tr> 
  <tr>
   <td> <p>Desvantagens: </p></td>
-  <td> <p>Adiciona uma chamada para o Audience Manager da página.</p></td>
+  <td> <p>Adiciona uma chamada à Audience Manager a partir da página.</p></td>
  </tr> 
 </table>
 
@@ -123,7 +123,7 @@ Descreve os motivos técnicos e comerciais para enviar dados por metodologias s�
 
 ## Processo de transferência de dados em tempo real {#real-time-data-transfer-process}
 
-Uma visão geral de como o Audience Manager executa uma troca de dados síncrona com um fornecedor de terceiros.
+Uma visão geral de como o Audience Manager executa uma troca de dados síncrona com um fornecedor terceirizado.
 
 ### Transferência de dados em tempo real
 
@@ -136,9 +136,9 @@ As transferências de dados em tempo real enviam e recebem IDs de segmento como 
 O processo de integração de dados em tempo real funciona da seguinte maneira:
 
 1. Um usuário visita o site de um cliente que contém o código Audience Manager.
-1. Audience Manager carrega um Iframe e faz uma chamada para [!UICONTROL Data Collection Server] ([!DNL DCS]).
+1. O Audience Manager carrega um Iframe e faz uma chamada para [!UICONTROL Data Collection Server] ([!DNL DCS]).
 1. O [!DNL DCS] chama o servidor de terceiros (em tempo real) para verificar se o fornecedor tem alguma informação de segmento sobre o usuário.
-1. O terceiro retorna informações de segmento sobre esse usuário para o Audience Manager.
+1. O terceiro retorna informações de segmento sobre esse usuário para a Audience Manager.
 1. O Audience Manager assimila informações de segmento e as disponibiliza para direcionamento.
 
 ![](assets/rt_reduce70.png)
@@ -166,4 +166,4 @@ O processo de integração de dados em lote ([!DNL server-to-server]) segue a ma
 
 ![](assets/s2s_70.png)
 
-Para obter informações descrevendo os períodos de tempo em que o Audience Manager processa transferências de arquivos [!DNL Server-to-Server] ([!UICONTROL S2S]) de entrada e saída, consulte [Diretrizes de Relatório e Intervalo de Tempo de Transferência de Arquivos](../reference/reporting-file-transfer-timeframe.md).
+Para obter informações descrevendo os períodos de tempo quando o Audience Manager processa transferências de arquivos [!DNL Server-to-Server] ([!UICONTROL S2S]) de entrada e saída, consulte [Diretrizes de Relatório e Intervalo de Tempo de Transferência de Arquivos](../reference/reporting-file-transfer-timeframe.md).

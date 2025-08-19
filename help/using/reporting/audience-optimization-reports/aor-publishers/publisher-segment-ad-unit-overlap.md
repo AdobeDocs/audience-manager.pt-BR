@@ -1,5 +1,5 @@
 ---
-description: O relatório Segmento para sobreposição de unidade de anúncio é exibido como um gráfico de aquecimento que destaca as sobreposições alta e baixa entre as unidades de anúncio e os segmentos Audience Manager.
+description: O relatório Segmento para sobreposição de unidade de anúncio é exibido como um gráfico de aquecimento que destaca as sobreposições alta e baixa entre os segmentos de Unidades de anúncio e Audience Manager.
 seo-description: The Segment to Ad Unit Overlap report is displayed as a heat chart that highlights high and low overlaps between your Ad Units and Audience Manager segments.
 seo-title: Segment to Ad Unit Overlap
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # Segmentar para sobreposição de unidade de anúncio{#segment-to-ad-unit-overlap}
 
-O relatório Segmento para sobreposição de unidade de anúncio é exibido como um gráfico de aquecimento que destaca as sobreposições alta e baixa entre as unidades de anúncio e os segmentos Audience Manager.
+O relatório Segmento para sobreposição de unidade de anúncio é exibido como um gráfico de aquecimento que destaca as sobreposições alta e baixa entre os segmentos de Unidades de anúncio e Audience Manager.
 
 ## Caso de uso {#use-cases}
 
@@ -32,7 +32,7 @@ Use as caixas **[!UICONTROL Segment Name]** e **[!UICONTROL Ad Unit]** para filt
 
 >[!IMPORTANT]
 >
->Ao habilitar [!UICONTROL Audience Optimization for Publishers], você deve incluir metadados descritivos para [!UICONTROL Ad Unit IDs], conforme descrito na Etapa 3 de [Importar arquivos de dados do Google Ad Manager (antigo DFP) para o Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ao fazer isso, você garante que o relatório detalhe a propriedade da Web como [!UICONTROL Ad Unit] em vez de [!UICONTROL Ad Unit ID].
+>Ao habilitar [!UICONTROL Audience Optimization for Publishers], você deve incluir metadados descritivos para [!UICONTROL Ad Unit IDs], conforme descrito na Etapa 3 de [Importar Arquivos de Dados do Google Ad Manager (antigo DFP) para o Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ao fazer isso, você garante que o relatório detalhe a propriedade da Web como [!UICONTROL Ad Unit] em vez de [!UICONTROL Ad Unit ID].
 
 ## Interpretação dos resultados {#interpreting-results}
 
@@ -54,7 +54,7 @@ O relatório [!UICONTROL Segment to Ad Unit Overlap] pode ser semelhante ao most
   </tr> 
   <tr> 
    <td colname="col1"> <p>Contagem de únicos em tempo real do segmento <span class="wintitle"></span> </p> </td> 
-   <td colname="col2"> <p>O número de visitantes únicos vistos em tempo real para o intervalo de tempo especificado e que foram qualificados para o segmento no momento em que foram vistos por <span class="keyword"> Audience Manager</span>. </p> </td> 
+   <td colname="col2"> <p>O número de visitantes únicos vistos em tempo real para o intervalo de tempo especificado e que foram qualificados para o segmento no momento em que foram vistos pelo <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Contagem de únicos da unidade de publicidade</span> </p> </td> 

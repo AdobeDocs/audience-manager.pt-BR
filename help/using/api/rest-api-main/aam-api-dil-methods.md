@@ -20,11 +20,11 @@ Métodos que permitem trabalhar programaticamente com o [!UICONTROL Data Integra
 
 >[!IMPORTANT]
 >
->A API do Data Integration Library foi descontinuada. Esta API utilizada para gerar o DIL, que agora você pode baixar automaticamente aqui: [DIL download](https://github.com/Adobe-Marketing-Cloud/dil/releases).
+>A API do Data Integration Library foi descontinuada. Esta API utilizada para gerar o DIL, que agora você pode baixar automaticamente aqui: [Download do DIL](https://github.com/Adobe-Marketing-Cloud/dil/releases).
 
 <!-- c_data_integr_library_api.xml -->
 
-## Versões de retorno para DIL {#return-version-dil}
+## Versões de retorno para o DIL {#return-version-dil}
 
 Um método `GET` que retorna uma lista de versões ordenadas da mais antiga para a mais recente.
 

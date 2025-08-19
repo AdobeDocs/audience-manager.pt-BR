@@ -18,9 +18,9 @@ As seções individuais descrevem os relatórios disponíveis, suas finalidades 
 
 Para obter informações descrevendo os intervalos de tempo em que o Audience Manager recebe informações para preencher relatórios, consulte [Como a Entrega de Dados e os Tempos de Processamento de Arquivos Afetam os Relatórios](/help/using/reference/reporting-file-transfer-timeframe.md).
 
-* [Relatórios Audience Optimization](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)
+* [Relatórios do Audience Optimization](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)
 
-  Os relatórios do [!UICONTROL Audience Optimization] usam métodos de visualização de dados para retornar informações sobre os destinos em sua conta Audience Manager. Em cada relatório, você pode clicar em quase qualquer ponto de dados para retornar informações detalhadas sobre esse item. Esses insights de otimização de público-alvo podem ser aplicados a vários casos de uso em canais de publicidade e publicação, mas não estão disponíveis por padrão. Entre em contato com seu consultor do Audience Manager para começar.
+  Os relatórios do [!UICONTROL Audience Optimization] usam métodos de visualização de dados para retornar informações sobre os destinos em sua conta do Audience Manager. Em cada relatório, você pode clicar em quase qualquer ponto de dados para retornar informações detalhadas sobre esse item. Esses insights de otimização de público-alvo podem ser aplicados a vários casos de uso em canais de publicidade e publicação, mas não estão disponíveis por padrão. Entre em contato com o consultor da Audience Manager para começar.
 
 * [Relatórios gerais](/help/using/reporting/general-reports.md)
 
@@ -50,6 +50,6 @@ Para obter informações descrevendo os intervalos de tempo em que o Audience Ma
 
   Use o Painel para exibir informações sobre a contagem de visitantes únicos de seus parceiros dividida por [!UICONTROL trait] tipos e [!UICONTROL segments] para um intervalo de tempo especificado.
 
-* [Amostragem de dados e taxas de erro em relatórios de Audience Manager selecionados](/help/using/reporting/report-sampling.md)
+* [Amostragem de dados e taxas de erro em alguns relatórios do Audience Manager](/help/using/reporting/report-sampling.md)
 
   Um resumo da metodologia de amostragem usada para alguns relatórios, taxas de erro de amostragem e uma lista de relatórios que retornam informações com base em dados de amostra.

@@ -63,7 +63,7 @@ O [!DNL URL] da chamada de sincronização de ID de entrada deve conter variáve
     </tr> 
   <tr> 
    <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i> </code> </td> 
-   <td colname="col2"> <p><code>gdpr</code> pode ser 0 (o GDPR não se aplica) ou 1 (o GDPR se aplica).</p><p><b>Observação:</b> <ul><li>Os parâmetros <code>gdpr</code> e <code>gdpr_consent</code> estão sendo gradualmente implantados em URLs de sincronização de ID com parceiros de ativação. Consulte Parceiros de ativação que oferecem suporte à TCF do IAB no <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners">Plug-in de Audience Manager para a TCF do IAB.</a></li><li>Este parâmetro só pode ser usado junto com <code>gdpr_consent.</code></li></ul></p></td>
+   <td colname="col2"> <p><code>gdpr</code> pode ser 0 (o GDPR não se aplica) ou 1 (o GDPR se aplica).</p><p><b>Observação:</b> <ul><li>Os parâmetros <code>gdpr</code> e <code>gdpr_consent</code> estão sendo gradualmente implantados em URLs de sincronização de ID com parceiros de ativação. Consulte Parceiros de ativação que oferecem suporte à TCF do IAB no <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners">Plug-in do Audience Manager para TCF do IAB.</a></li><li>Este parâmetro só pode ser usado junto com <code>gdpr_consent.</code></li></ul></p></td>
   </tr> 
     </tr> 
   <tr valign="top"> 

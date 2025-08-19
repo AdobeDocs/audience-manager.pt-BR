@@ -75,7 +75,7 @@ Para otimizar o tráfego entre [!UICONTROL IRIS] e destinos de segmentos, [!UICO
 
 >[!IMPORTANT]
 >
->Se o Audience Manager não detectar nenhuma das atualizações acima por 3 dias consecutivos, o [!UICONTROL IRIS] enviará todos os segmentos associados a um dispositivo para todos os destinos mapeados para esses segmentos, na próxima vez que o Audience Manager detectar o dispositivo.
+>Se o Audience Manager não detectar nenhuma das atualizações acima por 3 dias consecutivos, o [!UICONTROL IRIS] enviará todos os segmentos associados a um dispositivo para todos os destinos mapeados para esses segmentos, na próxima vez que o Audience Manager encontrar o dispositivo.
 
 **Arquivo de dados de exemplo**
 

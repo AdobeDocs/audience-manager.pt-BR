@@ -1,5 +1,5 @@
 ---
-description: A otimização de público-alvo para editores pode ajudá-lo a identificar oportunidades potenciais de desempenho para os segmentos do Audience Manager no seu conteúdo próprio ou explorado. Esses relatórios combinam dados de desempenho da campanha no nível do log com métricas de Audience Manager para informar otimizações de público-alvo e oportunidades de monetização.
+description: A otimização de público-alvo para editores pode ajudá-lo a identificar oportunidades potenciais de desempenho para os segmentos do Audience Manager no seu conteúdo próprio ou explorado. Esses relatórios combinam dados de desempenho da campanha no nível do registro com métricas do Audience Manager para informar otimizações de público-alvo e oportunidades de monetização.
 seo-description: Audience Optimization for Publishers can help you identify potential performance opportunities for Audience Manager segments on your owned and operated content. These reports combine log-level campaign performance data with Audience Manager metrics to inform audience optimizations and monetization opportunities.
 seo-title: Audience Optimization for Publishers
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 19%
 
 # Audience Optimization para editores{#audience-optimization-for-publishers}
 
-A otimização de público-alvo para editores pode ajudá-lo a identificar oportunidades potenciais de desempenho para os segmentos do Audience Manager no seu conteúdo próprio ou explorado. Esses relatórios combinam dados de desempenho da campanha no nível do log com métricas de Audience Manager para informar otimizações de público-alvo e oportunidades de monetização.
+A otimização de público-alvo para editores pode ajudá-lo a identificar oportunidades potenciais de desempenho para os segmentos do Audience Manager no seu conteúdo próprio ou explorado. Esses relatórios combinam dados de desempenho da campanha no nível do registro com métricas do Audience Manager para informar otimizações de público-alvo e oportunidades de monetização.
 
 ## Visão geral {#aor-overview}
 
@@ -24,7 +24,7 @@ A otimização de público-alvo para editores pode ajudá-lo a identificar oport
 
 ## Metadados {#metadata}
 
-As informações de desempenho exibidas nos relatórios são importadas da instância [!DNL Google Ad Manager]. Você deve nos enviar arquivos de metadados para que possamos adicionar nomes descritivos e amigáveis aos seus itens nos relatórios, em vez de IDs. A Etapa 3 em [Importar arquivos de dados do Google Ad Manager para o Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md) descreve como enviar os metadados.
+As informações de desempenho exibidas nos relatórios são importadas da instância [!DNL Google Ad Manager]. Você deve nos enviar arquivos de metadados para que possamos adicionar nomes descritivos e amigáveis aos seus itens nos relatórios, em vez de IDs. A Etapa 3 em [Importar Arquivos de Dados do Google Ad Manager para o Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md) descreve como enviar os metadados.
 
 ## Relatórios disponíveis {#available-reports}
 

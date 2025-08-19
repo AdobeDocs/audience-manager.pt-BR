@@ -28,12 +28,12 @@ Como o intervalo [!UICONTROL time-to-live] ([!DNL TTL]) da característica afeta
 
 Ao definir o [!DNL TTL] como 1 dia, o cronômetro TTL começa no dia seguinte após a realização da característica, sem contar as horas restantes no dia de realização da característica.
 
-O Audience Manager calcula a expiração de [!DNL TTL] para características com [!DNL TTL] de 1 dia com base na seguinte fórmula:
+A Audience Manager calcula a expiração de [!DNL TTL] para características com 1 dia [!DNL TTL] com base na seguinte fórmula:
 
 `24 + (24 - Hour of the day the trait was realized, in UTC)`
 
-* **Exemplo 1**: uma característica realizada às 1:00 [!DNL UTC], com um dia 1 [!DNL TTL]. [!DNL TTL] expirará em 24 + 24 - 1 = 47 horas depois.
-* **Exemplo 2**: uma característica realizada às 23:00 [!DNL UTC], com um dia 1 [!DNL TTL]. [!DNL TTL] expirará em 24 + 24 - 23 = 25 horas depois.
+* **Exemplo 1**: uma característica realizada em 1:00 [!DNL UTC], com um 1 dia [!DNL TTL]. [!DNL TTL] expirará em 24 + 24 - 1 = 47 horas depois.
+* **Exemplo 2**: uma característica realizada em 23:00 [!DNL UTC], com um dia 1 [!DNL TTL]. [!DNL TTL] expirará em 24 + 24 - 23 = 25 horas depois.
 
 ## [!DNL TTL] e Retirando de um Segmento
 

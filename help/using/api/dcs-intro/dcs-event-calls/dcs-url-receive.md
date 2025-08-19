@@ -61,7 +61,7 @@ A tabela abaixo lista e define os parâmetros mais comuns que você pode ver em 
 | `stuff` | Este objeto contém informações para todos os destinos de Cookie. A lista deste objeto é dinâmica com base nas ações do usuário. |
 | `tid` | A ID de transação, que é uma ID exclusiva de 12 caracteres usada para fins de depuração. Cada chamada /event para o DCS recebe uma tid que pode ser referenciada em consultas de suporte para obter uma resposta melhor e mais rápida. |
 | `ttl` | O valor do tempo de vida útil do cookie em dias. |
-| `u` e `uuid` | ID de usuário exclusiva atribuída pelo Audience Manager. Isso é necessário se você estiver fazendo [chamadas de DCS de servidor para servidor](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md). |
+| `u` e `uuid` | ID de usuário exclusiva atribuída pela Audience Manager. Isso é necessário se você estiver fazendo [chamadas de DCS de servidor para servidor](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md). |
 | `y` | Tipo de destino, iFrame (`iframe`) ou imagem (`img`). |
 
 >[!MORELIKETHIS]

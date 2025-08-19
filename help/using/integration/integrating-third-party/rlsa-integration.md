@@ -1,5 +1,5 @@
 ---
-description: Esse procedimento requer uma lista de remarketing do AdWords, um código de pixel e um destino de URL Audience Manager. Também é conhecida como lista de remarketing para integração de anúncios de pesquisa (RLSA). Aplica-se somente à pesquisa paga.
+description: Esse procedimento requer uma lista de remarketing do AdWords, um código de pixel e um destino de URL do Audience Manager. Também é conhecida como lista de remarketing para integração de anúncios de pesquisa (RLSA). Aplica-se somente à pesquisa paga.
 seo-description: This procedure requires an AdWords remarketing list, pixel code, and an Audience Manager URL destination. It is also known as a remarketing list for search ads (RLSA) integration. Applies to paid search only.
 seo-title: Send Segments to a Google AdWords Remarketing List
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Enviar segmentos para uma Lista de remarketing do Google Ads {#send-segments-to-a-google-adwords-remarketing-list}
 
-Este procedimento requer uma lista de remarketing [!DNL Google Ads], código de pixel e um Audience Manager [!DNL URL] [!DNL destination]. Também é conhecida como lista de remarketing para integração de anúncios de pesquisa ([!DNL RLSA]). Aplica-se somente à pesquisa paga.
+Este procedimento requer uma lista de remarketing [!DNL Google Ads], um código de pixel e um Audience Manager [!DNL URL] [!DNL destination]. Também é conhecida como lista de remarketing para integração de anúncios de pesquisa ([!DNL RLSA]). Aplica-se somente à pesquisa paga.
 
 >[!IMPORTANT]
 >Observe que essa não é uma integração produzida dos dois sistemas.
@@ -33,7 +33,7 @@ Para configurar uma lista de remarketing [!DNL Google Ads] como um [!DNL Audienc
 1. No Audience Manager, [Crie um  [!DNL URL destination]](../../features/destinations/create-url-destination.md) ou edite um [!DNL destination] existente. Usar as seguintes configurações ao criar o [!DNL destination]:
    * Tipo: URL
    * Serialização: ativada
-   * Delimitador: ponto e vírgula ( &semi; )
+   * Delimitador: ponto e vírgula ( &amp;semi; )
 
 1. Na seção [!UICONTROL Segment Mappings] do [!DNL URL] [!DNL destination], adicione o código da etapa 2 aos campos [!DNL URL] e [!DNL Secure URL]. Prefixe o código com `http:` e `https:` nos campos [!DNL URL] e [!DNL Secure URL], respectivamente.
 

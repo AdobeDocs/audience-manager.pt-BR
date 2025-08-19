@@ -66,7 +66,7 @@ Ao executar relatórios de sobreposição, siga estas práticas recomendadas par
 1. Certifique-se de que os conjuntos de dados sobrepostos sejam semelhantes em termos de tipo de dados e metodologias de coleta, como:
    * Geografia do visitante
    * Cookie vs. IDs móveis
-   * Janela de lookback
+   * Janela de retrospectiva
    * Atividade offline vs. online
    * A frequência com que o provedor de dados atualiza os dados
 
@@ -318,7 +318,7 @@ Este caso de uso permite enviar dados para um [destino](../../../features/destin
 
 >[!MORELIKETHIS]
 >
->* [Alocação de impressão e cobrança para os feeds de dados do CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
+>* [Alocação de impressão e cobrança para feeds de dados do CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
 >* [Alocação de impressão e cobrança para feeds de dados de taxa fixa](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
 >* [Como relatar o uso do CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
 >* [Assinar um Feed de Dados Público](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)

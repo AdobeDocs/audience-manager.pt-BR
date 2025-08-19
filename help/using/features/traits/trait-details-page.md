@@ -25,7 +25,7 @@ A parte superior da página de detalhes do [!UICONTROL trait] hospeda as ferrame
 
 1. **[!UICONTROL Add New]**: Use esta opção para criar novos [!UICONTROL rule-based], [!UICONTROL algorithmic] ou [!UICONTROL onboarded traits].
 2. **[!UICONTROL Edit]**: Use esta opção para alterar a configuração da [!UICONTROL trait] atual.
-3. **[!UICONTROL Delete]**: Use esta opção para remover o [!UICONTROL trait] atual da sua conta Audience Manager.
+3. **[!UICONTROL Delete]**: Use esta opção para remover o [!UICONTROL trait] atual da sua conta do Audience Manager.
 4. **[!UICONTROL Marketplace Recommendations]**: Use esta opção para localizar [!UICONTROL traits] semelhante ao que você está visualizando, de [!UICONTROL Audience Marketplace] taxas de dados para as quais você não tem assinatura. Consulte [Audience Marketplace para Compradores de Dados](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) para saber como navegar no [!UICONTROL Marketplace] e encontrar características semelhantes.
 
 ![informações de características básicas](assets/basic-trait-information.png)
@@ -63,7 +63,7 @@ O [!UICONTROL Trait Graph] mostra as seguintes informações:
   >
   >O Audience Manager só exibirá o relatório [!UICONTROL Identity Type Breakdown] se você tiver [!UICONTROL cross-device] IDs qualificadas para o [!UICONTROL trait].
 
-  >[!VIDEO](https://video.tv.adobe.com/v/32079?captions=por_br)
+  >[!VIDEO](https://video.tv.adobe.com/v/27977/)
 
 ## [!UICONTROL Trait] Expressão {#trait-expression}
 

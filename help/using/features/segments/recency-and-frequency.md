@@ -18,7 +18,7 @@ ht-degree: 1%
 
 Em [!UICONTROL Segment Builder], a recenticidade e a frequência permitem segmentar visitantes com base em ações que ocorrem ou se repetem em um intervalo diário definido.
 
-Audience Manager define [!DNL recency] e [!DNL frequency] da seguinte maneira:
+O Audience Manager define [!DNL recency] e [!DNL frequency] da seguinte maneira:
 
 * **[!UICONTROL Recency]:** Quão recentemente um usuário visualizou ou se qualificou para um (ou mais) [!UICONTROL traits].
 * **[!UICONTROL Frequency]:** A taxa na qual um usuário visualizou ou se qualificou para um (ou mais) [!UICONTROL traits].
@@ -114,7 +114,7 @@ Neste exemplo, você seleciona o operador =>, como mostrado na captura de tela. 
 
 As expressões de limite de frequência incluem todos os usuários cujo número de [!UICONTROL trait] realizações esteja abaixo de um valor desejado. Estes são alguns exemplos certos e errados:
 
-* Errado - A expressão `frequency([1000T]) <= 5` inclui todos os usuários que realizaram [!UICONTROL trait] com a ID &quot;1000&quot; no máximo cinco vezes, mas também inclui usuários que não realizaram [!UICONTROL trait]. Portanto, o Audience Manager não valida essa expressão por motivos de desempenho, pois qualificaria muitos usuários para o [!UICONTROL segment].
+* Errado - A expressão `frequency([1000T]) <= 5` inclui todos os usuários que realizaram [!UICONTROL trait] com a ID &quot;1000&quot; no máximo cinco vezes, mas também inclui usuários que não realizaram [!UICONTROL trait]. Portanto, a Audience Manager não valida essa expressão por motivos de desempenho, pois qualificaria muitos usuários para o [!UICONTROL segment].
 
 * Direita - Se você quiser incluir todos os usuários que perceberam o [!UICONTROL trait] com a ID &quot;1000&quot; no máximo cinco vezes, adicione outra condição à expressão para verificar se os usuários se qualificaram para o [!UICONTROL trait] pelo menos uma vez: `frequency([1000T]) >= 1  AND  frequency([1000T]) <= 5`
 

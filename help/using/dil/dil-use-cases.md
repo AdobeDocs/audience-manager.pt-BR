@@ -1,9 +1,9 @@
 ---
-description: Amostras de código e descrições para casos de uso de DIL específicos.
+description: Amostras de código e descrições para casos de uso específicos do DIL.
 seo-description: Code samples and descriptions for specific DIL use cases.
 seo-title: DIL Use Cases and Code Samples
 solution: Audience Manager
-title: Casos de uso do DIL e exemplos de código
+title: Casos de uso da DIL e exemplos de código
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
 feature: DIL Implementation
 exl-id: 001710be-b377-460a-9e29-7268d25a6305
@@ -14,17 +14,17 @@ ht-degree: 1%
 
 ---
 
-# Casos de uso do DIL e exemplos de código{#dil-use-cases-and-code-samples}
+# Casos de uso da DIL e exemplos de código{#dil-use-cases-and-code-samples}
 
 >[!WARNING]
 >
->A partir de julho de 2023, o Adobe descontinuou o desenvolvimento da extensão [!DNL Data Integration Library (DIL)] e [!DNL DIL].
+>A partir de julho de 2023, a Adobe descontinuou o desenvolvimento do [!DNL Data Integration Library (DIL)] e da extensão [!DNL DIL].
 >
->Os clientes existentes podem continuar usando a implementação [!DNL DIL]. Entretanto, o Adobe não desenvolverá [!DNL DIL] além deste ponto. Os clientes são incentivados a avaliar o [SDK da Web do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR) para sua estratégia de coleta de dados de longo prazo.
+>Os clientes existentes podem continuar usando a implementação [!DNL DIL]. Entretanto, a Adobe não desenvolverá [!DNL DIL] além deste ponto. Os clientes são incentivados a avaliar o [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) para sua estratégia de coleta de dados de longo prazo.
 >
->Os clientes que desejam implementar novas integrações de coleção de dados após julho de 2023 devem usar o [SDK da Web do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR).
+>Os clientes que desejam implementar novas integrações de coleta de dados após julho de 2023 devem usar o [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en).
 
-Amostras de código e descrições para casos de uso de DIL específicos.
+Amostras de código e descrições para casos de uso específicos do DIL.
 
 <!-- 
 
@@ -34,7 +34,7 @@ c_dil_use_case.xml
 
 ## Enviar elementos de dados para o Audience Manager com o DIL {#send-data-elements-dil}
 
-Crie uma variável de objeto que envia informações sobre os elementos da página para o Audience Manager. Isso é útil para a coleta de dados gerais ou como uma alternativa para a coleta de dados com as variáveis do Analytics.
+Crie uma variável de objeto que envia informações sobre os elementos da página para a Audience Manager. Isso é útil para a coleta de dados gerais ou como uma alternativa para a coleta de dados com as variáveis do Analytics.
 
 <!-- 
 
@@ -52,14 +52,14 @@ Lembre-se de manter as mesmas propriedades de valor ao transmitir os dados. Por 
 
 **Exemplo 1: Enviar Dados como Pares de Valores-Chave**
 
-Esse exemplo básico envia dados de cor e preço para o Audience Manager na forma de pares de valores chave. O código pode ser semelhante ao seguinte:
+Esse exemplo básico envia dados de cor e preço para o Audience Manager na forma de pares de valores-chave. O código pode ser semelhante ao seguinte:
 
 <pre class="java"><code>
 var sample_dil = DIL.create({partner:"<i>partner name</i>"}); 
-sample_dil.api.signals(&lbrace; 
+sample_dil.api.signals({ 
    c_color:"blue", 
    c_price:"900" 
-&rbrace;); 
+}); 
 sample_dil.api.submit();
 </code></pre>
 
@@ -68,10 +68,10 @@ sample_dil.api.submit();
 Este exemplo avançado demonstra como enviar dados em um objeto para o Audience Manager. Ao trabalhar com este método, [!UICONTROL DIL] permite passar um objeto como um parâmetro de função para o método [!DNL signals()]. [!UICONTROL DIL] Seu código pode ser semelhante ao seguinte:
 
 <pre class="java"><code>
-var my_object = &lbrace; 
+var my_object = { 
    color : "blue", 
    price : "900" 
-&rbrace;; 
+}; 
  
 var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
 //Load the object and append "c_" to all keys in the key-value pairs and send data to AudienceManager. 
@@ -83,21 +83,21 @@ sample_dil.api.signals(my_object,"c_").submit();
 Nesse caso, a variável `my_object` usa uma matriz para armazenar dados. Este exemplo se baseia nas informações transmitidas pelo método recomendado acima, mas adiciona uma camada adicional para acomodar um tipo e modelo de produto. O código pode ser semelhante ao seguinte:
 
 <pre class="java"><code>
-var my_objects = &lbrack;&lbrace; 
+var my_objects = [{ 
    color : "blue", 
    price : "900" 
-&rbrace;, &lbrace; 
+}, { 
    type : "acura", 
    model : "tl" 
-&rbrace;&rbrack;; 
+}]; 
  
 var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
  
 for (var i = 0; i < my_objects.length; i++) 
 //Load the object and append "c_" to all the keys in the key-value pairs.  
-&lbrace; 
+{ 
     sample_dil.api.signals(my_objects[i], "c_"); 
-&rbrace; 
+} 
 sample_dil.api.submit();
 </code></pre>
 
@@ -126,7 +126,7 @@ adobe_dil.api.signals({ d_referer : document.referrer }).submit();
 
 ## Capturar Tipos de Mecanismo de Pesquisa e Termos de Pesquisa por Palavra-chave {#capture-search-engine-types}
 
-Envie informações sobre o tipo de mecanismo de pesquisa e pesquisas por palavra-chave para o Audience Manager.
+Envie informações sobre o tipo de mecanismo de pesquisa e pesquisas por palavra-chave para a Audience Manager.
 
 >[!IMPORTANT]
 >
@@ -144,7 +144,7 @@ Por padrão, o `DIL.getSearchReferrer` reconhece as pesquisas destes mecanismos 
 
 **Descrição**
 
-O código a seguir demonstra como obter o referenciador de pesquisa para qualquer um dos mecanismos de pesquisa compatíveis. Nesse caso, vamos supor que um usuário tenha pesquisado no termo &quot;homes&quot; do [!DNL Google] Canadá ( `www.google.ca`). Este código ajudará você a capturar esses termos de pesquisa e enviá-los para o Audience Manager.
+O código a seguir demonstra como obter o referenciador de pesquisa para qualquer um dos mecanismos de pesquisa compatíveis. Nesse caso, vamos supor que um usuário tenha pesquisado no termo &quot;homes&quot; do [!DNL Google] Canadá ( `www.google.ca`). Este código ajudará você a capturar esses termos de pesquisa e enviá-los para a Audience Manager.
 
 **Código básico**
 
@@ -162,31 +162,31 @@ Nesse caso, vamos supor que um usuário tenha pesquisado o termo &quot;homes&quo
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
 var search_referrer = DIL.tools.getSearchReferrer(); 
  
-if (search_referrer && search_referrer.valid) &lbrace; 
-  adobe_dil.api.signals(&lbrace; 
+if (search_referrer && search_referrer.valid) { 
+  adobe_dil.api.signals({ 
     c_se : se.name, 
     c_st : se.keywords 
-  &rbrace;).submit(); 
-&rbrace;
+  }).submit(); 
+}
 </code></pre>
 
 **Amostra de Código do Mecanismo de Pesquisa Não Listada**
 
-Nesse caso, vamos supor que um usuário tenha pesquisado o termo &quot;homes&quot; de `dogpile.com`. Por padrão, não há suporte para [!DNL Dogpile]. Você pode configurar o DIL para reconhecer esse mecanismo de pesquisa e retornar os termos de pesquisa para Audience Manager. O código pode ser semelhante ao seguinte:
+Nesse caso, vamos supor que um usuário tenha pesquisado o termo &quot;homes&quot; de `dogpile.com`. Por padrão, não há suporte para [!DNL Dogpile], você pode configurar o DIL para reconhecer esse mecanismo de pesquisa e retornar os termos de pesquisa para o Audience Manager. O código pode ser semelhante ao seguinte:
 
 <pre class="java"><code>
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
-var search_referrer = DIL.tools.getSearchReferrer(document.referrer, &lbrace;  
+var search_referrer = DIL.tools.getSearchReferrer(document.referrer, {  
     hostPattern:/dogpile\./, 
     queryParam:"q" 
-&rbrace;); 
+}); 
  
-if (search_referrer && search_referrer.valid) &lbrace; 
-  adobe_dil.api.signals(&lbrace; 
+if (search_referrer && search_referrer.valid) { 
+  adobe_dil.api.signals({ 
     c_se : se.name, 
     c_st : se.keywords 
-  &rbrace;).submit(); 
-&rbrace;
+  }).submit(); 
+}
 </code></pre>
 
 ## Mapear valores de chave para outras chaves {#map-key-values}
@@ -201,9 +201,9 @@ c_dil_map_keys.xml
 
 **Descrição**
 
-Em um par de valor-chave, o prefixo `c_` anexado à chave identifica o sinal como dados definidos pelo cliente. Os dados definidos pelo cliente são usados para direcionamento no site específico que transmitiu dados em uma chamada de evento. No entanto, às vezes você quer que essas informações estejam disponíveis em todas as propriedades na sua conta Audience Manager. Para fazer isso, mapeie o valor em um par de valor-chave `c_` para uma chave de nível de plataforma. Uma chave de nível de plataforma recebe o prefixo `d_` e disponibiliza o sinal para direcionamento em todas as propriedades da sua conta.
+Em um par de valor-chave, o prefixo `c_` anexado à chave identifica o sinal como dados definidos pelo cliente. Os dados definidos pelo cliente são usados para direcionamento no site específico que transmitiu dados em uma chamada de evento. No entanto, às vezes você quer que essas informações estejam disponíveis em todas as propriedades na sua conta do Audience Manager. Para fazer isso, mapeie o valor em um par de valor-chave `c_` para uma chave de nível de plataforma. Uma chave de nível de plataforma recebe o prefixo `d_` e disponibiliza o sinal para direcionamento em todas as propriedades da sua conta.
 
-Como exemplo, você coleta dados de código postal de um site específico, mas deseja direcioná-los a todas as propriedades do Audience Manager. Para disponibilizar o CEP no nível da plataforma, você pode mapear sua chave de CEP definida pelo cliente (por exemplo, `c_zip`) para uma chave definida pela plataforma, conforme mostrado abaixo.
+Como exemplo, você coleta dados de CEP de um site específico, mas deseja direcioná-los a todas as suas propriedades do Audience Manager. Para disponibilizar o CEP no nível da plataforma, você pode mapear sua chave de CEP definida pelo cliente (por exemplo, `c_zip`) para uma chave definida pela plataforma, conforme mostrado abaixo.
 
 **Amostra de código**
 
@@ -221,9 +221,9 @@ adobe_dil.api.signals({c_zip : '10010'}).submit();
 // Request will look like /event?c_zip=10010&d_zip=10010
 ```
 
-## DIL de tráfego no Google Tag Manager (GTM) {#traffic-dil-gtm}
+## Tráfego DIL no Google Tag Manager (GTM) {#traffic-dil-gtm}
 
-Configure e disponibilize o DIL com uma tag do GTM.
+Configurar e fornecer uma tag do GTM ao DIL.
 
 <!-- 
 
@@ -241,14 +241,14 @@ Para traficar o arquivo `dil.js` no GTM:
 
    * Nomeie a tag.
    * Selecione **[!UICONTROL Custom HTML Tag]** na lista suspensa **[!UICONTROL Tag Type]**.
-   * No campo HTML, coloque o código [!UICONTROL DIL] (biblioteca + o código personalizado) dentro das tags de script `<script>DIL code</script>`.
+   * No campo HTML, coloque o código [!UICONTROL DIL] (biblioteca + o código personalizado) nas tags de script `<script>DIL code</script>`.
    * Clique em **[!UICONTROL Save]**.
 
-1. Publish o container.
+1. Publique o container.
 1. Gere o código da etiqueta do contêiner e coloque-o no inventário.
 
 >[!MORELIKETHIS]
 >
 >* [Central de ajuda do Google Tag Manager](https://support.google.com/tagmanager#topic=3441530)
 >* [Sinais](../dil/dil-instance-methods.md#signals)
->* [Requisitos de prefixo para variáveis-chave](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-variable-prefixes.html?lang=pt-BR#prefix-requirements-for-key-variables)
+>* [Requisitos de prefixo para variáveis-chave](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-variable-prefixes.html#prefix-requirements-for-key-variables)

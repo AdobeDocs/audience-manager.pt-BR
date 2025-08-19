@@ -27,7 +27,7 @@ Uma condição de corrida pode ocorrer se você enviar várias chamadas simultan
 
 ## Limitação de taxa {#rate-limiting}
 
-O Adobe pode introduzir uma limitação de taxa se detectar chamadas excessivas de DCS API que possam ter um impacto negativo na disponibilidade do serviço.
+O Adobe pode introduzir a limitação de taxa se detectar chamadas excessivas de DCS API que possam ter um impacto negativo na disponibilidade do serviço.
 
 Se a limitação de taxa estiver habilitada, você poderá receber um código de status de resposta HTTP `429 Too Many Requests` em suas chamadas DCS. Ao receber essa resposta HTTP, tente novamente as chamadas de API mais tarde.
 
@@ -35,7 +35,7 @@ Se a limitação de taxa estiver habilitada, você poderá receber um código de
 
 O tratamento de erros é limitado a consultas inválidas ou mal formadas. Uma solicitação inválida retorna uma resposta `HTTP 200 OK` e nenhum dado. Além disso, o [!DNL DCS] para de processar uma solicitação, descarta dados de características e retorna uma resposta de `HTTP 200 OK` quando um usuário:
 
-* Recusa o rastreamento no nível de Audience Manager ou parceiro.
+* Recusa o rastreamento no nível da Audience Manager ou do parceiro.
 * É proveniente de uma região geográfica inválida/não selecionada.
 * Desativa os cookies do navegador (todos ou de terceiros).
 

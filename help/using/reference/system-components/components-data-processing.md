@@ -28,11 +28,11 @@ O Audience Manager usa os seguintes componentes para processar dados:
 
 ## Hadoop {#hadoop}
 
-No [!DNL Audience Manager], o Hadoop é o banco de dados principal que contém tudo o que [!DNL Audience Manager] sabe sobre um usuário. Por exemplo, quando os [Servidores de Cache de Perfil](../../reference/system-components/components-data-collection.md) criam arquivos de log que contêm dados sobre os usuários, eles enviam esses dados ao Hadoop para armazenamento. Outros elementos importantes do Hadoop incluem:
+No [!DNL Audience Manager], o Hadoop é o banco de dados principal que contém tudo o que [!DNL Audience Manager] sabe sobre um usuário. Por exemplo, quando os [Servidores de Cache de Perfil](../../reference/system-components/components-data-collection.md) criam arquivos de log que contêm dados sobre os usuários, eles enviam esses dados para armazenamento na Hadoop. Outros elementos importantes do Hadoop incluem:
 
 * **Hive:** um data warehouse para Hadoop. O Hive gerencia consultas ad hoc aos dados armazenados no Hadoop.
 
-* **HBase:** um banco de dados de Hadoop muito grande. Ele processa e gerencia dados de entrada e saída, regras de características, informações de modelagem algorítmica e executa muitas outras funções relacionadas ao armazenamento e à movimentação de dados para diferentes sistemas.
+* **HBase:** um banco de dados Hadoop muito grande. Ele processa e gerencia dados de entrada e saída, regras de características, informações de modelagem algorítmica e executa muitas outras funções relacionadas ao armazenamento e à movimentação de dados para diferentes sistemas.
 
 Os clientes não têm acesso direto a esses sistemas. No entanto, os clientes trabalham indiretamente com eles, pois esses componentes armazenam dados importantes sobre os visitantes do site.
 
@@ -60,7 +60,7 @@ SOLR é um sistema de servidor e banco de dados de código aberto do Apache. Ele
 
 ## Tableau {#tableau}
 
-[!DNL Audience Manager] usa o [Tableau](https://www.tableausoftware.com/) para exibir dados nos [Relatórios Interativos](../../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) e nos [Relatórios de Audience Optimization](../../reporting/audience-optimization-reports/audience-optimization-reports.md). Os relatórios interativos exibem dados de desempenho e sobreposição para características e segmentos. Em vez de usar números organizados em colunas e linhas, eles retornam dados usando diferentes formas, cores e tamanhos. Além disso, você pode escolher pontos de dados individuais ou grupos de e detalhar os resultados do relatório para obter mais detalhes. Essas técnicas de visualização e interatividade de relatórios ajudam a facilitar a compreensão de grandes quantidades de dados numéricos.
+[!DNL Audience Manager] usa o [Tableau](https://www.tableausoftware.com/) para exibir dados nos [Relatórios Interativos](../../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) e nos [Relatórios do Audience Optimization](../../reporting/audience-optimization-reports/audience-optimization-reports.md). Os relatórios interativos exibem dados de desempenho e sobreposição para características e segmentos. Em vez de usar números organizados em colunas e linhas, eles retornam dados usando diferentes formas, cores e tamanhos. Além disso, você pode escolher pontos de dados individuais ou grupos de e detalhar os resultados do relatório para obter mais detalhes. Essas técnicas de visualização e interatividade de relatórios ajudam a facilitar a compreensão de grandes quantidades de dados numéricos.
 
 
 

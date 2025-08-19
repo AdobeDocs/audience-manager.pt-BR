@@ -18,7 +18,7 @@ ht-degree: 1%
 
 ## O que é a modelagem algorítmica{#what-algo-modeling}
 
-Modelagem algorítmica em Audience Manager refere-se ao uso da ciência de dados para expandir seus públicos existentes ou classificá-los em personas.
+Modelagem algorítmica no Audience Manager refere-se ao uso da ciência de dados para expandir seus públicos existentes ou classificá-los em personas.
 
 Isso é feito por meio de dois tipos de algoritmos: [!UICONTROL Look-Alike Modeling] e [!UICONTROL Predictive Audiences].
 
@@ -38,6 +38,6 @@ O [!UICONTROL Predictive Audiences] ajuda você a classificar um público-alvo d
 
 Em um contexto de marketing, uma pessoa é um segmento de público-alvo definido por visitantes, usuários ou possíveis compradores, que compartilham um conjunto específico de características, como demografia, hábitos de navegação, histórico de compras etc.
 
-Os modelos [!UICONTROL Predictive Audiences] levam esse conceito um passo além, usando os recursos de aprendizado de máquina do Audience Manager para classificar automaticamente públicos desconhecidos em personas distintas. O Audience Manager faz isso calculando a propensão do público-alvo desconhecido para um conjunto de públicos-alvo conhecidos.
+Os modelos do [!UICONTROL Predictive Audiences] levam esse conceito um passo além, usando os recursos de aprendizado de máquina da Audience Manager para classificar automaticamente públicos desconhecidos em personas distintas. O Audience Manager faz isso calculando a propensão do público-alvo desconhecido para um conjunto de públicos-alvo conhecidos.
 
 Para saber mais sobre [!UICONTROL Predictive Audiences], consulte [Visão geral dos públicos preditivos](predictive-audiences.md).

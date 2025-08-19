@@ -1,5 +1,5 @@
 ---
-description: Os componentes do gerenciamento de tags do Audience Manager incluem o portal do cliente, o Adobe Tag Manager (obsoleto em favor do Adobe Experience Platform Launch), o DIL, o Akamai e o banco de dados de controle.
+description: Os componentes do gerenciamento de tags da Audience Manager incluem o portal do cliente, o Adobe Tag Manager (obsoleto em favor do Adobe Experience Platform Launch), o DIL, o Akamai e o banco de dados de controle.
 seo-description: Audience Manager tag management components include the client portal, Adobe Tag Manager (deprecated in favor of Adobe Experience Platform Launch), DIL, Akamai, and the control database.
 seo-title: Tag Management Components
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # Componentes do Tag Management{#tag-management-components}
 
-Os componentes do gerenciamento de tags do Audience Manager incluem o portal do cliente, o Adobe Tag Manager (descontinuado em favor das tags do Adobe Experience Platform), o DIL, o Akamai e o banco de dados de controle.
+Os componentes do gerenciamento de tags da Audience Manager incluem o portal do cliente, o Adobe Tag Manager (obsoleto em favor das tags da Adobe Experience Platform), o DIL, o Akamai e o banco de dados de controle.
 
 <!-- 
 
@@ -24,10 +24,10 @@ c_comptag.xml
 
  -->
 
-Audience Manager contém os seguintes componentes:
+O Audience Manager contém os seguintes componentes:
 
 * [Portal do Cliente](../../reference/system-components/components-tag-management.md#client-portal)
-* [Contêiner de DIL/TIM](../../reference/system-components/components-tag-management.md#dil-tim)
+* [Contêiner DIL/TIM](../../reference/system-components/components-tag-management.md#dil-tim)
 * [Biblioteca de Informações de Dados (DIL)](../../reference/system-components/components-tag-management.md#dil)
 * [Akamai](../../reference/system-components/components-tag-management.md#akamai)
 * [Banco de Dados de Controle](../../reference/system-components/components-tag-management.md#control-database)
@@ -36,9 +36,9 @@ Audience Manager contém os seguintes componentes:
 
 O portal do cliente é a principal interface do usuário para gerenciamento de tags e dados. Os clientes usam o portal para trabalhar com tags, criar características e segmentos, configurar destinos e monitorar o desempenho da campanha com relatórios.
 
-## Contêiner de DIL/TIM {#dil-tim}
+## Contêiner DIL/TIM {#dil-tim}
 
-O contêiner [!UICONTROL DIL] ajuda a implantar o código de coleta de dados [!DNL Audience Manager] em seu site. [!UICONTROL TIM] é o Gerenciador de Inserção de Marca obsoleto. Ele não é mais usado por [!DNL Audience Manager]. Em vez disso, você usa a extensão [!DNL Audience Manager] em [Tags do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html?lang=pt-BR) para configurar e gerar o código de contêiner que você coloca nas páginas do inventário.
+O contêiner [!UICONTROL DIL] ajuda a implantar o código de coleta de dados [!DNL Audience Manager] em seu site. [!UICONTROL TIM] é o Gerenciador de Inserção de Marca obsoleto. Ele não é mais usado por [!DNL Audience Manager]. Em vez disso, você usa a extensão [!DNL Audience Manager] em [Tags do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html) para configurar e gerar o código de contêiner que você coloca nas páginas do inventário.
 
 ## Biblioteca de integração de dados (DIL) {#dil}
 

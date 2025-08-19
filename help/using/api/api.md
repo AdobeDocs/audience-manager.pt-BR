@@ -28,7 +28,7 @@ ht-degree: 0%
 
 Detalhes:
 
-* [Migração de código API Audience Manager](api-swagger-migration.md)
+* [Migração de código API do Audience Manager](api-swagger-migration.md)
 * [APIs de chamada de evento DCS](dcs-intro/dcs-event-calls/dcs-event-calls.md)
 * [DCS APIs para transferências de dados de servidor para servidor](dcs-intro/dcs-s2s/dcs-s2s.md)
 * [Métodos da DCS API](dcs-intro/dcs-api-reference/dcs-api-methods.md)

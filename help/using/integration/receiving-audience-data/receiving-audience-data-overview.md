@@ -1,5 +1,5 @@
 ---
-description: Receba dados de público do Audience Manager.
+description: Receba dados de público-alvo da Audience Manager.
 seo-description: Receive audience data from Adobe Audience Manager (AAM).
 seo-title: Receiving Audience Data in Adobe Audience Manager (AAM)
 title: Recebendo dados de público-alvo
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Recebendo dados de público-alvo
 
-Receba dados de público do Audience Manager.
+Receba dados de público-alvo da Audience Manager.
 
 * [Sincronização de ID para transferências de dados de saída](id-sync-outbound.md)
 

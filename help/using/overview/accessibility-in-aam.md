@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Acessibilidade refere-se a uma série de recursos que tornam um produto de software utilizável, com o mínimo esforço possível de usuários com várias deficiências, como visuais, auditivas, cognitivas, motoras ou de outro tipo.
 
-O Adobe é líder do setor em acessibilidade e oferece suporte à criação de experiências notáveis na Web, incentivando os desenvolvedores a produzir conteúdo rico e envolvente, acessível a todos os usuários. Para obter mais detalhes sobre o compromisso do Adobe com a acessibilidade, consulte [Acessibilidade de Adobe](https://www.adobe.com/accessibility.html).
+O Adobe é líder do setor em acessibilidade e apoia a criação de experiências pendentes na Web, incentivando os desenvolvedores a produzir conteúdo rico e envolvente, acessível a todos os usuários. Para obter mais detalhes sobre o compromisso da Adobe com a acessibilidade, consulte [Acessibilidade do Adobe](https://www.adobe.com/accessibility.html).
 
 Os recursos de acessibilidade mais comuns encontrados em produtos de software são: navegação por teclado, estrutura semântica, contraste suficiente entre elementos de primeiro plano e elementos de plano de fundo, suporte a tecnologia assistiva, rótulos de elementos claros e assim por diante.
 

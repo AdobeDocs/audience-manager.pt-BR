@@ -1,5 +1,5 @@
 ---
-description: A opção de Conversão entre canais no relatório Audience Optimization permite que você atribua conversões offline para impressões online ou cliques.
+description: A opção de Conversão entre canais no relatório do Audience Optimization permite atribuir conversões offline para impressões online ou cliques.
 seo-description: The Cross Channel Conversion option in the Audience Optimization reports allows you to attribute offline conversions to served online impressions or clicks.
 seo-title: Cross Channel Conversion
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Conversão entre canais{#cross-channel-conversion}
 
-A opção de Conversão entre canais no relatório Audience Optimization permite que você atribua conversões offline para impressões online ou cliques.
+A opção de Conversão entre canais no relatório do Audience Optimization permite atribuir conversões offline para impressões online ou cliques.
 
 Os relatórios [!UICONTROL Cross Channel Conversion] combinam resultados da plataforma [!DNL Google Campaign Manager] com [!DNL Audience Manager] características de conversão. Isso permite vincular conversões offline a impressões online ou cliques.
 
@@ -40,7 +40,7 @@ A tabela a seguir lista considerações importantes ao configurar o [!UICONTROL 
   </tr>
   <tr> 
    <td> <p>Janela Atribuição </p> </td> 
-   <td> <p> <b><span class="uicontrol"> A janela de atribuição AAM+Google Campaign Manager</span></b> é de 14 dias, o que significa que somente as características de conversão exibidas nas últimas duas semanas são consideradas. </p> </td> 
+   <td> <p> <b><span class="uicontrol"> A janela de atribuição do AAM+Google Campaign Manager</span></b> é de 14 dias, o que significa que somente as características de conversão exibidas nas últimas duas semanas serão consideradas. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Metodologia de último contato </p> </td> 

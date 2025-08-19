@@ -30,7 +30,7 @@ Para usar esse método, a plataforma de destino deve atender aos seguintes requi
 
 ## Frequência
 
-Esse método de transferência de dados pode enviar dados em tempo quase real, à medida que os usuários se qualificam para segmentos. As mensagens em tempo real só são entregues enquanto o usuário está online e ativamente visível para a rede Audience Manager Edge. Como opção, esse método também pode enviar lotes de dados offline ou integrados com a mesma frequência a cada 24 horas.
+Esse método de transferência de dados pode enviar dados em tempo quase real, à medida que os usuários se qualificam para segmentos. As mensagens em tempo real só são entregues enquanto o usuário está online e ativamente visível para a rede Edge do Audience Manager. Como opção, esse método também pode enviar lotes de dados offline ou integrados com a mesma frequência a cada 24 horas.
 
 ## Transferências em lote
 
@@ -80,7 +80,7 @@ A tabela a seguir define os elementos do arquivo de dados [!DNL JSON] que você 
   <tr valign="top"> 
    <td colname="col1"><code><i>AAM_Destination_ID</i></code> </td> 
    <td colname="col2"> <p>Número inteiro </p> </td> 
-   <td colname="col3"> <p>A ID do objeto "destination" do Audience Manager. Essa ID é originária do Audience Manager.</p> </td> 
+   <td colname="col3"> <p>A ID do objeto de "destino" do Audience Manager. Essa ID é originária do Audience Manager.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User_count</i></code> </td> 
@@ -95,7 +95,7 @@ A tabela a seguir define os elementos do arquivo de dados [!DNL JSON] que você 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_UUID</i></code> </td> 
    <td colname="col2"> <p>String   </p> </td> 
-   <td colname="col3"> <p>A UUID Audience Manager</span> <span class="keyword">. </p> </td> 
+   <td colname="col3"> <p>A UUID <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.DataPartner_UUID</i></code> </td> 
@@ -105,7 +105,7 @@ A tabela a seguir define os elementos do arquivo de dados [!DNL JSON] que você 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_Regions</i></code> </td> 
    <td colname="col2"> Matriz </td> 
-   <td colname="col3"> A ID da região do Audience Manager <span class="keyword"> </span> em que vimos este dispositivo. Por exemplo, se o dispositivo tivesse alguma atividade em Paris (Europa), a ID da região seria <code> 6</code>. Consulte <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md"> IDs da região do DCS, locais e nomes de host</a>. </td> 
+   <td colname="col3"> A ID da região do <span class="keyword"> Audience Manager</span> onde vimos este dispositivo. Por exemplo, se o dispositivo tivesse alguma atividade em Paris (Europa), a ID da região seria <code> 6</code>. Consulte <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md"> IDs da região do DCS, locais e nomes de host</a>. </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segments</i></code> </td> 
@@ -130,7 +130,7 @@ A tabela a seguir define os elementos do arquivo de dados [!DNL JSON] que você 
      <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Removido de um segmento com base no <a href="../../../features/traits/segment-ttl-explained.md"> intervalo de vida útil</a> do segmento. </li> 
      <li id="li_F48D1052BA2B45108225641292CC748D">Movido para um estado inativo se não tiver sido visto nos últimos 120 dias. </li>
      <li>Removido devido a uma solicitação de alteração de privacidade (ou seja, <span class="keyword"> GDPR</span>)</li>
-    </ul> <p>Todas as IDs de parceiros sincronizadas com uma ID de Audience Manager</span> do <span class="keyword"> receberão o sinalizador <code> "Status":"0"</code> quando um usuário não estiver segmentado. </p> </td> 
+    </ul> <p>Todas as IDs de parceiros sincronizadas com uma ID do Audience Manager<span class="keyword"> do </span> receberão o sinalizador <code> "Status":"0"</code> quando um usuário não estiver segmentado. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.DateTime</i></code> </td> 

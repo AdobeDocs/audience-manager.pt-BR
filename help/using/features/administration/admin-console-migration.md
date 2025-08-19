@@ -4,7 +4,7 @@ keywords: rbac;RBAC;baseado em função;baseado em função;controles de acesso 
 seo-description: Audience Manager user management is moving to Adobe Admin Console. This article explains what you need to do to prepare for user migration, and what will change once the migration is complete.
 seo-title: Audience Manager User Migration to Admin Console
 solution: Audience Manager
-title: Migração de usuário do Audience Manager para o Admin Console
+title: Migração de usuários do Audience Manager para o Admin Console
 feature: Administration
 exl-id: d9069cc1-87fa-47b7-ad0c-d69ee37fc91e
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 ## Visão geral {#overview}
 
-O gerenciamento de conta de usuário do [!DNL Audience Manager] está migrando para o [Adobe Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html) para proporcionar uma experiência mais simplificada nas soluções Adobe.
+O gerenciamento de conta de usuário do [!DNL Audience Manager] está migrando para o [Adobe Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html) para proporcionar uma experiência mais simplificada nas soluções da Adobe.
 
 Os benefícios de usar o [!DNL Admin Console] incluem:
 
@@ -36,17 +36,17 @@ Como usuário do Audience Manager, basta contatar o administrador do [!DNL Audie
 
 ## O que os administradores precisam fazer {#what-to-do-admins}
 
-Os administradores de Audience Manager devem seguir as etapas abaixo para migrar usuários para o [!DNL Admin Console].
+Os administradores do Audience Manager devem seguir as etapas abaixo para migrar usuários para o [!DNL Admin Console].
 
 1. Vá para [https://adminconsole.adobe.com](https://adminconsole.adobe.com) e faça logon usando sua Adobe ID ou Enterprise ID. Se você não tiver acesso a [!DNL Admin Console], entre em contato com o Atendimento ao cliente ou com o consultor da Adobe.
-2. Consulte o [!DNL Adobe Admin Console] [guia de ajuda](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/users.ug.html) para obter instruções detalhadas sobre como criar e gerenciar contas de usuário.
-3. Crie novas contas de usuário para todos os seus usuários Audience Manager existentes.
+2. Consulte o [!DNL Adobe Admin Console] [guia de ajuda](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/users.ug.html) para obter instruções detalhadas sobre como criar e gerenciar contas de usuário.
+3. Crie novas contas para todos os usuários existentes do Audience Manager.
 4. Informe os usuários sobre as contas de usuário recém-criadas. Depois que os usuários forem migrados para [!DNL Admin Console], eles deverão parar de usar logons herdados.
 
 ## Considerações sobre a migração de usuários {#considerations}
 
 Tanto os usuários quanto os administradores devem ter em mente as seguintes considerações para a migração de usuários do Audience Manager:
 
-* Depois que novas contas de usuário forem criadas no Admin Console, suas permissões existentes de suas contas de usuário herdadas ainda serão aplicadas.
+* Depois que novas contas de usuário forem criadas no Admin Console, suas permissões existentes das contas de usuário herdadas ainda serão aplicadas.
 * As atualizações de permissões de usuário ainda serão gerenciadas de [!DNL Audience Manager]. O [!DNL Admin Console] abrange apenas o gerenciamento de usuários e grupos.
 * Os administradores não precisam desativar contas de usuário herdadas. As contas de usuário antigas serão mescladas automaticamente com as migradas.

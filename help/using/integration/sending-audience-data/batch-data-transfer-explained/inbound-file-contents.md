@@ -55,8 +55,8 @@ A tabela lista e define as variáveis usadas em um arquivo de dados de entrada f
    <td colname="col1"> <p> <code> <i>User ID </i> </code> </p> </td> 
    <td colname="col2"> <p>Uma ID de usuário pode ser: </p> <p> 
      <ul id="ul_25168355353545A9A049D0083403025E"> 
-      <li id="li_23829FE2F6464E33859B3E388FCD106B">Uma ID de usuário exclusiva atribuída por <span class="keyword"> Audience Manager </span> ( <a href="../../../reference/ids-in-aam.md"> Audience Manager UUID </a>). </li> 
-      <li id="li_76961F20DD3F4554AD2ADFB773F975DB">Uma ID de usuário exclusiva atribuída em seu sistema CRM ( <a href="../../../reference/ids-in-aam.md"> DPUUID, no Audience Manager </a>). </li> 
+      <li id="li_23829FE2F6464E33859B3E388FCD106B">Uma ID de usuário exclusiva atribuída pelo <span class="keyword"> Audience Manager </span> ( <a href="../../../reference/ids-in-aam.md"> UUID do Audience Manager </a>). </li> 
+      <li id="li_76961F20DD3F4554AD2ADFB773F975DB">Uma ID de usuário exclusiva atribuída em seu sistema do CRM ( <a href="../../../reference/ids-in-aam.md"> DPUUID, no Audience Manager </a>). </li> 
       <li id="li_52ABF6CCBCD147E2BD84D056F7461BA0">Uma ID de dispositivo Android ou iOS móvel em sua forma original, não modificada, conforme exposta pelo sistema operacional móvel. </li> 
      </ul> </p> <p>Para IDs móveis: </p> <p> 
      <ul id="ul_717A17E11565427E9E2D9D7554BB231B"> 
@@ -70,7 +70,7 @@ A tabela lista e define as variáveis usadas em um arquivo de dados de entrada f
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>trait ID </i> </code> </p> </td> 
-   <td colname="col2"> <p>A ID de característica do Audience Manager <span class="keyword"> </span>. Pedimos que você inclua <i>somente características integradas</i> em arquivos de dados de entrada. Não processamos nenhum outro tipo de característica na transferência de dados de entrada. </p> <p> <p>Observação: a ID de característica pode ser encontrada usando o método GET que retorna detalhes sobre todas as suas características. Para obter mais informações, consulte <a href="../../../api/rest-api-main/api-traits.md"> Métodos da API de características </a>. </p> </p> </td> 
+   <td colname="col2"> <p>A ID de característica <span class="keyword"> do Audience Manager </span>. Pedimos que você inclua <i>somente características integradas</i> em arquivos de dados de entrada. Não processamos nenhum outro tipo de característica na transferência de dados de entrada. </p> <p> <p>Observação: a ID de característica pode ser encontrada usando o método GET que retorna detalhes sobre todas as suas características. Para obter mais informações, consulte <a href="../../../api/rest-api-main/api-traits.md"> Métodos da API de características </a>. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -201,30 +201,30 @@ Nomes de valores formatados incorretamente em um par de valores chave também ca
    <td colname="col1"> <p>Com <code> d_sid </code> ou <code> d_unsid </code> </p> </td> 
    <td colname="col2"> <p>Esse arquivo de dados mostra um usuário qualificado para as características 24, 26, 27 e foi removido da característica 28 e 29. </p> <p> 
      <code>
-       59767559181262060060278870901087098252&nbsp;&nbsp;d_sid=24,d_sid=26,d_sid=27,d_unsid=28,d_unsid=29 
+       59767559181262060060278870901087098252&amp;nbsp;&amp;nbsp;d_sid=24,d_sid=26,d_sid=27,d_unsid=28,d_unsid=29 
      </code> </p> <p>Nota:  <p>Em vez de usar d_unsid, também é possível remover características dos perfis do usuário usando a seguinte sintaxe: </p> <p> 
       <code>
-        59767559181262060060278870901087098252&nbsp;28:0,&nbsp;29:0 
+        59767559181262060060278870901087098252&amp;nbsp;28:0,&amp;nbsp;29:0 
       </code> </p> <p> 
       <code>
-        59767559181262060060278870901087098252&nbsp;28:-1,&nbsp;29:-1 
+        59767559181262060060278870901087098252&amp;nbsp;28:-1,&amp;nbsp;29:-1 
       </code> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Com <code> ic== </code> </p> </td> 
    <td colname="col2"> <p>Essas características foram adicionadas a uma regra de característica com o prefixo <code> ic </code>. Dessa forma, você pode adicioná-los ao arquivo de dados separados por vírgulas, conforme mostrado. Uma guia separa o UUID e as IDs de característica. O prefixo <code> ic </code> não é necessário no arquivo. </p> <p><b>IDs numéricas</b> </p> <p> 
      <code>
-       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&nbsp;&nbsp;30608,50354,50338,50352,30626 
+       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;30608,50354,50338,50352,30626 
      </code> </p> <p><b>IDs de Cadeia de Caracteres</b> </p> <p> 
      <code>
-       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&nbsp;&nbsp;ic=52,ic=55 
+       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;ic=52,ic=55 
      </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Com pares de valor-chave </p> </td> 
-   <td colname="col2"> Estes dados de arquivo usam pares de valores chave para enviar dados para o Audience Manager <span class="keyword"> </span>. <p> 
+   <td colname="col2"> Estes dados de arquivo usam pares de valores chave para enviar dados para o <span class="keyword"> Audience Manager </span>. <p> 
      <code>
-       59767559181262060060278870901087098252&nbsp;“gender”=”female”,“luxury_shopper”=”yes” 
+       59767559181262060060278870901087098252&amp;nbsp;“gender”=”female”,“luxury_shopper”=”yes” 
      </code> </p> </td> 
   </tr> 
  </tbody> 

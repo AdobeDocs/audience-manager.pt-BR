@@ -19,7 +19,7 @@ Realizações de características de preenchimento retroativo para capturar púb
 
 >[!IMPORTANT]
 >
->O [!UICONTROL Data Explorer Trait Backfill] é um recurso premium que melhora a experiência Audience Manager ao desbloquear casos de uso adicionais. O preenchimento retroativo requer potência de processamento adicional e está disponível para todos os clientes de Audience Manager a um custo incremental. Entre em contato com o representante de vendas da Adobe para obter mais detalhes.
+>O [!UICONTROL Data Explorer Trait Backfill] é um recurso premium que melhora a experiência do Audience Manager ao desbloquear casos de uso adicionais. O preenchimento retroativo requer capacidade de processamento adicional e está disponível para todos os clientes da Audience Manager a um custo incremental. Entre em contato com o representante de vendas da Adobe para obter mais detalhes.
 
 Ao criar características a partir de sinais não utilizados, é possível optar por preencher retroativamente as realizações de características em um período específico. [!DNL Audience Manager] captura os dados históricos sobre públicos qualificados para a nova característica e os armazena no perfil correspondente. Você pode ver o **[!UICONTROL Backfill Options]** na seção [!UICONTROL Trait Expression] do **[Construtor de características](../../features/traits/about-trait-builder.md)**.
 
@@ -51,7 +51,7 @@ Quando terminar de criar a característica, você verá suas realizações preen
 
 Assista ao vídeo abaixo para obter uma apresentação em vídeo sobre como preencher características.
 
->[!VIDEO](https://video.tv.adobe.com/v/30832?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/25169/)
 
 ## Latência de preenchimento retroativo de característica {#trait-backfilling-latency}
 

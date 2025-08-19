@@ -1,5 +1,5 @@
 ---
-description: Use o Data Explorer para capitalizar públicos-alvo históricos, criando características com base em sinais usados e não usados e preenchendo-os com dados históricos para evitar possível perda de públicos-alvo relevantes.
+description: Use o Data Explorer para capitalizar públicos-alvo históricos, criando características com base em sinais usados e não usados e preenchendo-os com dados históricos para evitar a possível perda de públicos-alvo relevantes.
 seo-description: Use Data Explorer to capitalize on historical audiences by building traits based on used and unused signals, and backfilling them with historical data to avoid potential loss of relevant audiences.
 seo-title: Overview, Benefits, and Use Cases
 title: Visão geral, benefícios e casos de uso
@@ -39,7 +39,7 @@ Use o [!UICONTROL Data Explorer] para otimizar a criação de público-alvo de v
 
 ### Exemplo 1
 
-Um varejista global de produtos eletrônicos tem um alto volume de tráfego de visitantes, mas as taxas de conversão são menores do que o esperado, embora tenham otimizado o conteúdo para várias plataformas. Usando o [Painel de Sinais](../../features/data-explorer/data-explorer-signals-dashboard.md), eles identificam um alto volume de sinais não utilizados, indicando que os visitantes estão procurando por uma marca de eletrônicos específica que não está em estoque no momento. A empresa pode aproveitar esse insight atualizando o estoque e direcionando os visitantes com campanhas personalizadas.
+Um retailer eletrônico global tem um alto volume de tráfego de visitantes, mas as taxas de conversão são menores do que o esperado, embora tenham otimizado o conteúdo para várias plataformas. Usando o [Painel de Sinais](../../features/data-explorer/data-explorer-signals-dashboard.md), eles identificam um alto volume de sinais não utilizados, indicando que os visitantes estão procurando por uma marca de eletrônicos específica que não está em estoque no momento. A empresa pode aproveitar esse insight atualizando seu estoque e direcionando os visitantes com campanhas personalizadas.
 
 ### Exemplo 2
 
@@ -49,4 +49,4 @@ Depois que um provedor de serviços de viagem adiciona novos destinos ao site de
 
 Um dos recursos mais eficientes do Audience Manager é a capacidade de integrar dados offline e uni-los aos seus dados online. No vídeo abaixo, saiba como usar o [!UICONTROL Data Explorer] para validar que você criou todas as características necessárias para aproveitar esses dados integrados.
 
->[!VIDEO](https://video.tv.adobe.com/v/30834?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/25149/)

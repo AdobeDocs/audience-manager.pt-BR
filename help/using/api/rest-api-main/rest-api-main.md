@@ -20,6 +20,6 @@ O [!UICONTROL RESTful APIs] permite que você trabalhe programaticamente com o [
 
 O [!DNL Audience Manager] [!DNL REST API] segue os padrões [!DNL JavaScript Object Notation] ([JSON](https://www.json.org/)) para formatação de dados enviados e recebidos. Uma vantagem principal do [!DNL JSON] é que ele ajuda a facilitar a gravação, leitura e análise de consultas do [!DNL API] por desenvolvedores e computadores.
 
-Para simplificar ainda mais seu trabalho, estamos migrando nosso [!DNL REST APIs] para o [Swagger](https://swagger.io/solutions/api-documentation/). Para obter mais informações, consulte [Migração de código API Audience Manager](/help/using/api/api-swagger-migration.md).
+Para simplificar ainda mais seu trabalho, estamos migrando nosso [!DNL REST APIs] para o [Swagger](https://swagger.io/solutions/api-documentation/). Para obter mais informações, consulte [Migração de código API do Audience Manager](/help/using/api/api-swagger-migration.md).
 
 Revise o material de [Introdução](../../api/rest-api-main/aam-api-getting-started.md#getting-started-with-rest-apis) antes de trabalhar com os métodos [!DNL Audience Manager] [!DNL API].

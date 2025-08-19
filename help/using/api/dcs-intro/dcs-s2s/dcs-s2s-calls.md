@@ -49,7 +49,7 @@ Uma chamada de amostra é semelhante ao exemplo a seguir.
    <td colname="col1"> <p><code> <i>domain alias</i>.demdex.net</code> </p> </td> 
    <td colname="col2"> <p>Esta parte da chamada contém: </p> <p> 
      <ul id="ul_3EDA9C7BA6794D06BCB07A75A9BD2372"> 
-      <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Seu alias de domínio atribuído por <span class="keyword"> Audience Manager</span> (por exemplo, <i><code> my_domain.demdex.net</code></i>). </li> 
+      <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Seu alias de domínio atribuído pelo <span class="keyword"> Audience Manager</span> (por exemplo, <i><code> my_domain.demdex.net</code></i>). </li> 
       <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">O domínio de destino, que é sempre <i><code> demdex.net</code></i>. Consulte <a href="../../../reference/demdex-calls.md"> Compreendendo as chamadas para o domínio Demdex</a>. </li> 
      </ul> </p> </td> 
   </tr> 
@@ -67,11 +67,11 @@ Uma chamada de amostra é semelhante ao exemplo a seguir.
   </tr> 
   <tr> 
    <td colname="col1"> <p><code>d_uuid= <i>Audience Manager user ID</i></code> </p> </td> 
-   <td colname="col2"> <p>Esta é a chave de ID de usuário exclusiva que contém o valor de ID de usuário Audience Manager<span class="keyword"></span> em um par de valor-chave. </p> <p>Use <code><i>d_uuid</i></code> se estiver transmitindo a ID de usuário do Audience Manager <span class="keyword"></span>. </p> </td>
+   <td colname="col2"> <p>Esta é a chave de ID de usuário exclusiva que contém o valor de ID de usuário do <span class="keyword"> Audience Manager</span> em um par de valor-chave. </p> <p>Use <code><i>d_uuid</i></code> se estiver transmitindo a ID de usuário do <span class="keyword"> Audience Manager</span>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p><code>d_mid=<i>Experience Cloud user ID</i></code> </p> </td> 
-   <td colname="col2"> <p>Esta é a chave de ID de usuário exclusiva que contém o valor de ID de usuário Experience Cloud<span class="keyword"></span> em um par de valor-chave. Consulte também <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#get-user-ids-from-service-cookie"> Obter a ID de usuário do cookie do serviço de ID</a>. </p> <p>Use <i><code> d_mid</code></i> se estiver transmitindo uma ID de Experience Cloud</span> <span class="keyword"> capturada do serviço de ID Experience Cloud</span> do <span class="keyword">. </p> </td> 
+   <td colname="col2"> <p>Esta é a chave de ID de usuário exclusiva que contém o valor de ID de usuário do <span class="keyword"> Experience Cloud</span> em um par de valor-chave. Consulte também <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#get-user-ids-from-service-cookie"> Obter a ID de usuário do cookie do serviço de ID</a>. </p> <p>Use <i><code> d_mid</code></i> se estiver transmitindo uma ID do <span class="keyword"> Experience Cloud</span> capturada do serviço de ID do <span class="keyword"> Experience Cloud</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 

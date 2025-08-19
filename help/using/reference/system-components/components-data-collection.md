@@ -1,5 +1,5 @@
 ---
-description: Os componentes da coleta de dados incluem os Servidores de coleta de dados, a API de DIL, as transferências de dados de entrada de servidor para servidor e os arquivos de log.
+description: Os componentes da coleta de dados incluem os Servidores de coleta de dados, a API do DIL, as transferências de dados de entrada de servidor para servidor e os arquivos de log.
 seo-description: Data collection components include the Data Collection Servers, the DIL API, inbound server-to-server data transfers, and log files.
 seo-title: Data Collection Components
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 # Componentes da coleção de dados{#data-collection-components}
 
-Os componentes da coleta de dados incluem os Servidores de coleta de dados, a API de DIL, as transferências de dados de entrada de servidor para servidor e os arquivos de log.
+Os componentes da coleta de dados incluem os Servidores de coleta de dados, a API do DIL, as transferências de dados de entrada de servidor para servidor e os arquivos de log.
 
 <!-- 
 
@@ -24,7 +24,7 @@ c_compcollect.xml
 
  -->
 
-Audience Manager contém os seguintes componentes de coleção de dados:
+O Audience Manager contém os seguintes componentes de coleta de dados:
 
 * [Servidores de Coleta de Dados (DCS) e Servidores de Cache de Perfil (PCS)](../../reference/system-components/components-data-collection.md#dcs-pcs)
 * [Biblioteca da integração de dados (DIL)](../../reference/system-components/components-data-collection.md#dil)
@@ -82,11 +82,11 @@ O [!UICONTROL PCS] libera as características se elas estiverem inativas por 17 
 
 **Outros [!UICONTROL DCS/PCS] Processos: Recusa de Privacidade**
 
-Esses sistemas de servidor lidam com privacidade e solicitações de recusa do usuário. As informações de cookie do usuário não serão coletadas no arquivo de log se um usuário optar por não participar da coleta de dados. Para obter mais informações sobre nossas políticas de privacidade, consulte o [Centro de Privacidade Adobe](https://www.adobe.com/pt/privacy/advertising-services.html).
+Esses sistemas de servidor lidam com privacidade e solicitações de recusa do usuário. As informações de cookie do usuário não serão coletadas no arquivo de log se um usuário optar por não participar da coleta de dados. Para obter mais informações sobre nossas políticas de privacidade, consulte o [Centro de Privacidade da Adobe](https://www.adobe.com/pt/privacy/advertising-services.html).
 
 ## Biblioteca de integração de dados (DIL) {#dil}
 
-[!UICONTROL DIL] é o código que você coloca na página para a coleta de dados. Consulte a [API de DIL](../../dil/dil-overview.md) para obter mais informações sobre serviços e métodos disponíveis.
+[!UICONTROL DIL] é o código que você coloca na página para a coleta de dados. Consulte a [API do DIL](../../dil/dil-overview.md) para obter mais informações sobre serviços e métodos disponíveis.
 
 ## Servidor de entrada para servidor {#inbound-outbound-server}
 

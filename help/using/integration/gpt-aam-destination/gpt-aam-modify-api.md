@@ -1,5 +1,5 @@
 ---
-description: Adicione uma instrução if para verificar se há cookies Audience Manager antes de chamar o método .setTargeting da tag do Google Publisher.
+description: Adicione uma instrução if para verificar se há cookies do Audience Manager antes de chamar o método .setTargeting de tag do Google Publisher.
 seo-description: Add an if statement to check for Audience Manager cookies before calling the Google Publisher Tag .setTargeting method.
 seo-title: Modify the GPT setTargeting API Call
 solution: Audience Manager
@@ -18,13 +18,13 @@ ht-degree: 5%
 
 Adicione uma instrução if para verificar se há cookies Audience Manager antes de chamar o método [!DNL Google Publisher Tag] `.setTargeting`.
 
-## Verificar Cookies Audience Manager com uma Instrução `IF`
+## Verificar Cookies do Audience Manager com uma Instrução `IF`
 
 O método `.setTargeting` obtém dados do cookie de destino do Audience Manager e do cookie de ID de usuário exclusiva ( `aam_uuid`). No entanto, se `.setTargeting` for chamado antes de [!UICONTROL DIL] gravar esses cookies, ou se os cookies estiverem vazios, você poderá ver erros quando a página for carregada. Para ajudar a evitar isso, envolva o método `.setTargeting` em uma instrução `if` que verifique esses cookies. Se não estiverem definidos, esta instrução impede `.setTargeting` de chamar a função `AamGpt`.
 
 ### Amostra de código da instrução `IF`
 
-Neste exemplo, o nome do cookie de destino do Audience Manager é `Sample`. Você define esse nome ao criar o cookie de destino na interface de usuário do Audience Manager. [!UICONTROL DIL] define o cookie `aam_uuid` e o nome não pode ser alterado.
+Neste exemplo, o nome do cookie de destino do Audience Manager é `Sample`. Esse nome é definido ao criar o cookie de destino na interface do usuário do Audience Manager. [!UICONTROL DIL] define o cookie `aam_uuid` e o nome não pode ser alterado.
 
 ```js
 if(typeof AamGpt.getCookie("Sample") != "undefined"){ 
@@ -69,7 +69,7 @@ Define as variáveis principais usadas na instrução `if`.
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getCookie </code> </p> </td> 
    <td colname="col2"> <p>Int </p> </td> 
-   <td colname="col3"> <p>Retorna a ID de usuário Audience Manager, por exemplo, <code> 12345 </code>. </p> </td> 
+   <td colname="col3"> <p>Retorna a ID de usuário do Audience Manager, por exemplo, <code> 12345 </code>. </p> </td> 
   </tr>
  </tbody>
 </table>

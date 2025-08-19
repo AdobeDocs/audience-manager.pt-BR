@@ -16,13 +16,13 @@ ht-degree: 2%
 
 # Importar arquivos de dados do Google Campaign Manager para o Audience Manager {#import-dcm-data-files-into-audience-manager}
 
-Configure um grupo [!DNL Google] para trazer seus arquivos de dados [!DNL Google Campaign Manager] para o Audience Manager. O conteúdo desta seção resume o processo de integração e fornece links para os recursos do [!DNL Google Campaign Manager] para ajudar você a começar.
+Configure um grupo [!DNL Google] para trazer seus arquivos de dados do [!DNL Google Campaign Manager] para a Audience Manager. O conteúdo desta seção resume o processo de integração e fornece links para os recursos do [!DNL Google Campaign Manager] para ajudar você a começar.
 
 ## Resumo da integração
 
 [!DNL Google Campaign Manager] é o substituto de [!DNL Google] para [!DNL DoubleClick for Advertisers] (DFA). Semelhante ao DFA, os clientes do [!DNL Google Campaign Manager] podem importar, visualizar e trabalhar com seus dados no [!DNL Audience Manager]. Mas o [!DNL Audience Manager] não pode acessar diretamente e importar seus arquivos [!UICONTROL Data Transfer] e [!UICONTROL Match Table]. Para importar esses arquivos, o esforço se concentra no cliente.
 
-No entanto, o procedimento de configuração está bem documentado na [Ajuda do DoubleClick Campaign Manager](https://support.google.com/dcm/partner/answer/2941575?hl=en&amp;ref_topic=6107456). Além disso, você pode revisar as etapas listadas abaixo para começar.
+No entanto, o procedimento de configuração está bem documentado na [Ajuda do DoubleClick Campaign Manager](https://support.google.com/dcm/partner/answer/2941575?hl=en&ref_topic=6107456). Além disso, você pode revisar as etapas listadas abaixo para começar.
 
 >[!CAUTION]
 >
@@ -34,15 +34,15 @@ No entanto, o procedimento de configuração está bem documentado na [Ajuda do 
 
 ## Etapas
 
-1. [Criar um grupo](https://support.google.com/dcm/partner/answer/3370419?hl=en&amp;ref_topic=6107456).
+1. [Criar um grupo](https://support.google.com/dcm/partner/answer/3370419?hl=en&ref_topic=6107456).
 
    Os grupos controlam o acesso aos seus dados do [!DNL Google Campaign Manager]. Eventualmente, você convidará e adicionará [!DNL Audience Manager] a este grupo.
 
-1. [Verifique seu status do Google Cloud Storage](https://support.google.com/dcm/partner/answer/3370481?hl=en&amp;ref_topic=6107456).
+1. [Verifique seu status do Google Cloud Storage](https://support.google.com/dcm/partner/answer/3370481?hl=en&ref_topic=6107456).
 
    O Google Cloud Storage contém o compartimento de dados que contém o [!UICONTROL Data Transfer] e o [!UICONTROL Match Tables]. Você precisará configurar um bucket ou garantir que o novo grupo tenha acesso a um bucket de armazenamento de dados existente.
 
-1. [Obter uma URL de arquivo de dados](https://support.google.com/dcm/partner/answer/3370482?hl=en&amp;ref_topic=6107456).
+1. [Obter uma URL de arquivo de dados](https://support.google.com/dcm/partner/answer/3370482?hl=en&ref_topic=6107456).
 
    Trabalhe com seu Gerente de Conta do [!DNL Google Campaign Manager] ou Consultor de Soluções de Plataforma. Eles fornecerão um URL para seus arquivos de dados. O [!DNL Google] poderá alterar o formato de nomes de arquivo e compartimento em versões futuras. Novamente, trabalhe com seu Gerente de conta do [!DNL Google Campaign Manager] para verificar se você está usando os formatos certos.
 

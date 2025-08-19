@@ -122,7 +122,7 @@ A primeira etapa do processo requer a intervenção da Adobe Consulting ou do At
 
 ### Etapa 2 - Provedor de dados - Criar novo Source de dados
 
-Na sua conta Audience Manager, crie uma nova fonte de dados de cookie com:
+Na sua conta do Audience Manager, crie uma nova fonte de dados de cookie com:
 
 * **Audience Manager ID** como chave de entrada;
 * Opção **Compartilhamento Habilitado** marcada.
@@ -158,7 +158,7 @@ Vá para **Audience Marketplace > Marketplace**. Procure o feed de dados criado 
 
 ### Etapa 6 - Provedor de dados - Conceder acesso
 
-Vá para **Audience Marketplace > Meus dados compartilhados** e procure pelo feed criado na etapa 4. Clique na nova solicitação de acesso e em **Permitir acesso** para aprovar a solicitação. Consulte também [Revisar, Aprovar ou Rejeitar solicitações de feed privado](/help/using/features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#manage-private-requests).
+Vá para **Audience Marketplace > Meus Dados Compartilhados** e procure pelo feed criado na etapa 4. Clique na nova solicitação de acesso e em **Permitir acesso** para aprovar a solicitação. Consulte também [Revisar, Aprovar ou Rejeitar solicitações de feed privado](/help/using/features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#manage-private-requests).
 
 ### Etapa 7 - Comprador De Dados - Ativar Assinatura
 

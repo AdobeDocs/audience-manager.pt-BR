@@ -121,7 +121,7 @@ Um guia de referência para os rótulos e termos usados neste relatório.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Nome do Arquivo de Sincronização de Dados</b> </p> </td> 
-   <td colname="col2"> <p>Lista os arquivos que <span class="keyword"> Audience Manager</span> recebeu e processou da fonte de dados de entrada selecionada. </p> <p>O processamento do arquivo falhará se o nome do arquivo for formatado incorretamente. Os requisitos de nome de arquivo variam dependendo de como você envia esses dados para o <span class="keyword"> Audience Manager</span>. Os métodos de entrega incluem <span class="keyword"> Amazon S3</span> e FTP. Para obter instruções sobre como nomear os arquivos, consulte: </p> <p> 
+   <td colname="col2"> <p>Lista os arquivos que o <span class="keyword"> Audience Manager</span> recebeu e processou de sua fonte de dados de entrada selecionada. </p> <p>O processamento do arquivo falhará se o nome do arquivo for formatado incorretamente. Os requisitos de nome de arquivo variam dependendo de como você envia esses dados para o <span class="keyword"> Audience Manager</span>. Os métodos de entrega incluem <span class="keyword"> Amazon S3</span> e FTP. Para obter instruções sobre como nomear os arquivos, consulte: </p> <p> 
      <ul id="ul_9A32906A14CA41C5AED0E13930DB31BA"> 
       <li id="li_A5A0E6ED711D4002B52092619F87C7D6"> <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md"> Requisitos de nome Amazon S3 para arquivos de dados de entrada </a> </li> 
      </ul> </p> </td> 
@@ -131,8 +131,8 @@ Um guia de referência para os rótulos e termos usados neste relatório.
    <td colname="col2"> <p>Lista o número de registros com falha no processamento por não corresponderem aos requisitos de sintaxe ou formatação. Consulte <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> Conteúdo do Arquivo de Dados de Entrada: Sintaxe, Variáveis e Exemplos</a> para obter informações sobre como formatar seus dados. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>ID inválida do AAM</b> </p> </td> 
-   <td colname="col2"> <p>Lista o número de UUIDs (IDs de usuário) <span class="keyword"> Audience Manager</span> formatados incorretamente. Normalmente, isso indica as IDs: </p> 
+   <td colname="col1"> <p> <b>AAM ID inválida</b> </p> </td> 
+   <td colname="col2"> <p>Lista o número de UUIDs (IDs de usuário) do Audience Manager<span class="keyword"> formatadas incorretamente. </span> Normalmente, isso indica as IDs: </p> 
     <ul id="ul_8304250E8F0F44918A50CF9D8D8D1F83"> 
      <li id="li_B100B4C2623B4E099E022869A4978357">Não correspondeu ao formato de 38 dígitos esperado. </li> 
      <li id="li_44E8A9AD13174A20A5742E56ED786634">Contêm caracteres alfabéticos. As IDs devem ser somente números. </li> 
@@ -141,7 +141,7 @@ Um guia de referência para os rótulos e termos usados neste relatório.
 
 <tr> 
    <td colname="col1"> <p> <b>ID de Dispositivo Inválida</b> </p> </td> 
-   <td colname="col2"> <p>Lista o número de IDs de dispositivo global formatadas incorretamente. Consulte <a href="../reference/ids-in-aam.md">Índice de IDs no Audience Manager</a> e <a href="../features/global-data-sources.md">Fontes de Dados Globais</a> para obter detalhes sobre como as IDs de dispositivo devem ser formatadas e quais fontes de dados globais você deve usar, com base no tipo de dispositivo.</p>
+   <td colname="col2"> <p>Lista o número de IDs de dispositivo global formatadas incorretamente. Consulte o <a href="../reference/ids-in-aam.md">Índice de IDs no Audience Manager</a> e as <a href="../features/global-data-sources.md">Fontes de Dados Globais</a> para obter detalhes sobre como as IDs de dispositivo devem ser formatadas e quais fontes de dados globais você deve usar, com base no tipo de dispositivo.</p>
   <p>A seção de amostragem de erros do relatório inclui informações detalhadas sobre as IDs de dispositivos inválidas, como:</p>
    <ul>
     <li>A ID da fonte de dados correspondente à ID de dispositivo inválida;</li>
@@ -153,8 +153,8 @@ Um guia de referência para os rótulos e termos usados neste relatório.
 
 
 <tr> 
-   <td colname="col1"> <p> <b>Nenhuma ID de AAM correspondente</b> </p> </td> 
-   <td colname="col2"> <p>Estes são IDs integradas <span class="keyword"> Audience Manager</span> não podem corresponder a uma ID existente. IDs integradas podem ter este status quando <span class="keyword"> Audience Manager</span> ainda não executou uma sincronização de ID ou ainda não pode corresponder à ID mesmo após uma sincronização. </p> <p>No caso de IDs móveis sem correspondência, o Audience Manager <span class="keyword"> </span>: </p> 
+   <td colname="col1"> <p> <b>Nenhuma AAM ID correspondente</b> </p> </td> 
+   <td colname="col2"> <p>Estas são IDs integradas <span class="keyword"> O Audience Manager</span> não pode corresponder a uma ID existente. As IDs integradas podem ter este status quando o <span class="keyword"> Audience Manager</span> ainda não executou uma sincronização de ID ou ainda não pode corresponder à ID mesmo após uma sincronização. </p> <p>No caso de IDs móveis sem correspondência, o <span class="keyword"> Audience Manager</span> irá: </p> 
     <ul id="ul_B0D6AF9EB27D4017B35E36824B403879"> 
      <li id="li_D141000A50D3463182CBA4571DCC5373">Continue a armazenar e tente sincronizar essa ID. </li> 
      <li id="li_2EFCEE716F254ABCBC5FBF749B7564E6">Registre-o como um <span class="wintitle"> Registro armazenado</span> no relatório se a ID não puder ser sincronizada. </li> 
@@ -178,11 +178,11 @@ Um guia de referência para os rótulos e termos usados neste relatório.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Registros Armazenados</b> </p> </td> 
-   <td colname="col2"> <p>Número de registros armazenados com êxito. Devido a erros de formato de arquivo, alguns dos registros recebidos podem não ser armazenados por <span class="keyword"> Audience Manager</span>. O número de registros armazenados pode ser inferior ao número de registros recebidos. </p> </td> 
+   <td colname="col2"> <p>Número de registros armazenados com êxito. Devido a erros de formato de arquivo, alguns dos registros recebidos podem não ser armazenados pelo <span class="keyword"> Audience Manager</span>. O número de registros armazenados pode ser inferior ao número de registros recebidos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Total de características realizadas</b> </p> </td> 
-   <td colname="col2"> <p>O número de características de todos os usuários em todos os arquivos de entrada armazenados na plataforma Audience Manager</span> do <span class="keyword">. </p> </td> 
+   <td colname="col2"> <p>O número de características de todos os usuários em todos os arquivos de entrada armazenados na plataforma <span class="keyword"> do Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Total de sinais não utilizados</b> </p> </td> 

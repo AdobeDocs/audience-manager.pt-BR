@@ -10,7 +10,7 @@ exl-id: 04e6f1e5-5075-4221-a310-deb3717458ad
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
 source-wordcount: '698'
-ht-degree: 16%
+ht-degree: 14%
 
 ---
 
@@ -24,7 +24,7 @@ Essa metodologia é geralmente chamada de &quot;pixelização da criação&quot;
 
 >[!NOTE]
 >
->Estilos de texto (`monospaced text`, *itálico*, colchetes `[ ]` `( )` etc.) indicar elementos e opções de código. Consulte [Convenções de estilo para código e elementos de texto](../../reference/code-style-elements.md) para obter mais informações.
+>Os estilos de texto (`monospaced text`, *itálico*, colchetes `[ ]` `( )` etc.) indicam elementos e opções de código. Consulte [Convenções de estilo para código e elementos de texto](../../reference/code-style-elements.md) para obter mais informações.
 
 A chamada de evento coleta dados de impressão e conversão e os envia para os [!DNL Audience Manager] [servidores de coleta de dados](/help/using/reference/system-components/components-data-collection.md) ([!DNL DCS]). Esse processo depende de servidores de publicidade de terceiros que colocam a chamada no criativo para controlar o conteúdo inserido no código. Os servidores de publicidade de terceiros (por exemplo, [!DNL DFA]) podem colocar esse código em cada impressão de anúncios. Além disso, uma chamada de anúncio não utiliza [!DNL JavaScript] nem emprega técnicas de frame-busting para acessar os dados do editor fora da tag de anúncio.
 
@@ -38,7 +38,7 @@ No par de valor chave, a variável valor é uma ID ou macro inserida pelo servid
 
 ## Pares de valor-chave compatíveis {#supported-key-value-pairs}
 
-As chamadas de evento de impressão aceitam dados formados em pares de valores chave. A tabela a seguir lista e descreve as chaves usadas para armazenar essas variáveis. Muitos deles são necessários se você deseja capturar e analisar dados nos [Relatórios de Audience Optimization](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
+As chamadas de evento de impressão aceitam dados formados em pares de valores chave. A tabela a seguir lista e descreve as chaves usadas para armazenar essas variáveis. Muitos deles são necessários se você deseja capturar e analisar dados nos [Relatórios do Audience Optimization](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
 
 <table id="table_F068C4D49F7D4775924D3CA712BF15BA"> 
  <thead> 
@@ -54,19 +54,19 @@ As chamadas de evento de impressão aceitam dados formados em pares de valores c
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_adsrc </code> </td> 
-   <td colname="col2"> <p>ID da fonte de dados ou código de integração do anunciante. </p> <p>Obrigatório para relatórios de <span class="wintitle"> Audience Optimization </span>. </p> <p>Opcional.</p> </td> 
+   <td colname="col2"> <p>ID da fonte de dados ou código de integração do anunciante. </p> <p>Necessário para <span class="wintitle"> relatórios do Audience Optimization </span>. </p> <p>Opcional.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_bu </code> </td> 
-   <td colname="col2"> <p>ID da fonte de dados ou código de integração da sua unidade de negócios. </p> <p>Obrigatório para relatórios de <span class="wintitle"> Audience Optimization </span>. </p> </td> 
+   <td colname="col2"> <p>ID da fonte de dados ou código de integração da sua unidade de negócios. </p> <p>Necessário para <span class="wintitle"> relatórios do Audience Optimization </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_bust </code> </p> </td> 
-   <td colname="col2"> <p>Valor de impedimento de cache. O Audience Manager <span class="keyword"> </span> envia automaticamente os cabeçalhos de controle de cache honrados pela maioria dos navegadores e proxies. Se quiser executar uma eliminação adicional do cache, inclua esse parâmetro em uma chamada de evento, seguida por uma string aleatória. </p> <p> Opcional. </p> </td> 
+   <td colname="col2"> <p>Valor de impedimento de cache. <span class="keyword"> O Audience Manager </span> envia automaticamente cabeçalhos de controle de cache honrados pela maioria dos navegadores e proxies. Se quiser executar uma eliminação adicional do cache, inclua esse parâmetro em uma chamada de evento, seguida por uma string aleatória. </p> <p> Opcional. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_campaign </code> </td> 
-   <td colname="col2"> <p>ID numérica da campanha do servidor de publicidade. </p> <p>Obrigatório para relatórios de <span class="wintitle"> Audience Optimization </span>. </p> </td> 
+   <td colname="col2"> <p>ID numérica da campanha do servidor de publicidade. </p> <p>Necessário para <span class="wintitle"> relatórios do Audience Optimization </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_cid </code> </td> 
@@ -78,7 +78,7 @@ As chamadas de evento de impressão aceitam dados formados em pares de valores c
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_creative </code> </td> 
-   <td colname="col2"> <p>ID de criação numérica do servidor de publicidade. </p> <p>Obrigatório para relatórios de <span class="wintitle"> Audience Optimization </span>. </p> </td> 
+   <td colname="col2"> <p>ID de criação numérica do servidor de publicidade. </p> <p>Necessário para <span class="wintitle"> relatórios do Audience Optimization </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_event=imp </code> </td> 
@@ -90,11 +90,11 @@ As chamadas de evento de impressão aceitam dados formados em pares de valores c
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_site </code> </td> 
-   <td colname="col2"> <p>ID numérica do site no servidor de publicidade. </p> <p>Obrigatório para relatórios de <span class="wintitle"> Audience Optimization </span>. </p> </td> 
+   <td colname="col2"> <p>ID numérica do site no servidor de publicidade. </p> <p>Necessário para <span class="wintitle"> relatórios do Audience Optimization </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_src </code> </td> 
-   <td colname="col2"> <p>ID da fonte de dados ou código de integração da plataforma que fornece os metadados (por exemplo, DFA, Atlas, GBM, Media Math etc.). </p> <p>Obrigatório para relatórios de <span class="wintitle"> Audience Optimization </span>. </p> </td> 
+   <td colname="col2"> <p>ID da fonte de dados ou código de integração da plataforma que fornece os metadados (por exemplo, DFA, Atlas, GBM, Media Math etc.). </p> <p>Necessário para <span class="wintitle"> relatórios do Audience Optimization </span>. </p> </td> 
   </tr> 
    <tr> 
    <td colname="col1"> <code>gdpr</code>  </td> 
@@ -113,8 +113,8 @@ As chamadas de evento de impressão aceitam dados formados em pares de valores c
 
 ## Funcionalidade adicional - [!DNL Audience Optimization Reports] {#additional-functionality-aor}
 
-Você pode usar chamadas de pixel para acionar os [Relatórios de Audience Optimization](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). Consulte [Visão geral e mapeamentos para arquivos de metadados](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) se desejar usar pixels para potencializar os relatórios.
+Você pode usar chamadas de pixel para acionar os [Relatórios do Audience Optimization](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). Consulte [Visão geral e mapeamentos para arquivos de metadados](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) se desejar usar pixels para potencializar os relatórios.
 
 >[!MORELIKETHIS]
 >
->* [Arquivos de dados e metadados para relatórios de Audience Optimization](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
+>* [Arquivos de dados e metadados para relatórios do Audience Optimization](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)

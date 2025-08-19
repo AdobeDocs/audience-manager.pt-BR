@@ -1,5 +1,5 @@
 ---
-description: Este artigo explica como as ferramentas de características e segmentos do Audience Manager usam as expressões booleanas AND, OR e NOT.
+description: Este artigo explica como a característica do Audience Manager e as ferramentas de segmento usam as expressões booleanas AND, OR e NOT.
 seo-description: This article explains how the Audience Manager trait and segment tools use the Boolean expressions AND, OR, and NOT.
 seo-title: Boolean Expressions in Trait and Segment Builder
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Expressões booleanas no Construtor de características e segmentos{#boolean-expressions-in-trait-and-segment-builder}
 
-Este artigo explica como as ferramentas de características e segmentos do Audience Manager usam as expressões booleanas AND, OR e NOT.
+Este artigo explica como a característica do Audience Manager e as ferramentas de segmento usam as expressões booleanas AND, OR e NOT.
 
 <!-- 
 

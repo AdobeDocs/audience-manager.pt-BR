@@ -1,5 +1,5 @@
 ---
-description: O Audience Manager usa topologias de computação de borda distribuídas para atender às demandas colocadas em nossos sistemas por fontes externas.
+description: A Audience Manager usa topologias de computação distribuídas e de ponta para atender às demandas colocadas em nossos sistemas por fontes externas.
 seo-description: Audience Manager uses distributed, edge-computing topologies to meet the demands placed on our systems by external sources.
 seo-title: Understanding the Edge Data Center
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Noções básicas sobre o data center da Edge{#understanding-the-edge-data-center}
 
-O Audience Manager usa topologias de computação de borda distribuídas para atender às demandas colocadas em nossos sistemas por fontes externas.
+A Audience Manager usa topologias de computação distribuídas e de ponta para atender às demandas colocadas em nossos sistemas por fontes externas.
 
 ## Noções básicas do data center da Edge {#edge-data-center-basics}
 
@@ -36,7 +36,7 @@ O data center de borda [!DNL Audience Manager] inclui:
 
 * **Balanceadores de carga:** gerencie as demandas de computação/processamento irregulares inerentes aos aplicativos da Internet. Esses balanceadores impedem que clusters de servidores sejam sobrecarregados enquanto outros permanecem ociosos.
 
-O diagrama a seguir ilustra o ambiente de data center de borda do Audience Manager.
+O diagrama a seguir ilustra o ambiente de data center de borda da Audience Manager.
 
 ![](assets/edge_data_center.png)
 

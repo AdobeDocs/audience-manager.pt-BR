@@ -1,5 +1,5 @@
 ---
-description: Visão geral e fluxo de trabalho para provedores de dados que desejam vender dados dentro do Audience Manager.
+description: Visão geral e fluxo de trabalho para provedores de dados que desejam vender dados do Audience Manager.
 keywords: Google Analytics
 seo-description: Overview and workflow for data providers who want to sell data from within Audience Manager.
 seo-title: Audience Marketplace for Data Providers

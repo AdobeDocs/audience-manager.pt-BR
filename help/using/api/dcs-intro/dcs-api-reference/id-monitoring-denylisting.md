@@ -21,7 +21,7 @@ O [!DNL DCS] monitora as IDs que recebe e adiciona as que estão sendo enviadas 
 
 ## Visão geral
 
-Para proteger a infraestrutura de Audience Manager contra atividades mal-intencionadas, o [!DNL DCS] usa um algoritmo avançado para monitorar as IDs que recebe. Eles podem ser [!UICONTROL Data Provider Unique User ID]s ([!UICONTROL CRM ID]s), [!UICONTROL Audience Manager Unique User ID]s ([!UICONTROL AAM UUID]s) ou [!UICONTROL Experience Cloud ID]s ([!UICONTROL ECID]s). Consulte [Índice de IDs no Audience Manager](../../../reference/ids-in-aam.md) para obter explicações detalhadas sobre as IDs suportadas pelo Audience Manager.
+Para proteger a infraestrutura do Audience Manager contra atividades mal-intencionadas, o [!DNL DCS] usa um algoritmo avançado para monitorar as IDs que recebe. Eles podem ser [!UICONTROL Data Provider Unique User ID]s ([!UICONTROL CRM ID]s), [!UICONTROL Audience Manager Unique User ID]s ([!UICONTROL AAM UUID]s) ou [!UICONTROL Experience Cloud ID]s ([!UICONTROL ECID]s). Consulte [Índice de IDs no Audience Manager](../../../reference/ids-in-aam.md) para obter explicações detalhadas sobre as IDs com suporte no Audience Manager.
 
 O [!DNL DCS] monitora a frequência com que recebe essas IDs para detectar possíveis atividades mal-intencionadas. Quando o [!DNL DCS] detecta uma quantidade excepcionalmente grande de [!DNL DCS] solicitações para qualquer ID em um curto período, essa ID é adicionada a uma lista de bloqueios.
 
@@ -47,7 +47,7 @@ Incluir na lista de bloqueios Quando uma chamada com várias IDs também inclui 
 
 ## Causas e correções para o Incluir na lista de bloqueios de ID
 
-A causa mais frequente de IDs adicionadas ao lista de bloqueios é a integração incorreta entre a infraestrutura do cliente e o Audience Manager. Incluir na lista de bloqueios Ao identificar uma ID de Audience Manager, revise completamente suas integrações. Consulte **Guias de implementação e integração** para obter explicações detalhadas sobre como configurar o Audience Manager para funcionar com outras soluções de Experience Cloud ou sistemas externos.
+A causa mais frequente de IDs adicionadas ao lista de bloqueios é a integração incorreta entre a infraestrutura do cliente e a Audience Manager. Incluir na lista de bloqueios Ao identificar uma ID do Audience Manager, revise detalhadamente suas integrações. Consulte **Guias de Implementação e Integração** para obter explicações detalhadas sobre como configurar o Audience Manager para funcionar com outras soluções da Experience Cloud ou sistemas externos.
 
 Outra causa frequente da adição de IDs ao lista de bloqueios são bots de indexação (rastreadores da web), que geralmente causam aumentos no tráfego, fazendo com que as mesmas IDs sejam enviadas para o [!DNL DCS] várias vezes. Se você identificar bots de indexação como o motivo para a adição de IDs ao lista de bloqueios, deverá restringir o acesso de bot ao seu site.
 

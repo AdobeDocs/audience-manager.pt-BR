@@ -1,5 +1,5 @@
 ---
-description: Otimize os esforços de pesquisa de sinais, salvando até 10 conjuntos de critérios de pesquisa para usar sempre que precisar deles e rastreie-os no Painel. O Audience Manager recarrega as pesquisas salvas sempre que o Dashboard é carregado.
+description: Otimize os esforços de pesquisa de sinais, salvando até 10 conjuntos de critérios de pesquisa para usar sempre que precisar deles e rastreie-os no Painel. O Audience Manager recarrega as pesquisas salvas sempre que você carrega o Painel.
 seo-description: Optimize signal search efforts by saving up to 10 sets of search criteria to use whenever you need them, and track them on the Dashboard. Audience Manager reloads the saved searches every time you load the Dashboard.
 seo-title: Save Search Criteria
 title: Salvar critérios de pesquisa
@@ -35,4 +35,4 @@ Otimize os esforços de pesquisa de sinais salvando até 10 conjuntos de critér
 
 Assista ao vídeo abaixo para saber como salvar pesquisas de sinal.
 
->[!VIDEO](https://video.tv.adobe.com/v/30964?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/25147/)

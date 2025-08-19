@@ -1,5 +1,5 @@
 ---
-description: Esta página inclui somente integrações atuais de servidor para servidor. Para obter mais informações sobre uma integração, consulte a lista de Adobe Exchange (quando disponível) ou entre em contato com seu consultor de Adobe ou com o Atendimento ao cliente.
+description: Esta página inclui somente integrações atuais de servidor para servidor. Para obter mais informações sobre uma integração, consulte a lista da Adobe Exchange (quando disponível) ou entre em contato com seu consultor da Adobe ou com o Atendimento ao cliente.
 seo-description: This page includes current server-to-server integrations only. For more information on an integration refer to its Adobe Exchange listing (where available) or contact your Adobe Consultant or Customer Care.
 seo-title: Adobe Audience Manager Technology Partners
 keywords: ativação; parceiros de ativação, destino, destinos
@@ -14,17 +14,17 @@ ht-degree: 43%
 ---
 
 
-# Parceiros de ativação de Audience Manager
+# Parceiros de ativação da Audience Manager
 
-Esta página inclui somente as [integrações servidor a servidor](/help/using/features/destinations/add-edit-segments.md) atuais do Audience Manager.  Para obter mais informações sobre uma integração, consulte a lista [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (quando disponível) ou entre em contato com seu Consultor de Adobe ou com o Atendimento ao Cliente.
+Esta página inclui somente as [integrações servidor a servidor](/help/using/features/destinations/add-edit-segments.md) atuais do Audience Manager.  Para obter mais informações sobre uma integração, consulte sua lista [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (quando disponível) ou entre em contato com seu Consultor da Adobe ou com o Atendimento ao cliente.
 
 <br> 
 
 * **Atualizado** = Mostra a última data em que houve uma atualização para este parceiro de ativação.
 * **Desfazer segmento** = O cancelamento de segmentos descreve processos que desqualificam e removem perfis de dispositivos de segmentos. Sua capacidade de remover um perfil de dispositivo de um segmento depende da opção de dispositivo usada para criar uma Regra de mesclagem de perfis. O cancelamento de segmentos também é usado no contexto de solicitações de exclusão do GDPR Read [Profile Merge Rules and Device Unsegmentation Processes](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) and [Audience Manager Partners With Unsegmentation Capabilities](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation). O Audience Manager envia informações de cancelamento de segmentos para os destinos marcados com Sim abaixo.
-* **Recebendo sinais de consentimento da TCF do IAB** = O Plug-in do Audience Manager para a TCF do IAB permite encaminhar a cadeia de caracteres da TC do IAB para parceiros de ativação, respeitando as opções de privacidade dos usuários. Ler o [Plug-in de Audience Manager para a TCF do IAB](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners).
+* **Recebendo sinais de consentimento da TCF do IAB** = O Plug-in do Audience Manager para a TCF do IAB permite encaminhar a cadeia de caracteres da TCF do IAB para parceiros de ativação, respeitando as opções de privacidade dos usuários. Ler o [Plug-in do Audience Manager para a TCF do IAB](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners).
 * **ICDS** = Esta coluna lista os parceiros que oferecem suporte à Supressão Instantânea Entre Dispositivos. Ler [Supressão Instantânea Entre Dispositivos](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
-* **IDs de Dispositivo Móvel** = Esta coluna lista os parceiros que podem receber IDs de dispositivo móvel do Audience Manager.
+* **IDs de Dispositivo Móvel** = Esta coluna lista os parceiros que podem receber IDs de dispositivo móvel da Audience Manager.
 
 <br> 
 

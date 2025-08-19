@@ -3,7 +3,7 @@ description: Um resumo da metodologia de amostragem usada para alguns relatório
 seo-description: A summary of the sampling methodology used for some reports, sampling error rates, and a list of reports that return information based on sampled data.
 seo-title: Data Sampling and Error Rates in Selected Audience Manager Reports
 solution: Audience Manager
-title: Amostragem de dados e taxas de erro em relatórios de Audience Manager selecionados
+title: Amostragem de dados e taxas de erro em alguns relatórios do Audience Manager
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 feature: Reporting Reference
 exl-id: 0b7f9423-0859-4fa8-926b-e4858eed2294
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 ---
 
-# Amostragem de dados e taxas de erro em relatórios de Audience Manager selecionados{#data-sampling-and-error-rates-in-selected-audience-manager-reports}
+# Amostragem de dados e taxas de erro em alguns relatórios do Audience Manager{#data-sampling-and-error-rates-in-selected-audience-manager-reports}
 
 Um resumo da metodologia de amostragem usada para alguns relatórios, taxas de erro de amostragem e uma lista de relatórios que retornam informações com base em dados de amostra.
 
 ## Taxa de amostragem de dados {#data-sampling-ratio}
 
-Alguns relatórios do [!DNL Audience Manager] exibem resultados com base em um conjunto de amostras da quantidade total de dados disponíveis. A proporção de dados amostrados é de 1:54. Para relatórios que usam dados de amostra, isso significa que os resultados se baseiam em um registro de cada conjunto de 54 registros.
+Alguns relatórios do [!DNL Audience Manager] exibem resultados com base em um conjunto de amostras da quantidade total de dados disponíveis. A taxa de amostragem de dados é 1:54. Para relatórios que usam dados de amostra, isso significa que os resultados se baseiam em um registro de cada conjunto de 54 registros.
 
 Esses relatórios usam dados de amostragem estatística porque precisam de uma enorme capacidade de computação para gerar resultados. A amostragem ajuda a obter um equilíbrio entre demandas computacionais reduzidas, mantendo o desempenho do sistema e fornecendo resultados precisos.
 
@@ -88,4 +88,4 @@ Reports that use Minhash sampling methodology:
 |--- |--- |
 | Dados de [Público-alvo endereçável](../features/addressable-audiences.md) (dados de nível de cliente e segmento). | [Relatórios de sobreposição](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) (característica, segmento para característica e segmento para segmento) |
 | A métrica [Total de Dispositivos](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) para um [!UICONTROL Profile Merge Rule]. | [Recomendações de característica](/help/using/features/segments/trait-recommendations.md) |
-| [A Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) usa dados de amostra na guia [!UICONTROL Search] e qualquer [!UICONTROL Saved Searches] | [Audience Marketplace Recommendations](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |
+| [O Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) usa dados de amostra na guia [!UICONTROL Search] e qualquer [!UICONTROL Saved Searches] | [Recomendações do Audience Marketplace](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |

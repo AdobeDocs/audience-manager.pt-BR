@@ -26,7 +26,7 @@ Como parceiro de dados, você provavelmente está acostumado a obter metadados d
 
 [!DNL Audience Manager] fornece um conjunto de [APIs REST](../../api/rest-api-main/rest-api-main.md) que permitem recuperar metadados de segmento automaticamente. Com o [!DNL API], você pode criar trabalhos que recuperam metadados de segmento em intervalos agendados ou automaticamente, sempre que processar dados do [!DNL Audience Manager] e encontrar uma nova ID de segmento. Consulte as etapas abaixo para obter mais informações.
 
-### Etapa 1: Revise as APIs de Audience Manager
+### Etapa 1: revisar as APIs do Audience Manager
 
 A seção [Introdução às REST APIs](../../api/rest-api-main/aam-api-getting-started.md) contém informações sobre requisitos gerais, autenticação, métodos disponíveis, etc. Este é um bom local para começar se você ainda não trabalhou com o [!DNL Audience Manager] [!DNL API].
 
@@ -56,7 +56,7 @@ Após concluir as etapas anteriores, você pode usar um método `GET` para recup
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> destinationMappingId</code> </p> </td> 
-   <td colname="col2"> <p>A ID do segmento <span class="keyword"> Audience Manager</span>. </p> </td> 
+   <td colname="col2"> <p>A ID do segmento <span class="keyword"> do Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> elementName</code> </p> </td> 

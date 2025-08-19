@@ -10,7 +10,7 @@ exl-id: e6b3a438-f843-4a24-89fd-03ef77d7cf04
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
 source-wordcount: '782'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ Descreve os campos obrigatórios, a sintaxe e as convenções de nomenclatura us
 
 >[!NOTE]
 >
->Estilos de texto (`monospaced text`, *itálico*, colchetes `[ ]` `( )` etc.) neste documento indique elementos e opções de código. Consulte [Convenções de estilo para código e elementos de texto](../../../reference/code-style-elements.md) para obter mais informações.
+>Os estilos de texto (`monospaced text`, *itálico*, colchetes `[ ]` `( )` etc.) neste documento indicam elementos de código e opções. Consulte [Convenções de estilo para código e elementos de texto](../../../reference/code-style-elements.md) para obter mais informações.
 
 ## Sintaxe de nome de arquivo e exemplos {#file-name-syntax}
 
@@ -48,7 +48,7 @@ Os nomes de arquivo de ID contêm os seguintes elementos obrigatórios e opciona
   </tr> 
   <tr> 
    <td colname="col1"><code><i>MASTERDPID</i></code> </td> 
-   <td colname="col2"> <p>A ID do provedor de dados mestre é a ID pai das DPIDs no nome do arquivo. Além disso, a primeira ID de usuário no arquivo de dados corresponde à ID mestre. As DPIDs subsequentes são outros identificadores que pertencem ao principal. A sincronização mapeia DPIDs no nome do arquivo para UUIDs no arquivo.</p> <p>Essa DPID deve conter somente IDs de dispositivo, como UUID AAM, GAID, IDFA e assim por diante. Ele não pode conter DPUUIDs. Isso pode resultar na sincronização incorreta.</p>  </td> 
+   <td colname="col2"> <p>A ID do provedor de dados mestre é a ID pai das DPIDs no nome do arquivo. Além disso, a primeira ID de usuário no arquivo de dados corresponde à ID mestre. As DPIDs subsequentes são outros identificadores que pertencem ao principal. A sincronização mapeia DPIDs no nome do arquivo para UUIDs no arquivo.</p> <p>Essa DPID deve conter somente IDs de dispositivo, como UUID, GAID, IDFA da AAM e assim por diante. Ele não pode conter DPUUIDs. Isso pode resultar na sincronização incorreta.</p>  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>DPID</i></code> </p> </td> 
@@ -101,7 +101,7 @@ abc123 def456 ghi789 xyz987
 
 ### Considerações sobre o conteúdo do arquivo {#considerations}
 
-Ao criar seus arquivos de entrada, verifique se a primeira coluna é preenchida apenas com IDs de dispositivo, como [!DNL AAM UUID], [!DNL GAID], [!DNL IDFA] e assim por diante. Consulte [Índice de IDs no Audience Manager](../../../reference/ids-in-aam.md) para obter uma explicação detalhada das IDs suportadas pelo Audience Manager.
+Ao criar seus arquivos de entrada, verifique se a primeira coluna é preenchida apenas com IDs de dispositivo, como [!DNL AAM UUID], [!DNL GAID], [!DNL IDFA] e assim por diante. Consulte [Índice de IDs no Audience Manager](../../../reference/ids-in-aam.md) para obter uma explicação detalhada das IDs com suporte no Audience Manager.
 
 >[!IMPORTANT]
 >

@@ -22,4 +22,4 @@ Procure sinais usados e não usados recebidos por períodos específicos. Para p
 * [Filtrar resultados de pesquisa](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-filter-results.md)
 * [Salvar critérios de pesquisa](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md)
 
->[!VIDEO](https://video.tv.adobe.com/v/30833?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/25148/)

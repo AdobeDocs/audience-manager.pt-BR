@@ -1,5 +1,5 @@
 ---
-description: As opções no menu Administração permitem criar usuários Audience Manager e atribuí-los a grupos. Também é possível visualizar limites (características, segmentos, destinos e modelos).
+description: As opções no menu Administração permitem criar usuários do Audience Manager e atribuí-los a grupos. Também é possível visualizar limites (características, segmentos, destinos e modelos).
 keywords: rbac;RBAC;baseado em função;baseado em função;controles de acesso baseados em função
 seo-description: The options under the Administration menu let you create Audience Manager users and assign them to groups. You can also view limits (traits, segments, destinations, and models).
 seo-title: Administration
@@ -21,20 +21,20 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> O gerenciamento de conta de usuário está sendo movido para o [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). Para iniciar a migração de usuários, exigimos que todos os clientes do Audience Manager adotem imediatamente as medidas necessárias descritas neste artigo: [Migração de usuários do Audience Manager para o Admin Console](admin-console-migration.md).
+> O gerenciamento de conta de usuário está sendo transferido para a [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). Para iniciar a migração de usuários, todos os clientes do Audience Manager devem tomar imediatamente as medidas necessárias descritas neste artigo: [Migração de usuários do Audience Manager para o Admin Console](admin-console-migration.md).
 > 
 > Depois que todos os clientes tiverem migrado, as seções de gerenciamento de usuários deste documento desaparecerão.
 
 >[!IMPORTANT]
 >
-> Para que você possa usar o [!DNL RBAC], esse recurso deve ser habilitado pelo Adobe para sua organização. Entre em contato com a equipe de conta para solicitar a ativação do [!DNL RBAC] ou com o Atendimento ao cliente.
+> Para que você possa usar o [!DNL RBAC], esse recurso deve ser habilitado pela Adobe para sua organização. Entre em contato com a equipe de conta para solicitar a ativação do [!DNL RBAC] ou com o Atendimento ao cliente.
 
 
-As opções no menu [!UICONTROL Administration] permitem criar usuários Audience Manager e atribuí-los a grupos. Também é possível visualizar limites (características, segmentos, destinos e modelos).
+As opções no menu [!UICONTROL Administration] permitem criar usuários do Audience Manager e atribuí-los a grupos. Também é possível visualizar limites (características, segmentos, destinos e modelos).
 
 Os clientes corporativos que usam o [!DNL Audience Manager] precisam de uma plataforma de gerenciamento de dados para todos os seus dados, mas devem ser capazes de controlar a visibilidade dos diferentes elementos de dados para unidades de negócios específicas. Você pode fazer isso usando permissões de grupo, também chamadas de [!UICONTROL Role-Based Access Control] ([!UICONTROL RBAC]).
 
-[!DNL Audience Manager] usa grupos para atribuir permissões. As permissões não são atribuídas no nível do usuário. Permissões de grupo são vinculadas a objetos ([!UICONTROL traits], segmentos, etc.) e ações que podem ser executadas nesses objetos (editar, exibir etc.). Esses controles também estão disponíveis por meio das APIs REST do Audience Manager. Consulte os métodos de API de [Gerenciamento de usuários](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-user.md), [Gerenciamento de grupos](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-group.md) e [Gerenciamento de permissões](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-permissions.md).
+[!DNL Audience Manager] usa grupos para atribuir permissões. As permissões não são atribuídas no nível do usuário. As permissões de grupo estão vinculadas aos objetos ([!UICONTROL traits], segmentos etc.) e às ações que você pode executar nesses objetos (editar, exibir etc.). Esses controles também estão disponíveis por meio das APIs REST do Audience Manager. Consulte os métodos de API de [Gerenciamento de usuários](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-user.md), [Gerenciamento de grupos](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-group.md) e [Gerenciamento de permissões](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-permissions.md).
 
 ## Criar usuários {#create-users}
 
@@ -42,11 +42,11 @@ Os clientes corporativos que usam o [!DNL Audience Manager] precisam de uma plat
 
 >[!IMPORTANT]
 >
-> O gerenciamento de conta de usuário está sendo movido para o [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). Para iniciar a migração de usuários, exigimos que todos os clientes do Audience Manager adotem imediatamente as medidas necessárias descritas neste artigo: [Migração de usuários do Audience Manager para o Admin Console](admin-console-migration.md).
+> O gerenciamento de conta de usuário está sendo transferido para a [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). Para iniciar a migração de usuários, todos os clientes do Audience Manager devem tomar imediatamente as medidas necessárias descritas neste artigo: [Migração de usuários do Audience Manager para o Admin Console](admin-console-migration.md).
 > 
 > Depois que todos os clientes tiverem migrado, a seção Gerenciamento de usuários deste documento desaparecerá.
 > 
->Crie usuários no [!DNL Audience Manager] e especifique os detalhes do usuário, o status de logon e atribua usuários a grupos.
+Crie usuários no [!DNL Audience Manager] e especifique os detalhes do usuário, o status de logon e atribua usuários a grupos.
 
 1. Clique em **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
 1. Clique em ![](assets/icon_add.png) para exibir a página [!UICONTROL Create New User].
@@ -56,7 +56,7 @@ Os clientes corporativos que usam o [!DNL Audience Manager] precisam de uma plat
    * **[!UICONTROL Last Name]:** Especifique o sobrenome do usuário.
    * **[!UICONTROL Email Address]:** Especifique o endereço de email do usuário. [!DNL Audience Manager] não envia notificações regulares aos usuários. Os administradores do [!DNL Audience Manager] têm acesso aos endereços de email dos usuários e podem enviar emails manualmente aos usuários, conforme necessário. Por exemplo, se um usuário esquecer a senha, o endereço de email especificado nesse campo será usado para enviar uma senha temporária e instruções para redefinir a senha.
    * **[!UICONTROL Phone Number]:** Especifique o número de telefone do usuário.
-   * **[!UICONTROL Is Admin]:** Especifique se este usuário é um administrador [!DNL Audience Manager]. Usuários administradores podem gerenciar usuários (criar, editar, etc.) e grupos (criar, atribuir permissões etc.). Usuários não administradores podem controlar somente seus próprios perfis de usuário, incluindo editar seus endereços de email e redefinir suas próprias senhas. Para obter mais informações, consulte [Editar Configurações da Conta](../../features/administration/edit-account-settings.md).
+   * **[!UICONTROL Is Admin]:** Especifique se este usuário é um administrador [!DNL Audience Manager]. Os usuários administradores podem gerenciar usuários (criar, editar etc.) e grupos (criar, atribuir permissões etc.). Usuários não administradores podem controlar somente seus próprios perfis de usuário, incluindo editar seus endereços de email e redefinir suas próprias senhas. Para obter mais informações, consulte [Editar Configurações da Conta](../../features/administration/edit-account-settings.md).
 1. Em **[!UICONTROL Login]**, selecione o status desejado:
    * **[!UICONTROL Active]:** usuários ativos podem acessar [!DNL Audience Manager] e ter as permissões concedidas pela associação de grupo.
    * **[!UICONTROL Deactivated]:** Usuários desativados não podem acessar [!DNL Audience Manager] e não têm permissões. Se você desativar os usuários, as informações deles permanecerão no [!DNL Audience Manager] e você poderá simplesmente reativá-los, se necessário. Se você remover usuários, será necessário recriá-los se eles precisarem usar [!DNL Audience Manager] novamente no futuro.
@@ -71,7 +71,7 @@ Para obter mais informações sobre grupos e permissões, consulte [Criar um gru
 
 >[!IMPORTANT]
 >
-> O gerenciamento de conta de usuário está sendo movido para o [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). Para iniciar a migração de usuários, recomendamos que todos os clientes do Audience Manager adotem imediatamente as medidas necessárias descritas neste artigo: [Migração de usuários do Audience Manager para o Admin Console](admin-console-migration.md).
+> O gerenciamento de conta de usuário está sendo transferido para a [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). Para iniciar a migração de usuários, recomendamos que todos os clientes do Audience Manager adotem imediatamente as medidas necessárias descritas neste artigo: [Migração de usuários do Audience Manager para o Admin Console](admin-console-migration.md).
 > 
 > Depois que todos os clientes tiverem migrado, esta seção desaparecerá.
 
@@ -97,7 +97,7 @@ Isso abre uma janela de permissões para o objeto selecionado.
 
 >[!IMPORTANT]
 >
-> O gerenciamento de conta de usuário está sendo movido para o [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). Para iniciar a migração de usuários, recomendamos que todos os clientes do Audience Manager adotem imediatamente as medidas necessárias descritas neste artigo: [Migração de usuários do Audience Manager para o Admin Console](admin-console-migration.md).
+> O gerenciamento de conta de usuário está sendo transferido para a [Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html). Para iniciar a migração de usuários, recomendamos que todos os clientes do Audience Manager adotem imediatamente as medidas necessárias descritas neste artigo: [Migração de usuários do Audience Manager para o Admin Console](admin-console-migration.md).
 > 
 > Depois que todos os clientes tiverem migrado, esta seção desaparecerá.
 
@@ -160,13 +160,13 @@ Leia abaixo uma descrição do que cada [!UICONTROL wildcard permission] signifi
 
 **[!UICONTROL Signals]**
 
-* `VIEW_ALL_SIGNALS` - Os usuários podem exibir todos os sinais capturados na [Data Explorer](/help/using/features/data-explorer/data-explorer-overview.md).
+* `VIEW_ALL_SIGNALS` - Os usuários podem exibir todos os sinais capturados no [Data Explorer](/help/using/features/data-explorer/data-explorer-overview.md).
 
 ## Casos de uso {#use-cases}
 
 ### Monitorar o acesso do usuário {#monitoring-user-access}
 
-O [!UICONTROL Role-Based Access Control] pode ajudá-lo a monitorar o status de logon do usuário, fornecendo uma visão clara de quem pode acessar sua instância do Audience Manager.
+O [!UICONTROL Role-Based Access Control] pode ajudá-lo a monitorar o status de logon dos usuários, fornecendo uma visão clara de quem pode acessar sua instância do Audience Manager.
 
 Dependendo das necessidades da sua empresa, você pode ativar e desativar contas de usuário conforme necessário.
 

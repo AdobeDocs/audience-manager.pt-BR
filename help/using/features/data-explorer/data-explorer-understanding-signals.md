@@ -1,5 +1,5 @@
 ---
-description: Os sinais são a menor unidade de informação no Audience Manager. Eles representam interações do usuário ou atividade do usuário em suas propriedades online e são transmitidos para o Audience Manager para serem usados nas regras de característica.
+description: Os sinais são a menor unidade de informação no Audience Manager. Eles representam interações de usuário ou atividade do usuário em suas propriedades online e são transmitidos para o Audience Manager para serem usados em regras de características.
 seo-description: Signals are the smallest unit of information within Audience Manager. They represent user interactions or user activity on your online properties, and get passed on to Audience Manager to be used in trait rules.
 seo-title: Understanding Signals
 title: Compreensão de sinais
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Compreensão de sinais
 
-Os sinais são a menor unidade de informação no Audience Manager. Eles representam interações do usuário ou atividade do usuário em suas propriedades online e são transmitidos para o Audience Manager para serem usados nas regras de característica.
+Os sinais são a menor unidade de informação no Audience Manager. Eles representam interações de usuário ou atividade do usuário em suas propriedades online e são transmitidos para o Audience Manager para serem usados em regras de características.
 
 [!DNL Audience Manager] usa pares de valor chave para representar sinais. Por exemplo, o sinal a seguir pode indicar que um visitante chegou a uma página da Web contendo eletrônicos:
 

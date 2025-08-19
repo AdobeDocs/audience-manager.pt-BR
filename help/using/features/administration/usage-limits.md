@@ -11,7 +11,7 @@ exl-id: 8d29e231-d369-44ad-8e89-e6a4c83175f2
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '530'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,7 @@ O Audience Manager define um limite máximo no número de características, segm
 
 ## Limites de mapeamento de ID {#id-mapping-limits}
 
-A tabela abaixo lista os limites de [mapeamento de ID](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) para IDs de dispositivo. Quando uma ID atinge qualquer um dos limites abaixo, o Audience Manager adiciona novos mapeamentos de ID com base em uma lógica FIFO (primeiro a entrar, primeiro a sair), removendo o mapeamento de ID armazenado mais antigo e adicionando o novo. Consulte o [Índice de IDs](../../reference/ids-in-aam.md) no Audience Manager para obter detalhes sobre as IDs suportadas pelo Audience Manager.
+A tabela abaixo lista os limites de [mapeamento de ID](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) para IDs de dispositivo. Quando uma ID atinge qualquer um dos limites abaixo, o Audience Manager adiciona novos mapeamentos de ID com base em uma lógica FIFO (primeiro a entrar, primeiro a sair), removendo o mapeamento de ID armazenado mais antigo e adicionando o novo. Consulte o [Índice de IDs](../../reference/ids-in-aam.md) no Audience Manager para obter detalhes sobre as IDs com suporte no Audience Manager.
 
 | Mapeamento de ID | Limite máximo |
 |-----------|-------------- |
@@ -64,9 +64,9 @@ As tabelas listam os limites atuais por tipo de item. Não é possível criar no
 
 | Item | Limite máximo |
 | -------- | ----- |
-| Ativo [!UICONTROL Look-Alike Models] | 20. O Audience Manager só conta modelos algorítmicos *ativos* em relação ao limite. |
+| Ativo [!UICONTROL Look-Alike Models] | &#x200B;20. O Audience Manager só conta modelos algorítmicos *ativos* em relação ao limite. |
 | [!UICONTROL Look-Alike Models] tamanho máximo do público | 25 milhões.  Observe que esse limite não pode ser aumentado. Você pode diminuir o tamanho dos públicos selecionando menos fontes de dados para o modelo ou uma janela de retrospectiva mais curta. |
-| Número máximo de características excluídas para um [!UICONTROL Look-Alike Model] | 500. Consulte [Exclusão de característica em modelagem algorítmica](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
+| Número máximo de características excluídas para um [!UICONTROL Look-Alike Model] | &#x200B;500. Consulte [Exclusão de característica em modelagem algorítmica](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
 | Máximo [!UICONTROL Predictive Audiences Models] | 10 |
 | Número máximo de perfis da linha de base para [!UICONTROL Predictive Audiences Models] | 50 |
 

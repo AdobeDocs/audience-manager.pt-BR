@@ -44,7 +44,7 @@ O [!DNL Audience Manager] pode remover vários perfis de dispositivo de um segme
 >[!NOTE]
 >
 >**Limite de 100 dispositivos para avaliação e desqualificação de segmentos**.
->O Audience Manager mescla até 100 dispositivos ao avaliar segmentos com uma Regra de mesclagem de perfis que usa um gráfico de dispositivos. O Audience Manager avalia o dispositivo atual e até 99 dispositivos vinculados ao dispositivo atual por um [perfil autenticado](../../reference/visitor-authentication-states.md) (ID entre dispositivos). Se o sinal de cancelamento de segmento for emitido, o dispositivo atual e os dispositivos adicionais serão removidos do segmento no destino.
+>>O Audience Manager mescla até 100 dispositivos ao avaliar segmentos com uma Regra de mesclagem de perfis que usa um gráfico de dispositivos. O Audience Manager avalia o dispositivo atual e até 99 dispositivos vinculados ao dispositivo atual por um [perfil autenticado](../../reference/visitor-authentication-states.md) (ID entre dispositivos). Se o sinal de cancelamento de segmento for emitido, o dispositivo atual e os dispositivos adicionais serão removidos do segmento no destino.
 
 ![](assets/last-device-graph.png)
 

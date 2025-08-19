@@ -22,7 +22,7 @@ Você pode compactar arquivos de dados ao enviá-los para o Audience Manager.
 
 O Audience Manager oferece suporte à compactação gzip (`.gz`) para transferências de dados assíncronas e de entrada.
 
-O Audience Manager também suporta arquivos descompactados.
+O Audience Manager também oferece suporte a arquivos descompactados.
 
 >[!IMPORTANT]
 >

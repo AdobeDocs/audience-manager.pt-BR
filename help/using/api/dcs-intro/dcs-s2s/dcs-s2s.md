@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # DCS APIs para transferências de dados de servidor para servidor{#dcs-apis-for-server-to-server-data-transfers}
 
-Os [!DNL API]s servidor para servidor ([!UICONTROL S2S]) fornecem código e métodos que permitem enviar e receber dados de usuário do [!DNL DCS] e trabalhar com essas informações em seus próprios sistemas ou aplicativos.
+Os [!UICONTROL S2S]s servidor para servidor ([!DNL API]) fornecem código e métodos que permitem enviar e receber dados de usuário do [!DNL DCS] e trabalhar com essas informações em seus próprios sistemas ou aplicativos.
 
 ## Casos de uso comuns {#common-use-cases}
 
@@ -44,7 +44,7 @@ Atualmente, este guia aborda como:
 Adicionaremos novos métodos conforme eles estiverem disponíveis. Consulte as seções a seguir para começar.
 
 * [Obter IDs de usuário e regiões de uma resposta do DCS](dcs-aam-ids.md)
-* [Obter IDs de usuário e regiões por meio da ID de Experience Cloud...](dcs-mcid-ids.md)
+* [Obter IDs de usuário e regiões por meio da Experience Cloud ID...](dcs-mcid-ids.md)
 * [Como fazer chamadas de DCS API de servidor para servidor](dcs-s2s-calls.md)
 
 >[!MORELIKETHIS]

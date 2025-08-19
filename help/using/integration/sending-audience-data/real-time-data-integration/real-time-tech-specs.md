@@ -1,5 +1,5 @@
 ---
-description: Os provedores de conteúdo de terceiros podem esperar trocar dados com o Audience Manager de acordo com essas especificações técnicas. Uma integração em tempo real (síncrona) transfere dados em tempo quase real enquanto um usuário visita ou executa ações em seu site. Equipes técnicas, de engenharia ou de desenvolvimento devem usar esse material para ajudar a configurar transferências de dados em tempo real com o Audience Manager.
+description: Provedores de conteúdo de terceiros podem esperar trocar dados com o Audience Manager de acordo com essas especificações técnicas. Uma integração em tempo real (síncrona) transfere dados em tempo quase real enquanto um usuário visita ou executa ações em seu site. Equipes técnicas, de engenharia ou de desenvolvimento devem usar esse material para ajudar a configurar transferências de dados em tempo real com o Audience Manager.
 seo-description: Third-party content providers can expect to exchange data with Audience Manager according to these technical specifications. A real-time (synchronous) integration transfers data in near-real time as a user visits or takes actions on your site. Technical, engineering, or development teams should use this material to help set up real-time data transfers with Audience Manager.
 seo-title: Technical Specifications for Inbound, Real-Time Data Transfers
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Especificações técnicas para transferências de dados de entrada em tempo real{#technical-specifications-for-inbound-real-time-data-transfers}
 
-Os provedores de conteúdo de terceiros podem esperar trocar dados com o Audience Manager de acordo com essas especificações técnicas. Uma integração em tempo real (síncrona) transfere dados em tempo quase real enquanto um usuário visita ou executa ações em seu site. Equipes técnicas, de engenharia ou de desenvolvimento devem usar esse material para ajudar a configurar transferências de dados em tempo real com o Audience Manager.
+Provedores de conteúdo de terceiros podem esperar trocar dados com o Audience Manager de acordo com essas especificações técnicas. Uma integração em tempo real (síncrona) transfere dados em tempo quase real enquanto um usuário visita ou executa ações em seu site. Equipes técnicas, de engenharia ou de desenvolvimento devem usar esse material para ajudar a configurar transferências de dados em tempo real com o Audience Manager.
 
 <!-- c_rt_realtime_intro.xml -->
 

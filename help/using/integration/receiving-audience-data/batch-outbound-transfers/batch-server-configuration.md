@@ -17,13 +17,13 @@ ht-degree: 0%
 
 Antes de enviar dados em lote para provedores de conteúdo de terceiros, é necessário configurar a integração entre o Audience Manager e o provedor de conteúdo de terceiros. Você pode fazer isso de duas maneiras:
 
-## Solicite assistência para configuração através do consultor do Adobe {#config-consultant}
+## Solicitar configuração de assistência por meio do consultor da Adobe {#config-consultant}
 
-Se você estiver trabalhando com um consultor do Adobe, ele cuidará do processo de configuração para você.
+Se você estiver trabalhando com um consultor da Adobe, ele cuidará do processo de configuração para você.
 
-## Solicitar configuração de assistência via Suporte ao cliente do Adobe {#config-support}
+## Solicitar configuração de assistência por meio do Suporte ao cliente da Adobe {#config-support}
 
-Se você não estiver trabalhando com um consultor do Adobe, ainda será possível obter a integração de transferência em lote configurada pelo Suporte ao cliente. Entre em contato com o Suporte ao cliente para obter detalhes.
+Se você não estiver trabalhando com um consultor da Adobe, ainda será possível obter a integração de transferência em lote configurada pelo Suporte ao cliente. Entre em contato com o Suporte ao cliente para obter detalhes.
 
 >[!IMPORTANT]
 >

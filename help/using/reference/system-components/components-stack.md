@@ -1,5 +1,5 @@
 ---
-description: 'O Audience Manager agrupa seus sistemas e processos em quatro categorias principais: gerenciamento de tags, coleta de dados, organização de dados e capacidade de ação de dados.'
+description: 'A Audience Manager agrupa seus sistemas e processos em quatro categorias principais: gerenciamento de tags, coleta de dados, organização de dados e capacidade de ação de dados.'
 seo-description: Audience Manager groups its systems and processes into four main categories  tag management, data collection, data organization, and data actionability.
 seo-title: Key Components in the Audience Manager System
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Componentes-chave no sistema Audience Manager{#key-components-in-the-audience-manager-system}
 
-O Audience Manager agrupa seus sistemas e processos em quatro categorias principais: gerenciamento de tags, coleta de dados, organização de dados e acionabilidade de dados.
+A Audience Manager agrupa seus sistemas e processos em quatro categorias principais: gerenciamento de tags, coleta de dados, organização de dados e capacidade de ação de dados.
 
 <!-- 
 

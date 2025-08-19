@@ -23,7 +23,7 @@ Nas tabelas abaixo, *itálico* representa um espaço reservado para variável.
 |---|---|---|
 | 0 | Erro não especificado | Este é um erro &quot;catch-all&quot; (global) que lida com eventos não cobertos por outros manipuladores de erro. É difícil solucionar esse erro. Ela pode ser causada por várias ações ou eventos desconhecidos. Se você receber esse erro, tente sua solicitação [!DNL DCS] novamente. Entre em contato com o representante do [!DNL Adobe] se o problema persistir. |
 | 1 | Não foi possível encontrar a configuração para o nome de host: `hostname` | O nome do host enviado na solicitação não foi configurado pela equipe de provisionamento do parceiro. Entre em contato com o representante do [!DNL Adobe] se você vir esta mensagem de erro. |
-| 2 | Valor `d_orgid` inválido (não foi possível encontrar uma configuração para esta id de organização): `ID` | A ID da organização está incorreta. Verifique sua ID e tente a solicitação novamente. Se você não souber ou tiver sua ID da Organização, consulte a seção &quot;Página de Administração&quot; [Organizações e vinculação de contas](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=pt-BR) para obter informações sobre como encontrá-la. |
+| 2 | Valor `d_orgid` inválido (não foi possível encontrar uma configuração para esta id de organização): `ID` | A ID da organização está incorreta. Verifique sua ID e tente a solicitação novamente. Se você não souber ou tiver sua ID da Organização, consulte a seção &quot;Página de Administração&quot; [Organizações e vinculação de contas](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html) para obter informações sobre como encontrá-la. |
 | 10 | Não foi possível avaliar as características | As características na solicitação foram parcialmente avaliadas ou não foram avaliadas. Entre em contato com o representante do [!DNL Adobe] se o problema persistir. |
 
 ## Códigos de erro de integração {#integration-error-codes}
@@ -151,7 +151,7 @@ Nas tabelas abaixo, *itálico* representa um espaço reservado para variável.
   <tr> 
    <td colname="col1"> <p>302 </p> </td> 
    <td colname="col2"> <p>ID de cliente não autorizada <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Retornado quando a fonte de dados da ID do cliente não pertence à ID da organização atual. Se você não souber ou tiver sua ID da organização, consulte a seção "Localizar a ID da organização" em <a href="https://experiencecloud.adobe.com/resources/help/pt_BR/mcloud/organizations.html" format="https" scope="external"> Organizações e Vinculação de Contas</a> para obter informações sobre como encontrá-la. </p> </td> 
+   <td colname="col3"> <p>Retornado quando a fonte de dados da ID do cliente não pertence à ID da organização atual. Se você não souber ou tiver sua ID da organização, consulte a seção "Localizar a ID da organização" em <a href="https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html" format="https" scope="external"> Organizações e Vinculação de Contas</a> para obter informações sobre como encontrá-la. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
@@ -181,7 +181,7 @@ Nas tabelas abaixo, *itálico* representa um espaço reservado para variável.
   <tr> 
    <td colname="col1"> <p>310 </p> </td> 
    <td colname="col2"> <p>A ID do cliente foi descartada porque excedeu o limite de um determinado namespace. A ID do namespace é <code><i>ID</i></code>, a ID do cliente é <code><i>ID</i></code>. </p> </td> 
-   <td colname="col3"> <p>Este código de erro será retornado se houver mais de 3 IDs de cliente declaradas para o mesmo namespace (<code> DPID</code>) em uma chamada DCS</span> do <span class="wintitle">. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </code> </p> <p>Nesta amostra de solicitação <span class="wintitle"> DCS</span>, há 4 IDs declaradas para o mesmo namespace (com o código de integração um). Uma das IDs é descartada e o erro 310 é retornado. </p> </td> 
+   <td colname="col3"> <p>Este código de erro será retornado se houver mais de 3 IDs de cliente declaradas para o mesmo namespace (<code> DPID</code>) em uma chamada DCS<span class="wintitle"> do </span>. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </code> </p> <p>Nesta amostra de solicitação <span class="wintitle"> DCS</span>, há 4 IDs declaradas para o mesmo namespace (com o código de integração um). Uma das IDs é descartada e o erro 310 é retornado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>311 </p> </td> 
@@ -199,18 +199,18 @@ Nas tabelas abaixo, *itálico* representa um espaço reservado para variável.
    <tr> 
    <td colname="col1"> <p>313 </p> </td> 
    <td colname="col2"> <p>A ID de CMP não está presente no GCL</p> </td> 
-   <td colname="col3"> <p>Quando <code>gdpr=1</code> e a cadeia de caracteres IAB TC são gerados por uma ID CMP que não está presente na versão em cache do Audience Manager da Lista CMP Global no momento da avaliação, o Plug-in do Audience Manager para IAB TCF descarta a cadeia de caracteres IAB TC e processa a solicitação como de costume. A macro IAB TCF v2.2 ${GDPR} está definida como 0 e a macro ${GDPR_CONSENT_XXX} está vazia.</p>
+   <td colname="col3"> <p>Quando <code>gdpr=1</code> e a cadeia de caracteres IAB TC são gerados por uma ID CMP que não está presente na versão em cache da Lista CMP Global do Audience Manager no momento da avaliação, o Plug-in do Audience Manager para IAB TCF descarta a cadeia de caracteres IAB TC e processa a solicitação como de costume. A macro IAB TCF v2.2 ${GDPR} está definida como 0 e a macro ${GDPR_CONSENT_XXX} está vazia.</p>
    </td>
   </tr>
    <tr> 
    <td colname="col1"> <p>314 </p> </td> 
    <td colname="col2"> <p>A ID CMP está marcada como excluída no GCL</p> </td> 
-   <td colname="col3"> <p>Quando <code>gdpr=1</code> e a cadeia de caracteres IAB TC são gerados por um CMP marcado como excluído em nossa versão em cache da Lista CMP Global, o Plug-in Audience Manager para IAB TCF descarta a cadeia de caracteres TC e processa a solicitação como de costume, se o tempo de avaliação ultrapassar o tempo de exclusão da Lista CMP Global. A macro IAB TCF v2.2 ${GDPR} está definida como 0 e a macro ${GDPR_CONSENT_XXX} está vazia.</p></td>
+   <td colname="col3"> <p>Quando <code>gdpr=1</code> e a cadeia de caracteres IAB TC são gerados por um CMP marcado como excluído em nossa versão em cache da Lista CMP Global, o Plug-in do Audience Manager para IAB TCF descarta a cadeia de caracteres TC e processa a solicitação como de costume, se o tempo de avaliação ultrapassar o tempo de exclusão da Lista CMP Global. A macro IAB TCF v2.2 ${GDPR} está definida como 0 e a macro ${GDPR_CONSENT_XXX} está vazia.</p></td>
   </tr>
    <tr> 
    <td colname="col1"> <p>315 </p> </td> 
    <td colname="col2"> <p>A sequência de consentimento indica não haver consentimento</p> </td> 
-   <td colname="col3"> <p>Quando nenhum consentimento é fornecido, o Plug-in do Audience Manager para a TCF do IAB recusa o usuário da coleta de dados adicional ou desativa a chamada completamente se não for detectado nenhum contexto de parceiro.</p>
+   <td colname="col3"> <p>Quando nenhum consentimento é fornecido, o Plug-in do Audience Manager para TCF do IAB recusa a coleta de dados adicional do usuário ou desativa a chamada completamente se não for detectado nenhum contexto de parceiro.</p>
    </td>
   </tr>
 

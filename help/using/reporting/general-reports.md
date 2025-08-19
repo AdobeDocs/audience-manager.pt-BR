@@ -133,7 +133,7 @@ Essa métrica representa o número real de visitantes únicos vistos em tempo re
 
 ### População total do segmento
 
-Essa métrica representa o número total de UUIDs de Audience Manager qualificados para o segmento dentro do período de análise selecionado. A População total de segmentos de 1 dia representa a base de usuários mais precisa para direcionamento.
+Essa métrica representa o número total de UUIDs do Audience Manager qualificados para o segmento dentro do período de análise selecionado. A População total de segmentos de 1 dia representa a base de usuários mais precisa para direcionamento.
 
 >[!NOTE]
 >
@@ -153,7 +153,7 @@ Essa métrica representa o número real de visitantes únicos vistos em tempo re
 
 **População Total de Segmentos**
 
-Essa métrica representa o número total de UUIDs de Audience Manager pertencentes a um segmento dentro do período de retrospectiva, que foram enviados para um destino.
+Essa métrica representa o número total de UUIDs do Audience Manager pertencentes a um segmento no período retroativo, que foram enviados para um destino.
 
 A ilustração abaixo mostra os resultados da execução de um relatório geral para o tipo de relatório Destinos.
 

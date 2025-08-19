@@ -1,10 +1,10 @@
 ---
-description: Uma visão geral para clientes técnicos e não técnicos que desejam trazer dados de outros sistemas (offline) para o Audience Manager.
+description: Uma visão geral para clientes técnicos e não técnicos que desejam trazer dados de outros sistemas (offline) para a Audience Manager.
 keywords: entrada, lote, upload em lote, dados em lote
 seo-description: An overview for technical and non-technical customers who want to bring data from other systems (offline) into Audience Manager. To do so, use the batch upload option in Audience Manager.
 seo-title: Send Batch Data to Audience Manager Overview
 solution: Audience Manager
-title: Visão geral do envio de dados em lote para o Audience Manager
+title: Visão geral do processo de envio de dados em lote para o Audience Manager
 uuid: 472583b1-5057-4add-8e3c-5e50762c88e0
 feature: Inbound Data Transfers
 exl-id: ba95537e-30c9-4546-9456-55f46dbe29ff

@@ -40,10 +40,10 @@ ht-degree: 2%
    + título SEO - título alternativo SEO.
    + descrição SEO - título alternativo para fins de SEO.
    + abreviado - (campo opcional).
-   + index - sim/não - a página será indexada pela plataforma de pesquisa Adobe.
+   + index - sim/não - a página será indexada pela plataforma de pesquisa da Adobe.
    + traduzir - sim/não - essa página será localizada.
    + versão - usada principalmente para AEM e Campaign, para indicar a versão do produto.
-   + private-feature-pack - usado principalmente para AEM.
+   + private-feature-pack - usado principalmente para o AEM.
    + beta - este produto é beta?
    + redirecionar - pode ser usado para criar uma referência para uma nova página, se necessário.
    + doc-type: reference (default) / troubleshooting / developer / tutorial / kb / whitepaper.

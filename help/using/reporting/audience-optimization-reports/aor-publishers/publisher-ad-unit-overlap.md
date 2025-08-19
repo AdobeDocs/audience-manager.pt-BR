@@ -20,7 +20,7 @@ O relatório **[!UICONTROL Ad Unit Overlap]** é exibido como um gráfico de cal
 
 ## Caso de uso {#use-cases}
 
-Com o relatório **[!UICONTROL Ad Unit Overlap]**, você pode obter informações sobre onde o público-alvo se sobrepõe em suas propriedades da Web. O relatório considera suas 100 principais propriedades relacionadas e mostra a sobreposição entre elas.
+Com o relatório **[!UICONTROL Ad Unit Overlap]**, você pode obter informações do insight sobre onde seu público-alvo se sobrepõe em suas propriedades da Web. O relatório considera suas 100 principais propriedades relacionadas e mostra a sobreposição entre elas.
 
 ## Uso do Relatório de sobreposição de unidade de anúncio {#using-the-report}
 
@@ -32,7 +32,7 @@ Use os controles **[!UICONTROL Base Ad Unit]** e **[!UICONTROL Overlap Ad Unit]*
 
 >[!IMPORTANT]
 >
->Ao habilitar [!UICONTROL Audience Optimization for Publishers], você deve incluir metadados descritivos para [!UICONTROL Ad Unit IDs], conforme descrito na Etapa 3 de [Importar arquivos de dados do Google Ad Manager (antigo DFP) para o Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ao fazer isso, você garante que o relatório detalhe a propriedade da Web como [!UICONTROL Ad Unit] em vez de [!UICONTROL Ad Unit ID].
+>Ao habilitar [!UICONTROL Audience Optimization for Publishers], você deve incluir metadados descritivos para [!UICONTROL Ad Unit IDs], conforme descrito na Etapa 3 de [Importar Arquivos de Dados do Google Ad Manager (antigo DFP) para o Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Ao fazer isso, você garante que o relatório detalhe a propriedade da Web como [!UICONTROL Ad Unit] em vez de [!UICONTROL Ad Unit ID].
 
 ## Interpretação dos resultados {#interpreting-results}
 

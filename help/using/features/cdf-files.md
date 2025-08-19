@@ -76,7 +76,7 @@ Um arquivo [!UICONTROL CDF] inclui alguns ou todos os campos definidos abaixo. P
   <tr> 
    <td colname="col1"> <p><code> Device</code> </p> </td> 
    <td colname="col2"> <p>String   </p> </td> 
-   <td colname="col3"> <p>Esta é a Identificação de Usuário Exclusiva <span class="wintitle"> </span> (UUID), que é uma Identificação de dispositivo de 38 dígitos para o visitante do site. Consulte também, <a href="../reference/ids-in-aam.md"> Índice de IDs em Audience Manager</a>. </p> </td> 
+   <td colname="col3"> <p>Esta é a Identificação de Usuário Exclusiva <span class="wintitle"> </span> (UUID), que é uma Identificação de dispositivo de 38 dígitos para o visitante do site. Consulte também <a href="../reference/ids-in-aam.md"> Índice de IDs no Audience Manager</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> Container ID</code> </p> </td> 
@@ -96,7 +96,7 @@ Um arquivo [!UICONTROL CDF] inclui alguns ou todos os campos definidos abaixo. P
   <tr> 
    <td colname="col1"> <p><code> Request Parameters</code> </p> </td> 
    <td colname="col2"> <p>String   </p> </td> 
-   <td colname="col3"> <p>Uma string que captura todos os parâmetros (variáveis, IDs, pares de valores chave, IDs de publicidade do dispositivo etc.) transmitido na chamada de evento. </p> <p>Exemplo abreviado: </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D585810,c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a.PrevSessionLength:583</code> </p> </td> 
+   <td colname="col3"> <p>Uma string que captura todos os parâmetros (variáveis, IDs, pares de valores chave, IDs de publicidade do dispositivo etc.) transmitidos na chamada de evento. </p> <p>Exemplo abreviado: </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D585810,c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a.PrevSessionLength:583</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> Referer Data Type</code> </p> </td> 
@@ -111,7 +111,7 @@ Um arquivo [!UICONTROL CDF] inclui alguns ou todos os campos definidos abaixo. P
   <tr> 
    <td colname="col1"> <p><code> MCDevice </code> </p> </td> 
    <td colname="col2"> <p>String   </p> </td> 
-   <td colname="col3"> <p>A Experience Cloud <span class="keyword"> ID (MID) atribuída ao visitante do site. </span> Consulte também Cookies do <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=pt-BR" format="https" scope="external"> e o Serviço de Identidade do Adobe Experience Platform</a>. </p> </td> 
+   <td colname="col3"> <p>A MID (Experience Cloud<span class="keyword"> ID) do </span> atribuída ao visitante do site. Consulte também Cookies do <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> e o Serviço de identidade da Adobe Experience Platform</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> All Segments</code> </p> </td> 
@@ -153,7 +153,7 @@ Lista e define a estrutura de dados de um arquivo [!UICONTROL CDF]. Isso inclui 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Sequência do campo </p> </td> 
-   <td colname="col2"> <p> <p>Importante: <span class="keyword"> Audience Manager</span> reserva o direito de adicionar novos campos ao final do arquivo CDF em versões futuras. Isso significa que o design técnico do sistema de análise de arquivos não deve pressupor um número fixo de colunas (embora possa pressupor uma ordem fixa para colunas existentes).</p> </p> <p>Os dados no arquivo CDF aparecem na ordem mostrada abaixo. /N pode aparecer no lugar de qualquer um desses campos, indicando um valor nulo.</p> <p> 
+   <td colname="col2"> <p> <p>Importante: <span class="keyword"> O Audience Manager</span> reserva o direito de adicionar novos campos ao final do arquivo CDF em versões futuras. Isso significa que o design técnico do sistema de análise de arquivos não deve pressupor um número fixo de colunas (embora possa pressupor uma ordem fixa para colunas existentes).</p> </p> <p>Os dados no arquivo CDF aparecem na ordem mostrada abaixo. /N pode aparecer no lugar de qualquer um desses campos, indicando um valor nulo.</p> <p> 
      <ol id="ol_1FDF4A7F089448ED8A724378C23009C8"> 
       <li id="li_CB97D90B54EB4F95861583D4A5F660C7">Hora do Evento </li> 
       <li id="li_C44E8CCB1A964B7A941FD772FB8A7608">Dispositivo </li> 
@@ -163,7 +163,7 @@ Lista e define a estrutura de dados de um arquivo [!UICONTROL CDF]. Isso inclui 
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">Parâmetros da solicitação </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Referenciador </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">Endereço IP </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">ID de dispositivo Experience Cloud (ou MID). Consulte também Cookies do <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=pt-BR" format="https" scope="external"> e o Serviço de identidade da Adobe Experience Platform</a> </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">ID de dispositivo Experience Cloud (ou MID). Consulte também Cookies do <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> e o Serviço de identidade da Adobe Experience Platform</a> </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">Todos os segmentos </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">Todas as características </li> 
      </ol> </p> <p>Para obter descrições dos campos, consulte <a href="#cdf-defined"> Conteúdo do feed de dados do cliente definido</a>. </p> </td> 

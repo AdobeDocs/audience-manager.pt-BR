@@ -25,7 +25,7 @@ O Audience Manager assimila dados de cookies e de IDs de dispositivos móveis do
 
 ### Especificações da integração
 
-Os arquivos de dados de entrada recebidos da Nuvem de Dados de Oracle diferem da sintaxe de nome de arquivo de entrada padrão descrita nos [Requisitos de nome e tamanho de arquivo do Amazon S3 para arquivos de dados de entrada](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) e da sintaxe de conteúdo de arquivo de entrada padrão descrita em [Conteúdo do arquivo de dados de entrada: sintaxe, caracteres inválidos, variáveis e exemplos](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md).
+Os arquivos de dados de entrada recebidos da Oracle Data Cloud diferem da sintaxe de nome de arquivo de entrada padrão descrita nos [Requisitos de nome e tamanho de arquivo do Amazon S3 para arquivos de dados de entrada](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) e da sintaxe de conteúdo de arquivo de entrada padrão descrita em [Conteúdo do arquivo de dados de entrada: sintaxe, caracteres inválidos, variáveis e exemplos](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md).
 
 Os elementos destacados abaixo são obrigatórios, além dos campos de implementação padrão para arquivos de dados de entrada. Para obter descrições de todos os outros campos padrão e elementos de nome de arquivo, consulte Sintaxe de nome de arquivo e Sintaxe de conteúdo de arquivo nas duas páginas vinculadas acima.
 
@@ -35,7 +35,7 @@ Os nomes de arquivo ODC são estruturados como:
 
 `ftp_dpm_`**`odc`**`_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
 
-O elemento de nome de arquivo `odc` identifica o arquivo como importado da Oracle Data Cloud e instrui o validador de arquivo de entrada Audience Manager a processá-lo como tal.
+O elemento de nome de arquivo `odc` identifica o arquivo como importado da Oracle Data Cloud e instrui o validador de arquivo de entrada do Audience Manager a processá-lo como tal.
 
 ### Conteúdo do arquivo
 

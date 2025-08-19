@@ -20,7 +20,7 @@ ht-degree: 2%
 
 ## Criar um modelo de públicos preditivos {#create-predictive-audiences}
 
-Antes de criar um modelo [!UICONTROL Predictive Audiences], é necessário decidir a qual fonte de dados primária você deseja atribuir suas características e segmentos [!UICONTROL Predictive Audiences]. Você pode usar uma fonte de dados primária existente ou criar uma nova. Consulte [Gerenciar fontes de dados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html?lang=pt-BR) para obter detalhes sobre como criar uma nova fonte de dados própria.
+Antes de criar um modelo [!UICONTROL Predictive Audiences], é necessário decidir a qual fonte de dados primária você deseja atribuir suas características e segmentos [!UICONTROL Predictive Audiences]. Você pode usar uma fonte de dados primária existente ou criar uma nova. Consulte [Gerenciar fontes de dados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html) para obter detalhes sobre como criar uma nova fonte de dados própria.
 
 Depois de saber qual fonte de dados você usará, siga as etapas abaixo.
 
@@ -42,7 +42,6 @@ Depois de saber qual fonte de dados você usará, siga as etapas abaixo.
    * **[!UICONTROL Description]**: insira uma descrição do modelo que ajudará você a identificar seu caso de uso.
    * **[!UICONTROL Data Source]**: Selecione a fonte de dados primária à qual você deseja que os segmentos [!UICONTROL Predictive Audiences] deste modelo sejam atribuídos.
    * **[!UICONTROL Profile Merge Rule]**: Selecione o [!UICONTROL Profile Merge Rule] a ser atribuído a todos os [!UICONTROL segments] preditivos criados por este modelo. Se o público-alvo selecionado for [!UICONTROL segment], recomendamos selecionar o mesmo [!UICONTROL Profile Merge Rule] do público-alvo.
-
      ![predictive-audiences-save](assets/predictive-audiences-save.png)
 1. Clique em **[!UICONTROL Save]**.
 

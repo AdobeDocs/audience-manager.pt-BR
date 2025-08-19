@@ -35,7 +35,7 @@ Por exemplo, digamos que um segmento esteja mapeado para um destino com o rótul
    * A regra de mesclagem de perfis usada por um segmento incluído;
    * Qualquer uma das fontes de dados que a regra de mesclagem de perfis de um segmento incluído usa.
 
-[!UICONTROL Data Export Controls] estão disponíveis automaticamente para todos os clientes do Audience Manager. No entanto, você precisa de permissões de administrador para adicionar controles de exportação a uma fonte de dados. Adicionar rótulos de exportação a um destino requer permissões de administrador *ou* privilégios suficientes para criar ou editar um destino.
+[!UICONTROL Data Export Controls] estão disponíveis automaticamente para todos os clientes da Audience Manager. No entanto, você precisa de permissões de administrador para adicionar controles de exportação a uma fonte de dados. Adicionar rótulos de exportação a um destino requer permissões de administrador *ou* privilégios suficientes para criar ou editar um destino.
 
 ## Controles e rótulos definidos {#controls-labels}
 

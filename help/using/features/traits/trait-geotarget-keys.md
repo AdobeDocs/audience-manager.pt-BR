@@ -1,5 +1,5 @@
 ---
-description: Descreve os pares de valores chave comuns em nível de plataforma que você pode usar para direcionar usuários com variáveis geográficas em todas as propriedades na sua conta Audience Manager.
+description: Descreve os pares de valores chave comuns em nível de plataforma que você pode usar para direcionar usuários com variáveis geográficas em todas as propriedades na sua conta do Audience Manager.
 seo-description: Describes the common platform-level key-value pairs you can use to target users with geographic variables across all properties in your Audience Manager account.
 seo-title: Geotargeting With Platform-level Keys
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 # Geotargeting com chaves de nível de plataforma {#geotargeting-with-platform-level-keys}
 
-Descreve os pares de valores chave comuns em nível de plataforma que você pode usar para direcionar usuários com variáveis geográficas em todas as propriedades na sua conta Audience Manager.
+Descreve os pares de valores chave comuns em nível de plataforma que você pode usar para direcionar usuários com variáveis geográficas em todas as propriedades na sua conta do Audience Manager.
 
 <!-- c_tb_platform_vars.xml -->
 

@@ -26,7 +26,7 @@ O Audience Manager envia dados em lote para provedores de conteúdo de terceiros
 
 * [Arquivos de controle de transferência para transferências de arquivos de log](/help/using/integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
 
-  Os arquivos de controle de transferência (.info) fornecem informações de metadados sobre transferências de arquivos para que os parceiros possam verificar se o Audience Manager manipulou as transferências de arquivos corretamente.
+  Os arquivos de controle de transferência (.info) fornecem informações de metadados sobre transferências de arquivos para que os parceiros possam verificar se o Audience Manager lidou com as transferências de arquivos corretamente.
 
 * [Macros de modelo de saída](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
 

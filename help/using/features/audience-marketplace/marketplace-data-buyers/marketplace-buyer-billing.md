@@ -1,5 +1,5 @@
 ---
-description: Os compradores de dados da Audience Marketplace concordam em relatar todas as impressões de anúncios veiculadas com as características contidas no feed de dados orçadas com base no custo por mil impressões de anúncios (CPM). O uso do CPM ocorre no quinto dia de cada mês e inclui dados do mês anterior. Os assinantes de taxa única não precisam relatar o uso.
+description: Os compradores de dados da Audience Marketplace concordam em relatar todas as impressões de anúncios veiculadas com as características contidas no feed de dados orçado com base no custo por mil impressões de anúncios (CPM). O uso do CPM é devido no quinto dia de cada mês e inclui dados do mês anterior. Os assinantes de taxa única não precisam relatar o uso.
 seo-description: Audience Marketplace data buyers agree to report all ad impressions served using traits contained in the data feed priced on a cost per thousand ad impressions (CPM) basis. CPM usage is due on the 5th day of each calendar month and includes data for previous month. Flat fee subscribers do not need to report usage.
 seo-title: Billing for Data Feed Buyers
 solution: Audience Manager
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Faturamento para compradores de feed de dados {#billing-for-data-feed-buyers}
 
-Os Audience Marketplace compradores de dados concordam em relatar todas as impressões de anúncios veiculadas com as características contidas no feed de dados com preço calculado com base no custo por mil impressões de anúncios ([!DNL CPM]). O uso de [!DNL CPM] ocorre no quinto dia de cada mês e inclui os dados do mês anterior. Os assinantes de taxa única não precisam relatar o uso.
+Os compradores de dados da Audience Marketplace concordam em relatar todas as impressões de anúncios veiculadas com as características contidas no feed de dados orçado com base no custo por mil impressões de anúncios ([!DNL CPM]). O uso de [!DNL CPM] ocorre no quinto dia de cada mês e inclui os dados do mês anterior. Os assinantes de taxa única não precisam relatar o uso.
 
 <br> 
 
@@ -30,15 +30,15 @@ Os Audience Marketplace compradores de dados concordam em relatar todas as impre
 [!UICONTROL Audience Marketplace] oferece duas maneiras de relatar o uso de [!DNL CPM]:
 
 * **Relatórios no nível de segmento**: este é o método de relatório de uso [!DNL CPM] recomendado. Ao relatar o uso de [!DNL CPM] no nível do segmento, a seção de relatório no nível do feed de dados é automaticamente preenchida com os valores de uso correspondentes, com base nos algoritmos descritos em [Atribuição de custo para feeds de dados do CPM](#cost-attribution).
-* **Relatórios de nível de feed de dados**: este método requer que você relate individualmente o uso de [!DNL CPM] para cada feed de dados, com base nos algoritmos descritos em [Atribuição de Custo para Feeds de Dados de CPM](#cost-attribution). No entanto, esse método é mais tedioso e propenso a erros do que o relatório em nível de segmento.
+* **Relatórios de nível de feed de dados**: este método requer que você relate individualmente o uso de [!DNL CPM] para cada feed de dados, com base nos algoritmos descritos em [Atribuição de Custo para Feeds de Dados do CPM](#cost-attribution). No entanto, esse método é mais tedioso e propenso a erros do que o relatório em nível de segmento.
 
 <br> 
 
-## Relatar uso de CPM no nível do segmento {#segment-level-report}
+## Relatar uso do CPM no nível do segmento {#segment-level-report}
 
 A guia [!UICONTROL Segment Usage] permite relatar o uso em nível de segmento, ao mesmo tempo em que exibe os segmentos agrupados pelos destinos aos quais eles estão mapeados.
 
-Depois de relatar o uso de [!DNL CPM] no nível de segmento, o [!UICONTROL Audience Marketplace] atribui automaticamente os feeds de dados correspondentes ao uso correto, com base na [Atribuição de Custo para Feeds de Dados CPM](#cost-attribution).
+Depois de relatar o uso de [!DNL CPM] no nível de segmento, o [!UICONTROL Audience Marketplace] atribui automaticamente os feeds de dados correspondentes ao uso correto, com base na [Atribuição de Custo para Feeds de Dados do CPM](#cost-attribution).
 
 Para relatar o uso de [!DNL CPM] no nível de segmento:
 
@@ -59,9 +59,9 @@ Veja também nossa demonstração em vídeo de como é possível relatar o uso e
 
  
 
-## Relatar uso de CPM no nível do feed de dados {#feed-level-report}
+## Relatar uso do CPM no nível do feed de dados {#feed-level-report}
 
-Os relatórios no nível do feed de dados são um processo mais tedioso e sujeito a erros, já que você deve calcular individualmente o uso de [!DNL CPM] para cada feed de dados. Em vez disso, recomendamos que você [Relate o Uso de CPM no Nível de Segmento](#segment-level-report).
+Os relatórios no nível do feed de dados são um processo mais tedioso e sujeito a erros, já que você deve calcular individualmente o uso de [!DNL CPM] para cada feed de dados. Em vez disso, recomendamos que você [Relate o Uso do CPM no Nível de segmento](#segment-level-report).
 
 Para relatar o uso de [!DNL CPM] no nível de segmento:
 
@@ -69,7 +69,7 @@ Para relatar o uso de [!DNL CPM] no nível de segmento:
 2. Selecione a guia **[!UICONTROL Feed Usage]**.
 3. Use a caixa [!UICONTROL Search] para filtrar os feeds de dados e identificar aqueles para os quais você precisa relatar uso.
 4. Clique em **[!UICONTROL Edit Feeds Usage]**.
-5. Calcule o uso de [!DNL CPM] para cada feed de dados com base na [Atribuição de Custo para Feeds de Dados CPM](#cost-attribution) e insira-o na coluna [!UICONTROL Usage].
+5. Calcule o uso de [!DNL CPM] para cada feed de dados com base na [Atribuição de Custo para Feeds de Dados do CPM](#cost-attribution) e insira-o na coluna [!UICONTROL Usage].
 6. Clique em **[!UICONTROL Save]** quando terminar e revise a caixa de diálogo de confirmação.
 
    ![confirme-feed-usage](assets/confirm-feed-usage.png)
@@ -124,19 +124,19 @@ Para atualizar o uso de [!DNL CPM] em massa:
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Sempre relatar o número total de impressões</b> </p> </td> 
-   <td colname="col2"> <p>Para totais de impressão CPM: </p>
-   <p> Relate o número total de impressões, sem usar decimais. O Audience Manager calcula automaticamente o CPM com base no número total relatado.</p><p>Se precisar relatar 1.234.567 impressões, relate exatamente assim. Não é necessário dividir o número total de impressões por 1.000 para calcular o CPM.</p><p>As características usadas para otimizar o conteúdo da Web ou do aplicativo (Otimização de conteúdo) usando ferramentas como o Adobe Target ou um destino do Analytics não contribuem para os totais de Uso para planos CPM. Os provedores de dados normalmente são compensados pela Otimização de conteúdo usando planos de taxa fixos.</p><p>Consulte <a href="#cost-attribution">Atribuição de custo para feeds de dados do CPM</a> para obter mais informações. </p> </td>
+   <td colname="col2"> <p>Para totais de impressão do CPM: </p>
+   <p> Relate o número total de impressões, sem usar decimais. O Audience Manager calcula automaticamente o CPM com base no número total relatado.</p><p>Se precisar relatar 1.234.567 impressões, relate exatamente assim. Não é necessário dividir o número total de impressões por 1.000 para calcular o CPM.</p><p>As características usadas para otimizar o conteúdo da Web ou do aplicativo (Otimização de conteúdo) usando ferramentas como o Adobe Target ou um destino do Analytics não contribuem para os totais de Uso dos planos do CPM. Os provedores de dados normalmente são compensados pela Otimização de conteúdo usando planos de taxa fixos.</p><p>Consulte <a href="#cost-attribution">Atribuição de custo para feeds de dados do CPM</a> para obter mais informações. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><b>Manter o intervalo dos relatórios mensais</b> </p> </td> 
-   <td colname="col2"> <p>O sistema de relatórios fecha depois do dia 5 de cada mês. Se você não relatar o uso do CPM até lá, será necessário adicionar esse valor ao relatório para o mês seguinte. Por exemplo, digamos que você use 1000 impressões em outubro, perca o prazo de relatório de outubro e use 1000 impressões em novembro. Nesse caso, você informa o total de outubro e novembro (2000) em dezembro, entre os dias 1º e 5º.</p><p><b>Dica</b>: você deve sempre tentar relatar o uso do CPM para o mês anterior entre o primeiro e o quinto dia do mês seguinte.</p><p>Você pode relatar o uso do CPM até o quinto dia do novo mês, mas isso não é recomendado. Relatar o uso do CPM antes do dia 5 de cada mês dá ao Audience Manager tempo para verificar e processar os dados.</p> </td>
+   <td colname="col2"> <p>O sistema de relatórios fecha depois do dia 5 de cada mês. Se você não relatar o uso do CPM até então, é necessário adicionar essa quantidade ao relatório para o mês seguinte. Por exemplo, digamos que você use 1000 impressões em outubro, perca o prazo de relatório de outubro e use 1000 impressões em novembro. Nesse caso, você informa o total de outubro e novembro (2000) em dezembro, entre os dias 1º e 5º.</p><p><b>Dica</b>: você sempre deve tentar relatar o uso do CPM para o mês anterior entre o primeiro e o quinto dias do mês seguinte.</p><p>Você pode relatar o uso do CPM até o dia 5 do novo mês, mas isso não é recomendado. Relatar o uso do CPM antes do dia 5 de cada mês dá ao Audience Manager tempo para verificar e processar os dados.</p> </td>
   </tr> 
  </tbody> 
 </table>
 
 <br> 
 
-## Atribuição de custo para feeds de dados de CPM {#cost-attribution}
+## Atribuição de custo para feeds de dados do CPM {#cost-attribution}
 
 No [!UICONTROL Audience Marketplace], você deve relatar automaticamente os valores de impressão a cada mês para cada um dos seus segmentos. Recomendamos relatar o uso de [!DNL CPM] no nível do segmento, para que a atribuição de custo seja feita automaticamente.
 
@@ -144,7 +144,7 @@ No [!UICONTROL Audience Marketplace], você deve relatar automaticamente os valo
 
 ### Resumo da Cobrança {#billing-summary}
 
-Você deve enviar [!DNL CPM] valores de impressão do feed de dados entre o primeiro e o quinto dias de cada mês. Para fazer isso corretamente, recomendamos que você [Relate o Uso de CPM no Nível de Segmento](#segment-level-report).
+Você deve enviar [!DNL CPM] valores de impressão do feed de dados entre o primeiro e o quinto dias de cada mês. Para fazer isso corretamente, recomendamos que você [Relate o Uso do CPM no Nível de Segmento](#segment-level-report).
 
 >[!TIP]
 >Ao relatar o uso de [!DNL CPM] no nível do segmento, a seção de relatório no nível do feed de dados é preenchida automaticamente com as quantidades de uso correspondentes.
@@ -205,7 +205,7 @@ Ao [Relatar o Uso do CPM no Nível de Feed de Dados](#feed-level-report), você 
 Os exemplos abaixo ilustram como a alocação de uso de [!DNL CPM] é feita no nível de feed de dados.
 
 >[!IMPORTANT]
->Recomendamos que você [Relate o Uso de CPM no Nível de Segmento](#segment-level-report), para que esse processo seja executado automaticamente.
+>Recomendamos que você [Relate o Uso do CPM no Nível de segmento](#segment-level-report), para que esse processo seja executado automaticamente.
 
 Vamos considerar o seguinte cenário:
 
@@ -264,12 +264,12 @@ O detalhamento rápido por feed de dados e caso de uso é o seguinte:
 
 >[!NOTE]
 >
->Para o caso de uso de modelagem, você só deve relatar o uso do CPM após a ativação. Se você executar apenas um modelo, mas não ativá-lo, nenhum relatório de uso será necessário.
+>Para o caso de uso de modelagem, você deve relatar o uso do CPM somente após a ativação. Se você executar apenas um modelo, mas não ativá-lo, nenhum relatório de uso será necessário.
 
 <br> 
 
 ## Alocação de impressão e cobrança para feeds de dados de taxa fixa {#billing-flat-fee}
 
-Um feed de dados de taxa fixa fatura um valor fixo a cada mês, independentemente de quando a assinatura começa ou quantas impressões você usa. As taxas não são rateadas para uso ou intervalos parciais do mês. Assim como no faturamento do CPM, o Adobe gerará uma fatura e o cobrará pela taxa de taxa uniforme mensal dos feeds de dados que você assina.
+Um feed de dados de taxa fixa fatura um valor fixo a cada mês, independentemente de quando a assinatura começa ou quantas impressões você usa. As taxas não são rateadas para uso ou intervalos parciais do mês. Assim como ocorre com o faturamento da CPM, a Adobe gerará uma fatura e cobrará com a taxa de taxa uniforme mensal dos feeds de dados que você assina.
 
 Por exemplo, digamos que você tenha decidido ativar determinadas características em um feed no meio do mês. Você ainda será cobrado com a taxa mensal total, independentemente de quando iniciou a assinatura ou ativou características específicas.

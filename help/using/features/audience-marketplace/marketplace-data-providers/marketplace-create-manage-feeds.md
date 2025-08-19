@@ -148,7 +148,7 @@ As opções de preço e faturamento controlam como os compradores pagam pelos se
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Unidade de Medida</span></b> </td> 
-   <td colname="col2">Cobre aos compradores de dados uma taxa de CPM ou taxa única. 
+   <td colname="col2">Cobre os compradores de dados com uma taxa CPM ou taxa única. 
     <ul id="ul_D5F125E0F7364C568D9F3107E090059D"> 
      <li id="li_A79F47FFC1DC4B9DADC014621A9C12A1"> Com os preços do CPM, os compradores de dados precisam relatar o uso por conta própria. </li> 
      <li id="li_DFED3194854A492F9DD0E7BA1A655E96">Com preços de taxa única, os compradores de dados não relatam o uso porque são cobrados uma taxa fixa. </li> 

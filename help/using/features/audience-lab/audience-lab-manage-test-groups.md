@@ -28,7 +28,7 @@ Este procedimento o guiará pelas etapas necessárias para criar, editar ou excl
 
   >[!IMPORTANT]
   >
-  >[As **características da pasta](../../features/traits/about-folder-traits.md) não têm suporte** por [!UICONTROL Audience Lab]. Definir o [Tipo de Evento](../../features/traits/create-onboarded-rule-based-traits.md) de uma característica de pasta como **conversão** não gerará dados em [!UICONTROL Audience Lab] para essa característica de pasta específica.
+  >[As ](../../features/traits/about-folder-traits.md)características da pasta **não têm suporte** por [!UICONTROL Audience Lab]. Definir o [Tipo de Evento](../../features/traits/create-onboarded-rule-based-traits.md) de uma característica de pasta como **conversão** não gerará dados em [!UICONTROL Audience Lab] para essa característica de pasta específica.
 
 * Para empresas que usam o [Controle de Acesso Baseado em Função](../../features/administration/administration-overview.md): atribua a [!UICONTROL Audience Lab] [permissão curinga](../../features/administration/administration-overview.md#wild-card-permissions) a **[!UICONTROL User Groups]** para fornecer acesso. Essa permissão possibilita que o usuário crie e visualize os resultados de um teste. Um usuário só poderá usar segmentos de uma fonte de dados para a qual tenha privilégios de **leitura** e **mapeamento para destino**. O usuário só poderá usar características de conversão de uma fonte de dados para a qual tenha permissões de **&quot;leitura&quot;**. Um usuário também só poderá ver os destinos aos quais tem acesso. Portanto, antes de adicionar a permissão curinga [!DNL Audience Lab] a um grupo, verifique se o grupo tem:
    * acesso à leitura de características de conversão relevantes;

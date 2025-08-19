@@ -1,5 +1,5 @@
 ---
-description: O Recommendations e casos de uso para redirecionamento de segmento e qualificação de segmento personalizado com o gráfico de dispositivos do Link de perfil.
+description: Recomendações e casos de uso para redirecionamento de segmento e qualificação de segmento personalizado com o gráfico de dispositivos do Link de perfil.
 seo-description: Recommendations and use cases for segment retargeting and personalized segment qualification with the Profile Link device graph.
 seo-title: Profile Link Device Graph Use Cases
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 # Casos de uso do gráfico de dispositivos de link de perfis {#profile-link-device-graph-use-cases}
 
-Recommendations e casos de uso para redirecionamento de segmento e qualificação de segmento personalizado com o [!UICONTROL Profile Link Device Graph].
+Recomendações e casos de uso para redirecionamento de segmento e qualificação de segmento personalizado com o [!UICONTROL Profile Link Device Graph].
 
 ## Recomendações   {#recommendations}
 

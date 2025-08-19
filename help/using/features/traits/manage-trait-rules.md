@@ -31,13 +31,13 @@ No [!UICONTROL Trait Builder], o [!UICONTROL Expression Builder] permite criar e
 
    >[!NOTE]
    >
-   >Esta opção está disponível somente para [!UICONTROL Data Explorer] clientes. Entre em contato com seu consultor do Adobe para obter detalhes.
+   >Esta opção está disponível somente para [!UICONTROL Data Explorer] clientes. Entre em contato com seu consultor da Adobe para obter detalhes.
 
 1. Esta seção mostra uma estimativa das realizações de características nos últimos 7 dias, para os sinais definidos em [!UICONTROL Expression Builder], para características preenchidas retroativamente e não preenchidas retroativamente.
 
    >[!NOTE]
    >
-   >Esta opção está disponível somente para [!UICONTROL Data Explorer] clientes. Entre em contato com seu consultor do Adobe para obter detalhes.
+   >Esta opção está disponível somente para [!UICONTROL Data Explorer] clientes. Entre em contato com seu consultor da Adobe para obter detalhes.
 
 1. Os campos de teste permitem validar combinações de regras de sinal ou os [!DNL URL]s que você deseja usar ao enviar dados para o Audience Manager.
 
