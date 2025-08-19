@@ -181,7 +181,7 @@ Nas tabelas abaixo, *itálico* representa um espaço reservado para variável.
   <tr> 
    <td colname="col1"> <p>310 </p> </td> 
    <td colname="col2"> <p>A ID do cliente foi descartada porque excedeu o limite de um determinado namespace. A ID do namespace é <code><i>ID</i></code>, a ID do cliente é <code><i>ID</i></code>. </p> </td> 
-   <td colname="col3"> <p>Este código de erro será retornado se houver mais de 3 IDs de cliente declaradas para o mesmo namespace (<code> DPID</code>) em uma chamada DCS<span class="wintitle"> do </span>. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </code> </p> <p>Nesta amostra de solicitação <span class="wintitle"> DCS</span>, há 4 IDs declaradas para o mesmo namespace (com o código de integração um). Uma das IDs é descartada e o erro 310 é retornado. </p> </td> 
+   <td colname="col3"> <p>Este código de erro será retornado se houver mais de 3 IDs de cliente declaradas para o mesmo namespace (<code> DPID</code>) em uma chamada DCS<span class="wintitle"> do </span>. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&d_cid_ic=one&d_cid_ic=one&d_cid_ic=one&d_cid_ic=one </code> </p> <p>Nesta amostra de solicitação <span class="wintitle"> DCS</span>, há 4 IDs declaradas para o mesmo namespace (com o código de integração um). Uma das IDs é descartada e o erro 310 é retornado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>311 </p> </td> 
@@ -192,7 +192,7 @@ Nas tabelas abaixo, *itálico* representa um espaço reservado para variável.
    <td colname="col1"> <p>312 </p> </td> 
    <td colname="col2"> <p>A solicitação contém uma ID de dispositivo global inválida </p> </td> 
    <td colname="col3"> <p>O <span class="wintitle">DCS</span> retorna este código de erro quando a solicitação contém uma ID de Dispositivo Global inválida. O DCS ignora a ID inválida e lança um erro 312 juntamente com os erros específicos da ID inválida. Consulte <a href="../../../features/global-data-sources.md" format="dita" scope="local">Fontes de Dados Globais</a> e <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">Índice de IDs no Audience Manager</a> para obter informações detalhadas sobre os formatos corretos de ID de publicidade do dispositivo e as fontes de dados globais correspondentes.</p>
-   <p>Exemplo de chamada incorreta: <code>"http://partner.demdex.net/event?d_rtbd=json&amp;d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
+   <p>Exemplo de chamada incorreta: <code>"http://partner.demdex.net/event?d_rtbd=json&d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
    <p>Explicação: Um <span class="keyword">IDFA (DPID 20915)</span> deve ser uma ID em maiúsculas. A ID fornecida na solicitação está em minúsculas.</p>
    </td>
   </tr>

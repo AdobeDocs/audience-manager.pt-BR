@@ -62,7 +62,7 @@ Os sinais são as [menores unidades de dados](../../reference/signal-trait-segme
 >[!IMPORTANT]
 >
 >[!UICONTROL Actionable Log Files] têm suporte para os seguintes servidores de anúncios:
->> <br>
+>&#x200B;> <br>
 >
 > * [Gerente de campanha do Google](#dcm-logs-signals)
 > * [Gerenciador de Anúncios do Google](#ad-manager-logs-signals)
