@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ## Público-alvo
 
-Esta página destina-se aos clientes do Audience Manager que estão usando a [extensão de tag da Audience Manager](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/audience-manager/overview) para trazer dados da coleção da Web para a Audience Manager. Para clientes que usam a biblioteca JavaScript do AppMeasurement, leia o guia sobre como atualizar a biblioteca de coleta de dados do Audience Manager [da biblioteca JavaScript do AppMeasurement para a biblioteca JavaScript do Web SDK](appmeasurement-to-web-sdk.md).
+Esta página destina-se aos clientes do Audience Manager que estão usando a [extensão de tag da Audience Manager](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/client/audience-manager/overview) para trazer dados da coleção da Web para a Audience Manager. Para clientes que usam a biblioteca JavaScript do AppMeasurement, leia o guia sobre como atualizar a biblioteca de coleta de dados do Audience Manager [da biblioteca JavaScript do AppMeasurement para a biblioteca JavaScript do Web SDK](appmeasurement-to-web-sdk.md).
 
 ## Vantagens e desvantagens desse caminho de implementação
 

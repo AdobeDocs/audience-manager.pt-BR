@@ -24,11 +24,11 @@ A Audience Manager fornece kits de desenvolvimento de software ([!DNL SDK]s) par
 
 * Para começar, acesse o [Launch](https://launch.adobe.com/).
 * Para ver o conteúdo dos repositórios do Experience Platform SDK, acesse [Github: SDKs da Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
-* Para implementar o Audience Manager em seu aplicativo, usando o novo SDK v.5, leia a [documentação do Adobe Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/data-management/aam-dil-extension.html?lang=en) na nova página do SDK.
+* Para implementar o Audience Manager em seu aplicativo, usando o novo SDK v.5, leia a [documentação do Adobe Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/data-management/aam-dil-extension.html?lang=pt-BR) na nova página do SDK.
 
 <br> 
 
 Ainda oferecemos suporte aos SDKs do Android e iOS 4.x. Para essas bibliotecas de código SDK, consulte:
 
-* [Android SDK](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html)
-* [iOS SDK](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html)
+* [Android SDK](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=pt-BR)
+* [iOS SDK](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=pt-BR)

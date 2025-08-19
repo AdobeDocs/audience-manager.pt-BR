@@ -50,7 +50,7 @@ Antes de poder usar o [!UICONTROL People-Based Destinations] para enviar segment
 
 Para saber como editar suas permissões de usuário do [!DNL LinkedIn Campaign Manager], consulte [Adicionar, Editar, e Remover Permissões de Usuário em Contas do Advertising](https://www.linkedin.com/help/lms/answer/5753) na documentação do LinkedIn.
 
-Consulte [Compreensão e configuração do destino com base em pessoas do LinkedIn](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) para obter instruções em vídeo.
+Consulte [Compreensão e configuração do destino com base em pessoas do LinkedIn](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html?lang=pt-BR) para obter instruções em vídeo.
 
 ### [!DNL Google Customer Match] {#gcm}
 
@@ -99,7 +99,7 @@ Assista ao vídeo abaixo para entender os requisitos de hash do [!UICONTROL Peop
 
 >[!VIDEO](https://video.tv.adobe.com/v/29003/)
 
-O Adobe Experience Cloud oferece a opção de aplicar hash às IDs do cliente por meio do [!DNL Adobe Experience Platform Identity Service (ECID)]. Consulte o [Suporte a hash SHA 256 para setCustomerIDs](https://experienceleague.adobe.com/docs/id-service/using/reference/hashing-support.html) para obter informações detalhadas sobre como usar a ECID para hash de IDs de clientes.
+O Adobe Experience Cloud oferece a opção de aplicar hash às IDs do cliente por meio do [!DNL Adobe Experience Platform Identity Service (ECID)]. Consulte o [Suporte a hash SHA 256 para setCustomerIDs](https://experienceleague.adobe.com/docs/id-service/using/reference/hashing-support.html?lang=pt-BR) para obter informações detalhadas sobre como usar a ECID para hash de IDs de clientes.
 
 ## Obter permissão do usuário {#obtaining-user-permission}
 

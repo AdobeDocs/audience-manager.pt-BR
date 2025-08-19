@@ -96,7 +96,7 @@ Os eventos de clique suportam as macros listadas na tabela a seguir. Uma macro �
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Experience Cloud </span> ID (ECID). Para obter mais informações sobre a ECID, consulte <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies e a Experience Cloud ID</a>. </p> <p>Opcional. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Experience Cloud </span> ID (ECID). Para obter mais informações sobre a ECID, consulte <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=pt-BR" format="https" scope="external"> Cookies e a Experience Cloud ID</a>. </p> <p>Opcional. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_placement</code> </p> </td> 

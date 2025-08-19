@@ -19,7 +19,7 @@ ht-degree: 2%
 
 O status de autenticação do visitante no Audience Manager determina se as novas informações de característica são gravadas no perfil autenticado do visitante ou no perfil do dispositivo, de onde os dados foram coletados. O Audience Manager trata os status de autenticação de ID de visitante UNKNOWN e LOGGED_OUT em chamadas de evento da mesma maneira.
 
-A partir do serviço de ID do [!DNL Experience Cloud] v1.5+, o método `setCustomerID` inclui o objeto `AuthState` opcional. `AuthState` identifica visitantes de acordo com seu [status de autenticação](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] lida com as características realizadas de forma diferente, dependendo do status de autenticação passado na chamada e da [Regra de mesclagem de perfis](../features/profile-merge-rules/merge-rules-dashboard.md) que você usa para segmentação.
+A partir do serviço de ID do [!DNL Experience Cloud] v1.5+, o método `setCustomerID` inclui o objeto `AuthState` opcional. `AuthState` identifica visitantes de acordo com seu [status de autenticação](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=pt-BR). [!DNL Audience Manager] lida com as características realizadas de forma diferente, dependendo do status de autenticação passado na chamada e da [Regra de mesclagem de perfis](../features/profile-merge-rules/merge-rules-dashboard.md) que você usa para segmentação.
 
 ## Status de autenticação: DESCONHECIDO {#auth-status-unknown}
 
@@ -57,4 +57,4 @@ Exemplo de chamada (o valor da solicitação correspondente ao status de autenti
 
 >[!MORELIKETHIS]
 >
->* [Estados de autenticação e IDs do cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)
+>* [Estados de autenticação e IDs do cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=pt-BR)

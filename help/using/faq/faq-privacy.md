@@ -28,7 +28,7 @@ Respostas a perguntas ou problemas comuns relacionados à privacidade ou aos dad
 
 **Como o Audience Manager usa cookies e quais cookies ele define?**
 
-Consulte [Cookies do Audience Manager](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html).
+Consulte [Cookies do Audience Manager](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html?lang=pt-BR).
 
 **Os clientes do Audience Manager nos EUA podem direcionar usuários em propriedades da UE?**
 
