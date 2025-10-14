@@ -40,7 +40,7 @@ Você pode enviar solicitações individuais de acesso aos dados por meio da [In
 
 A [Interface do usuário do Privacy Service](https://privacyui.cloud.adobe.io/) permite criar novas solicitações de trabalho usando o [!UICONTROL Request Builder] ou fazendo upload de um arquivo [!DNL JSON].
 
-Para ver a aparência de um arquivo válido [!DNL JSON], é possível [ baixar uma amostra de JSON](../data-security-and-privacy/assets/access_request.json).
+Para ver a aparência de um arquivo válido [!DNL JSON], é possível [&#x200B; baixar uma amostra de JSON](../data-security-and-privacy/assets/access_request.json).
 
 Compreendemos o seu compromisso de atender às suas solicitações de privacidade de dados dentro do período definido pela legislação.
 
@@ -50,7 +50,7 @@ Você pode enviar solicitações de exclusão de dados por meio da [Interface do
 
 A [Interface do usuário do Privacy Service](https://privacyui.cloud.adobe.io/) permite criar novas solicitações de trabalho usando o [!UICONTROL Request Builder] ou fazendo upload de um arquivo [!DNL JSON].
 
-Para ver a aparência de um arquivo válido [!DNL JSON], é possível [ baixar uma amostra de JSON](../data-security-and-privacy/assets/access_request.json).
+Para ver a aparência de um arquivo válido [!DNL JSON], é possível [&#x200B; baixar uma amostra de JSON](../data-security-and-privacy/assets/access_request.json).
 
 A Adobe entende seu compromisso de atender às solicitações de privacidade dos clientes em 30 dias. Por esse motivo, [!DNL Adobe] tem o compromisso de processar sua solicitação de exclusão de dados assim que possível.
 
