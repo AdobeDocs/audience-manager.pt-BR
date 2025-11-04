@@ -8,7 +8,7 @@ title: Classificação de características com uma taxonomia comum
 uuid: 2e177344-07d9-40a7-8c99-c6c6518b9d97
 feature: Traits
 exl-id: 59000dc7-66cf-4e7e-8e9b-9d48157203bd
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Permitir que nossos clientes criem segmentos e modelos de dados personalizados �
 
 ## A Taxonomia Usa Categorias De Classificação Padrão Do Setor
 
-A taxonomia comum é baseada nas classificações criadas pelo [!DNL Interactive Advertising Bureau (IAB)]. Consulte o [!DNL IAB]site[&#x200B; do &#x200B;](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines) para obter mais informações sobre diretrizes de controle de qualidade para redes e trocas.
+A taxonomia comum é baseada nas classificações criadas pelo [!DNL Interactive Advertising Bureau (IAB)]. Consulte o [!DNL IAB]site[ do ](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines) para obter mais informações sobre diretrizes de controle de qualidade para redes e trocas.
 
 ## Organização taxonômica
 
@@ -39,7 +39,7 @@ A taxonomia [!DNL Audience Manager] organiza os dados em categorias aninhadas ch
 
 ## Classificar características em categorias de dados
 
-Você atribui classificações taxonômicas ao criar ou editar características no [!UICONTROL Add New Trait Wizard] (localizado em * **[!UICONTROL Audience Data > Traits]***). Consulte a [documentação sobre criação de características](../../features/traits/create-onboarded-rule-based-traits.md) para obter mais informações.
+Você atribui classificações taxonômicas ao criar ou editar características no [!UICONTROL Add New Trait Wizard] (localizado em ***[!UICONTROL Audience Data > Traits]**). Consulte a [documentação sobre criação de características](../../features/traits/create-onboarded-rule-based-traits.md) para obter mais informações.
 
 ## Trabalhar com a taxonomia: considerações adicionais
 

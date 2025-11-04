@@ -7,7 +7,7 @@ title: Controles da exportação de dados
 uuid: de7f3608-c0cb-4049-973a-8be54525c600
 feature: Data Export Controls
 exl-id: 4369c210-bcf1-48cc-a9bb-0d122f6c03d4
-source-git-commit: 26aa0a210a045b40b2329844324315a092947188
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 1%
@@ -48,6 +48,7 @@ Além disso, pelo menos um rótulo de exportação deve corresponder a um contro
 >[!IMPORTANT]
 >
 >Não é possível bloquear a exportação de um segmento ao colocar um controle de exportação de dados na fonte de dados do segmento. Você deve definir o controle em um dos seguintes:
+>
 > * As fontes de dados das características usadas no segmento;
 > * A regra de mesclagem de perfis utilizada pelo segmento;
 > * Qualquer uma das fontes de dados que a regra de mesclagem de perfis do segmento usa.

@@ -5,7 +5,7 @@ solution: Audience Manager
 title: Ofuscação de endereço IP
 feature: Data Governance & Privacy
 exl-id: 8c976d1e-f4ba-4892-bd68-d4e74bdb4d9b
-source-git-commit: ae074cdeb8dcf6f6a224c2ede5f3bb704b28f49f
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 12%
@@ -31,7 +31,7 @@ Consulte também Coleta e ofuscação de endereço IP na nossa [seção Privacid
 
 ### Precedência de ofuscação de IP {#precedence}
 
-[Ofuscação de IP em nível de sequência de dados](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=pt-BR#create) tem prioridade sobre qualquer opção de ofuscação de IP definida no Audience Manager e é aplicada a todos os endereços IP. Qualquer pesquisa de localização geográfica feita pelo Audience Manager é afetada pela opção [!UICONTROL IP obfuscation] no nível de sequência de dados. Uma pesquisa de geolocalização no Audience Manager, com base em um IP totalmente ofuscado, resultará em uma região desconhecida e todos os segmentos baseados nos dados de geolocalização resultantes não serão realizados.
+[Ofuscação de IP em nível de sequência de dados](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#create) tem prioridade sobre qualquer opção de ofuscação de IP definida no Audience Manager e é aplicada a todos os endereços IP. Qualquer pesquisa de localização geográfica feita pelo Audience Manager é afetada pela opção [!UICONTROL IP obfuscation] no nível de sequência de dados. Uma pesquisa de geolocalização no Audience Manager, com base em um IP totalmente ofuscado, resultará em uma região desconhecida e todos os segmentos baseados nos dados de geolocalização resultantes não serão realizados.
 
 ## Requisitos de ofuscação de endereço IP {#ip-obfuscation-requirements}
 
@@ -62,4 +62,5 @@ Para desabilitar a ofuscação de endereço IP para países específicos, locali
 
 * [Privacidade de dados](/help/using/overview/data-security-and-privacy/data-privacy.md)
 * Demonstração do vídeo de ofuscação do endereço IP
->[!VIDEO](https://video.tv.adobe.com/v/34983?captions=por_br)
+
+>[!VIDEO](https://video.tv.adobe.com/v/27218/)

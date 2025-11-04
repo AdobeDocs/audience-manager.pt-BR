@@ -6,7 +6,7 @@ title: Supressão instantânea entre dispositivos
 uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
 feature: Profile Merge
 exl-id: b9686210-e1aa-4f0a-a549-27d29c94e963
-source-git-commit: 2643bebea8618124d5c96906e8dc89e21024d51a
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 6%
@@ -42,11 +42,13 @@ Seus visitantes se qualificam para o segmento desde que não tenham convertido. 
 Você pode garantir que não esteja inundando seus usuários com a mesma criatividade ao definir controles de recenticidade e frequência. Nesse cenário, crie um segmento com duas características, conforme descrito nas etapas abaixo.
 
 1. Crie um segmento usando duas características e use a lógica [!UICONTROL AND], conforme mostrado na imagem abaixo. Você deve usar uma característica com base em regras para definir o evento de impressão para que o cancelamento de segmento seja acionado em tempo real. Leia mais sobre como [criar características com base em regras](../traits/create-onboarded-rule-based-traits.md).
+
    >[!NOTE]
    >
    >Você pode usar o [!UICONTROL Actionable Log Files] ou o [!UICONTROL Pixel Calls] para criar características com base nas impressões do usuário. Leia mais sobre [Arquivos de Log Acionáveis](../../integration/media-data-integration/actionable-log-files.md) e [Chamadas de Pixel](../../integration/media-data-integration/impression-data-pixels.md).
-2. Aplique controles de frequência à segunda característica. Se desejar, também é possível adicionar controles de recenticidade. Leia mais sobre [como aplicar controles de recenticidade e frequência](../segments/recency-and-frequency.md).
-3. Mapeie o segmento para qualquer número de destinos de servidor para servidor em tempo real. Leia sobre como adicionar segmentos a [destinos de servidor para servidor](../destinations/add-edit-segments.md).
+
+1. Aplique controles de frequência à segunda característica. Se desejar, também é possível adicionar controles de recenticidade. Leia mais sobre [como aplicar controles de recenticidade e frequência](../segments/recency-and-frequency.md).
+1. Mapeie o segmento para qualquer número de destinos de servidor para servidor em tempo real. Leia sobre como adicionar segmentos a [destinos de servidor para servidor](../destinations/add-edit-segments.md).
 
 Nesse cenário, uma vez que os usuários tenham acumulado mais de três impressões, eles serão removidos desse segmento e não verão mais esse criativo específico.
 

@@ -7,7 +7,7 @@ title: Construtor de segmentos
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 feature: Segments
 exl-id: 1bd681e4-fdf7-40df-b497-b1b0bf19d68e
-source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '1048'
 ht-degree: 2%
@@ -58,7 +58,7 @@ Comece assistindo ao vídeo [Criar segmentos no Audience Manager](https://images
 
 Assista ao vídeo abaixo para obter uma visão detalhada de como as métricas entre dispositivos funcionam.
 
->[!VIDEO](https://video.tv.adobe.com/v/36859?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/33445)
 
 ## [!UICONTROL Segment Builder] Controles: [!UICONTROL Basic Information] Seção {#segment-builder-controls-basics}
 
@@ -110,7 +110,7 @@ Em [!UICONTROL Segment Builder], as configurações de [!UICONTROL the Basic Inf
 -->
 
 | Campo | Descrição |
----------|----------
+|---------|----------|
 | **[!UICONTROL Name]** | Dê ao segmento um nome curto e lógico que descreva sua função ou finalidade. Evite abreviações e caracteres especiais. O comprimento máximo de um nome de segmento é de 255 caracteres. |
 | **[!UICONTROL Description]** | Um campo para obter informações descritivas adicionais sobre o segmento. |
 | **[!UICONTROL Integration Code]** | Um campo para uma ID definida pelo usuário ou outras informações específicas da empresa. |

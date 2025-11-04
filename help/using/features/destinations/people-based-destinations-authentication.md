@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Autenticação com plataformas com base em pessoas
 feature: People-based Destinations
 exl-id: d3e136d0-2b06-412a-9b9b-75b661c9aa14
-source-git-commit: 1809e9ee0b19a8ffb4bec38162f728d543d13701
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
@@ -52,7 +52,9 @@ Veja como adicionar endereços de email a integrações existentes:
 Quando um token de autenticação expira, a integração entre o Audience Manager e a plataforma social correspondente é interrompida, de modo que o Audience Manager não pode mais enviar segmentos de público-alvo para o destino. A página [!UICONTROL Integrated Accounts] mostra o status de expiração de cada integração na coluna [!UICONTROL Expiration] e permite que você renove a autenticação a qualquer momento.
 
 Veja a seguir como renovar uma autenticação expirada ou prestes a expirar:
+
 1. Faça logon em sua conta do Audience Manager e vá para **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**.
 1. Identifique a integração para a qual você precisa renovar a autenticação. Autenticações expiradas são marcadas como [!UICONTROL Expired], enquanto autenticações que estão prestes a expirar em breve mostram o número restante de dias autenticados.
 1. Clique no ícone **[!UICONTROL Renew]** correspondente na coluna [!UICONTROL Expiration]. Isso aciona o fluxo de trabalho **[!UICONTROL Renew Account]**, que orienta você pela página de autenticação da plataforma social. Depois de autenticado, o token é renovado com a nova data de expiração.
+
    ![pbd-renew](assets/pbd-renew.png)

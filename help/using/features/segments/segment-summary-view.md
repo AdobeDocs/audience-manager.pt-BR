@@ -8,7 +8,7 @@ uuid: e844e423-9701-42d4-9ba5-d82f41358adc
 keywords: detalhamento por tipo de identidade, detalhamento de identidade, relatórios de identidade de público-alvo, entre dispositivos, ID entre dispositivos, ID de dispositivo
 feature: Segments
 exl-id: d33c8146-fd98-47fc-aa3d-96f002538df4
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%
@@ -36,11 +36,11 @@ A parte superior da página de detalhes do segmento hospeda as ferramentas que v
 Abaixo das ferramentas de gerenciamento de segmentos, você pode encontrar as seguintes informações de segmentos:
 
 1. **[!UICONTROL Basic Information]:** Mostra os detalhes obrigatórios e opcionais especificados quando o segmento foi criado. Consulte [Construtor de segmentos](segment-builder.md) para obter uma visão geral detalhada do que significam esses campos.
-2. **[!UICONTROL Segment Graph]:** Exibe dados de desempenho graficamente e para intervalos fixos de 1, 7, 14, 30, 60 e 90 dias. Explicamos os números da população de segmentos em um [artigo separado](../../features/segments/segment-builder-data.md).
+1. **[!UICONTROL Segment Graph]:** Exibe dados de desempenho graficamente e para intervalos fixos de 1, 7, 14, 30, 60 e 90 dias. Explicamos os números da população de segmentos em um [artigo separado](../../features/segments/segment-builder-data.md).
 
    ![gráfico de segmentos](assets/segment-graph.png)
 
-3. **[!UICONTROL Identity Type Breakdown]:** O relatório mostra o número de pessoas ou residências qualificadas para um segmento, contando o número de IDs entre dispositivos e/ou IDs de Gráficos de Dispositivos Externos vinculadas aos dispositivos qualificados para o segmento (mostrado pelo [!UICONTROL Total Segment Population]). As IDs entre dispositivos e as IDs do gráfico de dispositivos externos mostradas neste relatório são usadas para mesclar perfis com a regra de mesclagem de perfis que o segmento está usando. Esse relatório será exibido somente se você tiver selecionado uma fonte de dados entre dispositivos ou um Gráfico de dispositivos externos na regra de mesclagem de perfis que o segmento está usando.
+1. **[!UICONTROL Identity Type Breakdown]:** O relatório mostra o número de pessoas ou residências qualificadas para um segmento, contando o número de IDs entre dispositivos e/ou IDs de Gráficos de Dispositivos Externos vinculadas aos dispositivos qualificados para o segmento (mostrado pelo [!UICONTROL Total Segment Population]). As IDs entre dispositivos e as IDs do gráfico de dispositivos externos mostradas neste relatório são usadas para mesclar perfis com a regra de mesclagem de perfis que o segmento está usando. Esse relatório será exibido somente se você tiver selecionado uma fonte de dados entre dispositivos ou um Gráfico de dispositivos externos na regra de mesclagem de perfis que o segmento está usando.
 
    ![gráfico de segmentos](assets/segment-type.png)
 
@@ -49,8 +49,9 @@ Abaixo das ferramentas de gerenciamento de segmentos, você pode encontrar as se
    >O Audience Manager só exibirá o relatório [!UICONTROL Identity Type Breakdown] se você tiver IDs entre dispositivos qualificadas para o segmento.
 
    Assista ao vídeo abaixo para obter uma visão geral do [!UICONTROL Identity Type Breakdown].
-   >[!VIDEO](https://video.tv.adobe.com/v/32079?captions=por_br)
 
-4. **[!UICONTROL Segment Rules]:** Lista as características no segmento junto com as regras de qualificação.
-5. **[!UICONTROL Destination Mappings]:** Lista os mapeamentos de destino do segmento.
-6. **[!UICONTROL Management Tools]:** Controles que permitem criar, editar, clonar e excluir segmentos.
+   >[!VIDEO](https://video.tv.adobe.com/v/27977/)
+
+1. **[!UICONTROL Segment Rules]:** Lista as características no segmento junto com as regras de qualificação.
+1. **[!UICONTROL Destination Mappings]:** Lista os mapeamentos de destino do segmento.
+1. **[!UICONTROL Management Tools]:** Controles que permitem criar, editar, clonar e excluir segmentos.

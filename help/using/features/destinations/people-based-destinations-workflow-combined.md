@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Fluxo de trabalho A - Personalization com base em toda a atividade online combinada com dados offline
 feature: People-based Destinations
 exl-id: 1f906955-8fe7-4cce-95d6-0e4275d523e8
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '1108'
 ht-degree: 0%
@@ -36,11 +36,13 @@ Nesse caso, é necessário rotular a fonte de dados correspondente dessa maneira
 1. Verifique se a opção [!UICONTROL Cannot be tied to personally identifiable information] está desmarcada.
 1. Na seção **[!UICONTROL Data Source Settings]**, selecione as opções **[!UICONTROL Inbound]** e **[!UICONTROL Outbound]** e habilite a opção **[!UICONTROL Share associated cross-device IDs in people-based destinations]**.
 1. Use o menu suspenso para selecionar o rótulo **[!UICONTROL Emails(SHA256, lowercased)]** para esta fonte de dados.
+
    >[!IMPORTANT]
    >
    >Essa opção rotula apenas a fonte de dados como contendo dados com hash com esse algoritmo específico. A Audience Manager não faz o hash dos dados nesta etapa. Verifique se os endereços de email que você planeja armazenar nesta fonte de dados já foram atribuídos a hash com o algoritmo [!DNL SHA256]. Caso contrário, você não poderá usá-lo para [!DNL People-Based Destinations].
 
    ![pbd-datasource-settings](assets/pbd-ds-config.png)
+
 1. Salve as configurações da fonte de dados.
 
  
@@ -54,6 +56,7 @@ Nesse caso, você precisa criar uma nova fonte de dados entre dispositivos que a
 1. No menu suspenso **[!UICONTROL ID Type]**, selecione **[!UICONTROL Cross Device]**.
 1. Na seção **[!UICONTROL Data Source Settings]**, selecione as opções **[!UICONTROL Inbound]** e **[!UICONTROL Outbound]** e habilite a opção **[!UICONTROL Share associated cross-device IDs in people-based destinations]**.
 1. Use o menu suspenso para selecionar o rótulo **[!UICONTROL Emails(SHA256, lowercased)]** para esta fonte de dados.
+
    >[!IMPORTANT]
    >
    >Essa opção rotula apenas a fonte de dados como contendo dados com hash com esse algoritmo específico. A Audience Manager não faz o hash dos dados nesta etapa. Verifique se os endereços de email que você planeja armazenar nesta fonte de dados já foram atribuídos a hash com o algoritmo [!DNL SHA256]. Caso contrário, você não poderá usá-lo para [!DNL People-Based Destinations].
@@ -63,7 +66,7 @@ Nesse caso, você precisa criar uma nova fonte de dados entre dispositivos que a
 
 Assista ao vídeo abaixo para obter um tutorial em vídeo sobre como criar uma fonte de dados para [!UICONTROL People-Based Destinations].
 
->[!VIDEO](https://video.tv.adobe.com/v/32578?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/)
 
 >[!NOTE]
 >

@@ -7,7 +7,7 @@ title: Sintaxe de código usada no Editor de expressão de segmentos
 uuid: 7b4b06ca-7879-4501-8ba7-b2b6467b8a3b
 feature: Segments
 exl-id: 64fa6f03-cef9-4187-866f-28c54f45f72e
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 4%
@@ -44,9 +44,9 @@ Para compilar grupos de segmentos, envolva a função de frequência entre parê
 | Nome ou variável | Descrição |
 |---|---|
 | `FREQUENCY` | Um literal que deve preceder a expressão. |
-| ` [`&lt;`traitID`>`T]` | Uma matriz de IDs de características seguida pela letra `T`. Separe várias características com uma vírgula. Por exemplo, `[123T, 456T]`. |
-| ` <Recency Operator><Numeric Value>D` | *(Opcional)* Define regras de recenticidade nas características do segmento. A letra `D` indica recenticidade em dias. |
-| ` <Frequency Operator><Numeric Value>` | Define regras de frequência nas características no segmento. |
+| `[`&lt;`traitID`>`T]` | Uma matriz de IDs de características seguida pela letra `T`. Separe várias características com uma vírgula. Por exemplo, `[123T, 456T]`. |
+| `<Recency Operator><Numeric Value>D` | *(Opcional)* Define regras de recenticidade nas características do segmento. A letra `D` indica recenticidade em dias. |
+| `<Frequency Operator><Numeric Value>` | Define regras de frequência nas características no segmento. |
 
 ### Operadores de recenticidade e frequência permitidos
 

@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Fluxo de trabalho B - Personalization com base em dados somente offline
 feature: People-based Destinations
 exl-id: d980de26-3133-4ae3-80c2-8c3bf2480bbd
-source-git-commit: 87c3169083f0dc66490e6a8c808e16371f1d78c0
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '1123'
 ht-degree: 1%
@@ -79,6 +79,7 @@ Nesse caso, você precisa criar uma nova fonte de dados entre dispositivos que a
 1. No menu suspenso **[!UICONTROL ID Type]**, selecione **[!UICONTROL Cross Device]**.
 1. Na seção **[!UICONTROL Data Source Settings]**, selecione as opções **[!UICONTROL Inbound]** e **[!UICONTROL Outbound]** e habilite a opção **[!UICONTROL Share associated cross-device IDs in people-based destinations]**.
 1. Use o menu suspenso para selecionar o rótulo **[!UICONTROL Emails(SHA256, lowercased)]** para esta fonte de dados.
+
    >[!IMPORTANT]
    >
    >Essa opção rotula apenas a fonte de dados como contendo dados com hash com esse algoritmo específico. A Audience Manager não faz o hash dos dados nesta etapa. Verifique se os endereços de email que você planeja armazenar nesta fonte de dados já foram atribuídos a hash com o algoritmo [!DNL SHA256]. Caso contrário, você não poderá usá-lo para [!DNL People-Based Destinations].
@@ -91,7 +92,7 @@ Nesse caso, você precisa criar uma nova fonte de dados entre dispositivos que a
 
 Assista ao vídeo abaixo para obter um tutorial em vídeo sobre como criar uma fonte de dados para [!UICONTROL People-Based Destinations].
 
->[!VIDEO](https://video.tv.adobe.com/v/32578?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/)
 
 ## Etapa 3 - Corresponder DPUUIDs a Endereços de email com hash por meio da Sincronização de ID com base em arquivo {#match-ids-emails}
 

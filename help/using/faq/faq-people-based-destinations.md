@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Perguntas frequentes sobre Destinos com base em pessoas
 feature: People-based Destinations
 exl-id: 56506bf0-45f1-49df-81ac-10f57a2487eb
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '1161'
-ht-degree: 93%
+ht-degree: 86%
 
 ---
 
@@ -60,6 +60,7 @@ Sim. Os clientes que compram [!DNL People-Based Destinations] também recebem ac
 Depende do caso de uso. Se você quiser ativar segmentos primários existentes em canais com base em pessoas, não é necessário criar novos segmentos. Você pode mapear os segmentos para um destino com base em pessoas.
 
 Se você quiser ativar novos públicos offline em canais com base em pessoas, é necessário criar novos segmentos primários usando a regra de mesclagem [!DNL All Cross-Device Profiles].
+
 >[!NOTE]
 >
 > Somente é possível mapear segmentos com dados primários para [!DNL People-Based Destinations]. Nossas plataformas de destino não aceitam segmentos com dados secundários e de terceiros.
@@ -106,13 +107,13 @@ Antes de poder usar [!DNL People-Based Destinations] para enviar segmentos de p�
 
 **Os [!DNL People-Based Destinations] oferecem suporte ao direcionamento de público-alvo em outros aplicativos do [!DNL Facebook], como o [!DNL Instagram]?**
 
-Você pode usar [!DNL People-Based Destinations] em toda a família de aplicativos do [!DNL Facebook] compatíveis com [!DNL Custom Audiences], como [!DNL Facebook], [!DNL Instagram], [!DNL Audience Network] e [!DNL Messenger]. A seleção do aplicativo no qual você deseja executar a campanha é indicada no nível de posicionamento no [!DNL Facebook Ads Manager].
+Você pode usar [!DNL People-Based Destinations] em toda a família de aplicativos de [!DNL Facebook] com suporte de [!DNL Custom Audiences], incluindo [!DNL Facebook], [!DNL Instagram], [!DNL Audience Network] e [!DNL Messenger]. A seleção do aplicativo no qual você deseja executar a campanha é indicada no nível de posicionamento no [!DNL Facebook Ads Manager].
 
-**Qual é a diferença entre [!DNL People-Based Destinations] e [!DNL Website Custom Audiences]?**
+**Qual é a diferença entre [!DNL People-Based Destinations] e [!DNL Website Custom Audiences]?**
 
 [!DNL People-Based Destinations] usam a [!DNL Custom Audiences (CA)] integração com [!DNL Facebook]. A diferença entre as integrações de [!DNL WCA] e [!DNL CA] é a chave que os clientes usam ao enviar públicos para o [!DNL Facebook]. O [!DNL WCA] usa o pixel do [!DNL Facebook] (que seria uma ID de usuário do site), e os [!DNL People-Based Destinations] usam endereços de email com hash para integrar-se com o [!DNL CA].
 
-Você pode usar a integração entre [!DNL Facebook] [!DNL WCA] do Audience Manager com o recurso [!DNL URL Destinations] sem custo adicional.
+Você pode usar a integração do [!DNL Facebook] [!DNL WCA] do Audience Manager através do recurso [!DNL URL Destinations] sem custo extra.
 
 Estas duas integrações são complementares; você pode usar ambas para garantir uma melhor cobertura do público-alvo. Como exemplo, o [!DNL WCA] pode ser usado para prospecção quando uma empresas está procurando direcionar visitantes de sites que não registraram uma conta, enquanto o [!DNL People-Based Destinations] pode ajudar você a direcionar clientes existentes que forneceram o endereço de email, mas talvez não visitaram o site.
 

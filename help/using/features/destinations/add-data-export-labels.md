@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Adicionar controles de exportação de dados a um destino
 feature: Data Export Controls
 exl-id: 12cfd2cc-b343-4dd1-a188-acbfc5cd25a2
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 2%
@@ -26,16 +26,21 @@ ht-degree: 2%
 Para adicionar rótulos de exportação a um destino:
 
 1. Clique em **[!UICONTROL Audience Data]**:
+
    * Para novos destinos: Clique em **[!UICONTROL Create New Destination]**. Conclua a seção [!UICONTROL Basic Information] antes de selecionar um rótulo de exportação de dados. Consulte [Criar um Destino de Cookie](../../features/destinations/create-cookie-destination.md) ou [Criar um Destino de URL](../../features/destinations/create-url-destination.md) para obter informações.
    * Para destinos existentes: Use a caixa [!DNL Search] para encontrar seu destino ou percorrer a lista e clique no nome do destino para abri-lo.
+
 1. Selecione um [!DNL Data Export Label]. Deixe as caixas de seleção em branco se não quiser definir restrições de exportação. Os rótulos de exportação incluem as seguintes opções:
+
    * **[!UICONTROL This destination may enable a combination with personally identifiable information (PII)]**
    * **[!UICONTROL This destination may be used for on-site ad targeting]**
    * **[!UICONTROL This destination may be used for off-site ad targeting]**
    * **[!UICONTROL This destination may be used for on-site ad personalization]**
+
    >[!IMPORTANT]
    >
    >Restrições de exportação não funcionarão a menos que você defina um [controle de exportação correspondente](../../features/data-export-controls.md) em uma fonte de dados.
+
 1. Clique em **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
