@@ -33,4 +33,4 @@ Essa integração permite que você veja os nomes amigáveis para pares de valor
 
 O vídeo abaixo mostra como usar o [!UICONTROL Data Explorer] para descobrir e usar seus dados do Adobe Analytics, incluindo a pesquisa de sinais usados e não usados, a criação de características do Analytics e a compreensão dos dados.
 
->[!VIDEO](https://video.tv.adobe.com/v/25150)
+>[!VIDEO](https://video.tv.adobe.com/v/30835?captions=por_br)

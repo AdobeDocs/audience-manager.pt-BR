@@ -63,4 +63,4 @@ Para desabilitar a ofuscação de endereço IP para países específicos, locali
 * [Privacidade de dados](/help/using/overview/data-security-and-privacy/data-privacy.md)
 * Demonstração do vídeo de ofuscação do endereço IP
 
->[!VIDEO](https://video.tv.adobe.com/v/27218/)
+>[!VIDEO](https://video.tv.adobe.com/v/34983?captions=por_br)
