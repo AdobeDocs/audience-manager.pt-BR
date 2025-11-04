@@ -31,7 +31,7 @@ Permitir que nossos clientes criem segmentos e modelos de dados personalizados �
 
 ## A Taxonomia Usa Categorias De Classificação Padrão Do Setor
 
-A taxonomia comum é baseada nas classificações criadas pelo [!DNL Interactive Advertising Bureau (IAB)]. Consulte o [!DNL IAB]site[ do ](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines) para obter mais informações sobre diretrizes de controle de qualidade para redes e trocas.
+A taxonomia comum é baseada nas classificações criadas pelo [!DNL Interactive Advertising Bureau (IAB)]. Consulte o [!DNL IAB]site[&#x200B; do &#x200B;](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines) para obter mais informações sobre diretrizes de controle de qualidade para redes e trocas.
 
 ## Organização taxonômica
 
