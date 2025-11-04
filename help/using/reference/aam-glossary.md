@@ -61,7 +61,7 @@ No [Público-alvo endereçável](/help/using/features/addressable-audiences.md),
 
 **Atributos do cliente**
 
-Consulte [Atributos do cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) na documentação do produto [!DNL Experience Cloud Core Services].
+Consulte [Atributos do cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=pt-BR) na documentação do produto [!DNL Experience Cloud Core Services].
 
 
 
@@ -113,7 +113,7 @@ A [!UICONTROL Data Integration Library] é uma biblioteca de API usada pelo [!DN
 
 **Experience Cloud ID (ECID)**
 
-Anteriormente chamada de [!DNL Marketing Cloud] ID (MID ou MCID). A [!DNL Experience Cloud] ID é essencial para o serviço de ID. É um identificador exclusivo e persistente para os visitantes do site. Consulte Cookies e o [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
+Anteriormente chamada de [!DNL Marketing Cloud] ID (MID ou MCID). A [!DNL Experience Cloud] ID é essencial para o serviço de ID. É um identificador exclusivo e persistente para os visitantes do site. Consulte Cookies e o [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=pt-BR).
 
 
 
@@ -270,6 +270,6 @@ O TTL define quantos dias um visitante qualificado permanece em uma característ
 
 O [!DNL Experience Cloud] ID Service (antiga ID de visitante) oferece uma ID persistente e universal que identifica os visitantes em todas as soluções da [!DNL Experience Cloud].
 
-Consulte a documentação do [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+Consulte a documentação do [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR).
 
 ## W-X-Y-Z {#w-z}

@@ -20,7 +20,7 @@ ht-degree: 2%
 
 ## Criar um modelo de públicos preditivos {#create-predictive-audiences}
 
-Antes de criar um modelo [!UICONTROL Predictive Audiences], é necessário decidir a qual fonte de dados primária você deseja atribuir suas características e segmentos [!UICONTROL Predictive Audiences]. Você pode usar uma fonte de dados primária existente ou criar uma nova. Consulte [Gerenciar fontes de dados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html) para obter detalhes sobre como criar uma nova fonte de dados própria.
+Antes de criar um modelo [!UICONTROL Predictive Audiences], é necessário decidir a qual fonte de dados primária você deseja atribuir suas características e segmentos [!UICONTROL Predictive Audiences]. Você pode usar uma fonte de dados primária existente ou criar uma nova. Consulte [Gerenciar fontes de dados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html?lang=pt-BR) para obter detalhes sobre como criar uma nova fonte de dados própria.
 
 Depois de saber qual fonte de dados você usará, siga as etapas abaixo.
 
