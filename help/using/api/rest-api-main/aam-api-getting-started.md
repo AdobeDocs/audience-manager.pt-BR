@@ -420,7 +420,7 @@ Dependendo do método de autenticação usado, é necessário ajustar sua solici
 
 {style="table-layout:auto"}
 
-### Solicitar [!DNL URLs] para a [!BADGE Autenticação &#x200B;]{type=negative} herdada[!DNL OAuth] obsoleta {#request-urls-oauth}
+### Solicitar [!DNL URLs] para a [!BADGE Autenticação ]{type=negative} herdada[!DNL OAuth] obsoleta {#request-urls-oauth}
 
 | [!DNL API] Métodos | Solicitação [!DNL URL] |
 |--- |--- |
