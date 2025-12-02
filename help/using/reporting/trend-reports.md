@@ -7,9 +7,9 @@ title: Relatórios de tendência
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
 feature: General & Trend Reports
 exl-id: 3373f413-cc8f-49c7-9b4e-34b39e0efc38
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 42f9b32edcde423369f7e8254b04fdc6162130d0
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ Zeros indicam que [!DNL Audience Manager] não coletou dados para esse dia. Entr
 
 Assista ao vídeo abaixo para obter uma visão detalhada de como as métricas entre dispositivos funcionam.
 
->[!VIDEO](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html?lang=pt-BR)
+[Noções básicas sobre métricas entre dispositivos no Audience Manager](https://experienceleague.adobe.com/en/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager)
 
 ## Resultados do relatório de tendências para segmentos {#segment-report-results-traits}
 

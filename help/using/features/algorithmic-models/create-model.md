@@ -8,9 +8,9 @@ title: Criar um modelo algorítmico
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 feature: Algorithmic Models
 exl-id: 8b7c4f57-f2c8-46f1-8924-5513fd6ede04
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 6956793aa8d31d16a7add648b8d205dec6f75202
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Siga as etapas abaixo para criar um [!UICONTROL Look-Alike Model]:
 
 Assista ao vídeo abaixo para obter uma visão detalhada de como as métricas entre dispositivos funcionam.
 
->[!VIDEO](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html?lang=pt-BR)
+[Noções básicas sobre métricas entre dispositivos no Audience Manager](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager)
 
 ## Informações Básicas para Modelos Algorítmicos {#basic-information}
 
@@ -111,7 +111,7 @@ Preencha primeiro os campos obrigatórios na seção [!UICONTROL Basic Informati
 
 Assista ao vídeo abaixo para saber como criar um modelo semelhante próprio, para que você possa encontrar mais de seus próprios visitantes que se parecem com seus conversores.
 
->[!VIDEO](https://video.tv.adobe.com/v/30831?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/23504/)
 
 >[!MORELIKETHIS]
 >
