@@ -4,7 +4,7 @@ title: Códigos de erros, mensagens e exemplos de DCS
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 exl-id: 485e5ce2-143e-4d18-b157-c243c5a510ad
-source-git-commit: 5044a38c751abace922008f00b9ff463ea9c7e57
+source-git-commit: 2012c244f6fa5ca01c7e2719ce621214cb22f93e
 workflow-type: tm+mt
 source-wordcount: '1517'
 ht-degree: 3%
@@ -23,7 +23,7 @@ Nas tabelas abaixo, *itálico* representa um espaço reservado para variável.
 |---|---|---|
 | 0 | Erro não especificado | Este é um erro &quot;catch-all&quot; (global) que lida com eventos não cobertos por outros manipuladores de erro. É difícil solucionar esse erro. Ela pode ser causada por várias ações ou eventos desconhecidos. Se você receber esse erro, tente sua solicitação [!DNL DCS] novamente. Entre em contato com o representante do [!DNL Adobe] se o problema persistir. |
 | 1 | Não foi possível encontrar a configuração para o nome de host: `hostname` | O nome do host enviado na solicitação não foi configurado pela equipe de provisionamento do parceiro. Entre em contato com o representante do [!DNL Adobe] se você vir esta mensagem de erro. |
-| 2 | Valor `d_orgid` inválido (não foi possível encontrar uma configuração para esta id de organização): `ID` | A ID da organização está incorreta. Verifique sua ID e tente a solicitação novamente. Se você não souber ou tiver sua ID da Organização, consulte a seção &quot;Página de Administração&quot; [Organizações e vinculação de contas](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=pt-BR) para obter informações sobre como encontrá-la. |
+| 2 | Valor `d_orgid` inválido (não foi possível encontrar uma configuração para esta id de organização): `ID` | A ID da organização está incorreta. Verifique sua ID e tente a solicitação novamente. Se você não souber ou tiver sua ID da Organização, consulte a seção &quot;Página de Administração&quot; [Organizações e vinculação de contas](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html) para obter informações sobre como encontrá-la. |
 | 10 | Não foi possível avaliar as características | As características na solicitação foram parcialmente avaliadas ou não foram avaliadas. Entre em contato com o representante do [!DNL Adobe] se o problema persistir. |
 
 ## Códigos de erro de integração {#integration-error-codes}
@@ -151,7 +151,7 @@ Nas tabelas abaixo, *itálico* representa um espaço reservado para variável.
   <tr> 
    <td colname="col1"> <p>302 </p> </td> 
    <td colname="col2"> <p>ID de cliente não autorizada <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Retornado quando a fonte de dados da ID do cliente não pertence à ID da organização atual. Se você não souber ou tiver sua ID da organização, consulte a seção "Localizar a ID da organização" em <a href="https://experiencecloud.adobe.com/resources/help/pt_BR/mcloud/organizations.html" format="https" scope="external"> Organizações e Vinculação de Contas</a> para obter informações sobre como encontrá-la. </p> </td> 
+   <td colname="col3"> <p>Retornado quando a fonte de dados da ID do cliente não pertence à ID da organização atual. Se você não souber ou tiver sua ID da organização, consulte a seção "Localizar a ID da organização" em <a href="https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html" format="https" scope="external"> Organizações e Vinculação de Contas</a> para obter informações sobre como encontrá-la. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
@@ -181,7 +181,7 @@ Nas tabelas abaixo, *itálico* representa um espaço reservado para variável.
   <tr> 
    <td colname="col1"> <p>310 </p> </td> 
    <td colname="col2"> <p>A ID do cliente foi descartada porque excedeu o limite de um determinado namespace. A ID do namespace é <code><i>ID</i></code>, a ID do cliente é <code><i>ID</i></code>. </p> </td> 
-   <td colname="col3"> <p>Este código de erro será retornado se houver mais de 3 IDs de cliente declaradas para o mesmo namespace (<code> DPID</code>) em uma chamada DCS<span class="wintitle"> do </span>. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&d_cid_ic=one&d_cid_ic=one&d_cid_ic=one&d_cid_ic=one </code> </p> <p>Nesta amostra de solicitação <span class="wintitle"> DCS</span>, há 4 IDs declaradas para o mesmo namespace (com o código de integração um). Uma das IDs é descartada e o erro 310 é retornado. </p> </td> 
+   <td colname="col3"> <p>Este código de erro será retornado se houver mais de 3 IDs de cliente declaradas para o mesmo namespace (<code> DPID</code>) em uma chamada DCS<span class="wintitle"> do </span>. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </code> </p> <p>Nesta amostra de solicitação <span class="wintitle"> DCS</span>, há 4 IDs declaradas para o mesmo namespace (com o código de integração um). Uma das IDs é descartada e o erro 310 é retornado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>311 </p> </td> 
@@ -192,7 +192,7 @@ Nas tabelas abaixo, *itálico* representa um espaço reservado para variável.
    <td colname="col1"> <p>312 </p> </td> 
    <td colname="col2"> <p>A solicitação contém uma ID de dispositivo global inválida </p> </td> 
    <td colname="col3"> <p>O <span class="wintitle">DCS</span> retorna este código de erro quando a solicitação contém uma ID de Dispositivo Global inválida. O DCS ignora a ID inválida e lança um erro 312 juntamente com os erros específicos da ID inválida. Consulte <a href="../../../features/global-data-sources.md" format="dita" scope="local">Fontes de Dados Globais</a> e <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">Índice de IDs no Audience Manager</a> para obter informações detalhadas sobre os formatos corretos de ID de publicidade do dispositivo e as fontes de dados globais correspondentes.</p>
-   <p>Exemplo de chamada incorreta: <code>"http://partner.demdex.net/event?d_rtbd=json&d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
+   <p>Exemplo de chamada incorreta: <code>"http://partner.demdex.net/event?d_rtbd=json&amp;d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
    <p>Explicação: Um <span class="keyword">IDFA (DPID 20915)</span> deve ser uma ID em maiúsculas. A ID fornecida na solicitação está em minúsculas.</p>
    </td>
   </tr>
@@ -213,8 +213,7 @@ Nas tabelas abaixo, *itálico* representa um espaço reservado para variável.
    <td colname="col3"> <p>Quando nenhum consentimento é fornecido, o Plug-in do Audience Manager para TCF do IAB recusa a coleta de dados adicional do usuário ou desativa a chamada completamente se não for detectado nenhum contexto de parceiro.</p>
    </td>
   </tr>
-
-</tbody>
+ </tbody>
 </table>
 
 ## Exemplo de mensagens de código de erro {#sample-error-codes}
