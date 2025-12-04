@@ -23,7 +23,7 @@ Nas tabelas abaixo, *itálico* representa um espaço reservado para variável.
 |---|---|---|
 | 0 | Erro não especificado | Este é um erro &quot;catch-all&quot; (global) que lida com eventos não cobertos por outros manipuladores de erro. É difícil solucionar esse erro. Ela pode ser causada por várias ações ou eventos desconhecidos. Se você receber esse erro, tente sua solicitação [!DNL DCS] novamente. Entre em contato com o representante do [!DNL Adobe] se o problema persistir. |
 | 1 | Não foi possível encontrar a configuração para o nome de host: `hostname` | O nome do host enviado na solicitação não foi configurado pela equipe de provisionamento do parceiro. Entre em contato com o representante do [!DNL Adobe] se você vir esta mensagem de erro. |
-| 2 | Valor `d_orgid` inválido (não foi possível encontrar uma configuração para esta id de organização): `ID` | A ID da organização está incorreta. Verifique sua ID e tente a solicitação novamente. Se você não souber ou tiver sua ID da Organização, consulte a seção &quot;Página de Administração&quot; [Organizações e vinculação de contas](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html) para obter informações sobre como encontrá-la. |
+| 2 | Valor `d_orgid` inválido (não foi possível encontrar uma configuração para esta id de organização): `ID` | A ID da organização está incorreta. Verifique sua ID e tente a solicitação novamente. Se você não souber ou tiver sua ID da Organização, consulte a seção &quot;Página de Administração&quot; [Organizações e vinculação de contas](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=pt-BR) para obter informações sobre como encontrá-la. |
 | 10 | Não foi possível avaliar as características | As características na solicitação foram parcialmente avaliadas ou não foram avaliadas. Entre em contato com o representante do [!DNL Adobe] se o problema persistir. |
 
 ## Códigos de erro de integração {#integration-error-codes}
@@ -151,7 +151,7 @@ Nas tabelas abaixo, *itálico* representa um espaço reservado para variável.
   <tr> 
    <td colname="col1"> <p>302 </p> </td> 
    <td colname="col2"> <p>ID de cliente não autorizada <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Retornado quando a fonte de dados da ID do cliente não pertence à ID da organização atual. Se você não souber ou tiver sua ID da organização, consulte a seção "Localizar a ID da organização" em <a href="https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html" format="https" scope="external"> Organizações e Vinculação de Contas</a> para obter informações sobre como encontrá-la. </p> </td> 
+   <td colname="col3"> <p>Retornado quando a fonte de dados da ID do cliente não pertence à ID da organização atual. Se você não souber ou tiver sua ID da organização, consulte a seção "Localizar a ID da organização" em <a href="https://experiencecloud.adobe.com/resources/help/pt_BR/mcloud/organizations.html" format="https" scope="external"> Organizações e Vinculação de Contas</a> para obter informações sobre como encontrá-la. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
