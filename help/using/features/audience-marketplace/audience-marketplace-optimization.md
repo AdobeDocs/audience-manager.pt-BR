@@ -5,7 +5,7 @@ title: Otimização do Audience Marketplace
 feature: Audience Marketplace
 hide: true
 exl-id: 92d4d043-3cc1-4a59-926f-c29709d9bc63
-source-git-commit: 2d694db141b311977e84cefc48ce14921c87ccc3
+source-git-commit: beb428b3d9f89bbd52b24da669a73cf5703172b5
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 0%
@@ -120,3 +120,4 @@ Se você tiver um forte caso comercial para manter um provedor de dados específ
 ### Quando as alterações entrarão em vigor?
 
 Os provedores de dados selecionados para remoção serão removidos durante agosto de 2025.
+
