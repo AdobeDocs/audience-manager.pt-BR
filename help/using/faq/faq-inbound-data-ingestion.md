@@ -8,7 +8,7 @@ title: Perguntas frequentes sobre assimilação de dados de entrada do cliente
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 feature: Onboarding Offline Data
 exl-id: 48eef5f1-0655-4dac-9ab4-74b11c705c13
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: f073dd733b512aa60d7817acbef76e51594900f8
 workflow-type: tm+mt
 source-wordcount: '1343'
 ht-degree: 86%
@@ -60,12 +60,12 @@ Consulte [Compactação de arquivos de transferência de dados de entrada](../in
 
 Sim. Desde que você use um [!UICONTROL cross-device data source] para armazenar os dados do CRM que você carrega, o Audience Manager sempre armazena os dados. Na verdade, após os [!UICONTROL Profile Merge Rules] aprimoramentos iniciados pelo Audience Manager em outubro de 2019 que permitem casos de uso somente offline, você pode fazer upload e executar ações em dados sem implantar o código Audience Manager na produção. Consulte:
 
-* [Visão geral das melhorias nas Regras de mesclagem de perfis](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html?lang=pt-BR)
-* [!UICONTROL People-based Destinations] - [Personalization com base em dados somente offline](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html?lang=pt-BR)
+* [Visão geral das melhorias nas Regras de mesclagem de perfis](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
+* [!UICONTROL People-based Destinations] - [Personalization com base em dados somente offline](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br> 
 
-<!---
+<!--
 * If the data provider is configured to use [Profile Link](../features/profile-merge-rules/merge-rules-overview.md) for cross-device targeting, the data available for targeting shortly after an ID sync identifies to the matching [!DNL Audience Manager] visitor ID.
 
 * If the data provider is not configured to use the [!UICONTROL Profile Link] feature, [!DNL Audience Manager] processes only the data for visitor IDs in the inbound data file that have been previously synced/matched back to an [!DNL Audience Manager] visitor ID.
