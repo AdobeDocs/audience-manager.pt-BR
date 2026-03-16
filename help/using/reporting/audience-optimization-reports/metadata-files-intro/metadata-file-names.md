@@ -1,9 +1,9 @@
 ---
-description: Name your Audience Optimization metadata file according to these specifications.
+description: Nomeie seu arquivo de metadados do Audience Optimization de acordo com essas especificações.
 seo-description: Name your Audience Optimization metadata file according to these specifications.
 seo-title: Naming Conventions for Metadata Files
 solution: Audience Manager
-title: Naming Conventions for Metadata Files
+title: Convenções de nomenclatura para arquivos de metadados
 uuid: cab55b2a-2e54-45f6-aeea-3735b911f821
 feature: Log Files
 exl-id: 7a895c4f-1100-4ba1-947e-abb47307fb40
@@ -14,43 +14,43 @@ ht-degree: 2%
 
 ---
 
-# Naming Conventions for Metadata Files{#naming-conventions-for-metadata-files}
+# Convenções de nomenclatura para arquivos de metadados{#naming-conventions-for-metadata-files}
 
-Name your Audience Optimization metadata file according to these specifications.
+Nomeie seu arquivo de metadados do Audience Optimization de acordo com essas especificações.
 
-## Syntax and ID Categories {#syntax}
+## Sintaxe e categorias de ID {#syntax}
 
-The following syntax defines the structure of a well-formed metadata file name. Note, *italics* indicates a variable placeholder. The other elements are constants and do not change.
+A sintaxe a seguir define a estrutura de um nome de arquivo de metadados bem formado. Observe que *itálico* indica um espaço reservado para variável. Os outros elementos são constantes e não são alterados.
 
-**Syntax:** *`yyyymmdd_0_childID`*
+**Sintaxe:** *`yyyymmdd_0_childID`*
 
 >[!NOTE]
 >
->*Do not* use file extensions in your metadata files (.txt or other).
+>*Não* use extensões de arquivo em seus arquivos de metadados (.txt ou outro).
 
 <!--In the name syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file contents](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md). These 2 variables seem similar, but they represent different things:-->
 
-* The middle component **0** is technically the Parent ID, which is a legacy field. The value should always be set as **0**.
-* The child ID can have a value between 1 and 10, depending on the dimension. Consulte abaixo:
+* Tecnicamente, o componente intermediário **0** é a ID pai, que é um campo herdado. O valor deve ser sempre definido como **0**.
+* A ID secundária pode ter um valor entre 1 e 10, dependendo da dimensão. Consulte abaixo:
 
-## Child ID dimensions {#child-dimension}
+## Dimensões da ID secundária {#child-dimension}
 
-In the metadata file name, the child ID is an identifier that classifies the type of data in a file and places it into a hierarchy. You can tag the child ID in file name with the following category IDs:
+No nome do arquivo de metadados, a ID secundária é um identificador que classifica o tipo de dados em um arquivo e o coloca em uma hierarquia. Você pode marcar a ID secundária no nome do arquivo com as seguintes IDs de categoria:
 
 1. Campanha
 1. Creative
 1. Posicionamento
 1. Exchange
 1. Site
-1. Advertiser (if using integration codes in a [data source](../../../features/manage-datasources.md#details))
-1. Insertion Order (IO)
-1. Vertical (i.e., a specific industry or business category like &quot;computers,&quot; &quot;automobiles,&quot; &quot;real estate,&quot; etc.)
-1. Tactic
-1. Business unit or brand
+1. Anunciante (se estiver usando códigos de integração em uma [fonte de dados](../../../features/manage-datasources.md#details))
+1. Ordem de inserção (IO)
+1. Vertical (ou seja, uma indústria específica ou categoria de negócios como &quot;computadores&quot;, &quot;automóveis&quot;, &quot;imóveis&quot; etc.)
+1. Tático
+1. Unidade de negócios ou marca
 
 ## Exemplo {#example}
 
-For a Creative metadata file, the file name could be 20190115_0_2.
+Para um arquivo de metadados do Creative, o nome do arquivo pode ser 20190115_0_2.
 
 <!--
 Let's take a look at how you would use these IDs in a metadata file name. As an example, say your data file consists of campaign creatives. In this case, the campaign is a parent object and the creatives are child objects because they belong to, or are contained by, the campaign. As a result, you'd choose the following IDs for the metadata file name:
