@@ -234,4 +234,4 @@ Nossos esforços de colaboração não param com a implantação final. Após a 
 
 Os gerentes de conta fornecem suporte contínuo e serviços de consultoria após a conclusão do processo de implementação do produto. Você pode ter reuniões regulares com seu gerente de conta da. Essas reuniões garantem que você obtenha o máximo de uso e valor da Audience Manager.
 
-Contate-nos [aqui](https://www.adobe.com/products/audiencemanager.html) para obter mais informações e para começar a usar o Audience Manager.
+Contate-nos [aqui](https://www.adobe.com/br/products/audiencemanager.html) para obter mais informações e para começar a usar o Audience Manager.

@@ -24,7 +24,7 @@ A equipe de Atendimento ao cliente da Adobe Experience Cloud está aqui para aju
 * [Consulte a página de ajuda da Experience Cloud em busca de conselhos, dicas e perguntas frequentes](https://helpx.adobe.com/br/support.ec.html)
 * [Faça uma pergunta rápida no Twitter @AdobeExpCare](https://twitter.com/AdobeExpCare)
 * [Entre em contato diretamente com a equipe de Atendimento ao cliente](https://helpx.adobe.com/br/contact/enterprise-support.ec.html)
-* [Verifique a disponibilidade e o status das Soluções da Experience Cloud](https://status.adobe.com/)
+* [Verifique a disponibilidade e o status das Soluções da Experience Cloud](https://status.adobe.com/pt-br/)
 
 ## Serviço, capacidade e faturamento {#billing}
 
