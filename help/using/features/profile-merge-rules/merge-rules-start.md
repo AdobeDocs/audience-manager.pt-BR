@@ -163,7 +163,7 @@ visitor.setCustomerIDs({
      "authState":Visitor.AuthState.AUTHENTICATED
 ```
 
-Para obter mais informações, consulte [Criar uma Source de Dados entre Dispositivos](#create-data-source) e [IDs do Cliente e Estados de Autenticação](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html).
+Para obter mais informações, consulte [Criar uma Source de Dados entre Dispositivos](#create-data-source) e [IDs do Cliente e Estados de Autenticação](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=pt-BR).
 
 ### Configurar a função `DIL.create`
 
@@ -236,7 +236,7 @@ Verifique os métodos no código [!DNL SDK] que permitem passar [!UICONTROL decl
  </tbody>
 </table>
 
-Consulte também [Métodos Audience Manager para Android](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) e [Métodos Audience Manager para iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html).
+Consulte também [Métodos Audience Manager para Android](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html?lang=pt-BR) e [Métodos Audience Manager para iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html?lang=pt-BR).
 
 >[!MORELIKETHIS]
 >
