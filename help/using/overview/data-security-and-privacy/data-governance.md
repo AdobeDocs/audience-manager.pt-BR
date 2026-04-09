@@ -7,9 +7,14 @@ keywords: Interface do GDPR, API do GDPR, CCPA, privacidade, consentimento, ofus
 title: Controle de dados
 feature: Data Governance & Privacy
 exl-id: 52aeca00-73f2-4525-9e11-34a472ec45c6
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/HVF-SxKO4mcE7YkiiwXLBPn2K3N5NIjpZHFWgZb0CoI
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6cid: d3dfac44-e20d-492d-a806-0f4a4a495901id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: 451
 ht-degree: 90%
 
 ---
@@ -35,7 +40,7 @@ O endereço [!DNL IP] de um visitante do site de um cliente é transmitido a um 
 
 Assista ao vídeo abaixo para entender como a ofuscação de endereços [!DNL IP] funciona no Audience Manager.
 
->[!VIDEO](https://video.tv.adobe.com/v/34983?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/27218/)
 
 **Segmentação geográfica:** se você ativar a ofuscação de endereço [!DNL IP], os octetos restantes do endereço [!DNL IP] ainda poderão ser usados para a segmentação geográfica e em relatórios no Audience Manager. Se você não ativar a ofuscação de endereço [!DNL IP], o Audience Manager usará o endereço [!DNL IP] completo. Você pode usar o recurso Segmentação geográfica que permite identificar um local [!DNL IP] por área geográfica em ambos os casos, mas com uma pequena perda de precisão quando a ofuscação de [!DNL IP] está sendo usada. A obtenção de informações do nível da cidade provavelmente será muito afeta pela ofuscação do endereço [!DNL IP]. A obtenção de informações do nível da região e do país será pouco afetada. Os dados de segmentação geográfica são granulares somente no nível da cidade ou no nível de código postal, e não no nível individual. Leia mais sobre [geolocalização](../../features/traits/trait-geotarget-keys.md) e como configurar características com variáveis geográficas.
 

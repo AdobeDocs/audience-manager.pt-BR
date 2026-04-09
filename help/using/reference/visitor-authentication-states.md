@@ -8,9 +8,11 @@ title: Estados de autenticação de visitante no Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 feature: Reference
 exl-id: 55aec28d-02f6-4e6d-9be1-4ce40deb8dc3
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+TQID: https://experienceleague.adobe.com/-sM2Nc-SH0JibLcGQlY5P61zygmnDCEIvjjFq5QglYk
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: 315
 ht-degree: 2%
 
 ---
@@ -19,7 +21,7 @@ ht-degree: 2%
 
 O status de autenticação do visitante no Audience Manager determina se as novas informações de característica são gravadas no perfil autenticado do visitante ou no perfil do dispositivo, de onde os dados foram coletados. O Audience Manager trata os status de autenticação de ID de visitante UNKNOWN e LOGGED_OUT em chamadas de evento da mesma maneira.
 
-A partir do serviço de ID do [!DNL Experience Cloud] v1.5+, o método `setCustomerID` inclui o objeto `AuthState` opcional. `AuthState` identifica visitantes de acordo com seu [status de autenticação](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=pt-BR). [!DNL Audience Manager] lida com as características realizadas de forma diferente, dependendo do status de autenticação passado na chamada e da [Regra de mesclagem de perfis](../features/profile-merge-rules/merge-rules-dashboard.md) que você usa para segmentação.
+A partir do serviço de ID do [!DNL Experience Cloud] v1.5+, o método `setCustomerID` inclui o objeto `AuthState` opcional. `AuthState` identifica visitantes de acordo com seu [status de autenticação](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] lida com as características realizadas de forma diferente, dependendo do status de autenticação passado na chamada e da [Regra de mesclagem de perfis](../features/profile-merge-rules/merge-rules-dashboard.md) que você usa para segmentação.
 
 ## Status de autenticação: DESCONHECIDO {#auth-status-unknown}
 
@@ -57,4 +59,4 @@ Exemplo de chamada (o valor da solicitação correspondente ao status de autenti
 
 >[!MORELIKETHIS]
 >
->* [Estados de autenticação e IDs do cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=pt-BR)
+>* [Estados de autenticação e IDs do cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)

@@ -6,9 +6,11 @@ title: Criar características de sinais
 uuid: 4f324404-0c24-4e3b-96c1-7c1b28a4536d
 feature: Data Explorer
 exl-id: 14308ef0-58eb-4b76-858c-d0da560f55fd
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/XKtxgfC9Zv-9CqiZb4Y916yxalGuz5YnsE31Nax8z0M
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: 332
 ht-degree: 0%
 
 ---
@@ -17,7 +19,7 @@ ht-degree: 0%
 
 Crie novas características de todos os sinais, incluindo aquelas que já são usadas em características, e capture públicos-alvo futuros que se qualifiquem após a criação de características. Assista ao vídeo para obter uma demonstração rápida ou leia para obter informações detalhadas:
 
->[!VIDEO](https://video.tv.adobe.com/v/30832/?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/25169/?quality=12)
 
 ## Criar características no painel de sinais {#create-traits-from-signal-dashboard}
 

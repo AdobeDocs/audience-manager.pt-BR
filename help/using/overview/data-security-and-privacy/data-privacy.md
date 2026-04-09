@@ -7,9 +7,13 @@ title: Visão geral da privacidade de dados
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 feature: Data Governance & Privacy
 exl-id: 051de369-e762-49fb-b65f-6faf94db48a4
-source-git-commit: 8bee593d0359f87f030840f87d70025dd5ea33ed
+TQID: https://experienceleague.adobe.com/2ePsnB1spOaodcifn67as3T7v28RnrOthzjhJJQKIGo
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: 437
 ht-degree: 52%
 
 ---
@@ -43,9 +47,9 @@ Consulte o [Centro de privacidade da Adobe](https://www.adobe.com/br/privacy/opt
 
 ## Conformidade com os regulamentos {#compliance}
 
-O [!DNL Audience Manager] ajuda você a cumprir suas obrigações com determinadas normas de privacidade, por meio de ferramentas de privacidade como o [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR), para acessar dados e excluir solicitações.
+O [!DNL Audience Manager] ajuda você a cumprir suas obrigações com determinadas normas de privacidade, por meio de ferramentas de privacidade como o [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en), para acessar dados e excluir solicitações.
 
-Este serviço fornece uma [!DNL RESTful API] e a interface do usuário para ajudar você a gerenciar solicitações de dados do consumidor. Com o [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR), você pode enviar solicitações para acessar e excluir dados pessoais, com base em uma solicitação individual do consumidor, ajudando a automatizar essa parte das suas obrigações de conformidade.
+Este serviço fornece uma [!DNL RESTful API] e a interface do usuário para ajudar você a gerenciar solicitações de dados do consumidor. Com o [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en), você pode enviar solicitações para acessar e excluir dados pessoais, com base em uma solicitação individual do consumidor, ajudando a automatizar essa parte das suas obrigações de conformidade.
 
 Enquanto as solicitações de acesso e exclusão de dados são tratadas pela Privacy Service, [as solicitações de recusa](data-privacy-requests.md#opt-out-requests) são feitas por meio da [DCS API](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md). Consulte [Solicitações de privacidade de dados](data-privacy-requests.md) para obter detalhes.
 

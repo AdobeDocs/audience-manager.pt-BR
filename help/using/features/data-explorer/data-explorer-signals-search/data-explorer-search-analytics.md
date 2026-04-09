@@ -6,9 +6,11 @@ title: Pesquisa avançada do Adobe Analytics
 uuid: 20177820-10e1-49d9-bb2c-3a62141a498e
 feature: Data Explorer
 exl-id: 5a66623b-4d24-4f52-ba26-b59750d25f2c
-source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
+TQID: https://experienceleague.adobe.com/-ml-cMnAI9yYhzIVC5OULFnCS4rPdj4RVqBvkm-jrYg
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: 209
 ht-degree: 0%
 
 ---
@@ -33,4 +35,4 @@ Essa integração permite que você veja os nomes amigáveis para pares de valor
 
 O vídeo abaixo mostra como usar o [!UICONTROL Data Explorer] para descobrir e usar seus dados do Adobe Analytics, incluindo a pesquisa de sinais usados e não usados, a criação de características do Analytics e a compreensão dos dados.
 
->[!VIDEO](https://video.tv.adobe.com/v/30835?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/25150)

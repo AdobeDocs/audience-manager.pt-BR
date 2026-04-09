@@ -7,9 +7,14 @@ title: Casos de uso da DIL e exemplos de código
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
 feature: DIL Implementation
 exl-id: 001710be-b377-460a-9e29-7268d25a6305
-source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
+TQID: https://experienceleague.adobe.com/XKzjo9OINGxJ8qCR7S4NxWh03pCDpNhb5sCZkiVAapQ
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: b82b475d-1e7d-46c6-9172-1f9c73004b11
+subfeature_v2: id: d7e573ad-4eda-46ec-90c4-239e75362af9
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: 961
 ht-degree: 1%
 
 ---
@@ -20,9 +25,9 @@ ht-degree: 1%
 >
 >A partir de julho de 2023, a Adobe descontinuou o desenvolvimento do [!DNL Data Integration Library (DIL)] e da extensão [!DNL DIL].
 >
->Os clientes existentes podem continuar usando a implementação [!DNL DIL]. Entretanto, a Adobe não desenvolverá [!DNL DIL] além deste ponto. Os clientes são incentivados a avaliar o [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR) para sua estratégia de coleta de dados de longo prazo.
+>Os clientes existentes podem continuar usando a implementação [!DNL DIL]. Entretanto, a Adobe não desenvolverá [!DNL DIL] além deste ponto. Os clientes são incentivados a avaliar o [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) para sua estratégia de coleta de dados de longo prazo.
 >
->Os clientes que desejam implementar novas integrações de coleta de dados após julho de 2023 devem usar o [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR).
+>Os clientes que desejam implementar novas integrações de coleta de dados após julho de 2023 devem usar o [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en).
 
 Amostras de código e descrições para casos de uso específicos do DIL.
 
@@ -56,10 +61,10 @@ Esse exemplo básico envia dados de cor e preço para o Audience Manager na form
 
 <pre class="java"><code>
 var sample_dil = DIL.create({partner:"<i>partner name</i>"}); 
-sample_dil.api.signals(&lbrace; 
+sample_dil.api.signals({ 
    c_color:"blue", 
    c_price:"900" 
-&rbrace;); 
+}); 
 sample_dil.api.submit();
 </code></pre>
 
@@ -68,10 +73,10 @@ sample_dil.api.submit();
 Este exemplo avançado demonstra como enviar dados em um objeto para o Audience Manager. Ao trabalhar com este método, [!UICONTROL DIL] permite passar um objeto como um parâmetro de função para o método [!DNL signals()]. [!UICONTROL DIL] Seu código pode ser semelhante ao seguinte:
 
 <pre class="java"><code>
-var my_object = &lbrace; 
+var my_object = { 
    color : "blue", 
    price : "900" 
-&rbrace;; 
+}; 
  
 var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
 //Load the object and append "c_" to all keys in the key-value pairs and send data to AudienceManager. 
@@ -83,21 +88,21 @@ sample_dil.api.signals(my_object,"c_").submit();
 Nesse caso, a variável `my_object` usa uma matriz para armazenar dados. Este exemplo se baseia nas informações transmitidas pelo método recomendado acima, mas adiciona uma camada adicional para acomodar um tipo e modelo de produto. O código pode ser semelhante ao seguinte:
 
 <pre class="java"><code>
-var my_objects = &lbrack;&lbrace; 
+var my_objects = [{ 
    color : "blue", 
    price : "900" 
-&rbrace;, &lbrace; 
+}, { 
    type : "acura", 
    model : "tl" 
-&rbrace;&rbrack;; 
+}]; 
  
 var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
  
 for (var i = 0; i < my_objects.length; i++) 
 //Load the object and append "c_" to all the keys in the key-value pairs.  
-&lbrace; 
+{ 
     sample_dil.api.signals(my_objects[i], "c_"); 
-&rbrace; 
+} 
 sample_dil.api.submit();
 </code></pre>
 
@@ -162,12 +167,12 @@ Nesse caso, vamos supor que um usuário tenha pesquisado o termo &quot;homes&quo
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
 var search_referrer = DIL.tools.getSearchReferrer(); 
  
-if (search_referrer && search_referrer.valid) &lbrace; 
-  adobe_dil.api.signals(&lbrace; 
+if (search_referrer && search_referrer.valid) { 
+  adobe_dil.api.signals({ 
     c_se : se.name, 
     c_st : se.keywords 
-  &rbrace;).submit(); 
-&rbrace;
+  }).submit(); 
+}
 </code></pre>
 
 **Amostra de Código do Mecanismo de Pesquisa Não Listada**
@@ -176,17 +181,17 @@ Nesse caso, vamos supor que um usuário tenha pesquisado o termo &quot;homes&quo
 
 <pre class="java"><code>
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
-var search_referrer = DIL.tools.getSearchReferrer(document.referrer, &lbrace;  
+var search_referrer = DIL.tools.getSearchReferrer(document.referrer, {  
     hostPattern:/dogpile\./, 
     queryParam:"q" 
-&rbrace;); 
+}); 
  
-if (search_referrer && search_referrer.valid) &lbrace; 
-  adobe_dil.api.signals(&lbrace; 
+if (search_referrer && search_referrer.valid) { 
+  adobe_dil.api.signals({ 
     c_se : se.name, 
     c_st : se.keywords 
-  &rbrace;).submit(); 
-&rbrace;
+  }).submit(); 
+}
 </code></pre>
 
 ## Mapear valores de chave para outras chaves {#map-key-values}
@@ -251,4 +256,4 @@ Para traficar o arquivo `dil.js` no GTM:
 >
 >* [Central de ajuda do Google Tag Manager](https://support.google.com/tagmanager#topic=3441530)
 >* [Sinais](../dil/dil-instance-methods.md#signals)
->* [Requisitos de prefixo para variáveis-chave](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-variable-prefixes.html?lang=pt-BR#prefix-requirements-for-key-variables)
+>* [Requisitos de prefixo para variáveis-chave](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-variable-prefixes.html#prefix-requirements-for-key-variables)

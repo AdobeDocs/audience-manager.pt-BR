@@ -7,9 +7,12 @@ title: Relatório de sinais não usados
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
 feature: Overlap Reports
 exl-id: ab5cb5ad-4305-4463-8f56-237b5a2f1f9e
-source-git-commit: 9c980b8fd5c3cb6ba7b3031726da726ee5caeec6
+TQID: https://experienceleague.adobe.com/OfDw6FsS-MlFtwy-91jBH1O8d57aCvOap94ZK3zHVco
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: 623
 ht-degree: 1%
 
 ---
@@ -75,7 +78,7 @@ Execute e verifique o relatório [!UICONTROL Unused Signals]:
 >Ao pesquisar valores não utilizados no relatório, considere a seguinte particularidade. Há uma diferença na expressão entre os dois exemplos abaixo:
 
 * T(v=1 [!UICONTROL AND NOT] (a=23))
-* T( v=1 [!UICONTROL AND] (a!=23)&rbrack;
+* T( v=1 [!UICONTROL AND] (a!=23)]
 * Ambos os exemplos mostram uma característica que contém dois pares de valores-chave v e a. A primeira expressão converte em: a característica contém a chave v com o valor 1 [!UICONTROL AND NOT], a chave a com o valor 23. A segunda expressão contém a chave v com o valor 1 [!UICONTROL AND] a chave a com o valor [!UICONTROL NOT EQUAL] 23.
 * Considerando as duas expressões diferentes acima, digamos que você pesquise no [!UICONTROL Unused Signals Report] os valores que são passados na chave a com qualquer valor diferente de 23, você só obterá resultados na primeira ocorrência, pois os valores para a chave não foram enviados de forma alguma. No segundo caso, valores diferentes de 23 foram enviados para que a chave a não fosse usada.
 

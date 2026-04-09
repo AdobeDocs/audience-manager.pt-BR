@@ -6,9 +6,12 @@ solution: Audience Manager
 title: Introdução aos públicos preditivos
 feature: Algorithmic Models
 exl-id: beb314de-f679-4397-8e14-2dd6576243fd
-source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
+TQID: https://experienceleague.adobe.com/GxGaEIsjpvAqbm5AbaxmmLrgC09x4fslbZcJuShf1sE
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: 545
 ht-degree: 2%
 
 ---
@@ -20,7 +23,7 @@ ht-degree: 2%
 
 ## Criar um modelo de públicos preditivos {#create-predictive-audiences}
 
-Antes de criar um modelo [!UICONTROL Predictive Audiences], é necessário decidir a qual fonte de dados primária você deseja atribuir suas características e segmentos [!UICONTROL Predictive Audiences]. Você pode usar uma fonte de dados primária existente ou criar uma nova. Consulte [Gerenciar fontes de dados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html?lang=pt-BR) para obter detalhes sobre como criar uma nova fonte de dados própria.
+Antes de criar um modelo [!UICONTROL Predictive Audiences], é necessário decidir a qual fonte de dados primária você deseja atribuir suas características e segmentos [!UICONTROL Predictive Audiences]. Você pode usar uma fonte de dados primária existente ou criar uma nova. Consulte [Gerenciar fontes de dados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html) para obter detalhes sobre como criar uma nova fonte de dados própria.
 
 Depois de saber qual fonte de dados você usará, siga as etapas abaixo.
 

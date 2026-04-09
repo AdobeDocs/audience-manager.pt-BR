@@ -7,9 +7,11 @@ title: Regras de mesclagem de perfis e processos de dessegmentação de disposit
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
 feature: Profile Merge
 exl-id: ff3da607-5c25-45b2-ac27-071c22d518a0
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/xAMGTR-vAfeIqWTTu-J0xEGksW6IqKLOn-suIHYsbdU
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: 467
 ht-degree: 2%
 
 ---
@@ -44,7 +46,7 @@ O [!DNL Audience Manager] pode remover vários perfis de dispositivo de um segme
 >[!NOTE]
 >
 >**Limite de 100 dispositivos para avaliação e desqualificação de segmentos**.
->&#x200B;>O Audience Manager mescla até 100 dispositivos ao avaliar segmentos com uma Regra de mesclagem de perfis que usa um gráfico de dispositivos. O Audience Manager avalia o dispositivo atual e até 99 dispositivos vinculados ao dispositivo atual por um [perfil autenticado](../../reference/visitor-authentication-states.md) (ID entre dispositivos). Se o sinal de cancelamento de segmento for emitido, o dispositivo atual e os dispositivos adicionais serão removidos do segmento no destino.
+>O Audience Manager mescla até 100 dispositivos ao avaliar segmentos com uma Regra de mesclagem de perfis que usa um gráfico de dispositivos. O Audience Manager avalia o dispositivo atual e até 99 dispositivos vinculados ao dispositivo atual por um [perfil autenticado](../../reference/visitor-authentication-states.md) (ID entre dispositivos). Se o sinal de cancelamento de segmento for emitido, o dispositivo atual e os dispositivos adicionais serão removidos do segmento no destino.
 
 ![](assets/last-device-graph.png)
 

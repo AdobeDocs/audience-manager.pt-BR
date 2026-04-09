@@ -7,9 +7,12 @@ title: Direcionamento de dispositivo com chaves de nível de plataforma
 uuid: bc048cc5-3df1-49bc-ac78-0ea5d7edd9cc
 feature: Traits
 exl-id: 85c848e0-a4cf-49b5-9fe9-56f8c565f665
-source-git-commit: b299783b993c5d4a1c7738eca82932c20f377ee7
+TQID: https://experienceleague.adobe.com/Pv9-MWpF5uPassf9VYTGgZwQ6gmnW8p9FSYmYxOPHEg
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: 264
 ht-degree: 1%
 
 ---
@@ -19,8 +22,8 @@ ht-degree: 1%
 >[!WARNING]
 >
 >A Google atualizou a funcionalidade de [!DNL Google Chrome] e de todos os navegadores baseados em [!DNL Chromium] para minimizar as informações coletadas por meio do cabeçalho `User-Agent`.
->&#x200B;>A partir de março de 2023, o Audience Manager oferecerá suporte a essas atualizações aproveitando o [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR). Para continuar usando as informações de características fornecidas pelo cabeçalho `User-Agent`, você deve usar o [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR) e habilitar as [Client Hints de Agente do Usuário de Alta Entropia](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=pt-BR).
->&#x200B;>Não há suporte para estas atualizações no [DIL](../../../using/dil/dil-overview.md), portanto, os clientes do Audience Manager que usam o [!DNL DIL] não poderão coletar informações de características por meio do cabeçalho `User-Agent`.
+>A partir de março de 2023, o Audience Manager oferecerá suporte a essas atualizações aproveitando o [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en). Para continuar usando as informações de características fornecidas pelo cabeçalho `User-Agent`, você deve usar o [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) e habilitar as [Client Hints de Agente do Usuário de Alta Entropia](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en).
+>Não há suporte para estas atualizações no [DIL](../../../using/dil/dil-overview.md), portanto, os clientes do Audience Manager que usam o [!DNL DIL] não poderão coletar informações de características por meio do cabeçalho `User-Agent`.
 
 Descreve os pares de valores chave comuns em nível de plataforma que você pode usar para direcionar usuários com variáveis relacionadas ao dispositivo em todas as propriedades na sua conta do Audience Manager.
 

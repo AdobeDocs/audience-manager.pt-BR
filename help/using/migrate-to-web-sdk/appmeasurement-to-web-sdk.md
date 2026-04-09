@@ -2,13 +2,17 @@
 title: Atualize sua biblioteca de coleta de dados do Audience Manager da biblioteca JavaScript do AppMeasurement para a biblioteca JavaScript do Web SDK.
 description: Entenda as etapas para atualizar sua biblioteca de coleta de dados para o Audience Manager da biblioteca JavaScript do AppMeasurement para a biblioteca JavaScript do Web SDK.
 exl-id: 9c771d6c-4cfa-4929-9a79-881d4e8643e4
-source-git-commit: f180e423d4bdf5535d8dcc000e1d0f908bc54d7b
+TQID: https://experienceleague.adobe.com/mxctgUDMvqrSgS0PLsQ7GTwiFMIogo2nL-yZZsnbS40
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2: id: d8f681b8-67cc-42dc-85c5-a0977528a942
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '3385'
+source-wordcount: 3385
 ht-degree: 0%
 
 ---
-
 
 # Atualizar a biblioteca de coleta de dados para Audience Manager do AppMeasurement para o Web SDK
 
@@ -21,12 +25,12 @@ Consulte a tabela abaixo para obter orientação sobre as etapas de migração p
 | Seu método de coleta de dados existente | Instruções de migração do Web SDK |
 |---------|----------|
 | Biblioteca JavaScript [!DNL AppMeasurement] com módulo AudienceManagement | Siga as instruções neste guia. |
-| [!DNL Audience Manager] [extensão de tag](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/client/audience-manager/overview) | Siga as instruções em [atualizando sua biblioteca de coleção de dados da extensão de marca da Audience Manager para a extensão de marca da Web SDK](dil-extension-to-web-sdk.md). |
+| [!DNL Audience Manager] [extensão de tag](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/audience-manager/overview) | Siga as instruções em [atualizando sua biblioteca de coleção de dados da extensão de marca da Audience Manager para a extensão de marca da Web SDK](dil-extension-to-web-sdk.md). |
 | [!DNL AppMeasurement] biblioteca JavaScript + [!DNL Audience Manager] [biblioteca DIL](../dil/dil-overview.md) autônoma | Siga as instruções em [atualizando sua biblioteca de coleção de dados da extensão de marca da Audience Manager para a extensão de marca da Web SDK](dil-extension-to-web-sdk.md). |
 
 ## Visão geral da migração {#overview}
 
-A migração do [!DNL AppMeasurement] para o [Web SDK](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/home) é basicamente uma migração do Adobe Analytics. Para clientes do Audience Manager, essa migração também inclui o Audience Manager. As duas devem ser migradas juntas. Se você trabalhar principalmente com o Audience Manager, certifique-se de envolver a equipe do Analytics nessa migração.
+A migração do [!DNL AppMeasurement] para o [Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) é basicamente uma migração do Adobe Analytics. Para clientes do Audience Manager, essa migração também inclui o Audience Manager. As duas devem ser migradas juntas. Se você trabalhar principalmente com o Audience Manager, certifique-se de envolver a equipe do Analytics nessa migração.
 
 Se você usa o [!DNL AppMeasurement] para coleta de dados do Audience Manager, está usando atualmente a abordagem [!DNL Server-side Forwarding (SSF)] para enviar dados do Analytics para o Audience Manager. Nesta configuração, a solicitação de coleta de dados do Analytics é encaminhada ao Audience Manager, que também lida com a resposta do Audience Manager à página.
 
@@ -40,17 +44,17 @@ Com o encaminhamento pelo lado do servidor, o nó de coleção de dados regionai
 
 Com o Web SDK, o Edge Network envia dados para o Analytics e o Audience Manager em ações separadas. O Web SDK é uma única biblioteca que envia dados para todas as soluções, e a Edge Network transforma pontos de dados independentes de solução em formatos específicos de solução.
 
-Neste novo fluxo de dados, todos os dados são enviados para uma [sequência de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/overview) do Edge Network, que você pode [configurar](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/configure) para enviar dados para soluções da Adobe, conforme necessário. Para o Audience Manager, habilitar o serviço Audience Manager na sequência de dados transforma os dados do [!DNL XDM] e do Analytics em sinais aceitos pelo Audience Manager. O Edge Network também retorna a resposta do Audience Manager para a página, onde o Web SDK lida com a resposta, de modo semelhante ao que o [!DNL AppMeasurement] e o módulo [!DNL AudienceManagement] fizeram.
+Neste novo fluxo de dados, todos os dados são enviados para uma [sequência de dados](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview) do Edge Network, que você pode [configurar](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) para enviar dados para soluções da Adobe, conforme necessário. Para o Audience Manager, habilitar o serviço Audience Manager na sequência de dados transforma os dados do [!DNL XDM] e do Analytics em sinais aceitos pelo Audience Manager. O Edge Network também retorna a resposta do Audience Manager para a página, onde o Web SDK lida com a resposta, de modo semelhante ao que o [!DNL AppMeasurement] e o módulo [!DNL AudienceManagement] fizeram.
 
 ## Migração de tags versus não tags {#tags-vs-non-tags}
 
 Se você estiver usando Tags com a extensão [!DNL AppMeasurement], a biblioteca [!DNL AppMeasurement] em outro sistema de gerenciamento de tags ou colocando [!DNL AppMeasurement] diretamente na página, as etapas de migração do Audience Manager para a Web SDK serão as mesmas. Como a migração do Audience Manager depende da migração do Analytics, as etapas para migrar do [!DNL AppMeasurement] para o Web SDK são determinadas durante a migração do Analytics.
 
-Essas informações são abordadas na documentação do Analytics para implementações baseadas em [Tags](https://experienceleague.adobe.com/pt-br/docs/analytics/implementation/aep-edge/web-sdk/analytics-extension-to-web-sdk) ou [JavaScript](https://experienceleague.adobe.com/pt-br/docs/analytics/implementation/aep-edge/web-sdk/appmeasurement-to-web-sdk).
+Essas informações são abordadas na documentação do Analytics para implementações baseadas em [Tags](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/analytics-extension-to-web-sdk) ou [JavaScript](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/appmeasurement-to-web-sdk).
 
 ## XDM e os nós `data.__adobe.` {#xdm-data-nodes}
 
-Uma das principais funções do [Web SDK](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/home) é enviar dados para o [Real-Time Customer Data Platform (RTCDP)](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/home). Para fazer isso e ainda coletar dados para outras soluções da Experience Cloud sem uma reimplementação completa, os dados específicos da solução são compartimentalizados na chamada do servidor de coleta de dados. Esta chamada usa um esquema JSON padronizado chamado de [Experience Data Model (XDM)](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home)
+Uma das principais funções do [Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) é enviar dados para o [Real-Time Customer Data Platform (RTCDP)](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home). Para fazer isso e ainda coletar dados para outras soluções da Experience Cloud sem uma reimplementação completa, os dados específicos da solução são compartimentalizados na chamada do servidor de coleta de dados. Esta chamada usa um esquema JSON padronizado chamado de [Experience Data Model (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
 
 Elementos independentes de solução, como informações sobre o navegador e o dispositivo, são enviados para a Edge Network em uma estrutura XDM predeterminada. O Edge Network transforma esses dados em formatos específicos da solução. No entanto, os dados específicos do Target, Analytics e Audience Manager são armazenados em um nó `data.__adobe` dedicado na carga XDM.
 
@@ -59,7 +63,7 @@ Por exemplo:
 * A variável do Analytics `s.eVar1` é representada na carga XDM como `data.__adobe.analytics.evar1`.
 * Um parâmetro do Target relacionado ao status de fidelidade do cliente está armazenado como `data.__adobe.target.loyaltyStatus`.
 
-Os dados no nó `__adobe` são enviados para as respectivas soluções (como Analytics e Audience Manager) sem serem enviados para a Experience Platform, mesmo que o serviço Experience Platform esteja habilitado na sequência de dados. Isso significa que você pode manter suas configurações atuais do Analytics e do Audience Manager, além de ter a flexibilidade de mapear os elementos de dados necessários para elementos de esquema XDM, para casos de uso em tempo real no Experience Platform usando o [Preparo de dados para a coleção de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/data-prep).
+Os dados no nó `__adobe` são enviados para as respectivas soluções (como Analytics e Audience Manager) sem serem enviados para a Experience Platform, mesmo que o serviço Experience Platform esteja habilitado na sequência de dados. Isso significa que você pode manter suas configurações atuais do Analytics e do Audience Manager, além de ter a flexibilidade de mapear os elementos de dados necessários para elementos de esquema XDM, para casos de uso em tempo real no Experience Platform usando o [Preparo de dados para a coleção de dados](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep).
 
 Por exemplo, a sequência de caracteres `s.products` do Analytics, usada para relatar o conteúdo do carrinho durante o check-out, ainda pode ser enviada para o Analytics e o Audience Manager no formato original. Ao mesmo tempo, você pode usar os elementos dessa string para criar esquemas de carrinho XDM mais intuitivos para casos de uso do Experience Platform.
 
@@ -88,7 +92,7 @@ O uso dessa abordagem de migração tem vantagens e desvantagens. Avalie cuidado
 A Adobe recomenda seguir esse caminho de implementação nos seguintes cenários:
 
 * Você tem uma implementação existente usando a biblioteca JavaScript do Adobe Analytics AppMeasurement. Se você tiver uma implementação usando a extensão de tag da Audience Manager, siga [Migrar da extensão de tag da Audience Manager para a extensão de tag da Web SDK](dil-extension-to-web-sdk.md).
-* Você pretende usar o Real-Time CDP no futuro, mas não deseja substituir sua implementação do Audience Manager por uma implementação do Web SDK do zero. A alternativa de substituir sua implementação do zero pelo Web SDK requer mais esforço, pois é necessário reconstruir todas as características do Audience Manager para procurar dados formatados em XDM. No entanto, também é a arquitetura de implementação de longo prazo mais viável. Se a sua organização estiver disposta a realizar o esforço de uma implementação limpa do Web SDK, consulte a [documentação do Web SDK](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/home) em vez de usar este guia, para obter mais detalhes.
+* Você pretende usar o Real-Time CDP no futuro, mas não deseja substituir sua implementação do Audience Manager por uma implementação do Web SDK do zero. A alternativa de substituir sua implementação do zero pelo Web SDK requer mais esforço, pois é necessário reconstruir todas as características do Audience Manager para procurar dados formatados em XDM. No entanto, também é a arquitetura de implementação de longo prazo mais viável. Se a sua organização estiver disposta a realizar o esforço de uma implementação limpa do Web SDK, consulte a [documentação do Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) em vez de usar este guia, para obter mais detalhes.
 
 ## Etapas necessárias para migrar para o Web SDK
 
@@ -96,7 +100,7 @@ Siga as etapas abaixo para migrar a integração da coleção de dados para o We
 
 +++**1. Planeje a migração do Analytics**.
 
-Trabalhe com sua equipe do Analytics para seguir as etapas de migração do Analytics nas implementações baseadas em [Marcas](https://experienceleague.adobe.com/pt-br/docs/analytics/implementation/aep-edge/web-sdk/analytics-extension-to-web-sdk) ou [JavaScript](https://experienceleague.adobe.com/pt-br/docs/analytics/implementation/aep-edge/web-sdk/appmeasurement-to-web-sdk). Depois de planejar a migração do Analytics, volte para este guia e continue com as etapas do Audience Manager para determinar o que você precisa fazer pelo Audience Manager para implantar a migração do Analytics e do Audience Manager juntas.
+Trabalhe com sua equipe do Analytics para seguir as etapas de migração do Analytics nas implementações baseadas em [Marcas](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/analytics-extension-to-web-sdk) ou [JavaScript](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/appmeasurement-to-web-sdk). Depois de planejar a migração do Analytics, volte para este guia e continue com as etapas do Audience Manager para determinar o que você precisa fazer pelo Audience Manager para implantar a migração do Analytics e do Audience Manager juntas.
 
 +++
 
@@ -152,11 +156,11 @@ Agora, a sequência de dados está pronta para enviar dados ao Audience Manager 
 
 A maioria das implementações do Audience Manager usa [Regras de mesclagem de perfil](../features/profile-merge-rules/merge-rules-overview.md) em cenários de personalização entre dispositivos e para ajudar a controlar para quais segmentos os visitantes podem se qualificar, dependendo de seu estado de autenticação (logon ou logout). As Regras de mesclagem de perfis exigem que um identificador de propriedade do cliente (ID de CRM, número de conta etc.) seja enviado à Audience Manager em cada chamada de coleta de dados após a autenticação. Anteriormente, a função `setCustomerIDs` do Serviço de ID de visitante ([!DNL visitor.js]) era usada para anexar IDs de cliente a cada chamada de coleta de dados do Analytics, que era então encaminhada para a Audience Manager.
 
-Com o Web SDK, essas identidades agora precisam ser enviadas para o Edge Network usando uma construção XDM especial chamada [IdentityMap](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/field-groups/profile/identitymap).
+Com o Web SDK, essas identidades agora precisam ser enviadas para o Edge Network usando uma construção XDM especial chamada [IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/identitymap).
 
-Passar as identidades corretamente em um mapa de identidade requer a compreensão de [namespaces de identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/features/namespaces) e a consideração cuidadosa de quais identidades devem ser passadas, especialmente ao enviar dados para uma sandbox da Experience Platform. [Este artigo](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-21305) descreve essas considerações e instruções.
+Passar as identidades corretamente em um mapa de identidade requer a compreensão de [namespaces de identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/features/namespaces) e a consideração cuidadosa de quais identidades devem ser passadas, especialmente ao enviar dados para uma sandbox da Experience Platform. [Este artigo](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-21305) descreve essas considerações e instruções.
 
-Depois de determinar quais identidades devem ser passadas e quando, siga os guias para usar o [!UICONTROL Identity map] **[!UICONTROL Identity map]** [elemento de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/client/web-sdk/data-element-types#identity-map) nas Tags ou defina-o manualmente conforme descrito na [visão geral dos dados de identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/identity/overview) para alinhar-se à sua estratégia de implantação do Web SDK.
+Depois de determinar quais identidades devem ser passadas e quando, siga os guias para usar o [!UICONTROL Identity map] **[!UICONTROL Identity map]** [elemento de dados](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/data-element-types#identity-map) nas Tags ou defina-o manualmente conforme descrito na [visão geral dos dados de identidade](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview) para alinhar-se à sua estratégia de implantação do Web SDK.
 
 +++
 
@@ -170,7 +174,7 @@ Se você descobrir que a implementação requer que esse cookie `aam_uuid` conti
 
 1. Cada resposta do [ponto de extremidade de interação do Edge Network](https://developer.adobe.com/data-collection-apis/docs/endpoints/interact/) contém uma carga com nós `id`. O nó `id` da carga do namespace `CORE` contém a UUID do Audience Manager.
 
-2. Use o comando [getIdentity](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/commands/getidentity) do Web SDK para recuperá-lo. Use o namespace `CORE` conforme descrito na documentação e recupere o valor do campo `identity.CORE` na resposta.
+2. Use o comando [getIdentity](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/getidentity) do Web SDK para recuperá-lo. Use o namespace `CORE` conforme descrito na documentação e recupere o valor do campo `identity.CORE` na resposta.
 
 Independentemente do método usado para recuperar a UUID do Audience Manager, cabe à sua equipe de desenvolvimento analisar a resposta, recuperar a UUID e definir o cookie. Não há uma maneira automática de definir esse cookie por meio do Web SDK.
 
@@ -178,13 +182,13 @@ Independentemente do método usado para recuperar a UUID do Audience Manager, ca
 
 ## Configurar o encaminhamento pelo lado do servidor e o Audience Analytics na interface do usuário do Gerenciador de conjunto de relatórios do Analytics {#configure-ssf-analytics}
 
-Se você conhece o recurso [encaminhamento pelo lado do servidor](https://experienceleague.adobe.com/pt-br/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf) do Analytics, talvez se pergunte: &quot;*Devo desabilitar a configuração de encaminhamento pelo lado do servidor na interface do usuário do Gerenciador de Conjunto de Relatórios do Analytics para evitar o envio de dados do Analytics para o Audience Manager duas vezes?*&quot;.
+Se você conhece o recurso [encaminhamento pelo lado do servidor](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf) do Analytics, talvez se pergunte: &quot;*Devo desabilitar a configuração de encaminhamento pelo lado do servidor na interface do usuário do Gerenciador de Conjunto de Relatórios do Analytics para evitar o envio de dados do Analytics para o Audience Manager duas vezes?*&quot;.
 
 A resposta é não. Você não deve desativar essa configuração pelos seguintes motivos:
 
-1. Quando o serviço Audience Manager é habilitado em uma sequência de dados, o Edge Network anexa a variável `cm.ssf` a todas as solicitações de coleta de dados enviadas ao Analytics. Isso impede que os dados do Analytics também sejam enviados para a Audience Manager. Quaisquer logs do Assurance usados para validar a migração do Analytics mostrarão a variável `cm.ssf=1` quando o serviço do Audience Manager estiver habilitado na sequência de dados. Consulte a [página de conformidade do Analytics e do GDPR focada no encaminhamento pelo lado do servidor](https://experienceleague.adobe.com/pt-br/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf-gdpr) para obter mais detalhes.
+1. Quando o serviço Audience Manager é habilitado em uma sequência de dados, o Edge Network anexa a variável `cm.ssf` a todas as solicitações de coleta de dados enviadas ao Analytics. Isso impede que os dados do Analytics também sejam enviados para a Audience Manager. Quaisquer logs do Assurance usados para validar a migração do Analytics mostrarão a variável `cm.ssf=1` quando o serviço do Audience Manager estiver habilitado na sequência de dados. Consulte a [página de conformidade do Analytics e do GDPR focada no encaminhamento pelo lado do servidor](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf-gdpr) para obter mais detalhes.
 
-1. Esta configuração também habilita o fluxo de dados para a integração do [!DNL Audience Analytics]. Conforme descrito na [visão geral do Audience Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics/integration/audience-analytics/mc-audiences-aam), o encaminhamento pelo lado do servidor é necessário para essa integração porque a resposta do Audience Manager ao servidor de coleta de dados do Analytics é adicionada à ocorrência do Analytics antes do processamento. Um processo semelhante ocorre no Edge Network. Quando o encaminhamento pelo lado do servidor está ativado, o Edge Network adiciona os segmentos necessários da resposta do Audience Manager aos dados enviados para o Analytics.
+1. Esta configuração também habilita o fluxo de dados para a integração do [!DNL Audience Analytics]. Conforme descrito na [visão geral do Audience Analytics](https://experienceleague.adobe.com/en/docs/analytics/integration/audience-analytics/mc-audiences-aam), o encaminhamento pelo lado do servidor é necessário para essa integração porque a resposta do Audience Manager ao servidor de coleta de dados do Analytics é adicionada à ocorrência do Analytics antes do processamento. Um processo semelhante ocorre no Edge Network. Quando o encaminhamento pelo lado do servidor está ativado, o Edge Network adiciona os segmentos necessários da resposta do Audience Manager aos dados enviados para o Analytics.
 
 Em resumo, é importante que essa configuração permaneça ativada para que o Audience Analytics continue a funcionar com uma implementação do Web SDK e nenhum dado seja contado duas vezes no Audience Manager.
 

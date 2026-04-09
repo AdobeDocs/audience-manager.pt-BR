@@ -3,10 +3,15 @@ description: Este artigo explica como configurar o Amazon Advertising para integ
 solution: Audience Manager
 title: Configurar o Amazon Advertising como um destino baseado em dispositivo de autoatendimento
 exl-id: 049af52a-b425-493d-9e77-9ced7ba6d168
-source-git-commit: bac3167927af0957e7081e1ea653464101affcb8
+TQID: https://experienceleague.adobe.com/fQmKYsBCDIOH4zRlDr1N-JUynlBwOzIXSCucO-sdcXM
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cbid: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: d3dfac44-e20d-492d-a806-0f4a4a495901
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 0%
+source-wordcount: 566
+ht-degree: 1%
 
 ---
 
@@ -26,7 +31,7 @@ Antes de configurar o destino do [!DNL Amazon Advertising], verifique se você a
 
 Esta seção descreve as etapas que devem ser seguidas ao configurar um novo destino baseado em dispositivo para [!DNL Amazon Advertising]. Este cenário pressupõe que você não tenha nenhum destino [!DNL Amazon Advertising] existente configurado por meio de seu consultor da Adobe ou do Atendimento ao cliente.
 
-### Etapa 1. Autenticar com [!DNL Amazon Advertising] {#step1-authenticate-with-amazon}
+### Etapa 1: Autenticar com [!DNL Amazon Advertising] {#step1-authenticate-with-amazon}
 
 Antes de adicionar o destino baseado em dispositivo, é necessário vincular o Audience Manager e sua conta do [!DNL Amazon Advertising]. Veja como fazer isso:
 

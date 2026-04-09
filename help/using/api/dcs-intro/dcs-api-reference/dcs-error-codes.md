@@ -4,9 +4,13 @@ title: Códigos de erros, mensagens e exemplos de DCS
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 exl-id: 485e5ce2-143e-4d18-b157-c243c5a510ad
-source-git-commit: f8ba09b674b71045e08f6d171471cdcdd0efb265
+TQID: https://experienceleague.adobe.com/FHc7VAvl6LcI-xtrxdg-eMRHMncTPHpxGxIx0sXOb-E
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: 1519
 ht-degree: 3%
 
 ---
@@ -23,7 +27,7 @@ Nas tabelas abaixo, *itálico* representa um espaço reservado para variável.
 |---|---|---|
 | 0 | Erro não especificado | Este é um erro &quot;catch-all&quot; (global) que lida com eventos não cobertos por outros manipuladores de erro. É difícil solucionar esse erro. Ela pode ser causada por várias ações ou eventos desconhecidos. Se você receber esse erro, tente sua solicitação [!DNL DCS] novamente. Entre em contato com o representante do [!DNL Adobe] se o problema persistir. |
 | 1 | Não foi possível encontrar a configuração para o nome de host: `hostname` | O nome do host enviado na solicitação não foi configurado pela equipe de provisionamento do parceiro. Entre em contato com o representante do [!DNL Adobe] se você vir esta mensagem de erro. |
-| 2 | Valor `d_orgid` inválido (não foi possível encontrar uma configuração para esta id de organização): `ID` | A ID da organização está incorreta. Verifique sua ID e tente a solicitação novamente. Se você não souber ou tiver sua ID da Organização, consulte a seção &quot;Página de Administração&quot; [Organizações e vinculação de contas](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=pt-BR) para obter informações sobre como encontrá-la. |
+| 2 | Valor `d_orgid` inválido (não foi possível encontrar uma configuração para esta id de organização): `ID` | A ID da organização está incorreta. Verifique sua ID e tente a solicitação novamente. Se você não souber ou tiver sua ID da Organização, consulte a seção &quot;Página de Administração&quot; [Organizações e vinculação de contas](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html) para obter informações sobre como encontrá-la. |
 | 10 | Não foi possível avaliar as características | As características na solicitação foram parcialmente avaliadas ou não foram avaliadas. Entre em contato com o representante do [!DNL Adobe] se o problema persistir. |
 
 ## Códigos de erro de integração {#integration-error-codes}
@@ -133,7 +137,7 @@ Nas tabelas abaixo, *itálico* representa um espaço reservado para variável.
 | --- | --- | --- |
 | 300 | ID de cliente inválida `_ID_` | A ID do cliente é inválida (valores ausentes para fonte de dados, códigos de integração ausentes, formato inválido para fontes de dados, ID do cliente bloqueada, ID do cliente em branco, tentativa de acesso não autorizado a uma fonte de dados que não pertence ao parceiro). |
 | 301 | Número máximo de IDs do cliente excedido. O máximo permitido é `_maximum allowed_`. Encontrado é `_maximum found_`. | O número de IDs do cliente associadas a uma fonte de dados entre dispositivos excede o número permitido de IDs entre dispositivos por solicitação. Essas IDs incluem IDs entre dispositivos, dispositivos móveis ou cookies. No momento, o limite está definido como 10. |
-| 302 | ID de cliente não autorizada `_ID_` | Retornado quando a fonte de dados da ID do cliente não pertence à ID da organização atual. Se você não souber ou tiver sua ID da organização, consulte a seção &quot;Localizar a ID da organização&quot; em [Organizações e Vinculação de Contas](https://experiencecloud.adobe.com/resources/help/pt_BR/mcloud/organizations.html) para obter informações sobre como encontrá-la. |
+| 302 | ID de cliente não autorizada `_ID_` | Retornado quando a fonte de dados da ID do cliente não pertence à ID da organização atual. Se você não souber ou tiver sua ID da organização, consulte a seção &quot;Localizar a ID da organização&quot; em [Organizações e Vinculação de Contas](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html) para obter informações sobre como encontrá-la. |
 | 303 | ID do cliente bloqueada `_ID_` | Retornado quando a ID do cliente é identificada como mal-intencionada e é adicionada a um arquivo de inclui na lista de bloqueios. |
 | 304 | ID da fonte de dados bloqueada `_ID_` | Retornado quando a ID da fonte de dados foi identificada como mal-intencionada e adicionada a um arquivo de inclui na lista de bloqueios |
 | 306 | ID de dispositivo declarada bloqueada `_ID_` | A ID do dispositivo foi identificada como mal-intencionada e foi adicionada a uma inclui na lista de bloqueios. Isso pode acontecer quando recebemos uma quantidade extrema de solicitações de DCS contendo essa ID de dispositivo em um curto período. |

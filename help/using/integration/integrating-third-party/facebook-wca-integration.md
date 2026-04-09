@@ -6,9 +6,13 @@ solution: Audience Manager
 title: Integração WCA com o Facebook
 feature: Third-party Integration
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
-source-git-commit: 6dc931b88666515cf51ab89ce1a54bbcf9995679
+TQID: https://experienceleague.adobe.com/vHNM6HEpL4efGeanvzjDaNfFPqaGwqy84lnvc21-ufA
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: 808
 ht-degree: 1%
 
 ---
@@ -36,9 +40,9 @@ Esta página ilustra o processo de criação de [!DNL Facebook Website Custom Au
 1. [!DNL Facebook Ad Account]
 2. [!DNL Audience Manager] segmentos, prontos para atribuir ao seu novo destino [!DNL Facebook]. Veja [como criar um segmento](/help/using/features/segments/segment-builder.md) na interface do usuário do [!DNL Audience Manager].
 3. [!DNL Adobe Experience Platform Identity Service] ([!DNL ECID]) Versão 4.1.0 ou mais recente. Baixe a última versão **[aqui](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**.
-4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) versão 9.0 ou mais recente, disponível para download de **[aqui](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Como alternativa, se você usar o [Encaminhamento pelo Lado do Servidor (SSF)](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=pt-BR) para importar dados para o [!DNL Audience Manager], deverá usar a versão 2.12 ou mais recente do AppMeasurement. Baixe [!DNL AppMeasurement] usando o [Analytics Code Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=pt-BR).
+4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) versão 9.0 ou mais recente, disponível para download de **[aqui](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Como alternativa, se você usar o [Encaminhamento pelo Lado do Servidor (SSF)](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) para importar dados para o [!DNL Audience Manager], deverá usar a versão 2.12 ou mais recente do AppMeasurement. Baixe [!DNL AppMeasurement] usando o [Analytics Code Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html).
 
-Recomendamos instalar ou atualizar as bibliotecas nas etapas 3 e 4 usando as [Tags do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=pt-BR).
+Recomendamos instalar ou atualizar as bibliotecas nas etapas 3 e 4 usando as [Tags do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
 
 ## Etapa 1 - Criar um [!UICONTROL Facebook Destination] em [!DNL Audience Manager] {#step-1-create-facebook-destination}
 

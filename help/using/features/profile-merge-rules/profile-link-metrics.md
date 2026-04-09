@@ -7,9 +7,11 @@ title: Métricas de relatório para regras de mesclagem de perfis
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
 feature: Profile Merge
 exl-id: 2af59c60-2448-44af-90d2-eccc52f7ff02
-source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
+TQID: https://experienceleague.adobe.com/XoOLUeHq9E68X703-rNxz-gCkQ9GtL1R-h71W8f4x-s
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: 693
 ht-degree: 0%
 
 ---
@@ -35,7 +37,7 @@ Os relatórios retornam dados em gráficos de barras lado a lado quando as regra
    <td colname="col2"> <p>Mostra: </p> 
     <ul id="ul_7F7373919A4A49028EF4BF7B28D9F8E9"> 
      <li id="li_FE2F93C496D64ED8928B3E522C9585EA"> <span class="wintitle"> Pessoas Ativas</span>: o número de pessoas que se autenticaram em seu site nos últimos 60 dias. </li> 
-     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> Entre Dispositivos</span>: o número total de <a href="merge-rules-start.md#create-data-source"> IDs entre Dispositivos</a> armazenadas no <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html?lang=pt-BR"> Source de Dados</a> do <a href="merge-rule-definitions.md"> Perfil Autenticado</a> selecionado para o tempo de vida em que a fonte de dados existiu. </li> 
+     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> Entre Dispositivos</span>: o número total de <a href="merge-rules-start.md#create-data-source"> IDs entre Dispositivos</a> armazenadas no <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html"> Source de Dados</a> do <a href="merge-rule-definitions.md"> Perfil Autenticado</a> selecionado para o tempo de vida em que a fonte de dados existiu. </li> 
      <li id="li_F2F07B6A326C4A18B79A0CF2C47D9677"> <span class="wintitle"> % de Pessoas Ativas</span>: Mostra <span class="wintitle"> Pessoas Ativas</span> como %. </li> 
     </ul> <p> <span class="wintitle"> A Atividade Autenticada</span> permite que você compare fontes de dados por atividade, volume e porcentagem. Ele pode ajudar você a encontrar uma fonte de dados que tenha muitas pessoas e uma alta porcentagem de usuários ativos. Ou você pode encontrar valor ao comparar fontes de dados com a alta proporção de usuários ativos em comparação ao tamanho total do público-alvo. Por exemplo, às vezes, uma fonte de dados com números de tempo de vida total baixos e alta atividade são mais valiosas do que aquelas com resultados de tempo de vida altos e números de atividade baixos. </p> <p> <p>Observação: as métricas de <span class="wintitle"> Atividade Autenticada</span> contêm apenas dados de <span class="wintitle"> Link de Perfil</span>. Este relatório não inclui dados do Gráfico de dispositivos <span class="wintitle"></span>. </p> </p> </td> 
   </tr> 
