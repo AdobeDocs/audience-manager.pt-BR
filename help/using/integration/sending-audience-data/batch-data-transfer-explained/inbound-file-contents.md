@@ -5,10 +5,18 @@ title: Conteúdo do arquivo de dados de entrada - Sintaxe, caracteres inválidos
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
 feature: Inbound Data Transfers
 exl-id: 894f1923-6c78-41d2-b6a2-eebf56eaa29e
-source-git-commit: dbb557928a296d3dd5f0646644e2ca0cdc11dfdc
+TQID: https://experienceleague.adobe.com/VmG1uYu83JVavbWhBTIwbcN6xXW-cCy2IqBlZe8NtVA
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1210'
-ht-degree: 3%
+source-wordcount: 1210
+ht-degree: 5%
 
 ---
 

@@ -7,9 +7,32 @@ title: Guia do Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 feature: Overview
 exl-id: a47bf8ba-4ec0-4b3b-ad20-4afb7c9f924b
-source-git-commit: 5044a38c751abace922008f00b9ff463ea9c7e57
+TQID: https://experienceleague.adobe.com/0djeASIuZ6wQ44sdQCyL-IQwG0Aj9bLLdPlQ0eOpSEs
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2:
+  - id: c2c33729-f309-4bc2-92ba-87c475259df3
+  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: 547
 ht-degree: 92%
 
 ---
@@ -130,7 +153,7 @@ Este guia de documentação técnica oferece assistência de autoajuda para o Au
       <li id="li_F3A5CCFAE0F247CEB41A03CA8E03106B"><a href="https://forums.adobe.com/community/experience-cloud/analytics-cloud/audience-manager" format="https" scope="external"> Audience Manager Community Forums</a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/overview.html?lang=pt-BR" format="http" scope="external"> Audience Manager Tutorials</a> </li> 
       <li id="li_1737D63307024F26B1F967621613A5AC"><a href="https://www.adobe.com/privacy.html" format="http" scope="external"> Adobe Privacy Center</a> </li>  
-      <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="https://helpx.adobe.com/br/learning.html?promoid=KAUDK" scope="external" format="http"> Adobe Training and Certifications</a> </li> 
+      <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> Adobe Training and Certifications</a> </li> 
       <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://helpx.adobe.com/br/support/experience-cloud.html" scope="external" format="https">Experience Cloud Product Documentation Home</a> </li> 
       <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/br/support/audience-manager.html" format="https" scope="external"> Audience Manager Learn &amp; Support</a> </li> 
      </ul> </p> 
@@ -192,7 +215,7 @@ Read about the latest Audience Manager features:
       <li id="li_F3A5CCFAE0F247CEB41A03CA8E03106B"><a href="https://forums.adobe.com/community/experience-cloud/analytics-cloud/audience-manager" format="https" scope="external"> Fóruns da comunidade do Audience Manager</a> </li>
       <li><a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/overview.html?lang=pt-BR" format="http" scope="external"> Tutoriais do Audience Manager</a> </li> 
       <li id="li_1737D63307024F26B1F967621613A5AC"><a href="https://www.adobe.com/br/privacy.html" format="http" scope="external"> Centro de privacidade da Adobe</a> </li>  
-      <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="https://helpx.adobe.com/br/learning.html?promoid=KAUDK" scope="external" format="http"> Treinamento e certificações da Adobe</a> </li> 
+      <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> Treinamento e certificações da Adobe</a> </li> 
       <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://helpx.adobe.com/pt/support/experience-cloud.html" scope="external" format="https">Página inicial de documentação do produto da Experience Cloud</a> </li> 
       <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/br/support/audience-manager.html" format="https" scope="external"> Aprendizagem e suporte do Audience Manager</a> </li> 
      </ul> </p> 
