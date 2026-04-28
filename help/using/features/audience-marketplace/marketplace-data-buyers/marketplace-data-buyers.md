@@ -19,10 +19,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+source-git-commit: f2fdbb191013b0bcb9bdab0529e3b7f3c872fd54
 workflow-type: tm+mt
-source-wordcount: 724
-ht-degree: 1%
+source-wordcount: 729
+ht-degree: 2%
 
 ---
 
@@ -67,7 +67,7 @@ A lista [!UICONTROL Marketplace] contém informações que você pode classifica
 Para encontrar facilmente os melhores feeds de dados de acordo com suas necessidades, use os seguintes filtros disponíveis no lado esquerdo da página [!UICONTROL Marketplace]:
 
 * **[!UICONTROL Similarity To]**: filtre feeds de dados com base na similaridade com um [!UICONTROL trait] ou [!UICONTROL segment] de sua escolha. Ao inserir o [!UICONTROL trait] ou segmento para comparação, você pode usar a ID [!UICONTROL trait] ou [!UICONTROL segment], ou seus respectivos nomes.
-* **[!UICONTROL Similarity Cutoff]**: Arraste o controle deslizante para filtrar os feeds de dados com base na semelhança de seus [!UICONTROL traits] com o [!UICONTROL trait] ou [!UICONTROL segment] selecionado. Para saber mais sobre [!UICONTROL trait] pontuações de similaridade, consulte [Pontuação de similaridade de característica](../../segments/trait-recommendations.md#trait-similarity-score)
+* **[!UICONTROL Similarity Cutoff]**: Arraste o controle deslizante para filtrar os feeds de dados com base na semelhança de seus [!UICONTROL traits] com o [!UICONTROL trait] ou [!UICONTROL segment] selecionado.
 * **[!UICONTROL Subscription Status]**: filtre os feeds de dados com base no status da sua assinatura.
 * **[!UICONTROL Plan Use Case]**: filtre feeds de dados com base nos casos de uso com suporte: **[!UICONTROL Activation]**, **[!UICONTROL Segments and Overlap]** e **[!UICONTROL Modelling]**.
 * **[!UICONTROL Plan Unit]**: filtrar feeds de dados de acordo com seu tipo de preço.

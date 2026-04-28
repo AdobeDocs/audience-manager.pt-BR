@@ -22,10 +22,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+source-git-commit: f2fdbb191013b0bcb9bdab0529e3b7f3c872fd54
 workflow-type: tm+mt
-source-wordcount: 574
-ht-degree: 87%
+source-wordcount: 428
+ht-degree: 75%
 
 ---
 
@@ -82,28 +82,6 @@ Seu feed de dados e todas as características contidas no feed aparecem como sub
 **O que é o [!UICONTROL Tag Insertion Manager (TIM)]?**
 
 O Audience Manager usou o [!UICONTROL Tag Insertion Manager] (TIM) para criar e gerenciar o [!UICONTROL data collection code (DIL)]. Esse recurso é obsoleto e foi substituído em primeiro lugar pelo [!UICONTROL Dynamic Tag Manager (DTM)] e depois pelo [!DNL Adobe Experience Platform Tags]. Para obter mais informações, consulte [Tags do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=pt-BR).
-
- 
-
-**Quais são as diferenças entre os Modelos algorítmicos e as Recomendações de características? Quando devo usar cada um deles?**
-
-**Modelos algorítmicos**
-
-Os Modelos algorítmicos não só encontram as características mais influentes, como também pontuam os usuários com base nessas características e atribuem a cada usuário uma pontuação individual. Em seguida, você cria características algorítmicas para direcionar os usuários. Com controles de precisão e alcance no Construtor de características, é possível especificar quais usuários entre todos aqueles que têm as características influentes você quer direcionar.
-
-Os Modelos algorítmicos permitem selecionar usuários em diferentes níveis de precisão e testar no Audience Lab qual grupo de usuários converte melhor. Consulte o caso de uso detalhado em [Comparar modelos no Audience Lab](../features/audience-lab/audience-lab-use-cases.md#compare-models).
-
-Em Modelos algorítmicos, o modelo é executado a cada 8 dias e atualiza os usuários qualificados para características algorítmicas.
-
-**Recomendações de característica**
-
-As Recomendações de características são uma forma rápida de obter insights sobre outras características semelhantes àquelas que você está usando em um segmento.
-
-Você deve usar as Recomendações de características quando:
-
-* Precisar de insights rápidos ao criar um segmento;
-* Estiver usando os segmentos para campanhas curtas ou quando deseja suprimir rapidamente o público-alvo que converte;
-* Estiver tentando maximizar o alcance.
 
  
 

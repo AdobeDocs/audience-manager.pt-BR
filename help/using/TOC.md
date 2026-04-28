@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Guia do usuário do Audience Manager
 user-guide-description: Saiba como usar o Adobe Audience Manager para coletar informações comercialmente relevantes sobre visitantes do site e criar segmentos comercializáveis. Você também encontra detalhes sobre como fornecer publicidade e conteúdo direcionados ao público-alvo certo.
 feature-set: Audience Manager
-source-git-commit: 2d694db141b311977e84cefc48ce14921c87ccc3
+source-git-commit: f2fdbb191013b0bcb9bdab0529e3b7f3c872fd54
 workflow-type: tm+mt
-source-wordcount: '1866'
-ht-degree: 16%
+source-wordcount: '1982'
+ht-degree: 15%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 16%
       + [Funcionalidade avançada do Audience Lab](features/audience-lab/audience-lab-advanced.md)
    + Audience Marketplace{#audience-marketplace}
       + [Audience Marketplace](features/audience-marketplace/audience-marketplace.md)
-      + [hide-from-tocOtimização do Audience Marketplace](features/audience-marketplace/audience-marketplace-optimization.md)
+      + {hide-from-toc}[Otimização do Audience Marketplace](features/audience-marketplace/audience-marketplace-optimization.md)
       + Audience Marketplace para provedores de dados{#audience-marketplace-for-data-providers}
          + [Audience Marketplace para provedores de dados](features/audience-marketplace/marketplace-data-providers/marketplace-data-providers.md)
          + [Criar, precificar e gerenciar feeds de dados](features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md)
@@ -151,8 +151,7 @@ ht-degree: 16%
       + [Construtor de segmentos](features/segments/segment-builder.md)
       + [Sintaxe de código usada no Editor de expressão de segmentos](features/segments/segment-code-syntax.md)
       + [Dados de população de características e segmentos no Construtor de segmentos](features/segments/segment-builder-data.md)
-      + [Recomendações de característica](features/segments/trait-recommendations.md)
-      + [Referência de qualificação de características e segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-and-segment-qualification-reference.html?lang=pt-BR)
+      + [Referência de qualificação de característica e segmento](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-and-segment-qualification-reference.html?lang=pt-BR)
    + Características{#traits}
       + [Visão geral das características](/help/using/features/traits/traits-overview.md)
       + [Página de detalhes da característica](features/traits/trait-details-page.md)
@@ -171,33 +170,33 @@ ht-degree: 16%
       + [Armazenamento de características](features/traits/trait-storage.md)
       + [Precisão e alcance](features/traits/trait-accuracy-reach.md)
       + [Classificação de características com uma taxonomia comum](features/traits/trait-common-taxonomy.md)
-      + [Requisitos de nome para variáveis-chave](features/traits/trait-key-name-requirements.md)
-      + [Explicação do tempo de vida útil do segmento e da característica](features/traits/segment-ttl-explained.md)
-      + [Requisitos de prefixo para variáveis-chave](features/traits/trait-variable-prefixes.md)
-      + [Geotargeting com chaves de nível de plataforma](features/traits/trait-geotarget-keys.md)
-      + [Direcionamento de dispositivo com chaves de nível de plataforma](features/traits/trait-device-targeting.md)
-      + [Expressões de amostra com operadores booleanos e de comparação](features/traits/trait-expression-samples.md)
+      + [Name Requirements for Key Variables](features/traits/trait-key-name-requirements.md)
+      + [Segment and Trait Time-to-Live Explained](features/traits/segment-ttl-explained.md)
+      + [Prefix Requirements for Key Variables](features/traits/trait-variable-prefixes.md)
+      + [Geotargeting With Platform-level Keys](features/traits/trait-geotarget-keys.md)
+      + [Device Targeting With Platform-level Keys](features/traits/trait-device-targeting.md)
+      + [Sample Expressions With Boolean and Comparison Operators](features/traits/trait-expression-samples.md)
       + [Referência de qualificação de característica e segmento](features/traits/trait-and-segment-qualification-reference.md)
-   + [Visualizador de perfil do visitante](features/visitor-profile-viewer.md)
+   + [Visitor Profile Viewer](features/visitor-profile-viewer.md)
 + Relatórios{#reporting}
    + [Visão geral dos relatórios](reporting/reports-overview.md)
-   + [Painel de relatórios](reporting/reports-dashboard.md)
-   + [Relatórios gerais](reporting/general-reports.md)
-   + [Relatórios de tendência](reporting/trend-reports.md)
-   + Relatórios do Audience Optimization {#audience-optimization-reports}
-      + [Relatórios do Audience Optimization](reporting/audience-optimization-reports/audience-optimization-reports.md)
-      + Audience Optimization para anunciantes {#audience-optimization-advertisers}
-         + [Visão geral do Audience Optimization para anunciantes](reporting/audience-optimization-reports/aor-advertisers/aor-advertisers.md)
-         + [Importar arquivos de dados do Google Campaign Manager para o Audience Manager](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
-         + [Relatório de desempenho do segmento](reporting/audience-optimization-reports/aor-advertisers/segment-performance.md)
-         + [Relatórios de análise de tendências e análise de volumes](reporting/audience-optimization-reports/aor-advertisers/trend-analysis-volume-analysis.md)
-         + [Relatório de frequência ideal](reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md)
-         + [Alcance único do usuário](reporting/audience-optimization-reports/aor-advertisers/unique-user-reach.md)
-         + [Características de conversão relatadas](reporting/audience-optimization-reports/aor-advertisers/reported-conversion-traits.md)
-         + [Conversão entre canais](reporting/audience-optimization-reports/aor-advertisers/cross-channel-conversion-reporting.md)
-      + Audience Optimization para editores {#audience-optimization-publishers}
-         + [Visão geral do Audience Optimization para editores](reporting/audience-optimization-reports/aor-publishers/aor-publishers.md)
-         + [Importar arquivos de dados do Google Ad Manager (antigo DFP) para o Audience Manager](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
+   + [Reports Dashboard](reporting/reports-dashboard.md)
+   + [General Reports](reporting/general-reports.md)
+   + [Trend Reports](reporting/trend-reports.md)
+   + Audience Optimization Reports {#audience-optimization-reports}
+      + [Audience Optimization Reports](reporting/audience-optimization-reports/audience-optimization-reports.md)
+      + Audience Optimization for Advertisers {#audience-optimization-advertisers}
+         + [Audience Optimization for Advertisers Overview](reporting/audience-optimization-reports/aor-advertisers/aor-advertisers.md)
+         + [Import Google Campaign Manager Data Files Into Audience Manager](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+         + [Segment Performance Report](reporting/audience-optimization-reports/aor-advertisers/segment-performance.md)
+         + [Trend Analysis and Volume Analysis Reports](reporting/audience-optimization-reports/aor-advertisers/trend-analysis-volume-analysis.md)
+         + [Optimal Frequency Report](reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md)
+         + [Unique User Reach](reporting/audience-optimization-reports/aor-advertisers/unique-user-reach.md)
+         + [Reported Conversion Traits](reporting/audience-optimization-reports/aor-advertisers/reported-conversion-traits.md)
+         + [Cross Channel Conversion](reporting/audience-optimization-reports/aor-advertisers/cross-channel-conversion-reporting.md)
+      + Audience Optimization for Publishers {#audience-optimization-publishers}
+         + [Audience Optimization for Publishers Overview](reporting/audience-optimization-reports/aor-publishers/aor-publishers.md)
+         + [Import Google Ad Manager (formerly DFP) Data Files Into Audience Manager](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
          + [Relatório de desempenho do segmento](reporting/audience-optimization-reports/aor-publishers/publisher-segment-performance.md)
          + [Relatório de tendência do segmento](reporting/audience-optimization-reports/aor-publishers/publisher-segment-trends.md)
          + [Características principais não usadas](reporting/audience-optimization-reports/aor-publishers/publisher-top-unused-traits.md)
@@ -328,60 +327,60 @@ ht-degree: 16%
    + Enviar dados de público-alvo{#sending-audience-data}
       + [Enviar dados de público-alvo](integration/sending-audience-data/send-audience-data.md)
       + Integração de dados de entrada em tempo real {#real-time-inbound-data-integration}
-         + [Especificações técnicas para transferências de dados de entrada em tempo real](integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md)
-         + [Transferências de dados com base em pixels](integration/sending-audience-data/real-time-data-integration/pixel-based-data-transfer.md)
-         + [Assimilação de dados de entrada em tempo real](integration/sending-audience-data/real-time-data-integration/real-time-data-transfer.md)
-      + Processo de transferência de dados em lote{#batch-data-transfer-process}
-         + [Descrição do processo de transferência de dados em lote](integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
-         + [Visão geral do processo de envio de dados em lote para o Audience Manager](integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)
-         + [Sincronização de ID para transferências de dados de entrada](integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)
-         + [Requisitos de nome e conteúdo para arquivos de sincronização de ID](integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
-         + [Conteúdo do arquivo de dados de entrada: sintaxe, caracteres inválidos, variáveis e   Exemplos](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
-         + [Requisitos de nome e tamanho de arquivo do Amazon S3 para arquivos de dados de entrada](integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
-         + [Requisitos de nome e tamanho de arquivo FTP para arquivos de dados de entrada](integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
-         + [Criptografia PGP de arquivo para tipos de dados de entrada](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)
-         + [Compactação de arquivos de transferência de dados de entrada](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
-         + [Mensagem de amostra para parceiros após o processamento de entrada](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
-         + [Aproveite as permissões de bucket entre contas do Amazon S3 para seus arquivos de entrada](integration/sending-audience-data/batch-data-transfer-explained/authorize-s3-inbound.md)
-      + [Integrações personalizadas de parceiros](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
-   + Integração com o Adobe Experience Platform {#integration-experience-platform}
-      + [Compartilhamento de segmentos da Experience Platform com a Audience Manager e outras soluções da Experience Cloud](integration/integration-aep/aam-aep-audience-sharing.md)
-   + Integração com Outros Aplicativos Experience Cloud {#integration-other-solutions}
-      + [Integrar o Audience Manager com o Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
-      + [Como encaminhar dados do Adobe Analytics para o Audience Manager](integration/integration-other-solutions/audience-management-module.md)
-      + [Publicar um segmento do Adobe Analytics na Experience Cloud (abre a documentação do Adobe Analytics)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html?lang=pt-BR)
-      + [Integrar o Audience Manager com o Adobe Campaign (abre a documentação do Adobe Campaign)](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html?lang=pt-BR)
+         + [Technical Specifications for Inbound, Real-Time Data Transfers](integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md)
+         + [Pixel-based Data Transfers](integration/sending-audience-data/real-time-data-integration/pixel-based-data-transfer.md)
+         + [Real-Time Inbound Data Ingestion](integration/sending-audience-data/real-time-data-integration/real-time-data-transfer.md)
+      + Batch Data Transfer Process{#batch-data-transfer-process}
+         + [Batch Data Transfer Process Described](integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
+         + [Send Batch Data to Audience Manager Overview](integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)
+         + [ID Synchronization for Inbound Data Transfers](integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)
+         + [Name and Content Requirements for ID Synchronization Files](integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
+         + [Inbound Data File Contents: Syntax, Invalid Characters, Variables, and   Examples](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
+         + [Amazon S3 Name and File Size Requirements for Inbound Data Files](integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+         + [FTP Name and File Size Requirements for Inbound Data Files](integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
+         + [File PGP Encryption for Inbound Data Types](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)
+         + [File Compression for Inbound Data Transfer Files](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
+         + [Sample Message to Partners after Inbound Processing](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
+         + [Leverage Amazon S3 Cross-Account Bucket Permissions for Your Inbound Files](integration/sending-audience-data/batch-data-transfer-explained/authorize-s3-inbound.md)
+      + [Custom Partner Integrations](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
+   + Integration with Adobe Experience Platform {#integration-experience-platform}
+      + [Experience Platform segment sharing with Audience Manager and other Experience Cloud solutions](integration/integration-aep/aam-aep-audience-sharing.md)
+   + Integration with Other Experience Cloud Applications {#integration-other-solutions}
+      + [Integrate Audience Manager with Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
+      + [How to Forward Data from Adobe Analytics to Audience Manager](integration/integration-other-solutions/audience-management-module.md)
+      + [Publish an Adobe Analytics Segment to the Experience Cloud (opens Adobe Analytics documentation)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html?lang=pt-BR)
+      + [Integrate Audience Manager with Adobe Campaign (opens Adobe Campaign documentation)](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html?lang=pt-BR)
 + Referência{#reference}
-   + [Visão geral da referência](reference/reference.md)
-   + [Amazon S3: sobre](reference/amazon-s3.md)
+   + [Reference Overview](reference/reference.md)
+   + [Amazon S3: About](reference/amazon-s3.md)
    + [Casos de uso do anunciante](reference/advertiser-use-cases.md)
    + [Casos de uso do editor](reference/publisher-use-cases.md)
-   + [Ambiente do Beta](reference/beta-environment.md)
-   + [Expressões booleanas no Construtor de características e segmentos](reference/boolean-expressions-tsb.md)
-   + Ferramentas de gerenciamento em massa{#bulk-management-tools}
-      + [Introdução ao gerenciamento em massa](reference/bulk-management-tools/bulk-management-intro.md)
-      + [Solicitações em massa](reference/bulk-management-tools/bulk-requests.md)
-      + [Atualizações em massa](reference/bulk-management-tools/bulk-updates.md)
-      + [Criar em massa](reference/bulk-management-tools/bulk-create.md)
-      + [Estimativas em massa](reference/bulk-management-tools/bulk-estimates.md)
+   + [Beta Environment](reference/beta-environment.md)
+   + [Boolean Expressions in Trait and Segment Builder](reference/boolean-expressions-tsb.md)
+   + Bulk Management Tools{#bulk-management-tools}
+      + [Getting Started With Bulk Management](reference/bulk-management-tools/bulk-management-intro.md)
+      + [Bulk Requests](reference/bulk-management-tools/bulk-requests.md)
+      + [Bulk Updates](reference/bulk-management-tools/bulk-updates.md)
+      + [Bulk Create](reference/bulk-management-tools/bulk-create.md)
+      + [Bulk Estimates](reference/bulk-management-tools/bulk-estimates.md)
       + [Exclusão em massa](reference/bulk-management-tools/bulk-delete.md)
-      + [Criar ou atualizar regras de características e regras de segmento](reference/bulk-management-tools/bulk-rules.md)
-      + [Dicas de solução de problemas para ferramentas de gerenciamento em massa](reference/bulk-management-tools/bulk-troubleshooting.md)
-      + [Glossário de ferramentas de gerenciamento em massa](reference/bulk-management-tools/bulk-management-glossary.md)
-   + [CID substitui DPID e DPUUID](reference/cid.md)
-   + [Como a entrega de dados e os tempos de processamento de arquivos afetam os relatórios](reference/reporting-file-transfer-timeframe.md)
-   + [Índice de IDs no Audience Manager](reference/ids-in-aam.md)
+      + [Create or Update Trait Rules and Segment Rules](reference/bulk-management-tools/bulk-rules.md)
+      + [Troubleshooting Tips for Bulk Management Tools](reference/bulk-management-tools/bulk-troubleshooting.md)
+      + [Bulk Management Tools Glossary](reference/bulk-management-tools/bulk-management-glossary.md)
+   + [CID Replaces DPID and DPUUID](reference/cid.md)
+   + [How Data Delivery and File Processing Times Affect Reports](reference/reporting-file-transfer-timeframe.md)
+   + [Index of IDs in Audience Manager](reference/ids-in-aam.md)
    + [Explicação dos pares de valor-chave](reference/key-value-pairs-explained.md)
    + [Requisitos de senha, contas bloqueadas e senhas esquecidas](reference/password-requirements.md)
    + [Sinais, características e segmentos](reference/signal-trait-segment.md)
    + [Navegadores compatíveis](reference/supported-browsers.md)
-   + Componentes do sistema{#system-components}
-      + [Visão geral dos componentes do sistema](reference/system-components/components-overview.md)
-      + [Componentes-chave no sistema Audience Manager](reference/system-components/components-stack.md)
-      + [Componentes de ação de dados](reference/system-components/components-data-action.md)
-      + [Componentes da coleção de dados](reference/system-components/components-data-collection.md)
-      + [Componentes de processamento de dados](reference/system-components/components-data-processing.md)
-      + [Componentes do Tag Management](reference/system-components/components-tag-management.md)
+   + System Components{#system-components}
+      + [System Components Overview](reference/system-components/components-overview.md)
+      + [Key Components in the Audience Manager System](reference/system-components/components-stack.md)
+      + [Data Action Components](reference/system-components/components-data-action.md)
+      + [Data Collection Components](reference/system-components/components-data-collection.md)
+      + [Data Processing Components](reference/system-components/components-data-processing.md)
+      + [Tag Management Components](reference/system-components/components-tag-management.md)
       + [Arquitetura da plataforma: mapa de fluxo de dados](reference/system-components/components-platform-architecture.md)
       + [Noções básicas sobre o data center da Edge](reference/system-components/components-edge.md)
    + [Convenções de estilo para elementos de código e texto](reference/code-style-elements.md)

@@ -19,10 +19,10 @@ subfeature_v2:
   - id: ec0be1ae-7ea9-4f62-869a-963a97d2edc1
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+source-git-commit: f2fdbb191013b0bcb9bdab0529e3b7f3c872fd54
 workflow-type: tm+mt
-source-wordcount: 449
-ht-degree: 0%
+source-wordcount: 451
+ht-degree: 1%
 
 ---
 
@@ -62,9 +62,9 @@ Erros podem ocorrer em relatórios que geram dados de sobreposição. Um erro é
 
 | Número de registros | Taxa de erro |
 |--- |--- |
-| 500 - 1.000 | 95% estão abaixo de uma taxa de erro de 42%. |
-| 1.000 - 1.500 | 95% estão abaixo de uma taxa de erro de 34%. |
-| 10.000 - 50.000 | 95% estão abaixo de uma taxa de erro de 14%. |
+| 500 - 1,000 | 95% estão abaixo de uma taxa de erro de 42%. |
+| 1,000 - 1,500 | 95% estão abaixo de uma taxa de erro de 34%. |
+| 10,000 - 50,000 | 95% estão abaixo de uma taxa de erro de 14%. |
 | 50.000 | 95% estão abaixo de uma taxa de erro de 6%. |
 | 100.000 | 95% estão abaixo de uma taxa de erro de 4%. |
 | 500.000 (ou mais) | 95% estão abaixo de uma taxa de erro de 2%. |
@@ -99,5 +99,4 @@ Reports that use Minhash sampling methodology:
 | Amostragem estatística | Metodologia de amostragem de Minhash |
 |--- |--- |
 | Dados de [Público-alvo endereçável](../features/addressable-audiences.md) (dados de nível de cliente e segmento). | [Relatórios de sobreposição](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) (característica, segmento para característica e segmento para segmento) |
-| A métrica [Total de Dispositivos](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) para um [!UICONTROL Profile Merge Rule]. | [Recomendações de característica](/help/using/features/segments/trait-recommendations.md) |
 | [O Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) usa dados de amostra na guia [!UICONTROL Search] e qualquer [!UICONTROL Saved Searches] | [Recomendações do Audience Marketplace](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |
