@@ -8,21 +8,14 @@ uuid: f505b5f4-4231-4e84-993a-cd64128b540f
 feature: Audience Marketplace
 exl-id: 9d6a7fda-f79f-41ad-9654-3ebcf9028cc2
 TQID: https://experienceleague.adobe.com/7rX24xDAh7PEcN29jLv-b1z0EhSp2Ku5-KlVoBVi4CA
-product_v2:
-  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2:
-  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
-  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
-subfeature_v2:
-  - id: a49258d4-867f-4130-b875-d72c001bdf6c
-  - id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6cid: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f2fdbb191013b0bcb9bdab0529e3b7f3c872fd54
 workflow-type: tm+mt
-source-wordcount: 724
-ht-degree: 1%
+source-wordcount: 729
+ht-degree: 2%
 
 ---
 
@@ -67,7 +60,7 @@ A lista [!UICONTROL Marketplace] contém informações que você pode classifica
 Para encontrar facilmente os melhores feeds de dados de acordo com suas necessidades, use os seguintes filtros disponíveis no lado esquerdo da página [!UICONTROL Marketplace]:
 
 * **[!UICONTROL Similarity To]**: filtre feeds de dados com base na similaridade com um [!UICONTROL trait] ou [!UICONTROL segment] de sua escolha. Ao inserir o [!UICONTROL trait] ou segmento para comparação, você pode usar a ID [!UICONTROL trait] ou [!UICONTROL segment], ou seus respectivos nomes.
-* **[!UICONTROL Similarity Cutoff]**: Arraste o controle deslizante para filtrar os feeds de dados com base na semelhança de seus [!UICONTROL traits] com o [!UICONTROL trait] ou [!UICONTROL segment] selecionado. Para saber mais sobre [!UICONTROL trait] pontuações de similaridade, consulte [Pontuação de similaridade de característica](../../segments/trait-recommendations.md#trait-similarity-score)
+* **[!UICONTROL Similarity Cutoff]**: Arraste o controle deslizante para filtrar os feeds de dados com base na semelhança de seus [!UICONTROL traits] com o [!UICONTROL trait] ou [!UICONTROL segment] selecionado.
 * **[!UICONTROL Subscription Status]**: filtre os feeds de dados com base no status da sua assinatura.
 * **[!UICONTROL Plan Use Case]**: filtre feeds de dados com base nos casos de uso com suporte: **[!UICONTROL Activation]**, **[!UICONTROL Segments and Overlap]** e **[!UICONTROL Modelling]**.
 * **[!UICONTROL Plan Unit]**: filtrar feeds de dados de acordo com seu tipo de preço.
