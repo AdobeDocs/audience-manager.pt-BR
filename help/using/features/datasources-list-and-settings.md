@@ -8,21 +8,13 @@ uuid: 280a6acd-fef0-4737-a96d-9e22fbc8bfaf
 feature: Data Sources
 exl-id: c561d51e-e1dc-413e-bf24-13f04f10abe6
 TQID: https://experienceleague.adobe.com/DmanqiC6h-sY52uykeAw-LiqTUbx7qfgE2rEwmLtT28
-product_v2:
-  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2:
-  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
-  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
-subfeature_v2:
-  - id: a49258d4-867f-4130-b875-d72c001bdf6c
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6c
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 1070
+source-wordcount: 1090
 ht-degree: 0%
 
 ---
@@ -74,7 +66,7 @@ Além dos campos de texto, a seção [!UICONTROL Data Source Details] contém os
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Definição de ID</span></b> </p> </td> 
-   <td colname="col2"> <p>As opções <b><span class="uicontrol"> Definição de ID</span></b> definem a relação que uma fonte de dados tem com uma UUID (ID de usuário) do Audience Manager<span class="keyword"> </span> e dispositivos associados vinculados por um gráfico de dispositivos de terceiros integrado ao Audience Manager<span class="keyword"> </span>. As opções incluem: </p> <p> 
+   <td colname="col2"> <p>As opções <b><span class="uicontrol"> Definição de ID</span></b> definem a relação que uma fonte de dados tem com uma UUID (ID de usuário) do Audience Manager</span> <span class="keyword"> e dispositivos associados vinculados por um gráfico de dispositivos de terceiros integrado ao Audience Manager</span> <span class="keyword">. As opções incluem: </p> <p> 
      <ul id="ul_718ADABF0C0C44E29643C85C69CE294F"> 
       <li id="li_19936095319446698E9A577385CD2A80"> <b><span class="uicontrol"> Pessoa:</span></b> A ID usada para definir uma única pessoa. Esta ID pode ser mapeada para várias IDs do <span class="keyword"> Audience Manager</span>. </li> 
       <li id="li_3D939AFF34654D618A05D2603F34462D"> <b><span class="uicontrol"> Família:</span></b> A ID usada para definir um grupo de pessoas. Essa ID pode ser mapeada para várias Audience Manager IDs. </li> 
@@ -125,7 +117,7 @@ Marque a caixa de seleção **[!UICONTROL Inbound]** quando a fonte de dados tiv
      <ul id="ul_3BC963CE378B4F6CB1861643A4541634"> 
       <li id="li_B86C5E7847424A2B9C094DF02741DDB8"> <b><span class="uicontrol"> ID do cliente </span></b>: identifica dados de entrada com uma ID do cliente. </li> 
       <li id="li_AD8E440436314902A794CDB11A3D657F"> <b><span class="uicontrol"> Audience Manager ID</span></b>: identifica dados de entrada com um <span class="keyword"> Audience Manager </span> ID. </li> 
-      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> Experience Cloud ID</span></b>: identifica dados de entrada com um <span class="keyword"> Experience Cloud </span> ID. Consulte <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=pt-BR" format="https" scope="external"> Cookies e Experience Cloud ID</a>. </li> 
+      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> Experience Cloud ID</span></b>: identifica dados de entrada com uma <span class="keyword"> Experience Cloud </span> ID. Consulte <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies e Experience Cloud ID</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -155,7 +147,7 @@ Marque a caixa de seleção **[!UICONTROL Inbound]** quando a fonte de dados tiv
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Uso como um Perfil Autenticado</span></b> </p> </td> 
-   <td colname="col2"> <p>Sua fonte de dados entre dispositivos contém uma ID autenticada. Uma ID autenticada é coletada e sincronizada com uma ID do Audience Manager<span class="keyword"> </span> durante um evento de autenticação (por exemplo, um usuário faz logon no site, no aplicativo etc.). A ID autenticada pode ser usada para dados integrados de outras fontes que armazenam essa ID. Ele também pode ser usado para vincular várias IDs de dispositivo em <span class="wintitle"> Link de Perfil</span>. </p> <p>Essa opção expõe um campo de texto que permite renomear a fonte de dados com um alias. Se você usa um alias, esse novo nome substitui o nome da fonte de dados e aparece nas <span class="wintitle"> Opções de Perfil Autenticado</span> quando você <a href="../features/profile-merge-rules/merge-rules-start.md#create-profile-merge-rule"> cria uma regra de Mesclagem de Perfis</a>. </p> </td> 
+   <td colname="col2"> <p>Sua fonte de dados entre dispositivos contém uma ID autenticada. Uma ID autenticada é coletada e sincronizada com uma ID do Audience Manager</span> <span class="keyword"> durante um evento de autenticação (por exemplo, um usuário faz logon no site, no aplicativo etc.). A ID autenticada pode ser usada para dados integrados de outras fontes que armazenam essa ID. Ele também pode ser usado para vincular várias IDs de dispositivo em <span class="wintitle"> Link de Perfil</span>. </p> <p>Essa opção expõe um campo de texto que permite renomear a fonte de dados com um alias. Se você usa um alias, esse novo nome substitui o nome da fonte de dados e aparece nas <span class="wintitle"> Opções de Perfil Autenticado</span> quando você <a href="../features/profile-merge-rules/merge-rules-start.md#create-profile-merge-rule"> cria uma regra de Mesclagem de Perfis</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Uso como Gráfico de Dispositivos</span></b> </p> </td> 
@@ -167,7 +159,7 @@ Marque a caixa de seleção **[!UICONTROL Inbound]** quando a fonte de dados tiv
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Compartilhar IDs de visitante ou dispositivo associadas na Plataforma Audience Manager</span></b> </p> </td> 
-   <td colname="col2"> <p>Sua fonte de dados contém IDs de visitante ou dispositivo que podem ser compartilhadas em outras soluções <span class="keyword"> do Experience Cloud</span>. </p> </td> 
+   <td colname="col2"> <p>Sua fonte de dados contém IDs de visitante ou dispositivo que podem ser compartilhadas em outras soluções <span class="keyword"> da Experience Cloud</span>. </p> </td> 
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Retenção de dados para IDs de clientes inativas</span></b> </p> </td> 
