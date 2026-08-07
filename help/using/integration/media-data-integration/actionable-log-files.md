@@ -22,7 +22,7 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 1601
+source-wordcount: 1628
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ O [!UICONTROL Actionable Log Files] permite capturar dados de mídia de arquivos
 
 >[!NOTE]
 >
->Os estilos de texto (`monospaced text`, *itálico*, colchetes `[ ]` `( )` etc.) neste documento indicam elementos de código e opções. Consulte [Convenções de estilo para código e elementos de texto](../../reference/code-style-elements.md) para obter mais informações.
+>Estilos de texto (`monospaced text`, *itálico*, colchetes `[ ]` `( )` etc.) neste documento indique elementos e opções de código. Consulte [Convenções de estilo para código e elementos de texto](../../reference/code-style-elements.md) para obter mais informações.
 
 ## Propósito {#purpose}
 

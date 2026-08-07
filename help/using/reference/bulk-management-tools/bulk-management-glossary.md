@@ -21,7 +21,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: 372
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Rótulos de cabeçalho de coluna definidos.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> derivouSignalId</span> </p> </td> 
-   <td colname="col2"> <p>Um ID <a href="../../features/derived-signals.md"> de sinal derivado </a>. </p> </td> 
+   <td colname="col2"> <p>Um ID </a> de sinal derivado <a href="../../features/derived-signals.md">. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> descrição</span> </p> </td> 

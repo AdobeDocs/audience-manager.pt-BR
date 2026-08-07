@@ -57,7 +57,7 @@ Para excluir vários itens, abra a planilha [!UICONTROL Bulk Management Tools] e
 5. Forneça as [informações de logon](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) necessárias e clique em **[!UICONTROL Submit]**.
 
    A planilha cria uma coluna [!UICONTROL Results]. A coluna [!UICONTROL Results] retorna uma mensagem que indica se o item foi excluído ou uma mensagem de erro.
-Antes de inserir dados, sua planilha de atualização em massa deve ser semelhante ao seguinte:
+   Antes de inserir dados, sua planilha de atualização em massa deve ser semelhante ao seguinte:
 
 ![](assets/delete.png)
 

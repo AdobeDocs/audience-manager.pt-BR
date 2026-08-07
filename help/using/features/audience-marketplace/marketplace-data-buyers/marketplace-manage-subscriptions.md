@@ -24,7 +24,7 @@ topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 2159
+source-wordcount: 2160
 ht-degree: 0%
 
 ---
@@ -318,7 +318,7 @@ Como comprador de dados do [!UICONTROL Audience Marketplace], você pode comprar
 
 ### Segmentos e sobreposição
 
-Este caso de uso permite comparar suas características com as características do provedor em um relatório de sobreposição de [característica por característica.](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) Além disso, você pode criar ou adicionar características de provedor a um segmento e fazer comparações adicionais com os relatórios [segmento-para-característica](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) e [segmento-para-segmento](../../../reporting/dynamic-reports/segment-segment-overlap-report.md). As comparações de sobreposição podem ajudar a:
+Este caso de uso permite comparar suas características com as características do provedor em um [relatório de sobreposição de característica por característica.](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) Além disso, você pode criar ou adicionar características de provedor a um segmento e fazer comparações adicionais com os relatórios [segmento a característica](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) e [segmento a segmento](../../../reporting/dynamic-reports/segment-segment-overlap-report.md). As comparações de sobreposição podem ajudar a:
 
 * **Estender alcance do público-alvo:** uma baixa sobreposição sugere que suas características contêm usuários que você não viu antes. Talvez você queira que essas características tentem alcançar novos usuários.
 * **Aprimorar públicos-alvo existentes:** A alta sobreposição sugere que suas características sejam semelhantes às do provedor de dados. Talvez você queira que essas características ajudem a fazer melhorias direcionadas e incrementais em um público já desenvolvido.

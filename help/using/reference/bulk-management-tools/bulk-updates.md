@@ -23,7 +23,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 268
+source-wordcount: 271
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Para fazer atualizações em massa, abra a planilha [!UICONTROL Bulk Management 
    * Ao atualizar segmentos ou características, você só precisa da ID de segmento (SID) e do elemento de cabeçalho que precisa ser alterado. Excluir cabeçalhos não utilizados.
 
 4. Cole ou digite os dados que deseja alterar em uma coluna correspondente com base no rótulo do cabeçalho.
-5. Na barra de ferramentas da planilha, clique em um botão de atualização que corresponda à        item que você está atualizando.
+5. Na barra de ferramentas da planilha, clique em um botão de atualização que corresponda ao item que você está atualizando.
 Esta ação abre a caixa de diálogo [!UICONTROL Account Information].
 
 6. Forneça as [informações de logon](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) necessárias e clique em **[!UICONTROL Submit]**.
