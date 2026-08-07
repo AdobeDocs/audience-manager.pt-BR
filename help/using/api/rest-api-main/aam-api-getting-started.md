@@ -8,26 +8,14 @@ uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 feature: API
 exl-id: f7d5e52d-ad21-4020-a299-d440f954c51a
 TQID: https://experienceleague.adobe.com/9-lmPI7-mjYo3AUgFi7L3kB-F0sZsOOVPI7r-sS21Mk
-product_v2:
-  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2:
-  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
-  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
-  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
-  - id: c814092e-2730-45e8-a12d-e084529f52cb
-  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
-subfeature_v2:
-  - id: c2c33729-f309-4bc2-92ba-87c475259df3
-  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
-  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: b82b475d-1e7d-46c6-9172-1f9c73004b11id: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: c814092e-2730-45e8-a12d-e084529f52cbid: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: c2c33729-f309-4bc2-92ba-87c475259df3id: d3dfac44-e20d-492d-a806-0f4a4a495901id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 2563
-ht-degree: 1%
+source-wordcount: 2778
+ht-degree: 2%
 
 ---
 
@@ -99,7 +87,7 @@ Depois de criar um novo projeto, selecione **[!UICONTROL Add API]** na tela **[!
 
 ![Tela do Developer Console com a opção Adicionar API realçada.](/help/using/api/rest-api-main/assets/add-api.png)
 
-A tela **[!UICONTROL Add an API]** é exibida. Selecione o ícone de produto do Adobe Experience Cloud e escolha **[!UICONTROL Audience Manager API]** antes de selecionar **[!UICONTROL Next]**.
+A tela **[!UICONTROL Add an API]** é exibida. Selecione o ícone de produto da Adobe Experience Cloud e escolha **[!UICONTROL Audience Manager API]** antes de selecionar **[!UICONTROL Next]**.
 
 ![Selecionar API do Audience Manager.](/help/using/api/rest-api-main/assets/audience-manager-api.png)
 
@@ -149,7 +137,7 @@ Depois de obter o token do portador de autenticação, execute uma chamada de AP
 
    ![Autorizar chamadas de API](/help/using/api/rest-api-main/assets/authorize-api-calls.gif)
 
-3. Execute uma chamada GET para o ponto de extremidade da API `/datasources` para recuperar uma lista de todas as fontes de dados disponíveis globalmente, conforme indicado na [documentação de referência da API](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_). Selecione **[!UICONTROL Try it out]**, seguido por **[!UICONTROL Execute]**, como mostrado abaixo.
+3. Execute uma chamada GET para o ponto de extremidade de API `/datasources` para recuperar uma lista de todas as fontes de dados disponíveis globalmente, conforme indicado na [documentação de referência da API](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_). Selecione **[!UICONTROL Try it out]**, seguido por **[!UICONTROL Execute]**, como mostrado abaixo.
 
    ![Executar chamadas de API](/help/using/api/rest-api-main/assets/perform-api-calls.gif)
 
@@ -394,7 +382,7 @@ Você pode usar esses parâmetros opcionais com métodos [!DNL API] que retornam
 | `pageSize` | Define o número de resultados de resposta retornados pela solicitação (10 é o padrão). |
 | `sortBy` | Classifica e retorna resultados de acordo com a propriedade [!DNL JSON] especificada. |
 | `descending` | Classifica e retorna resultados em ordem decrescente. `ascending` é o padrão. |
-| `search` | Retorna resultados com base na cadeia de caracteres especificada que você deseja usar como parâmetro de pesquisa. Por exemplo, digamos que você queira encontrar resultados para todos os modelos que têm a palavra &quot;Teste&quot; em qualquer um dos campos de valor para esse item. Seu exemplo de solicitação pode ser semelhante a:   `GET https://aam.adobe.io/v1/models/?search=Test`.  Você pode pesquisar qualquer valor retornado por um método &quot;[!DNL get all]&quot;. |
+| `search` | Retorna resultados com base na cadeia de caracteres especificada que você deseja usar como parâmetro de pesquisa. Por exemplo, digamos que você queira encontrar resultados para todos os modelos que têm a palavra &quot;Teste&quot; em qualquer um dos campos de valor para esse item. Sua solicitação de exemplo pode ser semelhante a: `GET https://aam.adobe.io/v1/models/?search=Test`.  Você pode pesquisar qualquer valor retornado por um método &quot;[!DNL get all]&quot;. |
 | `folderId` | Retorna todas as IDs de [!UICONTROL traits] dentro da pasta especificada. Não disponível para todos os métodos. |
 | `permissions` | Retorna uma lista de segmentos com base na permissão especificada. `READ` é o padrão. As permissões incluem:<ul><li>`READ` : Retornar e exibir informações sobre um segmento.</li><li>`WRITE` : Use `PUT` para atualizar um segmento.</li><li>`CREATE` : Use `POST` para criar um segmento.</li><li>`DELETE` : Excluir um segmento. Requer acesso a características subjacentes, se houver. Por exemplo, você precisará de direitos para excluir as características que pertencem a um segmento se desejar removê-lo.</li></ul><br>Especifique várias permissões com pares de valores chave separados. Por exemplo, para retornar uma lista de segmentos com permissões `READ` e `WRITE` somente, passe em `"permissions":"READ"`, `"permissions":"WRITE"`. |
 | `includePermissions` | ([!DNL Boolean]) Defina como `true` para retornar suas permissões para o segmento. O padrão é `false`. |
@@ -437,7 +425,7 @@ Dependendo do método de autenticação usado, é necessário ajustar sua solici
 
 {style="table-layout:auto"}
 
-### Solicitar [!DNL URLs] para a [!BADGE Autenticação &#x200B;]{type=negative} herdada[!DNL OAuth] obsoleta {#request-urls-oauth}
+### Solicitar [!DNL URLs] para a [!BADGE Autenticação [!DNL OAuth] herdada]{type=negative} obsoleta {#request-urls-oauth}
 
 | [!DNL API] Métodos | Solicitação [!DNL URL] |
 |--- |--- |
