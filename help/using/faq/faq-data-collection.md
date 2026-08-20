@@ -28,9 +28,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+source-git-commit: 99abc40141fbc79b15dd87691be58c9e201a705a
 workflow-type: tm+mt
-source-wordcount: 1255
+source-wordcount: 1276
 ht-degree: 74%
 
 ---
@@ -230,8 +230,8 @@ Geralmente, leva até 24 horas para um perfil do usuário sincronizar entre regi
 
 **O que acontece com chaves de acesso de usuário inativas do Amazon S3?**
 
-A Adobe fornece aos clientes do Audience Manager chaves de acesso para [!DNL Amazon S3] buckets. Por motivos de segurança, essas chaves de acesso serão automaticamente desativadas se permanecerem sem uso por 100 dias.
+A Adobe fornece aos clientes do Audience Manager chaves de acesso para [!DNL Amazon S3] buckets. Por motivos de segurança, essas chaves de acesso serão automaticamente desativadas se permanecerem sem uso por 40 dias.
 
 Se suas chaves de acesso estiverem desativadas, você poderá entrar em contato com o Suporte ao cliente para reativá-las ou solicitar novas.
 
-Para maior segurança, as chaves de acesso que permanecerem inativas por 1000 dias serão excluídas permanentemente junto com a conta de usuário do Amazon S3 IAM. Se você for um cliente recorrente e precisar de acesso após esse período, entre em contato com o Suporte ao cliente para recriar sua conta e receber novas chaves de acesso.
+Para maior segurança, as chaves de acesso que permanecem inativas por 180 dias serão excluídas permanentemente junto com a conta de usuário do Amazon S3 IAM. Se você for um cliente recorrente e precisar de acesso após esse período, entre em contato com o Suporte ao cliente para recriar sua conta e receber novas chaves de acesso.
