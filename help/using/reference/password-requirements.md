@@ -10,21 +10,25 @@ exl-id: beeb65e3-b715-49a8-b14b-ce3fff96a5cd
 TQID: https://experienceleague.adobe.com/zc1W-k6Ttlacqnoeqou-lW0A2X5mq0i0ZK2tHovFWoI
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
 subfeature_v2:
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: a3c2901ff307d6c2440cef22181abb854a9743df
 workflow-type: tm+mt
-source-wordcount: 267
-ht-degree: 100%
-
+source-wordcount: '352'
+ht-degree: 48%
 ---
-
 # Requisitos de senha, contas bloqueadas e senhas esquecidas{#password-requirements-locked-accounts-and-forgotten-passwords}
 
 O Audience Manager pode ser configurado para expirar as senhas a cada 30 dias. Entre em contato com seu consultor do Audience Manager ou com o Atendimento ao cliente se quiser ativar a expiração da senha. Consulte esta seção para obter os requisitos de senha e como recuperar uma senha perdida ou esquecida.
@@ -39,54 +43,26 @@ c_password_requirements.xml
 
 Para ser válida, a [!DNL Audience Manager] senha deve atender aos seguintes requisitos:
 
-<table id="table_9B79E9F634664F6B995649E3158CCF20"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Requisitos </th> 
-   <th colname="col2" class="entry"> Descrição </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <b>Extensão</b> </p> </td> 
-   <td colname="col2"> <p>As senhas podem ter entre 12 e 40 caracteres. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Conteúdo</b> </p> </td> 
-   <td colname="col2"> <p>As senhas devem: </p> <p> 
-     <ul id="ul_70F64B9DE90E463098DFA8AB8349CF0B"> 
-      <li id="li_2FBA66E47F4A4E1BB01DE3722821E100">Começar e terminar com um caractere alfanumérico. </li> 
-      <li id="li_1390D4C9A48944B68B891EE6CB734BBC">Ter pelo menos 1 caractere maiúsculo e minúsculo. </li> 
-      <li id="li_B75B64A005804262BAAF0F1901D63358">Ter pelo menos 1 número. </li> 
-      <li id="li_28452022AF4743B8B159187BBD10890A">Ter pelo menos 1 caractere especial (exceto dois pontos ":"). </li> 
-      <li id="li_C02B931ABAB84FFE9B87AEBAEDF34EF3">Ter apenas letras do alfabeto latino. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Versões</b> </p> </td> 
-   <td colname="col2"> <p> As senhas devem ser diferentes das 12 senhas anteriores. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Itens proibidos</b> </p> </td> 
-   <td colname="col2"> <p> As senhas não devem ter: </p> <p> 
-     <ul id="ul_08DE186AF56E401B933256E69279847A"> 
-      <li id="li_CC854F7F86484774A76CCF927E1400B4">Seu nome ou sobrenome. </li> 
-      <li id="li_74ACCF3DE717473B8AB9B1720DD891E7">Seu endereço de email. </li> 
-      <li id="li_09C1F699BF6843ACAB4E68D2F57461AB">A ID de usuário da<span class="keyword"> Adobe</span>. </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Requisitos | Descrição |
+|---|---|
+| Tamanho | As senhas podem ter entre 12 e 40 caracteres. |
+| Conteúdo | As senhas devem:<ul><li>Começar e terminar com um caractere alfanumérico.</li><li>Contêm pelo menos um caractere maiúsculo e um minúsculo.</li><li>Ter pelo menos um número.</li><li>Ter pelo menos um caractere especial (exceto dois pontos).</li><li>Ter apenas letras do alfabeto latino.</li></ul> |
+| Versões | As senhas devem ser diferentes das 12 senhas anteriores. |
+| Itens proibidos | As senhas não devem conter:<ul><li>Seu nome ou sobrenome.</li><li>Seu endereço de email ou ID de usuário [!DNL Adobe].</li><li>Letras ou números consecutivos.</li><li>Letras ou números sequenciais.</li><li>Senhas usadas com frequência.</li></ul> |
 
 Para obter informações sobre como redefinir a senha, consulte [Editar configurações da conta](../features/administration/edit-account-settings.md).
 
 **Bloqueio de conta**
 
-As contas são bloqueadas depois de 5 tentativas de logon. Entre em contato com o [!DNL Audience Manager] administrador da empresa ou um representante de serviços do parceiro para desbloquear sua conta.
+Por motivos de segurança, [!DNL Audience Manager] limites de taxa temporários repetiram tentativas de entrada com falha. Se você exceder o limite, [!DNL Audience Manager] bloqueará outras tentativas de entrada por um curto período e as permitirá automaticamente novamente. Não é necessário entrar em contato com um administrador ou representante de serviços do parceiro para desbloquear sua conta.
 
 **Senha perdida/esquecida**
 
-Clique no link **[!UICONTROL Forgot password]** da página de logon para redefinir a senha. Você receberá um email automático com uma senha temporária que expira em 24 horas. Clique no link no email para acessar sua conta e redefinir a senha.
+Selecione **[!UICONTROL Forgot password]** na página de entrada para redefinir sua senha. [!DNL Audience Manager] envia um email com um link para redefinir sua senha. Selecione o link e crie uma nova senha que atenda aos requisitos de senha. O link funciona apenas uma vez.
+
+**Configuração de nova conta**
+
+Quando um administrador cria sua conta, [!DNL Audience Manager] envia um email com um link para você definir sua senha. Selecione o link e crie uma senha que atenda aos requisitos de senha. Você deve definir sua senha antes de entrar pela primeira vez.
 
 >[!MORELIKETHIS]
 >
