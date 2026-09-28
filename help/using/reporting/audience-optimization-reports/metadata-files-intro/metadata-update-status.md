@@ -8,11 +8,9 @@ uuid: 56a1e88a-41da-4d51-a21e-2be98cca7fa2
 feature: Log Files
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '303'
 ht-degree: 1%
-
 ---
-
 
 # Atualizações de status para arquivos de metadados{#status-updates-for-metadata-files}
 
