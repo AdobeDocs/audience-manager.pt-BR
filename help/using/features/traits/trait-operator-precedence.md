@@ -7,16 +7,21 @@ title: Ordem de operações no Construtor de características
 uuid: df325047-af62-45ad-9ca1-046bfcbe5341
 feature: Traits
 exl-id: 90700479-4a8e-4a07-81ef-2e9d8a1d9f15
-TQID: https://experienceleague.adobe.com/Jfmytv1c-4Uc8q2UGVU5Lgx-iOZ-yk2sSzc8iRviBAs
+TQID: 'https://experienceleague.adobe.com/Jfmytv1c-4Uc8q2UGVU5Lgx-iOZ-yk2sSzc8iRviBAs'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 161
-ht-degree: 3%
-
+source-wordcount: '167'
+ht-degree: 2%
 ---
-
 # Ordem de operações no Construtor de características {#order-of-operations-in-trait-builder}
 
 [!UICONTROL Trait Builder] avalia expressões de acordo com a ordem de operações listada abaixo, de alta a baixa precedência. Os elementos de característica definidos por operadores de alta precedência são avaliados primeiro, antes de outros operadores de precedência. Esta seção classifica cada operador de acordo com a precedência, de cima para baixo.

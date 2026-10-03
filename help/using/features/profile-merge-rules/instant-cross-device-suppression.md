@@ -6,22 +6,30 @@ title: Supressão instantânea entre dispositivos
 uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
 feature: Profile Merge
 exl-id: b9686210-e1aa-4f0a-a549-27d29c94e963
-TQID: https://experienceleague.adobe.com/8dXdDR8uduaPsKiDbkcdNYit0nESpBGezxwhrhU67GE
+TQID: 'https://experienceleague.adobe.com/8dXdDR8uduaPsKiDbkcdNYit0nESpBGezxwhrhU67GE'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: aefd3d92-918f-446f-ad66-e16541e30e75
+    internal-label: Profile Merge
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 778
-ht-degree: 6%
-
+source-wordcount: '812'
+ht-degree: 8%
 ---
-
 # Supressão instantânea entre dispositivos {#instant-cross-device-suppression}
 
 [!UICONTROL Instant Cross-Device Suppression] é a capacidade de suprimir usuários em vários dispositivos conectados a eles quando uma determinada experiência ocorrer em um desses dispositivos. Use o recurso [!UICONTROL Instant Cross-Device Suppression] para fornecer uma experiência consistente entre dispositivos para seus usuários. A experiência é disponibilizada pelos recursos não segmentados em tempo real do Audience Manager.
@@ -37,7 +45,7 @@ Os detalhes técnicos do cancelamento de segmentação em tempo real estão desc
 
 ## Não Direcionar Depois De Convertido {#do-not-target-once}
 
-Verifique se os usuários que já converteram (compraram um produto, adquiriram uma assinatura etc.) não verão as mesmas mensagens que antes da conversão. Você pode obter isso usando a lógica [!UICONTROL AND NOT] da seguinte maneira.
+Verifique se os usuários já converteram (compraram um produto, compraram uma assinatura etc.) O não verá as mesmas mensagens que tinham antes da conversão. Você pode obter isso usando a lógica [!UICONTROL AND NOT] da seguinte maneira.
 
 1. Crie um segmento usando duas características e use a lógica [!UICONTROL AND NOT], conforme mostrado na imagem abaixo. Você deve usar uma característica com base em regras para definir o evento de conversão para que o cancelamento de segmentos seja acionado em tempo real. Leia mais sobre como [criar características com base em regras](../traits/create-onboarded-rule-based-traits.md).
 2. Mapeie o segmento para qualquer número de destinos de servidor para servidor em tempo real. Leia sobre como adicionar segmentos a [destinos de servidor para servidor](../destinations/add-edit-segments.md).
@@ -70,7 +78,7 @@ Lembre-se dos seguintes aspectos relacionados ao processamento:
 * Para que a capacidade não segmentada em tempo real funcione, mapeie os segmentos desejados para destinos de servidor para servidor em tempo real.
 * Para dispositivos conectados a um dispositivo por um [gráfico de dispositivos](profile-link-use-case.md#recommendations), impomos um limite de quatro dispositivos em relação à avaliação e ao cancelamento de segmentação. Essa limitação é descrita em [Opções de gráfico de dispositivo e Cancelamento de segmentação de dispositivo](merge-rule-unsegment.md#device-graph-options-unsegmentation).&#x200B;
 * O comando cancelar segmentos será incluído em um arquivo em lote, enviado para destinos a cada 24 horas, para vários dispositivos conectados pelo gráfico de dispositivos.
-* O dispositivo deve ser visto em tempo real (no [Edge](../../reference/system-components/components-edge.md)) para solicitar a avaliação de segmentos em tempo real. Para características que têm um [!UICONTROL time-to-live (TTL)] quando a característica [!DNL TTL] é atendida, o dispositivo será automaticamente dessegmentado em 24 horas por meio do arquivo de lote..&#x200B; Leia mais sobre como [Definir um Intervalo de Expiração de Característica](../traits/create-onboarded-rule-based-traits.md#set-expiration-interval).
+* O dispositivo deve ser visto em tempo real (no [Edge](../../reference/system-components/components-edge.md)) para solicitar a avaliação de segmentos em tempo real. Para características que têm um [!UICONTROL time-to-live (TTL)] quando a característica [!DNL TTL] é atendida, o dispositivo será automaticamente dessegmentado em 24 horas por meio do arquivo em lote..&#x200B; Leia mais sobre como [Definir um Intervalo de Expiração de Característica](../traits/create-onboarded-rule-based-traits.md#set-expiration-interval).
 * Se você estiver usando o [!UICONTROL DCS API] para integrar características baseadas em regras em tempo real, será possível acionar o cancelamento de segmentos com o uso da lógica [!UICONTROL AND NOT]. Leia mais sobre [envio de dados à API DCS](../../api/dcs-intro/dcs-event-calls/dcs-url-send.md).&#x200B;
 
 ## Aspectos importantes a serem observados - Tempo {#timing-notes}

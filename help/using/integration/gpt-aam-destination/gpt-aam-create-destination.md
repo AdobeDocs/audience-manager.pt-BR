@@ -7,23 +7,30 @@ title: Criar um destino GPT
 uuid: e3bbf327-a7e0-48da-bc84-8f531b7f6750
 feature: Third-party Integration
 exl-id: 26373826-de06-49e5-82fd-bb6588a73fb9
-TQID: https://experienceleague.adobe.com/v24OVLvNGPvqASZ4CPh2xbBgVcXZNCitCBM76nUXRsE
+TQID: 'https://experienceleague.adobe.com/v24OVLvNGPvqASZ4CPh2xbBgVcXZNCitCBM76nUXRsE'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
 subfeature_v2:
   - id: e7029888-c8b0-46a7-849a-cf132a1559bf
+    internal-label: Destination Builder
+  - id: 5c645d93-a56e-58b4-b860-6a587b608d44
+    internal-label: Third-party Integration
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 284
+source-wordcount: '295'
 ht-degree: 1%
-
 ---
-
 # Criar um destino GPT {#create-a-gpt-destination}
 
 Você pode enviar segmentos qualificados para o [!DNL Google Ad Manager] por meio de uma integração do lado do cliente (lado do navegador) ou de uma integração do lado do servidor. Se você escolher a integração do lado do cliente, deverá criar um destino baseado em cookies para [!DNL Google Publisher Tags] no Audience Manager.

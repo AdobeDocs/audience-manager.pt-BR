@@ -8,19 +8,26 @@ title: Visualizador de perfil do visitante
 uuid: 77ffe134-e08f-41de-8fc4-15494847b1d0
 feature: Traits
 exl-id: 6c1ee14c-6f78-4e45-9b88-24ace8400079
-TQID: https://experienceleague.adobe.com/e-qPcNaUpT-inBkx30AqUa-KkjjVJRyce86O-HQNitE
+TQID: 'https://experienceleague.adobe.com/e-qPcNaUpT-inBkx30AqUa-KkjjVJRyce86O-HQNitE'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Troubleshooting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 250
+source-wordcount: '252'
 ht-degree: 0%
-
 ---
-
 # Visualizador de perfil do visitante {#visitor-profile-viewer}
 
 Use o [!UICONTROL Visitor Profile Viewer] para exibir o estado atual de um perfil de usuário para o navegador atual, incluindo suas características e segmentos. Para cada característica, você pode visualizar sua [!UICONTROL SID], nome, detalhes sobre como as características do visitante foram realizadas (próprias ou de terceiros), a data de realização e a frequência de realizações. Para cada segmento, você pode visualizar seu [!UICONTROL SID], seu nome e a data de associação do segmento. Você também pode exibir o perfil do visitante para outra ID de perfil do Audience Manager ([!UICONTROL UUID]). O [!UICONTROL Visitor Profile Viewer] é útil para fins de solução de problemas.

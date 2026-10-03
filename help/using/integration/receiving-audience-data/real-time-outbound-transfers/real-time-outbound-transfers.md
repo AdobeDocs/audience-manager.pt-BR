@@ -7,29 +7,37 @@ title: Transferências de dados de saída em tempo real
 uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
 feature: Outbound Data Transfers
 exl-id: 12aee831-1a44-4cd6-aeba-7738a584dfe7
-TQID: https://experienceleague.adobe.com/uaVdbqmIOGWFad6aDmDJCBDh4KxNMBL-dei0Rxx2kLQ
+TQID: 'https://experienceleague.adobe.com/uaVdbqmIOGWFad6aDmDJCBDh4KxNMBL-dei0Rxx2kLQ'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: bcf89bb2-9d92-4897-90ec-483950be810f
+    internal-label: Outbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 677
+source-wordcount: '695'
 ht-degree: 2%
-
 ---
-
 # Transferências de dados de saída em tempo real {#real-time-outbound-data-transfers}
 
 O processo de transferência de dados em tempo real de saída fornece dados do usuário como uma série de [!DNL JSON] mensagens formatadas para uma plataforma de destino.
 
 <!-- c_outbound_json.xml -->
 
-## Recomendações  
+## Recomendações
 
 Para usar esse método, a plataforma de destino deve atender aos seguintes requisitos:
 
@@ -83,7 +91,7 @@ A tabela a seguir define os elementos do arquivo de dados [!DNL JSON] que você 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Client_ID</i></code> </td> 
-   <td colname="col2"> <p>String   </p> </td> 
+   <td colname="col2"> <p>String </p> </td> 
    <td colname="col3"> <p>Representa a conta de destino na plataforma de destino. Essa ID é originária da plataforma de destino.</p> </td> 
   </tr> 
   <tr valign="top"> 
@@ -103,12 +111,12 @@ A tabela a seguir define os elementos do arquivo de dados [!DNL JSON] que você 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_UUID</i></code> </td> 
-   <td colname="col2"> <p>String   </p> </td> 
+   <td colname="col2"> <p>String </p> </td> 
    <td colname="col3"> <p>A UUID <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.DataPartner_UUID</i></code> </td> 
-   <td colname="col2"> <p>String   </p> </td> 
+   <td colname="col2"> <p>String </p> </td> 
    <td colname="col3"> <p>UUID da plataforma de destino ou ID do dispositivo global. </p> </td> 
   </tr> 
   <tr valign="top"> 
@@ -139,7 +147,7 @@ A tabela a seguir define os elementos do arquivo de dados [!DNL JSON] que você 
      <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Removido de um segmento com base no <a href="../../../features/traits/segment-ttl-explained.md"> intervalo de vida útil</a> do segmento. </li> 
      <li id="li_F48D1052BA2B45108225641292CC748D">Movido para um estado inativo se não tiver sido visto nos últimos 120 dias. </li>
      <li>Removido devido a uma solicitação de alteração de privacidade (ou seja, <span class="keyword"> GDPR</span>)</li>
-    </ul> <p>Todas as IDs de parceiros sincronizadas com uma ID do Audience Manager<span class="keyword"> do </span> receberão o sinalizador <code> "Status":"0"</code> quando um usuário não estiver segmentado. </p> </td> 
+    </ul> <p>Todas as IDs de parceiros sincronizadas com uma ID do Audience Manager</span> do <span class="keyword"> receberão o sinalizador <code> "Status":"0"</code> quando um usuário não estiver segmentado. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.DateTime</i></code> </td> 

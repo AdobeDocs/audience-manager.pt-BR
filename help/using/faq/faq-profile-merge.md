@@ -8,22 +8,30 @@ title: Perguntas frequentes sobre Regras de mesclagem de perfis e Gráfico de di
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
 feature: Profile Merge
 exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
-TQID: https://experienceleague.adobe.com/G8a3lySpSqyDY7FTWSgECjhNl-aCVsjxj6I0lHUkq2o
+TQID: 'https://experienceleague.adobe.com/G8a3lySpSqyDY7FTWSgECjhNl-aCVsjxj6I0lHUkq2o'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: aefd3d92-918f-446f-ad66-e16541e30e75
+    internal-label: Profile Merge
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Personalization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1583
-ht-degree: 81%
-
+source-wordcount: '1623'
+ht-degree: 80%
 ---
-
 # Perguntas frequentes sobre Regras de mesclagem de perfis e Gráfico de dispositivos{#profile-merge-rules-and-device-graph-faq}
 
 Respostas a perguntas comuns sobre a Regra de mesclagem de perfis e Gráfico de dispositivos.
@@ -104,7 +112,6 @@ O [!DNL Audience Manager] pode enviar segmentos para um destino em arquivos em l
 
 O Audience Manager mescla até 100 dispositivos ao avaliar segmentos com uma [!UICONTROL Profile Merge Rule] que usa um gráfico de dispositivos. Se o sinal de cancelamento de segmento for emitido, o dispositivo atual e até 99 dispositivos adicionais serão removidos do segmento no destino. Para obter mais informações sobre o cancelamento de segmentação, consulte [Regras de mesclagem de perfis e Processos de canelamento de dispositivos](../features/profile-merge-rules/merge-rule-unsegment.md).
 
-
  
 
 **Se um destino puder cancelar segmentos de dispositivos, os dispositivos serão removidos dos segmentos pelas [!UICONTROL Profile Merge Rules] que usam um gráfico de dispositivos?**
@@ -121,7 +128,7 @@ Sim.
 
 **As estimativas de tamanho de segmento incluem dispositivos que se qualificam para um segmento com base nas conexões fornecidas por uma [!UICONTROL Profile Merge Rule] que usa uma opção de gráfico de dispositivos?**
 
-Não. Consulte as definições para a [!UICONTROL Estimated Real-Time Population] e [!UICONTROL Estimated Total Population] em [Dados de população de características e segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=pt-BR).
+Não. Consulte as definições para a [!UICONTROL Estimated Real-Time Population] e [!UICONTROL Estimated Total Population] em [Dados de população de características e segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html).
 
  
 

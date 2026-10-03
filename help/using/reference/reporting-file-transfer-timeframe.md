@@ -7,24 +7,30 @@ title: Como a entrega de dados e os tempos de processamento de arquivos afetam o
 uuid: 4b975512-f67e-4749-a7ef-168415597682
 feature: Reference
 exl-id: d13102c3-fd1b-4c31-8003-9fdc0df36838
-TQID: https://experienceleague.adobe.com/1j9TsJYza6imKBGGAcK8ZvTBK6nLHAMOxO2mdO0PRts
+TQID: 'https://experienceleague.adobe.com/1j9TsJYza6imKBGGAcK8ZvTBK6nLHAMOxO2mdO0PRts'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+  - id: 6a8f3a31-6f0b-5101-9878-fb698e568543
+    internal-label: Reference
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 605
+source-wordcount: '617'
 ht-degree: 1%
-
 ---
-
 # Como a entrega de dados e os tempos de processamento de arquivos afetam os relatórios{#how-data-delivery-and-file-processing-times-affect-reports}
 
 A Audience Manager recebe uma enorme quantidade de dados todos os dias. Isso afeta o tempo necessário para processar seus dados e gerar resultados de relatório. O conteúdo desta seção descreve como esses intervalos de tempo afetam sua conta do Audience Manager. Além disso, os cronogramas e cronogramas descritos aqui são somente diretrizes gerais. Esses cronogramas não constituem Contratos de nível de serviço (SLAs) nem compromissos relacionados à entrega de dados. A Adobe se reserva o direito de alterar os cronogramas e horários a qualquer momento, sem aviso prévio.
@@ -43,7 +49,7 @@ A tabela a seguir lista e descreve os intervalos de tempo em nossos relatórios 
 | Tipo de dados | Descrição |
 |---|---|
 | Dados em tempo real | Os números em tempo real para hoje são para as horas 00:00 a 23:59:59 UTC de ontem. |
-| Dados de Relatório Geral | Os dados nos [Relatórios Gerais](../reporting/general-reports.md#general-reports-overview) dependem da conclusão bem-sucedida de outros processos de trabalho e da quantidade de dados recebidos em um dia específico. Na maioria das vezes, os dados de [!UICONTROL General Report] devem ser atualizados às 18:00 UTC de cada dia. |
+| Dados de Relatório Geral | Os dados nos [Relatórios Gerais](../reporting/general-reports.md#general-reports-overview) dependem da conclusão bem-sucedida de outros processos de trabalho e da quantidade de dados recebidos em um dia específico. Na maioria das vezes, os dados do [!UICONTROL General Report] devem ser atualizados todos os dias às 18:00 UTC. |
 
 ## Transferências de arquivos de entrada e saída {#inbound-outbound-file-transfers}
 
@@ -52,7 +58,7 @@ O [!DNL Audience Manager] processa e envia transferências de arquivos [!UICONTR
 | Tipo de arquivo | Descrição |
 |---|---|
 | Assimilação de arquivo de entrada (dados offline) | O processamento de arquivos é executado duas vezes por dia. Esses procedimentos assimilam dados e os preparam para o delivery. Os prazos de entrega de arquivos variam porque são afetados pela quantidade total de dados do cliente que precisam ser processados. Você deve esperar uma latência máxima de 48 horas entre o momento em que o arquivo é carregado no Audience Manager e até que os dados estejam disponíveis para relatório e ativação. |
-| Arquivos de saída (exportação) | O processamento e a entrega de arquivos ocorrem uma vez por dia, aproximadamente às 14:00 UTC. Lembre-se de que o processamento e o delivery são afetados pelo número total e pelo tamanho desses arquivos. Em alguns casos, pode haver um atraso no processamento do arquivo de até 24 horas. Quando isso acontecer, o Audience Manager enviará dois arquivos para um dia específico em vez de um. Notificaremos nossos clientes sobre casos raros em que a Audience Manager precisa parar de processar um arquivo completamente. Dadas essas condições, é difícil estimar os prazos de delivery para dados de saída. Para determinar se você recebeu um conjunto completo de arquivos, verifique o carimbo de data e hora e procure os dias ausentes. É um carimbo de data e hora UNIX UTC de 13 dígitos que registra a hora em que o arquivo foi criado. Consulte [Transferências de dados de saída em tempo real](../integration/receiving-audience-data/real-time-outbound-transfers/real-time-outbound-transfers.md). |
+| Arquivos de saída (exportação) | O processamento e a entrega do arquivo ocorrem uma vez por dia, aproximadamente às 14h00 UTC. Lembre-se de que o processamento e o delivery são afetados pelo número total e pelo tamanho desses arquivos. Em alguns casos, pode haver um atraso no processamento do arquivo de até 24 horas. Quando isso acontecer, o Audience Manager enviará dois arquivos para um dia específico em vez de um. Notificaremos nossos clientes sobre casos raros em que a Audience Manager precisa parar de processar um arquivo completamente. Dadas essas condições, é difícil estimar os prazos de delivery para dados de saída. Para determinar se você recebeu um conjunto completo de arquivos, verifique o carimbo de data e hora e procure os dias ausentes. É um carimbo de data e hora UNIX UTC de 13 dígitos que registra a hora em que o arquivo foi criado. Consulte [Transferências de dados de saída em tempo real](../integration/receiving-audience-data/real-time-outbound-transfers/real-time-outbound-transfers.md). |
 | Arquivos de registro do servidor de publicidade | O processamento de arquivos é executado em tempo quase real para assimilar registros do arquivo de log, pois os arquivos por hora estão prontos. O processo para preparar os arquivos para relatórios é executado uma vez por dia. Os prazos de entrega de arquivos variam porque são afetados pela quantidade total de dados do cliente que precisam ser processados. Você deve esperar uma latência máxima de 48 horas entre o momento em que você faz upload do arquivo para o Audience Manager e o momento em que os dados estão disponíveis para relatórios e ativação. |
 
 >[!MORELIKETHIS]

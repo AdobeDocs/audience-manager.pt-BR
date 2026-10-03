@@ -7,16 +7,21 @@ title: Finalidade, composição e regras dos segmentos
 uuid: 886d4abe-b1b6-4983-b4fb-b552d54d51ba
 feature: Segments
 exl-id: 4e4da7a7-3267-4564-b1c5-663dcddf2b93
-TQID: https://experienceleague.adobe.com/ybEzOukcOXFXD8ozjGEYd-ma-bmjI-ldDtpLBUZsJFg
+TQID: 'https://experienceleague.adobe.com/ybEzOukcOXFXD8ozjGEYd-ma-bmjI-ldDtpLBUZsJFg'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b52f95d5-ca6b-4fda-a49e-994dc0a63402
+    internal-label: Segments
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 303
+source-wordcount: '324'
 ht-degree: 1%
-
 ---
-
 # Segmentos: finalidade, composição e regras {#segments-purpose-composition-and-rules}
 
 Descreve [!UICONTROL segments], suas partes constituintes e a criação da regra com [!UICONTROL Segment Builder].
@@ -26,7 +31,7 @@ Descreve [!UICONTROL segments], suas partes constituintes e a criação da regra
 Um *`segment`* (ou *`audience`*) é um conjunto de usuários que compartilham atributos comuns. No Audience Manager, você cria [!UICONTROL segments] com regras do lado do servidor. Essas regras permitem criar grupos de públicos-alvo com base nos atributos do visitante do site, como:
 
 * Comportamento;
-* Demografia (idade, sexo, renda etc.);
+* Demografia (idade, sexo, rendimento, etc.);
 * Outras características que você pode definir na interface do usuário do.
 
 ## Composição de [!UICONTROL Segment]
@@ -39,7 +44,7 @@ Ao mapear o Adobe Analytics [!UICONTROL segments] ou conjuntos de relatórios pa
 
 >[!TIP]
 >
->Audience Manager [!UICONTROL segments] são diferentes de [!DNL Adobe Analytics] [!UICONTROL segments]. Leia [Entendendo os segmentos no Analytics e no Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=pt-BR) para obter uma descrição detalhada sobre as diferenças.
+>Audience Manager [!UICONTROL segments] são diferentes de [!DNL Adobe Analytics] [!UICONTROL segments]. Leia [Entendendo os segmentos no Analytics e no Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) para obter uma descrição detalhada sobre as diferenças.
 
 ## Criar [!UICONTROL Segments] com base em Regras com [!UICONTROL Segment Builder]
 

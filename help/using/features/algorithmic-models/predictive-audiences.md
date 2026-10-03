@@ -6,28 +6,40 @@ solution: Audience Manager
 title: Públicos preditivos do Audience Manager
 feature: Algorithmic Models
 exl-id: 57eaeb09-0e0e-4ce9-9b25-f1a27f4f35ce
-TQID: https://experienceleague.adobe.com/--U4qWXmR0OhYOOlPCZXm7sdXBL3dmkfmtp09WMUetw
+TQID: 'https://experienceleague.adobe.com/--U4qWXmR0OhYOOlPCZXm7sdXBL3dmkfmtp09WMUetw'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: cd2456ea-4f93-45ef-a193-94c258a6fbfb
+    internal-label: Algorithmic models
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1470
+source-wordcount: '1543'
 ht-degree: 3%
-
 ---
-
 # Visão geral do [!UICONTROL Predictive Audiences] {#predictive-audiences}
 
 O [!UICONTROL Predictive Audiences] ajuda você a classificar um público-alvo desconhecido em personas distintas, em tempo real, usando técnicas avançadas de ciência de dados.
@@ -129,19 +141,19 @@ Ao configurar seus modelos do [!UICONTROL Predictive Audiences], lembre-se das s
 * O [!UICONTROL Predictive Audiences] realiza a classificação de público com base em suas características próprias, de todas as suas fontes de dados originais.
 * A avaliação de segmento para [!UICONTROL Predictive Audiences] usa o **[!UICONTROL Profile Merge Rule]** escolhido durante a criação do modelo. Para saber mais sobre [!UICONTROL Profile Merge Rules], consulte a [documentação](../profile-merge-rules/merge-rules-overview.md) dedicada.
 * Algumas características e segmentos não são compatíveis como linhas de base ou públicos-alvo de direcionamento. [!UICONTROL Predictive Audiences] modelos não serão salvos ao escolher um dos seguintes como linhas de base ou públicos-alvo de destino:
-   * Características preditivas e segmentos criados com características preditivas;
-   * [Adobe Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) características ou segmentos;
-   * Características algorítmicas;
-   * Características secundárias e de terceiros.
+  * Características preditivas e segmentos criados com características preditivas;
+  * [Adobe Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) características ou segmentos;
+  * Características algorítmicas;
+  * Características secundárias e de terceiros.
 * [!UICONTROL Predictive Audience] [!UICONTROL segments] não pode ser usado em [!UICONTROL Audience Lab].
 
 ## [!UICONTROL Data Export Controls] {#dec}
 
-Os segmentos preditivos criados por modelos [!UICONTROL Predictive Audiences] herdam os [Controles da Exportação de Dados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=pt-BR) das seguintes fontes de dados primárias:
+Os segmentos preditivos criados por modelos [!UICONTROL Predictive Audiences] herdam os [Controles da Exportação de Dados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) das seguintes fontes de dados primárias:
 
 1. A fonte de dados primária escolhida ao criar o modelo.
 1. As fontes de dados primárias do público-alvo. Especificamente, os controles de exportação de dados do [!UICONTROL traits] ou [!UICONTROL segments] que compõem o público-alvo.
-1. Os [Controles da Exportação de Dados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=pt-BR) de [!UICONTROL Profile Merge Rule] que você selecionou para o modelo.
+1. Os [Controles da Exportação de Dados](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) de [!UICONTROL Profile Merge Rule] que você selecionou para o modelo.
 
 A [!UICONTROL traits] preditiva recém-criada e a [!UICONTROL segments] terão as mesmas restrições de privacidade que a união das fontes de dados primárias descritas acima.
 
@@ -153,14 +165,14 @@ Todos os segmentos preditivos serão atribuídos ao [!UICONTROL Profile Merge Ru
 
 * Ele define quais dispositivos e/ou perfis autenticados devem ser considerados quando o modelo analisa o [!UICONTROL traits] influente, no momento de classificar um usuário em um [!UICONTROL segment] preditivo.
 * Ela controla quais [!UICONTROL trait] tipos (nível de dispositivo ou nível entre dispositivos) devem ser usados durante a etapa de treinamento do modelo e exibidos como [!UICONTROL traits] influentes. A preditiva [!UICONTROL segments] é um subconjunto de seu público-alvo.
-   * Se o público-alvo for um segmento, recomendamos que você selecione o mesmo [!UICONTROL Profile Merge Rule] para o modelo que foi atribuído ao seu público-alvo, ou um [!UICONTROL Profile Merge Rule] que inclua o tipo de perfil do seu público-alvo.
-   * Se o público-alvo for um [!UICONTROL trait], recomendamos que você selecione um [!UICONTROL Profile Merge Rule] que possa acessar o mesmo tipo de dados que a característica do público-alvo (dados de perfil do dispositivo ou dados de perfil entre dispositivos).
+  * Se o público-alvo for um segmento, recomendamos que você selecione o mesmo [!UICONTROL Profile Merge Rule] para o modelo que foi atribuído ao seu público-alvo, ou um [!UICONTROL Profile Merge Rule] que inclua o tipo de perfil do seu público-alvo.
+  * Se o público-alvo for um [!UICONTROL trait], recomendamos que você selecione um [!UICONTROL Profile Merge Rule] que possa acessar o mesmo tipo de dados que a característica do público-alvo (dados de perfil do dispositivo ou dados de perfil entre dispositivos).
 * Só há suporte para [!UICONTROL Profile Merge Rules] que usa as opções [!UICONTROL Current Authenticated Profiles] e [!UICONTROL No Device Profile] para a classificação de público-alvo em tempo real. Para obter mais informações, consulte [Opções de Regras de Mesclagem de Perfis Definidas](../profile-merge-rules/merge-rule-definitions.md).
 
 Selecionar um [!UICONTROL Profile Merge Rule] que use dados de dispositivo e dados entre dispositivos maximiza o número de [!UICONTROL traits] que poderia ser usado para treinamento de modelo e classificação de usuário no [!UICONTROL segments] preditivo.
 
 ## [!UICONTROL Role-Based Access Controls] {#rbac}
 
-As características e os segmentos que você escolher para classificação de personas e público estão sujeitos aos [Controles de Acesso com Base em Função](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=pt-BR) da Audience Manager.
+As características e os segmentos que você escolher para classificação de personas e público estão sujeitos aos [Controles de Acesso com Base em Função](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html) da Audience Manager.
 
-Os usuários do Audience Manager só podem selecionar características ou segmentos para personas e públicos-alvo, que têm [permissão para visualizar](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=pt-BR#wild-card-permissions).
+Os usuários do Audience Manager só podem selecionar características ou segmentos para personas e públicos-alvo, que têm [permissão para visualizar](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions).

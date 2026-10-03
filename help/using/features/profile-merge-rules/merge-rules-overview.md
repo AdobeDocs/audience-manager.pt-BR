@@ -7,26 +7,33 @@ title: Visão geral das regras de mesclagem de perfis
 uuid: 9e7988cc-9145-432b-840a-54fbd8657b3b
 feature: Profile Merge
 exl-id: 5d1f5bea-0fca-4684-a2b4-585d9e38d9ef
-TQID: https://experienceleague.adobe.com/nhbT9DeDdZho5Rsqprq7N3Si7i9RfoirQuONiAh2Lmw
+TQID: 'https://experienceleague.adobe.com/nhbT9DeDdZho5Rsqprq7N3Si7i9RfoirQuONiAh2Lmw'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: aefd3d92-918f-446f-ad66-e16541e30e75
+    internal-label: Profile Merge
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience segmentation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 336
-ht-degree: 0%
-
+source-wordcount: '340'
+ht-degree: 1%
 ---
-
 # Visão geral do [!UICONTROL Profile Merge Rules] {#profile-merge-rules-overview}
 
 Com o [!UICONTROL Profile Merge Rules], você pode controlar quais conjuntos de dados são usados para segmentação e pode direcionar os usuários com precisão em vários dispositivos.
 
->[!VIDEO](https://video.tv.adobe.com/v/32572?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/28974)
 
 ## Coleta e direcionamento de dados com perfis anônimos e autenticados {#data-collection-targeting}
 
@@ -38,7 +45,7 @@ Normalmente, a segmentação e o direcionamento do público-alvo dependem dos da
 
 | Tipo de perfil | Descrição |
 |---|---|
-| [!UICONTROL Device Profile] | Um [!UICONTROL device profile] está vinculado a uma ID para um determinado dispositivo, como uma ID de [!UICONTROL cookie] ou ID de dispositivo móvel.<br><br> Inclui:<ul><li>[!UICONTROL Rule-based traits] percebido quando um usuário não está autenticado.</li><li>[!UICONTROL Onboarded traits] vinculado a uma ID de dispositivo, como [!UICONTROL cookie-based], dados de terceiros.</li></ul> |
+| [!UICONTROL Device Profile] | Um [!UICONTROL device profile] está vinculado a uma ID para um determinado dispositivo, como uma ID de [!UICONTROL cookie] ou ID de dispositivo móvel.<br><br> O serviço inclui:<ul><li>[!UICONTROL Rule-based traits] percebido quando um usuário não está autenticado.</li><li>[!UICONTROL Onboarded traits] vinculado a uma ID de dispositivo, como [!UICONTROL cookie-based], dados de terceiros.</li></ul> |
 | [!UICONTROL Authenticated Profile] | O [!UICONTROL authenticated profile] está vinculado a uma ID de usuário transmitida quando uma pessoa faz logon no site.<br><br>Inclui:<ul><li>[!UICONTROL Rule-based traits] coletado entre dispositivos quando um usuário é autenticado.</li><li>[!UICONTROL Onboarded traits] em um arquivo offline vinculado à mesma ID de usuário.</li></ul> |
 
 Esses perfis diferentes controlam os dados que podem ser usados para segmentação. Por exemplo, com um [perfil autenticado](../../reference/visitor-authentication-states.md), você pode criar [!UICONTROL segments] precisos com base em dados de vários dispositivos para um único usuário. Isso significa que você pode fornecer uma experiência de marca consistente aos clientes em vários dispositivos. [!DNL Audience Manager] faz isso armazenando o mapeamento dos diferentes dispositivos que uma pessoa usa para suas atividades online em seu [perfil autenticado](../../reference/visitor-authentication-states.md). Esses mapeamentos são chamados de [!UICONTROL Profile Link Device Graph].

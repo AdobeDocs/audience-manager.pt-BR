@@ -7,27 +7,38 @@ title: Gerenciar grupos de teste
 uuid: 2fadddeb-7574-4853-8c52-c58456582c62
 feature: Audience Lab
 exl-id: 1d07c8f1-34dc-4339-bd5d-87042a22f7e9
-TQID: https://experienceleague.adobe.com/jQyTdKOIzeBEuUr76cpwJFNNdMRuzlCbJpGbC0mLQpM
+TQID: 'https://experienceleague.adobe.com/jQyTdKOIzeBEuUr76cpwJFNNdMRuzlCbJpGbC0mLQpM'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
   - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: e8501b6e-f5e0-495d-8a3d-6aa9293cdcc5
+    internal-label: Audience Lab
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Administration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 981
+source-wordcount: '1001'
 ht-degree: 0%
-
 ---
-
 # Gerenciar grupos de teste {#manage-test-groups}
 
 Este procedimento o guiará pelas etapas necessárias para criar, editar ou excluir um grupo de teste no [!UICONTROL Audience Lab].
@@ -42,12 +53,12 @@ Este procedimento o guiará pelas etapas necessárias para criar, editar ou excl
 
   >[!IMPORTANT]
   >
-  >[As &#x200B;](../../features/traits/about-folder-traits.md)características da pasta **não têm suporte** por [!UICONTROL Audience Lab]. Definir o [Tipo de Evento](../../features/traits/create-onboarded-rule-based-traits.md) de uma característica de pasta como **conversão** não gerará dados em [!UICONTROL Audience Lab] para essa característica de pasta específica.
+  >[As **características da pasta](../../features/traits/about-folder-traits.md) não têm suporte** por [!UICONTROL Audience Lab]. Definir o [Tipo de Evento](../../features/traits/create-onboarded-rule-based-traits.md) de uma característica de pasta como **conversão** não gerará dados em [!UICONTROL Audience Lab] para essa característica de pasta específica.
 
 * Para empresas que usam o [Controle de Acesso Baseado em Função](../../features/administration/administration-overview.md): atribua a [!UICONTROL Audience Lab] [permissão curinga](../../features/administration/administration-overview.md#wild-card-permissions) a **[!UICONTROL User Groups]** para fornecer acesso. Essa permissão possibilita que o usuário crie e visualize os resultados de um teste. Um usuário só poderá usar segmentos de uma fonte de dados para a qual tenha privilégios de **leitura** e **mapeamento para destino**. O usuário só poderá usar características de conversão de uma fonte de dados para a qual tenha permissões de **&quot;leitura&quot;**. Um usuário também só poderá ver os destinos aos quais tem acesso. Portanto, antes de adicionar a permissão curinga [!DNL Audience Lab] a um grupo, verifique se o grupo tem:
-   * acesso à leitura de características de conversão relevantes;
-   * acesso à leitura e ao mapeamento de segmentos relevantes para testes;
-   * acesso aos destinos pertinentes.
+  * acesso à leitura de características de conversão relevantes;
+  * acesso à leitura e ao mapeamento de segmentos relevantes para testes;
+  * acesso aos destinos pertinentes.
 
 Para criar um novo [!UICONTROL Segment Test Group]:
 

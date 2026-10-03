@@ -7,20 +7,26 @@ title: Casos de uso gerais para regras de mesclagem de perfis
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 feature: Profile Merge
 exl-id: 66341736-4f61-4306-b9f4-1b37dc7ce0ff
-TQID: https://experienceleague.adobe.com/Qk5jO5i-HgjV75z0--cXzgv7hMbS-s6sEyanGqy8m9I
+TQID: 'https://experienceleague.adobe.com/Qk5jO5i-HgjV75z0--cXzgv7hMbS-s6sEyanGqy8m9I'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: aefd3d92-918f-446f-ad66-e16541e30e75
+    internal-label: Profile Merge
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Personalization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 894
+source-wordcount: '921'
 ht-degree: 1%
-
 ---
-
 # Casos de uso gerais para regras de mesclagem de perfis {#general-use-cases-for-profile-merge-rules}
 
 As opções do [!UICONTROL Profile Merge Rules] permitem expandir ou estreitar o foco do público-alvo para públicos-alvo específicos com base nas necessidades ou metas comerciais. Esses casos de uso gerais exploram como usar as opções disponíveis e criar regras de mesclagem para direcionamento individual, doméstico e entre dispositivos. [!UICONTROL Profile Merge Rules] trabalhar com destinos em lote e em tempo real.
@@ -120,7 +126,7 @@ Escolher uma opção [!UICONTROL device graph] para uma regra [!UICONTROL Profil
 
 Assista ao vídeo abaixo para obter uma visão geral dos possíveis casos de uso do [!UICONTROL Profile Merge Rules].
 
->[!VIDEO](https://video.tv.adobe.com/v/32575?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/28975/)
 
 >[!MORELIKETHIS]
 >

@@ -7,19 +7,23 @@ title: Casos de uso do editor
 uuid: 5f571d60-d902-4958-b5d3-8d09ddda42c7
 feature: Reference
 exl-id: 974652de-59c0-46db-ac64-ba701985e409
-TQID: https://experienceleague.adobe.com/ptW1-1-tTMPBV7xhvI5hglL3LFfhONE3apr9-WQhMYs
+TQID: 'https://experienceleague.adobe.com/ptW1-1-tTMPBV7xhvI5hglL3LFfhONE3apr9-WQhMYs'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: 6a8f3a31-6f0b-5101-9878-fb698e568543
+    internal-label: Reference
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Insights
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 614
+source-wordcount: '644'
 ht-degree: 100%
-
 ---
-
 # Casos de uso do editor{#publisher-use-cases}
 
 Uma análise de algumas necessidades comuns de editores atendidas pelo Adobe Audience Manager.
@@ -152,7 +156,7 @@ A [Documentação de modelos](../features/algorithmic-models/understanding-model
    <td colname="col2"> <p> 
      <ul id="ul_CC5448D2EA0646D4AF3547E81DE31FDE"> 
       <li id="li_8F11E40026404C1380F26F6D03952C8E">Identifique novos públicos-alvo com comportamentos e perfis que espelham o público-alvo original. </li> 
-      <li id="li_5F67AD849EC145DBB1E52A92BBE2CEE3">Procure seus próprios dados e outros dados de terceiros aos quais você tem acesso. Dessa forma, você poderá encontrar e identificar os pontos de dados mais influentes para perfis de público-alvo de alto valor.  </li> 
+      <li id="li_5F67AD849EC145DBB1E52A92BBE2CEE3">Procure seus próprios dados e outros dados de terceiros aos quais você tem acesso. Dessa forma, você poderá encontrar e identificar os pontos de dados mais influentes para perfis de público-alvo de alto valor. </li> 
      </ul> </p> </td> 
    <td colname="col3"> <p> 
      <ul id="ul_51091241D6B94A849A383538045D797C"> 

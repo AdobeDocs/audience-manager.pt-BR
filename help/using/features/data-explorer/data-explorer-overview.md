@@ -6,21 +6,28 @@ title: Visão geral, benefícios e casos de uso
 uuid: 3bd32d4a-ade3-413d-837a-9edd14d415a5
 feature: Data Explorer
 exl-id: 56c9080b-4b7d-4feb-bddf-521e80bc8fa7
-TQID: https://experienceleague.adobe.com/7fLW4VhM4gUlbH6tkYIhEondTn4mopushMeFcJxzpPs
+TQID: 'https://experienceleague.adobe.com/7fLW4VhM4gUlbH6tkYIhEondTn4mopushMeFcJxzpPs'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+subfeature_v2:
+  - id: a2c6d65b-635d-4454-a9cc-9771ed501bb4
+    internal-label: Data Explorer
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Taxonomy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 463
+source-wordcount: '463'
 ht-degree: 1%
-
 ---
-
 # Data Explorer - Visão geral, benefícios e casos de uso {#overview-benefits-and-use-cases}
 
 Use o [!UICONTROL Data Explorer] para capitalizar públicos-alvo históricos, criando características com base em sinais usados e não usados e preenchendo-os com dados históricos para evitar possível perda de públicos-alvo relevantes.
@@ -57,4 +64,4 @@ Depois que um provedor de serviços de viagem adiciona novos destinos ao site de
 
 Um dos recursos mais eficientes do Audience Manager é a capacidade de integrar dados offline e uni-los aos seus dados online. No vídeo abaixo, saiba como usar o [!UICONTROL Data Explorer] para validar que você criou todas as características necessárias para aproveitar esses dados integrados.
 
->[!VIDEO](https://video.tv.adobe.com/v/30834?captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/25149/)
