@@ -7,24 +7,34 @@ title: Importar arquivos de dados do Google Ad Manager para o Audience Manager
 uuid: c685f34f-3e50-4c4b-99fa-d8bbafe0b268
 feature: Audience Optimization Reports
 exl-id: 62b72dd1-e664-4c6a-8c0a-f7a662d62a47
-TQID: https://experienceleague.adobe.com/cnzj59ejieaEvCGo2a-xopjYJ-GfUTc1LV24p9mQiEw
+TQID: 'https://experienceleague.adobe.com/cnzj59ejieaEvCGo2a-xopjYJ-GfUTc1LV24p9mQiEw'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+subfeature_v2:
+  - id: ff9c2088-e1d9-47aa-85e4-6765b719f5c7
+    internal-label: Audience Optimization Reports
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Optimization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 511
+source-wordcount: '519'
 ht-degree: 14%
-
 ---
-
 # Importar arquivos de dados do Google Ad Manager (antigo DFP) para o Audience Manager{#import-dfp-data-files-into-audience-manager}
 
 Antes do Audience Manager poder habilitar a otimização de público-alvo para editores, você deve garantir que todos os pré-requisitos descritos neste artigo sejam atendidos. Entre em contato com o Atendimento ao cliente após verificar todos os pré-requisitos.
@@ -59,7 +69,7 @@ Você mesmo precisa definir a ID do [!DNL Audience Manager] e pode trabalhar com
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Etapa 1 </p> </td> 
-   <td colname="col2"> <p>Confirme se as etapas necessárias para definir a UUID <span class="keyword"> do Audience Manager </span> (descritas acima) foram concluídas antes de passar para a Etapa 2 </p> </td> 
+   <td colname="col2"> <p>Confirme se as etapas necessárias para definir a UUID </span> do Audience Manager <span class="keyword"> (descritas acima) foram concluídas antes de passar para a Etapa 2 </p> </td> 
    <td colname="col3"> <p>Consultoria ou Atendimento ao cliente do <span class="keyword"> Audience Manager</span> </p> </td> 
   </tr> 
   <tr> 

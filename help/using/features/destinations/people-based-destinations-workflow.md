@@ -6,22 +6,28 @@ solution: Audience Manager
 title: Diretrizes de implementação
 feature: People-based Destinations
 exl-id: 224334d5-419c-4bb1-b76c-ce996a543b7a
-TQID: https://experienceleague.adobe.com/sn4hek-BWvX1SZZJ8TyBojZpdA3ZcWEHtf3mhlm22vg
+TQID: 'https://experienceleague.adobe.com/sn4hek-BWvX1SZZJ8TyBojZpdA3ZcWEHtf3mhlm22vg'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+subfeature_v2:
+  - id: d7221605-094b-45a5-891f-f37bd58c0055
+    internal-label: People based Destinations
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Personalization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1350
-ht-degree: 2%
-
+source-wordcount: '1362'
+ht-degree: 3%
 ---
-
 # Diretrizes de implementação {#implementation-guidance}
 
 >[!IMPORTANT]
@@ -40,7 +46,7 @@ Você precisa esclarecer seis aspectos de implementação antes de usar o [!DNL 
 
 ![pbd-implementation](assets/pbd-implementation.png)
 
-## &#x200B;1. Definir seu caso de uso {#defining-your-use-case}
+## &#x200B;1. Definição do seu caso de uso {#defining-your-use-case}
 
 Antes de começar a implementar o [!DNL People-Based Destinations], você precisa definir claramente o caso de uso para o qual você usará esse recurso. Você pode usar o [!DNL People-Based Destinations] para direcionar públicos de duas maneiras, com base na atividade do público:
 
@@ -54,7 +60,7 @@ Para direcioná-los por meio de redes sociais e canais semelhantes com base em p
 
 Sua empresa, um provedor de serviços de telecomunicações, mantém os dados do cliente, como endereços de email e planos de telecomunicações adquiridos, em um [!DNL CRM] interno. Você deseja direcionar os clientes existentes nas plataformas sociais para oferecer pacotes de atualização com base em suas assinaturas existentes. Para fazer isso, você pode assimilar seus endereços de email de clientes com hash na Audience Manager e criar segmentos com base nas assinaturas de clientes existentes. Em seguida, envie esses segmentos para [!DNL People-Based Destinations] para direcionar seus clientes com ofertas personalizadas.
 
-## &#x200B;2. Defina o tipo de Endereços de email direcionados {#define-target-email}
+## &#x200B;2. Definir o tipo de endereços de email direcionados {#define-target-email}
 
 A segunda etapa na definição da estratégia de implementação é decidir que tipo de endereço de email do cliente você deseja direcionar.
 
@@ -70,7 +76,7 @@ O direcionamento de públicos-alvo no [!DNL People-Based Destinations] exige que
 
 **B) Suas IDs de clientes do Audience Manager ([DPUUIDs](../../reference/ids-in-aam.md)) não são endereços de email com hash e em minúsculas**. Neste cenário, suas IDs de cliente existentes não podem ser enviadas para [!DNL People-Based Destinations]. Para usar o [!DNL People-Based Destinations], você precisa executar uma sincronização de ID entre suas IDs de cliente existentes e versões em minúsculas e com hash dos endereços de email do cliente. Você faz isso por meio da [sincronização de ID com base em arquivo](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) ou usando [IDs declaradas](../declared-ids.md).
 
-## &#x200B;4. Qualificação das características {#trait-qualification}
+## &#x200B;4. Qualificação da característica {#trait-qualification}
 
 Para direcionar com precisão seu público no [!DNL People-Based Destinations], seus usuários precisam se qualificar para características integradas ou com base em regras, dependendo do tipo de direcionamento de público que você deseja executar.
 

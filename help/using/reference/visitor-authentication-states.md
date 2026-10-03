@@ -8,16 +8,18 @@ title: Estados de autenticação de visitante no Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 feature: Reference
 exl-id: 55aec28d-02f6-4e6d-9be1-4ce40deb8dc3
-TQID: https://experienceleague.adobe.com/-sM2Nc-SH0JibLcGQlY5P61zygmnDCEIvjjFq5QglYk
+TQID: 'https://experienceleague.adobe.com/-sM2Nc-SH0JibLcGQlY5P61zygmnDCEIvjjFq5QglYk'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: 6a8f3a31-6f0b-5101-9878-fb698e568543
+    internal-label: Reference
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 315
+source-wordcount: '331'
 ht-degree: 2%
-
 ---
-
 # Estados de autenticação de visitante no Audience Manager{#visitor-authentication-states-in-audience-manager}
 
 O status de autenticação do visitante no Audience Manager determina se as novas informações de característica são gravadas no perfil autenticado do visitante ou no perfil do dispositivo, de onde os dados foram coletados. O Audience Manager trata os status de autenticação de ID de visitante UNKNOWN e LOGGED_OUT em chamadas de evento da mesma maneira.

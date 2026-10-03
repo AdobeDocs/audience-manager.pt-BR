@@ -7,20 +7,26 @@ title: Macros de modelo de saída
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
 feature: Outbound Data Transfers
 exl-id: 6988d0e5-7a99-4291-91d3-bcd3a15630fd
-TQID: https://experienceleague.adobe.com/XHerr-G8acd--a9-ufwafOHp54nXNFaMnVjnvTHhKlQ
+TQID: 'https://experienceleague.adobe.com/XHerr-G8acd--a9-ufwafOHp54nXNFaMnVjnvTHhKlQ'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: bcf89bb2-9d92-4897-90ec-483950be810f
+    internal-label: Outbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 708
+source-wordcount: '712'
 ht-degree: 1%
-
 ---
-
 # Macros de modelo de saída {#outbound-template-macros}
 
 Lista as macros que você pode usar para criar modelos de saída. Isso inclui macros de nome de arquivo, macros de cabeçalho e macros de conteúdo.
@@ -117,7 +123,7 @@ Macros usadas para formatar o conteúdo de um arquivo de dados. Para exemplos de
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID </code> </p> </td> 
-   <td colname="col2"> <p> Identificador De Usuário Exclusivo <span class="term"> Do Provedor De Dados </span>. </p> <p>Essa é a ID do parceiro de dados para o qual você envia dados em um arquivo de saída. </p> </td> 
+   <td colname="col2"> <p> Identificador De Usuário Exclusivo </span> Do Provedor De Dados <span class="term">. </p> <p>Essa é a ID do parceiro de dados para o qual você envia dados em um arquivo de saída. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID_LIST </code> </p> </td> 
@@ -137,7 +143,7 @@ Macros usadas para formatar o conteúdo de um arquivo de dados. Para exemplos de
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MCID </code> </p> </td> 
-   <td colname="col2"> <p> ID <span class="keyword"> do Adobe Experience Cloud </span>. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> ID </span> da Adobe Experience Cloud. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPEN_CURLY_BRACKET </code> </p> </td> 
@@ -175,8 +181,8 @@ Macros usadas para formatar o conteúdo de um arquivo de dados. Para exemplos de
    <td colname="col1"> <p> <code> SEGMENT_LIST </code> </p> </td> 
    <td colname="col2"> <p>Retorna uma lista de segmentos em uma lista. Aceita os seguintes argumentos opcionais: </p> 
     <ul id="ul_B111AA0D6C18445598A1444B8B7E9325"> 
-     <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code> segmentId </code>: ID do segmento. Obsoleto. Usar <code> sid </code>. </li> 
-     <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code> csegid </code>: ID do segmento do cliente. Obsoleto. Usar <code> sid </code>. </li> 
+     <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code> segmentId </code>: ID do segmento. Obsoleto. Use <code> sid </code>. </li> 
+     <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code> csegid </code>: ID do segmento do cliente. Obsoleto. Use <code> sid </code>. </li> 
      <li id="li_D85F0A5D16AE4DAFB55C17DBB35EA66E"> <code> sid </code>: ID do segmento </li> 
      <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code> type </code>: Retorna <code> 5 </code>, um valor estático codificado que identifica dados como dados de segmento. </li> 
      <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code> alias </code>: Obsoleto. Não use. </li>

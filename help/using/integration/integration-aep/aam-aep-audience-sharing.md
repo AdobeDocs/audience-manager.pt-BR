@@ -5,39 +5,55 @@ title: Compartilhamento de segmentos da Experience Platform com a Audience Manag
 keywords: Compartilhamento de público do AEP, segmentos do AEP, segmentos da plataforma, compartilhamento de segmentos, compartilhamento de público, segmentos compartilhados, compartilhamento de segmentos do AAM AEP
 feature: Experience Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-TQID: https://experienceleague.adobe.com/v1qi5AqJOa77icdR-mc3YLPBqSm68R8IlFq2o2dHD-8
+TQID: 'https://experienceleague.adobe.com/v1qi5AqJOa77icdR-mc3YLPBqSm68R8IlFq2o2dHD-8'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
   - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
   - id: cefdb449-7764-4855-a54f-3901d8be873d
+    internal-label: Data Export Controls
+  - id: b1393389-a768-49db-9323-b2ef9e441796
+    internal-label: Experience Platform integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Customer profiles
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1799
-ht-degree: 1%
-
+source-wordcount: '2014'
+ht-degree: 2%
 ---
-
 # Compartilhamento de segmentos da Experience Platform com a Audience Manager e outras soluções da Experience Cloud
 
 ## Visão geral {#overview}
 
 A funcionalidade de compartilhamento de público-alvo entre o Audience Manager e o Adobe Experience Platform permite compartilhar suas características e segmentos do Audience Manager com a Adobe Experience Platform e segmentos do Experience Platform com a Audience Manager.
 
-Você precisa do [[!DNL Audience Manager source connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=pt-BR) e do destino [Experience Cloud Audiences](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html?lang=pt-BR) no Experience Platform para habilitar o compartilhamento de público-alvo entre o Audience Manager e o Adobe Experience Platform.
+Você precisa do [[!DNL Audience Manager source connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=pt-BR) e do [Destino dos Públicos-alvo da Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html?lang=pt-BR) no Experience Platform para habilitar o compartilhamento de público-alvo entre o Audience Manager e a Adobe Experience Platform.
 
 Você pode usar características e segmentos do Audience Manager no Experience Platform para adicionar dados do Audience Manager aos perfis de clientes e se beneficiar do [serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR) da Experience Platform.
 
@@ -70,7 +86,7 @@ As seções abaixo descrevem como ativar o compartilhamento de dados do Audience
 
 Para enviar segmentos e características do Audience Manager para o Experience Platform, você deve configurar o conector de origem do Audience Manager no catálogo de origens do Experience Platform. Este é um fluxo de trabalho de autoatendimento que não requer o envolvimento do Atendimento ao cliente da Adobe ou das equipes de engenharia. Para configurar o conector de origem do Audience Manager, leia:
 
-* [origem do Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=pt-BR)
+* [Origem do Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=pt-BR)
 * [Criar uma conexão de origem do Adobe Audience Manager na interface](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/audience-manager.html?lang=pt-BR)
 
 >[!IMPORTANT]
@@ -83,8 +99,8 @@ Para enviar segmentos e características do Audience Manager para o Experience P
 
 Depois de configurar o conector de origem do Audience Manager para importar características e segmentos do Audience Manager, seus dados do Audience Manager serão exibidos no Experience Platform como **Públicos-alvo** no fluxo de trabalho do segmento. Para obter mais informações sobre os segmentos e características do Audience Manager no Experience Platform, leia:
 
-* [Visão geral do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR#audiences)
-* [guia do usuário do Construtor de segmentos do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR#audiences)
+* [Visão geral do serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR#audiences)
+* [Guia do usuário do Construtor de segmentos do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR#audiences)
 
 ## Segmentos do Adobe Experience Platform no Audience Manager {#aep-segments-in-aam}
 
@@ -94,7 +110,7 @@ As seções abaixo descrevem como habilitar o compartilhamento de dados do Exper
 
 >[!IMPORTANT]
 >
-> Esta seção descreve a integração de compartilhamento de segmento herdado do Experience Platform com o Audience Manager. Agora é possível configurar essa integração sem o suporte dos representantes do cliente da Adobe. Para obter mais informações, leia a documentação de destino [Experience Cloud Audiences](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html?lang=pt-BR).
+> Esta seção descreve a integração de compartilhamento de segmento herdado do Experience Platform com o Audience Manager. Agora é possível configurar essa integração sem o suporte dos representantes do cliente da Adobe. Para obter mais informações, leia a documentação de destino [Públicos-alvo da Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html?lang=pt-BR).
 
 >[!NOTE]
 >

@@ -8,20 +8,23 @@ title: Índice de IDs no Audience Manager
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
 feature: Reference
 exl-id: 1caf3c6a-ebfd-49f1-9ebd-d4604474c070
-TQID: https://experienceleague.adobe.com/BQFP3cJDY5OO-LE9wmwjUGnacgh-JnceiQbBSpKjuZg
+TQID: 'https://experienceleague.adobe.com/BQFP3cJDY5OO-LE9wmwjUGnacgh-JnceiQbBSpKjuZg'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: 6a8f3a31-6f0b-5101-9878-fb698e568543
+    internal-label: Reference
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Reporting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1001
-ht-degree: 2%
-
+source-wordcount: '1068'
+ht-degree: 6%
 ---
-
 # Índice de IDs em [!DNL Audience Manager] {#index-of-ids-in-audience-manager}
 
 ## Visão geral {#overview}
@@ -58,7 +61,7 @@ As IDs de dispositivo globais são IDs de anúncio de dispositivo, exclusivas de
 
 | ID | [!DNL Global Data Source ID] | Nome e descrição | Exemplo |
 | --------------------- | ------ | ------------ | ---------------- |
-| [!DNL IDFA] | 20915 | [!DNL Identifier for Advertisers] IDs são identificadores de dispositivos móveis, fornecidos pelo fabricante do dispositivo. Essas IDs representam dispositivos que executam o sistema operacional [!DNL iOS]. | O formato consiste estritamente em 32 dígitos hexadecimais em maiúsculas, exibidos em cinco grupos e separados por hifens, na forma 8-4-4-4-12, para um total de 36 caracteres.<br> Exemplo: `AEBE52E7-03EE-455A-B3C4-E57283966239`. |
+| [!DNL IDFA] | 20915 | [!DNL Identifier for Advertisers] IDs são identificadores de dispositivos móveis, fornecidos pelo fabricante do dispositivo. Essas IDs representam dispositivos que executam o sistema operacional [!DNL iOS]. | O formato consiste estritamente em 32 dígitos hexadecimais maiúsculos, exibidos em cinco grupos e separados por hifens, no formato 8-4-4-4-12, para um total de 36 caracteres.<br> Exemplo: `AEBE52E7-03EE-455A-B3C4-E57283966239`. |
 | [!DNL GAID] | 20914 | [!DNL Google Advertising ID]s são identificadores de dispositivos móveis fornecidos pelos fabricantes de dispositivos Android. Essas IDs representam dispositivos que executam o sistema operacional [!DNL Android]. | O formato consiste estritamente em 32 dígitos hexadecimais minúsculos, exibidos em cinco grupos e separados por hifens, na forma 8-4-4-4-12, para um total de 36 caracteres. <br>Exemplo: `e4fe9bde-caa0-47b6-908d-ffba3fa184f2`. |
 | [!DNL RIDA] | 121963 | [!DNL Roku IDs for Advertising] representa [!DNL Roku] dispositivos de streaming. | O formato consiste estritamente em 32 dígitos hexadecimais minúsculos, exibidos em cinco grupos e separados por hifens, na forma 8-4-4-4-12, para um total de 36 caracteres. <br>Exemplo: `fcb2a29c-315a-5e6b-bcfd-d889ba19aada`. |
 | [!DNL MAID] | 389146 | [!DNL Microsoft Advertising ID]s são identificadores de dispositivos gerados por [!DNL Windows 10] para cada dispositivo e para cada usuário. | [!DNL MAID]s são formatados como cadeias de caracteres alfanuméricas. |

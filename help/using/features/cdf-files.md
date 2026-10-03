@@ -8,22 +8,30 @@ title: Feeds de dados de clientes
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 exl-id: 118c4225-3b57-4a02-ae05-2fcbf3e5d743
-TQID: https://experienceleague.adobe.com/9Nw-TM2ND4qO0BVssmGKTAoRAF-K4aNRZSL8Fnlcrgk
+TQID: 'https://experienceleague.adobe.com/9Nw-TM2ND4qO0BVssmGKTAoRAF-K4aNRZSL8Fnlcrgk'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: bee1a349-dc16-4b46-91d7-185f2df2b947
+    internal-label: Customer Data Feeds
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Data collection
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1988
+source-wordcount: '2023'
 ht-degree: 2%
-
 ---
-
 # [!UICONTROL Customer Data Feeds] {#customer-data-feeds}
 
 Informações básicas sobre [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) arquivos e instruções sobre como começar. Comece aqui se estiver interessado em receber [!UICONTROL CDF] arquivos ou quiser mais informações.
@@ -84,7 +92,7 @@ Um arquivo [!UICONTROL CDF] inclui alguns ou todos os campos definidos abaixo. P
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> Device</code> </p> </td> 
-   <td colname="col2"> <p>String   </p> </td> 
+   <td colname="col2"> <p>String </p> </td> 
    <td colname="col3"> <p>Esta é a Identificação de Usuário Exclusiva <span class="wintitle"> </span> (UUID), que é uma Identificação de dispositivo de 38 dígitos para o visitante do site. Consulte também <a href="../reference/ids-in-aam.md"> Índice de IDs no Audience Manager</a>. </p> </td> 
   </tr> 
   <tr> 
@@ -104,23 +112,23 @@ Um arquivo [!UICONTROL CDF] inclui alguns ou todos os campos definidos abaixo. P
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> Request Parameters</code> </p> </td> 
-   <td colname="col2"> <p>String   </p> </td> 
-   <td colname="col3"> <p>Uma string que captura todos os parâmetros (variáveis, IDs, pares de valores chave, IDs de publicidade do dispositivo etc.) transmitidos na chamada de evento. </p> <p>Exemplo abreviado: </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D585810,c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a.PrevSessionLength:583</code> </p> </td> 
+   <td colname="col2"> <p>String </p> </td> 
+   <td colname="col3"> <p>Uma string que captura todos os parâmetros (variáveis, IDs, pares de valores chave, IDs de publicidade do dispositivo etc.) transmitido na chamada de evento. </p> <p>Exemplo abreviado: </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D585810,c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a.PrevSessionLength:583</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> Referer Data Type</code> </p> </td> 
-   <td colname="col2"> <p>String   </p> </td> 
+   <td colname="col2"> <p>String </p> </td> 
    <td colname="col3"> <p>O URL não codificado da página de referência (se houver). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> IP Data Type</code> </p> </td> 
-   <td colname="col2"> <p>String   </p> </td> 
+   <td colname="col2"> <p>String </p> </td> 
    <td colname="col3"> <p>O endereço IP do visitante capturado na chamada de evento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> MCDevice </code> </p> </td> 
-   <td colname="col2"> <p>String   </p> </td> 
-   <td colname="col3"> <p>A MID (Experience Cloud<span class="keyword"> ID) do </span> atribuída ao visitante do site. Consulte também Cookies do <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=pt-BR" format="https" scope="external"> e o Serviço de identidade da Adobe Experience Platform</a>. </p> </td> 
+   <td colname="col2"> <p>String </p> </td> 
+   <td colname="col3"> <p>A Experience Cloud <span class="keyword"> ID (MID) atribuída ao visitante do site. </span>Consulte também Cookies do <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=pt-BR" format="https" scope="external"> e o Serviço de identidade da Adobe Experience Platform</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> All Segments</code> </p> </td> 
@@ -172,7 +180,7 @@ Lista e define a estrutura de dados de um arquivo [!UICONTROL CDF]. Isso inclui 
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">Parâmetros da solicitação </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Referenciador </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">Endereço IP </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">ID de dispositivo Experience Cloud (ou MID). Consulte também Cookies do <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=pt-BR" format="https" scope="external"> e o Serviço de identidade da Adobe Experience Platform</a> </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud Device ID (ou MID). Consulte também Cookies do <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=pt-BR" format="https" scope="external"> e o Serviço de identidade da Adobe Experience Platform</a> </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">Todos os segmentos </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">Todas as características </li> 
      </ol> </p> <p>Para obter descrições dos campos, consulte <a href="#cdf-defined"> Conteúdo do feed de dados do cliente definido</a>. </p> </td> 

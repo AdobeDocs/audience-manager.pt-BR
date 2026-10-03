@@ -7,16 +7,21 @@ title: Explicação do tempo de vida do segmento
 uuid: 5b2c6911-50b9-4b68-9dd4-21128d112eab
 feature: Traits
 exl-id: 2f019071-f829-4336-b2cf-26ec1f18fc91
-TQID: https://experienceleague.adobe.com/4jlNXlxKfeGbPv7AZ2CAxnIhNx81STAvyb0b-30FGuE
+TQID: 'https://experienceleague.adobe.com/4jlNXlxKfeGbPv7AZ2CAxnIhNx81STAvyb0b-30FGuE'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 378
+source-wordcount: '387'
 ht-degree: 0%
-
 ---
-
 # Explicação do tempo de vida útil do segmento e da característica {#segment-time-to-live-explained}
 
 Como o intervalo [!UICONTROL time-to-live] ([!DNL TTL]) da característica afeta a associação do segmento.
@@ -35,8 +40,8 @@ A Audience Manager calcula a expiração de [!DNL TTL] para características com
 
 `24 + (24 - Hour of the day the trait was realized, in UTC)`
 
-* **Exemplo 1**: uma característica realizada em 1:00 [!DNL UTC], com um 1 dia [!DNL TTL]. [!DNL TTL] expirará em 24 + 24 - 1 = 47 horas depois.
-* **Exemplo 2**: uma característica realizada em 23:00 [!DNL UTC], com um dia 1 [!DNL TTL]. [!DNL TTL] expirará em 24 + 24 - 23 = 25 horas depois.
+* **Exemplo 1**: uma característica realizada às 1:00 [!DNL UTC], com um dia 1 [!DNL TTL]. [!DNL TTL] expirará em 24 + 24 - 1 = 47 horas depois.
+* **Exemplo 2**: uma característica realizada às 23:00 [!DNL UTC], com um dia 1 [!DNL TTL]. [!DNL TTL] expirará em 24 + 24 - 23 = 25 horas depois.
 
 ## [!DNL TTL] e Retirando de um Segmento
 

@@ -1,5 +1,5 @@
 ---
-description: O Relatório de status onboard verifica as taxas de sucesso e falha para registros de processamento em seus arquivos internos de origem de dados. Este relatório exibe os dados em um gráfico de barras interativo e fornece métricas de resumo na forma de tabelas. E inclui uma opção que faz a amostragem de arquivos por um intervalo de tempo fixo e exibe os erros mais comuns para cada tipo de erro. Esse relatório pode ser encontrado em Analytics > Relatório de status onboard. Esse relatório também está disponível ao criar uma fonte de dados de entrada.
+description: O Relatório de status onboard verifica as taxas de sucesso e falha para registros de processamento em seus arquivos internos de origem de dados. Este relatório exibe os dados em um gráfico de barras interativo e fornece métricas de resumo na forma de tabelas. Além disso, ele inclui a opção de arquivos de amostra para um intervalo de tempo fixo e exibe os erros mais comuns para cada tipo de erro. Esse relatório pode ser encontrado em Analytics > Relatório de status onboard. Esse relatório também está disponível ao criar uma fonte de dados de entrada.
 seo-description: The Onboarding Status Report checks success and failure rates for processing records in your inbound data source files. This report displays data in an interactive bar chart and provides summary metrics in tabular form. And, it includes an option that samples files for a fixed time interval and displays the most common errors for each error type. You can find this report in Analytics > Onboarding Status Report. This report is also available when you create an inbound data source.
 seo-title: Onboarding Status Report
 solution: Audience Manager
@@ -7,28 +7,35 @@ title: Relatório de status onboard
 uuid: 6ca8a90a-436b-4fce-adf1-48f3b96b3ed2
 feature: Inbound and Outbound Reports
 exl-id: 4517276f-5025-4779-917f-4a0bb22ca56c
-TQID: https://experienceleague.adobe.com/rr4au-Xp8a3cj5tUTsRYkS8TFlHOV2IbkfZU4enk2e0
+TQID: 'https://experienceleague.adobe.com/rr4au-Xp8a3cj5tUTsRYkS8TFlHOV2IbkfZU4enk2e0'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: bacaf04d-fec1-4cf9-a97e-cb1b36e40b07
+    internal-label: Inbound and outbound reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Troubleshooting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1421
-ht-degree: 0%
-
+source-wordcount: '1429'
+ht-degree: 5%
 ---
-
 # Relatório de status onboard{#onboarding-status-report-about}
 
-O Relatório de status onboard verifica as taxas de sucesso e falha para registros de processamento em seus arquivos internos de origem de dados. Este relatório exibe os dados em um gráfico de barras interativo e fornece métricas de resumo na forma de tabelas. E inclui uma opção que faz a amostragem de arquivos por um intervalo de tempo fixo e exibe os erros mais comuns para cada tipo de erro. Esse relatório pode ser encontrado em Analytics > Relatório de status onboard. Esse relatório também está disponível ao criar uma fonte de dados de entrada.
+O Relatório de status onboard verifica as taxas de sucesso e falha para registros de processamento em seus arquivos internos de origem de dados. Este relatório exibe os dados em um gráfico de barras interativo e fornece métricas de resumo na forma de tabelas. Além disso, ele inclui a opção de arquivos de amostra para um intervalo de tempo fixo e exibe os erros mais comuns para cada tipo de erro. Esse relatório pode ser encontrado em Analytics > Relatório de status onboard. Esse relatório também está disponível ao criar uma fonte de dados de entrada.
 
 >[!NOTE]
 >
@@ -36,7 +43,7 @@ O Relatório de status onboard verifica as taxas de sucesso e falha para registr
 
 ## Relatório de status onboard: sobre {#onboarding-status-about}
 
-O [!UICONTROL Onboarding Status Report] verifica as taxas de sucesso e falha para registros de processamento em seus arquivos de fonte de dados de entrada. Este relatório exibe os dados em um gráfico de barras interativo e fornece métricas de resumo na forma de tabelas. E inclui uma opção que faz a amostragem de arquivos por um intervalo de tempo fixo e exibe os erros mais comuns para cada tipo de erro. Você pode encontrar este relatório em **[!UICONTROL Analytics > Onboarding Status Report]**. Esse relatório também está disponível ao criar uma fonte de dados de entrada.
+O [!UICONTROL Onboarding Status Report] verifica as taxas de sucesso e falha para registros de processamento em seus arquivos de fonte de dados de entrada. Este relatório exibe os dados em um gráfico de barras interativo e fornece métricas de resumo na forma de tabelas. Além disso, ele inclui a opção de arquivos de amostra para um intervalo de tempo fixo e exibe os erros mais comuns para cada tipo de erro. Você pode encontrar este relatório em **[!UICONTROL Analytics > Onboarding Status Report]**. Esse relatório também está disponível ao criar uma fonte de dados de entrada.
 
 ## Relatório de Erros e Amostragem de Erros {#error-reporting-sampling}
 
@@ -144,7 +151,7 @@ Um guia de referência para os rótulos e termos usados neste relatório.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>AAM ID inválida</b> </p> </td> 
-   <td colname="col2"> <p>Lista o número de UUIDs (IDs de usuário) do Audience Manager<span class="keyword"> formatadas incorretamente. </span> Normalmente, isso indica as IDs: </p> 
+   <td colname="col2"> <p>Lista o número de UUIDs (IDs de usuário) do Audience Manager</span> formatadas incorretamente. <span class="keyword">Normalmente, isso indica as IDs: </p> 
     <ul id="ul_8304250E8F0F44918A50CF9D8D8D1F83"> 
      <li id="li_B100B4C2623B4E099E022869A4978357">Não correspondeu ao formato de 38 dígitos esperado. </li> 
      <li id="li_44E8A9AD13174A20A5742E56ED786634">Contêm caracteres alfabéticos. As IDs devem ser somente números. </li> 

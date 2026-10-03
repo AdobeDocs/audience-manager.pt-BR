@@ -8,18 +8,21 @@ title: Sinais, características e segmentos
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
 feature: Reference
 exl-id: ec33f2c3-1589-4c02-a85a-db0d72467f32
-TQID: https://experienceleague.adobe.com/brgTl8YZ3RYaFcWdImO1i3Jsxulp6-HYbiN45B7un-4
+TQID: 'https://experienceleague.adobe.com/brgTl8YZ3RYaFcWdImO1i3Jsxulp6-HYbiN45B7un-4'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: 6a8f3a31-6f0b-5101-9878-fb698e568543
+    internal-label: Reference
 topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience segmentation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 393
-ht-degree: 21%
-
+source-wordcount: '397'
+ht-degree: 20%
 ---
-
 # [!UICONTROL Signals], [!UICONTROL Traits] e [!UICONTROL Segments] {#signals-traits-and-segments}
 
 Descreve os componentes de um [!DNL Audience Manager] [!UICONTROL segment], as expressões usadas para definir critérios de qualificação de público e como os dados são transmitidos em uma chamada de evento.

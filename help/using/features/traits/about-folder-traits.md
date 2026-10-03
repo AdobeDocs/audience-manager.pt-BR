@@ -8,26 +8,36 @@ title: Características de pasta sobre
 uuid: e561ce8f-6c90-44a7-b034-685533f29030
 feature: Traits
 exl-id: 779d1ab3-3a69-4975-b45a-acd95ab86a37
-TQID: https://experienceleague.adobe.com/fFfEE048TORlBUDrVYjizvI31iBfJeNsBl99uZJNefA
+TQID: 'https://experienceleague.adobe.com/fFfEE048TORlBUDrVYjizvI31iBfJeNsBl99uZJNefA'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Administration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 533
+source-wordcount: '535'
 ht-degree: 0%
-
 ---
-
 # Características da pasta: sobre {#folder-traits-about}
 
 O [!UICONTROL Folder traits] permite que você agregue características automaticamente que residem na mesma pasta e todas as pastas derivadas em um segmento direcionável.
@@ -42,7 +52,7 @@ Um [!UICONTROL folder trait] contém todas as características em uma pasta pai 
 
         `*` Marcas (neto)
 
-[!UICONTROL Folder traits] qualifique todos os usuários nessas pastas em um [!DNL Electronics] do [!UICONTROL Folder Trait] criado automaticamente (com base no nome da pasta pai). E esse processo se repete à medida que você desce pela estrutura do arquivo. Nesse caso, as características da pasta capturam todos os usuários nas pastas de Notebooks e Marcas em um [!UICONTROL Folder Trait] de Notebooks criado automaticamente.
+[!UICONTROL Folder traits] qualifique todos os usuários nessas pastas em um [!UICONTROL Folder Trait] do [!DNL Electronics] criado automaticamente (com base no nome da pasta pai). E esse processo se repete à medida que você desce pela estrutura do arquivo. Nesse caso, as características da pasta capturam todos os usuários nas pastas de Notebooks e Marcas em um [!UICONTROL Folder Trait] de Notebooks criado automaticamente.
 
 [!UICONTROL Folder traits] são selecionáveis em expressões de segmento. Selecionar um [!UICONTROL folder trait] é equivalente a selecionar todas as características dentro dessa pasta e suas subpastas com um agrupamento [!UICONTROL OR].
 

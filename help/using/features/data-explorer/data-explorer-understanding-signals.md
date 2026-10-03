@@ -6,20 +6,26 @@ title: Compreensão de sinais
 uuid: 04a0554e-954e-484a-8838-9161ef416872
 feature: Data Explorer
 exl-id: 12ab53e5-302b-4a82-9d8e-07b60139c65e
-TQID: https://experienceleague.adobe.com/KA-oQWZi6lAXcKN5DY5-sYRYjSmR1AWkOVJkq4w8voo
+TQID: 'https://experienceleague.adobe.com/KA-oQWZi6lAXcKN5DY5-sYRYjSmR1AWkOVJkq4w8voo'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+subfeature_v2:
+  - id: a2c6d65b-635d-4454-a9cc-9771ed501bb4
+    internal-label: Data Explorer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: '379'
 ht-degree: 1%
-
 ---
-
 # Compreensão de sinais
 
 Os sinais são a menor unidade de informação no Audience Manager. Eles representam interações de usuário ou atividade do usuário em suas propriedades online e são transmitidos para o Audience Manager para serem usados em regras de características.
@@ -32,14 +38,14 @@ O [Painel de Sinais](../../features/data-explorer/data-explorer-signals-dashboar
 
 * *Par de valor-chave* mostra o par de valor-chave do sinal recebido por [!DNL Audience Manager].
 * *Tipo de sinal* descreve a categoria de cada sinal. Os sinais se encaixam em uma das seguintes categorias:
-   * [Arquivos de log acionáveis](/help/using/integration/media-data-integration/actionable-log-files.md): sinais em tempo real recebidos de seus arquivos de log de desempenho de mídia;
-   * [!DNL Adobe Analytics]: sinais em tempo real recebidos de sua conta [!DNL Adobe Analytics];
-   * Dados gerais online: dados em tempo real gerados pela sua atividade de público-alvo e não incluídos em arquivos de log acionáveis e [!DNL Adobe Analytics];
-   * On-board records: dados recebidos por meio de transferências de dados em lote.
+  * [Arquivos de log acionáveis](/help/using/integration/media-data-integration/actionable-log-files.md): sinais em tempo real recebidos de seus arquivos de log de desempenho de mídia;
+  * [!DNL Adobe Analytics]: sinais em tempo real recebidos de sua conta [!DNL Adobe Analytics];
+  * Dados gerais online: dados em tempo real gerados pela sua atividade de público-alvo e não incluídos em arquivos de log acionáveis e [!DNL Adobe Analytics];
+  * On-board records: dados recebidos por meio de transferências de dados em lote.
 * *O Signal Source* depende do tipo de sinal:
-   * Para sinais integrados, a fonte de sinal é o nome da fonte de dados.
-   * Para sinais originados de [!DNL Adobe Analytics], a fonte de dados sempre será um conjunto de relatórios.
-   * Para arquivos de registro acionáveis e dados gerais on-line, nenhuma informação de origem do sinal é exibida.
+  * Para sinais integrados, a fonte de sinal é o nome da fonte de dados.
+  * Para sinais originados de [!DNL Adobe Analytics], a fonte de dados sempre será um conjunto de relatórios.
+  * Para arquivos de registro acionáveis e dados gerais on-line, nenhuma informação de origem do sinal é exibida.
 * *Contagens Totais* mostra o número total de vezes que um sinal em tempo real foi recebido por [!DNL Audience Manager] nos últimos 7 dias.
 * *Incluído nas Características* mostra se o sinal faz parte de alguma característica. Clique na seta para ver as características que incluem o sinal correspondente. Para sinais que não fazem parte de nenhuma característica, o valor da coluna muda para [!UICONTROL Create Onboarded Trait] ou [!UICONTROL Create Rule-Based Trait].
 

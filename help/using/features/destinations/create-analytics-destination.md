@@ -6,24 +6,32 @@ solution: Audience Manager
 title: Configurar um destino do Analytics
 feature: Adobe Analytics Integration
 exl-id: f3ead057-04d1-40cd-8e3d-d0934d85cdb4
-TQID: https://experienceleague.adobe.com/Fm25UT69AXSh-cXo6MXGQwW-17LFy8dqs3-STiWKDeA
+TQID: 'https://experienceleague.adobe.com/Fm25UT69AXSh-cXo6MXGQwW-17LFy8dqs3-STiWKDeA'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
 subfeature_v2:
   - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: e5dfa5ae-9082-4711-a658-d981a49c8dea
+    internal-label: Analytics integration
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Administration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 866
+source-wordcount: '925'
 ht-degree: 4%
-
 ---
-
 # Configurar um destino do Analytics
 
 ## Requisitos {#requirements}
@@ -35,7 +43,7 @@ Para obter mais informações, consulte Pré-requisitos em [Audience Analytics](
 
 | Tipo de destino do Analytics | Descrição |
 |---|---|
-| Padrão | O nome desse destino padrão é &quot;Adobe Analytics&quot;, que pode ser editado. As IDs do conjunto de relatórios mapeadas aparecem no armazenamento de pastas para suas características e segmentos do Audience Manager. <br>  O Audience Manager cria um destino automaticamente se sua conta tiver: <br>  <ul><li>Atenda aos requisitos descritos na documentação do [Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=pt-BR).</li><li>Um [conjunto de relatórios](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=pt-BR) no Analytics.</li></ul> |
+| Padrão | O nome desse destino padrão é &quot;Adobe Analytics&quot;, que pode ser editado. As IDs do conjunto de relatórios mapeadas aparecem no armazenamento de pastas para suas características e segmentos do Audience Manager. <br> O Audience Manager cria um destino automaticamente se sua conta tiver: <br>  <ul><li>Atenda aos requisitos descritos na documentação do [Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=pt-BR).</li><li>Um [conjunto de relatórios](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=pt-BR) no Analytics.</li></ul> |
 | Novo | Para criar novos destinos do Analytics, acesse Dados de público-alvo > Destinos > Criar novo destino e siga as etapas para cada seção descrita abaixo. |
 
 ## Qualificações de segmento do Audience Manager no Adobe Analytics {#segment-qualifications}
@@ -93,8 +101,8 @@ Esta seção fornece opções que permitem mapear segmentos automática ou manua
 
 | Opção de mapeamento | Descrição |
 |---|---|
-| Mapear automaticamente todos os segmentos atuais e futuros | Selecionado por padrão, esse recurso envia todos os segmentos para os quais um visitante se qualifica, por ocorrência, para o Analytics. <br>  Se um visitante pertencer a mais de 150 segmentos do Audience Manager em uma única ocorrência, somente os 150 segmentos qualificados mais recentemente serão enviados para o Analytics, enquanto a lista restante será truncada. Um sinalizador adicional é enviado ao Analytics, para avisar que a lista de segmentos está truncada. Essa ação é exibida como &quot;Limite de público-alvo atingido&quot; na dimensão Nome de público-alvo e &quot;1&quot; na dimensão ID de público-alvo. Consulte as [Perguntas frequentes](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=pt-BR) para obter detalhes. <br>  Além disso, essa opção afeta a disponibilidade do destino no [Construtor de segmentos](/help/using/features/segments/segment-builder.md). Por exemplo, se um segmento for mapeado automaticamente para um destino do Analytics, esse destino não estará disponível para seleção na seção [mapeamentos de destino](/help/using/features/segments/segment-builder.md#segment-builder-controls-destinations) do Construtor de segmentos. O destino do Analytics aparece esmaecido e mostra &quot;Analytics&quot; na coluna Tipo do navegador de destino. |
-| Mapear segmentos manualmente | Essa opção expõe os controles de pesquisa e navegação que permitem escolher quais segmentos você deseja enviar para o Analytics. <br>  Para procurar um segmento: <br>  <ol><li>Digite o nome ou ID do segmento no campo de pesquisa.</li><li>Clique em <b>Adicionar.</b></li><li>Continue a pesquisar e adicionar segmentos ou clique em <b>Concluído</b>.</li></ol><br>  Para procurar um segmento: <ol><li>Clique em <b>Procurar todos os segmentos</b>. Isso expõe uma lista de segmentos disponíveis.</li><li>Na lista, marque a caixa de seleção do segmento que deseja usar e clique em <b>Adicionar segmentos selecionados</b>.</li><li>Clique em <b>Salvar</b> na janela Adicionar Mapeamentos. Você não pode alterar os mapeamentos, as datas de início ou de término durante a versão beta.</li><li>Continue a procurar e adicionar segmentos ou clique em <b>Concluído</b>.</li></ol> ![mapsegments](assets/mapSegments.png) |
+| Mapear automaticamente todos os segmentos atuais e futuros | Selecionado por padrão, esse recurso envia todos os segmentos para os quais um visitante se qualifica, por ocorrência, para o Analytics. <br> Se um visitante pertencer a mais de 150 segmentos do Audience Manager em uma única ocorrência, somente os 150 segmentos qualificados mais recentemente serão enviados para o Analytics, enquanto a lista restante será truncada. Um sinalizador adicional é enviado ao Analytics, para avisar que a lista de segmentos está truncada. Essa ação é exibida como &quot;Limite de público-alvo atingido&quot; na dimensão Nome de público-alvo e &quot;1&quot; na dimensão ID de público-alvo. Consulte as [Perguntas frequentes](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=pt-BR) para obter detalhes. <br> Além disso, essa opção afeta a disponibilidade de destino no [Construtor de segmentos](/help/using/features/segments/segment-builder.md). Por exemplo, se um segmento for mapeado automaticamente para um destino do Analytics, esse destino não estará disponível para seleção na seção [mapeamentos de destino](/help/using/features/segments/segment-builder.md#segment-builder-controls-destinations) do Construtor de segmentos. O destino do Analytics aparece esmaecido e mostra &quot;Analytics&quot; na coluna Tipo do navegador de destino. |
+| Mapear segmentos manualmente | Essa opção expõe os controles de pesquisa e navegação que permitem escolher quais segmentos você deseja enviar para o Analytics. <br> Para procurar um segmento: <br>  <ol><li>Digite o nome ou ID do segmento no campo de pesquisa.</li><li>Clique em <b>Adicionar.</b></li><li>Continue a pesquisar e adicionar segmentos ou clique em <b>Concluído</b>.</li></ol><br> Para procurar um segmento: <ol><li>Clique em <b>Procurar todos os segmentos</b>. Isso expõe uma lista de segmentos disponíveis.</li><li>Na lista, marque a caixa de seleção do segmento que deseja usar e clique em <b>Adicionar segmentos selecionados</b>.</li><li>Clique em <b>Salvar</b> na janela Adicionar Mapeamentos. Você não pode alterar os mapeamentos, as datas de início ou de término durante a versão beta.</li><li>Continue a procurar e adicionar segmentos ou clique em <b>Concluído</b>.</li></ol> ![mapsegments](assets/mapSegments.png) |
 
 ## Próximas etapas
 
