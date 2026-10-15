@@ -10,22 +10,24 @@ exl-id: fd23d5e2-b74e-47ff-a4aa-3a4b2c7d39c5
 TQID: https://experienceleague.adobe.com/lXTSMwju5lxRhrz0VpOlxbHLa2POAQHGOIzzP3j980s
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
 subfeature_v2:
   - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+    internal-label: Data Collection Server
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 296
+source-wordcount: '310'
 ht-degree: 0%
-
 ---
-
 # DCS APIs para transferências de dados de servidor para servidor{#dcs-apis-for-server-to-server-data-transfers}
 
-Os [!UICONTROL S2S]s servidor para servidor ([!DNL API]) fornecem código e métodos que permitem enviar e receber dados de usuário do [!DNL DCS] e trabalhar com essas informações em seus próprios sistemas ou aplicativos.
+Os [!DNL API]s servidor para servidor ([!UICONTROL S2S]) fornecem código e métodos que permitem enviar e receber dados de usuário do [!DNL DCS] e trabalhar com essas informações em seus próprios sistemas ou aplicativos.
 
 ## Casos de uso comuns {#common-use-cases}
 
