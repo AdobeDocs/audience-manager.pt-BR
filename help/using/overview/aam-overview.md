@@ -61,7 +61,7 @@ Ativa segmentos de público-alvo enviando-os para plataformas do lado da demanda
 Consulte os seguintes recursos para obter mais informações:
 
 * [Visão geral do Audience Manager](https://www.adobe.com/br/analytics/audience-manager.html)
-* [Vantagens do Audience Manager](https://www.adobe.com/analytics/audience-manager/benefits.html)
+* [Vantagens do Audience Manager](https://www.adobe.com/br/analytics/audience-manager/benefits.html)
 * [Recursos do Audience Manager](https://www.adobe.com/br/analytics/audience-manager/features.html)
 
 
