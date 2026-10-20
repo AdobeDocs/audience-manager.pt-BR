@@ -157,12 +157,12 @@ E retorna:
 
 
 ```javascript
-var uriData = DIL.tools.decomposeURI('https://www.adobe.com/?arg1=123&arg2=456#am'); 
+var uriData = DIL.tools.decomposeURI('https://www.adobe.com/br/?arg1=123&arg2=456#am'); 
 { 
   hash : "#am", 
   host : "www.adobe.com", 
   hostname : "www.adobe.com", 
-  href : "https://www.adobe.com/?arg1=123&arg2=456#am", 
+  href : "https://www.adobe.com/br/?arg1=123&arg2=456#am", 
   pathname : "", 
   protocol : "https:", 
   search : "?arg1=123&arg2=456", 

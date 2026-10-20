@@ -52,7 +52,7 @@ Todos os valores de solicitação são obrigatórios, salvo indicação contrár
 {
    "sid":87723,
    "traitType":"SEGMENT",
-   "url":"https://adobe.com",
+   "url":"https://adobe.com/br",
    "startDate":"2012-07-04"
 }
 ```
@@ -76,7 +76,7 @@ Todos os valores de solicitação são obrigatórios, salvo indicação contrár
    "startDate":"2012-07-03",
    "endDate":null,
    "priority":null,
-   "url":"https://adobe.com",
+   "url":"https://adobe.com/br",
    "secureUrl":null,
    "tagCode":null,
    "secureTagCode":null,
@@ -342,7 +342,7 @@ Todos os valores de solicitação são obrigatórios, salvo indicação contrár
 {
    "sid": 105123,
    "traitType":"SEGMENT",
-   "url":"https://adobe.com",
+   "url":"https://adobe.com/br",
    "startDate":"2012-11-20"
 },
 {
@@ -376,7 +376,7 @@ Uma resposta bem-sucedida retorna a matriz de mapeamentos criados.
         "startDate": "2012-11-19",
         "endDate": null,
         "priority": null,
-        "url": "https://adobe.com",
+        "url": "https://adobe.com/br",
         "secureUrl": null,
         "tagCode": null,
         "secureTagCode": null,
@@ -426,7 +426,7 @@ Criar vários mapeamentos de destino em uma matriz. Todos os valores de solicita
 {
    "sid": 105123,
    "traitType":"SEGMENT",
-   "url":"https://adobe.com",
+   "url":"https://adobe.com/br",
    "startDate":"2012-11-20"
 },
 {
@@ -460,7 +460,7 @@ Retorna uma matriz de mapeamentos criados.
         "startDate": "2012-11-19",
         "endDate": null,
         "priority": null,
-        "url": "https://adobe.com",
+        "url": "https://adobe.com/br",
         "secureUrl": null,
         "tagCode": null,
         "secureTagCode": null,
@@ -559,7 +559,7 @@ Todos os valores de solicitação são obrigatórios, salvo indicação contrár
 {
    "sid": 105123,
    "traitType":"SEGMENT",
-   "url":"https://adobe.com",
+   "url":"https://adobe.com/br",
    "startDate":"2012-11-20"
 }
 ```
